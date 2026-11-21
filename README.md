@@ -37,6 +37,7 @@
 | 029 | [青白造境：风格作品与现实应用研究](projects/029-blue-white-relief/README.md) | [Zidan子丹原帖](https://x.com/liluocheng13/status/2121285407824572635) · 自主图像、视频与网页交付实践 | 从青花山水参考出发，研究瓷质体积、色彩、通路与留白怎样沉淀为作品和交付方法。三题材静帧、五段AI原片、两段校正短片、概念展示页与可编辑模板，验证了样本制作、局部修正和网页复用。价值在作品资产、可追溯经验与交付工具；真实商品、地方或故事的保真和商业效果仍待验证。 | [已有理解引导图](#blue-white-relief-guide) | [在线研究、效果与模板](https://yydshly.github.io/20261104_codex_project/029-blue-white-relief/) |
 | 030 | [从户型到可漫游空间：AI装修生成研究](projects/030-warm-home-space/README.md) | [everestchris6原帖](https://x.com/everestchris6/status/2120175941616128277) · [Three.js](https://github.com/mrdoob/three.js) · [InteriorAgent架构参考](https://interioragent.github.io/docs/) | 从原木风参考图做出可从入户走到阳台的3D小家，研究户型输入、标准素材库、空间规则、模型设计与渲染验收的组合。保留实际效果、已有引导图、8轮操作与41次昼夜切换记录，沉淀资产、代码与恢复经验；跨户型自动适配、人工省时与商业收益仍待验证。 | [已有补充版引导图](#warm-home-space-guide) | [在线研究与3D体验](https://yydshly.github.io/20261104_codex_project/030-warm-home-space/) |
 | 031 | [海景、人物与可复用场景研究](projects/031-ocean-light-atlas/README.md) | [PEBIT海面参考](https://x.com/_pebit_/status/2121174301319831916) · [Three.js](https://github.com/mrdoob/three.js) · [Rocketbox](https://github.com/microsoft/Microsoft-Rocketbox) | 从20项海面视觉参考与80份扩展方案出发，以实拍对照理解光照、海况、观看角度与镜头处理，再用海边玻璃屋验证可进入、可停留的观海体验。海面碎光、近岸浪、水光、0597自主走动坐起与环境声已形成4.3基线，另保留成品角色、旧版换装及静态候选。价值在效果依据、场景模块、人物适配流程和可回看版本；自然度、跨角色通用性与产品需求仍待验证。 | [已有研究引导图](#ocean-light-atlas-guide) | [在线研究与四类人物效果](https://yydshly.github.io/20261104_codex_project/031-ocean-light-atlas/) |
+| 032 | [同一空间的美术风格转场](projects/032-spatial-style-transition/README.md) | [Bihe Xi 原帖](https://x.com/xbh_artist/status/2122661449554428020) | 用四帧说明如何在同一段运镜中，点击触发不同光线、色彩与材质的空间版本切换。 | [四帧引导图](#spatial-style-transition-guide) | — |
 
 项目按收录顺序从 `001` 开始编号。新条目按编号追加，已分配的编号保持固定。索引摘要用一两句话写清研究对象和关注点。完成验证后，可补上一条主要发现。
 
@@ -490,3 +491,13 @@ Adam Chernick 个人制作、扩展和组合的网页 3D 实验，部分基于 T
 引导图原样使用此前已生成图，属于研究总结示意；实际效果、来源、复用步骤与限制在网页分别列明。4.3固定资源保持字节一致。
 
 [研究与一图理解](https://yydshly.github.io/20261104_codex_project/031-ocean-light-atlas/) · [实际录屏](https://yydshly.github.io/20261104_codex_project/031-ocean-light-atlas/#effects) · [四类人物](https://yydshly.github.io/20261104_codex_project/031-ocean-light-atlas/#characters) · [怎么复用](https://yydshly.github.io/20261104_codex_project/031-ocean-light-atlas/#research) · [完整摘要与源码](projects/031-ocean-light-atlas/README.md)
+
+<a id="spatial-style-transition-guide"></a>
+
+### 032 · 同一空间的美术风格转场
+
+以秋入冬为例，镜头沿同一过道推进，观众点击书架旁的地板，涟漪扫过的区域切换为另一套室内美术风格。连续运镜保留空间方向感，交互让观众选择转场起点。
+
+![四帧概念分镜。秋日风格、点击触发、书架出现两种风格、冬日风格。](projects/032-spatial-style-transition/assets/style-transition-storyboard.png)
+
+[查看转场说明](projects/032-spatial-style-transition/README.md)
