@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#eeeadf"><title>栖居 · 走进原木小家</title>
+  <link rel="icon" href="data:,"><link rel="stylesheet" href="style.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js","three/addons/":"./vendor/addons/"}}</script>
+<meta name="description" content="参考图驱动的单套3D装修原型，可从入户门经玄关与客厅走到阳台，操作门、电视和昼夜；尚未接入户型自动生成。">
+</head>
+<body>
+  <main id="experience" aria-label="可自由行走的三维客餐厅">
+    <canvas id="scene" tabindex="0" aria-label="三维室内空间。拖动环顾，WASD 或方向键移动，点击地面走过去。"></canvas>
+    <header class="topbar">
+      <div class="identity"><span class="wordmark">栖居<span class="wordmark-dot">.</span></span><span class="identity-line"></span><div><h1>原木小家</h1><p>把日子，过得柔软一些</p></div></div>
+      <nav class="tools" aria-label="场景工具"><a class="research-return" href="../" style="font-size:11px;padding:10px;color:inherit;white-space:nowrap">研究说明 ↗</a><button id="referenceBtn">对照效果图</button><button id="lightBtn" aria-pressed="false">切换傍晚</button><button id="saveViewBtn">保存视角</button><button id="fullscreenBtn" title="全屏体验">全屏</button></nav>
+    </header>
+    <div class="scene-info"><span class="live-dot"></span><span id="location">门外 · 入户前</span><span class="small-label">自由漫游</span></div>
+    <aside class="entry-panel" aria-label="完整入户体验"><div class="entry-heading"><strong>从门外，走进家</strong><span id="doorState" role="status">门已关闭</span></div><p id="entryProgress">门外 → 玄关 → 客厅</p><button id="enterHomeBtn" class="entry-primary">开门并走进客厅</button><div class="entry-actions"><button id="doorBtn" aria-expanded="false">开入户门</button><button id="outsideBtn">回到门外</button></div><small>也可点击门或按 E 开关 · WASD 自己走</small></aside>
+    <aside class="map-panel" aria-label="当前位置"><div class="map-heading"><span>你在这里</span><button id="mapToggle" aria-expanded="true" title="收起平面图">−</button></div><canvas id="minimap" width="264" height="400" aria-label="入户路线示意图，圆点表示你的位置"></canvas><span class="map-caption">玄关 · 客餐厅 · 阳台</span></aside>
+    <div class="hint" id="hint" role="status">从门外开始，点击入户门开门；也可一键走进客厅</div>
+    <div class="nav-dock" aria-label="快捷体验视角"><div class="dock-title">去看看</div><div class="views"><button data-view="entry"><span>01</span>客厅全景</button><button data-view="living"><span>02</span>沙发区</button><button data-view="dining"><span>03</span>餐桌旁</button><button data-view="balcony"><span>04</span>走到阳台</button><button data-view="reverse"><span>05</span>回看入口</button><button data-view="foyer"><span>06</span>玄关与门</button></div><button class="sit-button" id="sitBtn" aria-pressed="false">坐下看看</button></div>
+    <div class="controls-note"><span>拖动环顾</span><i>·</i><span>W A S D 移动</span><i>·</i><span>点击地面行走</span></div>
+    <aside class="movement-panel" aria-label="直接操作空间"><div class="movement-title"><strong>移动与转向</strong><button id="levelViewBtn">回正</button></div><div class="touch-pad" aria-label="移动方向"><button data-move="turnleft" aria-label="向左转">左转</button><button data-move="forward" aria-label="向前走">前进</button><button data-move="turnright" aria-label="向右转">右转</button><button data-move="left" aria-label="向左平移">左移</button><button data-move="back" aria-label="向后走">后退</button><button data-move="right" aria-label="向右平移">右移</button></div><p id="controlState" role="status">可直接操作 · 按住按钮行走</p><span class="movement-tip">拖动画面环顾四周</span></aside>
+    <div id="welcome" class="welcome closed" aria-hidden="true"><div class="welcome-content"><p class="eyebrow">A HOME TO SLOW DOWN IN</p><h2>欢迎回家。</h2><p>走到窗边，坐到沙发上。<br>从自己的视角，感受这个空间。</p><button id="startBtn">走进去看看 <span aria-hidden="true">→</span></button><div class="welcome-note">鼠标拖动环顾 · 点击地面行走</div></div><div class="welcome-meta">效果图场景重建 · 示意户型</div></div>
+    <div class="loading" id="loading"><span></span><p>正在把小家布置好…</p></div>
+    <div id="failure" hidden role="alert"><h2>三维画面暂时无法启动</h2><p>请使用支持 WebGL 的浏览器，并开启硬件加速。</p><button onclick="location.reload()">重新打开</button></div>
+    <div id="graphicsRecovery" hidden role="status" aria-live="polite"><div><h2>正在恢复画面…</h2><p id="graphicsMessage">会保留你的位置和视角，请稍候。</p><button id="retryGraphics" hidden>恢复当前视角</button></div></div>
+  </main>
+  <dialog id="referenceDialog"><div class="dialog-top"><div><h2>最初的效果图</h2><p>三维空间参照这张图搭建，可从不同位置观察。</p></div><button id="closeReference">关闭</button></div><img src="assets/reference.png" alt="原木风客餐厅效果图：左侧布艺沙发、右侧电视柜、窗边扶手椅与圆形餐桌"><p class="dialog-note">效果图是视觉参考；漫游版为重新建模，家具细节与光照会有差异。</p></dialog>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

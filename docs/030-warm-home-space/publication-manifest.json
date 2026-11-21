@@ -1,0 +1,816 @@
+{
+  "published": "2026-11-21",
+  "slug": "030-warm-home-space",
+  "scope": "Research understanding, one reference-image-based walkthrough, existing guide and historical acceptance. Cross-floorplan automatic generation and business benefits are unverified.",
+  "guide": {
+    "path": "media/ai-interior-workflow-v2.png",
+    "sourceSha256": "c4409f7279cc5b5a1dae142a1781062cafbd8545cd8808e6346ea5cae0da49af",
+    "publishedSha256": "c4409f7279cc5b5a1dae142a1781062cafbd8545cd8808e6346ea5cae0da49af",
+    "unchanged": true
+  },
+  "runtimeModules": [
+    "app.js",
+    "balcony-life.js",
+    "canopy-vegetation.js",
+    "courtyard-layout.js",
+    "courtyard-scene.js",
+    "door-motion.js",
+    "entrance.js",
+    "furniture-assets.js",
+    "garden-details.js",
+    "garden-layout.js",
+    "object-details.js",
+    "outdoor-materials.js",
+    "realism.js",
+    "reflection-refresh.js",
+    "render-recovery.js",
+    "residential-buildings.js",
+    "screen-reflection.js",
+    "shader-warmup.js",
+    "soft-furnishings.js",
+    "surface-finishes.js",
+    "upholstery.js"
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 84,
+      "sha256": "20f3498ddef1c774323a0e7238fc9567923e04ffd989613f2020ef890d0053c9"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9187,
+      "sha256": "6bd7f786110404e84187cde7a708544543529b873a69c4b3407429ff70dcda6e"
+    },
+    {
+      "path": "demo/app.js",
+      "bytes": 50990,
+      "sha256": "3e8bd040d8b33eb66a970209dfdc6e788fb98c134d7f0dea663f04edf56ed3eb"
+    },
+    {
+      "path": "demo/assets/floor-color.jpg",
+      "bytes": 228279,
+      "sha256": "d758be23e8fe7bfbd73bc4ab257cfd59406e1835f6557c12a67cd4fdb15de0d8"
+    },
+    {
+      "path": "demo/assets/floor-normal.jpg",
+      "bytes": 157419,
+      "sha256": "5e570e57d688b016b217b9e8e0592f9a8b3364406e22bf6cd775da990452bdb6"
+    },
+    {
+      "path": "demo/assets/floor-roughness.jpg",
+      "bytes": 186804,
+      "sha256": "ef640502cec94bd2b6500e252891a778a7a721be16b5536d4efc9fe4d99b12aa"
+    },
+    {
+      "path": "demo/assets/oak-normal.jpg",
+      "bytes": 51927,
+      "sha256": "9bf7ddf5721e225c20290f1772ae37f9bdfd49658f6d458259eb794e2149d3cf"
+    },
+    {
+      "path": "demo/assets/oak.jpg",
+      "bytes": 924532,
+      "sha256": "63ae5cd186197b40f18bc020fe2b652bb08df4d9fc6240c6cbf8a7e3bc32c096"
+    },
+    {
+      "path": "demo/assets/reference.png",
+      "bytes": 2405879,
+      "sha256": "717380bef1c92a4a5fc7aaeaf93faeeaea93053a28658e65281e883d12669557"
+    },
+    {
+      "path": "demo/assets/v11/EZ-Tree-LICENSE.txt",
+      "bytes": 1073,
+      "sha256": "20e4afadfb10c67952b3d73cd2982d21d165ab4ae82b0dd9e4d6f2166ee349b6"
+    },
+    {
+      "path": "demo/assets/v11/ash_leaves.png",
+      "bytes": 181423,
+      "sha256": "5ec987db3829a839856c32c79b18a33a78f209e911cad55c65abfb77f30e2d29"
+    },
+    {
+      "path": "demo/assets/v11/aspen_leaves.png",
+      "bytes": 142116,
+      "sha256": "6c8cbfa3eda0f070df6ebb3c8ec6899400f3c966d1658fcfd9ae518347c2dcb9"
+    },
+    {
+      "path": "demo/assets/v11/inventory.json",
+      "bytes": 1008,
+      "sha256": "6e6894875e4a86525e5e74ad019b44772812d42566fdfe7d68fb333d5750a066"
+    },
+    {
+      "path": "demo/assets/v11/layered-shrub-config.json",
+      "bytes": 1600,
+      "sha256": "9d5001dbdcdaa76479e555bc03df45b09efe5ae8c1dd0ab8901c9d180564aa87"
+    },
+    {
+      "path": "demo/assets/v11/layered-shrub.bin",
+      "bytes": 736416,
+      "sha256": "ccc04dee9c4c3f41b6df8b160653f2c61fda252f10ad72febb7dfc2b9a7b2b7c"
+    },
+    {
+      "path": "demo/assets/v11/layered-shrub.gltf",
+      "bytes": 2904,
+      "sha256": "f06cedc73bc65721a1103608904dd346bbdc627362548b1122442b39c176176d"
+    },
+    {
+      "path": "demo/assets/v11/oak_leaves.png",
+      "bytes": 238115,
+      "sha256": "24451223cf396d22910a4932b8bb996a7274e63d81e24128c96a430ab67822b1"
+    },
+    {
+      "path": "demo/assets/v11/park-ash-a-config.json",
+      "bytes": 1491,
+      "sha256": "d885b4e57490308b55de325e3189a25b7a42a7fa5247f4f2953186974fe36a3e"
+    },
+    {
+      "path": "demo/assets/v11/park-ash-a.bin",
+      "bytes": 5145552,
+      "sha256": "5d5771cd7005bbcf4c480647056f992c41249789f2dcaa4041760c0990f37cc2"
+    },
+    {
+      "path": "demo/assets/v11/park-ash-a.gltf",
+      "bytes": 2920,
+      "sha256": "42e7781aa04d0aee0353d2e23e493e5442722cdc1cc2b6e967e602d7ad8e6265"
+    },
+    {
+      "path": "demo/assets/v11/park-ash-b-config.json",
+      "bytes": 1491,
+      "sha256": "c791d89869714bc2f7cb34dfad3c703c7810c64b4205bd3cfb985c04f2750ce6"
+    },
+    {
+      "path": "demo/assets/v11/park-ash-b.bin",
+      "bytes": 5145552,
+      "sha256": "940e00a67a60024ac6d84ae5ea28f9e185d5be7d70a4f97b0412610f824f1a5c"
+    },
+    {
+      "path": "demo/assets/v11/park-ash-b.gltf",
+      "bytes": 2924,
+      "sha256": "6ed0f4775bbe4b9a50323ef1f687e332f34374736b1738a0d1e8bc0773328f4a"
+    },
+    {
+      "path": "demo/assets/v11/park-oak-a-config.json",
+      "bytes": 1453,
+      "sha256": "3495c986f974e41b7b338944d42388ea7e06fe6be291f7bdebb3e53c29bfe19e"
+    },
+    {
+      "path": "demo/assets/v11/park-oak-a.bin",
+      "bytes": 5206800,
+      "sha256": "6e2824eaf40165543cf3962e41c874d36610b80b220b71e8ad4043c619c2c3e9"
+    },
+    {
+      "path": "demo/assets/v11/park-oak-a.gltf",
+      "bytes": 2921,
+      "sha256": "beb890a526149d48d8f74b475edfac9c24a1937107763ea2615cd6c5c47488a1"
+    },
+    {
+      "path": "demo/assets/v11/park-oak-b-config.json",
+      "bytes": 1452,
+      "sha256": "018dd72ea745e22a710f1fb3183cdde689b8e2e9d6ce5ce4414ffba11ad2f384"
+    },
+    {
+      "path": "demo/assets/v11/park-oak-b.bin",
+      "bytes": 5206800,
+      "sha256": "4b48b00c846d51185405c448246e1ced2497182116e7c0e1f96705d66b7c41b5"
+    },
+    {
+      "path": "demo/assets/v11/park-oak-b.gltf",
+      "bytes": 2920,
+      "sha256": "b354190616e56d6a145b27b6017f2834d118e2f51385c961818c3affed401d83"
+    },
+    {
+      "path": "demo/assets/v11/sources.json",
+      "bytes": 2768,
+      "sha256": "6623f056eddfdaa4666fde98387315bf36e2ff83408e3da1e1301f0849b09631"
+    },
+    {
+      "path": "demo/assets/v2/courtyard.png",
+      "bytes": 2707584,
+      "sha256": "11c5ecac8ca87789dc43cfb2dc2edbe67bdc1ef91ee516c2f086d983d87abe05"
+    },
+    {
+      "path": "demo/assets/v2/denmin_fabric_02-ao.jpg",
+      "bytes": 3632745,
+      "sha256": "e5c6fad03a1fe8301030072aeb7732808d35313729ffa99a9f1ae0e436af7553"
+    },
+    {
+      "path": "demo/assets/v2/denmin_fabric_02-color.jpg",
+      "bytes": 4732095,
+      "sha256": "735c5845b8618ee88ca1b5b2aa9e859cead29a657c3f8c7c4498a2b9919587dc"
+    },
+    {
+      "path": "demo/assets/v2/denmin_fabric_02-normal.jpg",
+      "bytes": 3799091,
+      "sha256": "b97267814817ece4b4b16571f710e84f862630ab107dde9e95c4d52978f21c52"
+    },
+    {
+      "path": "demo/assets/v2/denmin_fabric_02-preview.png",
+      "bytes": 1177112,
+      "sha256": "a04cdd015580d75460f15439a6cbd83cdd97a33a37f1bd896256384089bee1a0"
+    },
+    {
+      "path": "demo/assets/v2/denmin_fabric_02-roughness.jpg",
+      "bytes": 3475986,
+      "sha256": "a8c13fb98f04b4214522e4307bd71929ffc928dcc409bd37c3fff61a0bbd78f4"
+    },
+    {
+      "path": "demo/assets/v2/fabric_pattern_07-ao.jpg",
+      "bytes": 1387251,
+      "sha256": "3289c92d1f085321c753934efccdada4170b8dc86b29a786a81582975d5e0443"
+    },
+    {
+      "path": "demo/assets/v2/fabric_pattern_07-color.jpg",
+      "bytes": 2650991,
+      "sha256": "1f4941638b890d4535b1078067be8a831ca302d1e696ed959b4e4512de893cba"
+    },
+    {
+      "path": "demo/assets/v2/fabric_pattern_07-normal.jpg",
+      "bytes": 2572375,
+      "sha256": "84f15ee5f6b63e7e224051a22426c751cc1fe15a794efd001ebfdb5f84828602"
+    },
+    {
+      "path": "demo/assets/v2/fabric_pattern_07-preview.png",
+      "bytes": 1165110,
+      "sha256": "fbcd4927c4da4c04235640a0410cc4e77f9635c1a9dcc7a96c1e2c4b564c313c"
+    },
+    {
+      "path": "demo/assets/v2/fabric_pattern_07-roughness.jpg",
+      "bytes": 1657764,
+      "sha256": "be3e311614ee6f31d4cb4a774ed678b7a64189d3e1a55ad71033142185da270a"
+    },
+    {
+      "path": "demo/assets/v2/lebombo.hdr",
+      "bytes": 1476953,
+      "sha256": "a02c9615adeba91a753c3e4737c3ce7a719273df822eeaa85d24982bd43c9ecb"
+    },
+    {
+      "path": "demo/assets/v2/oak_veneer_01-ao.jpg",
+      "bytes": 1936557,
+      "sha256": "9a5695ea39303690d66908f6ae1c4e5bc0e929ac4ecc7dcf4622438481849496"
+    },
+    {
+      "path": "demo/assets/v2/oak_veneer_01-color.jpg",
+      "bytes": 2831117,
+      "sha256": "0718c2e1a209afe6138ccb41d70e1a18cd825d1e73db33ad7cf80806fa9ce5a4"
+    },
+    {
+      "path": "demo/assets/v2/oak_veneer_01-normal.jpg",
+      "bytes": 2429019,
+      "sha256": "e74a9d3ddcd86473a21815a28464f4dac4ceb8f86e7f170226dede8ed70d8eb9"
+    },
+    {
+      "path": "demo/assets/v2/oak_veneer_01-roughness.jpg",
+      "bytes": 3968436,
+      "sha256": "5c81718ee172299c44e0754fadbe652758b6feed05a8fd88be6efff5aa70ca1e"
+    },
+    {
+      "path": "demo/assets/v2/potted_plant_01-preview.png",
+      "bytes": 188284,
+      "sha256": "df9709b13c696d4886f2a08c2dbdabfdbf2fd494a056d7306ff799825f6aadc9"
+    },
+    {
+      "path": "demo/assets/v2/potted_plant_01/potted_plant_01.bin",
+      "bytes": 5345188,
+      "sha256": "a8dd1f7ce75f50dc25bbedc20809da02ee4193815c155b883a329925fa5548f7"
+    },
+    {
+      "path": "demo/assets/v2/potted_plant_01/potted_plant_01_2k.gltf",
+      "bytes": 7970,
+      "sha256": "b38c389224d8d10608bddd236328abef7a356d61f98a03c2fe395cf9b690c92b"
+    },
+    {
+      "path": "demo/assets/v2/potted_plant_01/textures/potted_plant_01_leaves_diff_2k.jpg",
+      "bytes": 400273,
+      "sha256": "6ff5a44117b77a0ad570a333aea71f04ee735ed9cab9668936f8775da1614c6b"
+    },
+    {
+      "path": "demo/assets/v2/potted_plant_01/textures/potted_plant_01_leaves_nor_gl_2k.jpg",
+      "bytes": 764246,
+      "sha256": "8cde55f644e9092bcaa7976b005c6df1b452714f1e1c57ede8abb8b7c8bb4a1a"
+    },
+    {
+      "path": "demo/assets/v2/potted_plant_01/textures/potted_plant_01_leaves_rough_2k.jpg",
+      "bytes": 348164,
+      "sha256": "77c990375720dcdfd801592c9f0546bc5a2ec99a825879945225080ba291d694"
+    },
+    {
+      "path": "demo/assets/v2/potted_plant_01/textures/potted_plant_01_pot_diff_2k.jpg",
+      "bytes": 745276,
+      "sha256": "5c85fa6020e1b5a84ea1e6da84261e4fb6f0a94bf48cd6d56fa603de234336fa"
+    },
+    {
+      "path": "demo/assets/v2/potted_plant_01/textures/potted_plant_01_pot_nor_gl_2k.jpg",
+      "bytes": 827724,
+      "sha256": "22792283d310a057553e7428739be073720a492c2a288440ab690124462de1e3"
+    },
+    {
+      "path": "demo/assets/v2/potted_plant_01/textures/potted_plant_01_pot_rough_2k.jpg",
+      "bytes": 610864,
+      "sha256": "95154a5693f70802d36691cc284e378e173c56d416506c187725c08a96260503"
+    },
+    {
+      "path": "demo/assets/v2/sofa_02-preview.png",
+      "bytes": 459669,
+      "sha256": "7076249029e05ad6b36cfb74e5ea7d707af1b2ecb6eff149d253c34aa96818a4"
+    },
+    {
+      "path": "demo/assets/v2/sofa_02/sofa_02.bin",
+      "bytes": 74864,
+      "sha256": "cb337e03211be0309afa1ded2b6cbb2d402c0f794aaf8828fba559d27a42d3f5"
+    },
+    {
+      "path": "demo/assets/v2/sofa_02/sofa_02_2k.gltf",
+      "bytes": 4184,
+      "sha256": "89796129c41a6249571e235d5740153dadbc21bc3dd20097751101c2fddb5c40"
+    },
+    {
+      "path": "demo/assets/v2/sofa_02/textures/sofa_02_arm_2k.jpg",
+      "bytes": 401876,
+      "sha256": "1e6bb97f6c0d2a1b81b9aa3c67c26b65bc02aeed88b19373726f117c16f89980"
+    },
+    {
+      "path": "demo/assets/v2/sofa_02/textures/sofa_02_diff_2k.jpg",
+      "bytes": 323319,
+      "sha256": "d37c3c65d2bc4dfb9c61b8355cc0e5e0e92e34ae6affa819daa1cabe03d9e135"
+    },
+    {
+      "path": "demo/assets/v2/sofa_02/textures/sofa_02_nor_gl_2k.jpg",
+      "bytes": 463146,
+      "sha256": "7e53cd96fdb33b960a0447c619e028aa833fc9c6bee2838346ab5c752ac95c68"
+    },
+    {
+      "path": "demo/assets/v2/sources.json",
+      "bytes": 10013,
+      "sha256": "03ba71fffafc5ea051b3f16e1f23d84abe38ec3e52d908e9d3fc5f9feb791a29"
+    },
+    {
+      "path": "demo/assets/v2/wood_floor-ao.jpg",
+      "bytes": 2826020,
+      "sha256": "9f9aa2da94211afcd08c56d6d74d9bb80b7792666b000297e3b3470739dd18e5"
+    },
+    {
+      "path": "demo/assets/v2/wood_floor-color.jpg",
+      "bytes": 2983667,
+      "sha256": "7c3ff1164c8dd0758ef2c048e9a266d28174120de01052ec40e6ca486177345c"
+    },
+    {
+      "path": "demo/assets/v2/wood_floor-normal.jpg",
+      "bytes": 1863576,
+      "sha256": "eff2e4db46bab930dc05997faf5085157eec4fd652cdfc6cd01fa11edd56ef10"
+    },
+    {
+      "path": "demo/assets/v2/wood_floor-preview.png",
+      "bytes": 923470,
+      "sha256": "11ca475e91e90b1d2be9ad647bf48b40e8ec6600aa943f95c4dd9ca9b80e155b"
+    },
+    {
+      "path": "demo/assets/v2/wood_floor-roughness.jpg",
+      "bytes": 2267559,
+      "sha256": "297eda0d75f2020cc541dbf242e1f5fd058053249567f49a4506fc2c5b1a172b"
+    },
+    {
+      "path": "demo/assets/v5/flat-tv.glb",
+      "bytes": 4881236,
+      "sha256": "196c1b12c82cecb132d78dc5cabd9cc0725a5476226f566fe5786c63f0a92fc8"
+    },
+    {
+      "path": "demo/assets/v5/linen-sofa.glb",
+      "bytes": 10724092,
+      "sha256": "d9a0eac05864322c1073813fb2f78c84498675ce4588ef1a91282fce6351419d"
+    },
+    {
+      "path": "demo/assets/v5/lowline-sofa.glb",
+      "bytes": 3925852,
+      "sha256": "350cc49f82a1dd1ad4cec2fed3513cc27eea96803dc0fc1398696ba9913d9cb7"
+    },
+    {
+      "path": "demo/assets/v5/sources.json",
+      "bytes": 655,
+      "sha256": "34146f20eec47bface03cb239f91e0a1053233d0ebe241fad4b2c924a6cee25b"
+    },
+    {
+      "path": "demo/assets/v7/Carpet014/Carpet014_2K-JPG_Color.jpg",
+      "bytes": 4802065,
+      "sha256": "c1281d3e69844ab8c5cb6cd3e8703b2312cd07ee4807e180bad4539f9b1813b1"
+    },
+    {
+      "path": "demo/assets/v7/Carpet014/Carpet014_2K-JPG_Displacement.jpg",
+      "bytes": 1535140,
+      "sha256": "090623f9def1d1d0b78fea8286bf845ee7c9f5ae8449e6203693a7ab36163260"
+    },
+    {
+      "path": "demo/assets/v7/Carpet014/Carpet014_2K-JPG_NormalGL.jpg",
+      "bytes": 9254413,
+      "sha256": "e34678be43b068664700c4c9e274ac115764baeffec6fe6e42953a1500a653c0"
+    },
+    {
+      "path": "demo/assets/v7/Carpet014/Carpet014_2K-JPG_Roughness.jpg",
+      "bytes": 2551042,
+      "sha256": "dee348880f1db25c9ca339484dacfbe5e78df3740e7aa1d01d2baed4b0731b59"
+    },
+    {
+      "path": "demo/assets/v7/sources.json",
+      "bytes": 905,
+      "sha256": "54522e40efae84c28a7f99e55cbcd7a14efd50e05abd5c235ea7aad81371c239"
+    },
+    {
+      "path": "demo/assets/v9/aerial_grass_rock/aerial_grass_rock_diff_1k.jpg",
+      "bytes": 666655,
+      "sha256": "57b8041bfe0d0f01430e4dbaad45e7ddddf0a9fc97317f90dbc51f7b0d9e1b5d"
+    },
+    {
+      "path": "demo/assets/v9/aerial_grass_rock/aerial_grass_rock_nor_gl_1k.jpg",
+      "bytes": 904956,
+      "sha256": "1aa3e23bff453f152e089b9f83aa36b4901651e019f7e2ca01d5331a9bbbda78"
+    },
+    {
+      "path": "demo/assets/v9/island_tree_01/textures/island_tree_01_branches_arm_1k.jpg",
+      "bytes": 484806,
+      "sha256": "9e3f82263247ce4f619692cea4c4f6fe9936ff465a86623481849062642c7d05"
+    },
+    {
+      "path": "demo/assets/v9/island_tree_01/textures/island_tree_01_branches_diff_1k.jpg",
+      "bytes": 528304,
+      "sha256": "bee5ec22196e9e31ad0c95a5a9b4636571cc0124d5bb27a92f1e307d289cc60d"
+    },
+    {
+      "path": "demo/assets/v9/island_tree_01/textures/island_tree_01_branches_nor_gl_1k.jpg",
+      "bytes": 819101,
+      "sha256": "2d67393ba76a0f49cf965fa0c99d8c16268e71e87b1203d35539bfdb971a514e"
+    },
+    {
+      "path": "demo/assets/v9/pavement_03/pavement_03_diff_1k.jpg",
+      "bytes": 1119611,
+      "sha256": "27cb62f96c03ac300aed5d1a67a10fe57eed7c58904a31da9d2f45a851d19e90"
+    },
+    {
+      "path": "demo/assets/v9/pavement_03/pavement_03_nor_gl_1k.jpg",
+      "bytes": 1180142,
+      "sha256": "92d30168e2aed1f44fa779b8906566dbf00d77d4195e13a7f92b7c555cae9f85"
+    },
+    {
+      "path": "demo/assets/v9/sources.json",
+      "bytes": 6501,
+      "sha256": "45e85c44837938aff2e6b2b20ff2fa743b5aaf4be39b914a404b4e0bc2230342"
+    },
+    {
+      "path": "demo/balcony-life.js",
+      "bytes": 2562,
+      "sha256": "00c2722807fef6e5553097ffc7decdc1a35d61d4e06368642d9d224ec12a5e93"
+    },
+    {
+      "path": "demo/canopy-assets.test.js",
+      "bytes": 1939,
+      "sha256": "5a168682cbe9157fed0894623daa032078099c98af72a96485a9d7b153d3d021"
+    },
+    {
+      "path": "demo/canopy-vegetation.js",
+      "bytes": 5153,
+      "sha256": "e526f116ae8b24f27b2a4c9b5f7bc8df154f2b2867eff745a247af8f4af56f62"
+    },
+    {
+      "path": "demo/courtyard-layout.js",
+      "bytes": 2220,
+      "sha256": "f8b5db1d0101a9c41f00fe333386b41ebde9facdfb11a6eac23e4fc851981080"
+    },
+    {
+      "path": "demo/courtyard-layout.test.js",
+      "bytes": 1872,
+      "sha256": "f3e9303b83dc4b1a619043cdab47ba060cb2494a9018b2f68df2b661299a2a38"
+    },
+    {
+      "path": "demo/courtyard-scene.js",
+      "bytes": 9306,
+      "sha256": "e838f4799d2a5ac4c2bf1c5eddaf519898a8d5ea1276b4cb92225e73c5b5ce6e"
+    },
+    {
+      "path": "demo/door-motion.js",
+      "bytes": 744,
+      "sha256": "838004f6502926860d7382f7e42d28123bf1cafe8d85a7c6d35edfb859e64919"
+    },
+    {
+      "path": "demo/door-motion.test.js",
+      "bytes": 900,
+      "sha256": "ca5d226771cda38c977f13c8006926e73aa9b0051a8df492e6fa3683c88be91c"
+    },
+    {
+      "path": "demo/entrance.js",
+      "bytes": 5212,
+      "sha256": "ca74cb0068eacae945057c6953ae02914b651d1f41cfdf5a911abab097c7067d"
+    },
+    {
+      "path": "demo/furniture-assets.js",
+      "bytes": 2096,
+      "sha256": "8874bae8498210d24a2f74d964ad2d24ec53b3bca16d5328a3b8b3b506b5718c"
+    },
+    {
+      "path": "demo/garden-details.js",
+      "bytes": 5766,
+      "sha256": "2807f26674d187be0304a1e5c297fc9feddcd1b60ca8ffba5b3de0913de769e4"
+    },
+    {
+      "path": "demo/garden-layout.js",
+      "bytes": 1059,
+      "sha256": "8d842d592b2e820d5c046dcc4fbba95f7f1e878a1965b21f9a384eb2b39e3143"
+    },
+    {
+      "path": "demo/index.html",
+      "bytes": 5790,
+      "sha256": "9bbd65c11f105194a2ce1c0501b8309794302184c9a2a0b3a5c0ca0036243d75"
+    },
+    {
+      "path": "demo/object-details.js",
+      "bytes": 4255,
+      "sha256": "49f08824779a7f471a63829a19742e1338d7c1dde7509d9b116776c4ee4ada1b"
+    },
+    {
+      "path": "demo/outdoor-materials.js",
+      "bytes": 13913,
+      "sha256": "fce684c97f91dec5e8a1e829e5050657fa0d69ab7251bbc4a2c30b55081948bd"
+    },
+    {
+      "path": "demo/package.json",
+      "bytes": 996,
+      "sha256": "c33374c2e7a400ceda88a6704b5985b25d243c5ef297335ee515626f950a49a4"
+    },
+    {
+      "path": "demo/realism.js",
+      "bytes": 9027,
+      "sha256": "147cd1222817851a152ff0e1eb982d1782e6010cbb0d55132bff42dca1d96e9b"
+    },
+    {
+      "path": "demo/reflection-refresh.js",
+      "bytes": 564,
+      "sha256": "1e61b38ab346392157d2805921ea45a97c64c9eb3f37ca391ccbed6205f3b94b"
+    },
+    {
+      "path": "demo/reflection-refresh.test.js",
+      "bytes": 1197,
+      "sha256": "7a341c11c346f410bc3c13b2cb37b1da73117fb675c8240cf3ab87099858f36d"
+    },
+    {
+      "path": "demo/render-recovery.js",
+      "bytes": 2444,
+      "sha256": "9aaca85b4141a05fa4fc8fe36bbf4207079d2dbaf56fe31cbb7dc863175ac389"
+    },
+    {
+      "path": "demo/render-recovery.test.js",
+      "bytes": 3382,
+      "sha256": "79d974840e6a069de14cf693e75ff813d3ac7efedada3180efe7fad631052611"
+    },
+    {
+      "path": "demo/residential-buildings.js",
+      "bytes": 9767,
+      "sha256": "52dc03725f976ad50d1b687d35313387e507a1f4bfb5c32e17faae0a523c2ba7"
+    },
+    {
+      "path": "demo/screen-reflection.js",
+      "bytes": 3204,
+      "sha256": "67804c43816f0533ce6a89b888bc22c92400914810d8173fd0e4be6213468b6d"
+    },
+    {
+      "path": "demo/shader-warmup.js",
+      "bytes": 1348,
+      "sha256": "83883ea3e32a6aacf09cc8e2eda3862f2c895bf65013cb67d0b37b4b4bf7b34d"
+    },
+    {
+      "path": "demo/shader-warmup.test.js",
+      "bytes": 967,
+      "sha256": "b8b5040e43e707f289c0ed465ef1793681e171460738e9d62515941a18e5204f"
+    },
+    {
+      "path": "demo/soft-furnishings.js",
+      "bytes": 12383,
+      "sha256": "4432133eb3c476eeebd898171a7308453f95628aed320e6299d47e9f20b1d966"
+    },
+    {
+      "path": "demo/style.css",
+      "bytes": 14157,
+      "sha256": "c7f6892e4b9ca55a5079a0e74c72905dbd0fd1895bbb5468bf2db6a338cf0241"
+    },
+    {
+      "path": "demo/surface-finishes.js",
+      "bytes": 4421,
+      "sha256": "c664c9dcdeaa2fdd871f419281ce4887f1274ead5bef347e2ff3ed0a0413a2f4"
+    },
+    {
+      "path": "demo/upholstery.js",
+      "bytes": 4587,
+      "sha256": "475240e1b59c9e73272465490ed43d05b3502da9ecfbbf316326e5cb55d8a5a3"
+    },
+    {
+      "path": "demo/vendor/THREE-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "path": "demo/vendor/addons/environments/RoomEnvironment.js",
+      "bytes": 4960,
+      "sha256": "55f466192cc84298755a424c5e040345006b2ee1455589b3b54126c2ea4123f4"
+    },
+    {
+      "path": "demo/vendor/addons/geometries/RoundedBoxGeometry.js",
+      "bytes": 6470,
+      "sha256": "c5feab96123858ed8823c889b238dc8734adab7e760e3cfd21e7f3f2f3e348e3"
+    },
+    {
+      "path": "demo/vendor/addons/lights/RectAreaLightTexturesLib.js",
+      "bytes": 314764,
+      "sha256": "6dd4043bb052594357a5eeff13dc0519f0a80b100b97ec80c12808f887897bc1"
+    },
+    {
+      "path": "demo/vendor/addons/lights/RectAreaLightUniformsLib.js",
+      "bytes": 1014,
+      "sha256": "494fef2d731ff1689050cc6040ad78d927c22b9125a12f532beb0374c2811c6e"
+    },
+    {
+      "path": "demo/vendor/addons/loaders/GLTFLoader.js",
+      "bytes": 119861,
+      "sha256": "532ac726e120039acbcd6cf54328c57acbf7b438176afaa6951257126d11bff1"
+    },
+    {
+      "path": "demo/vendor/addons/loaders/HDRLoader.js",
+      "bytes": 12079,
+      "sha256": "0986b578f9acd14cec74e5ee85e07f45e681b40bcd229a601a0391201f9b5ff1"
+    },
+    {
+      "path": "demo/vendor/addons/loaders/RGBELoader.js",
+      "bytes": 268,
+      "sha256": "6c08f9c441040a61a188ad7711078da4df48f8c5ac3b3725dd6f10ac9ff81162"
+    },
+    {
+      "path": "demo/vendor/addons/math/SimplexNoise.js",
+      "bytes": 15148,
+      "sha256": "4b1455617135e6b477de76244de07547d95570643379b72f4758e50161b06072"
+    },
+    {
+      "path": "demo/vendor/addons/objects/Reflector.js",
+      "bytes": 11156,
+      "sha256": "542861de2dea2e24729a1fa4962424214e1637368017bdd48d5f27eb64dda0fb"
+    },
+    {
+      "path": "demo/vendor/addons/postprocessing/EffectComposer.js",
+      "bytes": 8501,
+      "sha256": "4e079a5886152d7e529a59aef644e968ab4d32c6a33ce016b36bf29b2eac26f7"
+    },
+    {
+      "path": "demo/vendor/addons/postprocessing/MaskPass.js",
+      "bytes": 4694,
+      "sha256": "7cd08eee9d5d6f5578beaddbdcbe9c384f6873810af27f22ab7db3ceeb127aa3"
+    },
+    {
+      "path": "demo/vendor/addons/postprocessing/OutputPass.js",
+      "bytes": 4184,
+      "sha256": "02e4a261af34de71338185e9e87f0cbe5cba9115608d984363e1269dec1d2272"
+    },
+    {
+      "path": "demo/vendor/addons/postprocessing/Pass.js",
+      "bytes": 4218,
+      "sha256": "444b409c235ead986893c472e720da1b779a56985c7d10b279c7944b52bd61c5"
+    },
+    {
+      "path": "demo/vendor/addons/postprocessing/RenderPass.js",
+      "bytes": 4280,
+      "sha256": "817f6c3cdcd0fd41515d112359ea0532568eefb5aabd3b33903957ebca1b8a6a"
+    },
+    {
+      "path": "demo/vendor/addons/postprocessing/SSAOPass.js",
+      "bytes": 13463,
+      "sha256": "2f9c02a53e09917d039c07c5bd7a110f1ce39bc5ab2affa316ea94f5198ec586"
+    },
+    {
+      "path": "demo/vendor/addons/postprocessing/ShaderPass.js",
+      "bytes": 3228,
+      "sha256": "e2500a5913b26bbf5148ceaae644c6edcff06a18b01494ee37bf856353d2ab9d"
+    },
+    {
+      "path": "demo/vendor/addons/shaders/CopyShader.js",
+      "bytes": 729,
+      "sha256": "a33057d5ac91c43304c186ac0e8816e62bb2ed471d3a00ff3018dfd5c0389718"
+    },
+    {
+      "path": "demo/vendor/addons/shaders/FXAAShader.js",
+      "bytes": 6815,
+      "sha256": "b8303d179f9d5d40a052483e8cfb49c29afb6e60396080e472a6950b51700dac"
+    },
+    {
+      "path": "demo/vendor/addons/shaders/OutputShader.js",
+      "bytes": 1876,
+      "sha256": "353479f77a8d7e2629d49ccac9fc2f5dbfdda5442e0adf867b00377a2fcb0cb2"
+    },
+    {
+      "path": "demo/vendor/addons/shaders/SSAOShader.js",
+      "bytes": 6968,
+      "sha256": "034dad98927ed8f2677a19ce56d4da1212ce5070ed2666157106025dc260bb55"
+    },
+    {
+      "path": "demo/vendor/addons/utils/BufferGeometryUtils.js",
+      "bytes": 39153,
+      "sha256": "7bda2a8ba836b2bcf67cb938d4b9e1bb5d1b1bc616817103ed858c0b58296ce7"
+    },
+    {
+      "path": "demo/vendor/addons/utils/SkeletonUtils.js",
+      "bytes": 11535,
+      "sha256": "b1632a703206c3d830de9fcbe515696770d04b71a15ee6b50afa6d2c3298c86f"
+    },
+    {
+      "path": "demo/vendor/three.core.js",
+      "bytes": 1474799,
+      "sha256": "613e370f76638fdef83926642bf256dc9615684922de1ce1f63a8583e5d78578"
+    },
+    {
+      "path": "demo/vendor/three.module.js",
+      "bytes": 658900,
+      "sha256": "104f56145899722094556490d787aae0617cc2fc3382f31df02d724ea1aee341"
+    },
+    {
+      "path": "index.html",
+      "bytes": 21511,
+      "sha256": "d860d0ad71ca2c47ba572c8795a251bc0edb890ea5fc1ea6772874ea60978272"
+    },
+    {
+      "path": "materials/ASSET-SOURCES.md",
+      "bytes": 1114,
+      "sha256": "a7eb61088c68d7fc8af2c93816a6e7ed2fa29df3316a49e03f565fbfa666f26b"
+    },
+    {
+      "path": "materials/ai-interior-workflow-v2.prompt.txt",
+      "bytes": 7832,
+      "sha256": "2503dd526bb475cd5c56d4c502801532023041f507f1d871f6ac72070cda7c99"
+    },
+    {
+      "path": "materials/design-qa.md",
+      "bytes": 22222,
+      "sha256": "08ff5e2ca55cac564a30575409b8aa4db95a603921aab91f12a0e2cc856abab0"
+    },
+    {
+      "path": "materials/final-delivery-v14.json",
+      "bytes": 4730,
+      "sha256": "1a524514eb059f545c8f96568be6e4b32a6d334c06c0b769ef0da2e7af36513e"
+    },
+    {
+      "path": "materials/normal-flow-results-v13.json",
+      "bytes": 2187,
+      "sha256": "3e42902c5ad07fb73e49d9a5df57b6fcf358edf0696048bffa18e32e90090222"
+    },
+    {
+      "path": "materials/recovery-test-results-v13.json",
+      "bytes": 5032,
+      "sha256": "1f5092e0dfc6694f0bc26ffc55f8ebc4745c5bd710bc68d1f7c1277c72c306b1"
+    },
+    {
+      "path": "materials/soak-results-v14.json",
+      "bytes": 129623,
+      "sha256": "294110e325877d6bbfde7bf46c03401b6423e4126dce303500b314fdde31a453"
+    },
+    {
+      "path": "materials/tools/build-canopy-models.mjs",
+      "bytes": 10355,
+      "sha256": "f35e1506701cc553640de254f8e0682da71e802c93384d0c72885daf8decb2bf"
+    },
+    {
+      "path": "materials/tools/download-exterior.py",
+      "bytes": 1829,
+      "sha256": "0b31f5ffe96f7414b9c9d1f440fe791963b0967a02f4a642d2ac7299ea9c0beb"
+    },
+    {
+      "path": "materials/tools/optimize-tree.mjs",
+      "bytes": 3475,
+      "sha256": "8ee560e773e889a4ff17f242f32b10d02d12099d6d9e963f174d1da5d22a7360"
+    },
+    {
+      "path": "media/ai-interior-workflow-v2.png",
+      "bytes": 2078443,
+      "sha256": "c4409f7279cc5b5a1dae142a1781062cafbd8545cd8808e6346ea5cae0da49af"
+    },
+    {
+      "path": "media/balcony-original.jpg",
+      "bytes": 115006,
+      "sha256": "b0c30af349047e68ebed1980a1365d5a2817806664097af050014dfb03aa7ea9"
+    },
+    {
+      "path": "media/living-original.jpg",
+      "bytes": 116082,
+      "sha256": "3c98aa977e8e041dce3cbcf582a2caeaf5e0d39a64318327006d5a28388dde72"
+    },
+    {
+      "path": "media/reference.png",
+      "bytes": 2405879,
+      "sha256": "717380bef1c92a4a5fc7aaeaf93faeeaea93053a28658e65281e883d12669557"
+    },
+    {
+      "path": "research.css",
+      "bytes": 13206,
+      "sha256": "a42f89f80a032f70386b82cf9a785a52f7ccf66320bfdd3350656eea0ad09621"
+    },
+    {
+      "path": "research.js",
+      "bytes": 902,
+      "sha256": "4237eda0b9de7547926d2548ac0a076ad6ee727d67e744f51e792740c52d2fe1"
+    }
+  ]
+}

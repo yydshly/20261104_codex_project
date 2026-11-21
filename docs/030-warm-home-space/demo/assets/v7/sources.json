@@ -1,0 +1,26 @@
+{
+  "provider": "ambientCG",
+  "asset": "Carpet014",
+  "source": "https://ambientcg.com/view?id=Carpet014",
+  "download": "https://ambientcg.com/get?file=Carpet014_2K-JPG.zip",
+  "license": "CC0 1.0",
+  "technique": "Approximation",
+  "files": [
+    {
+      "file": "assets/v7/Carpet014/Carpet014_2K-JPG_Color.jpg",
+      "sha256": "c1281d3e69844ab8c5cb6cd3e8703b2312cd07ee4807e180bad4539f9b1813b1"
+    },
+    {
+      "file": "assets/v7/Carpet014/Carpet014_2K-JPG_NormalGL.jpg",
+      "sha256": "e34678be43b068664700c4c9e274ac115764baeffec6fe6e42953a1500a653c0"
+    },
+    {
+      "file": "assets/v7/Carpet014/Carpet014_2K-JPG_Roughness.jpg",
+      "sha256": "dee348880f1db25c9ca339484dacfbe5e78df3740e7aa1d01d2baed4b0731b59"
+    },
+    {
+      "file": "assets/v7/Carpet014/Carpet014_2K-JPG_Displacement.jpg",
+      "sha256": "090623f9def1d1d0b78fea8286bf845ee7c9f5ae8449e6203693a7ab36163260"
+    }
+  ]
+}

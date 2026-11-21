@@ -1,0 +1,16 @@
+{
+  "license": "CC0 1.0",
+  "files": [
+    {
+      "file": "lowline-sofa.glb",
+      "sha256": "350cc49f82a1dd1ad4cec2fed3513cc27eea96803dc0fc1398696ba9913d9cb7"
+    },
+    {
+      "file": "flat-tv.glb",
+      "sha256": "196c1b12c82cecb132d78dc5cabd9cc0725a5476226f566fe5786c63f0a92fc8"
+    }
+  ],
+  "sofa": "https://www.innerscene.com/tools/library/3d-parts/lowline-low-three-seat-sofa-4bb27e8c",
+  "television": "https://www.innerscene.com/tools/library/3d-parts/flat-screen-tv-32-inch-on-feet-6dbdcb82",
+  "note": "米色候选 linen-sofa.glb 经实测未采用；并非扫描实物。当前使用具名部件的 Lowline GLB，配合参考靠包。"
+}

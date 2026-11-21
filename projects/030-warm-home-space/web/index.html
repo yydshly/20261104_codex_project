@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f2e9">
+  <title>从户型到可漫游空间 · AI 装修生成研究</title>
+  <meta name="description" content="从一套原木风3D小家出发，研究户型、素材库、空间规则与模型设计怎样组合成可复用的装修方案生成流程。展示入户至阳台原型、原始截图、已有引导图、8轮操作与41次昼夜切换记录；说明已获得的代码与资产复用价值，以及跨户型自动适配、人工省时和商业收益仍待验证。">
+  <link rel="canonical" href="https://yydshly.github.io/20261104_codex_project/030-warm-home-space/">
+  <meta property="og:type" content="website"><meta property="og:title" content="给一个户型，走进一个方案 · AI装修空间研究">
+  <meta property="og:description" content="一套可操作的3D小家，连接真实探索效果、素材库、空间规则、模型分工与下一轮跨户型验证。">
+  <meta property="og:image" content="https://yydshly.github.io/20261104_codex_project/030-warm-home-space/media/ai-interior-workflow-v2.png">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23536149'/%3E%3Cpath d='M9 19 20 10l11 9v13H9Z' fill='none' stroke='%23fff8e9' stroke-width='2'/%3E%3Cpath d='M17 32V22h6v10' fill='none' stroke='%23fff8e9' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="research.css"><script src="research.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">跳到正文</a>
+<header class="site-header"><a class="brand" href="#top"><span class="brand-mark">居</span><span>栖居 · 空间生成研究<small>研究总库 / 030</small></span></a><nav aria-label="研究导航"><a href="#results">探索效果</a><a href="#understanding">我们的理解</a><a href="#workflow">生成方案</a><a href="#next">下一步</a><a class="nav-library" href="../">研究总库 ↗</a></nav></header>
+<main id="main">
+  <section class="hero wrap" id="top">
+    <div class="hero-copy"><p class="eyebrow">AI × 空间 × 可复用流程 <span>公开整理 · 2026.11.21</span></p><h1>给一个户型，<br>走进一个<span>装修方案。</span></h1><p class="lead">从一套能走动的原木小家出发，研究怎样把模型的设计与编程能力，组织成可以反复使用的空间生成流程。</p><p class="scope-line"><span class="dot"></span> 已有：单套可漫游原型 <i>／</i> 下一步：不同户型自动适配</p><div class="actions"><a class="button primary" href="demo/">亲自走进小家 <span>↗</span></a><a class="button secondary" href="#guide">先看一张引导图 ↓</a></div><p class="hero-note">当前房间根据效果参考图合理补建，未使用实测户型。网页尚未提供上传户型后自动生成或拖拽家具的编辑器。</p></div>
+    <figure class="hero-image"><img src="media/reference.png" width="1672" height="941" alt="最初的原木风效果参考：沙发、电视、餐桌与通向阳台的落地窗"><figcaption><span>最初效果参考</span><span>确定风格与体验目标</span></figcaption></figure>
+  </section>
+
+  <section class="summary wrap" aria-label="研究方向、实现和价值摘要">
+    <article><p class="eyebrow">研究方向</p><h2>从一次制作，走向重复生成。</h2><p>以户型、关键尺寸和需求为入口，让AI选用标准资产并组织布局，由程序完成几何、约束和渲染，交付可检查的三维空间。</p></article>
+    <article><p class="eyebrow">已经做成</p><h2>一套能亲自走进去的小家。</h2><p>入户门、玄关、客餐厅、阳台与三维庭院；真实视点移动、门开合、电视开关、昼夜与微风，以及图形丢失后的恢复。</p></article>
+    <article><p class="eyebrow">当前价值</p><h2>留下能继续使用的制作基础。</h2><p>已有运行代码、家具与材质、摆放修正、操作逻辑和验收记录。跨户型的稳定复用、人工省时和真实使用收益仍需测量。</p></article>
+  </section>
+
+  <section class="section wrap" id="results">
+    <div class="section-heading"><p class="eyebrow">01 / 探索效果</p><h2>先看参考，也看实际原型。</h2><p>这三张图分别对应视觉目标、室内与窗外实景。后两张是此前内置浏览器保存的原始截图，保留界面和当时画面。</p></div>
+    <div class="result-grid">
+      <figure><a class="image-link" href="media/reference.png" data-image data-title="最初效果参考 · 用于确定视觉目标"><img src="media/reference.png" width="1672" height="941" loading="lazy" alt="作为视觉目标的最初原木风装修效果图"></a><figcaption><span class="tag">效果参考</span><h3>确定想要的家是什么样。</h3><p>明确家具搭配、光色与氛围；这张静态参考本身不提供可走动的三维几何。</p></figcaption></figure>
+      <figure><a class="image-link" href="media/living-original.jpg" data-image data-title="客厅3D原型 · 原始浏览器截图"><img src="media/living-original.jpg" width="846" height="919" loading="lazy" alt="客厅原始实景截图，可见布艺沙发、扶手椅、茶几、窗帘和行走控制"></a><figcaption><span class="tag">室内原型</span><h3>从自己的站位观察家具。</h3><p>使用实体模型、材质和光照构建。可以转视角、走动、坐下；与参考图仍存在细节和写实程度差异。</p></figcaption></figure>
+      <figure><a class="image-link" href="media/balcony-original.jpg" data-image data-title="阳台3D原型 · 原始浏览器截图"><img src="media/balcony-original.jpg" width="846" height="871" loading="lazy" alt="阳台原始实景截图，展示楼栋、露台、树木和庭院的真实三维空间层次"></a><figcaption><span class="tag">阳台与庭院</span><h3>让视野随位置和转向变化。</h3><p>七栋楼、十棵树和下层种植具有空间视差，部分窗灯、树叶与云层会变化；庭院和邻楼目前用于观察。</p></figcaption></figure>
+    </div>
+    <div class="experience-callout"><div><h3>从入户门开始，完整走一遍。</h3><p>点击“开门并走进客厅”，再使用“04 走到阳台”。拖动环顾，WASD移动；E开关门，也可使用画面中的移动按钮。</p><small>原型包含较大的三维资产，首次加载与材质准备需要等待；建议先用桌面浏览器体验。</small></div><a class="button primary" href="demo/">打开可操作的3D原型 ↗</a></div>
+    <p class="caption">当前能修改的是源码与场景参数；没有对外开放家具拖拽、换款和户型编辑器。实际行走区域为门外、玄关、客餐厅与阳台。</p>
+  </section>
+
+  <section class="section guide-section" id="guide"><div class="wrap">
+    <div class="section-heading"><p class="eyebrow">02 / 一图理解</p><h2>把目标流程与本次效果放在一起。</h2><p>沿用我们已经生成并补入探索效果的引导图，原文件直接发布，没有重新生成或替换成新的设计。</p></div>
+    <figure class="guide"><a href="media/ai-interior-workflow-v2.png" data-image data-title="AI装修空间生成方案 · 已有补充版引导图"><img src="media/ai-interior-workflow-v2.png" width="1402" height="1122" loading="lazy" alt="已有AI装修空间生成引导图，包含六步流程、素材与参数化组件、探索效果、已验证能力和下一步跨户型验证"></a><figcaption>图内原型预览经过AI整理排版，用于说明方案；实际效果以上方原始截图和可操作原型为准。<a href="media/ai-interior-workflow-v2.png" download>下载原图 ↓</a><a href="materials/ai-interior-workflow-v2.prompt.txt">生成提示词与来源</a></figcaption></figure>
+    <div class="status-pair"><p><span class="tag">本次已验证</span> 单套房间漫游 · 门开合 · 昼夜切换 · 图形恢复</p><p><span class="tag outline">接下来验证</span> 不同户型的自动适配与稳定生成</p></div>
+  </div></section>
+
+  <section class="section wrap" id="understanding">
+    <div class="section-heading"><p class="eyebrow">03 / 我们的理解</p><h2>模型提供通用能力，流程组织稳定交付。</h2><p>这次探索带来的关键判断，是把模型、素材、空间规则与运行工具的责任分清，再检验它们能否跨户型复用。</p></div>
+    <div class="understanding-grid">
+      <article><span class="card-number">01</span><h3>能力来自哪里？</h3><p>模型原有的理解、设计、编程和调试能力，结合Three.js、家具模型与贴图，完成了这套原型。我们没有训练一个新的图生3D模型，也没有改变模型权重。</p></article>
+      <article><span class="card-number">02</span><h3>入口应该是什么？</h3><p>目标入口是户型图、关键尺寸、门窗位置和装修需求。信息不全时先确认结构与尺度，再进入布局。当前这套房间按效果图补建，不能证明实测户型解析已完成。</p></article>
+      <article><span class="card-number">03</span><h3>沉淀只是布局模板吗？</h3><p>固定模板保存一套摆法；可适配规则描述“沙发面对电视、家具落在支撑面上、门口和通道留出空间”。我们希望逐步形成后者，目前已经有部分实现和案例。</p></article>
+      <article><span class="card-number">04</span><h3>怎样沉淀成技能？</h3><p>把输入要求、执行步骤、资产与代码工具、常见修正和验收标准放在一起，让后续任务沿用。当前留下了这些基础，尚未完成跨户型验证的通用技能包。</p></article>
+    </div>
+    <blockquote class="thesis">研究目标：<strong>给户型，生成可修改、可走进去体验的3D装修方案。</strong><span>当前成果是一套房间的能力样板，跨户型生成能力要通过新样本证明。</span></blockquote>
+  </section>
+
+  <section class="section wrap" id="workflow">
+    <div class="section-heading"><p class="eyebrow">04 / 推荐路线</p><h2>小型标准素材库，加上明确的生成规则。</h2><p>先统一场景描述与素材标准，再整理最小库和模板，边试跑不同户型边补充。统一流程与素材库同步迭代。</p></div>
+    <ol class="pipeline"><li><b>户型与需求</b><p>房间尺寸、门窗、风格与使用需求。</p></li><li><b>统一场景数据</b><p>用统一单位描述对象、位置、朝向和材质。</p></li><li><b>AI设计与组合</b><p>提出方案，选择合适资产并调整布局。</p></li><li><b>程序规则校验</b><p>检查支撑、碰撞、边界和可通行空间。</p></li><li><b>渲染与交互</b><p>生成几何、配置光照，提供行走与操作。</p></li><li><b>验收与反馈</b><p>检查实际画面、操作与性能，保留修正。</p></li></ol>
+    <p class="caption">这是拟沉淀的目标流程。公开原型执行已经制作好的代码和资产，当前没有接入线上模型调用或户型自动生成服务。</p>
+    <div class="division-grid"><article><h3>基础结构，按参数生成。</h3><p>墙体、地板、门窗、柜体等适合用尺寸和规则控制，便于跟随户型调整。</p></article><article><h3>核心家具，从合格资产中选择。</h3><p>沙发、桌椅、电视等优先使用有真实尺寸、材质和清楚来源的模型，按适用范围选款。</p></article><article><h3>缺失物件，按需补充。</h3><p>需要时再生成、采购或制作新资产，经过视觉、尺寸和运行验收后入库；相关新增流程仍待实做。</p></article></div>
+    <div class="table-scroll"><table><caption>每件素材需要形成可执行的使用约定</caption><thead><tr><th>对象</th><th>需要保存</th><th>希望解决的问题</th></tr></thead><tbody><tr><td>桌子</td><td>真实长宽高、桌面高度、落地锚点、材质和碰撞范围</td><td>尺寸合适，椅子可用，桌面可承托物件</td></tr><tr><td>电视</td><td>屏幕尺寸、壁挂或落地方式、屏幕与玻璃材质、交互节点</td><td>安装位置合理，反射与开关行为可复用</td></tr><tr><td>花瓶与花盆</td><td>底部位置、占地、允许的支撑面、材质和来源</td><td>避免悬空、穿台面和越出台面边缘</td></tr><tr><td>沙发与窗帘</td><td>尺寸与朝向、布料细节、可调整参数、碰撞或悬挂边界</td><td>保留外形比例与材质质量，适应空间</td></tr><tr><td>所有资产</td><td>统一单位与坐标、版本、风格标签、复杂度、来源和许可</td><td>可检索、可追溯，并能在同一引擎内运行</td></tr></tbody></table></div>
+    <details><summary>为什么没有选择全部临时生成，或先建庞大的素材库？</summary><div class="details-body"><p>全部临时生成适合探索，但这次比例、支撑与材质反复修改说明，重复交付还需要约束。大素材库能够积累资产，但资产齐全本身不能自动形成合理布局。当前更合适的试验是：用最小合格库和统一规则跑通新户型，再决定扩展范围。</p><p>如果目标是尽快承接现成装修业务，也可以评估成熟装修软件加AI辅助；需要另行确认自动化、导出、授权与实际交付要求。本研究尚未完成平台选型或集成。</p></div></details>
+  </section>
+
+  <section class="section value-section" id="value"><div class="wrap">
+    <div class="section-heading"><p class="eyebrow">05 / 价值与边界</p><h2>用实际复用效果，判断是否值得继续投入。</h2><p>当前可以确认已有产物和实现经验；效率提升、客户理解与商业收益需要独立验证。</p></div>
+    <div class="value-grid"><article><span class="tag">已经获得</span><h3>资产、代码和验收经验。</h3><p>留下家具与材质、行走和门交互、三维庭院、恢复机制、23项检查及原始记录。后续样本可以在这些基础上继续制作。</p></article><article><span class="tag outline">目标价值</span><h3>让新方案少一些重复劳动。</h3><p>希望减少重复建模、摆放返工和视觉修正，让用户亲自观察比例、通道与视野。减少多少人工、是否改善沟通，尚未测量。</p></article><article><span class="tag outline">产品验证</span><h3>确认新户型能稳定做出来。</h3><p>记录生成时长、人工修改量、误放和通行问题、冷加载与运行表现。用第二、第三套样本判断，价值能否超出素材与模板复用。</p></article></div>
+    <div class="boundary"><h3>当前能力范围</h3><ul><li>可漫游是真正的三维网格和视点移动；视觉与原效果图仍有差异。</li><li>当前只有一套参考图驱动的房间，尚未证明任意户型一键生成、尺寸测量或施工交付能力。</li><li>网页端可行走和操作场景，家具拖拽与新方案编辑器尚未制作。</li><li>本机短期验收不代表所有设备、无限时长或真实客户使用都已通过；没有测量商业收入或省时比例。</li></ul></div>
+  </div></section>
+
+  <section class="section wrap" id="validation">
+    <div class="section-heading"><p class="eyebrow">06 / 怎样把体验做实</p><h2>从“看起来像”，到能操作、能检查。</h2><p>以下是2026年11月15日的本机探索记录。公开整理和部署检查单独记录，不把历史结果当作所有设备上的保证。</p></div>
+    <div class="metrics"><div><strong>8轮</strong><span>入户至阳台路线</span></div><div><strong>41次</strong><span>昼夜切换</span></div><div><strong>2次</strong><span>主动图形中断恢复</span></div><div><strong>23项</strong><span>当前回归检查</span></div></div>
+    <ol class="timeline"><li><h3>先修正物件与空间。</h3><p>按实际模型包围盒落地和支撑，补齐门、玄关与阳台通行；改进沙发、电视、布料、地毯、木材与三维窗外环境。</p></li><li><h3>再处理白屏与恢复。</h3><p>确认图形上下文丢失后原先缺少应用层恢复。增加暂停、提示、环境光与缓冲重建，以及保留位置和路线的自动重连。</p></li><li><h3>同时核对恢复画质。</h3><p>取消长期低分辨率恢复配置，前后使用相同像素预算和抗锯齿；恢复时异步准备材质，预热后返回正常帧率。</p></li><li><h3>最后多轮交叉操作。</h3><p>边走动边转向与切换昼夜，并多次整圈环视。最终修正后的最后4轮检查点59–60 FPS，资源数量稳定；加载与恢复准备仍可能等待。</p></li></ol>
+    <details><summary>查看完整验证范围、原始记录与局限</summary><div class="details-body"><p>约17分钟为包含诊断、修改加载和主动恢复的分段验收，并非全程没有加载中断。第三轮曾短时降帧后正常抵达；当时未确认单一原因。补充计时后定位到冷加载与恢复资源准备开销，不能直接断言两者原因相同。</p><p>最后4轮没有新增超过250ms的操作阶段长帧；首次加载与恢复首帧仍有准备耗时。恢复前后同机位维持1188×1136与2倍MSAA，恢复后90帧以30FPS预热，再回到60FPS。这些数值只对应当时本机视口。</p><p class="link-list"><a href="materials/design-qa.md">完整探索验收记录</a><a href="materials/soak-results-v14.json">8轮原始数据</a><a href="materials/recovery-test-results-v13.json">图形恢复测试</a><a href="materials/normal-flow-results-v13.json">早期正常流程数据</a><a href="verification/publication-check.json">公开包检查记录</a></p></div></details>
+  </section>
+
+  <section class="section next-section" id="next"><div class="wrap">
+    <div class="section-heading"><p class="eyebrow">07 / 下一步研究</p><h2>用三套不同户型，验证同一套流程。</h2><p>先限定客餐厅和一种风格，避免扩库规模掩盖流程能否真正复用。</p></div>
+    <div class="next-steps"><article><span>01</span><h3>统一标准</h3><p>明确户型、门窗、支撑面、家具、材质和布局的描述格式，以及资产锚点、尺寸与许可。</p></article><article><span>02</span><h3>整理最小库与模板</h3><p>从当前房间整理核心家具、参数化结构、运行工具和验收规则，不承诺当前已是通用完整库。</p></article><article><span>03</span><h3>试跑不同户型</h3><p>选择空间大小、门窗和通路不同的三套样本，记录人工介入的位置、原因与耗时。</p></article><article><span>04</span><h3>按失败点扩展</h3><p>补充真正缺失的资产和规则，再比较生成效果、人工修正与运行稳定性，决定后续投入。</p></article></div>
+    <p class="next-status"><span class="dot"></span> 跨户型验证：尚未开始。当前公开的是研究理解、已有原型和验证记录。</p>
+  </div></section>
+
+  <section class="section wrap" id="sources">
+    <div class="section-heading"><p class="eyebrow">08 / 来源与继续研究</p><h2>保留原始依据，也保留尚未完成的部分。</h2></div>
+    <div class="sources-grid"><article><h3>研究起点与架构参考</h3><ul><li><a href="https://x.com/everestchris6/status/2120175941616128277" target="_blank" rel="noopener noreferrer">everestchris6 原帖</a>：本次讨论入口，不据此推断作者完整实现。</li><li><a href="https://threejs.org/" target="_blank" rel="noopener noreferrer">Three.js</a>：当前实时渲染基础，运行时版本0.187.0。</li><li><a href="https://interioragent.github.io/docs/object-registration" target="_blank" rel="noopener noreferrer">InteriorAgent 资产注册</a>与<a href="https://interioragent.github.io/docs/constraints" target="_blank" rel="noopener noreferrer">空间约束</a>：推荐架构参考，未在当前原型中接入其系统。</li><li><a href="https://infinigen.org/" target="_blank" rel="noopener noreferrer">Infinigen</a>：参数化生成方向参考，未在当前原型中运行。</li></ul></article><article><h3>素材、源码与制作记录</h3><ul><li>家具、室内植物、HDR与部分材质来自Poly Haven CC0资源；地毯来自ambientCG CC0。</li><li>庭院树形使用EZ-Tree 1.1.0生成，保留MIT许可及固定参数，树皮复用已记录的CC0贴图。</li><li><a href="materials/ASSET-SOURCES.md">素材来源与许可证索引</a> · <a href="publication-manifest.json">公开文件清单及哈希</a></li><li><a href="https://github.com/yydshly/20261104_codex_project/tree/main/projects/030-warm-home-space">完整研究摘要与发布工具</a> · <a href="https://github.com/yydshly/20261104_codex_project/tree/main/docs/030-warm-home-space/demo">公开原型源码与资产</a></li></ul></article></div>
+  </section>
+</main>
+<footer class="site-footer wrap"><p>栖居 · AI装修空间生成研究 <span>研究总库 030 / 2026.11.21</span></p><div><a href="../">返回研究总库</a><a href="demo/">进入3D原型</a><a href="README.md">完整研究摘要</a></div></footer>
+<dialog id="image-dialog" aria-label="查看完整图片"><div class="dialog-bar"><p id="image-title"></p><button type="button" id="close-image" aria-label="关闭完整图片">关闭 ×</button></div><img id="dialog-image" alt=""><a id="download-image" download>下载原图 ↓</a></dialog>
+</body></html>

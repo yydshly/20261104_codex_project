@@ -1,0 +1,9 @@
+{
+  "name": "warm-home-walkthrough",
+  "version": "1.13.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check app.js && node --check balcony-life.js && node --check canopy-vegetation.js && node --check courtyard-layout.js && node --check courtyard-scene.js && node --check door-motion.js && node --check entrance.js && node --check furniture-assets.js && node --check garden-details.js && node --check garden-layout.js && node --check object-details.js && node --check outdoor-materials.js && node --check realism.js && node --check reflection-refresh.js && node --check render-recovery.js && node --check residential-buildings.js && node --check screen-reflection.js && node --check shader-warmup.js && node --check soft-furnishings.js && node --check surface-finishes.js && node --check upholstery.js && node --test canopy-assets.test.js courtyard-layout.test.js door-motion.test.js reflection-refresh.test.js render-recovery.test.js shader-warmup.test.js"
+  }
+}

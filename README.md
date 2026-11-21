@@ -35,6 +35,8 @@
 | 027 | [奇幻影像与世界构造研究](projects/027-surreal-motion-study/README.md) | [@hi_personality原帖](https://x.com/hi_personality/status/2115567493565825244) · [巨构参考](https://x.com/EiiKwesiKay/status/2120958808789029021) | 从奇幻骑行原片提炼光色、反向规则、空间构图、主体情绪、相机、音乐节律和世界一致性七条主轴。以原创关键帧、十种效果、局部预演、一条用户通过的AI舞步和三个世界候选，沉淀关系、参数、提示词与验收方法；区分HDR与高曝光，连续3D、稳定生成与产品价值仍待验证。 | [已有研究总图](#surreal-motion-guide) | [在线研究与效果](https://yydshly.github.io/20261104_codex_project/027-surreal-motion-study/) |
 | 028 | [地球里的小世界：连续生态世界与痕迹记忆](projects/028-earth-within/README.md) | 自主实践 · [Three.js](https://github.com/mrdoob/three.js) · [MiniMax](https://www.minimax.io/) | 研究怎样以小岚为中心，把雪山、河谷、森林、河口与海底接成可自由行走的世界，让天气、水流、动物、声音和足迹共同回应人的行动。15个观察点、27幕图鉴、雨洪潮汐、游泳跃水、干湿脚印与MiniMax导览构成可操作原型；沉淀共享状态、触地事件、环境记忆和连续导览的复用方法，服务自然科普、数字展陈与探索体验。流体和生态为简化模型，动作真实度、长时性能与学习/商业收益仍需验证。 | [本轮全景引导图](#earth-within-guide) | [在线研究与自由探索](https://yydshly.github.io/20261104_codex_project/028-earth-within/) |
 | 029 | [青白造境：风格作品与现实应用研究](projects/029-blue-white-relief/README.md) | [Zidan子丹原帖](https://x.com/liluocheng13/status/2121285407824572635) · 自主图像、视频与网页交付实践 | 从青花山水参考出发，研究瓷质体积、色彩、通路与留白怎样沉淀为作品和交付方法。三题材静帧、五段AI原片、两段校正短片、概念展示页与可编辑模板，验证了样本制作、局部修正和网页复用。价值在作品资产、可追溯经验与交付工具；真实商品、地方或故事的保真和商业效果仍待验证。 | [已有理解引导图](#blue-white-relief-guide) | [在线研究、效果与模板](https://yydshly.github.io/20261104_codex_project/029-blue-white-relief/) |
+| 030 | [从户型到可漫游空间：AI装修生成研究](projects/030-warm-home-space/README.md) | [everestchris6原帖](https://x.com/everestchris6/status/2120175941616128277) · [Three.js](https://github.com/mrdoob/three.js) · [InteriorAgent架构参考](https://interioragent.github.io/docs/) | 从原木风参考图做出可从入户走到阳台的3D小家，研究户型输入、标准素材库、空间规则、模型设计与渲染验收的组合。保留实际效果、已有引导图、8轮操作与41次昼夜切换记录，沉淀资产、代码与恢复经验；跨户型自动适配、人工省时与商业收益仍待验证。 | [已有补充版引导图](#warm-home-space-guide) | [在线研究与3D体验](https://yydshly.github.io/20261104_codex_project/030-warm-home-space/) |
+| 031 | [海景、人物与可复用场景研究](projects/031-ocean-light-atlas/README.md) | [PEBIT海面参考](https://x.com/_pebit_/status/2121174301319831916) · [Three.js](https://github.com/mrdoob/three.js) · [Rocketbox](https://github.com/microsoft/Microsoft-Rocketbox) | 从20项海面视觉参考与80份扩展方案出发，以实拍对照理解光照、海况、观看角度与镜头处理，再用海边玻璃屋验证可进入、可停留的观海体验。海面碎光、近岸浪、水光、0597自主走动坐起与环境声已形成4.3基线，另保留成品角色、旧版换装及静态候选。价值在效果依据、场景模块、人物适配流程和可回看版本；自然度、跨角色通用性与产品需求仍待验证。 | [已有研究引导图](#ocean-light-atlas-guide) | [在线研究与四类人物效果](https://yydshly.github.io/20261104_codex_project/031-ocean-light-atlas/) |
 
 项目按收录顺序从 `001` 开始编号。新条目按编号追加，已分配的编号保持固定。索引摘要用一两句话写清研究对象和关注点。完成验证后，可补上一条主要发现。
 
@@ -452,3 +454,39 @@ Adam Chernick 个人制作、扩展和组合的网页 3D 实验，部分基于 T
 引导图原样复用本轮已生成的2800×2366图，图内146条为此前本地快照，公开索引以网页为准。历史AI视频实际累计375积分，网页、模板和本次发布未新增生成任务；静帧未提供积分记录。原帖媒体保留本地归档，公开页保留出处与文字观察。
 
 [研究与一图理解](https://yydshly.github.io/20261104_codex_project/029-blue-white-relief/#guide-image) · [当前成品](https://yydshly.github.io/20261104_codex_project/029-blue-white-relief/#results) · [能力与边界](https://yydshly.github.io/20261104_codex_project/029-blue-white-relief/#capabilities) · [概念展示页](https://yydshly.github.io/20261104_codex_project/029-blue-white-relief/tea/) · [本地模板](https://yydshly.github.io/20261104_codex_project/029-blue-white-relief/tea/studio.html) · [完整摘要](projects/029-blue-white-relief/README.md)
+
+<a id="warm-home-space-guide"></a>
+
+### 030 · 从户型到可漫游空间：AI装修生成研究
+
+研究方向是“给户型，生成可修改、可走进去体验的3D装修方案”。本轮从一张原木风效果参考补建单套小家，实际完成入户门、玄关、客餐厅、阳台与三维庭院，并通过走动、转向、昼夜和图形恢复理解空间生成的条件与运行代价。
+
+![原样沿用的AI装修空间引导图：推荐流程、素材与参数化组件、效果参考与原型预览、当前验证范围和后续跨户型试跑](docs/030-warm-home-space/media/ai-interior-workflow-v2.png)
+
+当前可操作原型使用模型的设计与编程能力、Three.js、家具模型和材质资产共同完成；没有训练新图生3D模型，也没有改变模型权重。我们的理解是：先统一场景与资产标准，再以小型素材库、参数化结构、布局约束和固定验收组织流程。沉淀的是资产、规则、代码工具与制作经验，价值能否超出固定模板，需要新户型验证。
+
+历史分段验收完成8轮入户至阳台、41次昼夜切换及两次主动图形中断；最终修正后的最后4轮操作与资源稳定，当前23项回归检查通过。已有引导图原样复用，原始截图与可操作空间单独提供，避免把AI排版预览当作原始实景。
+
+当前只有一套参考图驱动房间，网页没有上传户型自动生成、家具拖拽或工程级尺寸交付。跨户型自动适配、实际省时、客户理解与商业收益尚未证明；下一步以三套尺寸、门窗和通路不同的户型记录生成耗时、人工修正和运行稳定性。
+
+[在线研究与我们的理解](https://yydshly.github.io/20261104_codex_project/030-warm-home-space/) · [亲自走进小家](https://yydshly.github.io/20261104_codex_project/030-warm-home-space/demo/) · [原始效果](https://yydshly.github.io/20261104_codex_project/030-warm-home-space/#results) · [已有引导图](https://yydshly.github.io/20261104_codex_project/030-warm-home-space/#guide) · [完整研究摘要](projects/030-warm-home-space/README.md)
+
+<a id="ocean-light-atlas-guide"></a>
+
+### 031 · 走进海的光影里：海景、人物与可复用场景研究
+
+从20项海面视觉参考与80份扩展方案出发，以实拍对照理解光照、海况、观看角度与镜头处理，再用海边玻璃屋验证可进入、可停留的观海体验。海面碎光、近岸浪、水光、0597自主走动坐起与环境声已形成4.3基线，另保留成品角色、旧版换装及静态候选。价值在效果依据、场景模块、人物适配流程和可回看版本；自然度、跨角色通用性与产品需求仍待验证。
+
+![原样复用已生成的海景研究总结图：研究目标、四类人物呈现、对我们的价值及当前限制](projects/031-ocean-light-atlas/assets/ocean-research-summary-20261121.png)
+
+**研究方向：** 研究怎样把特定环境、太阳位置与观看角度下的海面光影，组织成以海为主体的网页3D风景。玻璃屋提供框景与冷暖层次，人物提供尺度、移动和自主停留；以实际画面的自然度、氛围、声画关系与操作感受推动制作。
+
+**实际效果：** 已整理20项参考、80份扩展方案和逐项实拍对照。4.3固定演示包含海面反光与近岸薄浪、室内水光、三种天色预设、0597自主移动及台阶支撑、五处指定坐起、眨眼与约11秒固定中文讲解、风浪和脚步混音及浪群相位联动。四类人物入口保留各自能力差异，尚无统一即时换人。
+
+**对我们的价值：** 把一次试做沉淀为可继续使用的制作基础：参考和实拍帮助判断效果；海面、光照、声音、控制与镜头可按需沿用；模型、骨架、动作及接触检查给出新角色接入路径；固定版本、源码、来源与实录支持回看比较。尚无省时、学习成效、持续使用或付费转化的量化结论。
+
+**后续与边界：** 围绕同一片海按需考虑太阳东升西落、全天环境、涨退潮、海风和岸边风灯。当前只记录目标画面与制作路线，没有实现连续太阳或潮汐；其他空间和人物活动草案作为次要回查，暂不扩展产品。 海面与声音为近似，最新接触与面部适配集中于0597，不把静态候选、历史换装与当前可动能力混为一谈。
+
+引导图原样使用此前已生成图，属于研究总结示意；实际效果、来源、复用步骤与限制在网页分别列明。4.3固定资源保持字节一致。
+
+[研究与一图理解](https://yydshly.github.io/20261104_codex_project/031-ocean-light-atlas/) · [实际录屏](https://yydshly.github.io/20261104_codex_project/031-ocean-light-atlas/#effects) · [四类人物](https://yydshly.github.io/20261104_codex_project/031-ocean-light-atlas/#characters) · [怎么复用](https://yydshly.github.io/20261104_codex_project/031-ocean-light-atlas/#research) · [完整摘要与源码](projects/031-ocean-light-atlas/README.md)

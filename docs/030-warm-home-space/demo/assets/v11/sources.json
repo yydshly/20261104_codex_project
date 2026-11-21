@@ -1,0 +1,80 @@
+{
+  "generator": "EZ-Tree 1.1.0",
+  "license": "MIT",
+  "source": "https://github.com/dgreenheck/ez-tree",
+  "textureLicense": "https://github.com/dgreenheck/ez-tree/blob/main/src/app/public/textures/LICENSE.md",
+  "bark": "Reused CC0 Poly Haven Island Tree 01 branch diffuse, recorded in assets/v9/sources.json",
+  "authoring": "tools/build-canopy-models.mjs",
+  "files": [
+    {
+      "file": "assets/v11/oak_leaves.png",
+      "source": "@dgreenheck/ez-tree 1.1.0 / src/lib/assets/leaves/oak_color.png",
+      "license": "MIT",
+      "sha256": "24451223cf396d22910a4932b8bb996a7274e63d81e24128c96a430ab67822b1"
+    },
+    {
+      "file": "assets/v11/ash_leaves.png",
+      "source": "@dgreenheck/ez-tree 1.1.0 / src/lib/assets/leaves/ash_color.png",
+      "license": "MIT",
+      "sha256": "5ec987db3829a839856c32c79b18a33a78f209e911cad55c65abfb77f30e2d29"
+    },
+    {
+      "file": "assets/v11/aspen_leaves.png",
+      "source": "@dgreenheck/ez-tree 1.1.0 / src/lib/assets/leaves/aspen_color.png",
+      "license": "MIT",
+      "sha256": "6c8cbfa3eda0f070df6ebb3c8ec6899400f3c966d1658fcfd9ae518347c2dcb9"
+    }
+  ],
+  "generated": [
+    {
+      "file": "assets/v11/layered-shrub.bin",
+      "bytes": 736416,
+      "sha256": "ccc04dee9c4c3f41b6df8b160653f2c61fda252f10ad72febb7dfc2b9a7b2b7c"
+    },
+    {
+      "file": "assets/v11/layered-shrub.gltf",
+      "bytes": 2903,
+      "sha256": "f4b2d4b7a24d8f04d484451350307aefdcdf3e80a3265e33dcc5b48079ab1885"
+    },
+    {
+      "file": "assets/v11/park-ash-a.bin",
+      "bytes": 5145552,
+      "sha256": "5d5771cd7005bbcf4c480647056f992c41249789f2dcaa4041760c0990f37cc2"
+    },
+    {
+      "file": "assets/v11/park-ash-a.gltf",
+      "bytes": 2919,
+      "sha256": "f06ee5e175e66ee984e2932d4097968ae5d54b53660f0a617b0a4dcd46455217"
+    },
+    {
+      "file": "assets/v11/park-ash-b.bin",
+      "bytes": 5145552,
+      "sha256": "940e00a67a60024ac6d84ae5ea28f9e185d5be7d70a4f97b0412610f824f1a5c"
+    },
+    {
+      "file": "assets/v11/park-ash-b.gltf",
+      "bytes": 2923,
+      "sha256": "722722ff39440eed9fecf3b4617d3484f534bc1b3d124737e1f9a73b8aba8b2e"
+    },
+    {
+      "file": "assets/v11/park-oak-a.bin",
+      "bytes": 5206800,
+      "sha256": "6e2824eaf40165543cf3962e41c874d36610b80b220b71e8ad4043c619c2c3e9"
+    },
+    {
+      "file": "assets/v11/park-oak-a.gltf",
+      "bytes": 2920,
+      "sha256": "554554fb9c4ee00d2776e4a512b3f37c35e7c0310e02a0b223b92b2d05e5b15c"
+    },
+    {
+      "file": "assets/v11/park-oak-b.bin",
+      "bytes": 5206800,
+      "sha256": "4b48b00c846d51185405c448246e1ced2497182116e7c0e1f96705d66b7c41b5"
+    },
+    {
+      "file": "assets/v11/park-oak-b.gltf",
+      "bytes": 2919,
+      "sha256": "652d5856ef923c3aa27aba49f883b428baed403007bdc089ce6c924c8704d1b9"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "park-oak-a",
+    "preset": "oak_large",
+    "seed": 23399,
+    "leaf": "oak",
+    "crownDiameter": 1.1388287903774656,
+    "height": 1,
+    "triangles": 85484,
+    "bytes": 5206800
+  },
+  {
+    "id": "park-oak-b",
+    "preset": "oak_large",
+    "seed": 6129,
+    "leaf": "oak",
+    "crownDiameter": 1.3356194500693022,
+    "height": 1,
+    "triangles": 85484,
+    "bytes": 5206800
+  },
+  {
+    "id": "park-ash-a",
+    "preset": "ash_large",
+    "seed": 29919,
+    "leaf": "ash",
+    "crownDiameter": 1.0376106671572898,
+    "height": 1,
+    "triangles": 83888,
+    "bytes": 5145552
+  },
+  {
+    "id": "park-ash-b",
+    "preset": "ash_large",
+    "seed": 14182,
+    "leaf": "ash",
+    "crownDiameter": 1.0261320174246702,
+    "height": 1,
+    "triangles": 83888,
+    "bytes": 5145552
+  },
+  {
+    "id": "layered-shrub",
+    "preset": "bush_2",
+    "seed": 45590,
+    "leaf": "aspen",
+    "crownDiameter": 1.3077823971563027,
+    "height": 1,
+    "triangles": 10888,
+    "bytes": 736416
+  }
+]

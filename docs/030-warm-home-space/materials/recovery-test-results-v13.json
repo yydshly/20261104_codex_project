@@ -1,0 +1,140 @@
+{
+  "started": "2026-11-15T08:33:28.176Z",
+  "records": [
+    {
+      "case": "native-context-restore-during-entry",
+      "state": {
+        "lost": 1,
+        "restored": 1,
+        "context": "ready",
+        "position": "{\"x\":1.2,\"z\":0.8,\"y\":1.48,\"yaw\":0.549}",
+        "recovery": "{\"state\":\"ready\",\"losses\":1,\"restores\":1,\"conservative\":true,\"reloaded\":false}",
+        "render": "{\"presentedFrames\":2577,\"contextHealthy\":true,\"textures\":106,\"geometries\":423,\"programs\":61,\"drawCalls\":399,\"triangles\":2482766,\"width\":916,\"height\":927,\"samples\":0,\"environmentBuilds\":3,\"maxFps\":60}"
+      }
+    },
+    {
+      "case": "eight-day-night-toggles-and-native-turn",
+      "states": [
+        "false",
+        "true",
+        "false",
+        "true",
+        "false",
+        "true",
+        "false",
+        "true"
+      ],
+      "state": {
+        "lost": 1,
+        "restored": 1,
+        "context": "ready",
+        "position": "{\"x\":0.15,\"z\":-4.08,\"y\":1.48,\"yaw\":0.474}",
+        "recovery": "{\"state\":\"ready\",\"losses\":1,\"restores\":1,\"conservative\":true,\"reloaded\":false}",
+        "render": "{\"presentedFrames\":7271,\"contextHealthy\":true,\"textures\":107,\"geometries\":423,\"programs\":61,\"drawCalls\":165,\"triangles\":1434368,\"width\":916,\"height\":927,\"samples\":0,\"environmentBuilds\":3,\"maxFps\":60}"
+      },
+      "exterior": {
+        "type": "modelled-3d",
+        "groundY": -8.85,
+        "floorHeight": 2.95,
+        "balconyHeight": 8.85,
+        "frontBuildingGap": 27.78,
+        "buildings": 7,
+        "treesExpected": 10,
+        "treesLoaded": 10,
+        "buildingParallax": true,
+        "architecture": {
+          "openWindows": 63,
+          "balconies": 249,
+          "terraces": 2,
+          "planters": 117,
+          "seating": 74,
+          "clothes": 66,
+          "entries": 21
+        },
+        "reflection": {
+          "pending": false,
+          "face": 6,
+          "captures": 11,
+          "resolution": 256
+        },
+        "canopy": {
+          "trees": 10,
+          "shrubs": 24,
+          "variants": [
+            "park-oak-a",
+            "park-oak-b",
+            "park-ash-a",
+            "park-ash-b"
+          ],
+          "triangles": 1109768
+        },
+        "garden": {
+          "beds": 4,
+          "grasses": 36,
+          "flowers": 20,
+          "bollards": 4
+        },
+        "balconyLife": {
+          "plants": 117,
+          "cloths": 66,
+          "plantTriangles": 91260
+        },
+        "materials": "world-stucco+varied-recessed-glass+full-canopy"
+      }
+    },
+    {
+      "case": "automatic-reconnect-without-context-restored",
+      "state": {
+        "lost": 2,
+        "restored": 1,
+        "context": "ready",
+        "position": "{\"x\":0.15,\"z\":-4.08,\"y\":1.48,\"yaw\":0.474}",
+        "recovery": "{\"state\":\"ready\",\"losses\":0,\"restores\":0,\"conservative\":true,\"reloaded\":true}",
+        "render": "{\"presentedFrames\":1545,\"contextHealthy\":true,\"textures\":69,\"geometries\":383,\"programs\":32,\"drawCalls\":165,\"triangles\":1434368,\"width\":916,\"height\":927,\"samples\":0,\"environmentBuilds\":2,\"maxFps\":60}"
+      }
+    },
+    {
+      "case": "repeated-loss-no-reload-loop",
+      "state": {
+        "lost": 3,
+        "restored": 1,
+        "context": "failed",
+        "position": "{\"x\":0.15,\"z\":-4.08,\"y\":1.48,\"yaw\":0.474}",
+        "recovery": "{\"state\":\"failed\",\"losses\":1,\"restores\":0,\"conservative\":true,\"reloaded\":true}",
+        "render": "{\"presentedFrames\":2331,\"contextHealthy\":true,\"textures\":69,\"geometries\":383,\"programs\":32,\"drawCalls\":165,\"triangles\":1434368,\"width\":916,\"height\":927,\"samples\":0,\"environmentBuilds\":2,\"maxFps\":60}"
+      },
+      "retryVisible": true
+    },
+    {
+      "case": "late-native-restore-after-retry-guard",
+      "state": {
+        "lost": 3,
+        "restored": 2,
+        "context": "ready",
+        "position": "{\"x\":0.15,\"z\":-4.08,\"y\":1.48,\"yaw\":0.474}",
+        "recovery": "{\"state\":\"ready\",\"losses\":1,\"restores\":1,\"conservative\":true,\"reloaded\":true}",
+        "render": "{\"presentedFrames\":5125,\"contextHealthy\":true,\"textures\":69,\"geometries\":366,\"programs\":29,\"drawCalls\":165,\"triangles\":1434368,\"width\":916,\"height\":927,\"samples\":0,\"environmentBuilds\":3,\"maxFps\":60}"
+      }
+    }
+  ],
+  "logs": [
+    {
+      "level": "log",
+      "message": "THREE.WebGLRenderer: Context Lost.",
+      "timestamp": "2026-11-15T08:42:09.135Z",
+      "url": "http://127.0.0.1:4838/vendor/three.core.js"
+    },
+    {
+      "level": "log",
+      "message": "THREE.WebGLRenderer: Context Lost.",
+      "timestamp": "2026-11-15T08:43:00.166Z",
+      "url": "http://127.0.0.1:4838/vendor/three.core.js"
+    },
+    {
+      "level": "log",
+      "message": "THREE.WebGLRenderer: Context Restored.",
+      "timestamp": "2026-11-15T08:43:31.205Z",
+      "url": "http://127.0.0.1:4838/vendor/three.core.js"
+    }
+  ]
+}

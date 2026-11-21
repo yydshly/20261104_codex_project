@@ -1,0 +1,142 @@
+{
+  "provider": "Poly Haven",
+  "license": "CC0 1.0",
+  "license_url": "https://polyhaven.com/license",
+  "assets": [
+    "https://polyhaven.com/a/island_tree_01",
+    "https://polyhaven.com/a/aerial_grass_rock",
+    "https://polyhaven.com/a/pavement_03"
+  ],
+  "files": [
+    {
+      "file": "assets/v9/island_tree_01/island_tree_01_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/island_tree_01/island_tree_01_1k.gltf",
+      "bytes": 8576,
+      "sha256": "78e905a40670bfabb2760601d4d9a6c17193a50d68e6271c66893eb7bd75906d"
+    },
+    {
+      "file": "assets/v9/island_tree_01/textures/island_tree_01_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/island_tree_01/island_tree_01_nor_gl_1k.jpg",
+      "bytes": 1207134,
+      "sha256": "ca22e428e1b1ebac47b2fc67ec355700c8779d6628d2fc6c3ebae9002988f63e"
+    },
+    {
+      "file": "assets/v9/island_tree_01/textures/island_tree_01_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/island_tree_01/island_tree_01_diff_1k.jpg",
+      "bytes": 791327,
+      "sha256": "51bff9a3a6ed7d89ff4c73f01708b7267ed8d7a82b0cb12343741894f708218f"
+    },
+    {
+      "file": "assets/v9/island_tree_01/textures/island_tree_01_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/island_tree_01/island_tree_01_arm_1k.jpg",
+      "bytes": 727403,
+      "sha256": "bf972dff0fbc71f146b4c02103fc3596477a49a9eff46b87b13c89b7b90d18ca"
+    },
+    {
+      "file": "assets/v9/island_tree_01/textures/island_tree_01_leaves_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/island_tree_01/island_tree_01_leaves_nor_gl_1k.jpg",
+      "bytes": 379443,
+      "sha256": "07ba461c0c95da4e49a42981766bdb6191d4c3c4d815796c082266dcc3cecdb8"
+    },
+    {
+      "file": "assets/v9/island_tree_01/textures/island_tree_01_leaves_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/island_tree_01/island_tree_01_leaves_diff_1k.jpg",
+      "bytes": 191886,
+      "sha256": "f56d762a1507754752abf164cc12acbc1e87ce87fa609ac44b98a1b0037c89d8"
+    },
+    {
+      "file": "assets/v9/island_tree_01/textures/island_tree_01_leaves_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/island_tree_01/island_tree_01_leaves_arm_1k.jpg",
+      "bytes": 489476,
+      "sha256": "90da3a072dbcb052715b1313b9dbc69a4aa8a09a31a4b3868411a2bb51d72037"
+    },
+    {
+      "file": "assets/v9/island_tree_01/textures/island_tree_01_branches_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/island_tree_01/island_tree_01_branches_nor_gl_1k.jpg",
+      "bytes": 819101,
+      "sha256": "2d67393ba76a0f49cf965fa0c99d8c16268e71e87b1203d35539bfdb971a514e"
+    },
+    {
+      "file": "assets/v9/island_tree_01/textures/island_tree_01_branches_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/island_tree_01/island_tree_01_branches_diff_1k.jpg",
+      "bytes": 528304,
+      "sha256": "bee5ec22196e9e31ad0c95a5a9b4636571cc0124d5bb27a92f1e307d289cc60d"
+    },
+    {
+      "file": "assets/v9/island_tree_01/textures/island_tree_01_branches_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/island_tree_01/island_tree_01_branches_arm_1k.jpg",
+      "bytes": 484806,
+      "sha256": "9e3f82263247ce4f619692cea4c4f6fe9936ff465a86623481849062642c7d05"
+    },
+    {
+      "file": "assets/v9/island_tree_01/island_tree_01.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/island_tree_01/island_tree_01.bin",
+      "bytes": 60709812,
+      "sha256": "1faa817b46e24ed6fc90d3ec72188a0dc5ac75e82c89b3dd3c5fdaecf7cc005c"
+    },
+    {
+      "file": "assets/v9/aerial_grass_rock/aerial_grass_rock_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/aerial_grass_rock/aerial_grass_rock_diff_1k.jpg",
+      "bytes": 666655,
+      "sha256": "57b8041bfe0d0f01430e4dbaad45e7ddddf0a9fc97317f90dbc51f7b0d9e1b5d"
+    },
+    {
+      "file": "assets/v9/aerial_grass_rock/aerial_grass_rock_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/aerial_grass_rock/aerial_grass_rock_nor_gl_1k.jpg",
+      "bytes": 904956,
+      "sha256": "1aa3e23bff453f152e089b9f83aa36b4901651e019f7e2ca01d5331a9bbbda78"
+    },
+    {
+      "file": "assets/v9/aerial_grass_rock/aerial_grass_rock_rough_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/aerial_grass_rock/aerial_grass_rock_rough_1k.jpg",
+      "bytes": 362214,
+      "sha256": "b9f3f76aba74007f708333c0dbe73c52eb83ea0c4187a13e2e994f888a25114a"
+    },
+    {
+      "file": "assets/v9/pavement_03/pavement_03_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/pavement_03/pavement_03_diff_1k.jpg",
+      "bytes": 1119611,
+      "sha256": "27cb62f96c03ac300aed5d1a67a10fe57eed7c58904a31da9d2f45a851d19e90"
+    },
+    {
+      "file": "assets/v9/pavement_03/pavement_03_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/pavement_03/pavement_03_nor_gl_1k.jpg",
+      "bytes": 1180142,
+      "sha256": "92d30168e2aed1f44fa779b8906566dbf00d77d4195e13a7f92b7c555cae9f85"
+    },
+    {
+      "file": "assets/v9/pavement_03/pavement_03_rough_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/pavement_03/pavement_03_rough_1k.jpg",
+      "bytes": 498023,
+      "sha256": "ba7547ecaaddf5136a312b4e189bb187983164490154ffa228da08bd952d75c7"
+    }
+  ],
+  "processing": {
+    "tool": "meshoptimizer 1.3.0",
+    "license": "MIT",
+    "script": "tools/optimize-tree.mjs",
+    "source": "https://github.com/zeux/meshoptimizer"
+  },
+  "generated": [
+    {
+      "file": "assets/v9/island_tree_01/island_tree_01_near.gltf",
+      "bytes": 5315,
+      "sha256": "4a444469d8268ee4163ac1048df19186a5eac48573a980d2565b2c0434c48157"
+    },
+    {
+      "file": "assets/v9/island_tree_01/island_tree_01_near.bin",
+      "bytes": 13527084,
+      "sha256": "75b3c1099e628e89f25969cee02b6ab9cf21354bca667aeedfaeccbd4116c7ac"
+    },
+    {
+      "file": "assets/v9/island_tree_01/island_tree_01_far.gltf",
+      "bytes": 5302,
+      "sha256": "124cca6e56863469b9e73398a32859267d10677c3b074103ea09b90a0bfc29e8"
+    },
+    {
+      "file": "assets/v9/island_tree_01/island_tree_01_far.bin",
+      "bytes": 6877400,
+      "sha256": "c0e5aa6f1702b72124fefbc90301262d54dee203a269855e59f6fb035921b635"
+    }
+  ]
+}

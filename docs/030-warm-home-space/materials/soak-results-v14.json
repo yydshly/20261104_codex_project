@@ -1,0 +1,5587 @@
+{
+  "started": "2026-11-15T08:55:01.390Z",
+  "finished": "2026-11-15T09:12:13.979Z",
+  "records": [
+    {
+      "at": "2026-11-15T08:55:58.213Z",
+      "label": "round-1-start",
+      "door": "closed",
+      "fps": 47,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 1305,
+        "environmentBuilds": 2,
+        "frameMs": {
+          "p95": 45.8,
+          "recentMax": 762.4,
+          "slow250Total": 10
+        },
+        "geometries": 444,
+        "height": 1178,
+        "maxFps": 60,
+        "presentedFrames": 1084,
+        "programs": 62,
+        "samples": 2,
+        "textures": 106,
+        "triangles": 5943956,
+        "warming": false,
+        "width": 1145
+      },
+      "night": false,
+      "path": 0,
+      "position": {
+        "x": 0.85,
+        "y": 1.48,
+        "yaw": 0,
+        "z": 8.18
+      },
+      "recovery": {
+        "losses": 0,
+        "reloaded": false,
+        "restores": 0,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 1,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      }
+    },
+    {
+      "at": "2026-11-15T08:56:31.056Z",
+      "label": "round-1-turning-while-walking",
+      "door": "open",
+      "fps": 52,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 1152,
+        "environmentBuilds": 2,
+        "frameMs": {
+          "p95": 29.3,
+          "recentMax": 41.6,
+          "slow250Total": 10
+        },
+        "geometries": 444,
+        "height": 1178,
+        "maxFps": 60,
+        "presentedFrames": 2442,
+        "programs": 62,
+        "samples": 2,
+        "textures": 107,
+        "triangles": 5501494,
+        "warming": false,
+        "width": 1145
+      },
+      "night": true,
+      "path": 0,
+      "position": {
+        "x": 0.785,
+        "y": 1.48,
+        "yaw": 0.225,
+        "z": 6.606
+      },
+      "recovery": {
+        "losses": 0,
+        "reloaded": false,
+        "restores": 0,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 2,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      }
+    },
+    {
+      "at": "2026-11-15T08:56:33.950Z",
+      "label": "round-1-foyer",
+      "door": "open",
+      "fps": 48,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 793,
+        "environmentBuilds": 2,
+        "frameMs": {
+          "p95": 33.2,
+          "recentMax": 41.7,
+          "slow250Total": 10
+        },
+        "geometries": 444,
+        "height": 1178,
+        "maxFps": 60,
+        "presentedFrames": 2585,
+        "programs": 62,
+        "samples": 2,
+        "textures": 107,
+        "triangles": 5296022,
+        "warming": false,
+        "width": 1145
+      },
+      "night": false,
+      "path": 0,
+      "position": {
+        "x": 0.623,
+        "y": 1.48,
+        "yaw": 0.053,
+        "z": 4.002
+      },
+      "recovery": {
+        "losses": 0,
+        "reloaded": false,
+        "restores": 0,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 2,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      }
+    },
+    {
+      "at": "2026-11-15T08:57:19.448Z",
+      "label": "round-1-living-manual",
+      "door": "open",
+      "fps": 57,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 415,
+        "environmentBuilds": 2,
+        "frameMs": {
+          "p95": 25.2,
+          "recentMax": 37.4,
+          "slow250Total": 10
+        },
+        "geometries": 444,
+        "height": 1178,
+        "maxFps": 60,
+        "presentedFrames": 4854,
+        "programs": 62,
+        "samples": 2,
+        "textures": 107,
+        "triangles": 2709034,
+        "warming": false,
+        "width": 1145
+      },
+      "night": false,
+      "path": 0,
+      "position": {
+        "x": 0.442,
+        "y": 1.48,
+        "yaw": 0.033,
+        "z": 0.948
+      },
+      "recovery": {
+        "losses": 0,
+        "reloaded": false,
+        "restores": 0,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 4,
+        "face": 4,
+        "pending": true,
+        "resolution": 256
+      }
+    },
+    {
+      "at": "2026-11-15T08:58:02.654Z",
+      "label": "round-1-balcony",
+      "door": "open",
+      "fps": 60,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 177,
+        "environmentBuilds": 2,
+        "frameMs": {
+          "p95": 16.8,
+          "recentMax": 25,
+          "slow250Total": 10
+        },
+        "geometries": 444,
+        "height": 1178,
+        "maxFps": 60,
+        "presentedFrames": 7402,
+        "programs": 62,
+        "samples": 2,
+        "textures": 107,
+        "triangles": 1447640,
+        "warming": false,
+        "width": 1145
+      },
+      "night": true,
+      "path": 0,
+      "position": {
+        "x": 0.15,
+        "y": 1.48,
+        "yaw": 0.012,
+        "z": -4.08
+      },
+      "recovery": {
+        "losses": 0,
+        "reloaded": false,
+        "restores": 0,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 6,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      }
+    },
+    {
+      "at": "2026-11-15T08:58:04.069Z",
+      "label": "round-1-complete",
+      "door": "open",
+      "fps": 59,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 144,
+        "environmentBuilds": 2,
+        "frameMs": {
+          "p95": 16.8,
+          "recentMax": 25,
+          "slow250Total": 10
+        },
+        "geometries": 444,
+        "height": 1178,
+        "maxFps": 60,
+        "presentedFrames": 7462,
+        "programs": 62,
+        "samples": 2,
+        "textures": 107,
+        "triangles": 1443450,
+        "warming": false,
+        "width": 1145
+      },
+      "night": false,
+      "path": 0,
+      "position": {
+        "x": 0.094,
+        "y": 1.48,
+        "yaw": 0.299,
+        "z": -4.39
+      },
+      "recovery": {
+        "losses": 0,
+        "reloaded": false,
+        "restores": 0,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 7,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      }
+    },
+    {
+      "at": "2026-11-15T08:58:38.760Z",
+      "label": "round-2-start",
+      "door": "closed",
+      "fps": 56,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 1305,
+        "environmentBuilds": 2,
+        "frameMs": {
+          "p95": 16.8,
+          "recentMax": 29.1,
+          "slow250Total": 10
+        },
+        "geometries": 444,
+        "height": 1178,
+        "maxFps": 60,
+        "presentedFrames": 9570,
+        "programs": 62,
+        "samples": 2,
+        "textures": 107,
+        "triangles": 5943956,
+        "warming": false,
+        "width": 1145
+      },
+      "night": false,
+      "path": 0,
+      "position": {
+        "x": 0.85,
+        "y": 1.48,
+        "yaw": 0,
+        "z": 8.18
+      },
+      "recovery": {
+        "losses": 0,
+        "reloaded": false,
+        "restores": 0,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 7,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      }
+    },
+    {
+      "at": "2026-11-15T08:59:19.829Z",
+      "label": "round-2-living",
+      "door": "open",
+      "fps": 60,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 399,
+        "environmentBuilds": 2,
+        "frameMs": {
+          "p95": 16.9,
+          "recentMax": 29.2,
+          "slow250Total": 10
+        },
+        "geometries": 444,
+        "height": 1178,
+        "maxFps": 60,
+        "presentedFrames": 11945,
+        "programs": 62,
+        "samples": 2,
+        "textures": 107,
+        "triangles": 2482766,
+        "warming": false,
+        "width": 1145
+      },
+      "night": true,
+      "path": 0,
+      "position": {
+        "x": 1.2,
+        "y": 1.48,
+        "yaw": 0.549,
+        "z": 0.8
+      },
+      "recovery": {
+        "losses": 0,
+        "reloaded": false,
+        "restores": 0,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 8,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      }
+    },
+    {
+      "at": "2026-11-15T08:59:27.077Z",
+      "label": "round-2-balcony",
+      "door": "open",
+      "fps": 58,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 232,
+        "environmentBuilds": 2,
+        "frameMs": {
+          "p95": 20.8,
+          "recentMax": 58.3,
+          "slow250Total": 10
+        },
+        "geometries": 444,
+        "height": 1178,
+        "maxFps": 60,
+        "presentedFrames": 12354,
+        "programs": 62,
+        "samples": 2,
+        "textures": 107,
+        "triangles": 2786044,
+        "warming": false,
+        "width": 1145
+      },
+      "night": false,
+      "path": 0,
+      "position": {
+        "x": 0.15,
+        "y": 1.48,
+        "yaw": 0.012,
+        "z": -4.08
+      },
+      "recovery": {
+        "losses": 0,
+        "reloaded": false,
+        "restores": 0,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 11,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      }
+    },
+    {
+      "at": "2026-11-15T08:59:28.081Z",
+      "label": "round-2-complete",
+      "door": "open",
+      "fps": 60,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 177,
+        "environmentBuilds": 2,
+        "frameMs": {
+          "p95": 20.8,
+          "recentMax": 58.3,
+          "slow250Total": 10
+        },
+        "geometries": 444,
+        "height": 1178,
+        "maxFps": 60,
+        "presentedFrames": 12415,
+        "programs": 62,
+        "samples": 2,
+        "textures": 107,
+        "triangles": 1447640,
+        "warming": false,
+        "width": 1145
+      },
+      "night": true,
+      "path": 0,
+      "position": {
+        "x": 0.148,
+        "y": 1.48,
+        "yaw": 0.05,
+        "z": -4.125
+      },
+      "recovery": {
+        "losses": 0,
+        "reloaded": false,
+        "restores": 0,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 12,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      }
+    },
+    {
+      "at": "2026-11-15T09:00:06.051Z",
+      "label": "round-3-start",
+      "door": "closed",
+      "fps": 60,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 177,
+        "environmentBuilds": 2,
+        "frameMs": {
+          "p95": 16.8,
+          "recentMax": 29.3,
+          "slow250Total": 10
+        },
+        "geometries": 444,
+        "height": 1178,
+        "maxFps": 60,
+        "presentedFrames": 14706,
+        "programs": 62,
+        "samples": 2,
+        "textures": 107,
+        "triangles": 1447640,
+        "warming": false,
+        "width": 1145
+      },
+      "night": true,
+      "path": 0,
+      "position": {
+        "x": 0.143,
+        "y": 1.48,
+        "yaw": 0.021,
+        "z": -4.09
+      },
+      "recovery": {
+        "losses": 0,
+        "reloaded": false,
+        "restores": 0,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 12,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      }
+    },
+    {
+      "at": "2026-11-15T09:00:15.205Z",
+      "label": "round-3-living",
+      "door": "open",
+      "fps": 57,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 399,
+        "environmentBuilds": 2,
+        "frameMs": {
+          "p95": 20.8,
+          "recentMax": 37.5,
+          "slow250Total": 10
+        },
+        "geometries": 444,
+        "height": 1178,
+        "maxFps": 60,
+        "presentedFrames": 15231,
+        "programs": 62,
+        "samples": 2,
+        "textures": 107,
+        "triangles": 2482766,
+        "warming": false,
+        "width": 1145
+      },
+      "night": false,
+      "path": 0,
+      "position": {
+        "x": 1.2,
+        "y": 1.48,
+        "yaw": 0.549,
+        "z": 0.8
+      },
+      "recovery": {
+        "losses": 0,
+        "reloaded": false,
+        "restores": 0,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 13,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      }
+    },
+    {
+      "at": "2026-11-15T09:00:22.438Z",
+      "label": "round-3-balcony",
+      "door": "open",
+      "fps": 9,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 177,
+        "environmentBuilds": 2,
+        "frameMs": {
+          "p95": 25.1,
+          "recentMax": 375.2,
+          "slow250Total": 13
+        },
+        "geometries": 444,
+        "height": 1178,
+        "maxFps": 60,
+        "presentedFrames": 15525,
+        "programs": 62,
+        "samples": 2,
+        "textures": 107,
+        "triangles": 1447640,
+        "warming": false,
+        "width": 1145
+      },
+      "night": true,
+      "path": 1,
+      "position": {
+        "x": 0.16,
+        "y": 1.48,
+        "yaw": 0.017,
+        "z": -4.034
+      },
+      "recovery": {
+        "losses": 0,
+        "reloaded": false,
+        "restores": 0,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 16,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      }
+    },
+    {
+      "at": "2026-11-15T09:00:53.657Z",
+      "label": "round-3-arrival-followup",
+      "door": "open",
+      "fps": 56,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 177,
+        "environmentBuilds": 2,
+        "frameMs": {
+          "p95": 20.8,
+          "recentMax": 45.9,
+          "slow250Total": 15
+        },
+        "geometries": 444,
+        "height": 1178,
+        "maxFps": 60,
+        "presentedFrames": 17227,
+        "programs": 62,
+        "samples": 2,
+        "textures": 107,
+        "triangles": 1447640,
+        "warming": false,
+        "width": 1145
+      },
+      "night": true,
+      "path": 0,
+      "position": {
+        "x": 0.15,
+        "y": 1.48,
+        "yaw": 0.012,
+        "z": -4.08
+      },
+      "recovery": {
+        "losses": 0,
+        "reloaded": false,
+        "restores": 0,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 16,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      }
+    },
+    {
+      "at": "2026-11-15T09:02:50.047Z",
+      "label": "round-3-complete",
+      "door": "open",
+      "fps": 60,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 180,
+        "environmentBuilds": 2,
+        "frameMs": {
+          "p95": 16.8,
+          "recentMax": 29.3,
+          "slow250Total": 15
+        },
+        "geometries": 444,
+        "height": 1178,
+        "maxFps": 60,
+        "presentedFrames": 24105,
+        "programs": 62,
+        "samples": 2,
+        "textures": 107,
+        "triangles": 1447722,
+        "warming": false,
+        "width": 1145
+      },
+      "night": true,
+      "path": 0,
+      "position": {
+        "x": 0.15,
+        "y": 1.48,
+        "yaw": -0.104,
+        "z": -4.057
+      },
+      "recovery": {
+        "losses": 0,
+        "reloaded": false,
+        "restores": 0,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 17,
+        "face": 5,
+        "pending": true,
+        "resolution": 256
+      }
+    },
+    {
+      "at": "2026-11-15T09:03:56.814Z",
+      "label": "round-4-start",
+      "door": "closed",
+      "fps": 59,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 1313,
+        "environmentBuilds": 2,
+        "frameMs": {
+          "p95": 20.8,
+          "recentMax": 29.2,
+          "slow250Total": 11
+        },
+        "geometries": 444,
+        "height": 1136,
+        "maxFps": 60,
+        "presentedFrames": 2503,
+        "programs": 62,
+        "samples": 2,
+        "slowFrameDetails": [
+          {
+            "at": 1794733380970,
+            "gapMs": 29.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 9510.7,
+            "updateMs": 1.7,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733381374,
+            "gapMs": 9541.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 348.9,
+            "updateMs": 0.3,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733381663,
+            "gapMs": 400,
+            "night": false,
+            "path": 0,
+            "renderMs": 122,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733382207,
+            "gapMs": 287.7,
+            "night": false,
+            "path": 0,
+            "renderMs": 380.6,
+            "updateMs": 0.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733382433,
+            "gapMs": 566.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 103.4,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733383243,
+            "gapMs": 75.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 359,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733383374,
+            "gapMs": 512.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.3,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733384621,
+            "gapMs": 129.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 1132.4,
+            "updateMs": 0.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733384771,
+            "gapMs": 1249.9,
+            "night": false,
+            "path": 0,
+            "renderMs": 37.3,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733387227,
+            "gapMs": 54.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 2360,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733387274,
+            "gapMs": 2395.8,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.1,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733388270,
+            "gapMs": 62.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 246.9,
+            "updateMs": 535,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733388287,
+            "gapMs": 933.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 11.2,
+            "updateMs": 3.7,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733389655,
+            "gapMs": 54.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 680.5,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733389706,
+            "gapMs": 716.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 48,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733391866,
+            "gapMs": 58.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 648.1,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733392338,
+            "gapMs": 654.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 466.2,
+            "updateMs": 0.9,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733392417,
+            "gapMs": 491.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 53.3,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          }
+        ],
+        "textures": 106,
+        "triangles": 5953112,
+        "warming": false,
+        "width": 1188
+      },
+      "path": 0,
+      "position": {
+        "x": 0.85,
+        "y": 1.48,
+        "yaw": 0,
+        "z": 8.18
+      },
+      "recovery": {
+        "losses": 0,
+        "reloaded": false,
+        "restores": 0,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 1,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      },
+      "night": false
+    },
+    {
+      "at": "2026-11-15T09:04:07.069Z",
+      "label": "round-4-living",
+      "door": "open",
+      "fps": 58,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 407,
+        "environmentBuilds": 2,
+        "frameMs": {
+          "p95": 20.9,
+          "recentMax": 41.6,
+          "slow250Total": 11
+        },
+        "geometries": 444,
+        "height": 1136,
+        "maxFps": 60,
+        "presentedFrames": 3074,
+        "programs": 62,
+        "samples": 2,
+        "slowFrameDetails": [
+          {
+            "at": 1794733380970,
+            "gapMs": 29.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 9510.7,
+            "updateMs": 1.7,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733381374,
+            "gapMs": 9541.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 348.9,
+            "updateMs": 0.3,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733381663,
+            "gapMs": 400,
+            "night": false,
+            "path": 0,
+            "renderMs": 122,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733382207,
+            "gapMs": 287.7,
+            "night": false,
+            "path": 0,
+            "renderMs": 380.6,
+            "updateMs": 0.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733382433,
+            "gapMs": 566.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 103.4,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733383243,
+            "gapMs": 75.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 359,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733383374,
+            "gapMs": 512.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.3,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733384621,
+            "gapMs": 129.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 1132.4,
+            "updateMs": 0.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733384771,
+            "gapMs": 1249.9,
+            "night": false,
+            "path": 0,
+            "renderMs": 37.3,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733387227,
+            "gapMs": 54.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 2360,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733387274,
+            "gapMs": 2395.8,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.1,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733388270,
+            "gapMs": 62.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 246.9,
+            "updateMs": 535,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733388287,
+            "gapMs": 933.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 11.2,
+            "updateMs": 3.7,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733389655,
+            "gapMs": 54.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 680.5,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733389706,
+            "gapMs": 716.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 48,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733391866,
+            "gapMs": 58.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 648.1,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733392338,
+            "gapMs": 654.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 466.2,
+            "updateMs": 0.9,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733392417,
+            "gapMs": 491.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 53.3,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          }
+        ],
+        "textures": 107,
+        "triangles": 2696674,
+        "warming": false,
+        "width": 1188
+      },
+      "path": 0,
+      "position": {
+        "x": 1.2,
+        "y": 1.48,
+        "yaw": 0.549,
+        "z": 0.8
+      },
+      "recovery": {
+        "losses": 0,
+        "reloaded": false,
+        "restores": 0,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 2,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      },
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:04:14.842Z",
+      "label": "round-4-balcony-before-recovery",
+      "door": "open",
+      "fps": 60,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 180,
+        "environmentBuilds": 2,
+        "frameMs": {
+          "p95": 16.9,
+          "recentMax": 33.4,
+          "slow250Total": 11
+        },
+        "geometries": 444,
+        "height": 1136,
+        "maxFps": 60,
+        "presentedFrames": 3555,
+        "programs": 62,
+        "samples": 2,
+        "slowFrameDetails": [
+          {
+            "at": 1794733380970,
+            "gapMs": 29.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 9510.7,
+            "updateMs": 1.7,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733381374,
+            "gapMs": 9541.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 348.9,
+            "updateMs": 0.3,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733381663,
+            "gapMs": 400,
+            "night": false,
+            "path": 0,
+            "renderMs": 122,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733382207,
+            "gapMs": 287.7,
+            "night": false,
+            "path": 0,
+            "renderMs": 380.6,
+            "updateMs": 0.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733382433,
+            "gapMs": 566.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 103.4,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733383243,
+            "gapMs": 75.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 359,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733383374,
+            "gapMs": 512.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.3,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733384621,
+            "gapMs": 129.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 1132.4,
+            "updateMs": 0.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733384771,
+            "gapMs": 1249.9,
+            "night": false,
+            "path": 0,
+            "renderMs": 37.3,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733387227,
+            "gapMs": 54.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 2360,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733387274,
+            "gapMs": 2395.8,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.1,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733388270,
+            "gapMs": 62.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 246.9,
+            "updateMs": 535,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733388287,
+            "gapMs": 933.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 11.2,
+            "updateMs": 3.7,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733389655,
+            "gapMs": 54.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 680.5,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733389706,
+            "gapMs": 716.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 48,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733391866,
+            "gapMs": 58.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 648.1,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733392338,
+            "gapMs": 654.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 466.2,
+            "updateMs": 0.9,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733392417,
+            "gapMs": 491.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 53.3,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          }
+        ],
+        "textures": 107,
+        "triangles": 1447722,
+        "warming": false,
+        "width": 1188
+      },
+      "path": 0,
+      "position": {
+        "x": 0.15,
+        "y": 1.48,
+        "yaw": 0.012,
+        "z": -4.08
+      },
+      "recovery": {
+        "losses": 0,
+        "reloaded": false,
+        "restores": 0,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 3,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      },
+      "night": false
+    },
+    {
+      "at": "2026-11-15T09:05:06.509Z",
+      "label": "round-4-recovered-quality",
+      "door": "open",
+      "fps": 60,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 180,
+        "environmentBuilds": 3,
+        "frameMs": {
+          "p95": 16.8,
+          "recentMax": 20.8,
+          "slow250Total": 12
+        },
+        "geometries": 365,
+        "height": 1136,
+        "maxFps": 60,
+        "presentedFrames": 6453,
+        "programs": 33,
+        "samples": 2,
+        "slowFrameDetails": [
+          {
+            "at": 1794733380970,
+            "gapMs": 29.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 9510.7,
+            "updateMs": 1.7,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733381374,
+            "gapMs": 9541.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 348.9,
+            "updateMs": 0.3,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733381663,
+            "gapMs": 400,
+            "night": false,
+            "path": 0,
+            "renderMs": 122,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733382207,
+            "gapMs": 287.7,
+            "night": false,
+            "path": 0,
+            "renderMs": 380.6,
+            "updateMs": 0.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733382433,
+            "gapMs": 566.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 103.4,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733383243,
+            "gapMs": 75.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 359,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733383374,
+            "gapMs": 512.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.3,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733384621,
+            "gapMs": 129.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 1132.4,
+            "updateMs": 0.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733384771,
+            "gapMs": 1249.9,
+            "night": false,
+            "path": 0,
+            "renderMs": 37.3,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733387227,
+            "gapMs": 54.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 2360,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733387274,
+            "gapMs": 2395.8,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.1,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733388270,
+            "gapMs": 62.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 246.9,
+            "updateMs": 535,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733388287,
+            "gapMs": 933.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 11.2,
+            "updateMs": 3.7,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733389655,
+            "gapMs": 54.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 680.5,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733389706,
+            "gapMs": 716.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 48,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733391866,
+            "gapMs": 58.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 648.1,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733392338,
+            "gapMs": 654.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 466.2,
+            "updateMs": 0.9,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733392417,
+            "gapMs": 491.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 53.3,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733456703,
+            "gapMs": 34.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 604.1,
+            "updateMs": 760.7,
+            "x": 0.15,
+            "z": -4.08
+          },
+          {
+            "at": 1794733456737,
+            "gapMs": 1362.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 24.8,
+            "updateMs": 2.6,
+            "x": 0.15,
+            "z": -4.08
+          }
+        ],
+        "textures": 69,
+        "triangles": 1447722,
+        "warming": false,
+        "width": 1188
+      },
+      "path": 0,
+      "position": {
+        "x": 0.15,
+        "y": 1.48,
+        "yaw": 0.012,
+        "z": -4.08
+      },
+      "recovery": {
+        "losses": 1,
+        "reloaded": false,
+        "restores": 1,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 4,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      },
+      "night": false
+    },
+    {
+      "at": "2026-11-15T09:07:32.970Z",
+      "label": "round-4-complete",
+      "door": "open",
+      "fps": 46,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 190,
+        "environmentBuilds": 3,
+        "frameMs": {
+          "p95": 16.8,
+          "recentMax": 254,
+          "slow250Total": 13
+        },
+        "geometries": 367,
+        "height": 1136,
+        "maxFps": 60,
+        "presentedFrames": 15203,
+        "programs": 36,
+        "samples": 2,
+        "slowFrameDetails": [
+          {
+            "at": 1794733381663,
+            "gapMs": 400,
+            "night": false,
+            "path": 0,
+            "renderMs": 122,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733382207,
+            "gapMs": 287.7,
+            "night": false,
+            "path": 0,
+            "renderMs": 380.6,
+            "updateMs": 0.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733382433,
+            "gapMs": 566.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 103.4,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733383243,
+            "gapMs": 75.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 359,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733383374,
+            "gapMs": 512.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.3,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733384621,
+            "gapMs": 129.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 1132.4,
+            "updateMs": 0.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733384771,
+            "gapMs": 1249.9,
+            "night": false,
+            "path": 0,
+            "renderMs": 37.3,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733387227,
+            "gapMs": 54.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 2360,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733387274,
+            "gapMs": 2395.8,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.1,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733388270,
+            "gapMs": 62.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 246.9,
+            "updateMs": 535,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733388287,
+            "gapMs": 933.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 11.2,
+            "updateMs": 3.7,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733389655,
+            "gapMs": 54.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 680.5,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733389706,
+            "gapMs": 716.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 48,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733391866,
+            "gapMs": 58.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 648.1,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733392338,
+            "gapMs": 654.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 466.2,
+            "updateMs": 0.9,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733392417,
+            "gapMs": 491.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 53.3,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733456703,
+            "gapMs": 34.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 604.1,
+            "updateMs": 760.7,
+            "x": 0.15,
+            "z": -4.08
+          },
+          {
+            "at": 1794733456737,
+            "gapMs": 1362.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 24.8,
+            "updateMs": 2.6,
+            "x": 0.15,
+            "z": -4.08
+          },
+          {
+            "at": 1794733652689,
+            "gapMs": 16.7,
+            "night": true,
+            "path": 0,
+            "renderMs": 239.4,
+            "updateMs": 0,
+            "x": 0.14,
+            "z": -3.9
+          },
+          {
+            "at": 1794733652712,
+            "gapMs": 254,
+            "night": true,
+            "path": 0,
+            "renderMs": 3.7,
+            "updateMs": 0.1,
+            "x": 0.14,
+            "z": -3.9
+          }
+        ],
+        "textures": 73,
+        "triangles": 1500412,
+        "warming": false,
+        "width": 1188
+      },
+      "path": 0,
+      "position": {
+        "x": 0.137,
+        "y": 1.48,
+        "yaw": -0.142,
+        "z": -3.901
+      },
+      "recovery": {
+        "losses": 1,
+        "reloaded": false,
+        "restores": 1,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 5,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      },
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:08:30.817Z",
+      "label": "round-5-living-before-interruption",
+      "door": "open",
+      "fps": 58,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 407,
+        "environmentBuilds": 2,
+        "frameMs": {
+          "p95": 20.8,
+          "recentMax": 66.7,
+          "slow250Total": 6
+        },
+        "geometries": 444,
+        "height": 1136,
+        "maxFps": 60,
+        "presentedFrames": 3021,
+        "programs": 62,
+        "samples": 2,
+        "slowFrameDetails": [
+          {
+            "at": 1794733656545,
+            "gapMs": 38.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 2423.8,
+            "updateMs": 0.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733656708,
+            "gapMs": 2454.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 134.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657183,
+            "gapMs": 183.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 163.2,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657549,
+            "gapMs": 291.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 225.7,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657656,
+            "gapMs": 366.8,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.9,
+            "updateMs": 1.3,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658416,
+            "gapMs": 137.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 328,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658507,
+            "gapMs": 441.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 7.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659085,
+            "gapMs": 87.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 518.8,
+            "updateMs": 0.4,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659168,
+            "gapMs": 579.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 16.3,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659691,
+            "gapMs": 66.7,
+            "night": false,
+            "path": 0,
+            "renderMs": 124.9,
+            "updateMs": 221.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659720,
+            "gapMs": 458.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 14.5,
+            "updateMs": 3.5,
+            "x": 0.85,
+            "z": 8.18
+          }
+        ],
+        "textures": 107,
+        "triangles": 2696674,
+        "warming": false,
+        "width": 1188
+      },
+      "path": 0,
+      "position": {
+        "x": 1.2,
+        "y": 1.48,
+        "yaw": 0.549,
+        "z": 0.8
+      },
+      "recovery": {
+        "losses": 0,
+        "reloaded": false,
+        "restores": 0,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 2,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      },
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:08:36.063Z",
+      "label": "round-5-recovered-with-precompiled-shaders",
+      "door": "open",
+      "fps": 30,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 407,
+        "environmentBuilds": 3,
+        "frameMs": {
+          "p95": 33.5,
+          "recentMax": 1495.8,
+          "slow250Total": 7
+        },
+        "geometries": 391,
+        "height": 1136,
+        "maxFps": 30,
+        "presentedFrames": 3103,
+        "programs": 62,
+        "samples": 2,
+        "slowFrameDetails": [
+          {
+            "at": 1794733656545,
+            "gapMs": 38.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 2423.8,
+            "updateMs": 0.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733656708,
+            "gapMs": 2454.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 134.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657183,
+            "gapMs": 183.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 163.2,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657549,
+            "gapMs": 291.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 225.7,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657656,
+            "gapMs": 366.8,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.9,
+            "updateMs": 1.3,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658416,
+            "gapMs": 137.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 328,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658507,
+            "gapMs": 441.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 7.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659085,
+            "gapMs": 87.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 518.8,
+            "updateMs": 0.4,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659168,
+            "gapMs": 579.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 16.3,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659691,
+            "gapMs": 66.7,
+            "night": false,
+            "path": 0,
+            "renderMs": 124.9,
+            "updateMs": 221.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659720,
+            "gapMs": 458.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 14.5,
+            "updateMs": 3.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733713845,
+            "gapMs": 34.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 1096.4,
+            "updateMs": 398.3,
+            "x": 1.2,
+            "z": 0.8
+          },
+          {
+            "at": 1794733713855,
+            "gapMs": 1495.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 6.7,
+            "updateMs": 1.4,
+            "x": 1.2,
+            "z": 0.8
+          }
+        ],
+        "textures": 97,
+        "triangles": 2696674,
+        "warming": true,
+        "width": 1188
+      },
+      "path": 0,
+      "position": {
+        "x": 1.2,
+        "y": 1.48,
+        "yaw": 0.549,
+        "z": 0.8
+      },
+      "recovery": {
+        "losses": 1,
+        "reloaded": false,
+        "restores": 1,
+        "state": "ready",
+        "warming": true
+      },
+      "reflection": {
+        "captures": 3,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      },
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:09:31.618Z",
+      "label": "round-5-balcony",
+      "door": "open",
+      "fps": 60,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 180,
+        "environmentBuilds": 3,
+        "frameMs": {
+          "p95": 29,
+          "recentMax": 54.1,
+          "slow250Total": 7
+        },
+        "geometries": 393,
+        "height": 1136,
+        "maxFps": 60,
+        "presentedFrames": 6349,
+        "programs": 62,
+        "samples": 2,
+        "slowFrameDetails": [
+          {
+            "at": 1794733656545,
+            "gapMs": 38.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 2423.8,
+            "updateMs": 0.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733656708,
+            "gapMs": 2454.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 134.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657183,
+            "gapMs": 183.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 163.2,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657549,
+            "gapMs": 291.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 225.7,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657656,
+            "gapMs": 366.8,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.9,
+            "updateMs": 1.3,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658416,
+            "gapMs": 137.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 328,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658507,
+            "gapMs": 441.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 7.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659085,
+            "gapMs": 87.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 518.8,
+            "updateMs": 0.4,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659168,
+            "gapMs": 579.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 16.3,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659691,
+            "gapMs": 66.7,
+            "night": false,
+            "path": 0,
+            "renderMs": 124.9,
+            "updateMs": 221.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659720,
+            "gapMs": 458.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 14.5,
+            "updateMs": 3.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733713845,
+            "gapMs": 34.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 1096.4,
+            "updateMs": 398.3,
+            "x": 1.2,
+            "z": 0.8
+          },
+          {
+            "at": 1794733713855,
+            "gapMs": 1495.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 6.7,
+            "updateMs": 1.4,
+            "x": 1.2,
+            "z": 0.8
+          }
+        ],
+        "textures": 98,
+        "triangles": 1447722,
+        "warming": false,
+        "width": 1188
+      },
+      "path": 0,
+      "position": {
+        "x": 0.15,
+        "y": 1.48,
+        "yaw": 0.012,
+        "z": -4.08
+      },
+      "recovery": {
+        "losses": 1,
+        "reloaded": false,
+        "restores": 1,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 4,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      },
+      "night": false
+    },
+    {
+      "at": "2026-11-15T09:09:38.078Z",
+      "label": "round-5-complete-360-turn",
+      "door": "open",
+      "fps": 60,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 178,
+        "environmentBuilds": 3,
+        "frameMs": {
+          "p95": 16.8,
+          "recentMax": 58.4,
+          "slow250Total": 7
+        },
+        "geometries": 424,
+        "height": 1136,
+        "maxFps": 60,
+        "presentedFrames": 6705,
+        "programs": 62,
+        "samples": 2,
+        "slowFrameDetails": [
+          {
+            "at": 1794733656545,
+            "gapMs": 38.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 2423.8,
+            "updateMs": 0.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733656708,
+            "gapMs": 2454.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 134.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657183,
+            "gapMs": 183.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 163.2,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657549,
+            "gapMs": 291.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 225.7,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657656,
+            "gapMs": 366.8,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.9,
+            "updateMs": 1.3,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658416,
+            "gapMs": 137.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 328,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658507,
+            "gapMs": 441.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 7.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659085,
+            "gapMs": 87.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 518.8,
+            "updateMs": 0.4,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659168,
+            "gapMs": 579.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 16.3,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659691,
+            "gapMs": 66.7,
+            "night": false,
+            "path": 0,
+            "renderMs": 124.9,
+            "updateMs": 221.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659720,
+            "gapMs": 458.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 14.5,
+            "updateMs": 3.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733713845,
+            "gapMs": 34.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 1096.4,
+            "updateMs": 398.3,
+            "x": 1.2,
+            "z": 0.8
+          },
+          {
+            "at": 1794733713855,
+            "gapMs": 1495.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 6.7,
+            "updateMs": 1.4,
+            "x": 1.2,
+            "z": 0.8
+          }
+        ],
+        "textures": 107,
+        "triangles": 1447718,
+        "warming": false,
+        "width": 1188
+      },
+      "path": 0,
+      "position": {
+        "x": 0.15,
+        "y": 1.48,
+        "yaw": 6.447,
+        "z": -4.08
+      },
+      "recovery": {
+        "losses": 1,
+        "reloaded": false,
+        "restores": 1,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 5,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      },
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:10:24.054Z",
+      "label": "round-6-reset-request",
+      "door": "closed",
+      "fps": 60,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 176,
+        "environmentBuilds": 3,
+        "frameMs": {
+          "p95": 16.8,
+          "recentMax": 25.2,
+          "slow250Total": 7
+        },
+        "geometries": 424,
+        "height": 1136,
+        "maxFps": 60,
+        "presentedFrames": 9432,
+        "programs": 62,
+        "samples": 2,
+        "slowFrameDetails": [
+          {
+            "at": 1794733656545,
+            "gapMs": 38.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 2423.8,
+            "updateMs": 0.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733656708,
+            "gapMs": 2454.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 134.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657183,
+            "gapMs": 183.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 163.2,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657549,
+            "gapMs": 291.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 225.7,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657656,
+            "gapMs": 366.8,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.9,
+            "updateMs": 1.3,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658416,
+            "gapMs": 137.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 328,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658507,
+            "gapMs": 441.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 7.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659085,
+            "gapMs": 87.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 518.8,
+            "updateMs": 0.4,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659168,
+            "gapMs": 579.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 16.3,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659691,
+            "gapMs": 66.7,
+            "night": false,
+            "path": 0,
+            "renderMs": 124.9,
+            "updateMs": 221.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659720,
+            "gapMs": 458.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 14.5,
+            "updateMs": 3.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733713845,
+            "gapMs": 34.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 1096.4,
+            "updateMs": 398.3,
+            "x": 1.2,
+            "z": 0.8
+          },
+          {
+            "at": 1794733713855,
+            "gapMs": 1495.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 6.7,
+            "updateMs": 1.4,
+            "x": 1.2,
+            "z": 0.8
+          }
+        ],
+        "textures": 107,
+        "triangles": 1447638,
+        "warming": false,
+        "width": 1188
+      },
+      "path": 0,
+      "position": {
+        "x": 0.136,
+        "y": 1.48,
+        "yaw": 6.447,
+        "z": -4.099
+      },
+      "recovery": {
+        "losses": 1,
+        "reloaded": false,
+        "restores": 1,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 5,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      },
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:10:34.346Z",
+      "label": "round-6-living",
+      "door": "open",
+      "fps": 60,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 407,
+        "environmentBuilds": 3,
+        "frameMs": {
+          "p95": 20.8,
+          "recentMax": 29.2,
+          "slow250Total": 7
+        },
+        "geometries": 424,
+        "height": 1136,
+        "maxFps": 60,
+        "presentedFrames": 10087,
+        "programs": 62,
+        "samples": 2,
+        "slowFrameDetails": [
+          {
+            "at": 1794733656545,
+            "gapMs": 38.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 2423.8,
+            "updateMs": 0.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733656708,
+            "gapMs": 2454.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 134.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657183,
+            "gapMs": 183.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 163.2,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657549,
+            "gapMs": 291.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 225.7,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657656,
+            "gapMs": 366.8,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.9,
+            "updateMs": 1.3,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658416,
+            "gapMs": 137.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 328,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658507,
+            "gapMs": 441.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 7.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659085,
+            "gapMs": 87.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 518.8,
+            "updateMs": 0.4,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659168,
+            "gapMs": 579.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 16.3,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659691,
+            "gapMs": 66.7,
+            "night": false,
+            "path": 0,
+            "renderMs": 124.9,
+            "updateMs": 221.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659720,
+            "gapMs": 458.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 14.5,
+            "updateMs": 3.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733713845,
+            "gapMs": 34.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 1096.4,
+            "updateMs": 398.3,
+            "x": 1.2,
+            "z": 0.8
+          },
+          {
+            "at": 1794733713855,
+            "gapMs": 1495.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 6.7,
+            "updateMs": 1.4,
+            "x": 1.2,
+            "z": 0.8
+          }
+        ],
+        "textures": 107,
+        "triangles": 2696674,
+        "warming": false,
+        "width": 1188
+      },
+      "path": 0,
+      "position": {
+        "x": 1.2,
+        "y": 1.48,
+        "yaw": 0.549,
+        "z": 0.8
+      },
+      "recovery": {
+        "losses": 1,
+        "reloaded": false,
+        "restores": 1,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 6,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      },
+      "night": false
+    },
+    {
+      "at": "2026-11-15T09:10:42.916Z",
+      "label": "round-6-balcony",
+      "door": "open",
+      "fps": 60,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 180,
+        "environmentBuilds": 3,
+        "frameMs": {
+          "p95": 16.8,
+          "recentMax": 20.8,
+          "slow250Total": 7
+        },
+        "geometries": 424,
+        "height": 1136,
+        "maxFps": 60,
+        "presentedFrames": 10573,
+        "programs": 62,
+        "samples": 2,
+        "slowFrameDetails": [
+          {
+            "at": 1794733656545,
+            "gapMs": 38.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 2423.8,
+            "updateMs": 0.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733656708,
+            "gapMs": 2454.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 134.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657183,
+            "gapMs": 183.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 163.2,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657549,
+            "gapMs": 291.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 225.7,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657656,
+            "gapMs": 366.8,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.9,
+            "updateMs": 1.3,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658416,
+            "gapMs": 137.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 328,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658507,
+            "gapMs": 441.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 7.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659085,
+            "gapMs": 87.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 518.8,
+            "updateMs": 0.4,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659168,
+            "gapMs": 579.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 16.3,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659691,
+            "gapMs": 66.7,
+            "night": false,
+            "path": 0,
+            "renderMs": 124.9,
+            "updateMs": 221.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659720,
+            "gapMs": 458.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 14.5,
+            "updateMs": 3.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733713845,
+            "gapMs": 34.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 1096.4,
+            "updateMs": 398.3,
+            "x": 1.2,
+            "z": 0.8
+          },
+          {
+            "at": 1794733713855,
+            "gapMs": 1495.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 6.7,
+            "updateMs": 1.4,
+            "x": 1.2,
+            "z": 0.8
+          }
+        ],
+        "textures": 107,
+        "triangles": 1447722,
+        "warming": false,
+        "width": 1188
+      },
+      "path": 0,
+      "position": {
+        "x": 0.15,
+        "y": 1.48,
+        "yaw": 0.012,
+        "z": -4.08
+      },
+      "recovery": {
+        "losses": 1,
+        "reloaded": false,
+        "restores": 1,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 9,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      },
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:10:49.676Z",
+      "label": "round-6-complete-360-turn",
+      "door": "open",
+      "fps": 60,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 180,
+        "environmentBuilds": 3,
+        "frameMs": {
+          "p95": 16.8,
+          "recentMax": 20.7,
+          "slow250Total": 7
+        },
+        "geometries": 424,
+        "height": 1136,
+        "maxFps": 60,
+        "presentedFrames": 10998,
+        "programs": 62,
+        "samples": 2,
+        "slowFrameDetails": [
+          {
+            "at": 1794733656545,
+            "gapMs": 38.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 2423.8,
+            "updateMs": 0.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733656708,
+            "gapMs": 2454.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 134.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657183,
+            "gapMs": 183.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 163.2,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657549,
+            "gapMs": 291.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 225.7,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657656,
+            "gapMs": 366.8,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.9,
+            "updateMs": 1.3,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658416,
+            "gapMs": 137.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 328,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658507,
+            "gapMs": 441.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 7.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659085,
+            "gapMs": 87.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 518.8,
+            "updateMs": 0.4,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659168,
+            "gapMs": 579.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 16.3,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659691,
+            "gapMs": 66.7,
+            "night": false,
+            "path": 0,
+            "renderMs": 124.9,
+            "updateMs": 221.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659720,
+            "gapMs": 458.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 14.5,
+            "updateMs": 3.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733713845,
+            "gapMs": 34.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 1096.4,
+            "updateMs": 398.3,
+            "x": 1.2,
+            "z": 0.8
+          },
+          {
+            "at": 1794733713855,
+            "gapMs": 1495.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 6.7,
+            "updateMs": 1.4,
+            "x": 1.2,
+            "z": 0.8
+          }
+        ],
+        "textures": 107,
+        "triangles": 1447798,
+        "warming": false,
+        "width": 1188
+      },
+      "path": 0,
+      "position": {
+        "x": 0.144,
+        "y": 1.48,
+        "yaw": 6.457,
+        "z": -4.078
+      },
+      "recovery": {
+        "losses": 1,
+        "reloaded": false,
+        "restores": 1,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 10,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      },
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:11:05.600Z",
+      "label": "round-7-reset-request",
+      "door": "closed",
+      "fps": 60,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 180,
+        "environmentBuilds": 3,
+        "frameMs": {
+          "p95": 16.8,
+          "recentMax": 21,
+          "slow250Total": 7
+        },
+        "geometries": 424,
+        "height": 1136,
+        "maxFps": 60,
+        "presentedFrames": 11906,
+        "programs": 62,
+        "samples": 2,
+        "slowFrameDetails": [
+          {
+            "at": 1794733656545,
+            "gapMs": 38.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 2423.8,
+            "updateMs": 0.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733656708,
+            "gapMs": 2454.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 134.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657183,
+            "gapMs": 183.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 163.2,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657549,
+            "gapMs": 291.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 225.7,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657656,
+            "gapMs": 366.8,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.9,
+            "updateMs": 1.3,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658416,
+            "gapMs": 137.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 328,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658507,
+            "gapMs": 441.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 7.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659085,
+            "gapMs": 87.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 518.8,
+            "updateMs": 0.4,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659168,
+            "gapMs": 579.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 16.3,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659691,
+            "gapMs": 66.7,
+            "night": false,
+            "path": 0,
+            "renderMs": 124.9,
+            "updateMs": 221.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659720,
+            "gapMs": 458.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 14.5,
+            "updateMs": 3.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733713845,
+            "gapMs": 34.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 1096.4,
+            "updateMs": 398.3,
+            "x": 1.2,
+            "z": 0.8
+          },
+          {
+            "at": 1794733713855,
+            "gapMs": 1495.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 6.7,
+            "updateMs": 1.4,
+            "x": 1.2,
+            "z": 0.8
+          }
+        ],
+        "textures": 107,
+        "triangles": 1447798,
+        "warming": false,
+        "width": 1188
+      },
+      "path": 0,
+      "position": {
+        "x": 0.144,
+        "y": 1.48,
+        "yaw": 6.457,
+        "z": -4.078
+      },
+      "recovery": {
+        "losses": 1,
+        "reloaded": false,
+        "restores": 1,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 11,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      },
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:11:15.777Z",
+      "label": "round-7-living",
+      "door": "open",
+      "fps": 60,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 407,
+        "environmentBuilds": 3,
+        "frameMs": {
+          "p95": 16.8,
+          "recentMax": 37.4,
+          "slow250Total": 7
+        },
+        "geometries": 424,
+        "height": 1136,
+        "maxFps": 60,
+        "presentedFrames": 12569,
+        "programs": 62,
+        "samples": 2,
+        "slowFrameDetails": [
+          {
+            "at": 1794733656545,
+            "gapMs": 38.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 2423.8,
+            "updateMs": 0.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733656708,
+            "gapMs": 2454.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 134.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657183,
+            "gapMs": 183.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 163.2,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657549,
+            "gapMs": 291.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 225.7,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657656,
+            "gapMs": 366.8,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.9,
+            "updateMs": 1.3,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658416,
+            "gapMs": 137.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 328,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658507,
+            "gapMs": 441.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 7.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659085,
+            "gapMs": 87.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 518.8,
+            "updateMs": 0.4,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659168,
+            "gapMs": 579.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 16.3,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659691,
+            "gapMs": 66.7,
+            "night": false,
+            "path": 0,
+            "renderMs": 124.9,
+            "updateMs": 221.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659720,
+            "gapMs": 458.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 14.5,
+            "updateMs": 3.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733713845,
+            "gapMs": 34.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 1096.4,
+            "updateMs": 398.3,
+            "x": 1.2,
+            "z": 0.8
+          },
+          {
+            "at": 1794733713855,
+            "gapMs": 1495.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 6.7,
+            "updateMs": 1.4,
+            "x": 1.2,
+            "z": 0.8
+          }
+        ],
+        "textures": 107,
+        "triangles": 2696674,
+        "warming": false,
+        "width": 1188
+      },
+      "path": 0,
+      "position": {
+        "x": 1.2,
+        "y": 1.48,
+        "yaw": 0.549,
+        "z": 0.8
+      },
+      "recovery": {
+        "losses": 1,
+        "reloaded": false,
+        "restores": 1,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 12,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      },
+      "night": false
+    },
+    {
+      "at": "2026-11-15T09:11:24.336Z",
+      "label": "round-7-balcony",
+      "door": "open",
+      "fps": 60,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 180,
+        "environmentBuilds": 3,
+        "frameMs": {
+          "p95": 16.8,
+          "recentMax": 20.8,
+          "slow250Total": 7
+        },
+        "geometries": 424,
+        "height": 1136,
+        "maxFps": 60,
+        "presentedFrames": 13053,
+        "programs": 62,
+        "samples": 2,
+        "slowFrameDetails": [
+          {
+            "at": 1794733656545,
+            "gapMs": 38.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 2423.8,
+            "updateMs": 0.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733656708,
+            "gapMs": 2454.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 134.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657183,
+            "gapMs": 183.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 163.2,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657549,
+            "gapMs": 291.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 225.7,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657656,
+            "gapMs": 366.8,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.9,
+            "updateMs": 1.3,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658416,
+            "gapMs": 137.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 328,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658507,
+            "gapMs": 441.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 7.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659085,
+            "gapMs": 87.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 518.8,
+            "updateMs": 0.4,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659168,
+            "gapMs": 579.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 16.3,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659691,
+            "gapMs": 66.7,
+            "night": false,
+            "path": 0,
+            "renderMs": 124.9,
+            "updateMs": 221.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659720,
+            "gapMs": 458.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 14.5,
+            "updateMs": 3.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733713845,
+            "gapMs": 34.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 1096.4,
+            "updateMs": 398.3,
+            "x": 1.2,
+            "z": 0.8
+          },
+          {
+            "at": 1794733713855,
+            "gapMs": 1495.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 6.7,
+            "updateMs": 1.4,
+            "x": 1.2,
+            "z": 0.8
+          }
+        ],
+        "textures": 107,
+        "triangles": 1447722,
+        "warming": false,
+        "width": 1188
+      },
+      "path": 0,
+      "position": {
+        "x": 0.15,
+        "y": 1.48,
+        "yaw": 0.012,
+        "z": -4.08
+      },
+      "recovery": {
+        "losses": 1,
+        "reloaded": false,
+        "restores": 1,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 15,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      },
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:11:31.278Z",
+      "label": "round-7-complete-360-turn",
+      "door": "open",
+      "fps": 59,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 164,
+        "environmentBuilds": 3,
+        "frameMs": {
+          "p95": 16.8,
+          "recentMax": 25,
+          "slow250Total": 7
+        },
+        "geometries": 424,
+        "height": 1136,
+        "maxFps": 60,
+        "presentedFrames": 13472,
+        "programs": 62,
+        "samples": 2,
+        "slowFrameDetails": [
+          {
+            "at": 1794733656545,
+            "gapMs": 38.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 2423.8,
+            "updateMs": 0.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733656708,
+            "gapMs": 2454.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 134.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657183,
+            "gapMs": 183.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 163.2,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657549,
+            "gapMs": 291.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 225.7,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657656,
+            "gapMs": 366.8,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.9,
+            "updateMs": 1.3,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658416,
+            "gapMs": 137.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 328,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658507,
+            "gapMs": 441.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 7.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659085,
+            "gapMs": 87.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 518.8,
+            "updateMs": 0.4,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659168,
+            "gapMs": 579.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 16.3,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659691,
+            "gapMs": 66.7,
+            "night": false,
+            "path": 0,
+            "renderMs": 124.9,
+            "updateMs": 221.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659720,
+            "gapMs": 458.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 14.5,
+            "updateMs": 3.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733713845,
+            "gapMs": 34.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 1096.4,
+            "updateMs": 398.3,
+            "x": 1.2,
+            "z": 0.8
+          },
+          {
+            "at": 1794733713855,
+            "gapMs": 1495.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 6.7,
+            "updateMs": 1.4,
+            "x": 1.2,
+            "z": 0.8
+          }
+        ],
+        "textures": 107,
+        "triangles": 1444118,
+        "warming": false,
+        "width": 1188
+      },
+      "path": 0,
+      "position": {
+        "x": 0.118,
+        "y": 1.48,
+        "yaw": 6.567,
+        "z": -4.193
+      },
+      "recovery": {
+        "losses": 1,
+        "reloaded": false,
+        "restores": 1,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 16,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      },
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:11:48.396Z",
+      "label": "round-8-reset-request",
+      "door": "closed",
+      "fps": 60,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 177,
+        "environmentBuilds": 3,
+        "frameMs": {
+          "p95": 16.8,
+          "recentMax": 29.3,
+          "slow250Total": 7
+        },
+        "geometries": 424,
+        "height": 1136,
+        "maxFps": 60,
+        "presentedFrames": 14503,
+        "programs": 62,
+        "samples": 2,
+        "slowFrameDetails": [
+          {
+            "at": 1794733656545,
+            "gapMs": 38.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 2423.8,
+            "updateMs": 0.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733656708,
+            "gapMs": 2454.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 134.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657183,
+            "gapMs": 183.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 163.2,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657549,
+            "gapMs": 291.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 225.7,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657656,
+            "gapMs": 366.8,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.9,
+            "updateMs": 1.3,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658416,
+            "gapMs": 137.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 328,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658507,
+            "gapMs": 441.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 7.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659085,
+            "gapMs": 87.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 518.8,
+            "updateMs": 0.4,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659168,
+            "gapMs": 579.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 16.3,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659691,
+            "gapMs": 66.7,
+            "night": false,
+            "path": 0,
+            "renderMs": 124.9,
+            "updateMs": 221.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659720,
+            "gapMs": 458.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 14.5,
+            "updateMs": 3.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733713845,
+            "gapMs": 34.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 1096.4,
+            "updateMs": 398.3,
+            "x": 1.2,
+            "z": 0.8
+          },
+          {
+            "at": 1794733713855,
+            "gapMs": 1495.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 6.7,
+            "updateMs": 1.4,
+            "x": 1.2,
+            "z": 0.8
+          }
+        ],
+        "textures": 107,
+        "triangles": 1447716,
+        "warming": false,
+        "width": 1188
+      },
+      "path": 0,
+      "position": {
+        "x": 0.143,
+        "y": 1.48,
+        "yaw": 6.471,
+        "z": -4.084
+      },
+      "recovery": {
+        "losses": 1,
+        "reloaded": false,
+        "restores": 1,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 17,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      },
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:11:58.555Z",
+      "label": "round-8-living",
+      "door": "open",
+      "fps": 60,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 407,
+        "environmentBuilds": 3,
+        "frameMs": {
+          "p95": 16.8,
+          "recentMax": 25,
+          "slow250Total": 7
+        },
+        "geometries": 424,
+        "height": 1136,
+        "maxFps": 60,
+        "presentedFrames": 15101,
+        "programs": 62,
+        "samples": 2,
+        "slowFrameDetails": [
+          {
+            "at": 1794733656545,
+            "gapMs": 38.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 2423.8,
+            "updateMs": 0.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733656708,
+            "gapMs": 2454.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 134.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657183,
+            "gapMs": 183.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 163.2,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657549,
+            "gapMs": 291.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 225.7,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657656,
+            "gapMs": 366.8,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.9,
+            "updateMs": 1.3,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658416,
+            "gapMs": 137.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 328,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658507,
+            "gapMs": 441.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 7.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659085,
+            "gapMs": 87.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 518.8,
+            "updateMs": 0.4,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659168,
+            "gapMs": 579.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 16.3,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659691,
+            "gapMs": 66.7,
+            "night": false,
+            "path": 0,
+            "renderMs": 124.9,
+            "updateMs": 221.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659720,
+            "gapMs": 458.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 14.5,
+            "updateMs": 3.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733713845,
+            "gapMs": 34.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 1096.4,
+            "updateMs": 398.3,
+            "x": 1.2,
+            "z": 0.8
+          },
+          {
+            "at": 1794733713855,
+            "gapMs": 1495.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 6.7,
+            "updateMs": 1.4,
+            "x": 1.2,
+            "z": 0.8
+          }
+        ],
+        "textures": 107,
+        "triangles": 2696674,
+        "warming": false,
+        "width": 1188
+      },
+      "path": 0,
+      "position": {
+        "x": 1.2,
+        "y": 1.48,
+        "yaw": 0.549,
+        "z": 0.8
+      },
+      "recovery": {
+        "losses": 1,
+        "reloaded": false,
+        "restores": 1,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 18,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      },
+      "night": false
+    },
+    {
+      "at": "2026-11-15T09:12:07.110Z",
+      "label": "round-8-balcony",
+      "door": "open",
+      "fps": 60,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 180,
+        "environmentBuilds": 3,
+        "frameMs": {
+          "p95": 16.8,
+          "recentMax": 25,
+          "slow250Total": 7
+        },
+        "geometries": 424,
+        "height": 1136,
+        "maxFps": 60,
+        "presentedFrames": 15586,
+        "programs": 62,
+        "samples": 2,
+        "slowFrameDetails": [
+          {
+            "at": 1794733656545,
+            "gapMs": 38.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 2423.8,
+            "updateMs": 0.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733656708,
+            "gapMs": 2454.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 134.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657183,
+            "gapMs": 183.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 163.2,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657549,
+            "gapMs": 291.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 225.7,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657656,
+            "gapMs": 366.8,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.9,
+            "updateMs": 1.3,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658416,
+            "gapMs": 137.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 328,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658507,
+            "gapMs": 441.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 7.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659085,
+            "gapMs": 87.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 518.8,
+            "updateMs": 0.4,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659168,
+            "gapMs": 579.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 16.3,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659691,
+            "gapMs": 66.7,
+            "night": false,
+            "path": 0,
+            "renderMs": 124.9,
+            "updateMs": 221.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659720,
+            "gapMs": 458.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 14.5,
+            "updateMs": 3.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733713845,
+            "gapMs": 34.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 1096.4,
+            "updateMs": 398.3,
+            "x": 1.2,
+            "z": 0.8
+          },
+          {
+            "at": 1794733713855,
+            "gapMs": 1495.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 6.7,
+            "updateMs": 1.4,
+            "x": 1.2,
+            "z": 0.8
+          }
+        ],
+        "textures": 107,
+        "triangles": 1447722,
+        "warming": false,
+        "width": 1188
+      },
+      "path": 0,
+      "position": {
+        "x": 0.15,
+        "y": 1.48,
+        "yaw": 0.012,
+        "z": -4.08
+      },
+      "recovery": {
+        "losses": 1,
+        "reloaded": false,
+        "restores": 1,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 21,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      },
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:12:13.909Z",
+      "label": "round-8-complete-360-turn",
+      "door": "open",
+      "fps": 60,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 150,
+        "environmentBuilds": 3,
+        "frameMs": {
+          "p95": 16.8,
+          "recentMax": 21,
+          "slow250Total": 7
+        },
+        "geometries": 424,
+        "height": 1136,
+        "maxFps": 60,
+        "presentedFrames": 16008,
+        "programs": 62,
+        "samples": 2,
+        "slowFrameDetails": [
+          {
+            "at": 1794733656545,
+            "gapMs": 38.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 2423.8,
+            "updateMs": 0.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733656708,
+            "gapMs": 2454.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 134.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657183,
+            "gapMs": 183.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 163.2,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657549,
+            "gapMs": 291.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 225.7,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657656,
+            "gapMs": 366.8,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.9,
+            "updateMs": 1.3,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658416,
+            "gapMs": 137.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 328,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658507,
+            "gapMs": 441.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 7.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659085,
+            "gapMs": 87.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 518.8,
+            "updateMs": 0.4,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659168,
+            "gapMs": 579.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 16.3,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659691,
+            "gapMs": 66.7,
+            "night": false,
+            "path": 0,
+            "renderMs": 124.9,
+            "updateMs": 221.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659720,
+            "gapMs": 458.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 14.5,
+            "updateMs": 3.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733713845,
+            "gapMs": 34.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 1096.4,
+            "updateMs": 398.3,
+            "x": 1.2,
+            "z": 0.8
+          },
+          {
+            "at": 1794733713855,
+            "gapMs": 1495.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 6.7,
+            "updateMs": 1.4,
+            "x": 1.2,
+            "z": 0.8
+          }
+        ],
+        "textures": 107,
+        "triangles": 1440892,
+        "warming": false,
+        "width": 1188
+      },
+      "path": 0,
+      "position": {
+        "x": 0.06,
+        "y": 1.48,
+        "yaw": 6.71,
+        "z": -4.358
+      },
+      "recovery": {
+        "losses": 1,
+        "reloaded": false,
+        "restores": 1,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 23,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      },
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:12:13.962Z",
+      "label": "round-8-final",
+      "door": "open",
+      "fps": 60,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 150,
+        "environmentBuilds": 3,
+        "frameMs": {
+          "p95": 16.8,
+          "recentMax": 21,
+          "slow250Total": 7
+        },
+        "geometries": 424,
+        "height": 1136,
+        "maxFps": 60,
+        "presentedFrames": 16008,
+        "programs": 62,
+        "samples": 2,
+        "slowFrameDetails": [
+          {
+            "at": 1794733656545,
+            "gapMs": 38.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 2423.8,
+            "updateMs": 0.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733656708,
+            "gapMs": 2454.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 134.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657183,
+            "gapMs": 183.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 163.2,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657549,
+            "gapMs": 291.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 225.7,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733657656,
+            "gapMs": 366.8,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.9,
+            "updateMs": 1.3,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658416,
+            "gapMs": 137.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 328,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733658507,
+            "gapMs": 441.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 7.8,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659085,
+            "gapMs": 87.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 518.8,
+            "updateMs": 0.4,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659168,
+            "gapMs": 579.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 16.3,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659691,
+            "gapMs": 66.7,
+            "night": false,
+            "path": 0,
+            "renderMs": 124.9,
+            "updateMs": 221.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733659720,
+            "gapMs": 458.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 14.5,
+            "updateMs": 3.5,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733713845,
+            "gapMs": 34.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 1096.4,
+            "updateMs": 398.3,
+            "x": 1.2,
+            "z": 0.8
+          },
+          {
+            "at": 1794733713855,
+            "gapMs": 1495.8,
+            "night": true,
+            "path": 0,
+            "renderMs": 6.7,
+            "updateMs": 1.4,
+            "x": 1.2,
+            "z": 0.8
+          }
+        ],
+        "textures": 107,
+        "triangles": 1440892,
+        "warming": false,
+        "width": 1188
+      },
+      "path": 0,
+      "position": {
+        "x": 0.06,
+        "y": 1.48,
+        "yaw": 6.71,
+        "z": -4.358
+      },
+      "recovery": {
+        "losses": 1,
+        "reloaded": false,
+        "restores": 1,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 23,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      },
+      "night": true
+    }
+  ],
+  "toggles": [
+    {
+      "at": "2026-11-15T08:56:25.770Z",
+      "night": true
+    },
+    {
+      "at": "2026-11-15T08:56:33.463Z",
+      "night": false
+    },
+    {
+      "at": "2026-11-15T08:57:18.526Z",
+      "night": true
+    },
+    {
+      "at": "2026-11-15T08:57:19.155Z",
+      "night": false
+    },
+    {
+      "at": "2026-11-15T08:57:20.065Z",
+      "night": true
+    },
+    {
+      "at": "2026-11-15T08:58:03.213Z",
+      "night": false
+    },
+    {
+      "at": "2026-11-15T08:58:39.430Z",
+      "night": true
+    },
+    {
+      "at": "2026-11-15T08:59:20.261Z",
+      "night": false
+    },
+    {
+      "at": "2026-11-15T08:59:21.019Z",
+      "night": true
+    },
+    {
+      "at": "2026-11-15T08:59:21.312Z",
+      "night": false
+    },
+    {
+      "at": "2026-11-15T08:59:27.597Z",
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:00:06.615Z",
+      "night": false
+    },
+    {
+      "at": "2026-11-15T09:00:15.652Z",
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:00:16.504Z",
+      "night": false
+    },
+    {
+      "at": "2026-11-15T09:00:16.819Z",
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:02:48.108Z",
+      "night": false
+    },
+    {
+      "at": "2026-11-15T09:02:49.234Z",
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:03:57.426Z",
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:04:07.649Z",
+      "night": false
+    },
+    {
+      "at": "2026-11-15T09:07:32.277Z",
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:08:21.133Z",
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:09:24.537Z",
+      "night": false
+    },
+    {
+      "at": "2026-11-15T09:09:37.538Z",
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:10:24.700Z",
+      "night": false
+    },
+    {
+      "at": "2026-11-15T09:10:34.791Z",
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:10:35.545Z",
+      "night": false
+    },
+    {
+      "at": "2026-11-15T09:10:35.837Z",
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:10:48.821Z",
+      "night": false
+    },
+    {
+      "at": "2026-11-15T09:10:49.616Z",
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:11:06.181Z",
+      "night": false
+    },
+    {
+      "at": "2026-11-15T09:11:16.203Z",
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:11:16.919Z",
+      "night": false
+    },
+    {
+      "at": "2026-11-15T09:11:17.222Z",
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:11:30.296Z",
+      "night": false
+    },
+    {
+      "at": "2026-11-15T09:11:31.171Z",
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:11:48.966Z",
+      "night": false
+    },
+    {
+      "at": "2026-11-15T09:11:58.984Z",
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:11:59.700Z",
+      "night": false
+    },
+    {
+      "at": "2026-11-15T09:11:59.994Z",
+      "night": true
+    },
+    {
+      "at": "2026-11-15T09:12:13.019Z",
+      "night": false
+    },
+    {
+      "at": "2026-11-15T09:12:13.820Z",
+      "night": true
+    }
+  ],
+  "quality": {
+    "before": {
+      "door": "open",
+      "fps": 60,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 180,
+        "environmentBuilds": 2,
+        "frameMs": {
+          "p95": 16.9,
+          "recentMax": 33.4,
+          "slow250Total": 11
+        },
+        "geometries": 444,
+        "height": 1136,
+        "maxFps": 60,
+        "presentedFrames": 3555,
+        "programs": 62,
+        "samples": 2,
+        "slowFrameDetails": [
+          {
+            "at": 1794733380970,
+            "gapMs": 29.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 9510.7,
+            "updateMs": 1.7,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733381374,
+            "gapMs": 9541.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 348.9,
+            "updateMs": 0.3,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733381663,
+            "gapMs": 400,
+            "night": false,
+            "path": 0,
+            "renderMs": 122,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733382207,
+            "gapMs": 287.7,
+            "night": false,
+            "path": 0,
+            "renderMs": 380.6,
+            "updateMs": 0.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733382433,
+            "gapMs": 566.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 103.4,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733383243,
+            "gapMs": 75.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 359,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733383374,
+            "gapMs": 512.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.3,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733384621,
+            "gapMs": 129.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 1132.4,
+            "updateMs": 0.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733384771,
+            "gapMs": 1249.9,
+            "night": false,
+            "path": 0,
+            "renderMs": 37.3,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733387227,
+            "gapMs": 54.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 2360,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733387274,
+            "gapMs": 2395.8,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.1,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733388270,
+            "gapMs": 62.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 246.9,
+            "updateMs": 535,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733388287,
+            "gapMs": 933.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 11.2,
+            "updateMs": 3.7,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733389655,
+            "gapMs": 54.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 680.5,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733389706,
+            "gapMs": 716.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 48,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733391866,
+            "gapMs": 58.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 648.1,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733392338,
+            "gapMs": 654.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 466.2,
+            "updateMs": 0.9,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733392417,
+            "gapMs": 491.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 53.3,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          }
+        ],
+        "textures": 107,
+        "triangles": 1447722,
+        "warming": false,
+        "width": 1188
+      },
+      "path": 0,
+      "position": {
+        "x": 0.15,
+        "y": 1.48,
+        "yaw": 0.012,
+        "z": -4.08
+      },
+      "recovery": {
+        "losses": 0,
+        "reloaded": false,
+        "restores": 0,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 3,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      },
+      "night": false
+    },
+    "after": {
+      "door": "open",
+      "fps": 60,
+      "health": {
+        "contextHealthy": true,
+        "drawCalls": 180,
+        "environmentBuilds": 3,
+        "frameMs": {
+          "p95": 16.8,
+          "recentMax": 20.8,
+          "slow250Total": 12
+        },
+        "geometries": 365,
+        "height": 1136,
+        "maxFps": 60,
+        "presentedFrames": 6453,
+        "programs": 33,
+        "samples": 2,
+        "slowFrameDetails": [
+          {
+            "at": 1794733380970,
+            "gapMs": 29.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 9510.7,
+            "updateMs": 1.7,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733381374,
+            "gapMs": 9541.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 348.9,
+            "updateMs": 0.3,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733381663,
+            "gapMs": 400,
+            "night": false,
+            "path": 0,
+            "renderMs": 122,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733382207,
+            "gapMs": 287.7,
+            "night": false,
+            "path": 0,
+            "renderMs": 380.6,
+            "updateMs": 0.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733382433,
+            "gapMs": 566.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 103.4,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733383243,
+            "gapMs": 75.1,
+            "night": false,
+            "path": 0,
+            "renderMs": 359,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733383374,
+            "gapMs": 512.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.3,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733384621,
+            "gapMs": 129.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 1132.4,
+            "updateMs": 0.6,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733384771,
+            "gapMs": 1249.9,
+            "night": false,
+            "path": 0,
+            "renderMs": 37.3,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733387227,
+            "gapMs": 54.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 2360,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733387274,
+            "gapMs": 2395.8,
+            "night": false,
+            "path": 0,
+            "renderMs": 22.1,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733388270,
+            "gapMs": 62.4,
+            "night": false,
+            "path": 0,
+            "renderMs": 246.9,
+            "updateMs": 535,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733388287,
+            "gapMs": 933.3,
+            "night": false,
+            "path": 0,
+            "renderMs": 11.2,
+            "updateMs": 3.7,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733389655,
+            "gapMs": 54.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 680.5,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733389706,
+            "gapMs": 716.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 48,
+            "updateMs": 0.1,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733391866,
+            "gapMs": 58.5,
+            "night": false,
+            "path": 0,
+            "renderMs": 648.1,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733392338,
+            "gapMs": 654.2,
+            "night": false,
+            "path": 0,
+            "renderMs": 466.2,
+            "updateMs": 0.9,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733392417,
+            "gapMs": 491.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 53.3,
+            "updateMs": 0,
+            "x": 0.85,
+            "z": 8.18
+          },
+          {
+            "at": 1794733456703,
+            "gapMs": 34.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 604.1,
+            "updateMs": 760.7,
+            "x": 0.15,
+            "z": -4.08
+          },
+          {
+            "at": 1794733456737,
+            "gapMs": 1362.6,
+            "night": false,
+            "path": 0,
+            "renderMs": 24.8,
+            "updateMs": 2.6,
+            "x": 0.15,
+            "z": -4.08
+          }
+        ],
+        "textures": 69,
+        "triangles": 1447722,
+        "warming": false,
+        "width": 1188
+      },
+      "path": 0,
+      "position": {
+        "x": 0.15,
+        "y": 1.48,
+        "yaw": 0.012,
+        "z": -4.08
+      },
+      "recovery": {
+        "losses": 1,
+        "reloaded": false,
+        "restores": 1,
+        "state": "ready",
+        "warming": false
+      },
+      "reflection": {
+        "captures": 4,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      },
+      "night": false
+    }
+  },
+  "logs": [
+    {
+      "level": "log",
+      "message": "THREE.WebGLRenderer: Context Lost.",
+      "timestamp": "2026-11-15T09:04:15.015Z",
+      "url": "http://127.0.0.1:4838/vendor/three.core.js"
+    },
+    {
+      "level": "log",
+      "message": "THREE.WebGLRenderer: Context Restored.",
+      "timestamp": "2026-11-15T09:04:15.232Z",
+      "url": "http://127.0.0.1:4838/vendor/three.core.js"
+    },
+    {
+      "level": "log",
+      "message": "THREE.WebGLRenderer: Context Lost.",
+      "timestamp": "2026-11-15T09:08:30.951Z",
+      "url": "http://127.0.0.1:4838/vendor/three.core.js"
+    },
+    {
+      "level": "log",
+      "message": "THREE.WebGLRenderer: Context Restored.",
+      "timestamp": "2026-11-15T09:08:31.195Z",
+      "url": "http://127.0.0.1:4838/vendor/three.core.js"
+    }
+  ]
+}

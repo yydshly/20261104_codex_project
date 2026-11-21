@@ -1,0 +1,71 @@
+Tool: built-in image_gen (imagegen skill), image editing, opaque background.
+Date: 2026-11-21 (Asia/Shanghai)
+Output: ai-interior-workflow-v2.png
+Purpose: add a case-study section to the existing workflow infographic.
+Note: the infographic contains AI-arranged illustrative previews of supplied source images; original screenshots remain the authoritative record of the prototype.
+
+Source images:
+1. docs/ai-interior-workflow-v1.png — existing guide diagram / edit target
+2. assets/reference.png — original interior concept image
+3. verification/interior-stable-v13.jpg — original indoor prototype screenshot
+4. preview-v14.jpg — original balcony prototype screenshot
+
+Initial edit prompt:
+Edit the supplied Chinese architecture infographic into ONE cohesive, shareable updated infographic. Use ALL FOUR supplied images with these explicit roles:
+Image 1 is the edit target: the existing sage-green and warm-ivory Chinese workflow infographic.
+Image 2 is a supporting insert: the original interior concept/reference image used in our exploration. It is a visual design reference, not a running 3D product.
+Image 3 is a supporting insert: an actual screenshot of our walkable 3D living-room prototype.
+Image 4 is a supporting insert: an actual screenshot of our walkable 3D balcony/courtyard prototype.
+Images 3 and 4 document the existing prototype, so preserve the depicted furniture, geometry, lighting character, proportions, railings, buildings, trees and visible interface faithfully. Do NOT beautify or reimagine the prototype, replace it with more photorealistic invented imagery, or make the prototype look equivalent to the concept image. Faithful cropping and resizing to fit the panels is allowed; keep some original interface visible as evidence of an interactive prototype. No new imaginary room images.
+
+Task: the original workflow diagram lacks a panel showing WHAT WE ACTUALLY EXPLORED. Add a prominent section that connects the architecture to the concrete reference-to-prototype result, and clearly explains the difference between already-verified work and future validation.
+
+Preserve the original overall visual language: warm ivory background, charcoal Chinese typography, sage-green workflow and arrows, blue AI/feedback accents, ochre supporting modules, restrained professional infographic design. Preserve all six main workflow steps, the three supporting modules, the skills package band and the four-step roadmap. Keep the original Chinese labels accurate and readable. Expand/reflow vertically so the new examples have real room; do NOT squeeze new photos into tiny thumbnails. Target a high-resolution landscape 5:4 or near-square composition around 2560x2048, with generous spacing and legible text.
+
+Main title remains: “可复用的 AI 装修空间生成方案”
+Subtitle remains: “推荐路线：小型标准素材库 + 空间规则 + 模型设计 + 三维引擎”
+Add a small clear label above the main workflow: “目标流程”
+
+Keep these six steps in the original forward order:
+01 “户型与需求” — “户型图 · 尺寸 · 风格”
+02 “统一场景数据” — “房间 · 门窗 · 家具 · 位置”
+03 “AI 设计与组合” — “理解需求 · 选款搭配 · 调整布局”
+04 “程序规则校验” — “支撑落地 · 碰撞避让 · 通道检查”
+05 “渲染与空间交互” — “材质光照 · 行走 · 开关 · 昼夜”
+06 “验收与交付” — “可修改方案 · 可漫游空间”
+Keep the dotted feedback arrow from 06 back to 03 labelled “画面与问题反馈”.
+
+Keep the supporting modules with their existing concise content:
+“标准素材库” — “沙发 · 桌椅 · 电视 · 花瓶” — “模型 · 材质 · 尺寸 · 锚点 · 风格 · 来源”
+“参数化组件” — “墙体 · 地板 · 门窗 · 柜体” — “按户型尺寸生成与调整”
+“验收工具” — “比例 · 画面 · 性能 · 恢复” — “程序检查 + 内置浏览器实测”
+
+ADD the following case-study section below the supporting modules and above the skills/roadmap footer. It should be visually substantial, approximately one third of the complete updated infographic:
+Section heading exactly: “本次探索效果：从参考图到可漫游原型”
+Three large clearly labelled picture panels in a row:
+LEFT: faithfully insert Image 2 with heading “最初效果参考” and caption “确定原木风、家具搭配与光照目标”
+MIDDLE: faithfully insert Image 3 with heading “客厅 3D 原型” and caption “家具、材质与光照，可从不同视角查看”
+RIGHT: faithfully insert Image 4 with heading “阳台 3D 原型” and caption “可抵达阳台，观察楼栋、树木与空间层次”
+A subtle arrow may connect the LEFT reference panel to a group containing the two prototype panels, labelled only “场景搭建与迭代”. Do not imply these are one-click results generated from arbitrary floor plans, and do not imply the screenshot is an image-to-3D model trained by us.
+
+Directly under these three panels add two clearly differentiated full-width explanatory lines:
+Sage/green status line labelled “目前已验证” with exact text “单套房间漫游 · 门开合 · 昼夜切换 · 图形恢复”
+Blue outlined future-validation line labelled “接下来验证” with exact text “不同户型的自动适配与稳定生成”
+These are essential to avoid confusing the proposed architecture with an already-complete general product. Do not put a checkmark next to the future-validation line.
+
+Keep the strong footer band: “沉淀为技能包：执行流程 + 代码工具 + 标准资产 + 验收标准”
+Keep the roadmap labelled “落地顺序”: “统一标准” → “最小素材库与模板” → “三套户型试跑” → “扩库与补规则”
+Keep final small line: “验证重点：生成耗时 · 人工修正量 · 运行稳定性”
+
+The completed image should explain both the proposed repeatable process and the actual current prototype in a single coherent visual. Simplified Chinese only apart from AI and 3D. Spell every label accurately. Avoid crowded arrows, oversized decorative icons, cropped Chinese words, duplicated sections, or new vendor logos.
+
+Targeted correction prompt:
+Make one targeted correction to Image 1, the updated Chinese infographic. Preserve all typography, explanatory text, colours, workflow, labels, arrows, supporting modules, road map, concept-reference photo, and status bars from Image 1.
+
+Replace ONLY the two prototype-picture contents in the case-study row:
+- The middle panel “客厅 3D 原型” must use Image 2, the actual provided app screenshot.
+- The right panel “阳台 3D 原型” must use Image 3, the actual provided app screenshot.
+
+CRITICAL: These are documented software screenshots, not style references. Preserve their content, camera framing, furniture placement, app controls, balcony rail, neighbouring buildings and leaf shapes faithfully. Do not invent a wider room, extra sofa cushions, furniture, cleaner UI, better materials or different lighting. Fit each complete portrait screenshot WITHIN its panel while retaining its original aspect ratio. Use warm ivory side margins / pillarboxing as needed, rather than stretching or generating missing horizontal imagery. Some top/bottom source UI may be visible; that is intentional evidence of the real prototype. Prefer a smaller faithful screenshot over a larger redesigned rendering. Keep all titles and captions and the small original concept image unchanged. This is a factual case-study collage, so the actual screenshots' difference from the beautiful concept image is important.
+
+Output the complete single infographic in the same near-square/5:4 high-resolution layout. No other changes.

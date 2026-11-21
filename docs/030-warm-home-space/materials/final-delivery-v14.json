@@ -1,0 +1,241 @@
+{
+  "at": "2026-11-15T09:16:19.599Z",
+  "fps": 60,
+  "health": {
+    "contextHealthy": true,
+    "drawCalls": 177,
+    "environmentBuilds": 2,
+    "frameMs": {
+      "p95": 16.9,
+      "recentMax": 20.9,
+      "slow250Total": 12
+    },
+    "geometries": 444,
+    "height": 1178,
+    "maxFps": 60,
+    "presentedFrames": 5934,
+    "programs": 62,
+    "samples": 2,
+    "slowFrameDetails": [
+      {
+        "at": 1794734064487,
+        "gapMs": 72.4,
+        "night": false,
+        "path": 0,
+        "renderMs": 11391.7,
+        "updateMs": 0.1,
+        "x": 0.85,
+        "z": 8.18
+      },
+      {
+        "at": 1794734064726,
+        "gapMs": 11433.2,
+        "night": false,
+        "path": 0,
+        "renderMs": 165.8,
+        "updateMs": 0,
+        "x": 0.85,
+        "z": 8.18
+      },
+      {
+        "at": 1794734065108,
+        "gapMs": 237.6,
+        "night": false,
+        "path": 0,
+        "renderMs": 198.4,
+        "updateMs": 0,
+        "x": 0.85,
+        "z": 8.18
+      },
+      {
+        "at": 1794734065524,
+        "gapMs": 383.2,
+        "night": false,
+        "path": 0,
+        "renderMs": 260.7,
+        "updateMs": 0,
+        "x": 0.85,
+        "z": 8.18
+      },
+      {
+        "at": 1794734065745,
+        "gapMs": 412.7,
+        "night": false,
+        "path": 0,
+        "renderMs": 110.5,
+        "updateMs": 0,
+        "x": 0.85,
+        "z": 8.18
+      },
+      {
+        "at": 1794734066423,
+        "gapMs": 50,
+        "night": false,
+        "path": 0,
+        "renderMs": 271.4,
+        "updateMs": 0,
+        "x": 0.85,
+        "z": 8.18
+      },
+      {
+        "at": 1794734067576,
+        "gapMs": 375.1,
+        "night": false,
+        "path": 0,
+        "renderMs": 1048.5,
+        "updateMs": 0,
+        "x": 0.85,
+        "z": 8.18
+      },
+      {
+        "at": 1794734069847,
+        "gapMs": 1154.1,
+        "night": false,
+        "path": 0,
+        "renderMs": 2166.2,
+        "updateMs": 0.1,
+        "x": 0.85,
+        "z": 8.18
+      },
+      {
+        "at": 1794734069907,
+        "gapMs": 2270.8,
+        "night": false,
+        "path": 0,
+        "renderMs": 26.5,
+        "updateMs": 0,
+        "x": 0.85,
+        "z": 8.18
+      },
+      {
+        "at": 1794734071098,
+        "gapMs": 54.2,
+        "night": false,
+        "path": 0,
+        "renderMs": 353.9,
+        "updateMs": 609.4,
+        "x": 0.85,
+        "z": 8.18
+      },
+      {
+        "at": 1794734071119,
+        "gapMs": 1041.6,
+        "night": false,
+        "path": 0,
+        "renderMs": 15.4,
+        "updateMs": 3,
+        "x": 0.85,
+        "z": 8.18
+      },
+      {
+        "at": 1794734108027,
+        "gapMs": 37.4,
+        "night": false,
+        "path": 0,
+        "renderMs": 166.6,
+        "updateMs": 0,
+        "x": 0.85,
+        "z": 8.18
+      },
+      {
+        "at": 1794734108307,
+        "gapMs": 175.1,
+        "night": false,
+        "path": 0,
+        "renderMs": 274.1,
+        "updateMs": 0.1,
+        "x": 0.85,
+        "z": 8.18
+      },
+      {
+        "at": 1794734108670,
+        "gapMs": 283.3,
+        "night": false,
+        "path": 0,
+        "renderMs": 354.2,
+        "updateMs": 0,
+        "x": 0.85,
+        "z": 8.18
+      },
+      {
+        "at": 1794734108889,
+        "gapMs": 366.5,
+        "night": false,
+        "path": 0,
+        "renderMs": 188.8,
+        "updateMs": 0,
+        "x": 0.85,
+        "z": 8.18
+      },
+      {
+        "at": 1794734110501,
+        "gapMs": 83.4,
+        "night": false,
+        "path": 0,
+        "renderMs": 253.8,
+        "updateMs": 0.1,
+        "x": 0.85,
+        "z": 8.18
+      },
+      {
+        "at": 1794734111052,
+        "gapMs": 279,
+        "night": false,
+        "path": 0,
+        "renderMs": 494.1,
+        "updateMs": 0,
+        "x": 0.85,
+        "z": 8.18
+      },
+      {
+        "at": 1794734111140,
+        "gapMs": 550.1,
+        "night": false,
+        "path": 0,
+        "renderMs": 84.5,
+        "updateMs": 0.1,
+        "x": 0.85,
+        "z": 8.18
+      },
+      {
+        "at": 1794734111468,
+        "gapMs": 87.5,
+        "night": false,
+        "path": 0,
+        "renderMs": 304.6,
+        "updateMs": 0,
+        "x": 0.85,
+        "z": 8.18
+      },
+      {
+        "at": 1794734111519,
+        "gapMs": 325,
+        "night": false,
+        "path": 0,
+        "renderMs": 48.2,
+        "updateMs": 0,
+        "x": 0.85,
+        "z": 8.18
+      }
+    ],
+    "textures": 106,
+    "triangles": 1447640,
+    "warming": false,
+    "width": 1145
+  },
+  "path": 0,
+  "position": {
+    "x": 0.15,
+    "y": 1.48,
+    "yaw": 0.012,
+    "z": -4.08
+  },
+  "recovery": {
+    "losses": 0,
+    "reloaded": false,
+    "restores": 0,
+    "state": "ready",
+    "warming": false
+  },
+  "logs": []
+}

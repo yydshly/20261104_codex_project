@@ -1,0 +1,112 @@
+{
+  "started": "2026-11-15T08:44:19.151Z",
+  "toggleStates": [
+    "true",
+    "false",
+    "true",
+    "false",
+    "true",
+    "false",
+    "true",
+    "false"
+  ],
+  "observedRoute": [
+    {
+      "stage": "living",
+      "x": 1.2,
+      "z": 0.8
+    },
+    {
+      "stage": "balcony",
+      "x": 0.15,
+      "z": -4.08
+    },
+    {
+      "stage": "manual-forward",
+      "x": 0.138,
+      "z": -4.417
+    }
+  ],
+  "final": {
+    "exterior": {
+      "architecture": {
+        "balconies": 249,
+        "clothes": 66,
+        "entries": 21,
+        "openWindows": 63,
+        "planters": 117,
+        "seating": 74,
+        "terraces": 2
+      },
+      "balconyHeight": 8.85,
+      "balconyLife": {
+        "cloths": 66,
+        "plantTriangles": 91260,
+        "plants": 117
+      },
+      "buildingParallax": true,
+      "buildings": 7,
+      "canopy": {
+        "shrubs": 24,
+        "trees": 10,
+        "triangles": 1109768,
+        "variants": [
+          "park-oak-a",
+          "park-oak-b",
+          "park-ash-a",
+          "park-ash-b"
+        ]
+      },
+      "floorHeight": 2.95,
+      "frontBuildingGap": 27.78,
+      "garden": {
+        "beds": 4,
+        "bollards": 4,
+        "flowers": 20,
+        "grasses": 36
+      },
+      "groundY": -8.85,
+      "materials": "world-stucco+varied-recessed-glass+full-canopy",
+      "reflection": {
+        "captures": 9,
+        "face": 6,
+        "pending": false,
+        "resolution": 256
+      },
+      "treesExpected": 10,
+      "treesLoaded": 10,
+      "type": "modelled-3d"
+    },
+    "fps": "59",
+    "health": {
+      "contextHealthy": true,
+      "drawCalls": 184,
+      "environmentBuilds": 2,
+      "geometries": 444,
+      "height": 1210,
+      "maxFps": 60,
+      "presentedFrames": 16496,
+      "programs": 62,
+      "samples": 2,
+      "textures": 107,
+      "triangles": 1541312,
+      "width": 1114
+    },
+    "night": "false",
+    "pathLength": "0",
+    "position": {
+      "x": 0.138,
+      "y": 1.48,
+      "yaw": 0.563,
+      "z": -4.063
+    },
+    "recovery": {
+      "conservative": false,
+      "losses": 0,
+      "reloaded": false,
+      "restores": 0,
+      "state": "ready"
+    }
+  },
+  "logs": []
+}
