@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "character": "Rocketbox Male Adult 10",
+  "license": "MIT",
+  "source": "https://github.com/microsoft/Microsoft-Rocketbox",
+  "file": "rocket-guide.glb",
+  "bytes": 21879456,
+  "sha256": "03a215c373c12f4c9cc7e3e417cb2cc42cd3415b77b85588cdf13cc2a5d935e6",
+  "bones": 80,
+  "actions": [
+    {
+      "name": "Idle",
+      "source": "m_idle_breathe_01.max.fbx",
+      "sourceFrames": [
+        1,
+        83
+      ],
+      "duration": 2.7333333333333334,
+      "samples": 83,
+      "groundErrorMax": 8.489453762194898e-08,
+      "sourcePlanarTravel": 0.0
+    },
+    {
+      "name": "Walk",
+      "source": "m_walk_neutral_02.max.fbx",
+      "sourceFrames": [
+        1,
+        33
+      ],
+      "duration": 1.0666666666666667,
+      "samples": 33,
+      "groundErrorMax": 1.456058953408501e-07,
+      "sourcePlanarTravel": 1.3980081486292886
+    },
+    {
+      "name": "Wave",
+      "source": "m_wave_01.max.fbx",
+      "sourceFrames": [
+        1,
+        86
+      ],
+      "duration": 2.8333333333333335,
+      "samples": 86,
+      "groundErrorMax": 8.794283701263339e-08,
+      "sourcePlanarTravel": 0.0
+    },
+    {
+      "name": "Point",
+      "source": "m_gestic_presentation_right_01.max.fbx",
+      "sourceFrames": [
+        1,
+        121
+      ],
+      "duration": 4.0,
+      "samples": 121,
+      "groundErrorMax": 8.49496544219619e-08,
+      "sourcePlanarTravel": 0.025422337472395185
+    },
+    {
+      "name": "LookAround",
+      "source": "m_idle_look_around_01.max.fbx",
+      "sourceFrames": [
+        1,
+        140
+      ],
+      "duration": 4.633333333333334,
+      "samples": 140,
+      "groundErrorMax": 8.42241121290499e-08,
+      "sourcePlanarTravel": 2.6338388426971265e-10
+    }
+  ],
+  "walkSpeed": 1.310632639339958,
+  "height": 1.78,
+  "status": "animated-first-version; user visual acceptance pending",
+  "notes": [
+    "Finished author model, author textures and same-library mocap.",
+    "No prototype likeness or clothing matching required for this version.",
+    "Horizontal root travel removed; scene paths control movement.",
+    "Point is a 4-second presentation gesture, not exact index-finger targeting.",
+    "Base GLB contains flat-ground clips; website foot-placement.js supplies runtime stair IK and contact."
+  ]
+}

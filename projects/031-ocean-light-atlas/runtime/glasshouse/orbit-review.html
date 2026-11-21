@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>人物眼周重建 · 实际网页对照</title>
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f0eee7;color:#263a40;font:15px/1.8 system-ui,"Microsoft YaHei",sans-serif}main{max-width:1280px;margin:auto;padding:32px 24px 70px}a{color:#275866;text-underline-offset:4px}nav,.live{display:flex;gap:16px;flex-wrap:wrap}h1{font-size:clamp(27px,4vw,42px);line-height:1.3;font-weight:500;margin:30px 0 14px}h2{font-size:22px;font-weight:550;margin:32px 0 14px}p{max-width:870px}.status{display:inline-block;padding:5px 12px;background:#e9ddc4;border:1px solid #bd9e72;border-radius:3px;color:#69522f;font-size:12px}.pair{display:grid;grid-template-columns:1fr 1fr;gap:18px}figure{margin:0;background:#fffdf7;border:1px solid #d2d6cd;border-radius:6px;overflow:hidden}img{display:block;width:100%;height:auto}figcaption{padding:12px 16px;font-size:13px}.notes{background:#fffdf7;border-left:3px solid #ad9367;padding:16px 24px;margin:26px 0}.notes p{margin:8px 0}.live{margin:22px 0}.live a{padding:8px 16px;border:1px solid #a5b1ac;border-radius:4px;text-decoration:none}small{color:#63726e}.compare a{display:block}a:focus-visible{outline:3px solid #d4964d;outline-offset:4px}@media(max-width:650px){main{padding:24px 16px 50px}.pair{grid-template-columns:1fr;gap:12px}nav{gap:12px}}
+</style>
+</head>
+<body><main>
+<nav><a href="./index.html">← 返回玻璃屋演示</a><a href="./portrait-review.html">上一轮脸部与双手修整记录</a></nav>
+<h1>先让眼睛与眼镜，长在脸上。</h1>
+<span class="status">3.4 静态检查稿 · 整体人物尚未通过视觉验收</span>
+<p>这轮集中重建眼眶与镜框，保留你提供的 0597 人物的脸型、头发和深蓝西装。下面是实际网页截图：同一站姿、同一光照、对应机位，没有另外生成效果图。</p>
+<div class="live"><a href="./index.html?hero=personal0597&amp;detail=orbit&amp;portrait=face&amp;pose=still&amp;v=orbit34">进入正面近看 ↗</a><a href="./index.html?hero=personal0597&amp;detail=orbit&amp;portrait=side&amp;pose=still&amp;v=orbit34">进入侧面近看 ↗</a><a href="./index.html?hero=personal0597&amp;detail=orbit&amp;portrait=half&amp;pose=still&amp;v=orbit34">进入露台半身 ↗</a></div>
+<h2>固定站姿，直接比较</h2>
+<div class="pair compare">
+<figure><a href="./index.html?hero=personal0597&amp;detail=before&amp;portrait=face&amp;pose=still&amp;v=orbit34"><img src="../screenshots/orbit34-before-face.png" alt="当前默认人物的同机位静态脸部截图"></a><figcaption>当前默认：眼睛与镜框沿用生成模型，局部融在皮肤里。</figcaption></figure>
+<figure><a href="./index.html?hero=personal0597&amp;detail=orbit&amp;portrait=face&amp;pose=still&amp;v=orbit34"><img src="../screenshots/orbit34-face.png" alt="眼周重建稿的正面实际网页截图"></a><figcaption>本轮：连接的眼眶皮肤、独立眼球和细镜框。眼神自然度、眼角和肤质仍需继续修整。</figcaption></figure>
+</div>
+<h2>侧面贴合与露台上的整体比例</h2>
+<div class="pair">
+<figure><img src="../screenshots/orbit34-side.png" alt="眼周重建稿的侧面实际网页截图"><figcaption>侧面检查镜圈、鼻梁和镜腿的距离，观察眼球是否穿出眼睑。</figcaption></figure>
+<figure><img src="../screenshots/orbit34-half.png" alt="重建稿穿深蓝西装站在黄昏玻璃屋露台的半身截图"><figcaption>回到演示距离，检查人物能否自然融入海边露台。</figcaption></figure>
+</div>
+<div class="notes">
+<p><strong>本轮改动：</strong>移除眼周融合的旧镜框，重接皮肤边界；眼球、虹膜与镜框分别建模，镜腿接回镜圈，并修整旧模型留下的局部凹槽。</p>
+<p><strong>仍然有差距：</strong>眼神偏僵，眼角与脸侧仍有生成和修补痕迹，皮肤细节不足。衣领、胸前图案、双手与服装变形也未完成；这轮没有把它们列为已修好。</p>
+<p>只检视静态画面，没有新增动作、表情或换装。双手与身体使用当前默认版本，未混入上一轮的手部候选。原始 GLB、默认人物与上一轮候选均保留；默认演示继续使用原版本。</p>
+<small>点击截图或上方入口可进入实际 3D 页面，初始保持静止，拖动可换角度。保留的五段动作不代表本轮完成了动作美术验收。</small>
+</div>
+</main></body></html>

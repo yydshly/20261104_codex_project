@@ -1,0 +1,2325 @@
+{
+  "errors": [],
+  "samples": [
+    {
+      "time": 0.8552,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 2,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_aa": 0.0009
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.954012,
+          6.820161
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 0.9805,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 2,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.1429,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_kk": 0.7812,
+        "viseme_aa": 0.0811
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.950199,
+          6.820161
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 1.157,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 2,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.1256,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_kk": 0.0065,
+        "viseme_aa": 0.2643,
+        "viseme_I": 0.7281
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.950215,
+          6.820161
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 1.2692,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 2,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.144,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_kk": 0.0004,
+        "viseme_aa": 0.0161,
+        "viseme_I": 0.9834
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.951675,
+          6.820161
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 1.4225,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 2,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.144,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_nn": 0.1027,
+        "viseme_aa": 0.8788,
+        "viseme_I": 0.0185
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.946676,
+          6.820161
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 1.5553,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 2,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0785,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_DD": 0.6787,
+        "viseme_nn": 0.0015,
+        "viseme_aa": 0.1337,
+        "viseme_I": 0.0003
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.951529,
+          6.820161
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 1.7137,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 2,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.1743,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_DD": 0.009,
+        "viseme_kk": 0.6554,
+        "viseme_aa": 0.333
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.94865,
+          6.820161
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 1.8729,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 2,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0305,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_DD": 0.0001,
+        "viseme_kk": 0.0191,
+        "viseme_aa": 0.9428
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.946306,
+          6.820161
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 1.9951,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 2,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0357,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_PP": 0.7605,
+        "viseme_kk": 0.0009,
+        "viseme_aa": 0.2367
+      },
+      "vertices": {
+        "mouth": [
+          -1.267791,
+          2.952099,
+          6.820901
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 2.1359,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 2,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.1297,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_PP": 0.009,
+        "viseme_aa": 0.9546
+      },
+      "vertices": {
+        "mouth": [
+          -1.267616,
+          2.946288,
+          6.82017
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 1.7299,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 3,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0901,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_DD": 0.0082,
+        "viseme_kk": 0.8623,
+        "viseme_aa": 0.1272
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.94948,
+          6.820161
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 1.9563,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 3,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.1231,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_PP": 0.3468,
+        "viseme_kk": 0.0014,
+        "viseme_aa": 0.6461
+      },
+      "vertices": {
+        "mouth": [
+          -1.267695,
+          2.948781,
+          6.820498
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 2.1694,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 3,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0959,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_PP": 0.001,
+        "viseme_aa": 0.9804
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.946079,
+          6.820162
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 2.3568,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 3,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.2007,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_PP": 0.0211,
+        "viseme_aa": 0.0046,
+        "viseme_O": 0.9732
+      },
+      "vertices": {
+        "mouth": [
+          -1.268074,
+          2.948027,
+          6.822074
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 2.5586,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 3,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.092,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_nn": 0.0444,
+        "viseme_I": 0.9415,
+        "viseme_O": 0.014
+      },
+      "vertices": {
+        "mouth": [
+          -1.26762,
+          2.951736,
+          6.820189
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 2.7668,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 3,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0708,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_nn": 0.0001,
+        "viseme_I": 0.0163,
+        "viseme_U": 0.9835
+      },
+      "vertices": {
+        "mouth": [
+          -1.268534,
+          2.950619,
+          6.823985
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 2.9663,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 3,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0009,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_U": 0.0213
+      },
+      "vertices": {
+        "mouth": [
+          -1.267633,
+          2.953946,
+          6.820244
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 3.1846,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 3,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.954019,
+          6.820162
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 3.3738,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 4,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0,
+      "weights": {
+        "eyeBlinkLeft": 0.9332,
+        "eyeBlinkRight": 0.9332,
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.954019,
+          6.820161
+        ],
+        "lid": [
+          -1.230142,
+          3.02688,
+          6.81832
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 3.5701,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 4,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0,
+      "weights": {
+        "eyeBlinkLeft": 0.0678,
+        "eyeBlinkRight": 0.0678,
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.954019,
+          6.820161
+        ],
+        "lid": [
+          -1.230031,
+          3.031164,
+          6.817859
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 3.7744,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 4,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0005,
+      "weights": {
+        "eyeBlinkLeft": 0.0002,
+        "eyeBlinkRight": 0.0002,
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.954019,
+          6.820161
+        ],
+        "lid": [
+          -1.230022,
+          3.031498,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 3.9706,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 4,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.1355,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_PP": 0.1957,
+        "viseme_O": 0.8001
+      },
+      "vertices": {
+        "mouth": [
+          -1.268034,
+          2.949123,
+          6.821907
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 4.1679,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 4,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0248,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_PP": 0.0154,
+        "viseme_E": 0.9422,
+        "viseme_O": 0.0033
+      },
+      "vertices": {
+        "mouth": [
+          -1.267619,
+          2.950353,
+          6.820183
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 4.3724,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 4,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0069,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_CH": 0.0182,
+        "viseme_aa": 0.1494,
+        "viseme_E": 0.0043
+      },
+      "vertices": {
+        "mouth": [
+          -1.267618,
+          2.95274,
+          6.820179
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 4.5859,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 4,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0702,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_SS": 0.0103,
+        "viseme_aa": 0.9875
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.946007,
+          6.820161
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 4.7369,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 4,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0694,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_SS": 0.0002,
+        "viseme_nn": 0.1072,
+        "viseme_aa": 0.0148,
+        "viseme_U": 0.8777
+      },
+      "vertices": {
+        "mouth": [
+          -1.268435,
+          2.950705,
+          6.823574
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 4.9667,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 4,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.1475,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_DD": 0.1045,
+        "viseme_nn": 0.0002,
+        "viseme_aa": 0.8664,
+        "viseme_U": 0.0289
+      },
+      "vertices": {
+        "mouth": [
+          -1.267641,
+          2.946687,
+          6.820274
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 5.178,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 4,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0088,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_DD": 0.086,
+        "viseme_aa": 0.0453,
+        "viseme_I": 0.0048
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.953464,
+          6.820162
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 5.387,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 4,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.1287,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_DD": 0.0003,
+        "viseme_aa": 0.0001,
+        "viseme_I": 0.9971
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.951775,
+          6.820161
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 5.6058,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 4,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0652,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_CH": 0.5781,
+        "viseme_I": 0.4156
+      },
+      "vertices": {
+        "mouth": [
+          -1.267749,
+          2.95142,
+          6.820723
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 5.7469,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 4,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0801,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_CH": 0.0292,
+        "viseme_aa": 0.9636,
+        "viseme_I": 0.007
+      },
+      "vertices": {
+        "mouth": [
+          -1.26762,
+          2.946115,
+          6.82019
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 5.9791,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 4,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_aa": 0.0051
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.953978,
+          6.820161
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 6.1997,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 4,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0436,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_kk": 0.077,
+        "viseme_aa": 0.8776
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.946601,
+          6.820161
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 6.4235,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 4,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0399,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_kk": 0.1096,
+        "viseme_aa": 0.8903
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.946365,
+          6.820161
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 6.5884,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 4,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0035,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_kk": 0.0012,
+        "viseme_aa": 0.0956
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.95324,
+          6.820161
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 6.7802,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 4,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0159,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_CH": 0.054,
+        "viseme_aa": 0.0009,
+        "viseme_I": 0.4652
+      },
+      "vertices": {
+        "mouth": [
+          -1.267626,
+          2.95281,
+          6.820214
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 7.0329,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 4,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0511,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_SS": 0.0102,
+        "viseme_E": 0.9881,
+        "viseme_I": 0.0012
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.950178,
+          6.820161
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 7.249,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 4,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.1152,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_DD": 0.0164,
+        "viseme_E": 0.9836
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.95018,
+          6.820161
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 7.4564,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 4,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0299,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_aa": 0.9971,
+        "viseme_E": 0.0029
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.945933,
+          6.820161
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 7.6568,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 5,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0722,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_kk": 0.015,
+        "viseme_aa": 0.985
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.945982,
+          6.820161
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 7.86,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 5,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0,
+      "weights": {
+        "eyeBlinkLeft": 0.8195,
+        "eyeBlinkRight": 0.8195,
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_aa": 0.0041
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.953986,
+          6.820161
+        ],
+        "lid": [
+          -1.230127,
+          3.027443,
+          6.818259
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 8.0704,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 5,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0883,
+      "weights": {
+        "eyeBlinkLeft": 0.005,
+        "eyeBlinkRight": 0.005,
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_SS": 0.1172,
+        "viseme_E": 0.8615
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.950517,
+          6.820161
+        ],
+        "lid": [
+          -1.230023,
+          3.031474,
+          6.817826
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 8.2663,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 5,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.1707,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_SS": 0.0005,
+        "viseme_aa": 0.9149,
+        "viseme_E": 0.0845
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.946282,
+          6.820161
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 8.482,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 5,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0129,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_SS": 0.1008,
+        "viseme_aa": 0.0178,
+        "viseme_E": 0.0002,
+        "viseme_U": 0.2743
+      },
+      "vertices": {
+        "mouth": [
+          -1.26787,
+          2.952791,
+          6.821228
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 8.6621,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 5,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0035,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_SS": 0.0007,
+        "viseme_aa": 0.0001,
+        "viseme_U": 0.0815
+      },
+      "vertices": {
+        "mouth": [
+          -1.26769,
+          2.953739,
+          6.820478
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 8.9165,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 5,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0396,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_kk": 0.8332,
+        "viseme_E": 0.1661
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.950003,
+          6.820162
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 9.1431,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 5,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.1063,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_kk": 0.0049,
+        "viseme_nn": 0.8013,
+        "viseme_aa": 0.1928,
+        "viseme_E": 0.001
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.950992,
+          6.820161
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 9.3243,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 5,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0637,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_CH": 0.8903,
+        "viseme_nn": 0.0053,
+        "viseme_aa": 0.1043
+      },
+      "vertices": {
+        "mouth": [
+          -1.267822,
+          2.950601,
+          6.821027
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 9.497,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 5,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0777,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_CH": 0.0066,
+        "viseme_aa": 0.0008,
+        "viseme_I": 0.9926
+      },
+      "vertices": {
+        "mouth": [
+          -1.267615,
+          2.951761,
+          6.820168
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 9.7001,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 5,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0629,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_CH": 0.0561,
+        "viseme_I": 0.9439
+      },
+      "vertices": {
+        "mouth": [
+          -1.267627,
+          2.951734,
+          6.820216
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 9.8395,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 5,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.1056,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_CH": 0.0034,
+        "viseme_I": 0.9966
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.951768,
+          6.820165
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 10.1062,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 5,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.1142,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_DD": 0.9392,
+        "viseme_CH": 0.0002,
+        "viseme_I": 0.0606
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.951939,
+          6.820162
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 10.3347,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 5,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0.0027,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_DD": 0.0571,
+        "viseme_I": 0.0037
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.953893,
+          6.820161
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 10.5825,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 5,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849,
+        "viseme_DD": 0.0035,
+        "viseme_I": 0.0002
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.954012,
+          6.820161
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 10.8089,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 5,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.954019,
+          6.820161
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 10.9974,
+      "duration": 11.115736961451248,
+      "playing": true,
+      "paused": false,
+      "ended": false,
+      "blinkCount": 5,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.954019,
+          6.820161
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    },
+    {
+      "time": 11.1157,
+      "duration": 11.115736961451248,
+      "playing": false,
+      "paused": true,
+      "ended": true,
+      "blinkCount": 5,
+      "automaticBlink": true,
+      "gaze": true,
+      "rms": 0,
+      "weights": {
+        "eyeLookRight": 0.4369,
+        "eyeLookUp": 0.1849
+      },
+      "vertices": {
+        "mouth": [
+          -1.267614,
+          2.954019,
+          6.820161
+        ],
+        "lid": [
+          -1.230022,
+          3.031499,
+          6.817823
+        ],
+        "iris": [
+          -1.228608,
+          3.027188,
+          6.818422
+        ]
+      },
+      "clock": "audio.currentTime",
+      "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+    }
+  ],
+  "identity": "Own 0597 head, hairstyle, glasses, body and clothes retained; no Microsoft or MakeHuman facial geometry",
+  "blink": {
+    "time": 0,
+    "duration": 11.115736961451248,
+    "playing": false,
+    "paused": true,
+    "ended": false,
+    "blinkCount": 2,
+    "automaticBlink": false,
+    "gaze": true,
+    "rms": 0,
+    "weights": {
+      "eyeBlinkLeft": 0.4016,
+      "eyeBlinkRight": 0.4016,
+      "eyeLookRight": 0.4369,
+      "eyeLookUp": 0.1849
+    },
+    "vertices": {
+      "mouth": [
+        -1.267614,
+        2.954019,
+        6.820161
+      ],
+      "lid": [
+        -1.230074,
+        3.029511,
+        6.818037
+      ],
+      "iris": [
+        -1.228608,
+        3.027188,
+        6.818422
+      ]
+    },
+    "clock": "audio.currentTime",
+    "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment.",
+    "baseline": [
+      -1.230022,
+      3.031497,
+      6.817823
+    ],
+    "displacement": 0.001998173165669188
+  },
+  "paused": {
+    "time": 2.2819,
+    "duration": 11.115736961451248,
+    "playing": false,
+    "paused": true,
+    "ended": false,
+    "blinkCount": 3,
+    "automaticBlink": true,
+    "gaze": true,
+    "rms": 0,
+    "weights": {
+      "eyeBlinkLeft": 0.2894,
+      "eyeBlinkRight": 0.2894,
+      "eyeLookRight": 0.4369,
+      "eyeLookUp": 0.1849
+    },
+    "vertices": {
+      "mouth": [
+        -1.267614,
+        2.954019,
+        6.820161
+      ],
+      "lid": [
+        -1.230059,
+        3.030067,
+        6.817977
+      ],
+      "iris": [
+        -1.228608,
+        3.027188,
+        6.818422
+      ]
+    },
+    "clock": "audio.currentTime",
+    "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+  },
+  "resumed": {
+    "time": 2.644,
+    "duration": 11.115736961451248,
+    "playing": true,
+    "paused": false,
+    "ended": false,
+    "blinkCount": 3,
+    "automaticBlink": true,
+    "gaze": true,
+    "rms": 0.0563,
+    "weights": {
+      "eyeLookRight": 0.4369,
+      "eyeLookUp": 0.1849,
+      "viseme_nn": 0.0028,
+      "viseme_I": 0.4721,
+      "viseme_O": 0.0009,
+      "viseme_U": 0.5242
+    },
+    "vertices": {
+      "mouth": [
+        -1.268105,
+        2.951155,
+        6.822201
+      ],
+      "lid": [
+        -1.230022,
+        3.031499,
+        6.817823
+      ],
+      "iris": [
+        -1.228608,
+        3.027188,
+        6.818422
+      ]
+    },
+    "clock": "audio.currentTime",
+    "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+  },
+  "stopped": {
+    "time": 0,
+    "duration": 11.115736961451248,
+    "playing": false,
+    "paused": true,
+    "ended": false,
+    "blinkCount": 3,
+    "automaticBlink": true,
+    "gaze": true,
+    "rms": 0,
+    "weights": {
+      "eyeLookRight": 0.4369,
+      "eyeLookUp": 0.1849
+    },
+    "vertices": {
+      "mouth": [
+        -1.267614,
+        2.954019,
+        6.820161
+      ],
+      "lid": [
+        -1.230022,
+        3.031499,
+        6.817823
+      ],
+      "iris": [
+        -1.228608,
+        3.027188,
+        6.818422
+      ]
+    },
+    "clock": "audio.currentTime",
+    "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+  },
+  "recording": {
+    "videoTracks": 1,
+    "audioTracks": 1,
+    "method": "Actual webpage canvas and the same HTML audio element"
+  },
+  "ended": {
+    "time": 11.1157,
+    "duration": 11.115736961451248,
+    "playing": false,
+    "paused": true,
+    "ended": true,
+    "blinkCount": 5,
+    "automaticBlink": true,
+    "gaze": true,
+    "rms": 0,
+    "weights": {
+      "eyeLookRight": 0.4369,
+      "eyeLookUp": 0.1849
+    },
+    "vertices": {
+      "mouth": [
+        -1.267614,
+        2.954019,
+        6.820161
+      ],
+      "lid": [
+        -1.230022,
+        3.031499,
+        6.817823
+      ],
+      "iris": [
+        -1.228608,
+        3.027188,
+        6.818422
+      ]
+    },
+    "clock": "audio.currentTime",
+    "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+  },
+  "spokenShapes": [
+    "viseme_kk",
+    "viseme_aa",
+    "viseme_I",
+    "viseme_nn",
+    "viseme_DD",
+    "viseme_PP",
+    "viseme_O",
+    "viseme_U",
+    "viseme_E",
+    "viseme_CH",
+    "viseme_SS"
+  ],
+  "download": {
+    "bytes": 16662052,
+    "sha256": "69927e9fb807a1e63d9d901166c2167d740d2efd8997cdf08295b2c095969f94"
+  },
+  "mobile": {
+    "time": 0.4049,
+    "duration": 11.115736961451248,
+    "playing": true,
+    "paused": false,
+    "ended": false,
+    "blinkCount": 0,
+    "automaticBlink": false,
+    "gaze": true,
+    "rms": 0.035,
+    "weights": {
+      "eyeLookDown": 0.45,
+      "viseme_kk": 0.6538,
+      "viseme_nn": 0.0016,
+      "viseme_I": 0.2254
+    },
+    "vertices": {
+      "mouth": [
+        -1.267614,
+        2.950862,
+        6.820161
+      ],
+      "lid": [
+        -1.230022,
+        3.031499,
+        6.817823
+      ],
+      "iris": [
+        -1.228025,
+        3.02654,
+        6.818498
+      ]
+    },
+    "clock": "audio.currentTime",
+    "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+  }
+}

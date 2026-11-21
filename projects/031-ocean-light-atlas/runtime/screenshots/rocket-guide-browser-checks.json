@@ -1,0 +1,174 @@
+{
+  "checkedAt": "2026-11-14T05:38:18.398Z",
+  "asset": {
+    "bytes": 21879456,
+    "bones": 80,
+    "clips": [
+      "Idle",
+      "LookAround",
+      "Point",
+      "Walk",
+      "Wave"
+    ]
+  },
+  "pageErrors": [],
+  "checks": [
+    {
+      "name": "Wave",
+      "motionDistance": 0.8568433229009842,
+      "samples": 6
+    },
+    {
+      "name": "LookAround",
+      "motionDistance": 0.34155139657158484,
+      "samples": 6
+    },
+    {
+      "name": "Point",
+      "motionDistance": 0.7557483046623391,
+      "samples": 6
+    },
+    {
+      "name": "pause freezes root and animation",
+      "position": [
+        -2.053,
+        1.413,
+        6.7
+      ],
+      "time": 0.63
+    },
+    {
+      "name": "three-stop tour",
+      "order": [
+        "inside",
+        "tide",
+        "shore"
+      ],
+      "elapsedSeconds": 82
+    },
+    {
+      "name": "download",
+      "filename": "seaside-rocketbox-guide.glb",
+      "bytes": 21879456
+    },
+    {
+      "name": "mobile and reduced motion",
+      "width": 390,
+      "initialPaused": true,
+      "explicitActionResumes": true
+    },
+    {
+      "name": "historical entries",
+      "legacy": true,
+      "staticComparison": true
+    }
+  ],
+  "tour": [
+    {
+      "action": "Point",
+      "phase": "gesture",
+      "stop": "inside",
+      "camera": "follow",
+      "position": [
+        -3.15,
+        1.55,
+        1.75
+      ],
+      "pose": {
+        "time": 0,
+        "hand": [
+          -2.9139,
+          2.3661,
+          1.8121
+        ],
+        "headRotation": [
+          0.00035,
+          -0.00621,
+          0.0184,
+          0.99981
+        ],
+        "leftFoot": [
+          -3.2294,
+          1.7783,
+          2.1143
+        ],
+        "rightFoot": [
+          -3.1156,
+          1.6558,
+          1.5476
+        ]
+      }
+    },
+    {
+      "action": "Point",
+      "phase": "gesture",
+      "stop": "tide",
+      "camera": "follow",
+      "position": [
+        3.5,
+        0.098,
+        7.7
+      ],
+      "pose": {
+        "time": 0.058,
+        "hand": [
+          3.6934,
+          0.9445,
+          7.8786
+        ],
+        "headRotation": [
+          -0.01159,
+          -0.0065,
+          -0.02401,
+          0.99962
+        ],
+        "leftFoot": [
+          3.4699,
+          0.1975,
+          7.6461
+        ],
+        "rightFoot": [
+          3.4894,
+          0.2882,
+          7.8281
+        ]
+      }
+    },
+    {
+      "action": "Point",
+      "phase": "gesture",
+      "stop": "shore",
+      "camera": "follow",
+      "position": [
+        -1.25,
+        1.413,
+        6.7
+      ],
+      "pose": {
+        "time": 0.238,
+        "hand": [
+          -1.0167,
+          2.2602,
+          6.6053
+        ],
+        "headRotation": [
+          -0.00912,
+          0.00927,
+          -0.04328,
+          0.99898
+        ],
+        "leftFoot": [
+          -1.3055,
+          1.5259,
+          6.7996
+        ],
+        "rightFoot": [
+          -1.1597,
+          1.5156,
+          6.5844
+        ]
+      }
+    }
+  ],
+  "result": "passed; screenshots still require visual review"
+}

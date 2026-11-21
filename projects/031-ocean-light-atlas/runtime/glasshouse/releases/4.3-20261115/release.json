@@ -1,0 +1,398 @@
+{
+  "id": "4.3-20261115",
+  "version": "4.3",
+  "frozenOn": "2026-11-15",
+  "status": "fixed-reference",
+  "entry": "index.html",
+  "character": {
+    "file": "personal-guide-hands43.glb",
+    "sha256": "bee62731b932e907f66eca8e58dc42daf8565f2501f77ab9e71cd20c3a0336f1",
+    "bones": 80,
+    "bodyClips": 5,
+    "facialShapes": 21
+  },
+  "environment": {
+    "fittedSeats": 5,
+    "moods": [
+      "gold",
+      "rose",
+      "blue"
+    ]
+  },
+  "runtimeDependencies": "All automatically requested files are inside this fixed directory; documentation/history links use the main project.",
+  "policy": "Do not overwrite. Future characters and scenes get separate asset directories and releases.",
+  "dependencies": {
+    "three": "0.187.0",
+    "esbuild": "0.25.12"
+  },
+  "totalBytes": 32671090,
+  "files": [
+    {
+      "path": "assets/ambience/manifest.json",
+      "kind": "runtime",
+      "bytes": 2723,
+      "sha256": "a9baa6785692ce55c15c4fd37bb62aa0d7e1fb800f34bf27c55b3be44363a698",
+      "source": "glasshouse/assets/ambience/manifest.json"
+    },
+    {
+      "path": "assets/ambience/ocean-surf.ogg",
+      "kind": "runtime",
+      "bytes": 1008044,
+      "sha256": "4f749fa3382b86de5d3967b9c8824c3d6155a7428d74f401686994ae74a1620b",
+      "source": "glasshouse/assets/ambience/ocean-surf.ogg"
+    },
+    {
+      "path": "assets/ambience/surf-texture43.json",
+      "kind": "runtime",
+      "bytes": 714,
+      "sha256": "22deb3ba4f8b9b6ee7ba9b5f74cfc03a6b9e55c0325679df5fa694e6b2558808",
+      "source": "glasshouse/assets/ambience/surf-texture43.json"
+    },
+    {
+      "path": "assets/ambience/surf-texture43.ogg",
+      "kind": "runtime",
+      "bytes": 177112,
+      "sha256": "e7a83f7e7c2d537632aa1e3a3c4856c852823cd9e7250e982780941218ae1c31",
+      "source": "glasshouse/assets/ambience/surf-texture43.ogg"
+    },
+    {
+      "path": "assets/ambience/wind.ogg",
+      "kind": "runtime",
+      "bytes": 374905,
+      "sha256": "5563b42caa0fabbcbf0c7b5e208d5f6fed9ab1992bac77a69f4c532639bd6ba4",
+      "source": "glasshouse/assets/ambience/wind.ogg"
+    },
+    {
+      "path": "assets/personal-guide/manifest-hands43.json",
+      "kind": "runtime",
+      "bytes": 4890,
+      "sha256": "7b92274074325cfff3d8442973b36b567dd80be92bc0707cc11943e67c32979d",
+      "source": "glasshouse/assets/personal-guide/manifest-hands43.json"
+    },
+    {
+      "path": "assets/personal-guide/personal-guide-hands43.glb",
+      "kind": "runtime",
+      "bytes": 27153676,
+      "sha256": "bee62731b932e907f66eca8e58dc42daf8565f2501f77ab9e71cd20c3a0336f1",
+      "source": "glasshouse/assets/personal-guide/personal-guide-hands43.glb"
+    },
+    {
+      "path": "assets/personal-guide/README.md",
+      "kind": "documentation",
+      "bytes": 552,
+      "sha256": "15dea8feddc0cf70226d6914552198017f439115f230e82baf52288546d3f27b"
+    },
+    {
+      "path": "assets/personal-guide/speech/terrace-intro.json",
+      "kind": "runtime",
+      "bytes": 24772,
+      "sha256": "c99951a52006105489ed75054640dbb6a7e3bf8e9975e591f66e3e0abf65fc3f",
+      "source": "glasshouse/assets/personal-guide/speech/terrace-intro.json"
+    },
+    {
+      "path": "assets/personal-guide/speech/terrace-intro.wav",
+      "kind": "runtime",
+      "bytes": 490250,
+      "sha256": "347998eb988efd846d0b37e1a2e5522cd74c1fafd8a64996df0aa42df2d4e5da",
+      "source": "glasshouse/assets/personal-guide/speech/terrace-intro.wav"
+    },
+    {
+      "path": "assets/rocket-guide/LICENSE.txt",
+      "kind": "runtime",
+      "bytes": 1066,
+      "sha256": "17474e386e0b9e1a700cc3d06b2b0882a2c376d9c6b49c7f8274409b8f8d2352",
+      "source": "glasshouse/assets/rocket-guide/LICENSE.txt"
+    },
+    {
+      "path": "character/reference.png",
+      "kind": "runtime",
+      "bytes": 2126011,
+      "sha256": "75bd43eb02c87d2942fc883cf62a71e69c0d78ca5fa3543b5948b6659ebc738b",
+      "source": "glasshouse/character/reference.png"
+    },
+    {
+      "path": "entry.js",
+      "kind": "runtime",
+      "bytes": 318,
+      "sha256": "496aefc7279ea730aeec184b0720ded152ebc0090271b6f23a9a5f6aff2165a8"
+    },
+    {
+      "path": "facial.css",
+      "kind": "runtime",
+      "bytes": 2430,
+      "sha256": "07cd8a2af91ee814ad60f8b3352a004cdbe17cf795893ab78c651c95df4d310f",
+      "source": "glasshouse/facial.css"
+    },
+    {
+      "path": "favicon.svg",
+      "kind": "runtime",
+      "bytes": 284,
+      "sha256": "e4d3ede53b6d068c8a1b7a3c0b75b3ab254ec57b7d4c5a049a398fda5b221fda",
+      "source": "favicon.svg"
+    },
+    {
+      "path": "guide.css",
+      "kind": "runtime",
+      "bytes": 8055,
+      "sha256": "adb5b8ff61e39853c8da63784c5986d0572651c8e4c7d1d51b0da30f8d2297f4",
+      "source": "glasshouse/guide.css"
+    },
+    {
+      "path": "hero-study.css",
+      "kind": "runtime",
+      "bytes": 5384,
+      "sha256": "b71c9935ab40ee7c46bd11e50190561fb5a66e39b8104e0213e489eaf3e17212",
+      "source": "glasshouse/hero-study.css"
+    },
+    {
+      "path": "index.html",
+      "kind": "runtime",
+      "bytes": 13631,
+      "sha256": "fde7099ba91f4d9a42661d07a6eca43aac75a670601890f5353e5133612fc03f",
+      "source": "glasshouse/index.html (entry and documentation links adjusted only)"
+    },
+    {
+      "path": "README.md",
+      "kind": "documentation",
+      "bytes": 1583,
+      "sha256": "e1a7151e65bff99231f4f3543361550d1d1ae05f9e2955ed1d802095b683042b"
+    },
+    {
+      "path": "scene.bundle.js",
+      "kind": "runtime",
+      "bytes": 1061658,
+      "sha256": "87741bc34f71ef8d9ab4de23cac928af37556de2e8a04bbf3821df05752b9148",
+      "source": "glasshouse/scene.bundle.js"
+    },
+    {
+      "path": "scene.css",
+      "kind": "runtime",
+      "bytes": 8393,
+      "sha256": "79dc36078ff08654056a908c77fb3f1be82df2692627c331d42b07680ed8aba3",
+      "source": "glasshouse/scene.css"
+    },
+    {
+      "path": "seaside.css",
+      "kind": "runtime",
+      "bytes": 2767,
+      "sha256": "cd0408b717b495e79f2c0c19f10b305d078d8cdaefafb9cee668f55599d8188c",
+      "source": "glasshouse/seaside.css"
+    },
+    {
+      "path": "source/build.mjs",
+      "kind": "source",
+      "bytes": 952,
+      "sha256": "8b14c0a5a13ff2b62d0f5080eb4a37288e40ef07604b702eaeec388024357e95",
+      "source": "glasshouse/build.mjs"
+    },
+    {
+      "path": "source/camera-guard.js",
+      "kind": "source",
+      "bytes": 3614,
+      "sha256": "a51f3544fc45a38156cb7c876b29655383e1a7f9f1eef3aa9a94a6a683153657",
+      "source": "glasshouse/camera-guard.js"
+    },
+    {
+      "path": "source/camera-motion.js",
+      "kind": "source",
+      "bytes": 866,
+      "sha256": "ae7ea3b43f248aea61a19de2f3c36c5c96bf5f5df04ad6c8393726765c1497c0",
+      "source": "glasshouse/camera-motion.js"
+    },
+    {
+      "path": "source/coast.js",
+      "kind": "source",
+      "bytes": 764,
+      "sha256": "e3a097c83f4c01968fe5cd2d553a46d094c405811bcc64e576c3dcd300e16b0d",
+      "source": "glasshouse/coast.js"
+    },
+    {
+      "path": "source/contact-light.js",
+      "kind": "source",
+      "bytes": 2978,
+      "sha256": "78d15519b0d050f7f2f05dfe6751cd912593dd96e383dfc96715416c4df50b71",
+      "source": "glasshouse/contact-light.js"
+    },
+    {
+      "path": "source/facial-performance.js",
+      "kind": "source",
+      "bytes": 8492,
+      "sha256": "5dee7ce82ce71bca60414ab288cb2f8de8ecceee674bf70347c8ac88a65ea6eb",
+      "source": "glasshouse/facial-performance.js"
+    },
+    {
+      "path": "source/foot-placement.js",
+      "kind": "source",
+      "bytes": 13001,
+      "sha256": "8851dfade07675fe0dc24937e5ab87a7d75333791d128fa31ad31e3edfd7e3c7",
+      "source": "glasshouse/foot-placement.js"
+    },
+    {
+      "path": "source/guide-avatar.js",
+      "kind": "source",
+      "bytes": 4016,
+      "sha256": "a8c48eba2a003b44a8063e1064802eb1a0969bf9a95b73f8ca58e51b5192091c",
+      "source": "glasshouse/guide-avatar.js"
+    },
+    {
+      "path": "source/guide-controller.js",
+      "kind": "source",
+      "bytes": 38489,
+      "sha256": "d17517e5a84dad6dcb5a06d8e52cc4ad8090d74d5a8a92d500d418093659e0dc",
+      "source": "glasshouse/guide-controller.js"
+    },
+    {
+      "path": "source/hero-candidates.js",
+      "kind": "source",
+      "bytes": 3495,
+      "sha256": "e98fb2579a9205e896ffb687a411685439d5c88289d745d3ac800c80973869e8",
+      "source": "glasshouse/hero-candidates.js"
+    },
+    {
+      "path": "source/hero-study.js",
+      "kind": "source",
+      "bytes": 12325,
+      "sha256": "391af3d2c6f6d096307708cf1de9b1e2c716f699f5d8f2ebf834549b5186764a",
+      "source": "glasshouse/hero-study.js"
+    },
+    {
+      "path": "source/implementation.js",
+      "kind": "source",
+      "bytes": 3378,
+      "sha256": "f7b693d7a6737c55b9e90c60277a845a81856e15373ce5fa025c3e41724bfd3e",
+      "source": "glasshouse/implementation.js"
+    },
+    {
+      "path": "source/locomotion.js",
+      "kind": "source",
+      "bytes": 702,
+      "sha256": "7cae18f44fccf6ec69f95f2c2c7b41e11cf4533db6272b5c8f537d6f4f381d5d",
+      "source": "glasshouse/locomotion.js"
+    },
+    {
+      "path": "source/movement-input.js",
+      "kind": "source",
+      "bytes": 1661,
+      "sha256": "1450a481fd128ed9204734a461a105f06ec2fb0c5b50613c9023b9810c4af699",
+      "source": "glasshouse/movement-input.js"
+    },
+    {
+      "path": "source/package.json",
+      "kind": "source",
+      "bytes": 193,
+      "sha256": "90cdaaeb40efb651efdb49fcf48d5d75998ea68e9cc7132d483828c176ea68a9"
+    },
+    {
+      "path": "source/qa-recording.js",
+      "kind": "source",
+      "bytes": 2590,
+      "sha256": "d6cd0e24b1ecdcfb4da5b2f0cb44ef0c80caffa250268ef9d93a9e4ae4bfe30e",
+      "source": "glasshouse/qa-recording.js"
+    },
+    {
+      "path": "source/rock-seat.js",
+      "kind": "source",
+      "bytes": 2212,
+      "sha256": "2fd8ec003e6da25f861243e0f0bc8d0ac3d82874fc1309d96764d742f2a89367",
+      "source": "glasshouse/rock-seat.js"
+    },
+    {
+      "path": "source/rocket-avatar.js",
+      "kind": "source",
+      "bytes": 7812,
+      "sha256": "2c9663b41446dde720d8553207e1b180a2552466d296f95bdfc0adc6a18db76e",
+      "source": "glasshouse/rocket-avatar.js"
+    },
+    {
+      "path": "source/scene-layout.js",
+      "kind": "source",
+      "bytes": 1805,
+      "sha256": "8573a8d17c6da5ff15c8e9e29e929a4dae4fbc692046f01717d52a238ef957fb",
+      "source": "glasshouse/scene-layout.js"
+    },
+    {
+      "path": "source/scene-shots.js",
+      "kind": "source",
+      "bytes": 809,
+      "sha256": "5b3bd12be021e637899b996c29ce43d56744aed1c3599494b9058d502f148ae0",
+      "source": "glasshouse/scene-shots.js"
+    },
+    {
+      "path": "source/scene.js",
+      "kind": "source",
+      "bytes": 37425,
+      "sha256": "8146f674e429f311dfc0a4515421da20e103782f764b6c0c8408085e2211dedc",
+      "source": "glasshouse/scene.js"
+    },
+    {
+      "path": "source/seaside-audio.js",
+      "kind": "source",
+      "bytes": 7644,
+      "sha256": "3c7b1f263500b31d32e49267bda7a6f08b778ea031a9b6564314726c0d560d01",
+      "source": "glasshouse/seaside-audio.js"
+    },
+    {
+      "path": "source/seat-coat.js",
+      "kind": "source",
+      "bytes": 3316,
+      "sha256": "5551d16e4b3d0ffcbef2307f911567bf8d1fce6c9306991a7a6a5bbe34835bb8",
+      "source": "glasshouse/seat-coat.js"
+    },
+    {
+      "path": "source/seated-pose.js",
+      "kind": "source",
+      "bytes": 7272,
+      "sha256": "4e2487a4b09c51fb048bdae4005298fab989949e67bed7ef2edac20ba1ce3c1b",
+      "source": "glasshouse/seated-pose.js"
+    },
+    {
+      "path": "source/seats.js",
+      "kind": "source",
+      "bytes": 2540,
+      "sha256": "d242e8d3d163045cf606a5501d3c6301bdebe423164f7d7a35fc1617e333a639",
+      "source": "glasshouse/seats.js"
+    },
+    {
+      "path": "source/shore-rocks.js",
+      "kind": "source",
+      "bytes": 2458,
+      "sha256": "0d4b90f3d50ecbc432d7a854c433aeb3a40ea97acd0b97d2c052d53e8967c164",
+      "source": "glasshouse/shore-rocks.js"
+    },
+    {
+      "path": "source/stair-motion.js",
+      "kind": "source",
+      "bytes": 1085,
+      "sha256": "2ebbd1acac37aae5d938fd61c1eab7b05a49970a7d72ba61aa3d9ac39a0de9e9",
+      "source": "glasshouse/stair-motion.js"
+    },
+    {
+      "path": "source/surf-cycle.js",
+      "kind": "source",
+      "bytes": 1236,
+      "sha256": "1ca7e90f9b5e348895423bd7d3eb95cf00ac9f48d0f08aa59c419662eb858876",
+      "source": "glasshouse/surf-cycle.js"
+    },
+    {
+      "path": "source/walk-surface.js",
+      "kind": "source",
+      "bytes": 6062,
+      "sha256": "5aeb4ea5f805deb492a16328cb91a8676ca9f2bc8b07cffbfd184b9b589fbe56",
+      "source": "glasshouse/walk-surface.js"
+    },
+    {
+      "path": "source/water-system.js",
+      "kind": "source",
+      "bytes": 21599,
+      "sha256": "0c9d5d734422803e688b4174fde742a84fb4ad6bb0d64cf8f4d6f4dffcf7ccb4",
+      "source": "glasshouse/water-system.js"
+    },
+    {
+      "path": "THREE-LICENSE.txt",
+      "kind": "runtime",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "source": "glasshouse/THREE-LICENSE.txt"
+    }
+  ]
+}

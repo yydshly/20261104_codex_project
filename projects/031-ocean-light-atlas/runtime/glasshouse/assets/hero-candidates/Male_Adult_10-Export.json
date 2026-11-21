@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Male_Adult_10.fbx",
+    "path": "Assets/Avatars/Adults/Male_Adult_10/Export/Male_Adult_10.fbx",
+    "sha": "b7ab6eb1c2e4611c6cf2435b11717de23c60fb14",
+    "size": 541104,
+    "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/contents/Assets/Avatars/Adults/Male_Adult_10/Export/Male_Adult_10.fbx?ref=master",
+    "html_url": "https://github.com/microsoft/Microsoft-Rocketbox/blob/master/Assets/Avatars/Adults/Male_Adult_10/Export/Male_Adult_10.fbx",
+    "git_url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/b7ab6eb1c2e4611c6cf2435b11717de23c60fb14",
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Male_Adult_10/Export/Male_Adult_10.fbx",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/contents/Assets/Avatars/Adults/Male_Adult_10/Export/Male_Adult_10.fbx?ref=master",
+      "git": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/b7ab6eb1c2e4611c6cf2435b11717de23c60fb14",
+      "html": "https://github.com/microsoft/Microsoft-Rocketbox/blob/master/Assets/Avatars/Adults/Male_Adult_10/Export/Male_Adult_10.fbx"
+    }
+  },
+  {
+    "name": "Male_Adult_10_facial.fbx",
+    "path": "Assets/Avatars/Adults/Male_Adult_10/Export/Male_Adult_10_facial.fbx",
+    "sha": "f23142bc3d9246171ff392c824f3f44e324c92fc",
+    "size": 1877232,
+    "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/contents/Assets/Avatars/Adults/Male_Adult_10/Export/Male_Adult_10_facial.fbx?ref=master",
+    "html_url": "https://github.com/microsoft/Microsoft-Rocketbox/blob/master/Assets/Avatars/Adults/Male_Adult_10/Export/Male_Adult_10_facial.fbx",
+    "git_url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/f23142bc3d9246171ff392c824f3f44e324c92fc",
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Male_Adult_10/Export/Male_Adult_10_facial.fbx",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/contents/Assets/Avatars/Adults/Male_Adult_10/Export/Male_Adult_10_facial.fbx?ref=master",
+      "git": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/f23142bc3d9246171ff392c824f3f44e324c92fc",
+      "html": "https://github.com/microsoft/Microsoft-Rocketbox/blob/master/Assets/Avatars/Adults/Male_Adult_10/Export/Male_Adult_10_facial.fbx"
+    }
+  }
+]

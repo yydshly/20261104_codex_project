@@ -1,0 +1,265 @@
+{
+  "version": "4.3",
+  "releaseId": "4.3-20261115",
+  "date": "2026-11-15",
+  "purpose": "固定0597海边玻璃屋演示，作为后续人物和场景接入的参照。",
+  "scope": "20种海面效果与80份扩展方案属于整理库。本玻璃屋实际落地的是海面金色反光、近岸薄浪与碎沫、室内流动水光等组合，未把全部20种效果实现为三维场景。",
+  "capabilities": [
+    {
+      "name": "海面与空间氛围",
+      "status": "adapt",
+      "done": "三维玻璃屋、海岸、家具；金色海面、近岸浪唇与碎沫、室内水光；日落、晚霞、蓝调三种天色。",
+      "reuse": "保留水面着色、反射和水光的实现，再按新场景目标调整。",
+      "change": "海岸形状、水深近似、太阳与灯、接收水光的表面。",
+      "limit": "海浪、反射和水光是实时近似；不是完整海洋流体、真实光线追踪或全部20种效果。",
+      "files": [
+        "scene.js",
+        "water-system.js",
+        "coast.js",
+        "contact-light.js"
+      ]
+    },
+    {
+      "name": "0597人物资产",
+      "status": "adapt",
+      "done": "整理单人人物，保留自己的脸、发型、眼镜与主体服装；80关节、5段身体动作、21个面部形态；局部修整手面、腕部和袖口。",
+      "reuse": "当前GLB可作为这个人物的基础资产；制作脚本与清单可作为下一人物的整理参照。",
+      "change": "每个人物的比例、骨骼命名、动作重定向、鞋底、手腕和服装变形。",
+      "limit": "其他GLB不能保证直接替换；手指暂无独立抓握，换装未实现。",
+      "files": [
+        "rocket-avatar.js",
+        "character/build-hands43.py",
+        "assets/personal-guide/manifest-hands43.json"
+      ]
+    },
+    {
+      "name": "键盘与触屏控制",
+      "status": "copy",
+      "done": "WASD / 方向键、手机按住方向按钮、松开停止、失焦清除输入；手动走动与带路切换。",
+      "reuse": "输入与起停模块可复用；接到新角色的移动、动画和碰撞接口。",
+      "change": "移动速度、转向、步幅及新场景可走区域。",
+      "limit": "是当前场景的运动控制，不是完整物理引擎或通用寻路系统。",
+      "files": [
+        "movement-input.js",
+        "locomotion.js",
+        "guide-controller.js"
+      ]
+    },
+    {
+      "name": "台阶与脚底支撑",
+      "status": "adapt",
+      "done": "在现有露台台阶上抬脚、跨阶、落脚；约束身体超前，配合骨盆和实际蒙皮鞋底探针。",
+      "reuse": "脚底接触与两段骨骼求解的方法，可沿用到已适配的骨架和支撑面。",
+      "change": "角色腿长、鞋底探针、步幅、阶高阶深、地面高度与安全落点。",
+      "limit": "没有验证任意楼梯和任意方向；不能只改模型就承诺无穿模。",
+      "files": [
+        "foot-placement.js",
+        "stair-motion.js",
+        "walk-surface.js",
+        "scene-layout.js"
+      ]
+    },
+    {
+      "name": "自主坐下与起身",
+      "status": "adapt",
+      "done": "5处已适配位置：沙发3处、扶手椅1处、岩石1处；靠近正面识别，按E/按钮坐下，自主停留，再起身。",
+      "reuse": "靠近识别、转身对位、降低、静坐、起身与退出的流程。",
+      "change": "坐面与地面高度、方向、接近点、臀部/背部、双手、双脚和镜头。",
+      "limit": "坐姿由网页运行时驱动，未写成GLB动作；没有任意物体自动识别、软垫受压或完整布料物理。",
+      "files": [
+        "seats.js",
+        "rock-seat.js",
+        "seated-pose.js",
+        "seat-coat.js",
+        "guide-controller.js"
+      ]
+    },
+    {
+      "name": "镜头与遮挡处理",
+      "status": "adapt",
+      "done": "跟随人物、人物视线、自由环视与人物近景；坐起转场及建筑/岩石的镜头遮挡检查；手机另有构图。",
+      "reuse": "围绕焦点插值、限转速与遮挡检查方法。",
+      "change": "新人物高度、物体包围范围、镜头焦点与桌面/手机机位。",
+      "limit": "当前家具与建筑的范围参与检查，不能直接覆盖任意新场景。",
+      "files": [
+        "camera-motion.js",
+        "camera-guard.js",
+        "scene-shots.js",
+        "guide-controller.js"
+      ]
+    },
+    {
+      "name": "眨眼与语音讲解",
+      "status": "adapt",
+      "done": "自己的头部自动/手动眨眼、视线和约11秒固定中文讲解；音频时间驱动口型，支持暂停、继续、停止。",
+      "reuse": "音频作为口型时钟的驱动方式，以及已有面部形态的映射。",
+      "change": "新模型的真实面部形态、名称与幅度；新语音文件和口型时间表。",
+      "limit": "当前按停顿、能量与已知拼音近似对齐；无自由对话、麦克风识别或精准逐音素同步。",
+      "files": [
+        "facial-performance.js",
+        "assets/personal-guide/speech/terrace-intro.json"
+      ]
+    },
+    {
+      "name": "近岸浪声与脚步",
+      "status": "adapt",
+      "done": "附近一段近岸浪群与破浪/回落声层共用相位；风声底层、木板/沙地脚步、距离和室内外混音；暂停、静音、音量、讲解压低环境音。",
+      "reuse": "共用场景时钟、分声层混音、触地触发脚步的方法。",
+      "change": "新岸线的声源采样、波浪相位、声层强弱、材质与空间范围。",
+      "limit": "不是逐朵浪花的物理声学；风素材原录于林间，脚步是合成音效。",
+      "files": [
+        "surf-cycle.js",
+        "seaside-audio.js",
+        "water-system.js",
+        "assets/ambience/manifest.json"
+      ]
+    },
+    {
+      "name": "实际网页验收",
+      "status": "copy",
+      "done": "真实网页截图、同一canvas与WebAudio录屏、资产校验值、接触探针、桌面与390像素布局记录。",
+      "reuse": "录制与检查方法，保留修改前后同机位对照，检查交互与最终画面。",
+      "change": "测试入口、角色校验值、路线、家具目标、机位和性能预算。",
+      "limit": "现有脚本包含本场景的坐标与按钮；数值通过不等于全部姿态和美术都已达标。",
+      "files": [
+        "qa-recording.js",
+        "../scripts/verify-surf-sync.mjs",
+        "../scripts/verify-interaction-response.mjs",
+        "../VERIFICATION.md"
+      ]
+    }
+  ],
+  "characterSteps": [
+    {
+      "title": "保留原件，建立独立资产目录",
+      "text": "记录GLB、贴图、来源和使用条件。新人物放入自己的目录与清单，保留原文件和0597固定版；不要覆盖既有身份资产。",
+      "files": [
+        "assets/personal-guide/manifest-hands43.json"
+      ]
+    },
+    {
+      "title": "统一尺度、朝向、骨骼与基础动作",
+      "text": "场景按米制作，Three.js世界Y轴向上。检查人物实际高度、脚底和根节点；当前加载器查找Bip01命名的骨骼，并要求Idle / Walk / Wave / Point / LookAround五段动作。不同骨架需映射或重定向，不能只改文件名。",
+      "files": [
+        "rocket-avatar.js",
+        "foot-placement.js"
+      ]
+    },
+    {
+      "title": "通过人物工厂接到控制器",
+      "text": "scene.js用avatarFactory接入人物，控制器依赖root、manifest、play、update、placeFeet、constrainStep、footContactSample等行为。新加载器应满足这些接口。当前createSeatedPose只对personal0597启用；扩展新人物要明确增加适配，不能靠冒用0597标识跳过。",
+      "files": [
+        "scene.js",
+        "rocket-avatar.js",
+        "guide-controller.js"
+      ]
+    },
+    {
+      "title": "先校准站走，再适配坐姿",
+      "text": "先看脚底、台阶和停止时的支撑，再逐个调整沙发、椅子与岩石上的臀部、背部、双手、双脚与衣摆。新手面还需提供正确的掌面和手指局部方向。坐姿依赖身高与肢体长度，不能只照搬当前数值。",
+      "files": [
+        "seated-pose.js",
+        "seats.js",
+        "seat-coat.js",
+        "foot-placement.js"
+      ]
+    },
+    {
+      "title": "有实际面部形态，再开启面部驱动",
+      "text": "核对manifest.facial与模型内实际形态、幅度和语音时间表。没有面部绑定时先保留身体演示；固定讲解与自由对话是不同的接入任务。手指抓握、换装也需分别制作。 当前语音基路径也写在facial-performance.js；接新人物时需一起调整为对应资产目录，不能只换GLB。",
+      "files": [
+        "facial-performance.js",
+        "assets/personal-guide/manifest-hands43.json"
+      ]
+    },
+    {
+      "title": "用最终网页画面验收",
+      "text": "同机位检查正面、侧面、背面，实际走台阶、坐下/起身、中断/暂停，并在390像素手机视口操作。保留新资产哈希与录屏；脚底/坐面探针通过后仍要看手部、服装和镜头。",
+      "files": [
+        "../scripts/verify-character-controls.mjs",
+        "../scripts/capture-hands43.mjs",
+        "../VERIFICATION.md"
+      ]
+    }
+  ],
+  "sceneSteps": [
+    {
+      "title": "先定义要得到的画面",
+      "text": "确定人物做什么、在哪停留、光从哪里来，以及桌面和手机的主要构图。20种效果库用于选择目标和环境条件，不要求把所有效果塞进同一场景。",
+      "files": [
+        "scene-shots.js",
+        "../index.html#workspace"
+      ]
+    },
+    {
+      "title": "同时改可见几何与支撑/碰撞",
+      "text": "新台阶、地板、桌椅、岩石的可见位置，必须与walk-surface、scene-layout、shore-rocks及座位数据对应；不能只移动网格而沿用旧碰撞或高度。",
+      "files": [
+        "scene.js",
+        "walk-surface.js",
+        "scene-layout.js",
+        "shore-rocks.js",
+        "seats.js"
+      ]
+    },
+    {
+      "title": "重画路线和交互位置",
+      "text": "导航点与连接目前写在guide-controller.js；需要按新场景修改。每处可坐物体都要补正面识别范围、接近/退出位置、姿态与机位，验证路线不会直穿家具。",
+      "files": [
+        "guide-controller.js",
+        "rock-seat.js",
+        "seats.js"
+      ]
+    },
+    {
+      "title": "统一光、水与声音的依据",
+      "text": "天空、太阳反光、人物与建筑的光向应一致。修改岸线时同步修改coast.js、近岸浪和声音的采样位置；新场景不靠海时应换掉这套岸线相位与海声。",
+      "files": [
+        "water-system.js",
+        "coast.js",
+        "surf-cycle.js",
+        "seaside-audio.js"
+      ]
+    },
+    {
+      "title": "按新场景重验，再另存版本",
+      "text": "检查可走区域、家具接触、相机遮挡、手机按钮、声画暂停和实际帧表现。现有自动脚本需随坐标和交互更新。通过后创建新的固定目录和清单，4.3参照保持不覆盖。",
+      "files": [
+        "camera-guard.js",
+        "../scripts/freeze-glasshouse.mjs",
+        "../VERIFICATION.md"
+      ]
+    }
+  ],
+  "limits": [
+    "当前是一名0597人物、一个玻璃屋及5处指定座位的演示基础。其他人物、其他家具和场景需要各自适配。",
+    "模型内的5段动作不含网页运行时坐姿、足部台阶修正、后摆修正和环境声音。下载GLB不会自动带走整个体验。",
+    "袖管衔接、原服装生成痕迹和部分程序化动作感仍可见；独立手指抓握、换装、完整布料与软垫物理未实现。",
+    "面部支持固定语音样例和近似口型；自由对话、语音识别与更准确的音素对齐没有接入。",
+    "海面与水光采用实时近似。浪声跟随附近浪群的节奏，尚无逐浪花声学、真实声传播或完整海洋模拟。",
+    "已检查桌面与390像素布局；24fps是录屏编码参数，没有建立多设备性能、浏览器兼容与长期运行的发布指标。",
+    "0597原模型使用条件仍以用户来源为准，不能把完整人物标为MIT；20项整理库中的USF研究视频有非商业教育使用限制，不纳入可商用运行素材包。"
+  ],
+  "sources": [
+    {
+      "name": "0597原外观",
+      "text": "用户提供的GLB；原始文件、主体身份与自己的头部保留。原生成服务的使用条件未独立复核。",
+      "href": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/031-ocean-light-atlas/runtime/glasshouse/assets/user-model-0597/manifest.json"
+    },
+    {
+      "name": "骨架/动作参考与局部手面",
+      "text": "项目已有Microsoft/Rocketbox素材，保留MIT许可；未将供体头部用于当前人物。",
+      "href": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/031-ocean-light-atlas/runtime/glasshouse/assets/rocket-guide/LICENSE.txt"
+    },
+    {
+      "name": "海浪、风与派生水声",
+      "text": "来源与CC0记录在清单。风原录于林间，当前低音量过滤；派生水声处理和原录音哈希均记录。",
+      "href": "./assets/ambience/manifest.json"
+    },
+    {
+      "name": "语音与运行依赖",
+      "text": "讲解由本机Windows Kangkang生成，近似对齐；实时渲染使用Three.js，bundle保留许可。",
+      "href": "./THREE-LICENSE.txt"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "m022_body_color.tga",
+    "path": "Assets/Avatars/Adults/Male_Adult_17/Textures/m022_body_color.tga",
+    "sha": "b3ddf7e662510eff72bc06603b53bef6f67c01e2",
+    "size": 12582956,
+    "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/contents/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_body_color.tga?ref=master",
+    "html_url": "https://github.com/microsoft/Microsoft-Rocketbox/blob/master/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_body_color.tga",
+    "git_url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/b3ddf7e662510eff72bc06603b53bef6f67c01e2",
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_body_color.tga",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/contents/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_body_color.tga?ref=master",
+      "git": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/b3ddf7e662510eff72bc06603b53bef6f67c01e2",
+      "html": "https://github.com/microsoft/Microsoft-Rocketbox/blob/master/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_body_color.tga"
+    }
+  },
+  {
+    "name": "m022_body_normal.tga",
+    "path": "Assets/Avatars/Adults/Male_Adult_17/Textures/m022_body_normal.tga",
+    "sha": "d80124dd5b4c6d78adae7f1b13e7e3a7235269fd",
+    "size": 12582956,
+    "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/contents/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_body_normal.tga?ref=master",
+    "html_url": "https://github.com/microsoft/Microsoft-Rocketbox/blob/master/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_body_normal.tga",
+    "git_url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/d80124dd5b4c6d78adae7f1b13e7e3a7235269fd",
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_body_normal.tga",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/contents/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_body_normal.tga?ref=master",
+      "git": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/d80124dd5b4c6d78adae7f1b13e7e3a7235269fd",
+      "html": "https://github.com/microsoft/Microsoft-Rocketbox/blob/master/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_body_normal.tga"
+    }
+  },
+  {
+    "name": "m022_body_specular.tga",
+    "path": "Assets/Avatars/Adults/Male_Adult_17/Textures/m022_body_specular.tga",
+    "sha": "9d10b0f25ee599c36bf2711e50b997939f233b59",
+    "size": 12582956,
+    "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/contents/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_body_specular.tga?ref=master",
+    "html_url": "https://github.com/microsoft/Microsoft-Rocketbox/blob/master/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_body_specular.tga",
+    "git_url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/9d10b0f25ee599c36bf2711e50b997939f233b59",
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_body_specular.tga",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/contents/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_body_specular.tga?ref=master",
+      "git": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/9d10b0f25ee599c36bf2711e50b997939f233b59",
+      "html": "https://github.com/microsoft/Microsoft-Rocketbox/blob/master/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_body_specular.tga"
+    }
+  },
+  {
+    "name": "m022_head_color.tga",
+    "path": "Assets/Avatars/Adults/Male_Adult_17/Textures/m022_head_color.tga",
+    "sha": "625d89815c5f74ea80a7718849393f7182906e71",
+    "size": 12582956,
+    "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/contents/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_head_color.tga?ref=master",
+    "html_url": "https://github.com/microsoft/Microsoft-Rocketbox/blob/master/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_head_color.tga",
+    "git_url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/625d89815c5f74ea80a7718849393f7182906e71",
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_head_color.tga",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/contents/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_head_color.tga?ref=master",
+      "git": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/625d89815c5f74ea80a7718849393f7182906e71",
+      "html": "https://github.com/microsoft/Microsoft-Rocketbox/blob/master/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_head_color.tga"
+    }
+  },
+  {
+    "name": "m022_head_normal.tga",
+    "path": "Assets/Avatars/Adults/Male_Adult_17/Textures/m022_head_normal.tga",
+    "sha": "aff7efc9d167a78dba3c66c67ae2aa095b7f49bd",
+    "size": 12582956,
+    "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/contents/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_head_normal.tga?ref=master",
+    "html_url": "https://github.com/microsoft/Microsoft-Rocketbox/blob/master/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_head_normal.tga",
+    "git_url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/aff7efc9d167a78dba3c66c67ae2aa095b7f49bd",
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_head_normal.tga",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/contents/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_head_normal.tga?ref=master",
+      "git": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/aff7efc9d167a78dba3c66c67ae2aa095b7f49bd",
+      "html": "https://github.com/microsoft/Microsoft-Rocketbox/blob/master/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_head_normal.tga"
+    }
+  },
+  {
+    "name": "m022_head_specular.tga",
+    "path": "Assets/Avatars/Adults/Male_Adult_17/Textures/m022_head_specular.tga",
+    "sha": "b1acef56a4c3d76f7d441c8d0210f0faf3f1d928",
+    "size": 12582956,
+    "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/contents/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_head_specular.tga?ref=master",
+    "html_url": "https://github.com/microsoft/Microsoft-Rocketbox/blob/master/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_head_specular.tga",
+    "git_url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/b1acef56a4c3d76f7d441c8d0210f0faf3f1d928",
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_head_specular.tga",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/contents/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_head_specular.tga?ref=master",
+      "git": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/b1acef56a4c3d76f7d441c8d0210f0faf3f1d928",
+      "html": "https://github.com/microsoft/Microsoft-Rocketbox/blob/master/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_head_specular.tga"
+    }
+  }
+]

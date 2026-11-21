@@ -1,0 +1,45 @@
+{
+  "errors": [],
+  "video": {
+    "time": 0.309458,
+    "duration": 11.913333,
+    "width": 1280,
+    "height": 1000,
+    "error": null
+  },
+  "stopped": {
+    "time": 0,
+    "duration": 11.115736961451248,
+    "playing": false,
+    "paused": true,
+    "ended": false,
+    "blinkCount": 1,
+    "automaticBlink": true,
+    "gaze": true,
+    "rms": 0,
+    "weights": {
+      "eyeLookRight": 0.4369,
+      "eyeLookUp": 0.1849
+    },
+    "vertices": {
+      "mouth": [
+        -1.267614,
+        2.954019,
+        6.820161
+      ],
+      "lid": [
+        -1.230022,
+        3.031499,
+        6.817823
+      ],
+      "iris": [
+        -1.228608,
+        3.027188,
+        6.818422
+      ]
+    },
+    "clock": "audio.currentTime",
+    "timingMethod": "Known text aligned at measured audio clause pauses; approximate energy-weighted character and pinyin-to-viseme timing. No ASR or phoneme forced alignment."
+  },
+  "mobileWidth": 390
+}

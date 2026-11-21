@@ -1,0 +1,174 @@
+{
+  "checkedAt": "2026-11-14T12:40:45.128Z",
+  "asset": {
+    "bytes": 10153100,
+    "bones": 80,
+    "clips": [
+      "Idle",
+      "LookAround",
+      "Point",
+      "Walk",
+      "Wave"
+    ]
+  },
+  "pageErrors": [],
+  "checks": [
+    {
+      "name": "Wave",
+      "motionDistance": 0.6046953943929124,
+      "samples": 5
+    },
+    {
+      "name": "LookAround",
+      "motionDistance": 0.2575325088217019,
+      "samples": 6
+    },
+    {
+      "name": "Point",
+      "motionDistance": 0.7440253557507296,
+      "samples": 6
+    },
+    {
+      "name": "pause freezes root and animation",
+      "position": [
+        -2.227,
+        1.413,
+        6.7
+      ],
+      "time": 0.753
+    },
+    {
+      "name": "three-stop tour",
+      "order": [
+        "inside",
+        "tide",
+        "shore"
+      ],
+      "elapsedSeconds": 67
+    },
+    {
+      "name": "download",
+      "filename": "seaside-personal-0597.glb",
+      "bytes": 10153100
+    },
+    {
+      "name": "mobile and reduced motion",
+      "width": 390,
+      "initialPaused": true,
+      "explicitActionResumes": true
+    },
+    {
+      "name": "historical entries",
+      "legacy": true,
+      "staticComparison": true
+    }
+  ],
+  "tour": [
+    {
+      "action": "Point",
+      "phase": "gesture",
+      "stop": "inside",
+      "camera": "follow",
+      "position": [
+        -3.15,
+        1.55,
+        1.75
+      ],
+      "pose": {
+        "time": 0.413,
+        "hand": [
+          -2.8718,
+          2.4179,
+          1.7067
+        ],
+        "headRotation": [
+          -0.09535,
+          -0.04757,
+          -0.00668,
+          0.99428
+        ],
+        "leftFoot": [
+          -3.2686,
+          1.649,
+          1.7767
+        ],
+        "rightFoot": [
+          -3.0302,
+          1.6487,
+          1.7334
+        ]
+      }
+    },
+    {
+      "action": "Point",
+      "phase": "gesture",
+      "stop": "tide",
+      "camera": "follow",
+      "position": [
+        3.5,
+        0.098,
+        7.7
+      ],
+      "pose": {
+        "time": 0.154,
+        "hand": [
+          3.815,
+          0.9768,
+          7.77
+        ],
+        "headRotation": [
+          -0.06898,
+          -0.00715,
+          -0.00089,
+          0.99759
+        ],
+        "leftFoot": [
+          3.4542,
+          0.2016,
+          7.5533
+        ],
+        "rightFoot": [
+          3.5043,
+          0.1869,
+          7.8111
+        ]
+      }
+    },
+    {
+      "action": "Point",
+      "phase": "gesture",
+      "stop": "shore",
+      "camera": "follow",
+      "position": [
+        -1.25,
+        1.413,
+        6.7
+      ],
+      "pose": {
+        "time": 0.175,
+        "hand": [
+          -0.9577,
+          2.2763,
+          6.7874
+        ],
+        "headRotation": [
+          -0.07928,
+          -0.01336,
+          -0.00615,
+          0.99674
+        ],
+        "leftFoot": [
+          -1.3119,
+          1.5088,
+          6.6003
+        ],
+        "rightFoot": [
+          -1.2449,
+          1.5536,
+          6.8655
+        ]
+      }
+    }
+  ],
+  "result": "passed; screenshots still require visual review"
+}

@@ -1,0 +1,18 @@
+{
+  "createdOn": "2026-11-21",
+  "title": "走进海的光影里：研究目标、四类人物呈现与我们的价值",
+  "image": "ocean-research-summary-20261121.png",
+  "prompt": "prompt.txt",
+  "method": "Built-in image_gen; source-based generated infographic",
+  "classification": "研究总结示意图，非新增功能实录或海面实拍",
+  "sourceImages": [
+    "../../screenshots/hands-surf43-rock.png",
+    "../../screenshots/character-preview-0597.png",
+    "../../screenshots/character-preview-rocket10.png",
+    "../../screenshots/character-preview-legacy-hoodie.png",
+    "../../screenshots/character-preview-rocket17.png"
+  ],
+  "contentBasis": "../../glasshouse/summary.json",
+  "reviewed": "已核对目标、四类人物及能力差异、20项参考/80份方案、复用价值与限制；产品价值待定，全天日照/潮汐/风灯未实现。",
+  "scope": "仅制作并保存总结图，未修改网页运行效果或4.3固定目录。"
+}

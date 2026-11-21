@@ -1,0 +1,196 @@
+{
+  "checkedAt": "2026-11-14T03:00:38.330Z",
+  "pageErrors": [],
+  "videos": [
+    {
+      "id": "usf-sunset-waves",
+      "duration": 15.118345,
+      "width": 640,
+      "height": 360,
+      "playingTime": 0.298166,
+      "seekTime": 10
+    },
+    {
+      "id": "usf-wave-pattern",
+      "duration": 15.199,
+      "width": 640,
+      "height": 360,
+      "playingTime": 0.4225,
+      "seekTime": 10
+    },
+    {
+      "id": "usf-closeup-surf",
+      "duration": 15.331667,
+      "width": 640,
+      "height": 360,
+      "playingTime": 0.331132,
+      "seekTime": 10
+    },
+    {
+      "id": "usf-shallow-water",
+      "duration": 15.054542,
+      "width": 640,
+      "height": 360,
+      "playingTime": 0.3703,
+      "seekTime": 10
+    },
+    {
+      "id": "usf-rolling-foam",
+      "duration": 15.193875,
+      "width": 640,
+      "height": 360,
+      "playingTime": 0.37351,
+      "seekTime": 10
+    }
+  ],
+  "effects": [
+    {
+      "id": "foam-edge",
+      "error": 0,
+      "colors": 123,
+      "width": 571,
+      "height": 315
+    },
+    {
+      "id": "round-bokeh",
+      "error": 0,
+      "colors": 119,
+      "width": 571,
+      "height": 315
+    },
+    {
+      "id": "star-glitter",
+      "error": 0,
+      "colors": 110,
+      "width": 571,
+      "height": 315
+    },
+    {
+      "id": "blue-silk",
+      "error": 0,
+      "colors": 51,
+      "width": 571,
+      "height": 315
+    },
+    {
+      "id": "breaking-spray",
+      "error": 0,
+      "colors": 146,
+      "width": 571,
+      "height": 315
+    },
+    {
+      "id": "depth-glints",
+      "error": 0,
+      "colors": 101,
+      "width": 571,
+      "height": 315
+    },
+    {
+      "id": "yellow-blue",
+      "error": 0,
+      "colors": 83,
+      "width": 571,
+      "height": 315
+    },
+    {
+      "id": "amber-swell",
+      "error": 0,
+      "colors": 35,
+      "width": 571,
+      "height": 315
+    },
+    {
+      "id": "honey-crest",
+      "error": 0,
+      "colors": 98,
+      "width": 571,
+      "height": 315
+    },
+    {
+      "id": "black-silver",
+      "error": 0,
+      "colors": 110,
+      "width": 571,
+      "height": 315
+    },
+    {
+      "id": "slate-ripple",
+      "error": 0,
+      "colors": 54,
+      "width": 571,
+      "height": 315
+    },
+    {
+      "id": "translucent-lip",
+      "error": 0,
+      "colors": 112,
+      "width": 571,
+      "height": 315
+    },
+    {
+      "id": "silver-wash",
+      "error": 0,
+      "colors": 77,
+      "width": 571,
+      "height": 315
+    },
+    {
+      "id": "emerald-flow",
+      "error": 0,
+      "colors": 61,
+      "width": 571,
+      "height": 315
+    },
+    {
+      "id": "molten-gold",
+      "error": 0,
+      "colors": 54,
+      "width": 571,
+      "height": 315
+    },
+    {
+      "id": "cobalt-streaks",
+      "error": 0,
+      "colors": 113,
+      "width": 571,
+      "height": 315
+    },
+    {
+      "id": "white-surf",
+      "error": 0,
+      "colors": 135,
+      "width": 571,
+      "height": 315
+    },
+    {
+      "id": "pink-dusk",
+      "error": 0,
+      "colors": 31,
+      "width": 571,
+      "height": 315
+    },
+    {
+      "id": "crossing-foam",
+      "error": 0,
+      "colors": 135,
+      "width": 571,
+      "height": 315
+    },
+    {
+      "id": "azure-lace",
+      "error": 0,
+      "colors": 153,
+      "width": 571,
+      "height": 315
+    }
+  ],
+  "viewport": [
+    {
+      "width": 390,
+      "scrollWidth": 390
+    }
+  ],
+  "visualStatus": "screenshots require visual review",
+  "functionalStatus": "passed"
+}

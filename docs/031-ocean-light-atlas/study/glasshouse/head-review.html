@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>历史换头对照 · 已停止采用</title><link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f0eee7;color:#263a40;font:15px/1.85 system-ui,"Microsoft YaHei",sans-serif}main{max-width:1280px;margin:auto;padding:32px 24px 70px}a{color:#275866;text-underline-offset:4px}nav,.live{display:flex;gap:16px;flex-wrap:wrap}h1{font-size:clamp(27px,4vw,42px);line-height:1.3;font-weight:500;margin:30px 0 14px}h2{font-size:22px;font-weight:550;margin:32px 0 14px}p{max-width:880px}.status{display:inline-block;padding:5px 12px;background:#e9ddc4;border:1px solid #bd9e72;border-radius:3px;color:#69522f;font-size:12px}.pair{display:grid;grid-template-columns:1fr 1fr;gap:18px}figure{margin:0;background:#fffdf7;border:1px solid #d2d6cd;border-radius:6px;overflow:hidden}img{display:block;width:100%;height:auto}figcaption{padding:12px 16px;font-size:13px}.notes{background:#fffdf7;border-left:3px solid #ad9367;padding:16px 24px;margin:26px 0}.notes p{margin:8px 0}.live{margin:22px 0}.live a{padding:8px 16px;border:1px solid #a5b1ac;border-radius:4px;text-decoration:none}small{color:#63726e}a:focus-visible{outline:3px solid #d4964d;outline-offset:4px}table{width:100%;border-collapse:collapse;background:#fffdf7;font-size:14px}th,td{text-align:left;vertical-align:top;padding:13px 16px;border-bottom:1px solid #d2d6cd}th{font-weight:550}.table-scroll{overflow-x:auto}th:first-child{width:18%}@media(max-width:650px){main{padding:24px 16px 50px}.pair{grid-template-columns:1fr;gap:12px}nav{gap:12px}th,td{padding:10px;font-size:12px}}
+</style></head><body><main>
+<nav><a href="./index.html">← 返回当前演示</a><a href="./orbit-review.html">上一轮眼周修整记录</a><a href="./index.html?hero=rocket10&amp;portrait=face&amp;pose=still">查看原微软人物</a></nav>
+<div class="notes"><strong>此页是已停止的换头稿。</strong><p>用户明确要求保留自己的0597头部，只参考微软模型的面部调整与驱动方式。当前已回到自有头部并接入眨眼、视线和中文讲解。<a href="./facial-review.html">进入当前版本 ↗</a></p></div>
+<h1>历史对照：微软成熟头部。</h1>
+<span class="status">3.5 静态对照稿 · 尚未接入语音、口型或自动表情</span>
+<p>这轮采用上个演示中的微软 Rocketbox Male Adult 10 头部、皮肤贴图、眼睛和面部权重，保留 0597 的身体与深蓝西装。脸型和发型已经改变，请把它作为成熟人物结构的效果基线。以下全部来自实际网页，同一站姿、同一光照、对应机位。</p>
+<div class="live"><a href="./index.html?hero=personal0597&amp;detail=head&amp;portrait=face&amp;pose=still&amp;v=head35">进入正面近看 ↗</a><a href="./index.html?hero=personal0597&amp;detail=head&amp;portrait=side&amp;pose=still&amp;v=head35">进入侧面近看 ↗</a><a href="./index.html?hero=personal0597&amp;detail=head&amp;portrait=half&amp;pose=still&amp;v=head35">进入露台半身 ↗</a></div>
+<h2>先看脸部与眼神</h2><div class="pair">
+<figure><img src="../screenshots/orbit34-face.png" alt="上一轮0597眼周局部重建稿的实际网页近景"><figcaption>上一轮：保留生成脸型并局部补修，眼神僵硬，脸侧仍有修补痕迹。</figcaption></figure>
+<figure><img src="../screenshots/head35-face.png" alt="采用微软Rocketbox成熟头部后的实际网页近景"><figcaption>本轮：采用微软成熟头部，保留原作者的眼睑、虹膜、眉毛、皮肤与面部蒙皮。这是一张不同的脸。</figcaption></figure>
+</div>
+<h2>侧面接合与整体画面</h2><div class="pair">
+<figure><img src="../screenshots/head35-side.png" alt="微软头部与原西装在玻璃屋里的侧面实际截图"><figcaption>检查侧脸、发际线、下颌与衣领的接合。皮肤色调和领口仍需按整张画面继续打磨。</figcaption></figure>
+<figure><img src="../screenshots/head35-half.png" alt="微软头部搭配0597深蓝西装站在黄昏露台上的半身实际截图"><figcaption>回到人物带路时的观看距离，检查头身比例、受光和场景协调。</figcaption></figure>
+</div>
+<h2>向导应该能正常说话吗？</h2>
+<p>应该。目标是能看向你、自然眨眼、用中文讲解，并在打断时让声音与嘴部一起停下。当前先验证静态头部，下面明确区分已有结构与还要接入的驱动。</p>
+<div class="table-scroll"><table><thead><tr><th>能力</th><th>模板与本轮已有</th><th>接下来需要</th></tr></thead><tbody>
+<tr><td>眼神与眨眼</td><td>原作者眼球、上下眼睑、眉毛骨骼及面部权重。</td><td>校准注视目标、眨眼幅度与自然节奏，近景和侧面都检查。</td></tr>
+<tr><td>嘴型与表情</td><td>下颌、上下唇、嘴角、舌部骨骼与蒙皮。本机模型没有现成的口型形态键。</td><td>接入口型和表情形态，校准闭唇、张口、圆唇及牙齿遮挡。</td></tr>
+<tr><td>中文语音同步</td><td>此稿尚未接入语音播放或语音驱动。</td><td>音频与口型共用时间轴，验证停顿、音节、字幕和打断恢复。</td></tr>
+</tbody></table></div>
+<p><a href="https://github.com/microsoft/Microsoft-Rocketbox" target="_blank" rel="noopener noreferrer">微软官方库</a>另有口型与表情版本；配套 <a href="https://github.com/openVRlab/Headbox" target="_blank" rel="noopener noreferrer">Headbox</a>提供口型与面部表情模板。本轮没有把官方具备这些模板写成当前网页已能说话。</p>
+<div class="notes"><p><strong>本轮状态：</strong>成熟头部已接入露台并保留面部蒙皮，静态检查优先。整体美术仍待验收，颈部接合、肤色协调、身体与双手仍有精修空间。</p><p>原始 0597、默认人物和上一轮修整稿均保留，默认入口继续使用原版本。头部及已有动作使用微软 Rocketbox 的 MIT 许可；0597 外观的权利独立。没有上传人物到外部服务。</p><small>这里是实际 3D 网页对照。点击入口后初始静止，拖动可检查。保留的五段身体动作不代表已经实现说话和面部表演。</small></div>
+</main></body></html>

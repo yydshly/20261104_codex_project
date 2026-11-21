@@ -1,0 +1,26 @@
+[
+  {
+    "id": "Male_Adult_10",
+    "file": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/031-ocean-light-atlas/runtime/glasshouse/assets/hero-candidates/male_adult_10.glb",
+    "bytes": 20999704,
+    "sha256": "938a0496dfebbcf95501013ab0dc3750d7c392aab133b651a45938423a3e1cdf",
+    "bones": 80,
+    "staticPose": "arms relaxed using author rig",
+    "animations": 0,
+    "license": "MIT",
+    "source": "https://github.com/microsoft/Microsoft-Rocketbox",
+    "processing": "Author diffuse/normal maps relinked; fixed roughness approximation. Not likeness-matched or original-outfit matched."
+  },
+  {
+    "id": "Male_Adult_17",
+    "file": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/031-ocean-light-atlas/runtime/glasshouse/assets/hero-candidates/male_adult_17.glb",
+    "bytes": 22817996,
+    "sha256": "a31851ee65999e7b100dbadfc0898fed74fc4d31523e554eea6cd51165160ef8",
+    "bones": 80,
+    "staticPose": "arms relaxed using author rig",
+    "animations": 0,
+    "license": "MIT",
+    "source": "https://github.com/microsoft/Microsoft-Rocketbox",
+    "processing": "Author diffuse/normal maps relinked; fixed roughness approximation. Not likeness-matched or original-outfit matched."
+  }
+]

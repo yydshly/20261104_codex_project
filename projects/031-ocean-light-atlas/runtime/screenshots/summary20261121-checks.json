@@ -1,0 +1,32 @@
+{
+  "checkedOn": "2026-11-21",
+  "errors": [],
+  "checks": [
+    "five shared understandings, six result groups, four explicitly unimplemented ideas; product undecided and extension on hold",
+    "28 local page, source, media and record links resolve; all section anchors exist",
+    "both historical 4.3 recordings play and seek; actual screenshots load",
+    "downloaded summary retains scope, fixed version and pending product decision",
+    "390px summary and product decision fit without horizontal overflow",
+    "effect collection homepage opens the new summary",
+    "summary opens the saved 4.3 runtime and original accepted character asset"
+  ],
+  "media": [
+    {
+      "src": "http://127.0.0.1:4198/screenshots/surf43-live.mp4",
+      "time": 0.382279,
+      "duration": 16.449,
+      "width": 1280,
+      "height": 900,
+      "error": null
+    },
+    {
+      "src": "http://127.0.0.1:4198/screenshots/hands-surf43-sofa.mp4",
+      "time": 0.620992,
+      "duration": 15.957,
+      "width": 1280,
+      "height": 900,
+      "error": null
+    }
+  ],
+  "result": "passed"
+}

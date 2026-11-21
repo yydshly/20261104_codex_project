@@ -1,0 +1,758 @@
+{
+  "checkedAt": "2026-11-14T09:42:51.862Z",
+  "errors": [],
+  "checks": [
+    {
+      "name": "walk down stairs to the rock approach",
+      "position": [
+        -1.25,
+        0.442,
+        11.458
+      ]
+    },
+    {
+      "name": "rock blocks the actual controlled character",
+      "position": [
+        -7.466,
+        0.698,
+        11.458
+      ],
+      "clearance": 0.0014
+    },
+    {
+      "name": "camera avoids rocks while orbiting",
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.368,
+        "clear": true
+      }
+    },
+    {
+      "name": "camera avoids pavilion wall",
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.257,
+        "clear": true
+      }
+    }
+  ],
+  "positions": [
+    {
+      "p": [
+        -1.314,
+        0.445,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.499,
+      "yaw": -1.5707,
+      "clearance": 5.3364,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -1.487,
+        0.453,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 5.2107,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -1.655,
+        0.461,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 5.0515,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -1.874,
+        0.472,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 4.9157,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -2.051,
+        0.48,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 4.7596,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -2.225,
+        0.488,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 4.6063,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -2.403,
+        0.497,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 4.4501,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -2.403,
+        0.497,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 4.3209,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -2.618,
+        0.507,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 4.1677,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -2.793,
+        0.514,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 3.9903,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -2.984,
+        0.523,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 3.8672,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -3.23,
+        0.534,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 3.723,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -3.23,
+        0.534,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 3.5788,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -3.476,
+        0.545,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 3.4377,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -3.705,
+        0.555,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 3.2604,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -3.886,
+        0.562,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 3.1013,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -4.105,
+        0.571,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 2.954,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -4.299,
+        0.58,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 2.7828,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -4.484,
+        0.587,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 2.6206,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -4.484,
+        0.587,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 2.5095,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -4.672,
+        0.595,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 2.3263,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -4.87,
+        0.603,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 2.1491,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -5.075,
+        0.611,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 1.984,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -5.249,
+        0.618,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 1.8368,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -5.42,
+        0.624,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 1.6685,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -5.622,
+        0.632,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 1.5334,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -5.786,
+        0.638,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 1.3773,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -5.97,
+        0.645,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 1.2003,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -6.172,
+        0.653,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 1.0381,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -6.343,
+        0.659,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 0.9,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -6.541,
+        0.666,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 0.7381,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -6.708,
+        0.672,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 0.5701,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -6.876,
+        0.678,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 0.4172,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -7.046,
+        0.684,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 0.2462,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -7.378,
+        0.695,
+        11.458
+      ],
+      "phase": "manual-walking",
+      "speed": 0.82,
+      "yaw": -1.5707,
+      "clearance": 0.0786,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -7.466,
+        0.698,
+        11.458
+      ],
+      "phase": "idle",
+      "speed": 0,
+      "yaw": -1.5707,
+      "clearance": 0.0014,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -7.466,
+        0.698,
+        11.458
+      ],
+      "phase": "idle",
+      "speed": 0,
+      "yaw": -1.5707,
+      "clearance": 0.0014,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -7.466,
+        0.698,
+        11.458
+      ],
+      "phase": "idle",
+      "speed": 0,
+      "yaw": -1.5707,
+      "clearance": 0.0014,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -7.466,
+        0.698,
+        11.458
+      ],
+      "phase": "idle",
+      "speed": 0,
+      "yaw": -1.5707,
+      "clearance": 0.0014,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -7.466,
+        0.698,
+        11.458
+      ],
+      "phase": "idle",
+      "speed": 0,
+      "yaw": -1.5707,
+      "clearance": 0.0014,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.355,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -7.466,
+        0.698,
+        11.458
+      ],
+      "phase": "idle",
+      "speed": 0,
+      "yaw": -1.362,
+      "clearance": 0.0014,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.36,
+        "clear": true
+      }
+    },
+    {
+      "p": [
+        -7.466,
+        0.698,
+        11.458
+      ],
+      "phase": "idle",
+      "speed": 0,
+      "yaw": -1.9358,
+      "clearance": 0.0014,
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "distance": 4.367,
+        "clear": true
+      }
+    }
+  ],
+  "result": "passed; screenshots require visual inspection"
+}

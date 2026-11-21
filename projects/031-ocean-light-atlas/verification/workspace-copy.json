@@ -1,0 +1,13 @@
+{
+  "result": "passed",
+  "files": [
+    {
+      "folder": "projects/031-ocean-light-atlas",
+      "verifiedFiles": 595
+    },
+    {
+      "folder": "docs/031-ocean-light-atlas",
+      "verifiedFiles": 558
+    }
+  ]
+}

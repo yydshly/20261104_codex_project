@@ -1,0 +1,256 @@
+[
+  {
+    "id": "Idle",
+    "fps": 30,
+    "range": [
+      1.0,
+      83.0
+    ],
+    "action": "Bip01|Take 001|BaseLayer",
+    "bones": 121,
+    "matched": 80,
+    "maxRestDifference": 41.68255043029785,
+    "rootBones": [
+      "Bip01 Pelvis"
+    ],
+    "objects": [
+      [
+        "Bip01",
+        "ARMATURE"
+      ],
+      [
+        "Bip01 Footsteps",
+        "EMPTY"
+      ],
+      [
+        "MotionExtractionHelper",
+        "EMPTY"
+      ]
+    ],
+    "rootTracks": [
+      "location",
+      "location",
+      "location",
+      "rotation_euler",
+      "rotation_euler",
+      "rotation_euler",
+      "scale",
+      "scale",
+      "scale"
+    ],
+    "sample": [
+      [
+        "Bip01 Pelvis",
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Walk",
+    "fps": 30,
+    "range": [
+      1.0,
+      33.0
+    ],
+    "action": "Bip01|Take 001|BaseLayer",
+    "bones": 121,
+    "matched": 80,
+    "maxRestDifference": 44.749656677246094,
+    "rootBones": [
+      "Bip01 Pelvis"
+    ],
+    "objects": [
+      [
+        "Bip01",
+        "ARMATURE"
+      ],
+      [
+        "Bip01 Footsteps",
+        "EMPTY"
+      ],
+      [
+        "ExposeTransformHelper",
+        "EMPTY"
+      ],
+      [
+        "MotionExtractionHelper",
+        "EMPTY"
+      ]
+    ],
+    "rootTracks": [
+      "location",
+      "location",
+      "location",
+      "rotation_euler",
+      "rotation_euler",
+      "rotation_euler",
+      "scale",
+      "scale",
+      "scale"
+    ],
+    "sample": [
+      [
+        "Bip01 Pelvis",
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Wave",
+    "fps": 30,
+    "range": [
+      1.0,
+      86.0
+    ],
+    "action": "Bip01|Take 001|BaseLayer",
+    "bones": 121,
+    "matched": 80,
+    "maxRestDifference": 41.682565689086914,
+    "rootBones": [
+      "Bip01 Pelvis"
+    ],
+    "objects": [
+      [
+        "Bip01",
+        "ARMATURE"
+      ],
+      [
+        "Bip01 Footsteps",
+        "EMPTY"
+      ],
+      [
+        "MotionExtractionHelper",
+        "EMPTY"
+      ]
+    ],
+    "rootTracks": [
+      "location",
+      "location",
+      "location",
+      "rotation_euler",
+      "rotation_euler",
+      "rotation_euler",
+      "scale",
+      "scale",
+      "scale"
+    ],
+    "sample": [
+      [
+        "Bip01 Pelvis",
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Point",
+    "fps": 30,
+    "range": [
+      1.0,
+      754.0
+    ],
+    "action": "Bip01|Take 001|BaseLayer",
+    "bones": 121,
+    "matched": 80,
+    "maxRestDifference": 41.68255424499512,
+    "rootBones": [
+      "Bip01 Pelvis"
+    ],
+    "objects": [
+      [
+        "Bip01",
+        "ARMATURE"
+      ],
+      [
+        "Bip01 Footsteps",
+        "EMPTY"
+      ],
+      [
+        "MotionExtractionHelper",
+        "EMPTY"
+      ]
+    ],
+    "rootTracks": [
+      "location",
+      "location",
+      "location",
+      "rotation_euler",
+      "rotation_euler",
+      "rotation_euler",
+      "scale",
+      "scale",
+      "scale"
+    ],
+    "sample": [
+      [
+        "Bip01 Pelvis",
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "LookAround",
+    "fps": 30,
+    "range": [
+      1.0,
+      140.0
+    ],
+    "action": "Bip01|Take 001|BaseLayer",
+    "bones": 121,
+    "matched": 80,
+    "maxRestDifference": 41.68254470825195,
+    "rootBones": [
+      "Bip01 Pelvis"
+    ],
+    "objects": [
+      [
+        "Bip01",
+        "ARMATURE"
+      ],
+      [
+        "Bip01 Footsteps",
+        "EMPTY"
+      ],
+      [
+        "MotionExtractionHelper",
+        "EMPTY"
+      ]
+    ],
+    "rootTracks": [
+      "location",
+      "location",
+      "location",
+      "rotation_euler",
+      "rotation_euler",
+      "rotation_euler",
+      "scale",
+      "scale",
+      "scale"
+    ],
+    "sample": [
+      [
+        "Bip01 Pelvis",
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    ]
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "new": 1,
+    "candidates": [
+      {
+        "old": 2,
+        "rmse": 0.2964,
+        "correlation": 0.5075
+      },
+      {
+        "old": 16,
+        "rmse": 0.3377,
+        "correlation": 0.5176
+      },
+      {
+        "old": 3,
+        "rmse": 0.3556,
+        "correlation": 0.407
+      },
+      {
+        "old": 14,
+        "rmse": 0.3575,
+        "correlation": 0.1423
+      }
+    ]
+  },
+  {
+    "new": 2,
+    "candidates": [
+      {
+        "old": 10,
+        "rmse": 0.2956,
+        "correlation": -0.104
+      },
+      {
+        "old": 9,
+        "rmse": 0.3069,
+        "correlation": 0.1903
+      },
+      {
+        "old": 8,
+        "rmse": 0.3082,
+        "correlation": 0.2877
+      },
+      {
+        "old": 14,
+        "rmse": 0.3669,
+        "correlation": -0.5033
+      }
+    ]
+  },
+  {
+    "new": 3,
+    "candidates": [
+      {
+        "old": 10,
+        "rmse": 0.199,
+        "correlation": 0.2154
+      },
+      {
+        "old": 2,
+        "rmse": 0.3029,
+        "correlation": 0.5512
+      },
+      {
+        "old": 14,
+        "rmse": 0.3185,
+        "correlation": 0.0175
+      },
+      {
+        "old": 19,
+        "rmse": 0.3325,
+        "correlation": 0.6513
+      }
+    ]
+  },
+  {
+    "new": 4,
+    "candidates": [
+      {
+        "old": 14,
+        "rmse": 0.324,
+        "correlation": 0.1317
+      },
+      {
+        "old": 11,
+        "rmse": 0.3288,
+        "correlation": 0.0692
+      },
+      {
+        "old": 2,
+        "rmse": 0.353,
+        "correlation": 0.0606
+      },
+      {
+        "old": 5,
+        "rmse": 0.3547,
+        "correlation": 0.2448
+      }
+    ]
+  },
+  {
+    "new": 5,
+    "candidates": [
+      {
+        "old": 10,
+        "rmse": 0.2824,
+        "correlation": 0.0902
+      },
+      {
+        "old": 9,
+        "rmse": 0.2851,
+        "correlation": 0.0851
+      },
+      {
+        "old": 2,
+        "rmse": 0.291,
+        "correlation": 0.1552
+      },
+      {
+        "old": 14,
+        "rmse": 0.3009,
+        "correlation": -0.1638
+      }
+    ]
+  },
+  {
+    "new": 6,
+    "candidates": [
+      {
+        "old": 10,
+        "rmse": 0.1958,
+        "correlation": 0.1913
+      },
+      {
+        "old": 14,
+        "rmse": 0.2892,
+        "correlation": 0.1806
+      },
+      {
+        "old": 2,
+        "rmse": 0.2936,
+        "correlation": 0.5541
+      },
+      {
+        "old": 19,
+        "rmse": 0.3333,
+        "correlation": 0.5377
+      }
+    ]
+  },
+  {
+    "new": 7,
+    "candidates": [
+      {
+        "old": 14,
+        "rmse": 0.2204,
+        "correlation": 0.4162
+      },
+      {
+        "old": 2,
+        "rmse": 0.2446,
+        "correlation": 0.4267
+      },
+      {
+        "old": 20,
+        "rmse": 0.2678,
+        "correlation": 0.4611
+      },
+      {
+        "old": 11,
+        "rmse": 0.2728,
+        "correlation": 0.3443
+      }
+    ]
+  },
+  {
+    "new": 8,
+    "candidates": [
+      {
+        "old": 10,
+        "rmse": 0.2438,
+        "correlation": 0.148
+      },
+      {
+        "old": 8,
+        "rmse": 0.403,
+        "correlation": 0.1257
+      },
+      {
+        "old": 9,
+        "rmse": 0.4113,
+        "correlation": 0.3991
+      },
+      {
+        "old": 14,
+        "rmse": 0.4137,
+        "correlation": -0.1026
+      }
+    ]
+  },
+  {
+    "new": 9,
+    "candidates": [
+      {
+        "old": 9,
+        "rmse": 0.3356,
+        "correlation": 0.3697
+      },
+      {
+        "old": 8,
+        "rmse": 0.3628,
+        "correlation": 0.3318
+      },
+      {
+        "old": 18,
+        "rmse": 0.3886,
+        "correlation": 0.4625
+      },
+      {
+        "old": 11,
+        "rmse": 0.4186,
+        "correlation": -0.1687
+      }
+    ]
+  },
+  {
+    "new": 10,
+    "candidates": [
+      {
+        "old": 10,
+        "rmse": 0.2149,
+        "correlation": 0.0911
+      },
+      {
+        "old": 14,
+        "rmse": 0.4084,
+        "correlation": 0.134
+      },
+      {
+        "old": 2,
+        "rmse": 0.4334,
+        "correlation": 0.3584
+      },
+      {
+        "old": 8,
+        "rmse": 0.4533,
+        "correlation": -0.2748
+      }
+    ]
+  },
+  {
+    "new": 11,
+    "candidates": [
+      {
+        "old": 14,
+        "rmse": 0.1903,
+        "correlation": 0.5658
+      },
+      {
+        "old": 2,
+        "rmse": 0.1964,
+        "correlation": 0.6011
+      },
+      {
+        "old": 3,
+        "rmse": 0.2061,
+        "correlation": 0.7249
+      },
+      {
+        "old": 4,
+        "rmse": 0.2091,
+        "correlation": 0.7199
+      }
+    ]
+  },
+  {
+    "new": 12,
+    "candidates": [
+      {
+        "old": 14,
+        "rmse": 0.1934,
+        "correlation": 0.4558
+      },
+      {
+        "old": 11,
+        "rmse": 0.2148,
+        "correlation": 0.1773
+      },
+      {
+        "old": 9,
+        "rmse": 0.2197,
+        "correlation": -0.0617
+      },
+      {
+        "old": 2,
+        "rmse": 0.236,
+        "correlation": 0.2469
+      }
+    ]
+  },
+  {
+    "new": 13,
+    "candidates": [
+      {
+        "old": 10,
+        "rmse": 0.2047,
+        "correlation": 0.0423
+      },
+      {
+        "old": 14,
+        "rmse": 0.3635,
+        "correlation": 0.071
+      },
+      {
+        "old": 2,
+        "rmse": 0.3817,
+        "correlation": 0.3523
+      },
+      {
+        "old": 8,
+        "rmse": 0.3826,
+        "correlation": 0.0707
+      }
+    ]
+  },
+  {
+    "new": 14,
+    "candidates": [
+      {
+        "old": 10,
+        "rmse": 0.1932,
+        "correlation": 0.1717
+      },
+      {
+        "old": 8,
+        "rmse": 0.3947,
+        "correlation": 0.1427
+      },
+      {
+        "old": 14,
+        "rmse": 0.4069,
+        "correlation": -0.2043
+      },
+      {
+        "old": 2,
+        "rmse": 0.4241,
+        "correlation": 0.151
+      }
+    ]
+  },
+  {
+    "new": 15,
+    "candidates": [
+      {
+        "old": 8,
+        "rmse": 0.2914,
+        "correlation": 0.3886
+      },
+      {
+        "old": 10,
+        "rmse": 0.3007,
+        "correlation": -0.0805
+      },
+      {
+        "old": 9,
+        "rmse": 0.3166,
+        "correlation": 0.1387
+      },
+      {
+        "old": 14,
+        "rmse": 0.345,
+        "correlation": -0.2567
+      }
+    ]
+  },
+  {
+    "new": 16,
+    "candidates": [
+      {
+        "old": 10,
+        "rmse": 0.2984,
+        "correlation": -0.1613
+      },
+      {
+        "old": 8,
+        "rmse": 0.3068,
+        "correlation": 0.288
+      },
+      {
+        "old": 9,
+        "rmse": 0.3249,
+        "correlation": 0.007
+      },
+      {
+        "old": 14,
+        "rmse": 0.3277,
+        "correlation": -0.1869
+      }
+    ]
+  },
+  {
+    "new": 17,
+    "candidates": [
+      {
+        "old": 10,
+        "rmse": 0.2093,
+        "correlation": 0.1788
+      },
+      {
+        "old": 14,
+        "rmse": 0.3453,
+        "correlation": -0.0769
+      },
+      {
+        "old": 2,
+        "rmse": 0.3584,
+        "correlation": 0.1731
+      },
+      {
+        "old": 9,
+        "rmse": 0.3819,
+        "correlation": -0.065
+      }
+    ]
+  },
+  {
+    "new": 18,
+    "candidates": [
+      {
+        "old": 10,
+        "rmse": 0.2277,
+        "correlation": 0.0419
+      },
+      {
+        "old": 14,
+        "rmse": 0.3704,
+        "correlation": -0.119
+      },
+      {
+        "old": 8,
+        "rmse": 0.3747,
+        "correlation": 0.0813
+      },
+      {
+        "old": 2,
+        "rmse": 0.3774,
+        "correlation": 0.1967
+      }
+    ]
+  },
+  {
+    "new": 19,
+    "candidates": [
+      {
+        "old": 10,
+        "rmse": 0.2264,
+        "correlation": 0.0702
+      },
+      {
+        "old": 8,
+        "rmse": 0.3611,
+        "correlation": 0.3008
+      },
+      {
+        "old": 14,
+        "rmse": 0.404,
+        "correlation": -0.2585
+      },
+      {
+        "old": 9,
+        "rmse": 0.4092,
+        "correlation": 0.2152
+      }
+    ]
+  },
+  {
+    "new": 20,
+    "candidates": [
+      {
+        "old": 10,
+        "rmse": 0.2345,
+        "correlation": 0.3079
+      },
+      {
+        "old": 2,
+        "rmse": 0.2422,
+        "correlation": 0.7004
+      },
+      {
+        "old": 14,
+        "rmse": 0.2799,
+        "correlation": 0.2436
+      },
+      {
+        "old": 19,
+        "rmse": 0.2944,
+        "correlation": 0.6056
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>我们自己的头部 · 眨眼与中文讲解</title><link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f0eee7;color:#263a40;font:15px/1.85 system-ui,"Microsoft YaHei",sans-serif}main{max-width:1280px;margin:auto;padding:32px 24px 70px}a{color:#275866;text-underline-offset:4px}nav,.live{display:flex;gap:16px;flex-wrap:wrap}h1{font-size:clamp(27px,4vw,42px);line-height:1.3;font-weight:500;margin:30px 0 14px}h2{font-size:22px;font-weight:550;margin:32px 0 14px}p{max-width:890px}.status{display:inline-block;padding:5px 12px;background:#e9ddc4;border:1px solid #bd9e72;border-radius:3px;color:#69522f;font-size:12px}.pair{display:grid;grid-template-columns:1fr 1fr;gap:18px}figure{margin:0;background:#fffdf7;border:1px solid #d2d6cd;border-radius:6px;overflow:hidden}img{display:block;width:100%;height:auto}figcaption{padding:12px 16px;font-size:13px}.notes{background:#fffdf7;border-left:3px solid #ad9367;padding:16px 24px;margin:26px 0}.notes p{margin:8px 0}.live{margin:22px 0}.live a{padding:8px 16px;border:1px solid #a5b1ac;border-radius:4px;text-decoration:none}small{color:#63726e}a:focus-visible{outline:3px solid #d4964d;outline-offset:4px}video{display:block;width:100%;max-height:680px;background:#213b45;border-radius:6px}details{background:#fffdf7;border:1px solid #d2d6cd;border-radius:5px;padding:13px 18px;margin-top:24px}summary{cursor:pointer}li{margin:6px 0}@media(max-width:650px){main{padding:24px 16px 50px}.pair{grid-template-columns:1fr;gap:12px}nav{gap:12px}}
+</style></head><body><main>
+<nav><a href="./index.html?detail=facial">← 返回玻璃屋</a><a href="./stairs-review.html">继续：上下台阶</a><a href="./orbit-review.html">之前的眼周修整</a></nav>
+<h1>还是我们的脸，开始眨眼和讲解。</h1>
+<span class="status">3.6 · 自有头部 · 功能已接入，面部自然度仍需精修</span>
+<p>保留你提供的 0597 人物的脸型、发型、眼镜、身体和深蓝西装，在自己的网格上补眼睑与嘴部结构。微软模型只用于参考面部控制方式；当前人物没有采用微软的头部或脸部网格。</p>
+<div class="live"><a href="./index.html?detail=facial&amp;portrait=face&amp;pose=still&amp;v=face36">进入实际3D · 眨眼与讲解 ↗</a><a href="./index.html?detail=facial&amp;portrait=half&amp;pose=still&amp;v=face36">看露台半身与整体效果 ↗</a><a href="./index.html?detail=facial&amp;portrait=side&amp;pose=still&amp;v=face36">检查侧面 ↗</a></div>
+<p>进入网页后，点击「播放讲解」听中文介绍；可以暂停、继续或停止。点击「眨一下眼」检查闭合，「看向镜头」控制视线，「自然眨眼」控制待机节奏。</p>
+<h2>直接看网页录下的讲解</h2>
+<video controls playsinline preload="metadata" poster="../screenshots/face36-speaking.png" src="../screenshots/face36-speaking.mp4" aria-label="我们自己的0597人物在实际玻璃屋网页中眨眼并进行中文讲解"></video>
+<p><small>录制自同一个实时网页的三维画面与讲解音频，没有替换人物，也没有另外生成视频。声音为本机中文测试音色。</small></p>
+<h2>原脸上的实际变形</h2><div class="pair">
+<figure><img src="../screenshots/face36-face-neutral.png" alt="自己的0597人物，中性表情，原脸型发型和眼镜保留"><figcaption>放松：保留我们的脸型、发型、眼镜和原有形象。</figcaption></figure>
+<figure><img src="../screenshots/face36-face-closed.png" alt="自己的0597人物闭合眼睑，实际网页检查截图"><figcaption>眨眼：移动眼睑覆盖眼球，镜框保持位置。</figcaption></figure>
+<figure><img src="../screenshots/face36-face-aa.png" alt="自己的0597人物张口，显示真实口腔开口与牙齿"><figcaption>张口：唇缘、口腔与牙齿参与变形。</figcaption></figure>
+<figure><img src="../screenshots/face36-face-o.png" alt="自己的0597人物圆唇，实际网页检查截图"><figcaption>圆唇：嘴部收窄，口腔内壁随之调整，避免从嘴角露出。</figcaption></figure>
+</div>
+<div class="notes"><p><strong>已接入：</strong>自动与手动眨眼、视线控制、21个面部变形、一段中文讲解及播放/暂停/继续/停止。嘴型使用实际音频播放时间作为时钟；暂停和停止后嘴部回到放松状态。</p><p><strong>仍需精修：</strong>眼睑闭合、嘴角、唇齿比例与表情的自然度，以及脸侧与衣服原有生成痕迹。讲解的口型按实测音频停顿和拼音近似对齐，尚非逐音素精确同步。当前演示固定讲解，没有接入自由对话或麦克风识别。</p><p>上轮换用微软头部的方向已停止。原始0597文件、默认人物与历史稿均保留；本轮面部制作在我们自己的头部上完成，没有向外部服务上传人物。</p></div>
+<details><summary>制作与验证记录</summary><p>在自有头部上连接61个原嘴部边界点，补唇缘开口、口腔、牙齿和舌部；加入双眼眨眼、四向视线、张口与多种唇形。21个形态键包含在可下载GLB中，身体动作仍使用既有Rocketbox动作参考（MIT）。</p><p>中文音频本地生成，停顿与能量用于分句/字音近似对齐。本机引擎没有返回原生口型时间戳，当前未使用语音识别或逐音素强制对齐；效果仍要按实际画面校准。</p><p>独立模型导入检查了面部变形、身体保持与5段已有动作。真实浏览器检查了眼睑/嘴部网格位移、播放时音频时间推进、暂停冻结、恢复、停止闭口、下载哈希及手机布局。功能通过不等于面部美术最终达标。</p><p>结构参考：<a href="https://github.com/openVRlab/Headbox" target="_blank" rel="noopener noreferrer">Headbox 面部控制</a>、<a href="https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/how-to-speech-synthesis-viseme" target="_blank" rel="noopener noreferrer">微软口型与语音时间轴说明</a>；没有导入微软头部或直接套用它的脸部形态。</p></details>
+</main></body></html>

@@ -1,0 +1,161 @@
+{
+  "errors": [],
+  "requests": [
+    {
+      "url": "http://127.0.0.1:4197/glasshouse/assets/personal-guide/manifest-v30.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4197/glasshouse/assets/personal-guide/personal-guide.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4197/glasshouse/assets/personal-guide/manifest-orbit.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4197/glasshouse/assets/personal-guide/personal-guide-orbit.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4197/glasshouse/assets/personal-guide/manifest-orbit.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4197/glasshouse/assets/personal-guide/personal-guide-orbit.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4197/glasshouse/assets/personal-guide/manifest-orbit.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4197/glasshouse/assets/personal-guide/personal-guide-orbit.glb",
+      "status": 200
+    }
+  ],
+  "before": {
+    "file": "personal-guide.glb",
+    "hash": "58ad44b9d3450485ed398e9c7b9509e5567c1e8482e50272e6381ef99e7d191b",
+    "pose": {
+      "time": 0,
+      "hand": [
+        -1.5231,
+        2.278,
+        6.6425
+      ],
+      "headRotation": [
+        -0.09854,
+        0,
+        0,
+        0.99513
+      ],
+      "leftFoot": [
+        -1.1302,
+        1.508,
+        6.7237
+      ],
+      "rightFoot": [
+        -1.3674,
+        1.508,
+        6.6666
+      ]
+    },
+    "position": [
+      -1.25,
+      1.413,
+      6.7
+    ],
+    "camera": [
+      -1.571,
+      3.047,
+      7.844
+    ]
+  },
+  "frozen": {
+    "file": "personal-guide-orbit.glb",
+    "hash": "252069a40c80cecd70bc188968822ee374eba4804b62fd027de44443965a7cbc",
+    "pose": {
+      "time": 0,
+      "hand": [
+        -1.5231,
+        2.278,
+        6.6425
+      ],
+      "headRotation": [
+        -0.09854,
+        0,
+        0,
+        0.99513
+      ],
+      "leftFoot": [
+        -1.1302,
+        1.508,
+        6.7237
+      ],
+      "rightFoot": [
+        -1.3674,
+        1.508,
+        6.6666
+      ]
+    },
+    "position": [
+      -1.25,
+      1.413,
+      6.7
+    ],
+    "camera": [
+      -1.571,
+      3.047,
+      7.844
+    ]
+  },
+  "download": {
+    "filename": "seaside-personal-0597.glb",
+    "bytes": 11105708,
+    "sha256": "252069a40c80cecd70bc188968822ee374eba4804b62fd027de44443965a7cbc"
+  },
+  "mobile": {
+    "file": "personal-guide-orbit.glb",
+    "hash": "252069a40c80cecd70bc188968822ee374eba4804b62fd027de44443965a7cbc",
+    "pose": {
+      "time": 0,
+      "hand": [
+        -1.5231,
+        2.278,
+        6.6425
+      ],
+      "headRotation": [
+        -0.09854,
+        0,
+        0,
+        0.99513
+      ],
+      "leftFoot": [
+        -1.1302,
+        1.508,
+        6.7237
+      ],
+      "rightFoot": [
+        -1.3674,
+        1.508,
+        6.6666
+      ]
+    },
+    "position": [
+      -1.25,
+      1.413,
+      6.7
+    ],
+    "camera": [
+      -1.9,
+      2.833,
+      9.4
+    ]
+  },
+  "review": {
+    "images": 4,
+    "mobileWidth": 390,
+    "liveEntryLoaded": true
+  }
+}

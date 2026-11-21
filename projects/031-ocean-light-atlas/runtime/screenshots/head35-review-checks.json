@@ -1,0 +1,107 @@
+{
+  "errors": [],
+  "requests": [
+    {
+      "url": "http://127.0.0.1:4197/glasshouse/assets/personal-guide/manifest-head.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4197/glasshouse/assets/personal-guide/personal-guide-head.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4197/glasshouse/assets/personal-guide/manifest-head.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4197/glasshouse/assets/personal-guide/personal-guide-head.glb",
+      "status": 200
+    }
+  ],
+  "frozen": {
+    "file": "personal-guide-head.glb",
+    "hash": "167bed9f770a7174473759947d89934c8d5839657d5eb119fdb14769fabfa0c3",
+    "pose": {
+      "time": 0,
+      "hand": [
+        -1.5231,
+        2.278,
+        6.6425
+      ],
+      "headRotation": [
+        -0.09854,
+        0,
+        0,
+        0.99513
+      ],
+      "leftFoot": [
+        -1.1302,
+        1.508,
+        6.7237
+      ],
+      "rightFoot": [
+        -1.3674,
+        1.508,
+        6.6666
+      ]
+    },
+    "position": [
+      -1.25,
+      1.413,
+      6.7
+    ],
+    "camera": [
+      -1.571,
+      3.047,
+      7.844
+    ]
+  },
+  "download": {
+    "bytes": 15236576,
+    "sha256": "167bed9f770a7174473759947d89934c8d5839657d5eb119fdb14769fabfa0c3"
+  },
+  "mobile": {
+    "file": "personal-guide-head.glb",
+    "hash": "167bed9f770a7174473759947d89934c8d5839657d5eb119fdb14769fabfa0c3",
+    "pose": {
+      "time": 0,
+      "hand": [
+        -1.5231,
+        2.278,
+        6.6425
+      ],
+      "headRotation": [
+        -0.09854,
+        0,
+        0,
+        0.99513
+      ],
+      "leftFoot": [
+        -1.1302,
+        1.508,
+        6.7237
+      ],
+      "rightFoot": [
+        -1.3674,
+        1.508,
+        6.6666
+      ]
+    },
+    "position": [
+      -1.25,
+      1.413,
+      6.7
+    ],
+    "camera": [
+      -1.9,
+      2.833,
+      9.4
+    ]
+  },
+  "microsoftComparison": true,
+  "review": {
+    "images": 4,
+    "mobileWidth": 390,
+    "liveEntryLoaded": true
+  }
+}

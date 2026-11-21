@@ -1,0 +1,116 @@
+{
+  "errors": [],
+  "screens": [
+    {
+      "shot": "face",
+      "file": "personal-guide-orbit.glb",
+      "hash": "252069a40c80cecd70bc188968822ee374eba4804b62fd027de44443965a7cbc",
+      "pose": {
+        "time": 0,
+        "hand": [
+          -1.5231,
+          2.278,
+          6.6425
+        ],
+        "headRotation": [
+          -0.09854,
+          0,
+          0,
+          0.99513
+        ],
+        "leftFoot": [
+          -1.1302,
+          1.508,
+          6.7237
+        ],
+        "rightFoot": [
+          -1.3674,
+          1.508,
+          6.6666
+        ]
+      },
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "adjustments": 0,
+        "lastBlocker": null,
+        "distance": 1.324,
+        "clear": true
+      }
+    },
+    {
+      "shot": "side",
+      "file": "personal-guide-orbit.glb",
+      "hash": "252069a40c80cecd70bc188968822ee374eba4804b62fd027de44443965a7cbc",
+      "pose": {
+        "time": 0,
+        "hand": [
+          -1.5231,
+          2.278,
+          6.6425
+        ],
+        "headRotation": [
+          -0.09854,
+          0,
+          0,
+          0.99513
+        ],
+        "leftFoot": [
+          -1.1302,
+          1.508,
+          6.7237
+        ],
+        "rightFoot": [
+          -1.3674,
+          1.508,
+          6.6666
+        ]
+      },
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "adjustments": 0,
+        "lastBlocker": null,
+        "distance": 1.33,
+        "clear": true
+      }
+    },
+    {
+      "shot": "half",
+      "file": "personal-guide-orbit.glb",
+      "hash": "252069a40c80cecd70bc188968822ee374eba4804b62fd027de44443965a7cbc",
+      "pose": {
+        "time": 0,
+        "hand": [
+          -1.5231,
+          2.278,
+          6.6425
+        ],
+        "headRotation": [
+          -0.09854,
+          0,
+          0,
+          0.99513
+        ],
+        "leftFoot": [
+          -1.1302,
+          1.508,
+          6.7237
+        ],
+        "rightFoot": [
+          -1.3674,
+          1.508,
+          6.6666
+        ]
+      },
+      "camera": {
+        "adjusted": false,
+        "blocker": null,
+        "adjustments": 0,
+        "lastBlocker": null,
+        "distance": 2.802,
+        "clear": true
+      }
+    }
+  ]
+}

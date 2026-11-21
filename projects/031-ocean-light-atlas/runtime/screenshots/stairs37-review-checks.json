@@ -1,0 +1,21 @@
+{
+  "errors": [],
+  "videos": [
+    {
+      "src": "http://127.0.0.1:4197/screenshots/stairs37-up.mp4",
+      "duration": 7.666667,
+      "time": 0.384,
+      "width": 1280,
+      "height": 1000
+    },
+    {
+      "src": "http://127.0.0.1:4197/screenshots/stairs37-down.mp4",
+      "duration": 8.041667,
+      "time": 0.3049,
+      "width": 1280,
+      "height": 1000
+    }
+  ],
+  "entry": "http://127.0.0.1:4197/glasshouse/index.html?detail=facial&stairs=review&v=stairs37",
+  "result": "passed"
+}

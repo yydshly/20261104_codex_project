@@ -1,0 +1,78 @@
+{
+  "errors": [],
+  "captures": [
+    {
+      "id": "0597",
+      "file": "screenshots/character-preview-0597.png",
+      "url": "http://127.0.0.1:4198/glasshouse/releases/4.3-20261115/index.html?portrait=half&pose=still&facePose=neutral&seaside=1&detail=hands43",
+      "state": {
+        "asset": "personal-guide-hands43.glb",
+        "hash": "bee62731b932e907f66eca8e58dc42daf8565f2501f77ab9e71cd20c3a0336f1",
+        "outfit": "personal0597",
+        "staticCandidate": null,
+        "camera": "portrait"
+      }
+    },
+    {
+      "id": "rocket10",
+      "file": "screenshots/character-preview-rocket10.png",
+      "url": "http://127.0.0.1:4198/glasshouse/index.html?hero=rocket10&portrait=half&pose=still",
+      "state": {
+        "asset": "rocket-guide.glb",
+        "hash": "03a215c373c12f4c9cc7e3e417cb2cc42cd3415b77b85588cdf13cc2a5d935e6",
+        "outfit": "rocket10",
+        "staticCandidate": null,
+        "camera": "portrait"
+      }
+    },
+    {
+      "id": "legacy-hoodie",
+      "file": "screenshots/character-preview-legacy-hoodie.png",
+      "url": "http://127.0.0.1:4198/glasshouse/index.html?legacy=1&portrait=half&pose=still",
+      "state": {
+        "asset": "undefined",
+        "hash": "undefined",
+        "outfit": "hoodie",
+        "staticCandidate": null,
+        "camera": "portrait"
+      }
+    },
+    {
+      "id": "legacy-linen",
+      "file": "screenshots/character-preview-legacy-linen.png",
+      "url": "http://127.0.0.1:4198/glasshouse/index.html?legacy=1&portrait=half&pose=still",
+      "state": {
+        "asset": "undefined",
+        "hash": "undefined",
+        "outfit": "linen",
+        "staticCandidate": null,
+        "camera": "portrait"
+      }
+    },
+    {
+      "id": "legacy-knit",
+      "file": "screenshots/character-preview-legacy-knit.png",
+      "url": "http://127.0.0.1:4198/glasshouse/index.html?legacy=1&portrait=half&pose=still",
+      "state": {
+        "asset": "undefined",
+        "hash": "undefined",
+        "outfit": "knit",
+        "staticCandidate": null,
+        "camera": "portrait"
+      }
+    },
+    {
+      "id": "rocket17",
+      "file": "screenshots/character-preview-rocket17.png",
+      "url": "http://127.0.0.1:4198/glasshouse/index.html?study=1&hero=rocket17",
+      "state": {
+        "asset": null,
+        "hash": null,
+        "outfit": null,
+        "staticCandidate": "rocket17",
+        "camera": "face"
+      }
+    }
+  ],
+  "result": "passed"
+}

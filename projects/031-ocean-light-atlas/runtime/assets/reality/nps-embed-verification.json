@@ -1,0 +1,35 @@
+[
+  {
+    "id": "nps-sunset",
+    "mediaUrl": "https://www.nps.gov/media/video/embed.htm?id=56132319-1DD8-B71B-0B410405E8F135F8",
+    "sources": [
+      "https://www.nps.gov/nps-audiovideo/audiovideo/bed5ac9d-bdcd-4fc0-81c1-4f9e9b88a783720p.mp4",
+      "https://www.nps.gov/nps-audiovideo/audiovideo/bed5ac9d-bdcd-4fc0-81c1-4f9e9b88a783480p.mp4",
+      "https://www.nps.gov/nps-audiovideo/audiovideo/bed5ac9d-bdcd-4fc0-81c1-4f9e9b88a783360p.mp4",
+      "https://www.nps.gov/nps-audiovideo/audiovideo/bed5ac9d-bdcd-4fc0-81c1-4f9e9b88a7831080p.mp4"
+    ],
+    "poster": "https://www.nps.gov/common/uploads/pwr/park/redw/565AA06D-1DD8-B71B-0BC6A0A65F97C500/565AA06D-1DD8-B71B-0BC6A0A65F97C500-large.jpg"
+  },
+  {
+    "id": "nps-gulls",
+    "mediaUrl": "https://www.nps.gov/media/video/embed.htm?id=5B11A65B-2E51-4377-9E52-367426BAE6A1",
+    "sources": [
+      "https://www.nps.gov/nps-audiovideo/audiovideo/72b13618-5203-4294-be2f-e99b0f897438720p.mp4",
+      "https://www.nps.gov/nps-audiovideo/audiovideo/72b13618-5203-4294-be2f-e99b0f897438480p.mp4",
+      "https://www.nps.gov/nps-audiovideo/audiovideo/72b13618-5203-4294-be2f-e99b0f897438360p.mp4",
+      "https://www.nps.gov/nps-audiovideo/audiovideo/72b13618-5203-4294-be2f-e99b0f8974381080p.mp4"
+    ],
+    "poster": "https://www.nps.gov/common/uploads/nri/organization/southerncal//F250A107-F406-23A7-886E367B0CAF030B/F250A107-F406-23A7-886E367B0CAF030B-large.jpg"
+  },
+  {
+    "id": "nps-bird-rock",
+    "mediaUrl": "https://www.nps.gov/media/video/embed.htm?id=3558C284-3E9C-479A-83C2-62034B6BB516",
+    "sources": [
+      "https://www.nps.gov/nps-audiovideo/audiovideo/663a2f13-6183-4b3e-a4a9-6698a84619d0720p.mp4",
+      "https://www.nps.gov/nps-audiovideo/audiovideo/663a2f13-6183-4b3e-a4a9-6698a84619d0480p.mp4",
+      "https://www.nps.gov/nps-audiovideo/audiovideo/663a2f13-6183-4b3e-a4a9-6698a84619d0360p.mp4",
+      "https://www.nps.gov/nps-audiovideo/audiovideo/663a2f13-6183-4b3e-a4a9-6698a84619d01080p.mp4"
+    ],
+    "poster": "https://www.nps.gov/common/uploads/nri/organization/southerncal//F4B5AFDD-EDEE-DFDF-D90C8AB0FC51B006/F4B5AFDD-EDEE-DFDF-D90C8AB0FC51B006-large.jpg"
+  }
+]

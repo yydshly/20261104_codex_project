@@ -1,0 +1,469 @@
+{
+  "errors": [],
+  "contactSamples": [
+    {
+      "position": [
+        -1.5,
+        1.413,
+        7.422
+      ],
+      "phase": "walking",
+      "camera": "follow",
+      "contact": [
+        {
+          "height": 0.005,
+          "weight": 1
+        },
+        {
+          "height": 0.1143,
+          "weight": 0.711
+        }
+      ],
+      "guard": {
+        "adjusted": false,
+        "blocker": null,
+        "adjustments": 0,
+        "lastBlocker": null,
+        "distance": 4.228,
+        "clear": true
+      }
+    },
+    {
+      "position": [
+        -1.5,
+        1.413,
+        7.422
+      ],
+      "phase": "walking",
+      "camera": "follow",
+      "contact": [
+        {
+          "height": 0.005,
+          "weight": 1
+        },
+        {
+          "height": 0.1142,
+          "weight": 0.712
+        }
+      ],
+      "guard": {
+        "adjusted": false,
+        "blocker": null,
+        "adjustments": 0,
+        "lastBlocker": null,
+        "distance": 4.314,
+        "clear": true
+      }
+    },
+    {
+      "position": [
+        -1.5,
+        1.413,
+        7.522
+      ],
+      "phase": "walking",
+      "camera": "follow",
+      "contact": [
+        {
+          "height": 0.005,
+          "weight": 1
+        },
+        {
+          "height": 0.3043,
+          "weight": 0
+        }
+      ],
+      "guard": {
+        "adjusted": false,
+        "blocker": null,
+        "adjustments": 0,
+        "lastBlocker": null,
+        "distance": 4.366,
+        "clear": true
+      }
+    },
+    {
+      "position": [
+        -1.5,
+        1.413,
+        7.616
+      ],
+      "phase": "walking",
+      "camera": "follow",
+      "contact": [
+        {
+          "height": 0.005,
+          "weight": 1
+        },
+        {
+          "height": 0.2145,
+          "weight": 0.047
+        }
+      ],
+      "guard": {
+        "adjusted": false,
+        "blocker": null,
+        "adjustments": 0,
+        "lastBlocker": null,
+        "distance": 4.392,
+        "clear": true
+      }
+    },
+    {
+      "position": [
+        -1.5,
+        1.385,
+        7.71
+      ],
+      "phase": "walking",
+      "camera": "follow",
+      "contact": [
+        {
+          "height": 0.0391,
+          "weight": 1
+        },
+        {
+          "height": 0.005,
+          "weight": 1
+        }
+      ],
+      "guard": {
+        "adjusted": false,
+        "blocker": null,
+        "adjustments": 0,
+        "lastBlocker": null,
+        "distance": 4.412,
+        "clear": true
+      }
+    },
+    {
+      "position": [
+        -1.5,
+        1.343,
+        7.799
+      ],
+      "phase": "walking",
+      "camera": "follow",
+      "contact": [
+        {
+          "height": 0.115,
+          "weight": 0.706
+        },
+        {
+          "height": 0.0046,
+          "weight": 1
+        }
+      ],
+      "guard": {
+        "adjusted": false,
+        "blocker": null,
+        "adjustments": 0,
+        "lastBlocker": null,
+        "distance": 4.422,
+        "clear": true
+      }
+    },
+    {
+      "position": [
+        -1.5,
+        1.295,
+        7.9
+      ],
+      "phase": "walking",
+      "camera": "follow",
+      "contact": [
+        {
+          "height": 0.1177,
+          "weight": 0.687
+        },
+        {
+          "height": 0.0045,
+          "weight": 1
+        }
+      ],
+      "guard": {
+        "adjusted": false,
+        "blocker": null,
+        "adjustments": 0,
+        "lastBlocker": null,
+        "distance": 4.429,
+        "clear": true
+      }
+    },
+    {
+      "position": [
+        -1.5,
+        1.247,
+        8.001
+      ],
+      "phase": "walking",
+      "camera": "follow",
+      "contact": [
+        {
+          "height": 0.3035,
+          "weight": 0
+        },
+        {
+          "height": 0.0043,
+          "weight": 1
+        }
+      ],
+      "guard": {
+        "adjusted": false,
+        "blocker": null,
+        "adjustments": 0,
+        "lastBlocker": null,
+        "distance": 4.432,
+        "clear": true
+      }
+    },
+    {
+      "position": [
+        -1.5,
+        1.211,
+        8.087
+      ],
+      "phase": "walking",
+      "camera": "follow",
+      "contact": [
+        {
+          "height": 0.3032,
+          "weight": 0
+        },
+        {
+          "height": 0.0043,
+          "weight": 1
+        }
+      ],
+      "guard": {
+        "adjusted": false,
+        "blocker": null,
+        "adjustments": 0,
+        "lastBlocker": null,
+        "distance": 4.433,
+        "clear": true
+      }
+    },
+    {
+      "position": [
+        -1.5,
+        1.211,
+        8.087
+      ],
+      "phase": "walking",
+      "camera": "follow",
+      "contact": [
+        {
+          "height": 0.0107,
+          "weight": 1
+        },
+        {
+          "height": 0.0043,
+          "weight": 1
+        }
+      ],
+      "guard": {
+        "adjusted": false,
+        "blocker": null,
+        "adjustments": 0,
+        "lastBlocker": null,
+        "distance": 4.432,
+        "clear": true
+      }
+    },
+    {
+      "position": [
+        -1.5,
+        1.176,
+        8.187
+      ],
+      "phase": "walking",
+      "camera": "follow",
+      "contact": [
+        {
+          "height": 0.005,
+          "weight": 1
+        },
+        {
+          "height": 0.1121,
+          "weight": 0.726
+        }
+      ],
+      "guard": {
+        "adjusted": false,
+        "blocker": null,
+        "adjustments": 0,
+        "lastBlocker": null,
+        "distance": 4.432,
+        "clear": true
+      }
+    },
+    {
+      "position": [
+        -1.5,
+        1.146,
+        8.274
+      ],
+      "phase": "walking",
+      "camera": "follow",
+      "contact": [
+        {
+          "height": 0.005,
+          "weight": 1
+        },
+        {
+          "height": 0.1147,
+          "weight": 0.708
+        }
+      ],
+      "guard": {
+        "adjusted": false,
+        "blocker": null,
+        "adjustments": 0,
+        "lastBlocker": null,
+        "distance": 4.432,
+        "clear": true
+      }
+    },
+    {
+      "position": [
+        -1.5,
+        1.115,
+        8.362
+      ],
+      "phase": "walking",
+      "camera": "follow",
+      "contact": [
+        {
+          "height": 0.005,
+          "weight": 1
+        },
+        {
+          "height": 0.3442,
+          "weight": 0
+        }
+      ],
+      "guard": {
+        "adjusted": false,
+        "blocker": null,
+        "adjustments": 0,
+        "lastBlocker": null,
+        "distance": 4.432,
+        "clear": true
+      }
+    },
+    {
+      "position": [
+        -1.5,
+        1.081,
+        8.461
+      ],
+      "phase": "walking",
+      "camera": "follow",
+      "contact": [
+        {
+          "height": 0.0043,
+          "weight": 1
+        },
+        {
+          "height": 0.3445,
+          "weight": 0
+        }
+      ],
+      "guard": {
+        "adjusted": false,
+        "blocker": null,
+        "adjustments": 0,
+        "lastBlocker": null,
+        "distance": 4.432,
+        "clear": true
+      }
+    },
+    {
+      "position": [
+        -1.5,
+        1.05,
+        8.549
+      ],
+      "phase": "walking",
+      "camera": "follow",
+      "contact": [
+        {
+          "height": 0.0044,
+          "weight": 1
+        },
+        {
+          "height": 0.2394,
+          "weight": 0
+        }
+      ],
+      "guard": {
+        "adjusted": false,
+        "blocker": null,
+        "adjustments": 0,
+        "lastBlocker": null,
+        "distance": 4.434,
+        "clear": true
+      }
+    },
+    {
+      "position": [
+        -1.5,
+        1.019,
+        8.637
+      ],
+      "phase": "walking",
+      "camera": "follow",
+      "contact": [
+        {
+          "height": 0.038,
+          "weight": 1
+        },
+        {
+          "height": 0.005,
+          "weight": 1
+        }
+      ],
+      "guard": {
+        "adjusted": false,
+        "blocker": null,
+        "adjustments": 0,
+        "lastBlocker": null,
+        "distance": 4.433,
+        "clear": true
+      }
+    }
+  ],
+  "export": {
+    "width": 1920,
+    "height": 1200,
+    "bytes": 2647645
+  },
+  "portraitStopsWalking": {
+    "position": [
+      -1.5,
+      1,
+      8.693
+    ],
+    "phase": "idle",
+    "camera": "portrait",
+    "contact": [
+      {
+        "height": 0.0044,
+        "weight": 1
+      },
+      {
+        "height": 0.0051,
+        "weight": 1
+      }
+    ],
+    "guard": {
+      "adjusted": false,
+      "blocker": null,
+      "adjustments": 0,
+      "lastBlocker": null,
+      "distance": 2.742,
+      "clear": true
+    }
+  }
+}

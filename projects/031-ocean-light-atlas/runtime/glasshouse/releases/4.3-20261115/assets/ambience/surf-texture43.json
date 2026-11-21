@@ -1,0 +1,17 @@
+{
+  "source": "ocean-surf.ogg",
+  "sourceSha256": "4f749fa3382b86de5d3967b9c8824c3d6155a7428d74f401686994ae74a1620b",
+  "sourceRangeSeconds": [
+    20,
+    32
+  ],
+  "processing": "80 Hz\u201311 kHz bandpass, local 200ms RMS levelling, 100ms gain smoothing, 1s equal-power loop join. This is a steady surf texture; visible wave phase supplies its macro envelope at runtime.",
+  "sampleRate": 48000,
+  "channels": 2,
+  "duration": 11.0,
+  "rmsDbfs": -25.47681893592459,
+  "license": "CC0-1.0; derived from the already recorded SamsterBirdies source in manifest.json",
+  "file": "surf-texture43.ogg",
+  "bytes": 177112,
+  "sha256": "e7a83f7e7c2d537632aa1e3a3c4856c852823cd9e7250e982780941218ae1c31"
+}

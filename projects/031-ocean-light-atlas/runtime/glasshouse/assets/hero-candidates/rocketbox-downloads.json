@@ -1,0 +1,83 @@
+{
+  "license": "MIT",
+  "source": "https://github.com/microsoft/Microsoft-Rocketbox",
+  "files": [
+    {
+      "avatar": "Male_Adult_10",
+      "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Male_Adult_10/Export/Male_Adult_10.fbx",
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_10/Export/Male_Adult_10.fbx",
+      "bytes": 541104,
+      "sha256": "6a7a693d9a7ea6c866037f0cc8e45c5243bbcff008665b2ae505f72a6648ae00"
+    },
+    {
+      "avatar": "Male_Adult_10",
+      "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Male_Adult_10/Textures/m024_body_color.tga",
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_10/Textures/m024_body_color.tga",
+      "bytes": 12582956,
+      "sha256": "5424cf19d81306897f005a94e104cfff08dd0d75cba57734cc056baab85e12cb"
+    },
+    {
+      "avatar": "Male_Adult_10",
+      "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Male_Adult_10/Textures/m024_body_normal.tga",
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_10/Textures/m024_body_normal.tga",
+      "bytes": 12582956,
+      "sha256": "7a9e4d43aa92d9eaf9d85d81a6554dea6ade8196f7416b325bf8107da45ccb66"
+    },
+    {
+      "avatar": "Male_Adult_10",
+      "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Male_Adult_10/Textures/m024_head_color.tga",
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_10/Textures/m024_head_color.tga",
+      "bytes": 12582956,
+      "sha256": "60e12ea8f638ddeb99f315a805b907c7ddbb5ea048234b0b1e58c5bfb8bc1dd3"
+    },
+    {
+      "avatar": "Male_Adult_10",
+      "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Male_Adult_10/Textures/m024_head_normal.tga",
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_10/Textures/m024_head_normal.tga",
+      "bytes": 12582956,
+      "sha256": "42a8eeecd5c552b1052e5a9d2f4ced23b67fa78df4c6854ad95f21cb5e490393"
+    },
+    {
+      "avatar": "Male_Adult_10",
+      "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Male_Adult_10/Textures/m024_opacity_color.tga",
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_10/Textures/m024_opacity_color.tga",
+      "bytes": 4194348,
+      "sha256": "801be5b63549f6ca46c405a4d86c723735a7c4edcbb042c453bdb6fed31bfbdb"
+    },
+    {
+      "avatar": "Male_Adult_17",
+      "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Male_Adult_17/Export/Male_Adult_17.fbx",
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_17/Export/Male_Adult_17.fbx",
+      "bytes": 495328,
+      "sha256": "c1f5f218684baae3fb505f9b100af97953ac868f03e6a9b6b2c7365c353c05bb"
+    },
+    {
+      "avatar": "Male_Adult_17",
+      "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_body_color.tga",
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_17/Textures/m022_body_color.tga",
+      "bytes": 12582956,
+      "sha256": "7efb4d7c5214b936f2db46285d33bb6b3f47d84faf1a3f8737957d631a270215"
+    },
+    {
+      "avatar": "Male_Adult_17",
+      "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_body_normal.tga",
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_17/Textures/m022_body_normal.tga",
+      "bytes": 12582956,
+      "sha256": "635b96daa60a7ddfea789061e1a52923acfe286c5fea6b30154b9f118fdfc234"
+    },
+    {
+      "avatar": "Male_Adult_17",
+      "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_head_color.tga",
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_17/Textures/m022_head_color.tga",
+      "bytes": 12582956,
+      "sha256": "47ceae79a6d3760bbecf4302d5b9c647429943d48cc7ea25ac4696b363e5ea9c"
+    },
+    {
+      "avatar": "Male_Adult_17",
+      "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Male_Adult_17/Textures/m022_head_normal.tga",
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_17/Textures/m022_head_normal.tga",
+      "bytes": 12582956,
+      "sha256": "ab79b9cbede06cffb312963bb9209850e0f4ce415169efe2c086c7895c2dcf34"
+    }
+  ]
+}

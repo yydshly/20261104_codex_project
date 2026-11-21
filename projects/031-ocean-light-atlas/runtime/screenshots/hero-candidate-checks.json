@@ -1,0 +1,20 @@
+[
+  {
+    "id": "current",
+    "ready": "true",
+    "selected": "current",
+    "errors": []
+  },
+  {
+    "id": "rocket10",
+    "ready": "true",
+    "selected": "rocket10",
+    "errors": []
+  },
+  {
+    "id": "rocket17",
+    "ready": "true",
+    "selected": "rocket17",
+    "errors": []
+  }
+]

@@ -1,0 +1,33 @@
+.hero-controls,.hero-caption{display:none}
+.hero-study .hero-controls,.hero-study .hero-caption{display:block}
+.hero-study #panel>:not(.hero-controls),.hero-study .scene-title,.hero-study .guide-caption{display:none!important}
+.hero-study .vignette{background:linear-gradient(180deg,#15273118,transparent 18%,transparent 78%,#122a3426)}
+.hero-study #toggle-panel{font-size:11px}
+.hero-study .panel{width:250px;top:94px;padding:20px;background:#1f3239bd;box-shadow:none}
+.hero-controls .hero-kicker{font-size:8px;letter-spacing:1.8px;color:#d3d9d4;margin:0 0 14px}
+.hero-controls h2{font-family:Georgia,"Songti SC",serif;font-size:21px;font-weight:400;letter-spacing:2px;margin:0 0 8px}
+.hero-controls .hero-model-status{font-size:10px;color:#d6d9ce;line-height:1.8;margin:0 0 20px}
+.hero-controls .hero-mode-buttons{display:grid;gap:6px}
+.hero-controls [data-hero-mode]{display:flex;align-items:center;justify-content:space-between;padding:12px 10px;font-size:11px;border:1px solid #f4e4c330;border-radius:2px;background:transparent;color:#d8ded9;text-align:left}
+.hero-controls [data-hero-mode] span{font-size:8px;letter-spacing:1px;opacity:.5}
+.hero-controls [data-hero-mode][aria-pressed=true]{border-color:#e5cc9c99;background:#e5cc9c10;color:#ffebc5}
+.hero-controls .hero-small-actions{display:flex;gap:8px;margin:13px 0 18px}
+.hero-small-actions button{padding:5px 0;background:none;font-size:10px;color:#e6dbc4;border-bottom:1px solid #e6dbc455}
+.hero-small-actions button+button{margin-left:auto}
+.hero-controls #hero-capture{width:100%;display:flex;justify-content:space-between;align-items:center;padding:11px 12px;background:#e8d8b6;color:#253b41;border:1px solid #e8d8b6;font-size:11px;border-radius:2px}
+.hero-controls .hero-note{font-size:9px;line-height:1.8;margin:14px 0 0;color:#c1cdc9}
+.hero-caption{position:absolute;left:36px;bottom:76px;pointer-events:none;color:#f6ecda;text-shadow:0 2px 15px #17313e55}
+.hero-caption span{font-size:8px;letter-spacing:2px;opacity:.7}
+.hero-caption p{font-family:Georgia,"Songti SC",serif;font-size:23px;font-weight:400;letter-spacing:3px;margin:9px 0 0}
+.hero-study .bottom-bar{font-size:8px;letter-spacing:.8px}
+.hero-study .bottom-bar .gesture{max-width:none;font-size:8px}
+.hero-neutral .hero-caption,.hero-neutral .topbar{color:#2c3e42;text-shadow:none}
+.hero-neutral .bottom-bar{color:#35495199}
+.hero-neutral .vignette{opacity:.3}
+.hero-neutral #toggle-panel{background:#d5d9d669;border-color:#43575833;color:#33464b}
+@media(max-width:700px){.hero-study .panel{right:20px;top:76px;width:236px;padding:19px;max-height:calc(100dvh - 150px)}.hero-caption{left:23px;bottom:75px}.hero-caption p{font-size:18px}.hero-study .panel-open .hero-caption{display:none}.hero-study .bottom-bar .gesture{max-width:170px}.hero-study #scene-status{max-width:125px}.hero-study .topbar{right:22px}}
+.hero-candidates{display:grid;gap:5px;margin:0 0 11px}.hero-candidates a{font-size:10px;border:1px solid #d8e4de38;padding:8px 10px;border-radius:2px;color:#d8e2dc}.hero-candidates a[aria-current=true]{border-color:#ddc79e;background:#ddc79e18;color:#fff0cc}.hero-source-note{font-size:9px;line-height:1.8;color:#e4d2a8;margin:0 0 15px}
+.hero-review-button{display:block;width:100%;padding:10px;text-align:left;background:#e4d2a814;border:1px solid #e4d2a855;border-radius:2px;color:#ffe8be;font-size:10px;margin:0 0 11px}.hero-source-link{font-size:9px;line-height:1.8;color:#c8d5cd;display:block;margin:0 0 16px;overflow-wrap:anywhere}
+.hero-review-dialog{width:min(1050px,calc(100% - 40px));max-height:90dvh;overflow:auto;border:1px solid #9ba89e;border-radius:4px;padding:28px;background:#eff1e8;color:#233e42}.hero-review-dialog::backdrop{background:#091d29b8}.hero-review-dialog h2{font-size:25px;font-weight:500;margin:5px 0 10px}.hero-review-dialog p{font-size:12px;line-height:1.9;color:#657969}.hero-review-dialog #hero-review-close{position:absolute;right:15px;top:12px;border:0;background:none;font-size:26px;color:#52665b}.hero-review-reference{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:center;margin:20px 0 28px}.hero-review-reference img{width:100%;display:block;border:1px solid #d6ded1}.hero-review-reference h3{font-size:15px;font-weight:500}.hero-review-reference ol{padding-left:20px;font-size:12px;line-height:2;color:#5e7465}.hero-review-reference button{padding:8px 0;background:none;border:0;border-bottom:1px solid #9caf98;color:#386b62;font-size:12px}
+.hero-review-candidate-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.hero-review-candidate-grid article{padding:17px;border:1px solid #cdd6c9;border-radius:3px}.hero-review-candidate-grid img{display:block;width:100%;height:205px;object-fit:contain;background:#101611}.hero-review-candidate-grid h3{font-size:15px;font-weight:500}.hero-review-candidate-grid a{display:block;font-size:10px;line-height:1.9;color:#3c776b;margin-top:9px;overflow-wrap:anywhere}.hero-review-candidate-grid .hero-review-open{padding:10px;background:#24494b;color:#f5eddb;border-radius:2px;text-align:center}.hero-review-license{border-top:1px solid #cbd6c7;padding-top:15px;font-size:10px!important}
+@media(max-width:700px){.hero-review-dialog{padding:20px;width:calc(100% - 24px)}.hero-review-reference,.hero-review-candidate-grid{grid-template-columns:1fr;gap:18px}.hero-review-dialog h2{font-size:22px}.hero-review-candidate-grid img{height:190px}}

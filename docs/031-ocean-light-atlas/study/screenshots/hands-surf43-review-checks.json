@@ -1,0 +1,23 @@
+{
+  "errors": [],
+  "video": {
+    "time": 0.533298,
+    "duration": 15.957,
+    "width": 1280,
+    "height": 900,
+    "error": null
+  },
+  "seek": {
+    "time": 14.405433,
+    "duration": 15.957,
+    "error": null
+  },
+  "surf": {
+    "time": 0.752066,
+    "duration": 16.449,
+    "width": 1280,
+    "error": null
+  },
+  "entry": "http://127.0.0.1:4197/glasshouse/index.html?seaside=1&v=hands-surf43",
+  "result": "passed"
+}
