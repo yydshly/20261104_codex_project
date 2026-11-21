@@ -1,0 +1,23 @@
+{
+  "compiledAt": "2026-11-21",
+  "status": "static-checks-passed-browser-not-run",
+  "page": "research.html",
+  "sections": 9,
+  "promptRecipes": 13,
+  "historicalExcerpts": 8,
+  "references": 12,
+  "checks": {
+    "syntax": true,
+    "localLinks": true,
+    "promptExportMatchesSource": true,
+    "savedAssetAndMeasurementFacts": true,
+    "htmlTagNesting": true,
+    "webRegressionTests": 56
+  },
+  "browser": {
+    "status": "not-run",
+    "reason": "The browser preview origin authorization was declined; no alternate browser or indirect UI automation was used."
+  },
+  "historicalCombatEvidenceDate": "2026-11-12",
+  "scope": "No claim of new native GPU, physical mobile, art-quality, clipboard, responsive-layout or browser-interaction acceptance."
+}

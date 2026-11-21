@@ -1,0 +1,424 @@
+{
+  "stage": "surface-refinement",
+  "input": "assets/warlord/warlord.blend",
+  "output": "assets/warlord-premium/surface.blend",
+  "rigBones": 70,
+  "actions": 13,
+  "materials": {
+    "ArmorDark": {
+      "ArmorDark_Albedo.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 16,
+        "max": 30,
+        "meanRGB": [
+          16.99,
+          22.39,
+          28.9
+        ]
+      },
+      "ArmorDark_Normal.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 3,
+        "max": 255,
+        "meanRGB": [
+          127.5,
+          127.5,
+          227.82
+        ]
+      },
+      "ArmorDark_ORM.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 81,
+        "max": 255,
+        "meanRGB": [
+          255,
+          97.15,
+          224
+        ]
+      }
+    },
+    "ArmorIron": {
+      "ArmorIron_Albedo.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 49,
+        "max": 78,
+        "meanRGB": [
+          51.01,
+          63.76,
+          73.97
+        ]
+      },
+      "ArmorIron_Normal.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 3,
+        "max": 255,
+        "meanRGB": [
+          127.5,
+          127.5,
+          227.82
+        ]
+      },
+      "ArmorIron_ORM.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 76,
+        "max": 255,
+        "meanRGB": [
+          255,
+          92.05,
+          232
+        ]
+      }
+    },
+    "ArmorGold": {
+      "ArmorGold_Albedo.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 47,
+        "max": 166,
+        "meanRGB": [
+          158.13,
+          109.67,
+          48.46
+        ]
+      },
+      "ArmorGold_Normal.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 3,
+        "max": 255,
+        "meanRGB": [
+          127.5,
+          127.5,
+          227.82
+        ]
+      },
+      "ArmorGold_ORM.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 87,
+        "max": 255,
+        "meanRGB": [
+          255,
+          102.25,
+          222
+        ]
+      }
+    },
+    "ArmorGoldEdge": {
+      "ArmorGoldEdge_Albedo.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 69,
+        "max": 215,
+        "meanRGB": [
+          204.05,
+          150.48,
+          71.42
+        ]
+      },
+      "ArmorGoldEdge_Normal.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 3,
+        "max": 255,
+        "meanRGB": [
+          127.5,
+          127.5,
+          227.82
+        ]
+      },
+      "ArmorGoldEdge_ORM.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 71,
+        "max": 255,
+        "meanRGB": [
+          255,
+          86.95,
+          230
+        ]
+      }
+    },
+    "Blade": {
+      "Blade_Albedo.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 118,
+        "max": 174,
+        "meanRGB": [
+          122.43,
+          147.93,
+          165.79
+        ]
+      },
+      "Blade_Normal.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 9,
+        "max": 255,
+        "meanRGB": [
+          127.5,
+          127.5,
+          244.85
+        ]
+      },
+      "Blade_ORM.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 48,
+        "max": 255,
+        "meanRGB": [
+          255,
+          64,
+          250
+        ]
+      }
+    },
+    "BladeEdge": {
+      "BladeEdge_Albedo.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 204,
+        "max": 244,
+        "meanRGB": [
+          211.7,
+          221.9,
+          232.1
+        ]
+      },
+      "BladeEdge_Normal.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 27,
+        "max": 255,
+        "meanRGB": [
+          127.5,
+          127.5,
+          252.02
+        ]
+      },
+      "BladeEdge_ORM.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 36,
+        "max": 255,
+        "meanRGB": [
+          255,
+          51.25,
+          250
+        ]
+      }
+    },
+    "ClothRed": {
+      "ClothRed_Albedo.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 2,
+        "max": 58,
+        "meanRGB": [
+          56.05,
+          2,
+          5.91
+        ]
+      },
+      "ClothRed_Normal.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 9,
+        "max": 255,
+        "meanRGB": [
+          127.5,
+          127.5,
+          244.85
+        ]
+      },
+      "ClothRed_ORM.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 0,
+        "max": 255,
+        "meanRGB": [
+          255,
+          163.45,
+          0
+        ]
+      }
+    },
+    "ClothRedTrim": {
+      "ClothRedTrim_Albedo.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 5,
+        "max": 106,
+        "meanRGB": [
+          102,
+          5.91,
+          10.23
+        ]
+      },
+      "ClothRedTrim_Normal.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 9,
+        "max": 255,
+        "meanRGB": [
+          127.5,
+          127.5,
+          244.85
+        ]
+      },
+      "ClothRedTrim_ORM.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 0,
+        "max": 255,
+        "meanRGB": [
+          255,
+          153.25,
+          0
+        ]
+      }
+    },
+    "UnderArmor": {
+      "UnderArmor_Albedo.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 6,
+        "max": 8,
+        "meanRGB": [
+          6,
+          6.09,
+          8
+        ]
+      },
+      "UnderArmor_Normal.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 5,
+        "max": 255,
+        "meanRGB": [
+          127.5,
+          127.5,
+          239.18
+        ]
+      },
+      "UnderArmor_ORM.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 13,
+        "max": 255,
+        "meanRGB": [
+          255,
+          173.65,
+          13
+        ]
+      }
+    },
+    "HeroSkin": {
+      "HeroSkin_Albedo.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 27,
+        "max": 144,
+        "meanRGB": [
+          134.97,
+          77.02,
+          54.66
+        ]
+      },
+      "HeroSkin_Normal.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 55,
+        "max": 255,
+        "meanRGB": [
+          127.5,
+          127.5,
+          253.56
+        ]
+      },
+      "HeroSkin_Roughness.png": {
+        "size": [
+          1024,
+          1024
+        ],
+        "min": 102,
+        "max": 135,
+        "meanRGB": [
+          119.64,
+          119.64,
+          119.64
+        ]
+      }
+    }
+  },
+  "notes": [
+    "Image maps carry PBR detail into glTF; no Blender-only procedural noise is required.",
+    "Color space is set before writing generated-image pixels; data maps are nonblack.",
+    "Cape and motion are replaced by the separate cloth-motion stage."
+  ]
+}

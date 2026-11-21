@@ -1,0 +1,325 @@
+{
+  "status": "passed",
+  "scope": "Real exported PBR image maps and animated cloth/plume, preserving the existing meter-scale body, skeleton, attachment, timing and root-motion checks. Does not certify visual quality or GPU performance.",
+  "sha256": "1f3fc19564ebfd7bf1ae8e9c27ed9f3e041c55bfde18f1c43f35e4bab2ea7838",
+  "bytes": 19074680,
+  "bones": 100,
+  "triangles": 266728,
+  "measuredBodyHeight": 2.04712,
+  "actions": 13,
+  "materials": [
+    {
+      "name": "ArmorDark",
+      "primitives": 2,
+      "uvMappedPrimitives": 2,
+      "baseColor": {
+        "texture": 3,
+        "image": 3,
+        "width": 1024,
+        "height": 1024,
+        "bytes": 31456
+      },
+      "normal": {
+        "texture": 1,
+        "image": 0,
+        "width": 512,
+        "height": 512,
+        "bytes": 710273
+      },
+      "metallicRoughness": {
+        "texture": 4,
+        "image": 4,
+        "width": 512,
+        "height": 512,
+        "bytes": 146949
+      }
+    },
+    {
+      "name": "ArmorGold",
+      "primitives": 3,
+      "uvMappedPrimitives": 3,
+      "baseColor": {
+        "texture": 0,
+        "image": 1,
+        "width": 1024,
+        "height": 1024,
+        "bytes": 81154
+      },
+      "normal": {
+        "texture": 1,
+        "image": 0,
+        "width": 512,
+        "height": 512,
+        "bytes": 710273
+      },
+      "metallicRoughness": {
+        "texture": 2,
+        "image": 2,
+        "width": 512,
+        "height": 512,
+        "bytes": 146905
+      }
+    },
+    {
+      "name": "Blade",
+      "primitives": 1,
+      "uvMappedPrimitives": 1,
+      "baseColor": {
+        "texture": 20,
+        "image": 20,
+        "width": 1024,
+        "height": 1024,
+        "bytes": 80611
+      },
+      "normal": {
+        "texture": 11,
+        "image": 10,
+        "width": 512,
+        "height": 512,
+        "bytes": 633122
+      },
+      "metallicRoughness": {
+        "texture": 21,
+        "image": 21,
+        "width": 512,
+        "height": 512,
+        "bytes": 146734
+      }
+    },
+    {
+      "name": "ClothRed",
+      "primitives": 2,
+      "uvMappedPrimitives": 2,
+      "baseColor": {
+        "texture": 15,
+        "image": 15,
+        "width": 1024,
+        "height": 1024,
+        "bytes": 6572
+      },
+      "normal": {
+        "texture": 11,
+        "image": 10,
+        "width": 512,
+        "height": 512,
+        "bytes": 633122
+      },
+      "metallicRoughness": {
+        "texture": 16,
+        "image": 16,
+        "width": 512,
+        "height": 512,
+        "bytes": 146350
+      }
+    },
+    {
+      "name": "HeroSkin",
+      "primitives": 2,
+      "uvMappedPrimitives": 2,
+      "baseColor": {
+        "texture": 17,
+        "image": 18,
+        "width": 1024,
+        "height": 1024,
+        "bytes": 69412
+      },
+      "normal": {
+        "texture": 18,
+        "image": 17,
+        "width": 512,
+        "height": 512,
+        "bytes": 450978
+      },
+      "metallicRoughness": {
+        "texture": 19,
+        "image": 19,
+        "width": 512,
+        "height": 512,
+        "bytes": 129580
+      }
+    }
+  ],
+  "secondaryMotion": {
+    "bones": {
+      "cape": [
+        "Mantle_0_3",
+        "Mantle_0_2",
+        "Mantle_0_1",
+        "Mantle_0_0",
+        "Mantle_1_3",
+        "Mantle_1_2",
+        "Mantle_1_1",
+        "Mantle_1_0",
+        "Mantle_2_3",
+        "Mantle_2_2",
+        "Mantle_2_1",
+        "Mantle_2_0",
+        "Mantle_3_3",
+        "Mantle_3_2",
+        "Mantle_3_1",
+        "Mantle_3_0",
+        "Mantle_4_3",
+        "Mantle_4_2",
+        "Mantle_4_1",
+        "Mantle_4_0"
+      ],
+      "plume": [
+        "SilkCrest_-1_4",
+        "SilkCrest_-1_3",
+        "SilkCrest_-1_2",
+        "SilkCrest_-1_1",
+        "SilkCrest_-1_0",
+        "SilkCrest_1_4",
+        "SilkCrest_1_3",
+        "SilkCrest_1_2",
+        "SilkCrest_1_1",
+        "SilkCrest_1_0"
+      ]
+    },
+    "clips": [
+      {
+        "name": "Attack1",
+        "cape": {
+          "movingBones": 20,
+          "maximumVariation": 1.21512
+        },
+        "plume": {
+          "movingBones": 10,
+          "maximumVariation": 0.08317
+        }
+      },
+      {
+        "name": "Attack2",
+        "cape": {
+          "movingBones": 20,
+          "maximumVariation": 1.71451
+        },
+        "plume": {
+          "movingBones": 10,
+          "maximumVariation": 0.08848
+        }
+      },
+      {
+        "name": "Attack3",
+        "cape": {
+          "movingBones": 20,
+          "maximumVariation": 0.64031
+        },
+        "plume": {
+          "movingBones": 10,
+          "maximumVariation": 1.14037
+        }
+      },
+      {
+        "name": "Death",
+        "cape": {
+          "movingBones": 20,
+          "maximumVariation": 1.18519
+        },
+        "plume": {
+          "movingBones": 10,
+          "maximumVariation": 0.08316
+        }
+      },
+      {
+        "name": "Dodge",
+        "cape": {
+          "movingBones": 20,
+          "maximumVariation": 1.41192
+        },
+        "plume": {
+          "movingBones": 10,
+          "maximumVariation": 0.24717
+        }
+      },
+      {
+        "name": "Guard",
+        "cape": {
+          "movingBones": 20,
+          "maximumVariation": 0.68151
+        },
+        "plume": {
+          "movingBones": 10,
+          "maximumVariation": 0.08315
+        }
+      },
+      {
+        "name": "Hit",
+        "cape": {
+          "movingBones": 20,
+          "maximumVariation": 0.3976
+        },
+        "plume": {
+          "movingBones": 10,
+          "maximumVariation": 0.07052
+        }
+      },
+      {
+        "name": "Idle",
+        "cape": {
+          "movingBones": 20,
+          "maximumVariation": 0.05097
+        },
+        "plume": {
+          "movingBones": 10,
+          "maximumVariation": 0.08272
+        }
+      },
+      {
+        "name": "LeapSlam",
+        "cape": {
+          "movingBones": 20,
+          "maximumVariation": 0.40498
+        },
+        "plume": {
+          "movingBones": 10,
+          "maximumVariation": 0.72138
+        }
+      },
+      {
+        "name": "Run",
+        "cape": {
+          "movingBones": 20,
+          "maximumVariation": 0.89991
+        },
+        "plume": {
+          "movingBones": 10,
+          "maximumVariation": 0.12367
+        }
+      },
+      {
+        "name": "Sweep",
+        "cape": {
+          "movingBones": 20,
+          "maximumVariation": 1.53952
+        },
+        "plume": {
+          "movingBones": 10,
+          "maximumVariation": 0.08317
+        }
+      },
+      {
+        "name": "Victory",
+        "cape": {
+          "movingBones": 20,
+          "maximumVariation": 0.06548
+        },
+        "plume": {
+          "movingBones": 10,
+          "maximumVariation": 0.08317
+        }
+      },
+      {
+        "name": "Walk",
+        "cape": {
+          "movingBones": 20,
+          "maximumVariation": 0.21015
+        },
+        "plume": {
+          "movingBones": 10,
+          "maximumVariation": 0.09059
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "status": "verified-with-stated-limits",
+  "revision": 5,
+  "assetSha256": "1f3fc19564ebfd7bf1ae8e9c27ed9f3e041c55bfde18f1c43f35e4bab2ea7838",
+  "checks": {
+    "web": 56,
+    "nativeGameplay": 43,
+    "nativeSkeleton": 16,
+    "authoredMotionFrames": 1300,
+    "clips": 13,
+    "bones": 100,
+    "preservedAnimationChannels": 3900,
+    "freshBlenderImport": true,
+    "freshGodotSourcekitImport": true
+  },
+  "media": "warlord-v5-media.json",
+  "benchmark": "warlord-benchmark-v5.json",
+  "limits": [
+    "Original stylized independent-game hero; does not equal the commercial Lü Bu asset",
+    "No native GPU display-context acceptance",
+    "No physical phone acceptance",
+    "Authored frame collision checks and runtime capsules do not guarantee all blended poses",
+    "Measured FPS varies; no stable 60 FPS claim"
+  ],
+  "files": [
+    {
+      "path": "src/warlord-game.js",
+      "bytes": 36209,
+      "sha256": "31e388277e9d1dc945f1f9893f1d9e89196a370f901c6f14f7c0bd66208b9530"
+    },
+    {
+      "path": "src/warlord-secondary.js",
+      "bytes": 13447,
+      "sha256": "fed0a3c66e5595a63fc2bb3f8083fd93df19cdfdb25aa9b66fcc0fa0a71dbf47"
+    },
+    {
+      "path": "src/warlord-lod.js",
+      "bytes": 1522,
+      "sha256": "a6f083e438dddfad81c923665e23f190068f83bf445c611630ca91797fb06ee0"
+    },
+    {
+      "path": "src/warlord-demo.js",
+      "bytes": 1818,
+      "sha256": "e94b756233c64df80fed92b2d2919608d7c6f7497ec1b0e49b1df66430a2d4cc"
+    },
+    {
+      "path": "src/warlord-recorder.js",
+      "bytes": 4967,
+      "sha256": "c1b7ff5429755b96d934f940bdcc0963abc432ace332d0ed58e190d8998d5820"
+    },
+    {
+      "path": "src/warlord-fx.js",
+      "bytes": 22347,
+      "sha256": "e8bfcd8849d74ed9919e7f55e429adc6000fdc2f9d4068c72c5bfec1c25bdb34"
+    },
+    {
+      "path": "scripts/serve.mjs",
+      "bytes": 7600,
+      "sha256": "94091f62d60fa3be707e6bca043f1e47afd09c919de2ed21f1e2713c71cae7bc"
+    },
+    {
+      "path": "assets/warlord/warlord.glb",
+      "bytes": 19074680,
+      "sha256": "1f3fc19564ebfd7bf1ae8e9c27ed9f3e041c55bfde18f1c43f35e4bab2ea7838"
+    },
+    {
+      "path": "assets/warlord/warlord.blend",
+      "bytes": 75035038,
+      "sha256": "a0e383ed9519a5863924b2e9606d75c998dffb450f1dd90f4da23d7610753020"
+    },
+    {
+      "path": "assets/warlord/metadata.json",
+      "bytes": 3911,
+      "sha256": "05b7412ecfa3bee0cdf40e473ecf964e11cf421336805f421eebb776b67e740b"
+    },
+    {
+      "path": "assets/warlord/warlord-lod1.glb",
+      "bytes": 6327224,
+      "sha256": "04898256bca0d49eac3a6e909f286394baf502bdafe5d6892e9f78584b48bbde"
+    },
+    {
+      "path": "assets/warlord/warlord-lod2.glb",
+      "bytes": 4000224,
+      "sha256": "32a0098ea267376f1092b4876480dd9863e54cacc9a23a168e8c14fc8f9b967e"
+    },
+    {
+      "path": "docs/chixiao-v5-combat.mp4",
+      "bytes": 4065637,
+      "sha256": "ef3698ccf0f936672b1494db687c5a3c5a79b8f720bbb4957a85701ba9a58d22"
+    },
+    {
+      "path": "docs/warlord-v5-portrait.png",
+      "bytes": 91177,
+      "sha256": "f01f2960d1e4c25d393236d2a3f0ff41b15f7594cf140e0aca3ed4da69bc6de6"
+    },
+    {
+      "path": "docs/warlord-v5-combat.png",
+      "bytes": 102627,
+      "sha256": "d7b423ffc2d7a115025b006e6f7df5cd6336f0479373b25021fa2f119083d379"
+    },
+    {
+      "path": "docs/warlord-v5-narrow.png",
+      "bytes": 36465,
+      "sha256": "28933abe1b66615eb6edb4c4651db61486ef8190d8de68ce028bc8cefda0280c"
+    }
+  ]
+}

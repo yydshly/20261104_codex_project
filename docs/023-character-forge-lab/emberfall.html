@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#111913">
+  <meta name="description" content="遗迹试炼：用专业游戏角色制作的第三人称动作关卡。移动、三连击、闪避、格挡，击破三座水晶。包含可编辑资产与 Godot 工程。">
+  <title>EMBERFALL · 遗迹试炼</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23111913'/%3E%3Cpath d='M32 8L49 30L32 56L15 30Z' fill='none' stroke='%23dfbc76' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="src/game.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three/three.module.js","three/addons/":"./vendor/three/addons/"}}</script>
+  <script type="module" src="src/game.js"></script>
+</head>
+<body>
+  <a class="skip" href="#game">跳到游戏</a>
+  <header class="masthead"><a class="wordmark" href="#game"><span class="sigil" aria-hidden="true">◈</span><span>EMBERFALL<small>遗迹试炼</small></span></a><nav aria-label="项目导航"><a href="study.html">原帖与制作原理 ↗</a><a href="#delivery">资产与引擎交付 ↓</a></nav><span class="edition">PLAYABLE STUDY <i>/</i> 02</span></header>
+  <main>
+    <section id="game" class="game-shell" aria-label="遗迹试炼第三人称动作游戏">
+      <canvas id="game-canvas" tabindex="0" aria-label="游戏画面。WASD移动，Shift奔跑，J攻击，空格闪避，F格挡，鼠标右键拖动视角，Esc暂停。"></canvas>
+      <div class="scene-vignette" aria-hidden="true"></div><div id="hurt-flash" class="hurt-flash" aria-hidden="true"></div><div id="target-labels" class="target-labels" aria-hidden="true"></div><div id="floaters" class="floaters" aria-hidden="true"></div>
+      <div class="world-caption"><span class="world-dot"></span><span>THE FORGOTTEN SANCTUARY</span><b>暮林圣所</b></div>
+      <div class="game-tools"><button id="sound-button" aria-label="关闭游戏音效" title="游戏音效">音效 <span>开</span></button><button id="pause-button" aria-label="暂停游戏" disabled>Ⅱ</button><button id="fullscreen-button" aria-label="全屏游戏" title="全屏">⛶</button></div>
+      <div id="hud" class="hud" hidden>
+        <div class="hero-hud"><div class="hero-crest" aria-hidden="true">♜</div><div class="hero-vitals"><div class="hero-name">THE WARDEN <span>守林骑士</span></div><div class="health-track"><div id="health-fill"></div></div><div class="stamina-track"><div id="stamina-fill"></div></div><div class="vitals-text"><span>生命 <b id="health-value">100</b></span><span>体力 <b id="stamina-value">100</b></span><span id="animation-name">待机</span></div></div></div>
+        <div class="mission"><span class="mission-label">当前目标</span><p>击破三座回响水晶</p><div class="rune-progress"><i data-rune="0">Ⅰ</i><i data-rune="1">Ⅱ</i><i data-rune="2">Ⅲ</i><span id="mission-count">0 / 3</span></div><time id="mission-time">00:00.0</time></div>
+        <div id="danger-hint" class="danger-hint" hidden><span>◈</span> 冲击将至 <small>空格闪避 / F 格挡</small></div>
+        <div class="game-bottom"><div><span id="mode-label">自由操作</span><p id="game-message" role="status">靠近水晶，按 J 或点击画面攻击。</p></div><div class="combo-hud"><b id="combo-value">01</b><span>SWORD CHAIN<small>剑术连击</small></span></div></div>
+        <div id="touch-controls" class="touch-controls"><div class="touch-pad" aria-label="移动控制"><button data-move="up" aria-label="向前移动">↑</button><button data-move="left" aria-label="向左移动">←</button><button data-move="down" aria-label="向后移动">↓</button><button data-move="right" aria-label="向右移动">→</button></div><div class="touch-actions"><button id="touch-dodge" aria-label="闪避">闪避</button><button id="touch-attack" aria-label="挥剑攻击">挥剑</button></div></div>
+      </div>
+      <div id="intro" class="intro-panel"><p class="overline"><span></span> A THIRD-PERSON COMBAT TRIAL</p><h1>遗迹<span>试炼</span><small>EMBERFALL</small></h1><p class="intro-copy">踏入暮林，唤醒沉睡的圣所。<br>用剑术击破三座水晶，在它们的回响中闪避。</p><div class="intro-actions"><button id="start-button" class="gold-button" disabled>正在载入 <span>↗</span></button><button id="autoplay-button" class="watch-button" disabled><span>▷</span> 观看完整试炼</button></div><p id="loading-state" class="loading-state" role="status">正在准备角色、贴图与动作…</p></div>
+      <div class="intro-side" id="intro-side"><span>REAL GAME ASSET</span><p>专业角色 · 16 段动作<br>本地运行 · 可编辑工程</p><a href="#delivery">查看交付内容 ↓</a></div>
+      <div id="overlay" class="overlay" hidden><div class="result-panel"><p id="result-eyebrow" class="overline">TRIAL COMPLETE</p><span id="result-mark" class="result-mark" aria-hidden="true">◈</span><h2 id="result-title">圣所已苏醒</h2><p id="result-copy">三座水晶的回响渐渐平息。</p><div id="result-stats" class="result-stats"></div><div class="result-actions"><button id="resume-button" class="gold-button" hidden>继续试炼 ↗</button><button id="restart-button" class="gold-button">再试一次 <span>↺</span></button><button id="back-button" class="quiet-button">回到开始</button></div></div></div>
+      <div id="load-error" class="load-error" hidden><h2>游戏资源未能载入</h2><p id="load-error-text"></p><button onclick="location.reload()" class="gold-button">重新载入 ↻</button></div>
+    </section>
+    <div class="control-bar"><span class="control-caption">操作方式</span><span><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> 移动</span><span><kbd>Shift</kbd> 奔跑</span><span><kbd>J</kbd> / 左键 连击</span><span><kbd>Space</kbd> 闪避</span><span><kbd>F</kbd> 格挡</span><span>右键拖动 视角</span><span><kbd>R</kbd> 重试</span></div>
+    <section id="delivery" class="delivery-section"><div class="section-heading"><div><p class="overline">FROM ASSET TO PLAYABLE</p><h2>这次，交付一个能玩的结果。</h2></div><p>角色动作进入实际控制器，攻击连接命中与伤害，闪避连接位移与无敌帧。浏览器里直接体验，也可以拿走原生工程继续开发。</p></div><div class="delivery-grid">
+      <article><span class="card-number">01 / CHARACTER</span><h3>可商用的角色与动作</h3><p>KayKit 官方 CC0 骑士，内嵌贴图，剑盾挂接已整理。统一比例与动作名，保留模型许可和来源。</p><div class="asset-facts"><span><b id="asset-bones">41</b> 骨骼</span><span><b id="asset-clips">16</b> 动作</span><span><b id="asset-triangles">5,274</b> 三角面</span></div><a href="assets/game/hero.glb" download>角色 GLB <span>↓</span></a><a href="assets/game/hero.fbx" download>FBX <span>↓</span></a><a href="assets/game/hero.blend" download>可编辑工作文件 <span>↓</span></a></article>
+      <article><span class="card-number">02 / GAMEPLAY</span><h3>动作确实改变游戏</h3><p>三连击、攻击范围、目标生命、格挡减伤、闪避无敌帧与体力恢复。水晶有预警和反击，击破全部目标才能完成试炼。</p><ul><li>动作混合与游戏状态同步</li><li>命中火花、剑光、音效与短暂停顿</li><li>触屏控制与完整试炼自动演示</li></ul><a href="docs/gameplay.md" target="_blank">控制器与验证记录 <span>↗</span></a></article>
+      <article><span class="card-number">03 / ENGINE</span><h3>带走整个工程</h3><p>提供 Godot 原生项目、角色资源和来源许可。浏览器版本使用同一份角色 GLB，项目不依赖付费生成服务或账号。</p><a class="download-kit" href="deliverables/emberfall-game-ready-kit.zip" download>下载完整游戏包 <span>↓</span></a><a href="docs/engine-handoff.md" target="_blank">Godot 启动与验收 <span>↗</span></a><span id="engine-status" class="engine-status">原生工程验证记录随交付包提供</span></article>
+    </div><div class="credit-line"><span>CHARACTER & BASE ANIMATIONS</span><p><a href="https://kaylousberg.itch.io/kaykit-adventurers" target="_blank" rel="noopener noreferrer">Kay Lousberg / KayKit</a> · CC0。Codex 完成资产整理、控制器、场景和交互集成。本次未调用 Tripo 或 Seedance。</p><a href="docs/asset-provenance.md" target="_blank">完整来源 ↗</a></div></section>
+  </main>
+  <footer><a class="footer-brand" href="#game">EMBERFALL <span>遗迹试炼</span></a><p>角色工坊 / GAMEPLAY STUDY 02</p><a href="study.html">回看原帖与技术拆解 ↗</a></footer>
+</body>
+</html>

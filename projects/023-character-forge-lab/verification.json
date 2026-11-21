@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-11-21",
+  "command": "npm run verify (docs/023-character-forge-lab)",
+  "status": "passed",
+  "publishedFiles": 234,
+  "htmlPages": 6,
+  "staticReferences": 193,
+  "logicAndSecondaryMotionTests": {"passed": 64, "failed": 0},
+  "promptRecipes": 13,
+  "historicalExcerpts": 8,
+  "sources": 12,
+  "originalGuideUnchanged": true,
+  "guideSha256": "3233230c348cd00cfbded0b82eb4af09a90a5ce2426701878a2e2a4c36cb344d",
+  "runtimeAndNativeAssetIdentity": "verified",
+  "historicalCombatEvidenceDate": "2026-11-12",
+  "scope": "New publication integrity and logic checks. Saved combat/performance/native-import evidence retains original dates. No new commercial-art-quality, native-GPU or physical-phone acceptance is claimed."
+}

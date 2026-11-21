@@ -1,0 +1,26 @@
+{
+  "name": "character-forge-lab",
+  "version": "5.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "verify": "node scripts/verify-warlord.mjs --skip-package && node scripts/verify-warlord-finish.mjs && node scripts/verify-warlord-lod.mjs && node scripts/verify-research.mjs",
+    "verify:delivery": "node scripts/verify-warlord.mjs --require-package && node scripts/verify-warlord-finish.mjs && node scripts/verify-warlord-lod.mjs && node scripts/verify-research.mjs",
+    "verify:emberfall": "node --test tests/game-logic.test.mjs && node scripts/verify-game.mjs",
+    "verify:prototype": "node scripts/verify-assets.mjs",
+    "package": "node scripts/package-warlord.mjs",
+    "package:emberfall": "node scripts/package-game.mjs",
+    "build": "node scripts/build.mjs",
+    "optimize:warlord": "node scripts/optimize-warlord.mjs",
+    "research:prompts": "node scripts/export-research-prompts.mjs",
+    "verify:research": "node scripts/verify-research.mjs"
+  },
+  "devDependencies": {
+    "@gltf-transform/core": "^4.5.1",
+    "@gltf-transform/extensions": "^4.5.1",
+    "@gltf-transform/functions": "^4.5.1",
+    "meshoptimizer": "^1.3.0",
+    "sharp": "^0.35.5"
+  }
+}

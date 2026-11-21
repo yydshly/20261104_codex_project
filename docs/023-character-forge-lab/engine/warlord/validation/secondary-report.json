@@ -1,0 +1,116 @@
+{
+  "asset_sha256": "1f3fc19564ebfd7bf1ae8e9c27ed9f3e041c55bfde18f1c43f35e4bab2ea7838",
+  "checks": [
+    {
+      "check": "Capsule interior is projected to its real radial boundary",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Capsule surface remains unchanged",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Zero capsule axis and fallback produce a finite sphere projection",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Locomotion foot phase follows authored clip seconds",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "R feet release at takeoff and stay free through the 0.92-second landing boundary",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Actual Skeleton3D ankles remain world-locked through controller motion and turns",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Heavy 42cm advance physically raises the leading ankle",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Leading ankle replants at the advanced world location",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "grounded:false never pulls an airborne actor back to the floor",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Airborne action releases both anchors",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Actual cloth bone is moved outside body capsules",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Repeated reset does not grow the rig or accumulate foot error",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "SkeletonModifier3D executes post-animation and restores authored poses without drift",
+      "detail": 30,
+      "passed": true
+    },
+    {
+      "check": "Playable native hero actually runs the post-mixer modifier with all thirty cloth bones",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Imported character's actual ankles reach their world anchors",
+      "detail": {
+        "l": {
+          "error": 2.08616256713867e-7,
+          "position": "(-0.277595, 0.097454, 4.055717)",
+          "replanted": false,
+          "target": "(-0.277594, 0.097454, 4.055717)",
+          "weight": 1
+        },
+        "r": {
+          "error": 1.37381917397761e-7,
+          "position": "(0.38109, 0.097453, 4.205673)",
+          "replanted": false,
+          "target": "(0.38109, 0.097454, 4.205673)",
+          "weight": 1
+        }
+      },
+      "passed": true
+    },
+    {
+      "check": "Native gait clock, travel rate and actual moving stance anchors agree",
+      "detail": {
+        "clip": "Run",
+        "doubleSpeedSample": 0.25,
+        "movingFootError": 8.75118189469504e-7,
+        "stanceSamples": 15,
+        "travelMatchedRate": 0.94247567653656
+      },
+      "passed": true
+    }
+  ],
+  "engine": "4.5.2-stable (official)",
+  "failed": 0,
+  "passed": 16,
+  "scope": "Actual Godot Skeleton3D/Modifier stack and runtime hook; no GPU image or native visual acceptance implied.",
+  "source_sha256": {
+    "combatant.gd": "8189d2f23bdeb819115330051ded6407495547fced3ea5b56a7fc0150df5262b",
+    "secondary_constraints.gd": "a0b3b95dfd488dd63021fec6c4c145777f390a8529461466c905e1a0dbd7de29",
+    "secondary_smoke_test.gd": "5d0e5cace4cfdd4bba119b8e00a3cd078353ddb00a663639828c6b24e4f0fcab"
+  },
+  "status": "passed"
+}

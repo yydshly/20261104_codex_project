@@ -1,0 +1,18 @@
+import fs from 'node:fs/promises';
+import {fileURLToPath} from 'node:url';
+const root=fileURLToPath(new URL('../..',import.meta.url));
+const base='https://yydshly.github.io/20261104_codex_project/023-character-forge-lab/';
+const summary='制作原创重戟战士赤霄、13段动作与Three.js／Godot战斗原型，公开13.9秒实录、提示词和实现记录。研究人物资产与游戏系统的独立制作和验收，复用接入流程；现有美术仍未达到商业英雄水准，三条素材升级路线待验证。';
+let readme=await fs.readFile(root+'/README.md','utf8');
+const row=`| 023 | [角色素材与游戏质感研究](projects/023-character-forge-lab/README.md) | [Lucca Cerf原帖](https://x.com/luccacerf/status/2120305718939021566) · [Quaternius](https://quaternius.com/packs/universalbasecharacters.html) | ${summary} | [已有研究引导图](#character-forge-guide) | [在线研究与实际战斗](${base}) |`;
+readme=readme.replace(/^\| 023 \|.*\r?\n/gm,'');
+readme=readme.replace(/(^\| 022 \|.*)$/m,`$1\n${row}`);
+readme=readme.replace(/\n<a id="character-forge-guide"><\/a>[\s\S]*?(?=\n<a id="|$)/,'').trimEnd();
+readme+=`\n\n<a id="character-forge-guide"></a>\n\n### 023 · 角色素材与游戏质感研究\n\n${summary}\n\n![沿用已生成的角色素材与游戏质感引导图：实际效果参考、能力、价值、制作流程与待研究方向](docs/023-character-forge-lab/docs/character-research-overview.png)\n\n**实现**：以CC0成年人体与动作为基础，制作原创装备和重戟，接入移动、连段、横扫、护盾、跳劈与三名动态守卫。**效果**：能观看真实战斗，也能亲自操作；脸部、盔甲与动作仍有明显商业美术差距。**价值**：留下可编辑资产、可复用玩法、提示词与证据，便于在同一场景比较素材路线。\n\n我们的理解是，代码、更多面数和PBR贴图不能自动带来优秀角色。下一轮先做一个人物、一次跑步和一次无特效重击，分别比较成熟授权资产改制、AI候选加专业后期与完整原创制作；三条路线尚未执行。\n\n引导图沿用2026-11-21生成的原图，实际效果与历史检查保留2026-11-12日期。[在线研究](${base}) · [亲自操作](${base}play.html) · [提示词](${base}#prompts) · [完整研究摘要](projects/023-character-forge-lab/README.md)\n`;
+await fs.writeFile(root+'/README.md',readme.replace(/\r\n?/g,'\n'));
+let html=await fs.readFile(root+'/docs/index.html','utf8');
+html=html.replace(/<tr><td>023<\/td>[\s\S]*?<\/tr>\r?\n?/,'');
+html=html.replace('</tbody>',`<tr><td>023</td><td><a href="023-character-forge-lab/">角色素材与游戏质感</a></td><td>${summary}</td><td><a href="023-character-forge-lab/">进入 ↗</a></td></tr>\n</tbody>`);
+html=html.replace(/\s*<article id="character-forge-overview">[\s\S]*?<\/article>/,'');
+html=html.replace('  </body>',`    <article id="character-forge-overview"><a class="cover" href="023-character-forge-lab/"><img src="023-character-forge-lab/docs/character-research-overview.png" width="1672" height="941" loading="lazy" alt="本轮原有引导图：赤霄真实效果参考、已验证能力、价值、制作流程与待研究素材路线"></a><div><span class="number">023 / 角色素材与游戏质感研究</span><h2>能战斗之后，角色为何仍然显得假？</h2><p>${summary}</p><p>已实现原创建模加工、13动作和动态守卫实战。价值是把可编辑资产、玩法接入、提示词与验证连起来；下一步专门研究脸部、甲片、材质和发力，先让一个人物与一次重击成立。引导图沿用原图，三条升级路线为待研究方案。</p><p class="links"><a href="023-character-forge-lab/">实现、效果与价值</a><a href="023-character-forge-lab/#effects">真实战斗录像</a><a href="023-character-forge-lab/play.html">亲自操作</a><a href="023-character-forge-lab/#prompts">提示词工作台</a><a href="023-character-forge-lab/#next">扩展方向</a></p></div></article>\n  </body>`);
+await fs.writeFile(root+'/docs/index.html',html.replace(/\r\n?/g,'\n'));

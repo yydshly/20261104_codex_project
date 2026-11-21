@@ -1,0 +1,79 @@
+Use case: infographic-diagram / research summary poster.
+Create ONE polished, highly readable Chinese research overview image, landscape 16:9, ideally 3840x2160. It summarizes a real project, not a future game advertisement.
+
+INPUT IMAGES:
+Image 1 is an actual browser screenshot of the current CHIXIAO hero face and armor. Image 2 is a frame from the actual battle recording, with enemies airborne.
+Use these as documentary inset images in the poster. Crop the screenshot UI only as needed for framing; preserve the existing character face, geometric armor, colors, halberd, cape, enemy poses and actual arena appearance. Do not beautify or redesign the hero, do not add cinematic detail or new effects. These images show an imperfect technical prototype, not a finished commercial champion.
+
+ART DIRECTION:
+Refined editorial research atlas, warm ivory paper, dark blue-gray ink, muted brass gold, small muted red accents. Sharp readable Simplified Chinese typography, generous margins, subtle rules, consistent column grid, minimal line icons. Modern explanatory infographic, calm and credible. Flat view of the complete poster, not a photograph of a poster, no frame/mockup, no watermark. Avoid neon/cyberpunk, decorative smoke, glowing charts and tiny dense paragraphs.
+
+LAYOUT:
+Top: concise title + subtitle.
+Middle left ~44%: a large face/armor documentary inset from Image 1, and a second battle inset from Image 2. Keep enough of each screenshot for the actual result to be recognizable.
+Middle right ~56%: three clearly separated compact blocks for verified capabilities, practical value, and future research. A small status label must distinguish verified capability from future research.
+Lower band: one prominent core insight, followed by a simple five-step workflow with arrows.
+Footer: research outputs and clear quality/validation boundaries. All text must be clean, correctly spelled, large enough to read. Use only the exact supplied text; do not invent extra claims or metrics.
+
+EXACT TEXT TO RENDER:
+
+Title:
+“角色素材 × 游戏质感”
+Subtitle:
+“从赤霄实战，到人物资产专项研究”
+
+Small project path under title:
+“原帖观察 → 本机原型 → 赤霄实战 → 品质差距 → 素材研究”
+
+Left inset labels:
+“实际效果 · 赤霄 V5”
+“脸部与盔甲近景”
+“重戟战斗：横扫 / 护盾 / 跳劈”
+Left result strip:
+“13 段动作 · 100 骨骼 · 13.9 秒实录”
+
+Right block 1 heading:
+“能力”
+Status:
+“已验证”
+Lines:
+“Codex 编排 · Blender 制作”
+“角色装配、绑定与动作”
+“Web / Godot 战斗接入”
+“脚锁、布料避让、LOD与验证”
+
+Right block 2 heading:
+“价值”
+Lines:
+“留下可编辑模型与动作”
+“复用战斗框架与验收方法”
+“定位问题，形成具体返修”
+“用实际结果评估工具能力”
+
+Right block 3 heading:
+“可扩展方向”
+Status:
+“待研究”
+Lines:
+“成熟资产改制”
+“AI 生成后精修”
+“完整原创角色制作”
+“重点：脸部、盔甲贴图、重武器发力”
+
+Core insight, large and prominent:
+“人物资产与游戏系统，需要分别做好。”
+Supporting insight:
+“能动 ≠ 好看 · 技术通过 ≠ 商业美术达标”
+
+Five workflow steps:
+“角色设定” → “素材获取” → “形体 / 贴图” → “绑定 / 动作” → “游戏 / 验收”
+
+Research-output footer:
+“研究沉淀：8 条历史需求 · 13 个未执行模板 · 12 项来源”
+Boundary footer:
+“商业英雄美术品质尚未达标；原生 GPU、物理手机及外部生成服务待实测。”
+Small source note:
+“画面参考已有实录，实际效果以网页录像为准。研究整理：2026.11.21”
+
+TEXT/FACT CONSTRAINTS:
+Do not claim that external 3D generation services have been used. Do not claim League of Legends quality has been achieved. Do not turn the input hero into an improved hero. The distinction between present evidence and future work is essential. Preserve every Chinese heading exactly. Deliver a single cohesive finished infographic image.

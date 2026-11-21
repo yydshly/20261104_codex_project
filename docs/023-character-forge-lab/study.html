@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#111a18">
+  <meta name="description" content="从 Lucca Cerf 的 AI 角色工作流出发，理解模型生成、骨骼和动画，再亲手操作一个由 Codex 与 Blender 制作的骑士。">
+  <title>角色工坊 · 从想法到会动的角色</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23111a18'/%3E%3Cpath d='M32 9L49 19V40L32 54L15 40V19Z' fill='none' stroke='%23a6e8c2' stroke-width='4'/%3E%3Cpath d='M23 28H41M32 19V43' stroke='%23a6e8c2' stroke-width='4'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="src/styles.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three/three.module.js","three/addons/":"./vendor/three/addons/"}}</script>
+  <script type="module" src="src/main.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="shell header-row">
+      <a href="#main" class="brand" aria-label="角色工坊首页"><span class="brand-icon" aria-hidden="true">◇</span><span>角色工坊<small>CHARACTER FORGE</small></span></a>
+      <nav aria-label="页面目录"><a href="research.html">完整研究 ↗</a><a href="#original">原效果</a><a href="#mechanism">技术原理</a><a href="#value">应用价值</a><a href="#extensions">扩展方向</a><a href="#demo" class="nav-demo">进入演示 <span>↗</span></a></nav>
+    </div>
+  </header>
+  <main id="main">
+    <aside style="padding:18px 28px;background:#e8dfc9;color:#303d38;font:13px/1.9 Microsoft YaHei,sans-serif;border-bottom:1px solid #b4a484"><b>初版流程与样例归档。</b>完整研究已补齐赤霄实战、质量差距、人物素材制作与13个提示词模板。<a href="research.html" style="margin-left:14px;text-decoration:underline">阅读最新理解与提示词 ↗</a></aside>
+    <section id="original" class="hero shell">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> WORKFLOW STUDY <span class="slash">/</span> 001</p>
+        <h1>一个角色，<br>一条<span class="serif">生产线。</span></h1>
+        <p class="hero-lede">从 AI 生成的模型，到能在游戏里挥剑的角色。先看原作者的效果，再拆开它的工作方式，最后亲手试一次。</p>
+        <div class="hero-actions"><a class="button primary" href="#demo">操作我们的 3D 样例 <span>↗</span></a><a class="subtle-link" href="#mechanism">了解它如何实现 <span>↓</span></a></div>
+        <div class="hero-caption"><span>本次探索</span><strong>Codex × Blender</strong><p>让模型、骨骼和动画成为可编辑的资产。</p></div>
+      </div>
+      <figure class="original-player">
+        <div class="window-bar"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>LUCCA CERF / ORIGINAL CAPTURE</span><span class="mono">25 SEC</span></div>
+        <div class="video-frame">
+          <video id="original-video" controls playsinline preload="none" poster="https://pbs.twimg.com/amplify_video_thumb/2120303844143861760/img/vFuRtr_pOtJziyDj.jpg" aria-label="Lucca Cerf 原帖中的 Blender 角色动画演示">
+            <source src="https://video.twimg.com/amplify_video/2120303844143861760/vid/avc1/572x360/cQlEsRa_0zEgVCO8.mp4?tag=29" type="video/mp4">
+            <source src="https://video.twimg.com/amplify_video/2120303844143861760/vid/avc1/1146x720/FzdwvgMQPYUpeNs0.mp4?tag=29" type="video/mp4">
+          </video>
+          <button id="play-original" class="play-original" aria-label="播放原作者演示"><span aria-hidden="true">▶</span><b>观看原效果</b><small>Blender 内的角色与动作参考</small></button>
+          <div id="video-error" class="video-error" hidden><span>原片暂未载入</span><p id="video-error-reason">当前浏览器或网络未能播放 X 原视频。可在原帖观看，或使用系统浏览器打开原片。</p><div class="video-fallback-links"><a href="https://video.twimg.com/amplify_video/2120303844143861760/vid/avc1/1146x720/FzdwvgMQPYUpeNs0.mp4?tag=29" target="_blank" rel="noopener noreferrer">打开原片 ↗</a><a href="https://x.com/luccacerf/status/2120305718939021566" target="_blank" rel="noopener noreferrer">查看原帖 ↗</a></div></div>
+        </div>
+        <figcaption><span><b>原作者演示</b> · Fable 5.2 + Tripo + Blender MCP</span><a href="https://x.com/luccacerf/status/2120305718939021566" target="_blank" rel="noopener noreferrer">来源 ↗</a></figcaption>
+        <p class="source-note">作者称耗时不到 3 小时；这是原帖自述，不是本项目的效率实测。视频从 X 原始媒体地址播放。</p>
+      </figure>
+      <div class="hero-bottom"><span>观察重点</span><p><b>01</b> 分开生成身体与装备</p><p><b>02</b> 在 Blender 内对照参考</p><p><b>03</b> 反复修正骨骼动画</p><span class="down-arrow" aria-hidden="true">↙</span></div>
+    </section>
+
+    <section id="mechanism" class="section shell">
+      <div class="section-top"><p class="eyebrow">01 <span class="slash">/</span> UNDER THE HOOD</p><span class="margin-note">点击步骤，拆开这条流程</span></div>
+      <div class="section-heading"><h2>让工具接力，<br>让反馈回到下一步。</h2><p>Codex 负责组织任务和写操作代码。Tripo 生成几何资产，Blender 完成装配、绑定和动画。每一轮都能看见结果，再决定怎么改。</p></div>
+      <div class="mechanism-layout">
+        <div class="step-list" role="tablist" aria-label="制作流程" aria-orientation="vertical">
+          <button role="tab" id="step-0" aria-controls="mechanism-panel" aria-selected="true" data-step="0"><span>01</span><div><strong>拆分角色</strong><small>身体 / 盔甲 / 武器</small></div><b aria-hidden="true">↗</b></button>
+          <button role="tab" id="step-1" aria-controls="mechanism-panel" aria-selected="false" tabindex="-1" data-step="1"><span>02</span><div><strong>生成与装配</strong><small>Tripo → Blender</small></div><b aria-hidden="true">↗</b></button>
+          <button role="tab" id="step-2" aria-controls="mechanism-panel" aria-selected="false" tabindex="-1" data-step="2"><span>03</span><div><strong>骨架驱动网格</strong><small>骨骼 / 蒙皮 / 权重</small></div><b aria-hidden="true">↗</b></button>
+          <button role="tab" id="step-3" aria-controls="mechanism-panel" aria-selected="false" tabindex="-1" data-step="3"><span>04</span><div><strong>参考与迭代</strong><small>看动作 → 改关键帧</small></div><b aria-hidden="true">↗</b></button>
+          <button role="tab" id="step-4" aria-controls="mechanism-panel" aria-selected="false" tabindex="-1" data-step="4"><span>05</span><div><strong>验证与交付</strong><small>动画片段 → 游戏引擎</small></div><b aria-hidden="true">↗</b></button>
+        </div>
+        <article id="mechanism-panel" class="mechanism-panel" role="tabpanel" aria-labelledby="step-0" tabindex="0">
+          <div class="panel-top"><span id="panel-kicker" class="mono">ASSET DECOMPOSITION</span><span id="panel-index" class="panel-index">01 / 05</span></div>
+          <div id="mechanism-diagram" class="mechanism-diagram" aria-label="角色分为身体、盔甲和武器三个部分"></div>
+          <div class="panel-copy"><h3 id="panel-title"></h3><p id="panel-description"></p><div id="panel-output" class="panel-output"></div></div>
+        </article>
+      </div>
+      <aside class="principle-note"><span aria-hidden="true">↳</span><p><b>参考视频 ≠ 骨骼动画。</b> Seedance 在原帖里提供动作参考。让视频变成可编辑的动作，还需要制作关键帧，或增加动作捕捉、骨骼重定向环节。</p></aside>
+    </section>
+
+    <section id="value" class="value-section">
+      <div class="shell">
+        <p class="eyebrow">02 <span class="slash">/</span> WHY IT MATTERS</p>
+        <div class="section-heading"><h2>留下来的，<br>是可以继续修改的资产。</h2><p>这套流程的价值可以从交付物判断：能否换装备、改动作、复用角色，以及把结果带进真正的游戏。</p></div>
+        <div class="value-grid">
+          <article><span class="value-symbol" aria-hidden="true">↺</span><h3>修改有落点</h3><p>挥剑太慢就改关键帧，肩膀变形就查权重。每个问题都有对应的编辑环节。</p><span>从“再生成一次”到“改这一处”</span></article>
+          <article><span class="value-symbol" aria-hidden="true">⊞</span><h3>资产可以复用</h3><p>身体、盔甲和武器分开保留。同一角色可以换装，同一套骨架可以承载多段动作。</p><span>角色 × 装备 × 动作</span></article>
+          <article><span class="value-symbol" aria-hidden="true">↗</span><h3>结果能够交接</h3><p>保留模型、骨骼、动作和源文件。后续由你、动画师或程序继续完善，而不只得到一段视频。</p><span>.blend / .glb / .fbx</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="extensions" class="section shell">
+      <div class="section-top"><p class="eyebrow">03 <span class="slash">/</span> WHAT COMES NEXT</p><span class="margin-note">从一个样例，扩展成可重复的流程</span></div>
+      <div class="section-heading"><h2>下一步，往哪里走？</h2><p>先把一个角色做通，再逐步加入自动化。每个方向都应有明确的产物和验证标准。</p></div>
+      <div class="extension-grid">
+        <button class="extension-card" data-extension="0" aria-pressed="true"><span class="mono">A / ASSETS</span><h3>一支风格统一的队伍</h3><p>复用角色规格、材质和骨架，批量制作 NPC。</p><span class="card-arrow" aria-hidden="true">↗</span></button>
+        <button class="extension-card" data-extension="1" aria-pressed="false"><span class="mono">B / MOTION</span><h3>从视频提取动作</h3><p>接入动作捕捉和重定向，减少基础动作的手工编排。</p><span class="card-arrow" aria-hidden="true">↗</span></button>
+        <button class="extension-card" data-extension="2" aria-pressed="false"><span class="mono">C / CONTROL</span><h3>让脚步跟上地形</h3><p>增加脚部 IK、脚掌锁定和 Root Motion。</p><span class="card-arrow" aria-hidden="true">↗</span></button>
+        <button class="extension-card" data-extension="3" aria-pressed="false"><span class="mono">D / DELIVERY</span><h3>走进实际游戏</h3><p>接入 Unity，检查骨骼映射、碰撞和运行性能。</p><span class="card-arrow" aria-hidden="true">↗</span></button>
+      </div>
+      <div class="extension-detail" aria-live="polite"><span class="detail-label">下一次验证</span><p id="extension-description"></p></div>
+    </section>
+
+    <section id="demo" class="section demo-section">
+      <div class="shell">
+        <div class="section-top"><p class="eyebrow">04 <span class="slash">/</span> HANDS ON</p><span class="local-badge"><span class="status-dot"></span> 本地生成 · 实时 3D</span></div>
+        <div class="section-heading"><h2>现在，让它动起来。</h2><p>青铜守卫 / Jade Sentinel<br>一个由 Codex 编写 Blender 脚本制作的原创样例。真实骨骼、真实动画片段，可以旋转、暂停、拆开，也可以下载继续编辑。</p></div>
+        <div class="demo-workbench">
+          <div class="viewport-column">
+            <div id="viewport" class="viewport" aria-label="青铜守卫交互式三维查看器">
+              <div class="viewport-top"><span><i class="status-dot"></i> <b id="viewport-label">JADE SENTINEL</b></span><span id="render-status" class="mono" role="status">正在载入角色…</span></div>
+              <canvas id="character-canvas" aria-label="三维骑士。拖动旋转，滚轮缩放；也可用下方视角按钮操作。"></canvas>
+              <div id="viewer-error" class="viewer-error" hidden><h3>当前浏览器未能启动 3D</h3><p>可以查看预览图，或下载模型在 Blender 中打开。</p><img src="assets/knight-preview.png" alt="青铜守卫静态预览"><a href="assets/forge-knight.blend" download>下载 Blender 源文件 ↗</a></div>
+              <div class="viewport-bottom"><span id="view-mode">装配视图 · 拖动旋转 / 滚轮缩放</span><span class="axis-label" aria-hidden="true"><b>Y</b> ↑ <em>X</em> →</span></div>
+            </div>
+            <div class="timeline"><button id="play-toggle" aria-label="暂停动画" title="暂停动画">Ⅱ</button><output id="time-label" for="timeline">0.00 / 3.00s</output><input id="timeline" aria-label="动画播放进度" type="range" min="0" max="1000" value="0"><span class="mono" id="frame-label">FRAME 000</span></div>
+          </div>
+          <aside class="inspector" aria-label="角色控制面板">
+            <div class="inspector-heading"><span class="mono">ANIMATION LIBRARY</span><span>01—03</span></div>
+            <div class="clip-list" aria-label="选择动画">
+              <button data-clip="Idle" aria-pressed="true"><span class="clip-icon" aria-hidden="true">◌</span><span><b>待机</b><small>IDLE / 呼吸与微动</small></span><em>3.0 s</em></button>
+              <button data-clip="Walk" aria-pressed="false"><span class="clip-icon" aria-hidden="true">⇢</span><span><b>行走</b><small>WALK / 原地循环</small></span><em>1.2 s</em></button>
+              <button data-clip="Slash" aria-pressed="false"><span class="clip-icon" aria-hidden="true">╱</span><span><b>挥剑</b><small>SLASH / 蓄力与收势</small></span><em>2.4 s</em></button>
+            </div>
+            <div class="inspector-section"><span class="control-title">拆开看，如何运动</span><label class="toggle-row" for="show-skeleton"><span>显示骨架<small>查看关节与层级</small></span><input id="show-skeleton" type="checkbox" role="switch"><span class="switch" aria-hidden="true"></span></label><label class="toggle-row" for="show-exploded"><span>分件视图<small>身体 / 盔甲 / 武器</small></span><input id="show-exploded" type="checkbox" role="switch"><span class="switch" aria-hidden="true"></span></label><label class="toggle-row" for="show-armor"><span>显示盔甲<small>查看装备与内层身体</small></span><input id="show-armor" type="checkbox" role="switch" checked><span class="switch" aria-hidden="true"></span></label></div>
+            <div class="inspector-section compact"><div class="control-line"><span class="control-title">播放速度</span><select id="speed" aria-label="播放速度"><option value="0.5">0.5× 慢放</option><option value="1" selected>1× 正常</option><option value="1.5">1.5× 快放</option></select></div><span class="control-title">观察视角</span><div class="camera-presets"><button data-view="front">正面</button><button data-view="threequarter" aria-pressed="true">45°</button><button data-view="side">侧面</button></div></div>
+            <div class="inspector-section palette-row"><span class="control-title">换一种珐琅配色</span><div class="swatches" aria-label="盔甲配色"><button class="swatch jade" data-color="jade" aria-label="翡翠绿" aria-pressed="true"></button><button class="swatch clay" data-color="clay" aria-label="赤陶红" aria-pressed="false"></button><button class="swatch indigo" data-color="indigo" aria-label="靛蓝紫" aria-pressed="false"></button></div></div>
+          </aside>
+        </div>
+        <div class="asset-strip"><div><strong id="bone-count">20</strong><span>骨骼</span></div><div><strong id="triangle-count">3,194</strong><span>三角面</span></div><div><strong>03</strong><span>动画片段</span></div><div class="download-group"><a href="assets/forge-knight.glb" download>下载 GLB <span>↓</span></a><a href="assets/forge-knight.blend" download>Blender 源文件 <span>↓</span></a><a href="assets/forge-knight.fbx" download>FBX <span>↓</span></a></div></div>
+        <div class="demo-boundary"><span>本次实作</span><p>Blender Python → 自定义骨架与显式权重 → 三段关键帧动画 → GLB / FBX。没有调用 Tripo 或 Seedance；步行动作仍需打磨脚掌锁定，FBX 尚未通过 Unity 导入验收。</p><a href="assets/character-report.json" target="_blank">查看资产记录 ↗</a></div>
+      </div>
+    </section>
+
+    <section id="presentation" class="section shell presentation-section">
+      <p class="eyebrow">05 <span class="slash">/</span> SHOW, THEN EXPLAIN</p>
+      <div class="section-heading"><h2>用一分钟，讲清楚它。</h2><p>每一步约 15 秒。点击下面的讲解卡，查看器会切换到对应状态，把抽象的制作流程变成能看见的变化。</p></div>
+      <div class="tour-grid">
+        <button data-tour="0"><span class="tour-time">00—15s</span><h3>先看分件</h3><p>身体、装备与武器分别保留，所以能换装、能复用。</p><span>进入分件视图 ↗</span></button>
+        <button data-tour="1"><span class="tour-time">15—30s</span><h3>再看骨架</h3><p>播放待机并显示骨骼，说明骨骼如何带动角色。</p><span>显示骨架 ↗</span></button>
+        <button data-tour="2"><span class="tour-time">30—45s</span><h3>切到行走</h3><p>慢放并拖动时间轴，检查脚步、膝盖和循环接缝。</p><span>慢放行走 ↗</span></button>
+        <button data-tour="3"><span class="tour-time">45—60s</span><h3>挥剑与交付</h3><p>看蓄力、击出和收势，再下载模型，展示可编辑产物。</p><span>播放挥剑 ↗</span></button>
+      </div>
+      <p id="tour-message" class="tour-message" role="status">选择任意一步开始演示。也可以直接使用上方控制面板。</p>
+      <div class="next-experiment"><div><span class="mono">NEXT EXPERIMENT</span><h3>再用一个 Tripo 角色，跑通相同验证。</h3><p>把当前程序化模型替换成生成资产，保留相同动作和检查项。由此才能评估 AI 生成网格的可绑定性、返工量和实际成本。</p></div><a href="docs/workflow.md" class="button outline" target="_blank">查看接入与验收步骤 ↗</a></div>
+    </section>
+
+    <footer class="site-footer shell"><div><a class="brand footer-brand" href="#main"><span class="brand-icon" aria-hidden="true">◇</span>角色工坊</a><p>从原效果出发，理解机制，再用可编辑的资产验证。</p></div><div class="sources"><span class="mono">REFERENCES</span><a href="https://x.com/luccacerf/status/2120305718939021566" target="_blank" rel="noopener noreferrer">Lucca Cerf 原帖 ↗</a><a href="https://github.com/ahujasid/mcp-for-blender" target="_blank" rel="noopener noreferrer">MCP for Blender ↗</a><a href="https://developers.tripo3d.ai/en/docs/cli" target="_blank" rel="noopener noreferrer">Tripo CLI ↗</a><a href="https://learn.chatgpt.com/docs/extend/mcp" target="_blank" rel="noopener noreferrer">Codex MCP 文档 ↗</a><a href="README.md" target="_blank">本项目说明 ↗</a></div><div class="footer-bottom"><span>CHARACTER FORGE LAB / STUDY 001</span><span>2026.11 · 本地实验</span></div></footer>
+  </main>
+</body>
+</html>

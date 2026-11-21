@@ -1,0 +1,1198 @@
+{
+  "published": "2026-11-21",
+  "evidenceDate": "2026-11-12",
+  "slug": "023-character-forge-lab",
+  "entry": "index.html",
+  "playable": "play.html",
+  "scope": "Published research, actual captured combat, editable runtime assets, web/native source and historical verification. Commercial hero art quality, native GPU and physical phone acceptance remain unverified.",
+  "guide": {
+    "path": "docs/character-research-overview.png",
+    "sourceSha256": "3233230c348cd00cfbded0b82eb4af09a90a5ce2426701878a2e2a4c36cb344d",
+    "publishedSha256": "3233230c348cd00cfbded0b82eb4af09a90a5ce2426701878a2e2a4c36cb344d",
+    "unchanged": true
+  },
+  "localOnly": [
+    {
+      "path": "assets/warlord/warlord.blend",
+      "bytes": 75035038,
+      "reason": "Final authoring file retained locally; runtime GLB and complete Godot source kit are public."
+    },
+    {
+      "path": "deliverables/chixiao-warlord-kit.zip",
+      "bytes": 138278246,
+      "reason": "Complete local archive exceeds GitHub regular-file limit; public source tree and smaller native kit are linked instead."
+    }
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 226,
+      "sha256": "b9924e7775d0527cfe98f9e28e3bb3a902ad382706c279dd81b9c56b2503ce78"
+    },
+    {
+      "path": "assets/character-report.json",
+      "bytes": 1050,
+      "sha256": "79ae9e1ad889eee35091f26f3e39eebaf10e81c9cce7d4a6d695c142edbece35"
+    },
+    {
+      "path": "assets/forge-knight.blend",
+      "bytes": 1854401,
+      "sha256": "2b640d7fb849f06027c7223ef1cb22779a8a8c4e24041a64f196473b84ac8c75"
+    },
+    {
+      "path": "assets/forge-knight.fbx",
+      "bytes": 1593356,
+      "sha256": "6b41b733e8d448d4c24b545f08837d95994fc560c253a4da2c09f47978fe02ba"
+    },
+    {
+      "path": "assets/forge-knight.glb",
+      "bytes": 419272,
+      "sha256": "8943f8650beb6fa1461fafcd2ec71615e8620a77d25633212ab60e767941eade"
+    },
+    {
+      "path": "assets/game/asset-validation.json",
+      "bytes": 2084,
+      "sha256": "ab7833ce6f60cb2f2f06ec170ce9799f99b485829d005e640409eba8147fe21f"
+    },
+    {
+      "path": "assets/game/blender-import-check.json",
+      "bytes": 1856,
+      "sha256": "43f1473067f3c3b441ea113fe7161773d60c926037966a067ee57a8c6522a90c"
+    },
+    {
+      "path": "assets/game/browser-validation.json",
+      "bytes": 814,
+      "sha256": "1c5047081988459a93f21e0bf6f90d90b397121b55dc6eddbc91ce00e84194fd"
+    },
+    {
+      "path": "assets/game/character.json",
+      "bytes": 6531,
+      "sha256": "ad8964f5e42e88827d00772d42bda46dc2ada3d6cf2e8fcf3a9ad9d746ea7051"
+    },
+    {
+      "path": "assets/game/game-delivery-validation.json",
+      "bytes": 3571,
+      "sha256": "df6368d63cb304fe172b3dca681cfde6e37d8ee3b20dd5d13a7a46f3d1139767"
+    },
+    {
+      "path": "assets/game/hero-attack-preview.png",
+      "bytes": 766789,
+      "sha256": "4ab644656c6ffe8d50c1d51167141af7a75f4a715b32e8c5c2238e97c20ef930"
+    },
+    {
+      "path": "assets/game/hero-preview.png",
+      "bytes": 790623,
+      "sha256": "d35f6fcbfc98386f1588833dabcf425f329f173936abea82c7ad52609970a0de"
+    },
+    {
+      "path": "assets/game/hero-run-preview.png",
+      "bytes": 777140,
+      "sha256": "ff99c1960acd3e8320dd2adea15bb3437562650273223d6c01125544b26b0293"
+    },
+    {
+      "path": "assets/game/hero.blend",
+      "bytes": 6740099,
+      "sha256": "3da739c7ed47ce0cac45acc16b7d25b406b7a824fd8f195ac1e64e449af71766"
+    },
+    {
+      "path": "assets/game/hero.fbx",
+      "bytes": 4010492,
+      "sha256": "d0beb965edc0f25775d16f66ec16a314288a1974aaf93b1dd48b9674598c12a7"
+    },
+    {
+      "path": "assets/game/hero.glb",
+      "bytes": 942760,
+      "sha256": "2da6868842d1b9aedb6deb8d566826f714ccc1f356b2a1ff0bbb5d95bf54669b"
+    },
+    {
+      "path": "assets/game/LICENSE-KayKit.txt",
+      "bytes": 892,
+      "sha256": "50e3fb7858f1351436923f0fd4bb4ea9198db1248bb2325b46a66af94aac517e"
+    },
+    {
+      "path": "assets/game/original.glb",
+      "bytes": 3659532,
+      "sha256": "60428e3abc09ba83e595d256e3af8c5c976b46cdae599f0802fc82b4a3445168"
+    },
+    {
+      "path": "assets/knight-preview.png",
+      "bytes": 884133,
+      "sha256": "65e5a430c8570f24d3ac30e05701f69cbfce42a2eb8d180f992b200a115f5bed"
+    },
+    {
+      "path": "assets/validation-report.json",
+      "bytes": 1220,
+      "sha256": "cab5993b61fea5ae5bf2b69ee324dea7f2f8ad33d5102eb100bf93e497ff73ee"
+    },
+    {
+      "path": "assets/warlord/art-report.json",
+      "bytes": 179,
+      "sha256": "9aaab0f1c4908c0d88908849896826501f911f1c814f3ea800697b87f6cdcdec"
+    },
+    {
+      "path": "assets/warlord/collision-unchanged-actions.json",
+      "bytes": 2948,
+      "sha256": "2c8e2bc98ae5605d0239db109383a033d628a4a6dc0add1f23304864606ccd63"
+    },
+    {
+      "path": "assets/warlord/collision.json",
+      "bytes": 234912,
+      "sha256": "d2a17ab2eedd7d413166f4bce0ca92c2c5f159f4c8da9ae5d02042042c9fb710"
+    },
+    {
+      "path": "assets/warlord/face-detail.png",
+      "bytes": 2269745,
+      "sha256": "dcf62ad0addb0c0348b977e57d6b3fe86ea32a9be186edf00ca2770972586bdc"
+    },
+    {
+      "path": "assets/warlord/idle-45.png",
+      "bytes": 1261849,
+      "sha256": "991267e21d0b310e5118a0999b63f767f6ce7d6abf482b02a61c4e824b71efb0"
+    },
+    {
+      "path": "assets/warlord/idle-front.png",
+      "bytes": 1272493,
+      "sha256": "d2803bb8e28ee4f2575336154644d3068fd2dd00e173649723af84994ff1e65a"
+    },
+    {
+      "path": "assets/warlord/independent-baseline.collision.json",
+      "bytes": 233856,
+      "sha256": "4c57e74856b80f1db4fc999477710237e264c3ede06b998909b70ebea54fdeca"
+    },
+    {
+      "path": "assets/warlord/independent-unchanged-actions.json",
+      "bytes": 2948,
+      "sha256": "2c8e2bc98ae5605d0239db109383a033d628a4a6dc0add1f23304864606ccd63"
+    },
+    {
+      "path": "assets/warlord/LICENSE-ANIMATIONS.txt",
+      "bytes": 319,
+      "sha256": "1ca06a7ff5f16ae54a43e6aa5c2999677c924ce6992067972a3fd0d5ccabe8aa"
+    },
+    {
+      "path": "assets/warlord/LICENSE-BASE.txt",
+      "bytes": 784,
+      "sha256": "e08f717c3cfd999f4b44f2be4522b11a3ac3c0e5b6364b3a8788d25d4c90ff94"
+    },
+    {
+      "path": "assets/warlord/LICENSE-QUATERNIUS.txt",
+      "bytes": 784,
+      "sha256": "e08f717c3cfd999f4b44f2be4522b11a3ac3c0e5b6364b3a8788d25d4c90ff94"
+    },
+    {
+      "path": "assets/warlord/LICENSE-UAL1.txt",
+      "bytes": 319,
+      "sha256": "1ca06a7ff5f16ae54a43e6aa5c2999677c924ce6992067972a3fd0d5ccabe8aa"
+    },
+    {
+      "path": "assets/warlord/LICENSE-UAL2.txt",
+      "bytes": 319,
+      "sha256": "1ca06a7ff5f16ae54a43e6aa5c2999677c924ce6992067972a3fd0d5ccabe8aa"
+    },
+    {
+      "path": "assets/warlord/material-validation.json",
+      "bytes": 831,
+      "sha256": "42a94b9a9edcd465782e6e219846ba61ef39dd1da0b61b9b9e0cdab7507d7555"
+    },
+    {
+      "path": "assets/warlord/metadata.json",
+      "bytes": 3912,
+      "sha256": "3142f9828ccf962f1627566f971aca5084b542f317ffb69be51de0bd0eae9ee1"
+    },
+    {
+      "path": "assets/warlord/motion-validation.json",
+      "bytes": 1513,
+      "sha256": "309e36804d5738078b60a921cf384866018a46ad525a9cb4b32a1276dfe8b3d7"
+    },
+    {
+      "path": "assets/warlord/optimization-validation.json",
+      "bytes": 502,
+      "sha256": "4880f072f6329a6b80831e70d476abaab73595351aaf2ac84e99a65076da0c2a"
+    },
+    {
+      "path": "assets/warlord/optimization.json",
+      "bytes": 5922,
+      "sha256": "293d4d1ff9a6e81346c7f2bf86978f9adc1a9adcd1eaafecf9de3c8832b3a790"
+    },
+    {
+      "path": "assets/warlord/slam-contact.png",
+      "bytes": 1220110,
+      "sha256": "e10608a3636abc304cdf1bfa65a749fd5431ba17245373ee16e87079580cd1b9"
+    },
+    {
+      "path": "assets/warlord/surface-validation.json",
+      "bytes": 7269,
+      "sha256": "4f1361d254287c3447c630ffbd8fbb25639b8ebfaf06717c3131e8a0c6b98cf5"
+    },
+    {
+      "path": "assets/warlord/sweep-contact.png",
+      "bytes": 1212493,
+      "sha256": "acf99d348451ca038e20574a98a14fbda06c888216c430e90cc0d15009d72ae0"
+    },
+    {
+      "path": "assets/warlord/validation.json",
+      "bytes": 1349,
+      "sha256": "2725ae86cc07454aa85852b5af63d302a55b1f5d930c4328d176d732c3cdebaf"
+    },
+    {
+      "path": "assets/warlord/warlord-lod1.glb",
+      "bytes": 6327224,
+      "sha256": "04898256bca0d49eac3a6e909f286394baf502bdafe5d6892e9f78584b48bbde"
+    },
+    {
+      "path": "assets/warlord/warlord-lod2.glb",
+      "bytes": 4000224,
+      "sha256": "32a0098ea267376f1092b4876480dd9863e54cacc9a23a168e8c14fc8f9b967e"
+    },
+    {
+      "path": "assets/warlord/warlord.glb",
+      "bytes": 19074680,
+      "sha256": "1f3fc19564ebfd7bf1ae8e9c27ed9f3e041c55bfde18f1c43f35e4bab2ea7838"
+    },
+    {
+      "path": "deliverables/emberfall-game-ready-kit.zip",
+      "bytes": 8482802,
+      "sha256": "fd7d17f076af60ac21818b942ec6160b5f21e70c75435bd3f6ea272438b33c7e"
+    },
+    {
+      "path": "docs/asset-provenance.md",
+      "bytes": 3941,
+      "sha256": "551ec87f5eaf5001142c9871e7317c7e5a11fecb3d0e9a7c13af04da39e1c365"
+    },
+    {
+      "path": "docs/browser-game-verification.md",
+      "bytes": 1978,
+      "sha256": "fc79fba7914881451ba220756e50185e0023d09ecf4f18f03dfed44edbe4d08c"
+    },
+    {
+      "path": "docs/character-prompts.json",
+      "bytes": 22942,
+      "sha256": "751170db450ce54326fb3f1a4110f7164829010c1d210f173755e3123914ab43"
+    },
+    {
+      "path": "docs/character-prompts.txt",
+      "bytes": 22055,
+      "sha256": "f33c81a568d7f5a56ea46c059989d744627321aff7018dac03e6f3c2cb8429a7"
+    },
+    {
+      "path": "docs/character-research-overview.png",
+      "bytes": 2263133,
+      "sha256": "3233230c348cd00cfbded0b82eb4af09a90a5ce2426701878a2e2a4c36cb344d"
+    },
+    {
+      "path": "docs/character-research-overview.prompt.txt",
+      "bytes": 4091,
+      "sha256": "72f1ffb9302f7518a83221544209a0b0d3af450d952013b8c29d8c6123fc2e25"
+    },
+    {
+      "path": "docs/character-research-overview.provenance.json",
+      "bytes": 1509,
+      "sha256": "242013deb964432e821000e0b7624a408d3be9366fac7ed823e9e9ba0e9611cc"
+    },
+    {
+      "path": "docs/character-research-verification.json",
+      "bytes": 758,
+      "sha256": "49504dfe9b6e3206b464ec5b1b077714484f2fb68099f0e23c294c487768ec41"
+    },
+    {
+      "path": "docs/chixiao-v5-combat.mp4",
+      "bytes": 4065637,
+      "sha256": "ef3698ccf0f936672b1494db687c5a3c5a79b8f720bbb4957a85701ba9a58d22"
+    },
+    {
+      "path": "docs/chixiao-v5-combat.webm",
+      "bytes": 6164537,
+      "sha256": "b0263669b75ccc9e4e96636deb199f6d2341a6be9d96cab9e1ad0ea1dd750c7b"
+    },
+    {
+      "path": "docs/demo-desktop.jpg",
+      "bytes": 56070,
+      "sha256": "c8ea73dcaf4b066b6c4047d0d33abbc5f2b79bc850af92a0437f720d78d419a2"
+    },
+    {
+      "path": "docs/engine-handoff.md",
+      "bytes": 5663,
+      "sha256": "1bcd666e3e3ffc1783befd46df65b17cc5ba834ffd836a915c77e2173bf5e139"
+    },
+    {
+      "path": "docs/exhibit-desktop.jpg",
+      "bytes": 68619,
+      "sha256": "4672e3d2e71e3276a45c8a7a4ce37cf48a0cbbff5391fa69dc033b19434bf7f2"
+    },
+    {
+      "path": "docs/game-asset-handoff.md",
+      "bytes": 4169,
+      "sha256": "b6c4b53328ee55a76495fd421a9ffc8f9430e326a1799d00752d1bece7c090dc"
+    },
+    {
+      "path": "docs/game-victory.jpg",
+      "bytes": 30526,
+      "sha256": "48a4a29eecb0dd5a323a0c0a3d99e4487215736456010901ff4b34b2640131d2"
+    },
+    {
+      "path": "docs/gameplay.md",
+      "bytes": 3681,
+      "sha256": "d1fb40d06a326aa1acfb0501d4afd88432b0223753493d173f4bd6b487292a80"
+    },
+    {
+      "path": "docs/local-package-reference.json",
+      "bytes": 1225,
+      "sha256": "5af9c3a2101644cb82f9ce5deb8788c160e3c033cf95817a5f0a8912604952d3"
+    },
+    {
+      "path": "docs/native-gpu-validation.md",
+      "bytes": 2558,
+      "sha256": "ffade4d22a3da109bb2b83293d8229324b2792e5805d692dec09debbb5f3fb48"
+    },
+    {
+      "path": "docs/README-v2.md",
+      "bytes": 4932,
+      "sha256": "afc012cce07a370a3f88cd0effa62264a3b6e7a94fcadfc7ed8cbb477a6eb004"
+    },
+    {
+      "path": "docs/verification.md",
+      "bytes": 2020,
+      "sha256": "f6e4086dedd34d7babad7e50481302db2ed8272ae3b497a5c78b8820d839b15a"
+    },
+    {
+      "path": "docs/warlord-art.md",
+      "bytes": 6792,
+      "sha256": "f20f86d1dab6b6c5e836ab7bdf4a10d6f849744b9d9cae7db2d19ce56c86ce3c"
+    },
+    {
+      "path": "docs/warlord-benchmark-v4-baseline.json",
+      "bytes": 3977,
+      "sha256": "1ee83fe6f5b5dfcc7a32f46880758d443069d95211631e64252f31f6aa59b924"
+    },
+    {
+      "path": "docs/warlord-benchmark-v4-baseline.raw.json",
+      "bytes": 78930,
+      "sha256": "2a6363b814701bd54d8e041f393b59b04933135db7078d16863e834060f99717"
+    },
+    {
+      "path": "docs/warlord-benchmark-v5-concurrent.json",
+      "bytes": 3962,
+      "sha256": "4660b4f063a609884ccf3d7c2ef7462c5ec065e8d4c825e14019de8e16a1d554"
+    },
+    {
+      "path": "docs/warlord-benchmark-v5-concurrent.raw.json",
+      "bytes": 107278,
+      "sha256": "ee82fe162481d1fd5dcdb42ba0960fff1cdb567e6f017488ed6013e81b029f57"
+    },
+    {
+      "path": "docs/warlord-benchmark-v5.json",
+      "bytes": 3961,
+      "sha256": "93f8373ce9fcaa6cd2b17539f80fd06703f6787d62b00de238879b55a851045e"
+    },
+    {
+      "path": "docs/warlord-benchmark-v5.raw.json",
+      "bytes": 82749,
+      "sha256": "582c872836ed10edbaf6f8fbbcff8049772af9857aae29138d99c87f01b527cf"
+    },
+    {
+      "path": "docs/warlord-browser-v3.md",
+      "bytes": 2299,
+      "sha256": "1414128d67721df52b884a4189406dc0d9d6be6cee29553aea1e0bd5cc0b5605"
+    },
+    {
+      "path": "docs/warlord-browser-v4.md",
+      "bytes": 2178,
+      "sha256": "be53fe26211e674065e2f2951dba7d765edfa5e8faba892a2683ab601eb08baa"
+    },
+    {
+      "path": "docs/warlord-browser-verification.md",
+      "bytes": 4864,
+      "sha256": "3286a8c3bc0b0fd0a2f547226e8f28d60f1a885c0a1f6989bffacaf5b4fa3a1a"
+    },
+    {
+      "path": "docs/warlord-gameplay.md",
+      "bytes": 8038,
+      "sha256": "ffc489afbd079898e0a7ba485eee6f0e640b25e759e49159754927b2fa7ad1ef"
+    },
+    {
+      "path": "docs/warlord-hero.png",
+      "bytes": 85478,
+      "sha256": "e4767fbff1dbd70b75400a099c1908c86b931e525d43d7d552f5d93276a12d7a"
+    },
+    {
+      "path": "docs/warlord-impact.png",
+      "bytes": 102067,
+      "sha256": "1a4c6bc9e74ad7af9acb31d5ab421cac77ab761ad78c2524fd6a5fd52fc61913"
+    },
+    {
+      "path": "docs/warlord-leap.png",
+      "bytes": 118811,
+      "sha256": "73f79541b721a81b6edc0ed99558547ab5bc2ad644b78db50eeb1a1ea924dbc2"
+    },
+    {
+      "path": "docs/warlord-mobile.png",
+      "bytes": 42374,
+      "sha256": "de88629d40e9df3c099a786408d77ae1791565466f1f5ca33277d536835b2b40"
+    },
+    {
+      "path": "docs/warlord-refined-cloth.png",
+      "bytes": 1154561,
+      "sha256": "05ec78d8fd46e5f1efa08f9db627293ce098aaa5244bc427990c9dcd0b55a247"
+    },
+    {
+      "path": "docs/warlord-refined-combat.png",
+      "bytes": 102067,
+      "sha256": "1a4c6bc9e74ad7af9acb31d5ab421cac77ab761ad78c2524fd6a5fd52fc61913"
+    },
+    {
+      "path": "docs/warlord-refined-face.png",
+      "bytes": 2269745,
+      "sha256": "dcf62ad0addb0c0348b977e57d6b3fe86ea32a9be186edf00ca2770972586bdc"
+    },
+    {
+      "path": "docs/warlord-refined-hero.png",
+      "bytes": 85478,
+      "sha256": "e4767fbff1dbd70b75400a099c1908c86b931e525d43d7d552f5d93276a12d7a"
+    },
+    {
+      "path": "docs/warlord-refined-portrait.png",
+      "bytes": 90492,
+      "sha256": "bda997538e5f6bcd0ee57386a0c3225bd3cbb73bf2b2f29092e8fd15708a8e23"
+    },
+    {
+      "path": "docs/warlord-refined-sweep.png",
+      "bytes": 103177,
+      "sha256": "c4436f347d8eecd3f8c563de3e3702885436a923939362cc79625b82fa3413ec"
+    },
+    {
+      "path": "docs/warlord-refined-victory.png",
+      "bytes": 27538,
+      "sha256": "a35f996e01eb0a0f3da436d1d3b87fd226578e1a173172faed12086306a5599d"
+    },
+    {
+      "path": "docs/warlord-refinement.md",
+      "bytes": 5913,
+      "sha256": "7a849665eccaf3e0b9edf54e2deb4433c7b1f293f57567b868062b60b0a1fec2"
+    },
+    {
+      "path": "docs/warlord-v3-hero.png",
+      "bytes": 99481,
+      "sha256": "367fae7d350b8fd8745c3a114b394d828a48f8a8f114ac677d0bf56ad64298a2"
+    },
+    {
+      "path": "docs/warlord-v3-impact.png",
+      "bytes": 117121,
+      "sha256": "c0319a874aff345096c82e753c803278d59934460e32b0a7585dd4f660585208"
+    },
+    {
+      "path": "docs/warlord-v5-combat.png",
+      "bytes": 102627,
+      "sha256": "d7b423ffc2d7a115025b006e6f7df5cd6336f0479373b25021fa2f119083d379"
+    },
+    {
+      "path": "docs/warlord-v5-delivery.json",
+      "bytes": 3420,
+      "sha256": "d96c441150a27339f129007c795a52a119b81f098f20bfdfd6446a7578440806"
+    },
+    {
+      "path": "docs/warlord-v5-media.json",
+      "bytes": 900,
+      "sha256": "46be33db187319f0394631cd7cd5c4733912a4e46c53446a7a6363d0ac3ed525"
+    },
+    {
+      "path": "docs/warlord-v5-narrow.png",
+      "bytes": 36465,
+      "sha256": "28933abe1b66615eb6edb4c4651db61486ef8190d8de68ce028bc8cefda0280c"
+    },
+    {
+      "path": "docs/warlord-v5-portrait.png",
+      "bytes": 91177,
+      "sha256": "f01f2960d1e4c25d393236d2a3f0ff41b15f7594cf140e0aca3ed4da69bc6de6"
+    },
+    {
+      "path": "docs/warlord-v5-replay.png",
+      "bytes": 77875,
+      "sha256": "0b49bd2aa5ccb4ff6ccdf180549264dbab194bc0dc159ef31719b0c546b606f7"
+    },
+    {
+      "path": "docs/warlord-v5-slam.png",
+      "bytes": 945795,
+      "sha256": "ae1159a4ea516ae6af2ac5b57d6e721f1f519fbb5d535de21f6f1920e7830a3c"
+    },
+    {
+      "path": "docs/warlord-v5-video-battle.png",
+      "bytes": 959678,
+      "sha256": "9814e5a5f34ba1753542d96fbb7fd508ff6d43a8cec4562f16341f0a41534522"
+    },
+    {
+      "path": "docs/warlord-victory.png",
+      "bytes": 27538,
+      "sha256": "a35f996e01eb0a0f3da436d1d3b87fd226578e1a173172faed12086306a5599d"
+    },
+    {
+      "path": "docs/workflow.md",
+      "bytes": 4529,
+      "sha256": "4bc6dace1e1686153b081e2fe0adda81523c774184fad3d944c93ce19190c3e4"
+    },
+    {
+      "path": "emberfall.html",
+      "bytes": 8864,
+      "sha256": "ace4035e86f3f4f3c7337daa723f16c992e63e3f7e452f5e9519faf4b08bdf15"
+    },
+    {
+      "path": "engine/Emberfall-Godot-project.zip",
+      "bytes": 338608,
+      "sha256": "e3876a349d5c3ec28cf47d703e338665d3f7f97b3a03ffb9ffa17048e5e1c472"
+    },
+    {
+      "path": "engine/godot/assets/character.json",
+      "bytes": 6531,
+      "sha256": "ad8964f5e42e88827d00772d42bda46dc2ada3d6cf2e8fcf3a9ad9d746ea7051"
+    },
+    {
+      "path": "engine/godot/assets/hero_knight_texture.png",
+      "bytes": 14172,
+      "sha256": "5d250ccc5da020e6126bfa3839f83bd9a465a951ed223e4d13c08b1925e154d4"
+    },
+    {
+      "path": "engine/godot/assets/hero_knight_texture.png.import",
+      "bytes": 1034,
+      "sha256": "174588a531e98a21dbb3729f29c62a0633ca4c45d2af5b89b8b3f0390c4ca42c"
+    },
+    {
+      "path": "engine/godot/assets/hero.glb",
+      "bytes": 942760,
+      "sha256": "2da6868842d1b9aedb6deb8d566826f714ccc1f356b2a1ff0bbb5d95bf54669b"
+    },
+    {
+      "path": "engine/godot/assets/hero.glb.import",
+      "bytes": 1024,
+      "sha256": "a107721ef064d684e96af5fdc3c50f2d516b9db0e254dd00630fcc51b0b5c735"
+    },
+    {
+      "path": "engine/godot/assets/LICENSE-KayKit.txt",
+      "bytes": 892,
+      "sha256": "50e3fb7858f1351436923f0fd4bb4ea9198db1248bb2325b46a66af94aac517e"
+    },
+    {
+      "path": "engine/godot/export_presets.cfg",
+      "bytes": 583,
+      "sha256": "0737e81552743e55a9c32c00fc32d8681dcaaf70094f71e9f57981db7c06c58e"
+    },
+    {
+      "path": "engine/godot/main.tscn",
+      "bytes": 165,
+      "sha256": "1ae8e1cc23eb768793e14619d9170aac393d1f3b3e5e3426cb2e8c19f1fa08a4"
+    },
+    {
+      "path": "engine/godot/open-editor.cmd",
+      "bytes": 40,
+      "sha256": "4a432c764e0bd708f95864cf7b18e76fdbd64309c413a68bbc15815c7b135037"
+    },
+    {
+      "path": "engine/godot/play.cmd",
+      "bytes": 554,
+      "sha256": "a300a19d92f128453465d3cdd9df83ad38fff109886d9e1fcb534bb89e67f684"
+    },
+    {
+      "path": "engine/godot/project.godot",
+      "bytes": 742,
+      "sha256": "2a5331928d802f3e2fb7427c92102e9c70c9d3ce3c93b4ad0ea2b9f25984941d"
+    },
+    {
+      "path": "engine/godot/README.md",
+      "bytes": 2695,
+      "sha256": "f549c544a4643bb02e7c9d1f6b9a4fb59b20f2fefed749676f66d1ae6db25df2"
+    },
+    {
+      "path": "engine/godot/scripts/arena.gd",
+      "bytes": 18062,
+      "sha256": "712d2c7564599d2cd3cd357fd6bed443b07c72a6d91121e0b82a90f1a00b2de1"
+    },
+    {
+      "path": "engine/godot/scripts/arena.gd.uid",
+      "bytes": 20,
+      "sha256": "1f908a642919c44a4b077ffb58d469dff31f1e794f431b335264919286f8a582"
+    },
+    {
+      "path": "engine/godot/scripts/hero_controller.gd",
+      "bytes": 6193,
+      "sha256": "fb804f3f80157e872b912f12d945602d352af8ea5db8d7a2cb892a16917da812"
+    },
+    {
+      "path": "engine/godot/scripts/hero_controller.gd.uid",
+      "bytes": 20,
+      "sha256": "4ba3b33ab095a935114245300df346875fe26c8d712bba80ea81b7b7100fa3ae"
+    },
+    {
+      "path": "engine/godot/scripts/smoke_test.gd",
+      "bytes": 5517,
+      "sha256": "2639f2dc18efecd927c59734ab7597717f9ece880ca99bd6d2b2cdd5a6fdf20d"
+    },
+    {
+      "path": "engine/godot/scripts/smoke_test.gd.uid",
+      "bytes": 19,
+      "sha256": "1600284c16394084fd40d5452fedf81dc8af7802f0c0c4eae8d4cf5c544be0c6"
+    },
+    {
+      "path": "engine/godot/validation/gameplay-report.json",
+      "bytes": 3053,
+      "sha256": "b7b2c37914ae0209dbbf3e3c44daebd2705b87abb2d570e223449164c794b46c"
+    },
+    {
+      "path": "engine/warlord/assets/collision.json",
+      "bytes": 234912,
+      "sha256": "d2a17ab2eedd7d413166f4bce0ca92c2c5f159f4c8da9ae5d02042042c9fb710"
+    },
+    {
+      "path": "engine/warlord/assets/LICENSE-ANIMATIONS.txt",
+      "bytes": 319,
+      "sha256": "1ca06a7ff5f16ae54a43e6aa5c2999677c924ce6992067972a3fd0d5ccabe8aa"
+    },
+    {
+      "path": "engine/warlord/assets/LICENSE-BASE.txt",
+      "bytes": 784,
+      "sha256": "e08f717c3cfd999f4b44f2be4522b11a3ac3c0e5b6364b3a8788d25d4c90ff94"
+    },
+    {
+      "path": "engine/warlord/assets/LICENSE-QUATERNIUS.txt",
+      "bytes": 784,
+      "sha256": "e08f717c3cfd999f4b44f2be4522b11a3ac3c0e5b6364b3a8788d25d4c90ff94"
+    },
+    {
+      "path": "engine/warlord/assets/LICENSE-UAL1.txt",
+      "bytes": 319,
+      "sha256": "1ca06a7ff5f16ae54a43e6aa5c2999677c924ce6992067972a3fd0d5ccabe8aa"
+    },
+    {
+      "path": "engine/warlord/assets/LICENSE-UAL2.txt",
+      "bytes": 319,
+      "sha256": "1ca06a7ff5f16ae54a43e6aa5c2999677c924ce6992067972a3fd0d5ccabe8aa"
+    },
+    {
+      "path": "engine/warlord/assets/metadata.json",
+      "bytes": 3912,
+      "sha256": "3142f9828ccf962f1627566f971aca5084b542f317ffb69be51de0bd0eae9ee1"
+    },
+    {
+      "path": "engine/warlord/assets/validation.json",
+      "bytes": 6932,
+      "sha256": "c26d1bfc82104e4107995dadfecf603a61a0d65b41bb38029a557031846af734"
+    },
+    {
+      "path": "engine/warlord/assets/warlord.glb",
+      "bytes": 19074680,
+      "sha256": "1f3fc19564ebfd7bf1ae8e9c27ed9f3e041c55bfde18f1c43f35e4bab2ea7838"
+    },
+    {
+      "path": "engine/warlord/assets/warlord.glb.import",
+      "bytes": 1034,
+      "sha256": "3a4ea194612f5a3baf8f360b3348ef290c93c27972786cb1e720c6603e84764b"
+    },
+    {
+      "path": "engine/warlord/main.tscn",
+      "bytes": 166,
+      "sha256": "d140fdb897c45805092cf0bb473358aef1cd6a34a6382818733a4f1d1c1159f5"
+    },
+    {
+      "path": "engine/warlord/package-source.ps1",
+      "bytes": 5396,
+      "sha256": "36de90ab66987ab47cb578e42d2ffae7294d0a2f101f52ac5da2e7175467de85"
+    },
+    {
+      "path": "engine/warlord/play.cmd",
+      "bytes": 497,
+      "sha256": "bd54800a48afc03fee96fc4ea7576af43aadee96b9b2a62d6c536fc45397d16a"
+    },
+    {
+      "path": "engine/warlord/project.godot",
+      "bytes": 614,
+      "sha256": "50b1d293fea571a034f0f9a1af5894e5c18ac63bcb6876496fc5f5ad46572f91"
+    },
+    {
+      "path": "engine/warlord/README.md",
+      "bytes": 5642,
+      "sha256": "df9b61323605e35e2f552928b2b9ddc8e8fc2eb682c9a16e8844ab807f17030b"
+    },
+    {
+      "path": "engine/warlord/scripts/arena.gd",
+      "bytes": 17558,
+      "sha256": "fb30dfe2beb66c64c7b5b9479fae109e4c686d64ae24725ca7d4dca2d479a409"
+    },
+    {
+      "path": "engine/warlord/scripts/arena.gd.uid",
+      "bytes": 19,
+      "sha256": "7d122b0abe6d0dd4da4030815e802059ab8bf20572a3c6bef37f28ce8438c4fa"
+    },
+    {
+      "path": "engine/warlord/scripts/combatant.gd",
+      "bytes": 17320,
+      "sha256": "8189d2f23bdeb819115330051ded6407495547fced3ea5b56a7fc0150df5262b"
+    },
+    {
+      "path": "engine/warlord/scripts/combatant.gd.uid",
+      "bytes": 18,
+      "sha256": "9c5cf7b27dd34366fcc63249cee605f2d24beaaf0fe7716d235cbd8c6a32bb21"
+    },
+    {
+      "path": "engine/warlord/scripts/fresh_import_probe.gd",
+      "bytes": 3041,
+      "sha256": "7775bbbaef54144f510ba5d548d14237dfc0bbf1bf026da8b83b0d389ea8e6a5"
+    },
+    {
+      "path": "engine/warlord/scripts/fresh_import_probe.gd.uid",
+      "bytes": 20,
+      "sha256": "bf1b548d4210dda6cb5d562bcc5d39a8872d2f29c008e956e35e8bd899d5b8bf"
+    },
+    {
+      "path": "engine/warlord/scripts/offscreen_capture.gd",
+      "bytes": 2665,
+      "sha256": "9928a85e5cc1ea47183ca696fdb9daa37670f11c61b89e34f3c77ab5c08afc02"
+    },
+    {
+      "path": "engine/warlord/scripts/offscreen_capture.gd.uid",
+      "bytes": 20,
+      "sha256": "25b21c3ae1452df4eec01ef2e5bd69ab774348d98c78dae664cf66df37f49fce"
+    },
+    {
+      "path": "engine/warlord/scripts/secondary_constraints.gd",
+      "bytes": 12577,
+      "sha256": "a0b3b95dfd488dd63021fec6c4c145777f390a8529461466c905e1a0dbd7de29"
+    },
+    {
+      "path": "engine/warlord/scripts/secondary_constraints.gd.uid",
+      "bytes": 20,
+      "sha256": "5402abf6300de65ff65f7296b78b804e706122050b5201a843b83dea7436aa5b"
+    },
+    {
+      "path": "engine/warlord/scripts/secondary_smoke_test.gd",
+      "bytes": 9696,
+      "sha256": "5d0e5cace4cfdd4bba119b8e00a3cd078353ddb00a663639828c6b24e4f0fcab"
+    },
+    {
+      "path": "engine/warlord/scripts/secondary_smoke_test.gd.uid",
+      "bytes": 20,
+      "sha256": "ebd537bbd92b783a492ad71b064fa444f268488706defd09aba81d04724b6750"
+    },
+    {
+      "path": "engine/warlord/scripts/smoke_test.gd",
+      "bytes": 9768,
+      "sha256": "b133980a66fe25f0a82dbf8057a19796b30ca140a764e0b86967e7eaed8346cb"
+    },
+    {
+      "path": "engine/warlord/scripts/smoke_test.gd.uid",
+      "bytes": 20,
+      "sha256": "0a32cc3b613b00c5c951240eba01f52b363d64c177951e80f545587aaef9a78e"
+    },
+    {
+      "path": "engine/warlord/validation/finish-report.json",
+      "bytes": 6932,
+      "sha256": "c26d1bfc82104e4107995dadfecf603a61a0d65b41bb38029a557031846af734"
+    },
+    {
+      "path": "engine/warlord/validation/gameplay-report.json",
+      "bytes": 6279,
+      "sha256": "f157e32cea5e7347d4f59c89f4602d2ee614ee2beaf819b7f06ccfa8c57c3d0f"
+    },
+    {
+      "path": "engine/warlord/validation/offscreen-probe.json",
+      "bytes": 860,
+      "sha256": "b6dedc9ba59cfb5d71e387c91cea341a1de76d3e551e25f670376d3b6ea8c51d"
+    },
+    {
+      "path": "engine/warlord/validation/secondary-report.json",
+      "bytes": 3456,
+      "sha256": "30ca32324ef1b40f0586a4c757ec7daa94cfb995ad0e721abbbfe2657f09539d"
+    },
+    {
+      "path": "engine/warlord/validation/sourcekit-fresh-import.json",
+      "bytes": 3538,
+      "sha256": "46f69fc0116fd511a71ed14e0fba81da85362bdba12a95dee2317bc6c41d4f18"
+    },
+    {
+      "path": "engine/warlord/verify.cmd",
+      "bytes": 825,
+      "sha256": "f9a9f2c45950a7a23625e8a4bc1423319ba71a487e156c96f8faea675b5f6857"
+    },
+    {
+      "path": "engine/Warlord-Godot-sourcekit.zip",
+      "bytes": 11811277,
+      "sha256": "4bb8df84effb31b5371e049e921e7801709d735db684d79dbd567fddcf1271c8"
+    },
+    {
+      "path": "index.html",
+      "bytes": 51726,
+      "sha256": "4f83007f62bc8dd7bcf685cfd7e9735f6e647e453c62a8d1e573f696fe741903"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 26135,
+      "sha256": "135e508dd714e7b7fd4ce78e34e96823136652eda45bfe795318a451321fc086"
+    },
+    {
+      "path": "package.json",
+      "bytes": 711,
+      "sha256": "34c0fee467539065060406a1731ef9e44fde7bb433df7b7081f868c999844f36"
+    },
+    {
+      "path": "play-web.cmd",
+      "bytes": 112,
+      "sha256": "1ce0bad76c015aa2aa0050ce7cc24a428dc28d62429df00c57a16d2875c4cb76"
+    },
+    {
+      "path": "play.html",
+      "bytes": 11560,
+      "sha256": "7e74f2cb3c3ff6073b8d076a50b764e1530c8bd9d3a733a0b14b1de6a255372a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6078,
+      "sha256": "29bd31b554137c02f94e6c23e08beac65c237797ce2a042e7320ef3e2dcda62d"
+    },
+    {
+      "path": "research.html",
+      "bytes": 51726,
+      "sha256": "4f83007f62bc8dd7bcf685cfd7e9735f6e647e453c62a8d1e573f696fe741903"
+    },
+    {
+      "path": "scripts/benchmark-warlord.mjs",
+      "bytes": 10052,
+      "sha256": "161f8c7cee7f448731b557ff56358350c34de447f5868428058422d137f51ab0"
+    },
+    {
+      "path": "scripts/build-character.py",
+      "bytes": 14034,
+      "sha256": "96fe1809b2c86d5651c1fbd9adb227519984d5d847d1d3e543b72656e55867aa"
+    },
+    {
+      "path": "scripts/build-warlord.py",
+      "bytes": 28177,
+      "sha256": "fb58fb0a1b228a7a7af013dec05916bc86ae86d6d76aba37feab0fa5446211fb"
+    },
+    {
+      "path": "scripts/build.mjs",
+      "bytes": 1706,
+      "sha256": "6e67e980f3767ef9aa7c373d073087a03f9ecbcb33121dadebe374f7c02b37f9"
+    },
+    {
+      "path": "scripts/export-production-hero.py",
+      "bytes": 4547,
+      "sha256": "f0f72183ac1435b07d3c1ba6beb580d1ad7fa5e3cafa26794cd6a6710e236503"
+    },
+    {
+      "path": "scripts/export-research-prompts.mjs",
+      "bytes": 1681,
+      "sha256": "52c543e2f7306ad80b2a94fc4d6209a1d9dc5bd522f9c4d70aecebf913f3a79c"
+    },
+    {
+      "path": "scripts/export-warlord-premium.py",
+      "bytes": 3171,
+      "sha256": "08bc318f1b09ddd25c9c5c310284522bb2f29409b3a9f074dd0c5c1f369a473b"
+    },
+    {
+      "path": "scripts/inspect-premium-surface.py",
+      "bytes": 502,
+      "sha256": "cd4bd7e6f067fea2132eefbc5d762b6b9a3411d97a518b4f251b95524dc4b4d7"
+    },
+    {
+      "path": "scripts/inspect-v5-material-contract.py",
+      "bytes": 465,
+      "sha256": "88571cbb48c1ce3217328627e8943eff6b2cc506343a342c0fe7a1241811f072"
+    },
+    {
+      "path": "scripts/inspect-v5-skin-material.py",
+      "bytes": 769,
+      "sha256": "e3b24fd298a39bd96c4510766755b50b01813cb742423a0a11cad3cbf46f2de2"
+    },
+    {
+      "path": "scripts/inspect-warlord.py",
+      "bytes": 753,
+      "sha256": "2bc70d8ebb660e189f03a3f1e1e30de56ea9003424d91bbddbc711fc24751ec8"
+    },
+    {
+      "path": "scripts/motion-warlord-v5.py",
+      "bytes": 35999,
+      "sha256": "b7d6e6775e1064e830095ca56654a7a529e468ec4a18462d38a7ddb0f2b83b8b"
+    },
+    {
+      "path": "scripts/optimize-warlord.mjs",
+      "bytes": 7074,
+      "sha256": "b54a2c9c7a6a845c8970cae806ed09874c081f5fddc570ad08d6477f38c04568"
+    },
+    {
+      "path": "scripts/package-game.mjs",
+      "bytes": 11469,
+      "sha256": "f75fa4f5b4f440eed905945b8968d0fbc41e0f80299401a00933e804f03f2b12"
+    },
+    {
+      "path": "scripts/package-warlord.mjs",
+      "bytes": 9705,
+      "sha256": "411aa0b22ef258a7754e66f1e9e73245b02fc4975dba48a7276e96afb8536bef"
+    },
+    {
+      "path": "scripts/patch-warlord-v5-materials.py",
+      "bytes": 6299,
+      "sha256": "dc8d4777adea17428306ee763dde689b14a7741290268e3f724fcb120ddbbd50"
+    },
+    {
+      "path": "scripts/prepare-production-hero.mjs",
+      "bytes": 9663,
+      "sha256": "5f4e26273cfad5c2844fe5bf0919b8bc4613eaa8b89e5a13cbecf10f905434d6"
+    },
+    {
+      "path": "scripts/preview-warlord.ps1",
+      "bytes": 1334,
+      "sha256": "a09c26795c546077cdb6fcadee20831038ace7f23986495c5d90bb84b6cf87b1"
+    },
+    {
+      "path": "scripts/refine-warlord-motion.py",
+      "bytes": 19987,
+      "sha256": "651adbb28d1e56c6489c56470e2366da9acda65d4a9928cd11993f1b04344cb9"
+    },
+    {
+      "path": "scripts/refine-warlord-surface.py",
+      "bytes": 17319,
+      "sha256": "1e804aaf0fee2af2fbb4f472913dfa6b296e700ffae5f61d542a606ef25cf6ad"
+    },
+    {
+      "path": "scripts/render-premium-surface.py",
+      "bytes": 1813,
+      "sha256": "53bec2b876bc3a05414a9fd1e2fc3bf1848fbd39c4571bac152209f19e236abf"
+    },
+    {
+      "path": "scripts/render-preview.py",
+      "bytes": 1705,
+      "sha256": "b6cff42f6aa30656ece17d4a4ccec71c8ee7e4160f73a11043ae1ba20c455bff"
+    },
+    {
+      "path": "scripts/render-warlord-v5-art.py",
+      "bytes": 1905,
+      "sha256": "db79be0c838aa6c273a00a5801199022251c94e4b5bcbc6edf894ff828372544"
+    },
+    {
+      "path": "scripts/render-warlord.py",
+      "bytes": 2611,
+      "sha256": "2de6bc1bb54844d6445dd1c64b9175fa9791deea25d972b8e1884987e944af95"
+    },
+    {
+      "path": "scripts/sculpt-warlord-v5.py",
+      "bytes": 18917,
+      "sha256": "bf43da28d37c55df896dc9485da2845b151abd10ef839486a31d17214f35ef69"
+    },
+    {
+      "path": "scripts/serve.mjs",
+      "bytes": 7598,
+      "sha256": "41dec4cc228df461c9ea9412a74c71069a3df520df99180f7d2217437cb3efc3"
+    },
+    {
+      "path": "scripts/validate-warlord.py",
+      "bytes": 4747,
+      "sha256": "be74c161c06b5eda17d57b701f1b39acc49cca1045631e7f5033eb50167544bc"
+    },
+    {
+      "path": "scripts/verify-assets.mjs",
+      "bytes": 4531,
+      "sha256": "bec2455dba33d85c20a7738d3c20faddddc6a3932bfd200ad69eb870af0bc84e"
+    },
+    {
+      "path": "scripts/verify-game.mjs",
+      "bytes": 13709,
+      "sha256": "b5bbe720b7b38a7c8dcc7938dbd0189a224a2fa3d73aff54db0d0e80ae6c42a3"
+    },
+    {
+      "path": "scripts/verify-production-hero.mjs",
+      "bytes": 3178,
+      "sha256": "db165561e72dd63a94fb45407d2fad5addada1f9d7fc4dfa0c77e59f92359344"
+    },
+    {
+      "path": "scripts/verify-publication.mjs",
+      "bytes": 4093,
+      "sha256": "218023d98530861eb1b03bdd612990a7b0d29d848ddf6e871b7e2e781b2159cc"
+    },
+    {
+      "path": "scripts/verify-research.mjs",
+      "bytes": 2811,
+      "sha256": "67441422efd14407def343f2d9292f141a68e6f2c51ee1a6cbfb3200dcb0e349"
+    },
+    {
+      "path": "scripts/verify-v5-skin-export.py",
+      "bytes": 1618,
+      "sha256": "4fb7547149e94e7240dbd70346de8683f3e08a5f23968fb480ab1957aeff0adc"
+    },
+    {
+      "path": "scripts/verify-warlord-finish.mjs",
+      "bytes": 9423,
+      "sha256": "e556916179d6f1c07352236606b7d56b097d71fb5934d7926e18522b22c2526f"
+    },
+    {
+      "path": "scripts/verify-warlord-lod.mjs",
+      "bytes": 2744,
+      "sha256": "df2f0a57f2977de5c17017c787d9b92edac8428f16276a156b7995e18628c825"
+    },
+    {
+      "path": "scripts/verify-warlord.mjs",
+      "bytes": 27932,
+      "sha256": "3741070046892fd18a198d6962315c0bf93a5b1eafc3bbf7cd25b268301bd333"
+    },
+    {
+      "path": "src/game-environment.js",
+      "bytes": 26991,
+      "sha256": "ab9a0a925c83d0b8de064dd8ef918a97582dc5e28ed9b8efc60101bbd675fada"
+    },
+    {
+      "path": "src/game-logic.js",
+      "bytes": 10490,
+      "sha256": "25aa84e89f54f96cae7322427322c4feaeb8e991991d311ee74fbdc06d0be837"
+    },
+    {
+      "path": "src/game.css",
+      "bytes": 18929,
+      "sha256": "c1e0b97ab6e0d2ef5a47639abec312e17db9a190a8465a76f6c50b9061912143"
+    },
+    {
+      "path": "src/game.js",
+      "bytes": 26398,
+      "sha256": "7cbc5dc9ff7473b5ef01bab77dab360ed0e9f8fe09729b362ef3bfaf26b163eb"
+    },
+    {
+      "path": "src/main.js",
+      "bytes": 20176,
+      "sha256": "f39f61d2826694f98f149353ee8b2d7bfe84c28571f40931063f1360d66afe9f"
+    },
+    {
+      "path": "src/research-content.js",
+      "bytes": 21373,
+      "sha256": "8f7e2e1a03ce7084c314a0e5c9b391bb26ac18295ef15f633efb07d6a8fb4dd8"
+    },
+    {
+      "path": "src/research.css",
+      "bytes": 24694,
+      "sha256": "543613c87afafc53a041cdc78a83874da646e327825fe5f3b4a5a027ffe6d7bd"
+    },
+    {
+      "path": "src/research.js",
+      "bytes": 7828,
+      "sha256": "b474a1cc474f3f049bc00abb22184e5852f120e6a1a0e81a41639f29fd197809"
+    },
+    {
+      "path": "src/styles.css",
+      "bytes": 27791,
+      "sha256": "9a9d04d2462cfb257a1c401606c187b3609101d65bee158bd2cf5df7001c74bd"
+    },
+    {
+      "path": "src/warlord-benchmark.js",
+      "bytes": 3527,
+      "sha256": "e55afbbca0ae3af12bf6dbc8978d57fe80abaf83cd9fe10edf10ca32d9c4656a"
+    },
+    {
+      "path": "src/warlord-demo.js",
+      "bytes": 1818,
+      "sha256": "e94b756233c64df80fed92b2d2919608d7c6f7497ec1b0e49b1df66430a2d4cc"
+    },
+    {
+      "path": "src/warlord-fx.js",
+      "bytes": 22347,
+      "sha256": "e8bfcd8849d74ed9919e7f55e429adc6000fdc2f9d4068c72c5bfec1c25bdb34"
+    },
+    {
+      "path": "src/warlord-game.js",
+      "bytes": 36209,
+      "sha256": "31e388277e9d1dc945f1f9893f1d9e89196a370f901c6f14f7c0bd66208b9530"
+    },
+    {
+      "path": "src/warlord-lighting.js",
+      "bytes": 1523,
+      "sha256": "64d86520c483074305660db5532e49c6dc2570e2c367ab995e3596d613031fc0"
+    },
+    {
+      "path": "src/warlord-lod.js",
+      "bytes": 1522,
+      "sha256": "a6f083e438dddfad81c923665e23f190068f83bf445c611630ca91797fb06ee0"
+    },
+    {
+      "path": "src/warlord-logic.js",
+      "bytes": 27125,
+      "sha256": "6d5018fff9db460460c5b9d48dd22e0c7ffb7a0886bd7cdfe9e2dfb116263364"
+    },
+    {
+      "path": "src/warlord-recorder.js",
+      "bytes": 4967,
+      "sha256": "c1b7ff5429755b96d934f940bdcc0963abc432ace332d0ed58e190d8998d5820"
+    },
+    {
+      "path": "src/warlord-secondary.js",
+      "bytes": 13447,
+      "sha256": "fed0a3c66e5595a63fc2bb3f8083fd93df19cdfdb25aa9b66fcc0fa0a71dbf47"
+    },
+    {
+      "path": "src/warlord.css",
+      "bytes": 10963,
+      "sha256": "132815468f3319bf4fe3cc5e2e73afacf5f7ae2540ac77b5a15bcde2963a1f50"
+    },
+    {
+      "path": "study.html",
+      "bytes": 19350,
+      "sha256": "b722dc6ddabb7401a19d22c86da51b04efec65910d4be77d07dde400620bd50c"
+    },
+    {
+      "path": "tests/game-logic.test.mjs",
+      "bytes": 12820,
+      "sha256": "defcae830506fbf9c2e4a7cccbabb21ba3ef6cd7bd4996a78bf0e8006d1c97ba"
+    },
+    {
+      "path": "tests/warlord-demo.test.mjs",
+      "bytes": 875,
+      "sha256": "37feb4a7c547caeb72f424c7957954867a1e3468f49d2f0cd41d756d0241cc11"
+    },
+    {
+      "path": "tests/warlord-integration.test.mjs",
+      "bytes": 9285,
+      "sha256": "5006e1bb2de16c371b8beb8c6d4a7a3c1fb6b4eb4951f47a849decef223f85e7"
+    },
+    {
+      "path": "tests/warlord-logic.test.mjs",
+      "bytes": 13772,
+      "sha256": "4ce0f2ba3b3de5643a93b98d501e6878ad9bea1c2e27e745a4ddab8c370896ac"
+    },
+    {
+      "path": "tests/warlord-secondary.test.mjs",
+      "bytes": 13868,
+      "sha256": "aaf7dd601500e9e95abea7f9a1f8e1c1abd2f07e644cfce5dd7c587dab770d97"
+    },
+    {
+      "path": "vendor/three/addons/controls/OrbitControls.js",
+      "bytes": 40918,
+      "sha256": "e7fca2fe9e7670a828af9b28084669a5909445b7f36f1f26cee9bf8f2961c32c"
+    },
+    {
+      "path": "vendor/three/addons/loaders/GLTFLoader.js",
+      "bytes": 119861,
+      "sha256": "532ac726e120039acbcd6cf54328c57acbf7b438176afaa6951257126d11bff1"
+    },
+    {
+      "path": "vendor/three/addons/utils/BufferGeometryUtils.js",
+      "bytes": 39153,
+      "sha256": "7bda2a8ba836b2bcf67cb938d4b9e1bb5d1b1bc616817103ed858c0b58296ce7"
+    },
+    {
+      "path": "vendor/three/addons/utils/SkeletonUtils.js",
+      "bytes": 11535,
+      "sha256": "b1632a703206c3d830de9fcbe515696770d04b71a15ee6b50afa6d2c3298c86f"
+    },
+    {
+      "path": "vendor/three/LICENSE",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "path": "vendor/three/three.core.js",
+      "bytes": 1474799,
+      "sha256": "613e370f76638fdef83926642bf256dc9615684922de1ce1f63a8583e5d78578"
+    },
+    {
+      "path": "vendor/three/three.module.js",
+      "bytes": 658900,
+      "sha256": "104f56145899722094556490d787aae0617cc2fc3382f31df02d724ea1aee341"
+    },
+    {
+      "path": "warlord.html",
+      "bytes": 11560,
+      "sha256": "7e74f2cb3c3ff6073b8d076a50b764e1530c8bd9d3a733a0b14b1de6a255372a"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#180f11">
+  <meta name="description" content="赤霄：成年重甲战戟英雄。俯视战斗、横扫、护盾与定点跳劈，对抗会追击与反击的守卫。">
+  <title>赤霄 · 重戟演武</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23731f2b'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-size='39' fill='%23eed3a1'%3E戟%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="src/game.css"><link rel="stylesheet" href="src/warlord.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three/three.module.js","three/addons/":"./vendor/three/addons/"}}</script>
+  <script type="module" src="src/warlord-game.js"></script>
+</head>
+<body>
+  <a class="skip" href="#game">跳到演武场</a>
+  <header class="masthead"><a class="wordmark" href="#game"><span class="warlord-seal" aria-hidden="true">戟</span><span>赤霄<small>CHIXIAO · HALBERD LORD</small></span></a><nav aria-label="项目导航"><a href="research.html">研究与提示词 ↗</a><a href="#hero-kit">英雄与招式 ↓</a><a href="#delivery">角色与工程 ↓</a></nav><span class="edition">HERO REFINED <i>/</i> 05</span></header>
+  <main>
+    <section id="game" class="game-shell" aria-label="赤霄重戟英雄演武场">
+      <canvas id="game-canvas" tabindex="0" aria-label="俯视战斗。WASD移动，鼠标瞄准，左键或J普攻，Q横扫，E护盾，按住R选落点松开跳劈，空格闪避，T重试。"></canvas>
+      <div class="scene-vignette" aria-hidden="true"></div><div id="hurt-flash" class="hurt-flash" aria-hidden="true"></div><div id="target-labels" class="target-labels" aria-hidden="true"></div><div id="floaters" class="floaters" aria-hidden="true"></div>
+      <div class="world-caption"><span class="world-dot"></span><span>CRIMSON WAR COURT</span><b>赤霄演武场</b></div>
+      <div class="game-tools"><button id="view-button" aria-label="切换英雄检视与战斗镜头">英雄近景</button><button id="quality-button" aria-label="切换画质">画质 均衡</button><button id="speed-button" aria-label="切换动作播放速度">速度 1×</button><button id="sound-button" aria-label="关闭游戏音效">音效 <span>开</span></button><button id="pause-button" aria-label="暂停演武" disabled>Ⅱ</button><button id="fullscreen-button" aria-label="全屏演武">⛶</button></div>
+      <div id="hud" class="hud" hidden>
+        <div class="hero-hud"><div class="hero-crest" aria-hidden="true">戟</div><div class="hero-vitals"><div class="hero-name">赤霄 <span>重甲战戟 · 近战战士</span></div><div class="shield-track"><div id="shield-fill"></div></div><div class="health-track"><div id="health-fill"></div></div><div class="stamina-track"><div id="stamina-fill"></div></div><div class="vitals-text"><span>生命 <b id="health-value">240</b></span><span>护盾 <b id="shield-value">0</b></span><span id="animation-name">持戟待阵</span></div></div></div>
+        <div class="mission"><span class="mission-label">演武目标</span><p>击败三名戍卫</p><div class="rune-progress"><i data-rune="0">Ⅰ</i><i data-rune="1">Ⅱ</i><i data-rune="2">Ⅲ</i><span id="mission-count">0 / 3</span></div><time id="mission-time">00:00.0</time></div>
+        <div id="danger-hint" class="danger-hint" hidden>守卫蓄力中 <small>走位 / 闪避 / 开盾承伤</small></div>
+        <div id="buff-label" class="buff-label" hidden>戟势强化 <span id="buff-time"></span></div>
+        <div class="game-bottom"><div><span id="mode-label">自由演武</span><p id="game-message" role="status">移动拉近守卫，横扫破阵，铁壁承伤，跳劈控制。</p></div><div class="combo-hud"><b id="combo-value">01</b><span>HALBERD CHAIN<small>重戟连段</small></span></div></div>
+        <div class="skill-dock" aria-label="英雄技能">
+          <button id="skill-Q" class="skill-button" aria-label="Q 破阵横扫"><span class="skill-icon"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M9 33L28 7M23 9l9-2-2 9-6 1M9 11Q28 6 32 28M25 28h7v-7"/></svg></span><b>破阵横扫</b><small><kbd>Q</kbd> 范围重击</small><em class="cooldown" hidden></em></button>
+          <button id="skill-E" class="skill-button" aria-label="E 铁壁护身"><span class="skill-icon"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 5L32 10v11Q30 30 20 35 10 30 8 21V10Z M20 11v17M14 18h12"/></svg></span><b>铁壁护身</b><small><kbd>E</kbd> 护盾承伤</small><em class="cooldown" hidden></em></button>
+          <button id="skill-R" class="skill-button ultimate" aria-label="R 坠星裂地"><span class="skill-icon"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M31 4L19 25M26 5l7-1-1 8M9 31l8-4 3 6 4-6 8 4M8 20l-3 5M34 20l2 5M15 7l-3 6"/></svg></span><b>坠星裂地</b><small><kbd>R</kbd> 定点跳劈</small><em class="cooldown" hidden></em></button>
+          <button id="skill-Dodge" class="skill-button dodge-button" aria-label="空格 闪避"><span class="skill-icon">↟</span><b>闪避</b><small><kbd>Space</kbd></small><em class="cooldown" hidden></em></button>
+        </div>
+        <div id="touch-controls" class="touch-controls"><div class="touch-pad" aria-label="移动控制"><button data-move="up" aria-label="向前移动">↑</button><button data-move="left" aria-label="向左移动">←</button><button data-move="down" aria-label="向后移动">↓</button><button data-move="right" aria-label="向右移动">→</button></div><div class="touch-actions"><button id="touch-attack" aria-label="重戟普攻">普攻</button></div></div>
+      </div>
+      <div id="intro" class="intro-panel"><p class="overline"><span></span> HEAVY HALBERD · HERO COMBAT</p><h1>戟镇<span>山河</span><small>赤霄 · CHIXIAO</small></h1><p class="intro-copy">重甲立阵，长戟破围。<br>横扫强化，铁壁承伤，跃入敌阵裂地收势。</p><div class="intro-actions"><button id="start-button" class="gold-button" disabled>正在准备英雄 <span>↗</span></button><button id="autoplay-button" class="watch-button" disabled><span>▷</span> 看技能连段</button></div><p id="loading-state" class="loading-state" role="status">正在载入成年重甲角色与重戟动作…</p></div>
+      <div class="intro-side" id="intro-side"><span>HERO IDENTITY</span><p>曲面重甲 · 红缨披风<br>横扫 / 护盾 / 定点跳劈</p><a href="#hero-kit">查看三式连段 ↓</a></div>
+      <div id="overlay" class="overlay" hidden><div class="result-panel"><p id="result-eyebrow" class="overline">COMBAT COMPLETE</p><span id="result-mark" class="result-mark" aria-hidden="true">戟</span><h2 id="result-title">破阵</h2><p id="result-copy">三名戍卫已败，重戟归阵。</p><div id="result-stats" class="result-stats"></div><div class="result-actions"><button id="resume-button" class="gold-button" hidden>继续演武 ↗</button><button id="restart-button" class="gold-button">再战一次 <span>↺</span></button><button id="back-button" class="quiet-button">回到英雄近景</button></div></div></div>
+      <div id="load-error" class="load-error" hidden><h2>英雄资源未能载入</h2><p id="load-error-text"></p><button onclick="location.reload()" class="gold-button">重新载入 ↻</button></div>
+    </section>
+    <div class="control-bar"><span class="control-caption">战斗操作</span><span><kbd>WASD</kbd> 移动</span><span>鼠标 瞄准</span><span>左键 / <kbd>J</kbd> 普攻连段</span><span><kbd>Q</kbd> 横扫</span><span><kbd>E</kbd> 护盾</span><span>按住 <kbd>R</kbd> 瞄准，松开跳劈</span><span><kbd>T</kbd> 重试</span></div>
+    <section id="hero-kit" class="delivery-section hero-kit"><div class="section-heading"><div><p class="overline">READABLE WEIGHT · DISTINCT ABILITIES</p><h2>重武器的感觉，来自每一招的作用。</h2></div><p>出手前看懂范围，命中时看到身体反馈，收势后决定下一步。对手会靠近和反击，需要用技能创造时机。</p></div><div class="delivery-grid">
+      <article><span class="card-number">Q / CLEAVE</span><h3>破阵横扫</h3><p>腰胯带动双手战戟，蓄势后宽幅扫过前方。命中可硬直多个敌人，并获得戟势强化，影响接下来的普攻。</p><span class="kit-detail">蓄力 → 刃扫命中 → 进身收势</span></article>
+      <article><span class="card-number">E / BULWARK</span><h3>铁壁护身</h3><p>在敌人接近时吸收战意形成护盾。开盾期间可以走位和攻击，用护盾顶住反击，争取下一次横扫。</p><span class="kit-detail">近敌成盾 → 承伤 → 继续进攻</span></article>
+      <article><span class="card-number">R / LEAP SLAM</span><h3>坠星裂地</h3><p>先选择落点，再蓄力跃起，重戟随身体砸落。落地造成范围伤害与击飞，战域让进场和站位更有意义。</p><span class="kit-detail">定落点 → 起跳 → 砸地 → 击飞</span></article>
+    </div></section>
+    <section id="delivery" class="delivery-section handoff"><div class="section-heading"><div><p class="overline">CHARACTER FORGE / STUDY 05</p><h2>角色、动作与可玩的工程。</h2></div><p>成人基础来自 Quaternius CC0 资源，重甲、战戟与技能动作经 Blender 整理制作。参考吕布式重戟战士的轮廓与技能分工，制作原创英雄。</p></div><div class="asset-downloads"><a href="assets/warlord/warlord.glb" download>英雄 GLB ↓</a><a href="engine/Warlord-Godot-sourcekit.zip" download>Godot 角色与工程包 ↓</a><a href="https://github.com/yydshly/20261104_codex_project/tree/main/docs/023-character-forge-lab" target="_blank" rel="noopener noreferrer">网页与研究源码 ↗</a><a href="docs/warlord-refinement.md" target="_blank">本轮精修记录 ↗</a><a href="docs/warlord-art.md" target="_blank">角色制作记录 ↗</a><a href="docs/warlord-gameplay.md" target="_blank">战斗验证记录 ↗</a></div><div class="battle-replay"><p class="overline">CAPTURED IN GAME · 实际连招</p><video id="battle-replay" controls playsinline preload="metadata" poster="docs/warlord-v5-video-battle.png" src="docs/chixiao-v5-combat.mp4" aria-label="赤霄实际战斗录像：近景、护盾、横扫、普攻与跳劈"></video><p>脸部近景与真实连招 · 13.9 秒 · 可在上方演武中接管操作</p></div><div class="benchmark-panel"><button id="record-button" class="quiet-button" disabled>录制技能连段</button> <a id="record-download" class="record-download" hidden>下载实战录像 ↓</a><br><button id="benchmark-button" class="quiet-button" disabled>执行 120 秒连战检查</button><p id="benchmark-status">检查载入后的持续战斗、帧时间与资源稳定性。</p><pre id="benchmark-report" hidden></pre></div><p class="version-links"><a href="research.html">完整理解、实现与提示词 ↗</a><a href="emberfall.html">上一版骑士试炼 ↗</a><a href="study.html">原帖与流程拆解 ↗</a><a href="https://pvp.qq.com/web201605/herodetail/123.shtml" target="_blank" rel="noopener noreferrer">吕布官方技能参考 ↗</a></p></section>
+  </main>
+  <footer><a class="footer-brand" href="#game">赤霄 <span>CHIXIAO · HALBERD LORD</span></a><p>英雄精修 / STUDY 05</p><a href="docs/warlord-gameplay.md" target="_blank">制作与验收 ↗</a></footer>
+</body>
+</html>

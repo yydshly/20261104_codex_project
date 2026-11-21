@@ -1,0 +1,125 @@
+{
+  "status": "reported",
+  "asset": {
+    "sha256": "1f3fc19564ebfd7bf1ae8e9c27ed9f3e041c55bfde18f1c43f35e4bab2ea7838",
+    "bytes": 19074680,
+    "meshNodes": 28,
+    "materialCount": 16,
+    "bones": 100,
+    "clips": 13,
+    "trianglesPerActor": 266728,
+    "drawPrimitivesPerActor": 29,
+    "skinnedVerticesPerActor": 176507,
+    "actorCount": 4,
+    "sceneActorEstimate": {
+      "triangles": 1066912,
+      "geometryDrawPrimitives": 116,
+      "skinnedVertices": 706028
+    },
+    "embeddedImageCount": 25,
+    "sharedTextureRgba8WithMipmapsEstimateBytes": 76895573.33333333,
+    "estimateScope": "Asset-only counts. Four clones may share geometry/textures. Frustum culling, pass count, shadows, particles and arena geometry change real draws. RGBA8+mip estimate is not measured VRAM. No FPS is inferred from these counts."
+  },
+  "browser": {
+    "status": "measured",
+    "source": "Supplied actual browser RAF/renderer.info telemetry; no synthetic samples generated.",
+    "scenario": "Repeated ordinary autopilot battles, skill FX, AI, deaths and resets; normal simulation speed; visible browser tab.",
+    "startedAt": "2026-11-12T13:18:08.388Z",
+    "endedAt": "2026-11-12T13:20:08.346Z",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "dpr": 1,
+      "pixelRatio": 1
+    },
+    "context": {
+      "api": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4070 Laptop GPU (0x00002860) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+    },
+    "frameSamples": 8788,
+    "visibleDurationSeconds": 120.025,
+    "sampledSeconds": 120.025,
+    "timingCoverageRatio": 1,
+    "minimumLongRunSeconds": 120,
+    "averageFps": 73.218,
+    "frameMs": {
+      "mean": 13.658,
+      "p50": 12.5,
+      "p95": 25,
+      "p99": 41.6,
+      "maximum": 412.6
+    },
+    "hitches": {
+      "over33.333ms": 162,
+      "over50ms": 60,
+      "over100ms": 44,
+      "over250ms": 4
+    },
+    "renderer": {
+      "calls": {
+        "min": 355,
+        "max": 501,
+        "mean": 458.298,
+        "first": 466,
+        "last": 471,
+        "change": 5
+      },
+      "triangles": {
+        "min": 571086,
+        "max": 1059668,
+        "mean": 907033.223,
+        "first": 960614,
+        "last": 962198,
+        "change": 1584
+      },
+      "geometries": {
+        "min": 123,
+        "max": 147,
+        "mean": 145.818,
+        "first": 123,
+        "last": 146,
+        "change": 23
+      },
+      "textures": {
+        "min": 36,
+        "max": 36,
+        "mean": 36,
+        "first": 36,
+        "last": 36,
+        "change": 0
+      },
+      "programs": {
+        "min": 44,
+        "max": 44,
+        "mean": 44,
+        "first": 44,
+        "last": 44,
+        "change": 0
+      }
+    },
+    "roundsCompleted": 13,
+    "sessionWins": 13,
+    "errors": [],
+    "assessmentScope": "Frame timing is browser-visible cadence, not isolated GPU timing. Resource increases are reported as observations and are not automatically classified as leaks. A short run is never labelled a long-duration pass."
+  },
+  "nativeGpu": {
+    "arguments": [
+      "--script",
+      "res://scripts/offscreen_capture.gd"
+    ],
+    "displayDriver": "headless",
+    "engine": "4.5.2-stable (official)",
+    "nativeGpuFrameCaptured": false,
+    "os": "Windows",
+    "reason": "The Windows headless display driver only supports dummy rendering; a native GPU viewport image is unavailable without a window-capable display driver.",
+    "references": [
+      "https://docs.godotengine.org/en/4.5/tutorials/editor/command_line_tutorial.html",
+      "https://docs.godotengine.org/en/4.5/classes/class_renderingserver.html#class-renderingserver-method-get-video-adapter-name"
+    ],
+    "renderingDriver": "opengl3",
+    "renderingMethod": "gl_compatibility",
+    "scope": "Capability probe only. Never treats a dummy-renderer frame or headless gameplay checks as GPU visual acceptance.",
+    "status": "unavailable",
+    "videoAdapter": ""
+  }
+}

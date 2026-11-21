@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f2eb">
+  <meta name="description" content="角色素材与游戏质感研究：赤霄13动作、Three.js与Godot战斗原型、13.9秒实录、提示词和验证记录。可复用制作与接入流程，商业英雄美术质量仍待提升。">
+  <title>角色素材与游戏质感 · 我们的研究记录</title>
+  <link rel="stylesheet" href="src/research.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23232b32'/%3E%3Ctext x='32' y='45' text-anchor='middle' font-size='39' fill='%23d8bd86'%3E戟%3C/text%3E%3C/svg%3E">
+  <script type="module" src="src/research.js"></script>
+  <link rel="canonical" href="https://yydshly.github.io/20261104_codex_project/023-character-forge-lab/">
+  <meta property="og:title" content="角色素材与游戏质感 · 赤霄实战研究">
+  <meta property="og:description" content="实现、实际效果与价值：可操作角色原型、实战录像、制作提示词与可复用接入流程。保留商业美术差距与下一轮方向。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yydshly.github.io/20261104_codex_project/023-character-forge-lab/">
+  <meta property="og:image" content="https://yydshly.github.io/20261104_codex_project/023-character-forge-lab/docs/character-research-overview.png">
+</head>
+<body>
+<a class="skip" href="#main">跳到研究正文</a>
+<header class="topbar"><a class="brand" href="#overview"><span class="brand-seal" aria-hidden="true">戟</span><span>角色工坊<small>CHARACTER FORGE / FIELD NOTES</small></span></a><nav aria-label="项目入口"><a href="play.html">赤霄演武 ↗</a><a href="study.html">初版研究 ↗</a><button type="button" id="print-notes">打印研究</button></nav></header>
+<main id="main">
+  <section class="hero wrap" id="overview">
+    <div class="hero-copy"><p class="eyebrow">从会动的模型，到可信的英雄 <span>研究整理 / 2026.11.21</span></p><h1>好角色，<br>先从<span>素材开始。</span></h1><p class="lede">一张图好看、模型能动、游戏有手感，是三道不同的关。我们从原帖出发，做出了赤霄演武，也看清了下一步真正要补的地方。</p><div class="hero-actions"><a class="button primary" href="#effects">先看实际效果 ↓</a><a class="button secondary" href="#prompts">直接看提示词 ↓</a></div><p class="hero-footnote">这里记录已有结果与我们的判断。新整理的制作模板单独标明，未执行的生成路线不算已完成。</p></div>
+    <aside class="thesis"><p class="eyebrow">我们的核心理解</p><p class="thesis-line">人物资产与游戏系统，<br>需要<span>分别做好。</span></p><div class="thesis-rule"><span>人物资产</span><p>设计 · 形体 · 拓扑 · 贴图 · 绑定 · 动作</p></div><div class="thesis-rule"><span>游戏系统</span><p>输入 · 状态 · 命中 · 镜头 · 反馈 · 性能</p></div><p class="thesis-note">代码已经能组织一场战斗；要接近成熟商业英雄，还需要专门的人物美术与动画制作。</p><a href="#understanding">为什么角色仍然显得“假”？ ↗</a></aside>
+  </section>
+  <section class="wrap outcome-summary" aria-label="本研究实现、效果与价值摘要">
+    <article><span>实现了什么</span><h2>一个能实际战斗的角色原型。</h2><p>以CC0成年人体与通用动作为基础，制作原创赤霄盔甲和重戟，导出13段动作，接入Three.js网页与Godot工程。</p></article>
+    <article><span>实际效果</span><h2>看得到，也能亲自操作。</h2><p>13.9秒真实战斗录像，展示脸部近景、横扫、护盾与跳劈；网页可对抗三名动态守卫。现有观感仍有明显商业美术差距。</p></article>
+    <article><span>带来什么价值</span><h2>把素材制作与玩法接入拆清。</h2><p>留下可编辑资产、可复用战斗框架、提示词与检查记录。下一轮可在同一场景比较素材路线，先验收一个人物和一次重击。</p></article>
+  </section>
+  <figure class="wrap research-overview" aria-label="角色素材与游戏质感研究汇总图">
+    <a href="docs/character-research-overview.png" target="_blank" rel="noopener"><img src="docs/character-research-overview.png" width="1672" height="941" alt="一图汇总赤霄实战参考、已验证能力、应用价值和待研究扩展方向；核心理解是人物资产与游戏系统需要分别做好。"></a>
+    <figcaption>一图读懂研究：效果、能力、价值、制作流程与可扩展方向。AI汇总图参考已有实录；实际角色效果以录像为准。<span><a href="docs/character-research-overview.png" download>下载原图 ↓</a> · <a href="docs/character-research-overview.prompt.txt">本次生成提示词 ↗</a> · <a href="docs/character-research-overview.provenance.json">制作记录 ↗</a></span></figcaption>
+  </figure>
+  <div class="wrap reading-layout">
+    <aside class="contents"><p class="eyebrow">阅读目录</p><nav aria-label="研究目录"><a href="#effects">01 <span>效果与演进</span></a><a href="#understanding">02 <span>我们理解了什么</span></a><a href="#pipeline">03 <span>实现流程与原理</span></a><a href="#prompts">04 <span>提示词工作台</span></a><a href="#reproduce">05 <span>工具与复现</span></a><a href="#validation">06 <span>验收与边界</span></a><a href="#next">07 <span>价值与下一轮研究</span></a><a href="#faq">08 <span>常见问题与术语</span></a><a href="#sources">09 <span>来源与交付物</span></a></nav><a class="contents-play" href="play.html">进入可玩演武 ↗</a><p>效果验证：2026-11-12<br>理解与提示词整理：2026-11-21</p></aside>
+    <div class="article">
+      <section class="chapter" id="effects">
+        <div class="chapter-heading"><span class="chapter-number">01</span><div><p class="eyebrow">RESULTS & ITERATIONS</p><h2>先看已经做出来的效果。</h2></div></div>
+        <p class="intro">最新产物是原创成年重戟战士“赤霄”：能在网页中对抗三名会追击、蓄力反击和受击的守卫。模型、骨骼和动作可编辑，战斗使用同一套命中规则。<strong>它是已验证的技术样例，美术观感仍未达到商业吕布或《英雄联盟》英雄成品的水平。</strong></p>
+        <figure class="feature-media"><div class="media-label"><span>我们的实际战斗录像</span><span>V5 / 13.9 SEC / 2026-11-12</span></div><video id="combat-video" controls playsinline preload="metadata" poster="docs/warlord-v5-video-battle.png" aria-label="赤霄实际战斗：脸部近景、护盾、横扫、普攻与跳劈" src="docs/chixiao-v5-combat.mp4"></video><figcaption><p>浏览器 WebGL 实录，加上当时的 HUD、伤害浮字与游戏音效。视频由真实 WebM 转成 H.264/AAC；没有通过改写生命或敌人状态制造胜利。</p><a href="play.html">亲自操作 ↗</a></figcaption></figure>
+        <div class="metric-strip"><div><b>13</b><span>实际导出的动作</span></div><div><b>100</b><span>骨骼关节</span></div><div><b>19.07<small> MB</small></b><span>高精 GLB，十进制</span></div><div><b>14</b><span>末轮两分钟连战胜场</span></div></div>
+        <div class="callout"><b>看视频时，分别留意四件事</b><p>身体和装备是否像一个完整角色；腰胯、手臂和武器是否有发力先后；命中是否伴随硬直、击退或击飞；缩回游戏尺寸后是否仍能读清轮廓。前三者能运行，不意味着角色美术已经达标。</p></div>
+        <details class="original-panel"><summary>回到研究起点：原作者的 Blender 角色演示 <span>原片 / 来源与限制</span></summary><div class="details-body"><video id="original-reference" controls playsinline preload="none" poster="https://pbs.twimg.com/amplify_video_thumb/2120303844143861760/img/vFuRtr_pOtJziyDj.jpg" aria-label="Lucca Cerf 原始 Blender 动画演示"><source src="https://video.twimg.com/amplify_video/2120303844143861760/vid/avc1/1146x720/FzdwvgMQPYUpeNs0.mp4?tag=29" type="video/mp4"></video><p>首次研究归档记录的路线是 Fable 5.2、Tripo、Blender MCP，Seedance 用于动作参考。作者“不到三小时”的说法属于原帖自述，不能作为本项目的效率实测。原作者逐字提示词没有获得。</p><p class="muted">2026-11-21 重新抓取原帖返回 403。本页保留首次记录与原始媒体链接，未把它写成当日重新核实的完整调用记录。远程视频不可用时，可在原帖观看。</p><p id="original-status" role="status"></p><div class="inline-links"><a href="https://x.com/luccacerf/status/2120305718939021566" target="_blank" rel="noopener noreferrer">原帖 ↗</a><a href="https://video.twimg.com/amplify_video/2120303844143861760/vid/avc1/1146x720/FzdwvgMQPYUpeNs0.mp4?tag=29" target="_blank" rel="noopener noreferrer">原始视频 ↗</a><a href="study.html#original">首次研究页 ↗</a></div></div></details>
+        <h3>几轮尝试，各自说明了什么？</h3>
+        <ol class="evolution"><li><span>V1</span><div><h4>程序化骑士：验证工具链</h4><p>Blender Python 创建角色、20 骨和待机/行走/挥剑三动作，导出 GLB、FBX、blend。验证了可编辑与可播放，角色仍是粗糙样例。</p><a href="study.html#demo">初版交互查看器 ↗</a></div></li><li><span>V2</span><div><h4>成熟低模资产：验证真实玩法</h4><p>整理 KayKit CC0 骑士与动作，接入移动、三段剑击、闪避、格挡及遗迹目标。资产规范更完整，但Q版体型不符合成年重武器战士的要求。</p><a href="emberfall.html">骑士试炼 ↗</a></div></li><li><span>V3</span><div><h4>赤霄成年重甲：确定角色方向</h4><p>以 Quaternius 成年基体和通用动作为基础，制作原创重甲、双手战戟、Q横扫/E护盾/R跳劈。轮廓和技能分工明确了，几何拼装感依旧明显。</p></div></li><li><span>V4–5</span><div><h4>脸、材质、披风、接触与性能精修</h4><p>雕形、甲片、显式PBR贴图、双手握持、脚锁、披风避让、LOD、合批和实录进入同一工程。技术改善真实存在，商业角色的设计、绘制和动画品质仍有差距。</p><a href="docs/warlord-refinement.md">具体修改记录 ↗</a></div></li></ol>
+        <div class="comparison"><figure><img src="docs/warlord-v3-hero.png" loading="lazy" width="1280" height="720" alt="V3赤霄全身：分段重甲、长戟与早期披风"><figcaption>V3：角色轮廓与战斗成立，结构偏简单。</figcaption></figure><figure><img src="docs/warlord-v5-portrait.png" loading="lazy" width="1280" height="720" alt="V5赤霄脸部、兽面肩甲与材质的实际网页近景"><figcaption>V5：已改善脸部和甲片，仍有生硬与塑料感。</figcaption></figure></div><p class="caption">这是不同版本、镜头与光照下的历史记录，不是控制变量的画质 A/B 实验。它们用于回看演进，不用于证明达到商业品质。</p>
+      </section>
+
+      <section class="chapter" id="understanding">
+        <div class="chapter-heading"><span class="chapter-number">02</span><div><p class="eyebrow">WHAT WE LEARNED</p><h2>“能动”与“可信”，分别验收。</h2></div></div>
+        <p class="intro">最重要的修正是：<strong>把工程验收通过当成角色品质完成，会偏离最初的目标。</strong>人物的视觉可信度来自设计、形体、表面和运动相互支持；脚锁和贴图存在，只解决其中一部分。</p>
+        <div class="proof-chain" aria-label="四道不同的验证关卡"><div><b>好看的图</b><span>设计与气质成立</span></div><i aria-hidden="true">→</i><div><b>可信的三维</b><span>结构与材质成立</span></div><i aria-hidden="true">→</i><div><b>能用的资产</b><span>绑定与动作成立</span></div><i aria-hidden="true">→</i><div><b>好玩的战斗</b><span>输入与反馈成立</span></div></div>
+        <div class="table-scroll"><table><caption>当前“假”的观感，应该返修到哪一层？（我们的画面判断）</caption><thead><tr><th>观察</th><th>更接近的原因</th><th>对应的制作工作</th></tr></thead><tbody><tr><td>眼神空、嘴脸硬</td><td>五官体积、头颈关系和表情设计不足</td><td>专门头部雕刻、绘色、眼睑与基础表情</td></tr><tr><td>肩甲像球体、饰件像积木</td><td>装备设计和制造结构不统一</td><td>重做甲片厚度、叠压、连接与关节空间</td></tr><tr><td>金属、皮肤都像塑料</td><td>材质分区、绘制明暗与表面响应欠缺</td><td>专属UV、纹理绘制、材质/光照联合调整</td></tr><tr><td>武器在动，身体没在发力</td><td>重心、支撑脚、时序与制动设计不足</td><td>重做关键姿势和运动间距，再修握持与接触</td></tr><tr><td>近景细节多，俯视仍没感觉</td><td>制作没有围绕实际游戏镜头组织主次</td><td>在正常屏幕尺寸下反复查轮廓、朝向和色块</td></tr></tbody></table></div>
+        <blockquote><p>这版已经有约 26.7 万三角面，仍然显得假。瓶颈在造型、绘制和动作设计，继续细分网格的收益很低。</p><cite>基于本项目最终资产与实际画面的判断</cite></blockquote>
+        <h3>接近《英雄联盟》对局英雄，意味着什么？</h3><p>我们要追求的是成熟风格化角色的可信感：清楚的头肩武器轮廓、统一的人体和装备结构、经过设计的明暗与材质、具有性格和重量的动作，以及正常游戏尺寸下的可读性。“真实”在这里并非要求照片级皮肤或电影展示模型。</p><p>Riot 的李青更新资料把人体比例、拓扑、脸身UV、贴图、绑定和攻击节奏分别交给对应制作环节；清晰度资料强调轮廓、朝向及技能视觉主次。这支持我们把角色资产独立制作、在目标镜头验收的思路。<a class="citation" href="https://www.leagueoflegends.com/en-gb/news/dev/dev-modernizing-the-monk/" target="_blank" rel="noopener noreferrer">李青制作资料 ↗</a> <a class="citation" href="https://www.leagueoflegends.com/en-us/news/dev/clarity-in-league/" target="_blank" rel="noopener noreferrer">视觉清晰度 ↗</a></p>
+        <div class="two-cards"><article><span class="badge done">已经验证</span><h4>代码负责把链路接起来</h4><p>任务分解、Blender脚本、导入导出、动作映射、命中规则、镜头与反馈、运行检查和交付记录。</p></article><article><span class="badge pending">需要专门制作</span><h4>美术决定角色是否成立</h4><p>原画、解剖和脸型、装备语言、拓扑、纹理绘制、蒙皮变形、动作导演与审美返修。</p></article></div>
+        <h3>Codex 替代 Fable，实际验证到了哪里？</h3><p>本项目证明了 Codex 能组织<strong>本机 Blender Python → 可编辑模型与动作 → 网页/Godot接入 → 验证和实录</strong>这条独立路线。当前没有调用 Fable、Tripo 或 Seedance，也没有实际建立 Blender MCP 连接，因此没有完成同输入、同工具、同产物的替代对照。</p><p>能够调用建模工具，不自动等于具备某一成品的美术水平。更换编排助手，也不会让低质量身体、甲片或动画自然变成成熟资产。要判断替代价值，应比较相同角色的最终质量、可编辑性、修正工作量、实际时间和费用。</p>
+      </section>
+
+      <section class="chapter" id="pipeline">
+        <div class="chapter-heading"><span class="chapter-number">03</span><div><p class="eyebrow">HOW IT WORKS</p><h2>把制作过程拆成可检查的接力。</h2></div></div>
+        <p class="intro">下面是完整人物资产流程。每一步都要留下具体文件和画面，发现问题后回到对应步骤修改。标记“待验证”的环节属于下一轮素材路线。</p>
+        <div class="pipeline-grid">
+          <article><span class="stage">01 / DEFINE</span><h3>角色规格与设计</h3><p>确定成年重甲、双手重戟、暗铁/旧金/深红和俯视战斗。为头肩、武器和披风设定主要轮廓。</p><div class="output"><b>应有产物</b>角色简报、统一正侧背、装备结构图、设备预算。</div><p class="stage-state">当前已有方向；成熟角色原画与统一设计仍待深化。</p></article>
+          <article><span class="stage">02 / SOURCE</span><h3>获得候选素材</h3><p>可原创建模、改制成熟授权资产，或接入AI三维生成。三种来源都需核对模型本体、许可和可编辑性。</p><div class="output"><b>本次实际</b>Quaternius CC0成年人形基体和通用动作；V2使用KayKit。</div><p class="stage-state">外部AI三维生成尚未实测，不存在已验证的生成成功率或账单。</p></article>
+          <article><span class="stage">03 / BUILD</span><h3>建模、拓扑与UV</h3><p>Blender脚本制作装备与武器，随后进行脸部和曲面甲片改动。结构、厚度与关节位置要先成立，再做表面细节。</p><div class="output"><b>实际文件</b><a href="scripts/build-warlord.py">build-warlord.py</a>、<a href="scripts/sculpt-warlord-v5.py">sculpt-warlord-v5.py</a>、本地保留的最终blend（公开版提供GLB与Godot工程包）。</div><p class="stage-state">这些脚本是研发阶段记录，依赖阶段输入，不能对最终模型反复执行来获得更高品质。</p></article>
+          <article><span class="stage">04 / SURFACE</span><h3>贴图与材质</h3><p>颜色、粗糙度/金属度与切线法线实际导出到网格。曾发现皮肤粗糙度在Blender可见、GLB中丢失，后用显式通道连接修复。</p><div class="output"><b>实际文件</b><a href="scripts/patch-warlord-v5-materials.py">材质补丁</a>与<a href="assets/warlord/material-validation.json">保真记录</a>。</div><p class="stage-state">图像存在≠节点连接有效≠最终引擎表面好看。三个层面都要检查。</p></article>
+          <article><span class="stage">05 / RIG</span><h3>骨架、蒙皮与双手控制</h3><p>骨骼变换通过顶点权重传给网格。双手对齐同一根刚性戟柄；辅助骨控制披风和丝缨，最后烘焙到导出动作。</p><div class="output"><b>实际合同</b>100骨、13动作；HalberdGrip、HalberdTip、root等节点。</div><p class="stage-state">握持定位通过几何检查，手指造型、表情和高级肩肘变形仍需美术审查。</p></article>
+          <article><span class="stage">06 / ANIMATE</span><h3>动作编排与接触修正</h3><p>通用动作结合重戟控制与关键帧调整。逐帧检查蒙皮布料外表面和闭合实体；世界脚锁在动画混合之后处理，起跳时释放。</p><div class="output"><b>实际文件</b><a href="scripts/motion-warlord-v5.py">动作制作脚本</a>、<a href="src/warlord-secondary.js">运行约束</a>、<a href="assets/warlord/collision.json">逐帧报告</a>。</div><p class="stage-state">脚不滑、无明显穿插是基础；发力、节奏和性格仍需逐动作设计。</p></article>
+          <article><span class="stage">07 / INTEGRATE</span><h3>接入实际战斗</h3><p>Three.js播放GLB，控制器驱动世界位移、状态与命中；Godot工程使用字节一致的模型。受击、护盾、击飞和死亡来自规则事件。</p><div class="output"><b>实际文件</b><a href="src/warlord-logic.js">战斗规则</a>、<a href="src/warlord-game.js">浏览器接入</a>、<a href="engine/warlord/project.godot">Godot工程</a>。</div><p class="stage-state">输入决定状态 → 动画与位移推进 → 命中事件 → 反馈 → 收势/下一招。</p></article>
+          <article><span class="stage">08 / VERIFY</span><h3>优化、实录与交付</h3><p>兼容蒙皮网格合批、共享资源、几何LOD、着色预热。保留动作关键帧与布料拓扑，再执行实际连战与媒体录制。</p><div class="output"><b>实际文件</b><a href="scripts/optimize-warlord.mjs">资产优化</a>、<a href="src/warlord-recorder.js">录像实现</a>、<a href="docs/warlord-v5-delivery.json">交付清单</a>。</div><p class="stage-state">通过数据检查和运行检查后，还需要独立的视觉与手感验收。</p></article>
+        </div>
+        <h3>重戟的一次攻击，如何对应游戏规则？</h3><p>“前摇—有效窗—收势”决定输入与命中节奏。有效窗内按方向、距离和扇形检查目标；同次攻击限制重复命中。普攻、横扫、护盾和跳劈各有作用。以下是本项目现有数值，<strong>不是王者荣耀或英雄联盟官方参数</strong>。</p>
+        <div class="table-scroll"><table><thead><tr><th>动作</th><th>总时长</th><th>接触 / 有效窗</th><th>演示中观察</th></tr></thead><tbody><tr><td>普攻一式</td><td>0.72s</td><td>0.23–0.31s</td><td>起手与劈下，短进身</td></tr><tr><td>普攻二式</td><td>0.82s</td><td>0.30–0.39s</td><td>斜扫与连段衔接</td></tr><tr><td>普攻三式</td><td>1.00s</td><td>0.40–0.50s</td><td>更大进身、硬直与震退</td></tr><tr><td>Q 破阵横扫</td><td>1.08s</td><td>0.42–0.55s</td><td>扇形重击，命中获得戟势强化</td></tr><tr><td>E 铁壁护身</td><td>施法0.32s</td><td>护盾持续4s</td><td>护盾随身，实际受击扣盾</td></tr><tr><td>R 坠星裂地</td><td>1.28s</td><td>0.18s起跳 / 0.92s落地</td><td>世界弧线由控制器驱动，范围伤害与击飞</td></tr></tbody></table></div>
+        <p class="caption">Idle / Walk / Run / Attack1 / Attack2 / Attack3 / Sweep / Guard / LeapSlam / Hit / Death / Dodge / Victory 为13段导出动作。浏览器把 Sweep、Guard、LeapSlam 映射为技能名。</p>
+        <h3>三个必须分清的技术关系</h3><div class="principles"><article><b>参考视频 → 动作制作</b><p>视频提供姿势和节奏。要得到可编辑骨骼动作，需要手工关键帧或视频动捕，再进行重定向与接触修正。Seedance视频本身不等于FBX动画。</p></article><article><b>局部动作 → 世界位移</b><p>角色root的世界移动由游戏控制；髋部和关节保留姿态变化。起跳不能同时在模型和控制器里重复上移，否则会出现双倍跳高或脚离地。</p></article><article><b>烘焙接触 → 运行约束</b><p>已制作帧可以用真实几何检查；转向和动作混合会引入新姿态，因此另用脚锁和胶囊近似避让。两者覆盖不同情景，不代表任意姿态严格无穿插。</p></article></div>
+        <details><summary>实现细节：蒙皮、脚锁与特效的执行顺序 <span>面向继续开发的人</span></summary><div class="details-body"><p>蒙皮把一个顶点按权重分配给若干关节，叠加“当前骨骼世界变换 × 逆绑定矩阵”的作用。检查对象必须是变形后的网格，单看骨骼位置或包围盒不能证明身体与披风没有相交。</p><p>脚锁的锚点在世界空间保存。角色转向、进身后，通过两段腿骨IK保持接地；当髋部高度和腿长无法够到原目标时，把新落点收回可达范围，或明确释放。跳跃期间不能继续把脚强压到地面。</p><div class="code-panel"><div><span>运行顺序示意，具体实现见源码</span></div><pre><code>读取输入 → 推进战斗状态 → 设置角色世界位移
+secondary.prepare()          // 移除上一帧程序性修正
+AnimationMixer.update(dt)     // 采样并混合作者动作
+secondary.update(dt, state)   // 世界脚锁、必要的胶囊近似避让
+采样 HalberdTip / Grip        // 让武器拖尾跟随最后的姿态
+处理技能 / 受击事件 → 更新HUD → 实际渲染</code></pre></div><p>PMREM反射环境由本地亮面板场景生成一次，配合普通直接光、阴影和AgX色调映射。它改善表面光照，不会替代角色形体和贴图设计。Q/E/R的反馈由规则事件触发，伤害浮字显示真实命中数值。</p><p>实际录像在渲染后把WebGL画面复制到录制画布，叠加当前会话的生命、护盾和伤害浮字；WebAudio输出接入录像流。MediaRecorder产生WebM，再由FFmpeg转成MP4。它不采集麦克风，也不是AI生成的战斗视频。</p></div></details>
+        <details><summary>这次实际踩过的坑，如何定位？ <span>返工记录与经验</span></summary><div class="details-body"><div class="table-scroll"><table><thead><tr><th>问题</th><th>定位与修复</th><th>留下的原则</th></tr></thead><tbody><tr><td>皮肤在Blender有粗糙度，GLB中没有</td><td>改成显式ORM通道连接，再独立导出、新导入核验</td><td>检查实际交付格式，不能只看编辑器节点</td></tr><tr><td>20Hz抽样通过，相邻帧仍穿插</td><td>100Hz逐帧检查发现夹帧问题，补修对应布料关键帧</td><td>说明采样覆盖；不能把稀疏通过写成全动作通过</td></tr><tr><td>跑步脚锁把腿压向不可达地面点</td><td>按腿长求可达范围，收落点或释放，并给真实抬脚姿态回归检查</td><td>IK还需要解剖约束，不能只追求数值锁定</td></tr><tr><td>程序修正逐帧累积</td><td>下一帧动画采样前恢复上一次修正，再计算新的约束</td><td>作者动作与程序修正要有清楚的读写顺序</td></tr><tr><td>原生导入通过，却没有GPU画面</td><td>检查显示驱动，headless只有数据状态证据</td><td>导入、规则、画面、性能分别验收</td></tr><tr><td>改完源码，打开的仍是旧页面</td><td>核对服务源目录与dist，修改后重新构建</td><td>记录实际打开的版本和资产SHA</td></tr><tr><td>只报告最高的一次FPS</td><td>保留基线、首轮与末轮所有原始帧间隔</td><td>暴露波动与卡顿，不把偶然结果包装为稳定性能</td></tr></tbody></table></div></div></details>
+      </section>
+
+      <section class="chapter" id="prompts">
+        <div class="chapter-heading"><span class="chapter-number">04</span><div><p class="eyebrow">PROMPT NOTEBOOK</p><h2>提示词也要说明来源与用途。</h2></div></div>
+        <p class="intro">这里提供两类文本：下方历史需求是本次会话原话摘录；工作台里的13个模板是根据经验<strong>新整理、尚未执行</strong>的制作指令。原作者逐字提示词没有获得，本项目也没有Tripo/Seedance实际调用提示词可供展示。</p>
+        <details class="history-panel"><summary>历史需求原话与理解变化 <span>8条会话摘录</span></summary><div class="details-body" id="history-list"></div></details>
+        <div class="prompt-workbench"><div class="workbench-header"><div><p class="eyebrow">可替换角色的完整制作模板</p><h3>先说明交付物，再说明验收。</h3></div><span class="badge pending">新模板 · 未执行</span></div>
+          <form id="brief-form" class="brief-form"><label>角色名称<input name="name" value="赤霄" maxlength="40" autocomplete="off"></label><label>主武器<input name="weapon" value="双手重戟" maxlength="70" autocomplete="off"></label><label>配色<input name="palette" value="暗铁、旧金、深红" maxlength="100" autocomplete="off"></label><label>目标镜头<input name="camera" value="MOBA 俯视战斗，兼顾英雄近景" maxlength="120" autocomplete="off"></label></form>
+          <p class="workbench-note">修改以上字段会更新模板文本。这里不调用生成模型、不扣费，也不生成三维素材。通用的“避免事项”表达制作意图，不能直接当作某个服务的负面提示词参数。</p>
+          <div class="prompt-tools"><div id="prompt-categories" class="filters" role="group" aria-label="按制作阶段筛选提示词"></div><label class="search-label"><span>搜索模板</span><input id="prompt-search" type="search" placeholder="例如：脸部、握持、拓扑" autocomplete="off"></label></div>
+          <div class="prompt-meta"><p id="prompt-count" role="status"></p><button id="download-current-prompts" type="button" class="text-button">下载当前角色全部模板 ↓</button><button id="reset-brief" type="button" class="text-button">恢复赤霄设定</button></div>
+          <div id="prompt-list"></div><p id="copy-status" class="copy-status" role="status" aria-live="polite"></p>
+          <noscript><p>启用JavaScript可筛选、替换角色字段和复制提示词；也可直接下载下面的完整文本。</p></noscript>
+          <div class="inline-links"><a href="docs/character-prompts.txt" download>下载默认提示词全文 TXT ↓</a><a href="docs/character-prompts.json" download>下载结构化配方 JSON ↓</a></div>
+        </div>
+        <div class="callout"><b>为什么不只写“做得更真实一点”？</b><p>这句话没有定位返修对象。更可执行的反馈是：“正常俯视下肩甲仍像球体；请重做甲片厚度和叠压，保留肩部活动空间，交付灰模、线框和抬臂姿势对照。”每次修改都应包含对象、问题、约束、产物和检查方法。</p></div>
+      </section>
+
+      <section class="chapter" id="reproduce">
+        <div class="chapter-heading"><span class="chapter-number">05</span><div><p class="eyebrow">TOOLS & REPRODUCTION</p><h2>先复用现有结果，再接新的生成工具。</h2></div></div>
+        <div class="table-scroll"><table><caption>工具分工与当前状态</caption><thead><tr><th>工具 / 环节</th><th>用途</th><th>本项目状态</th></tr></thead><tbody><tr><td>Codex</td><td>分解任务、编写代码和脚本、执行并观察、整理证据</td><td>实际使用；不等于自动获得商业角色审美</td></tr><tr><td>Blender 4.5.14 LTS / Python</td><td>建模、材质、骨架、动作、导出和新导入检查</td><td>实际使用后台脚本，无须MCP才能编辑场景</td></tr><tr><td>Three.js 0.187</td><td>GLB、骨骼动画、PMREM反射、灯光阴影、战斗及录像</td><td>本地依赖已随工程保存</td></tr><tr><td>Node.js 22.15.0（制作时）</td><td>本地服务、资产处理、规则检查与打包</td><td>网页运行不需要重新下载前端依赖</td></tr><tr><td>Godot 4.5.2</td><td>同一模型的独立原生工程与headless检查</td><td>已导入与执行59项检查；原生GPU画面未验收</td></tr><tr><td>FFmpeg</td><td>实录WebM转H.264/AAC MP4、检查媒体</td><td>已有13.9秒实战成片</td></tr><tr><td>专用贴图绘制 / 角色美术</td><td>统一设计、表面绘制、拓扑与高级变形、动画精修</td><td>下一轮提高观感的主要制作投入</td></tr><tr><td>Blender MCP / Tripo / Seedance</td><td>另一条可接入的编排、素材生成与视频参考路线</td><td>本项目未实际接入或调用，结果和费用待验证</td></tr></tbody></table></div>
+        <h3>复用现有角色：不需要重跑生成。</h3><p>下载 <a href="engine/Warlord-Godot-sourcekit.zip" download>Godot角色与工程包</a> 继续接入，或在Blender/引擎中导入 <a href="assets/warlord/warlord.glb" download>最终GLB</a>。项目的 <code>play-web.cmd</code> 会打开本机5222端口预览；如修改源文件，先重建，避免打开旧dist。</p>
+        <div class="code-panel"><div><span>PowerShell / 在 character-forge-lab 目录执行</span><button class="copy-code" type="button" data-copy="run-local">复制</button></div><pre id="run-local"><code>npm run build
+powershell -NoProfile -File scripts/preview-warlord.ps1
+# 可玩演武：http://127.0.0.1:5222/
+# 完整研究：http://127.0.0.1:5222/research.html
+
+# 或直接服务源文件，默认端口5218：
+npm run dev
+
+# 资产、规则和研究页静态检查：
+npm run verify
+# 工程包需在修改后重新生成：
+npm run package</code></pre></div>
+        <p class="caption">前端依赖已本地保存。重新运行模型优化需要 <code>npm ci</code> 安装package-lock锁定的开发依赖，使用支持相应脚本的Node版本；制作时为22.15.0。Blender/Godot源文件可独立编辑。历史雕形与碰撞修复脚本依赖中间工程，完整工程包不包含全部大体积研发阶段文件，不能声称从一个命令完全重现所有历史迭代。</p>
+        <details><summary>可选路线：接入 Blender MCP 与 Tripo <span>配置参考 · 本次未执行</span></summary><div class="details-body"><p>MCP是让编排助手访问外部工具的接口。它可以传递操作和结果，但不会自动解决人体、装备、贴图和动画的美术问题。下面是按当前官方/项目文档核对的基础命令；只用于说明，不代表本机已经安装或授权。</p><div class="code-panel"><div><span>先检查现有环境，避免重复安装</span><button class="copy-code" type="button" data-copy="setup-tools">复制</button></div><pre id="setup-tools"><code># 已有uv/Blender后，按社区插件说明安装并在Blender启用：
+uvx mcp-for-blender install-addon
+codex mcp add blender -- uvx mcp-for-blender
+codex mcp list
+# 再读取一个测试场景、截图、保存副本，确认工具真正可用。
+
+# Tripo官方CLI要求Node.js 20+；先核对账号所属站点：
+npm install -g tripo-cli
+tripo --version
+# 国际站使用 ov；中国站使用 cn。只选择对应的一条：
+# tripo login --region ov
+# tripo login --region cn
+tripo doctor</code></pre></div><p>Blender侧仍需启用社区插件并启动服务；Codex侧注册成功不等于Blender侧已连通。Tripo账号区域不能根据语言猜测，登录授权和实际余额要单独核对。生成、纹理、绑定等任务的计费和可用能力以服务版本为准；保留任务ID，超时先查询，不能盲目重复提交。</p><p>需要视频参考时，再接对应视频服务。要从视频获得骨骼动画，还需动作捕捉/重定向/关键帧修正。不要把“已生成视频”记录为“已完成动画资产”。</p><div class="inline-links"><a href="https://developers.openai.com/codex/mcp/" target="_blank" rel="noopener noreferrer">Codex官方配置 ↗</a><a href="https://github.com/ahujasid/mcp-for-blender" target="_blank" rel="noopener noreferrer">插件项目说明 ↗</a><a href="https://developers.tripo3d.ai/en/docs/cli" target="_blank" rel="noopener noreferrer">Tripo当前命令与计费说明 ↗</a></div></div></details>
+        <h3>从文件找到实现</h3><div class="file-map"><a href="src/warlord-logic.js"><b>战斗状态与命中</b><code>src/warlord-logic.js</code></a><a href="src/warlord-game.js"><b>输入、镜头、动画接入</b><code>src/warlord-game.js</code></a><a href="src/warlord-secondary.js"><b>脚锁与胶囊近似约束</b><code>src/warlord-secondary.js</code></a><a href="src/warlord-lighting.js"><b>本地HDR反射环境</b><code>src/warlord-lighting.js</code></a><a href="src/warlord-fx.js"><b>拖尾、技能、受击反馈</b><code>src/warlord-fx.js</code></a><a href="src/warlord-recorder.js"><b>实际画面与音效录制</b><code>src/warlord-recorder.js</code></a><a href="scripts/verify-warlord.mjs"><b>资产与交付检查</b><code>scripts/verify-warlord.mjs</code></a><a href="engine/warlord/README.md"><b>原生工程接入与限制</b><code>engine/warlord/README.md</code></a></div>
+      </section>
+
+      <section class="chapter" id="validation">
+        <div class="chapter-heading"><span class="chapter-number">06</span><div><p class="eyebrow">EVIDENCE & LIMITS</p><h2>数字回答技术问题，画面回答品质问题。</h2></div></div>
+        <p class="intro">以下是2026-11-12保存的历史验证，不冒充本次网页整理时重新执行的设备测试。<strong>新增网页检查与角色验证分开记录。</strong></p>
+        <p class="caption">2026-11-21新增研究页已执行本地文件、链接、导出一致性、语法与数据对照检查；本轮浏览器预览访问授权被拒绝，因此布局、复制、筛选与下载的实际浏览器验收仍未执行。</p>
+        <div class="two-cards"><article><span class="badge done">资产与运行数据</span><h4>已保存的实际证据</h4><ul><li>100骨、13动作、人体约2.047米。</li><li>高精266,728三角面；28mesh、29primitive。</li><li>LOD1/LOD2为97,638/43,299面，共享骨架材质。</li><li>五类主材质有实际UV和导出贴图：颜色1024²，法线/粗糙金属度512²。</li><li>保留3,900条动作通道的时间、数值与插值。</li><li>Web 56项；Godot玩法43项、骨骼约束16项。</li><li>原生源码包在无缓存、无外置纹理的新目录成功导入，重建25张纹理。</li></ul></article><article><span class="badge pending">单独判断与继续验证</span><h4>这些不由测试数量证明</h4><ul><li>商业角色同等美术品质、表情与性格。</li><li>任意混合姿态、厚布壳或开放饰片严格无穿插。</li><li>Godot原生GPU画面和持续运行帧率。</li><li>物理手机性能、触屏精确落点与实际手感。</li><li>Unity/Unreal导入、联机和服务端权威命中。</li><li>Tripo/Seedance等生成路线的质量、成功率和实际成本。</li><li>开发提速、返工减少和玩家偏好提升。</li></ul></article></div>
+        <h3>性能复测：不挑选最好的一轮。</h3><p>同一台 RTX 4070 Laptop GPU，1280×720、DPR=1、均衡画质、正常游戏速度。每轮都运行普通三敌人连战，记录未经游戏dt上限裁剪的RAF间隔。</p><div class="table-scroll"><table><thead><tr><th>记录</th><th>平均RAF帧率</th><th>P95 / P99</th><th>最大间隔</th><th>&gt;100ms</th></tr></thead><tbody><tr><td>V4基线 / 120.004s</td><td>47.848 FPS</td><td>33.2 / 41.6ms</td><td>1712.6ms</td><td>5次</td></tr><tr><td>V5首轮 / 120.025s</td><td>73.218 FPS</td><td>25 / 41.6ms</td><td>412.6ms</td><td>44次</td></tr><tr><td>V5末轮 / 120.008s</td><td>50.896 FPS</td><td>33.3 / 41.6ms</td><td>66.6ms</td><td>0次</td></tr></tbody></table></div><p>首轮同期执行原生导入；末轮没有本项目导入/压缩重任务。两轮结果有明显波动，不能宣称稳定60FPS，也不对散热、系统后台任务或呈现节奏做未验证归因。末轮14轮全胜、0运行错误，绘制调用均值约458，纹理计数全程36。RAF呈现节奏不等于隔离GPU耗时，资源计数不等于实测显存。</p><div class="inline-links"><a href="docs/warlord-benchmark-v4-baseline.raw.json">V4原始记录 ↗</a><a href="docs/warlord-benchmark-v5-concurrent.raw.json">V5首轮原始记录 ↗</a><a href="docs/warlord-benchmark-v5.raw.json">V5末轮原始记录 ↗</a></div>
+        <details><summary>布料和脚底到底检查了什么？ <span>覆盖范围与限制</span></summary><div class="details-body"><p>最终离线检查覆盖13动作、1,300帧，按真实顶点、权重、骨骼姿态与逆绑定矩阵计算蒙皮几何，并对闭合身体/护甲/武器判内外。布料外表面顶点最小正间隙约1.05mm；这不是对整个4mm布料厚壳或所有面间相交的全面证明。</p><p>早先20Hz抽样没有发现的夹帧穿插，在100Hz逐帧复验中被发现并补修。最终保留基线报告和未改动作指纹，说明修过哪里。运行时另用胶囊近似保护混合姿态，脚锁处理世界移动、转向和进身；超出腿长的落点要重植或释放，不能强行拉伸。</p><p>离线动作、运行时混合、任意装备及复杂地形是不同问题。报告通过不意味着这些情景都通过了美术或物理验收。</p><a href="assets/warlord/collision.json">完整几何报告 ↗</a></div></details>
+        <h3>下一次审查，按五个维度分别下结论。</h3><div class="gate-grid"><article><b>01 静态美术</b><p>灰模结构、脸型、甲片厚度、材质分区与中性灯光下的表面。</p></article><article><b>02 变形与接触</b><p>肩肘髋膝、握持、脚底与装备活动空间。</p></article><article><b>03 动作质量</b><p>支撑、重心、先后、加速、制动、披风回稳和角色性格。</p></article><article><b>04 游戏表现</b><p>正常尺寸、不同朝向、命中范围、视觉主次和输入反馈。</p></article><article><b>05 交付性能</b><p>源文件、动作映射、实际引擎导入、目标设备与可回退记录。</p></article></div><p class="caption">这是下一轮人可读的验收框架。没有预填主观分数，也不会把自动检查换算成“商业品质百分比”。</p>
+      </section>
+
+      <section class="chapter" id="next">
+        <div class="chapter-heading"><span class="chapter-number">07</span><div><p class="eyebrow">VALUE & NEXT EXPERIMENT</p><h2>下一步，专门研究人物资产。</h2></div></div>
+        <p class="intro">当前最值得保留的是战斗框架、资产合同和验证方式。下一轮应把美术资产作为独立目标，先完成一个人物、站姿、跑步和一次重击，再扩展技能。</p><div class="table-scroll"><table><thead><tr><th>路线</th><th>价值</th><th>主要工作与风险</th><th>当前结论</th></tr></thead><tbody><tr><td>成熟授权资产改制</td><td>更快获得可靠的造型、拓扑与基础绑定</td><td>筛选与授权核对，统一风格、装备和专属动作；可能缺源文件</td><td>建议优先评估；尚未选购新资产</td></tr><tr><td>AI三维生成后加工</td><td>探索原创轮廓，快速得到候选</td><td>结构一致性、关节拓扑、纹理、重绑和返工需实测</td><td>适合做对照实验；尚未执行</td></tr><tr><td>完整原创角色制作</td><td>最大限度控制身份、形体和装备语言</td><td>需要角色美术、贴图与动画的专业制作投入</td><td>可作为高质量目标；不能仅凭当前脚本保证</td></tr><tr><td>继续程序化拼装当前底稿</td><td>便于验证代码、规则和技术链路</td><td>加面数和装饰难以弥补设计与雕形短板</td><td>保留为技术原型，不作为冲击商业品质的主要底稿</td></tr></tbody></table></div>
+        <ol class="next-steps"><li><b>固定同一道题。</b>同一人物设定、重戟、配色、姿态和实际游戏镜头。</li><li><b>只做一个完整小样。</b>转台与灰模、跑步、一次重击，先不扩NPC、剧情或更多技能。</li><li><b>记录真实投入。</b>素材/服务来源、版本、实际费用、修模/贴图/绑定/动画时间、失败原因。</li><li><b>在游戏里做判断。</b>同一场景和光照，兼顾正常尺寸与近景，保留不好看的结果和返修说明。</li><li><b>小样通过再扩展。</b>接回现有Q/E/R、换装和敌人行为，随后做目标设备验收。</li></ol>
+        <h3>这份研究可以复用到哪里？</h3><div class="two-cards"><article><h4>个人或小团队的游戏原型</h4><p>先明确角色品质门槛，把素材与系统分别推进；同一份角色规格、动作映射和接触检查可以复用到NPC与装备变体。</p></article><article><h4>角色生成工具的能力评估</h4><p>固定输入和展示，比较候选模型、实际返工和最终可用性。省时、成本与偏好要用记录证明，不能从宣传视频推断。</p></article></div><p>后续还可研究：同一角色换装的一致性、视频动捕到重戟动作的修正、地形脚锁、统一风格NPC，以及目标引擎中的素材库管理。这些是扩展方向，不是已经完成的功能。</p>
+      </section>
+
+      <section class="chapter" id="faq">
+        <div class="chapter-heading"><span class="chapter-number">08</span><div><p class="eyebrow">QUESTIONS & TERMS</p><h2>把容易混在一起的问题拆开。</h2></div></div>
+        <details><summary>优秀素材是否一定要从零用AI生成？</summary><div class="details-body"><p>不一定。原创制作、成熟授权资产改制、AI生成后加工都可能产出好素材。需要单独研究的是“如何稳定获得合适的人物资产”，而不是只寻找一个能一次生成完美人物的提示词。</p></div></details>
+        <details><summary>换更强的模型或换Unity/Unreal，会自动改善吗？</summary><div class="details-body"><p>更强工具可能帮助理解与执行，但当前角色的主要差距是设计、形体、绘制和动作。引擎会影响渲染、工作流与性能；同一个生硬模型放入另一引擎，仍需要返修这些美术问题。是否换引擎应由项目需求与目标设备决定。</p></div></details>
+        <details><summary>为什么做了PBR和更多面数，还是像塑料或玩具？</summary><div class="details-body"><p>PBR是一种表面响应方式。装备截面、UV、贴图绘制、粗糙度分区、灯光与整体色块都影响结果。统一金属度或增加细分，不能替代这些设计。风格化角色也要有可信的体积和材质差别。</p></div></details>
+        <details><summary>有动作视频，为什么还要绑定和制作动画？</summary><div class="details-body"><p>视频是像素序列，没有可直接驱动游戏角色的关节层级和权重。动作捕捉可以估计运动，再重定向到目标骨架，但遮挡、脚滑、双手武器和接触关系常需修正。手工关键帧也可以直接依据视频制作。</p></div></details>
+        <details><summary>为什么不继续扩展技能，把画面做得更热闹？</summary><div class="details-body"><p>新增技能不会修复脸型、装备结构和身体发力。特效能加强重要动作的反馈，但过多亮光和烟雾也会遮挡问题与命中范围。先让一个无特效重击成立，更容易判断品质是否真正提高。</p></div></details>
+        <details><summary>现在就能给出商业品质的时间、成本和成功率吗？</summary><div class="details-body"><p>目前没有同题素材路线的完整费用与人工时间记录，因此不能给可靠报价、成功率或提速百分比。应先确定具体质量参考、目标设备、源文件与授权要求，再做小样记录。外部三维生成尚未调用，不等于整个项目没有本机计算与制作成本。</p></div></details>
+        <details><summary>“已完成”在这个项目里应该怎样表达？</summary><div class="details-body"><p>分别说明资产结构检查完成、玩法实现完成、某设备运行验证完成和美术验收结论。赤霄实现了可玩样例和可编辑交付；“成熟商业英雄品质”仍未达成。不要再把前几项合并成笼统的“全部完成”。</p></div></details>
+        <h3>术语速查</h3><dl class="glossary"><div><dt>拓扑</dt><dd>网格边面如何组织，影响形体、变形和后续编辑。</dd></div><div><dt>UV</dt><dd>把三维表面映射到二维贴图的位置。</dd></div><div><dt>烘焙</dt><dd>把高模细节或控制器结果转换成目标资产能直接使用的数据。</dd></div><div><dt>绑定 / 蒙皮</dt><dd>建立骨架控制，并规定网格顶点受哪些骨骼影响。</dd></div><div><dt>IK</dt><dd>给定手/脚目标，反求关节姿势；仍需处理可达范围和艺术效果。</dd></div><div><dt>Root Motion</dt><dd>根运动的管理方式，决定世界移动由动画还是控制器承担。</dd></div><div><dt>重定向</dt><dd>把一套骨架上的动作映射到另一套骨架。</dd></div><div><dt>LOD</dt><dd>按距离或画质使用不同几何细节，须保留角色合同与关键轮廓。</dd></div><div><dt>Primitive / Draw Call</dt><dd>网格绘制分组与实际渲染调用不是同一统计；阴影、场景与特效会增加调用。</dd></div><div><dt>GLB / FBX / blend</dt><dd>交付与交换格式/编辑源工程；能导出还要在目标工具中重新导入。</dd></div><div><dt>MCP</dt><dd>编排助手连接外部工具的协议接口，不是三维生成模型。</dd></div><div><dt>Headless</dt><dd>无可见窗口的运行方式，数据检查通过不代表GPU画面已验收。</dd></div></dl>
+      </section>
+
+      <section class="chapter" id="sources">
+        <div class="chapter-heading"><span class="chapter-number">09</span><div><p class="eyebrow">SOURCES & DELIVERABLES</p><h2>每个结论，都能回到来源。</h2></div></div>
+        <p class="intro">本页以会话需求、本地脚本、实际资产和保存的验证记录为依据。第三方制作原则与工具配置附来源；角色观感、路线选择与下一步实验属于我们的分析。</p>
+        <p id="publication" class="intro">公开版提供真实GLB、Godot完整可编辑工程包、网页源码和研究文件。最终75 MB Blender工作文件与138 MB本地完整交付包保留在本地；下方不提供这两个文件的下载。GLB可导入Blender，原始制作脚本为研发记录，依赖阶段输入，不能当作一键重建成品的承诺。</p><div class="download-grid"><a href="assets/warlord/warlord.glb" download><span>运行资产</span><b>赤霄 GLB ↓</b><small>模型、骨架、13动作、嵌入纹理</small></a><a href="engine/Warlord-Godot-sourcekit.zip" download>Godot 角色与工程包 ↓</a><a href="https://github.com/yydshly/20261104_codex_project/tree/main/docs/023-character-forge-lab" target="_blank" rel="noopener noreferrer">网页与研究源码 ↗</a><a href="docs/character-prompts.json" download><span>研究配方</span><b>提示词与出处 JSON ↓</b><small>历史需求、13模板、角色变量、来源</small></a></div>
+        <details><summary>资产身份、检查报告与许可 <span>文件证据</span></summary><div class="details-body"><p class="hash-label">最终角色GLB SHA-256</p><code class="hash">1f3fc19564ebfd7bf1ae8e9c27ed9f3e041c55bfde18f1c43f35e4bab2ea7838</code><div class="file-map"><a href="assets/warlord/metadata.json"><b>动作与资产合同</b><code>metadata.json</code></a><a href="assets/warlord/validation.json"><b>Blender新导入与握持</b><code>validation.json</code></a><a href="assets/warlord/optimization-validation.json"><b>3900通道保真</b><code>optimization-validation.json</code></a><a href="engine/warlord/validation/sourcekit-fresh-import.json"><b>Godot全新导入</b><code>sourcekit-fresh-import.json</code></a><a href="docs/warlord-v5-media.json"><b>实际媒体记录</b><code>warlord-v5-media.json</code></a><a href="docs/warlord-browser-verification.md"><b>完整设备验收与边界</b><code>warlord-browser-verification.md</code></a><a href="docs/warlord-art.md"><b>赤霄来源与制作</b><code>warlord-art.md</code></a><a href="docs/asset-provenance.md"><b>V2资产来源</b><code>asset-provenance.md</code></a></div><p>赤霄成年人形基体和通用动作来自Quaternius CC0资源；护甲、战戟、配色、辅助骨和本轮加工为项目原创制作。没有导入王者荣耀/英雄联盟的商业角色模型、贴图、动作或音效。V2的KayKit资产来源另有独立记录。</p></div></details>
+        <div class="sources-list" id="sources-list"></div>
+        <div class="closing-note"><span>留给下一轮的制作原则</span><p>先让一个人物和一次重击成立，<br>再让整套游戏围绕它展开。</p><a href="#prompts">从角色规格提示词开始 ↑</a></div>
+      </section>
+    </div>
+  </div>
+</main>
+<footer class="footer wrap"><p>CHARACTER FORGE LAB <span>/</span> 角色素材与游戏质感研究</p><p>2026.11.21 整理 · 历史效果与验证保留原日期</p><a href="play.html">返回赤霄演武 ↗</a></footer>
+</body>
+</html>

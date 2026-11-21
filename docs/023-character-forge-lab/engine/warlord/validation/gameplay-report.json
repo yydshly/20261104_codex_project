@@ -1,0 +1,246 @@
+{
+  "asset_sha256": "1f3fc19564ebfd7bf1ae8e9c27ed9f3e041c55bfde18f1c43f35e4bab2ea7838",
+  "checks": [
+    {
+      "check": "Final heavy-warrior GLB imports with AnimationPlayer",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Animated humanoid skeleton survives engine import",
+      "detail": 100,
+      "passed": true
+    },
+    {
+      "check": "Asset meter and axis contract is preserved in native handoff",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Halberd grip and tip attachment bones import",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Locomotion, three attacks and three skill animations resolve",
+      "detail": "[\"Attack1\", \"Attack2\", \"Attack3\", \"Death\", \"Dodge\", \"Guard\", \"Hit\", \"Idle\", \"LeapSlam\", \"Run\", \"Sweep\", \"Victory\", \"Walk\"]",
+      "passed": true
+    },
+    {
+      "check": "Three enemies instantiate with real animated assets",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "MOBA camera is fixed, elevated and orthographic",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Hero capsule lands on collision floor",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Walking uses 3.1 m/s physics movement",
+      "detail": 2.92498826980591,
+      "passed": true
+    },
+    {
+      "check": "Sprint moves faster and consumes stamina",
+      "detail": {
+        "distance": 3.03167033195496,
+        "stamina": 93.3333333333331
+      },
+      "passed": true
+    },
+    {
+      "check": "First basic attack accepts aimed input",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Attack1 does not damage before its windup window",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Attack1 hits forward cone once for 22 damage",
+      "detail": {
+        "back": 140,
+        "front": 118
+      },
+      "passed": true
+    },
+    {
+      "check": "Buffered Attack2 applies 26 damage",
+      "detail": 92,
+      "passed": true
+    },
+    {
+      "check": "Buffered Attack3 applies 38 damage and moves enemy back",
+      "detail": 54,
+      "passed": true
+    },
+    {
+      "check": "Three heavy attacks create deliberate forward steps",
+      "detail": "(0.0, 0.000839, 1.040002)",
+      "passed": true
+    },
+    {
+      "check": "Q wide sweep starts",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Q preserves its 0.42-second hit delay",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Q wide arc hits side-front, excludes rear and empowers basics",
+      "detail": {
+        "rear": 140,
+        "side": 82
+      },
+      "passed": true
+    },
+    {
+      "check": "Q cooldown rejects repeated casts",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Q active interval catches an enemy entering after first hit frame",
+      "detail": 82,
+      "passed": true
+    },
+    {
+      "check": "Q records victims and never damages a target twice in one cast",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "E shield activates without locking movement",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Base shield is 90 for four seconds",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Hero can keep moving while shielded",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Shield absorbs damage before health",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Damage exceeding shield spills to health",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "E rewards nearby enemies with extra shield and slows pursuers",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "R snapshots an aimed landing point",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "R landing is clamped to 5.5-meter range",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "R lifts the hero before landing and delays AOE",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Airborne R rejects incoming damage",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "R landing applies 76 AOE damage, knock-up and persistent zone",
+      "detail": {
+        "airtime": 0.676666666666666,
+        "enemy_health": 64
+      },
+      "passed": true
+    },
+    {
+      "check": "Knock-up physically raises the enemy capsule",
+      "detail": 1.02070271968842,
+      "passed": true
+    },
+    {
+      "check": "Enemy AI chases the hero",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Enemy telegraphs a committed attack direction",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Enemy windup does not apply early damage",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Enemy attack applies damage after 0.58-second warning",
+      "detail": 226,
+      "passed": true
+    },
+    {
+      "check": "Hit interrupts enemy warning into stagger",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Stagger applies physical knockback",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "All enemies die with Death clips and trigger victory",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Reset restores hero, cooldowns, enemy state and health",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Hero death produces defeat",
+      "detail": null,
+      "passed": true
+    }
+  ],
+  "engine": "4.5.2-stable (official)",
+  "failed": 0,
+  "godot_import_settings": {
+    "meshes/generate_lods": true
+  },
+  "mode": "CLI/headless only; no visual window or computer-use interaction",
+  "passed": 43,
+  "source_sha256": {
+    "arena.gd": "ef782412c7b535b4d6b498ab717d2d9ae44a333f680a282ea00579d6c56165e5",
+    "combatant.gd": "8189d2f23bdeb819115330051ded6407495547fced3ea5b56a7fc0150df5262b",
+    "secondary_constraints.gd": "a0b3b95dfd488dd63021fec6c4c145777f390a8529461466c905e1a0dbd7de29",
+    "smoke_test.gd": "b133980a66fe25f0a82dbf8057a19796b30ca140a764e0b86967e7eaed8346cb"
+  },
+  "status": "passed"
+}

@@ -1,0 +1,120 @@
+{
+  "checks": [
+    {
+      "check": "Professional GLB imports with 41-bone skeleton",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "All 12 gameplay animation states import",
+      "detail": "[&\"Attack1\", &\"Attack2\", &\"Attack3\", &\"Block\", &\"BlockHit\", &\"Death\", &\"Dodge\", &\"DodgeBack\", &\"Hit\", &\"Idle\", &\"JumpIdle\", &\"JumpLand\", &\"JumpStart\", &\"Run\", &\"Victory\", &\"Walk\"]",
+      "passed": true
+    },
+    {
+      "check": "Capsule lands on physics floor",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Walking advances capsule at expected speed",
+      "detail": 2.54000020027161,
+      "passed": true
+    },
+    {
+      "check": "Running is faster and uses Run animation",
+      "detail": 4.88665294647217,
+      "passed": true
+    },
+    {
+      "check": "Locomotion selects real Run clip",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Attack1 hit window applies 22 damage",
+      "detail": 78,
+      "passed": true
+    },
+    {
+      "check": "Buffered second combo attack applies 27 damage",
+      "detail": {
+        "combo": 2,
+        "health": 51
+      },
+      "passed": true
+    },
+    {
+      "check": "Buffered third combo attack applies 38 damage",
+      "detail": {
+        "combo": 3,
+        "health": 13
+      },
+      "passed": true
+    },
+    {
+      "check": "Dodge accepts input with sufficient stamina",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Dodge invulnerability rejects incoming damage",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Dodge moves capsule and consumes stamina",
+      "detail": 1.70071017742157,
+      "passed": true
+    },
+    {
+      "check": "Damage works after invulnerability ends",
+      "detail": 83,
+      "passed": true
+    },
+    {
+      "check": "Block reduces incoming damage by 80%",
+      "detail": 79,
+      "passed": true
+    },
+    {
+      "check": "Expanding shockwave reaches and damages player",
+      "detail": 62,
+      "passed": true
+    },
+    {
+      "check": "Destroying three crystals ends trial with Victory",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Reset restores player and all targets",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Lethal damage enters Death and failure state",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "Reset also recovers from death",
+      "detail": null,
+      "passed": true
+    }
+  ],
+  "engine": {
+    "build": "official",
+    "hash": "6ce3de25aa58466e14ef354703ba8d9791a417da",
+    "hex": 263426,
+    "major": 4,
+    "minor": 5,
+    "patch": 2,
+    "status": "stable",
+    "string": "4.5.2-stable (official)",
+    "timestamp": 0
+  },
+  "failed": 0,
+  "passed": 19,
+  "scope": "Real Godot headless import, physics, animation selection, combo timing, damage, invulnerability, victory, death and reset. Native GPU rendering and manual input were not verified by this script.",
+  "status": "passed"
+}

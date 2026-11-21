@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "input": "[local path omitted]",
+  "output": "[local path omitted]",
+  "geometryUnchanged": true,
+  "animationUnchanged": true,
+  "contract": {
+    "geometry": "8941090dc09856a0ee6e646fc42c1e73b8931a28d3c2bc27a9fd8022d416fade",
+    "animation": "6002ed87ede17442c571c90c2e0c38d4544aa3701b9c09e4a0d3adce7ebd19d5",
+    "meshes": 199,
+    "bones": 100,
+    "actions": 13
+  },
+  "repair": {
+    "material": "HeroSkin",
+    "image": "HeroSkin_ORM",
+    "size": [
+      1024,
+      1024
+    ],
+    "imageCountUnchanged": true,
+    "roughnessMin": 0.40000003576278687,
+    "roughnessMax": 0.529411792755127,
+    "roughnessMean": 0.469174325466156,
+    "channelContract": "R=1, G=existing skin roughness, B=0 metallic",
+    "nodeContract": "image Color -> Separate Color -> Green Roughness + Blue Metallic"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "createdAt": "2026-11-21",
+  "method": "Built-in image_gen / imagegen skill",
+  "asset": "docs/character-research-overview.png",
+  "width": 1672,
+  "height": 941,
+  "bytes": 2263133,
+  "sha256": "3233230c348cd00cfbded0b82eb4af09a90a5ce2426701878a2e2a4c36cb344d",
+  "prompt": "docs/character-research-overview.prompt.txt",
+  "promptSha256": "72f1ffb9302f7518a83221544209a0b0d3af450d952013b8c29d8c6123fc2e25",
+  "references": [
+    {
+      "path": "docs/warlord-v5-portrait.png",
+      "sha256": "f01f2960d1e4c25d393236d2a3f0ff41b15f7594cf140e0aca3ed4da69bc6de6",
+      "role": "Documentary visual reference from existing actual browser/combat capture; generative compositing may reinterpret pixels."
+    },
+    {
+      "path": "docs/warlord-v5-slam.png",
+      "sha256": "ae1159a4ea516ae6af2ac5b57d6e721f1f519fbb5d535de21f6f1920e7830a3c",
+      "role": "Documentary visual reference from existing actual browser/combat capture; generative compositing may reinterpret pixels."
+    }
+  ],
+  "scope": "AI-generated research summary infographic using existing real-result references. It is not a new combat recording, not a screenshot of the research webpage, and not a new or improved game character asset.",
+  "review": {
+    "chineseHeadings": "visually checked",
+    "presentVsFuture": "verified and proposed paths labelled separately",
+    "originalHeroAppearance": "reference appearance retained; exact pixel identity not claimed"
+  },
+  "nativeOutput": "exec-ab976f0a-60d8-42c2-bb17-80ed83d0b356.png"
+}

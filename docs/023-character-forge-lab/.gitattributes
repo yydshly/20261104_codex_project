@@ -1,0 +1,12 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.glb binary
+*.blend binary
+*.fbx binary
+*.mp4 binary
+*.webm binary
+*.zip binary
+# Preserve third-party source and license formatting.
+vendor/** -whitespace
+**/LICENSE* -whitespace

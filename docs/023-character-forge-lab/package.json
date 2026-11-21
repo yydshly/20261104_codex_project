@@ -1,0 +1,20 @@
+{
+  "name": "character-forge-lab",
+  "version": "5.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/game-logic.test.mjs tests/warlord-demo.test.mjs tests/warlord-logic.test.mjs tests/warlord-secondary.test.mjs",
+    "verify": "node scripts/verify-publication.mjs && node scripts/verify-research.mjs && npm test",
+    "research:prompts": "node scripts/export-research-prompts.mjs"
+  },
+  "devDependencies": {
+    "@gltf-transform/core": "^4.5.1",
+    "@gltf-transform/extensions": "^4.5.1",
+    "@gltf-transform/functions": "^4.5.1",
+    "meshoptimizer": "^1.3.0",
+    "sharp": "^0.35.5"
+  }
+}

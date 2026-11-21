@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "runtimeSha256": "1f3fc19564ebfd7bf1ae8e9c27ed9f3e041c55bfde18f1c43f35e4bab2ea7838",
+  "sourceSha256": "4a1fcca4d34f5b8aafb1115dc30be493562a03dbf0bbbd1e8944dad30f42fec1",
+  "animations": 13,
+  "exactlyPreservedAnimationChannels": 3900,
+  "allInputKeysAndInterpolationsIdentical": true,
+  "clothTopologyAcrossLod": "verified by scripts/verify-warlord-lod.mjs",
+  "materialPatch": "material-validation.json confirms geometry, weights, bones and action fingerprints unchanged"
+}

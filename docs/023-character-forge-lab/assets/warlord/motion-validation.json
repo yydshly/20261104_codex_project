@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "input": "[local path omitted]",
+  "output": "[local path omitted]",
+  "boneCount": 100,
+  "newClothBones": 30,
+  "skinnedClothVertices": 1813,
+  "maxWristDistanceToShaftMeters": 0.050733832093450726,
+  "actions": {
+    "Idle": {
+      "frames": 201,
+      "maxWristShaftDistance": 0.050699
+    },
+    "Walk": {
+      "frames": 111,
+      "maxWristShaftDistance": 0.050699
+    },
+    "Run": {
+      "frames": 81,
+      "maxWristShaftDistance": 0.050699
+    },
+    "Attack1": {
+      "frames": 73,
+      "maxWristShaftDistance": 0.050699
+    },
+    "Attack2": {
+      "frames": 83,
+      "maxWristShaftDistance": 0.0507
+    },
+    "Attack3": {
+      "frames": 101,
+      "maxWristShaftDistance": 0.050734
+    },
+    "Sweep": {
+      "frames": 109,
+      "maxWristShaftDistance": 0.050699
+    },
+    "Guard": {
+      "frames": 33,
+      "maxWristShaftDistance": 0.050699
+    },
+    "LeapSlam": {
+      "frames": 129,
+      "maxWristShaftDistance": 0.050704
+    },
+    "Hit": {
+      "frames": 56,
+      "maxWristShaftDistance": 0.050699
+    },
+    "Death": {
+      "frames": 121,
+      "maxWristShaftDistance": 0.050699
+    },
+    "Dodge": {
+      "frames": 41,
+      "maxWristShaftDistance": 0.050699
+    },
+    "Victory": {
+      "frames": 161,
+      "maxWristShaftDistance": 0.050699
+    }
+  },
+  "method": "Five four-joint cloth chains; two five-joint silk crests; ordinary skinned, baked action curves; torso impulse and dual hand IK; fixed contact time and zero root translation."
+}

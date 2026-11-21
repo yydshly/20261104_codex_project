@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-12",
+  "runtime": "Current desktop in-app browser / real WebGL gameplay",
+  "load": "passed",
+  "automaticTrial": {
+    "status": "won",
+    "seconds": 19.4,
+    "destroyedTargets": 3,
+    "effectiveHits": 15,
+    "dodges": 3,
+    "remainingHealth": 100,
+    "proof": "docs/game-victory.jpg"
+  },
+  "manualChecks": [
+    "W moves the character and selects Walk",
+    "J selects Attack1 and spends 8 stamina",
+    "Melee displays 18 damage",
+    "Crystal pulse reduces health to 82 and displays hit feedback",
+    "Retry starts a fresh active trial"
+  ],
+  "nativeGpu": "Initialized with OpenGL 3.3 / RTX 4070; manual visual inspection not completed",
+  "interruption": "User pressed physical Escape and stopped Computer Use. No further UI actions were taken.",
+  "mobileGpu": "not verified"
+}

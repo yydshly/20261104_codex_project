@@ -1,0 +1,112 @@
+{
+  "status": "passed",
+  "scope": "Current professional GLB validation, native Godot test report, shared asset identity, local web entry points, and distribution ZIP integrity. This script does not claim native GPU or manual-input validation.",
+  "logicTests": {
+    "command": "node --test tests/game-logic.test.mjs",
+    "execution": "npm run verify runs these tests before this aggregation script."
+  },
+  "checks": [
+    {
+      "check": "Professional character: current skeleton, weights, textures and 16 actions",
+      "status": "passed",
+      "detail": {
+        "bones": 41,
+        "triangles": 5274,
+        "actions": 16,
+        "embeddedImages": 1,
+        "license": "CC0-1.0",
+        "sha256": "2da6868842d1b9aedb6deb8d566826f714ccc1f356b2a1ff0bbb5d95bf54669b"
+      }
+    },
+    {
+      "check": "Godot native report: all 19 gameplay checks passed",
+      "status": "passed",
+      "detail": {
+        "engine": "4.5.2-stable (official)",
+        "passed": 19,
+        "failed": 0,
+        "scope": "Real Godot headless import, physics, animation selection, combo timing, damage, invulnerability, victory, death and reset. Native GPU rendering and manual input were not verified by this script."
+      }
+    },
+    {
+      "check": "Required gameplay, source, license, test and engine files exist",
+      "status": "passed",
+      "detail": {
+        "required": 46
+      }
+    },
+    {
+      "check": "Web and Godot use the identical professional character",
+      "status": "passed",
+      "detail": {
+        "sha256": "2da6868842d1b9aedb6deb8d566826f714ccc1f356b2a1ff0bbb5d95bf54669b",
+        "identical": true
+      }
+    },
+    {
+      "check": "Index, play and study resolve local resources and section anchors",
+      "status": "passed",
+      "detail": {
+        "pages": [
+          "index.html",
+          "play.html",
+          "study.html"
+        ],
+        "references": 50,
+        "sectionAnchors": 20,
+        "selfArchive": "Checked separately after packaging"
+      }
+    },
+    {
+      "check": "Distribution ZIP: manifest hashes, required files and current sources",
+      "status": "passed",
+      "detail": {
+        "status": "passed",
+        "path": "deliverables/emberfall-game-ready-kit.zip",
+        "bytes": 8482802,
+        "entries": 78,
+        "comparedCurrentFiles": 76,
+        "sha256": "fd7d17f076af60ac21818b942ec6160b5f21e70c75435bd3f6ea272438b33c7e"
+      }
+    }
+  ],
+  "hero": {
+    "bones": 41,
+    "triangles": 5274,
+    "actions": 16,
+    "embeddedImages": 1,
+    "license": "CC0-1.0",
+    "sha256": "2da6868842d1b9aedb6deb8d566826f714ccc1f356b2a1ff0bbb5d95bf54669b"
+  },
+  "engine": {
+    "engine": "4.5.2-stable (official)",
+    "passed": 19,
+    "failed": 0,
+    "scope": "Real Godot headless import, physics, animation selection, combo timing, damage, invulnerability, victory, death and reset. Native GPU rendering and manual input were not verified by this script."
+  },
+  "files": {
+    "required": 46
+  },
+  "sharedAsset": {
+    "sha256": "2da6868842d1b9aedb6deb8d566826f714ccc1f356b2a1ff0bbb5d95bf54669b",
+    "identical": true
+  },
+  "webLinks": {
+    "pages": [
+      "index.html",
+      "play.html",
+      "study.html"
+    ],
+    "references": 50,
+    "sectionAnchors": 20,
+    "selfArchive": "Checked separately after packaging"
+  },
+  "archive": {
+    "status": "passed",
+    "path": "deliverables/emberfall-game-ready-kit.zip",
+    "bytes": 8482802,
+    "entries": 78,
+    "comparedCurrentFiles": 76,
+    "sha256": "fd7d17f076af60ac21818b942ec6160b5f21e70c75435bd3f6ea272438b33c7e"
+  }
+}

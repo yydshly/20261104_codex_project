@@ -1,0 +1,309 @@
+{
+  "name": "KayKit Knight",
+  "author": "Kay Lousberg",
+  "pack": "KayKit Adventurers Character Pack 1.0",
+  "license": "CC0-1.0",
+  "source": "https://github.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0",
+  "commit": "672074b73ba276876a19e8816ecdc5241817ab47",
+  "originalSha256": "60428e3abc09ba83e595d256e3af8c5c976b46cdae599f0802fc82b4a3445168",
+  "heroSha256": "2da6868842d1b9aedb6deb8d566826f714ccc1f356b2a1ff0bbb5d95bf54669b",
+  "generated": "2026-11-12",
+  "format": "glTF 2.0 binary, embedded 1024x1024 PNG texture",
+  "height": 1.85,
+  "units": "meters",
+  "forward": "+Z",
+  "up": "+Y",
+  "groundOffset": 0,
+  "normalizationScale": 0.7500267478835851,
+  "sourceBounds": {
+    "min": [
+      -0.9712533354759216,
+      -0.000026527046429691836,
+      -0.5421846998356443
+    ],
+    "max": [
+      0.9712533354759216,
+      2.4665521719403785,
+      0.7114352094508547
+    ]
+  },
+  "bones": 41,
+  "meshes": 10,
+  "triangles": 5274,
+  "bytes": 942760,
+  "controller": {
+    "radius": 0.3,
+    "height": 1.55,
+    "centerY": 0.775
+  },
+  "attachments": {
+    "rightHand": "handslot.r",
+    "leftHand": "handslot.l",
+    "equipped": [
+      "1H_Sword",
+      "Badge_Shield",
+      "Knight_Helmet",
+      "Knight_Cape"
+    ]
+  },
+  "removedAccessories": [
+    "1H_Sword_Offhand",
+    "Rectangle_Shield",
+    "Round_Shield",
+    "Spike_Shield",
+    "2H_Sword"
+  ],
+  "animations": [
+    {
+      "name": "Attack1",
+      "sourceName": "1H_Melee_Attack_Chop",
+      "duration": 1.0666666666666667,
+      "loop": false
+    },
+    {
+      "name": "Attack2",
+      "sourceName": "1H_Melee_Attack_Slice_Diagonal",
+      "duration": 1,
+      "loop": false
+    },
+    {
+      "name": "Attack3",
+      "sourceName": "1H_Melee_Attack_Slice_Horizontal",
+      "duration": 1.0666666666666667,
+      "loop": false
+    },
+    {
+      "name": "BlockHit",
+      "sourceName": "Block_Hit",
+      "duration": 1.0666666666666667,
+      "loop": false
+    },
+    {
+      "name": "Block",
+      "sourceName": "Blocking",
+      "duration": 1.0666666666666667,
+      "loop": true
+    },
+    {
+      "name": "Victory",
+      "sourceName": "Cheer",
+      "duration": 1.6666666666666667,
+      "loop": false
+    },
+    {
+      "name": "Death",
+      "sourceName": "Death_A",
+      "duration": 0.8,
+      "loop": false
+    },
+    {
+      "name": "DodgeBack",
+      "sourceName": "Dodge_Backward",
+      "duration": 0.4,
+      "loop": false
+    },
+    {
+      "name": "Dodge",
+      "sourceName": "Dodge_Forward",
+      "duration": 0.4,
+      "loop": false
+    },
+    {
+      "name": "Hit",
+      "sourceName": "Hit_A",
+      "duration": 0.6666666666666666,
+      "loop": false
+    },
+    {
+      "name": "Idle",
+      "sourceName": "Idle",
+      "duration": 1.0666666666666667,
+      "loop": true
+    },
+    {
+      "name": "JumpIdle",
+      "sourceName": "Jump_Idle",
+      "duration": 1.0666666666666667,
+      "loop": true
+    },
+    {
+      "name": "JumpLand",
+      "sourceName": "Jump_Land",
+      "duration": 0.6666666666666666,
+      "loop": false
+    },
+    {
+      "name": "JumpStart",
+      "sourceName": "Jump_Start",
+      "duration": 0.6,
+      "loop": false
+    },
+    {
+      "name": "Run",
+      "sourceName": "Running_A",
+      "duration": 0.8,
+      "loop": true
+    },
+    {
+      "name": "Walk",
+      "sourceName": "Walking_A",
+      "duration": 1.0666666666666667,
+      "loop": true
+    }
+  ],
+  "rootMotion": {
+    "mode": "in-place",
+    "details": "Root X/Z locked to its first sample. Dodge hips linear endpoint X/Z drift removed. Vertical bob and intra-pose motion preserved.",
+    "originalDisplacements": [
+      {
+        "clip": "Attack1",
+        "node": "root",
+        "originalPlanarEnd": [
+          0,
+          0
+        ]
+      },
+      {
+        "clip": "Attack2",
+        "node": "root",
+        "originalPlanarEnd": [
+          0,
+          0
+        ]
+      },
+      {
+        "clip": "Attack3",
+        "node": "root",
+        "originalPlanarEnd": [
+          0,
+          0
+        ]
+      },
+      {
+        "clip": "BlockHit",
+        "node": "root",
+        "originalPlanarEnd": [
+          0,
+          0
+        ]
+      },
+      {
+        "clip": "Block",
+        "node": "root",
+        "originalPlanarEnd": [
+          0,
+          0
+        ]
+      },
+      {
+        "clip": "Victory",
+        "node": "root",
+        "originalPlanarEnd": [
+          0,
+          0
+        ]
+      },
+      {
+        "clip": "Death",
+        "node": "root",
+        "originalPlanarEnd": [
+          0,
+          0
+        ]
+      },
+      {
+        "clip": "DodgeBack",
+        "node": "root",
+        "originalPlanarEnd": [
+          -1.5497205652081902e-7,
+          -0.6499999761581421
+        ]
+      },
+      {
+        "clip": "DodgeBack",
+        "node": "hips",
+        "originalPlanarEnd": [
+          4.104870399146421e-8,
+          -0.1721707582473755
+        ]
+      },
+      {
+        "clip": "Dodge",
+        "node": "root",
+        "originalPlanarEnd": [
+          1.8447892102813057e-9,
+          0.25
+        ]
+      },
+      {
+        "clip": "Dodge",
+        "node": "hips",
+        "originalPlanarEnd": [
+          -1.9764161862667606e-8,
+          0.08289691805839539
+        ]
+      },
+      {
+        "clip": "Hit",
+        "node": "root",
+        "originalPlanarEnd": [
+          0,
+          0
+        ]
+      },
+      {
+        "clip": "Idle",
+        "node": "root",
+        "originalPlanarEnd": [
+          0,
+          0
+        ]
+      },
+      {
+        "clip": "JumpIdle",
+        "node": "root",
+        "originalPlanarEnd": [
+          0,
+          0
+        ]
+      },
+      {
+        "clip": "JumpLand",
+        "node": "root",
+        "originalPlanarEnd": [
+          0,
+          0
+        ]
+      },
+      {
+        "clip": "JumpStart",
+        "node": "root",
+        "originalPlanarEnd": [
+          0,
+          0
+        ]
+      },
+      {
+        "clip": "Run",
+        "node": "root",
+        "originalPlanarEnd": [
+          0,
+          0
+        ]
+      },
+      {
+        "clip": "Walk",
+        "node": "root",
+        "originalPlanarEnd": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "notes": [
+    "Dodge is an authored 0.4-second forward quickstep/duck, not a somersault/roll.",
+    "hero.blend is an imported/organized editable derivative of the free CC0 GLB, not the paid KayKit SOURCE pack.",
+    "Original character, topology, texture and base animations are by Kay Lousberg. Codex only prepared and integrated this asset."
+  ]
+}

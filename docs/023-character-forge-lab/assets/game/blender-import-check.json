@@ -1,0 +1,115 @@
+{
+  "status": "passed",
+  "blender": "4.5.14 LTS",
+  "actions": [
+    {
+      "name": "Idle",
+      "duration": 1.0666666666666667,
+      "frameRange": [
+        0,
+        32
+      ],
+      "bones": 41
+    },
+    {
+      "name": "Walk",
+      "duration": 1.0666666666666667,
+      "frameRange": [
+        0,
+        32
+      ],
+      "bones": 41
+    },
+    {
+      "name": "Run",
+      "duration": 0.8,
+      "frameRange": [
+        0,
+        24
+      ],
+      "bones": 41
+    },
+    {
+      "name": "Attack1",
+      "duration": 1.0666666666666667,
+      "frameRange": [
+        0,
+        32
+      ],
+      "bones": 41
+    },
+    {
+      "name": "Attack2",
+      "duration": 1,
+      "frameRange": [
+        0,
+        30
+      ],
+      "bones": 41
+    },
+    {
+      "name": "Attack3",
+      "duration": 1.0666666666666667,
+      "frameRange": [
+        0,
+        32
+      ],
+      "bones": 41
+    },
+    {
+      "name": "Block",
+      "duration": 1.0666666666666667,
+      "frameRange": [
+        0,
+        32
+      ],
+      "bones": 41
+    },
+    {
+      "name": "BlockHit",
+      "duration": 1.0666666666666667,
+      "frameRange": [
+        0,
+        32
+      ],
+      "bones": 41
+    },
+    {
+      "name": "Hit",
+      "duration": 0.6666666666666666,
+      "frameRange": [
+        0,
+        20
+      ],
+      "bones": 41
+    },
+    {
+      "name": "Death",
+      "duration": 0.8,
+      "frameRange": [
+        0,
+        24
+      ],
+      "bones": 41
+    },
+    {
+      "name": "Dodge",
+      "duration": 0.4,
+      "frameRange": [
+        0,
+        12
+      ],
+      "bones": 41
+    },
+    {
+      "name": "Victory",
+      "duration": 1.6666666666666667,
+      "frameRange": [
+        0,
+        50
+      ],
+      "bones": 41
+    }
+  ],
+  "workFileProvenance": "Editable derivative imported from free KayKit GLB; not author SOURCE pack."
+}

@@ -1,0 +1,129 @@
+{
+  "status": "passed",
+  "assetSha256": "1f3fc19564ebfd7bf1ae8e9c27ed9f3e041c55bfde18f1c43f35e4bab2ea7838",
+  "archive": {
+    "path": "engine/Warlord-Godot-sourcekit.zip",
+    "bytes": 11811277,
+    "sha256": "4bb8df84effb31b5371e049e921e7801709d735db684d79dbd567fddcf1271c8",
+    "entries": 34,
+    "crc": "passed",
+    "runtimeCodeHashesMatch": true
+  },
+  "beforeImport": {
+    "editorCachePresent": false,
+    "extractedTextures": 0
+  },
+  "afterImport": {
+    "extractedTextures": 25,
+    "report": {
+      "asset_sha256": "1f3fc19564ebfd7bf1ae8e9c27ed9f3e041c55bfde18f1c43f35e4bab2ea7838",
+      "bones": 100,
+      "clips": 13,
+      "materials": {
+        "ArmorDark": {
+          "maps": {
+            "baseColor": [
+              1024,
+              1024
+            ],
+            "normal": [
+              512,
+              512
+            ],
+            "roughness": [
+              512,
+              512
+            ]
+          },
+          "normalEnabled": true,
+          "roughnessChannel": 1
+        },
+        "ArmorGold": {
+          "maps": {
+            "baseColor": [
+              1024,
+              1024
+            ],
+            "normal": [
+              512,
+              512
+            ],
+            "roughness": [
+              512,
+              512
+            ]
+          },
+          "normalEnabled": true,
+          "roughnessChannel": 1
+        },
+        "Blade": {
+          "maps": {
+            "baseColor": [
+              1024,
+              1024
+            ],
+            "normal": [
+              512,
+              512
+            ],
+            "roughness": [
+              512,
+              512
+            ]
+          },
+          "normalEnabled": true,
+          "roughnessChannel": 1
+        },
+        "ClothRed": {
+          "maps": {
+            "baseColor": [
+              1024,
+              1024
+            ],
+            "normal": [
+              512,
+              512
+            ],
+            "roughness": [
+              512,
+              512
+            ]
+          },
+          "normalEnabled": true,
+          "roughnessChannel": 1
+        },
+        "HeroSkin": {
+          "maps": {
+            "baseColor": [
+              1024,
+              1024
+            ],
+            "normal": [
+              512,
+              512
+            ],
+            "roughness": [
+              512,
+              512
+            ]
+          },
+          "normalEnabled": true,
+          "roughnessChannel": 1
+        }
+      },
+      "meshInstances": 28,
+      "meshes/generate_lods": true,
+      "scope": "Fresh sourcekit import and real texture/skeleton/animation resources only. Not GPU pixel or performance acceptance.",
+      "status": "passed"
+    }
+  },
+  "sourceSha256": {
+    "arena.gd": "ef782412c7b535b4d6b498ab717d2d9ae44a333f680a282ea00579d6c56165e5",
+    "combatant.gd": "8189d2f23bdeb819115330051ded6407495547fced3ea5b56a7fc0150df5262b",
+    "secondary_constraints.gd": "a0b3b95dfd488dd63021fec6c4c145777f390a8529461466c905e1a0dbd7de29",
+    "smoke_test.gd": "b133980a66fe25f0a82dbf8057a19796b30ca140a764e0b86967e7eaed8346cb",
+    "secondary_smoke_test.gd": "5d0e5cace4cfdd4bba119b8e00a3cd078353ddb00a663639828c6b24e4f0fcab"
+  },
+  "nativeGpuFrameCaptured": false,
+  "scope": "The exact distributed sourcekit was extracted into a new project directory without editor cache or extracted textures, imported by official Godot 4.5.2 in headless mode, and loaded with real imported material resources. This is not GPU pixel or native performance validation."
+}

@@ -1,0 +1,105 @@
+{
+  "status": "passed",
+  "triangles": 5274,
+  "bones": 41,
+  "weightedVertices": 3716,
+  "embeddedImages": 1,
+  "animations": [
+    {
+      "name": "Attack1",
+      "varyingChannels": 23
+    },
+    {
+      "name": "Attack2",
+      "varyingChannels": 25
+    },
+    {
+      "name": "Attack3",
+      "varyingChannels": 21
+    },
+    {
+      "name": "BlockHit",
+      "varyingChannels": 20
+    },
+    {
+      "name": "Block",
+      "varyingChannels": 17
+    },
+    {
+      "name": "Victory",
+      "varyingChannels": 26
+    },
+    {
+      "name": "Death",
+      "varyingChannels": 37
+    },
+    {
+      "name": "DodgeBack",
+      "varyingChannels": 27
+    },
+    {
+      "name": "Dodge",
+      "varyingChannels": 34
+    },
+    {
+      "name": "Hit",
+      "varyingChannels": 21
+    },
+    {
+      "name": "Idle",
+      "varyingChannels": 17
+    },
+    {
+      "name": "JumpIdle",
+      "varyingChannels": 22
+    },
+    {
+      "name": "JumpLand",
+      "varyingChannels": 27
+    },
+    {
+      "name": "JumpStart",
+      "varyingChannels": 25
+    },
+    {
+      "name": "Run",
+      "varyingChannels": 34
+    },
+    {
+      "name": "Walk",
+      "varyingChannels": 29
+    }
+  ],
+  "files": [
+    {
+      "name": "hero.glb",
+      "bytes": 942760,
+      "sha256": "2da6868842d1b9aedb6deb8d566826f714ccc1f356b2a1ff0bbb5d95bf54669b"
+    },
+    {
+      "name": "hero.blend",
+      "bytes": 6740099,
+      "sha256": "3da739c7ed47ce0cac45acc16b7d25b406b7a824fd8f195ac1e64e449af71766"
+    },
+    {
+      "name": "hero.fbx",
+      "bytes": 4010492,
+      "sha256": "d0beb965edc0f25775d16f66ec16a314288a1974aaf93b1dd48b9674598c12a7"
+    },
+    {
+      "name": "original.glb",
+      "bytes": 3659532,
+      "sha256": "60428e3abc09ba83e595d256e3af8c5c976b46cdae599f0802fc82b4a3445168"
+    },
+    {
+      "name": "LICENSE-KayKit.txt",
+      "bytes": 892,
+      "sha256": "50e3fb7858f1351436923f0fd4bb4ea9198db1248bb2325b46a66af94aac517e"
+    },
+    {
+      "name": "character.json",
+      "bytes": 6530,
+      "sha256": "c7b075d0685216ef13bf15f7380b984deb9d30e2eae7bdaef77bcdc2e184c33a"
+    }
+  ]
+}

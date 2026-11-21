@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "format": "glTF 2.0 binary",
+  "freshBlenderImport": true,
+  "clipCount": 13,
+  "durations": {
+    "Attack1": 0.7200000286102295,
+    "Attack2": 0.8199999928474426,
+    "Attack3": 1,
+    "Death": 1.2000000476837158,
+    "Dodge": 0.4000000059604645,
+    "Guard": 0.3199999928474426,
+    "Hit": 0.550000011920929,
+    "Idle": 2,
+    "LeapSlam": 1.2799999713897705,
+    "Run": 0.800000011920929,
+    "Sweep": 1.0800000429153442,
+    "Victory": 1.600000023841858,
+    "Walk": 1.100000023841858
+  },
+  "rootMaxLocalTranslation": 0,
+  "maxWristDistanceToShaftMeters": {
+    "Idle": 0.0507,
+    "Walk": 0.0507,
+    "Run": 0.0507,
+    "Attack1": 0.0507,
+    "Attack2": 0.0507,
+    "Attack3": 0.05073,
+    "Sweep": 0.0507,
+    "Guard": 0.0507,
+    "LeapSlam": 0.0507,
+    "Hit": 0.0507,
+    "Death": 0.0507,
+    "Dodge": 0.0507,
+    "Victory": 0.0507
+  },
+  "landingTipHeightMeters": -0.00166,
+  "landingCompression": {
+    "pelvisCompressionMeters": 0.17398,
+    "kneeBendDegrees": {
+      "l": 74.13,
+      "r": 69.99
+    },
+    "additionalChestLeanDegrees": 11.72,
+    "ankleDriftMeters": 0.000001,
+    "recoveredPelvisHeightMeters": 1.01611
+  },
+  "attachmentNodes": [
+    "HalberdTip",
+    "HalberdGrip"
+  ],
+  "meshes": 28,
+  "bytes": 19074680,
+  "sha256": "1f3fc19564ebfd7bf1ae8e9c27ed9f3e041c55bfde18f1c43f35e4bab2ea7838"
+}

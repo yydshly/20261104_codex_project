@@ -1,0 +1,168 @@
+{
+  "name": "赤霄 / CHIXIAO",
+  "bodyHeight": 2.05,
+  "height": 2.05,
+  "forward": "+Z",
+  "up": "+Y",
+  "groundOffset": 0,
+  "bodyProportion": "Adult muscular body; original Quaternius Superhero Male proportions, not a stretched chibi.",
+  "sourceAuthor": "Quaternius",
+  "bodySource": "https://quaternius.com/packs/universalbasecharacters.html",
+  "animationSource": [
+    "https://quaternius.com/packs/universalanimationlibrary.html",
+    "https://quaternius.com/packs/universalanimationlibrary2.html"
+  ],
+  "license": "CC0-1.0",
+  "armorAndWeapon": "Original Blender-created dark iron/red/brass armor and asymmetrical halberd.",
+  "bones": 100,
+  "meshes": 28,
+  "tipNode": "HalberdTip",
+  "gripNode": "HalberdGrip",
+  "weaponControl": "Halberd_Control",
+  "materials": [
+    "ArmorDark",
+    "ArmorGold",
+    "ClothRed",
+    "Blade"
+  ],
+  "animations": [
+    {
+      "name": "Idle",
+      "duration": 2,
+      "hitTime": null,
+      "loop": true
+    },
+    {
+      "name": "Walk",
+      "duration": 1.1,
+      "hitTime": null,
+      "loop": true
+    },
+    {
+      "name": "Run",
+      "duration": 0.8,
+      "hitTime": null,
+      "loop": true
+    },
+    {
+      "name": "Attack1",
+      "duration": 0.72,
+      "hitTime": 0.23,
+      "loop": false
+    },
+    {
+      "name": "Attack2",
+      "duration": 0.82,
+      "hitTime": 0.3,
+      "loop": false
+    },
+    {
+      "name": "Attack3",
+      "duration": 1,
+      "hitTime": 0.4,
+      "loop": false
+    },
+    {
+      "name": "Sweep",
+      "duration": 1.08,
+      "hitTime": 0.42,
+      "loop": false
+    },
+    {
+      "name": "Guard",
+      "duration": 0.32,
+      "hitTime": null,
+      "loop": false
+    },
+    {
+      "name": "LeapSlam",
+      "duration": 1.28,
+      "hitTime": 0.92,
+      "loop": false,
+      "takeoffTime": 0.18,
+      "landingTime": 0.92,
+      "worldJumpOwner": "game"
+    },
+    {
+      "name": "Dodge",
+      "duration": 0.4,
+      "hitTime": null,
+      "loop": false
+    },
+    {
+      "name": "Hit",
+      "duration": 0.55,
+      "hitTime": null,
+      "loop": false
+    },
+    {
+      "name": "Death",
+      "duration": 1.2,
+      "hitTime": null,
+      "loop": false
+    },
+    {
+      "name": "Victory",
+      "duration": 1.6,
+      "hitTime": null,
+      "loop": false
+    }
+  ],
+  "exportedAnimations": [
+    "Attack1",
+    "Attack2",
+    "Attack3",
+    "Death",
+    "Dodge",
+    "Guard",
+    "Hit",
+    "Idle",
+    "LeapSlam",
+    "Run",
+    "Sweep",
+    "Victory",
+    "Walk"
+  ],
+  "baking": "Both hand targets constrain the same halberd shaft; evaluated 2-bone arm IK baked into pose keys. Root motion controlled by game.",
+  "files": [
+    "warlord.glb",
+    "warlord-lod1.glb",
+    "warlord-lod2.glb",
+    "warlord.blend",
+    "optimization.json",
+    "collision.json"
+  ],
+  "sha256": "1f3fc19564ebfd7bf1ae8e9c27ed9f3e041c55bfde18f1c43f35e4bab2ea7838",
+  "revision": "05 / sculpted armor, planted motion and runtime LOD",
+  "refinements": [
+    "Sculpted brow, cheek, jaw, neck and eyelids",
+    "Curved beast-mask armor, closed segmented boots and beveled halberd",
+    "Explicit PBR skin/armor maps with local environment reflections",
+    "100Hz baked mantle/plume clearance, runtime capsules and foot planting",
+    "Shared skeleton, compatible skinned-mesh batches and geometry-only LODs"
+  ],
+  "lods": [
+    {
+      "level": 1,
+      "file": "warlord-lod1.glb",
+      "ratio": 0.35,
+      "error": 0.004,
+      "triangles": 97638,
+      "primitives": 29,
+      "bytes": 6327224,
+      "sha256": "04898256bca0d49eac3a6e909f286394baf502bdafe5d6892e9f78584b48bbde",
+      "geometryOnly": true
+    },
+    {
+      "level": 2,
+      "file": "warlord-lod2.glb",
+      "ratio": 0.14,
+      "error": 0.009,
+      "triangles": 43299,
+      "primitives": 29,
+      "bytes": 4000224,
+      "sha256": "32a0098ea267376f1092b4876480dd9863e54cacc9a23a168e8c14fc8f9b967e",
+      "geometryOnly": true
+    }
+  ]
+}

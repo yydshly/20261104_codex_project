@@ -1,0 +1,51 @@
+{
+  "assetValidation": "passed",
+  "skinnedMeshes": 51,
+  "triangles": 3194,
+  "weightVertices": 5610,
+  "bones": 20,
+  "animations": [
+    {
+      "name": "Idle",
+      "duration": 3,
+      "changingChannels": 3
+    },
+    {
+      "name": "Slash",
+      "duration": 2.4000000953674316,
+      "changingChannels": 8
+    },
+    {
+      "name": "Walk",
+      "duration": 1.2000000476837158,
+      "changingChannels": 12
+    }
+  ],
+  "files": [
+    {
+      "name": "forge-knight.glb",
+      "bytes": 419272,
+      "sha256": "8943f8650beb6fa1461fafcd2ec71615e8620a77d25633212ab60e767941eade"
+    },
+    {
+      "name": "forge-knight.blend",
+      "bytes": 1854401,
+      "sha256": "2b640d7fb849f06027c7223ef1cb22779a8a8c4e24041a64f196473b84ac8c75"
+    },
+    {
+      "name": "forge-knight.fbx",
+      "bytes": 1593356,
+      "sha256": "6b41b733e8d448d4c24b545f08837d95994fc560c253a4da2c09f47978fe02ba"
+    },
+    {
+      "name": "knight-preview.png",
+      "bytes": 884133,
+      "sha256": "65e5a430c8570f24d3ac30e05701f69cbfce42a2eb8d180f992b200a115f5bed"
+    },
+    {
+      "name": "character-report.json",
+      "bytes": 1091,
+      "sha256": "29c448986ca60a0793197af7d51a004d72f54651b4a03635c8624a56e00ae582"
+    }
+  ]
+}

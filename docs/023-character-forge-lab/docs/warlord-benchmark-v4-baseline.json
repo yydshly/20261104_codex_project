@@ -1,0 +1,125 @@
+{
+  "status": "reported",
+  "asset": {
+    "sha256": "469cbadf2610de8e89fe1a34000d2e4e2749e28dc836d905d8cb106d4b0da437",
+    "bytes": 54799008,
+    "meshNodes": 165,
+    "materialCount": 16,
+    "bones": 100,
+    "clips": 13,
+    "trianglesPerActor": 167366,
+    "drawPrimitivesPerActor": 170,
+    "skinnedVerticesPerActor": 98823,
+    "actorCount": 4,
+    "sceneActorEstimate": {
+      "triangles": 669464,
+      "geometryDrawPrimitives": 680,
+      "skinnedVertices": 395292
+    },
+    "embeddedImageCount": 30,
+    "sharedTextureRgba8WithMipmapsEstimateBytes": 167772160,
+    "estimateScope": "Asset-only counts. Four clones may share geometry/textures. Frustum culling, pass count, shadows, particles and arena geometry change real draws. RGBA8+mip estimate is not measured VRAM. No FPS is inferred from these counts."
+  },
+  "browser": {
+    "status": "measured",
+    "source": "Supplied actual browser RAF/renderer.info telemetry; no synthetic samples generated.",
+    "scenario": "Repeated ordinary autopilot battles, skill FX, AI, deaths and resets; normal simulation speed; visible browser tab.",
+    "startedAt": "2026-11-12T12:22:03.328Z",
+    "endedAt": "2026-11-12T12:24:03.260Z",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "dpr": 1,
+      "pixelRatio": 1
+    },
+    "context": {
+      "api": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4070 Laptop GPU (0x00002860) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+    },
+    "frameSamples": 5742,
+    "visibleDurationSeconds": 120.004,
+    "sampledSeconds": 120.004,
+    "timingCoverageRatio": 1,
+    "minimumLongRunSeconds": 120,
+    "averageFps": 47.848,
+    "frameMs": {
+      "mean": 20.899,
+      "p50": 20.8,
+      "p95": 33.2,
+      "p99": 41.6,
+      "maximum": 1712.6
+    },
+    "hitches": {
+      "over33.333ms": 204,
+      "over50ms": 28,
+      "over100ms": 5,
+      "over250ms": 1
+    },
+    "renderer": {
+      "calls": {
+        "min": 919,
+        "max": 1770,
+        "mean": 1507.383,
+        "first": 1594,
+        "last": 919,
+        "change": -675
+      },
+      "triangles": {
+        "min": 850294,
+        "max": 1688220,
+        "mean": 1427014.983,
+        "first": 1519326,
+        "last": 850294,
+        "change": -669032
+      },
+      "geometries": {
+        "min": 235,
+        "max": 259,
+        "mean": 257.808,
+        "first": 235,
+        "last": 258,
+        "change": 23
+      },
+      "textures": {
+        "min": 545,
+        "max": 545,
+        "mean": 545,
+        "first": 545,
+        "last": 545,
+        "change": 0
+      },
+      "programs": {
+        "min": 33,
+        "max": 50,
+        "mean": 49.492,
+        "first": 33,
+        "last": 50,
+        "change": 17
+      }
+    },
+    "roundsCompleted": 13,
+    "sessionWins": 13,
+    "errors": [],
+    "assessmentScope": "Frame timing is browser-visible cadence, not isolated GPU timing. Resource increases are reported as observations and are not automatically classified as leaks. A short run is never labelled a long-duration pass."
+  },
+  "nativeGpu": {
+    "arguments": [
+      "--script",
+      "res://scripts/offscreen_capture.gd"
+    ],
+    "displayDriver": "headless",
+    "engine": "4.5.2-stable (official)",
+    "nativeGpuFrameCaptured": false,
+    "os": "Windows",
+    "reason": "The Windows headless display driver only supports dummy rendering; a native GPU viewport image is unavailable without a window-capable display driver.",
+    "references": [
+      "https://docs.godotengine.org/en/4.5/tutorials/editor/command_line_tutorial.html",
+      "https://docs.godotengine.org/en/4.5/classes/class_renderingserver.html#class-renderingserver-method-get-video-adapter-name"
+    ],
+    "renderingDriver": "opengl3",
+    "renderingMethod": "gl_compatibility",
+    "scope": "Capability probe only. Never treats a dummy-renderer frame or headless gameplay checks as GPU visual acceptance.",
+    "status": "unavailable",
+    "videoAdapter": ""
+  }
+}

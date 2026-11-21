@@ -1,0 +1,43 @@
+{
+  "name": "Jade Sentinel / 青铜守卫",
+  "created": "2026-11-12",
+  "generator": "Blender 4.5.14 LTS / scripts/build-character.py",
+  "provenance": "Original procedural demonstration. No Tripo or Seedance generation was invoked.",
+  "rig": "Custom armature with explicit vertex-group weights; not Rigify.",
+  "bones": 20,
+  "meshes": 51,
+  "vertices": 1700,
+  "triangles": 3194,
+  "actions": [
+    {
+      "name": "Idle",
+      "duration": 3,
+      "fps": 30
+    },
+    {
+      "name": "Walk",
+      "duration": 1.2,
+      "fps": 30
+    },
+    {
+      "name": "Slash",
+      "duration": 2.4,
+      "fps": 30
+    }
+  ],
+  "categories": {
+    "body": 15,
+    "armor": 29,
+    "weapon": 7
+  },
+  "files": [
+    "forge-knight.blend",
+    "forge-knight.glb",
+    "forge-knight.fbx"
+  ],
+  "limitations": [
+    "Segmented rigid armor with explicit bone weights; no automatic weight quality benchmark.",
+    "Walk is an in-place cycle; foot locking and root motion need further refinement.",
+    "The FBX export has not been validated in Unity."
+  ]
+}

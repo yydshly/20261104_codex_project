@@ -1,0 +1,10 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {briefDefaults,prompts,history,sources,materializePrompt} from '../src/research-content.js';
+const root=fileURLToPath(new URL('..',import.meta.url));
+const metadata={title:'角色工坊 · 人物资产制作研究与提示词',compiledAt:'2026-11-21',evidenceDate:'2026-11-12',promptProvenance:'Newly compiled, unexecuted recipes; historical user excerpts are separate. Not original-author prompts or generation-service call logs.',defaults:briefDefaults,history,prompts,sources};
+await fs.writeFile(path.join(root,'docs/character-prompts.json'),JSON.stringify(metadata,null,2)+'\n');
+const lines=['角色工坊 · 人物资产制作研究与提示词','整理日期：2026-11-21；已有实战/资产验证日期：2026-11-12。','以下13个模板是新整理、尚未执行的制作指令，不是原作者提示词或Tripo/Seedance服务调用记录。','修改角色名、武器、配色与镜头后使用；所有生成结果都要逐阶段实际验收。','',...prompts.map(p=>`${p.title}\n工具/用途：${p.tool}\n交付物：${p.output}\n验收重点：${p.check}\n\n${materializePrompt(p.text)}\n\n${'—'.repeat(36)}`),'','历史用户需求（会话摘录，不是外部模型调用日志）',...history.map(h=>`${h.title}\n${h.text}\n理解：${h.lesson}\n`),'','参考资料',...sources.map(s=>`${s.title}\n${s.url}\n适用范围：${s.scope}\n`)];
+await fs.writeFile(path.join(root,'docs/character-prompts.txt'),lines.join('\n'));
+console.log(`Exported ${prompts.length} recipes, ${history.length} historical excerpts, ${sources.length} references.`);

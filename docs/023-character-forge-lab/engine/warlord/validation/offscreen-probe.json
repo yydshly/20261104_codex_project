@@ -1,0 +1,20 @@
+{
+  "arguments": [
+    "--script",
+    "res://scripts/offscreen_capture.gd"
+  ],
+  "displayDriver": "headless",
+  "engine": "4.5.2-stable (official)",
+  "nativeGpuFrameCaptured": false,
+  "os": "Windows",
+  "reason": "The Windows headless display driver only supports dummy rendering; a native GPU viewport image is unavailable without a window-capable display driver.",
+  "references": [
+    "https://docs.godotengine.org/en/4.5/tutorials/editor/command_line_tutorial.html",
+    "https://docs.godotengine.org/en/4.5/classes/class_renderingserver.html#class-renderingserver-method-get-video-adapter-name"
+  ],
+  "renderingDriver": "opengl3",
+  "renderingMethod": "gl_compatibility",
+  "scope": "Capability probe only. Never treats a dummy-renderer frame or headless gameplay checks as GPU visual acceptance.",
+  "status": "unavailable",
+  "videoAdapter": ""
+}

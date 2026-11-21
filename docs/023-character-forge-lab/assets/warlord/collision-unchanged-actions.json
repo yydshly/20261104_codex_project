@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "unchangedActions": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Attack1",
+    "Attack2",
+    "Sweep",
+    "Guard",
+    "LeapSlam",
+    "Hit",
+    "Death",
+    "Dodge",
+    "Victory"
+  ],
+  "changedAction": "Attack3",
+  "baselineBlendSha256": "0aaa348c192455ea1a53fde9080e10abc4400a8f1704f7596b3a9c91a457a6b0",
+  "currentBlendSha256": "76638dbff32c314f4d336f35fe00c16e29424774b8488c2cd3befb2517f5a63e",
+  "currentActionFingerprints": {
+    "Idle": "7e72d7388dc901559ed5849e6d1550bd17157e5e119aa8632512375f5f79cea8",
+    "Walk": "5e5d5f5828094fcfbcd4a931e498e7ddcb41c72287fe6b802caddbdf0b705d75",
+    "Run": "7f5fb386827fa68dbedcc0a23c18767e0c58a5fe62ae62d13d6e69add36a9abe",
+    "Attack1": "68929cbb56acc49f689641af89a4e32a5deff51f97c1655cc7ffb491ff3cc19c",
+    "Attack2": "bdef4f4b25c9b924aeda2089589d617c21474ea04429e5a08d3eb5038550bb67",
+    "Attack3": "d01ec37ef6e0cb768ed5c1e88622999941d9fb120f682c558c52658d49604a02",
+    "Sweep": "8756766817f7a358417f233f11eeeaf5d62e2e1656088aae010dfa52a9e87161",
+    "Guard": "e4d05c37761b522657ee7205a458c0237458be4634b602681c9a397f8cd89b57",
+    "LeapSlam": "3ca1d3e2b6c46a511ee9798a51419a5e4d15c26b71c6d8b21da5f30347308718",
+    "Hit": "a47ea9d2b3eb178c1e4043aff517c82bffc6722c634e6ec198456932dc5967be",
+    "Death": "19bf87b80b7c13eaf5312c6e0c8c55a2fc391408046a0aecd35a0ec10aa492ee",
+    "Dodge": "1f20b1889c9db9a0780cb6ea2fbf9c2f5b39faf131f223237d2be7d946b24219",
+    "Victory": "7991c740fd805fe3796823bc8a358df6b2127bb9b8c4ebd29bc49e5bfcb7d9ce"
+  },
+  "baselineActionFingerprints": {
+    "Idle": "7e72d7388dc901559ed5849e6d1550bd17157e5e119aa8632512375f5f79cea8",
+    "Walk": "5e5d5f5828094fcfbcd4a931e498e7ddcb41c72287fe6b802caddbdf0b705d75",
+    "Run": "7f5fb386827fa68dbedcc0a23c18767e0c58a5fe62ae62d13d6e69add36a9abe",
+    "Attack1": "68929cbb56acc49f689641af89a4e32a5deff51f97c1655cc7ffb491ff3cc19c",
+    "Attack2": "bdef4f4b25c9b924aeda2089589d617c21474ea04429e5a08d3eb5038550bb67",
+    "Attack3": "eaa762f90ccd7f8270c08ef958eb2ef285fac7f6a358ae479a51eacc496c30d5",
+    "Sweep": "8756766817f7a358417f233f11eeeaf5d62e2e1656088aae010dfa52a9e87161",
+    "Guard": "e4d05c37761b522657ee7205a458c0237458be4634b602681c9a397f8cd89b57",
+    "LeapSlam": "3ca1d3e2b6c46a511ee9798a51419a5e4d15c26b71c6d8b21da5f30347308718",
+    "Hit": "a47ea9d2b3eb178c1e4043aff517c82bffc6722c634e6ec198456932dc5967be",
+    "Death": "19bf87b80b7c13eaf5312c6e0c8c55a2fc391408046a0aecd35a0ec10aa492ee",
+    "Dodge": "1f20b1889c9db9a0780cb6ea2fbf9c2f5b39faf131f223237d2be7d946b24219",
+    "Victory": "7991c740fd805fe3796823bc8a358df6b2127bb9b8c4ebd29bc49e5bfcb7d9ce"
+  },
+  "proof": "All 12 unchanged actions have byte-identical sorted channel paths, channel indices, float32 frame/value keys and interpolation modes; the baseline Blend SHA matches the independently checked full-1300-frame report. Attack3 is independently reopened and rechecked at all 101 frames after the single-frame cloth edit."
+}
