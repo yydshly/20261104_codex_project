@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="《云隙行》研究如何把一只骑自行车的鹈鹕变成可游历、可验证的 3D 网页。通过程序化天路、轮脚同步、自主探索、秘境互动和双曲目适配，沉淀可复用的交互机制、验收方法与 12 条提示词。">
+  <link rel="canonical" href="https://yydshly.github.io/20261104_codex_project/011-yunxi-ride/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="云隙行 · 3D 骑行世界研究与实机效果">
+  <meta property="og:description" content="研究如何把 3D 鹈鹕骑行做成可操作、可验证的修仙世界。提供互动原型、完整界面实录、程序化场景与动作机制、复用价值和 12 条提示词。">
+  <meta property="og:url" content="https://yydshly.github.io/20261104_codex_project/011-yunxi-ride/">
+  <meta property="og:image" content="https://yydshly.github.io/20261104_codex_project/011-yunxi-ride/yunxi-project-overview.png">
+  <meta name="twitter:card" content="summary">
+  <title>云隙行 · 3D 骑行世界研究与实机效果</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="prompts.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <aside class="sidebar" aria-label="手册目录">
+    <a class="brand" href="#overview" aria-label="云隙行研究手册首页">
+      <svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="20"/><path d="m9 28 8-12 5 7 6-11 8 16M13 32h19M18 27h9"/><circle cx="12" cy="11" r="2"/></svg>
+      <span><strong>云隙行</strong><small>项目研究手册</small></span>
+    </a>
+    <div class="edition">PROJECT FIELD NOTES <span>在线研究</span></div>
+    <nav id="chapterNav">
+      <a class="active" href="#overview"><span>项目总览</span><small>起点与共识</small></a>
+      <a href="#capabilities"><span>能力与复用价值</span><small>实现、证据、用途</small></a>
+      <a href="#journey"><span>理解如何演进</span><small>问题推动迭代</small></a>
+      <a href="#world"><span>修仙世界设计</span><small>五境 · 三处秘境</small></a>
+      <a href="#mechanics"><span>让骑行成立</span><small>运动 · 状态 · 自游</small></a>
+      <a href="#music"><span>音乐与跟拍</span><small>两首曲目与适配边界</small></a>
+      <a href="#prompts"><span>可复用提示词</span><small id="promptNavCount">创作、排查与发布</small></a>
+      <a href="#recording"><span>实录与 X 发布</span><small>保留完整界面</small></a>
+      <a href="#archive"><span>素材与实现索引</span><small>回到作品和代码</small></a>
+    </nav>
+    <div class="sidebar-bottom"><p>从视觉命题，走向<br>可以探索的世界。</p><span>整理于 2026.11.21</span><button class="text-button" id="printButton" type="button">打印 / 保存 PDF</button></div>
+  </aside>
+
+  <div class="page">
+    <header class="topbar">
+      <span class="breadcrumb">云隙行 <span>/</span> 研究与创作档案</span>
+      <div class="search-wrap" role="search">
+        <label class="sr-only" for="searchInput">检索手册与提示词</label>
+        <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg>
+        <input id="searchInput" type="search" placeholder="搜索理解、机制、提示词…" autocomplete="off" aria-controls="searchResults">
+        <kbd>/</kbd>
+        <div class="search-results" id="searchResults" hidden aria-label="检索结果"></div>
+      </div>
+      <a class="top-game" href="play.html" target="_blank" rel="noopener">打开游戏</a>
+    </header>
+
+    <main id="main">
+      <section class="chapter hero-section" id="overview" aria-labelledby="heroTitle">
+        <div class="eyebrow">一段持续迭代的交互实验</div>
+        <h1 id="heroTitle">从一只鹈鹕，<br>到一方修仙世界。</h1>
+        <p class="hero-description">《云隙行》研究怎样把“3D 鹈鹕骑自行车”从视觉测试做成可操控、可观察的修仙世界。我们用程序化场景、轮脚同步和自动引路把骑行接到三处秘境，再通过完整界面实录核对动作、状态和结果。</p>
+        <div class="hero-links"><a href="#guide-image">看研究引导图</a><a href="#capabilities">浏览能力与价值</a><a href="#recording">观看完整实录</a></div>
+        <div class="hero-visual">
+          <img src="assets/ride.jpg" width="1440" height="810" alt="完整界面实录中，鹈鹕骑车经过青岚仙山。左右上角说明和底部骑行按钮、实时参数均保留。" fetchpriority="high">
+          <div class="hero-caption"><span>《云隙行》完整界面实录截图</span><a href="#recording">查看连续实录</a></div>
+        </div>
+        <div class="overview-strip">
+          <div><span>核心命题</span><strong>鹈鹕骑车，御风游仙界</strong></div>
+          <div><span>体验结构</span><strong>自由探索 + 自游 + 秘境互动</strong></div>
+          <div><span>当前载体</span><strong>可离线打开的 WebGL 网页</strong></div>
+        </div>
+        <div class="section-heading"><span class="eyebrow">共同理解</span><h2>要让世界好看，也要让行为说得通。</h2></div>
+        <div class="principles">
+          <article class="searchable" id="principle-world" data-title="共识 · 修仙场景的空间与细节"><span class="stamp">世界</span><h3>修仙感需要落在空间里</h3><p>悬岛、檐瓦、剑阵、水帘、宝灯共同构成环境。用区域色彩、远近层次和可抵达的地标，建立值得骑进去的世界。</p></article>
+          <article class="searchable" id="principle-motion" data-title="共识 · 脚踏车轮与位移一致"><span class="stamp">动作</span><h3>每个动作都要有依据</h3><p>轮胎跟着位移转，脚掌跟着脚踏走。上坡、下坡、滑行、落地和停靠，都需要对应的姿态与反馈。</p></article>
+          <article class="searchable" id="principle-evidence" data-title="共识 · 真实界面与录制证据"><span class="stamp">表达</span><h3>作品的展示也要可信</h3><p>让观众看见按钮、参数和操作过程。文案描述画面中能核对的能力，录制方式和后期音轨单独交代。</p></article>
+        </div>
+        <div class="provenance"><strong>这份手册怎样读</strong><p><span class="tag quote-tag">对话原文</span>来自当前可见对话的用户原话节选。<span class="tag code-tag">源码核对</span>来自当前项目文件。<span class="tag synthesized-tag">整理版</span>根据需求和现有实现重新组织，可继续复用。</p><p>内容依据本轮对话与本地工程整理。历史助手给出的完整音乐生成提示词在当前上下文中缺失，提示词库中的音乐文本为本次重写。</p></div>
+      </section>
+
+      <section class="chapter" id="capabilities" aria-labelledby="capabilitiesTitle">
+        <div class="section-heading">
+          <span class="eyebrow">研究问题与复用价值</span>
+          <h2 id="capabilitiesTitle">从画面走向可验证的交互</h2>
+          <p>研究的重点是哪些画面需要持续依赖运行状态，以及怎样用普通玩家能看到的反馈确认它们。做法可以迁移到 3D 交互原型、游戏关卡、互动讲解和效果验收。</p>
+        </div>
+        <div class="capability-list">
+          <article class="capability-row searchable" id="capability-world" data-title="能力与价值 · 程序化世界与天路">
+            <h3><a href="#world">程序化场景与天路</a></h3>
+            <p><strong>已实现</strong>五类区域有不同的地标和光色。路段随方向与速度向前生成，遇障缩短，身后逐渐淡出。</p>
+            <p><strong>可复用</strong>用有限前瞻组织探索路线，把区域风格、地标和行进节奏组合到关卡原型。</p>
+          </article>
+          <article class="capability-row searchable" id="capability-motion" data-title="能力与价值 · 状态驱动的车轮脚踏与碰撞">
+            <h3><a href="#mechanic-drive">状态驱动的骑行</a></h3>
+            <p><strong>已实现</strong>实际位移驱动车轮，齿比和踩踏接合程度决定曲柄。探针碰撞与接地状态影响姿态和后轮承载。</p>
+            <p><strong>可复用</strong>让动画与运行状态共用依据，用轮速、踏频和接触读数定位跳帧、滑步及坡道问题。</p>
+          </article>
+          <article class="capability-row searchable" id="capability-auto" data-title="能力与价值 · 自游引路与自主互动">
+            <h3><a href="#mechanic-autopilot">可接管的自主探索</a></h3>
+            <p><strong>已实现</strong>自游会避障、起降，并在满足条件时前往秘境。通过引路、靠岸、动作反馈与返回车座完成访问。</p>
+            <p><strong>可复用</strong>把观光导览或角色活动拆成可检查的阶段，让玩家理解当前目标，也能随时接管骑行。</p>
+          </article>
+          <article class="capability-row searchable" id="capability-music" data-title="能力与价值 · 双曲目与节奏适配">
+            <h3><a href="#music">按路况调整的音乐跟拍</a></h3>
+            <p><strong>已实现</strong>两首曲目可以切换。平稳的地面自游按预设参考轻调踏频，滑行与飞行退出适配。</p>
+            <p><strong>可复用</strong>将配乐节奏作为动作的可选输入，用接地、坡度和转向控制介入程度。</p>
+          </article>
+          <article class="capability-row searchable" id="capability-evidence" data-title="能力与价值 · 完整界面实录与提示词复用">
+            <h3><a href="#recording">可核对的实机展示</a></h3>
+            <p><strong>已实现</strong>约 80 秒完整界面实录保留按钮、场景说明与实时数据，连续呈现自游、升空、捕鱼、采草和点灯。</p>
+            <p><strong>可复用</strong>以实录和操作验收检验展示结论，配合 <a href="#prompts">12 条整理版提示词</a>重做机制或继续迭代。</p>
+          </article>
+        </div>
+        <p class="source-note">碰撞与载荷采用游戏化近似，秘境是预设目的地，音乐使用曲目配置。一次实录记录这次成功游历，复杂路径与跨设备表现仍可继续测量。</p>
+        <figure class="guide-figure searchable" id="guide-image" data-title="研究引导图 · 三个设计判断与四处实机效果">
+          <figcaption>
+            <span class="eyebrow">研究引导图</span>
+            <h3>在一张图里对照判断和效果</h3>
+            <p>图中沿用此前生成的《云隙行》复盘图。五张截图来自同一次连续实录，时间点可与视频核对。</p>
+            <a href="yunxi-project-overview.png" target="_blank" rel="noopener">打开原尺寸引导图</a>
+          </figcaption>
+          <a class="guide-image" href="yunxi-project-overview.png" target="_blank" rel="noopener"><img src="yunxi-project-overview.png" width="1440" height="2840" loading="lazy" alt="《云隙行》复盘图，汇总可游历的世界、轮脚一致的骑行、自游目的地、音乐跟拍，以及御风、捕鱼、采草和点灯的实机画面。"></a>
+        </figure>
+      </section>
+
+      <section class="chapter" id="journey" aria-labelledby="journeyTitle">
+        <div class="section-heading"><span class="eyebrow">需求与理解的演进</span><h2 id="journeyTitle">每一次追问，都把作品往前推了一步。</h2><p>按讨论顺序整理。时间线描述需求如何变化，具体能力以当前实现和实录为准。</p></div>
+        <div class="timeline">
+          <article class="searchable" id="iteration-test" data-title="起点 · 3D 鹈鹕骑自行车测试"><div class="timeline-mark">视觉命题</div><h3>先让鹈鹕真正骑起来</h3><blockquote>“你先试试3D鹈鹕骑自行车测试”</blockquote><p>角色形体、自行车结构、踩踏动作和三维观察成为起点。随后对 GIF 的追问，提醒我们说明交付物究竟是动画还是可交互程序。</p></article>
+          <article class="searchable" id="iteration-world" data-title="主题 · 修仙世界与自由骑行"><div class="timeline-mark">世界与自由</div><h3>从单个画面，变成可以进入的世界</h3><blockquote>“鹈鹕支持自由骑行，可以上天”<br>“骑行时路才随机出现前面长度的”</blockquote><p>确立修仙主题、自由控制与御风飞行。天路只在前方有限距离显现，后方逐渐消散，形成边骑边展开世界的体验。</p></article>
+          <article class="searchable" id="iteration-quality" data-title="质量 · 场景多元化修仙化精品化"><div class="timeline-mark">场景质量</div><h3>“修仙”需要持续落实到细节</h3><blockquote>“这里你的休闲场景元素构建不够好”<br>“修仙场景”</blockquote><p>主题被明确纠正为修仙。把“多元化、修仙化、精品化”落实为区域差异、建筑结构、器物细节、景深和探索动线。</p></article>
+          <article class="searchable" id="iteration-physics" data-title="机制 · 碰撞动物状态自游后轮承载"><div class="timeline-mark">行为系统</div><h3>世界开始对角色作出反馈</h3><blockquote>“这里没有碰撞吗？”<br>“动物没有状态吗？”<br>“后轮没有承载吗？”</blockquote><p>增加接触、避障、承载、姿态和动物状态的对应关系。自主漫游也成为明确需求，让鹈鹕自己选择路径并继续探索。</p></article>
+          <article class="searchable" id="iteration-actions" data-title="互动 · 捕鱼瀑后采灵草灯河点灯"><div class="timeline-mark">探索目的</div><h3>抵达一个地方，要有事情可做</h3><blockquote>“比如去到某个小岛上吃鱼”<br>“自游时也能自己过去，采草和点灯都要有看得见的动作。”</blockquote><p>形成灵鱼汀、瀑隐坞、灯河夜渡三处互动。接近、停靠、下车、行动、结果反馈和回车，组成完整的小段体验。</p></article>
+          <article class="searchable" id="iteration-cadence" data-title="运动排查 · 脚底一卡一卡上下坡轮速踏频"><div class="timeline-mark">运动一致</div><h3>排查踩踏与轮速脱节</h3><blockquote>“一卡一卡的 不符合轮胎转动速度”<br>“上坡，下坡，平行，还有轮胎速度，人的骑行频率应该做对应。”</blockquote><p>统一实际滚动距离、轮胎转角、齿比、曲柄相位和脚掌位置。下坡滑行时允许脚踏逐渐停止，轮胎继续滚动。</p></article>
+          <article class="searchable" id="iteration-music" data-title="音乐 · 从单曲替换到双曲目选择"><div class="timeline-mark">听觉与选择</div><h3>音乐进入骑行，也保留选曲权</h3><blockquote>“骑行速度应该根据音乐的节奏来适配呢？”<br>“你就不能两个音乐都支持？”</blockquote><p>先接入《Steps Across the Valley》，再加入《乘风啸过重山》。最终保留两首曲目，各自配置踏频参考，通过「选曲」切换。</p></article>
+          <article class="searchable" id="iteration-recording" data-title="展示纠偏 · 保留按钮参数左右上角真实效果"><div class="timeline-mark">真实展示</div><h3>界面和过程，也是作品的一部分</h3><blockquote>“为什么没有我们相关的按钮和参数，左上角和右上角的相关描述”<br>“以真实效果为准”</blockquote><p>早期去界面的剪辑版被否定。重新从普通页面录制，保留完整 UI 和实时读数，交付约 80 秒的连续体验。</p></article>
+        </div>
+      </section>
+
+      <section class="chapter" id="world" aria-labelledby="worldTitle">
+        <div class="section-heading"><span class="eyebrow">世界与美术方向</span><h2 id="worldTitle">五种气质，三处有回响的目的地。</h2><p>统一低多边形造型语言，用中式建筑、云雾、法器和自然地貌构建仙侠意象。</p></div>
+        <article class="searchable world-direction" id="world-direction" data-title="美术理解 · 近中远景地标区域色彩"><h3>把“精品化”变成可以检查的要求</h3><div class="three-columns"><div><strong>轮廓先成立</strong><p>鹈鹕的长喙、喉囊、红围巾与青绿色自行车，保持清楚的主角识别。</p></div><div><strong>空间有层次</strong><p>近处是车轮与路面，中景是可抵达的泊台、亭阁和飞剑，远处是云海与山体剪影。</p></div><div><strong>地标有作用</strong><p>瀑布引导绕行，灯火吸引夜渡，鱼池对应停靠。物件与角色行动形成联系。</p></div></div></article>
+        <div class="biome-list searchable" id="world-biomes" data-title="五境 · 青岚仙山万剑归墟灯河幻境赤霄天阙流霞桃坞">
+          <div class="biome-row" style="--tone:#6d9f83"><span class="swatch"></span><h3>青岚仙山</h3><p>青云观、云上亭阁、松树与悬瀑</p><span>青绿 · 开阔 · 启程</span></div>
+          <div class="biome-row" style="--tone:#9278b1"><span class="swatch"></span><h3>万剑归墟</h3><p>飞剑、剑台、裂隙与紫电</p><span>紫灰 · 险峻 · 御风</span></div>
+          <div class="biome-row" style="--tone:#5275a5"><span class="swatch"></span><h3>灯河幻境</h3><p>浮莲、宝灯、灵珠与月下水岸</p><span>夜蓝 · 暖灯 · 静谧</span></div>
+          <div class="biome-row" style="--tone:#bf8d68"><span class="swatch"></span><h3>赤霄天阙</h3><p>朱门、金瓦、照壁与悬铃</p><span>金赤 · 层叠 · 壮阔</span></div>
+          <div class="biome-row" style="--tone:#bf8e9f"><span class="swatch"></span><h3>流霞桃坞</h3><p>桃花、悬岛、山泉与水帘</p><span>粉霞 · 轻盈 · 秘境</span></div>
+        </div>
+        <p class="source-note"><span class="tag code-tag">源码核对</span>区域名称与光照设定见 <a href="source/engine.js" target="_blank" rel="noopener">engine.js</a>，建筑与器物生成见 <a href="source/world.js" target="_blank" rel="noopener">world.js</a>。</p>
+        <div class="destinations">
+          <article class="destination searchable" id="destination-fish" data-title="灵鱼汀 · 停靠捕鱼嘴部动作"><img src="assets/fish.jpg" width="960" height="540" alt="完整界面实录中，鹈鹕在灵鱼汀下车，俯身靠近鱼池。" loading="lazy"><div><span class="eyebrow">灵鱼汀</span><h3>停靠，捉鱼，抬头吞咽。</h3><p>下车靠近鱼池，低头叼鱼，嘴部开合并抬头吞咽，最后回到车座。活动阶段约 5.8 秒。</p><a href="source/fish-island.js" target="_blank" rel="noopener">查看场景源码</a></div></article>
+          <article class="destination searchable" id="destination-herb" data-title="瀑隐坞 · 绕瀑采灵草可见动作"><img src="assets/herb.jpg" width="960" height="540" alt="完整界面实录中，鹈鹕在瀑隐坞叼起灵草，后方有水帘和岩台。" loading="lazy"><div><span class="eyebrow">瀑隐坞</span><h3>绕到水帘后，叼起一株灵草。</h3><p>沿观景航点绕瀑、对齐泊台、停靠下车，俯身采草。灵草显示在喙边并有荧光反馈。活动阶段约 6.5 秒。</p><a href="source/herb-cove.js" target="_blank" rel="noopener">查看场景源码</a></div></article>
+          <article class="destination searchable" id="destination-lantern" data-title="灯河夜渡 · 三盏法宝灯依次点亮"><img src="assets/lantern.jpg" width="960" height="540" alt="完整界面实录中，鹈鹕站在灯河岸边，三盏法宝灯已经亮起。" loading="lazy"><div><span class="eyebrow">灯河夜渡</span><h3>沿岸行走，点亮三盏宝灯。</h3><p>下车走向灯环，喙尖触灯，暖光逐盏亮起。三次触发约在活动的 30%、47%、64%。活动全长约 10.4 秒。</p><a href="source/lantern-stop.js" target="_blank" rel="noopener">查看场景源码</a></div></article>
+        </div>
+        <aside class="note searchable" id="world-boundary" data-title="场景边界 · 程序生成与固定目的地"><strong>当前世界怎样展开</strong><p>普通区域按分块与预设风格生成，三处秘境有明确位置与引路流程。自游会寻找路径并触发这些固定目的地。当前采草和点灯呈现为可见动作与状态反馈，可继续扩展为收集、进度和重复探索系统。</p></aside>
+      </section>
+
+      <section class="chapter" id="mechanics" aria-labelledby="mechanicsTitle">
+        <div class="section-heading"><span class="eyebrow">机制与技术理解</span><h2 id="mechanicsTitle">让速度、姿态、接触和行动彼此对应。</h2><p>下面记录当前实现的关系，也保留实现简化之处，方便下一轮排查。</p></div>
+        <article class="mechanic searchable" id="mechanic-drive" data-title="骑行动力 · 位移轮转齿比曲柄踏频脚掌"><div class="article-heading"><h3>轮胎与脚踏共用运动依据</h3><span class="tag code-tag">源码核对</span></div><div class="flow" aria-label="运动关系"><span>实际位移</span><b>›</b><span>滚动距离</span><b>›</b><span>车轮转角</span><b>›</b><span>齿比与曲柄</span><b>›</b><span>脚掌与膝关节</span></div><p>轮胎角度由实际滚动距离和轮半径计算。曲柄通过平滑变化的齿比与踩踏接合程度跟随车轮，角色脚掌绑定脚踏位置，再求膝盖姿态。踏频由实际曲柄转量计算。</p><div class="formula">车轮转角 = −滚动距离 ÷ 轮半径<br>踏频 = |曲柄转角| ÷ 时间 × 60 ÷ 2π</div><p>上坡依据坡度和驱动力减速、调整姿态与齿比。下坡允许自由滑行，踩踏接合逐渐释放；刹车、受阻与停靠同样进入对应状态。</p><p class="source-note">依据 <a href="source/motion.js" target="_blank" rel="noopener">motion.js · 291–317 行附近</a> 与 <a href="source/rider.js" target="_blank" rel="noopener">rider.js · 504 行附近</a>。</p></article>
+        <div class="mechanics-grid">
+          <article class="mechanic searchable" id="mechanic-support" data-title="接地与后轮承载 · 前后轮触点坡度动态负载"><h3>前后轮分别接地</h3><p>分别计算前后轮触点、车身俯仰与支撑高度。承载读数结合接触、坡度和加减速变化，轮胎形变与压地反馈跟随状态。</p><p class="small-note">承载是用于表现和控制的近似量。初始后轮负载约 62%，具体读数会随骑行改变。</p></article>
+          <article class="mechanic searchable" id="mechanic-collision" data-title="碰撞 · 多探针车轮身体长喙避障"><h3>碰撞照顾到轮子、身体和长喙</h3><p>通过多个探针与岩体、建筑等碰撞体检测接触，包含移动过程中的检查、支撑面查询和前方阻碍评估。</p><p class="small-note">当前使用简化形体与探针，复杂檐口和窄缝仍值得专门复查。</p></article>
+          <article class="mechanic searchable" id="mechanic-animal" data-title="动物状态 · 休憩蹬踏滑行御风落轮回稳捕鱼采草点灯"><h3>动物有基础状态，也有活动动作</h3><div class="state-tags"><span>休憩</span><span>蹬踏</span><span>滑行</span><span>御风</span><span>落轮</span><span>回稳</span><span>捕鱼</span><span>采草</span><span>点灯</span></div><p>头颈、翼、腿、喙、喉囊和围巾组合响应当前状态，叠加眨眼、呼吸、探看和受撞反馈。</p><p class="small-note">当前状态集中于动作与运动，饥饿、体力、修为等持续养成数值可另行设计。</p></article>
+          <article class="mechanic searchable" id="mechanic-autopilot" data-title="自游 · 避障脱困起飞落地自主目的地"><h3>自主探索与随时接管</h3><p>自游会选择方向与目标、评估障碍、调整转向，遇阻时刹车、后退或升空。方向与升降操作可以接管骑行。</p><p class="small-note">当前秘境自动访问按鱼、草、灯的候选顺序检查。每次重置后各自动尝试一次，距离需在触发范围内；手动仍可再次发起引路。</p></article>
+        </div>
+        <article class="mechanic searchable" id="mechanic-road" data-title="天路 · 前方有限长度预测后方消散支撑块"><h3>天路在前方生成，车轮下保留支撑</h3><p>依照位置、方向、速度与飞行高度预测有限长度的道路，变化石板类型和宽度，尽头淡出。后方保留短时轨迹，轮下另有稳定的支撑段；遇到阻碍会缩短前方预测。</p><p>这里的世界展开感来自程序生成与有限前瞻。速度、转弯和升降时，重点观察石板是否连续、车轮是否贴合、尾迹消散是否自然。</p><p class="source-note">依据 <a href="source/motion.js" target="_blank" rel="noopener">motion.js · updateSupport / predictRoad</a>。</p></article>
+        <details class="review-checklist searchable" id="mechanic-review" data-title="验收清单 · 上下坡平路倒车转弯碰撞停靠"><summary>再次排查运动时，看哪些情况</summary><div class="check-grid"><p><strong>平路</strong>看实际位移、轮速、曲柄和左右脚是否连续对应。</p><p><strong>上坡</strong>看俯仰、前后接触、负载与降速是否一致。</p><p><strong>下坡</strong>看滑行时脚踏逐渐停住、车轮继续滚动是否自然。</p><p><strong>急转与倒车</strong>看脚掌贴合、转向姿态、路面连接和轮转方向。</p><p><strong>飞行与落地</strong>看离地接触归零、下降支撑恢复和落轮缓冲。</p><p><strong>碰撞与停靠</strong>看长喙和檐口、轮胎和平台边缘，以及下车后脚架是否承重。</p></div></details>
+      </section>
+
+      <section class="chapter" id="music" aria-labelledby="musicTitle">
+        <div class="section-heading"><span class="eyebrow">声音与骑行节奏</span><h2 id="musicTitle">给旅程呼吸，也给选择留位置。</h2><p>音乐方向从“仙侠、空灵”出发，兼顾旅行感、节拍与场景中的留白。当前游戏支持两首本地曲目。</p></div>
+        <div class="music-grid">
+          <article class="music-card searchable" id="music-mountain" data-title="乘风啸过重山 · 130 BPM四拍一圈32.5 RPM"><span class="eyebrow">御风 · 山海行旅</span><h3>乘风啸过重山</h3><div class="track-meta"><span>约 2:55</span><span>默认曲目</span></div><audio controls preload="none" src="music/cheng-feng-xiao-guo-chong-shan.mp3" aria-label="试听乘风啸过重山">浏览器不支持音频，可<a href="music/cheng-feng-xiao-guo-chong-shan.mp3">打开音乐文件</a>。</audio><dl class="music-facts"><div><dt>离线分析主拍</dt><dd>约 130 BPM</dd></div><div><dt>四拍一圈参考</dt><dd>32.5 转/分</dd></div><div><dt>相位参考起点</dt><dd>1.073 秒</dd></div></dl><p>较强的鼓点适合起飞与跨越云海。配置了较柔和的段落与片尾退出区间，在稳定骑行时轻度引导踏频。</p></article>
+          <article class="music-card searchable" id="music-valley" data-title="Steps Across the Valley · 34 RPM节奏参考"><span class="eyebrow">空灵 · 山谷漫游</span><h3>Steps Across the Valley</h3><div class="track-meta"><span>约 2:58</span><span>可选曲目</span></div><audio controls preload="none" src="music/steps-across-the-valley.mp3" aria-label="试听Steps Across the Valley">浏览器不支持音频，可<a href="music/steps-across-the-valley.mp3">打开音乐文件</a>。</audio><dl class="music-facts"><div><dt>当前踏频参考</dt><dd>34 转/分</dd></div><div><dt>参考巡航速度</dt><dd>4.7 场景单位/秒</dd></div><div><dt>应用方式</dt><dd>轻度踏频适配</dd></div></dl><p>保留这首歌作为另一种漫游选择。34 转/分是当前配置值，当前文件未配置独立拍点相位参考。</p></article>
+        </div>
+        <article class="searchable rhythm-explainer" id="music-rules" data-title="音乐适配边界 · 预设参数轻跟拍坡道急弯飞行退出"><h3>音乐怎样影响骑行</h3><div class="three-columns"><div><strong>稳定时轻跟拍</strong><p>仅在普通自游、音乐正在播放、双轮接地且速度合适时介入。速度修正上限约为基准速度的 5%。</p></div><div><strong>路况决定介入程度</strong><p>坡度增加、转向变急时逐渐减弱；滑行、受阻、飞行和秘境引路阶段绕开这层适配。</p></div><div><strong>曲柄保持连续</strong><p>通过平滑调整目标齿比影响踏频。《乘风》额外施加小幅相位修正，脚踏不直接跳到拍点。</p></div></div><p class="small-note">当前适配读取每首曲目的预设参数，尚未接入实时节拍识别。目标踏频会受到速度、齿比范围和混合权重约束。</p></article>
+        <article class="searchable" id="music-controls" data-title="音乐控制 · 选曲M暂停续播切歌保持暂停"><h3>两首曲目如何使用</h3><p>进入游戏后，点击底部「选曲」选择曲目。按 <kbd>M</kbd> 或点击音乐按钮暂停、续播；播放中切歌会从新曲开头播放，暂停时切歌保持暂停。两首曲目均内嵌到游戏 HTML，可离线循环。首次播放由用户操作触发，音量淡入至 38%。</p><p class="source-note">曲目配置见 <a href="source/build.mjs" target="_blank" rel="noopener">build.mjs</a>，播放状态见 <a href="source/music.js" target="_blank" rel="noopener">music.js</a>，跟拍条件见 <a href="source/engine.js" target="_blank" rel="noopener">engine.js · matchMusic</a>。</p></article>
+        <div class="music-direction searchable" id="music-creative" data-title="音乐创作理解 · 纯音乐歌词空灵仙侠"><div><h3>纯音乐方向</h3><p>用笛箫、古琴或古筝的疏朗旋律，配柔和弦乐、空气感铺底与适度鼓点。保留段落起伏，让起飞有推力、停靠有呼吸。</p></div><div><h3>带歌词方向</h3><p>围绕山海、行旅、云路、灯火等意象写短句，人声克制，副歌易记。歌词留空段，给场景动作和观看注意力让出空间。</p></div></div>
+      </section>
+
+      <section class="chapter" id="prompts" aria-labelledby="promptsTitle">
+        <div class="section-heading"><span class="eyebrow">可带走的创作方法</span><h2 id="promptsTitle">把讨论整理成下次能直接使用的提示词。</h2><p>以下均为本次汇总的<strong>整理版</strong>，包含目标、约束和验收观察点。可按任务拆开使用，继续补充具体工程与素材路径。</p></div>
+        <div class="prompt-toolbar"><div class="filters" id="promptFilters" role="group" aria-label="按提示词主题筛选"><button type="button" data-category="全部" aria-pressed="true">全部</button><button type="button" data-category="创作" aria-pressed="false">创作</button><button type="button" data-category="机制" aria-pressed="false">机制</button><button type="button" data-category="音乐" aria-pressed="false">音乐</button><button type="button" data-category="发布" aria-pressed="false">发布</button></div><span id="promptCount" aria-live="polite"></span></div>
+        <div class="prompt-list" id="promptList"></div>
+        <noscript><p class="note">启用 JavaScript 可查看与复制提示词。也可直接打开同目录的 prompts.js 阅读完整文本。</p></noscript>
+      </section>
+
+      <section class="chapter" id="recording" aria-labelledby="recordingTitle">
+        <div class="section-heading"><span class="eyebrow">真实效果与对外表达</span><h2 id="recordingTitle">把过程放回画面，让效果有据可看。</h2><p>用户对去界面录制的质疑，形成了这轮项目非常具体的一条发布要求。</p></div>
+        <blockquote class="pull-quote searchable" id="recording-quote" data-title="录制原则原话 · 真实效果按钮参数左右说明">“以真实效果为准”<cite>用户对录屏展示的明确要求</cite></blockquote>
+        <div class="video-shell searchable" id="recording-video" data-title="完整界面实录 · 79.73秒1080p30fps连续录制"><video id="fullRecording" controls playsinline preload="metadata" poster="assets/ride.jpg"><source src="showcase/yunxi-x-full-ui.mp4" type="video/mp4">浏览器不支持内嵌视频，请<a href="showcase/yunxi-x-full-ui.mp4">打开完整实录</a>。</video><div class="video-caption"><strong>普通页面 · 完整 UI · 连续体验</strong><span>79.73 秒 / 1920 × 1080 / 30 fps 导出</span></div></div>
+        <div class="chapter-cues" role="group" aria-label="跳到实录关键时刻"><button type="button" data-seek="0">00:00 启动与界面</button><button type="button" data-seek="5">00:05 御风升空</button><button type="button" data-seek="20">00:20 岛上捕鱼</button><button type="button" data-seek="48">00:48 瀑后采草</button><button type="button" data-seek="71">01:11 依次点灯</button></div>
+        <p class="source-note">时间点为本次实录的观看索引。点击会定位并尝试播放；不代表每次自游都在相同秒数到达。</p>
+        <article class="note searchable" id="recording-method" data-title="录制方法 · 全UI原速连续音轨后期对齐合入"><strong>这份视频的制作方式</strong><p>从普通游戏页面开始，通过点击「开启自游」进入。画面保留左上标识、右上场景说明，以及底部操作、速度、高度、后轮承载和踏频。视频连续录制、原速导出；采集帧按时间戳输出为 30 fps。</p><p>配乐《乘风啸过重山》按页面播放起点约 2.126 秒后期对齐合入，音量与淡入参考页面配置。30 fps 描述视频导出规格，运行流畅程度仍需结合实际设备观察。</p></article>
+        <div class="version-comparison searchable" id="recording-versions" data-title="录屏版本纠偏 · 39秒展示剪辑和80秒完整界面"><div><span class="version-label">早期展示尝试</span><h3>约 39 秒镜头剪辑</h3><p>单独录制 3D 画面，隐藏操作 UI，拼接场景镜头并配乐。用户指出按钮、参数和角标缺失，展示方式不符合要求。</p></div><div class="preferred"><span class="version-label">本轮采用的展示依据</span><h3>约 80 秒完整界面实录</h3><p>保留页面原有界面和读数，呈现进入、自游、飞行、停靠与动作过程。当前汇总与发布文案以此为依据。</p><a href="showcase/yunxi-x-full-ui.mp4" target="_blank" rel="noopener">打开完整实录</a></div></div>
+        <article class="publication searchable" id="publication-copy" data-title="X发布文案草稿 · 鹈鹕骑车进仙界80秒连续实录"><div class="article-heading"><h3>X 发布文案</h3><span class="tag synthesized-tag">待发布草稿</span></div><div id="xCopyText" class="publication-text">我给 AI 出了道题，做一只骑自行车的 3D 鹈鹕。它骑着骑着，就进了仙界。<br><br>点一次「开启自游」，天路在车轮前一块块浮现。它飞过剑墟，上岛捕鱼，绕到瀑布后面采灵草，入夜再沿着灯河点亮三盏宝灯。<br><br>《云隙行》｜80 秒连续实录，保留原界面和实时骑行数据。</div><button type="button" class="copy-button" id="copyX">复制文案</button><p class="small-note">这份文案描述当前实录内容。当前存档没有已发布的 X 帖子链接。</p></article>
+      </section>
+
+      <section class="chapter" id="archive" aria-labelledby="archiveTitle">
+        <div class="section-heading"><span class="eyebrow">素材、实现与继续工作的入口</span><h2 id="archiveTitle">让下一次迭代有地方接着走。</h2><p>从这里进入可玩的原型、完整实录和对应源码。</p></div>
+        <div class="asset-links searchable" id="archive-deliverables" data-title="交付物索引 · 游戏实录音乐源码"><a href="play.html" target="_blank" rel="noopener"><span>交互作品</span><strong>打开《云隙行》</strong><small>骑行、御风、自游与三处互动</small></a><a href="showcase/yunxi-x-full-ui.mp4" target="_blank" rel="noopener"><span>真实展示</span><strong>完整界面实录</strong><small>约 80 秒 · H.264 / AAC · 约 58 MB</small></a></div>
+        <div class="source-table-wrap searchable" id="archive-code" data-title="工程文件索引 · engine world motion rider collision autopilot music build"><table class="source-table"><caption>当前工程模块</caption><thead><tr><th>文件</th><th>负责什么</th></tr></thead><tbody><tr><td><a href="source/engine.js" target="_blank" rel="noopener">engine.js</a></td><td>WebGL 渲染、场景切换、输入、互动引路、HUD 与音乐适配</td></tr><tr><td><a href="source/world.js" target="_blank" rel="noopener">world.js</a></td><td>区域、悬岛、亭阁、剑阵、植被与器物的程序生成</td></tr><tr><td><a href="source/motion.js" target="_blank" rel="noopener">motion.js</a></td><td>骑行动力、轮胎与曲柄、接地、承载、飞行与天路</td></tr><tr><td><a href="source/collision.js" target="_blank" rel="noopener">collision.js</a></td><td>碰撞探针、形体接触、支撑面与阻碍检查</td></tr><tr><td><a href="source/rider.js" target="_blank" rel="noopener">rider.js</a></td><td>鹈鹕、自行车、姿态、脚踏绑定与活动动作</td></tr><tr><td><a href="source/autopilot.js" target="_blank" rel="noopener">autopilot.js</a></td><td>自游目标、转向、避障、起落与脱困</td></tr><tr><td><a href="source/fish-island.js" target="_blank" rel="noopener">fish-island.js</a> / <a href="source/herb-cove.js" target="_blank" rel="noopener">herb-cove.js</a> / <a href="source/lantern-stop.js" target="_blank" rel="noopener">lantern-stop.js</a></td><td>三处秘境地貌、泊台、路线与互动目标</td></tr><tr><td><a href="source/music.js" target="_blank" rel="noopener">music.js</a> / <a href="source/build.mjs" target="_blank" rel="noopener">build.mjs</a></td><td>音频播放状态、双曲目配置与离线内嵌打包</td></tr><tr><td><a href="source/shell.html" target="_blank" rel="noopener">shell.html</a></td><td>界面结构、控制按钮、角标、参数和响应式布局</td></tr></tbody></table></div>
+        <article class="searchable project-boundaries" id="archive-boundaries" data-title="事实边界 · 模型发布信息实时节拍完整物理录屏公开发布"><h3>归档时保留的事实边界</h3><ul><li>开场关于 GPT 6.2 和 Fable 5 的提问记录了测试动机，现有材料无法据此确认发布时间、模型身份或作品能力归属。</li><li>当前音乐使用两曲预设参考，碰撞与承载使用工程近似。相应说明已放在各章节，方便继续改进。</li><li>“纯音乐 / 歌词音乐”的创作方向来自讨论，本页提示词为重整稿。现有音频来源为用户提供的本地文件。</li><li>本页公开归档工程、素材和 X 发布草稿。X 帖子的发布状态以实际帖子链接为准。</li></ul></article>
+        <details class="review-checklist searchable" id="archive-next" data-title="下一轮可选研究 · 重复探索节拍分析低帧率碰撞采集声音"><summary>下一轮可以继续验证的方向</summary><div class="check-grid"><p><strong>动作连续性</strong>低帧率、急转、倒车与强坡度时，轮转和脚掌是否仍连续。</p><p><strong>复杂接触</strong>屋檐、窄缝、泊台边缘和长喙是否出现穿插。</p><p><strong>探索持久性</strong>采集与点灯能否形成可恢复、可重复的探索进度。</p><p><strong>音乐适配</strong>先测实际跟拍效果，再决定是否加入更多曲目的离线拍点分析。</p><p><strong>录屏可信度</strong>继续保留完整界面，考虑把系统声音与视频同步采集。</p><p><strong>发布反馈</strong>记录观众最先理解了什么，再调整镜头和文案。</p></div><p class="small-note">这些是从本轮讨论归纳的后续验证方向，尚未作为本次新增功能实现。</p></details>
+        <div class="closing"><span>云隙行 · 研究手册</span><p>把想象落实到画面，把动作落实到状态，<br>再把过程留给下一次创作。</p><a href="#overview">回到开头</a></div>
+      </section>
+    </main>
+    <footer class="footer"><span>基于对话与本地工程整理 · 2026.11.21</span><span>提供在线试玩 · 提示词可复制</span></footer>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
