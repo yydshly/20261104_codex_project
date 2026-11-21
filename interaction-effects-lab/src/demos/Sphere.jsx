@@ -39,21 +39,26 @@ export default function Sphere({ mode }) {
   useEffect(() => {
     if (view !== 'sphere' || selected !== null) return
     const surface = stage.current
+    const worldElement = world.current
+    const headingElement = heading.current
+    const rootElement = root.current
+    const cardElements = cards.current.slice()
     const spin = orbit.current
     const preference = matchMedia('(prefers-reduced-motion: reduce)')
     let radius = 0
     let dirty = true
     let handle
     let previousTime = 0
+    let stopped = false
 
     function resize() {
-      if (!surface.isConnected) return
+      if (stopped || !surface.isConnected) return
       const { width, height } = surface.getBoundingClientRect()
       radius = Math.min(width * .40, height * .38)
       surface.style.setProperty('--sphere-card-width', `${Math.max(57, radius * .54)}px`)
       surface.style.setProperty('--sphere-perspective', `${Math.max(500, width * .87)}px`)
       points.current.forEach(({ x, y, z, longitude, latitude }, index) => {
-        cards.current[index].style.transform = `translate3d(${x * radius}px, ${-y * radius}px, ${z * radius}px) rotateY(${longitude}deg) rotateX(${latitude}deg)`
+        cardElements[index].style.transform = `translate3d(${x * radius}px, ${-y * radius}px, ${z * radius}px) rotateY(${longitude}deg) rotateX(${latitude}deg)`
       })
       dirty = true
     }
@@ -65,7 +70,7 @@ export default function Sphere({ mode }) {
     let lastPitch = NaN
     let lastZoom = NaN
     function tick(time) {
-      if (!surface.isConnected) return
+      if (stopped || !surface.isConnected) return
       const elapsed = previousTime ? Math.min((time - previousTime) / 16.67, 2.5) : 1
       previousTime = time
       if (!spin.drag) {
@@ -86,16 +91,16 @@ export default function Sphere({ mode }) {
       if (dirty || spin.yaw !== lastYaw || spin.pitch !== lastPitch || spin.zoom !== lastZoom) {
         const yaw = spin.yaw * toRadians
         const pitch = spin.pitch * toRadians
-        world.current.style.transform = `translateZ(${spin.zoom * radius * .32}px) rotateY(${spin.yaw}deg) rotateX(${spin.pitch}deg)`
-        heading.current.style.transform = `rotateX(${-spin.pitch}deg) rotateY(${-spin.yaw}deg) translateZ(${radius * .57}px)`
-        heading.current.style.opacity = 1 - spin.zoom * .46
+        worldElement.style.transform = `translateZ(${spin.zoom * radius * .32}px) rotateY(${spin.yaw}deg) rotateX(${spin.pitch}deg)`
+        headingElement.style.transform = `rotateX(${-spin.pitch}deg) rotateY(${-spin.yaw}deg) translateZ(${radius * .57}px)`
+        headingElement.style.opacity = 1 - spin.zoom * .46
         points.current.forEach((point, index) => {
           const depth = pointDepth(point, yaw, pitch)
-          cards.current[index].style.setProperty('--sphere-shade', ((1 - depth) * .43).toFixed(3))
+          cardElements[index].style.setProperty('--sphere-shade', ((1 - depth) * .43).toFixed(3))
         })
-        root.current.dataset.yaw = spin.yaw.toFixed(2)
-        root.current.dataset.pitch = spin.pitch.toFixed(2)
-        root.current.dataset.zoom = spin.zoom.toFixed(3)
+        rootElement.dataset.yaw = spin.yaw.toFixed(2)
+        rootElement.dataset.pitch = spin.pitch.toFixed(2)
+        rootElement.dataset.zoom = spin.zoom.toFixed(3)
         lastYaw = spin.yaw
         lastPitch = spin.pitch
         lastZoom = spin.zoom
@@ -115,6 +120,7 @@ export default function Sphere({ mode }) {
     }
     surface.addEventListener('wheel', wheel, { passive: false })
     return () => {
+      stopped = true
       cancelAnimationFrame(handle)
       observer.disconnect()
       surface.removeEventListener('wheel', wheel)

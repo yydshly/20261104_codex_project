@@ -179,7 +179,7 @@ export function App() {
             <span className="brand-name">交互效果实验室</span>
           </div>
           <div className="masthead-meta">
-            <span className="local-label">本地原型</span>
+            <span className="local-label">交互原型</span>
             <a className="source-nav" href="#overview" aria-current={isOverview ? 'page' : undefined}>原理总览</a>
             <a className="source-nav furniture-entry" href="#runway/product" aria-current={furnitureStep === 0 ? 'page' : undefined}>家具体验</a>
             <a className="source-nav" href="#sources" aria-current={isSources ? 'page' : undefined}>来源参考</a>
