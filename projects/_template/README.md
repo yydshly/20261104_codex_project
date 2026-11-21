@@ -34,6 +34,10 @@
 
 <!-- 在总 README 的表格中添加一行，并替换示例内容。图片或演示暂缺时填写「—」。
 
-| 001 | [子项目名称](projects/001-project-name/README.md) | 一两句研究摘要 | [封面](projects/001-project-name/assets/cover.webp) | — |
+| 编号 | 子项目 | 原库 | 研究摘要 | 图片导览 | Web 演示 |
+| --- | --- | --- | --- | --- | --- |
+| 001 | [子项目名称](projects/001-project-name/README.md) | [上游仓库](https://github.com/owner/repository) | 一两句研究摘要 | [封面](projects/001-project-name/assets/cover.webp) | — |
+
+在根 README 的索引下方同步展示引导图，并说明案例范围、复用价值和可扩展方向。
 
 -->
