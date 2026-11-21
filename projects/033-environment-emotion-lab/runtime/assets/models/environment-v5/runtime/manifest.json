@@ -1,0 +1,263 @@
+{
+  "assets": [
+    {
+      "asset": "fern_02",
+      "file": "assets/models/environment-v5/runtime/fern_02.glb",
+      "bytes": 3788900,
+      "sha256": "2197b93c31e0a9b8cc3d240682912d6d77b8f4d096044eaefdc259f4f571ff65",
+      "triangles": 6232,
+      "vertices": 4337,
+      "materials": [
+        "fern_02"
+      ],
+      "alpha": [
+        {
+          "material": "fern_02",
+          "image": "fern_02_diff-fern_02_alpha",
+          "alphaRange": [
+            0,
+            255
+          ],
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      ],
+      "license": "CC0 1.0",
+      "source": "https://polyhaven.com/a/fern_02",
+      "conversion": "Blender 4.5.9, source LOD1 for trees; separate material reduction; restored PNG alpha; MASK cutoff .42"
+    },
+    {
+      "asset": "island_tree_01-canopy",
+      "file": "assets/models/environment-v5/runtime/island_tree_01-canopy.glb",
+      "bytes": 7829404,
+      "sha256": "4f0e3d304f2919eb01a486d7e77eaa849ffbe851e0747820573de7165887894b",
+      "triangles": 113670,
+      "vertices": 202006,
+      "materials": [
+        "island_tree_01_leaves"
+      ],
+      "alpha": [],
+      "license": "CC0 1.0",
+      "source": "https://polyhaven.com/a/island_tree_01",
+      "conversion": "Blender 4.5.9; geometry and UV only, runtime shares near model textures; source leaves all retained in canopy GLB",
+      "shared_materials_from": "island_tree_01.glb",
+      "retainedSourceLeafComponents": 44168,
+      "renderUsage": "Complete source canopy; replaces all older sparse leaf parts in near and far tree assets"
+    },
+    {
+      "asset": "island_tree_01-far",
+      "file": "assets/models/environment-v5/runtime/island_tree_01-far.glb",
+      "bytes": 2327148,
+      "sha256": "a59daad00cb89aa5984b7ce063d605b6da8a1cca51edf2e36288c6a84bc88352",
+      "triangles": 30176,
+      "vertices": 66971,
+      "materials": [
+        "island_tree_01_branches",
+        "island_tree_01_leaves",
+        "island_tree_01"
+      ],
+      "alpha": [],
+      "license": "CC0 1.0",
+      "source": "https://polyhaven.com/a/island_tree_01",
+      "conversion": "Blender 4.5.9; geometry and UV only, runtime shares near model textures; source leaves all retained in canopy GLB",
+      "shared_materials_from": "island_tree_01.glb",
+      "renderUsage": "Trunk and branch parts only; old sparse leaf geometry is filtered out before instancing, not rendered together with canopy"
+    },
+    {
+      "asset": "island_tree_01",
+      "file": "assets/models/environment-v5/runtime/island_tree_01.glb",
+      "bytes": 28888532,
+      "sha256": "75869afd83caf2b97329c76d779d323852ff30b92972b2d9d4e49cb328340ad6",
+      "triangles": 104391,
+      "vertices": 188021,
+      "materials": [
+        "island_tree_01_branches",
+        "island_tree_01_leaves",
+        "island_tree_01"
+      ],
+      "alpha": [
+        {
+          "material": "island_tree_01_leaves",
+          "image": "island_tree_01_leaves_diff-island_tree_01_leaves_alpha",
+          "alphaRange": [
+            0,
+            255
+          ],
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      ],
+      "license": "CC0 1.0",
+      "source": "https://polyhaven.com/a/island_tree_01",
+      "conversion": "Blender 4.5.9, source LOD1 for trees; separate material reduction; restored PNG alpha; MASK cutoff .42",
+      "renderUsage": "Trunk and branch parts only; old sparse leaf geometry is filtered out before instancing, not rendered together with canopy"
+    },
+    {
+      "asset": "island_tree_02-canopy",
+      "file": "assets/models/environment-v5/runtime/island_tree_02-canopy.glb",
+      "bytes": 5320936,
+      "sha256": "4b9ddc543f43cefd609e1228975017acbe835670d2d206a92e82ffcc86df4a12",
+      "triangles": 77586,
+      "vertices": 137148,
+      "materials": [
+        "island_tree_02_leaves"
+      ],
+      "alpha": [],
+      "license": "CC0 1.0",
+      "source": "https://polyhaven.com/a/island_tree_02",
+      "conversion": "Blender 4.5.9; geometry and UV only, runtime shares near model textures; source leaves all retained in canopy GLB",
+      "shared_materials_from": "island_tree_02.glb",
+      "retainedSourceLeafComponents": 29781,
+      "renderUsage": "Complete source canopy; replaces all older sparse leaf parts in near and far tree assets"
+    },
+    {
+      "asset": "island_tree_02-far",
+      "file": "assets/models/environment-v5/runtime/island_tree_02-far.glb",
+      "bytes": 2286192,
+      "sha256": "a11880b4f78ba4938efdc2d9f599b624678f53b15cc3d328ccd9d7276b81a1f8",
+      "triangles": 29999,
+      "vertices": 65725,
+      "materials": [
+        "island_tree_02",
+        "island_tree_02_leaves",
+        "island_tree_02_branches"
+      ],
+      "alpha": [],
+      "license": "CC0 1.0",
+      "source": "https://polyhaven.com/a/island_tree_02",
+      "conversion": "Blender 4.5.9; geometry and UV only, runtime shares near model textures; source leaves all retained in canopy GLB",
+      "shared_materials_from": "island_tree_02.glb",
+      "renderUsage": "Trunk and branch parts only; old sparse leaf geometry is filtered out before instancing, not rendered together with canopy"
+    },
+    {
+      "asset": "island_tree_02",
+      "file": "assets/models/environment-v5/runtime/island_tree_02.glb",
+      "bytes": 27864324,
+      "sha256": "cc505f74a9358b385597b11c960c07f73006134ef4f6f5f08ba5069f6ddab16a",
+      "triangles": 100647,
+      "vertices": 161175,
+      "materials": [
+        "island_tree_02",
+        "island_tree_02_leaves",
+        "island_tree_02_branches"
+      ],
+      "alpha": [
+        {
+          "material": "island_tree_02_leaves",
+          "image": "island_tree_02_leaves_diff-island_tree_02_leaves_alpha",
+          "alphaRange": [
+            0,
+            255
+          ],
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      ],
+      "license": "CC0 1.0",
+      "source": "https://polyhaven.com/a/island_tree_02",
+      "conversion": "Blender 4.5.9, source LOD1 for trees; separate material reduction; restored PNG alpha; MASK cutoff .42",
+      "renderUsage": "Trunk and branch parts only; old sparse leaf geometry is filtered out before instancing, not rendered together with canopy"
+    },
+    {
+      "asset": "rock_moss_set_01",
+      "file": "assets/models/environment-v5/runtime/rock_moss_set_01.glb",
+      "bytes": 6949360,
+      "sha256": "9bf37b868df5dee0480c1da65150e458619217b43b36e93c7ce3c4db76d63d5c",
+      "triangles": 63127,
+      "vertices": 33988,
+      "materials": [
+        "rock_moss_set_01"
+      ],
+      "alpha": [],
+      "license": "CC0 1.0",
+      "source": "https://polyhaven.com/a/rock_moss_set_01",
+      "conversion": "Blender 4.5.9, source LOD1 for trees; separate material reduction; restored PNG alpha; MASK cutoff .42"
+    },
+    {
+      "asset": "shrub_02",
+      "file": "assets/models/environment-v5/runtime/shrub_02.glb",
+      "bytes": 5152208,
+      "sha256": "903bb0a70cf64e659c806aa730690dfa510331a9e3e76f8e770b488985a37aa9",
+      "triangles": 27254,
+      "vertices": 18599,
+      "materials": [
+        "shrub_02"
+      ],
+      "alpha": [
+        {
+          "material": "shrub_02",
+          "image": "shrub_02_diff-shrub_02_alpha",
+          "alphaRange": [
+            0,
+            255
+          ],
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      ],
+      "license": "CC0 1.0",
+      "source": "https://polyhaven.com/a/shrub_02",
+      "conversion": "Blender 4.5.9, source LOD1 for trees; separate material reduction; restored PNG alpha; MASK cutoff .42"
+    },
+    {
+      "asset": "shrub_03",
+      "file": "assets/models/environment-v5/runtime/shrub_03.glb",
+      "bytes": 4905164,
+      "sha256": "f4b38fd3fa656934d6a583ea0ba9b51d039363389ccd7b7d2b5ab1ee779e55dd",
+      "triangles": 8287,
+      "vertices": 5905,
+      "materials": [
+        "shrub_03"
+      ],
+      "alpha": [
+        {
+          "material": "shrub_03",
+          "image": "shrub_03_diff-shrub_03_alpha",
+          "alphaRange": [
+            0,
+            255
+          ],
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      ],
+      "license": "CC0 1.0",
+      "source": "https://polyhaven.com/a/shrub_03",
+      "conversion": "Blender 4.5.9, source LOD1 for trees; separate material reduction; restored PNG alpha; MASK cutoff .42"
+    }
+  ],
+  "totalBytes": 95312168,
+  "layout": {
+    "nearTrees": 3,
+    "backgroundTrees": 12,
+    "youngTrees": 6,
+    "ferns": 360,
+    "shrubs": 71,
+    "rocks": 18,
+    "treeVariants": 2,
+    "completeSourceLeafComponents": 73949,
+    "drawnOldSparseLeafParts": 0
+  },
+  "geometrySnapshot": {
+    "meshes": 56,
+    "expandedTriangles": 3412886,
+    "instancedMeshes": 53,
+    "instances": 854,
+    "verification": "Real GLB parse in Node with texture-decode stubs; GPU verified separately in integrated scene"
+  },
+  "notes": [
+    "Near and far trees share complete per-leaf fitted canopy geometry and corrected source RGB/alpha textures.",
+    "Far tree instances do not cast dynamic shadows.",
+    "Legacy sparse leaf geometry remains inside the original GLB containers for material compatibility but is never instanced or drawn."
+  ]
+}

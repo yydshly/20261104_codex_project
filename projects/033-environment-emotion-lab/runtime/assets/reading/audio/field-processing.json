@@ -1,0 +1,33 @@
+{
+  "processing": "70 Hz high pass, 10 kHz low pass, rain transient compression and soft limiting, constant loudness gain, 2-second equal-power loop join; no time stretching",
+  "recordings": [
+    {
+      "file": "assets/reading/audio/rain-leaves.ogg",
+      "start": 3,
+      "excerptDuration": 44,
+      "loopOverlap": 2,
+      "duration": 42.0,
+      "sampleRate": 48000,
+      "channels": 2,
+      "gainDb": 10.616608258071448,
+      "rmsDbfs": -26.503965377807617,
+      "peakDbfs": -9.119857788085938,
+      "bytes": 980414,
+      "sha256": "517935283dfdc714d57fc93df8e26fa427f03a851eec8f82cfde7121ee3cc04f"
+    },
+    {
+      "file": "assets/reading/audio/woodland-wind.ogg",
+      "start": 1,
+      "excerptDuration": 17,
+      "loopOverlap": 2,
+      "duration": 15.0,
+      "sampleRate": 48000,
+      "channels": 2,
+      "gainDb": -0.903398861155456,
+      "rmsDbfs": -26.058307647705078,
+      "peakDbfs": -10.503765106201172,
+      "bytes": 279365,
+      "sha256": "4fe7f894dc9e3700d7fa08f0940fe76568c6fe0b057a38dc492f3bd993e76ec8"
+    }
+  ]
+}

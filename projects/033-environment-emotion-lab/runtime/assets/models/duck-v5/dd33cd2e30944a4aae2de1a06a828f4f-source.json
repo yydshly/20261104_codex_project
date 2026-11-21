@@ -1,0 +1,157 @@
+{
+  "animationCount": 0,
+  "categories": [
+    {
+      "uid": "ed9e048550b2478eb1ab2faaba192832",
+      "name": "Animals & Pets",
+      "slug": "animals-pets",
+      "uri": "https://api.sketchfab.com/v3/categories/ed9e048550b2478eb1ab2faaba192832",
+      "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/926733e187aa5a479aedd2581bffb3ea-v2.svg",
+      "thumbnails": [
+        {
+          "width": "512",
+          "height": "288",
+          "url": "https://static.sketchfab.com/categories/ed9e048550b2478eb1ab2faaba192832/512x288.png"
+        },
+        {
+          "width": "800",
+          "height": "450",
+          "url": "https://static.sketchfab.com/categories/ed9e048550b2478eb1ab2faaba192832/800x450.png"
+        }
+      ]
+    }
+  ],
+  "commentCount": 0,
+  "createdAt": "2026-01-29T10:03:14.293923",
+  "embedUrl": "https://sketchfab.com/models/dd33cd2e30944a4aae2de1a06a828f4f/embed",
+  "faceCount": 12128,
+  "isAgeRestricted": false,
+  "license": {
+    "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+    "label": "CC Attribution",
+    "fullName": "Creative Commons Attribution",
+    "requirements": "Author must be credited. Commercial use is allowed.",
+    "url": "http://creativecommons.org/licenses/by/4.0/",
+    "slug": "by"
+  },
+  "likeCount": 26,
+  "name": "Realistic Mallard Duck - Game Ready Asset",
+  "publishedAt": "2026-01-29T10:04:13.549136",
+  "soundCount": 0,
+  "staffpickedAt": null,
+  "tags": [
+    {
+      "name": "bird",
+      "slug": "bird",
+      "uri": "https://api.sketchfab.com/v3/tags/bird"
+    },
+    {
+      "name": "duck",
+      "slug": "duck",
+      "uri": "https://api.sketchfab.com/v3/tags/duck"
+    },
+    {
+      "name": "mallard",
+      "slug": "mallard",
+      "uri": "https://api.sketchfab.com/v3/tags/mallard"
+    }
+  ],
+  "thumbnails": {
+    "images": [
+      {
+        "uid": "c20dc5b23e4c4ab6ac346bc154b5dbbc",
+        "width": 1920,
+        "height": 1080,
+        "size": 55458,
+        "url": "https://media.sketchfab.com/models/dd33cd2e30944a4aae2de1a06a828f4f/thumbnails/d30d52a6089f464f8a8a6f3d791b468c/50c55aac32e640a6a110bedcc90cdceb.jpeg"
+      },
+      {
+        "uid": "5204a0f7d29c4cffbd46cf3dc39e7417",
+        "width": 1024,
+        "height": 576,
+        "size": 17520,
+        "url": "https://media.sketchfab.com/models/dd33cd2e30944a4aae2de1a06a828f4f/thumbnails/d30d52a6089f464f8a8a6f3d791b468c/565de945cf8c4c13a2aa68d4e9824644.jpeg"
+      },
+      {
+        "uid": "f3ef2a251c934439ada87ba450fcb915",
+        "width": 720,
+        "height": 405,
+        "size": 10134,
+        "url": "https://media.sketchfab.com/models/dd33cd2e30944a4aae2de1a06a828f4f/thumbnails/d30d52a6089f464f8a8a6f3d791b468c/799b6406cabb4387a84386a46b523cad.jpeg"
+      },
+      {
+        "uid": "9d6e000b1965492281f6e1b598a54b3f",
+        "width": 256,
+        "height": 144,
+        "size": 2345,
+        "url": "https://media.sketchfab.com/models/dd33cd2e30944a4aae2de1a06a828f4f/thumbnails/d30d52a6089f464f8a8a6f3d791b468c/460ae38ffff54894a253f382aac2a594.jpeg"
+      },
+      {
+        "uid": "9326642cc7d44ce5bbd6f9e992debced",
+        "width": 64,
+        "height": 36,
+        "size": 879,
+        "url": "https://media.sketchfab.com/models/dd33cd2e30944a4aae2de1a06a828f4f/thumbnails/d30d52a6089f464f8a8a6f3d791b468c/c24102f86f714c64a9b510dc8e1bf37f.jpeg"
+      }
+    ]
+  },
+  "uid": "dd33cd2e30944a4aae2de1a06a828f4f",
+  "uri": "https://api.sketchfab.com/v3/models/dd33cd2e30944a4aae2de1a06a828f4f",
+  "user": {
+    "uid": "6a8857886a9f49faa63a7f693c852044",
+    "username": "Hdjusj",
+    "displayName": "3Dima",
+    "account": "basic",
+    "profileUrl": "https://sketchfab.com/Hdjusj",
+    "avatar": {
+      "uid": "106ecc2de637474eaf5874905be055aa",
+      "uri": "https://api.sketchfab.com/v3/avatars/106ecc2de637474eaf5874905be055aa",
+      "images": [
+        {
+          "width": 32,
+          "height": 32,
+          "size": 1770,
+          "url": "https://media.sketchfab.com/avatars/106ecc2de637474eaf5874905be055aa/a80ad1a22c484b4da13e7894ee95b08b.png"
+        },
+        {
+          "width": 48,
+          "height": 48,
+          "size": 3418,
+          "url": "https://media.sketchfab.com/avatars/106ecc2de637474eaf5874905be055aa/2ae6bed187bf42a3acd9e401367168da.png"
+        },
+        {
+          "width": 90,
+          "height": 90,
+          "size": 9650,
+          "url": "https://media.sketchfab.com/avatars/106ecc2de637474eaf5874905be055aa/ecec556c207749dca5d0e8821836da36.png"
+        },
+        {
+          "width": 100,
+          "height": 100,
+          "size": 11574,
+          "url": "https://media.sketchfab.com/avatars/106ecc2de637474eaf5874905be055aa/54b0b3b03764439fa6c2f6fb315e837f.png"
+        }
+      ]
+    },
+    "uri": "https://api.sketchfab.com/v3/users/6a8857886a9f49faa63a7f693c852044"
+  },
+  "vertexCount": 6093,
+  "viewCount": 1936,
+  "viewerUrl": "https://sketchfab.com/3d-models/realistic-mallard-duck-game-ready-asset-dd33cd2e30944a4aae2de1a06a828f4f",
+  "isDownloadable": true,
+  "isProtected": false,
+  "description": "High-quality realistic Mallard Duck (Drake). Perfect for Hunting games, Farm simulators, Lakes, or Nature environments.\n\n🦆 **Model Details:**\n* **Format:** .GLB (Textures embedded)\n* **Style:** Realistic / High Fidelity\n* **Status:** Static Mesh (Clean topology)\n* **Polycount:** ~12k Tris (Detailed feathers)\n\n⚠️ **NEED BIRDS OR ANIMALS?**\nI am a 3D Generalist available for freelance commissions.\nCheck my profile for other animals: Chickens, Cows, Dogs, Sheep.\nIf you need specific wild birds or forest animals, feel free to reach out!\n\n💬 **CONTACT:**\n* **Discord:** dima076125\n* **DM:** Message me here on Sketchfab.\n\n*Free to use in your projects (CC Attribution).*",
+  "price": null,
+  "downloadCount": 613,
+  "editorUrl": "https://sketchfab.com/models/dd33cd2e30944a4aae2de1a06a828f4f/edit",
+  "status": {
+    "warning": {},
+    "processing": "SUCCEEDED"
+  },
+  "source": "website",
+  "hasCommentsDisabled": false,
+  "updatedAt": "2026-01-29T10:04:13.992785",
+  "pbrType": null,
+  "textureCount": 1,
+  "materialCount": 1
+}

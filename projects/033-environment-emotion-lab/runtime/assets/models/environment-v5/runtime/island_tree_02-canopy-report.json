@@ -1,0 +1,57 @@
+{
+  "asset": "island_tree_02",
+  "file": "assets/models/environment-v5/runtime/island_tree_02-canopy.glb",
+  "bytes": 5320936,
+  "sourceLeafTriangles": 244369,
+  "sourceLeafComponents": 29781,
+  "retainedLeafComponents": 29781,
+  "twoTriangleLeaves": 20769,
+  "fourTriangleLeaves": 9012,
+  "outputTriangles": 77586,
+  "outputVertices": 137148,
+  "affineFitRelativeRMSEPercentiles": {
+    "50": 0.043019618313331946,
+    "90": 0.054423369814479726,
+    "95": 0.05673558187306727,
+    "99": 0.06432456471504122,
+    "100": 0.0674908848379046
+  },
+  "sourceLeafVertexHistogram": {
+    "9": 8128,
+    "10": 9754,
+    "11": 5421,
+    "12": 2928,
+    "13": 1617,
+    "8": 1774,
+    "7": 159
+  },
+  "material": "island_tree_02_leaves",
+  "sharedMaterialFile": "island_tree_02.glb",
+  "sourceTransform": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "seconds": 8.347348928451538
+}

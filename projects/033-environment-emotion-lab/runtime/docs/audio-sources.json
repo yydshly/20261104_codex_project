@@ -1,0 +1,78 @@
+{
+  "verified_date": "2026-11-12",
+  "recording_type": "Real field recordings, not synthesized audio",
+  "sources": [
+    {
+      "id": "water-stream",
+      "title": "Swale.ogg — Small swale trickling into a stream",
+      "author": "Ksd5 / Siddharth Patil",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Swale.ogg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Swale.ogg",
+      "recorded_date": "2011-02-27",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_evidence": "The exact Wikimedia Commons file page declares CC0 1.0 Universal Public Domain Dedication. The author requests credit where possible, although attribution is not legally required by CC0.",
+      "recommended_credit": "Stream recording: Siddharth Patil (Ksd5), CC0 1.0; excerpted and crossfaded.",
+      "original": {
+        "path": "assets/audio/water-stream.ogg",
+        "bytes": 1092440,
+        "seconds": 31.028145833333333,
+        "sample_rate": 48000,
+        "channels": 1,
+        "format": "Ogg Vorbis",
+        "sha256": "b71def4798508e588229a5f801fefaed9ac51c5dbad224274123c92e6d183fff",
+        "modified": false
+      },
+      "playback_asset": {
+        "path": "assets/audio/water-stream-loop.wav",
+        "bytes": 1440044,
+        "seconds": 30,
+        "sample_rate": 24000,
+        "channels": 1,
+        "format": "WAV PCM 16-bit",
+        "sha256": "926ba0e18eb8f10502857353208f51cd01c1ef57a517def87c814c8791934248",
+        "edits": "Used original seconds 0–31. Downsampled to 24 kHz with averaging. Created a 1-second sine-squared overlap of end and start; output contains source seconds 1–30 followed by the blended 30–31/0–1 transition, for a 30-second periodic loop. Converted to 16-bit PCM. No volume normalization applied."
+      }
+    },
+    {
+      "id": "pond-night",
+      "title": "Nature sounds ambience in a Dordogne pond.ogg",
+      "author": "Glaneur de sons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Nature_sounds_ambience_in_a_Dordogne_pond.ogg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Nature_sounds_ambience_in_a_Dordogne_pond.ogg",
+      "recorded_date": "2007-05-02",
+      "description": "Pond in Dordogne, France, at dusk; frogs and crickets singing. This is not a bird recording.",
+      "license": "CC BY 3.0 Unported",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_evidence": "The exact Wikimedia Commons file page declares Creative Commons Attribution 3.0 Unported and records a Freesound license review dated 2014-04-06.",
+      "required_credit": "Nature sounds ambience in a Dordogne pond — Glaneur de sons, CC BY 3.0. Excerpted, downsampled and crossfaded for looping.",
+      "attribution_requirement": "Show the author, source link, license link and modification notice in the website's credits/source panel.",
+      "original": {
+        "path": "assets/audio/pond-night.ogg",
+        "bytes": 1034975,
+        "seconds": 57.045,
+        "sample_rate": 96000,
+        "channels": 2,
+        "format": "Ogg Vorbis",
+        "sha256": "ebc99f767a1832608ef5a8e2fd170a19c01720a8ba957fd7521f291bba57b21f",
+        "modified": false
+      },
+      "playback_asset": {
+        "path": "assets/audio/pond-night-loop.wav",
+        "bytes": 2880044,
+        "seconds": 30,
+        "sample_rate": 24000,
+        "channels": 2,
+        "format": "WAV PCM 16-bit",
+        "sha256": "bc66f1d3801d4ee68b9007f29e89214b26c5fb25acd0d567a19fc93ecded7685",
+        "edits": "Used original seconds 10–41. Downsampled to 24 kHz with averaging. Created a 1-second sine-squared overlap of segment end and start; output contains source seconds 11–40 followed by the blended 40–41/10–11 transition, for a 30-second periodic loop. Converted to 16-bit PCM. No volume normalization applied."
+      }
+    }
+  ],
+  "verification": {
+    "originals": "Both Ogg files decoded and metadata inspected with libsndfile/soundfile.",
+    "loops": "Both WAV files reopened and all PCM frames read back byte-for-byte against the prepared output. Each contains exactly 720000 frames (30 seconds).",
+    "subjective_listening": "Not independently audited by ear in the asset-generation environment; descriptions come from the verified source pages.",
+    "total_audio_bytes": 6447503
+  }
+}

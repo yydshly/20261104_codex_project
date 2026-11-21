@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-15",
+  "scope": "Self player: walk, sit/stand, outdoor recline, hold/read/put down book, grip/drink/return cup, first/third switch, field audio and MiniMax output",
+  "completed": true,
+  "gpuErrors": 0,
+  "pageErrors": 0,
+  "fullRoundTrip": true,
+  "actualKeyboardWalk": true,
+  "samePlayerPositionOnPerspectiveSwitch": {
+    "x": -5.35,
+    "y": 1.77,
+    "z": 4.98999999999999
+  },
+  "actualShoeSoleGapsMetres": [
+    0.003811288236127308,
+    0.0022710212100645055
+  ],
+  "minimaxFollowsHeldBook": true,
+  "evidence": [
+    "self-acceptance/report.json",
+    "self-acceptance-focus/report.json",
+    "self-acceptance-near/report.json"
+  ],
+  "limits": [
+    "Screenshots and joint/contact checks do not prove every possible camera angle is free of minor clothing artifacts.",
+    "The original full arms are preserved; only near-camera head/neck surfaces are hidden. Fine cuff and finger detail is limited by the acquired rig.",
+    "Finger motion is a basic rig adaptation, not complete grip or cloth physics.",
+    "Measured capture FPS is not a cross-device performance guarantee.",
+    "Audio output and decoded signal verified; no new subjective listening verdict is asserted."
+  ],
+  "finalNearFieldVerified": true
+}

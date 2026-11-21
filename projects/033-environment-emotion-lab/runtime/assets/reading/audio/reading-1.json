@@ -1,0 +1,49 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "title": "慢一点，也很好",
+  "text": "把这一刻留给自己。\n不必急着读完一章，\n也不必赶往下一个地方。\n\n灯光落在纸上，\n窗外的雨替你放慢了时间。",
+  "request": {
+    "model": "speech-2.8-hd",
+    "text": "慢一点，也很好。<#0.8#>把这一刻留给自己。不必急着读完一章，也不必赶往下一个地方。<#0.8#>灯光落在纸上，窗外的雨替你放慢了时间。",
+    "stream": false,
+    "output_format": "hex",
+    "voice_setting": {
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 0.86,
+      "vol": 1,
+      "pitch": 0,
+      "emotion": "calm"
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "bitrate": 128000,
+      "format": "mp3",
+      "channel": 1
+    },
+    "language_boost": "Chinese"
+  },
+  "status": "ready",
+  "requested_at": "2026-11-15T03:01:54.574361+00:00",
+  "response": {
+    "base_resp": {
+      "status_code": 0,
+      "status_msg": "success"
+    },
+    "extra_info": {
+      "audio_length": 14364,
+      "audio_sample_rate": 32000,
+      "audio_size": 231540,
+      "bitrate": 128000,
+      "word_count": 70,
+      "invisible_character_ratio": 0,
+      "usage_characters": 119,
+      "audio_format": "mp3",
+      "audio_channel": 1
+    },
+    "trace_id": "074853a2fa191bb08b49c99685d6d146"
+  },
+  "file": "assets/reading/audio/reading-1.mp3",
+  "bytes": 231540,
+  "sha256": "d887d81921c7ca222ca840fa47feade39729b5cfe5dfed264624836c671c3079"
+}

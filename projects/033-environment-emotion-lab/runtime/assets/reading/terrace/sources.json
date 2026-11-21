@@ -1,0 +1,31 @@
+[
+  {
+    "license": "CC0-1.0",
+    "file": "Rockingchair_01_1k.gltf",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/Rockingchair_01/Rockingchair_01_1k.gltf"
+  },
+  {
+    "license": "CC0-1.0",
+    "sha256": "D42426FE153296909D45ABCBC4E91A3410B90D5A9CD58F01B1FA9AF93A712EF0",
+    "file": "textures/Rockingchair_01_diff_1k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/Rockingchair_01/Rockingchair_01_diff_1k.jpg"
+  },
+  {
+    "license": "CC0-1.0",
+    "sha256": "225008FCB16B3EE3B16372B4085D60E20DD660AB30B6A489B77B7E25A874B391",
+    "file": "textures/Rockingchair_01_nor_gl_1k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/Rockingchair_01/Rockingchair_01_nor_gl_1k.jpg"
+  },
+  {
+    "license": "CC0-1.0",
+    "sha256": "21C6A462D6865A6E839B7DFE966F845DF885A6DFE3AD64B3A87438DB1598CF5D",
+    "file": "textures/Rockingchair_01_arm_1k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/Rockingchair_01/Rockingchair_01_arm_1k.jpg"
+  },
+  {
+    "license": "CC0-1.0",
+    "sha256": "6C7C3C32A033A3697D9ADF3E8C9D966265CF11B519717D92C1EB5A9CFFE736E2",
+    "file": "Rockingchair_01.bin",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/Rockingchair_01/Rockingchair_01.bin"
+  }
+]

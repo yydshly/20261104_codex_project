@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-22",
+  "htmlPages": 5,
+  "htmlReferences": 245,
+  "moduleImports": 144,
+  "gltfDependencies": 43,
+  "guideSha256": "eec14470de2b1fb43e63eb5a4f38e6e5f9aad1c305d5318703f81fca945ed24c",
+  "guideUnchanged": true,
+  "runtimeChecks": "npm run check; npm test; npm run test:connected passed on curated runtime",
+  "scope": "Package validation; historical browser and subjective audio evidence remain separately dated",
+  "errors": []
+}

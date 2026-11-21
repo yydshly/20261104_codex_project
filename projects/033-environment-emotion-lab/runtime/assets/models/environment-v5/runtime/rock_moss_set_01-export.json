@@ -1,0 +1,87 @@
+{
+  "asset": "rock_moss_set_01",
+  "file": "assets/models/environment-v5/runtime/rock_moss_set_01.glb",
+  "bytes": 6949360,
+  "source": [
+    {
+      "name": "rock_moss_set_01_rock01.001",
+      "material": "rock_moss_set_01",
+      "sourceTriangles": 11000
+    },
+    {
+      "name": "rock_moss_set_01_rock02.001",
+      "material": "rock_moss_set_01",
+      "sourceTriangles": 10996
+    },
+    {
+      "name": "rock_moss_set_01_rock03.001",
+      "material": "rock_moss_set_01",
+      "sourceTriangles": 5000
+    },
+    {
+      "name": "rock_moss_set_01_rock04.001",
+      "material": "rock_moss_set_01",
+      "sourceTriangles": 10589
+    },
+    {
+      "name": "rock_moss_set_01_rock05.001",
+      "material": "rock_moss_set_01",
+      "sourceTriangles": 16548
+    },
+    {
+      "name": "rock_moss_set_01_rock06.001",
+      "material": "rock_moss_set_01",
+      "sourceTriangles": 8994
+    }
+  ],
+  "meshes": [
+    {
+      "name": "rock_moss_set_01_rock01.001",
+      "vertices": 5502,
+      "triangles": 11000,
+      "materials": [
+        "rock_moss_set_01"
+      ]
+    },
+    {
+      "name": "rock_moss_set_01_rock02.001",
+      "vertices": 5470,
+      "triangles": 10996,
+      "materials": [
+        "rock_moss_set_01"
+      ]
+    },
+    {
+      "name": "rock_moss_set_01_rock03.001",
+      "vertices": 2500,
+      "triangles": 5000,
+      "materials": [
+        "rock_moss_set_01"
+      ]
+    },
+    {
+      "name": "rock_moss_set_01_rock04.001",
+      "vertices": 5301,
+      "triangles": 10589,
+      "materials": [
+        "rock_moss_set_01"
+      ]
+    },
+    {
+      "name": "rock_moss_set_01_rock05.001",
+      "vertices": 8276,
+      "triangles": 16548,
+      "materials": [
+        "rock_moss_set_01"
+      ]
+    },
+    {
+      "name": "rock_moss_set_01_rock06.001",
+      "vertices": 4499,
+      "triangles": 8994,
+      "materials": [
+        "rock_moss_set_01"
+      ]
+    }
+  ]
+}

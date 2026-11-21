@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f3f1e9">
+  <meta name="description" content="栖境项目参考：环境如何构造情绪、连通空间与人物动作的实现、池塘和阅读角的素材来源、复用模块与验收边界。">
+  <title>栖境 · 项目方法与复用手记</title>
+  <link rel="icon" href="./favicon.svg"><link rel="stylesheet" href="./reading-notes.css">
+  <script type="module" src="./reading-notes.js"></script>
+</head>
+<body id="top">
+  <a class="skip" href="#main">跳到正文</a>
+  <header class="notes-header wrap">
+    <a class="notes-brand" href="./index.html">栖境 <span>制作与复用手记</span></a>
+    <nav aria-label="手记导航"><a href="#connected-world">当前体验</a><a href="#idea">理解</a><a href="#method">方法</a><a href="#character">人物</a><a href="#sources">素材</a><a href="#reuse">复用</a></nav>
+    <a class="header-scene" href="./reading.html?v=12">进入林间小屋 ↗</a>
+  </header>
+  <main id="main">
+    <section class="notes-hero wrap" aria-labelledby="notes-title">
+      <div>
+        <p class="eyebrow">PROJECT NOTES / 2026.11.21 · 实现与复用</p>
+        <h1 id="notes-title">环境构造情绪，<br>引发<span>沉浸体验。</span></h1>
+        <p class="hero-lead">从灯下阅读，到庭院喝茶，再到池边。<br>把一个可以停留的地方，做成可以亲身参与的体验。</p>
+        <p class="hero-context">这份手记按理解、实现、来源、复用和验收整理。先看当前能做什么，再追溯空间、声景、人物动作如何组合；旧版本记录留作比较。</p>
+        <div class="actions"><a class="button primary" href="#connected-world">查看当前体验 ↓</a><a class="quiet-link" href="#scene-card">带走一张场景卡 ↓</a></div>
+        <div class="hero-tags"><span>实时 3D</span><span>自然环境声</span><span>第一 / 第三人称</span></div>
+      </div>
+      <figure class="case-image current-case"><a href="./reading.html?v=12"><img src="./docs/seat-contact-review/08-native-reading.png" width="1180" height="820" alt="当前原型的实际运行画面：人物坐在皮椅上双手持书，双脚由脚凳支撑。"></a><figcaption><strong>灯下阅读 · 当前实现</strong><span>实际浏览器画面 · 2026-11-16 坐姿接触修复后。点击进入实时场景。</span></figcaption></figure>
+    </section>
+
+    <aside class="phase-note wrap" aria-label="当前阶段"><span class="pill">阶段定位</span><p><strong>当前足够用于体验方向与复用方法的验证。</strong>确定具体产品用途、目标人群和真实内容后，再围绕长期使用细细打磨。</p><a href="#status">查看实现与验证边界 ↓</a></aside>
+
+    <section class="connected-entry wrap" id="connected-world" aria-labelledby="connected-title">
+      <p class="eyebrow">当前体验 / 同一个空间，同一个自己</p><h2 id="connected-title">房间、庭院、池塘，已经连成一处地方。</h2>
+      <p>林间小屋入口使用同一坐标空间、人物和时间状态。可以起身出门，在茶角靠坐、拿书或喝茶，沿小径靠近池塘，再回房继续读书；途中不切换网页。第一、第三人称共享同一人物与动作进度。</p>
+      <ol class="space-route" aria-label="连续空间路线"><li><span>01 / 房间</span><strong>灯下读书</strong><small>坐下、拿书、翻页、听朗读</small></li><li><span>02 / 庭院</span><strong>茶角歇歇</strong><small>靠坐、脚凳支撑、拿杯喝茶</small></li><li><span>03 / 池塘</span><strong>走近自然</strong><small>水面、鸭子、风与轻回应</small></li></ol>
+      <p>自然录音随位置、距离、朝向和门口开放程度平滑混合；MiniMax 朗读跟随书的位置，播放时适当压低环境声。声音默认关闭，由使用者主动开启。</p>
+      <div class="control-guide"><span><kbd>WASD</kbd> / 方向键行走</span><span>拖动环顾 · <kbd>V</kbd> 切换视角</span><span><kbd>B</kbd> 拿书 / 放书 · <kbd>E</kbd> 交互 / 翻页</span><span><kbd>C</kbd> 户外喝茶 · <kbd>N</kbd> 朗读</span></div>
+      <div class="actions"><a class="button primary" href="./reading.html?v=12">进入连通的林间小屋 ↗</a><a class="quiet-link" href="#character">了解人物动作与接触 ↓</a><a class="quiet-link" href="#status">查看验收与边界 ↓</a></div>
+      <p class="annotation"><strong>两个入口，一条演进路线。</strong>首页池塘保留独立的观察构图；林间小屋是可步行的连通空间。下方对照解释池塘和阅读角各自的制作重点，不表示进出房间时切换场景。当前主体为自己控制的人物；陪伴 NPC 属于历史探索。</p>
+    </section>
+
+    <section class="note-section wrap" id="comparison" aria-labelledby="comparison-title">
+      <div class="section-heading"><p class="eyebrow">01 / 放在一起看</p><h2 id="comparison-title">同一种构造方法，<br>两种不同的生活时刻。</h2><p>共用主场景、氛围线索与操作回应的组织方式；主角、活动和核心模拟，随具体用途改变。</p></div>
+      <div class="comparison-cases"><article><span class="pill">自然观察与轻回应</span><h3>暮色池塘</h3><p>水面、绿头鸭、植物与远岸小屋组成开放环境。用户可以安静观察，也能点水面、唤鸭子，让这个地方给出一点回应。</p><a class="quiet-link" href="./index.html#top">进入池塘 ↗</a></article><article><span class="pill">阅读活动与放松停留</span><h3>温暖阅读角</h3><p>椅子、书、台灯与窗外风雨组成室内外关系。用户围绕阅读展开活动，按需坐近、翻页或听朗读，让环境支持一件具体的事。</p><a class="quiet-link" href="./reading.html?v=12">进入林间小屋 ↗</a></article></div>
+      <div class="table-scroll"><table class="comparison-table"><caption>两种场景的目标与实现差异</caption><thead><tr><th scope="col">维度</th><th scope="col">池塘</th><th scope="col">阅读角</th></tr></thead><tbody>
+        <tr><th scope="row">目标感受</th><td>安静陪伴、自然观察、轻微好奇与被回应。</td><td>温暖、放松，愿意坐下来阅读。</td></tr>
+        <tr><th scope="row">注意力落点</th><td>有自主行为的鸭子与不断变化的水面；允许偶尔看一眼。</td><td>书、座位与阅读内容；环境在活动周围持续存在。</td></tr>
+        <tr><th scope="row">核心动态</th><td>游动、转向、五点浮动、水纹、水线与带历史方向的尾流。</td><td>连续风场、枝叶阴影、细雨、玻璃水滴汇聚和窗帘轻摆。</td></tr>
+        <tr><th scope="row">渲染重点</th><td>在三维水面上组织实时倒影、几何长波与像素细波。</td><td>分别照亮室内与室外，实时绘制窗景，供玻璃局部折射采样。</td></tr>
+        <tr><th scope="row">共同状态</th><td>日夜、风力、时间和鸭子位置，联动灯光、水、植物与声音。</td><td>天气、灯档、书页和播放状态，各自驱动对应画面与反馈。</td></tr>
+        <tr><th scope="row">声音分工</th><td>溪流、蛙虫与鸭叫使用实录；风声和短拍水等使用程序音效。鸭叫按画面位置做左右声像。</td><td>雨与林间风使用自然录音；MiniMax 朗读属于阅读内容，并随持书位置移动，另有短翻页、开关音效。</td></tr>
+        <tr><th scope="row">操作与回应</th><td>点击水面产生波纹并给出接近目标；呼唤触发一次短响应和叫声，再游近。</td><td>坐下、拿书、翻页、放书、起身；可调灯、停雨与听朗读，朗读时压低环境声。</td></tr>
+        <tr><th scope="row">产品延伸</th><td>自然陪伴、轻探索或生态观察；更复杂规则需要新的内容与模拟依据。</td><td>真实阅读、专注或共同在场；书库、进度与同步仍需单独实现。</td></tr>
+      </tbody></table></div>
+      <p class="annotation">以上按两处环境的制作重点对照；它们最初分别制作，现已在林间小屋连通。两处原型都使用实时三维，不依靠循环视频。池塘的水体与鸭子动作、阅读角的风雨与折射，均包含实时近似，并非完整物理求解。</p>
+    </section>
+
+    <section class="note-section wrap" id="idea" aria-labelledby="idea-title">
+      <div class="section-heading"><p class="eyebrow">02 / 我们的理解</p><h2 id="idea-title">主场景给人所在，<br>一致的线索让感受成立。</h2><p>游戏场景、陪伴场景、专注空间、记忆容器，都可以使用这套方法。先明确用户在过怎样的一刻，再决定这个地方如何回应。</p></div>
+      <ol class="experience-path" aria-label="环境到沉浸的设计路径">
+        <li><small>01 · 环境</small><h3>我在哪里</h3><p>空间、物件与观看距离，给出一个可信的所在。</p></li>
+        <li><small>02 · 情绪线索</small><h3>这里是什么感觉</h3><p>光、材质、声音和节奏，共同指向温暖、安静与松弛。</p></li>
+        <li><small>03 · 在场</small><h3>这里与我有关</h3><p>坐下拿书、翻页、调灯，让操作得到清楚而克制的回应。</p></li>
+        <li><small>04 · 沉浸</small><h3>愿意自然地停留</h3><p>注意力进入阅读、观察或休息，环境保持连贯又允许退出。</p></li>
+      </ol>
+      <p class="annotation">这是指导创作的工作假设。个人偏好、使用时刻和正在进行的活动都会影响感受；本项目尚未证明稳定的情绪效果。</p>
+      <div class="intent-grid">
+        <article><span>温暖</span><h3>一个被照顾的位置</h3><p>暖灯照向书面，皮革、木纹和织物有不同触感；眼镜、杯子与书签暗示这里有人生活。</p></article>
+        <article><span>放松</span><h3>低负担的变化</h3><p>窗外风雨持续发生，动作细小且不急促。声音可关，持续动态尊重系统偏好，用户可以随时离开。</p></article>
+        <article><span>愿意停留</span><h3>有一件真实可做的事</h3><p>阅读与可选朗读提供注意力的落点。未来接入真实内容和进度，才有机会形成持续使用的理由。</p></article>
+      </div>
+      <div class="key-insight"><span>这一轮最重要的认识</span><p>优质素材提供可信的细节。<strong>把它们组织在同一个情绪目标、空间逻辑和时间节奏里，才形成完整体验。</strong></p></div>
+    </section>
+
+    <section class="band" id="composition" aria-labelledby="composition-title"><div class="wrap note-section">
+      <div class="section-heading"><p class="eyebrow">03 / 主场景与辅助线索</p><h2 id="composition-title">每一种感官线索，<br>都服务于同一个时刻。</h2><p>多感官搭配的重点是共同指向同一个场所和同一种节奏。素材的强度、尺度与出现时机，需要一起判断。</p></div>
+      <div class="table-scroll"><table><caption class="sr-only">阅读角中各个构造元素的作用与搭配方法</caption><thead><tr><th scope="col">构造元素</th><th scope="col">本次怎样实现</th><th scope="col">对体验的作用</th></tr></thead><tbody>
+        <tr><th scope="row">主场景</th><td>有实际尺寸的房间、椅子、边桌、书架与窗户。</td><td>确定活动、视线与身体距离，提供可以坐下的位置。</td></tr>
+        <tr><th scope="row">光与材质</th><td>柔和窗光、局部暖灯、皮革、木材、亚麻和纸张各自的反光。</td><td>建立冷暖与远近关系，让空间有重量和生活感。</td></tr>
+        <tr><th scope="row">声音</th><td>自然雨声与林间风声，独立于三页 MiniMax 朗读；默认关闭。</td><td>延伸窗外空间，维持安静节奏，让朗读保持清楚。</td></tr>
+        <tr><th scope="row">微小动态</th><td>枝叶风动、空间细雨、玻璃水滴、窗帘轻摆和茶汽。</td><td>让环境持续生活；变化保持克制，给阅读留出注意力。</td></tr>
+        <tr><th scope="row">轻量交互</th><td>双视角行走、坐下拿书、翻页、三档调灯、停雨、音量与静音。</td><td>提供自主感和回应，进入与退出都不费力。</td></tr>
+        <tr><th scope="row">共同状态</th><td>人物位置、动作阶段、天气、灯光与书页，共同驱动对应画面和反馈。</td><td>让多个元素相互对应，保持环境逻辑连贯。</td></tr>
+      </tbody></table></div>
+      <div class="event-pair"><article><p class="eyebrow">一个事件 · 多个回应</p><h3>停下窗外的雨</h3><p>空中雨线淡出 → 玻璃残水缓慢消退 → 自然雨声降低。几层变化各有时间尺度，窗外风声仍然保留。</p></article><article><p class="eyebrow">把注意力留给活动</p><h3>听这一页</h3><p>播放当前页朗读 → 环境声平滑降低 → 结束后恢复。翻页切换内容，收起书页或静音会停止朗读。</p></article></div>
+    </div></section>
+
+    <section class="note-section wrap" id="method" aria-labelledby="method-title">
+      <div class="section-heading"><p class="eyebrow">04 / 阅读角的实际制作</p><h2 id="method-title">从现成资产开始，<br>把空间、光与时间接起来。</h2><p>运行底座是本地 Three.js 与 Web Audio；Blender 用于离线准备模型、窗帘与动作，网页直接载入转换后的资产。房间与窗外均为实时三维。窗外使用同一相机绘制外景，再提供给玻璃折射采样；转动视角时，树木与房间保持对应的透视。</p></div>
+      <ol class="method-grid">
+        <li><span class="step-number">01</span><h3>先写一个明确的时刻</h3><p>场景定为“窗外下雨，室内留一盏暖灯，坐下来读一会儿”。围绕温暖、放松、愿意停留，决定主视线和交互密度。</p><small>先定用途、感受与第一版范围。</small></li>
+        <li><span class="step-number">02</span><h3>用优质现成模型搭空间</h3><p>使用 Poly Haven 家具、植物与材质。按包围盒归一比例，再安排真实的相对尺寸、落地位置、遮挡和留白。书架与房间构造由本项目制作。</p><small>现成资产 + 空间编排 + 少量自建细节。</small></li>
+        <li><span class="step-number">03</span><h3>让不同表面正确受光</h3><p>底色、法线、粗糙度分别处理。皮革与金属使用源材质遮罩；木纹按板材方向和实际尺度铺设，布料保留织纹与柔和反光。</p><small>同一张灯光下，皮革、金属、木头和纸应有不同表现。</small></li>
+        <li><span class="step-number">04</span><h3>建立室内外光影关系</h3><p>HDR / PMREM 提供环境反射，窗边面光与局部暖灯组织重点。室外使用柔和投影；室内配合接触暗部与克制辉光。窗景保持线性颜色，最终统一映射。</p><small>先检查整体明暗，再检查单个物件。</small></li>
+        <li><span class="step-number">05</span><h3>用多种时间尺度维持生命感</h3><p>窗帘先在 Blender 固定顶部、计算重力松弛，再把网格用于网页。树木使用两款树形、实例差异与连续噪声风场；阴影复用风动。玻璃水滴有停留、汇聚、下滑和短水迹。</p><small>缓慢环境变化 + 局部细动 + 短暂操作反馈。</small></li>
+        <li><span class="step-number">06</span><h3>把声音与操作接到同一状态</h3><p>自然录音裁切、响度匹配并处理循环接缝；MiniMax 预生成三段原创文字朗读，网页播放本地文件。浏览器处理滤波、音量、朗读压低环境声和后台暂停。</p><small>声音先分别检查，再检查混合与切换。</small></li>
+      </ol>
+      <details class="technical"><summary>查看模块分工与可复用接口</summary><div class="table-scroll"><table><thead><tr><th scope="col">模块</th><th scope="col">职责 / 复用方式</th></tr></thead><tbody>
+        <tr><td><code>reading-world.js</code></td><td>场景、相机、灯光、模型载入与物件点击；通过 <code>action()</code> 安排坐近、调灯、天气和翻页。</td></tr>
+        <tr><td><code>reading-surfaces.js</code> / <code>reading-details.js</code></td><td>窗帘、柜体、材质与画框、书签等生活细节；更换房间后需重做位置与尺度适配。</td></tr>
+        <tr><td><code>reading-garden.js</code></td><td>外景、两款树形、灌木、投影、空间细雨、玻璃折射与外景渲染通道。</td></tr>
+        <tr><td><code>reading-garden-motion.js</code></td><td>连续风场、实例风动和水滴生命周期；变化速率、密度和尺度需要按新场景调整。</td></tr>
+        <tr><td><code>reading-audio.js</code></td><td><code>setEnabled / setOptions / narrate / stopNarration</code> 管理环境录音、朗读和混音；素材可替换，播放生命周期可复用。</td></tr>
+        <tr><td><code>reading.js</code></td><td>把场景状态、阅读卡片与声音联动；书页文字与新旁白必须一同更新。</td></tr>
+        <tr><td><code>scripts/</code></td><td>来源校验、资产打包、窗帘计算、录音处理、朗读生成与验证；制作工具不要求终端用户安装。</td></tr>
+      </tbody></table></div></details>
+    </section>
+
+    <section class="note-section wrap character-section" id="character" aria-labelledby="character-title">
+      <span id="tea-companion" class="anchor-alias" aria-hidden="true"></span>
+      <div class="section-heading"><p class="eyebrow">人物 / 从摆姿态，到连续的行为</p><h2 id="character-title">好模型是基础，<br>动作、接触与视线让人可信。</h2><p>人物呆板并不只来自模型。重心有没有先移动，手何时接住书，臀腿是否由椅子支撑，目光是否跟着活动变化，都要在同一条动作链中成立。</p></div>
+      <div class="character-layers"><article><span>01 / 模型与原生动作</span><h3>保留角色，补充同源素材</h3><p>保留 Rocketbox Male Adult 10 的原网格、蒙皮和材质。新增同一官方动作库的坐姿呼吸、放松、环顾及文档动作，统一骨架、比例和方向后，单独导出动画 GLB。</p></article><article><span>02 / 表演与过渡</span><h3>让身体先准备，再完成动作</h3><p>基础呼吸上叠加肩背、颈部变化；拿书前先看向桌边并探身，起身前先放书、收脚和前倾。眨眼与视线随阅读变化，强度保持克制。</p></article><article><span>03 / 接触与反馈</span><h3>让人物和物件遵守同一关系</h3><p>手与书共用动作时钟，脚有世界坐标支撑点。骨骼动作完成后，再按实际蒙皮与座椅表面修正接触；相机与书的位置声源跟随同一状态。</p></article></div>
+      <ol class="motion-chain" aria-label="阅读动作链"><li><strong>坐下</strong><p>椅前对齐、转身，双脚先落稳，再降低重心。</p></li><li><strong>拿书</strong><p>书先留在桌上；伸手握住、抬起，另一只手接应。</p></li><li><strong>阅读 · 翻页</strong><p>一手托书，一手扫页；保留呼吸、眨眼与目光。</p></li><li><strong>放书</strong><p>把书送回对应桌面，落稳后松手，再收回身体。</p></li><li><strong>起身</strong><p>脚从脚凳移到地面，前倾、抬起，最后迈开。</p></li></ol>
+      <div class="key-insight"><span>素材与适配的分界</span><p>同源动作提供身体运动的基础。<strong>坐下起身的重心、取放书和翻页接触仍由本项目适配。</strong>当前没有完整原生“坐下读书”动捕，也没有完整手指、衣料和软垫物理。</p></div>
+      <details class="technical"><summary>坐垫穿模为什么发生，又怎样修复？</summary><p class="annotation">只对齐骨盆、膝盖等骨骼点，不能保证衣物和身体表面不进入椅子。最初实际网格检查发现 13 个采样点进入坐垫，最深约 3.44 cm。</p><p class="annotation">修复使用原座椅网格烘焙支撑表面，动作完成后检查蒙皮臀腿采样点，修正骨盆高度，再重新计算手脚与持物关系。坐下起身的脚部轨迹也分阶段落地，保留完整人物网格。</p><p class="annotation">独立对原始椅子三角网格核对了呼吸、拿书、阅读、翻页、放书、起身、再坐下共 134 个采样时刻，最大残余重叠约 0.75 mm，低于 2 mm 回归阈值。这是有范围的采样验证。</p><div class="record-links"><a href="./docs/seat-contact-fix.md">修复方法与范围 ↗</a><a href="./docs/seat-contact-review/mesh-report.json">134 个时刻的网格检查 ↗</a><a href="./docs/seat-contact-review/back-report.json">靠背网格检查 ↗</a></div></details>
+      <details class="technical"><summary>人物模块：哪些逻辑可复用，哪些接触要重做？</summary><div class="table-scroll"><table><thead><tr><th scope="col">模块</th><th scope="col">职责</th><th scope="col">更换场景时</th></tr></thead><tbody>
+        <tr><td><code>reading-motion-layers.js</code></td><td>同源动画的上半身附加混合。</td><td>同一绑定可沿用；更换骨架需重映射与检查权重。</td></tr>
+        <tr><td><code>reading-player-ritual.js</code></td><td>拿书、持书、翻页、放回的阶段与共同时钟。</td><td>时序思路可复用；书的大小、握点与桌面位置要重标。</td></tr>
+        <tr><td><code>reading-player.js</code> / <code>reading-walk.js</code></td><td>基础动作、手脚约束、落座与起身、持书时先放书的排队。</td><td>角色比例、椅前路线、重心与脚部支撑需重新校准。</td></tr>
+        <tr><td><code>reading-seat-contact.js</code> / <code>reading-seat-surface.js</code></td><td>蒙皮表面接触与座椅支撑数据。</td><td>换椅子要重烘焙表面，换人物要检查接触采样。</td></tr>
+        <tr><td><code>reading-camera.js</code> / <code>reading-audio.js</code></td><td>实际眼位、第三人称遮挡与位置声场。</td><td>控制与生命周期可复用；镜头距离、障碍与声源布局要适配。</td></tr>
+      </tbody></table></div></details>
+      <div class="actions"><a class="quiet-link" href="./docs/reading-motion-chain.md">完整动作设计与制作流程 ↗</a><a class="quiet-link" href="#status">看当前动作录像 ↓</a></div>
+    </section>
+
+    <section class="band" id="pond-method" aria-labelledby="pond-method-title"><div class="wrap note-section">
+      <div class="section-heading"><p class="eyebrow">05 / 池塘的实际制作</p><h2 id="pond-method-title">让水、动物与环境，<br>在同一个时钟里相互回应。</h2><p>池塘 v5 使用真实绿头鸭、植物与扫描石资产。小屋与地形有本项目制作的几何，水面与互动由程序组织。</p></div>
+      <ol class="method-grid">
+        <li><span class="step-number">01</span><h3>安排水域与栖息环境</h3><p>先确定水域、保守泳域与观看距离，再组织湿泥岸、扫描苔石、近远树木和林下植物。小屋放到远岸，给水面和鸭子留出可见范围。</p><small>空间布局与主体关系先成立。</small></li>
+        <li><span class="step-number">02</span><h3>组合几层水面变化</h3><p>在细分几何上形成长波，叠加像素细波、局部风波与实时倒影；点击生成有限传播的波纹。鸭子位置、尺寸、速度和历史航向共同参与水线与尾流。</p><small>实时反射与波动近似；没有完整流体求解。</small></li>
+        <li><span class="step-number">03</span><h3>给静态鸭子补充行为</h3><p>将纹理模型归一到约 0.75 米长、0.30 米宽。巡游、停留、回应、转向和游近由行为控制器驱动；头颈与喙通过连续权重做小幅形变。</p><small>原资产没有骨骼和原生动画；动作由本项目补充。</small></li>
+        <li><span class="step-number">04</span><h3>让鸭子与水面相连</h3><p>先更新水面，再在鸭子中心、前后、左右五点采样水高，控制浮高与轻微倾斜；随后把鸭子状态交回水面。泳域约束保持清楚；一次呼唤触发一次叫声，另有可关闭的随机鸭叫。</p><small>共享采样与事件，不是流体对动物的真实力反馈。</small></li>
+        <li><span class="step-number">05</span><h3>让风与日夜一起变化</h3><p>近远树木采用实例复用，叶片保留源透明轮廓与风动阴影。日夜改变环境光、水色、窗光、萤火和录音混音；阵风同时影响叶面、水面与风声。</p><small>同一状态带动多个线索，局部反馈仍有自己的节奏。</small></li>
+        <li><span class="step-number">06</span><h3>让一次操作有完整回应</h3><p>点击三维水面，把落点同时交给涟漪和鸭子接近行为。呼唤只发出一次鸭叫，喙随叫声开合；随机叫声也走同一事件通道。游动产生方向性尾流。环境与事件音效分总线管理，静音也约束互动声音。</p><small>物件命中 → 行为 → 画面与声音 → 清楚的结束状态。</small></li>
+      </ol>
+      <div class="event-pair"><article><p class="eyebrow">共享的构造方法</p><h3>点水面，与翻一页</h3><p>两者都将输入交给状态，再安排动作、视觉和声音。池塘落点成为空间目标；阅读角翻页改变内容与朗读。复用的是协调方式，反馈含义由活动决定。</p></article><article><p class="eyebrow">各自的技术重点</p><h3>水面的倒影，与玻璃的折射</h3><p>两者都有额外渲染通道与纹理采样，但相机、几何和采样规则不同。可沿用多通道管理经验，水面代码与窗玻璃代码需要分别适配。</p></article></div>
+      <details class="technical"><summary>池塘模块与历史实现记录</summary><div class="table-scroll"><table><thead><tr><th scope="col">模块</th><th scope="col">职责</th></tr></thead><tbody>
+        <tr><td><code>pond-world.js</code></td><td>场景、时间、相机、命中与共享状态；通过 <code>setOptions / trigger / getState / resize / dispose</code> 管理体验。</td></tr>
+        <tr><td><code>pond-environment-v5.js</code></td><td>导入植物、扫描石与地表，组合小屋、近远布局、实例绘制和风动。</td></tr>
+        <tr><td><code>pond-water-3d.js</code></td><td><code>update / ripple / wake / setSwimmer / sampleHeight / resizeQuality / dispose</code> 管理水波、倒影和浮动采样。</td></tr>
+        <tr><td><code>pond-duck-v5.js</code> / <code>pond-duck-3d.js</code></td><td>前者处理真实鸭子网格与互动形变，复用后者的行为与五点浮力。旧程序鸭网格不参与 v5 绘制。</td></tr>
+        <tr><td><code>pond-lighting.js</code> / <code>pond-materials.js</code></td><td>HDR / PMREM、阴影与后期、主渲染深度 AO、本地 PBR 纹理。</td></tr>
+        <tr><td><code>pond-audio.js</code></td><td>实录环境底声、实录鸭叫与合成短音效；处理混音、声像、暂停和事件冷却。</td></tr>
+      </tbody></table></div><div class="record-links"><a href="./docs/runtime-architecture.md" target="_blank" rel="noreferrer">池塘实时架构</a><a href="./docs/environment-v5.md" target="_blank" rel="noreferrer">植物与岸石制作</a><a href="./docs/verification-v5.md" target="_blank" rel="noreferrer">池塘 v5 历史核验</a></div></details>
+      <p class="annotation"><a class="quiet-link" href="#pond-sources">查看池塘的模型、材质与声音来源 ↓</a></p>
+    </div></section>
+
+    <section class="band" id="lessons" aria-labelledby="lessons-title"><div class="wrap note-section">
+      <div class="section-heading"><p class="eyebrow">06 / 两个场景留下的经验</p><h2 id="lessons-title">真实感来自许多<br>相互吻合的小关系。</h2></div>
+      <div class="lesson-list">
+        <article><span>01</span><div><h3>模型优秀，还需要共同的空间语言</h3><p>比例、接地、板厚、物件间距和生活痕迹一起决定可信度。相同树形反复出现会暴露复制感，布局与形态差异需要共同处理。</p></div></article>
+        <article><span>02</span><div><h3>光影和材质要一起调</h3><p>过强反光让皮革像塑料，错误木纹方向让柜子像贴图方块。统一粗糙度会丢失不同材料的差别；补光也可能冲淡体积。</p></div></article>
+        <article><span>03</span><div><h3>空气层次要给近景留清晰度</h3><p>从相机附近就叠加亮灰雾，会让整扇窗像磨砂玻璃。我们将衰减起点移到窗外远处，并把水滴折射限制在局部。</p></div></article>
+        <article><span>04</span><div><h3>自然的变化需要持续观察</h3><p>固定周期摆动、重复雨线和匀速水滴，久看会露出规律。改用连续风场、雨线重新分布，以及水滴汇聚与流出；仍需在真实设备上观察。</p></div></article>
+        <article><span>05</span><div><h3>程序检查与实际体验各回答一类问题</h3><p>仿真能检查有限值、边界、暂停与资源释放；真实画面、连续听读和个人反馈，才能继续判断自然感与停留感。</p></div></article>
+      </div>
+    </div></section>
+
+    <section class="note-section wrap" id="sources" aria-labelledby="sources-title">
+      <div class="section-heading"><p class="eyebrow">07 / 两个场景的素材账本</p><h2 id="sources-title">把来源、许可与加工，<br>和场景一起留下。</h2><p>按场景分别记录实际使用的素材，并标明本项目的处理方式。两者共用部分 Poly Haven 资产；鸭子模型、蛙虫录音、自然录音与 AI 朗读的来源和许可分别管理。</p></div>
+      <h3 class="source-group-title">林间小屋 · 人物、家具、窗景与阅读内容</h3>
+      <div class="source-grid">
+          <article class="source-card"><p class="source-type">人物与同源动作 / Microsoft Rocketbox · MIT</p><h3>Male Adult 10 与阅读动作</h3><p>人物与动作均来自 Microsoft Rocketbox 官方库。保留现有角色，另取 9 个坐姿与文档动作 FBX；转换、裁切为 8 个动画片段，约 2.74 MB。运行时使用本地动画文件。</p><p>原生坐姿呼吸作基础，肩背变化作附加层；书本交互、坐下起身和接触约束是本项目适配。</p><div class="record-links"><a href="https://github.com/microsoft/Microsoft-Rocketbox" target="_blank" rel="noreferrer">官方角色与动作库 ↗</a><a href="./assets/reading/companion/LICENSE.txt">MIT 许可全文 ↗</a><a href="./assets/reading/motions/source/sources.json">动作源文件与哈希 ↗</a><a href="./assets/reading/motions/manifest.json">导出片段与裁切范围 ↗</a></div></article>
+        <article class="source-card"><p class="source-type">家具与阅读物件 / Poly Haven · CC0</p><h3>座椅、灯与触手可及的物件</h3><ul><li><a href="https://polyhaven.com/a/Rockingchair_01" target="_blank" rel="noreferrer">Rockingchair 01 ↗</a> · 庭院实木摇椅。茶桌、脚凳复用同源素材；遮雨棚、木台与茶具由本项目制作。</li>
+          <li><a href="https://polyhaven.com/a/mid_century_lounge_chair" target="_blank" rel="noreferrer">Mid Century Lounge Chair ↗</a> · 当前使用 2K 材质。</li>
+          <li><a href="https://polyhaven.com/a/Ottoman_01" target="_blank" rel="noreferrer">Ottoman 01 ↗</a>、<a href="https://polyhaven.com/a/throw_pillows_01" target="_blank" rel="noreferrer">Throw Pillows 01 ↗</a> · 脚凳与其中一只靠垫。</li>
+          <li><a href="https://polyhaven.com/a/side_table_01" target="_blank" rel="noreferrer">Side Table 01 ↗</a>、<a href="https://polyhaven.com/a/desk_lamp_arm_01" target="_blank" rel="noreferrer">Desk Lamp Arm 01 ↗</a> · 边桌与台灯。</li>
+          <li><a href="https://polyhaven.com/a/book_encyclopedia_set_01" target="_blank" rel="noreferrer">Book Encyclopedia Set 01 ↗</a>、<a href="https://polyhaven.com/a/wicker_basket_02" target="_blank" rel="noreferrer">Wicker Basket 02 ↗</a> · 书架藏书与收纳篮。</li>
+        </ul><p>载入后按本场景调整比例、摆放和材质响应；书本按组重新排列。</p></article>
+        <article class="source-card"><p class="source-type">PBR 材质与环境光 / Poly Haven · CC0</p><h3>木头、织物与天光</h3><ul>
+          <li><a href="https://polyhaven.com/a/walnut_veneer" target="_blank" rel="noreferrer">Walnut Veneer ↗</a> · 书架与画框细木纹。</li>
+          <li><a href="https://polyhaven.com/a/rough_linen" target="_blank" rel="noreferrer">Rough Linen ↗</a> · 亚麻窗帘，保留织纹并映射为象牙色。</li>
+          <li><a href="https://polyhaven.com/a/wood_floor" target="_blank" rel="noreferrer">Wood Floor ↗</a>、<a href="https://polyhaven.com/a/poly_wool_herringbone" target="_blank" rel="noreferrer">Poly Wool Herringbone ↗</a> · 地板、部分木件、地毯与毯子。</li>
+          <li><a href="https://polyhaven.com/a/lebombo" target="_blank" rel="noreferrer">Lebombo ↗</a> · HDR 环境光与反射。</li>
+        </ul><p>Poly Haven 的模型、贴图与 HDR 采用 <a href="https://polyhaven.com/license" target="_blank" rel="noreferrer">官方 CC0 许可 ↗</a>；逐项下载地址与哈希另存于清单。</p></article>
+        <article class="source-card"><p class="source-type">窗外与室内植物 / Poly Haven · CC0</p><h3>不同树形与林下层次</h3><ul>
+          <li><a href="https://polyhaven.com/a/island_tree_01" target="_blank" rel="noreferrer">Island Tree 01 ↗</a>、<a href="https://polyhaven.com/a/island_tree_02" target="_blank" rel="noreferrer">Island Tree 02 ↗</a> · v6 组合两款树形、六棵实例；连通 v7 共十二棵，补齐庭院远景。</li>
+          <li><a href="https://polyhaven.com/a/shrub_03" target="_blank" rel="noreferrer">Shrub 03 ↗</a> · 当前窗外绿色灌木。</li>
+          <li><a href="https://polyhaven.com/a/fern_02" target="_blank" rel="noreferrer">Fern 02 ↗</a> · 室内盆栽使用其中一株。</li>
+          <li><a href="https://polyhaven.com/a/mud_forest" target="_blank" rel="noreferrer">Mud Forest ↗</a> · 窗外土壤。</li>
+        </ul><p>复用池塘已有资产，重打包树干与完整叶片，增加实例差异、风动与同步投影。旧版 Shrub 02 保留为历史资源。</p></article>
+        <article class="source-card"><p class="source-type">自然录音 / Freesound · CC0</p><h3>窗外的雨与林间风</h3><ul>
+          <li><a href="https://freesound.org/people/SamsterBirdies/sounds/584272/" target="_blank" rel="noreferrer">Rain on leaves ↗</a> · SamsterBirdies，雨落树叶与灌木。</li>
+          <li><a href="https://freesound.org/people/SamuelGremaud/sounds/547472/" target="_blank" rel="noreferrer">WIND - 1 ↗</a> · SamuelGremaud，林间风声。</li>
+        </ul><p>使用公开高品质试听片段，保留本地原件。裁切、滤波、响度处理与两秒接缝交叉淡化后，得到 42 秒雨声与 15 秒风声循环。它们是自然录音；翻页与开关声是短程序音效。</p></article>
+        <article class="source-card"><p class="source-type">墙上画作 / 博物馆公版图片</p><h3>Claude Monet · Vétheuil，1901</h3><p>图片来自 <a href="https://www.artic.edu/artworks/14634/vetheuil" target="_blank" rel="noreferrer">Art Institute of Chicago ↗</a>。本地保存的官方对象元数据标记为公共领域；画作按原比例装入三维画框，木框与卡纸由本项目制作。</p><a class="source-record" href="./assets/reading/art/sources.json" target="_blank" rel="noreferrer">画作来源与权利记录 ↗</a></article>
+        <article class="source-card"><p class="source-type">AI 朗读 / MiniMax</p><h3>三页原创文字的轻声朗读</h3><p>使用 <code>speech-2.8-hd</code>、<code>Chinese (Mandarin)_Gentleman</code>，速度 0.86，calm。制作阶段预生成约 12–14 秒的三段旁白，网页只载入本地 MP3，密钥不进入网页。</p><p>AI 朗读与 CC0 自然录音分开管理；保留实际请求、正文和输出校验，不将生成内容标记为实录。</p><a class="source-record" href="./assets/reading/audio/reading-1.json" target="_blank" rel="noreferrer">第一段朗读的实际生成记录 ↗</a></article>
+      </div>
+      <details class="technical"><summary>打开逐文件来源、校验与制作记录</summary><div class="record-links">
+        <a href="./assets/reading/sources.json" target="_blank" rel="noreferrer">基础家具 / 材质清单</a><a href="./assets/reading/sources-v3.json" target="_blank" rel="noreferrer">2K 椅子与新材质清单</a><a href="./assets/reading/garden/sources.json" target="_blank" rel="noreferrer">树形 A 打包记录</a><a href="./assets/reading/garden/sources-tree02.json" target="_blank" rel="noreferrer">树形 B 打包记录</a><a href="./assets/models/environment-v5/sources.json" target="_blank" rel="noreferrer">植物与树木原始资源</a><a href="./assets/materials/sources-v5-ground.json" target="_blank" rel="noreferrer">湿土地面来源</a><a href="./assets/reading/audio/field-sources.json" target="_blank" rel="noreferrer">自然录音来源</a><a href="./assets/reading/audio/field-processing.json" target="_blank" rel="noreferrer">自然录音处理参数</a><a href="./assets/reading/linen-curtains-v3.json" target="_blank" rel="noreferrer">自建窗帘计算记录</a><a href="./assets/reading/audio/reading-2.json" target="_blank" rel="noreferrer">第二段朗读记录</a><a href="./assets/reading/audio/reading-3.json" target="_blank" rel="noreferrer">第三段朗读记录</a>
+      </div><p class="annotation">清单中也保留了历史版本和评估候选。Wooden Bookshelf Worn 曾下载评估，未用于当前书架；本页正文列出的来源才对应当前使用方式。Three.js 运行模块的 MIT 许可随 <code>vendor/</code> 保存。</p></details>
+      <div class="pond-source-group" id="pond-sources">
+        <h3 class="source-group-title">池塘 · 动物、水岸与环境声音</h3>
+        <div class="source-grid">
+          <article class="source-card"><p class="source-type">绿头鸭 / 3Dima · CC BY 4.0</p><h3>Realistic Mallard Duck</h3><p>原作作者 <a href="https://sketchfab.com/Hdjusj" target="_blank" rel="noreferrer">3Dima</a>，<a href="https://sketchfab.com/3d-models/realistic-mallard-duck-game-ready-asset-dd33cd2e30944a4aae2de1a06a828f4f" target="_blank" rel="noreferrer">原始作品页 ↗</a>，<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer">CC BY 4.0 ↗</a>。本地使用保留完整归属的 <a href="https://github.com/crisleyhguimaraes/space-ship/blob/main/public/models/duck.glb" target="_blank" rel="noreferrer">公开转载精简版 ↗</a>。</p><p>转载方已做精简与压缩；本项目准备通用格式、归一尺寸和朝向，并增加轻微互动形变。模型没有原生动画。复用时一并保留作者、原作、许可链接与修改说明。</p><a class="source-record" href="./assets/models/duck-v5/README.md" target="_blank" rel="noreferrer">下载路径、规格与归属记录 ↗</a></article>
+          <article class="source-card"><p class="source-type">植物与岸石 / Poly Haven · CC0</p><h3>与阅读角共用的资产池</h3><ul><li><a href="https://polyhaven.com/a/island_tree_01" target="_blank" rel="noreferrer">Island Tree 01</a>、<a href="https://polyhaven.com/a/island_tree_02" target="_blank" rel="noreferrer">Island Tree 02</a> · 两款树形与完整叶片。</li><li><a href="https://polyhaven.com/a/fern_02" target="_blank" rel="noreferrer">Fern 02</a>、<a href="https://polyhaven.com/a/shrub_02" target="_blank" rel="noreferrer">Shrub 02</a>、<a href="https://polyhaven.com/a/shrub_03" target="_blank" rel="noreferrer">Shrub 03</a> · 林下植物。</li><li><a href="https://polyhaven.com/a/rock_moss_set_01" target="_blank" rel="noreferrer">Rock Moss Set 01</a> · 扫描苔藓岸石。</li></ul><p>近远树干枝条与叶冠分开准备，保留叶片颜色和透明轮廓；相同几何通过实例复用。阅读角从这批资产中选用树木、绿色灌木与室内蕨草，重新打包与编排。</p></article>
+          <article class="source-card"><p class="source-type">小屋、地表与环境光 / Poly Haven · CC0</p><h3>扫描材质与森林反射</h3><ul><li><a href="https://polyhaven.com/a/wood_planks_grey" target="_blank" rel="noreferrer">Wood Planks Grey</a> · 小屋木构件。</li><li><a href="https://polyhaven.com/a/mossy_rock" target="_blank" rel="noreferrer">Mossy Rock</a>、<a href="https://polyhaven.com/a/mud_forest" target="_blank" rel="noreferrer">Mud Forest</a> · 石质构件与湿泥岸。</li><li><a href="https://polyhaven.com/a/mossy_forest" target="_blank" rel="noreferrer">Mossy Forest</a> · Greg Zaal，HDR 环境光与材质反射。</li></ul><p>小屋与岸线几何由本项目组合制作。HDR 用于照明与反射；可见树林由三维资产组成，可见天空使用实时着色器。</p></article>
+          <article class="source-card"><p class="source-type">环境实录 / Wikimedia Commons</p><h3>溪水与暮色蛙虫</h3><ul><li><a href="https://commons.wikimedia.org/wiki/File:Swale.ogg" target="_blank" rel="noreferrer">Swale.ogg ↗</a> · Siddharth Patil（Ksd5），<a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noreferrer">CC0</a>。</li><li><a href="https://commons.wikimedia.org/wiki/File:Nature_sounds_ambience_in_a_Dordogne_pond.ogg" target="_blank" rel="noreferrer">Nature sounds ambience in a Dordogne pond ↗</a> · Glaneur de sons，<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noreferrer">CC BY 3.0</a>。</li></ul><p>两段均经裁切、降采样和接缝交叉淡化，成为 30 秒 WAV 循环。第二段是蛙与蟋蟀，不标作鸟鸣；保留作者、来源、许可与加工说明。</p></article>
+          <article class="source-card"><p class="source-type">鸭叫实录 / Freesound · CC0</p><h3>一次呼唤，一次短回应</h3><p><a href="https://freesound.org/people/gibarroule/sounds/365133/" target="_blank" rel="noreferrer">Duck Quack ↗</a>，作者 gibarroule，CC0。使用公开高品质 MP3 试听文件，截取约 0.59 秒，调节峰值并加入两端淡入淡出。</p><p>鸭叫与模型、行为是三个分别准备的部分，由事件联动。池塘的风声、短拍水和水滴仍为程序合成；没有接入 MiniMax 旁白或生成式音乐。</p><a class="source-record" href="./docs/audio-v3.md" target="_blank" rel="noreferrer">声景制作与短音效记录 ↗</a></article>
+        </div>
+        <details class="technical"><summary>池塘来源清单、许可与历史检查记录</summary><div class="record-links"><a href="./assets/models/duck-v5/README.md" target="_blank" rel="noreferrer">鸭子来源与修改说明</a><a href="./assets/models/environment-v5/sources.json" target="_blank" rel="noreferrer">植物与石头原始清单</a><a href="./assets/models/environment-v5/sources-shrub02.json" target="_blank" rel="noreferrer">Shrub 02 来源</a><a href="./assets/models/environment-v5/runtime/manifest.json" target="_blank" rel="noreferrer">运行资产与几何记录</a><a href="./assets/materials/sources.json" target="_blank" rel="noreferrer">材质清单</a><a href="./assets/materials/sources-v5-ground.json" target="_blank" rel="noreferrer">湿泥材质来源</a><a href="./docs/lighting-sources.json" target="_blank" rel="noreferrer">HDR 与后期来源</a><a href="./docs/audio-sources.json" target="_blank" rel="noreferrer">两层环境录音账本</a><a href="./docs/verification-v5.md" target="_blank" rel="noreferrer">2026-11-12 池塘核验记录</a></div></details>
+      </div>
+    </section>
+
+    <section class="reuse-band" id="reuse" aria-labelledby="reuse-title"><div class="wrap note-section">
+      <div class="section-heading"><p class="eyebrow">08 / 以后怎样复用</p><h2 id="reuse-title">保留可工作的底座，<br>重新定义一个生活时刻。</h2><p>更换场景时，可以复用渲染、状态协调、声音生命周期和素材账本；构图、尺度、强度与具体活动仍需重新设计。</p></div>
+      <div class="shared-methods"><h3>已经共用的方法</h3><p>真实尺度与 PBR 材质、相机与交互命中、环境与事件分层、同一状态协调反馈、后台暂停与资源释放、素材来源账本。这些方法已在两处实践；最初两个原型的总控与声音各自独立；当前连通版在一个总控与音频上下文里继续复用这些方法。</p></div>
+      <div id="shared-modules" class="module-matrix"><h3>下一次可以直接带走什么？</h3><p>“直接调用”以下面的依赖条件为前提；共用的方法尚未全部抽取成统一场景框架。</p><div class="table-scroll"><table><caption>当前模块的复用程度与适用边界</caption><thead><tr><th scope="col">程度</th><th scope="col">可复用部分</th><th scope="col">调用或适配条件</th></tr></thead><tbody>
+        <tr><th scope="row">可直接调用</th><td><code>vendor/</code> 中 Three.js 与已有运行模块；CC0 资产与来源账本。</td><td>保留相对文件依赖、许可和来源记录。资产可直接载入；比例、布局与光照仍需按新场景调整。</td></tr>
+        <tr><th scope="row">可直接调用</th><td><code>createPondMaterials()</code> 的纹理缓存、色彩空间与 <code>maps()</code> 接口。</td><td>沿用 <code>assets/materials/</code> 文件命名和路径；调用方设置纹理尺度、方向、法线强度，并负责释放。</td></tr>
+        <tr><th scope="row">可直接调用</th><td><code>gardenWeatherAt()</code>、<code>createWindowDrops()</code> 的天气与水滴数据逻辑。</td><td>天气接收连续时间，水滴使用归一化窗面坐标。呈现端仍需接入材质参数、uniform 或自己的绘制方式。</td></tr>
+        <tr><th scope="row">同类场景可调用</th><td><code>createPondWater()</code> 的水面、波纹、尾流和 <code>sampleHeight()</code>。</td><td>保留 Water 运行依赖；当前水域与波动尺度有固定假设。新的池形、岸线或水底需要适配。</td></tr>
+        <tr><th scope="row">配置后复用</th><td><code>pond-audio.js</code> 与 <code>reading-audio.js</code> 的混音、静音、取消和生命周期。</td><td>保留原音轨与三页内容时可各自调用；换音轨、正文或朗读数量需改配置与对应限制。v5 / v6 保留各自接口；连通版已将房间与池塘音轨接到 reading-audio 的同一个音频上下文。</td></tr>
+        <tr><th scope="row">适配后复用</th><td>实例植被、风动着色器、同步深度材质、HDR / PMREM 与后期经验。</td><td>需要配套实例属性、材质通道、阴影范围和性能预算；室内窗景与开放水面的通道参数不同。</td></tr>
+        <tr><th scope="row">适配后复用</th><td>人物动作链、同源动画混合、双视角与接触修正。</td><td>同一人物可保留动作与时序；换椅子、桌子或书，要重新标定表面、握点、脚点与镜头。<a href="#character">查看模块分工 ↑</a></td></tr>
+        <tr><th scope="row">场景专用</th><td>鸭子行为与局部形变、五点浮力、阅读角房间、窗户和物件布局。</td><td>鸭子依赖对应模型比例、顶点权重与泳域；房间与玻璃使用固定坐标。更换主体或空间后需要重新适配。</td></tr>
+        <tr><th scope="row">尚待抽取</th><td>统一的场景配置、事件适配层和产品数据层。</td><td>旧池塘用 <code>setOptions / trigger</code>，阅读角用 <code>action</code>；连通版新增空间地图、双视角导航和位置声场，已连接此次室内外路线。面向任意场景的配置框架、真实内容、进度、记录与联机仍需另做。</td></tr>
+      </tbody></table></div></div>
+      <div class="reuse-recipe"><span>建议的复用顺序</span><p>复制来源账本与必要资产 → 写新的场景卡 → 复用数据与生命周期模块 → 适配空间、材质和事件 → 用真实活动完成一次体验检查。</p></div>
+      <div class="reuse-grid">
+        <article><span>方向提案 / 专注</span><h3>雨窗书桌</h3><p>保留窗外天气、自然声音和轻量灯光控制；换成书桌、任务内容与明确的开始、暂停。重点验证是否更容易开始并维持活动。</p></article>
+        <article><span>方向提案 / 日常收尾</span><h3>夜间整理角</h3><p>复用暖灯、桌面物件与可关闭的声音；连接三行回顾或明日便签。记录的保存、检索和导出需要单独设计、验证。</p></article>
+        <article><span>方向提案 / 共同在场</span><h3>双人阅读小屋</h3><p>复用空间与阅读交互，增加各自的位置和主动共享的状态。联机、便签同步和可见范围尚未实现。</p></article>
+      </div>
+      <div class="scene-card" id="scene-card">
+        <div><p class="eyebrow">可复制的起点</p><h3>下一次，先写这张场景卡。</h3><p>选择一个草案，按新用途修改，再复制保存。这里使用预写模板，不调用生成服务，也不自动保存你的输入。</p><label for="briefPreset">选择起点</label><select id="briefPreset"><option value="reading">连通的林间小屋 · 本次实践</option><option value="pond">林间池塘 · 本次实践</option><option value="focus">雨窗书桌 · 新场景草案</option><option value="evening">夜间整理角 · 新场景草案</option><option value="together">双人阅读小屋 · 新场景草案</option></select><button class="button primary" id="copyBrief" type="button">复制场景卡</button><p id="copyStatus" class="copy-status" role="status">可以直接在右侧修改文字。</p></div>
+        <div><label class="sr-only" for="sceneBrief">可编辑的场景设计卡</label><textarea id="sceneBrief" spellcheck="false">【场景卡】连通的林间小屋
+使用时刻：雨天，用户想读一会儿，也能出去歇歇。
+主情绪：温暖、放松、自在；希望愿意停留。
+主场景：阅读房间 → 庭院茶角 → 池塘，同一个连续空间。
+真实活动：读书、翻页、听朗读；行走、靠坐、喝茶与观察。
+辅助线索：柔和窗光、暖灯、真实材料、自然雨风水声。
+动态节奏：风雨、水滴、树叶与鸭子持续变化；人物有呼吸与视线。
+人物动作：坐下 → 拿书 → 阅读翻页 → 放书 → 起身。
+最小交互：双视角、行走、落座、拿放书、喝茶、调灯、声音开关。
+共同状态：同一人物、位置、动作时钟与书页驱动画面、相机和声音。
+素材路线：现成 CC0 环境资产 + MIT 人物与同源动作 + 自然录音 + 本地 MiniMax 朗读。
+可复用模块：动作阶段、相机、天气风动、位置声场、来源账本。
+必须适配：空间尺度、坐垫支撑、手脚接触、物件握点与声源位置。
+需要验证：走坐过渡和接触；声音连续性；是否舒适停留并愿意回来。
+阶段定位：实时体验原型。完整手指/衣料物理、真实书库、进度与长期效果待产品化。</textarea></div>
+      </div>
+    </div></section>
+
+    <section class="note-section wrap" id="status" aria-labelledby="status-title">
+      <div class="section-heading"><p class="eyebrow">验收与下一步 / 先让一件事成立</p><h2 id="status-title">当前能用于方向验证，<br>产品化围绕真实用途再打磨。</h2><p>以下区分已经实现、已有检查和仍需验证的部分。实际记录保留日期，旧版本截图与测试不作为当前每个细节的保证。</p></div>
+      <div class="status-grid"><article><span class="pill">已经实现</span><h3>空间、活动和声景连贯</h3><p>连通的房间、庭院与池塘；自主人物双视角；坐下拿书、阅读翻页、放书起身，以及户外靠坐喝茶。实时水面、鸭子、风雨、自然录音与现有 MiniMax 三页朗读继续使用。</p></article><article><span class="pill">已经检查</span><h3>实际画面与有范围的测量</h3><p>往返与声音连续性已有用户反馈；后续完成双视角、持物和动作链浏览器记录。坐姿接触修复后检查 14 个浏览器阶段，页面与着色器错误为 0；实际网格另有 134 个时刻采样。</p></article><article><span class="pill">尚需验证</span><h3>长期使用与产品价值</h3><p>手指与衣料仍简化，资产近景细节有限。跨设备性能、长时间舒适度与稳定情绪效果尚未验证；真实书库、进度、保存与多人功能还需围绕具体产品另做。</p></article></div>
+      <div class="latest-evidence"><div><p class="eyebrow">最近一次场景验收 / 2026.11.16</p><h3>坐姿接触修复后的连续实录</h3><p>约 59 秒，来自实际实时 Canvas 与本应用音频输出。覆盖室内动作链、双视角与持书朗读；不是概念动画。主观听感的“整体连贯，没有明显突兀”来自更早的往返体验反馈。</p><div class="actions"><a class="quiet-link" href="./docs/seat-contact-fix.md">修复与验收说明 ↗</a><a class="quiet-link" href="./docs/seat-contact-review/report.json">浏览器阶段报告 ↗</a></div></div><video controls preload="none" playsinline poster="./docs/seat-contact-review/08-native-reading.png" src="./docs/seat-contact-review/experience.mp4" aria-label="坐姿修复后的阅读动作链与场景声音实录"></video></div>
+      <div class="review-gallery current-gallery"><figure><a href="./docs/seat-contact-review/02-stand-weight-transfer.png" target="_blank" rel="noreferrer"><img loading="lazy" src="./docs/seat-contact-review/02-stand-weight-transfer.png" width="1180" height="820" alt="起身时人物前倾并转移重心的实际画面。"></a><figcaption>起身 · 脚部支撑与重心</figcaption></figure><figure><a href="./docs/seat-contact-review/04-sitting-contact.png" target="_blank" rel="noreferrer"><img loading="lazy" src="./docs/seat-contact-review/04-sitting-contact.png" width="1180" height="820" alt="人物下降落座时与坐垫接触的实际画面。"></a><figcaption>落座 · 臀腿与坐垫</figcaption></figure><figure><a href="./docs/seat-contact-review/09-page-hand-contact.png" target="_blank" rel="noreferrer"><img loading="lazy" src="./docs/seat-contact-review/09-page-hand-contact.png" width="1180" height="820" alt="一只手托书，另一只手翻页的实际画面。"></a><figcaption>翻页 · 托书与手部动作</figcaption></figure><figure><a href="./docs/seat-contact-review/11-first-reading.png" target="_blank" rel="noreferrer"><img loading="lazy" src="./docs/seat-contact-review/11-first-reading.png" width="1180" height="820" alt="切换第一人称后继续持书阅读的实际画面。"></a><figcaption>第一人称 · 共享动作进度</figcaption></figure></div>
+      <div class="archive-block"><h3>历史记录与演进</h3><p class="annotation">保留观察池塘 → 阅读角 → 连通空间 → 自主人物 → 同源动作 → 接触修复的过程。下列截图、声音和指标只对应各自版本。</p><details class="technical review-summary"><summary>历史记录 · 2026-11-15 第一人称往返与声音</summary><p class="annotation">实际 canvas 画面，点击可查看完整尺寸。听感来自用户反馈；录音分析只验证信号与连续性。</p><div class="review-gallery">
+<figure><a href="./docs/reading-v7-live-review/review-20261115064622034/01-seated.png" target="_blank" rel="noreferrer"><img loading="lazy" src="./docs/reading-v7-live-review/review-20261115064622034/01-seated.png" width="1055" height="1307" alt="第一人称实际验收：灯下 · 起点。"></a><figcaption>灯下 · 起点</figcaption></figure><figure><a href="./docs/reading-v7-live-review/review-20261115064622034/02-door-out.png" target="_blank" rel="noreferrer"><img loading="lazy" src="./docs/reading-v7-live-review/review-20261115064622034/02-door-out.png" width="1055" height="1307" alt="第一人称实际验收：经过房门。"></a><figcaption>经过房门</figcaption></figure><figure><a href="./docs/reading-v7-live-review/review-20261115064622034/04-pond.png" target="_blank" rel="noreferrer"><img loading="lazy" src="./docs/reading-v7-live-review/review-20261115064622034/04-pond.png" width="1055" height="1307" alt="第一人称实际验收：走到池边。"></a><figcaption>走到池边</figcaption></figure><figure><a href="./docs/reading-v7-live-review/review-20261115064622034/07-returned.png" target="_blank" rel="noreferrer"><img loading="lazy" src="./docs/reading-v7-live-review/review-20261115064622034/07-returned.png" width="1055" height="1307" alt="第一人称实际验收：返回坐下。"></a><figcaption>返回坐下</figcaption></figure></div><p class="annotation">完整往返的声音输出 · 自然录音 + MiniMax AI 朗读 · 约 58 秒</p><audio controls preload="none" src="./docs/reading-v7-live-review/review-20261115064622034/sound.webm" aria-label="第一人称完整往返的实际声音记录"></audio><p class="annotation"><a href="./docs/reading-v7-acceptance.json" target="_blank" rel="noreferrer">本轮验收结论与范围 ↗</a></p></details><details class="technical review-summary"><summary>历史记录 · 双视角、户外持物与茶角</summary><div class="review-gallery"><figure><a href="./docs/self-acceptance-focus/13b-reading-expression.png" target="_blank"><img loading="lazy" src="./docs/self-acceptance-focus/13b-reading-expression.png" width="1280" height="850" alt="第三人称低头持书，双脚放在脚凳上的实际浏览器画面。"></a><figcaption>第三人称 · 持书与脚凳</figcaption></figure><figure><a href="./docs/self-acceptance-near/18-near-reading.png" target="_blank"><img loading="lazy" src="./docs/self-acceptance-near/18-near-reading.png" width="1280" height="850" alt="第一人称双手持书的实际浏览器画面。"></a><figcaption>第一人称 · 阅读</figcaption></figure><figure><a href="./docs/self-acceptance/09-drinking.png" target="_blank"><img loading="lazy" src="./docs/self-acceptance/09-drinking.png" width="1280" height="850" alt="第三人称拿杯到嘴边，碟子留在桌上的实际画面。"></a><figcaption>握杯喝茶 · 碟子留在桌上</figcaption></figure><figure><a href="./docs/self-acceptance-focus/16-manual-walk-third.png" target="_blank"><img loading="lazy" src="./docs/self-acceptance-focus/16-manual-walk-third.png" width="1280" height="850" alt="键盘控制人物在庭院行走的实际画面。"></a><figcaption>自己控制 · 手动行走</figcaption></figure></div><audio controls preload="none" src="./docs/self-acceptance/sound.webm" aria-label="本轮实际应用音频输出，自然录音与 MiniMax"></audio><p class="annotation">记录只包含本应用音频输出；未采集麦克风。手指为基础骨骼适配，尚非完整抓握和衣料物理。</p></details><details class="technical"><summary>制作、修复与验收索引</summary><div class="record-links"><a href="./docs/verification-v5.md">池塘 v5 · 浏览器与行为</a><a href="./docs/reading-v6-validation.json">阅读角 v6 · 程序检查</a><a href="./docs/reading-v7-live-review.md">连通空间 · 实际往返</a><a href="./docs/reading-self-player.md">自主人物 · 双视角与相机</a><a href="./docs/self-acceptance.md">户外持物 · 实际画面与声音</a><a href="./docs/seat-book-fix.md">落座、眼位与室内拿书修复</a><a href="./docs/reading-motion-chain.md">同源动作 · 设计与验收</a><a href="./docs/seat-contact-fix.md">座椅接触 · 动态网格修复</a><a href="./docs/reading-terrace-companion.md">历史探索 · 已移除的陪伴 NPC</a></div></details></div>
+      <p class="closing-line">先让一个地方与一种活动成立，再让它慢慢拥有用户的内容、节奏与历史。</p><div class="actions"><a class="button primary" href="./reading.html?v=12">进入林间小屋 ↗</a><a class="quiet-link" href="#scene-card">复制场景卡 ↑</a><a class="quiet-link" href="./index.html#directions">回看六个场景方向 ↗</a></div>
+    </section>
+  </main>
+  <footer class="notes-footer wrap"><a href="./index.html">栖境 · 环境与情绪实验室</a><p>内容整理 · 2026.11.21 / 最近场景验收 · 11.16</p><a href="https://x.com/daniildesigns/status/2120195320768303141" target="_blank" rel="noreferrer">讨论起点 / Daniil 的 Quack 演示 ↗</a></footer>
+</body>
+</html>

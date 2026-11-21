@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f1e9">
+  <meta name="description" content="从环境到情绪，再到在场感与沉浸。梳理场景体验的价值、六个创作方向，以及主场景、声音、光线、动态与交互的组合方法。">
+  <title>栖境 — 环境、情绪与沉浸</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./art.css">
+  <link rel="stylesheet" href="./pond.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="栖境，回到首页"><span class="brand-mark" aria-hidden="true">栖</span><span>栖境<span class="brand-sub">环境与情绪实验室</span></span></a>
+    <nav aria-label="主要导航">
+      <a href="#understanding">我们的理解</a><a href="#practice">当前实践</a><a href="#directions">六个方向</a><a href="./reading.html?v=12">林间小屋 ↗</a><a href="#mechanism">构造原理</a><a href="./reading-notes.html">制作手记</a>
+    </nav>
+    <a class="header-link" href="#making">从这里开始 <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="main">
+    <section class="hero section-shell" id="introduction" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="tiny-dot"></span> FIELD NOTES / 01 <span class="eyebrow-rule"></span> 一个可以待着的地方</p>
+        <h1 id="hero-title">环境构造情绪，<br>引发<span class="title-emphasis">沉浸体验。</span></h1>
+        <p class="hero-intro">一处空间、一点声音、一次回应。<br>把数字内容，组织成一个可以感受、参与、<br class="desktop-break">并愿意再次回来的小世界。</p>
+        <div class="hero-actions"><a class="button button-dark" href="#understanding">理解这条路径 <span aria-hidden="true">↓</span></a><a class="text-link" href="#directions">看看我们能构造什么 <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-note"><span class="note-number">01—06</span><span>从安静陪伴，到专注、记忆、探索与共同在场。</span></div>
+      </div>
+      <figure class="scene-exhibit" aria-labelledby="scene-caption">
+        <div class="scene-topline"><span class="scene-label"><span class="tiny-dot"></span> 林间池塘 · 风与水之间</span><span class="scene-phase-label" id="phaseLabel">DUSK / 暮色</span><button id="panelToggle" class="scene-panel-toggle" type="button" aria-expanded="true" aria-controls="scene-caption">隐藏面板</button><button id="immersiveToggle" type="button">进入场景 ↗</button></div>
+        <div class="scene-stage"><canvas id="heroCanvas" width="720" height="590" tabindex="0" role="img" aria-label="暮色池塘交互场景。点击鸭子或小屋可以触发回应，也可使用下方按钮。"></canvas>
+        <div class="scene-hint"><span class="hint-orbit" aria-hidden="true">＋</span><span>拖动环顾 · 点水面让它游近 · 点鸭子听回应</span></div><div class="scene-quickactions"><button type="button" id="duckAction">唤一唤鸭子</button><button type="button" id="windAction">来一阵风</button><button type="button" id="lampAction">收起萤火</button></div></div>
+        <figcaption class="scene-controls" id="scene-caption">
+          <div class="control-top"><div class="phase-switch" role="group" aria-label="场景光线"><button type="button" data-phase="dusk" aria-pressed="true">暮色</button><button type="button" data-phase="night" aria-pressed="false">夜晚</button></div><button class="sound-button" id="soundToggle" type="button" aria-pressed="false"><span aria-hidden="true">♫</span> <span id="soundLabel">开启声音</span></button></div>
+          <div class="control-bottom"><label class="check-control"><input id="detailsToggle" type="checkbox" checked><span>萤火与水纹</span></label><label class="check-control"><input id="motionToggle" type="checkbox" checked><span>缓慢动态</span></label><label class="volume-control" for="volume">音量 <input id="volume" type="range" min="0" max="60" value="28" aria-valuetext="28%"><output id="volumeValue" for="volume">28%</output></label></div>
+          <div class="control-extra"><label class="volume-control" for="windAmount">林间风力 <input id="windAmount" type="range" min="0" max="100" value="30"><output id="windValue" for="windAmount">30%</output></label><button id="randomDuckToggle" type="button" aria-pressed="true" title="开启声音后，鸭子会不定时自己叫一声。">随机鸭叫 · 开</button><button id="resetView" type="button">恢复视角</button><span>进入场景后可缩放观察</span></div>
+          <p class="scene-status" id="heroStatus" aria-live="polite">先看，再听，最后试着与它发生一点关系。</p>
+        </figcaption>
+        <p class="demo-caption">风拂过叶片，水面映着小屋。即使不操作，这里也在继续生活。</p>
+      </figure>
+    </section>
+
+    <section class="section-shell practice-section" id="practice" aria-labelledby="practice-title">
+      <div class="practice-copy"><p class="eyebrow">当前实践 / 可以亲身参与的小世界</p><h2 id="practice-title">从灯下读书，<br>走到庭院与池边。</h2><p>林间小屋已把阅读角、茶角和池塘接成同一个实时 3D 空间。自己控制人物行走、坐下、拿书翻页、放书起身，也可以在户外靠坐喝茶。</p><p>第一、第三人称共享人物与动作；自然录音随位置变化，MiniMax 朗读跟着手中的书。首页池塘保留独立观察入口，两处实践的制作方法与素材账本一并收录。</p><div class="practice-tags"><span>实时 3D</span><span>双视角与连续动作</span><span>自然录音 + MiniMax</span></div><div class="hero-actions"><a class="button button-dark" href="./reading.html?v=12">进入林间小屋 ↗</a><a class="text-link" href="./reading-notes.html">看实现与复用手记 ↗</a></div><p class="practice-note">当前为体验原型，已完成有范围的动作、接触与往返检查。长期使用和稳定情绪效果仍需产品化验证。</p></div>
+      <figure class="practice-image"><a href="./reading.html?v=12"><img loading="lazy" src="./docs/seat-contact-review/08-native-reading.png" width="1180" height="820" alt="当前林间小屋实际画面：坐在暖灯旁，双手拿书，双脚放在脚凳上。"></a><figcaption>实际运行画面 · 坐姿接触修复后 / 2026.11.16</figcaption></figure>
+    </section>
+
+    <section class="understanding-section" id="understanding" aria-labelledby="understanding-title">
+      <div class="section-shell">
+        <div class="section-heading inverse"><p class="eyebrow">01 / 我们的理解</p><h2 id="understanding-title">先有感受，<br>再与这个地方发生关系。</h2><p>“环境构造情绪，然后引发沉浸式体验”是我们的工作命题。<br>把它展开，会看到一条更具体的设计路径。</p></div>
+        <div class="pathway" id="pathway"></div>
+        <div class="understanding-foot"><span>共同的情绪方向 + 一致的环境逻辑 + 可感知的回应</span><p>这条路径描述设计意图。实际体验会随个人、情境和使用方式变化；陪伴也允许人随时把注意力带回自己的生活。</p></div>
+      </div>
+    </section>
+
+    <section class="section-shell value-section" id="value" aria-labelledby="value-title">
+      <div class="section-heading"><p class="eyebrow">02 / 对我们的价值</p><h2 id="value-title">让“好看的内容”，<br>成为生活里有位置的体验。</h2><p>游戏增加目标和规则，陪伴强调低负担的存在。<br>同样的环境构造方法，还可以接上真实的活动、信息与记忆。</p></div>
+      <div class="value-list">
+        <article class="value-row"><span class="row-number">01</span><h3>帮助进入一种状态</h3><p>把开始工作、安静阅读、结束一天，做成容易进入的日常时刻。每个元素都服务于同一个感受。</p><span class="value-tag">状态与仪式</span></article>
+        <article class="value-row"><span class="row-number">02</span><h3>建立低负担的关系</h3><p>环境可以持续存在，用户偶尔看一眼、听一会儿，也能得到回应。注意力可以自由进入和退出。</p><span class="value-tag">陪伴与连接</span></article>
+        <article class="value-row"><span class="row-number">03</span><h3>让经历留下可见痕迹</h3><p>记录、选择和投入逐渐改变一个地方。当变化有真实来源，小世界就有了属于使用者的历史。</p><span class="value-tag">积累与意义</span></article>
+      </div>
+      <div class="value-question"><span class="question-mark" aria-hidden="true">?</span><p>我们最终要观察：<strong>是否更容易开始，是否舒服地停留，是否愿意再次回来。</strong></p></div>
+    </section>
+
+    <section class="directions-section" id="directions" aria-labelledby="directions-title">
+      <div class="section-shell">
+        <div class="section-heading"><p class="eyebrow">03 / 可以扩展的方向</p><h2 id="directions-title">同一种构造方法，<br>六种生活里的去处。</h2><p>从“用户正在过什么样的一刻”出发，<br>再选择场景、声音与交互。点选一个方向，展开它的制作提案。六个方向是概念探索，当前实时体验为池塘与林间小屋。</p></div>
+        <div class="direction-workspace">
+          <div class="direction-picker" id="directionPicker" role="tablist" aria-label="场景方向"></div>
+          <article class="direction-detail" id="directionDetail" role="tabpanel" tabindex="0" aria-labelledby="direction-pond">
+            <div class="direction-visual"><canvas id="directionCanvas" width="700" height="430" tabindex="0" role="img" aria-label="当前方向的完整场景美术。"></canvas><span class="concept-label">场景美术 / 方向提案</span></div>
+            <div class="direction-content"><div class="detail-heading"><p class="eyebrow" id="detailType">安静陪伴</p><span id="detailNumber">01 / 06</span></div><h3 id="detailScene">暮色池塘</h3><p class="detail-tagline" id="detailTagline"></p><dl class="detail-facts" id="detailFacts"></dl><div class="detail-first"><span>第一版做什么</span><p id="detailFirst"></p></div><p class="detail-question" id="detailQuestion"></p><p class="direction-status" id="directionStatus" aria-live="polite">选择方向，查看场景如何为具体用途服务。</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell mechanism-section" id="mechanism" aria-labelledby="mechanism-title">
+      <div class="section-heading"><p class="eyebrow">04 / 构造原理</p><h2 id="mechanism-title">一个主场景，<br>多种彼此呼应的线索。</h2><p>主场景回答“我在哪里”。辅助元素共同回答“这里是什么感觉”。<br>交互与时间进一步回答“这个地方和我有什么关系”。</p></div>
+      <div class="mechanism-grid">
+        <div class="layer-diagram" aria-label="场景由空间、氛围与关系三个层次共同组成">
+          <div class="diagram-line diagram-line-one"></div><div class="diagram-line diagram-line-two"></div>
+          <div class="diagram-tier tier-space"><span class="tier-index">01</span><div><strong>空间</strong><span>主场景 · 主体关系 · 观看距离</span></div><span class="tier-question">在哪里</span></div>
+          <div class="diagram-tier tier-atmosphere"><span class="tier-index">02</span><div><strong>氛围</strong><span>声音 · 光线 · 动态 · 节奏</span></div><span class="tier-question">什么感受</span></div>
+          <div class="diagram-tier tier-relationship"><span class="tier-index">03</span><div><strong>关系</strong><span>操作回应 · 时间变化 · 留下痕迹</span></div><span class="tier-question">与我有关</span></div>
+          <p class="diagram-footer">共享同一个情绪目标与环境逻辑</p>
+        </div>
+        <div class="principle-explorer"><div class="principle-tabs" id="principleTabs" role="tablist" aria-label="构造元素"></div><div id="principlePanel" role="tabpanel" aria-labelledby="principle-space" tabindex="0"><h3 id="principleTitle"></h3><p id="principleRole"></p><div class="principle-example"><span>构造方案示例 / 暮色池塘</span><p id="principleExample"></p></div></div><div class="coherence-note"><span class="tiny-dot"></span><p>搭配成立的依据：情绪一致、空间可信、强度适当、节奏彼此留有余地。</p></div></div>
+      </div>
+        <div class="event-example"><div><p class="eyebrow">构造方案示例 / 一次点击，多个同步回应</p><h3>点一下鸭子</h3></div><div class="event-flow"><span>同一个事件</span><span class="flow-arrow" aria-hidden="true">→</span><span>转头与水纹</span><span class="flow-plus" aria-hidden="true">＋</span><span>声音回应</span><span class="flow-plus" aria-hidden="true">＋</span><span>短暂回应状态</span></div></div>
+    </section>
+
+    <section class="making-section" id="making" aria-labelledby="making-title">
+      <div class="section-shell">
+        <div class="section-heading inverse"><p class="eyebrow">05 / 从哪里开始</p><h2 id="making-title">先完成一小块，<br>让它看得见、听得到、有回应。</h2><p>第一版：固定镜头的暮色池塘，一间小屋、一只鸭子、<br>几层声音和两个交互。完成一次完整体验，再向外生长。</p></div>
+        <ol class="making-steps">
+          <li><span>01</span><h3>写清这一刻</h3><p>谁在什么时候使用？希望进入什么状态？先确定一个用途和一种主要感受。</p><small>产出 / 一张场景卡</small></li>
+          <li><span>02</span><h3>搭建可以变化的空间</h3><p>先定构图与光线，再制作独立模型、材质和动作；让水、植物和动物共同响应环境。</p><small>产出 / 可实时渲染的场景</small></li>
+          <li><span>03</span><h3>准备独立声音</h3><p>制作可循环水声、稀疏自然声、低强度音乐和短音效，分别试听，再混合。</p><small>产出 / 分轨声音素材</small></li>
+          <li><span>04</span><h3>接上共同状态</h3><p>同一份时段、灯光、物件状态驱动画面和声音。点击时一起安排动作与音效。</p><small>产出 / 可操作的小场景</small></li>
+        </ol>
+        <div class="making-bottom"><p>先用优质现成资产建立空间，再用动作、声景和共同状态组织体验。</p><a class="button button-light" href="#top">回到池塘试一试 <span aria-hidden="true">↑</span></a></div>
+      </div>
+    </section>
+
+    <section class="section-shell reading-notes-entry" id="reading-notes" aria-labelledby="reading-notes-title">
+      <div><p class="eyebrow">06 / 本次实践的沉淀</p><h2 id="reading-notes-title">池塘与阅读角，<br>一套可以继续复用的方法。</h2><p>把“环境构造情绪，引发沉浸体验”的理解，与两个实时 3D 场景的制作放在一起。整理水面、鸭子、室内风雨和人物动作链，留下来源账本、复用条件与实际验收边界。</p><a class="text-link" href="./reading.html?v=12">进入小屋，走到池边 ↗</a></div>
+      <a class="reading-notes-card" href="./reading-notes.html#connected-world"><span>制作与复用手记 / 02</span><strong>场景对照 · 方法 · 素材 · 复用</strong><p>连通空间、双视角、同源动作、坐姿接触，以及可复制场景卡和产品化边界。</p><span class="reading-notes-open">打开完整手记 ↗</span></a>
+    </section>
+
+    <section class="section-shell sources-section" aria-labelledby="sources-title">
+      <div><p class="eyebrow">参考与边界</p><h2 id="sources-title">从一个作品出发，<br>整理我们自己的方法。</h2></div>
+      <div class="source-notes"><p>起点是 Daniil 展示的 Quack：帖文提到自然声音，以及随时段和季节变化的生成式音乐。视频可见分开的声音控制与音乐盒式可视化。</p><p>首页池塘为实时三维场景：水面反射、植被风动、鸭子动作和声音由共同状态驱动。六个方向保留 AI 场景美术与产品提案。美术与音频均未取自 Quack。</p><p id="audioCredits">自然录音：<a href="https://commons.wikimedia.org/wiki/File:Swale.ogg" target="_blank" rel="noopener noreferrer">溪流 / Siddharth Patil（Ksd5）</a>，CC0；<a href="https://commons.wikimedia.org/wiki/File:Nature_sounds_ambience_in_a_Dordogne_pond.ogg" target="_blank" rel="noopener noreferrer">池塘蛙与蟋蟀 / Glaneur de sons</a>，<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">CC BY 3.0</a>。两段均经过裁切、降采样与交叉淡化，用于连续声景。鸭叫：<a href="https://freesound.org/people/gibarroule/sounds/365133/" target="_blank" rel="noopener noreferrer">gibarroule / Freesound</a>，CC0；已裁切并调整音量。风声与短拍水声为程序合成。</p><div class="source-links"><a href="https://x.com/daniildesigns/status/2120195320768303141" target="_blank" rel="noopener noreferrer">原始参考 / Quack <span aria-hidden="true">↗</span></a><a href="./docs/audio-sources.json" target="_blank" rel="noopener noreferrer">声景来源与许可 <span aria-hidden="true">↗</span></a></div></div>
+      <p class="asset-credits">鸭子模型：<a href="https://sketchfab.com/3d-models/realistic-mallard-duck-game-ready-asset-dd33cd2e30944a4aae2de1a06a828f4f" target="_blank" rel="noopener noreferrer">Realistic Mallard Duck — 3Dima</a>，<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>；本项目调整格式、比例、水线并增加实时动作。植被、岩石、地表材质与环境光素材来自 <a href="https://polyhaven.com/" target="_blank" rel="noopener noreferrer">Poly Haven</a>，CC0。</p>
+    </section>
+  </main>
+  <footer class="site-footer section-shell"><a class="footer-brand" href="#top">栖境 <span>ENVIRONMENT · EMOTION · PRESENCE</span></a><span>研究整理与实时场景 · 2026.11</span></footer>
+</body>
+</html>

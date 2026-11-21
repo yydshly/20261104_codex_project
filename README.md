@@ -38,6 +38,7 @@
 | 030 | [从户型到可漫游空间：AI装修生成研究](projects/030-warm-home-space/README.md) | [everestchris6原帖](https://x.com/everestchris6/status/2120175941616128277) · [Three.js](https://github.com/mrdoob/three.js) · [InteriorAgent架构参考](https://interioragent.github.io/docs/) | 从原木风参考图做出可从入户走到阳台的3D小家，研究户型输入、标准素材库、空间规则、模型设计与渲染验收的组合。保留实际效果、已有引导图、8轮操作与41次昼夜切换记录，沉淀资产、代码与恢复经验；跨户型自动适配、人工省时与商业收益仍待验证。 | [已有补充版引导图](#warm-home-space-guide) | [在线研究与3D体验](https://yydshly.github.io/20261104_codex_project/030-warm-home-space/) |
 | 031 | [海景、人物与可复用场景研究](projects/031-ocean-light-atlas/README.md) | [PEBIT海面参考](https://x.com/_pebit_/status/2121174301319831916) · [Three.js](https://github.com/mrdoob/three.js) · [Rocketbox](https://github.com/microsoft/Microsoft-Rocketbox) | 从20项海面视觉参考与80份扩展方案出发，以实拍对照理解光照、海况、观看角度与镜头处理，再用海边玻璃屋验证可进入、可停留的观海体验。海面碎光、近岸浪、水光、0597自主走动坐起与环境声已形成4.3基线，另保留成品角色、旧版换装及静态候选。价值在效果依据、场景模块、人物适配流程和可回看版本；自然度、跨角色通用性与产品需求仍待验证。 | [已有研究引导图](#ocean-light-atlas-guide) | [在线研究与四类人物效果](https://yydshly.github.io/20261104_codex_project/031-ocean-light-atlas/) |
 | 032 | [同一空间的美术风格转场](projects/032-spatial-style-transition/README.md) | [Bihe Xi 原帖](https://x.com/xbh_artist/status/2122661449554428020) | 用四帧说明如何在同一段运镜中，点击触发不同光线、色彩与材质的空间版本切换。 | [四帧引导图](#spatial-style-transition-guide) | — |
+| 033 | [栖境 · 环境、情绪与沉浸体验研究](projects/033-environment-emotion-lab/README.md) | [Daniil / Quack](https://x.com/daniildesigns/status/2120195320768303141) · [Three.js](https://github.com/mrdoob/three.js) · [Rocketbox](https://github.com/microsoft/Microsoft-Rocketbox) | 研究数字环境怎样通过空间、光影、声音、自然变化与人的活动，构造温暖、放松、愿意停留的体验。以实时池塘和房间—庭院—池塘连通小屋，验证双视角、连续阅读动作、物件与座椅接触、自然录音及MiniMax位置朗读，沉淀资产、状态协调、动作与声场的复用方法；稳定情绪效果、长期使用和产品价值仍待验证。 | [既有研究总结图](#environment-emotion-guide) | [在线研究与实际体验](https://yydshly.github.io/20261104_codex_project/033-environment-emotion-lab/) |
 
 项目按收录顺序从 `001` 开始编号。新条目按编号追加，已分配的编号保持固定。索引摘要用一两句话写清研究对象和关注点。完成验证后，可补上一条主要发现。
 
@@ -501,3 +502,20 @@ Adam Chernick 个人制作、扩展和组合的网页 3D 实验，部分基于 T
 ![四帧概念分镜。秋日风格、点击触发、书架出现两种风格、冬日风格。](projects/032-spatial-style-transition/assets/style-transition-storyboard.png)
 
 [查看转场说明](projects/032-spatial-style-transition/README.md)
+
+
+<a id="environment-emotion-guide"></a>
+
+### 033 · 栖境：环境、情绪与沉浸体验研究
+
+研究数字环境怎样把空间、光影、自然声音、持续变化、主体活动和操作回应组织成温暖、放松、愿意停留的体验。核心理解是：**主场景建立所在，辅助感官线索共同指向一种情绪；主体通过可信的活动与回应形成在场，并逐渐进入阅读、观察或休息。** 这是设计工作假设，稳定情绪效果仍需真实使用验证。
+
+![原样复用的栖境研究总结图：环境到沉浸的理解路径、研究内容、池塘阅读角庭院实录、价值、复用方法与验证边界](docs/033-environment-emotion-lab/media/environment-emotion-summary.jpg)
+
+沿用本轮已生成的 2560 × 2452 图，未新增图像、声音或视频生成。实际成果包括实时池塘、水面倒影、植被风动、鸭子巡游与叫声；阅读角、庭院茶角和池塘连成同一可步行空间，第一与第三人称共享自主人物，支持坐下、拿书、阅读翻页、放书起身与户外喝茶。自然录音按位置、朝向与门口开放程度平滑变化，MiniMax 使用已有三页朗读并跟随书的位置。
+
+实现保留现有人物，补入同源动作；动作阶段、重心、目光及手脚和椅子/书的接触由场景适配。既有真实座椅网格检查覆盖 134 个采样时刻，最大残余重叠约 0.75 mm，低于 2 mm 回归阈值；该检查有范围，不代表完整衣料物理或任意动作均无穿插。
+
+价值分为三层：使用者进入阅读与休息的体验目标；阅读、专注、日常整理、自然陪伴及共同在场的产品方向；已经沉淀的资产账本、共享状态、风雨水面、动作链、双视角与位置声场。新场景仍需适配尺度、握点、支撑、镜头和声源。真实内容、进度与可靠保存、跨设备性能、长期留存、省时和商业收益均继续验证。
+
+[在线研究与价值](https://yydshly.github.io/20261104_codex_project/033-environment-emotion-lab/) · [亲自进入小屋](https://yydshly.github.io/20261104_codex_project/033-environment-emotion-lab/demo/reading.html) · [池塘观察入口](https://yydshly.github.io/20261104_codex_project/033-environment-emotion-lab/demo/) · [完整方法与素材账本](https://yydshly.github.io/20261104_codex_project/033-environment-emotion-lab/demo/reading-notes.html) · [完整研究摘要与源码](projects/033-environment-emotion-lab/README.md)

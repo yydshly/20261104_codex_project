@@ -1,0 +1,13 @@
+{
+  "name": "environment-emotion-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "环境、情绪与沉浸式体验的中文交互研究网页。",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check app.js && node --check data.js && node --check art-scene.js && node --check pond-world.js && node --check pond-lighting.js && node --check pond-materials.js && node --check pond-water-3d.js && node --check pond-environment-3d.js && node --check pond-environment-v5.js && node --check pond-duck-3d.js && node --check duck-mouth-qa.js && node --check pond-duck-calls.js && node --check pond-duck-mouth.js && node --check pond-duck-v5.js && node --check pond-audio.js && node --check reading.js && node --check reading-content.js && node --check reading-space.js && node --check reading-walk.js && node --check reading-pond.js && node --check reading-room-shell.js && node --check reading-layer-pass.js && node --check reading-terrace.js && node --check reading-ritual-layout.js && node --check reading-player-ritual.js && node --check reading-motion-layers.js && node --check reading-player.js && node --check reading-seat-contact.js && node --check reading-seat-surface.js && node --check reading-camera.js && node --check reading-world.js && node --check reading-details.js && node --check reading-surfaces.js && node --check reading-garden.js && node --check reading-garden-motion.js && node --check reading-audio.js && node --check reading-qa.js && node --check reading-review.js && node --check scripts/reading-review-server.mjs && node --check reading-notes.js && node --check server.mjs",
+    "test": "node scripts/verify-runtime.mjs && node scripts/verify-duck-calls.mjs && node scripts/verify-duck-v5.mjs && node scripts/verify-water-v5.mjs",
+    "test:connected": "node scripts/verify-reading-space.mjs && node scripts/verify-reading-player.mjs && node scripts/verify-reading-grip.mjs && node scripts/verify-seat-contact.mjs && node scripts/audit-back-contact.mjs && node scripts/verify-reading-audio.mjs && node scripts/verify-reading-spatial-audio.mjs && node scripts/verify-reading-connected.mjs"
+  }
+}

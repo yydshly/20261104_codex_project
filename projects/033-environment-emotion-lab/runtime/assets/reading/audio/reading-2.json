@@ -1,0 +1,49 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "title": "总有一盏灯",
+  "text": "有些温暖很小。\n是一把熟悉的椅子，\n是一页还没读完的书。\n\n你回来时，\n这里仍有一个位置。",
+  "request": {
+    "model": "speech-2.8-hd",
+    "text": "总有一盏灯。<#0.8#>有些温暖很小。是一把熟悉的椅子，是一页还没读完的书。<#0.8#>你回来时，这里仍有一个位置。",
+    "stream": false,
+    "output_format": "hex",
+    "voice_setting": {
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 0.86,
+      "vol": 1,
+      "pitch": 0,
+      "emotion": "calm"
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "bitrate": 128000,
+      "format": "mp3",
+      "channel": 1
+    },
+    "language_boost": "Chinese"
+  },
+  "status": "ready",
+  "requested_at": "2026-11-15T03:01:54.574361+00:00",
+  "response": {
+    "base_resp": {
+      "status_code": 0,
+      "status_msg": "success"
+    },
+    "extra_info": {
+      "audio_length": 12024,
+      "audio_sample_rate": 32000,
+      "audio_size": 194100,
+      "bitrate": 128000,
+      "word_count": 60,
+      "invisible_character_ratio": 0,
+      "usage_characters": 100,
+      "audio_format": "mp3",
+      "audio_channel": 1
+    },
+    "trace_id": "074853a254c0b33c27ea7ff85ea7487c"
+  },
+  "file": "assets/reading/audio/reading-2.mp3",
+  "bytes": 194100,
+  "sha256": "1d4ba5173c4498663f9b28f1f45748f643fbeeef4f2d5324c2b26cc5e32464dd"
+}

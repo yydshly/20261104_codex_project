@@ -1,0 +1,14 @@
+{
+  "file": "assets/reading/art/monet-vetheuil-1901.jpg",
+  "title": "Vétheuil",
+  "artist": "Claude Monet",
+  "date": "1901",
+  "museum": "Art Institute of Chicago",
+  "source": "https://www.artic.edu/artworks/14634/vetheuil",
+  "api": "https://api.artic.edu/api/v1/artworks/14634",
+  "download": "https://www.artic.edu/iiif/2/d39b1026-7d8d-6e6a-738e-8a136b1a0033/full/1200,/0/default.jpg",
+  "is_public_domain": true,
+  "rights": "Public Domain / Art Institute of Chicago Open Access",
+  "sha256": "314c4f7b794d25702261a7fecd35850f9fdaa3d407d531b5616166f84701b9bc",
+  "modification": "No image edits; mounted at the original aspect ratio in real-time 3D."
+}

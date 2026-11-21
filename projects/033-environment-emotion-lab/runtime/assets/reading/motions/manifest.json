@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "character": "Rocketbox Male Adult 10",
+  "license": "MIT",
+  "file": "reading-mocap.glb",
+  "bytes": 2737048,
+  "sha256": "716f63e649b64f4a75546adcc7136540ec28a01ccd812b22828914836bb587e0",
+  "actions": [
+    {
+      "name": "SeatedBreathe",
+      "source": "m_sit_chair_breathe_01.max.fbx",
+      "sourceFrames": [
+        1,
+        382
+      ],
+      "duration": 12.7,
+      "samples": 382,
+      "bones": 80
+    },
+    {
+      "name": "SeatedNeutral",
+      "source": "m_sit_chair_idle_neutral_01.max.fbx",
+      "sourceFrames": [
+        1,
+        361
+      ],
+      "duration": 12.0,
+      "samples": 361,
+      "bones": 80
+    },
+    {
+      "name": "SeatedRelaxed",
+      "source": "m_sit_chair_idle_relaxed_01.max.fbx",
+      "sourceFrames": [
+        240,
+        540
+      ],
+      "duration": 10.0,
+      "samples": 301,
+      "bones": 80
+    },
+    {
+      "name": "SeatedLook",
+      "source": "m_sit_chair_idle_look_around.max.fbx",
+      "sourceFrames": [
+        1,
+        261
+      ],
+      "duration": 8.666666666666666,
+      "samples": 261,
+      "bones": 80
+    },
+    {
+      "name": "ReadBody",
+      "source": "m_documents_idle.max.fbx",
+      "sourceFrames": [
+        180,
+        450
+      ],
+      "duration": 9.0,
+      "samples": 271,
+      "bones": 80
+    },
+    {
+      "name": "PickBody",
+      "source": "m_documents_in.max.fbx",
+      "sourceFrames": [
+        1,
+        111
+      ],
+      "duration": 3.6666666666666665,
+      "samples": 111,
+      "bones": 80
+    },
+    {
+      "name": "PutBody",
+      "source": "m_documents_out.max.fbx",
+      "sourceFrames": [
+        1,
+        121
+      ],
+      "duration": 4.0,
+      "samples": 121,
+      "bones": 80
+    },
+    {
+      "name": "PageBody",
+      "source": "m_documents_check.max.fbx",
+      "sourceFrames": [
+        90,
+        150
+      ],
+      "duration": 2.0,
+      "samples": 61,
+      "bones": 80
+    }
+  ],
+  "notes": [
+    "Animation-only export; existing character mesh and textures unchanged.",
+    "Seated clips retain the native shoulder, spine and head motion.",
+    "Documents clips are adapted upper-body references; book contacts and page gestures are authored for this scene.",
+    "Sit/stand weight transfer is a scene-specific transition between same-library standing and sitting poses; not a claimed native sit-down capture."
+  ]
+}

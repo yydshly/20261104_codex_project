@@ -1,0 +1,2606 @@
+{
+  "date": "2026-11-22",
+  "site": "https://yydshly.github.io/20261104_codex_project/033-environment-emotion-lab/",
+  "guide": {
+    "date": "2026-11-22",
+    "kind": "原样复用此前生成的2560×2452研究总结图，嵌入项目既有实际运行截图；未新增图片或视频生成。",
+    "sha256": "eec14470de2b1fb43e63eb5a4f38e6e5f9aad1c305d5318703f81fca945ed24c",
+    "dimensions": [
+      2560,
+      2452
+    ],
+    "unchanged": true,
+    "newGeneration": false
+  },
+  "adaptations": [
+    "Curated existing runtime; no new media generation",
+    "Asset URL prefixes point to same-repository raw files",
+    "Private local production paths and credential-shaped JSON fields omitted",
+    "Historical evidence is dated separately from publication verification"
+  ],
+  "runtimeFiles": [
+    {
+      "path": "app.js",
+      "delivery": "pages",
+      "target": "demo/app.js",
+      "bytes": 12087,
+      "sha256": "9b443077b4aa90c8803ce3d51f738feccbeb02faa8f469d5f334060cebd3244b"
+    },
+    {
+      "path": "art-scene.js",
+      "delivery": "pages",
+      "target": "demo/art-scene.js",
+      "bytes": 12838,
+      "sha256": "4dd34df4244718934502d1f2c45e27ad6c5b0ed8ea289f4ed5b5e977d6fb8c0a"
+    },
+    {
+      "path": "art.css",
+      "delivery": "pages",
+      "target": "demo/art.css",
+      "bytes": 5461,
+      "sha256": "752491cacc766b878805b245a7d503c561114f9112c3d794fe56404632c6a93e"
+    },
+    {
+      "path": "assets/art/duck-animation-source.png",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/art/duck-animation-source.png",
+      "bytes": 1655232,
+      "sha256": "daa06159e3d8d2c1504c57ca7047a2dad11b263d2134fb369c3933ed7c29b6a6"
+    },
+    {
+      "path": "assets/art/duck.png",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/art/duck.png",
+      "bytes": 2018748,
+      "sha256": "f2eb028f1e518d83cbb3b6f64427111bdc415d4381838291f61330217c25178a"
+    },
+    {
+      "path": "assets/art/explore.png",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/art/explore.png",
+      "bytes": 3250477,
+      "sha256": "2651e0b59c15921ca0d6b8c9dee36ba25abe378c416081fbc126c275532f3151"
+    },
+    {
+      "path": "assets/art/focus.png",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/art/focus.png",
+      "bytes": 2981909,
+      "sha256": "181d2f2e752bd223489c0a6f64af30bcc04fc7a5c64a953e053561c70ada28eb"
+    },
+    {
+      "path": "assets/art/learn.png",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/art/learn.png",
+      "bytes": 2821994,
+      "sha256": "cffd67d7b6d8e35a40ecddd74380bb460d74ab45431187a147b4c86cc647eff8"
+    },
+    {
+      "path": "assets/art/memory.png",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/art/memory.png",
+      "bytes": 3938459,
+      "sha256": "1eec487ed102d3237e358f6e6f480cc31c02ec2d3181c6b45a564ed1e9b5cce2"
+    },
+    {
+      "path": "assets/art/pond-dusk.png",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/art/pond-dusk.png",
+      "bytes": 3380974,
+      "sha256": "d02d4a35ad2acdf3b3e3eb22454d6c4dcc304ad332f8c83520f4cfc8df37355c"
+    },
+    {
+      "path": "assets/art/pond-night.png",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/art/pond-night.png",
+      "bytes": 3116548,
+      "sha256": "51d97ce7f318de077a405afedc7db2478e1b8214c60bcffc4d594309dcc73f81"
+    },
+    {
+      "path": "assets/art/together.png",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/art/together.png",
+      "bytes": 2744224,
+      "sha256": "094173660e394fcfb4cc68c9f0be9706197d2a823767d1df1b0b4be83bb99046"
+    },
+    {
+      "path": "assets/audio/duck-quack-source.mp3",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/audio/duck-quack-source.mp3",
+      "bytes": 148128,
+      "sha256": "599aab0d8a1be1214d2057cce21c03f79c3bc58ec0f106fe40a8d5b97fa32370"
+    },
+    {
+      "path": "assets/audio/duck-quack.wav",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/audio/duck-quack.wav",
+      "bytes": 56684,
+      "sha256": "131ea3f8da35856f71de99068103a9a9e0e0bd81b92de8ff8237569e8b54eb81"
+    },
+    {
+      "path": "assets/audio/pond-night-loop.wav",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/audio/pond-night-loop.wav",
+      "bytes": 2880044,
+      "sha256": "bc66f1d3801d4ee68b9007f29e89214b26c5fb25acd0d567a19fc93ecded7685"
+    },
+    {
+      "path": "assets/audio/pond-night.ogg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/audio/pond-night.ogg",
+      "bytes": 1034975,
+      "sha256": "ebc99f767a1832608ef5a8e2fd170a19c01720a8ba957fd7521f291bba57b21f"
+    },
+    {
+      "path": "assets/audio/water-stream-loop.wav",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/audio/water-stream-loop.wav",
+      "bytes": 1440044,
+      "sha256": "926ba0e18eb8f10502857353208f51cd01c1ef57a517def87c814c8791934248"
+    },
+    {
+      "path": "assets/audio/water-stream.ogg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/audio/water-stream.ogg",
+      "bytes": 1092440,
+      "sha256": "b71def4798508e588229a5f801fefaed9ac51c5dbad224274123c92e6d183fff"
+    },
+    {
+      "path": "assets/lighting/mossy-forest-1k.hdr",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/lighting/mossy-forest-1k.hdr",
+      "bytes": 1928894,
+      "sha256": "bd67c263fe6aa7264ecbede9d4078f0d4dff26b2fb4bed1815c471635da4c323"
+    },
+    {
+      "path": "assets/lighting/woodland-sky-1k.hdr",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/lighting/woodland-sky-1k.hdr",
+      "bytes": 1435119,
+      "sha256": "fd94c84997b8a3c353b62c2125a9b44e19509956986a126e472684432a02d798"
+    },
+    {
+      "path": "assets/materials/bark_brown_02-color.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/materials/bark_brown_02-color.jpg",
+      "bytes": 659592,
+      "sha256": "920fa0bed0c9d78c1d530e99795113afd532d7db746de440f4a85d7c83ed0f1a"
+    },
+    {
+      "path": "assets/materials/bark_brown_02-normal.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/materials/bark_brown_02-normal.jpg",
+      "bytes": 1015623,
+      "sha256": "0d5e691e8ad8bcd093a3587887fda2a6b4a948b5708a4f256f7919584c6eb857"
+    },
+    {
+      "path": "assets/materials/bark_brown_02-roughness.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/materials/bark_brown_02-roughness.jpg",
+      "bytes": 337946,
+      "sha256": "68125592de36e15bae7aa6db85c4d135aeb7e5653199ba226483a70f6d69837d"
+    },
+    {
+      "path": "assets/materials/brown_mud_rocks_01-color.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/materials/brown_mud_rocks_01-color.jpg",
+      "bytes": 887215,
+      "sha256": "805675195f875f75b8f34410d8ead8b75c25643cdb2c0a8b0936d0f2698cce8c"
+    },
+    {
+      "path": "assets/materials/brown_mud_rocks_01-normal.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/materials/brown_mud_rocks_01-normal.jpg",
+      "bytes": 1400087,
+      "sha256": "755bb531b62b3395879d6df2aeb435d1c97104a0c61b6c0e50a428ce676af738"
+    },
+    {
+      "path": "assets/materials/brown_mud_rocks_01-roughness.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/materials/brown_mud_rocks_01-roughness.jpg",
+      "bytes": 719533,
+      "sha256": "c1cb623c31d87eee0726a9881fd9f29ddc2b409538774e686f31a8998394598c"
+    },
+    {
+      "path": "assets/materials/forest_floor-color.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/materials/forest_floor-color.jpg",
+      "bytes": 1329853,
+      "sha256": "f12e5adea1741f9eb7a528bfc621f8267885b9530b74c3a8afdb823899bdbf0b"
+    },
+    {
+      "path": "assets/materials/forest_floor-normal.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/materials/forest_floor-normal.jpg",
+      "bytes": 1380104,
+      "sha256": "681f3de8c756c4d19bcda33039f953295498f38b1425ce9d56b37d6f97f6e518"
+    },
+    {
+      "path": "assets/materials/forest_floor-roughness.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/materials/forest_floor-roughness.jpg",
+      "bytes": 736353,
+      "sha256": "ece0b331f08c03f3edcd8ab6815b74a5ae20768beef64cd4f96a5b2fa26e116e"
+    },
+    {
+      "path": "assets/materials/forest_ground_05-color.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/materials/forest_ground_05-color.jpg",
+      "bytes": 655934,
+      "sha256": "9a2c6d085f05cee45d9dbc4b771829d2ad2116ed8a8dd528c5dee62bdbb00558"
+    },
+    {
+      "path": "assets/materials/forest_ground_05-normal.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/materials/forest_ground_05-normal.jpg",
+      "bytes": 1167042,
+      "sha256": "49f9495b475f74f415345049b702d560205f4e51ebb60ce76ed2cd605fa52ed8"
+    },
+    {
+      "path": "assets/materials/forest_ground_05-roughness.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/materials/forest_ground_05-roughness.jpg",
+      "bytes": 330104,
+      "sha256": "de5afeb3c663c43a0c6a4a3ad622eba06acb53c46e2d72154af7678cd02b93d2"
+    },
+    {
+      "path": "assets/materials/mossy_rock-color.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/materials/mossy_rock-color.jpg",
+      "bytes": 1124438,
+      "sha256": "4dbf37f1b0465c9c8914213163923be159716f5b97fb6946437b6c5e143ef540"
+    },
+    {
+      "path": "assets/materials/mossy_rock-normal.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/materials/mossy_rock-normal.jpg",
+      "bytes": 995727,
+      "sha256": "232cdd6a9fdfd01bb8bb1f8f604c53dbca79fa0d3d7995edf85c9945757aa8df"
+    },
+    {
+      "path": "assets/materials/mossy_rock-roughness.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/materials/mossy_rock-roughness.jpg",
+      "bytes": 780918,
+      "sha256": "0a18bdeb08444b730170b0477f13940ce6cd4d82d06137df661f96d1e2a6a66e"
+    },
+    {
+      "path": "assets/materials/mud_forest-color.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/materials/mud_forest-color.jpg",
+      "bytes": 952076,
+      "sha256": "6b874ef298dd06671624032311e0dd1456251a92e396883852bf5ec75cd099eb"
+    },
+    {
+      "path": "assets/materials/mud_forest-normal.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/materials/mud_forest-normal.jpg",
+      "bytes": 1480930,
+      "sha256": "7ccce706a05d804ecf961c4c6be2ab5f496e717e05b13bd87fa086c9e082c3cf"
+    },
+    {
+      "path": "assets/materials/mud_forest-roughness.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/materials/mud_forest-roughness.jpg",
+      "bytes": 251645,
+      "sha256": "311356ce27ac527a429184145a5939c015b6f1671886e6f6370591cb03331861"
+    },
+    {
+      "path": "assets/materials/sources-v5-ground.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/materials/sources-v5-ground.json",
+      "bytes": 5003,
+      "sha256": "9a062e874c7c56bae5e054b64747c4f34062822e2ab65d78ac9b472daf631212"
+    },
+    {
+      "path": "assets/materials/sources.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/materials/sources.json",
+      "bytes": 6532,
+      "sha256": "40939f77ac8e470e2665db99293521c36f8ce482a6a617aadc0af96b4ab507f8"
+    },
+    {
+      "path": "assets/materials/wood_planks_grey-color.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/materials/wood_planks_grey-color.jpg",
+      "bytes": 228279,
+      "sha256": "d758be23e8fe7bfbd73bc4ab257cfd59406e1835f6557c12a67cd4fdb15de0d8"
+    },
+    {
+      "path": "assets/materials/wood_planks_grey-normal.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/materials/wood_planks_grey-normal.jpg",
+      "bytes": 157419,
+      "sha256": "5e570e57d688b016b217b9e8e0592f9a8b3364406e22bf6cd775da990452bdb6"
+    },
+    {
+      "path": "assets/materials/wood_planks_grey-roughness.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/materials/wood_planks_grey-roughness.jpg",
+      "bytes": 186804,
+      "sha256": "ef640502cec94bd2b6500e252891a778a7a721be16b5536d4efc9fe4d99b12aa"
+    },
+    {
+      "path": "assets/models/duck-v5/415584bc3224484fba20a482592e2157-source.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/duck-v5/415584bc3224484fba20a482592e2157-source.json",
+      "bytes": 6718,
+      "sha256": "c0ff8e97f6678c5306b4d7ed4f7f95665234ec811dd016d9c9f41aaeba37af35"
+    },
+    {
+      "path": "assets/models/duck-v5/blender-inspection.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/duck-v5/blender-inspection.json",
+      "bytes": 474,
+      "sha256": "58ea14c66d62452a6e25142cf591e888c920c4fea01ef949fc37aafeb4b54fe4"
+    },
+    {
+      "path": "assets/models/duck-v5/dd33cd2e30944a4aae2de1a06a828f4f-source.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/duck-v5/dd33cd2e30944a4aae2de1a06a828f4f-source.json",
+      "bytes": 6152,
+      "sha256": "127c5ea88a335e2707a106d8742a14b6a0a78a53e6f95359a4d9c2a993ace42e"
+    },
+    {
+      "path": "assets/models/duck-v5/mallard-3dima-ccby.glb",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/duck-v5/mallard-3dima-ccby.glb",
+      "bytes": 300480,
+      "sha256": "eba344f92bf3c699bfc5441400b826ee458a5ac85970cf91e1487c56b326eecb"
+    },
+    {
+      "path": "assets/models/duck-v5/mallard-basecolor.png",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/duck-v5/mallard-basecolor.png",
+      "bytes": 2216815,
+      "sha256": "0446861a360b28b452726a2dc66894416a870b196fe0713a8121548f6301a81b"
+    },
+    {
+      "path": "assets/models/duck-v5/mallard-inspection.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/duck-v5/mallard-inspection.json",
+      "bytes": 1418,
+      "sha256": "b31645c926f4643ce0b1fb2f72f0d5b9fa95402064566e0673e045b56a25d2a2"
+    },
+    {
+      "path": "assets/models/duck-v5/mallard-preview.glb",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/duck-v5/mallard-preview.glb",
+      "bytes": 2551640,
+      "sha256": "76a0625adcd84c2b6fbc9dfc7f81ffc49d9a5939bd0d9880c2146e7d8cb09b84"
+    },
+    {
+      "path": "assets/models/duck-v5/mirror-attribution.md",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/duck-v5/mirror-attribution.md",
+      "bytes": 8842,
+      "sha256": "8979bbb3ddb7895d5832d42c7483746917d3c2b4df48499cc101b2e6297c0374"
+    },
+    {
+      "path": "assets/models/duck-v5/preview-quarter.png",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/duck-v5/preview-quarter.png",
+      "bytes": 894181,
+      "sha256": "dcb5c36978c6e1d0eddf3f841085ac534db8247fef56535daa68ff1454bdf9f7"
+    },
+    {
+      "path": "assets/models/duck-v5/preview-rear.png",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/duck-v5/preview-rear.png",
+      "bytes": 902027,
+      "sha256": "573c69ea57b8fc34a81e5482199e176b1f994973c3e655fdd048adc938864b92"
+    },
+    {
+      "path": "assets/models/duck-v5/preview-side.png",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/duck-v5/preview-side.png",
+      "bytes": 985787,
+      "sha256": "7634114599dc6947ad6f120de176750c222e3b10806d07785d32accaba6240a7"
+    },
+    {
+      "path": "assets/models/duck-v5/preview_model.py",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/duck-v5/preview_model.py",
+      "bytes": 3552,
+      "sha256": "2a49ba9cd9986b4ec522282eb51491920011ffc558a18d29e5d595e9f90a769e"
+    },
+    {
+      "path": "assets/models/duck-v5/README.md",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/duck-v5/README.md",
+      "bytes": 4298,
+      "sha256": "b1e20bbbb71cf26a30039d3745a300ab8ca1f586eceea15d9f0673a949a20c94"
+    },
+    {
+      "path": "assets/models/environment-v5/fern_02-api.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/fern_02-api.json",
+      "bytes": 39412,
+      "sha256": "79ee07e9bc6c63080f74791d66e04baef550bed57ebf1dbf61c23b962afa2d80"
+    },
+    {
+      "path": "assets/models/environment-v5/island_tree_01-api.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/island_tree_01-api.json",
+      "bytes": 108400,
+      "sha256": "6663517cdd7b8a05b020525817e02307a8ff1fad873828777af16f9aca3107eb"
+    },
+    {
+      "path": "assets/models/environment-v5/island_tree_02-api.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/island_tree_02-api.json",
+      "bytes": 108394,
+      "sha256": "fe70fc0e6c9883b870efec57b9fe1d4c364c67942e315dd7edce24379532bb11"
+    },
+    {
+      "path": "assets/models/environment-v5/island_tree_03-api.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/island_tree_03-api.json",
+      "bytes": 108393,
+      "sha256": "cace7eca96c48ce8fc5cb3aeabb63aacbc644b07e3b84b35be1e8836c3f12cca"
+    },
+    {
+      "path": "assets/models/environment-v5/jacaranda_tree-api.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/jacaranda_tree-api.json",
+      "bytes": 109590,
+      "sha256": "71ee4f4dc54d300944ef6a5d5641fc15bb19d752c790039d0a9a8f3300c92b30"
+    },
+    {
+      "path": "assets/models/environment-v5/rock_moss_set_01-api.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/rock_moss_set_01-api.json",
+      "bytes": 34531,
+      "sha256": "d786809f6af1272c05eb2c00ee5b90fc0a27021f4fade647e4b8e8d19e00294b"
+    },
+    {
+      "path": "assets/models/environment-v5/runtime/color-packing.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/runtime/color-packing.json",
+      "bytes": 2203,
+      "sha256": "4ab0d9dcf6e8952aaecba56c9a88ec614469e3ced5c34065d285c0a2ecc4b16f"
+    },
+    {
+      "path": "assets/models/environment-v5/runtime/fern_02-export.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/runtime/fern_02-export.json",
+      "bytes": 1109,
+      "sha256": "b50660b1180346b3e738768c5801faf41e83064564c538e9f01c2310d4cd5eec"
+    },
+    {
+      "path": "assets/models/environment-v5/runtime/fern_02.glb",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/runtime/fern_02.glb",
+      "bytes": 3788900,
+      "sha256": "2197b93c31e0a9b8cc3d240682912d6d77b8f4d096044eaefdc259f4f571ff65"
+    },
+    {
+      "path": "assets/models/environment-v5/runtime/island_tree_01-canopy-report.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/runtime/island_tree_01-canopy-report.json",
+      "bytes": 1064,
+      "sha256": "f61e43040efb1fe2f15b461e86f76a73f803a0e8c5a81860b401c140c8d33b77"
+    },
+    {
+      "path": "assets/models/environment-v5/runtime/island_tree_01-canopy.glb",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/runtime/island_tree_01-canopy.glb",
+      "bytes": 7829404,
+      "sha256": "4f0e3d304f2919eb01a486d7e77eaa849ffbe851e0747820573de7165887894b"
+    },
+    {
+      "path": "assets/models/environment-v5/runtime/island_tree_01-export.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/runtime/island_tree_01-export.json",
+      "bytes": 1032,
+      "sha256": "f2e3e1a1344dee2467100f4f2552b0d7f641c523df27ea53d4722b65357381d7"
+    },
+    {
+      "path": "assets/models/environment-v5/runtime/island_tree_01-far-export.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/runtime/island_tree_01-far-export.json",
+      "bytes": 1033,
+      "sha256": "779f236cbba00378995ee9fc770a20720aef73882726fbe4d870a09a2896a62e"
+    },
+    {
+      "path": "assets/models/environment-v5/runtime/island_tree_01-far.glb",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/runtime/island_tree_01-far.glb",
+      "bytes": 2327148,
+      "sha256": "a59daad00cb89aa5984b7ce063d605b6da8a1cca51edf2e36288c6a84bc88352"
+    },
+    {
+      "path": "assets/models/environment-v5/runtime/island_tree_01.glb",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/runtime/island_tree_01.glb",
+      "bytes": 28888532,
+      "sha256": "75869afd83caf2b97329c76d779d323852ff30b92972b2d9d4e49cb328340ad6"
+    },
+    {
+      "path": "assets/models/environment-v5/runtime/island_tree_02-canopy-report.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/runtime/island_tree_02-canopy-report.json",
+      "bytes": 1059,
+      "sha256": "89d2f91d65d8ef879df697ea0cfcde40405f1e8f0955f034f4bafd8e7fa95d78"
+    },
+    {
+      "path": "assets/models/environment-v5/runtime/island_tree_02-canopy.glb",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/runtime/island_tree_02-canopy.glb",
+      "bytes": 5320936,
+      "sha256": "4b9ddc543f43cefd609e1228975017acbe835670d2d206a92e82ffcc86df4a12"
+    },
+    {
+      "path": "assets/models/environment-v5/runtime/island_tree_02-export.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/runtime/island_tree_02-export.json",
+      "bytes": 1031,
+      "sha256": "32e1f91129efae13dac4bd0d69e1002e252834b94a340cd3560018c77a937ffa"
+    },
+    {
+      "path": "assets/models/environment-v5/runtime/island_tree_02-far-export.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/runtime/island_tree_02-far-export.json",
+      "bytes": 1031,
+      "sha256": "6f10903d6e99adde9314329dd03b44fc48abecb685db2a8c10684df7e88076a6"
+    },
+    {
+      "path": "assets/models/environment-v5/runtime/island_tree_02-far.glb",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/runtime/island_tree_02-far.glb",
+      "bytes": 2286192,
+      "sha256": "a11880b4f78ba4938efdc2d9f599b624678f53b15cc3d328ccd9d7276b81a1f8"
+    },
+    {
+      "path": "assets/models/environment-v5/runtime/island_tree_02.glb",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/runtime/island_tree_02.glb",
+      "bytes": 27864324,
+      "sha256": "cc505f74a9358b385597b11c960c07f73006134ef4f6f5f08ba5069f6ddab16a"
+    },
+    {
+      "path": "assets/models/environment-v5/runtime/manifest.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/runtime/manifest.json",
+      "bytes": 9233,
+      "sha256": "58d366f9ba3fa0e9c0a50f85d1a9b79bc51ffae71f54f38e89ffa8fdda523557"
+    },
+    {
+      "path": "assets/models/environment-v5/runtime/rock_moss_set_01-export.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/runtime/rock_moss_set_01-export.json",
+      "bytes": 1903,
+      "sha256": "a10aef9d372cf03916e9796623e66faa8cb44a4fe1bdeb43548503bc30637989"
+    },
+    {
+      "path": "assets/models/environment-v5/runtime/rock_moss_set_01.glb",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/runtime/rock_moss_set_01.glb",
+      "bytes": 6949360,
+      "sha256": "9bf37b868df5dee0480c1da65150e458619217b43b36e93c7ce3c4db76d63d5c"
+    },
+    {
+      "path": "assets/models/environment-v5/runtime/shrub_02-export.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/runtime/shrub_02-export.json",
+      "bytes": 1173,
+      "sha256": "2044b1a3b952c33759e18f3a326a8511f2b7ae62b2023ff64af3ec38961d27da"
+    },
+    {
+      "path": "assets/models/environment-v5/runtime/shrub_02.glb",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/runtime/shrub_02.glb",
+      "bytes": 5152208,
+      "sha256": "903bb0a70cf64e659c806aa730690dfa510331a9e3e76f8e770b488985a37aa9"
+    },
+    {
+      "path": "assets/models/environment-v5/runtime/shrub_03-export.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/runtime/shrub_03-export.json",
+      "bytes": 1173,
+      "sha256": "08467a8bc4b5abbbca295dc45d33bfd9d2a9fde718f457dd924b472e79432de0"
+    },
+    {
+      "path": "assets/models/environment-v5/runtime/shrub_03.glb",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/runtime/shrub_03.glb",
+      "bytes": 4905164,
+      "sha256": "f4b38fd3fa656934d6a583ea0ba9b51d039363389ccd7b7d2b5ab1ee779e55dd"
+    },
+    {
+      "path": "assets/models/environment-v5/shrub_02-api.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/shrub_02-api.json",
+      "bytes": 33981,
+      "sha256": "39a63f010a6726b5293da91e20831e487e59ad744286080d7a0020caae9d4077"
+    },
+    {
+      "path": "assets/models/environment-v5/shrub_03-api.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/shrub_03-api.json",
+      "bytes": 28018,
+      "sha256": "8445d46207ead08f0ead62f66e4cf6d9e6e5c2314fc84292cda0f5701a60328d"
+    },
+    {
+      "path": "assets/models/environment-v5/sources-shrub02.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/sources-shrub02.json",
+      "bytes": 3192,
+      "sha256": "3bee065301993189b3a468aa482a8ce13f267d7e4f1fa8fb1f5052405854b3fe"
+    },
+    {
+      "path": "assets/models/environment-v5/sources.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/sources.json",
+      "bytes": 20024,
+      "sha256": "b8c76c90484361ac3591cd2872db052c22fc4a22f3776ad7503a4808fc0ce20d"
+    },
+    {
+      "path": "assets/models/environment-v5/tree_small_02-api.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/environment-v5/tree_small_02-api.json",
+      "bytes": 106974,
+      "sha256": "b3edf27ae0a7300edbeeddbf793b901157bc245f4f4208337dce37736dc3b9bf"
+    },
+    {
+      "path": "assets/reading/art/aic-14634.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/art/aic-14634.json",
+      "bytes": 834,
+      "sha256": "d2956f4408bbdb291a2e3fd2d4e4d9285de4f8f3fec68d09d1d888e595ee8376"
+    },
+    {
+      "path": "assets/reading/art/monet-vetheuil-1901.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/art/monet-vetheuil-1901.jpg",
+      "bytes": 452462,
+      "sha256": "314c4f7b794d25702261a7fecd35850f9fdaa3d407d531b5616166f84701b9bc"
+    },
+    {
+      "path": "assets/reading/art/sources.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/art/sources.json",
+      "bytes": 661,
+      "sha256": "c68121f6d525350b576c2d94470984263048b993c07244c1d474cbcd45e0a1d9"
+    },
+    {
+      "path": "assets/reading/audio/field-processing.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/audio/field-processing.json",
+      "bytes": 1058,
+      "sha256": "d76597ad66bc3e8cc00ac6c8b02e754cd31b7d13a70d4355735d2bbaf971ba69"
+    },
+    {
+      "path": "assets/reading/audio/field-sources.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/audio/field-sources.json",
+      "bytes": 974,
+      "sha256": "3316af730d4575fdee1e1ec8e87d74c7e58efa10a7998088f89721c5294fe034"
+    },
+    {
+      "path": "assets/reading/audio/minimax-generation.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/audio/minimax-generation.json",
+      "bytes": 1202,
+      "sha256": "5ecc2af5ebde0816455cec5b4a666329d18b99465b023d71812b4faaf1f02547"
+    },
+    {
+      "path": "assets/reading/audio/rain-leaves.ogg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/audio/rain-leaves.ogg",
+      "bytes": 980414,
+      "sha256": "517935283dfdc714d57fc93df8e26fa427f03a851eec8f82cfde7121ee3cc04f"
+    },
+    {
+      "path": "assets/reading/audio/raw/rain-leaves.mp3",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/audio/raw/rain-leaves.mp3",
+      "bytes": 1270656,
+      "sha256": "98937a7ce64e973dbaa3d7879f41500d4e15e3b8b4ea30f6b927af5bf0d53977"
+    },
+    {
+      "path": "assets/reading/audio/raw/woodland-wind.ogg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/audio/raw/woodland-wind.ogg",
+      "bytes": 374905,
+      "sha256": "5563b42caa0fabbcbf0c7b5e208d5f6fed9ab1992bac77a69f4c532639bd6ba4"
+    },
+    {
+      "path": "assets/reading/audio/reading-1.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/audio/reading-1.json",
+      "bytes": 1559,
+      "sha256": "400a3220ef73f0dc98ed6e9438b5f5acdd3b76e0e6a6c84a342a57864f8917ed"
+    },
+    {
+      "path": "assets/reading/audio/reading-1.mp3",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/audio/reading-1.mp3",
+      "bytes": 231540,
+      "sha256": "d887d81921c7ca222ca840fa47feade39729b5cfe5dfed264624836c671c3079"
+    },
+    {
+      "path": "assets/reading/audio/reading-2.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/audio/reading-2.json",
+      "bytes": 1499,
+      "sha256": "0b47827aad2f4346d451cd9f219ffc28b6c0ed7d388321c89c897a2bc85e1448"
+    },
+    {
+      "path": "assets/reading/audio/reading-2.mp3",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/audio/reading-2.mp3",
+      "bytes": 194100,
+      "sha256": "1d4ba5173c4498663f9b28f1f45748f643fbeeef4f2d5324c2b26cc5e32464dd"
+    },
+    {
+      "path": "assets/reading/audio/reading-3.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/audio/reading-3.json",
+      "bytes": 1492,
+      "sha256": "920e17a96fc5b92221414579408a469906cb722058123cfe0eb7ff786bfcd430"
+    },
+    {
+      "path": "assets/reading/audio/reading-3.mp3",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/audio/reading-3.mp3",
+      "bytes": 202740,
+      "sha256": "45fb59db2d3c7fac0bdace556f151d75d8263856937b9e64bbcf97ade1a28a7e"
+    },
+    {
+      "path": "assets/reading/audio/woodland-wind.ogg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/audio/woodland-wind.ogg",
+      "bytes": 279365,
+      "sha256": "4fe7f894dc9e3700d7fa08f0940fe76568c6fe0b057a38dc492f3bd993e76ec8"
+    },
+    {
+      "path": "assets/reading/book_encyclopedia_set_01/book_encyclopedia_set_01.bin",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/book_encyclopedia_set_01/book_encyclopedia_set_01.bin",
+      "bytes": 2547932,
+      "sha256": "bbc726698b6e40ab5537b73e082f7bb4db97b9e6f978f52cdaf763dddc85d9ba"
+    },
+    {
+      "path": "assets/reading/book_encyclopedia_set_01/book_encyclopedia_set_01_1k.gltf",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/book_encyclopedia_set_01/book_encyclopedia_set_01_1k.gltf",
+      "bytes": 55011,
+      "sha256": "89eb80fffd619ebbe5043d632bd8cf25b2d68a3614aee2f356e850c69ae498ba"
+    },
+    {
+      "path": "assets/reading/book_encyclopedia_set_01/textures/book_encyclopedia_set_01_cover_arm_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/book_encyclopedia_set_01/textures/book_encyclopedia_set_01_cover_arm_1k.jpg",
+      "bytes": 189997,
+      "sha256": "ab19b627092da77770de2212a04785940feb2df0957cab8993742a6b8b3f7bff"
+    },
+    {
+      "path": "assets/reading/book_encyclopedia_set_01/textures/book_encyclopedia_set_01_cover_diff_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/book_encyclopedia_set_01/textures/book_encyclopedia_set_01_cover_diff_1k.jpg",
+      "bytes": 126794,
+      "sha256": "a456aae6ef0ab24769527cccac5313a802ad253584c49fc10a377ce75969d382"
+    },
+    {
+      "path": "assets/reading/book_encyclopedia_set_01/textures/book_encyclopedia_set_01_cover_nor_gl_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/book_encyclopedia_set_01/textures/book_encyclopedia_set_01_cover_nor_gl_1k.jpg",
+      "bytes": 19941,
+      "sha256": "17ad410f2d1aab487e47c729a5b988ea4e4d196679c8696331b7960e77a91c17"
+    },
+    {
+      "path": "assets/reading/book_encyclopedia_set_01/textures/book_encyclopedia_set_01_paper_diff_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/book_encyclopedia_set_01/textures/book_encyclopedia_set_01_paper_diff_1k.jpg",
+      "bytes": 115297,
+      "sha256": "b552d6829b75db7a75012bb761068c63507b69e8e944597ea53f6d1a70efa36c"
+    },
+    {
+      "path": "assets/reading/book_encyclopedia_set_01/textures/book_encyclopedia_set_01_paper_nor_gl_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/book_encyclopedia_set_01/textures/book_encyclopedia_set_01_paper_nor_gl_1k.jpg",
+      "bytes": 193390,
+      "sha256": "705f4380c654c44d086ceb120595078e562438c6e4ba01458d2d23fd61483d9d"
+    },
+    {
+      "path": "assets/reading/book_encyclopedia_set_01/textures/book_encyclopedia_set_01_paper_roughness_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/book_encyclopedia_set_01/textures/book_encyclopedia_set_01_paper_roughness_1k.jpg",
+      "bytes": 12684,
+      "sha256": "62d875e9427f5d71f1bb4d9dc9569e34465bfd3067b8b13f5644b73e23a09fa3"
+    },
+    {
+      "path": "assets/reading/book_encyclopedia_set_01-api.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/book_encyclopedia_set_01-api.json",
+      "bytes": 74924,
+      "sha256": "26c16d91c6d4304cf7ca2f9393ee767a03ac11fd7e67f5b5a6cba8118ace2a3e"
+    },
+    {
+      "path": "assets/reading/companion/companion.glb",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/companion/companion.glb",
+      "bytes": 21879456,
+      "sha256": "03a215c373c12f4c9cc7e3e417cb2cc42cd3415b77b85588cdf13cc2a5d935e6"
+    },
+    {
+      "path": "assets/reading/companion/LICENSE.txt",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/companion/LICENSE.txt",
+      "bytes": 1066,
+      "sha256": "17474e386e0b9e1a700cc3d06b2b0882a2c376d9c6b49c7f8274409b8f8d2352"
+    },
+    {
+      "path": "assets/reading/companion/source-manifest.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/companion/source-manifest.json",
+      "bytes": 2275,
+      "sha256": "5731e3b51c7aa69ae5506d9248c3816bac4abd8e8fdf2858f16cc418d5319ad4"
+    },
+    {
+      "path": "assets/reading/companion/sources.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/companion/sources.json",
+      "bytes": 500,
+      "sha256": "4e3a8b1ccb06491d5418b6cb4149ba59650360e7e2b303550408f5b338ba3e67"
+    },
+    {
+      "path": "assets/reading/desk_lamp_arm_01/desk_lamp_arm_01.bin",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/desk_lamp_arm_01/desk_lamp_arm_01.bin",
+      "bytes": 736804,
+      "sha256": "07f34e32abecbaa63d28b9d12d6a0eb82b775a0f50c92327655909d72ff8489b"
+    },
+    {
+      "path": "assets/reading/desk_lamp_arm_01/desk_lamp_arm_01_1k.gltf",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/desk_lamp_arm_01/desk_lamp_arm_01_1k.gltf",
+      "bytes": 4453,
+      "sha256": "2ac8389afc1519449a9cfdf7efd9fa36780a2177bb47ab58f7a7dda7d247dc8c"
+    },
+    {
+      "path": "assets/reading/desk_lamp_arm_01/textures/desk_lamp_arm_01_arm_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/desk_lamp_arm_01/textures/desk_lamp_arm_01_arm_1k.jpg",
+      "bytes": 780379,
+      "sha256": "206404c79fb7dcf8e2c4558c13544342f87d2190526231a1750c3c9adc256fbc"
+    },
+    {
+      "path": "assets/reading/desk_lamp_arm_01/textures/desk_lamp_arm_01_diff_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/desk_lamp_arm_01/textures/desk_lamp_arm_01_diff_1k.jpg",
+      "bytes": 702522,
+      "sha256": "159eb178aba3271bd555cbe07ca36431d8af9a006f0b8e9d8c67030cbdc9e4d3"
+    },
+    {
+      "path": "assets/reading/desk_lamp_arm_01/textures/desk_lamp_arm_01_nor_gl_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/desk_lamp_arm_01/textures/desk_lamp_arm_01_nor_gl_1k.jpg",
+      "bytes": 651826,
+      "sha256": "feefedc3835ecef3634e97a24977451671f8f57747a023f48cd14c84bc73513a"
+    },
+    {
+      "path": "assets/reading/desk_lamp_arm_01-api.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/desk_lamp_arm_01-api.json",
+      "bytes": 49239,
+      "sha256": "4c5a2daaa4b2ca6de6c049f5faec85311dfa7c86c3fb2d695a9e0363d309258e"
+    },
+    {
+      "path": "assets/reading/garden/island-tree-02-complete.glb",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/garden/island-tree-02-complete.glb",
+      "bytes": 29316720,
+      "sha256": "5776f1e89460f3694af4b243b7ab073c856b7f5166cb5d4de4a141d9c858e31f"
+    },
+    {
+      "path": "assets/reading/garden/island-tree-complete.glb",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/garden/island-tree-complete.glb",
+      "bytes": 32008792,
+      "sha256": "c6dbb5bf2feb8bd6032b95106f21dc8779aa5f71fb29e0ae0cf188e4737d00e9"
+    },
+    {
+      "path": "assets/reading/garden/sources-tree02.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/garden/sources-tree02.json",
+      "bytes": 712,
+      "sha256": "cac97530824b3851516b2271b37718d1b28d00b9ecec4ff85724a007ff36d0c7"
+    },
+    {
+      "path": "assets/reading/garden/sources.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/garden/sources.json",
+      "bytes": 709,
+      "sha256": "27e3da7a055151902a5cd450cdb61f29fed01606431eedbf7ad939a3d46b6c2d"
+    },
+    {
+      "path": "assets/reading/lebombo.hdr",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/lebombo.hdr",
+      "bytes": 1476953,
+      "sha256": "a02c9615adeba91a753c3e4737c3ce7a719273df822eeaa85d24982bd43c9ecb"
+    },
+    {
+      "path": "assets/reading/linen-curtains-v3.glb",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/linen-curtains-v3.glb",
+      "bytes": 2132152,
+      "sha256": "1f97f3b5fd24dfa38582821498388823614a1b6b12740d336490b319f9ce08d7"
+    },
+    {
+      "path": "assets/reading/linen-curtains-v3.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/linen-curtains-v3.json",
+      "bytes": 524,
+      "sha256": "fae1690c1f08b985e52804efb14f8bcf13cf604a1eb275061b6ae1d374098c91"
+    },
+    {
+      "path": "assets/reading/mid_century_lounge_chair/mid_century_lounge_chair.bin",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/mid_century_lounge_chair/mid_century_lounge_chair.bin",
+      "bytes": 171384,
+      "sha256": "26346cdc548ad74b1b6db5734c8c231c3c740656b012de2cc3bbc2b3b975200c"
+    },
+    {
+      "path": "assets/reading/mid_century_lounge_chair/mid_century_lounge_chair_1k.gltf",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/mid_century_lounge_chair/mid_century_lounge_chair_1k.gltf",
+      "bytes": 2884,
+      "sha256": "47c5769ee4dfa350e2506a6a76d8ef58a1e1060344acda35c503ddff46645d26"
+    },
+    {
+      "path": "assets/reading/mid_century_lounge_chair/mid_century_lounge_chair_2k.gltf",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/mid_century_lounge_chair/mid_century_lounge_chair_2k.gltf",
+      "bytes": 2884,
+      "sha256": "c626222ebe4bc2b98bc1f5ca0cb6ae6f649d995a8f2cee6a6c1d78f060859baa"
+    },
+    {
+      "path": "assets/reading/mid_century_lounge_chair/textures/mid_century_lounge_chair_arm_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/mid_century_lounge_chair/textures/mid_century_lounge_chair_arm_1k.jpg",
+      "bytes": 636493,
+      "sha256": "9fa5fa4af5306576a3a27886767feec5431f41d94df9119f2ccced8f0b024f1a"
+    },
+    {
+      "path": "assets/reading/mid_century_lounge_chair/textures/mid_century_lounge_chair_arm_2k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/mid_century_lounge_chair/textures/mid_century_lounge_chair_arm_2k.jpg",
+      "bytes": 2476056,
+      "sha256": "74ffb5899e592f842bf39b8a62a01ae7f737de5980790598fc0f4d587d53bf4a"
+    },
+    {
+      "path": "assets/reading/mid_century_lounge_chair/textures/mid_century_lounge_chair_diff_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/mid_century_lounge_chair/textures/mid_century_lounge_chair_diff_1k.jpg",
+      "bytes": 627298,
+      "sha256": "ae1f80e964426b49f70b402403c444a655bdaa363d8d43fee5b57fcb3b492c54"
+    },
+    {
+      "path": "assets/reading/mid_century_lounge_chair/textures/mid_century_lounge_chair_diff_2k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/mid_century_lounge_chair/textures/mid_century_lounge_chair_diff_2k.jpg",
+      "bytes": 2444450,
+      "sha256": "8129cc8c7c7c8db652aad062545a9f776b7ff4c00c4d9ab8387f3ad98315a932"
+    },
+    {
+      "path": "assets/reading/mid_century_lounge_chair/textures/mid_century_lounge_chair_nor_gl_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/mid_century_lounge_chair/textures/mid_century_lounge_chair_nor_gl_1k.jpg",
+      "bytes": 648960,
+      "sha256": "4bb4b325e4478f5d9063e4e061cf34bc6ccc3067abda608c1548c4a367f50397"
+    },
+    {
+      "path": "assets/reading/mid_century_lounge_chair/textures/mid_century_lounge_chair_nor_gl_2k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/mid_century_lounge_chair/textures/mid_century_lounge_chair_nor_gl_2k.jpg",
+      "bytes": 2646290,
+      "sha256": "3228f6785de5f4f06149a03dab95cf68f6c85f42ecbba8e33f48e40d941d9b96"
+    },
+    {
+      "path": "assets/reading/mid_century_lounge_chair-api.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/mid_century_lounge_chair-api.json",
+      "bytes": 43663,
+      "sha256": "f3a0b754dc58863e5509b7daacf90424de9ae227a295997b3a789c1c347cfcaf"
+    },
+    {
+      "path": "assets/reading/motions/LICENSE.txt",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/motions/LICENSE.txt",
+      "bytes": 1066,
+      "sha256": "17474e386e0b9e1a700cc3d06b2b0882a2c376d9c6b49c7f8274409b8f8d2352"
+    },
+    {
+      "path": "assets/reading/motions/manifest.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/motions/manifest.json",
+      "bytes": 2374,
+      "sha256": "951b9cecc6eb2385f4305b492fdf4f61d9bd0c9eaa87dcf302445d9b70806099"
+    },
+    {
+      "path": "assets/reading/motions/reading-mocap.glb",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/motions/reading-mocap.glb",
+      "bytes": 2737048,
+      "sha256": "716f63e649b64f4a75546adcc7136540ec28a01ccd812b22828914836bb587e0"
+    },
+    {
+      "path": "assets/reading/motions/source/inspection.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/motions/source/inspection.json",
+      "bytes": 39918,
+      "sha256": "ec28a4268b2da039a94cbc89cdb6b92724475419af774d360d25b5e2cad45bf4"
+    },
+    {
+      "path": "assets/reading/motions/source/sources.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/motions/source/sources.json",
+      "bytes": 3087,
+      "sha256": "1216d63321a65395fda003e4afbaced52a4ef9989f7beef0200ae9b93ed43f1c"
+    },
+    {
+      "path": "assets/reading/Ottoman_01/Ottoman_01.bin",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/Ottoman_01/Ottoman_01.bin",
+      "bytes": 115200,
+      "sha256": "ca62a1ee87a30c69142ff15f1bca216842448f57d5b3d64de1d627014b347117"
+    },
+    {
+      "path": "assets/reading/Ottoman_01/Ottoman_01_1k.gltf",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/Ottoman_01/Ottoman_01_1k.gltf",
+      "bytes": 2656,
+      "sha256": "cb515553924d7ca85b94807aba7d7d5110fafa0fedf7132573b105ac8b900584"
+    },
+    {
+      "path": "assets/reading/Ottoman_01/textures/Ottoman_01_arm_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/Ottoman_01/textures/Ottoman_01_arm_1k.jpg",
+      "bytes": 155704,
+      "sha256": "e894458d15a90e22e4290198929c8fb76e872526fe1f0bdf6d395a91d438bc7c"
+    },
+    {
+      "path": "assets/reading/Ottoman_01/textures/Ottoman_01_diff_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/Ottoman_01/textures/Ottoman_01_diff_1k.jpg",
+      "bytes": 141622,
+      "sha256": "03f05a4a2e54ea1e6829a7d1b43dcfad5d2873078bd72534dc46e692c01f97a5"
+    },
+    {
+      "path": "assets/reading/Ottoman_01/textures/Ottoman_01_nor_gl_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/Ottoman_01/textures/Ottoman_01_nor_gl_1k.jpg",
+      "bytes": 236930,
+      "sha256": "3220215de4173c81c4128619a0000ce5368a3d125409f5e7d64e1269e258d923"
+    },
+    {
+      "path": "assets/reading/Ottoman_01-api.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/Ottoman_01-api.json",
+      "bytes": 26894,
+      "sha256": "090db9b18b9a968251df6f55f97cf1168a7e11a144e9685c0bfa2703ff2f76e3"
+    },
+    {
+      "path": "assets/reading/poly_wool_herringbone/diff.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/poly_wool_herringbone/diff.jpg",
+      "bytes": 942966,
+      "sha256": "fd889a46f617efd331e522e36b8ad2548e16e1cb018c001872f17537d7666af5"
+    },
+    {
+      "path": "assets/reading/poly_wool_herringbone/nor_gl.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/poly_wool_herringbone/nor_gl.jpg",
+      "bytes": 1045151,
+      "sha256": "314ac7c1b7c101a48106e05199bfdb24e33671e58a6ccb334249b441d8e8ac98"
+    },
+    {
+      "path": "assets/reading/poly_wool_herringbone/rough.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/poly_wool_herringbone/rough.jpg",
+      "bytes": 857426,
+      "sha256": "028b4fb92c322a31b5374171f62f43af2cfd6a012748be175fd44dbf1109903c"
+    },
+    {
+      "path": "assets/reading/rough_linen/diff.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/rough_linen/diff.jpg",
+      "bytes": 3607181,
+      "sha256": "e71016e08dfebea1dd4e8a2a675e3b617a889a782af782f1abb795906f4db1b4"
+    },
+    {
+      "path": "assets/reading/rough_linen/nor_gl.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/rough_linen/nor_gl.jpg",
+      "bytes": 3849356,
+      "sha256": "c5733ad50cfe0f90c546f3d4076590c1c78a4fd1a83c967cc9c92dc8175b99e6"
+    },
+    {
+      "path": "assets/reading/rough_linen/rough.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/rough_linen/rough.jpg",
+      "bytes": 4655974,
+      "sha256": "48400d48fa203882bf5d984d5beb2f95edb1550309924601c018f2c4f3f80731"
+    },
+    {
+      "path": "assets/reading/rough_linen-api.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/rough_linen-api.json",
+      "bytes": 59152,
+      "sha256": "5dd2693a8fc8c9ff63975bf1e5803129e8f705853720ecb79d168fd09757cb85"
+    },
+    {
+      "path": "assets/reading/side_table_01/side_table_01.bin",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/side_table_01/side_table_01.bin",
+      "bytes": 117784,
+      "sha256": "b1f2a0519fc61cded1fdeac8169ac5b077836052671cd39a35cb56576c9aa11e"
+    },
+    {
+      "path": "assets/reading/side_table_01/side_table_01_1k.gltf",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/side_table_01/side_table_01_1k.gltf",
+      "bytes": 2700,
+      "sha256": "a441125a4f660a23a31601aedd9aa379c6febf2b35171c08814187b5ec5a3309"
+    },
+    {
+      "path": "assets/reading/side_table_01/textures/side_table_01_arm_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/side_table_01/textures/side_table_01_arm_1k.jpg",
+      "bytes": 129725,
+      "sha256": "ebaef894800faa2e09df7001c1536055c97648428410a9de76bb191aec00c014"
+    },
+    {
+      "path": "assets/reading/side_table_01/textures/side_table_01_diff_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/side_table_01/textures/side_table_01_diff_1k.jpg",
+      "bytes": 183315,
+      "sha256": "e0d9f2f91bede592868f9b89d141f5e8542524b8356f1b68f0f5c6bb6447731d"
+    },
+    {
+      "path": "assets/reading/side_table_01/textures/side_table_01_nor_gl_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/side_table_01/textures/side_table_01_nor_gl_1k.jpg",
+      "bytes": 71744,
+      "sha256": "14850c49ae1e06cf8701eac4fed2163c2ad075978d2878fcaa079dffe1fd1195"
+    },
+    {
+      "path": "assets/reading/side_table_01-api.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/side_table_01-api.json",
+      "bytes": 39254,
+      "sha256": "93985a42aa1cabf0093f0d4c153df73a82bdce523e28297556109f8ac6368c39"
+    },
+    {
+      "path": "assets/reading/sources-v3.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/sources-v3.json",
+      "bytes": 7636,
+      "sha256": "87285c9c2b8d8aa49476ffd2ce40cfa10a321acd2b8d655ccced9f5f55a76c55"
+    },
+    {
+      "path": "assets/reading/sources.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/sources.json",
+      "bytes": 19126,
+      "sha256": "7c882648054c0cd262b91d29ddcc53cedf9ac43b7e11758d826c4007f1a52b41"
+    },
+    {
+      "path": "assets/reading/terrace/Rockingchair_01/Rockingchair_01.bin",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/terrace/Rockingchair_01/Rockingchair_01.bin",
+      "bytes": 391740,
+      "sha256": "6c7c3c32a033a3697d9adf3e8c9d966265cf11b519717d92c1eb5a9cffe736e2"
+    },
+    {
+      "path": "assets/reading/terrace/Rockingchair_01/Rockingchair_01_1k.gltf",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/terrace/Rockingchair_01/Rockingchair_01_1k.gltf",
+      "bytes": 2712,
+      "sha256": "eb8c3a8f9c2c1bd6ca6d76804b8361dd0fd779498249d554536e5683e08f565b"
+    },
+    {
+      "path": "assets/reading/terrace/Rockingchair_01/textures/Rockingchair_01_arm_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/terrace/Rockingchair_01/textures/Rockingchair_01_arm_1k.jpg",
+      "bytes": 125152,
+      "sha256": "21c6a462d6865a6e839b7dfe966f845df885a6dfe3ad64b3a87438db1598cf5d"
+    },
+    {
+      "path": "assets/reading/terrace/Rockingchair_01/textures/Rockingchair_01_diff_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/terrace/Rockingchair_01/textures/Rockingchair_01_diff_1k.jpg",
+      "bytes": 138197,
+      "sha256": "d42426fe153296909d45abcbc4e91a3410b90d5a9cd58f01b1fa9af93a712ef0"
+    },
+    {
+      "path": "assets/reading/terrace/Rockingchair_01/textures/Rockingchair_01_nor_gl_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/terrace/Rockingchair_01/textures/Rockingchair_01_nor_gl_1k.jpg",
+      "bytes": 146964,
+      "sha256": "225008fcb16b3ee3b16372b4085d60e20dd660ab30b6a489b77b7e25a874b391"
+    },
+    {
+      "path": "assets/reading/terrace/sources.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/terrace/sources.json",
+      "bytes": 1283,
+      "sha256": "543141e270685c9d24666c225652775b39c9493747ab669e5f970d32c19f367d"
+    },
+    {
+      "path": "assets/reading/throw_pillows_01/textures/throw_pillows_01_diff_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/throw_pillows_01/textures/throw_pillows_01_diff_1k.jpg",
+      "bytes": 299887,
+      "sha256": "1d52fb47f06b88b5079f20a99309ae1e94547e778a5f89614d70f842c0696412"
+    },
+    {
+      "path": "assets/reading/throw_pillows_01/textures/throw_pillows_01_nor_gl_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/throw_pillows_01/textures/throw_pillows_01_nor_gl_1k.jpg",
+      "bytes": 404720,
+      "sha256": "074da9df1286aecf0d107bdd0839f0ec382fa99b16313626c7f6690d2765b4d7"
+    },
+    {
+      "path": "assets/reading/throw_pillows_01/textures/throw_pillows_01_rough_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/throw_pillows_01/textures/throw_pillows_01_rough_1k.jpg",
+      "bytes": 339241,
+      "sha256": "05518d80893cd4b0a1390ccf1330e94ecae7f386b60e2b55761a1e9856e29f9b"
+    },
+    {
+      "path": "assets/reading/throw_pillows_01/throw_pillows_01.bin",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/throw_pillows_01/throw_pillows_01.bin",
+      "bytes": 146012,
+      "sha256": "cac134c38612894a301d265a0b2ad4ddbe57d15d7473d57592c397d445366476"
+    },
+    {
+      "path": "assets/reading/throw_pillows_01/throw_pillows_01_1k.gltf",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/throw_pillows_01/throw_pillows_01_1k.gltf",
+      "bytes": 4548,
+      "sha256": "dd3f985a4446c82035028392ae905b9d996b8be10316a4572a870561a57f76fa"
+    },
+    {
+      "path": "assets/reading/throw_pillows_01-api.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/throw_pillows_01-api.json",
+      "bytes": 27954,
+      "sha256": "6ce06a3701571c05ad81a80dfe87b0a603367bd7c2735925f3b7eac2875ad0ba"
+    },
+    {
+      "path": "assets/reading/walnut_veneer/diff.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/walnut_veneer/diff.jpg",
+      "bytes": 2060618,
+      "sha256": "66c73defcc62ac090cb838e8455b8c1febbfea29a15c8f40a5e2d398b2ba4733"
+    },
+    {
+      "path": "assets/reading/walnut_veneer/nor_gl.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/walnut_veneer/nor_gl.jpg",
+      "bytes": 1891517,
+      "sha256": "544d3feffd325a0f6f7db5dc94ae99820349bb3d53ce3651e4647d5e66336cba"
+    },
+    {
+      "path": "assets/reading/walnut_veneer/rough.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/walnut_veneer/rough.jpg",
+      "bytes": 2426374,
+      "sha256": "e3a8a7e035a378ce6ce2252fcd4352f62b16a2a6b2f453baacd4e081c2fedb34"
+    },
+    {
+      "path": "assets/reading/walnut_veneer-api.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/walnut_veneer-api.json",
+      "bytes": 44330,
+      "sha256": "21da384a85cda71782c9173ef29dd7832db9d83689ce0844c8cbbdd87b11c83a"
+    },
+    {
+      "path": "assets/reading/wicker_basket_02/textures/wicker_basket_02_arm_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/wicker_basket_02/textures/wicker_basket_02_arm_1k.jpg",
+      "bytes": 718943,
+      "sha256": "641013be798757f4bf2c82cf335b80db2b6d2b52f8fbf0b1f1e2e22196bc60ee"
+    },
+    {
+      "path": "assets/reading/wicker_basket_02/textures/wicker_basket_02_diff_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/wicker_basket_02/textures/wicker_basket_02_diff_1k.jpg",
+      "bytes": 867277,
+      "sha256": "c03525c27579160bcd71054aa17796570a074ff4cdd560bfed3fb9770c9ba975"
+    },
+    {
+      "path": "assets/reading/wicker_basket_02/textures/wicker_basket_02_nor_gl_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/wicker_basket_02/textures/wicker_basket_02_nor_gl_1k.jpg",
+      "bytes": 1041220,
+      "sha256": "d3de9d9ec34955ed866a819763eb323a0dee571f55b02f5b4c44b0fc34cf2376"
+    },
+    {
+      "path": "assets/reading/wicker_basket_02/wicker_basket_02.bin",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/wicker_basket_02/wicker_basket_02.bin",
+      "bytes": 432572,
+      "sha256": "bd92d61a377879fa28c2bdb18fd0b0a42c42c7333c04e324f346b68689655fdb"
+    },
+    {
+      "path": "assets/reading/wicker_basket_02/wicker_basket_02_1k.gltf",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/wicker_basket_02/wicker_basket_02_1k.gltf",
+      "bytes": 4497,
+      "sha256": "78c7a3bdd7025eb092b3ac744e9d83e9a75fbb242696b5dce87ec215af617768"
+    },
+    {
+      "path": "assets/reading/wicker_basket_02-api.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/wicker_basket_02-api.json",
+      "bytes": 37270,
+      "sha256": "3181fd18988c8ce386ed9098df7094e7edbef25d7d32ce3b4bef8e01867bf184"
+    },
+    {
+      "path": "assets/reading/wood_floor/diff.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/wood_floor/diff.jpg",
+      "bytes": 734493,
+      "sha256": "2a1c07687b6dbb214c4b9213739c6d92d425f1f0fc8ab3ac157f105d78240789"
+    },
+    {
+      "path": "assets/reading/wood_floor/nor_gl.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/wood_floor/nor_gl.jpg",
+      "bytes": 423303,
+      "sha256": "452247f0d0d1b7fc7f8324ff3b6ed60bcc6de1405f4284eeb8d9bce90d4939c2"
+    },
+    {
+      "path": "assets/reading/wood_floor/rough.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/wood_floor/rough.jpg",
+      "bytes": 527754,
+      "sha256": "061f1e1293251b2d28c76e3fac1ea9452b0e8648bb8f9b3728e09db386166e5c"
+    },
+    {
+      "path": "assets/reading/wooden_bookshelf_worn/textures/wooden_bookshelf_worn_arm_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/wooden_bookshelf_worn/textures/wooden_bookshelf_worn_arm_1k.jpg",
+      "bytes": 713979,
+      "sha256": "41b3aca38fb55cb300d971016a597c80425da3744a6d33d82fe78f9dbe609eaa"
+    },
+    {
+      "path": "assets/reading/wooden_bookshelf_worn/textures/wooden_bookshelf_worn_diff_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/wooden_bookshelf_worn/textures/wooden_bookshelf_worn_diff_1k.jpg",
+      "bytes": 799126,
+      "sha256": "970f60178decadd0d8fb1e5872f718350a49b027fd69469210c41ead350cba56"
+    },
+    {
+      "path": "assets/reading/wooden_bookshelf_worn/textures/wooden_bookshelf_worn_nor_gl_1k.jpg",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/wooden_bookshelf_worn/textures/wooden_bookshelf_worn_nor_gl_1k.jpg",
+      "bytes": 993276,
+      "sha256": "90ffb1b3f7bb638d5a7e1a2b244a260d623e314a6010a6b8c23c57203e510ac9"
+    },
+    {
+      "path": "assets/reading/wooden_bookshelf_worn/wooden_bookshelf_worn.bin",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/wooden_bookshelf_worn/wooden_bookshelf_worn.bin",
+      "bytes": 267964,
+      "sha256": "170758113b50132380ab46943f6eab18f2714460dead065aae37241a94abf0f9"
+    },
+    {
+      "path": "assets/reading/wooden_bookshelf_worn/wooden_bookshelf_worn_1k.gltf",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/wooden_bookshelf_worn/wooden_bookshelf_worn_1k.gltf",
+      "bytes": 2849,
+      "sha256": "a1c5b3f1e71ae0b5eb73047e8097bceaa5f17e5d2d0d7ae1b8053d5ec0878fc6"
+    },
+    {
+      "path": "assets/reading/wooden_bookshelf_worn-api.json",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/wooden_bookshelf_worn-api.json",
+      "bytes": 31866,
+      "sha256": "49dc99231cf361cdd95f7dd5f156043df6117f5640f68d9806ecdd68dd398103"
+    },
+    {
+      "path": "data.js",
+      "delivery": "pages",
+      "target": "demo/data.js",
+      "bytes": 10657,
+      "sha256": "269d50b6be26dd7031d13eac3794e577a360dc75498f0c9de45d9e7ceff859f7"
+    },
+    {
+      "path": "docs/audio-sources.json",
+      "delivery": "pages",
+      "target": "demo/docs/audio-sources.json",
+      "bytes": 4880,
+      "sha256": "93152d0488b6206c0dd5f42c6e2f380732de6794d6f11a047563fd736b1e409d"
+    },
+    {
+      "path": "docs/audio-v3.md",
+      "delivery": "pages",
+      "target": "demo/docs/audio-v3.md",
+      "bytes": 4883,
+      "sha256": "cba243a201f1a5358c3a707780bffd0a2a5948aa353304a5b616747c5fa73800"
+    },
+    {
+      "path": "docs/environment-v5.md",
+      "delivery": "pages",
+      "target": "demo/docs/environment-v5.md",
+      "bytes": 6157,
+      "sha256": "e1ec38f41034b2da63110c7546d4098eca9bd6f087eed50aa4f9e2f87c60bc0c"
+    },
+    {
+      "path": "docs/lighting-sources.json",
+      "delivery": "pages",
+      "target": "demo/docs/lighting-sources.json",
+      "bytes": 1688,
+      "sha256": "f43ad4d98c7297fdcf0b1191939cc6bbec2789a6afbd53d37e4d112ff68a4762"
+    },
+    {
+      "path": "docs/pond-emotion-review-20261115.jpg",
+      "delivery": "pages",
+      "target": "demo/docs/pond-emotion-review-20261115.jpg",
+      "bytes": 177810,
+      "sha256": "78cb6a13d9d96a712a818499a8dfe6bfa0b6a13283e883fec469154c37e5efd0"
+    },
+    {
+      "path": "docs/reading-motion-chain.md",
+      "delivery": "pages",
+      "target": "demo/docs/reading-motion-chain.md",
+      "bytes": 5964,
+      "sha256": "c81e50af241bf84d8233ec323f9694654ed9bea04daee1e05a07830691da3924"
+    },
+    {
+      "path": "docs/reading-motion-review-final/04-sitting-contact.png",
+      "delivery": "pages",
+      "target": "demo/docs/reading-motion-review-final/04-sitting-contact.png",
+      "bytes": 812443,
+      "sha256": "c4aadff34c4ecd40f6449f7b137cdebd08957232ef02d5906abb1c15dacca572"
+    },
+    {
+      "path": "docs/reading-motion-review-final/06-reach-book-stays-on-table.png",
+      "delivery": "pages",
+      "target": "demo/docs/reading-motion-review-final/06-reach-book-stays-on-table.png",
+      "bytes": 1021318,
+      "sha256": "21b19e7ec558b0a78db94630864e8b79d8ddd59a77087e58fb415625e092f85e"
+    },
+    {
+      "path": "docs/reading-motion-review-final/07-lift-and-support.png",
+      "delivery": "pages",
+      "target": "demo/docs/reading-motion-review-final/07-lift-and-support.png",
+      "bytes": 1012495,
+      "sha256": "b27887727051195f200778b9e7c25e009ee71c520819ef38d744b9516d66ef7c"
+    },
+    {
+      "path": "docs/reading-motion-review-final/08-native-reading.png",
+      "delivery": "pages",
+      "target": "demo/docs/reading-motion-review-final/08-native-reading.png",
+      "bytes": 1002991,
+      "sha256": "ccad39f64d19a2de754313b627cb1430da841b8e918d24cecab3991fcc095574"
+    },
+    {
+      "path": "docs/reading-motion-review-final/09-page-hand-contact.png",
+      "delivery": "pages",
+      "target": "demo/docs/reading-motion-review-final/09-page-hand-contact.png",
+      "bytes": 1004267,
+      "sha256": "ae9ba76434181e2ecbf2a3195b28e25171cd35de3439ed4439f3bb9de55a6798"
+    },
+    {
+      "path": "docs/reading-motion-review-final/11-first-reading.png",
+      "delivery": "pages",
+      "target": "demo/docs/reading-motion-review-final/11-first-reading.png",
+      "bytes": 945070,
+      "sha256": "26dc619c314bd65c510940ec0a555c137d095914f493c37404c0878cba5865b8"
+    },
+    {
+      "path": "docs/reading-motion-review-final/15-outdoor-back.png",
+      "delivery": "pages",
+      "target": "demo/docs/reading-motion-review-final/15-outdoor-back.png",
+      "bytes": 1395618,
+      "sha256": "b83a8f6a0ab7c9a57878dd5cd79ce16aa3cf97684a7942b2e2ffd2e73129aa06"
+    },
+    {
+      "path": "docs/reading-motion-review-final/audio-analysis.txt",
+      "delivery": "pages",
+      "target": "demo/docs/reading-motion-review-final/audio-analysis.txt",
+      "bytes": 5333,
+      "sha256": "231b03fedd30c2e4fb32f27d2f21e4582132ce6d6b9e055e5de417be27b29d87"
+    },
+    {
+      "path": "docs/reading-motion-review-final/experience.mp4",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/docs/reading-motion-review-final/experience.mp4",
+      "bytes": 38728000,
+      "sha256": "683a7afe1d324d80422ac0497c92ef8546c64e0d0a6b4454986e3090c2d663d9"
+    },
+    {
+      "path": "docs/reading-motion-review-final/report.json",
+      "delivery": "pages",
+      "target": "demo/docs/reading-motion-review-final/report.json",
+      "bytes": 81901,
+      "sha256": "8b4e66a48bee9f7df02d189b5afeef09cb6114bb5c4ad610ee92ab14377e4290"
+    },
+    {
+      "path": "docs/reading-motion-review-final/sound.webm",
+      "delivery": "pages",
+      "target": "demo/docs/reading-motion-review-final/sound.webm",
+      "bytes": 1235053,
+      "sha256": "62bcea39fd5d148cb7396e9717065f586beafb5a7fb6d21750b2234f0c1c872b"
+    },
+    {
+      "path": "docs/reading-motion-review-final/summary.json",
+      "delivery": "pages",
+      "target": "demo/docs/reading-motion-review-final/summary.json",
+      "bytes": 1093,
+      "sha256": "deef957885f4f3b09b315028df2717554a034a9a7596f015dbb6ad78c154d984"
+    },
+    {
+      "path": "docs/reading-self-player.md",
+      "delivery": "pages",
+      "target": "demo/docs/reading-self-player.md",
+      "bytes": 4526,
+      "sha256": "faf95cb4cedce03fc25d5110551f42dd2c4c0236f0fba62659ca1f1e8bc9dfb1"
+    },
+    {
+      "path": "docs/reading-terrace-companion.md",
+      "delivery": "pages",
+      "target": "demo/docs/reading-terrace-companion.md",
+      "bytes": 3735,
+      "sha256": "84b66aad5f08c4ea586b48b146e3166dd708dfc32cb96dbff5f4d2aba733cebe"
+    },
+    {
+      "path": "docs/reading-v6-validation.json",
+      "delivery": "pages",
+      "target": "demo/docs/reading-v6-validation.json",
+      "bytes": 533,
+      "sha256": "891797e8181df8c54c701035025df2dde92e7cdedd9b1a86fb02f51846286601"
+    },
+    {
+      "path": "docs/reading-v7-acceptance.json",
+      "delivery": "pages",
+      "target": "demo/docs/reading-v7-acceptance.json",
+      "bytes": 1226,
+      "sha256": "b9f3c1d1a91d22761ef8d191d0a134688a2c4ae1976750bec4f9640d420b9a15"
+    },
+    {
+      "path": "docs/reading-v7-live-review/review-20261115064622034/01-seated.png",
+      "delivery": "pages",
+      "target": "demo/docs/reading-v7-live-review/review-20261115064622034/01-seated.png",
+      "bytes": 1786272,
+      "sha256": "1440b7540c7dd77f302da2a8e6f75a7ede108cd82f1470ce59e0926a705c930c"
+    },
+    {
+      "path": "docs/reading-v7-live-review/review-20261115064622034/02-door-out.png",
+      "delivery": "pages",
+      "target": "demo/docs/reading-v7-live-review/review-20261115064622034/02-door-out.png",
+      "bytes": 2803912,
+      "sha256": "cee944f1ca6cbd1dc7276d7c2d899570c17b732cf33ff57ebffa5c1a186ec4be"
+    },
+    {
+      "path": "docs/reading-v7-live-review/review-20261115064622034/04-pond.png",
+      "delivery": "pages",
+      "target": "demo/docs/reading-v7-live-review/review-20261115064622034/04-pond.png",
+      "bytes": 2523511,
+      "sha256": "d5f0518cc3e155f39d14642e313269764142485c8816cd46597a6c5bb7162c82"
+    },
+    {
+      "path": "docs/reading-v7-live-review/review-20261115064622034/07-returned.png",
+      "delivery": "pages",
+      "target": "demo/docs/reading-v7-live-review/review-20261115064622034/07-returned.png",
+      "bytes": 1788650,
+      "sha256": "37eafd9c68b82e178980824dc9a59e0c435aa3eb9d0008640719fca8840ed73a"
+    },
+    {
+      "path": "docs/reading-v7-live-review/review-20261115064622034/report.json",
+      "delivery": "pages",
+      "target": "demo/docs/reading-v7-live-review/review-20261115064622034/report.json",
+      "bytes": 159859,
+      "sha256": "11efe5f3a1d33aa97a16fb2f4335558acb50933168abf10839d0ff56d99d72eb"
+    },
+    {
+      "path": "docs/reading-v7-live-review/review-20261115064622034/signal-analysis.json",
+      "delivery": "pages",
+      "target": "demo/docs/reading-v7-live-review/review-20261115064622034/signal-analysis.json",
+      "bytes": 876,
+      "sha256": "1bd2cb7eb27d605a83305bf01cb2fe2edd07bc6a23c05a8918109ff35dd21199"
+    },
+    {
+      "path": "docs/reading-v7-live-review/review-20261115064622034/sound.webm",
+      "delivery": "pages",
+      "target": "demo/docs/reading-v7-live-review/review-20261115064622034/sound.webm",
+      "bytes": 935995,
+      "sha256": "54465a9b1783bf1166791b221a94242440e3b3a8d06d7f6acee32b593a0cacbf"
+    },
+    {
+      "path": "docs/reading-v7-live-review.md",
+      "delivery": "pages",
+      "target": "demo/docs/reading-v7-live-review.md",
+      "bytes": 3915,
+      "sha256": "0641c830714701bb2cb5df3810a360bc57f5b9ccf47eca2ea93bd49ac4b2f457"
+    },
+    {
+      "path": "docs/reading-v7-validation.json",
+      "delivery": "pages",
+      "target": "demo/docs/reading-v7-validation.json",
+      "bytes": 582,
+      "sha256": "a0af0307926345cec8e4b6c98d09e484eee01c61755b77dd676a0d2e5965115c"
+    },
+    {
+      "path": "docs/runtime-architecture.md",
+      "delivery": "pages",
+      "target": "demo/docs/runtime-architecture.md",
+      "bytes": 6397,
+      "sha256": "0302689e0d55eaaf1ee9278af2e4fba169dcc338f57f8eeb881cb1e38d74d606"
+    },
+    {
+      "path": "docs/seat-book-fix/04-room-held-side.png",
+      "delivery": "pages",
+      "target": "demo/docs/seat-book-fix/04-room-held-side.png",
+      "bytes": 999319,
+      "sha256": "bc7bf043dd5c2c8552d7c177a9953799ee269cb888308d2b59a038439cb59e63"
+    },
+    {
+      "path": "docs/seat-book-fix/05-room-held-first.png",
+      "delivery": "pages",
+      "target": "demo/docs/seat-book-fix/05-room-held-first.png",
+      "bytes": 969348,
+      "sha256": "e2645be4dc97b2d51ad4228e9c3f1f260d1672660aa3eb4f8018835339679eb0"
+    },
+    {
+      "path": "docs/seat-book-fix/08-terrace-back.png",
+      "delivery": "pages",
+      "target": "demo/docs/seat-book-fix/08-terrace-back.png",
+      "bytes": 1375349,
+      "sha256": "add9f74d22aef5f36768e61918f035a0d0f7c044943a83274af315c6de7fd66b"
+    },
+    {
+      "path": "docs/seat-book-fix/09-terrace-side.png",
+      "delivery": "pages",
+      "target": "demo/docs/seat-book-fix/09-terrace-side.png",
+      "bytes": 1077322,
+      "sha256": "aa9d154051ff34a9f6997dd811ec465cb40bd7c8955dcac7ae55af207ac28f93"
+    },
+    {
+      "path": "docs/seat-book-fix/10-terrace-held-back.png",
+      "delivery": "pages",
+      "target": "demo/docs/seat-book-fix/10-terrace-held-back.png",
+      "bytes": 1446801,
+      "sha256": "78c5caa9ec0a7965a7575eac416f9d98180f00ea0c6a6c4761865979634b2744"
+    },
+    {
+      "path": "docs/seat-book-fix/report.json",
+      "delivery": "pages",
+      "target": "demo/docs/seat-book-fix/report.json",
+      "bytes": 38007,
+      "sha256": "b73a58f628c89309196d5d1fc68e2ab6b990a10e52808ece2186c3ff81714dfa"
+    },
+    {
+      "path": "docs/seat-book-fix.md",
+      "delivery": "pages",
+      "target": "demo/docs/seat-book-fix.md",
+      "bytes": 2488,
+      "sha256": "bc18e3a9780f27f017c909ad52cc764038b4d0a95657edf85692dd8a9ee87123"
+    },
+    {
+      "path": "docs/seat-book-room-final/report.json",
+      "delivery": "pages",
+      "target": "demo/docs/seat-book-room-final/report.json",
+      "bytes": 24693,
+      "sha256": "b046db8b6491e388abfa6272495286cd7cf2d7f6f7c08fe4d2f64dc0567c095d"
+    },
+    {
+      "path": "docs/seat-contact-fix.md",
+      "delivery": "pages",
+      "target": "demo/docs/seat-contact-fix.md",
+      "bytes": 2242,
+      "sha256": "5d422c570de870642c095e90dc164d5ad91e8364069046490d39ef1c7e1bf226"
+    },
+    {
+      "path": "docs/seat-contact-review/02-stand-weight-transfer.png",
+      "delivery": "pages",
+      "target": "demo/docs/seat-contact-review/02-stand-weight-transfer.png",
+      "bytes": 948073,
+      "sha256": "edee4cf108a55616af3cfde1036d979a264578a503239e124799ea6bb485c6cf"
+    },
+    {
+      "path": "docs/seat-contact-review/04-sitting-contact.png",
+      "delivery": "pages",
+      "target": "demo/docs/seat-contact-review/04-sitting-contact.png",
+      "bytes": 823072,
+      "sha256": "6f82fd38dc0793f95129f7b10157a8525f5382e545708401bf0a022e46810893"
+    },
+    {
+      "path": "docs/seat-contact-review/08-native-reading.png",
+      "delivery": "pages",
+      "target": "demo/docs/seat-contact-review/08-native-reading.png",
+      "bytes": 1003663,
+      "sha256": "2e6a49f4307666d95e26b86788ddf2cc4e5a2a0c66fa96f9c083f4af6743cb70"
+    },
+    {
+      "path": "docs/seat-contact-review/09-page-hand-contact.png",
+      "delivery": "pages",
+      "target": "demo/docs/seat-contact-review/09-page-hand-contact.png",
+      "bytes": 1004904,
+      "sha256": "a538b425859cb809b9d6635078c147e4b447d890fbadea00361a651fc4c0a904"
+    },
+    {
+      "path": "docs/seat-contact-review/11-first-reading.png",
+      "delivery": "pages",
+      "target": "demo/docs/seat-contact-review/11-first-reading.png",
+      "bytes": 979257,
+      "sha256": "173ea97839eca0fb370e5c00e070302fdc7d5413741eaf17742dd2c887e8064d"
+    },
+    {
+      "path": "docs/seat-contact-review/back-report.json",
+      "delivery": "pages",
+      "target": "demo/docs/seat-contact-review/back-report.json",
+      "bytes": 49,
+      "sha256": "795de6b6b8fa06896448fa3685e057080cbfaf1c4f1fe4582613045d18d83640"
+    },
+    {
+      "path": "docs/seat-contact-review/experience.mp4",
+      "delivery": "repository-raw",
+      "target": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/docs/seat-contact-review/experience.mp4",
+      "bytes": 15279785,
+      "sha256": "659ee8668af087fecdff533be667b829232b3f6eb179eb2ff6064250c16457a3"
+    },
+    {
+      "path": "docs/seat-contact-review/mesh-report.json",
+      "delivery": "pages",
+      "target": "demo/docs/seat-contact-review/mesh-report.json",
+      "bytes": 70565,
+      "sha256": "e2d73de2c800f26056119eee2ce919acba9a45f0a12958a2d62bcdbcbd8fd8c9"
+    },
+    {
+      "path": "docs/seat-contact-review/report.json",
+      "delivery": "pages",
+      "target": "demo/docs/seat-contact-review/report.json",
+      "bytes": 66784,
+      "sha256": "5c7bd630d3fcf41267cf4ee4f963977a2cf138db5feeb219815c8129c2315545"
+    },
+    {
+      "path": "docs/self-acceptance/03-terrace-side.png",
+      "delivery": "pages",
+      "target": "demo/docs/self-acceptance/03-terrace-side.png",
+      "bytes": 1205280,
+      "sha256": "082589370446d31845160a63985581c9f5dfa51221c8475d9cab0aad08127f4a"
+    },
+    {
+      "path": "docs/self-acceptance/07-reading-side.png",
+      "delivery": "pages",
+      "target": "demo/docs/self-acceptance/07-reading-side.png",
+      "bytes": 1299155,
+      "sha256": "a41c75c96f3dbe7fc935538861519e10a7a71f114f43259e3ad2a5453b12bb5a"
+    },
+    {
+      "path": "docs/self-acceptance/09-drinking.png",
+      "delivery": "pages",
+      "target": "demo/docs/self-acceptance/09-drinking.png",
+      "bytes": 1553692,
+      "sha256": "2b28275b9da59ca4170cafeba52e3c93990a79511b328aa7c0e773e50f770537"
+    },
+    {
+      "path": "docs/self-acceptance/11-returned.png",
+      "delivery": "pages",
+      "target": "demo/docs/self-acceptance/11-returned.png",
+      "bytes": 1115587,
+      "sha256": "8559a8991736d264d205aee683aa923105c5912e3573dfba819a7c88b2fdf032"
+    },
+    {
+      "path": "docs/self-acceptance/audio-analysis.txt",
+      "delivery": "pages",
+      "target": "demo/docs/self-acceptance/audio-analysis.txt",
+      "bytes": 5374,
+      "sha256": "dc4c9c362eed4f786b686916f5ac9c58c4a9433683be165c44e655b500381cee"
+    },
+    {
+      "path": "docs/self-acceptance/report.json",
+      "delivery": "pages",
+      "target": "demo/docs/self-acceptance/report.json",
+      "bytes": 48631,
+      "sha256": "87a9ed9e81ae651e643e04953434d3e7b56b0a67de69c5e61f59d290aac9adfb"
+    },
+    {
+      "path": "docs/self-acceptance/sound.webm",
+      "delivery": "pages",
+      "target": "demo/docs/self-acceptance/sound.webm",
+      "bytes": 1612541,
+      "sha256": "5691d52092ae26adc6f5d49a9403117deea92d9f63e0cf0cf4f7503234bdc923"
+    },
+    {
+      "path": "docs/self-acceptance-focus/13b-reading-expression.png",
+      "delivery": "pages",
+      "target": "demo/docs/self-acceptance-focus/13b-reading-expression.png",
+      "bytes": 1548494,
+      "sha256": "334a7a71a6db9680b744ceb4556ca58213726b3b71c61d46674e30a0939c1e5d"
+    },
+    {
+      "path": "docs/self-acceptance-focus/15-final-relaxed-side.png",
+      "delivery": "pages",
+      "target": "demo/docs/self-acceptance-focus/15-final-relaxed-side.png",
+      "bytes": 1305032,
+      "sha256": "c15a82a733e864aeb5f99c283b7462c9b6fadb9ef1daa47d0a8ec6e1f6a673a1"
+    },
+    {
+      "path": "docs/self-acceptance-focus/16-manual-walk-third.png",
+      "delivery": "pages",
+      "target": "demo/docs/self-acceptance-focus/16-manual-walk-third.png",
+      "bytes": 1419159,
+      "sha256": "7388fdf6d065e8c70621038deb7604f6d416ca50cfdc595c68e35fb5147bc593"
+    },
+    {
+      "path": "docs/self-acceptance-focus/report.json",
+      "delivery": "pages",
+      "target": "demo/docs/self-acceptance-focus/report.json",
+      "bytes": 48685,
+      "sha256": "fed82a08da178b94b257d0fd2429ebe4e201fe41e9cdf645a4a1dc444c7ea030"
+    },
+    {
+      "path": "docs/self-acceptance-near/18-near-reading.png",
+      "delivery": "pages",
+      "target": "demo/docs/self-acceptance-near/18-near-reading.png",
+      "bytes": 1279882,
+      "sha256": "d56d130c66f2cb55e20eabf824cb877cba2d66f68c6208281ab8ddd91100e1f6"
+    },
+    {
+      "path": "docs/self-acceptance-near/19-near-drinking.png",
+      "delivery": "pages",
+      "target": "demo/docs/self-acceptance-near/19-near-drinking.png",
+      "bytes": 1654355,
+      "sha256": "7b5d736ca706a3b65a4fb3a5cd07163a6f48ff548f3fa831c24fb0d17fb87604"
+    },
+    {
+      "path": "docs/self-acceptance-near/report.json",
+      "delivery": "pages",
+      "target": "demo/docs/self-acceptance-near/report.json",
+      "bytes": 28678,
+      "sha256": "2fd2586ed489fda721c2720ebcc69309c822bd09268156f8e46a99ac3d463a80"
+    },
+    {
+      "path": "docs/self-acceptance-summary.json",
+      "delivery": "pages",
+      "target": "demo/docs/self-acceptance-summary.json",
+      "bytes": 1248,
+      "sha256": "eddb1a751272d11bf454cb71df0d7b82abaad37375f7f4ab2038cee4e1a39a94"
+    },
+    {
+      "path": "docs/self-acceptance.md",
+      "delivery": "pages",
+      "target": "demo/docs/self-acceptance.md",
+      "bytes": 5571,
+      "sha256": "fdc7a69bf553c1590962b7b55efe66da7cc55dd8983a4afce006c85a08add9ea"
+    },
+    {
+      "path": "docs/verification-v4.md",
+      "delivery": "pages",
+      "target": "demo/docs/verification-v4.md",
+      "bytes": 2820,
+      "sha256": "832613f5a0be9b698e7af267c04cc08e32c893c34d9a13e9978a925c13f7176a"
+    },
+    {
+      "path": "docs/verification-v5.md",
+      "delivery": "pages",
+      "target": "demo/docs/verification-v5.md",
+      "bytes": 4514,
+      "sha256": "1d5f150c315647a40e36dd0e0ae880a1326a6c0c169bea6992982b6a49001d07"
+    },
+    {
+      "path": "docs/water-v5.md",
+      "delivery": "pages",
+      "target": "demo/docs/water-v5.md",
+      "bytes": 4104,
+      "sha256": "9489fdd8de7f1d35f7f89c010ee69f412f9233404380f10ded4d8b11b6bf62ce"
+    },
+    {
+      "path": "duck-mouth-qa.html",
+      "delivery": "pages",
+      "target": "demo/duck-mouth-qa.html",
+      "bytes": 1704,
+      "sha256": "278b8491ff4f9b7cd0fe149a73e21bc7d295655a5d4c9a3664c019605ca18e7f"
+    },
+    {
+      "path": "duck-mouth-qa.js",
+      "delivery": "pages",
+      "target": "demo/duck-mouth-qa.js",
+      "bytes": 3456,
+      "sha256": "e93d56e9e0d92df4a2d92a636bcd4a9afa6cccebb2d2611cd37c607d3b9fc726"
+    },
+    {
+      "path": "favicon.svg",
+      "delivery": "pages",
+      "target": "demo/favicon.svg",
+      "bytes": 319,
+      "sha256": "92eda3d5d6e6a64c8dfc92ba059c1442cce7a4d0eca5ba5f3fdfbd76375c27ac"
+    },
+    {
+      "path": "index.html",
+      "delivery": "pages",
+      "target": "demo/index.html",
+      "bytes": 18630,
+      "sha256": "230f2abc2ccdd1fd442dfc56ed37cf41e8acb6ae2f689b2b3ddf1eb6658b6ccb"
+    },
+    {
+      "path": "package.json",
+      "delivery": "pages",
+      "target": "demo/package.json",
+      "bytes": 2172,
+      "sha256": "57617d0ded76872742850ccdca35ffd3b03c8a4ed151abeb1cfce1a7edd0f486"
+    },
+    {
+      "path": "pond-audio.js",
+      "delivery": "pages",
+      "target": "demo/pond-audio.js",
+      "bytes": 10977,
+      "sha256": "9ce07cd0f59ad79fb1a69ca61165e153397fc5706bd06e3bbdc853638e274233"
+    },
+    {
+      "path": "pond-duck-3d.js",
+      "delivery": "pages",
+      "target": "demo/pond-duck-3d.js",
+      "bytes": 18750,
+      "sha256": "9a452f3a3bf6948d968e3387cac319f7c99347828bdabc7fe5e09a7d2875ef2f"
+    },
+    {
+      "path": "pond-duck-calls.js",
+      "delivery": "pages",
+      "target": "demo/pond-duck-calls.js",
+      "bytes": 990,
+      "sha256": "88d1ab8ec0ac3604bbfa99b672d91732086d3c0afb8d8b7977d0a3fb9c308831"
+    },
+    {
+      "path": "pond-duck-mouth.js",
+      "delivery": "pages",
+      "target": "demo/pond-duck-mouth.js",
+      "bytes": 3872,
+      "sha256": "39ef0d65ccb1faacf29a73ec15595d05bafef7419d36a865b194c322919686b6"
+    },
+    {
+      "path": "pond-duck-v5.js",
+      "delivery": "pages",
+      "target": "demo/pond-duck-v5.js",
+      "bytes": 11554,
+      "sha256": "d20bd7e2a81c9947b8a20a9e7c66ba38de90d475ac3d9c2686e890627535a25d"
+    },
+    {
+      "path": "pond-duck.js",
+      "delivery": "pages",
+      "target": "demo/pond-duck.js",
+      "bytes": 11848,
+      "sha256": "706b4789bea095fab527f666f1eeb20223be6bbce74ead575754a4e5fd37a910"
+    },
+    {
+      "path": "pond-environment-3d.js",
+      "delivery": "pages",
+      "target": "demo/pond-environment-3d.js",
+      "bytes": 31737,
+      "sha256": "96de45d54a6da348ca0b715cc48c11eb2b63c73828c8d4aae10750a99c39ba81"
+    },
+    {
+      "path": "pond-environment-v5.js",
+      "delivery": "pages",
+      "target": "demo/pond-environment-v5.js",
+      "bytes": 24851,
+      "sha256": "3e994700ca63c7996367ed08975b0f85e4fc277ed50cfc600ca7f560675bb9b5"
+    },
+    {
+      "path": "pond-lighting.js",
+      "delivery": "pages",
+      "target": "demo/pond-lighting.js",
+      "bytes": 4972,
+      "sha256": "c8d4a04c1b9fefa234b0644eded321ce8ccb37b431d862e35d4b291ae546d304"
+    },
+    {
+      "path": "pond-materials.js",
+      "delivery": "pages",
+      "target": "demo/pond-materials.js",
+      "bytes": 2104,
+      "sha256": "673c6079cd322b032307f75b15dabcda902e714422c2693b95e6e6c0e33d0496"
+    },
+    {
+      "path": "pond-water-3d.js",
+      "delivery": "pages",
+      "target": "demo/pond-water-3d.js",
+      "bytes": 17757,
+      "sha256": "48b1ceebf8a38185d438b44f4dce0a2d0b5d11b93476e4d843f3122d29b599a8"
+    },
+    {
+      "path": "pond-world.js",
+      "delivery": "pages",
+      "target": "demo/pond-world.js",
+      "bytes": 14364,
+      "sha256": "49b63fbca64a8ed3e8469aca2a20393dbfd6e0cc42616188e9bb57abd1055ba3"
+    },
+    {
+      "path": "pond.css",
+      "delivery": "pages",
+      "target": "demo/pond.css",
+      "bytes": 2010,
+      "sha256": "f773f7152c5371d46ffddd2e4429fda69da9c2627cccf667c5dd5ea6a1fa6292"
+    },
+    {
+      "path": "preview.ps1",
+      "delivery": "pages",
+      "target": "demo/preview.ps1",
+      "bytes": 122,
+      "sha256": "1fa2c61ddd024a3d3c566e0b8db3acfefa7be976b1774a6e55d687b255106074"
+    },
+    {
+      "path": "reading-audio.js",
+      "delivery": "pages",
+      "target": "demo/reading-audio.js",
+      "bytes": 11379,
+      "sha256": "e892d999b70df1356b4e71f2b3cf0aa1967eb3a6bd67b50bed3b984378b70e71"
+    },
+    {
+      "path": "reading-camera.js",
+      "delivery": "pages",
+      "target": "demo/reading-camera.js",
+      "bytes": 3777,
+      "sha256": "e8d7251a635db7eba38cfe8cb8559276e4c830cbfbd434086d2fc1602fe6da10"
+    },
+    {
+      "path": "reading-companion.js",
+      "delivery": "pages",
+      "target": "demo/reading-companion.js",
+      "bytes": 3631,
+      "sha256": "3bbdac7246fd5eb25fe7dd2475eb4660eb325e8277ed8223a144640f43c6b437"
+    },
+    {
+      "path": "reading-content.js",
+      "delivery": "pages",
+      "target": "demo/reading-content.js",
+      "bytes": 651,
+      "sha256": "9aef2bfadfde6a41de2080420407ed5b820e438e527c07b5152d1a77089cedf9"
+    },
+    {
+      "path": "reading-details.js",
+      "delivery": "pages",
+      "target": "demo/reading-details.js",
+      "bytes": 6282,
+      "sha256": "c4ef3eaaf5f35efde5c98b1a9f12ded2545d480ada78b314646f819bae9a300e"
+    },
+    {
+      "path": "reading-garden-motion.js",
+      "delivery": "pages",
+      "target": "demo/reading-garden-motion.js",
+      "bytes": 4545,
+      "sha256": "1698bf91774e598ae07fd786e0695a84797277ec1a5192d643f9a110d4c1ed6c"
+    },
+    {
+      "path": "reading-garden.js",
+      "delivery": "pages",
+      "target": "demo/reading-garden.js",
+      "bytes": 19018,
+      "sha256": "6258b87f1b33addf25cc89726a9e103006ec2f14d65cbaa30bccf03b2434a70a"
+    },
+    {
+      "path": "reading-layer-pass.js",
+      "delivery": "pages",
+      "target": "demo/reading-layer-pass.js",
+      "bytes": 674,
+      "sha256": "7b0cea8939e2caa962ec9bb8066623bc494e23f242ad8226d64932ad474c5d36"
+    },
+    {
+      "path": "reading-motion-layers.js",
+      "delivery": "pages",
+      "target": "demo/reading-motion-layers.js",
+      "bytes": 1703,
+      "sha256": "1290aeddddb73bd0f164e11164ef31114489a5faf0716b00f4479fdf517061ec"
+    },
+    {
+      "path": "reading-notes.css",
+      "delivery": "pages",
+      "target": "demo/reading-notes.css",
+      "bytes": 19919,
+      "sha256": "a90d31bc6b7d4c65f3ba65a628bcfd9145abfb645c74d0760b101e8d9ea2c751"
+    },
+    {
+      "path": "reading-notes.html",
+      "delivery": "pages",
+      "target": "demo/reading-notes.html",
+      "bytes": 63760,
+      "sha256": "d915f0f3a301f8523738d014caf8d3503c7edc78755d3a2d0917464e87d7009c"
+    },
+    {
+      "path": "reading-notes.js",
+      "delivery": "pages",
+      "target": "demo/reading-notes.js",
+      "bytes": 4795,
+      "sha256": "e82411204494a333f193a933d5d2283a6b517e48f540db3fd03acf1d4af604d6"
+    },
+    {
+      "path": "reading-player-ritual.js",
+      "delivery": "pages",
+      "target": "demo/reading-player-ritual.js",
+      "bytes": 11055,
+      "sha256": "c810672780e4dbbc67fddacd617a641ada945305a863552b4c0b99e4925ff9d3"
+    },
+    {
+      "path": "reading-player.js",
+      "delivery": "pages",
+      "target": "demo/reading-player.js",
+      "bytes": 15546,
+      "sha256": "da29f7adc813eadc2a7d4c95b902f0fb97a08f2d4732f01538446389f070464b"
+    },
+    {
+      "path": "reading-pond.js",
+      "delivery": "pages",
+      "target": "demo/reading-pond.js",
+      "bytes": 8468,
+      "sha256": "3a3ac45934eb956e2cef30d86cf64b91edd68a88c775ca50a8bad97c91f7a94a"
+    },
+    {
+      "path": "reading-qa.js",
+      "delivery": "pages",
+      "target": "demo/reading-qa.js",
+      "bytes": 2541,
+      "sha256": "fd26d3330395b231cd4ceffe684b445418ce168f1f3950da8a16b8c8c19cba07"
+    },
+    {
+      "path": "reading-review.js",
+      "delivery": "pages",
+      "target": "demo/reading-review.js",
+      "bytes": 6590,
+      "sha256": "58ac671b4af59a26c5f728949517a1373d3c694a6faa9406f5444d5146f1cd3c"
+    },
+    {
+      "path": "reading-ritual-layout.js",
+      "delivery": "pages",
+      "target": "demo/reading-ritual-layout.js",
+      "bytes": 263,
+      "sha256": "ebdd3955a36e32e0725136f3076c9bf615ad4d2d9c3e9d56bccebf3d808db940"
+    },
+    {
+      "path": "reading-room-shell.js",
+      "delivery": "pages",
+      "target": "demo/reading-room-shell.js",
+      "bytes": 2903,
+      "sha256": "27e87807e8292f788a118be65e49a35929007973884c2689a2bed10ea11a0adb"
+    },
+    {
+      "path": "reading-seat-contact.js",
+      "delivery": "pages",
+      "target": "demo/reading-seat-contact.js",
+      "bytes": 2286,
+      "sha256": "7c3249c560813ac333d9e9abb03d222e97ced9e9cd9fec6d55ae51f69b111d2a"
+    },
+    {
+      "path": "reading-seat-surface.js",
+      "delivery": "pages",
+      "target": "demo/reading-seat-surface.js",
+      "bytes": 29930,
+      "sha256": "4b068cbfa27ef56adf7b5d275c033c747674025d9a50284cf0504652ecabbcc0"
+    },
+    {
+      "path": "reading-space.js",
+      "delivery": "pages",
+      "target": "demo/reading-space.js",
+      "bytes": 5991,
+      "sha256": "c122ff95b607c37188ef30f30f9352c1cccb67fa4cc7628432d14eda96ca16ba"
+    },
+    {
+      "path": "reading-surfaces.js",
+      "delivery": "pages",
+      "target": "demo/reading-surfaces.js",
+      "bytes": 7773,
+      "sha256": "4288999191856719a6764da18e3653e62ae2f328de0a56283cf98d1c3d0f6952"
+    },
+    {
+      "path": "reading-terrace.js",
+      "delivery": "pages",
+      "target": "demo/reading-terrace.js",
+      "bytes": 10062,
+      "sha256": "75512c67fc2103155677200cdaf8a0fd196b7c7a5ea8575455e43dfbc15704e2"
+    },
+    {
+      "path": "reading-walk.js",
+      "delivery": "pages",
+      "target": "demo/reading-walk.js",
+      "bytes": 10346,
+      "sha256": "891b0de2386f32c1bdaf3f353a45bef40dde7e62f5fca2f484a6ba0ba4920a3e"
+    },
+    {
+      "path": "reading-world.js",
+      "delivery": "pages",
+      "target": "demo/reading-world.js",
+      "bytes": 33617,
+      "sha256": "71f3dbadcb2e99f04d5ffdb6660bbd508f056fbc2043b77d684b1517c08cb1be"
+    },
+    {
+      "path": "reading.css",
+      "delivery": "pages",
+      "target": "demo/reading.css",
+      "bytes": 10056,
+      "sha256": "8d68bdfcd9af64c96a2238a4ff4a611428c23f4b3cdb9c962c76d43d2d117d2b"
+    },
+    {
+      "path": "reading.html",
+      "delivery": "pages",
+      "target": "demo/reading.html",
+      "bytes": 8210,
+      "sha256": "abe02e504a34cfa397af1c3b74c9b6123a656979a536faa0c1f9493af26f72f5"
+    },
+    {
+      "path": "reading.js",
+      "delivery": "pages",
+      "target": "demo/reading.js",
+      "bytes": 13260,
+      "sha256": "676038ce3d88985822f6b6ac31914876308abbedd78b30a0e112b613cb33a137"
+    },
+    {
+      "path": "README.md",
+      "delivery": "pages",
+      "target": "demo/README.md",
+      "bytes": 12300,
+      "sha256": "05064af5bf228eafff0865d8e7543e2e1119bfcf3f2d5d520abc92d2dc62ddb2"
+    },
+    {
+      "path": "scene.js",
+      "delivery": "pages",
+      "target": "demo/scene.js",
+      "bytes": 38407,
+      "sha256": "26e9abe66eaf546947aeb46ce2005cdb608b3b44ca1bfb26adbd2566e1fb6376"
+    },
+    {
+      "path": "scripts/audit-back-contact.mjs",
+      "delivery": "pages",
+      "target": "demo/scripts/audit-back-contact.mjs",
+      "bytes": 5481,
+      "sha256": "88d258f5c6cd6bd26e29dfc8b9b9a7cd3649c4f5d346339ae62f466190e3fc9f"
+    },
+    {
+      "path": "scripts/audit-seat-contact.mjs",
+      "delivery": "pages",
+      "target": "demo/scripts/audit-seat-contact.mjs",
+      "bytes": 5586,
+      "sha256": "47e62d511e602ae165c6264c443be4c531cf75f0aacaa4584911a0dcb5e75acc"
+    },
+    {
+      "path": "scripts/bake-reading-motions.py",
+      "delivery": "pages",
+      "target": "demo/scripts/bake-reading-motions.py",
+      "bytes": 4625,
+      "sha256": "0f5394a8a69bf0904cd9c224f46c03b30b84343ea158aee07109195e7fd54980"
+    },
+    {
+      "path": "scripts/bake-seat-surface.mjs",
+      "delivery": "pages",
+      "target": "demo/scripts/bake-seat-surface.mjs",
+      "bytes": 5387,
+      "sha256": "27216706003b7444bfdc8b52bfe4e5b6e48f5b7f0166804b29dd3346b11e0c3a"
+    },
+    {
+      "path": "scripts/fetch-reading-assets.py",
+      "delivery": "pages",
+      "target": "demo/scripts/fetch-reading-assets.py",
+      "bytes": 2419,
+      "sha256": "22f36e77bca3dcd96019ce840e8b78ef0b18cb8a7c665037733f2387405061ca"
+    },
+    {
+      "path": "scripts/fetch-reading-field-audio.py",
+      "delivery": "pages",
+      "target": "demo/scripts/fetch-reading-field-audio.py",
+      "bytes": 1989,
+      "sha256": "fa42edba84b787c21ba988e852773d5ec17858b150b6ceee30135e1bba0a2e8a"
+    },
+    {
+      "path": "scripts/fetch-reading-motions.py",
+      "delivery": "pages",
+      "target": "demo/scripts/fetch-reading-motions.py",
+      "bytes": 1534,
+      "sha256": "c6868134f8e2cc68f6c17307f5ee2e2aa8ab1457ddce7ad31ae98c508bd69def"
+    },
+    {
+      "path": "scripts/fetch-reading-v3.py",
+      "delivery": "pages",
+      "target": "demo/scripts/fetch-reading-v3.py",
+      "bytes": 2159,
+      "sha256": "8acad9b1ddfeaf23e2e22527ff34b4c7b906fe63c0ad05db35db361c42925623"
+    },
+    {
+      "path": "scripts/reading-motion-fixture.mjs",
+      "delivery": "pages",
+      "target": "demo/scripts/reading-motion-fixture.mjs",
+      "bytes": 347,
+      "sha256": "422280117d02c17bc5b5820df30415ab9789bb75e62afd36edfca3c5f013a1cd"
+    },
+    {
+      "path": "scripts/reading-review-server.mjs",
+      "delivery": "pages",
+      "target": "demo/scripts/reading-review-server.mjs",
+      "bytes": 3510,
+      "sha256": "b62b17ca3930fe2f140a7657dac150c30c8366112d16d847f4849bb026816440"
+    },
+    {
+      "path": "scripts/verify-duck-calls.mjs",
+      "delivery": "pages",
+      "target": "demo/scripts/verify-duck-calls.mjs",
+      "bytes": 1787,
+      "sha256": "798f2ce220711511d9319205d19358284989589cb9c008a77daae9a1f75842bd"
+    },
+    {
+      "path": "scripts/verify-duck-v5.mjs",
+      "delivery": "pages",
+      "target": "demo/scripts/verify-duck-v5.mjs",
+      "bytes": 7813,
+      "sha256": "6c3cf54848effeb0e295c4eaf3751705525778ea066ffd267bb0b85db13d8d07"
+    },
+    {
+      "path": "scripts/verify-reading-audio.mjs",
+      "delivery": "pages",
+      "target": "demo/scripts/verify-reading-audio.mjs",
+      "bytes": 3382,
+      "sha256": "5ddbf18b0a8686c43dbcefc7aaf92a791464e2b7a5c38dee2b2947cded6e8e4e"
+    },
+    {
+      "path": "scripts/verify-reading-companion.mjs",
+      "delivery": "pages",
+      "target": "demo/scripts/verify-reading-companion.mjs",
+      "bytes": 3054,
+      "sha256": "8614aef4631dfd24a8db917ee5c4d8356f07c8f1dd78d79dce4ec7b4d6c5bdac"
+    },
+    {
+      "path": "scripts/verify-reading-connected.mjs",
+      "delivery": "pages",
+      "target": "demo/scripts/verify-reading-connected.mjs",
+      "bytes": 5907,
+      "sha256": "34c4b109931e5cd399ae7196b3ed6c1b72752524b57b92ec743f3b4c58d4541e"
+    },
+    {
+      "path": "scripts/verify-reading-garden-v6.mjs",
+      "delivery": "pages",
+      "target": "demo/scripts/verify-reading-garden-v6.mjs",
+      "bytes": 6134,
+      "sha256": "f1270f3ae8240ef06fe258f6b0d026e0b66d0af579f6963af717e86a261047e8"
+    },
+    {
+      "path": "scripts/verify-reading-grip.mjs",
+      "delivery": "pages",
+      "target": "demo/scripts/verify-reading-grip.mjs",
+      "bytes": 2950,
+      "sha256": "3675f989b792f24d3576a3bb8387511e71a17e2e4fafdbc653f32ea1d0aeba0c"
+    },
+    {
+      "path": "scripts/verify-reading-player.mjs",
+      "delivery": "pages",
+      "target": "demo/scripts/verify-reading-player.mjs",
+      "bytes": 9268,
+      "sha256": "abd7653c3f68d00d9b179fc743e489b711e68e5e10fe856e67e1b80ef81a5a55"
+    },
+    {
+      "path": "scripts/verify-reading-space.mjs",
+      "delivery": "pages",
+      "target": "demo/scripts/verify-reading-space.mjs",
+      "bytes": 6406,
+      "sha256": "582eee675a63e59d13ab49a2d9bdfa2f7461a8bb78458194ef85fa0aed38fdfb"
+    },
+    {
+      "path": "scripts/verify-reading-spatial-audio.mjs",
+      "delivery": "pages",
+      "target": "demo/scripts/verify-reading-spatial-audio.mjs",
+      "bytes": 5256,
+      "sha256": "e8119a14f6b85d19948ef31ec3ae28aa3ed6a3d5873770b645837e78d26e8a14"
+    },
+    {
+      "path": "scripts/verify-runtime.mjs",
+      "delivery": "pages",
+      "target": "demo/scripts/verify-runtime.mjs",
+      "bytes": 2923,
+      "sha256": "8d5554440ac718c1322d268cb0c5ac408f657e73d7dd213d91f85d1481d813da"
+    },
+    {
+      "path": "scripts/verify-seat-contact.mjs",
+      "delivery": "pages",
+      "target": "demo/scripts/verify-seat-contact.mjs",
+      "bytes": 7689,
+      "sha256": "a5cb703fca3dbc229aeb4b5c2ee13aa85626932811de5ffd02986dab06526962"
+    },
+    {
+      "path": "scripts/verify-water-v5.mjs",
+      "delivery": "pages",
+      "target": "demo/scripts/verify-water-v5.mjs",
+      "bytes": 2915,
+      "sha256": "95765c4ff3e2b660a94a955904c78df959c304f727dc78231b1f14dff4f8545a"
+    },
+    {
+      "path": "server.mjs",
+      "delivery": "pages",
+      "target": "demo/server.mjs",
+      "bytes": 2501,
+      "sha256": "d87adb47cbdf029f1a6ddb20f1fe2bdec95c235763df3a6e2065ad9a36f12afc"
+    },
+    {
+      "path": "style.css",
+      "delivery": "pages",
+      "target": "demo/style.css",
+      "bytes": 26967,
+      "sha256": "52747331be11dbdffbea9147cbcd741cb9016abac28ac57c1c5182c4ea54b65e"
+    },
+    {
+      "path": "vendor/addons/geometries/RoundedBoxGeometry.js",
+      "delivery": "pages",
+      "target": "demo/vendor/addons/geometries/RoundedBoxGeometry.js",
+      "bytes": 6486,
+      "sha256": "2f7e2e42ece769a23b6c1b26987cd53e851854dd7fb3035948284b9226844971"
+    },
+    {
+      "path": "vendor/addons/lights/RectAreaLightTexturesLib.js",
+      "delivery": "pages",
+      "target": "demo/vendor/addons/lights/RectAreaLightTexturesLib.js",
+      "bytes": 314780,
+      "sha256": "6a363e623e80eb510058466bac93f21735f6e0a409bf9fbf9353f3d4502fe484"
+    },
+    {
+      "path": "vendor/addons/lights/RectAreaLightUniformsLib.js",
+      "delivery": "pages",
+      "target": "demo/vendor/addons/lights/RectAreaLightUniformsLib.js",
+      "bytes": 1030,
+      "sha256": "c8d979802933406fdbe3403690c9e1fda68be9896a811e326b68b49e2943efe6"
+    },
+    {
+      "path": "vendor/addons/loaders/GLTFLoader.js",
+      "delivery": "pages",
+      "target": "demo/vendor/addons/loaders/GLTFLoader.js",
+      "bytes": 119992,
+      "sha256": "68a71d3c1e121ae8988cb7d7ecbbbc75ca820ac344fb437c358ac260432724ea"
+    },
+    {
+      "path": "vendor/addons/loaders/HDRLoader.js",
+      "delivery": "pages",
+      "target": "demo/vendor/addons/loaders/HDRLoader.js",
+      "bytes": 12093,
+      "sha256": "fefabc3b0c0a7344e3a228becd3740a9fb05a271175cd1dcd2d34542a7310388"
+    },
+    {
+      "path": "vendor/addons/math/SimplexNoise.js",
+      "delivery": "pages",
+      "target": "demo/vendor/addons/math/SimplexNoise.js",
+      "bytes": 15148,
+      "sha256": "4b1455617135e6b477de76244de07547d95570643379b72f4758e50161b06072"
+    },
+    {
+      "path": "vendor/addons/postprocessing/EffectComposer.js",
+      "delivery": "pages",
+      "target": "demo/vendor/addons/postprocessing/EffectComposer.js",
+      "bytes": 8517,
+      "sha256": "af78417adddaa482b742ddcfdf551ca0b35d77d58493f2e96439fdc219905ef0"
+    },
+    {
+      "path": "vendor/addons/postprocessing/GTAOPass.js",
+      "delivery": "pages",
+      "target": "demo/vendor/addons/postprocessing/GTAOPass.js",
+      "bytes": 20173,
+      "sha256": "165b2e02e241b42aeb9d9ad7ce1166bffd854d3d46ff87ca1a8d509dcbce5467"
+    },
+    {
+      "path": "vendor/addons/postprocessing/MaskPass.js",
+      "delivery": "pages",
+      "target": "demo/vendor/addons/postprocessing/MaskPass.js",
+      "bytes": 4694,
+      "sha256": "7cd08eee9d5d6f5578beaddbdcbe9c384f6873810af27f22ab7db3ceeb127aa3"
+    },
+    {
+      "path": "vendor/addons/postprocessing/OutputPass.js",
+      "delivery": "pages",
+      "target": "demo/vendor/addons/postprocessing/OutputPass.js",
+      "bytes": 4200,
+      "sha256": "e31bb5e6843c43e99113198824c2242b95abe2ed9047e725691fd6453fc8321f"
+    },
+    {
+      "path": "vendor/addons/postprocessing/Pass.js",
+      "delivery": "pages",
+      "target": "demo/vendor/addons/postprocessing/Pass.js",
+      "bytes": 4234,
+      "sha256": "ac015c53e4a491b4f071535d003e6208ec56e00cfbb74942d93556dd53c45673"
+    },
+    {
+      "path": "vendor/addons/postprocessing/RenderPass.js",
+      "delivery": "pages",
+      "target": "demo/vendor/addons/postprocessing/RenderPass.js",
+      "bytes": 4296,
+      "sha256": "11d4309065ed205241291a6e1e3f6d54acd11ee16a753313a2b4b33a5ce4b189"
+    },
+    {
+      "path": "vendor/addons/postprocessing/ShaderPass.js",
+      "delivery": "pages",
+      "target": "demo/vendor/addons/postprocessing/ShaderPass.js",
+      "bytes": 3244,
+      "sha256": "1a07592b97c68fec70b9ece4ee32522878c9e71e8364c10f359480b8cd676ef2"
+    },
+    {
+      "path": "vendor/addons/postprocessing/UnrealBloomPass.js",
+      "delivery": "pages",
+      "target": "demo/vendor/addons/postprocessing/UnrealBloomPass.js",
+      "bytes": 15413,
+      "sha256": "246ded822cd0fc5643b5bdc53e9542deeae168d2550c010891264920abb4bca2"
+    },
+    {
+      "path": "vendor/addons/shaders/CopyShader.js",
+      "delivery": "pages",
+      "target": "demo/vendor/addons/shaders/CopyShader.js",
+      "bytes": 729,
+      "sha256": "a33057d5ac91c43304c186ac0e8816e62bb2ed471d3a00ff3018dfd5c0389718"
+    },
+    {
+      "path": "vendor/addons/shaders/GTAOShader.js",
+      "delivery": "pages",
+      "target": "demo/vendor/addons/shaders/GTAOShader.js",
+      "bytes": 12222,
+      "sha256": "cf3fb550d30c96f6f3ad4875279bc5f8ccb29df35bb708389a61e52a38ecff9b"
+    },
+    {
+      "path": "vendor/addons/shaders/LuminosityHighPassShader.js",
+      "delivery": "pages",
+      "target": "demo/vendor/addons/shaders/LuminosityHighPassShader.js",
+      "bytes": 1307,
+      "sha256": "123c9d8c4155fa296822eb3325574e82a6c5f4cb30eed065c6cc073ba7ca3bbe"
+    },
+    {
+      "path": "vendor/addons/shaders/OutputShader.js",
+      "delivery": "pages",
+      "target": "demo/vendor/addons/shaders/OutputShader.js",
+      "bytes": 1876,
+      "sha256": "353479f77a8d7e2629d49ccac9fc2f5dbfdda5442e0adf867b00377a2fcb0cb2"
+    },
+    {
+      "path": "vendor/addons/shaders/PoissonDenoiseShader.js",
+      "delivery": "pages",
+      "target": "demo/vendor/addons/shaders/PoissonDenoiseShader.js",
+      "bytes": 6884,
+      "sha256": "3ed25fe8a75f85dfd3f86e89d040cf346a0b772c60a331f853995c160a190475"
+    },
+    {
+      "path": "vendor/addons/utils/BufferGeometryUtils.js",
+      "delivery": "pages",
+      "target": "demo/vendor/addons/utils/BufferGeometryUtils.js",
+      "bytes": 39169,
+      "sha256": "dba1b5dccc418f494eae6f1e731ec82734b2eaf3321b1db04c4321b16c1ea549"
+    },
+    {
+      "path": "vendor/addons/utils/SkeletonUtils.js",
+      "delivery": "pages",
+      "target": "demo/vendor/addons/utils/SkeletonUtils.js",
+      "bytes": 11551,
+      "sha256": "28017bf37d0ecb0c4be6048db759ff14df729a562464830b064d4cc239c5af17"
+    },
+    {
+      "path": "vendor/OrbitControls.js",
+      "delivery": "pages",
+      "target": "demo/vendor/OrbitControls.js",
+      "bytes": 40930,
+      "sha256": "a747d56dd959510407777f1800792b2b52c0a435980fd6e40caf303d8a674b9e"
+    },
+    {
+      "path": "vendor/THREE-LICENSE.txt",
+      "delivery": "pages",
+      "target": "demo/vendor/THREE-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "path": "vendor/three.core.js",
+      "delivery": "pages",
+      "target": "demo/vendor/three.core.js",
+      "bytes": 1474799,
+      "sha256": "613e370f76638fdef83926642bf256dc9615684922de1ce1f63a8583e5d78578"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "delivery": "pages",
+      "target": "demo/vendor/three.module.js",
+      "bytes": 658900,
+      "sha256": "104f56145899722094556490d787aae0617cc2fc3382f31df02d724ea1aee341"
+    },
+    {
+      "path": "vendor/Water.js",
+      "delivery": "pages",
+      "target": "demo/vendor/Water.js",
+      "bytes": 13149,
+      "sha256": "b6fdf4e0006285eb0265cdede9508586655987781f79b004656d5ca18db792ff"
+    }
+  ]
+}

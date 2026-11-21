@@ -1,0 +1,15 @@
+{
+  "source": "https://polyhaven.com/a/island_tree_02",
+  "license": "CC0-1.0",
+  "file": "assets/reading/garden/island-tree-02-complete.glb",
+  "bytes": 29316720,
+  "sha256": "5776f1e89460f3694af4b243b7ab073c856b7f5166cb5d4de4a141d9c858e31f",
+  "sourceFiles": {
+    "island_tree_02.glb": "cc505f74a9358b385597b11c960c07f73006134ef4f6f5f08ba5069f6ddab16a",
+    "island_tree_02-far.glb": "a11880b4f78ba4938efdc2d9f599b624678f53b15cc3d328ccd9d7276b81a1f8",
+    "island_tree_02-canopy.glb": "4b9ddc543f43cefd609e1228975017acbe835670d2d206a92e82ffcc86df4a12"
+  },
+  "renderedMeshes": 3,
+  "leavesRetained": 29781,
+  "note": "Shared once across all tree placements. Source textures are not recolored or resampled."
+}

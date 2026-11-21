@@ -1,0 +1,48 @@
+{
+  "asset": "island_tree_01",
+  "file": "assets/models/environment-v5/runtime/island_tree_01-far.glb",
+  "bytes": 2327000,
+  "source": [
+    {
+      "name": "island_tree_01_LOD1.001",
+      "material": "island_tree_01_branches",
+      "sourceTriangles": 139616
+    },
+    {
+      "name": "island_tree_01_LOD1.002",
+      "material": "island_tree_01_leaves",
+      "sourceTriangles": 362800
+    },
+    {
+      "name": "island_tree_01_LOD1.003",
+      "material": "island_tree_01",
+      "sourceTriangles": 17393
+    }
+  ],
+  "meshes": [
+    {
+      "name": "island_tree_01_LOD1.001",
+      "vertices": 20498,
+      "triangles": 5676,
+      "materials": [
+        "island_tree_01_branches"
+      ]
+    },
+    {
+      "name": "island_tree_01_LOD1.002",
+      "vertices": 106336,
+      "triangles": 18000,
+      "materials": [
+        "island_tree_01_leaves"
+      ]
+    },
+    {
+      "name": "island_tree_01_LOD1.003",
+      "vertices": 3281,
+      "triangles": 6500,
+      "materials": [
+        "island_tree_01"
+      ]
+    }
+  ]
+}

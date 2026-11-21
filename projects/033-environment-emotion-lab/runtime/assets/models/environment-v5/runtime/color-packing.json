@@ -1,0 +1,62 @@
+[
+  {
+    "asset": "island_tree_01",
+    "sourceRGB": "assets/models/environment-v5/source/island_tree_01/textures/island_tree_01_leaves_diff_1k.png",
+    "sourceAlpha": "assets/models/environment-v5/source/island_tree_01/textures/island_tree_01_leaves_alpha_1k.png",
+    "packedRGBMatchesSource": true,
+    "rgbPixelSHA256": "def6c2c32171984314529e18d1442f1d421b6cee0f53db90d9587f2a42287125",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "glbBytes": 28888532
+  },
+  {
+    "asset": "island_tree_02",
+    "sourceRGB": "assets/models/environment-v5/source/island_tree_02/textures/island_tree_02_leaves_diff_1k.png",
+    "sourceAlpha": "assets/models/environment-v5/source/island_tree_02/textures/island_tree_02_leaves_alpha_1k.png",
+    "packedRGBMatchesSource": true,
+    "rgbPixelSHA256": "def6c2c32171984314529e18d1442f1d421b6cee0f53db90d9587f2a42287125",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "glbBytes": 27864324
+  },
+  {
+    "asset": "fern_02",
+    "sourceRGB": "assets/models/environment-v5/source/fern_02/textures/fern_02_diff_1k.jpg",
+    "sourceAlpha": "assets/models/environment-v5/source/fern_02/textures/fern_02_alpha_1k.png",
+    "packedRGBMatchesSource": true,
+    "rgbPixelSHA256": "d71847f7787aad66677d629c4df14a8aceae73f4ad2b43a3de337deec9770fdf",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "glbBytes": 3788900
+  },
+  {
+    "asset": "shrub_03",
+    "sourceRGB": "assets/models/environment-v5/source/shrub_03/textures/shrub_03_diff_1k.jpg",
+    "sourceAlpha": "assets/models/environment-v5/source/shrub_03/textures/shrub_03_alpha_1k.png",
+    "packedRGBMatchesSource": true,
+    "rgbPixelSHA256": "1ae2ef54b3e2722686d6346cb99ebae30214a36ae5ab4150a523b343bfc72a85",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "glbBytes": 4905164
+  },
+  {
+    "asset": "shrub_02",
+    "sourceRGB": "assets/models/environment-v5/source/shrub_02/textures/shrub_02_diff_1k.jpg",
+    "sourceAlpha": "assets/models/environment-v5/source/shrub_02/textures/shrub_02_alpha_1k.png",
+    "packedRGBMatchesSource": true,
+    "rgbPixelSHA256": "3a0c71cabb1c7ccb0739a7d91f2aa88ee4b65427f30d5e5154d80453e8006d7a",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "glbBytes": 5152208
+  }
+]

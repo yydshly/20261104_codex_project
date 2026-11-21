@@ -1,0 +1,60 @@
+{
+  "source": "Microsoft/Rocketbox",
+  "license": "MIT",
+  "records": [
+    {
+      "file": "m_sit_chair_breathe_01.max.fbx",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_chair_breathe_01.max.fbx",
+      "bytes": 2537504,
+      "sha256": "8e4dae334b6036bf7da539e2763d57b453b4f382cb1b024e441f5329ce66ea0c"
+    },
+    {
+      "file": "m_sit_chair_idle_relaxed_01.max.fbx",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_chair_idle_relaxed_01.max.fbx",
+      "bytes": 5949808,
+      "sha256": "f5d2ebb6c21e0067a9c9b065ff9d14f2ac3dba688b6eec9090b6e8f3af55e7d7"
+    },
+    {
+      "file": "m_sit_chair_idle_neutral_01.max.fbx",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_chair_idle_neutral_01.max.fbx",
+      "bytes": 5868640,
+      "sha256": "c5aeab85a7daa50770f70644b1651ff7811594500a702e8b454e7386566e1df2"
+    },
+    {
+      "file": "m_sit_chair_idle_look_around.max.fbx",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_chair_idle_look_around.max.fbx",
+      "bytes": 1997872,
+      "sha256": "08fbd2b1a75fa6c697e652905749187bc0cd5647d20bc6184d618032972cf3c2"
+    },
+    {
+      "file": "m_documents_take.max.fbx",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_documents_take.max.fbx",
+      "bytes": 1733056,
+      "sha256": "5e9cfcdf67c915089cb9e0277111c6f52073be90898ff13f4238a4eb9418bc8d"
+    },
+    {
+      "file": "m_documents_in.max.fbx",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_documents_in.max.fbx",
+      "bytes": 1646240,
+      "sha256": "9e2394a5b49212bcd56a3e5685fe5e8e46ba06cd880eb0310f0aa1d6dc6b1942"
+    },
+    {
+      "file": "m_documents_idle.max.fbx",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_documents_idle.max.fbx",
+      "bytes": 4670352,
+      "sha256": "b90ede01f63c52aee893c1e8260ed66bf711dd0414adbc56884d633dd5d9f6d6"
+    },
+    {
+      "file": "m_documents_check.max.fbx",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_documents_check.max.fbx",
+      "bytes": 3057824,
+      "sha256": "c1f5f89116004401b5adc491ae1ac47d5467ca4257a350c4c284bf93bf9f35d1"
+    },
+    {
+      "file": "m_documents_out.max.fbx",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_documents_out.max.fbx",
+      "bytes": 1735168,
+      "sha256": "13819bf6af8981bd67ff11d9b6c806c0c5446188859143493fdfee47607b2951"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "test": "v6 CPU integration; real GLB parsing; image decode stubs",
+  "treeModels": 2,
+  "trees": 6,
+  "shrubs": 36,
+  "windShadowBatches": 10,
+  "uniqueVertices": 374477,
+  "expandedTriangles": 720876,
+  "simulatedSeconds": 300,
+  "dropMerges": 49,
+  "dropDepartures": 164,
+  "dropMaxAreaError": 6.776263578034403e-21,
+  "windRange": [
+    0.26412252839225403,
+    0.7586856926180355
+  ],
+  "pauseAndDry": true,
+  "renderStateRecovery": true,
+  "dispose": true,
+  "gpuVerified": false,
+  "subjectiveExperienceVerified": false
+}

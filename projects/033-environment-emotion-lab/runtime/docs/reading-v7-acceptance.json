@@ -1,0 +1,32 @@
+{
+  "version": "reading-v7-connected",
+  "reviewDateLocal": "2026-11-15",
+  "run": "review-20261115064622034",
+  "result": "passed-for-current-desktop-prototype",
+  "actualRoundTrip": true,
+  "actualFramesReviewed": true,
+  "gpuShaderErrors": 0,
+  "pageErrors": [],
+  "finalSeated": true,
+  "audio": {
+    "capturedWholeRoundTrip": true,
+    "decodedSeconds": 58.02,
+    "peakDbfs": -9.0,
+    "clippedSamples": 0,
+    "silent100msBlocks": 0,
+    "subjectiveFeedbackBy": "user",
+    "subjectiveFeedback": "整体连贯，没有明显突兀"
+  },
+  "fallbackRenderFrames": 931,
+  "performanceScope": "Includes QA-only render pulses while in-app preview was unfocused; not a normal device frame-rate benchmark.",
+  "remainingScope": [
+    "Not cross-device or mobile performance acceptance.",
+    "Outdoor ground detail and distant vegetation can be refined for a product.",
+    "Water, acoustics and collisions remain real-time approximations."
+  ],
+  "evidence": {
+    "browserReport": "reading-v7-live-review/review-20261115064622034/report.json",
+    "signalAnalysis": "reading-v7-live-review/review-20261115064622034/signal-analysis.json",
+    "recording": "reading-v7-live-review/review-20261115064622034/sound.webm"
+  }
+}

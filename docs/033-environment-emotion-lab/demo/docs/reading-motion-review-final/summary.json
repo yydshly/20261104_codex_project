@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-16",
+  "completed": true,
+  "stages": 18,
+  "pageErrors": 0,
+  "gpuErrors": 0,
+  "originalCharacterUnchanged": true,
+  "originalCharacterSha256": "03a215c373c12f4c9cc7e3e417cb2cc42cd3415b77b85588cdf13cc2a5d935e6",
+  "sameLibraryMocap": true,
+  "nativeFullChainCapture": false,
+  "adaptation": "Native seated and documents clips plus authored chair/book contacts and sit/stand weight transfer",
+  "pickupBookStaysOnTableBeforeGrip": true,
+  "putBookBeforeStand": true,
+  "bothPerspectivesVerified": true,
+  "naturalRecordingsAndMinimaxVerified": true,
+  "mediaPlaybackVerified": true,
+  "videoSeconds": 76.341,
+  "media": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/docs/reading-motion-review-final/experience.mp4",
+  "limits": [
+    "Basic finger/cloth and face adaptation, not full collision or captured acting.",
+    "Observed capture FPS still needs separate low-end optimization.",
+    "Recorded app output and decoded levels are verified; no new subjective listening verdict is asserted."
+  ]
+}

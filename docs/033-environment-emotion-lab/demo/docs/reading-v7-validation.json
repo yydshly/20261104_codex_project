@@ -1,0 +1,18 @@
+{
+  "version": "reading-v7-connected",
+  "checks": {
+    "realGLBParsing": true,
+    "filesLoaded": 5,
+    "sameWorldDuckAndWater": true,
+    "offsetWaveCoordinates": true,
+    "oneCallOneQuack": true,
+    "floatingAndWakeState": true,
+    "motionPreference": true,
+    "indoorOutdoorSharedDepthPasses": true,
+    "renderStateRecovery": true,
+    "resourceDisposal": true
+  },
+  "gpuVerified": false,
+  "subjectiveAudioVerified": false,
+  "browserControl": "CPU integration only; actual in-app canvas/audio review artifacts are stored separately in docs/reading-v7-live-review/."
+}

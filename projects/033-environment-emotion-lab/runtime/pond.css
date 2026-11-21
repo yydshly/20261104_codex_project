@@ -1,0 +1,18 @@
+.control-extra{display:flex;align-items:center;gap:20px;grid-column:1/-1;font-size:10px;color:#5a685d;border-top:1px solid #203d251c;padding-top:10px}
+.control-extra button{background:transparent;border:1px solid #82907f80;border-radius:4px;color:inherit;padding:6px 10px;cursor:pointer}
+.control-extra>span{margin-left:auto;opacity:.7}
+.scene-exhibit.is-expanded .control-extra{color:#d3ddc8;border-color:#cbd7c523}
+.scene-exhibit.is-expanded .scene-quickactions{bottom:187px}
+.scene-exhibit canvas{cursor:grab}.scene-exhibit canvas:active{cursor:grabbing}
+.scene-topline .scene-panel-toggle{display:none}
+.scene-exhibit.is-expanded .scene-panel-toggle{display:block;margin-left:auto;margin-right:10px}
+.scene-exhibit.is-expanded.controls-hidden .scene-controls,.scene-exhibit.is-expanded.controls-hidden .scene-quickactions{display:none}
+.scene-exhibit.is-expanded .scene-topline #immersiveToggle{margin-left:0}
+.scene-stage[data-loading="true"]::after,.scene-stage[data-loading="error"]::after{content:"正在打开池塘…";position:absolute;inset:0;z-index:3;display:grid;place-content:center;background:#17231ef2;color:#e7ecdf;font-size:13px;letter-spacing:2px}
+.scene-stage[data-loading="error"]::after{content:"场景素材未能载入，请刷新重试。";letter-spacing:0}
+.asset-credits{grid-column:2;font-size:12px;line-height:1.9;color:#687668;margin:0}.asset-credits a{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:820px){.asset-credits{grid-column:1/-1}}
+@media(max-width:820px){.scene-exhibit.is-expanded .scene-quickactions{bottom:222px}.control-extra{gap:12px}.control-extra>span{display:none}}
+@media(max-width:480px){.scene-quickactions{gap:8px}.scene-quickactions button{padding:8px 12px}.scene-stage .scene-hint{font-size:9px}.control-extra{justify-content:space-between}.scene-exhibit.is-expanded .scene-quickactions{bottom:205px}}
+
+.control-extra{flex-wrap:wrap}.control-extra button[aria-pressed="true"]{background:#45634e;color:#f4f3e8;border-color:#45634e}

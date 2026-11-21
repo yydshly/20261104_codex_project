@@ -1,0 +1,61 @@
+{
+  "asset": "fern_02",
+  "file": "assets/models/environment-v5/runtime/fern_02.glb",
+  "bytes": 4047136,
+  "source": [
+    {
+      "name": "fern_02_a.001",
+      "material": "fern_02",
+      "sourceTriangles": 784
+    },
+    {
+      "name": "fern_02_b.001",
+      "material": "fern_02",
+      "sourceTriangles": 2384
+    },
+    {
+      "name": "fern_02_c.001",
+      "material": "fern_02",
+      "sourceTriangles": 2248
+    },
+    {
+      "name": "fern_02_d.001",
+      "material": "fern_02",
+      "sourceTriangles": 816
+    }
+  ],
+  "meshes": [
+    {
+      "name": "fern_02_a.001",
+      "vertices": 525,
+      "triangles": 784,
+      "materials": [
+        "fern_02"
+      ]
+    },
+    {
+      "name": "fern_02_b.001",
+      "vertices": 1590,
+      "triangles": 2384,
+      "materials": [
+        "fern_02"
+      ]
+    },
+    {
+      "name": "fern_02_c.001",
+      "vertices": 1500,
+      "triangles": 2248,
+      "materials": [
+        "fern_02"
+      ]
+    },
+    {
+      "name": "fern_02_d.001",
+      "vertices": 545,
+      "triangles": 816,
+      "materials": [
+        "fern_02"
+      ]
+    }
+  ]
+}

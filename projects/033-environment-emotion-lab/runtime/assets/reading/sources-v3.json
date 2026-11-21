@@ -1,0 +1,162 @@
+[
+  {
+    "asset": "wooden_bookshelf_worn",
+    "file": "assets/reading/wooden_bookshelf_worn/wooden_bookshelf_worn_1k.gltf",
+    "bytes": 2849,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/wooden_bookshelf_worn/wooden_bookshelf_worn_1k.gltf",
+    "md5": "f8bb25dfb3c646e5c4f420d800276928",
+    "sha256": "a1c5b3f1e71ae0b5eb73047e8097bceaa5f17e5d2d0d7ae1b8053d5ec0878fc6",
+    "source": "https://polyhaven.com/a/wooden_bookshelf_worn",
+    "license": "CC0-1.0"
+  },
+  {
+    "asset": "wooden_bookshelf_worn",
+    "file": "assets/reading/wooden_bookshelf_worn/textures/wooden_bookshelf_worn_nor_gl_1k.jpg",
+    "bytes": 993276,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_bookshelf_worn/wooden_bookshelf_worn_nor_gl_1k.jpg",
+    "md5": "0e6f33c00eec432dd17178a4e5feb4f2",
+    "sha256": "90ffb1b3f7bb638d5a7e1a2b244a260d623e314a6010a6b8c23c57203e510ac9",
+    "source": "https://polyhaven.com/a/wooden_bookshelf_worn",
+    "license": "CC0-1.0"
+  },
+  {
+    "asset": "wooden_bookshelf_worn",
+    "file": "assets/reading/wooden_bookshelf_worn/wooden_bookshelf_worn.bin",
+    "bytes": 267964,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/wooden_bookshelf_worn/wooden_bookshelf_worn.bin",
+    "md5": "3842de1943f58cdafb3a25d384b2400f",
+    "sha256": "170758113b50132380ab46943f6eab18f2714460dead065aae37241a94abf0f9",
+    "source": "https://polyhaven.com/a/wooden_bookshelf_worn",
+    "license": "CC0-1.0"
+  },
+  {
+    "asset": "wooden_bookshelf_worn",
+    "file": "assets/reading/wooden_bookshelf_worn/textures/wooden_bookshelf_worn_arm_1k.jpg",
+    "bytes": 713979,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_bookshelf_worn/wooden_bookshelf_worn_arm_1k.jpg",
+    "md5": "7252efe4bd18f6dfdc014a9f4ccdf065",
+    "sha256": "41b3aca38fb55cb300d971016a597c80425da3744a6d33d82fe78f9dbe609eaa",
+    "source": "https://polyhaven.com/a/wooden_bookshelf_worn",
+    "license": "CC0-1.0"
+  },
+  {
+    "asset": "wooden_bookshelf_worn",
+    "file": "assets/reading/wooden_bookshelf_worn/textures/wooden_bookshelf_worn_diff_1k.jpg",
+    "bytes": 799126,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_bookshelf_worn/wooden_bookshelf_worn_diff_1k.jpg",
+    "md5": "8f92c92e6473010e7df9b11f32d1234a",
+    "sha256": "970f60178decadd0d8fb1e5872f718350a49b027fd69469210c41ead350cba56",
+    "source": "https://polyhaven.com/a/wooden_bookshelf_worn",
+    "license": "CC0-1.0"
+  },
+  {
+    "asset": "mid_century_lounge_chair",
+    "file": "assets/reading/mid_century_lounge_chair/mid_century_lounge_chair_2k.gltf",
+    "bytes": 2884,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/mid_century_lounge_chair/mid_century_lounge_chair_2k.gltf",
+    "md5": "0c51ce1efaf9d2a6b96076fa291990a9",
+    "sha256": "c626222ebe4bc2b98bc1f5ca0cb6ae6f649d995a8f2cee6a6c1d78f060859baa",
+    "source": "https://polyhaven.com/a/mid_century_lounge_chair",
+    "license": "CC0-1.0"
+  },
+  {
+    "asset": "mid_century_lounge_chair",
+    "file": "assets/reading/mid_century_lounge_chair/textures/mid_century_lounge_chair_nor_gl_2k.jpg",
+    "bytes": 2646290,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/mid_century_lounge_chair/mid_century_lounge_chair_nor_gl_2k.jpg",
+    "md5": "fccce25a26792f315b2aaa548e1e175f",
+    "sha256": "3228f6785de5f4f06149a03dab95cf68f6c85f42ecbba8e33f48e40d941d9b96",
+    "source": "https://polyhaven.com/a/mid_century_lounge_chair",
+    "license": "CC0-1.0"
+  },
+  {
+    "asset": "mid_century_lounge_chair",
+    "file": "assets/reading/mid_century_lounge_chair/textures/mid_century_lounge_chair_diff_2k.jpg",
+    "bytes": 2444450,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/mid_century_lounge_chair/mid_century_lounge_chair_diff_2k.jpg",
+    "md5": "c6b759bcd7a6bbe10b440184943355bd",
+    "sha256": "8129cc8c7c7c8db652aad062545a9f776b7ff4c00c4d9ab8387f3ad98315a932",
+    "source": "https://polyhaven.com/a/mid_century_lounge_chair",
+    "license": "CC0-1.0"
+  },
+  {
+    "asset": "mid_century_lounge_chair",
+    "file": "assets/reading/mid_century_lounge_chair/textures/mid_century_lounge_chair_arm_2k.jpg",
+    "bytes": 2476056,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/mid_century_lounge_chair/mid_century_lounge_chair_arm_2k.jpg",
+    "md5": "ab5ac337a69816af00923d7e6615e527",
+    "sha256": "74ffb5899e592f842bf39b8a62a01ae7f737de5980790598fc0f4d587d53bf4a",
+    "source": "https://polyhaven.com/a/mid_century_lounge_chair",
+    "license": "CC0-1.0"
+  },
+  {
+    "asset": "mid_century_lounge_chair",
+    "file": "assets/reading/mid_century_lounge_chair/mid_century_lounge_chair.bin",
+    "bytes": 171384,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/mid_century_lounge_chair/mid_century_lounge_chair.bin",
+    "md5": "bded2f717792aefe222dca07633b94ce",
+    "sha256": "26346cdc548ad74b1b6db5734c8c231c3c740656b012de2cc3bbc2b3b975200c",
+    "source": "https://polyhaven.com/a/mid_century_lounge_chair",
+    "license": "CC0-1.0"
+  },
+  {
+    "asset": "walnut_veneer",
+    "file": "assets/reading/walnut_veneer/diff.jpg",
+    "bytes": 2060618,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/walnut_veneer/walnut_veneer_diff_2k.jpg",
+    "md5": "48000eac719ccbae27319f942ab5bf2c",
+    "sha256": "66c73defcc62ac090cb838e8455b8c1febbfea29a15c8f40a5e2d398b2ba4733",
+    "source": "https://polyhaven.com/a/walnut_veneer",
+    "license": "CC0-1.0"
+  },
+  {
+    "asset": "walnut_veneer",
+    "file": "assets/reading/walnut_veneer/nor_gl.jpg",
+    "bytes": 1891517,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/walnut_veneer/walnut_veneer_nor_gl_2k.jpg",
+    "md5": "987a6cf092f9ab65705416dda264b0ff",
+    "sha256": "544d3feffd325a0f6f7db5dc94ae99820349bb3d53ce3651e4647d5e66336cba",
+    "source": "https://polyhaven.com/a/walnut_veneer",
+    "license": "CC0-1.0"
+  },
+  {
+    "asset": "walnut_veneer",
+    "file": "assets/reading/walnut_veneer/rough.jpg",
+    "bytes": 2426374,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/walnut_veneer/walnut_veneer_rough_2k.jpg",
+    "md5": "cff9cdcca482f6c71d7ecf49b3789f9e",
+    "sha256": "e3a8a7e035a378ce6ce2252fcd4352f62b16a2a6b2f453baacd4e081c2fedb34",
+    "source": "https://polyhaven.com/a/walnut_veneer",
+    "license": "CC0-1.0"
+  },
+  {
+    "asset": "rough_linen",
+    "file": "assets/reading/rough_linen/diff.jpg",
+    "bytes": 3607181,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rough_linen/rough_linen_diff_2k.jpg",
+    "md5": "1287d4d1183c511e4adc55b8d006d763",
+    "sha256": "e71016e08dfebea1dd4e8a2a675e3b617a889a782af782f1abb795906f4db1b4",
+    "source": "https://polyhaven.com/a/rough_linen",
+    "license": "CC0-1.0"
+  },
+  {
+    "asset": "rough_linen",
+    "file": "assets/reading/rough_linen/nor_gl.jpg",
+    "bytes": 3849356,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rough_linen/rough_linen_nor_gl_2k.jpg",
+    "md5": "facad45539d3011e197bd87562ba1679",
+    "sha256": "c5733ad50cfe0f90c546f3d4076590c1c78a4fd1a83c967cc9c92dc8175b99e6",
+    "source": "https://polyhaven.com/a/rough_linen",
+    "license": "CC0-1.0"
+  },
+  {
+    "asset": "rough_linen",
+    "file": "assets/reading/rough_linen/rough.jpg",
+    "bytes": 4655974,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rough_linen/rough_linen_rough_2k.jpg",
+    "md5": "fb70674c782d6bead54c8baaae2b77db",
+    "sha256": "48400d48fa203882bf5d984d5beb2f95edb1550309924601c018f2c4f3f80731",
+    "source": "https://polyhaven.com/a/rough_linen",
+    "license": "CC0-1.0"
+  }
+]

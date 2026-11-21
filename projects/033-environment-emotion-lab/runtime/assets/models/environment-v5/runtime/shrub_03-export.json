@@ -1,0 +1,61 @@
+{
+  "asset": "shrub_03",
+  "file": "assets/models/environment-v5/runtime/shrub_03.glb",
+  "bytes": 5166384,
+  "source": [
+    {
+      "name": "shrub_03_a_LOD0.001",
+      "material": "shrub_03",
+      "sourceTriangles": 2385
+    },
+    {
+      "name": "shrub_03_b_LOD0.001",
+      "material": "shrub_03",
+      "sourceTriangles": 2134
+    },
+    {
+      "name": "shrub_03_c_LOD0.001",
+      "material": "shrub_03",
+      "sourceTriangles": 1790
+    },
+    {
+      "name": "shrub_03_d_LOD0.001",
+      "material": "shrub_03",
+      "sourceTriangles": 1978
+    }
+  ],
+  "meshes": [
+    {
+      "name": "shrub_03_a_LOD0.001",
+      "vertices": 1694,
+      "triangles": 2385,
+      "materials": [
+        "shrub_03"
+      ]
+    },
+    {
+      "name": "shrub_03_b_LOD0.001",
+      "vertices": 1522,
+      "triangles": 2134,
+      "materials": [
+        "shrub_03"
+      ]
+    },
+    {
+      "name": "shrub_03_c_LOD0.001",
+      "vertices": 1274,
+      "triangles": 1790,
+      "materials": [
+        "shrub_03"
+      ]
+    },
+    {
+      "name": "shrub_03_d_LOD0.001",
+      "vertices": 1392,
+      "triangles": 1978,
+      "materials": [
+        "shrub_03"
+      ]
+    }
+  ]
+}

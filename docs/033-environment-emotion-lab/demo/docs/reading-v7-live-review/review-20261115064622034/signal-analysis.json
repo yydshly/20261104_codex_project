@@ -1,0 +1,37 @@
+{
+  "run": "review-20261115064622034",
+  "completed": true,
+  "gpuErrors": 0,
+  "pageErrors": [],
+  "audioCaptured": true,
+  "decodedSeconds": 58.02,
+  "sampleRate": 48000,
+  "channels": 2,
+  "peakDbfs": -9.0,
+  "clippedSamples": 0,
+  "wholeClipRmsDbfs": -33.42,
+  "maxAdjacentSampleDelta": 0.09723,
+  "silent100msBlocks": 0,
+  "firstSignalAtSeconds": 0.0,
+  "lastSignalAtSeconds": 57.9,
+  "maxObservedTurnRadPerSecond": 1.117,
+  "zones": [
+    "room",
+    "porch",
+    "garden",
+    "pond"
+  ],
+  "initialPosition": {
+    "x": -0.65,
+    "y": 1.46,
+    "z": 0.12
+  },
+  "finalPosition": {
+    "x": -0.6499999999999999,
+    "y": 1.46,
+    "z": 0.1200000000000001
+  },
+  "finalSeated": true,
+  "fallbackRenderFrames": 931,
+  "scope": "Actual browser audio decode and signal continuity; subjective listening supplied by user: overall coherent, no obvious abrupt transitions."
+}

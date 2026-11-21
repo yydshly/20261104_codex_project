@@ -1,0 +1,49 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "title": "留一点空白",
+  "text": "让思绪走远一点，\n再慢慢回到眼前。\n\n这一页可以明天再读。\n而此刻，\n什么也不做也很好。",
+  "request": {
+    "model": "speech-2.8-hd",
+    "text": "留一点空白。<#0.8#>让思绪走远一点，再慢慢回到眼前。<#0.8#>这一页可以明天再读。而此刻，什么也不做也很好。",
+    "stream": false,
+    "output_format": "hex",
+    "voice_setting": {
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 0.86,
+      "vol": 1,
+      "pitch": 0,
+      "emotion": "calm"
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "bitrate": 128000,
+      "format": "mp3",
+      "channel": 1
+    },
+    "language_boost": "Chinese"
+  },
+  "status": "ready",
+  "requested_at": "2026-11-15T03:01:56.161498+00:00",
+  "response": {
+    "base_resp": {
+      "status_code": 0,
+      "status_msg": "success"
+    },
+    "extra_info": {
+      "audio_length": 12564,
+      "audio_sample_rate": 32000,
+      "audio_size": 202740,
+      "bitrate": 128000,
+      "word_count": 59,
+      "invisible_character_ratio": 0,
+      "usage_characters": 98,
+      "audio_format": "mp3",
+      "audio_channel": 1
+    },
+    "trace_id": "074853a4eea6f4d0900d374bbb6bbdb2"
+  },
+  "file": "assets/reading/audio/reading-3.mp3",
+  "bytes": 202740,
+  "sha256": "45fb59db2d3c7fac0bdace556f151d75d8263856937b9e64bbcf97ade1a28a7e"
+}

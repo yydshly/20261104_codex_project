@@ -1,0 +1,21 @@
+{
+  "software": "4.5.9 LTS",
+  "frames": 65,
+  "source": "Own cloth geometry and physics preparation",
+  "panels": [
+    {
+      "name": "Linen_left_relaxed",
+      "vertices": 3285,
+      "minHeight": 0.020620498806238174,
+      "maxHeight": 3.3399999141693115
+    },
+    {
+      "name": "Linen_right_relaxed",
+      "vertices": 3285,
+      "minHeight": 0.020894730463624,
+      "maxHeight": 3.3399999141693115
+    }
+  ],
+  "bytes": 2132152,
+  "sha256": "1f97f3b5fd24dfa38582821498388823614a1b6b12740d336490b319f9ce08d7"
+}

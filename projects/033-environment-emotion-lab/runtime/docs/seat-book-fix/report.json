@@ -1,0 +1,1672 @@
+{
+  "completed": true,
+  "stages": [
+    {
+      "name": "01-room-forward",
+      "world": {
+        "ready": true,
+        "lampLevel": 2,
+        "raining": true,
+        "page": 0,
+        "randomDuckCalls": true,
+        "viewMode": "first",
+        "camera": {
+          "mode": "first",
+          "blend": 0,
+          "boom": 2.179584636884304,
+          "position": [
+            -0.9089269123724324,
+            1.489542139449375,
+            -0.22712429172759954
+          ]
+        },
+        "player": {
+          "ready": true,
+          "action": "Idle",
+          "heading": 0.18,
+          "sitAmount": 1,
+          "headHidden": true,
+          "holdingBook": false,
+          "bookAmount": 0,
+          "sipping": false,
+          "sipAge": null,
+          "blink": 0,
+          "headPitch": 0.0032567268950141515,
+          "eyes": [
+            -0.9089269123724324,
+            1.4745421394493752,
+            -0.22712429172759954
+          ],
+          "position": [
+            -0.85,
+            0,
+            0.12
+          ],
+          "pelvis": [
+            -0.8858059146739562,
+            0.72,
+            -0.0767687384960283
+          ],
+          "feet": [
+            [
+              -0.6245210167253724,
+              0.632000017102436,
+              0.68882267426899
+            ],
+            [
+              -0.8606435014378717,
+              0.6319999777298804,
+              0.7317898263890451
+            ]
+          ],
+          "hands": [
+            [
+              -0.5623271716592726,
+              0.7167317795287096,
+              -0.0631143500368498
+            ],
+            [
+              -1.1830001342877685,
+              0.7240358874765133,
+              0.0463874956055705
+            ]
+          ]
+        },
+        "seated": true,
+        "sitAmount": 1,
+        "posturePlace": "room",
+        "seatedPlace": "room",
+        "doorOpen": false,
+        "transitioning": false,
+        "walking": false,
+        "guided": false,
+        "destination": "",
+        "zone": "room",
+        "position": {
+          "x": -0.85,
+          "y": 1.46,
+          "z": 0.12
+        },
+        "yaw": -2.961592653589793,
+        "pitch": -0.14,
+        "duck": {
+          "x": -14,
+          "y": 0.28,
+          "z": 0.19999999999999996
+        }
+      },
+      "gpu": "0",
+      "controls": {
+        "bookVisible": true,
+        "bookDisabled": false
+      },
+      "audio": {
+        "enabled": false,
+        "ready": false,
+        "rain": true,
+        "volume": 0.3,
+        "narrating": false,
+        "narrationPage": -1,
+        "narrationLoading": false,
+        "provider": "MiniMax",
+        "ambience": "CC0-field-recordings",
+        "spatial": true,
+        "zone": "room",
+        "bookHeld": false,
+        "bookAnchor": {
+          "x": 0.28,
+          "y": 0.85,
+          "z": 0.17
+        }
+      }
+    },
+    {
+      "name": "02-room-side",
+      "world": {
+        "ready": true,
+        "lampLevel": 2,
+        "raining": true,
+        "page": 0,
+        "randomDuckCalls": true,
+        "viewMode": "third",
+        "camera": {
+          "mode": "third",
+          "blend": 1,
+          "boom": 2.122120151970547,
+          "position": [
+            -2.6878367907265197,
+            1.8750242540424837,
+            0.9632633613928878
+          ]
+        },
+        "player": {
+          "ready": true,
+          "action": "Idle",
+          "heading": 0.18,
+          "sitAmount": 1,
+          "headHidden": false,
+          "holdingBook": false,
+          "bookAmount": 0,
+          "sipping": false,
+          "sipAge": null,
+          "blink": 0,
+          "headPitch": 0.009327964442767149,
+          "eyes": [
+            -0.9034006136426389,
+            1.4749403451429668,
+            -0.2222989988231563
+          ],
+          "position": [
+            -0.85,
+            0,
+            0.12
+          ],
+          "pelvis": [
+            -0.8858059146759003,
+            0.72,
+            -0.07676873850670926
+          ],
+          "feet": [
+            [
+              -0.6245210164693924,
+              0.6320000177605462,
+              0.6888226752029483
+            ],
+            [
+              -0.8606435015345097,
+              0.6319999774356231,
+              0.7317898279709785
+            ]
+          ],
+          "hands": [
+            [
+              -0.5618071468495036,
+              0.7152757486318566,
+              -0.06235931915445614
+            ],
+            [
+              -1.182812547266615,
+              0.7251435297364992,
+              0.04590380241987056
+            ]
+          ]
+        },
+        "seated": true,
+        "sitAmount": 1,
+        "posturePlace": "room",
+        "seatedPlace": "room",
+        "doorOpen": false,
+        "transitioning": false,
+        "walking": false,
+        "guided": false,
+        "destination": "",
+        "zone": "room",
+        "position": {
+          "x": -0.85,
+          "y": 1.46,
+          "z": 0.12
+        },
+        "yaw": -1.2,
+        "pitch": -0.15,
+        "duck": {
+          "x": -14,
+          "y": 0.28,
+          "z": 0.19999999999999996
+        }
+      },
+      "gpu": "0",
+      "controls": {
+        "bookVisible": true,
+        "bookDisabled": false
+      },
+      "audio": {
+        "enabled": false,
+        "ready": false,
+        "rain": true,
+        "volume": 0.3,
+        "narrating": false,
+        "narrationPage": -1,
+        "narrationLoading": false,
+        "provider": "MiniMax",
+        "ambience": "CC0-field-recordings",
+        "spatial": true,
+        "zone": "room",
+        "bookHeld": false,
+        "bookAnchor": {
+          "x": 0.28,
+          "y": 0.85,
+          "z": 0.17
+        }
+      }
+    },
+    {
+      "name": "03-local-sit",
+      "world": {
+        "ready": true,
+        "lampLevel": 2,
+        "raining": true,
+        "page": 0,
+        "randomDuckCalls": true,
+        "viewMode": "third",
+        "camera": {
+          "mode": "third",
+          "blend": 1,
+          "boom": 2.179584636884304,
+          "position": [
+            -1.3403449326774646,
+            1.8730405407528967,
+            -1.9043737521694906
+          ]
+        },
+        "player": {
+          "ready": true,
+          "action": "Idle",
+          "heading": 6.463185307179586,
+          "sitAmount": 1,
+          "headHidden": false,
+          "holdingBook": false,
+          "bookAmount": 0,
+          "sipping": false,
+          "sipAge": null,
+          "blink": 0,
+          "headPitch": -0.01199366501496665,
+          "eyes": [
+            -0.9042867737329912,
+            1.4759226368221454,
+            -0.2248101832080133
+          ],
+          "position": [
+            -0.85,
+            0,
+            0.12
+          ],
+          "pelvis": [
+            -0.8858059146759661,
+            0.72,
+            -0.07676873850707175
+          ],
+          "feet": [
+            [
+              -0.6245210164721773,
+              0.6320000178459871,
+              0.6888226751724927
+            ],
+            [
+              -0.8606435015659611,
+              0.6319999774177704,
+              0.7317898279873694
+            ]
+          ],
+          "hands": [
+            [
+              -0.5617833191392678,
+              0.7152065907069225,
+              -0.062326787093128416
+            ],
+            [
+              -1.182809069527707,
+              0.7251619644072835,
+              0.0458889235632339
+            ]
+          ]
+        },
+        "seated": true,
+        "sitAmount": 1,
+        "posturePlace": "room",
+        "seatedPlace": "room",
+        "doorOpen": false,
+        "transitioning": false,
+        "walking": false,
+        "guided": false,
+        "destination": "",
+        "zone": "room",
+        "position": {
+          "x": -0.85,
+          "y": 1.46,
+          "z": 0.12
+        },
+        "yaw": -2.961592653589793,
+        "pitch": -0.14,
+        "duck": {
+          "x": -13.048127009349114,
+          "y": 0.28,
+          "z": -0.01583058329583764
+        }
+      },
+      "gpu": "0",
+      "controls": {
+        "bookVisible": true,
+        "bookDisabled": false
+      },
+      "audio": {
+        "enabled": false,
+        "ready": false,
+        "rain": true,
+        "volume": 0.3,
+        "narrating": false,
+        "narrationPage": -1,
+        "narrationLoading": false,
+        "provider": "MiniMax",
+        "ambience": "CC0-field-recordings",
+        "spatial": true,
+        "zone": "room",
+        "bookHeld": false,
+        "bookAnchor": {
+          "x": 0.28,
+          "y": 0.85,
+          "z": 0.17
+        }
+      }
+    },
+    {
+      "name": "04-room-held-side",
+      "world": {
+        "ready": true,
+        "lampLevel": 2,
+        "raining": true,
+        "page": 0,
+        "randomDuckCalls": true,
+        "viewMode": "third",
+        "camera": {
+          "mode": "third",
+          "blend": 1,
+          "boom": 2.122120151970547,
+          "position": [
+            -2.6878367907265197,
+            1.8750242540424837,
+            0.9632633613928878
+          ]
+        },
+        "player": {
+          "ready": true,
+          "action": "Idle",
+          "heading": 6.463185307179586,
+          "sitAmount": 1,
+          "headHidden": false,
+          "holdingBook": true,
+          "bookAmount": 0.9985617813790786,
+          "sipping": false,
+          "sipAge": null,
+          "blink": 0,
+          "headPitch": 0.5734154828182482,
+          "eyes": [
+            -0.9016138865798223,
+            1.4307106901901863,
+            -0.17099231492641961
+          ],
+          "position": [
+            -0.85,
+            0,
+            0.12
+          ],
+          "pelvis": [
+            -0.8858059146747059,
+            0.72,
+            -0.07676873850014856
+          ],
+          "feet": [
+            [
+              -0.624521016807575,
+              0.6320000162342299,
+              0.6888226746544337
+            ],
+            [
+              -0.8606435010179012,
+              0.6319999776647214,
+              0.7317898267709161
+            ]
+          ],
+          "hands": [
+            [
+              -0.6308376877973088,
+              0.9150929780844886,
+              0.12243403350990531
+            ],
+            [
+              -1.0540286055314434,
+              0.9153395641103339,
+              0.19946711566307723
+            ]
+          ]
+        },
+        "seated": true,
+        "sitAmount": 1,
+        "posturePlace": "room",
+        "seatedPlace": "room",
+        "doorOpen": false,
+        "transitioning": false,
+        "walking": false,
+        "guided": false,
+        "destination": "",
+        "zone": "room",
+        "position": {
+          "x": -0.85,
+          "y": 1.46,
+          "z": 0.12
+        },
+        "yaw": -1.2,
+        "pitch": -0.15,
+        "duck": {
+          "x": -12.649402953294413,
+          "y": 0.28,
+          "z": -0.08856123264081062
+        }
+      },
+      "gpu": "0",
+      "controls": {
+        "bookVisible": true,
+        "bookDisabled": false
+      },
+      "audio": {
+        "enabled": false,
+        "ready": false,
+        "rain": true,
+        "volume": 0.3,
+        "narrating": false,
+        "narrationPage": -1,
+        "narrationLoading": false,
+        "provider": "MiniMax",
+        "ambience": "CC0-field-recordings",
+        "spatial": true,
+        "zone": "room",
+        "bookHeld": true,
+        "bookAnchor": {
+          "x": -0.832090148246752,
+          "y": 0.9599990204839655,
+          "z": 0.21838406932143542
+        }
+      }
+    },
+    {
+      "name": "05-room-held-first",
+      "world": {
+        "ready": true,
+        "lampLevel": 2,
+        "raining": true,
+        "page": 0,
+        "randomDuckCalls": true,
+        "viewMode": "first",
+        "camera": {
+          "mode": "first",
+          "blend": 0,
+          "boom": 2.2293293487255124,
+          "position": [
+            -0.8965565296912807,
+            1.4455993791556336,
+            -0.16676090779905856
+          ]
+        },
+        "player": {
+          "ready": true,
+          "action": "Idle",
+          "heading": 6.463185307179586,
+          "sitAmount": 1,
+          "headHidden": true,
+          "holdingBook": true,
+          "bookAmount": 0.9999686203197399,
+          "sipping": false,
+          "sipAge": null,
+          "blink": 0,
+          "headPitch": 0.5812247070035358,
+          "eyes": [
+            -0.8965565296912807,
+            1.4305993791556337,
+            -0.16676090779905856
+          ],
+          "position": [
+            -0.85,
+            0,
+            0.12
+          ],
+          "pelvis": [
+            -0.8858059146745161,
+            0.72,
+            -0.07676873849910343
+          ],
+          "feet": [
+            [
+              -0.6245210162000122,
+              0.6320000177141278,
+              0.688822674947684
+            ],
+            [
+              -0.8606435013296021,
+              0.6319999777163311,
+              0.7317898271027252
+            ]
+          ],
+          "hands": [
+            [
+              -0.6309890417110123,
+              0.9153258740479624,
+              0.12261708148250519
+            ],
+            [
+              -1.0540449449580018,
+              0.9153312114007356,
+              0.19960077547081173
+            ]
+          ]
+        },
+        "seated": true,
+        "sitAmount": 1,
+        "posturePlace": "room",
+        "seatedPlace": "room",
+        "doorOpen": false,
+        "transitioning": false,
+        "walking": false,
+        "guided": false,
+        "destination": "",
+        "zone": "room",
+        "position": {
+          "x": -0.85,
+          "y": 1.46,
+          "z": 0.12
+        },
+        "yaw": -2.961592653589793,
+        "pitch": -0.8,
+        "duck": {
+          "x": -12.429545491344921,
+          "y": 0.28,
+          "z": -0.1228283437726409
+        }
+      },
+      "gpu": "0",
+      "controls": {
+        "bookVisible": true,
+        "bookDisabled": false
+      },
+      "audio": {
+        "enabled": false,
+        "ready": false,
+        "rain": true,
+        "volume": 0.3,
+        "narrating": false,
+        "narrationPage": -1,
+        "narrationLoading": false,
+        "provider": "MiniMax",
+        "ambience": "CC0-field-recordings",
+        "spatial": true,
+        "zone": "room",
+        "bookHeld": true,
+        "bookAnchor": {
+          "x": -0.8320970393722926,
+          "y": 0.9599999995332693,
+          "z": 0.21838436913588516
+        }
+      }
+    },
+    {
+      "name": "06-room-book-returned",
+      "world": {
+        "ready": true,
+        "lampLevel": 2,
+        "raining": true,
+        "page": 0,
+        "randomDuckCalls": true,
+        "viewMode": "first",
+        "camera": {
+          "mode": "first",
+          "blend": 0,
+          "boom": 2.2329861128236494,
+          "position": [
+            -0.9077604179757334,
+            1.4893907406283533,
+            -0.22545127098504072
+          ]
+        },
+        "player": {
+          "ready": true,
+          "action": "Idle",
+          "heading": 6.463185307179586,
+          "sitAmount": 1,
+          "headHidden": true,
+          "holdingBook": false,
+          "bookAmount": 0,
+          "sipping": false,
+          "sipAge": null,
+          "blink": 0,
+          "headPitch": 0.009307795486227715,
+          "eyes": [
+            -0.9077604179757334,
+            1.4743907406283534,
+            -0.22545127098504072
+          ],
+          "position": [
+            -0.85,
+            0,
+            0.12
+          ],
+          "pelvis": [
+            -0.8858059146758206,
+            0.72,
+            -0.07676873850627378
+          ],
+          "feet": [
+            [
+              -0.6245210170325378,
+              0.6320000169916855,
+              0.6888226750882338
+            ],
+            [
+              -0.8606435020908941,
+              0.6319999777821912,
+              0.7317898275953982
+            ]
+          ],
+          "hands": [
+            [
+              -0.5619682525568798,
+              0.7157333103321665,
+              -0.06261467025182228
+            ],
+            [
+              -1.1828576781381541,
+              0.7249237070790341,
+              0.045853532922695284
+            ]
+          ]
+        },
+        "seated": true,
+        "sitAmount": 1,
+        "posturePlace": "room",
+        "seatedPlace": "room",
+        "doorOpen": false,
+        "transitioning": false,
+        "walking": false,
+        "guided": false,
+        "destination": "",
+        "zone": "room",
+        "position": {
+          "x": -0.85,
+          "y": 1.46,
+          "z": 0.12
+        },
+        "yaw": -2.961592653589793,
+        "pitch": -0.8,
+        "duck": {
+          "x": -12.144867048350461,
+          "y": 0.28,
+          "z": -0.16569554365012246
+        }
+      },
+      "gpu": "0",
+      "controls": {
+        "bookVisible": true,
+        "bookDisabled": false
+      },
+      "audio": {
+        "enabled": false,
+        "ready": false,
+        "rain": true,
+        "volume": 0.3,
+        "narrating": false,
+        "narrationPage": -1,
+        "narrationLoading": false,
+        "provider": "MiniMax",
+        "ambience": "CC0-field-recordings",
+        "spatial": true,
+        "zone": "room",
+        "bookHeld": false,
+        "bookAnchor": {
+          "x": 0.28,
+          "y": 0.85,
+          "z": 0.17
+        }
+      }
+    },
+    {
+      "name": "07-read-button-pickup",
+      "world": {
+        "ready": true,
+        "lampLevel": 2,
+        "raining": true,
+        "page": 0,
+        "randomDuckCalls": true,
+        "viewMode": "first",
+        "camera": {
+          "mode": "first",
+          "blend": 0,
+          "boom": 2.2330307090251895,
+          "position": [
+            -0.896983705325735,
+            1.4449236226440345,
+            -0.16668713373093463
+          ]
+        },
+        "player": {
+          "ready": true,
+          "action": "Idle",
+          "heading": 6.463185307179586,
+          "sitAmount": 1,
+          "headHidden": true,
+          "holdingBook": true,
+          "bookAmount": 0.9985336808529571,
+          "sipping": false,
+          "sipAge": null,
+          "blink": 0,
+          "headPitch": 0.5901190568253512,
+          "eyes": [
+            -0.896983705325735,
+            1.4299236226440346,
+            -0.16668713373093463
+          ],
+          "position": [
+            -0.85,
+            0,
+            0.12
+          ],
+          "pelvis": [
+            -0.8858059146741372,
+            0.72,
+            -0.07676873849702293
+          ],
+          "feet": [
+            [
+              -0.6245210162475945,
+              0.6320000183799908,
+              0.6888226743849328
+            ],
+            [
+              -0.8606435014083977,
+              0.6319999777007203,
+              0.7317898269481679
+            ]
+          ],
+          "hands": [
+            [
+              -0.6308345283723193,
+              0.9150882262557073,
+              0.12243053934139875
+            ],
+            [
+              -1.0540281430191478,
+              0.9153397120281023,
+              0.1994644382390423
+            ]
+          ]
+        },
+        "seated": true,
+        "sitAmount": 1,
+        "posturePlace": "room",
+        "seatedPlace": "room",
+        "doorOpen": false,
+        "transitioning": false,
+        "walking": false,
+        "guided": false,
+        "destination": "",
+        "zone": "room",
+        "position": {
+          "x": -0.85,
+          "y": 1.46,
+          "z": 0.12
+        },
+        "yaw": -2.961592653589793,
+        "pitch": -0.8,
+        "duck": {
+          "x": -11.758518304855196,
+          "y": 0.28,
+          "z": -0.23029940156289747
+        }
+      },
+      "gpu": "0",
+      "controls": {
+        "bookVisible": true,
+        "bookDisabled": false
+      },
+      "audio": {
+        "enabled": false,
+        "ready": false,
+        "rain": true,
+        "volume": 0.3,
+        "narrating": false,
+        "narrationPage": -1,
+        "narrationLoading": false,
+        "provider": "MiniMax",
+        "ambience": "CC0-field-recordings",
+        "spatial": true,
+        "zone": "room",
+        "bookHeld": true,
+        "bookAnchor": {
+          "x": -0.8320898763373472,
+          "y": 0.9599989818527271,
+          "z": 0.21838405749138412
+        }
+      }
+    },
+    {
+      "name": "08-terrace-back",
+      "world": {
+        "ready": true,
+        "lampLevel": 2,
+        "raining": true,
+        "page": 0,
+        "randomDuckCalls": true,
+        "viewMode": "third",
+        "camera": {
+          "mode": "third",
+          "blend": 1,
+          "boom": 2.718991952922805,
+          "position": [
+            -3.5423554623428757,
+            1.9937555441700168,
+            9.03401201952961
+          ]
+        },
+        "player": {
+          "ready": true,
+          "action": "Idle",
+          "heading": 3.941592653589793,
+          "sitAmount": 1,
+          "headHidden": false,
+          "holdingBook": false,
+          "bookAmount": 0,
+          "sipping": false,
+          "sipAge": null,
+          "blink": 0,
+          "headPitch": -0.011756328882698208,
+          "eyes": [
+            -5.491447681365422,
+            1.4796614511624178,
+            7.3163149409186135
+          ],
+          "position": [
+            -5.5,
+            0.12,
+            7.3
+          ],
+          "pelvis": [
+            -5.535867804581173,
+            0.71,
+            7.265164664497487
+          ],
+          "feet": [
+            [
+              -6.128795426327012,
+              0.5600000805886209,
+              6.856585647554328
+            ],
+            [
+              -5.961585846899796,
+              0.5599999780233127,
+              6.6844201403002925
+            ]
+          ],
+          "hands": [
+            [
+              -5.848163262770687,
+              0.7296882369549788,
+              7.401076737813246
+            ],
+            [
+              -5.407199525645081,
+              0.7384601959227903,
+              6.953296698592002
+            ]
+          ]
+        },
+        "seated": true,
+        "sitAmount": 1,
+        "posturePlace": "terrace",
+        "seatedPlace": "terrace",
+        "doorOpen": true,
+        "transitioning": false,
+        "walking": false,
+        "guided": false,
+        "destination": "",
+        "zone": "garden",
+        "position": {
+          "x": -5.5,
+          "y": 1.48,
+          "z": 7.3
+        },
+        "yaw": 0.8,
+        "pitch": -0.15,
+        "duck": {
+          "x": -11.226184663958076,
+          "y": 0.28,
+          "z": -0.4600036657287855
+        }
+      },
+      "gpu": "0",
+      "controls": {
+        "bookVisible": true,
+        "bookDisabled": false
+      },
+      "audio": {
+        "enabled": false,
+        "ready": false,
+        "rain": true,
+        "volume": 0.3,
+        "narrating": false,
+        "narrationPage": -1,
+        "narrationLoading": false,
+        "provider": "MiniMax",
+        "ambience": "CC0-field-recordings",
+        "spatial": true,
+        "zone": "garden",
+        "bookHeld": false,
+        "bookAnchor": {
+          "x": 0.28,
+          "y": 0.85,
+          "z": 0.17
+        }
+      }
+    },
+    {
+      "name": "09-terrace-side",
+      "world": {
+        "ready": true,
+        "lampLevel": 2,
+        "raining": true,
+        "page": 0,
+        "randomDuckCalls": true,
+        "viewMode": "third",
+        "camera": {
+          "mode": "third",
+          "blend": 1,
+          "boom": 2.7366746371951365,
+          "position": [
+            -7.177616878218838,
+            2.124011810663329,
+            9.276844151264878
+          ]
+        },
+        "player": {
+          "ready": true,
+          "action": "Idle",
+          "heading": 3.941592653589793,
+          "sitAmount": 1,
+          "headHidden": false,
+          "holdingBook": false,
+          "bookAmount": 0,
+          "sipping": false,
+          "sipAge": null,
+          "blink": 0,
+          "headPitch": -0.01098204211660299,
+          "eyes": [
+            -5.4903003357595495,
+            1.4797456293393214,
+            7.3152199124427835
+          ],
+          "position": [
+            -5.5,
+            0.12,
+            7.3
+          ],
+          "pelvis": [
+            -5.5358678045823195,
+            0.71,
+            7.265164664496374
+          ],
+          "feet": [
+            [
+              -6.12879542650822,
+              0.5600000799514278,
+              6.8565856475528015
+            ],
+            [
+              -5.961585846056891,
+              0.5599999794337238,
+              6.684420140793956
+            ]
+          ],
+          "hands": [
+            [
+              -5.847919897601239,
+              0.7300945088235165,
+              7.401164009514433
+            ],
+            [
+              -5.407270649689035,
+              0.7382287057821629,
+              6.953125125085829
+            ]
+          ]
+        },
+        "seated": true,
+        "sitAmount": 1,
+        "posturePlace": "terrace",
+        "seatedPlace": "terrace",
+        "doorOpen": true,
+        "transitioning": false,
+        "walking": false,
+        "guided": false,
+        "destination": "",
+        "zone": "garden",
+        "position": {
+          "x": -5.5,
+          "y": 1.48,
+          "z": 7.3
+        },
+        "yaw": -0.75,
+        "pitch": -0.2,
+        "duck": {
+          "x": -11.181313232235448,
+          "y": 0.28,
+          "z": -0.5161618110673585
+        }
+      },
+      "gpu": "0",
+      "controls": {
+        "bookVisible": true,
+        "bookDisabled": false
+      },
+      "audio": {
+        "enabled": false,
+        "ready": false,
+        "rain": true,
+        "volume": 0.3,
+        "narrating": false,
+        "narrationPage": -1,
+        "narrationLoading": false,
+        "provider": "MiniMax",
+        "ambience": "CC0-field-recordings",
+        "spatial": true,
+        "zone": "garden",
+        "bookHeld": false,
+        "bookAnchor": {
+          "x": 0.28,
+          "y": 0.85,
+          "z": 0.17
+        }
+      }
+    },
+    {
+      "name": "10-terrace-held-back",
+      "world": {
+        "ready": true,
+        "lampLevel": 2,
+        "raining": true,
+        "page": 0,
+        "randomDuckCalls": true,
+        "viewMode": "third",
+        "camera": {
+          "mode": "third",
+          "blend": 1,
+          "boom": 2.7271281518769204,
+          "position": [
+            -3.536747663432167,
+            1.996011051055038,
+            9.039458395709202
+          ]
+        },
+        "player": {
+          "ready": true,
+          "action": "Idle",
+          "heading": 3.941592653589793,
+          "sitAmount": 1,
+          "headHidden": false,
+          "holdingBook": true,
+          "bookAmount": 0.9988931642386573,
+          "sipping": false,
+          "sipAge": null,
+          "blink": 0,
+          "headPitch": 0.578374480781274,
+          "eyes": [
+            -5.5335873245968035,
+            1.427430227082655,
+            7.275023760793519
+          ],
+          "position": [
+            -5.5,
+            0.12,
+            7.3
+          ],
+          "pelvis": [
+            -5.535867804587707,
+            0.71,
+            7.2651646644911425
+          ],
+          "feet": [
+            [
+              -6.1287954283535635,
+              0.5600000817295396,
+              6.856585646767424
+            ],
+            [
+              -5.961585849195212,
+              0.5599999745933685,
+              6.6844201385454145
+            ]
+          ],
+          "hands": [
+            [
+              -5.765341520895594,
+              1.0349242824310931,
+              7.25556495686709
+            ],
+            [
+              -5.55267753053412,
+              1.035414723643061,
+              7.035292463457235
+            ]
+          ]
+        },
+        "seated": true,
+        "sitAmount": 1,
+        "posturePlace": "terrace",
+        "seatedPlace": "terrace",
+        "doorOpen": true,
+        "transitioning": false,
+        "walking": false,
+        "guided": false,
+        "destination": "",
+        "zone": "garden",
+        "position": {
+          "x": -5.5,
+          "y": 1.48,
+          "z": 7.3
+        },
+        "yaw": 0.8,
+        "pitch": -0.15,
+        "duck": {
+          "x": -10.941284713767146,
+          "y": 0.28,
+          "z": -0.8197355891368634
+        }
+      },
+      "gpu": "0",
+      "controls": {
+        "bookVisible": true,
+        "bookDisabled": false
+      },
+      "audio": {
+        "enabled": false,
+        "ready": false,
+        "rain": true,
+        "volume": 0.3,
+        "narrating": false,
+        "narrationPage": -1,
+        "narrationLoading": false,
+        "provider": "MiniMax",
+        "ambience": "CC0-field-recordings",
+        "spatial": true,
+        "zone": "garden",
+        "bookHeld": true,
+        "bookAnchor": {
+          "x": -5.7008570580626845,
+          "y": 1.0799991259344635,
+          "z": 7.104920450661163
+        }
+      }
+    },
+    {
+      "name": "11-terrace-held-first",
+      "world": {
+        "ready": true,
+        "lampLevel": 2,
+        "raining": true,
+        "page": 0,
+        "randomDuckCalls": true,
+        "viewMode": "first",
+        "camera": {
+          "mode": "first",
+          "blend": 0,
+          "boom": 2.776465248919812,
+          "position": [
+            -5.532857732661991,
+            1.4411291841324358,
+            7.275937227984227
+          ]
+        },
+        "player": {
+          "ready": true,
+          "action": "Idle",
+          "heading": 3.941592653589793,
+          "sitAmount": 1,
+          "headHidden": true,
+          "holdingBook": true,
+          "bookAmount": 0.9999820962433782,
+          "sipping": false,
+          "sipAge": null,
+          "blink": 0,
+          "headPitch": 0.58645165762192,
+          "eyes": [
+            -5.532857732661991,
+            1.426129184132436,
+            7.275937227984227
+          ],
+          "position": [
+            -5.5,
+            0.12,
+            7.3
+          ],
+          "pelvis": [
+            -5.535867804581027,
+            0.71,
+            7.265164664497629
+          ],
+          "feet": [
+            [
+              -6.128795427746626,
+              0.5600000799352588,
+              6.856585646320661
+            ],
+            [
+              -5.961585848370944,
+              0.5599999776109105,
+              6.684420139137022
+            ]
+          ],
+          "hands": [
+            [
+              -5.7656911958763954,
+              1.0353239729749293,
+              7.255240108859841
+            ],
+            [
+              -5.552507368707795,
+              1.035332324523803,
+              7.035716768256135
+            ]
+          ]
+        },
+        "seated": true,
+        "sitAmount": 1,
+        "posturePlace": "terrace",
+        "seatedPlace": "terrace",
+        "doorOpen": true,
+        "transitioning": false,
+        "walking": false,
+        "guided": false,
+        "destination": "",
+        "zone": "garden",
+        "position": {
+          "x": -5.5,
+          "y": 1.48,
+          "z": 7.3
+        },
+        "yaw": 0.8,
+        "pitch": -0.94,
+        "duck": {
+          "x": -10.796890195969876,
+          "y": 0.28,
+          "z": -1.0103723865729388
+        }
+      },
+      "gpu": "0",
+      "controls": {
+        "bookVisible": true,
+        "bookDisabled": false
+      },
+      "audio": {
+        "enabled": false,
+        "ready": false,
+        "rain": true,
+        "volume": 0.3,
+        "narrating": false,
+        "narrationPage": -1,
+        "narrationLoading": false,
+        "provider": "MiniMax",
+        "ambience": "CC0-field-recordings",
+        "spatial": true,
+        "zone": "garden",
+        "bookHeld": true,
+        "bookAnchor": {
+          "x": -5.700859704758671,
+          "y": 1.079999999771134,
+          "z": 7.10492212094533
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "roomSitTrace": [
+    {
+      "x": 0.020000000000000018,
+      "y": 1.65,
+      "z": 1.08
+    },
+    {
+      "x": 0.020000000000000018,
+      "y": 1.65,
+      "z": 1.08
+    },
+    {
+      "x": 0.016996620739916927,
+      "y": 1.65,
+      "z": 1.0766859263337014
+    },
+    {
+      "x": 0.008267764089153314,
+      "y": 1.65,
+      "z": 1.0670540845121692
+    },
+    {
+      "x": -0.0057646482580623395,
+      "y": 1.65,
+      "z": 1.0515700433014485
+    },
+    {
+      "x": -0.02467869460750155,
+      "y": 1.65,
+      "z": 1.0306993714675845
+    },
+    {
+      "x": -0.04805245326493583,
+      "y": 1.65,
+      "z": 1.0049076377766226
+    },
+    {
+      "x": -0.07546400253613669,
+      "y": 1.65,
+      "z": 0.9746604109946079
+    },
+    {
+      "x": -0.10649142072687567,
+      "y": 1.65,
+      "z": 0.9404232598875855
+    },
+    {
+      "x": -0.17770617709005396,
+      "y": 1.65,
+      "z": 0.8618414597626991
+    },
+    {
+      "x": -0.21704967187403634,
+      "y": 1.65,
+      "z": 0.8184279482769254
+    },
+    {
+      "x": -0.25832134880064284,
+      "y": 1.65,
+      "z": 0.7728867875303251
+    },
+    {
+      "x": -0.30109928617564513,
+      "y": 1.65,
+      "z": 0.7256835462889433
+    },
+    {
+      "x": -0.3449615623048146,
+      "y": 1.65,
+      "z": 0.6772837933188253
+    },
+    {
+      "x": -0.38948625549392285,
+      "y": 1.65,
+      "z": 0.6281530973860161
+    },
+    {
+      "x": -0.4342514440487413,
+      "y": 1.65,
+      "z": 0.5787570272565613
+    },
+    {
+      "x": -0.47883520627504134,
+      "y": 1.65,
+      "z": 0.5295611516965061
+    },
+    {
+      "x": -0.522815620478595,
+      "y": 1.65,
+      "z": 0.4810310394718952
+    },
+    {
+      "x": -0.5657707649651732,
+      "y": 1.65,
+      "z": 0.43363225934877436
+    },
+    {
+      "x": -0.5657707649651732,
+      "y": 1.65,
+      "z": 0.43363225934877436
+    },
+    {
+      "x": -0.6072787180405477,
+      "y": 1.65,
+      "z": 0.3878303800931887
+    },
+    {
+      "x": -0.6072787180405477,
+      "y": 1.65,
+      "z": 0.3878303800931887
+    },
+    {
+      "x": -0.64691755801049,
+      "y": 1.65,
+      "z": 0.34409097047118353
+    },
+    {
+      "x": -0.64691755801049,
+      "y": 1.65,
+      "z": 0.34409097047118353
+    },
+    {
+      "x": -0.6842653631807716,
+      "y": 1.65,
+      "z": 0.3028795992488037
+    },
+    {
+      "x": -0.6842653631807716,
+      "y": 1.65,
+      "z": 0.3028795992488037
+    },
+    {
+      "x": -0.7189002118571641,
+      "y": 1.65,
+      "z": 0.26466183519209474
+    },
+    {
+      "x": -0.750400182345439,
+      "y": 1.65,
+      "z": 0.22990324706710175
+    },
+    {
+      "x": -0.750400182345439,
+      "y": 1.65,
+      "z": 0.22990324706710175
+    },
+    {
+      "x": -0.7783433529513678,
+      "y": 1.65,
+      "z": 0.1990694036398699
+    },
+    {
+      "x": -0.7783433529513678,
+      "y": 1.65,
+      "z": 0.1990694036398699
+    },
+    {
+      "x": -0.8023078019807219,
+      "y": 1.6499905640153856,
+      "z": 0.17262587367644466
+    },
+    {
+      "x": -0.8023078019807219,
+      "y": 1.6499905640153856,
+      "z": 0.17262587367644466
+    },
+    {
+      "x": -0.821871607739273,
+      "y": 1.6486578232210394,
+      "z": 0.1510382259428712
+    },
+    {
+      "x": -0.8366128485327924,
+      "y": 1.645219418952383,
+      "z": 0.1347720292051946
+    },
+    {
+      "x": -0.8366128485327924,
+      "y": 1.645219418952383,
+      "z": 0.1347720292051946
+    },
+    {
+      "x": -0.8461096026670518,
+      "y": 1.639886869388654,
+      "z": 0.12429285222945996
+    },
+    {
+      "x": -0.8461096026670518,
+      "y": 1.639886869388654,
+      "z": 0.12429285222945996
+    },
+    {
+      "x": -0.8499399484478226,
+      "y": 1.6328716927090898,
+      "z": 0.12006626378171292
+    },
+    {
+      "x": -0.8499399484478226,
+      "y": 1.6328716927090898,
+      "z": 0.12006626378171292
+    },
+    {
+      "x": -0.85,
+      "y": 1.6243854070929282,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.614639530719407,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.614639530719407,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.6038455817677635,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.6038455817677635,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.5922150784172349,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.5922150784172349,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.5922150784172349,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.5922150784172349,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.5799595388470595,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.567290481236475,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.5544194237647182,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.5544194237647182,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.5415578846110272,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.5289173819546393,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.505145558850724,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.4996926841577296,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.4894893811080072,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.4894893811080072,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.4894893811080072,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.480458523325799,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.480458523325799,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.4728116289903421,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.4728116289903421,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.4728116289903421,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.4667602162808744,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.4667602162808744,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.4625158033766337,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.4625158033766337,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.4602899084568568,
+      "z": 0.12
+    },
+    {
+      "x": -0.85,
+      "y": 1.46,
+      "z": 0.12
+    }
+  ]
+}

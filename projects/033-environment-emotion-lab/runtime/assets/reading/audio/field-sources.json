@@ -1,0 +1,24 @@
+[
+  {
+    "file": "assets/reading/audio/raw/rain-leaves.mp3",
+    "title": "Rain on leaves",
+    "author": "SamsterBirdies",
+    "source": "https://freesound.org/people/SamsterBirdies/sounds/584272/",
+    "download": "https://cdn.freesound.org/previews/584/584272_5487341-hq.mp3",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "bytes": 1270656,
+    "sha256": "98937a7ce64e973dbaa3d7879f41500d4e15e3b8b4ea30f6b927af5bf0d53977",
+    "type": "Field recording; public high-quality audition"
+  },
+  {
+    "file": "assets/reading/audio/raw/woodland-wind.ogg",
+    "title": "WIND - 1",
+    "author": "SamuelGremaud",
+    "source": "https://freesound.org/people/SamuelGremaud/sounds/547472/",
+    "license": "CC0-1.0",
+    "bytes": 374905,
+    "sha256": "5563b42caa0fabbcbf0c7b5e208d5f6fed9ab1992bac77a69f4c532639bd6ba4",
+    "type": "Existing project copy of field recording; see earth-within/assets/audio/SOURCES.md"
+  }
+]

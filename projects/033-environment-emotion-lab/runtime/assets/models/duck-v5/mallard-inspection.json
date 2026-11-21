@@ -1,0 +1,63 @@
+{
+  "bytes": 300480,
+  "sha256": "eba344f92bf3c699bfc5441400b826ee458a5ac85970cf91e1487c56b326eecb",
+  "asset": {
+    "generator": "glTF-Transform v4.5.1",
+    "version": "2.0",
+    "extras": {
+      "author": "3Dima (https://sketchfab.com/Hdjusj)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/realistic-mallard-duck-game-ready-asset-dd33cd2e30944a4aae2de1a06a828f4f",
+      "title": "Realistic Mallard Duck - Game Ready Asset"
+    }
+  },
+  "extensions": [
+    "EXT_meshopt_compression",
+    "EXT_texture_webp",
+    "KHR_mesh_quantization"
+  ],
+  "triangles": 8439,
+  "meshes": 1,
+  "skins": 0,
+  "animations": [],
+  "images": [
+    {
+      "mimeType": "image/webp",
+      "bufferView": 0
+    }
+  ],
+  "materials": [
+    {
+      "name": "material_0",
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 0.9,
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 0
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Object_5",
+      "translation": [
+        9.150517405487346e-05,
+        -0.0007476806640625,
+        0.0007430399621739526
+      ],
+      "rotation": [
+        0,
+        -0.6813605783426514,
+        0,
+        0.7319479232025784
+      ],
+      "scale": [
+        0.49925232616380666,
+        0.4992523193359375,
+        0.49925232616380666
+      ],
+      "mesh": 0
+    }
+  ]
+}

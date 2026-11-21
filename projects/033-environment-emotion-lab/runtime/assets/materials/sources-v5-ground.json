@@ -1,0 +1,114 @@
+{
+  "provider": "Poly Haven",
+  "resolution": "1k",
+  "assets": [
+    {
+      "asset": "mud_forest",
+      "channel": "color",
+      "file": "assets/materials/mud_forest-color.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/mud_forest/mud_forest_diff_1k.jpg",
+      "md5": "d3ea8fc962bbf54d66fc5723cd0096c1",
+      "sha256": "6b874ef298dd06671624032311e0dd1456251a92e396883852bf5ec75cd099eb",
+      "bytes": 952076,
+      "source": "https://polyhaven.com/a/mud_forest",
+      "license": "CC0 1.0",
+      "license_url": "https://polyhaven.com/license"
+    },
+    {
+      "asset": "mud_forest",
+      "channel": "normal",
+      "file": "assets/materials/mud_forest-normal.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/mud_forest/mud_forest_nor_gl_1k.jpg",
+      "md5": "6e2f0d15fdf402ca5221f63d0bfbeb60",
+      "sha256": "7ccce706a05d804ecf961c4c6be2ab5f496e717e05b13bd87fa086c9e082c3cf",
+      "bytes": 1480930,
+      "source": "https://polyhaven.com/a/mud_forest",
+      "license": "CC0 1.0",
+      "license_url": "https://polyhaven.com/license"
+    },
+    {
+      "asset": "mud_forest",
+      "channel": "roughness",
+      "file": "assets/materials/mud_forest-roughness.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/mud_forest/mud_forest_rough_1k.jpg",
+      "md5": "7e8295bca2f2e7fe13c09b9ab0d6f67d",
+      "sha256": "311356ce27ac527a429184145a5939c015b6f1671886e6f6370591cb03331861",
+      "bytes": 251645,
+      "source": "https://polyhaven.com/a/mud_forest",
+      "license": "CC0 1.0",
+      "license_url": "https://polyhaven.com/license"
+    },
+    {
+      "asset": "brown_mud_rocks_01",
+      "channel": "color",
+      "file": "assets/materials/brown_mud_rocks_01-color.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/brown_mud_rocks_01/brown_mud_rocks_01_diff_1k.jpg",
+      "md5": "19e4d0066282bd8439bdc713310bbbe4",
+      "sha256": "805675195f875f75b8f34410d8ead8b75c25643cdb2c0a8b0936d0f2698cce8c",
+      "bytes": 887215,
+      "source": "https://polyhaven.com/a/brown_mud_rocks_01",
+      "license": "CC0 1.0",
+      "license_url": "https://polyhaven.com/license"
+    },
+    {
+      "asset": "brown_mud_rocks_01",
+      "channel": "normal",
+      "file": "assets/materials/brown_mud_rocks_01-normal.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/brown_mud_rocks_01/brown_mud_rocks_01_nor_gl_1k.jpg",
+      "md5": "aea4a53ff5a38070e7dbda4feb81a0b9",
+      "sha256": "755bb531b62b3395879d6df2aeb435d1c97104a0c61b6c0e50a428ce676af738",
+      "bytes": 1400087,
+      "source": "https://polyhaven.com/a/brown_mud_rocks_01",
+      "license": "CC0 1.0",
+      "license_url": "https://polyhaven.com/license"
+    },
+    {
+      "asset": "brown_mud_rocks_01",
+      "channel": "roughness",
+      "file": "assets/materials/brown_mud_rocks_01-roughness.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/brown_mud_rocks_01/brown_mud_rocks_01_rough_1k.jpg",
+      "md5": "db5dd3d5b7bc5230f89581c511a51dbd",
+      "sha256": "c1cb623c31d87eee0726a9881fd9f29ddc2b409538774e686f31a8998394598c",
+      "bytes": 719533,
+      "source": "https://polyhaven.com/a/brown_mud_rocks_01",
+      "license": "CC0 1.0",
+      "license_url": "https://polyhaven.com/license"
+    },
+    {
+      "asset": "forest_ground_05",
+      "channel": "color",
+      "file": "assets/materials/forest_ground_05-color.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/forest_ground_05/forest_ground_05_diff_1k.jpg",
+      "md5": "7fcf121f5d2ac2ffe665d42d5fe69478",
+      "sha256": "9a2c6d085f05cee45d9dbc4b771829d2ad2116ed8a8dd528c5dee62bdbb00558",
+      "bytes": 655934,
+      "source": "https://polyhaven.com/a/forest_ground_05",
+      "license": "CC0 1.0",
+      "license_url": "https://polyhaven.com/license"
+    },
+    {
+      "asset": "forest_ground_05",
+      "channel": "normal",
+      "file": "assets/materials/forest_ground_05-normal.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/forest_ground_05/forest_ground_05_nor_gl_1k.jpg",
+      "md5": "4fd06cb053e3124afd06fbd2d87caa74",
+      "sha256": "49f9495b475f74f415345049b702d560205f4e51ebb60ce76ed2cd605fa52ed8",
+      "bytes": 1167042,
+      "source": "https://polyhaven.com/a/forest_ground_05",
+      "license": "CC0 1.0",
+      "license_url": "https://polyhaven.com/license"
+    },
+    {
+      "asset": "forest_ground_05",
+      "channel": "roughness",
+      "file": "assets/materials/forest_ground_05-roughness.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/forest_ground_05/forest_ground_05_rough_1k.jpg",
+      "md5": "c2619569b0867614b003f4b947ecf329",
+      "sha256": "de5afeb3c663c43a0c6a4a3ad622eba06acb53c46e2d72154af7678cd02b93d2",
+      "bytes": 330104,
+      "source": "https://polyhaven.com/a/forest_ground_05",
+      "license": "CC0 1.0",
+      "license_url": "https://polyhaven.com/license"
+    }
+  ]
+}

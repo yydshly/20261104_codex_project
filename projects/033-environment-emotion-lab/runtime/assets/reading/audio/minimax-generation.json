@@ -1,0 +1,21 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/music_generation",
+  "request": {
+    "model": "music-3.0",
+    "prompt": "自然环境声景，安静温暖的阅读房间，听者坐在关着的木窗旁。窗外细雨持续轻轻落在树叶和花园泥土上，极柔和的阔叶树沙沙声，偶尔一滴水落在窗沿。近处雨滴清晰但很轻，远处雨声细密且柔和，听起来隔着关闭的窗户，低沉柔软、具有自然空间感。自然、细微、不规则、连续稳定的雨和风声，适合长时间安静阅读。纯环境声音，无人声、无歌唱、无对白、无音乐、无乐器、无钢琴、无旋律、无节拍、无雷声、无大风、无交通。保持平缓音量，不要戏剧性起伏，不要开场或结束段落，便于平滑循环。",
+    "is_instrumental": true,
+    "stream": false,
+    "output_format": "hex",
+    "audio_setting": {
+      "sample_rate": 44100,
+      "bitrate": 256000,
+      "format": "mp3"
+    }
+  },
+  "requested_at": "2026-11-15T02:53:16.764209+00:00",
+  "purpose": "Generated ambient soundscape for the real-time reading window; not a field recording",
+  "error": {
+    "http_status": 410
+  }
+}

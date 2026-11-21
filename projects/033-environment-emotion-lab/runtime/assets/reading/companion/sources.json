@@ -1,0 +1,16 @@
+{
+  "file": "companion.glb",
+  "source": "https://github.com/microsoft/Microsoft-Rocketbox",
+  "character": "Male Adult 10",
+  "license": "MIT",
+  "bytes": 21879456,
+  "sha256": "03a215c373c12f4c9cc7e3e417cb2cc42cd3415b77b85588cdf13cc2a5d935e6",
+  "processing": "Reused local same-library mocap bake; source model, textures and motions are Microsoft Rocketbox. Source conversion record is source-manifest.json.",
+  "actions": [
+    "Idle",
+    "Walk",
+    "Wave",
+    "Point",
+    "LookAround"
+  ]
+}
