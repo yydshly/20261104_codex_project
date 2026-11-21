@@ -1,0 +1,74 @@
+{
+  "width": 640,
+  "height": 640,
+  "frames": 128,
+  "fps": 20,
+  "seconds": 6.4,
+  "loopCount": 0,
+  "endpointMAE": 0,
+  "decodedSeamMAE": 0.45793538411458334,
+  "decodedMeanAdjacentMAE": 0.3461378683255414,
+  "cameraTranslationPixels": 0,
+  "globalShear": 0,
+  "protectedStationaryPixelCount": 223010,
+  "protectedStationaryPixelErrors": 0,
+  "maximumSampledLeafDisplacementPixels": 2.2478497394862136,
+  "nineRegionActivity": [
+    {
+      "row": 1,
+      "column": 1,
+      "meanRGBDifference": 3.2003644191702016,
+      "activePixelFraction": 0.29132226850933457
+    },
+    {
+      "row": 1,
+      "column": 2,
+      "meanRGBDifference": 4.466089179836479,
+      "activePixelFraction": 0.32771275540567346
+    },
+    {
+      "row": 1,
+      "column": 3,
+      "meanRGBDifference": 5.818378599739681,
+      "activePixelFraction": 0.44478083453995
+    },
+    {
+      "row": 2,
+      "column": 1,
+      "meanRGBDifference": 7.1912686342362635,
+      "activePixelFraction": 0.4072604641936124
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "meanRGBDifference": 2.8005245872732334,
+      "activePixelFraction": 0.27503361326015563
+    },
+    {
+      "row": 2,
+      "column": 3,
+      "meanRGBDifference": 3.3840112325040668,
+      "activePixelFraction": 0.33798429204510555
+    },
+    {
+      "row": 3,
+      "column": 1,
+      "meanRGBDifference": 4.99363052666991,
+      "activePixelFraction": 0.38934228423500505
+    },
+    {
+      "row": 3,
+      "column": 2,
+      "meanRGBDifference": 4.041134658417816,
+      "activePixelFraction": 0.33486902724759776
+    },
+    {
+      "row": 3,
+      "column": 3,
+      "meanRGBDifference": 2.1080443706873946,
+      "activePixelFraction": 0.15933706000524064
+    }
+  ],
+  "gifBytes": 5319766,
+  "seamRatio": 1.3229855095886152
+}

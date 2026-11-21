@@ -1,0 +1,1927 @@
+{
+  "slug": "024-immersive-loop-research",
+  "date": "2026-11-21",
+  "mediaTag": "research-024-20261121",
+  "assetBase": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/research-024-20261121/projects/024-immersive-loop-research/",
+  "representatives": [
+    "v03",
+    "v12",
+    "v17"
+  ],
+  "sourceFiles": 156,
+  "publishedResearchFiles": 154,
+  "excluded": {
+    "forest-video-login-v18.png": "Historical account/login screenshot; not necessary for the research.",
+    "forest-bird-test-job-v18.json": "Private execution/account draft; replaced with factual public status.",
+    "latest-model-job-draft.json": "Unexecuted provider draft; replaced with factual public status."
+  },
+  "guide": {
+    "path": "assets/summary/understanding-overview-v1.png",
+    "sourceSha256": "79390c3e875b88e7b09ab097e0cffa4dd1e9ca5f9070917b4d0fbc1f2e0fcfde",
+    "publishedSha256": "79390c3e875b88e7b09ab097e0cffa4dd1e9ca5f9070917b4d0fbc1f2e0fcfde",
+    "unchanged": true
+  },
+  "files": [
+    {
+      "path": "docs/024-immersive-loop-research/index.html",
+      "bytes": 10230,
+      "sha256": "a9f053f31a893b8c4b64128cc5b0f00b1dcdde710529bf93946d01d742e89027",
+      "kind": "page",
+      "sourceSha256": "34a324e312500b3f2cfd576e35c409a48b44caa6d60b9b7042a77697cd590a34",
+      "unchanged": false
+    },
+    {
+      "path": "docs/024-immersive-loop-research/app.js",
+      "bytes": 21307,
+      "sha256": "3ed44aff416ebd2bf20a4dbd15baa3b19c182ec17236917a0df57a2b0b3e63cc",
+      "kind": "page",
+      "sourceSha256": "3ed44aff416ebd2bf20a4dbd15baa3b19c182ec17236917a0df57a2b0b3e63cc",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/styles.css",
+      "bytes": 27458,
+      "sha256": "2e2e1572e25cf3070721c7bcc2b9664fdfe8b128f301324b6996e81b28d332b1",
+      "kind": "page",
+      "sourceSha256": "2e2e1572e25cf3070721c7bcc2b9664fdfe8b128f301324b6996e81b28d332b1",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/summary/understanding-overview-v1.png",
+      "bytes": 2007863,
+      "sha256": "79390c3e875b88e7b09ab097e0cffa4dd1e9ca5f9070917b4d0fbc1f2e0fcfde",
+      "kind": "page",
+      "sourceSha256": "79390c3e875b88e7b09ab097e0cffa4dd1e9ca5f9070917b4d0fbc1f2e0fcfde",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/after-rain-contact-v8.jpg",
+      "bytes": 54278,
+      "sha256": "fc534b58866fbb8a4e3e9211b645b6adb5f1bc70cdaecd143f2b984a0eda0548",
+      "kind": "media-or-evidence",
+      "sourceSha256": "fc534b58866fbb8a4e3e9211b645b6adb5f1bc70cdaecd143f2b984a0eda0548",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/after-rain-native-sheet-v8.png",
+      "bytes": 2431095,
+      "sha256": "3f9d901bcd60e3c58c1542c1c7e24ad90ce8fb283a42a33e89445be73394d96d",
+      "kind": "media-or-evidence",
+      "sourceSha256": "3f9d901bcd60e3c58c1542c1c7e24ad90ce8fb283a42a33e89445be73394d96d",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/after-rain-provenance-v8.json",
+      "bytes": 4134,
+      "sha256": "29111842370239ca5c98204817b472cdc73b258ba084382912dd3d3084b03064",
+      "kind": "media-or-evidence",
+      "sourceSha256": "29111842370239ca5c98204817b472cdc73b258ba084382912dd3d3084b03064",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/after-rain-v8.gif",
+      "bytes": 7867540,
+      "sha256": "3ca52cc8017f45aef22f02472f289f7e2201ae90fa4040f05333978898c0da31",
+      "kind": "media-or-evidence",
+      "sourceSha256": "3ca52cc8017f45aef22f02472f289f7e2201ae90fa4040f05333978898c0da31",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/after-rain-v8.mp4",
+      "bytes": 706177,
+      "sha256": "4e3ccc9bb585c9bc0a4b79e11e72b7cb73ea0ee2c52b182cb9a1890524bc4db2",
+      "kind": "media-or-evidence",
+      "sourceSha256": "4e3ccc9bb585c9bc0a4b79e11e72b7cb73ea0ee2c52b182cb9a1890524bc4db2",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/after-rain-validation-v8.json",
+      "bytes": 688,
+      "sha256": "efba87785f6e75376b66f906ab2b6e4362ecb62988018d821659d61b4d25bd2b",
+      "kind": "media-or-evidence",
+      "sourceSha256": "edafe2c097fe558ec8e0d99defb36c72d59318dc2b5a417693fee4b5931b948e",
+      "unchanged": false
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/assemble-after-rain-v8.cjs",
+      "bytes": 3795,
+      "sha256": "8d15206aaa24d821e685abb0ed8df5dc599884794ae62070629927f958d8383f",
+      "kind": "media-or-evidence",
+      "sourceSha256": "8d15206aaa24d821e685abb0ed8df5dc599884794ae62070629927f958d8383f",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/assemble-mirror-v7.cjs",
+      "bytes": 4331,
+      "sha256": "115512a3d9f5378317874021b62612e64a966a44fe47c9b42d1a294894fe1545",
+      "kind": "media-or-evidence",
+      "sourceSha256": "115512a3d9f5378317874021b62612e64a966a44fe47c9b42d1a294894fe1545",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/assemble-sea-v10.cjs",
+      "bytes": 3776,
+      "sha256": "88666e6301df4631d3a248929e7882ff7fc1bf17dc5129483d39d2fef2187853",
+      "kind": "media-or-evidence",
+      "sourceSha256": "88666e6301df4631d3a248929e7882ff7fc1bf17dc5129483d39d2fef2187853",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/assemble-softglitch-v6.cjs",
+      "bytes": 3619,
+      "sha256": "4a6b1a88de78d72f8afe7e32a1ab54de54531d7622dc04c13d254c654d86af90",
+      "kind": "media-or-evidence",
+      "sourceSha256": "4a6b1a88de78d72f8afe7e32a1ab54de54531d7622dc04c13d254c654d86af90",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/autumn-breeze-anchored-v14.gif",
+      "bytes": 5319766,
+      "sha256": "547978e63abf1991d6c07e549cfc92e5a260befbd10969ea12a15de0aeab8334",
+      "kind": "media-or-evidence",
+      "sourceSha256": "547978e63abf1991d6c07e549cfc92e5a260befbd10969ea12a15de0aeab8334",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/autumn-breeze-anchored-v14.mp4",
+      "bytes": 2001271,
+      "sha256": "3663201333cdd78492e59580051d2b6f7f862acce1a1718ecd92d49cc791d891",
+      "kind": "media-or-evidence",
+      "sourceSha256": "3663201333cdd78492e59580051d2b6f7f862acce1a1718ecd92d49cc791d891",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/autumn-breeze-contact-v14.jpg",
+      "bytes": 102422,
+      "sha256": "998273d6164ebc998f906b764be2a4a1be837a59631363875230bf123d3d0361",
+      "kind": "media-or-evidence",
+      "sourceSha256": "998273d6164ebc998f906b764be2a4a1be837a59631363875230bf123d3d0361",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/autumn-breeze-provenance-v14.json",
+      "bytes": 1552,
+      "sha256": "8048bec0836682a2fbec40596494bca1d383dbb3465003782841f66b8d8b09c6",
+      "kind": "media-or-evidence",
+      "sourceSha256": "8048bec0836682a2fbec40596494bca1d383dbb3465003782841f66b8d8b09c6",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/autumn-breeze-validation-v14.json",
+      "bytes": 1782,
+      "sha256": "768c232aec9721491b35f3c86f01462ba8ba034e09c98e393d83fbcf20db9dac",
+      "kind": "media-or-evidence",
+      "sourceSha256": "3d6e40146bf620249f9a856ebfbb87cd6f6bd2295d3a3ac4c1dfa3495cf71d97",
+      "unchanged": false
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/autumn-canopy-contact-v13.jpg",
+      "bytes": 79941,
+      "sha256": "62ab4e936f34ee579637a2b5fb8174ccbbff68c57b34905773894d8162036af3",
+      "kind": "media-or-evidence",
+      "sourceSha256": "62ab4e936f34ee579637a2b5fb8174ccbbff68c57b34905773894d8162036af3",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/autumn-canopy-native-v13.png",
+      "bytes": 3826035,
+      "sha256": "4e9adfe89cd139c8612182c78b9e183faab09d2bd83dee7c2174403b405ea523",
+      "kind": "media-or-evidence",
+      "sourceSha256": "4e9adfe89cd139c8612182c78b9e183faab09d2bd83dee7c2174403b405ea523",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/autumn-canopy-provenance-v13.json",
+      "bytes": 3144,
+      "sha256": "6a82e25614b5b0d4b6f604af85e0624358d705c63567462a4e15a7314f335b63",
+      "kind": "media-or-evidence",
+      "sourceSha256": "6a82e25614b5b0d4b6f604af85e0624358d705c63567462a4e15a7314f335b63",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/autumn-canopy-validation-v13.json",
+      "bytes": 1638,
+      "sha256": "c69d5b5f8199d52c39e33385545535a2cb4826e5bbd681f0e69aca42c3ee70d0",
+      "kind": "media-or-evidence",
+      "sourceSha256": "dbd23599ba9d59480ff0dd4c320bc191c128dcf6e9f11fda8d12ab92b2da7e4f",
+      "unchanged": false
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/autumn-canopy-whole-v13.gif",
+      "bytes": 39739789,
+      "sha256": "e5674fd1436050e0a6f8f4a3e2562222d8bc9ece0f0d904fe0c686cb1d34e0cd",
+      "kind": "media-or-evidence",
+      "sourceSha256": "e5674fd1436050e0a6f8f4a3e2562222d8bc9ece0f0d904fe0c686cb1d34e0cd",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/autumn-canopy-whole-v13.mp4",
+      "bytes": 5565287,
+      "sha256": "a303c27dafbd0eb4ea370274a7a6dae91bc279cdffaff63776b5291a47d683a9",
+      "kind": "media-or-evidence",
+      "sourceSha256": "a303c27dafbd0eb4ea370274a7a6dae91bc279cdffaff63776b5291a47d683a9",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/breeze-contact.jpg",
+      "bytes": 51129,
+      "sha256": "e310ce3afd641504023719df0b7c60b3834f478875b4bfa8d9c3abd99276d81d",
+      "kind": "media-or-evidence",
+      "sourceSha256": "e310ce3afd641504023719df0b7c60b3834f478875b4bfa8d9c3abd99276d81d",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/breeze-preview-validation.json",
+      "bytes": 287,
+      "sha256": "18c80032ada3e4edcbca617ad3790e1f942a244ad690128b067f7fa10b62ea6d",
+      "kind": "media-or-evidence",
+      "sourceSha256": "cd76fe26cfe875613c87fb738115a4c2b5b240e9175420dd8749508344ebab25",
+      "unchanged": false
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/contact-sheet-v2.jpg",
+      "bytes": 66080,
+      "sha256": "30129baa73a47bfdbd14d7909303911806c557001708882962d10730c9d3e370",
+      "kind": "media-or-evidence",
+      "sourceSha256": "30129baa73a47bfdbd14d7909303911806c557001708882962d10730c9d3e370",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/contact-sheet-v3.jpg",
+      "bytes": 71667,
+      "sha256": "f76d026487fa87307672fd0d690096935af04d91f31674ee4068504625871fc3",
+      "kind": "media-or-evidence",
+      "sourceSha256": "f76d026487fa87307672fd0d690096935af04d91f31674ee4068504625871fc3",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/contact-sheet.jpg",
+      "bytes": 64896,
+      "sha256": "6c38ca39065e0cf6c6358a95d96810dc93fd2a49c41861dd8e1dae837ce1b271",
+      "kind": "media-or-evidence",
+      "sourceSha256": "6c38ca39065e0cf6c6358a95d96810dc93fd2a49c41861dd8e1dae837ce1b271",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/dusk-base-v9.png",
+      "bytes": 2120712,
+      "sha256": "f1738c14d320018a38f1bbf857bc36b913526c7e9901f9e9368b88000e7997e2",
+      "kind": "media-or-evidence",
+      "sourceSha256": "f1738c14d320018a38f1bbf857bc36b913526c7e9901f9e9368b88000e7997e2",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/dusk-contact-v9.jpg",
+      "bytes": 52117,
+      "sha256": "b1c9f0512ea7f389e792c162574672b2d1bd60c5cedddb55682aefedf78850bc",
+      "kind": "media-or-evidence",
+      "sourceSha256": "b1c9f0512ea7f389e792c162574672b2d1bd60c5cedddb55682aefedf78850bc",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/dusk-first-v9.png",
+      "bytes": 288135,
+      "sha256": "f79b7f960f8a6cdddfc597067aab63c406921f57c753c1508d6e2ba174fc25bc",
+      "kind": "media-or-evidence",
+      "sourceSha256": "f79b7f960f8a6cdddfc597067aab63c406921f57c753c1508d6e2ba174fc25bc",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/dusk-notes-v9.png",
+      "bytes": 541234,
+      "sha256": "a4437f1733dc8a98ad9878b278b2fdb4387131f8d902ce1839145182be2d3e10",
+      "kind": "media-or-evidence",
+      "sourceSha256": "a4437f1733dc8a98ad9878b278b2fdb4387131f8d902ce1839145182be2d3e10",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/dusk-provenance-v9.json",
+      "bytes": 4339,
+      "sha256": "b454e5235fa74fa2177bfd5a69ca9674a6719b59a3a9fd18e421c069018961d3",
+      "kind": "media-or-evidence",
+      "sourceSha256": "b454e5235fa74fa2177bfd5a69ca9674a6719b59a3a9fd18e421c069018961d3",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/dusk-validation-v9.json",
+      "bytes": 316,
+      "sha256": "a15cf08877b433de8677e33124a8a44572729e1051ed60ba5cd863f0f3ada5d9",
+      "kind": "media-or-evidence",
+      "sourceSha256": "67548027e4a732253bc2bbe7a9e1609ddeb6f36081d20f9e95553c8bf0ecac29",
+      "unchanged": false
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/encoded-validation-v2.json",
+      "bytes": 448,
+      "sha256": "a06f582dcd3ce702956e34ddbc29900399afd64c1c64236ade63e214644212d1",
+      "kind": "media-or-evidence",
+      "sourceSha256": "6b8151fbd5ff1eaa11ed83ef8f450bea5d99a5442172c99560d8f1c803ebd073",
+      "unchanged": false
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/flower-detail-v2.jpg",
+      "bytes": 62521,
+      "sha256": "8b3212ba1b4b462c9c0a9bac31c86bf36e88ca09215dbf8ba424f0b0e70673a4",
+      "kind": "media-or-evidence",
+      "sourceSha256": "8b3212ba1b4b462c9c0a9bac31c86bf36e88ca09215dbf8ba424f0b0e70673a4",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/fold-contact-v4.jpg",
+      "bytes": 85986,
+      "sha256": "8b312f194c18fd749013d2fa4e5904fecbb55f542abc077bc4b593e5d6224d6f",
+      "kind": "media-or-evidence",
+      "sourceSha256": "8b312f194c18fd749013d2fa4e5904fecbb55f542abc077bc4b593e5d6224d6f",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-bird-start-provenance-v18.json",
+      "bytes": 3184,
+      "sha256": "f061887aa0f898a9df5a72f6a48d6c3d0cddbbc5b686a96317e1b9e0b80ca7d0",
+      "kind": "media-or-evidence",
+      "sourceSha256": "f061887aa0f898a9df5a72f6a48d6c3d0cddbbc5b686a96317e1b9e0b80ca7d0",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-bird-test-start-v18.png",
+      "bytes": 2860520,
+      "sha256": "6afbb2939c1730530c861c8b01b8570a39c66b33db4bcc76115bc17d88b4dc32",
+      "kind": "media-or-evidence",
+      "sourceSha256": "6afbb2939c1730530c861c8b01b8570a39c66b33db4bcc76115bc17d88b4dc32",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-branch-contact-v16.jpg",
+      "bytes": 146690,
+      "sha256": "7118308a039f05dc05fcd6274460ae72bb6411c892af19806bf1ca28eab45f69",
+      "kind": "media-or-evidence",
+      "sourceSha256": "7118308a039f05dc05fcd6274460ae72bb6411c892af19806bf1ca28eab45f69",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-branch-detail-v16.png",
+      "bytes": 3530170,
+      "sha256": "771ea28c39071db0c5659269799a9f8b0066ca74ea8cf43e49d27bd9ffa36b2b",
+      "kind": "media-or-evidence",
+      "sourceSha256": "771ea28c39071db0c5659269799a9f8b0066ca74ea8cf43e49d27bd9ffa36b2b",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-branch-provenance-v16.json",
+      "bytes": 4667,
+      "sha256": "8760f90be33b457b90e2a0a77da7270f75a843bb6796908ac1fa7eb0af731b08",
+      "kind": "media-or-evidence",
+      "sourceSha256": "8760f90be33b457b90e2a0a77da7270f75a843bb6796908ac1fa7eb0af731b08",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-branch-startle-v16.gif",
+      "bytes": 3688609,
+      "sha256": "c243ca5872978c6b768a6c45db071d47c90db05a467929a1a28a82f6d8c7e561",
+      "kind": "media-or-evidence",
+      "sourceSha256": "c243ca5872978c6b768a6c45db071d47c90db05a467929a1a28a82f6d8c7e561",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-branch-startle-v16.mp4",
+      "bytes": 1150966,
+      "sha256": "399c1f59c033dcf8a7d3631b0ae4455f665c65327c51cd740d36af223768b4cc",
+      "kind": "media-or-evidence",
+      "sourceSha256": "399c1f59c033dcf8a7d3631b0ae4455f665c65327c51cd740d36af223768b4cc",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-branch-timeline-v16.json",
+      "bytes": 32307,
+      "sha256": "04cf42e703e0980beb795c4f08ec8053c71259765c28652ac42b4c36cb29e5f9",
+      "kind": "media-or-evidence",
+      "sourceSha256": "ada53c6ad27857f1025282334972c280661b5549a2fc111557e4a22662aa87b1",
+      "unchanged": false
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-branch-validation-v16.json",
+      "bytes": 1303,
+      "sha256": "7debd306aaf90f1f86106244bc82f78d51c56dbb33bf07d8815178330cde5656",
+      "kind": "media-or-evidence",
+      "sourceSha256": "046698b58a298f10cb920492d73a69822e1a6e75921bbbaf725c3822a5b4886e",
+      "unchanged": false
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-contacts-detail-v16.png",
+      "bytes": 1685186,
+      "sha256": "f1473ff360aff5eed2b7e8a4a5ca7a5db846ee82cedb5ff6a47a124dfe791f53",
+      "kind": "media-or-evidence",
+      "sourceSha256": "f1473ff360aff5eed2b7e8a4a5ca7a5db846ee82cedb5ff6a47a124dfe791f53",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-crow-sprites-v15.png",
+      "bytes": 793779,
+      "sha256": "cd7f2655f048897b7b2e2d9f35e3250ddbbf246a191836135f8eedea723cebb7",
+      "kind": "media-or-evidence",
+      "sourceSha256": "cd7f2655f048897b7b2e2d9f35e3250ddbbf246a191836135f8eedea723cebb7",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-departing-v16.png",
+      "bytes": 1168506,
+      "sha256": "ba2f81a63adcd4c1fe2e3748df4bd98e75b78c313b3951c3cfdce392be95816e",
+      "kind": "media-or-evidence",
+      "sourceSha256": "ba2f81a63adcd4c1fe2e3748df4bd98e75b78c313b3951c3cfdce392be95816e",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-fox-sprites-v15.png",
+      "bytes": 626213,
+      "sha256": "4a954a7ba02d6fd147641e497be2c0cce3585bc068ecb0ff61634e8c588012a4",
+      "kind": "media-or-evidence",
+      "sourceSha256": "4a954a7ba02d6fd147641e497be2c0cce3585bc068ecb0ff61634e8c588012a4",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-light-a-v17.png",
+      "bytes": 1132848,
+      "sha256": "f098594f20c5b0dd5e41d6b1c470d07801fd7e6c7824b1ff8fbbafed905f2df5",
+      "kind": "media-or-evidence",
+      "sourceSha256": "f098594f20c5b0dd5e41d6b1c470d07801fd7e6c7824b1ff8fbbafed905f2df5",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-light-b-v17.png",
+      "bytes": 1145330,
+      "sha256": "af4a79475e824b7f3cbf458c65232a69b240939c9f9a0b788953617765d9d9af",
+      "kind": "media-or-evidence",
+      "sourceSha256": "af4a79475e824b7f3cbf458c65232a69b240939c9f9a0b788953617765d9d9af",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-light-c-v17.png",
+      "bytes": 1135398,
+      "sha256": "9539e1c2ecf05413381481d200c35eaac23360be199a180e3aaee868b9dec263",
+      "kind": "media-or-evidence",
+      "sourceSha256": "9539e1c2ecf05413381481d200c35eaac23360be199a180e3aaee868b9dec263",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-light-contact-v17.jpg",
+      "bytes": 133534,
+      "sha256": "188eaf63d9f9fcdb3bb91f0026ef8df3f5685289dc4e459996418adb59197fa4",
+      "kind": "media-or-evidence",
+      "sourceSha256": "188eaf63d9f9fcdb3bb91f0026ef8df3f5685289dc4e459996418adb59197fa4",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-light-first-v17.png",
+      "bytes": 1102460,
+      "sha256": "8c7ed5052b92fd64408672f69c0b914c62d82c5fc08c0f14fed603bf9508b732",
+      "kind": "media-or-evidence",
+      "sourceSha256": "8c7ed5052b92fd64408672f69c0b914c62d82c5fc08c0f14fed603bf9508b732",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-light-provenance-v17.json",
+      "bytes": 2382,
+      "sha256": "0a7f74ff264635da6f7bcf5167de5b0d128478c05cf441a31cc217e8864ff8df",
+      "kind": "media-or-evidence",
+      "sourceSha256": "014bff015ecd90cee772bdbb902d4291ae2d05f8ecd62b8e5ed16b554cd7a714",
+      "unchanged": false
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-light-shadow-v17.gif",
+      "bytes": 9802444,
+      "sha256": "bf1f0afd2301ad17ae310259890523c025843d0ddb53a8843eddde2cec666971",
+      "kind": "media-or-evidence",
+      "sourceSha256": "bf1f0afd2301ad17ae310259890523c025843d0ddb53a8843eddde2cec666971",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-light-shadow-v17.mp4",
+      "bytes": 1686009,
+      "sha256": "56516bed6c092b81cf1b40bca280710d09acf5a68a655c941fc6d749b4b96460",
+      "kind": "media-or-evidence",
+      "sourceSha256": "56516bed6c092b81cf1b40bca280710d09acf5a68a655c941fc6d749b4b96460",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-light-timeline-v17.json",
+      "bytes": 42790,
+      "sha256": "7344a82902d46cd5361c381fa8bf68e8240365d66161613dd0ae720e228c3aee",
+      "kind": "media-or-evidence",
+      "sourceSha256": "8eae1a0fc4e7740cfa397dd56ce74a262766d426a5ecd9124eed724057d81c98",
+      "unchanged": false
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-light-validation-v17.json",
+      "bytes": 1446,
+      "sha256": "3953b9cfb7a2bf97e04d656ff4a4fa29d7f546531dae796d91f93c6d41a2d281",
+      "kind": "media-or-evidence",
+      "sourceSha256": "f76054e7d8ba0521f453aca25b2c7a428204c9c5dce3a567c930157fe4786d53",
+      "unchanged": false
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-perch-sprites-v16.png",
+      "bytes": 1493418,
+      "sha256": "c8569892bdbc979ca2d269909f50d9e735f84d275533377f60eb4a3c23ef9473",
+      "kind": "media-or-evidence",
+      "sourceSha256": "c8569892bdbc979ca2d269909f50d9e735f84d275533377f60eb4a3c23ef9473",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-perched-v16.png",
+      "bytes": 1139877,
+      "sha256": "754137955e86fe99430a57b1adf8e54b07e548b068dd0db422ba66748add9f2e",
+      "kind": "media-or-evidence",
+      "sourceSha256": "754137955e86fe99430a57b1adf8e54b07e548b068dd0db422ba66748add9f2e",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-realism-test-brief-v18.json",
+      "bytes": 3839,
+      "sha256": "5f4b8fb39ad9506dd9f9c12d6751bd47985c474000ff1b8c30427ce06b4a0fc0",
+      "kind": "media-or-evidence",
+      "sourceSha256": "5f4b8fb39ad9506dd9f9c12d6751bd47985c474000ff1b8c30427ce06b4a0fc0",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-returning-v16.png",
+      "bytes": 1167625,
+      "sha256": "ce9cc00246c54911f7f70c2360789597ae118d0df92923e34b7b1d23ca8ea13f",
+      "kind": "media-or-evidence",
+      "sourceSha256": "ce9cc00246c54911f7f70c2360789597ae118d0df92923e34b7b1d23ca8ea13f",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-startle-birds-v15.png",
+      "bytes": 1139432,
+      "sha256": "94b200870508a662887fcf15e56150a31d341677522dd666f547a309cf76116e",
+      "kind": "media-or-evidence",
+      "sourceSha256": "94b200870508a662887fcf15e56150a31d341677522dd666f547a309cf76116e",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-startle-contact-v15.jpg",
+      "bytes": 146275,
+      "sha256": "0d536d4d1b124ff28133602bf7540fdc0c44d28ff7784bfc2c5a7ae6caea8db0",
+      "kind": "media-or-evidence",
+      "sourceSha256": "0d536d4d1b124ff28133602bf7540fdc0c44d28ff7784bfc2c5a7ae6caea8db0",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-startle-event-v15.png",
+      "bytes": 1140458,
+      "sha256": "07e233a9405178a0a21cc27c5e229d9439824e829a18fe7ee9d87d492a7c5000",
+      "kind": "media-or-evidence",
+      "sourceSha256": "07e233a9405178a0a21cc27c5e229d9439824e829a18fe7ee9d87d492a7c5000",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-startle-provenance-v15.json",
+      "bytes": 6504,
+      "sha256": "09e669a905ebce18ac83959712267436b51deb42d5eb9bccf492b2d8ad9d5567",
+      "kind": "media-or-evidence",
+      "sourceSha256": "09e669a905ebce18ac83959712267436b51deb42d5eb9bccf492b2d8ad9d5567",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-startle-timeline-v15.json",
+      "bytes": 14852,
+      "sha256": "5de2c1a1324632332cfbdcd93c5b90847e118909087cc7fd912552c59979db91",
+      "kind": "media-or-evidence",
+      "sourceSha256": "65f520d37607d7a99e49b7c379c9e859170c98227f19873c9047552428a5e36d",
+      "unchanged": false
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-startle-v15.gif",
+      "bytes": 3162423,
+      "sha256": "8aa84c89af8a8678ade2d412f21864c38b9f84063ed2010ac905fa073c343e65",
+      "kind": "media-or-evidence",
+      "sourceSha256": "8aa84c89af8a8678ade2d412f21864c38b9f84063ed2010ac905fa073c343e65",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-startle-v15.mp4",
+      "bytes": 950999,
+      "sha256": "30288f2b6d0721660bd361a3e5be5901db649403cfe19ad0565c05e670485acb",
+      "kind": "media-or-evidence",
+      "sourceSha256": "30288f2b6d0721660bd361a3e5be5901db649403cfe19ad0565c05e670485acb",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-startle-validation-v15.json",
+      "bytes": 595,
+      "sha256": "00f8ebd0586fd72eb1fd7016c8ef8e0e079ae99b4c59af662dfc7eaa6b90c432",
+      "kind": "media-or-evidence",
+      "sourceSha256": "5d43fb04ed25ff4c1863a2fb8104364ca5075714b216d3b991e12ca89d213fac",
+      "unchanged": false
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-suspense-base-preview-v15.png",
+      "bytes": 1168888,
+      "sha256": "4800ade3a8b09e306e8017d638e42f6f1ad5bf596f70c3c7af7d9ede85e29cd1",
+      "kind": "media-or-evidence",
+      "sourceSha256": "4800ade3a8b09e306e8017d638e42f6f1ad5bf596f70c3c7af7d9ede85e29cd1",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/forest-suspense-base-v15.png",
+      "bytes": 3467082,
+      "sha256": "96145a747d08f6200830e5f7b0247e568dcf6c219340e39fdb09275769bfcddd",
+      "kind": "media-or-evidence",
+      "sourceSha256": "96145a747d08f6200830e5f7b0247e568dcf6c219340e39fdb09275769bfcddd",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/garden-base-v3.png",
+      "bytes": 3018979,
+      "sha256": "e8a4a9605cd79c7e0526703434318b4d740449620ee469fa353d77ffaaf7760a",
+      "kind": "media-or-evidence",
+      "sourceSha256": "e8a4a9605cd79c7e0526703434318b4d740449620ee469fa353d77ffaaf7760a",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/garden-base.png",
+      "bytes": 2489875,
+      "sha256": "bab1fcaf77eeee5f84c278147523e3ed51d84c6867be8235926811f33664e961",
+      "kind": "media-or-evidence",
+      "sourceSha256": "bab1fcaf77eeee5f84c278147523e3ed51d84c6867be8235926811f33664e961",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/garden-breeze-preview.gif",
+      "bytes": 10161522,
+      "sha256": "9d92a012bf3c782f5be386bff257697708013958eee3362cbd033dff32d6076a",
+      "kind": "media-or-evidence",
+      "sourceSha256": "9d92a012bf3c782f5be386bff257697708013958eee3362cbd033dff32d6076a",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/garden-breeze-preview.mp4",
+      "bytes": 802947,
+      "sha256": "19b1789e8bfc6d4e9f24e5807d5043606daf96da73aee369034e6e18c1d5152d",
+      "kind": "media-or-evidence",
+      "sourceSha256": "19b1789e8bfc6d4e9f24e5807d5043606daf96da73aee369034e6e18c1d5152d",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/garden-fold-loop-v4-preview-validation.json",
+      "bytes": 155,
+      "sha256": "be8bb0d0af24f6ec0f206947478ad4fdf8b7ad741d280a93ea6ce79835411c6d",
+      "kind": "media-or-evidence",
+      "sourceSha256": "40151fce5eb7ca067e5f1612d0089f34ea763c81a104a500d751f82534fe1d72",
+      "unchanged": false
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/garden-fold-loop-v4-preview.gif",
+      "bytes": 13937103,
+      "sha256": "61b6f579a8a2b08b75833686d0d7d00e292a103881f65a59424a446fe6da79af",
+      "kind": "media-or-evidence",
+      "sourceSha256": "61b6f579a8a2b08b75833686d0d7d00e292a103881f65a59424a446fe6da79af",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/garden-fold-loop-v4.gif",
+      "bytes": 25308901,
+      "sha256": "1bbe715268d371ce4c6355452aecc056c18356304673efbfbd80d6dcbb9b51a2",
+      "kind": "media-or-evidence",
+      "sourceSha256": "1bbe715268d371ce4c6355452aecc056c18356304673efbfbd80d6dcbb9b51a2",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/garden-fold-loop-v4.mp4",
+      "bytes": 2094337,
+      "sha256": "cc7e4e253329433007c095cb43a983d038ff34b6f1368fad37ce51de02faa158",
+      "kind": "media-or-evidence",
+      "sourceSha256": "cc7e4e253329433007c095cb43a983d038ff34b6f1368fad37ce51de02faa158",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/garden-loop-v2.gif",
+      "bytes": 6611716,
+      "sha256": "a54e5ad1be753d12b30f5c9b424641f06afa41fb33fabc68ebf24b57df02d9e8",
+      "kind": "media-or-evidence",
+      "sourceSha256": "a54e5ad1be753d12b30f5c9b424641f06afa41fb33fabc68ebf24b57df02d9e8",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/garden-loop-v2.mp4",
+      "bytes": 595768,
+      "sha256": "e1cec5527de732d3393b3cf0dd686d4ed36d39fbd1916282bf76e0eddd46ba9b",
+      "kind": "media-or-evidence",
+      "sourceSha256": "e1cec5527de732d3393b3cf0dd686d4ed36d39fbd1916282bf76e0eddd46ba9b",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/garden-loop-v3.gif",
+      "bytes": 10044031,
+      "sha256": "c186a0d258811881e0b9cf9ac86ef2fb98b2f10381b7c18f97d66ec2aa2d1562",
+      "kind": "media-or-evidence",
+      "sourceSha256": "c186a0d258811881e0b9cf9ac86ef2fb98b2f10381b7c18f97d66ec2aa2d1562",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/garden-loop-v3.mp4",
+      "bytes": 1054044,
+      "sha256": "cca8b7809f0eef0f18478de7067326a1f83f35f7a741644338831e103ffcde0e",
+      "kind": "media-or-evidence",
+      "sourceSha256": "cca8b7809f0eef0f18478de7067326a1f83f35f7a741644338831e103ffcde0e",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/garden-loop.gif",
+      "bytes": 8903651,
+      "sha256": "940be66f73f95066088e3ee089d1e58023d0b46d7b0558c296f886db13a8adf7",
+      "kind": "media-or-evidence",
+      "sourceSha256": "940be66f73f95066088e3ee089d1e58023d0b46d7b0558c296f886db13a8adf7",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/garden-loop.mp4",
+      "bytes": 621806,
+      "sha256": "cee1b87d86cc9618ce767f18eb81f2dd2baf073ecbe64669590f449ea259f838",
+      "kind": "media-or-evidence",
+      "sourceSha256": "cee1b87d86cc9618ce767f18eb81f2dd2baf073ecbe64669590f449ea259f838",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/hearing-dusk-v9.gif",
+      "bytes": 721149,
+      "sha256": "922c47e8007a3b2e2fca20c576a7072aaaf5c332fb8c6305509957d72fe9a78f",
+      "kind": "media-or-evidence",
+      "sourceSha256": "922c47e8007a3b2e2fca20c576a7072aaaf5c332fb8c6305509957d72fe9a78f",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/hearing-dusk-v9.mp4",
+      "bytes": 279991,
+      "sha256": "0e994efd318585f6e227d52fac963f1a4d10404f6d04fcafe7649a9e4520b030",
+      "kind": "media-or-evidence",
+      "sourceSha256": "0e994efd318585f6e227d52fac963f1a4d10404f6d04fcafe7649a9e4520b030",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/mirror-contact-v7.jpg",
+      "bytes": 147138,
+      "sha256": "9cb84fd5d5748c62941d4fc6f84c442a397a53f5244a4d761ed8b579a8e5ac2a",
+      "kind": "media-or-evidence",
+      "sourceSha256": "9cb84fd5d5748c62941d4fc6f84c442a397a53f5244a4d761ed8b579a8e5ac2a",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/mirror-first-v7.png",
+      "bytes": 272740,
+      "sha256": "b1c46be7cd93d28d4e0a4215c451a7a0a2d1be18f097b9c86c276cc129a3f002",
+      "kind": "media-or-evidence",
+      "sourceSha256": "b1c46be7cd93d28d4e0a4215c451a7a0a2d1be18f097b9c86c276cc129a3f002",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/mirror-floral-v7.gif",
+      "bytes": 5633749,
+      "sha256": "1e823301d5aef752ce2a90af5220e342a20b15c8adf40ca61f2f30d07a12d221",
+      "kind": "media-or-evidence",
+      "sourceSha256": "1e823301d5aef752ce2a90af5220e342a20b15c8adf40ca61f2f30d07a12d221",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/mirror-floral-v7.mp4",
+      "bytes": 1291268,
+      "sha256": "c62b31bed3e779d68ce8e539adff0ed6e844072e61b3d5786c046c2fb3f5f593",
+      "kind": "media-or-evidence",
+      "sourceSha256": "c62b31bed3e779d68ce8e539adff0ed6e844072e61b3d5786c046c2fb3f5f593",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/mirror-native-sheet-v7.png",
+      "bytes": 3313594,
+      "sha256": "f57b5c2079cb2e9da82eca3a4608ad7b9438c79bd9718dad5d8865f3a1b00c57",
+      "kind": "media-or-evidence",
+      "sourceSha256": "f57b5c2079cb2e9da82eca3a4608ad7b9438c79bd9718dad5d8865f3a1b00c57",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/mirror-provenance-v7.json",
+      "bytes": 3739,
+      "sha256": "4efef2fbe9d6fc18a35904499728cb014c86cdc5b5aedee77e03fcc4284ef3f0",
+      "kind": "media-or-evidence",
+      "sourceSha256": "4efef2fbe9d6fc18a35904499728cb014c86cdc5b5aedee77e03fcc4284ef3f0",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/mirror-validation-v7.json",
+      "bytes": 686,
+      "sha256": "e13148e7ffb8f7640517f1952b1fde8fa35ea995790d6599ed9e4483d45ef275",
+      "kind": "media-or-evidence",
+      "sourceSha256": "4d661cef2d7ee38498361b776839e33d894923713d0b63e52a81d23a5d7e13e2",
+      "unchanged": false
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/native-gif-attempt-provenance-v18.json",
+      "bytes": 2353,
+      "sha256": "27a04232348160e2182526c62fd14628091e4ce6393865b7132e98281f4b6320",
+      "kind": "media-or-evidence",
+      "sourceSha256": "27a04232348160e2182526c62fd14628091e4ce6393865b7132e98281f4b6320",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/native-gif-attempt-still-v18.png",
+      "bytes": 2810525,
+      "sha256": "894dccfaccfd641e739db80cfac632abb9c6aeb26c6044b02b57e8173ac18e70",
+      "kind": "media-or-evidence",
+      "sourceSha256": "894dccfaccfd641e739db80cfac632abb9c6aeb26c6044b02b57e8173ac18e70",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/natural-v5-fal-prompt.txt",
+      "bytes": 1133,
+      "sha256": "5d8d02613202635f7f3dc224b03936844942325598e6c5b52a47cef8993cb055",
+      "kind": "media-or-evidence",
+      "sourceSha256": "5d8d02613202635f7f3dc224b03936844942325598e6c5b52a47cef8993cb055",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/natural-v5-prompt.txt",
+      "bytes": 1561,
+      "sha256": "511ba045b01f77d70330333e04fa71c4fd33071441feebd6f054360e1e2aece7",
+      "kind": "media-or-evidence",
+      "sourceSha256": "511ba045b01f77d70330333e04fa71c4fd33071441feebd6f054360e1e2aece7",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/night-tide-contact-v12.jpg",
+      "bytes": 62589,
+      "sha256": "be32df10ccf81f6fdbca6751179ab41de7ff04ef0d950a370a3d86475b6af2e8",
+      "kind": "media-or-evidence",
+      "sourceSha256": "be32df10ccf81f6fdbca6751179ab41de7ff04ef0d950a370a3d86475b6af2e8",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/night-tide-native-v12.png",
+      "bytes": 3646098,
+      "sha256": "7d6d19a3776537b2e92422f2b9c172507c6ceff1b2824f6f04824ffe97fb69d7",
+      "kind": "media-or-evidence",
+      "sourceSha256": "7d6d19a3776537b2e92422f2b9c172507c6ceff1b2824f6f04824ffe97fb69d7",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/night-tide-provenance-v12.json",
+      "bytes": 2554,
+      "sha256": "612544e0f143cb01f55c14395714554097f93b19df68875c5b0cdc3e1e91c0ad",
+      "kind": "media-or-evidence",
+      "sourceSha256": "612544e0f143cb01f55c14395714554097f93b19df68875c5b0cdc3e1e91c0ad",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/night-tide-validation-v12.json",
+      "bytes": 1632,
+      "sha256": "3a3fc65dd56e506e40386cadf6c109033355f5e08e15c7ff1cbfcfae9a7974d3",
+      "kind": "media-or-evidence",
+      "sourceSha256": "382e3509fb72189733c67815804b3cc122cf26237184e16a8120987290d79373",
+      "unchanged": false
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/night-tide-whole-v12.gif",
+      "bytes": 32086375,
+      "sha256": "35bdab339fade14b66bde345b1e940c3e17aa3599825c3bd51bcb6cec02e2815",
+      "kind": "media-or-evidence",
+      "sourceSha256": "35bdab339fade14b66bde345b1e940c3e17aa3599825c3bd51bcb6cec02e2815",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/night-tide-whole-v12.mp4",
+      "bytes": 4817308,
+      "sha256": "d9255eb7e8d9145d46e40f3feb40c3b3644b8735e3924c04c9f6ff4c1f33e59d",
+      "kind": "media-or-evidence",
+      "sourceSha256": "d9255eb7e8d9145d46e40f3feb40c3b3644b8735e3924c04c9f6ff4c1f33e59d",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/provenance-v2.json",
+      "bytes": 964,
+      "sha256": "35d0fb44c3ba705bbc883d605fbd8afa1b8537b698b5c3b1e73f2812c9ec2900",
+      "kind": "media-or-evidence",
+      "sourceSha256": "cb1d95b4745bfb61389a82175269f7f1e9e855e862637b7ede98debc743e06d2",
+      "unchanged": false
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/provenance-v3.json",
+      "bytes": 2629,
+      "sha256": "396de6087618bdbe425dc47681e5439484046dde791db827ffa4e0738ce77c90",
+      "kind": "media-or-evidence",
+      "sourceSha256": "396de6087618bdbe425dc47681e5439484046dde791db827ffa4e0738ce77c90",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/provenance-v4.json",
+      "bytes": 796,
+      "sha256": "c0aadf8718ceb94024212b63ae5d3122c21af75f16f7b6357c84193b283b81de",
+      "kind": "media-or-evidence",
+      "sourceSha256": "fb3a0fe7d2287806c6881ca4cc5f3d8569553283db6d9aea8680ec978de7a350",
+      "unchanged": false
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/provenance.json",
+      "bytes": 2046,
+      "sha256": "8b2984ce1da1b0c5fe9427c61de6a7e5ef565367f3e8c9cdae95d6b845710c48",
+      "kind": "media-or-evidence",
+      "sourceSha256": "8b2984ce1da1b0c5fe9427c61de6a7e5ef565367f3e8c9cdae95d6b845710c48",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/quantumspirit-original.mp4",
+      "bytes": 761917,
+      "sha256": "429c5327e1337756301c09a514b1efc872473fdb643c9aff0bf55bbc971ee13a",
+      "kind": "media-or-evidence",
+      "sourceSha256": "429c5327e1337756301c09a514b1efc872473fdb643c9aff0bf55bbc971ee13a",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/quantumspirit-reference.gif",
+      "bytes": 9904232,
+      "sha256": "d0506c458eab74d04e3bc85a57e7a3de74d0f8828a727cae1e34f1ea4adb34d4",
+      "kind": "media-or-evidence",
+      "sourceSha256": "d0506c458eab74d04e3bc85a57e7a3de74d0f8828a727cae1e34f1ea4adb34d4",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/reference-13-frames.jpg",
+      "bytes": 151398,
+      "sha256": "52396be21b83a6a1c81c378c060cfa0d0246c424fbb0e5014120fd596ff398ae",
+      "kind": "media-or-evidence",
+      "sourceSha256": "52396be21b83a6a1c81c378c060cfa0d0246c424fbb0e5014120fd596ff398ae",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/reference-detail-motion.jpg",
+      "bytes": 117118,
+      "sha256": "5c3a59211000a15c62c049a2905d29fe2cdb96c2e6414e57b3b99caccb847886",
+      "kind": "media-or-evidence",
+      "sourceSha256": "5c3a59211000a15c62c049a2905d29fe2cdb96c2e6414e57b3b99caccb847886",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/reference-mirror-2120150816287760496.mp4",
+      "bytes": 1462843,
+      "sha256": "1b258f76424822c18b7c6e52e33f84752772af13531dd9cd354a2012555a1d2c",
+      "kind": "media-or-evidence",
+      "sourceSha256": "1b258f76424822c18b7c6e52e33f84752772af13531dd9cd354a2012555a1d2c",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/reference-mirror-contact.jpg",
+      "bytes": 130403,
+      "sha256": "ef190f30a09abd6dc90efdfe823360cd6104aaa835cf252a5caee2e04b91d1a5",
+      "kind": "media-or-evidence",
+      "sourceSha256": "ef190f30a09abd6dc90efdfe823360cd6104aaa835cf252a5caee2e04b91d1a5",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/reference-mirror-original.gif",
+      "bytes": 4443239,
+      "sha256": "bdc5e8e2235502700b5bfedb62fc29ad5e2ddacfc2ba1712dfb7f390f9e69d12",
+      "kind": "media-or-evidence",
+      "sourceSha256": "bdc5e8e2235502700b5bfedb62fc29ad5e2ddacfc2ba1712dfb7f390f9e69d12",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/reference-mirror-style-frame.png",
+      "bytes": 2103201,
+      "sha256": "afcd706b5330a20aa2495d6c4836d896da818cb775b8c6645d50ac9998ca9225",
+      "kind": "media-or-evidence",
+      "sourceSha256": "afcd706b5330a20aa2495d6c4836d896da818cb775b8c6645d50ac9998ca9225",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/reference-style-frame.png",
+      "bytes": 1745583,
+      "sha256": "088d231c87a0f6bf6c8ffbf1340c5d228c830622c1f2cb1f0750221a2791ece1",
+      "kind": "media-or-evidence",
+      "sourceSha256": "088d231c87a0f6bf6c8ffbf1340c5d228c830622c1f2cb1f0750221a2791ece1",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/render-anchored-autumn-v14.cjs",
+      "bytes": 5592,
+      "sha256": "74266799d071aad5eea2f584b97716bee7322910c77527c317285682a94ea02e",
+      "kind": "media-or-evidence",
+      "sourceSha256": "74266799d071aad5eea2f584b97716bee7322910c77527c317285682a94ea02e",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/render-autumn-canopy-v13.cjs",
+      "bytes": 5922,
+      "sha256": "78ed5aeaff10e4a4c97a03d18bfd2e039ae840abfeb407dcf04555b9613537e4",
+      "kind": "media-or-evidence",
+      "sourceSha256": "78ed5aeaff10e4a4c97a03d18bfd2e039ae840abfeb407dcf04555b9613537e4",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/render-breeze-preview.cjs",
+      "bytes": 4751,
+      "sha256": "bcf0ff3654334ed59fe5e4afc8e3810041b25e172bf738c99274624b63f4ad98",
+      "kind": "media-or-evidence",
+      "sourceSha256": "bcf0ff3654334ed59fe5e4afc8e3810041b25e172bf738c99274624b63f4ad98",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/render-forest-light-v17.cjs",
+      "bytes": 16887,
+      "sha256": "c677dc95021c3537bbff9629fbd40e80c1aceaaefbd0c62c44b8abd659be902b",
+      "kind": "media-or-evidence",
+      "sourceSha256": "c677dc95021c3537bbff9629fbd40e80c1aceaaefbd0c62c44b8abd659be902b",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/render-forest-perches-v16.cjs",
+      "bytes": 12276,
+      "sha256": "0a1ff479a7c69655c8d11f8ebd6575796ed681747d23df0cc958ef1c854de8f9",
+      "kind": "media-or-evidence",
+      "sourceSha256": "0a1ff479a7c69655c8d11f8ebd6575796ed681747d23df0cc958ef1c854de8f9",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/render-forest-suspense-v15.cjs",
+      "bytes": 9960,
+      "sha256": "c65217dbce91ca590810fae855a84768e3f3f4bf7586e53fba3643c83dc0ca5f",
+      "kind": "media-or-evidence",
+      "sourceSha256": "c65217dbce91ca590810fae855a84768e3f3f4bf7586e53fba3643c83dc0ca5f",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/render-hearing-dusk-v9.cjs",
+      "bytes": 7216,
+      "sha256": "3f713de9db546c0867feb3d03b553e6a6e86e8b2390a93960c47108590bb499f",
+      "kind": "media-or-evidence",
+      "sourceSha256": "3f713de9db546c0867feb3d03b553e6a6e86e8b2390a93960c47108590bb499f",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/render-loop-v2.cjs",
+      "bytes": 10474,
+      "sha256": "9ab7fc12cc9bd2c29541ba9105e0682166674c3e554e9b2b0a068aa05c0687df",
+      "kind": "media-or-evidence",
+      "sourceSha256": "9ab7fc12cc9bd2c29541ba9105e0682166674c3e554e9b2b0a068aa05c0687df",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/render-loop-v3.cjs",
+      "bytes": 9586,
+      "sha256": "6ccfa3b973f96d647f962c38c64fd4d3e717ea860510ad77741cadd3c890294a",
+      "kind": "media-or-evidence",
+      "sourceSha256": "6ccfa3b973f96d647f962c38c64fd4d3e717ea860510ad77741cadd3c890294a",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/render-loop-v4.cjs",
+      "bytes": 6051,
+      "sha256": "f257853992f1bfeacaa97f6cc44da9711502716ac44dedbf85415213edbbc503",
+      "kind": "media-or-evidence",
+      "sourceSha256": "f257853992f1bfeacaa97f6cc44da9711502716ac44dedbf85415213edbbc503",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/render-loop.cjs",
+      "bytes": 4320,
+      "sha256": "b360d2e51b9e698f313a00a656a49c86f6bb6bbecf91db6f5517f0d505e1c3bc",
+      "kind": "media-or-evidence",
+      "sourceSha256": "b360d2e51b9e698f313a00a656a49c86f6bb6bbecf91db6f5517f0d505e1c3bc",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/render-night-tide-v12.cjs",
+      "bytes": 5948,
+      "sha256": "2c1c216af001d928f07776ad03ea0ce083b2e35f8c76c5a9532bf757ccd9cf93",
+      "kind": "media-or-evidence",
+      "sourceSha256": "2c1c216af001d928f07776ad03ea0ce083b2e35f8c76c5a9532bf757ccd9cf93",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/render-tide-field-v11.cjs",
+      "bytes": 5847,
+      "sha256": "3114200b410404189f61461fb2a3e3f3be793cc337072e413b01a709b30bae5c",
+      "kind": "media-or-evidence",
+      "sourceSha256": "3114200b410404189f61461fb2a3e3f3be793cc337072e413b01a709b30bae5c",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/sea-contact-v10.jpg",
+      "bytes": 92315,
+      "sha256": "84ad44d75fa523d6f4ebc4dfe14a4d8208702f25eff5e3ed0febac78bd011794",
+      "kind": "media-or-evidence",
+      "sourceSha256": "84ad44d75fa523d6f4ebc4dfe14a4d8208702f25eff5e3ed0febac78bd011794",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/sea-native-sheet-v10.png",
+      "bytes": 3284513,
+      "sha256": "cc303faf5ff922550924608a08cec0d20b1276faaec7af8c0197ab6b90258858",
+      "kind": "media-or-evidence",
+      "sourceSha256": "cc303faf5ff922550924608a08cec0d20b1276faaec7af8c0197ab6b90258858",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/sea-provenance-v10.json",
+      "bytes": 3676,
+      "sha256": "1bc3da9af6f69f85cde2ae8db52cd9aa3857df17224aa1c63fa2fa064a9a6215",
+      "kind": "media-or-evidence",
+      "sourceSha256": "1bc3da9af6f69f85cde2ae8db52cd9aa3857df17224aa1c63fa2fa064a9a6215",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/sea-validation-v10.json",
+      "bytes": 683,
+      "sha256": "fd119c85c2624698cd6ffa946b0d24c50115df51c7ef269953e5216f61eab53d",
+      "kind": "media-or-evidence",
+      "sourceSha256": "f667149d894fceb6e53ba38d1c170fda8ab6b36abe0650236f9fba6ccf8bc3a6",
+      "unchanged": false
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/shallow-sea-v10.gif",
+      "bytes": 7909483,
+      "sha256": "9daeb1f5e9f616c0264129bec8b7b3d906f749cfa9e71d2c710c21b4153e8137",
+      "kind": "media-or-evidence",
+      "sourceSha256": "9daeb1f5e9f616c0264129bec8b7b3d906f749cfa9e71d2c710c21b4153e8137",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/shallow-sea-v10.mp4",
+      "bytes": 916820,
+      "sha256": "77bc16c69b0cb6bae2d7302af73045c078e1a58ca35c921883de3f63d969f49b",
+      "kind": "media-or-evidence",
+      "sourceSha256": "77bc16c69b0cb6bae2d7302af73045c078e1a58ca35c921883de3f63d969f49b",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/softglitch-contact-v6.jpg",
+      "bytes": 119480,
+      "sha256": "faf4e6503d54412103e67636b23ec6d209b0d3930f11cddcaf227a4f40ffbe76",
+      "kind": "media-or-evidence",
+      "sourceSha256": "faf4e6503d54412103e67636b23ec6d209b0d3930f11cddcaf227a4f40ffbe76",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/softglitch-native-sheet-v6.png",
+      "bytes": 3704669,
+      "sha256": "c643071a425c50d4f7b99ed7d6488377175da776b4cb8adfe86fdf835ebcf861",
+      "kind": "media-or-evidence",
+      "sourceSha256": "c643071a425c50d4f7b99ed7d6488377175da776b4cb8adfe86fdf835ebcf861",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/softglitch-native-v6.gif",
+      "bytes": 3468112,
+      "sha256": "cc4a9a1e693b3b31324693b93970860c0f889cad73233c9497854ea3e6740ab6",
+      "kind": "media-or-evidence",
+      "sourceSha256": "cc4a9a1e693b3b31324693b93970860c0f889cad73233c9497854ea3e6740ab6",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/softglitch-native-v6.mp4",
+      "bytes": 727349,
+      "sha256": "7c3b01bad4d944dd62ae120bed123d87b07beebae859fdbe824e3f2f3471792f",
+      "kind": "media-or-evidence",
+      "sourceSha256": "7c3b01bad4d944dd62ae120bed123d87b07beebae859fdbe824e3f2f3471792f",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/softglitch-provenance-v6.json",
+      "bytes": 3423,
+      "sha256": "86c6a7f8f48ccdd821be53a3b45ebcb54d63814ded575245dcd8139eb482b1bb",
+      "kind": "media-or-evidence",
+      "sourceSha256": "86c6a7f8f48ccdd821be53a3b45ebcb54d63814ded575245dcd8139eb482b1bb",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/softglitch-validation-v6.json",
+      "bytes": 576,
+      "sha256": "97b71a43eb1bd5a361c3f062ca40fd6041a540c21ac78eefa3802c68b92ad6d6",
+      "kind": "media-or-evidence",
+      "sourceSha256": "28fc2c3fe72d508c627e6fde9a3691b6faabf870ca3657ebcab594eea935b365",
+      "unchanged": false
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/tidal-field-contact-v11.jpg",
+      "bytes": 63166,
+      "sha256": "7a83b261b318a5b301ccb86f0e187209285e0bbd098b6b4194220f42f8569b94",
+      "kind": "media-or-evidence",
+      "sourceSha256": "7a83b261b318a5b301ccb86f0e187209285e0bbd098b6b4194220f42f8569b94",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/tidal-field-provenance-v11.json",
+      "bytes": 2841,
+      "sha256": "abe1418b2777c7c551ff05641ef635de26a8466229968992dec1e824a166b9c0",
+      "kind": "media-or-evidence",
+      "sourceSha256": "abe1418b2777c7c551ff05641ef635de26a8466229968992dec1e824a166b9c0",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/tidal-field-validation-v11.json",
+      "bytes": 1639,
+      "sha256": "ae7e8586e942c75eca3956e45b1c5951f0c32d7347c6089a51324ca5ce662b3f",
+      "kind": "media-or-evidence",
+      "sourceSha256": "e97e9f346f184a7b8defba043f757a5f8b714bf5376f5a24638aaf458d707ffa",
+      "unchanged": false
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/tidal-field-whole-v11.gif",
+      "bytes": 22783801,
+      "sha256": "715494d00c33d4872ada5ff896987a219da9b1a835244f016ae7aacd80526833",
+      "kind": "media-or-evidence",
+      "sourceSha256": "715494d00c33d4872ada5ff896987a219da9b1a835244f016ae7aacd80526833",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/tidal-field-whole-v11.mp4",
+      "bytes": 2560074,
+      "sha256": "5ac13f9dfe62d1689b7a1a5b8a24794079f144a21a5827c2d97dad817f9fa63f",
+      "kind": "media-or-evidence",
+      "sourceSha256": "5ac13f9dfe62d1689b7a1a5b8a24794079f144a21a5827c2d97dad817f9fa63f",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/tide-field-native-v11.png",
+      "bytes": 3480910,
+      "sha256": "1db86c8e22a752ff0792ae1615b0f0eb98cc5d08ffcd69df647b40cbe1cb44aa",
+      "kind": "media-or-evidence",
+      "sourceSha256": "1db86c8e22a752ff0792ae1615b0f0eb98cc5d08ffcd69df647b40cbe1cb44aa",
+      "unchanged": true
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/validation-v2.json",
+      "bytes": 565,
+      "sha256": "59d38aedad3249fa7cc56a5289208e345ed508d5dcaa67fce19fd1680d4a1ef9",
+      "kind": "media-or-evidence",
+      "sourceSha256": "8dd373be659385470b7c3ace71014ab120fac3237ebc22884694930a360fa298",
+      "unchanged": false
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/validation-v3.json",
+      "bytes": 2016,
+      "sha256": "9c66ff698f7aed0b7d26869c793180a810f9ad7ca7aa846353b94792cf728d57",
+      "kind": "media-or-evidence",
+      "sourceSha256": "b8b307d01092ef6184022112f744a37646652f0baf929e23b30d62d9d14ac0f4",
+      "unchanged": false
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/validation-v4.json",
+      "bytes": 394,
+      "sha256": "535b08653c228f7fcb88ee6369ced5cc561af22315f85d76ea23c60e126e6d76",
+      "kind": "media-or-evidence",
+      "sourceSha256": "57e4b63553d36ee03d41ff6c07845920e29cc866cc3b17e0211887fb408eb8fc",
+      "unchanged": false
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/validation.json",
+      "bytes": 232,
+      "sha256": "9e61d985ee342fe92fae70c0fa057ed32783db30d3309373182f976dc45e5f1c",
+      "kind": "media-or-evidence",
+      "sourceSha256": "4a9c6719d152fecefd663a9371913d6f28935a7794de1c6394cbf48760fd57ee",
+      "unchanged": false
+    },
+    {
+      "path": "projects/024-immersive-loop-research/archive/public-execution-status.json",
+      "bytes": 491,
+      "sha256": "fcbe7d43604df29bf35cbc6dcbf4fbb9dd9a880a5b9dd655089ba0c14a41dd4e",
+      "kind": "public-status-summary"
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/posters/ref-garden.jpg",
+      "bytes": 191297,
+      "sha256": "b317c1384aa64cf2a94fa4e0153af5ac04a2deab9a4db5daa81059ac43e71fe9",
+      "kind": "page",
+      "sourceSha256": "b317c1384aa64cf2a94fa4e0153af5ac04a2deab9a4db5daa81059ac43e71fe9",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/posters/ref-mirror.jpg",
+      "bytes": 281901,
+      "sha256": "181bc81fe0ee4f0346b44423df3e7fda39ea387966553abd72d2a6ad5192a77f",
+      "kind": "page",
+      "sourceSha256": "181bc81fe0ee4f0346b44423df3e7fda39ea387966553abd72d2a6ad5192a77f",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/posters/v01.jpg",
+      "bytes": 115605,
+      "sha256": "1b9dbe9ce6fc9b922955bb69fe4ee0339b5d752ee40f8d3bf37b1754794e976d",
+      "kind": "page",
+      "sourceSha256": "1b9dbe9ce6fc9b922955bb69fe4ee0339b5d752ee40f8d3bf37b1754794e976d",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/posters/v02.jpg",
+      "bytes": 129179,
+      "sha256": "0fcd3993ea40d7b67a42e7976599f20a0492a60f173fc207039c3e19b9d2de85",
+      "kind": "page",
+      "sourceSha256": "0fcd3993ea40d7b67a42e7976599f20a0492a60f173fc207039c3e19b9d2de85",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/posters/v03.jpg",
+      "bytes": 188020,
+      "sha256": "17316285bdc616e87a5835e201842d43d3cb1cd8eed46cc79059f736371ddc90",
+      "kind": "page",
+      "sourceSha256": "17316285bdc616e87a5835e201842d43d3cb1cd8eed46cc79059f736371ddc90",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/posters/v04.jpg",
+      "bytes": 147955,
+      "sha256": "e41b10bea6fadc5d92766633cf9acba3180c148bd5de66ce993a5ec00caf5a74",
+      "kind": "page",
+      "sourceSha256": "e41b10bea6fadc5d92766633cf9acba3180c148bd5de66ce993a5ec00caf5a74",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/posters/v05.jpg",
+      "bytes": 115681,
+      "sha256": "a72c6bd39c69a5fa4fe62eaa26fd17c03eccb747e66e8b92205fd3398b001a25",
+      "kind": "page",
+      "sourceSha256": "a72c6bd39c69a5fa4fe62eaa26fd17c03eccb747e66e8b92205fd3398b001a25",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/posters/v06.jpg",
+      "bytes": 192232,
+      "sha256": "6b09419708e357db1842c72d0fae7c34c4584449410101e8a2908de0a0df1f6f",
+      "kind": "page",
+      "sourceSha256": "6b09419708e357db1842c72d0fae7c34c4584449410101e8a2908de0a0df1f6f",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/posters/v07.jpg",
+      "bytes": 288329,
+      "sha256": "952828ab431f8cd2faabcdcf99ef8939bffabe5daa39a057992efc0fb00a7ac4",
+      "kind": "page",
+      "sourceSha256": "952828ab431f8cd2faabcdcf99ef8939bffabe5daa39a057992efc0fb00a7ac4",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/posters/v08.jpg",
+      "bytes": 74305,
+      "sha256": "846f4e845ace88b9501ca06e8ac7875d47e874b21893277c05579aac0755ff5c",
+      "kind": "page",
+      "sourceSha256": "846f4e845ace88b9501ca06e8ac7875d47e874b21893277c05579aac0755ff5c",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/posters/v09.jpg",
+      "bytes": 73050,
+      "sha256": "4d9b9ee9f650b2cd5e00941c4e74069fe9ad000b0f6b3095a5bc5f6a5901b96d",
+      "kind": "page",
+      "sourceSha256": "4d9b9ee9f650b2cd5e00941c4e74069fe9ad000b0f6b3095a5bc5f6a5901b96d",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/posters/v10.jpg",
+      "bytes": 147462,
+      "sha256": "17515268bda750c581c2e9e125eaa04951113f8b0a298c04a61113e8efb012c7",
+      "kind": "page",
+      "sourceSha256": "17515268bda750c581c2e9e125eaa04951113f8b0a298c04a61113e8efb012c7",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/posters/v11.jpg",
+      "bytes": 126358,
+      "sha256": "bab137e741dd7c6e2c5259aecca750e895383cfb8b00e20f60b8aaf930506edf",
+      "kind": "page",
+      "sourceSha256": "bab137e741dd7c6e2c5259aecca750e895383cfb8b00e20f60b8aaf930506edf",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/posters/v12.jpg",
+      "bytes": 163186,
+      "sha256": "f8704a9deb9e4ca4a57010d922442d57ce5dcbb91100c6678ddd85c6217dacf2",
+      "kind": "page",
+      "sourceSha256": "f8704a9deb9e4ca4a57010d922442d57ce5dcbb91100c6678ddd85c6217dacf2",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/posters/v13.jpg",
+      "bytes": 213157,
+      "sha256": "7f51d6aa7bf644452cdd0a3c2f3ccebda4b70a44ac8d314cc98da2d913c82ded",
+      "kind": "page",
+      "sourceSha256": "7f51d6aa7bf644452cdd0a3c2f3ccebda4b70a44ac8d314cc98da2d913c82ded",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/posters/v14.jpg",
+      "bytes": 350293,
+      "sha256": "21a2a8ce0ca9be8f32057ed4887d1b03d0957863c9fc5b0fa4e2d3c8580135e8",
+      "kind": "page",
+      "sourceSha256": "21a2a8ce0ca9be8f32057ed4887d1b03d0957863c9fc5b0fa4e2d3c8580135e8",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/posters/v15.jpg",
+      "bytes": 327427,
+      "sha256": "722e415c9a7103b1d59b21d462b2755a4b23482dfeb9d0b573453c1b6ee00bb7",
+      "kind": "page",
+      "sourceSha256": "722e415c9a7103b1d59b21d462b2755a4b23482dfeb9d0b573453c1b6ee00bb7",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/posters/v16.jpg",
+      "bytes": 327928,
+      "sha256": "5ff207a1868c9d641d23e07d929f2511df0c5bbf800bd484463fec536130b033",
+      "kind": "page",
+      "sourceSha256": "5ff207a1868c9d641d23e07d929f2511df0c5bbf800bd484463fec536130b033",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/posters/v17.jpg",
+      "bytes": 303700,
+      "sha256": "39fb120604ebdaa8cec3c33b6dfdf6e3993d85f078ebd1a2eec1501ab5e40d5b",
+      "kind": "page",
+      "sourceSha256": "39fb120604ebdaa8cec3c33b6dfdf6e3993d85f078ebd1a2eec1501ab5e40d5b",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/posters/v18.jpg",
+      "bytes": 220631,
+      "sha256": "00292962a67664916497bdbf3b723977976a985d93b96af54e92f653387faa88",
+      "kind": "page",
+      "sourceSha256": "00292962a67664916497bdbf3b723977976a985d93b96af54e92f653387faa88",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/after-rain-contact-v8.webp",
+      "bytes": 5824,
+      "sha256": "6e9153bba247f11ccb629987a520876013bb7e88f5559ae581e6eedbd09c2838",
+      "kind": "page",
+      "sourceSha256": "6e9153bba247f11ccb629987a520876013bb7e88f5559ae581e6eedbd09c2838",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/after-rain-native-sheet-v8.webp",
+      "bytes": 7382,
+      "sha256": "187e86265cc9601218880d3e8b731e3a799bd95fa6676d5de4bded91be04fec9",
+      "kind": "page",
+      "sourceSha256": "187e86265cc9601218880d3e8b731e3a799bd95fa6676d5de4bded91be04fec9",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/autumn-breeze-contact-v14.webp",
+      "bytes": 18112,
+      "sha256": "768b8c6f817d712351e8fd5891c65ef47a8c3bb0cee33c42be962b9aae58f0be",
+      "kind": "page",
+      "sourceSha256": "768b8c6f817d712351e8fd5891c65ef47a8c3bb0cee33c42be962b9aae58f0be",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/autumn-canopy-contact-v13.webp",
+      "bytes": 17740,
+      "sha256": "124b4afecd71bafff3be4747a51200336e2183e1f0bf6b37b27ebf857ace7934",
+      "kind": "page",
+      "sourceSha256": "124b4afecd71bafff3be4747a51200336e2183e1f0bf6b37b27ebf857ace7934",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/autumn-canopy-native-v13.webp",
+      "bytes": 19666,
+      "sha256": "bdd7492d76c0262bb56f3fb855ed8db668a0ee71cdcd42cc79e4518991eb8cf3",
+      "kind": "page",
+      "sourceSha256": "bdd7492d76c0262bb56f3fb855ed8db668a0ee71cdcd42cc79e4518991eb8cf3",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/breeze-contact.webp",
+      "bytes": 9734,
+      "sha256": "f5b09ccce426aad5c96466090530c4058f33d36b0a94dce3dcb25765ed0e5c68",
+      "kind": "page",
+      "sourceSha256": "f5b09ccce426aad5c96466090530c4058f33d36b0a94dce3dcb25765ed0e5c68",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/contact-sheet-v2.webp",
+      "bytes": 4732,
+      "sha256": "31aca71ee66ae9c1cbb7123422a5a788a3cc90e1a72e64444335ac97e0ef2240",
+      "kind": "page",
+      "sourceSha256": "31aca71ee66ae9c1cbb7123422a5a788a3cc90e1a72e64444335ac97e0ef2240",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/contact-sheet-v3.webp",
+      "bytes": 20380,
+      "sha256": "d382f154a948e4047e046c04b2b17512546f41699576a5a6e3c6a359e7965478",
+      "kind": "page",
+      "sourceSha256": "d382f154a948e4047e046c04b2b17512546f41699576a5a6e3c6a359e7965478",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/contact-sheet.webp",
+      "bytes": 4746,
+      "sha256": "f5c6d72f8358eec22a758495c84c7684cd3abb79543edec615e12f3667326fba",
+      "kind": "page",
+      "sourceSha256": "f5c6d72f8358eec22a758495c84c7684cd3abb79543edec615e12f3667326fba",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/dusk-base-v9.webp",
+      "bytes": 4018,
+      "sha256": "74cdfa4882f131d0f2fce559e0887c2328c15f605fd280f825f5218d6c6a5388",
+      "kind": "page",
+      "sourceSha256": "74cdfa4882f131d0f2fce559e0887c2328c15f605fd280f825f5218d6c6a5388",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/dusk-contact-v9.webp",
+      "bytes": 6202,
+      "sha256": "2a89734c32474286631351ed6459e7468e2306d9a6a3408a5b6d80aeca453d1f",
+      "kind": "page",
+      "sourceSha256": "2a89734c32474286631351ed6459e7468e2306d9a6a3408a5b6d80aeca453d1f",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/dusk-first-v9.webp",
+      "bytes": 4322,
+      "sha256": "d580286f29be3c81b4278e8186d224307117001df2d9a5008f4b806295666b60",
+      "kind": "page",
+      "sourceSha256": "d580286f29be3c81b4278e8186d224307117001df2d9a5008f4b806295666b60",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/dusk-notes-v9.webp",
+      "bytes": 8428,
+      "sha256": "d98da61f5b002b0df609a52481d988896df7eaf8d56db6c48bd2d316696c914b",
+      "kind": "page",
+      "sourceSha256": "d98da61f5b002b0df609a52481d988896df7eaf8d56db6c48bd2d316696c914b",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/flower-detail-v2.webp",
+      "bytes": 9350,
+      "sha256": "c745df9c9cef590a4b701fabb2c5b4eceaace6b7f27873137bb630c44bcdd026",
+      "kind": "page",
+      "sourceSha256": "c745df9c9cef590a4b701fabb2c5b4eceaace6b7f27873137bb630c44bcdd026",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/fold-contact-v4.webp",
+      "bytes": 19842,
+      "sha256": "0d53cc808c8b6c03007cf123f672a8614bde51a60c7b9355b1abfcf9d80eff35",
+      "kind": "page",
+      "sourceSha256": "0d53cc808c8b6c03007cf123f672a8614bde51a60c7b9355b1abfcf9d80eff35",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/forest-bird-test-start-v18.webp",
+      "bytes": 17270,
+      "sha256": "a8b8295e9d334355ec43bd38d616959798b0b79dabd25a2ec872798498e61c44",
+      "kind": "page",
+      "sourceSha256": "a8b8295e9d334355ec43bd38d616959798b0b79dabd25a2ec872798498e61c44",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/forest-branch-contact-v16.webp",
+      "bytes": 22178,
+      "sha256": "0673ae68ffa2dafb0b9d7714f6b4a9a1bd6265b7ca0e275939ae72d783d2dc3a",
+      "kind": "page",
+      "sourceSha256": "0673ae68ffa2dafb0b9d7714f6b4a9a1bd6265b7ca0e275939ae72d783d2dc3a",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/forest-branch-detail-v16.webp",
+      "bytes": 21066,
+      "sha256": "cb7e62f08da82cdb990789e0d0bb822a3a13ba88508399cb64dafa74189c9fa7",
+      "kind": "page",
+      "sourceSha256": "cb7e62f08da82cdb990789e0d0bb822a3a13ba88508399cb64dafa74189c9fa7",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/forest-contacts-detail-v16.webp",
+      "bytes": 13728,
+      "sha256": "6364b7d1ee381505ac267d415eb33930b20b83e2c3eb4397d6bcce46f18384a5",
+      "kind": "page",
+      "sourceSha256": "6364b7d1ee381505ac267d415eb33930b20b83e2c3eb4397d6bcce46f18384a5",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/forest-crow-sprites-v15.webp",
+      "bytes": 9306,
+      "sha256": "8af13d4f0b32490490958e28984b5576b24b96a6136f9ce35dd9d72fdeb27207",
+      "kind": "page",
+      "sourceSha256": "8af13d4f0b32490490958e28984b5576b24b96a6136f9ce35dd9d72fdeb27207",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/forest-departing-v16.webp",
+      "bytes": 18934,
+      "sha256": "f6c861ab0b0e03175c5d1ceacd503c2349c24288e7adbbae7885506a1e72b0b4",
+      "kind": "page",
+      "sourceSha256": "f6c861ab0b0e03175c5d1ceacd503c2349c24288e7adbbae7885506a1e72b0b4",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/forest-fox-sprites-v15.webp",
+      "bytes": 8412,
+      "sha256": "62226b36cf2c93e7a670f2262c908afeebaa09d19a73aa32164dcb1c9538827c",
+      "kind": "page",
+      "sourceSha256": "62226b36cf2c93e7a670f2262c908afeebaa09d19a73aa32164dcb1c9538827c",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/forest-light-a-v17.webp",
+      "bytes": 17386,
+      "sha256": "50ef78fdf52e136aa4fec70e3a2f6bdba6411afeb9e449de6d3e8dfcb4ac8c20",
+      "kind": "page",
+      "sourceSha256": "50ef78fdf52e136aa4fec70e3a2f6bdba6411afeb9e449de6d3e8dfcb4ac8c20",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/forest-light-b-v17.webp",
+      "bytes": 17962,
+      "sha256": "ffdf3ada014a4b4a15f6c45e9eda923e1faeb9a1e694d5f1d27a4ee837ef8f1f",
+      "kind": "page",
+      "sourceSha256": "ffdf3ada014a4b4a15f6c45e9eda923e1faeb9a1e694d5f1d27a4ee837ef8f1f",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/forest-light-c-v17.webp",
+      "bytes": 17516,
+      "sha256": "9735794862387009fb42b285f485754c4def176e7161311e2c98dbee873d8929",
+      "kind": "page",
+      "sourceSha256": "9735794862387009fb42b285f485754c4def176e7161311e2c98dbee873d8929",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/forest-light-contact-v17.webp",
+      "bytes": 20546,
+      "sha256": "827be7d9282fef38af11fed9cfdd0c99351aee6d7ccaf317eaed60576bc2e26c",
+      "kind": "page",
+      "sourceSha256": "827be7d9282fef38af11fed9cfdd0c99351aee6d7ccaf317eaed60576bc2e26c",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/forest-light-first-v17.webp",
+      "bytes": 17250,
+      "sha256": "f399a6d968f565bd684dfa800328287f391704ba088cdc77013bc707e709418a",
+      "kind": "page",
+      "sourceSha256": "f399a6d968f565bd684dfa800328287f391704ba088cdc77013bc707e709418a",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/forest-perch-sprites-v16.webp",
+      "bytes": 16788,
+      "sha256": "99df3ea5541c5090940859f22e845f5d1e37dda02bed708fd2abdc3556019227",
+      "kind": "page",
+      "sourceSha256": "99df3ea5541c5090940859f22e845f5d1e37dda02bed708fd2abdc3556019227",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/forest-perched-v16.webp",
+      "bytes": 18468,
+      "sha256": "b9888ac066171a9bf3f22b94dcdd97ceca227e403b9d34f0ccbe476667bd921a",
+      "kind": "page",
+      "sourceSha256": "b9888ac066171a9bf3f22b94dcdd97ceca227e403b9d34f0ccbe476667bd921a",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/forest-returning-v16.webp",
+      "bytes": 19006,
+      "sha256": "96c473437b8775c7dc965d99d5f72cf4f285d6b5c55ab3bdaaa7b9894ab0bbb9",
+      "kind": "page",
+      "sourceSha256": "96c473437b8775c7dc965d99d5f72cf4f285d6b5c55ab3bdaaa7b9894ab0bbb9",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/forest-startle-birds-v15.webp",
+      "bytes": 18730,
+      "sha256": "c00eddfb641d09fcd9976154feb53c03de556b7355d465e1cc15257106f45675",
+      "kind": "page",
+      "sourceSha256": "c00eddfb641d09fcd9976154feb53c03de556b7355d465e1cc15257106f45675",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/forest-startle-contact-v15.webp",
+      "bytes": 22186,
+      "sha256": "d46ba6a2be4f865c1490e666f7a47bb8028c458ba6ea25c492286c19dcd3792c",
+      "kind": "page",
+      "sourceSha256": "d46ba6a2be4f865c1490e666f7a47bb8028c458ba6ea25c492286c19dcd3792c",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/forest-startle-event-v15.webp",
+      "bytes": 18490,
+      "sha256": "914bef98828f0f60249ad3f0ee5149a3bf452c5c12c10c99fe5cb519148894d2",
+      "kind": "page",
+      "sourceSha256": "914bef98828f0f60249ad3f0ee5149a3bf452c5c12c10c99fe5cb519148894d2",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/forest-suspense-base-preview-v15.webp",
+      "bytes": 18800,
+      "sha256": "b483c8da9a2f07c41567d42c06f156ea00509de07fd4754e699aab646c4e8b81",
+      "kind": "page",
+      "sourceSha256": "b483c8da9a2f07c41567d42c06f156ea00509de07fd4754e699aab646c4e8b81",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/forest-suspense-base-v15.webp",
+      "bytes": 18962,
+      "sha256": "51db0e6ab529a94eec2049afc3bff08494d5abdeb9d435728cafef18672fd5b6",
+      "kind": "page",
+      "sourceSha256": "51db0e6ab529a94eec2049afc3bff08494d5abdeb9d435728cafef18672fd5b6",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/garden-base-v3.webp",
+      "bytes": 15052,
+      "sha256": "0cfd8f5b04dd4b0523ed6e8f82a99ffa340ad61089556186948690b38d24a8a0",
+      "kind": "page",
+      "sourceSha256": "0cfd8f5b04dd4b0523ed6e8f82a99ffa340ad61089556186948690b38d24a8a0",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/garden-base.webp",
+      "bytes": 9204,
+      "sha256": "c4f4bb88dfef9e231d1c9fd65a8216bf7ed90be1993ba7988f3e10422f3ec078",
+      "kind": "page",
+      "sourceSha256": "c4f4bb88dfef9e231d1c9fd65a8216bf7ed90be1993ba7988f3e10422f3ec078",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/garden-fold-loop-v4-preview.webp",
+      "bytes": 11554,
+      "sha256": "34ab4ad5a062f99703bcf3500bc5ae71c14255dff0754c7fd787c27374971d07",
+      "kind": "page",
+      "sourceSha256": "34ab4ad5a062f99703bcf3500bc5ae71c14255dff0754c7fd787c27374971d07",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/mirror-contact-v7.webp",
+      "bytes": 22038,
+      "sha256": "03f68ae32ea97c53fc8454a1bdd71502ec9e174eb15e1e9b52a2164e0f925e04",
+      "kind": "page",
+      "sourceSha256": "03f68ae32ea97c53fc8454a1bdd71502ec9e174eb15e1e9b52a2164e0f925e04",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/mirror-first-v7.webp",
+      "bytes": 21178,
+      "sha256": "2bbd0ffd90addc73179ccacf2d2d24d5666d91537cbdcecefc11d90f939ed751",
+      "kind": "page",
+      "sourceSha256": "2bbd0ffd90addc73179ccacf2d2d24d5666d91537cbdcecefc11d90f939ed751",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/mirror-native-sheet-v7.webp",
+      "bytes": 20758,
+      "sha256": "efce8e45a4f6500b70f160864f5ff3bc42666086f0e48c8cb553d29805741ee7",
+      "kind": "page",
+      "sourceSha256": "efce8e45a4f6500b70f160864f5ff3bc42666086f0e48c8cb553d29805741ee7",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/native-gif-attempt-still-v18.webp",
+      "bytes": 17104,
+      "sha256": "8e2119af1adad210dc3051e3e8758990be4ea1e2c3d1c224216b0a1b4ab690fc",
+      "kind": "page",
+      "sourceSha256": "8e2119af1adad210dc3051e3e8758990be4ea1e2c3d1c224216b0a1b4ab690fc",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/night-tide-contact-v12.webp",
+      "bytes": 15572,
+      "sha256": "fb9117f70ffa08f6e9f8e49007c723aa37a88cf8c6d6045fb1e9fdb224e9193e",
+      "kind": "page",
+      "sourceSha256": "fb9117f70ffa08f6e9f8e49007c723aa37a88cf8c6d6045fb1e9fdb224e9193e",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/night-tide-native-v12.webp",
+      "bytes": 15404,
+      "sha256": "c07aa521a0ee6c5b3fa8011768cb9e925bf4c4f0fb11c8acec2bbd18f000cf5b",
+      "kind": "page",
+      "sourceSha256": "c07aa521a0ee6c5b3fa8011768cb9e925bf4c4f0fb11c8acec2bbd18f000cf5b",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/reference-13-frames.webp",
+      "bytes": 7396,
+      "sha256": "e860885929e016025a339bd8ceebf65b7be81e4a6a0e12d523262a97a77f8892",
+      "kind": "page",
+      "sourceSha256": "e860885929e016025a339bd8ceebf65b7be81e4a6a0e12d523262a97a77f8892",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/reference-detail-motion.webp",
+      "bytes": 8108,
+      "sha256": "359512a083e015381623ea174f08312a76784f6dd2fdc1c5b14720cbc83d7302",
+      "kind": "page",
+      "sourceSha256": "359512a083e015381623ea174f08312a76784f6dd2fdc1c5b14720cbc83d7302",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/reference-mirror-contact.webp",
+      "bytes": 25628,
+      "sha256": "0f7df9ff6cff68be4a4594d288af2dc810752afd446c963fa0c089ade474b9d7",
+      "kind": "page",
+      "sourceSha256": "0f7df9ff6cff68be4a4594d288af2dc810752afd446c963fa0c089ade474b9d7",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/reference-mirror-style-frame.webp",
+      "bytes": 23352,
+      "sha256": "24ca33353c4b39548555515fe33cbbd4576904fe2a86e863595101b135b6c3d1",
+      "kind": "page",
+      "sourceSha256": "24ca33353c4b39548555515fe33cbbd4576904fe2a86e863595101b135b6c3d1",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/reference-style-frame.webp",
+      "bytes": 13240,
+      "sha256": "1b7d63f848ea73fc24647f1911e11acf902730150ae8a595efc34cfcdf13afd4",
+      "kind": "page",
+      "sourceSha256": "1b7d63f848ea73fc24647f1911e11acf902730150ae8a595efc34cfcdf13afd4",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/sea-contact-v10.webp",
+      "bytes": 11648,
+      "sha256": "6e2fa885b5c850b1ff8e3cce24d5ba1c6a8c01a4db3ebd948a2523270d1df27d",
+      "kind": "page",
+      "sourceSha256": "6e2fa885b5c850b1ff8e3cce24d5ba1c6a8c01a4db3ebd948a2523270d1df27d",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/sea-native-sheet-v10.webp",
+      "bytes": 13206,
+      "sha256": "e136e473f12ba196a6b55e79bb0f513ab4780df25afd440b92c721846d0514b8",
+      "kind": "page",
+      "sourceSha256": "e136e473f12ba196a6b55e79bb0f513ab4780df25afd440b92c721846d0514b8",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/softglitch-contact-v6.webp",
+      "bytes": 17314,
+      "sha256": "e1e56665b991531599500e62991825c285bb94c5075377c94011d03807665502",
+      "kind": "page",
+      "sourceSha256": "e1e56665b991531599500e62991825c285bb94c5075377c94011d03807665502",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/softglitch-native-sheet-v6.webp",
+      "bytes": 17484,
+      "sha256": "eb107843cbd35bc67a7e2bdfb2b7623e492139a861cc35c581b36be9777ca270",
+      "kind": "page",
+      "sourceSha256": "eb107843cbd35bc67a7e2bdfb2b7623e492139a861cc35c581b36be9777ca270",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/tidal-field-contact-v11.webp",
+      "bytes": 13322,
+      "sha256": "15a2d44e5b8b661c97a8531d9a11c4757d15f11377b9bef9dd2d0035768a4f5d",
+      "kind": "page",
+      "sourceSha256": "15a2d44e5b8b661c97a8531d9a11c4757d15f11377b9bef9dd2d0035768a4f5d",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/assets/thumbnails/tide-field-native-v11.webp",
+      "bytes": 13848,
+      "sha256": "59325d507fb90cca6aac06b84377ae28b6f7e496df1d7eaf39fda157c7bc9147",
+      "kind": "page",
+      "sourceSha256": "59325d507fb90cca6aac06b84377ae28b6f7e496df1d7eaf39fda157c7bc9147",
+      "unchanged": true
+    },
+    {
+      "path": "docs/024-immersive-loop-research/data/archive.json",
+      "bytes": 185768,
+      "sha256": "f9a19cd83601be4169d7913651c7e663b82f69d357b1efbdd9bba6cf2360ff9e",
+      "kind": "page"
+    },
+    {
+      "path": "docs/024-immersive-loop-research/data/curation.json",
+      "bytes": 120218,
+      "sha256": "dc90c42e999897fc79a3b6aab7c850f39c6dd9641812ee27b71ef9c88210db9f",
+      "kind": "page"
+    },
+    {
+      "path": "docs/024-immersive-loop-research/data/source-inventory.json",
+      "bytes": 65941,
+      "sha256": "f9d9f2400b55f426f0906cca78a85dca3a682d6f5fbe0fea23df68cc199a3772",
+      "kind": "page"
+    },
+    {
+      "path": "docs/024-immersive-loop-research/data/archive-data.js",
+      "bytes": 185795,
+      "sha256": "1cc5296c90c99601eaf4ce858d61115660101bfa678e25f0bbe52982b104c798",
+      "kind": "page"
+    },
+    {
+      "path": "docs/024-immersive-loop-research/README.md",
+      "bytes": 7268,
+      "sha256": "24d9d630ee1cd56f74ccd22ecdc4f6aeede8eb7cd28e7070c42ee3ed6bfd9df4",
+      "kind": "page"
+    },
+    {
+      "path": "docs/024-immersive-loop-research/data/archive-verification.json",
+      "bytes": 348,
+      "sha256": "cb4c18453ef00542dd115630e164bba824a728a4abf23265c7c8806677f7a039",
+      "kind": "page"
+    }
+  ],
+  "pagesBytes": 7435764,
+  "archiveBytes": 328810379,
+  "boundaries": "研究目前提供的是创作判断、失败样本与可复用记录。尚无用户明确认可的最终成片，尚未验证成功的模型原生 GIF，也没有真实观众测试、稳定效率提升或商业成效证据。"
+}

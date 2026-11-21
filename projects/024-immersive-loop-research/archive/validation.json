@@ -1,0 +1,10 @@
+{
+  "frames": 80,
+  "fps": 20,
+  "durationSeconds": 4,
+  "periodicEndpointMAE": 0,
+  "seamMAE": 0.5968196614583333,
+  "meanConsecutiveMAE": 0.6466210525448314,
+  "motionAcrossHalfCycleMAE": 8.43988037109375,
+  "gifBytes": 8903651
+}

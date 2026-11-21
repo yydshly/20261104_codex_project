@@ -1,0 +1,26 @@
+{
+  "title": "秋林浮光",
+  "imageTool": "built-in image_gen.imagegen",
+  "imageModel": "not reported by tool",
+  "inputImages": [],
+  "prompt": "Use case: stylized-concept.\nAsset type: one original square fine-art source image for a full-frame seamless animated artwork.\nPrimary request: \"Autumn Canopy, Floating Light\" — look straight down into a continuous forest of interlocking autumn tree crowns. The whole forest is the composition, with no single hero tree. Clearly recognizable small maple and birch leaves cluster into generous, rounded and irregular tree crowns; graceful branch structures are partly glimpsed beneath them. Amber, ochre, old gold and pale honey foliage is interwoven with quieter olive, russet and deep blue-green crowns. Narrow, irregular dark spaces between crowns give breathing room. Soft low autumn sunlight grazes leaves all across the image; fine silver-gold glints recur throughout the canopy rather than forming a bright central spot.\nStyle/medium: an exquisitely detailed tactile digital tapestry, combining remembered analogue film colour with richly observed botanical detail and subtle pearlescent edge colour. Slight luminous grain, soft halation on a few leaf edges, restful rich shadows. Poetic and immersive, recognizably a woodland canopy rather than an abstract liquid or fantasy effect.\nComposition: directly overhead, all-over, broad legible tree-crown shapes across every edge, asymmetrically balanced and continuously interlocking. A few broad diagonal correspondences of warm and cool crowns lead the eye around the whole image, but do not form stripes. Opposite image edges should naturally match for seamless repetition in both directions. Maintain beautiful detail even at the edges.\nMood: the generous, comfortable warmth of an autumn afternoon, a quiet sense of being enveloped in the forest. Spacious enough to look at for a long time.\nConstraints: One single square image, preferably 1536x1536 or larger. No text, panels, contact sheet, border or grid. No horizon, sky, trunk rising toward the camera, path, house or identifiable isolated object. No flowers, water, silk ribbons, radial tunnel, central vortex, kaleidoscope mirror symmetry, spiral, eyes or anatomical forms. Do not make a photographic landscape with a single focus; this should be an original full-field woodland artwork that can move together across the entire frame.",
+  "nativeImage": "autumn-canopy-native-v13.png",
+  "production": "Original native woodland artwork with local full-field animation; not model-generated video",
+  "renderer": "render-autumn-canopy-v13.cjs",
+  "motion": {
+    "scope": "Entire panoramic canvas",
+    "spatialConstruction": "Closed elliptic translation with four gentle, orientation-preserving planar shears",
+    "boundaryHandling": "Periodic-plus-smooth boundary correction",
+    "noStaticForeground": true
+  },
+  "output": {
+    "gif": "autumn-canopy-whole-v13.gif",
+    "video": "autumn-canopy-whole-v13.mp4",
+    "width": 704,
+    "height": 396,
+    "frames": 128,
+    "fps": 20,
+    "durationSeconds": 6.4
+  },
+  "validation": "autumn-canopy-validation-v13.json"
+}

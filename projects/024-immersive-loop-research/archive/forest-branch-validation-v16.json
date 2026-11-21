@@ -1,0 +1,81 @@
+{
+  "width": 640,
+  "height": 640,
+  "fps": 20,
+  "frames": 240,
+  "seconds": 12,
+  "loopCount": 0,
+  "endpointMAE": 0,
+  "decodedSeamMAE": 0.08563232421875,
+  "decodedMeanAdjacentMAE": 0.2542947332363581,
+  "maxVisibleBirds": 7,
+  "maxAirborneBirds": 7,
+  "initialPerchedBirds": 7,
+  "perchContacts": [
+    {
+      "foot": [
+        108,
+        137
+      ],
+      "view": 1
+    },
+    {
+      "foot": [
+        440,
+        186
+      ],
+      "view": 0
+    },
+    {
+      "foot": [
+        534,
+        296
+      ],
+      "view": 2
+    },
+    {
+      "foot": [
+        122,
+        331
+      ],
+      "view": 3
+    },
+    {
+      "foot": [
+        225,
+        280
+      ],
+      "view": 2
+    },
+    {
+      "foot": [
+        239,
+        437
+      ],
+      "view": 0
+    },
+    {
+      "foot": [
+        381,
+        395
+      ],
+      "view": 1
+    }
+  ],
+  "maxFoxOpaqueEquivalentPixels": 1435.656517894845,
+  "foxVisibleFrames": 34,
+  "endpointEvents": {
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  "alpha": {
+    "crowTransparentFraction": 0.8533935546875,
+    "perchTransparentFraction": 0.711417236328125,
+    "foxTransparentFraction": 0.8929534912109375
+  },
+  "gifBytes": 3688609,
+  "seamRatio": 0.33674438762031983
+}

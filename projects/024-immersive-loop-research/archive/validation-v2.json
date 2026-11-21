@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "width": 640,
+  "height": 640,
+  "fps": 25,
+  "frames": 60,
+  "durationSeconds": 2.4,
+  "flowerRegions": 11,
+  "airborneLightPoints": 172,
+  "petalGlints": 66,
+  "endpointPixelMAE": 0,
+  "maxEndpointFlowError": 9.094947017729282e-13,
+  "finiteDifferenceVelocityErrorPxPerRadian": 0.0095367431640625,
+  "seamMAE": 1.12077880859375,
+  "meanAdjacentFrameMAE": 0.9370372776527186,
+  "flowerOnlyQuarterCycleMAE": {
+    "v1": 13.736839079220658,
+    "v2WithoutSparkles": 21.459764415026267,
+    "ratio": 1.562205416491183
+  },
+  "gifBytes": 6611716
+}

@@ -1,0 +1,44 @@
+{
+  "title": "林中惊起 · 光影版",
+  "revision": "Add spatially varying canopy illumination, gentle cloud shadows, broken leaf highlights, shallow woodland haze and small projected bird shadows while retaining branch contacts and the fixed camera.",
+  "production": "Local 2D lighting and composited animation using previously generated native artwork; no new image generation or video-generation service used.",
+  "sourceGenerationRecords": [
+    "forest-startle-provenance-v15.json",
+    "forest-branch-provenance-v16.json"
+  ],
+  "retainedAssets": [
+    "forest-suspense-base-v15.png",
+    "forest-crow-sprites-v15.png",
+    "forest-fox-sprites-v15.png",
+    "forest-perch-sprites-v16.png"
+  ],
+  "renderer": "render-forest-light-v17.cjs",
+  "lighting": {
+    "direction": "Consistent upper-left sunlight and lower-right projected bird shadows",
+    "cloudShadows": "Soft spatially varying periodic transmission; different parts of the canopy brighten and darken at different times",
+    "surfaceResponse": "Illuminated leaves receive more direct light than dark understory; cooler ambient component is retained in shadow",
+    "leafHighlights": "Small changes restricted to existing bright leaf surfaces, synchronized with the periodic leaf-light pattern",
+    "forestFloor": "Two fixed soft pools of light with small broken illumination, affecting the passing animal's shading",
+    "air": "Low-opacity warm shafts restricted mainly to dark gaps; this is a 2D atmospheric interpretation",
+    "birds": "Soft alpha-derived wing shadows projected onto the canopy, softened and weakened with the interpreted flight height",
+    "tonality": "Soft highlight rolloff",
+    "limitations": "Illustrative 2D relighting and projection, not physically traced 3D illumination. Existing artwork contains baked lighting."
+  },
+  "motion": {
+    "camera": "fixed",
+    "perchContacts": "same seven manually reviewed branch positions as v16",
+    "animalTiming": "retained from v16",
+    "loop": "All lighting fields, foliage movement and resting animal states match at both endpoints"
+  },
+  "output": {
+    "gif": "forest-light-shadow-v17.gif",
+    "video": "forest-light-shadow-v17.mp4",
+    "width": 640,
+    "height": 640,
+    "fps": 20,
+    "frames": 240,
+    "seconds": 12
+  },
+  "validation": "forest-light-validation-v17.json",
+  "timeline": "forest-light-timeline-v17.json"
+}

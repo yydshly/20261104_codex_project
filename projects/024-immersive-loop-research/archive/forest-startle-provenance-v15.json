@@ -1,0 +1,75 @@
+{
+  "title": "林中惊起",
+  "intent": "在原有秋林中增加一次有因果关系、留有未知来由的惊动：短暂奔跑的小兽、随后惊起的鸟群、回归安静。",
+  "format": "One continuous fixed-camera silent GIF loop",
+  "production": "Built-in image generation for edited forest background and transparent animal pose sheets, then local composited animation; not AI-generated video.",
+  "imageTool": "built-in image_gen.imagegen",
+  "imageModel": "not reported by tool",
+  "generations": [
+    {
+      "role": "Full edit target for localized forest-floor opening",
+      "input": "autumn-canopy-native-v13.png",
+      "prompt": "Edit the provided autumn woodland image as the FULL EDIT TARGET. Retain the same square framing, the same positions and shapes of the autumn crowns and main branches, warm gold/russet foliage and deep blue-green shadows, and the same detailed painterly photographic texture. Make one localized environmental change: in the lower middle quarter, between approximately x=24% and x=76%, y=58% and y=73%, reveal a narrow irregular horizontal glimpse of the forest floor BEHIND the foreground leaves. It should be a dim woodland understory passage with brown leaf litter and soft deep shadow, intermittently obscured by little foreground branches and leaf clusters. The passage is natural, not a road, and only occupies a small part of the scene. Its visible height at the centre is about 7% of the image height. This small gap will let a small animal briefly pass through at ground level in a later animation. The dense warm canopy everywhere else remains beautiful and rooted, unchanged in composition. No animals, no birds yet, no people, no glowing eyes, no text, no new light beam, no fake motion blur. One single square forest background, no panels or frames.",
+      "output": "forest-suspense-base-v15.png"
+    },
+    {
+      "role": "New transparent crow wingbeat pose sheet; no reference image supplied",
+      "prompt": "Use case: stylized-concept. Create a production-quality TRANSPARENT PNG animation sprite sheet for one realistic woodland crow flying away from the viewer toward the TOP of the image, viewed from a high, slightly oblique overhead camera. Exactly SIX wingbeat poses in a precise uniform 3-column by 2-row layout, read left to right across the top row then bottom row. Same individual bird, same body centre and direction, same camera, same body scale in all six cells. Make a complete continuous natural wingbeat cycle: wide wings nearly horizontal, wings raised into a wide V, high upstroke folded nearer the body, wings extending down, full downstroke, wings returning outward. Body with narrow head and beak at top, short fan tail at bottom; folded feet, two anatomically correct wings, realistic feather groups. Crow should be dark charcoal with very subtle warm amber edge light, not a pure black icon. Detailed painterly photographic texture suited to an autumn forest fine-art composite; subdued enough to live within a scene. Each pose wholly inside its own equal-sized cell with at least 15% transparent margin; wingtips must never cross cell boundaries. All bird body centres exactly in centre of each cell; no position translation. No shadows, no perch, no environment, no grid lines, no numbers, no labels, no border, no white background or checkerboard painted into the image. Genuine transparent alpha everywhere outside the birds. Overall square sheet preferably 1536x1536 or larger.",
+      "output": "forest-crow-sprites-v15.png"
+    },
+    {
+      "role": "New transparent fox gallop pose sheet; no reference image supplied",
+      "prompt": "Use case: stylized-concept. Create a production-quality TRANSPARENT PNG running animation sprite sheet of a small realistic woodland red fox. Exactly SIX different sequential gallop poses in a precise uniform 3-column by 2-row layout, read left to right across the top row then bottom row, forming one physically plausible repeated run cycle. The SAME slender natural fox in every cell: pointed ears, tapered muzzle, dark lower legs, rusty muted orange coat, pale throat and long bushy darker tail with a small pale tip. Facing RIGHT, seen from a side view elevated about 25 degrees so some of the animal's back is visible, matching a woodland clearing seen from a slightly elevated camera. Same size and direction and body-centre anchor in every cell. Natural gait sequence with four coherent legs: extension, foreleg landing, compression, hind-leg push off, airborne gathering, extension again. Tail trails left. Medium-low contrast, warm dim afternoon woodland lighting from upper left, detailed painterly photographic fur suited to a densely detailed autumn woodland illustration. The animal will be a small glimpse in the scene, not a cartoon mascot. Each complete fox fits inside its equal-sized cell with at least 15% transparent margin. Leave the background truly transparent with alpha; no ground, no cast shadow, no environment, no grid lines, no numbers, no text or border, no white rectangle or painted checkerboard. Overall square 1536x1536 or larger.",
+      "output": "forest-fox-sprites-v15.png"
+    }
+  ],
+  "renderer": "render-forest-suspense-v15.cjs",
+  "timeline": [
+    {
+      "seconds": [
+        0,
+        1.28
+      ],
+      "action": "安静的秋林，只有很轻的叶面风动"
+    },
+    {
+      "seconds": [
+        1.28,
+        2.96
+      ],
+      "action": "小兽从林下阴影中奔过，被前景枝干局部遮挡，消失在另一侧灌木后"
+    },
+    {
+      "seconds": [
+        2.02,
+        5.85
+      ],
+      "action": "七只鸟先后从树冠起飞，扑翼、分散并飞出画面"
+    },
+    {
+      "seconds": [
+        5.85,
+        8
+      ],
+      "action": "林地恢复安静，回到循环初始状态"
+    }
+  ],
+  "motion": {
+    "camera": "fixed",
+    "treePositions": "no whole-scene translation or shear",
+    "animalGrounding": "Small forest-floor contact shadow; manually defined trunk and foliage occlusion",
+    "birds": "Six native wingbeat poses, separate phased cycles and curved flight trajectories",
+    "loop": "Events entirely absent at both endpoints; ambient phase exactly periodic"
+  },
+  "output": {
+    "gif": "forest-startle-v15.gif",
+    "video": "forest-startle-v15.mp4",
+    "width": 640,
+    "height": 640,
+    "fps": 20,
+    "frames": 160,
+    "seconds": 8
+  },
+  "validation": "forest-startle-validation-v15.json",
+  "frameTimeline": "forest-startle-timeline-v15.json"
+}

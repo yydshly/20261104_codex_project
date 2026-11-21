@@ -1,0 +1,1922 @@
+[
+  {
+    "time": 0,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 0.05,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 0.1,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 0.15,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 0.2,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 0.25,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 0.3,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 0.35,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 0.4,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 0.45,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 0.5,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 0.55,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 0.6,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 0.65,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 0.7,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 0.75,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 0.8,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 0.85,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 0.9,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 0.95,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 1,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 1.05,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 1.1,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 1.15,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 1.2,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 1.25,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 1.3,
+    "foxPixels": 477.8014939066313,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 1.35,
+    "foxPixels": 709.6122833776113,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 1.4,
+    "foxPixels": 1011.4350124505411,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 1.45,
+    "foxPixels": 1143.0735815835187,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 1.5,
+    "foxPixels": 1151.7797303967068,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 1.55,
+    "foxPixels": 1341.959247486024,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 1.6,
+    "foxPixels": 1435.656517894845,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 1.65,
+    "foxPixels": 1410.4962994170914,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 1.7,
+    "foxPixels": 1253.237238613498,
+    "birds": 7,
+    "birdPixels": 2151.347709353416,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 1.75,
+    "foxPixels": 1138.5978198761632,
+    "birds": 7,
+    "birdPixels": 2151.347709353416,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 1.8,
+    "foxPixels": 1191.8575123975006,
+    "birds": 7,
+    "birdPixels": 2151.347709353416,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 1.85,
+    "foxPixels": 1151.7481367241155,
+    "birds": 7,
+    "birdPixels": 2165.4486545330005,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 1.9,
+    "foxPixels": 1287.037057992049,
+    "birds": 7,
+    "birdPixels": 2293.3920197341513,
+    "perched": 6,
+    "airborne": 1
+  },
+  {
+    "time": 1.95,
+    "foxPixels": 1266.2441660583802,
+    "birds": 7,
+    "birdPixels": 2281.197808999688,
+    "perched": 6,
+    "airborne": 1
+  },
+  {
+    "time": 2,
+    "foxPixels": 1256.583664274519,
+    "birds": 7,
+    "birdPixels": 2369.710495050975,
+    "perched": 5,
+    "airborne": 2
+  },
+  {
+    "time": 2.05,
+    "foxPixels": 1188.4615722581586,
+    "birds": 7,
+    "birdPixels": 2330.2859210488286,
+    "perched": 5,
+    "airborne": 2
+  },
+  {
+    "time": 2.1,
+    "foxPixels": 1355.1451757377686,
+    "birds": 7,
+    "birdPixels": 2410.509457568668,
+    "perched": 4,
+    "airborne": 3
+  },
+  {
+    "time": 2.15,
+    "foxPixels": 1431.0073188997494,
+    "birds": 7,
+    "birdPixels": 2369.830924587347,
+    "perched": 4,
+    "airborne": 3
+  },
+  {
+    "time": 2.2,
+    "foxPixels": 1411.5767372835912,
+    "birds": 7,
+    "birdPixels": 2445.0982182620546,
+    "perched": 3,
+    "airborne": 4
+  },
+  {
+    "time": 2.25,
+    "foxPixels": 1352.687513936068,
+    "birds": 7,
+    "birdPixels": 2365.844858578457,
+    "perched": 3,
+    "airborne": 4
+  },
+  {
+    "time": 2.3,
+    "foxPixels": 1241.4372543819695,
+    "birds": 7,
+    "birdPixels": 2494.0037864200594,
+    "perched": 2,
+    "airborne": 5
+  },
+  {
+    "time": 2.35,
+    "foxPixels": 1069.3944735437717,
+    "birds": 7,
+    "birdPixels": 2435.59984784547,
+    "perched": 2,
+    "airborne": 5
+  },
+  {
+    "time": 2.4,
+    "foxPixels": 1084.9399023218032,
+    "birds": 7,
+    "birdPixels": 2365.3523353518326,
+    "perched": 2,
+    "airborne": 5
+  },
+  {
+    "time": 2.45,
+    "foxPixels": 1145.0789534354828,
+    "birds": 7,
+    "birdPixels": 2319.4047844251427,
+    "perched": 1,
+    "airborne": 6
+  },
+  {
+    "time": 2.5,
+    "foxPixels": 1109.8584374245804,
+    "birds": 7,
+    "birdPixels": 2436.3531995654266,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 2.55,
+    "foxPixels": 1163.4066701534964,
+    "birds": 7,
+    "birdPixels": 2418.0496299871,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 2.6,
+    "foxPixels": 1129.2429019548192,
+    "birds": 7,
+    "birdPixels": 2436.8942939486237,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 2.65,
+    "foxPixels": 1173.5849389993828,
+    "birds": 7,
+    "birdPixels": 2264.8757487922053,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 2.7,
+    "foxPixels": 1374.5152862705247,
+    "birds": 7,
+    "birdPixels": 2177.701726831216,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 2.75,
+    "foxPixels": 1230.5583595424348,
+    "birds": 7,
+    "birdPixels": 2181.144263939162,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 2.8,
+    "foxPixels": 933.262299554205,
+    "birds": 7,
+    "birdPixels": 2182.778537533553,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 2.85,
+    "foxPixels": 731.5571332105741,
+    "birds": 7,
+    "birdPixels": 2326.470968982903,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 2.9,
+    "foxPixels": 561.8914009275766,
+    "birds": 7,
+    "birdPixels": 2328.592027135312,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 2.95,
+    "foxPixels": 337.0238675753854,
+    "birds": 7,
+    "birdPixels": 2453.055059937458,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 3,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2497.104923259059,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 3.05,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2626.5752746047897,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 3.1,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2609.3809443880245,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 3.15,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2845.0885485515837,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 3.2,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2752.8005919104503,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 3.25,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2973.265165137941,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 3.3,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2898.372199467001,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 3.35,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3123.7152443400996,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 3.4,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3108.0574291034736,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 3.45,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3356.2960748201845,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 3.5,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3261.6952584637243,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 3.55,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3470.98565356718,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 3.6,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3315.5108279187275,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 3.65,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3610.4843169285105,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 3.7,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3297.8188109395155,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 3.75,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3441.8835566292128,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 3.8,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3311.6664163793,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 3.85,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3326.548798407955,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 3.9,
+    "foxPixels": 0,
+    "birds": 6,
+    "birdPixels": 3329.378973489787,
+    "perched": 0,
+    "airborne": 6
+  },
+  {
+    "time": 3.95,
+    "foxPixels": 0,
+    "birds": 6,
+    "birdPixels": 3511.478276657235,
+    "perched": 0,
+    "airborne": 6
+  },
+  {
+    "time": 4,
+    "foxPixels": 0,
+    "birds": 6,
+    "birdPixels": 3346.4874536904726,
+    "perched": 0,
+    "airborne": 6
+  },
+  {
+    "time": 4.05,
+    "foxPixels": 0,
+    "birds": 6,
+    "birdPixels": 3342.9064004343186,
+    "perched": 0,
+    "airborne": 6
+  },
+  {
+    "time": 4.1,
+    "foxPixels": 0,
+    "birds": 6,
+    "birdPixels": 2765.298841492524,
+    "perched": 0,
+    "airborne": 6
+  },
+  {
+    "time": 4.15,
+    "foxPixels": 0,
+    "birds": 5,
+    "birdPixels": 2842.7735019181837,
+    "perched": 0,
+    "airborne": 5
+  },
+  {
+    "time": 4.2,
+    "foxPixels": 0,
+    "birds": 5,
+    "birdPixels": 2403.0517524093657,
+    "perched": 0,
+    "airborne": 5
+  },
+  {
+    "time": 4.25,
+    "foxPixels": 0,
+    "birds": 4,
+    "birdPixels": 2653.419716347653,
+    "perched": 0,
+    "airborne": 4
+  },
+  {
+    "time": 4.3,
+    "foxPixels": 0,
+    "birds": 5,
+    "birdPixels": 2358.08091920589,
+    "perched": 0,
+    "airborne": 5
+  },
+  {
+    "time": 4.35,
+    "foxPixels": 0,
+    "birds": 4,
+    "birdPixels": 2132.3062967284104,
+    "perched": 0,
+    "airborne": 4
+  },
+  {
+    "time": 4.4,
+    "foxPixels": 0,
+    "birds": 3,
+    "birdPixels": 2050.8281794857235,
+    "perched": 0,
+    "airborne": 3
+  },
+  {
+    "time": 4.45,
+    "foxPixels": 0,
+    "birds": 3,
+    "birdPixels": 2086.0388231235447,
+    "perched": 0,
+    "airborne": 3
+  },
+  {
+    "time": 4.5,
+    "foxPixels": 0,
+    "birds": 3,
+    "birdPixels": 1980.7048303238103,
+    "perched": 0,
+    "airborne": 3
+  },
+  {
+    "time": 4.55,
+    "foxPixels": 0,
+    "birds": 3,
+    "birdPixels": 1446.0083314256394,
+    "perched": 0,
+    "airborne": 3
+  },
+  {
+    "time": 4.6,
+    "foxPixels": 0,
+    "birds": 3,
+    "birdPixels": 692.3330046816125,
+    "perched": 0,
+    "airborne": 3
+  },
+  {
+    "time": 4.65,
+    "foxPixels": 0,
+    "birds": 1,
+    "birdPixels": 664.0717672791726,
+    "perched": 0,
+    "airborne": 1
+  },
+  {
+    "time": 4.7,
+    "foxPixels": 0,
+    "birds": 1,
+    "birdPixels": 619.1175533794752,
+    "perched": 0,
+    "airborne": 1
+  },
+  {
+    "time": 4.75,
+    "foxPixels": 0,
+    "birds": 1,
+    "birdPixels": 352.14696084128417,
+    "perched": 0,
+    "airborne": 1
+  },
+  {
+    "time": 4.8,
+    "foxPixels": 0,
+    "birds": 1,
+    "birdPixels": 91.62597103598702,
+    "perched": 0,
+    "airborne": 1
+  },
+  {
+    "time": 4.85,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 4.9,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 4.95,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 5,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 5.05,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 5.1,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 5.15,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 5.2,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 5.25,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 5.3,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 5.35,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 5.4,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 5.45,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 5.5,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 5.55,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 5.6,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 5.65,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 5.7,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 5.75,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 5.8,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 5.85,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 5.9,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 5.95,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 6,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 6.05,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 6.1,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 6.15,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 6.2,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 6.25,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 6.3,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 6.35,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 6.4,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 6.45,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 6.5,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 6.55,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 6.6,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 6.65,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 6.7,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 6.75,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 6.8,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 6.85,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 6.9,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 6.95,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 7,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 7.05,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 7.1,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 7.15,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 7.2,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 7.25,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 7.3,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 7.35,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 7.4,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 7.45,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 7.5,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 7.55,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 7.6,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 7.65,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0,
+    "perched": 0,
+    "airborne": 0
+  },
+  {
+    "time": 7.7,
+    "foxPixels": 0,
+    "birds": 1,
+    "birdPixels": 54.332401600355134,
+    "perched": 0,
+    "airborne": 1
+  },
+  {
+    "time": 7.75,
+    "foxPixels": 0,
+    "birds": 2,
+    "birdPixels": 299.00884445513714,
+    "perched": 0,
+    "airborne": 2
+  },
+  {
+    "time": 7.8,
+    "foxPixels": 0,
+    "birds": 2,
+    "birdPixels": 801.4315075724686,
+    "perched": 0,
+    "airborne": 2
+  },
+  {
+    "time": 7.85,
+    "foxPixels": 0,
+    "birds": 3,
+    "birdPixels": 1386.358371327598,
+    "perched": 0,
+    "airborne": 3
+  },
+  {
+    "time": 7.9,
+    "foxPixels": 0,
+    "birds": 4,
+    "birdPixels": 1585.1476924376666,
+    "perched": 0,
+    "airborne": 4
+  },
+  {
+    "time": 7.95,
+    "foxPixels": 0,
+    "birds": 5,
+    "birdPixels": 2184.7946325757866,
+    "perched": 0,
+    "airborne": 5
+  },
+  {
+    "time": 8,
+    "foxPixels": 0,
+    "birds": 5,
+    "birdPixels": 2530.2758665706515,
+    "perched": 0,
+    "airborne": 5
+  },
+  {
+    "time": 8.05,
+    "foxPixels": 0,
+    "birds": 6,
+    "birdPixels": 3149.5018666378355,
+    "perched": 0,
+    "airborne": 6
+  },
+  {
+    "time": 8.1,
+    "foxPixels": 0,
+    "birds": 6,
+    "birdPixels": 3376.656715723103,
+    "perched": 0,
+    "airborne": 6
+  },
+  {
+    "time": 8.15,
+    "foxPixels": 0,
+    "birds": 6,
+    "birdPixels": 3743.4022803951293,
+    "perched": 0,
+    "airborne": 6
+  },
+  {
+    "time": 8.2,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3617.6866171870915,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 8.25,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3434.4859646242367,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 8.3,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3587.904107873855,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 8.35,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3959.3060673064942,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 8.4,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3930.503311660462,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 8.45,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3717.6585631144617,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 8.5,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3666.283319691523,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 8.55,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3337.9388959337107,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 8.6,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3459.051659453269,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 8.65,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3192.9732277731837,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 8.7,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3352.4877206055935,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 8.75,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2989.1105147955695,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 8.8,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2988.590848094366,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 8.85,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2823.17185923403,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 8.9,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2777.825681407033,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 8.95,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2788.656687860519,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 9,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2633.396864676627,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 9.05,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2574.646536020918,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 9.1,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2383.716115448805,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 9.15,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2462.168361628573,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 9.2,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2408.0668093331196,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 9.25,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2337.9167317350575,
+    "perched": 0,
+    "airborne": 7
+  },
+  {
+    "time": 9.3,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2163.74434994034,
+    "perched": 1,
+    "airborne": 6
+  },
+  {
+    "time": 9.35,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2119.341960186949,
+    "perched": 1,
+    "airborne": 6
+  },
+  {
+    "time": 9.4,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2116.2372223953375,
+    "perched": 1,
+    "airborne": 6
+  },
+  {
+    "time": 9.45,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2202.975794231507,
+    "perched": 1,
+    "airborne": 6
+  },
+  {
+    "time": 9.5,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2159.8949530786517,
+    "perched": 1,
+    "airborne": 6
+  },
+  {
+    "time": 9.55,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2105.7693612900034,
+    "perched": 1,
+    "airborne": 6
+  },
+  {
+    "time": 9.6,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 1954.163576558414,
+    "perched": 2,
+    "airborne": 5
+  },
+  {
+    "time": 9.65,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 1995.671149064433,
+    "perched": 3,
+    "airborne": 4
+  },
+  {
+    "time": 9.7,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2225.7763143560837,
+    "perched": 3,
+    "airborne": 4
+  },
+  {
+    "time": 9.75,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2291.222888217065,
+    "perched": 3,
+    "airborne": 4
+  },
+  {
+    "time": 9.8,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2273.335400038335,
+    "perched": 3,
+    "airborne": 4
+  },
+  {
+    "time": 9.85,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2228.21617129647,
+    "perched": 4,
+    "airborne": 3
+  },
+  {
+    "time": 9.9,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2021.231199586089,
+    "perched": 5,
+    "airborne": 2
+  },
+  {
+    "time": 9.95,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2110.2968449833525,
+    "perched": 5,
+    "airborne": 2
+  },
+  {
+    "time": 10,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2229.543365059678,
+    "perched": 6,
+    "airborne": 1
+  },
+  {
+    "time": 10.05,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2302.185525751894,
+    "perched": 6,
+    "airborne": 1
+  },
+  {
+    "time": 10.1,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2134.082948187425,
+    "perched": 6,
+    "airborne": 1
+  },
+  {
+    "time": 10.15,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 10.2,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 10.25,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 10.3,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 10.35,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 10.4,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 10.45,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 10.5,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 10.55,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 10.6,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 10.65,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 10.7,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 10.75,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 10.8,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 10.85,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 10.9,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 10.95,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 11,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 11.05,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 11.1,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 11.15,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 11.2,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 11.25,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 11.3,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 11.35,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 11.4,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 11.45,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 11.5,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 11.55,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 11.6,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 11.65,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 11.7,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 11.75,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 11.8,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 11.85,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 11.9,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  },
+  {
+    "time": 11.95,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2152.9329454318477,
+    "perched": 7,
+    "airborne": 0
+  }
+]

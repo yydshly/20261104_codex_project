@@ -1,0 +1,21 @@
+{
+  "title": "日常的余光 · 花园循环",
+  "creation": "AI-generated still with deterministic programmatic animation",
+  "imageTool": "built-in image_gen.imagegen",
+  "imageModel": "not reported",
+  "prompt": "Use case: stylized-concept. Asset type: single still background plate for a seamless animated fine-art GIF. Create an original intimate nighttime flower garden photographed close to the ground, square composition 1024x1024. The lower two thirds are a lush but carefully composed wildflower bed, foreground small white cosmos with golden centers, lavender-blue delphiniums, a few dusty coral dahlias and very fine feathery foliage, believable organic flowers with intricate photographic detail, no deformed petals. An inviting narrow dark clearing leads into the middle distance. Upper third is deep indigo twilight with sparse distant out-of-focus warm lights, enough clear dark breathing room. Low soft side light glances across the petals, cool blue-green leaves and warm ivory petal highlights. Tender, nostalgic, quietly wondrous, slightly aged film photograph, subtle soft halation, tactile plant detail. Dense detail below, restful darkness above, clear hierarchy, a few dew highlights. This is our own new composition. Camera locked, no people, no typography, no border, no watermark, no giant glowing flowers, no neon, no rain streaks, no large floating fireflies; moving specks will be added during animation. Deliver one beautifully resolved still image, not a grid, not a storyboard.",
+  "reference": {
+    "artist": "Jennifer Panepinto / QuantumSpirit",
+    "post": "https://x.com/JenPanepinto/status/2120637240007180786",
+    "media": "https://video.twimg.com/tweet_video/HW4ETtwWQAA_mMw.mp4",
+    "durationSeconds": 0.91,
+    "frames": 13
+  },
+  "animation": {
+    "durationSeconds": 4,
+    "fps": 20,
+    "width": 640,
+    "height": 640,
+    "description": "Closed periodic displacement for plant sway, independently phased warm light points. This is a new composition, not the reference artist's original."
+  }
+}

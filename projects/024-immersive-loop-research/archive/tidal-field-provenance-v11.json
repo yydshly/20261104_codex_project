@@ -1,0 +1,26 @@
+{
+  "title": "潮汐织锦",
+  "imageTool": "built-in image_gen.imagegen",
+  "imageModel": "not reported by tool",
+  "inputImages": [],
+  "prompt": "Create ONE original square seamless all-over fine-art texture, a large-scale tidal tapestry of water and light, designed to be animated as an entire continuously moving field. The whole composition is the subject. View directly downward into an imaginary but tactile expanse of shallow tidal currents. Three or four broad flowing arcs of luminous ivory foam and sunlit pale sand weave across saturated jade, turquoise and deep ink-blue water, joining into a continuous open rhythm that extends beyond ALL edges. Grand, expansive, sweeping shapes across the entire frame, with densely intricate pearly stippled details, delicate small ripples, fine prismatic champagne and coral edges, and deeper transparent channels. Large clear curved shapes at several scales; the eye should travel through the entire image rather than rest on one object. Reflections echo across neighboring currents in loose visual correspondences, asymmetric overall, never a fixed four-tile motif. Beautiful balanced cool/warm jewel palette, rich tactile photographic water detail and delicately painted digital texture, soft-glitch-like fine scintillation. Calm, quietly magnificent and absorbing. Create an art textile made of tide and light rather than a literal travel photo. Even visual interest from edge to edge, with clear open spaces between ribbons, no foreground/background hierarchy, no horizon, no tabletop, no shells or identifiable isolated objects, no central emblem, no spiral or vortex, no anatomy, no eyes, no dense holes, no radial tunnel, no neon. Avoid a small bright patch on a static background: broad light-and-colour forms must occupy and structure the full image. Make all four opposite edges match naturally so this can repeat seamlessly in both directions. Do not draw a grid, border, typography, panel layout or contact sheet. Deliver one highly resolved square artwork, preferably 1536x1536 or larger.",
+  "nativeImage": "tide-field-native-v11.png",
+  "production": "Original native all-over tidal artwork animated as a continuous whole-field composition",
+  "renderer": "render-tide-field-v11.cjs",
+  "motion": {
+    "scope": "Entire panoramic canvas, including edges and all nine sampled regions",
+    "spatialConstruction": "Periodic native texture with two composed orientation-preserving planar shear maps and continuous drift",
+    "boundaryHandling": "Periodic-plus-smooth boundary correction",
+    "noStaticForeground": true
+  },
+  "output": {
+    "gif": "tidal-field-whole-v11.gif",
+    "video": "tidal-field-whole-v11.mp4",
+    "width": 704,
+    "height": 396,
+    "frames": 96,
+    "fps": 20,
+    "durationSeconds": 4.8
+  },
+  "validation": "tidal-field-validation-v11.json"
+}

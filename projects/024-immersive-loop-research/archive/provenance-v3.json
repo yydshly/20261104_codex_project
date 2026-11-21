@@ -1,0 +1,25 @@
+{
+  "title": "花朵接续 · 回环花园",
+  "creation": "AI-generated photographic foundation with deterministic flower-to-flower relay animation",
+  "imageTool": "built-in image_gen.imagegen",
+  "imageModel": "not reported",
+  "prompt": "Use case: stylized-concept. One original square photographic botanical artwork as the still foundation for a seamless flower-to-flower relay animation. An immersive, richly detailed nocturnal garden where many real recognizable flower heads form a loose continuous clockwise spiral and two curved rings around a small restful deep-indigo hollow near the middle of the picture. Composition is the priority: the eye should be able to travel from flowers at the bottom-left, up the left, across the top, down the right, across the bottom, then gently inward, always finding another flower. Include flowers all around the frame, including the upper arc, with only the central small dark hollow remaining quiet. Organic, asymmetrical, believable overlapping plants, not a flat decorative wreath. Large distinct flower heads with tactile petals arranged at staggered depths: ivory cosmos with ochre centers, dusty rose dahlias, mauve asters, smaller blue-violet flowers and fine dark teal foliage. Several petals point tangentially along the clockwise curves. Almost front-facing with slight bowl-like depth, no horizon, no ground path, no vase. Rich blue-violet shadows and soft warm pearly petal highlights, delicate photographic film texture and gentle halation; tender, mysterious, inviting, quietly hypnotic. Fine flower detail, saturated but elegant, controlled contrast, botanical identity preserved. No text, no borders, no diagram, no people, no artificial light trails, no neon rings, no graphic spiral lines, no kaleidoscope mirrors, no perfect radial symmetry. Produce one high-quality still image, not animation frames or a contact sheet.",
+  "baseImage": "garden-base-v3.png",
+  "renderer": "render-loop-v3.cjs",
+  "animation": {
+    "durationSeconds": 4,
+    "fps": 25,
+    "width": 640,
+    "height": 640,
+    "outerFlowers": 12,
+    "innerFlowers": 7,
+    "visualRoute": "Clockwise outer relay, then slightly delayed inner response",
+    "bloomEnvelope": "exp(3 * (cos(timePhase - flowerRoutePhase) - 1))",
+    "continuity": "Overlapping periodic bloom envelopes; petal expansion, turning and glints share route-derived phase",
+    "gif": "garden-loop-v3.gif",
+    "video": "garden-loop-v3.mp4"
+  },
+  "verification": "validation-v3.json",
+  "referenceArtist": "Jennifer Panepinto / QuantumSpirit",
+  "referencePost": "https://x.com/JenPanepinto/status/2120637240007180786"
+}

@@ -29,6 +29,7 @@
 | 021 | [公开产品信息与获客研究库](projects/021-growth-casebook/README.md) | [研究起点](https://x.com/yihui_indie/status/2119973315745812674) · GitHub、BetaList、Show HN 与 Product Hunt 公开来源 | 研究免费公开资料怎样成为带来源的中文报告与可比较案例。通过官网核对、固定结构与版本保存积累研究资产，为我们的选题、竞品学习和小实验假设提供依据；真实省时、获客成效与付费价值待验证。 | [已有研究全景图](#growth-casebook-guide) | [在线研究与案例快照](https://yydshly.github.io/20261104_codex_project/021-growth-casebook/) |
 | 022 | [角色、情绪与多载体产品化研究](projects/022-visual-business-atlas/README.md) | [AYi 原帖](https://x.com/AYi_AInotes/status/2120089714749263956) · 自主角色与交付实践 | 研究专属特征、情绪与故事怎样转成表情、头像、壁纸、漫画和桌宠。真实文件与模拟需求对照呈现角色一致性、场景适配和人的设计判断，延伸个人定制、小店经营及角色资产复用；桌宠实机稳定性与真实商业结果待验证。 | [已有研究引导图](#visual-business-atlas-guide) | [在线研究与成品](https://yydshly.github.io/20261104_codex_project/022-visual-business-atlas/) |
 | 023 | [角色素材与游戏质感研究](projects/023-character-forge-lab/README.md) | [Lucca Cerf原帖](https://x.com/luccacerf/status/2120305718939021566) · [Quaternius](https://quaternius.com/packs/universalbasecharacters.html) | 制作原创重戟战士赤霄、13段动作与Three.js／Godot战斗原型，公开13.9秒实录、提示词和实现记录。研究人物资产与游戏系统的独立制作和验收，复用接入流程；现有美术仍未达到商业英雄水准，三条素材升级路线待验证。 | [已有研究引导图](#character-forge-guide) | [在线研究与实际战斗](https://yydshly.github.io/20261104_codex_project/023-character-forge-lab/) |
+| 024 | [日常元素与沉浸式循环研究](projects/024-immersive-loop-research/README.md) | [JenPanepinto](https://x.com/JenPanepinto) · 本轮独立实验 | 研究怎样从自己的日常素材形成统一情绪、个人风格与整体循环，以十八轮实验比较花朵接续、全幅水光、秋林事件及光影。保留三个代表、反馈与方法，积累原创系列和有依据的返修能力；舒适、真实感、原生 GIF 与后续用途仍待验证。 | [已有理解总览图](#immersive-loop-guide) | [在线研究与代表效果](https://yydshly.github.io/20261104_codex_project/024-immersive-loop-research/) |
 
 项目按收录顺序从 `001` 开始编号。新条目按编号追加，已分配的编号保持固定。索引摘要用一两句话写清研究对象和关注点。完成验证后，可补上一条主要发现。
 
@@ -353,3 +354,17 @@ Adam Chernick 个人制作、扩展和组合的网页 3D 实验，部分基于 T
 我们的理解是，代码、更多面数和PBR贴图不能自动带来优秀角色。下一轮先做一个人物、一次跑步和一次无特效重击，分别比较成熟授权资产改制、AI候选加专业后期与完整原创制作；三条路线尚未执行。
 
 引导图沿用2026-11-21生成的原图，实际效果与历史检查保留2026-11-12日期。[在线研究](https://yydshly.github.io/20261104_codex_project/023-character-forge-lab/) · [亲自操作](https://yydshly.github.io/20261104_codex_project/023-character-forge-lab/play.html) · [提示词](https://yydshly.github.io/20261104_codex_project/023-character-forge-lab/#prompts) · [完整研究摘要](projects/023-character-forge-lab/README.md)
+
+<a id="immersive-loop-guide"></a>
+
+### 024 · 日常元素与沉浸式循环研究
+
+研究怎样从自己的日常素材形成统一情绪、个人风格与整体循环，以十八轮实验比较花朵接续、全幅水光、秋林事件及光影。保留三个代表、反馈与方法，积累原创系列和有依据的返修能力；舒适、真实感、原生 GIF 与后续用途仍待验证。
+
+![沿用本轮生成的理解总览：三个代表效果、四条原则、五步创作顺序与待验证问题](docs/024-immersive-loop-research/assets/summary/understanding-overview-v1.png)
+
+我们的理解是：循环发生在画面的关系里。统一光色、材质与细节建立创作世界，构图、节奏与事件组织整体联动，材料和空间约束运动，首尾自然接续。抽象纹样与写实场景各有规则，悬疑只是可选观看线索，舒适与愿意持续观看始终是目标。
+
+研究价值在于形成个人创作语言、让返修改得有依据、积累可复用的实际素材和方法；可继续验证动态日记、氛围网页、动态插画与系列视觉。网页默认只选花朵接续、全幅水光、秋林事件与光影三个不同代表，相近版本保留在完整实验档案中。技术衔接不代表观看体验通过，目前没有用户认可的最终成片或验证成功的模型原生 GIF。
+
+引导图逐字节沿用原图，公开版保留十八轮阶段、实际动态与反馈，省去账号截图和私有执行草稿。[在线研究与效果](https://yydshly.github.io/20261104_codex_project/024-immersive-loop-research/) · [完整方向、价值与边界](projects/024-immersive-loop-research/README.md)

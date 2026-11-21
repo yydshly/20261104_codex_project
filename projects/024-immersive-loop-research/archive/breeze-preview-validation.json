@@ -1,0 +1,13 @@
+{
+  "method": "Local programmatic breeze preview; no external AI video service used",
+  "frames": 100,
+  "fps": 20,
+  "seconds": 5,
+  "width": 560,
+  "height": 560,
+  "endpointMAE": 0,
+  "decodedFrames": 100,
+  "loopCount": 0,
+  "seamRatio": 1.4029564530051915,
+  "gifBytes": 10161522
+}

@@ -1,0 +1,31 @@
+{
+  "production": "Nine native AI floral keyframes, each mirrored on fixed horizontal and vertical axes and repeated 2x2. All tiles share the same variation at each time.",
+  "keyframes": 9,
+  "keyframeOrder": [
+    0,
+    6,
+    5,
+    4,
+    2,
+    3,
+    1,
+    7,
+    8
+  ],
+  "frames": 18,
+  "width": 640,
+  "height": 640,
+  "frameDurationMs": 70,
+  "seconds": 1.2600000000000002,
+  "loopCount": 0,
+  "rawHorizontalSymmetryMAE": 0,
+  "rawVerticalSymmetryMAE": 0,
+  "decodedSeamMAE": 5.107805989583333,
+  "decodedMeanAdjacentMAE": 5.774923023897058,
+  "globalLumaRange": [
+    75.93870030473182,
+    80.48960916410442
+  ],
+  "gifBytes": 5633749,
+  "seamRatio": 0.8844803590362772
+}

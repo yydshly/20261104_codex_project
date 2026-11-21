@@ -1,0 +1,76 @@
+{
+  "title": "林中惊起 · 栖枝修正版",
+  "revision": "Birds are already present on distributed visible branch supports before the disturbance. Different native perched viewpoints replace births from foliage.",
+  "production": "Built-in generated transparent crow posture sheet composited locally with the existing forest, running fox and flying crow artwork; not AI-generated video.",
+  "imageTool": "built-in image_gen.imagegen",
+  "imageModel": "not reported by tool",
+  "newGeneration": {
+    "prompt": "Use case: stylized-concept. Asset: a genuine TRANSPARENT PNG sprite sheet of realistic woodland crows, in a precise 4-COLUMN by 3-ROW grid, twelve separate poses total. One square sheet, preferably 1536x1536 or larger. Equal cell sizes, no overlaps or grid lines.\nEach COLUMN shows the SAME bird at the SAME camera angle through three successive poses. Column 1: side profile facing left. Column 2: side profile facing right. Column 3: rear three-quarter view facing diagonally away toward upper left. Column 4: front three-quarter view looking diagonally toward the right. These are different three-dimensional views of naturally upright birds, not rotated copies of a flat icon. Elevated woodland camera about 15 degrees above the bird, realistic crow proportions, charcoal black plumage with finely described feather detail and restrained warm autumn rim light, painterly photographic material suitable for an autumn forest artwork.\nTOP ROW: settled crow PERCHED with tightly folded wings. Both short legs and curled toes are visible, gripping an invisible narrow twig. Tail angled backward, balanced natural posture.\nMIDDLE ROW: the same crow in the same column crouches forward slightly in an alert pre-takeoff posture, wings beginning to lift, feet STILL ON THE SAME TWIG CONTACT POINT.\nBOTTOM ROW: the same crow pushes off upward with partially opened wings; toes are just opening from the SAME CONTACT POINT, legs still extended downward, body lifting a little. This is the first instant of takeoff, not a fully extended huge flying bird.\nRegistration is essential: the twig contact point is exactly in the horizontal centre of EVERY cell and at 78 percent of the cell height. The bird's toes straddle that invisible point. Preserve body size and direction across each column. Leave at least 14 percent transparent margin on all sides; raised wingtips stay inside their own cell. The tail must not obscure the toes or contact point.\nDo NOT draw a branch, perch, floor, scenery or cast shadow. No text, letters, numerals, labels, border or panel separators. No cartoon styling, no stretched anatomy, no extra limbs, no upside down birds. The background must be true transparent alpha, not a white rectangle or painted checkerboard.",
+    "output": "forest-perch-sprites-v16.png",
+    "inputImages": [],
+    "layout": "4 columns by 3 rows; perched, crouched and push-off poses in four viewpoints"
+  },
+  "retainedAssets": {
+    "background": "forest-suspense-base-v15.png",
+    "fox": "forest-fox-sprites-v15.png",
+    "flight": "forest-crow-sprites-v15.png",
+    "generationRecord": "forest-startle-provenance-v15.json"
+  },
+  "perchContacts": [
+    {
+      "x": 108,
+      "y": 137,
+      "view": "right profile"
+    },
+    {
+      "x": 440,
+      "y": 186,
+      "view": "left profile"
+    },
+    {
+      "x": 534,
+      "y": 296,
+      "view": "rear three-quarter left"
+    },
+    {
+      "x": 122,
+      "y": 331,
+      "view": "front three-quarter right"
+    },
+    {
+      "x": 225,
+      "y": 280,
+      "view": "rear three-quarter left"
+    },
+    {
+      "x": 239,
+      "y": 437,
+      "view": "left profile"
+    },
+    {
+      "x": 381,
+      "y": 395,
+      "view": "right profile"
+    }
+  ],
+  "contactReview": "Branch support positions were inspected in enlarged crops and corrected before final rendering; contact positions are manual 2D alignments.",
+  "motion": {
+    "camera": "fixed",
+    "birdsAtStart": 7,
+    "takeoff": "Crouch, open wings and push from each assigned branch; flight paths begin at corresponding body positions",
+    "return": "Curved inbound flight, wing closure and landing at the same twig contacts; all seven birds settled again by 10.15 seconds",
+    "loop": "12-second loop, identical resting bird poses and ambient phase at both endpoints"
+  },
+  "renderer": "render-forest-perches-v16.cjs",
+  "output": {
+    "gif": "forest-branch-startle-v16.gif",
+    "video": "forest-branch-startle-v16.mp4",
+    "width": 640,
+    "height": 640,
+    "fps": 20,
+    "frames": 240,
+    "seconds": 12
+  },
+  "validation": "forest-branch-validation-v16.json",
+  "timeline": "forest-branch-timeline-v16.json"
+}

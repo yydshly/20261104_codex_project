@@ -1,0 +1,23 @@
+{
+  "title": "花海的近邻变体",
+  "method": "Native image generation of 9 related keyframes, followed by local GIF assembly",
+  "imageTool": "built-in image_gen.imagegen",
+  "imageModel": "not reported by tool",
+  "prompt": "Create a PRODUCTION SPRITE SHEET for a seamless fine-art animated flower GIF: exactly 3 columns x 3 rows, nine equal SQUARE frames, edge-to-edge cells, no gutters, no borders, no labels, no text. Aim for a square 1536x1536 sheet with each frame 512x512. Read the frames left-to-right, top-to-bottom. Every cell depicts the SAME fixed-view flower garden, same scale, same horizon-free composition and same major flower positions. The supplied image is a STYLE AND MATERIAL REFERENCE, not an exact composition to copy. Build our own nearby composition: dense blue-violet tiny flowers and dark teal leaves in the foreground; several luminous peach-ivory peonies around the lower middle; a deep burgundy rose just right of center; small orange-yellow tulips and white star-like flowers embedded throughout. Taller plant clusters on left and right, lower in the middle. Upper one-third stays deep indigo-black with many tiny sparse gold-white points and extremely fine vertical light threads. This is a rich, jewel-toned, painterly-photographic DIGITAL ART garden: saturated cobalt and violet, emerald shadows, burgundy red, pearly peach-white petals, small amber edges, stippled microdetail and delicate prismatic edge residues. A soft-glitch texture, tactile layered petals, magical and beautiful, intricate rather than softly blurred. Avoid the low-saturation look of an ordinary cinematic garden photograph.\nTemporal design for the nine keyframes: maintain stable spatial/color anchors and clearly recognizable major blossoms. At ALL regions simultaneously, make very small neighboring variations in petal contour, thickness, translucent pigment, openness and orientation. Dense blue flower clusters and leaves softly re-resolve into slightly different neighboring details, like one beautiful garden continually being re-imagined. The gold pinpoints twinkle differently by small amounts in every frame. Many independent tiny differences happen in parallel; the whole garden stays coherent. Do not move all plants in one wind direction. Do not animate one flower after another. Do not rotate, zoom, fold space, create rings, make a tunnel, mirror the garden, or stretch/melt flower anatomy. Each frame must be only a SMALL variation from the previous one; frame 9 must also be a small variation from frame 1 so the sequence loops comfortably. Keep camera, light level, framing, main flower positions and flower colors consistent across all 9 cells. Crisp fine detail, not a diagram, not nine different scenes. Output ONLY this exact 3x3 sprite sheet.",
+  "referenceImage": {
+    "path": "reference-style-frame.png",
+    "role": "Style and material reference",
+    "source": "https://x.com/JenPanepinto/status/2120637240007180786"
+  },
+  "nativeOutput": "softglitch-native-sheet-v6.png",
+  "renderer": "assemble-softglitch-v6.cjs",
+  "animation": {
+    "keyframes": 9,
+    "frames": 18,
+    "seconds": 1.08,
+    "technique": "Closed sequence of neighboring generated frames, with one blended midpoint between each pair; no spatial folding or elastic warping",
+    "gif": "softglitch-native-v6.gif",
+    "video": "softglitch-native-v6.mp4"
+  },
+  "validation": "softglitch-validation-v6.json"
+}

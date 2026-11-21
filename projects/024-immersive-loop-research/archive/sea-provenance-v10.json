@@ -1,0 +1,25 @@
+{
+  "title": "浅海织光",
+  "imageTool": "built-in image_gen.imagegen",
+  "imageModel": "not reported by tool",
+  "inputImages": [],
+  "prompt": "Create an ORIGINAL production sprite sheet for a mesmerizing fine-art underwater loop: exactly 3 columns x 3 rows, nine equal square keyframes, no gaps, borders, labels or text. Every cell is a different neighboring moment of ONE fixed-view artwork. Full sheet square, preferably 1536x1536 or larger.\nARTWORK: 'A Shallow Sea Woven from Light' (do not render words). View from underwater at a low oblique angle just above a pristine shallow sandy seabed. Pale finely rippled sand runs diagonally into deep translucent jade water. Two or three small natural pearl-pink shells rest unobtrusively near the lower-left edge, giving tactile scale, with one tiny smooth amber pebble. The dominant image is a gorgeous dense field of INTERLACING REFRACTED LIGHT: open flowing ribbons and irregular fine branches of turquoise, champagne-gold and soft coral shimmer lie across sand, creating an intricate living textile made of sunlight and water. Larger gently curved light bands provide clear visual rhythm, with very fine luminous stippled detail inside and between them. Subtle local near-symmetries and visual echoes arise naturally in the caustics, but composition is open and asymmetric rather than a tiled grid or radial ornament. Clear translucent depth, a quiet open-water upper edge, beautiful dark-jade and luminous pale-sand contrast. No horizon line or visible sky.\nSTYLE: rich tactile photographic detail blended with delicate painterly and digital microtexture; iridescent tiny coloured edges; a slightly unreal, tender and inviting ordinary natural world. The light feels jewel-like and intricate, the materials remain recognizable. Elegant layered detail and depth, not a stock travel photograph, not generic glossy 3D. Harmonious deep jade, pale warm sand, champagne and a little coral. Well-defined light shapes and crisp sand grains rather than uniform soft focus. Comfortable fascination and gentle wonder. No flowers, no musical objects, no glass window, no fish, no people, no eyeball shapes, no dense bubble holes, no spirals or tunnels.\nKEYFRAME MOTION: camera, shells, pebble, sand ridges and overall exposure stay fixed throughout all nine cells. Across the WHOLE image at once, the interwoven caustic lines visibly re-form in nearby flowing shapes as surface waves pass: light strands gently separate, join and slip across the sand, fine prismatic glints sparkle locally. Make the pattern changes distinct enough to read when animated, about 10-15 percent local changes each step, with stable scale, composition and colour relationships. Keep all objects intact and motion continuous, with no morphing shells, no geometric warping, no sequential spotlighting, no broad scene fade or flashing exposure. The last keyframe is also a near neighbor of the first for a seamless short cycle. Output ONLY the exact 3x3 sprite sheet of this new underwater artwork.",
+  "nativeImage": "sea-native-sheet-v10.png",
+  "renderer": "assemble-sea-v10.cjs",
+  "artDirection": {
+    "subject": "Shallow-sea sand, small shells and an interwoven field of refracted light",
+    "viewpoint": "Underwater low oblique angle near the seabed",
+    "palette": "Deep jade, pale warm sand, champagne and coral",
+    "motion": "Distributed re-forming light caustics across a stable scene"
+  },
+  "output": {
+    "gif": "shallow-sea-v10.gif",
+    "video": "shallow-sea-v10.mp4",
+    "width": 560,
+    "height": 560,
+    "frames": 36,
+    "frameDurationMs": 70,
+    "durationSeconds": 2.52
+  },
+  "validation": "sea-validation-v10.json"
+}

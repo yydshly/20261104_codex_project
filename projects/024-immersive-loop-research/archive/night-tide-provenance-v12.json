@@ -1,0 +1,26 @@
+{
+  "title": "夜潮织光",
+  "imageTool": "built-in image_gen.imagegen",
+  "imageModel": "not reported by tool",
+  "inputImages": [],
+  "prompt": "Create ONE original square seamless all-over fine-art artwork, a nocturnal tapestry of flowing water and luminous woven currents. This is a full-field composition intended for a seamless animated loop: the entire surface participates equally. Two interpenetrating families of broad currents cross diagonally through the whole image: deep cobalt and velvet-aubergine ribbons move between soft pearl, dusty rose-copper and champagne-white flowing strands. Imagine moonlit water with the tactile richness of woven silk and the delicate fine detail of a hand-painted digital artwork. Three or four large readable sweeping shapes create a spacious, confident rhythm; many fine iridescent filaments, tiny natural foam-like grains and prismatic edges make those shapes rewarding to inspect closely. Open dark channels keep breathing room, while the light touches every region of the canvas. Rich colour and refined contrast; highlights softly glow without clipping, shadows retain intricate material detail. Quietly magnificent, mysterious, beautiful and absorbing, never harsh or threatening. Every corner should be visually active, with shapes flowing naturally beyond the frame. No isolated hero object, no fixed foreground, no horizon, no text, no flowers, no paper notes, no shells, no central emblem, no grid, no closed eye-shaped forms, no radial vortex or tunnel, no melted anatomical look, no neon CGI rings. Make a distinctive new composition rather than a generic ocean photograph. Opposite edges should match for seamless repetition in both directions. Do not draw multiple frames or a contact sheet. Deliver one richly resolved square artwork, preferably 1536x1536 or larger.",
+  "nativeImage": "night-tide-native-v12.png",
+  "production": "Original native artwork with local full-field animation; not model-generated video",
+  "renderer": "render-night-tide-v12.cjs",
+  "motion": {
+    "scope": "Entire panoramic canvas",
+    "spatialConstruction": "Periodic texture with four composed orientation-preserving planar shears and continuous drift",
+    "boundaryHandling": "Periodic-plus-smooth boundary correction",
+    "noStaticForeground": true
+  },
+  "output": {
+    "gif": "night-tide-whole-v12.gif",
+    "video": "night-tide-whole-v12.mp4",
+    "width": 704,
+    "height": 396,
+    "frames": 128,
+    "fps": 20,
+    "durationSeconds": 6.4
+  },
+  "validation": "night-tide-validation-v12.json"
+}

@@ -1,0 +1,29 @@
+{
+  "method": "Nine native AI-generated neighboring keyframes, cropped and assembled with one midpoint per transition. No geometric image warping.",
+  "keyframes": 9,
+  "keyframeOrder": [
+    0,
+    1,
+    2,
+    5,
+    4,
+    3,
+    6,
+    7,
+    8
+  ],
+  "frames": 18,
+  "width": 480,
+  "height": 480,
+  "frameDurationMs": 60,
+  "seconds": 1.08,
+  "loopCount": 0,
+  "decodedSeamMAE": 7.587216435185185,
+  "meanAdjacentMAE": 7.91794134667756,
+  "globalLumaRange": [
+    43.26719701649153,
+    46.10272826822906
+  ],
+  "gifBytes": 3468112,
+  "seamRatio": 0.9582309470338335
+}

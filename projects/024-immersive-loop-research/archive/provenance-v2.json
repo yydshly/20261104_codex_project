@@ -1,0 +1,27 @@
+{
+  "title": "日常的余光 · 花园循环 v2",
+  "creation": "Existing AI-generated still with deterministic programmatic animation",
+  "baseImage": "garden-base.png",
+  "baseImageProvenance": "provenance.json",
+  "renderer": "render-loop-v2.cjs",
+  "changes": [
+    "11 flower-centered elliptical deformation regions with smoothly vanishing displacement at their boundaries",
+    "Asynchronous radial expansion, anisotropic petal stretch and gentle twist",
+    "172 airborne light points and 66 highlight glints attached to petals",
+    "All motion and light phases use integer harmonics of the same loop period"
+  ],
+  "output": {
+    "width": 640,
+    "height": 640,
+    "fps": 25,
+    "frames": 60,
+    "durationSeconds": 2.4,
+    "gif": "garden-loop-v2.gif",
+    "video": "garden-loop-v2.mp4"
+  },
+  "verification": [
+    "validation-v2.json",
+    "encoded-validation-v2.json"
+  ],
+  "reference": "https://x.com/JenPanepinto/status/2120637240007180786"
+}

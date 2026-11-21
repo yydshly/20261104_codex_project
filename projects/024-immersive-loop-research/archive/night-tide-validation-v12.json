@@ -1,0 +1,70 @@
+{
+  "width": 704,
+  "height": 396,
+  "fps": 20,
+  "frames": 128,
+  "seconds": 6.4,
+  "loopCount": 0,
+  "endpointMAE": 0,
+  "decodedSeamMAE": 21.17149358164983,
+  "decodedMeanAdjacentMAE": 23.322303928768115,
+  "wholeFrameChangedFraction": 0.9718993916437099,
+  "nineRegionActivity": [
+    {
+      "row": 1,
+      "column": 1,
+      "meanRGBDifference": 65.56653069153056,
+      "changedPixelFraction": 0.9909349909349909
+    },
+    {
+      "row": 1,
+      "column": 2,
+      "meanRGBDifference": 80.7569202664952,
+      "changedPixelFraction": 0.987685364281109
+    },
+    {
+      "row": 1,
+      "column": 3,
+      "meanRGBDifference": 62.23027079303729,
+      "changedPixelFraction": 0.9897485493230174
+    },
+    {
+      "row": 2,
+      "column": 1,
+      "meanRGBDifference": 59.010306051972705,
+      "changedPixelFraction": 0.9625744625744626
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "meanRGBDifference": 58.9891790242858,
+      "changedPixelFraction": 0.9571566731141199
+    },
+    {
+      "row": 2,
+      "column": 3,
+      "meanRGBDifference": 46.90647969052192,
+      "changedPixelFraction": 0.9590909090909091
+    },
+    {
+      "row": 3,
+      "column": 1,
+      "meanRGBDifference": 68.3157213157211,
+      "changedPixelFraction": 0.9717042217042217
+    },
+    {
+      "row": 3,
+      "column": 2,
+      "meanRGBDifference": 70.9090156888028,
+      "changedPixelFraction": 0.9934235976789169
+    },
+    {
+      "row": 3,
+      "column": 3,
+      "meanRGBDifference": 44.473844831291636,
+      "changedPixelFraction": 0.934816247582205
+    }
+  ],
+  "gifBytes": 32086375,
+  "seamRatio": 0.9077788217798991
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checksPassed": 659,
+  "errors": [],
+  "researchStages": 18,
+  "representatives": [
+    "v03",
+    "v12",
+    "v17"
+  ],
+  "publicResearchFiles": 154,
+  "gifFiles": 20,
+  "pagesMiB": 7.09,
+  "mediaMiB": 313.58,
+  "guideUnchanged": true
+}

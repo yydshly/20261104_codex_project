@@ -1,0 +1,16 @@
+{
+  "version": 4,
+  "effect": "Continuous inward nested folding of the entire flower field",
+  "width": 640,
+  "height": 640,
+  "fps": 25,
+  "frames": 75,
+  "seconds": 3,
+  "decodedFrames": 75,
+  "loopCount": 0,
+  "endpointPixelMAE": 0,
+  "decodedSeamMAE": 19.051532389322915,
+  "decodedMeanAdjacentMAE": 21.53715313335797,
+  "seamToAdjacentRatio": 0.8845891688356348,
+  "gifBytes": 25308901
+}

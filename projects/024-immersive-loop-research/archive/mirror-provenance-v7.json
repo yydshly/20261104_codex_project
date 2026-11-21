@@ -1,0 +1,25 @@
+{
+  "title": "蓝白雏菊 · 镜像微变",
+  "imageTool": "built-in image_gen.imagegen",
+  "imageModel": "not reported by tool",
+  "prompt": "Create one production SPRITE SHEET: exactly 3 columns by 3 rows of nine equal square keyframes, no gutters, no borders, no labels or text. Each cell is the SAME small photographic floral texture patch, seen from exactly the same fixed camera with the same major flower positions. This sheet will become a seamless short animated GIF.\nREFERENCE ROLE: The input is the visual style reference for a blue-white floral mirror-pattern artwork. Match its cool luminous white and periwinkle-blue daisy petals, ochre-gold flower centers, deep midnight navy negative space, dark forest-green leaves, fine densely layered botanical detail, tiny pearly and gold glints, soft prismatic cyan/violet edge residues, photographic flowers combined with subtle digital/painted texture. Gentle, beautiful, hypnotic, comfortable. Create our own flower arrangement rather than reproducing the reference pattern.\nIMPORTANT COMPOSITION FOR EACH CELL: generate ONLY ONE small texture patch that can later be mirrored into an ornament. A dense curved diagonal garland of around 12-18 overlapping recognizable white daisies and periwinkle asters runs from lower-left toward upper-right, with some smaller petals and tiny leaf clusters linking them. The upper-left corner and lower-right corner contain quiet midnight-blue leaf shadow, so reflection of this patch will form breathing dark diamond/oval windows. Beautiful realistic thin daisy petals, round ochre centers, crisp small-scale detail, white-blue flowers at several sizes. No full wreath, no garden horizon, no path, no perspective tunnel. Do not put repeated tiles, complete kaleidoscopes, or symmetry grids INSIDE the individual cells: we will construct those afterward.\nTEMPORAL KEYFRAMES 1-9: the floral cluster stays recognizable and anchored, while tiny changes occur across the WHOLE patch simultaneously. Petals gently open, tilt and resolve into nearby shapes; groups of fine white-blue petals slightly recompose; glints change softly. Make the local shape/detail variations clearly visible but small, like a living painted botanical textile. Roughly 5-10 percent local change at each step, with stable overall diagonal garland, fixed camera, consistent white-blue-gold palette, and stable average brightness. This is gentle parallel micro-reconstruction, not wind motion and not sequential spotlighting. Frame 9 and frame 1 must be near neighbors too, making a comfortable cyclic sequence. Preserve botanical anatomy and fine petal identity: no liquid deformation, no stretching, no spiral, no radial folding, no bodily shapes, no strobe, no oversized floating particles. Output only the exact 3x3 sheet, preferably 1536x1536 or larger square, with nine full-frame equal square cells.",
+  "reference": {
+    "role": "style and material reference",
+    "image": "reference-mirror-style-frame.png",
+    "post": "https://x.com/JenPanepinto/status/2120150816287760496"
+  },
+  "nativeImage": "mirror-native-sheet-v7.png",
+  "production": "Nine native AI floral keyframes, each cropped into a single quarter unit, reflected across fixed horizontal and vertical axes, then repeated 2x2. All repeated units share the same keyframe and change together. One blended midpoint between each cyclic pair; no radial folds or elastic flower warping.",
+  "renderer": "assemble-mirror-v7.cjs",
+  "output": {
+    "gif": "mirror-floral-v7.gif",
+    "video": "mirror-floral-v7.mp4",
+    "width": 640,
+    "height": 640,
+    "frames": 18,
+    "frameDurationMs": 70,
+    "durationSeconds": 1.26,
+    "infiniteLoop": true
+  },
+  "validation": "mirror-validation-v7.json"
+}

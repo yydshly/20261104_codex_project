@@ -1,0 +1,26 @@
+{
+  "width": 640,
+  "height": 640,
+  "fps": 20,
+  "frames": 160,
+  "seconds": 8,
+  "loopCount": 0,
+  "endpointMAE": 0,
+  "decodedSeamMAE": 0.12203776041666667,
+  "decodedMeanAdjacentMAE": 0.2741993722975629,
+  "maxVisibleBirds": 7,
+  "maxFoxOpaqueEquivalentPixels": 1435.656517894845,
+  "foxVisibleFrames": 34,
+  "birdVisibleFrames": 67,
+  "endpointEvents": {
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  "alpha": {
+    "crowTransparentFraction": 0.8533935546875,
+    "foxTransparentFraction": 0.8929534912109375
+  },
+  "gifBytes": 3162423,
+  "seamRatio": 0.4450694375924045
+}

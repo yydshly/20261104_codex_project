@@ -1,0 +1,30 @@
+{
+  "title": "内置原生 GIF 入口验证",
+  "status": "not-an-animation-static-png-returned",
+  "tool": "built-in image_gen.imagegen",
+  "model": "not reported by tool",
+  "prompt": "Create a finished ANIMATED GIF file, with actual multiple time frames in a single .gif animation, using the provided image as the start-frame reference. This request is for native animated GIF output, NOT a still picture, NOT a sprite sheet, NOT a contact sheet or storyboard. Approximately five seconds, one continuous locked-off wildlife view of this exact crow on this exact branch in the same autumn woodland. First the crow rests with both feet gripping the branch; then it turns its head alertly and crouches, pushes upward with its legs, releases its toes from the branch, spreads its wings, and flies forward and upward toward the upper right with several natural coherent wingbeats. Preserve the tree, branch, camera, light direction and bird identity across time. Legs, toe contact, body weight, wing anatomy, continuous perspective and natural scale change matter. Only the finest leaves move slightly in the breeze. No camera motion, no extra birds, no other animals, no plastic CGI, no flat image rotation, no sudden exposure changes. This is a short action test and does not need to loop seamlessly. Return the actual animated GIF asset rather than an image depicting animation.",
+  "inputImages": [
+    {
+      "path": "forest-bird-test-start-v18.png",
+      "role": "Start-frame reference for a requested native animated GIF"
+    }
+  ],
+  "result": "native-gif-attempt-still-v18.png",
+  "observation": "Verified with ffprobe: codec png, 1254 by 1254 pixels, nb_read_frames 1. The returned asset is a single static frame, not an animated GIF.",
+  "toolSchemaFields": [
+    "prompt",
+    "referenced_image_paths",
+    "num_last_images_to_include",
+    "transparent_background"
+  ],
+  "nativeGifOutputControlsExposed": false,
+  "officialDocumentation": "https://developers.openai.com/api/docs/guides/image-generation#generate-animated-gif-output",
+  "officialApiControls": [
+    "output_format: gif",
+    "frame_count",
+    "frame_duration_ms"
+  ],
+  "externalProviderRoute": "stopped; no ChatArt image upload, generation task or credit charge",
+  "postProcessing": "None; returned still was not turned into a GIF or represented as native animation."
+}

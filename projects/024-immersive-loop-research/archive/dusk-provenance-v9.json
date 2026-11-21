@@ -1,0 +1,31 @@
+{
+  "title": "听见黄昏",
+  "production": "Original native image generation plus local layered animation",
+  "imageTool": "built-in image_gen.imagegen",
+  "imageModel": "not reported by tool",
+  "inputImages": [],
+  "prompts": {
+    "base": "Create a single ORIGINAL fine-art photographic scene for a beautiful looping artwork titled conceptually 'Hearing the Dusk' (no rendered text). Square composition. An intimate, cinematic 30-degree oblique overhead close-up of a vintage black vinyl record on a very understated old turntable. The circular record appears as a convincing broad ellipse in perspective in the lower half of the picture, centered slightly left. An elegant fine tonearm comes from the lower-right and touches the outer groove. The vinyl label is a small plain muted terracotta circle with concentric ring detail but NO text. The material is exquisite: tiny authentic grooves, faint handling marks, a slightly worn warm wooden edge, rich deep-ink reflections and a soft champagne crescent of light. A partial empty aged-paper record sleeve sits at the bottom edge. The upper half has generous uncluttered dark air for a few paper objects that will be animated later; put NO floating objects in this base image. Background is an atmospheric deep plum and petrol-teal blue-hour interior with one soft blurred warm window reflection off to the side. Palette: velvet aubergine, oxidized teal, near-black vinyl, ivory and restrained peach-copper highlights. A glancing soft amber beam reveals fine dust like a very sparse constellation above the record, painterly-photographic texture with subtle analog grain and tiny prismatic coloured edges on select highlights. The ordinary private ritual of listening to a record becomes quietly magical. Clear beautiful focal object, balanced negative space, tactile detail and depth, elegant rich colour rather than murky brown. Calm, intimate and wondrous. This is an art image, with a strong diagonal composition and deliberate lighting, not a catalogue product photograph, not a commercial ad. Locked viewpoint. No flowers, no mirror-tile grid, no vortex, no geometric deformation, no text, no logos, no people, no hands, no neon glow rings, no giant lens flare, no clutter, no music-note symbols yet. Deliver one finished square still image.",
+    "paperNotes": "Create a transparent-background photographic cutout asset sheet with exactly FOUR separate tiny handcrafted ivory-paper musical-note objects in a 2x2 arrangement, with ample fully transparent space between them. These are real thin cut-paper sculptures for compositing into a quiet fine-art photograph, not vector icons. Top-left: one single eighth-note paper cutout. Top-right: one connected pair of eighth notes cut from a single piece of paper. Bottom-left: one quarter-note paper cutout gently curved at one edge. Bottom-right: another single eighth note in a slightly different graceful pose. The musical silhouettes must be clearly recognizable and delicate, with thin stems, modest note heads, slight asymmetry from hand cutting, visible warm ivory paper fibres, tiny natural edge imperfections and barely curled paper. No thick extrusions or inflated forms. Each object is viewed almost front-on with a slight 15-degree physical tilt, softly lit from upper left with warm amber light and very soft cool-plum shadow on the right. Natural self-shading only; no floor, no cast shadow outside the cutouts, no solid background, no labels, no captions, no sparkles. Elegant, tactile, understated and poetic. Output one square RGBA asset sheet with genuine alpha transparency."
+  },
+  "nativeAssets": {
+    "base": "dusk-base-v9.png",
+    "paperNotes": "dusk-notes-v9.png"
+  },
+  "artDirection": {
+    "subject": "An old vinyl record and delicate hand-cut paper musical notes",
+    "viewpoint": "Oblique overhead macro view in dusk window light",
+    "mood": "Intimate, warm, quietly magical",
+    "motion": "Several complete paper notes follow related closed trajectories with varied spacing, depth and pose; fine dust glints provide secondary motion"
+  },
+  "renderer": "render-hearing-dusk-v9.cjs",
+  "output": {
+    "gif": "hearing-dusk-v9.gif",
+    "video": "hearing-dusk-v9.mp4",
+    "durationSeconds": 4.8,
+    "fps": 25,
+    "width": 640,
+    "height": 640
+  },
+  "validation": "dusk-validation-v9.json"
+}

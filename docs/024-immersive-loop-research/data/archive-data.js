@@ -1,0 +1,4367 @@
+window.RESEARCH_ARCHIVE = {
+  "project": {
+    "title": "日常元素与沉浸式循环研究",
+    "id": "immersive-loop-research",
+    "archiveDate": "2026-11-13",
+    "reviewDate": "2026-11-21",
+    "sourceFolder": "../flower-loop-study",
+    "scope": "本轮对话中的作者参考、十八轮创作探索、展示效果、用户反馈、生成记录与能力核验。",
+    "position": "尚无用户明确认可的最终成片；尚未验证成功生成模型原生 GIF。",
+    "principle": "保留日常材料的亲近感，以统一光色、细节和怀旧气息建立创作世界；风格迁移服务于原创表达。"
+  },
+  "representatives": [
+    "v03",
+    "v12",
+    "v17"
+  ],
+  "researchSummary": {
+    "question": "怎样把自己的日常元素，组织成有统一情绪、个人风格与整体循环感的作品系列？",
+    "overview": "从 JenPanepinto 的花园与纹样参考出发，经过花朵接续、折叠、风动、跨主题材料、全幅水光和秋林事件等十八轮探索，研究观众为什么愿意持续观看，以及哪些变化会造成排队感、零碎感、反感或失真。",
+    "understanding": "循环发生在画面的关系里：统一的光色、材质与细节建立创作世界，构图、节奏与事件连接各处，运动服从材料与空间，首尾自然接续。抽象纹样与写实场景可以采用不同规则；悬疑只是观看线索的一种选择。",
+    "directions": [
+      {
+        "title": "原创系列与风格迁移",
+        "text": "从自己的花园、玻璃、旧物、水面与生活光影取材；迁移情绪与关系，重新选择主体、构图和材料。"
+      },
+      {
+        "title": "从局部动作到整体循环",
+        "text": "比较轮流响应、几何折叠与全幅联动，判断视线是否自然游走、返回，而不只统计有多少对象在动。"
+      },
+      {
+        "title": "事件、光影与可信空间",
+        "text": "以秋林为一个验证分支，检查栖枝、起飞、遮挡、受光与反应节奏。整体感来自场景之间的联系，写实对象仍需可信。"
+      },
+      {
+        "title": "实际效果与能力边界",
+        "text": "把静态素材、程序组帧、模型原生动画和未执行方案分别记录；同时检查技术衔接与真实的观看感受。"
+      }
+    ],
+    "values": [
+      {
+        "title": "建立个人创作语言",
+        "text": "把零散日常素材变成可延续的系列规则，逐步形成自己对光色、细节、节律与情绪的选择。"
+      },
+      {
+        "title": "让返修改得有依据",
+        "text": "保存实际效果、制作方式和明确反馈，识别问题来自构图、动作、光影还是循环设计，减少同类尝试的重复。"
+      },
+      {
+        "title": "积累可以继续使用的方法",
+        "text": "留下真实文件、提示词、脚本与版本对照，支持后续换题材、改节奏及检验新工具；复用效率尚需实践衡量。"
+      }
+    ],
+    "extensions": [
+      {
+        "title": "日常影像与记忆",
+        "text": "把旧照片、家中光影和常见器物发展为动态日记或个人影像集；先验证记忆与情绪是否被准确表达。"
+      },
+      {
+        "title": "环境氛围与互动展示",
+        "text": "把稳定、舒适的循环用于氛围网页、展览背景或桌面场景；观看耐受度、设备表现与长期使用仍待验证。"
+      },
+      {
+        "title": "系列视觉与品牌叙事",
+        "text": "在原创材料和明确用途下制作动态插画、标题或系列视觉；仍需真实需求、授权素材和交付反馈。"
+      }
+    ],
+    "boundary": "研究目前提供的是创作判断、失败样本与可复用记录。尚无用户明确认可的最终成片，尚未验证成功的模型原生 GIF，也没有真实观众测试、稳定效率提升或商业成效证据。"
+  },
+  "records": [
+    {
+      "id": "ref-garden",
+      "version": "参考 01",
+      "order": 0,
+      "kind": "reference",
+      "theme": "花园",
+      "title": "花园的细部循环",
+      "summary": "本轮最初讨论的花朵循环参考：同一花园的细节持续变化，材质与光感维持统一。",
+      "method": "作者作品的本地展示转码",
+      "status": "reference",
+      "statusLabel": "作者参考",
+      "scope": "分布式细部变化",
+      "gif": "quantumspirit-reference.gif",
+      "video": "quantumspirit-original.mp4",
+      "image": "reference-style-frame.png",
+      "contact": "reference-13-frames.jpg",
+      "sourceUrl": "https://x.com/JenPanepinto/status/2120637240007180786",
+      "accountUrl": "https://x.com/JenPanepinto",
+      "feedback": "花园、旧照片、电视噪声可以相差很远，但光感、细节与怀旧气息让它们仍然属于同一个创作世界。",
+      "feedbackType": "用户对创作世界的归纳",
+      "lesson": "可迁移的是材料、光感与情绪之间的关系；不能把换一张相似花园照片当作完成了风格迁移。",
+      "details": [
+        "原始媒体为 X 帖子提供的短 MP4；本地 GIF 是展示副本，不是新的原创作品。",
+        "本轮曾检查原片的十三个时间帧；作者具体制作工具及模型没有证据，不作推断。"
+      ],
+      "provenance": [
+        "provenance.json"
+      ],
+      "related": [
+        "reference-detail-motion.jpg"
+      ],
+      "tags": [
+        "日常元素",
+        "怀旧",
+        "细节",
+        "风格参考"
+      ],
+      "nativeGifGeneratedInThisProject": false,
+      "originalArtistProductionMethod": "unknown; the archived GIF is only a local display transcode",
+      "mediaInfo": {
+        "format": "GIF",
+        "width": 900,
+        "height": 1000,
+        "frames": 13,
+        "seconds": 0.91,
+        "loopCount": 0,
+        "infiniteLoop": true,
+        "bytes": 9904232
+      },
+      "assets": {
+        "gif": "archive/quantumspirit-reference.gif",
+        "video": "archive/quantumspirit-original.mp4",
+        "image": "archive/reference-style-frame.png",
+        "contact": "archive/reference-13-frames.jpg"
+      },
+      "files": [
+        {
+          "label": "制作记录",
+          "name": "provenance.json",
+          "path": "archive/provenance.json"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "reference-detail-motion.jpg",
+          "path": "archive/reference-detail-motion.jpg"
+        }
+      ],
+      "media": [
+        {
+          "name": "reference-style-frame.png",
+          "path": "archive/reference-style-frame.png",
+          "label": "静态底图 / 关键帧素材",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/reference-style-frame.webp"
+        },
+        {
+          "name": "reference-13-frames.jpg",
+          "path": "archive/reference-13-frames.jpg",
+          "label": "逐帧检查图",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/reference-13-frames.webp"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "reference-detail-motion.jpg",
+          "path": "archive/reference-detail-motion.jpg",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/reference-detail-motion.webp"
+        }
+      ],
+      "prompts": [],
+      "poster": "assets/posters/ref-garden.jpg"
+    },
+    {
+      "id": "ref-mirror",
+      "version": "参考 02",
+      "order": 1,
+      "kind": "reference",
+      "theme": "花园",
+      "title": "蓝白花朵的整体纹样循环",
+      "summary": "蓝白雏菊、暖黄花心与深色叶片形成镜像、重复的纹样；相关单元共同变化。",
+      "method": "作者作品的本地展示转码",
+      "status": "reference",
+      "statusLabel": "作者参考",
+      "scope": "整体纹样联动",
+      "gif": "reference-mirror-original.gif",
+      "video": "reference-mirror-2120150816287760496.mp4",
+      "image": "reference-mirror-style-frame.png",
+      "contact": "reference-mirror-contact.jpg",
+      "sourceUrl": "https://x.com/JenPanepinto/status/2120150816287760496",
+      "accountUrl": "https://x.com/JenPanepinto",
+      "feedback": "不应该参考他的样子，只能参考他的风格，氛围进行创作啊。",
+      "feedbackType": "针对借鉴方式的明确要求",
+      "lesson": "整体视觉循环可以来自单元之间的对应和同步；不能直接复用蓝白雏菊、镜像布局和配色来替代原创。",
+      "details": [
+        "可观察的特点是镜像与重复形成的全幅关系；与径向隧道式折叠不同。",
+        "原作媒体、GIF 展示副本与风格参考静帧分开保留。"
+      ],
+      "provenance": [
+        "mirror-provenance-v7.json"
+      ],
+      "tags": [
+        "镜像",
+        "整体循环",
+        "纹样",
+        "原创边界"
+      ],
+      "nativeGifGeneratedInThisProject": false,
+      "originalArtistProductionMethod": "unknown; the archived GIF is only a local display transcode",
+      "mediaInfo": {
+        "format": "GIF",
+        "width": 504,
+        "height": 512,
+        "frames": 17,
+        "seconds": 1.19,
+        "loopCount": 0,
+        "infiniteLoop": true,
+        "bytes": 4443239
+      },
+      "assets": {
+        "gif": "archive/reference-mirror-original.gif",
+        "video": "archive/reference-mirror-2120150816287760496.mp4",
+        "image": "archive/reference-mirror-style-frame.png",
+        "contact": "archive/reference-mirror-contact.jpg"
+      },
+      "files": [
+        {
+          "label": "制作记录",
+          "name": "mirror-provenance-v7.json",
+          "path": "archive/mirror-provenance-v7.json"
+        }
+      ],
+      "media": [
+        {
+          "name": "reference-mirror-style-frame.png",
+          "path": "archive/reference-mirror-style-frame.png",
+          "label": "静态底图 / 关键帧素材",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/reference-mirror-style-frame.webp"
+        },
+        {
+          "name": "reference-mirror-contact.jpg",
+          "path": "archive/reference-mirror-contact.jpg",
+          "label": "逐帧检查图",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/reference-mirror-contact.webp"
+        }
+      ],
+      "prompts": [],
+      "poster": "assets/posters/ref-mirror.jpg"
+    },
+    {
+      "id": "v01",
+      "version": "V01",
+      "order": 2,
+      "kind": "experiment",
+      "theme": "花园",
+      "title": "日常的余光",
+      "summary": "夜色花园静态底图叠加周期摆动、微光与漂浮光点，建立最初的怀旧氛围。",
+      "method": "原生静态图＋程序合成动画",
+      "status": "iterate",
+      "statusLabel": "要求增强动态",
+      "scope": "局部摆动与微光",
+      "gif": "garden-loop.gif",
+      "video": "garden-loop.mp4",
+      "image": "garden-base.png",
+      "contact": "contact-sheet.jpg",
+      "feedback": "再做一版更接近他原作的花朵循环，增强花朵的局部形变和微光闪烁，让动态更明显。",
+      "feedbackType": "返修要求",
+      "lesson": "氛围底图只是基础；柔和光点与植物轻摆并未建立花朵之间的视觉闭环。",
+      "details": [
+        "循环由闭合的周期坐标变化和独立相位的光点构成。",
+        "技术记录里的首尾衔接只证明编码和周期关系，不代表已经达到沉浸感。"
+      ],
+      "provenance": [
+        "provenance.json"
+      ],
+      "validation": [
+        "validation.json"
+      ],
+      "scripts": [
+        "render-loop.cjs"
+      ],
+      "tags": [
+        "静态底图",
+        "微光",
+        "初始探索"
+      ],
+      "nativeGifGeneratedInThisProject": false,
+      "mediaInfo": {
+        "format": "GIF",
+        "width": 640,
+        "height": 640,
+        "frames": 80,
+        "seconds": 4.0,
+        "loopCount": 0,
+        "infiniteLoop": true,
+        "bytes": 8903651
+      },
+      "assets": {
+        "gif": "archive/garden-loop.gif",
+        "video": "archive/garden-loop.mp4",
+        "image": "archive/garden-base.png",
+        "contact": "archive/contact-sheet.jpg"
+      },
+      "files": [
+        {
+          "label": "制作记录",
+          "name": "provenance.json",
+          "path": "archive/provenance.json"
+        },
+        {
+          "label": "技术校验",
+          "name": "validation.json",
+          "path": "archive/validation.json"
+        },
+        {
+          "label": "制作脚本",
+          "name": "render-loop.cjs",
+          "path": "archive/render-loop.cjs"
+        }
+      ],
+      "media": [
+        {
+          "name": "garden-base.png",
+          "path": "archive/garden-base.png",
+          "label": "静态底图 / 关键帧素材",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/garden-base.webp"
+        },
+        {
+          "name": "contact-sheet.jpg",
+          "path": "archive/contact-sheet.jpg",
+          "label": "逐帧检查图",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/contact-sheet.webp"
+        }
+      ],
+      "prompts": [
+        {
+          "source": "archive/provenance.json",
+          "field": "prompt",
+          "text": "Use case: stylized-concept. Asset type: single still background plate for a seamless animated fine-art GIF. Create an original intimate nighttime flower garden photographed close to the ground, square composition 1024x1024. The lower two thirds are a lush but carefully composed wildflower bed, foreground small white cosmos with golden centers, lavender-blue delphiniums, a few dusty coral dahlias and very fine feathery foliage, believable organic flowers with intricate photographic detail, no deformed petals. An inviting narrow dark clearing leads into the middle distance. Upper third is deep indigo twilight with sparse distant out-of-focus warm lights, enough clear dark breathing room. Low soft side light glances across the petals, cool blue-green leaves and warm ivory petal highlights. Tender, nostalgic, quietly wondrous, slightly aged film photograph, subtle soft halation, tactile plant detail. Dense detail below, restful darkness above, clear hierarchy, a few dew highlights. This is our own new composition. Camera locked, no people, no typography, no border, no watermark, no giant glowing flowers, no neon, no rain streaks, no large floating fireflies; moving specks will be added during animation. Deliver one beautifully resolved still image, not a grid, not a storyboard."
+        }
+      ],
+      "poster": "assets/posters/v01.jpg"
+    },
+    {
+      "id": "v02",
+      "version": "V02",
+      "order": 3,
+      "kind": "experiment",
+      "theme": "花园",
+      "title": "花朵局部形变与微光增强",
+      "summary": "围绕多个花头增加膨胀、扭转与花瓣附着高光，强化局部变化。",
+      "method": "原生静态图＋程序合成动画",
+      "status": "iterate",
+      "statusLabel": "转向视觉闭环",
+      "scope": "多个局部并行变化",
+      "gif": "garden-loop-v2.gif",
+      "video": "garden-loop-v2.mp4",
+      "image": "garden-base.png",
+      "contact": "contact-sheet-v2.jpg",
+      "feedback": "我对它里面最精彩的是由花朵的循环构成视觉的循环，让人陷入在其中。",
+      "feedbackType": "用户重新明确目标",
+      "lesson": "让更多花瓣运动，不等于让视线形成闭环；下一步需要处理单元之间的联系。",
+      "details": [
+        "十一处花朵区域分别使用平滑衰减的局部形变。",
+        "空气光点与花瓣高光都围绕同一循环周期变化。"
+      ],
+      "provenance": [
+        "provenance-v2.json"
+      ],
+      "validation": [
+        "validation-v2.json",
+        "encoded-validation-v2.json"
+      ],
+      "scripts": [
+        "render-loop-v2.cjs"
+      ],
+      "related": [
+        "flower-detail-v2.jpg"
+      ],
+      "tags": [
+        "局部形变",
+        "微光",
+        "视觉闭环"
+      ],
+      "nativeGifGeneratedInThisProject": false,
+      "mediaInfo": {
+        "format": "GIF",
+        "width": 640,
+        "height": 640,
+        "frames": 60,
+        "seconds": 2.4,
+        "loopCount": 0,
+        "infiniteLoop": true,
+        "bytes": 6611716
+      },
+      "assets": {
+        "gif": "archive/garden-loop-v2.gif",
+        "video": "archive/garden-loop-v2.mp4",
+        "image": "archive/garden-base.png",
+        "contact": "archive/contact-sheet-v2.jpg"
+      },
+      "files": [
+        {
+          "label": "制作记录",
+          "name": "provenance-v2.json",
+          "path": "archive/provenance-v2.json"
+        },
+        {
+          "label": "技术校验",
+          "name": "validation-v2.json",
+          "path": "archive/validation-v2.json"
+        },
+        {
+          "label": "技术校验",
+          "name": "encoded-validation-v2.json",
+          "path": "archive/encoded-validation-v2.json"
+        },
+        {
+          "label": "制作脚本",
+          "name": "render-loop-v2.cjs",
+          "path": "archive/render-loop-v2.cjs"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "flower-detail-v2.jpg",
+          "path": "archive/flower-detail-v2.jpg"
+        }
+      ],
+      "media": [
+        {
+          "name": "garden-base.png",
+          "path": "archive/garden-base.png",
+          "label": "静态底图 / 关键帧素材",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/garden-base.webp"
+        },
+        {
+          "name": "contact-sheet-v2.jpg",
+          "path": "archive/contact-sheet-v2.jpg",
+          "label": "逐帧检查图",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/contact-sheet-v2.webp"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "flower-detail-v2.jpg",
+          "path": "archive/flower-detail-v2.jpg",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/flower-detail-v2.webp"
+        }
+      ],
+      "prompts": [],
+      "poster": "assets/posters/v02.jpg"
+    },
+    {
+      "id": "v03",
+      "version": "V03",
+      "order": 4,
+      "kind": "experiment",
+      "theme": "花园",
+      "title": "花朵接续与回环花园",
+      "summary": "花头沿外圈、内圈依次响应，试图让视线沿路径游走。",
+      "method": "原生静态图＋程序合成动画",
+      "status": "rejected",
+      "statusLabel": "像排队展示",
+      "scope": "路径式顺序接续",
+      "gif": "garden-loop-v3.gif",
+      "video": "garden-loop-v3.mp4",
+      "image": "garden-base-v3.png",
+      "contact": "contact-sheet-v3.jpg",
+      "feedback": "这里是没有感觉的，像是在排队展示。我期望的是类似那种折叠式循环的效果，让人沉浸其中。",
+      "feedbackType": "明确负面反馈",
+      "lesson": "逐一轮到各个对象会形成可预测的点名节奏，削弱同时存在的整体关系。",
+      "details": [
+        "十二处外圈花头与七处内圈花头共享路径相位，但分别延迟响应。",
+        "循环连续并未解决观众对顺序展示的感受。"
+      ],
+      "provenance": [
+        "provenance-v3.json"
+      ],
+      "validation": [
+        "validation-v3.json"
+      ],
+      "scripts": [
+        "render-loop-v3.cjs"
+      ],
+      "tags": [
+        "接续",
+        "排队感",
+        "路径"
+      ],
+      "nativeGifGeneratedInThisProject": false,
+      "mediaInfo": {
+        "format": "GIF",
+        "width": 640,
+        "height": 640,
+        "frames": 100,
+        "seconds": 4.0,
+        "loopCount": 0,
+        "infiniteLoop": true,
+        "bytes": 10044031
+      },
+      "assets": {
+        "gif": "archive/garden-loop-v3.gif",
+        "video": "archive/garden-loop-v3.mp4",
+        "image": "archive/garden-base-v3.png",
+        "contact": "archive/contact-sheet-v3.jpg"
+      },
+      "files": [
+        {
+          "label": "制作记录",
+          "name": "provenance-v3.json",
+          "path": "archive/provenance-v3.json"
+        },
+        {
+          "label": "技术校验",
+          "name": "validation-v3.json",
+          "path": "archive/validation-v3.json"
+        },
+        {
+          "label": "制作脚本",
+          "name": "render-loop-v3.cjs",
+          "path": "archive/render-loop-v3.cjs"
+        }
+      ],
+      "media": [
+        {
+          "name": "garden-base-v3.png",
+          "path": "archive/garden-base-v3.png",
+          "label": "静态底图 / 关键帧素材",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/garden-base-v3.webp"
+        },
+        {
+          "name": "contact-sheet-v3.jpg",
+          "path": "archive/contact-sheet-v3.jpg",
+          "label": "逐帧检查图",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/contact-sheet-v3.webp"
+        }
+      ],
+      "prompts": [
+        {
+          "source": "archive/provenance-v3.json",
+          "field": "prompt",
+          "text": "Use case: stylized-concept. One original square photographic botanical artwork as the still foundation for a seamless flower-to-flower relay animation. An immersive, richly detailed nocturnal garden where many real recognizable flower heads form a loose continuous clockwise spiral and two curved rings around a small restful deep-indigo hollow near the middle of the picture. Composition is the priority: the eye should be able to travel from flowers at the bottom-left, up the left, across the top, down the right, across the bottom, then gently inward, always finding another flower. Include flowers all around the frame, including the upper arc, with only the central small dark hollow remaining quiet. Organic, asymmetrical, believable overlapping plants, not a flat decorative wreath. Large distinct flower heads with tactile petals arranged at staggered depths: ivory cosmos with ochre centers, dusty rose dahlias, mauve asters, smaller blue-violet flowers and fine dark teal foliage. Several petals point tangentially along the clockwise curves. Almost front-facing with slight bowl-like depth, no horizon, no ground path, no vase. Rich blue-violet shadows and soft warm pearly petal highlights, delicate photographic film texture and gentle halation; tender, mysterious, inviting, quietly hypnotic. Fine flower detail, saturated but elegant, controlled contrast, botanical identity preserved. No text, no borders, no diagram, no people, no artificial light trails, no neon rings, no graphic spiral lines, no kaleidoscope mirrors, no perfect radial symmetry. Produce one high-quality still image, not animation frames or a contact sheet."
+        }
+      ],
+      "poster": "assets/posters/v03.jpg"
+    },
+    {
+      "id": "v04",
+      "version": "V04",
+      "order": 5,
+      "kind": "experiment",
+      "theme": "花园",
+      "title": "花丛连续反折",
+      "summary": "整片花丛使用径向反射和角向弯曲，构成空间折叠。",
+      "method": "原生静态图＋程序几何变换",
+      "status": "rejected",
+      "statusLabel": "产生反感",
+      "scope": "全幅径向折叠",
+      "gif": "garden-fold-loop-v4.gif",
+      "video": "garden-fold-loop-v4.mp4",
+      "image": "garden-base-v3.png",
+      "contact": "fold-contact-v4.jpg",
+      "variants": [
+        {
+          "label": "折叠预览 GIF",
+          "file": "garden-fold-loop-v4-preview.gif"
+        }
+      ],
+      "feedback": "这里的折叠让人感觉厌恶，我期望的是其他展现方式。",
+      "feedbackType": "明确负面反馈",
+      "lesson": "全幅参与并不是充分条件；花朵被几何折叠后会产生违背材料与形态的观看体验。",
+      "details": [
+        "程序使用对数径向反射和角向弯曲，所有层同时变换。",
+        "完整输出与较轻的预览副本都保留，不以新版本覆盖。"
+      ],
+      "provenance": [
+        "provenance-v4.json"
+      ],
+      "validation": [
+        "validation-v4.json",
+        "garden-fold-loop-v4-preview-validation.json"
+      ],
+      "scripts": [
+        "render-loop-v4.cjs"
+      ],
+      "tags": [
+        "折叠",
+        "反感",
+        "空间变换"
+      ],
+      "nativeGifGeneratedInThisProject": false,
+      "mediaInfo": {
+        "format": "GIF",
+        "width": 640,
+        "height": 640,
+        "frames": 75,
+        "seconds": 3.0,
+        "loopCount": 0,
+        "infiniteLoop": true,
+        "bytes": 25308901
+      },
+      "assets": {
+        "gif": "archive/garden-fold-loop-v4.gif",
+        "video": "archive/garden-fold-loop-v4.mp4",
+        "image": "archive/garden-base-v3.png",
+        "contact": "archive/fold-contact-v4.jpg"
+      },
+      "files": [
+        {
+          "label": "制作记录",
+          "name": "provenance-v4.json",
+          "path": "archive/provenance-v4.json"
+        },
+        {
+          "label": "技术校验",
+          "name": "validation-v4.json",
+          "path": "archive/validation-v4.json"
+        },
+        {
+          "label": "技术校验",
+          "name": "garden-fold-loop-v4-preview-validation.json",
+          "path": "archive/garden-fold-loop-v4-preview-validation.json"
+        },
+        {
+          "label": "制作脚本",
+          "name": "render-loop-v4.cjs",
+          "path": "archive/render-loop-v4.cjs"
+        },
+        {
+          "label": "折叠预览 GIF",
+          "name": "garden-fold-loop-v4-preview.gif",
+          "path": "archive/garden-fold-loop-v4-preview.gif"
+        }
+      ],
+      "media": [
+        {
+          "name": "garden-base-v3.png",
+          "path": "archive/garden-base-v3.png",
+          "label": "静态底图 / 关键帧素材",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/garden-base-v3.webp"
+        },
+        {
+          "name": "fold-contact-v4.jpg",
+          "path": "archive/fold-contact-v4.jpg",
+          "label": "逐帧检查图",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/fold-contact-v4.webp"
+        },
+        {
+          "label": "折叠预览 GIF",
+          "name": "garden-fold-loop-v4-preview.gif",
+          "path": "archive/garden-fold-loop-v4-preview.gif",
+          "format": "GIF",
+          "mediaInfo": {
+            "format": "GIF",
+            "width": 512,
+            "height": 512,
+            "frames": 60,
+            "seconds": 3.0,
+            "loopCount": 0,
+            "infiniteLoop": true,
+            "bytes": 13937103
+          },
+          "thumbnail": "assets/thumbnails/garden-fold-loop-v4-preview.webp"
+        }
+      ],
+      "prompts": [],
+      "poster": "assets/posters/v04.jpg"
+    },
+    {
+      "id": "v05",
+      "version": "V05",
+      "order": 6,
+      "kind": "experiment",
+      "theme": "花园",
+      "title": "风穿过花园",
+      "summary": "回到整体风动，让花头主要保持完整形状，以舒适观看为目标。",
+      "method": "原生静态图＋程序风动预览",
+      "status": "explore",
+      "statusLabel": "未明确验收",
+      "scope": "连贯风动",
+      "gif": "garden-breeze-preview.gif",
+      "video": "garden-breeze-preview.mp4",
+      "image": "garden-base.png",
+      "contact": "breeze-contact.jpg",
+      "feedback": "我说不上来，但是要让人看着舒服，沉浸其中，不会有反感的情绪。",
+      "feedbackType": "本阶段的用户目标，非验收结论",
+      "lesson": "舒适度应优先于形变强度。本阶段还出现了外部视频服务的路线讨论，不能把未执行方案当成成片。",
+      "details": [
+        "花瓣组按较完整的单元移动，茎叶和边界做小幅弯曲。",
+        "ChatArt 的旧视频方案曾获特定授权，但没有提交；fal 新服务方案被用户拒绝，也没有提交。"
+      ],
+      "provenance": [],
+      "validation": [
+        "breeze-preview-validation.json"
+      ],
+      "scripts": [
+        "render-breeze-preview.cjs"
+      ],
+      "related": [
+        "natural-v5-prompt.txt",
+        "natural-v5-fal-prompt.txt"
+      ],
+      "tags": [
+        "舒适",
+        "风动",
+        "外部方案未提交"
+      ],
+      "nativeGifGeneratedInThisProject": false,
+      "mediaInfo": {
+        "format": "GIF",
+        "width": 560,
+        "height": 560,
+        "frames": 100,
+        "seconds": 5.0,
+        "loopCount": 0,
+        "infiniteLoop": true,
+        "bytes": 10161522
+      },
+      "assets": {
+        "gif": "archive/garden-breeze-preview.gif",
+        "video": "archive/garden-breeze-preview.mp4",
+        "image": "archive/garden-base.png",
+        "contact": "archive/breeze-contact.jpg"
+      },
+      "files": [
+        {
+          "label": "技术校验",
+          "name": "breeze-preview-validation.json",
+          "path": "archive/breeze-preview-validation.json"
+        },
+        {
+          "label": "制作脚本",
+          "name": "render-breeze-preview.cjs",
+          "path": "archive/render-breeze-preview.cjs"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "natural-v5-prompt.txt",
+          "path": "archive/natural-v5-prompt.txt"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "natural-v5-fal-prompt.txt",
+          "path": "archive/natural-v5-fal-prompt.txt"
+        },
+        {
+          "label": "公开执行状态",
+          "name": "public-execution-status.json",
+          "path": "archive/public-execution-status.json"
+        }
+      ],
+      "media": [
+        {
+          "name": "garden-base.png",
+          "path": "archive/garden-base.png",
+          "label": "静态底图 / 关键帧素材",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/garden-base.webp"
+        },
+        {
+          "name": "breeze-contact.jpg",
+          "path": "archive/breeze-contact.jpg",
+          "label": "逐帧检查图",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/breeze-contact.webp"
+        }
+      ],
+      "prompts": [
+        {
+          "source": "archive/natural-v5-prompt.txt",
+          "field": "text",
+          "text": "Animate this exact photographic flower garden as a calm, beautiful seamless living photograph. Preserve the real botanical shapes, individual flower identities, petal counts, stems, fine leaf texture, composition, night-blue shadows and warm gentle side light from the reference image. The camera is completely locked. A soft continuous breeze passes through the whole garden: long stems bend naturally by a small amount and spring back gently, the foreground cosmos sway a little more than the distant plants, individual petals flutter only at their edges, tiny leaves respond with soft overlapping natural delays. Everything belongs to the same uninterrupted breath of wind; the viewer should feel quietly present in a real sheltered garden. A few existing dew highlights softly catch the light as the petals change angle. Keep light stable, tactile and photographic, with clear subject detail and tranquil depth. Natural inertia and plant anatomy throughout. End in the same composition and natural plant positions as the supplied final frame, with the breeze gently returning to its initial state for a seamless five-second loop. One continuous shot, no cuts, no new objects, no camera movement, no zoom or orbit, no spiral, no folding, no mirroring or kaleidoscope, no liquid morphing, no swelling or shrinking flower heads, no rubbery petals, no body-like forms, no orderly spotlight handoffs, no artificial sparkle showers, no strobing, no sudden focus or brightness changes. Beautiful, comfortable, soft living movement, restrained but clearly visible.\n"
+        },
+        {
+          "source": "archive/natural-v5-fal-prompt.txt",
+          "field": "text",
+          "text": "Create a beautiful seamless five-second living photograph of the reference flower garden. Preserve its exact composition, recognizable cosmos and dahlias, believable petal anatomy, fine leaves, night-blue shadows and gentle warm side light. The camera stays completely locked, giving a calm, stable place to look into. A soft breeze moves naturally through the plants: long stems lean and ease back with gentle spring and overlapping motion; the closest cosmos move slightly more than distant flowers, while delicate petal edges and small leaves flutter softly. Keep each blossom's shape and size stable throughout. Motion should feel like one continuous sheltered garden, comfortable, graceful and quietly absorbing. Existing dew highlights catch the light softly as the petals turn. Lighting and focus stay steady, with tactile photographic detail and natural depth. Finish in the supplied ending-frame composition with the plants back in their starting pose and matching motion direction, allowing the breeze to continue smoothly into the first frame. One continuous shot with realistic botanical motion and no geometric warping.\n"
+        }
+      ],
+      "poster": "assets/posters/v05.jpg"
+    },
+    {
+      "id": "v06",
+      "version": "V06",
+      "order": 7,
+      "kind": "experiment",
+      "theme": "花园",
+      "title": "花海的近邻变体",
+      "summary": "生成九宫格相邻静态画面，再裁切、排序和混合，呈现花园细部的连续变体。",
+      "method": "AI 静态关键帧＋本地组帧",
+      "status": "explore",
+      "statusLabel": "转向另一组参考",
+      "scope": "分布式细部重构",
+      "gif": "softglitch-native-v6.gif",
+      "video": "softglitch-native-v6.mp4",
+      "image": "softglitch-native-sheet-v6.png",
+      "contact": "softglitch-contact-v6.jpg",
+      "feedback": "看起来他大多数风格都是你已经展示的这种，我看到还有这个。",
+      "feedbackType": "用户补充第二组作者参考，非明确认可",
+      "lesson": "模型生成了静态关键帧素材；动画顺序、中间混合和 GIF 编码仍由本地程序完成。",
+      "details": [
+        "源文件是一张 3×3 静态素材表，不是直接生成的多帧 GIF。",
+        "文件名含 native 仅反映历史命名，不作为原生动画能力的证据。"
+      ],
+      "provenance": [
+        "softglitch-provenance-v6.json"
+      ],
+      "validation": [
+        "softglitch-validation-v6.json"
+      ],
+      "scripts": [
+        "assemble-softglitch-v6.cjs"
+      ],
+      "tags": [
+        "九宫格",
+        "关键帧",
+        "soft glitch"
+      ],
+      "nativeGifGeneratedInThisProject": false,
+      "mediaInfo": {
+        "format": "GIF",
+        "width": 480,
+        "height": 480,
+        "frames": 18,
+        "seconds": 1.08,
+        "loopCount": 0,
+        "infiniteLoop": true,
+        "bytes": 3468112
+      },
+      "assets": {
+        "gif": "archive/softglitch-native-v6.gif",
+        "video": "archive/softglitch-native-v6.mp4",
+        "image": "archive/softglitch-native-sheet-v6.png",
+        "contact": "archive/softglitch-contact-v6.jpg"
+      },
+      "files": [
+        {
+          "label": "制作记录",
+          "name": "softglitch-provenance-v6.json",
+          "path": "archive/softglitch-provenance-v6.json"
+        },
+        {
+          "label": "技术校验",
+          "name": "softglitch-validation-v6.json",
+          "path": "archive/softglitch-validation-v6.json"
+        },
+        {
+          "label": "制作脚本",
+          "name": "assemble-softglitch-v6.cjs",
+          "path": "archive/assemble-softglitch-v6.cjs"
+        }
+      ],
+      "media": [
+        {
+          "name": "softglitch-native-sheet-v6.png",
+          "path": "archive/softglitch-native-sheet-v6.png",
+          "label": "静态底图 / 关键帧素材",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/softglitch-native-sheet-v6.webp"
+        },
+        {
+          "name": "softglitch-contact-v6.jpg",
+          "path": "archive/softglitch-contact-v6.jpg",
+          "label": "逐帧检查图",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/softglitch-contact-v6.webp"
+        }
+      ],
+      "prompts": [
+        {
+          "source": "archive/softglitch-provenance-v6.json",
+          "field": "prompt",
+          "text": "Create a PRODUCTION SPRITE SHEET for a seamless fine-art animated flower GIF: exactly 3 columns x 3 rows, nine equal SQUARE frames, edge-to-edge cells, no gutters, no borders, no labels, no text. Aim for a square 1536x1536 sheet with each frame 512x512. Read the frames left-to-right, top-to-bottom. Every cell depicts the SAME fixed-view flower garden, same scale, same horizon-free composition and same major flower positions. The supplied image is a STYLE AND MATERIAL REFERENCE, not an exact composition to copy. Build our own nearby composition: dense blue-violet tiny flowers and dark teal leaves in the foreground; several luminous peach-ivory peonies around the lower middle; a deep burgundy rose just right of center; small orange-yellow tulips and white star-like flowers embedded throughout. Taller plant clusters on left and right, lower in the middle. Upper one-third stays deep indigo-black with many tiny sparse gold-white points and extremely fine vertical light threads. This is a rich, jewel-toned, painterly-photographic DIGITAL ART garden: saturated cobalt and violet, emerald shadows, burgundy red, pearly peach-white petals, small amber edges, stippled microdetail and delicate prismatic edge residues. A soft-glitch texture, tactile layered petals, magical and beautiful, intricate rather than softly blurred. Avoid the low-saturation look of an ordinary cinematic garden photograph.\nTemporal design for the nine keyframes: maintain stable spatial/color anchors and clearly recognizable major blossoms. At ALL regions simultaneously, make very small neighboring variations in petal contour, thickness, translucent pigment, openness and orientation. Dense blue flower clusters and leaves softly re-resolve into slightly different neighboring details, like one beautiful garden continually being re-imagined. The gold pinpoints twinkle differently by small amounts in every frame. Many independent tiny differences happen in parallel; the whole garden stays coherent. Do not move all plants in one wind direction. Do not animate one flower after another. Do not rotate, zoom, fold space, create rings, make a tunnel, mirror the garden, or stretch/melt flower anatomy. Each frame must be only a SMALL variation from the previous one; frame 9 must also be a small variation from frame 1 so the sequence loops comfortably. Keep camera, light level, framing, main flower positions and flower colors consistent across all 9 cells. Crisp fine detail, not a diagram, not nine different scenes. Output ONLY this exact 3x3 sprite sheet."
+        }
+      ],
+      "poster": "assets/posters/v06.jpg"
+    },
+    {
+      "id": "v07",
+      "version": "V07",
+      "order": 8,
+      "kind": "experiment",
+      "theme": "花园",
+      "title": "蓝白雏菊镜像微变",
+      "summary": "将花朵局部镜像并重复为全幅纹样，相关单元同步变化。",
+      "method": "AI 静态关键帧＋镜像拼排与组帧",
+      "status": "rejected",
+      "statusLabel": "过于接近原作样子",
+      "scope": "整体纹样同步",
+      "gif": "mirror-floral-v7.gif",
+      "video": "mirror-floral-v7.mp4",
+      "image": "mirror-native-sheet-v7.png",
+      "contact": "mirror-contact-v7.jpg",
+      "feedback": "不应该参考他的样子，只能参考他的风格，氛围进行创作啊。",
+      "feedbackType": "明确要求改变借鉴方式",
+      "lesson": "保留蓝白花朵、相近配色和固定重复布局，会使迁移停留在外观复用。",
+      "details": [
+        "九个静态局部单元先沿固定轴反射，再重复铺满。",
+        "用户要求把风格关系迁移到自己的主题与日常材料上。"
+      ],
+      "provenance": [
+        "mirror-provenance-v7.json"
+      ],
+      "validation": [
+        "mirror-validation-v7.json"
+      ],
+      "scripts": [
+        "assemble-mirror-v7.cjs"
+      ],
+      "tags": [
+        "镜像",
+        "风格与外观",
+        "原创"
+      ],
+      "related": [
+        "mirror-first-v7.png"
+      ],
+      "nativeGifGeneratedInThisProject": false,
+      "mediaInfo": {
+        "format": "GIF",
+        "width": 640,
+        "height": 640,
+        "frames": 18,
+        "seconds": 1.26,
+        "loopCount": 0,
+        "infiniteLoop": true,
+        "bytes": 5633749
+      },
+      "assets": {
+        "gif": "archive/mirror-floral-v7.gif",
+        "video": "archive/mirror-floral-v7.mp4",
+        "image": "archive/mirror-native-sheet-v7.png",
+        "contact": "archive/mirror-contact-v7.jpg"
+      },
+      "files": [
+        {
+          "label": "制作记录",
+          "name": "mirror-provenance-v7.json",
+          "path": "archive/mirror-provenance-v7.json"
+        },
+        {
+          "label": "技术校验",
+          "name": "mirror-validation-v7.json",
+          "path": "archive/mirror-validation-v7.json"
+        },
+        {
+          "label": "制作脚本",
+          "name": "assemble-mirror-v7.cjs",
+          "path": "archive/assemble-mirror-v7.cjs"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "mirror-first-v7.png",
+          "path": "archive/mirror-first-v7.png"
+        }
+      ],
+      "media": [
+        {
+          "name": "mirror-native-sheet-v7.png",
+          "path": "archive/mirror-native-sheet-v7.png",
+          "label": "静态底图 / 关键帧素材",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/mirror-native-sheet-v7.webp"
+        },
+        {
+          "name": "mirror-contact-v7.jpg",
+          "path": "archive/mirror-contact-v7.jpg",
+          "label": "逐帧检查图",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/mirror-contact-v7.webp"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "mirror-first-v7.png",
+          "path": "archive/mirror-first-v7.png",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/mirror-first-v7.webp"
+        }
+      ],
+      "prompts": [
+        {
+          "source": "archive/mirror-provenance-v7.json",
+          "field": "prompt",
+          "text": "Create one production SPRITE SHEET: exactly 3 columns by 3 rows of nine equal square keyframes, no gutters, no borders, no labels or text. Each cell is the SAME small photographic floral texture patch, seen from exactly the same fixed camera with the same major flower positions. This sheet will become a seamless short animated GIF.\nREFERENCE ROLE: The input is the visual style reference for a blue-white floral mirror-pattern artwork. Match its cool luminous white and periwinkle-blue daisy petals, ochre-gold flower centers, deep midnight navy negative space, dark forest-green leaves, fine densely layered botanical detail, tiny pearly and gold glints, soft prismatic cyan/violet edge residues, photographic flowers combined with subtle digital/painted texture. Gentle, beautiful, hypnotic, comfortable. Create our own flower arrangement rather than reproducing the reference pattern.\nIMPORTANT COMPOSITION FOR EACH CELL: generate ONLY ONE small texture patch that can later be mirrored into an ornament. A dense curved diagonal garland of around 12-18 overlapping recognizable white daisies and periwinkle asters runs from lower-left toward upper-right, with some smaller petals and tiny leaf clusters linking them. The upper-left corner and lower-right corner contain quiet midnight-blue leaf shadow, so reflection of this patch will form breathing dark diamond/oval windows. Beautiful realistic thin daisy petals, round ochre centers, crisp small-scale detail, white-blue flowers at several sizes. No full wreath, no garden horizon, no path, no perspective tunnel. Do not put repeated tiles, complete kaleidoscopes, or symmetry grids INSIDE the individual cells: we will construct those afterward.\nTEMPORAL KEYFRAMES 1-9: the floral cluster stays recognizable and anchored, while tiny changes occur across the WHOLE patch simultaneously. Petals gently open, tilt and resolve into nearby shapes; groups of fine white-blue petals slightly recompose; glints change softly. Make the local shape/detail variations clearly visible but small, like a living painted botanical textile. Roughly 5-10 percent local change at each step, with stable overall diagonal garland, fixed camera, consistent white-blue-gold palette, and stable average brightness. This is gentle parallel micro-reconstruction, not wind motion and not sequential spotlighting. Frame 9 and frame 1 must be near neighbors too, making a comfortable cyclic sequence. Preserve botanical anatomy and fine petal identity: no liquid deformation, no stretching, no spiral, no radial folding, no bodily shapes, no strobe, no oversized floating particles. Output only the exact 3x3 sheet, preferably 1536x1536 or larger square, with nine full-frame equal square cells."
+        }
+      ],
+      "poster": "assets/posters/v07.jpg"
+    },
+    {
+      "id": "v08",
+      "version": "V08",
+      "order": 9,
+      "kind": "experiment",
+      "theme": "跨主题",
+      "title": "雨停之后",
+      "summary": "以旧窗玻璃、雨滴与琥珀色折射替代花朵，探索同一氛围下的新材料。",
+      "method": "AI 静态关键帧＋本地组帧",
+      "status": "rejected",
+      "statusLabel": "呈现效果不足",
+      "scope": "材质内部的光线变化",
+      "gif": "after-rain-v8.gif",
+      "video": "after-rain-v8.mp4",
+      "image": "after-rain-native-sheet-v8.png",
+      "contact": "after-rain-contact-v8.jpg",
+      "feedback": "这里的呈现效果太差了，换个角度换个主题实现。",
+      "feedbackType": "明确负面反馈",
+      "lesson": "主题和配色换了，整体视觉牵引仍需要成立；风格词不能替代实际构图和运动效果。",
+      "details": [
+        "烟玉绿、香槟色与少量蜂蜜琥珀，保留真实玻璃的竖纹与独立水滴。",
+        "九张相邻静帧经本地插混组装，未使用视频生成。"
+      ],
+      "provenance": [
+        "after-rain-provenance-v8.json"
+      ],
+      "validation": [
+        "after-rain-validation-v8.json"
+      ],
+      "scripts": [
+        "assemble-after-rain-v8.cjs"
+      ],
+      "tags": [
+        "旧玻璃",
+        "折射",
+        "跨主题"
+      ],
+      "nativeGifGeneratedInThisProject": false,
+      "mediaInfo": {
+        "format": "GIF",
+        "width": 560,
+        "height": 560,
+        "frames": 36,
+        "seconds": 2.52,
+        "loopCount": 0,
+        "infiniteLoop": true,
+        "bytes": 7867540
+      },
+      "assets": {
+        "gif": "archive/after-rain-v8.gif",
+        "video": "archive/after-rain-v8.mp4",
+        "image": "archive/after-rain-native-sheet-v8.png",
+        "contact": "archive/after-rain-contact-v8.jpg"
+      },
+      "files": [
+        {
+          "label": "制作记录",
+          "name": "after-rain-provenance-v8.json",
+          "path": "archive/after-rain-provenance-v8.json"
+        },
+        {
+          "label": "技术校验",
+          "name": "after-rain-validation-v8.json",
+          "path": "archive/after-rain-validation-v8.json"
+        },
+        {
+          "label": "制作脚本",
+          "name": "assemble-after-rain-v8.cjs",
+          "path": "archive/assemble-after-rain-v8.cjs"
+        }
+      ],
+      "media": [
+        {
+          "name": "after-rain-native-sheet-v8.png",
+          "path": "archive/after-rain-native-sheet-v8.png",
+          "label": "静态底图 / 关键帧素材",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/after-rain-native-sheet-v8.webp"
+        },
+        {
+          "name": "after-rain-contact-v8.jpg",
+          "path": "archive/after-rain-contact-v8.jpg",
+          "label": "逐帧检查图",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/after-rain-contact-v8.webp"
+        }
+      ],
+      "prompts": [
+        {
+          "source": "archive/after-rain-provenance-v8.json",
+          "field": "prompt",
+          "text": "Create an ORIGINAL production sprite sheet for a quiet hypnotic art GIF, exactly 3 columns by 3 rows of nine equal square keyframes, edge-to-edge with no gutters, borders, labels or text. Each cell is a neighboring moment of ONE new original artwork titled conceptually 'After the Rain' (do not render the title). Prefer 1536x1536 or larger square for the complete sheet.\nSUBJECT AND ORIGINAL COMPOSITION: turn the everyday materials of a rain-speckled vintage window into an abstract yet recognizable luminous woven image. Intact ribbed glass, a thin clear water film, a few irregularly spaced individual round droplets, and broad soft refractions of an amber light. Two or three OPEN, sinuous diagonal ribbons of fluted glass and reflected light travel across the scene, separated by generous smoky-green shadow. Their mirrored echoes gently answer one another at offset positions, like a relaxed woven textile, not a rectangular tile grid. Keep identifiable fine vertical glass ribs, a faint aged window edge, and the occasional natural water bead as tactile anchors. Use open branching caustic lines and soft transparent overlaps; the main shapes remain airy and unclosed. The design is asymmetric overall with subtle local mirrored rhythm. No flowers or plants, no wreaths, no medallions, no kaleidoscope eye shapes, no concentric rings, no tunnel, no broken or sharp glass, no dense clusters of round holes or bubbles.\nCOLOUR AND MATERIAL: smoky jade, muted petroleum green, pale champagne, a small amount of honey-amber light, hints of dusty copper. This is an intimate warm/cool balance, not cobalt blue and white. Fine real photographic glass detail blended with delicately painted light, faint film grain, tiny prismatic colour residues and soft pointillist shimmer. Rich and tactile, softly magical, restrained elegant highlights, gentle darks with visible detail. Calm and beautiful, a slightly nostalgic sense of looking closely at an ordinary evening after rain. Avoid glossy sci-fi CGI, neon, harsh high contrast, glitter showers and candy colours.\nNINE KEYFRAMES: keep the same recognizable glass ribs, broad ribbon positions, framing, scale and average brightness in every cell. Across ALL areas at once, create small nearby changes in the refracted light contours, fine prismatic textures and glints on the existing droplets. The light seems continually re-imagined inside the same material, delicately re-resolving, without camera movement or spatial folding. Each neighboring moment differs by only a few percent, yet the fine details visibly vary. Changes are distributed, never an ordered spotlight traveling from object to object. The ninth cell should also be a near neighbor of the first, creating a comfortable seamless short cycle. Keep physical glass and droplets intact; no melting, stretching, swelling, vortex, broad fade, or scene transition. Output ONLY the exact 3x3 sprite sheet of this original glass-and-light artwork."
+        }
+      ],
+      "poster": "assets/posters/v08.jpg"
+    },
+    {
+      "id": "v09",
+      "version": "V09",
+      "order": 10,
+      "kind": "experiment",
+      "theme": "跨主题",
+      "title": "听见黄昏",
+      "summary": "以旧唱片与纸质音符构建黄昏场景，音符沿闭合轨迹漂浮。",
+      "method": "原生静态素材＋分层合成动画",
+      "status": "rejected",
+      "statusLabel": "没有感觉",
+      "scope": "固定背景上的局部轨迹",
+      "gif": "hearing-dusk-v9.gif",
+      "video": "hearing-dusk-v9.mp4",
+      "image": "dusk-base-v9.png",
+      "contact": "dusk-contact-v9.jpg",
+      "feedback": "还是没有感觉，下一个。",
+      "feedbackType": "明确负面反馈",
+      "lesson": "静态主体上叠加小物件的闭合运动，未达到用户期待的整体沉浸。",
+      "details": [
+        "唱片底图与透明纸音符分别生成，再本地合成。",
+        "MP4 是同一组程序动画的导出，不是模型生成的视频。"
+      ],
+      "provenance": [
+        "dusk-provenance-v9.json"
+      ],
+      "validation": [
+        "dusk-validation-v9.json"
+      ],
+      "scripts": [
+        "render-hearing-dusk-v9.cjs"
+      ],
+      "related": [
+        "dusk-notes-v9.png",
+        "dusk-first-v9.png"
+      ],
+      "tags": [
+        "唱片",
+        "纸音符",
+        "局部漂浮"
+      ],
+      "nativeGifGeneratedInThisProject": false,
+      "mediaInfo": {
+        "format": "GIF",
+        "width": 640,
+        "height": 640,
+        "frames": 120,
+        "seconds": 4.8,
+        "loopCount": 0,
+        "infiniteLoop": true,
+        "bytes": 721149
+      },
+      "assets": {
+        "gif": "archive/hearing-dusk-v9.gif",
+        "video": "archive/hearing-dusk-v9.mp4",
+        "image": "archive/dusk-base-v9.png",
+        "contact": "archive/dusk-contact-v9.jpg"
+      },
+      "files": [
+        {
+          "label": "制作记录",
+          "name": "dusk-provenance-v9.json",
+          "path": "archive/dusk-provenance-v9.json"
+        },
+        {
+          "label": "技术校验",
+          "name": "dusk-validation-v9.json",
+          "path": "archive/dusk-validation-v9.json"
+        },
+        {
+          "label": "制作脚本",
+          "name": "render-hearing-dusk-v9.cjs",
+          "path": "archive/render-hearing-dusk-v9.cjs"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "dusk-notes-v9.png",
+          "path": "archive/dusk-notes-v9.png"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "dusk-first-v9.png",
+          "path": "archive/dusk-first-v9.png"
+        }
+      ],
+      "media": [
+        {
+          "name": "dusk-base-v9.png",
+          "path": "archive/dusk-base-v9.png",
+          "label": "静态底图 / 关键帧素材",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/dusk-base-v9.webp"
+        },
+        {
+          "name": "dusk-contact-v9.jpg",
+          "path": "archive/dusk-contact-v9.jpg",
+          "label": "逐帧检查图",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/dusk-contact-v9.webp"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "dusk-notes-v9.png",
+          "path": "archive/dusk-notes-v9.png",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/dusk-notes-v9.webp"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "dusk-first-v9.png",
+          "path": "archive/dusk-first-v9.png",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/dusk-first-v9.webp"
+        }
+      ],
+      "prompts": [],
+      "poster": "assets/posters/v09.jpg"
+    },
+    {
+      "id": "v10",
+      "version": "V10",
+      "order": 11,
+      "kind": "experiment",
+      "theme": "跨主题",
+      "title": "浅海织光",
+      "summary": "固定沙纹、贝壳和石子，令水下焦散光线在场景内变化。",
+      "method": "AI 静态关键帧＋本地组帧",
+      "status": "rejected",
+      "statusLabel": "整体感不足",
+      "scope": "固定物体上的光线变化",
+      "gif": "shallow-sea-v10.gif",
+      "video": "shallow-sea-v10.mp4",
+      "image": "sea-native-sheet-v10.png",
+      "contact": "sea-contact-v10.jpg",
+      "feedback": "看起来你这里只是局部发生循环，而不是整体进行的，给人很小气的感觉。",
+      "feedbackType": "明确负面反馈",
+      "lesson": "全幅铺有细节不代表全幅结构参与循环；局部的闪光和重构仍显得零碎。",
+      "details": [
+        "九张静帧保持相同物体位置，让焦散线条发生邻近变化。",
+        "这次反馈促使下一阶段把整个画面组织成运动的纹样。"
+      ],
+      "provenance": [
+        "sea-provenance-v10.json"
+      ],
+      "validation": [
+        "sea-validation-v10.json"
+      ],
+      "scripts": [
+        "assemble-sea-v10.cjs"
+      ],
+      "tags": [
+        "水下",
+        "焦散",
+        "局部与整体"
+      ],
+      "nativeGifGeneratedInThisProject": false,
+      "mediaInfo": {
+        "format": "GIF",
+        "width": 560,
+        "height": 560,
+        "frames": 36,
+        "seconds": 2.52,
+        "loopCount": 0,
+        "infiniteLoop": true,
+        "bytes": 7909483
+      },
+      "assets": {
+        "gif": "archive/shallow-sea-v10.gif",
+        "video": "archive/shallow-sea-v10.mp4",
+        "image": "archive/sea-native-sheet-v10.png",
+        "contact": "archive/sea-contact-v10.jpg"
+      },
+      "files": [
+        {
+          "label": "制作记录",
+          "name": "sea-provenance-v10.json",
+          "path": "archive/sea-provenance-v10.json"
+        },
+        {
+          "label": "技术校验",
+          "name": "sea-validation-v10.json",
+          "path": "archive/sea-validation-v10.json"
+        },
+        {
+          "label": "制作脚本",
+          "name": "assemble-sea-v10.cjs",
+          "path": "archive/assemble-sea-v10.cjs"
+        }
+      ],
+      "media": [
+        {
+          "name": "sea-native-sheet-v10.png",
+          "path": "archive/sea-native-sheet-v10.png",
+          "label": "静态底图 / 关键帧素材",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/sea-native-sheet-v10.webp"
+        },
+        {
+          "name": "sea-contact-v10.jpg",
+          "path": "archive/sea-contact-v10.jpg",
+          "label": "逐帧检查图",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/sea-contact-v10.webp"
+        }
+      ],
+      "prompts": [
+        {
+          "source": "archive/sea-provenance-v10.json",
+          "field": "prompt",
+          "text": "Create an ORIGINAL production sprite sheet for a mesmerizing fine-art underwater loop: exactly 3 columns x 3 rows, nine equal square keyframes, no gaps, borders, labels or text. Every cell is a different neighboring moment of ONE fixed-view artwork. Full sheet square, preferably 1536x1536 or larger.\nARTWORK: 'A Shallow Sea Woven from Light' (do not render words). View from underwater at a low oblique angle just above a pristine shallow sandy seabed. Pale finely rippled sand runs diagonally into deep translucent jade water. Two or three small natural pearl-pink shells rest unobtrusively near the lower-left edge, giving tactile scale, with one tiny smooth amber pebble. The dominant image is a gorgeous dense field of INTERLACING REFRACTED LIGHT: open flowing ribbons and irregular fine branches of turquoise, champagne-gold and soft coral shimmer lie across sand, creating an intricate living textile made of sunlight and water. Larger gently curved light bands provide clear visual rhythm, with very fine luminous stippled detail inside and between them. Subtle local near-symmetries and visual echoes arise naturally in the caustics, but composition is open and asymmetric rather than a tiled grid or radial ornament. Clear translucent depth, a quiet open-water upper edge, beautiful dark-jade and luminous pale-sand contrast. No horizon line or visible sky.\nSTYLE: rich tactile photographic detail blended with delicate painterly and digital microtexture; iridescent tiny coloured edges; a slightly unreal, tender and inviting ordinary natural world. The light feels jewel-like and intricate, the materials remain recognizable. Elegant layered detail and depth, not a stock travel photograph, not generic glossy 3D. Harmonious deep jade, pale warm sand, champagne and a little coral. Well-defined light shapes and crisp sand grains rather than uniform soft focus. Comfortable fascination and gentle wonder. No flowers, no musical objects, no glass window, no fish, no people, no eyeball shapes, no dense bubble holes, no spirals or tunnels.\nKEYFRAME MOTION: camera, shells, pebble, sand ridges and overall exposure stay fixed throughout all nine cells. Across the WHOLE image at once, the interwoven caustic lines visibly re-form in nearby flowing shapes as surface waves pass: light strands gently separate, join and slip across the sand, fine prismatic glints sparkle locally. Make the pattern changes distinct enough to read when animated, about 10-15 percent local changes each step, with stable scale, composition and colour relationships. Keep all objects intact and motion continuous, with no morphing shells, no geometric warping, no sequential spotlighting, no broad scene fade or flashing exposure. The last keyframe is also a near neighbor of the first for a seamless short cycle. Output ONLY the exact 3x3 sprite sheet of this new underwater artwork."
+        }
+      ],
+      "poster": "assets/posters/v10.jpg"
+    },
+    {
+      "id": "v11",
+      "version": "V11",
+      "order": 12,
+      "kind": "experiment",
+      "theme": "全幅流动",
+      "title": "潮汐织锦",
+      "summary": "以整幅水与光构成画面，连续流动横贯所有区域，形成更大尺度的视觉关系。",
+      "method": "原生静态图＋全幅坐标动画",
+      "status": "explore",
+      "statusLabel": "继续探索",
+      "scope": "全幅连续流动",
+      "gif": "tidal-field-whole-v11.gif",
+      "video": "tidal-field-whole-v11.mp4",
+      "image": "tide-field-native-v11.png",
+      "contact": "tidal-field-contact-v11.jpg",
+      "feedback": "继续。",
+      "feedbackType": "继续指令，不记为最终认可",
+      "lesson": "对于接近流体与织锦的材料，全幅运动具备视觉上的相容性；仍需由观众判断舒适与沉浸程度。",
+      "details": [
+        "连续漂移与两次平面剪切组合，覆盖整个横向画幅。",
+        "周期边界修正和首尾检验通过，只证明技术闭合。"
+      ],
+      "provenance": [
+        "tidal-field-provenance-v11.json"
+      ],
+      "validation": [
+        "tidal-field-validation-v11.json"
+      ],
+      "scripts": [
+        "render-tide-field-v11.cjs"
+      ],
+      "tags": [
+        "水与光",
+        "全幅",
+        "大尺度"
+      ],
+      "nativeGifGeneratedInThisProject": false,
+      "mediaInfo": {
+        "format": "GIF",
+        "width": 704,
+        "height": 396,
+        "frames": 96,
+        "seconds": 4.8,
+        "loopCount": 0,
+        "infiniteLoop": true,
+        "bytes": 22783801
+      },
+      "assets": {
+        "gif": "archive/tidal-field-whole-v11.gif",
+        "video": "archive/tidal-field-whole-v11.mp4",
+        "image": "archive/tide-field-native-v11.png",
+        "contact": "archive/tidal-field-contact-v11.jpg"
+      },
+      "files": [
+        {
+          "label": "制作记录",
+          "name": "tidal-field-provenance-v11.json",
+          "path": "archive/tidal-field-provenance-v11.json"
+        },
+        {
+          "label": "技术校验",
+          "name": "tidal-field-validation-v11.json",
+          "path": "archive/tidal-field-validation-v11.json"
+        },
+        {
+          "label": "制作脚本",
+          "name": "render-tide-field-v11.cjs",
+          "path": "archive/render-tide-field-v11.cjs"
+        }
+      ],
+      "media": [
+        {
+          "name": "tide-field-native-v11.png",
+          "path": "archive/tide-field-native-v11.png",
+          "label": "静态底图 / 关键帧素材",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/tide-field-native-v11.webp"
+        },
+        {
+          "name": "tidal-field-contact-v11.jpg",
+          "path": "archive/tidal-field-contact-v11.jpg",
+          "label": "逐帧检查图",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/tidal-field-contact-v11.webp"
+        }
+      ],
+      "prompts": [
+        {
+          "source": "archive/tidal-field-provenance-v11.json",
+          "field": "prompt",
+          "text": "Create ONE original square seamless all-over fine-art texture, a large-scale tidal tapestry of water and light, designed to be animated as an entire continuously moving field. The whole composition is the subject. View directly downward into an imaginary but tactile expanse of shallow tidal currents. Three or four broad flowing arcs of luminous ivory foam and sunlit pale sand weave across saturated jade, turquoise and deep ink-blue water, joining into a continuous open rhythm that extends beyond ALL edges. Grand, expansive, sweeping shapes across the entire frame, with densely intricate pearly stippled details, delicate small ripples, fine prismatic champagne and coral edges, and deeper transparent channels. Large clear curved shapes at several scales; the eye should travel through the entire image rather than rest on one object. Reflections echo across neighboring currents in loose visual correspondences, asymmetric overall, never a fixed four-tile motif. Beautiful balanced cool/warm jewel palette, rich tactile photographic water detail and delicately painted digital texture, soft-glitch-like fine scintillation. Calm, quietly magnificent and absorbing. Create an art textile made of tide and light rather than a literal travel photo. Even visual interest from edge to edge, with clear open spaces between ribbons, no foreground/background hierarchy, no horizon, no tabletop, no shells or identifiable isolated objects, no central emblem, no spiral or vortex, no anatomy, no eyes, no dense holes, no radial tunnel, no neon. Avoid a small bright patch on a static background: broad light-and-colour forms must occupy and structure the full image. Make all four opposite edges match naturally so this can repeat seamlessly in both directions. Do not draw a grid, border, typography, panel layout or contact sheet. Deliver one highly resolved square artwork, preferably 1536x1536 or larger."
+        }
+      ],
+      "poster": "assets/posters/v11.jpg"
+    },
+    {
+      "id": "v12",
+      "version": "V12",
+      "order": 13,
+      "kind": "experiment",
+      "theme": "全幅流动",
+      "title": "夜潮织光",
+      "summary": "以蓝紫、珍珠与玫瑰金的光带交错流动，延续全画面参与的纹样方向。",
+      "method": "原生静态图＋全幅坐标动画",
+      "status": "explore",
+      "statusLabel": "要求换场景继续",
+      "scope": "交错的全幅流动",
+      "gif": "night-tide-whole-v12.gif",
+      "video": "night-tide-whole-v12.mp4",
+      "image": "night-tide-native-v12.png",
+      "contact": "night-tide-contact-v12.jpg",
+      "feedback": "换个场景继续。",
+      "feedbackType": "继续探索与换题要求，不记为最终认可",
+      "lesson": "可以迁移整体运动原则，但新主题需要重新判断材料和运动是否匹配。",
+      "details": [
+        "四次连续平面剪切与闭合漂移构成统一坐标场。",
+        "该手法随后直接套入秋林，暴露了材料与物理关系不匹配的问题。"
+      ],
+      "provenance": [
+        "night-tide-provenance-v12.json"
+      ],
+      "validation": [
+        "night-tide-validation-v12.json"
+      ],
+      "scripts": [
+        "render-night-tide-v12.cjs"
+      ],
+      "tags": [
+        "蓝紫",
+        "玫瑰金",
+        "全幅"
+      ],
+      "nativeGifGeneratedInThisProject": false,
+      "mediaInfo": {
+        "format": "GIF",
+        "width": 704,
+        "height": 396,
+        "frames": 128,
+        "seconds": 6.4,
+        "loopCount": 0,
+        "infiniteLoop": true,
+        "bytes": 32086375
+      },
+      "assets": {
+        "gif": "archive/night-tide-whole-v12.gif",
+        "video": "archive/night-tide-whole-v12.mp4",
+        "image": "archive/night-tide-native-v12.png",
+        "contact": "archive/night-tide-contact-v12.jpg"
+      },
+      "files": [
+        {
+          "label": "制作记录",
+          "name": "night-tide-provenance-v12.json",
+          "path": "archive/night-tide-provenance-v12.json"
+        },
+        {
+          "label": "技术校验",
+          "name": "night-tide-validation-v12.json",
+          "path": "archive/night-tide-validation-v12.json"
+        },
+        {
+          "label": "制作脚本",
+          "name": "render-night-tide-v12.cjs",
+          "path": "archive/render-night-tide-v12.cjs"
+        }
+      ],
+      "media": [
+        {
+          "name": "night-tide-native-v12.png",
+          "path": "archive/night-tide-native-v12.png",
+          "label": "静态底图 / 关键帧素材",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/night-tide-native-v12.webp"
+        },
+        {
+          "name": "night-tide-contact-v12.jpg",
+          "path": "archive/night-tide-contact-v12.jpg",
+          "label": "逐帧检查图",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/night-tide-contact-v12.webp"
+        }
+      ],
+      "prompts": [
+        {
+          "source": "archive/night-tide-provenance-v12.json",
+          "field": "prompt",
+          "text": "Create ONE original square seamless all-over fine-art artwork, a nocturnal tapestry of flowing water and luminous woven currents. This is a full-field composition intended for a seamless animated loop: the entire surface participates equally. Two interpenetrating families of broad currents cross diagonally through the whole image: deep cobalt and velvet-aubergine ribbons move between soft pearl, dusty rose-copper and champagne-white flowing strands. Imagine moonlit water with the tactile richness of woven silk and the delicate fine detail of a hand-painted digital artwork. Three or four large readable sweeping shapes create a spacious, confident rhythm; many fine iridescent filaments, tiny natural foam-like grains and prismatic edges make those shapes rewarding to inspect closely. Open dark channels keep breathing room, while the light touches every region of the canvas. Rich colour and refined contrast; highlights softly glow without clipping, shadows retain intricate material detail. Quietly magnificent, mysterious, beautiful and absorbing, never harsh or threatening. Every corner should be visually active, with shapes flowing naturally beyond the frame. No isolated hero object, no fixed foreground, no horizon, no text, no flowers, no paper notes, no shells, no central emblem, no grid, no closed eye-shaped forms, no radial vortex or tunnel, no melted anatomical look, no neon CGI rings. Make a distinctive new composition rather than a generic ocean photograph. Opposite edges should match for seamless repetition in both directions. Do not draw multiple frames or a contact sheet. Deliver one richly resolved square artwork, preferably 1536x1536 or larger."
+        }
+      ],
+      "poster": "assets/posters/v12.jpg"
+    },
+    {
+      "id": "v13",
+      "version": "V13",
+      "order": 14,
+      "kind": "experiment",
+      "theme": "秋林",
+      "title": "秋林浮光",
+      "summary": "把全幅回旋和平面形变用于树林，树冠和枝条随坐标场一起移动。",
+      "method": "原生静态图＋全幅坐标动画",
+      "status": "rejected",
+      "statusLabel": "树的运动不成立",
+      "scope": "全林位移与剪切",
+      "gif": "autumn-canopy-whole-v13.gif",
+      "video": "autumn-canopy-whole-v13.mp4",
+      "image": "autumn-canopy-native-v13.png",
+      "contact": "autumn-canopy-contact-v13.jpg",
+      "feedback": "你这不对啊，树根本不可能这样动啊。",
+      "feedbackType": "明确的物理关系纠正",
+      "lesson": "适合水纹的整体变形不能直接套给有根的树；整体循环应来自场景联动，而非所有对象一起位移。",
+      "details": [
+        "技术首尾匹配且全幅变化，但不能据此宣称自然。",
+        "这是本轮对“整体参与”和“整体变形”区别最清楚的一次反馈。"
+      ],
+      "provenance": [
+        "autumn-canopy-provenance-v13.json"
+      ],
+      "validation": [
+        "autumn-canopy-validation-v13.json"
+      ],
+      "scripts": [
+        "render-autumn-canopy-v13.cjs"
+      ],
+      "tags": [
+        "秋林",
+        "物理关系",
+        "错误迁移"
+      ],
+      "nativeGifGeneratedInThisProject": false,
+      "mediaInfo": {
+        "format": "GIF",
+        "width": 704,
+        "height": 396,
+        "frames": 128,
+        "seconds": 6.4,
+        "loopCount": 0,
+        "infiniteLoop": true,
+        "bytes": 39739789
+      },
+      "assets": {
+        "gif": "archive/autumn-canopy-whole-v13.gif",
+        "video": "archive/autumn-canopy-whole-v13.mp4",
+        "image": "archive/autumn-canopy-native-v13.png",
+        "contact": "archive/autumn-canopy-contact-v13.jpg"
+      },
+      "files": [
+        {
+          "label": "制作记录",
+          "name": "autumn-canopy-provenance-v13.json",
+          "path": "archive/autumn-canopy-provenance-v13.json"
+        },
+        {
+          "label": "技术校验",
+          "name": "autumn-canopy-validation-v13.json",
+          "path": "archive/autumn-canopy-validation-v13.json"
+        },
+        {
+          "label": "制作脚本",
+          "name": "render-autumn-canopy-v13.cjs",
+          "path": "archive/render-autumn-canopy-v13.cjs"
+        }
+      ],
+      "media": [
+        {
+          "name": "autumn-canopy-native-v13.png",
+          "path": "archive/autumn-canopy-native-v13.png",
+          "label": "静态底图 / 关键帧素材",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/autumn-canopy-native-v13.webp"
+        },
+        {
+          "name": "autumn-canopy-contact-v13.jpg",
+          "path": "archive/autumn-canopy-contact-v13.jpg",
+          "label": "逐帧检查图",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/autumn-canopy-contact-v13.webp"
+        }
+      ],
+      "prompts": [
+        {
+          "source": "archive/autumn-canopy-provenance-v13.json",
+          "field": "prompt",
+          "text": "Use case: stylized-concept.\nAsset type: one original square fine-art source image for a full-frame seamless animated artwork.\nPrimary request: \"Autumn Canopy, Floating Light\" — look straight down into a continuous forest of interlocking autumn tree crowns. The whole forest is the composition, with no single hero tree. Clearly recognizable small maple and birch leaves cluster into generous, rounded and irregular tree crowns; graceful branch structures are partly glimpsed beneath them. Amber, ochre, old gold and pale honey foliage is interwoven with quieter olive, russet and deep blue-green crowns. Narrow, irregular dark spaces between crowns give breathing room. Soft low autumn sunlight grazes leaves all across the image; fine silver-gold glints recur throughout the canopy rather than forming a bright central spot.\nStyle/medium: an exquisitely detailed tactile digital tapestry, combining remembered analogue film colour with richly observed botanical detail and subtle pearlescent edge colour. Slight luminous grain, soft halation on a few leaf edges, restful rich shadows. Poetic and immersive, recognizably a woodland canopy rather than an abstract liquid or fantasy effect.\nComposition: directly overhead, all-over, broad legible tree-crown shapes across every edge, asymmetrically balanced and continuously interlocking. A few broad diagonal correspondences of warm and cool crowns lead the eye around the whole image, but do not form stripes. Opposite image edges should naturally match for seamless repetition in both directions. Maintain beautiful detail even at the edges.\nMood: the generous, comfortable warmth of an autumn afternoon, a quiet sense of being enveloped in the forest. Spacious enough to look at for a long time.\nConstraints: One single square image, preferably 1536x1536 or larger. No text, panels, contact sheet, border or grid. No horizon, sky, trunk rising toward the camera, path, house or identifiable isolated object. No flowers, water, silk ribbons, radial tunnel, central vortex, kaleidoscope mirror symmetry, spiral, eyes or anatomical forms. Do not make a photographic landscape with a single focus; this should be an original full-field woodland artwork that can move together across the entire frame."
+        }
+      ],
+      "poster": "assets/posters/v13.jpg"
+    },
+    {
+      "id": "v14",
+      "version": "V14",
+      "order": 15,
+      "kind": "experiment",
+      "theme": "秋林",
+      "title": "秋林风动修正版",
+      "summary": "取消全林位移，以颜色与亮度遮罩限制叶面轻动，让主要结构保持在原处。",
+      "method": "静态图＋二维遮罩风动",
+      "status": "rejected",
+      "statusLabel": "观看价值不足",
+      "scope": "分布式轻微叶动",
+      "gif": "autumn-breeze-anchored-v14.gif",
+      "video": "autumn-breeze-anchored-v14.mp4",
+      "image": "autumn-canopy-native-v13.png",
+      "contact": "autumn-breeze-contact-v14.jpg",
+      "feedback": "这个又看不出价值。能不能以这个为场景，内部增加一些悬疑，比如鸟飞起来，动物窜起来。",
+      "feedbackType": "明确要求加入事件",
+      "lesson": "微动修正了过大的变形，但缺少能引导持续观看的线索和事件。",
+      "details": [
+        "遮罩依据颜色与亮度，并非语义分割；不能保证每一个枝干像素都被准确识别。",
+        "用户将方向从纹样循环推进到安静场景中的轻微悬疑。"
+      ],
+      "provenance": [
+        "autumn-breeze-provenance-v14.json"
+      ],
+      "validation": [
+        "autumn-breeze-validation-v14.json"
+      ],
+      "scripts": [
+        "render-anchored-autumn-v14.cjs"
+      ],
+      "tags": [
+        "固定结构",
+        "风动",
+        "观看动机"
+      ],
+      "nativeGifGeneratedInThisProject": false,
+      "mediaInfo": {
+        "format": "GIF",
+        "width": 640,
+        "height": 640,
+        "frames": 128,
+        "seconds": 6.4,
+        "loopCount": 0,
+        "infiniteLoop": true,
+        "bytes": 5319766
+      },
+      "assets": {
+        "gif": "archive/autumn-breeze-anchored-v14.gif",
+        "video": "archive/autumn-breeze-anchored-v14.mp4",
+        "image": "archive/autumn-canopy-native-v13.png",
+        "contact": "archive/autumn-breeze-contact-v14.jpg"
+      },
+      "files": [
+        {
+          "label": "制作记录",
+          "name": "autumn-breeze-provenance-v14.json",
+          "path": "archive/autumn-breeze-provenance-v14.json"
+        },
+        {
+          "label": "技术校验",
+          "name": "autumn-breeze-validation-v14.json",
+          "path": "archive/autumn-breeze-validation-v14.json"
+        },
+        {
+          "label": "制作脚本",
+          "name": "render-anchored-autumn-v14.cjs",
+          "path": "archive/render-anchored-autumn-v14.cjs"
+        }
+      ],
+      "media": [
+        {
+          "name": "autumn-canopy-native-v13.png",
+          "path": "archive/autumn-canopy-native-v13.png",
+          "label": "静态底图 / 关键帧素材",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/autumn-canopy-native-v13.webp"
+        },
+        {
+          "name": "autumn-breeze-contact-v14.jpg",
+          "path": "archive/autumn-breeze-contact-v14.jpg",
+          "label": "逐帧检查图",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/autumn-breeze-contact-v14.webp"
+        }
+      ],
+      "prompts": [],
+      "poster": "assets/posters/v14.jpg"
+    },
+    {
+      "id": "v15",
+      "version": "V15",
+      "order": 16,
+      "kind": "experiment",
+      "theme": "秋林",
+      "title": "林中惊起",
+      "summary": "林下小兽奔过，鸟群随后从多个位置起飞，形成一段有事件的循环。",
+      "method": "原生静态素材＋姿态表与轨迹合成",
+      "status": "rejected",
+      "statusLabel": "起飞位置不对",
+      "scope": "局部事件扩散至全幅",
+      "gif": "forest-startle-v15.gif",
+      "video": "forest-startle-v15.mp4",
+      "image": "forest-suspense-base-v15.png",
+      "contact": "forest-startle-contact-v15.jpg",
+      "feedback": "鸟的位置不对吧，它应该本身就在各个角度的树枝上。",
+      "feedbackType": "明确的空间关系纠正",
+      "lesson": "鸟需要在事件发生前就真实占据枝杈，起飞要有明确来源与接触过程。",
+      "details": [
+        "林下通路由原生图像编辑得到；狐狸与鸟翼分别生成透明姿态表。",
+        "飞行路径和遮挡为手工二维合成，源素材一致性不等于时序连续性。"
+      ],
+      "provenance": [
+        "forest-startle-provenance-v15.json"
+      ],
+      "validation": [
+        "forest-startle-validation-v15.json"
+      ],
+      "scripts": [
+        "render-forest-suspense-v15.cjs"
+      ],
+      "related": [
+        "forest-crow-sprites-v15.png",
+        "forest-fox-sprites-v15.png",
+        "forest-startle-birds-v15.png",
+        "forest-startle-event-v15.png",
+        "forest-startle-timeline-v15.json",
+        "forest-suspense-base-preview-v15.png"
+      ],
+      "tags": [
+        "狐狸",
+        "鸟群",
+        "起飞来源"
+      ],
+      "nativeGifGeneratedInThisProject": false,
+      "mediaInfo": {
+        "format": "GIF",
+        "width": 640,
+        "height": 640,
+        "frames": 160,
+        "seconds": 8.0,
+        "loopCount": 0,
+        "infiniteLoop": true,
+        "bytes": 3162423
+      },
+      "assets": {
+        "gif": "archive/forest-startle-v15.gif",
+        "video": "archive/forest-startle-v15.mp4",
+        "image": "archive/forest-suspense-base-v15.png",
+        "contact": "archive/forest-startle-contact-v15.jpg"
+      },
+      "files": [
+        {
+          "label": "制作记录",
+          "name": "forest-startle-provenance-v15.json",
+          "path": "archive/forest-startle-provenance-v15.json"
+        },
+        {
+          "label": "技术校验",
+          "name": "forest-startle-validation-v15.json",
+          "path": "archive/forest-startle-validation-v15.json"
+        },
+        {
+          "label": "制作脚本",
+          "name": "render-forest-suspense-v15.cjs",
+          "path": "archive/render-forest-suspense-v15.cjs"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-crow-sprites-v15.png",
+          "path": "archive/forest-crow-sprites-v15.png"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-fox-sprites-v15.png",
+          "path": "archive/forest-fox-sprites-v15.png"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-startle-birds-v15.png",
+          "path": "archive/forest-startle-birds-v15.png"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-startle-event-v15.png",
+          "path": "archive/forest-startle-event-v15.png"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-startle-timeline-v15.json",
+          "path": "archive/forest-startle-timeline-v15.json"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-suspense-base-preview-v15.png",
+          "path": "archive/forest-suspense-base-preview-v15.png"
+        }
+      ],
+      "media": [
+        {
+          "name": "forest-suspense-base-v15.png",
+          "path": "archive/forest-suspense-base-v15.png",
+          "label": "静态底图 / 关键帧素材",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/forest-suspense-base-v15.webp"
+        },
+        {
+          "name": "forest-startle-contact-v15.jpg",
+          "path": "archive/forest-startle-contact-v15.jpg",
+          "label": "逐帧检查图",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/forest-startle-contact-v15.webp"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-crow-sprites-v15.png",
+          "path": "archive/forest-crow-sprites-v15.png",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/forest-crow-sprites-v15.webp"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-fox-sprites-v15.png",
+          "path": "archive/forest-fox-sprites-v15.png",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/forest-fox-sprites-v15.webp"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-startle-birds-v15.png",
+          "path": "archive/forest-startle-birds-v15.png",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/forest-startle-birds-v15.webp"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-startle-event-v15.png",
+          "path": "archive/forest-startle-event-v15.png",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/forest-startle-event-v15.webp"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-suspense-base-preview-v15.png",
+          "path": "archive/forest-suspense-base-preview-v15.png",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/forest-suspense-base-preview-v15.webp"
+        }
+      ],
+      "prompts": [
+        {
+          "source": "archive/forest-startle-provenance-v15.json",
+          "field": "generations[0].prompt",
+          "text": "Edit the provided autumn woodland image as the FULL EDIT TARGET. Retain the same square framing, the same positions and shapes of the autumn crowns and main branches, warm gold/russet foliage and deep blue-green shadows, and the same detailed painterly photographic texture. Make one localized environmental change: in the lower middle quarter, between approximately x=24% and x=76%, y=58% and y=73%, reveal a narrow irregular horizontal glimpse of the forest floor BEHIND the foreground leaves. It should be a dim woodland understory passage with brown leaf litter and soft deep shadow, intermittently obscured by little foreground branches and leaf clusters. The passage is natural, not a road, and only occupies a small part of the scene. Its visible height at the centre is about 7% of the image height. This small gap will let a small animal briefly pass through at ground level in a later animation. The dense warm canopy everywhere else remains beautiful and rooted, unchanged in composition. No animals, no birds yet, no people, no glowing eyes, no text, no new light beam, no fake motion blur. One single square forest background, no panels or frames."
+        },
+        {
+          "source": "archive/forest-startle-provenance-v15.json",
+          "field": "generations[1].prompt",
+          "text": "Use case: stylized-concept. Create a production-quality TRANSPARENT PNG animation sprite sheet for one realistic woodland crow flying away from the viewer toward the TOP of the image, viewed from a high, slightly oblique overhead camera. Exactly SIX wingbeat poses in a precise uniform 3-column by 2-row layout, read left to right across the top row then bottom row. Same individual bird, same body centre and direction, same camera, same body scale in all six cells. Make a complete continuous natural wingbeat cycle: wide wings nearly horizontal, wings raised into a wide V, high upstroke folded nearer the body, wings extending down, full downstroke, wings returning outward. Body with narrow head and beak at top, short fan tail at bottom; folded feet, two anatomically correct wings, realistic feather groups. Crow should be dark charcoal with very subtle warm amber edge light, not a pure black icon. Detailed painterly photographic texture suited to an autumn forest fine-art composite; subdued enough to live within a scene. Each pose wholly inside its own equal-sized cell with at least 15% transparent margin; wingtips must never cross cell boundaries. All bird body centres exactly in centre of each cell; no position translation. No shadows, no perch, no environment, no grid lines, no numbers, no labels, no border, no white background or checkerboard painted into the image. Genuine transparent alpha everywhere outside the birds. Overall square sheet preferably 1536x1536 or larger."
+        },
+        {
+          "source": "archive/forest-startle-provenance-v15.json",
+          "field": "generations[2].prompt",
+          "text": "Use case: stylized-concept. Create a production-quality TRANSPARENT PNG running animation sprite sheet of a small realistic woodland red fox. Exactly SIX different sequential gallop poses in a precise uniform 3-column by 2-row layout, read left to right across the top row then bottom row, forming one physically plausible repeated run cycle. The SAME slender natural fox in every cell: pointed ears, tapered muzzle, dark lower legs, rusty muted orange coat, pale throat and long bushy darker tail with a small pale tip. Facing RIGHT, seen from a side view elevated about 25 degrees so some of the animal's back is visible, matching a woodland clearing seen from a slightly elevated camera. Same size and direction and body-centre anchor in every cell. Natural gait sequence with four coherent legs: extension, foreleg landing, compression, hind-leg push off, airborne gathering, extension again. Tail trails left. Medium-low contrast, warm dim afternoon woodland lighting from upper left, detailed painterly photographic fur suited to a densely detailed autumn woodland illustration. The animal will be a small glimpse in the scene, not a cartoon mascot. Each complete fox fits inside its equal-sized cell with at least 15% transparent margin. Leave the background truly transparent with alpha; no ground, no cast shadow, no environment, no grid lines, no numbers, no text or border, no white rectangle or painted checkerboard. Overall square 1536x1536 or larger."
+        }
+      ],
+      "poster": "assets/posters/v15.jpg"
+    },
+    {
+      "id": "v16",
+      "version": "V16",
+      "order": 17,
+      "kind": "experiment",
+      "theme": "秋林",
+      "title": "栖枝惊飞修正版",
+      "summary": "七只鸟分散栖在枝杈上，使用不同观察角度，增加蹲伏、蹬枝、起飞与返回落枝。",
+      "method": "原生静态姿态表＋二维合成动画",
+      "status": "iterate",
+      "statusLabel": "继续提出沉浸优化",
+      "scope": "栖息与事件循环",
+      "gif": "forest-branch-startle-v16.gif",
+      "video": "forest-branch-startle-v16.mp4",
+      "image": "forest-perched-v16.png",
+      "contact": "forest-branch-contact-v16.jpg",
+      "feedback": "如果要让人沉浸在其中，还有哪些可以优化的？还有光影效果。",
+      "feedbackType": "后续优化讨论，不记为明确认可",
+      "lesson": "落点对齐只是基础；动作角度的连续变化、前后遮挡、反应节奏与自然归位都影响真实感。",
+      "details": [
+        "新增四种观察角度与三阶段姿态，足爪落点经过局部放大检查。",
+        "动作衔接仍是二维素材之间的切换与混合；返回原位服务于循环，但会显得刻意。"
+      ],
+      "provenance": [
+        "forest-branch-provenance-v16.json"
+      ],
+      "validation": [
+        "forest-branch-validation-v16.json"
+      ],
+      "scripts": [
+        "render-forest-perches-v16.cjs"
+      ],
+      "related": [
+        "forest-perch-sprites-v16.png",
+        "forest-branch-detail-v16.png",
+        "forest-contacts-detail-v16.png",
+        "forest-branch-timeline-v16.json",
+        "forest-departing-v16.png",
+        "forest-returning-v16.png"
+      ],
+      "tags": [
+        "栖枝",
+        "接触点",
+        "动作衔接"
+      ],
+      "nativeGifGeneratedInThisProject": false,
+      "mediaInfo": {
+        "format": "GIF",
+        "width": 640,
+        "height": 640,
+        "frames": 240,
+        "seconds": 12.0,
+        "loopCount": 0,
+        "infiniteLoop": true,
+        "bytes": 3688609
+      },
+      "assets": {
+        "gif": "archive/forest-branch-startle-v16.gif",
+        "video": "archive/forest-branch-startle-v16.mp4",
+        "image": "archive/forest-perched-v16.png",
+        "contact": "archive/forest-branch-contact-v16.jpg"
+      },
+      "files": [
+        {
+          "label": "制作记录",
+          "name": "forest-branch-provenance-v16.json",
+          "path": "archive/forest-branch-provenance-v16.json"
+        },
+        {
+          "label": "技术校验",
+          "name": "forest-branch-validation-v16.json",
+          "path": "archive/forest-branch-validation-v16.json"
+        },
+        {
+          "label": "制作脚本",
+          "name": "render-forest-perches-v16.cjs",
+          "path": "archive/render-forest-perches-v16.cjs"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-perch-sprites-v16.png",
+          "path": "archive/forest-perch-sprites-v16.png"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-branch-detail-v16.png",
+          "path": "archive/forest-branch-detail-v16.png"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-contacts-detail-v16.png",
+          "path": "archive/forest-contacts-detail-v16.png"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-branch-timeline-v16.json",
+          "path": "archive/forest-branch-timeline-v16.json"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-departing-v16.png",
+          "path": "archive/forest-departing-v16.png"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-returning-v16.png",
+          "path": "archive/forest-returning-v16.png"
+        }
+      ],
+      "media": [
+        {
+          "name": "forest-perched-v16.png",
+          "path": "archive/forest-perched-v16.png",
+          "label": "静态底图 / 关键帧素材",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/forest-perched-v16.webp"
+        },
+        {
+          "name": "forest-branch-contact-v16.jpg",
+          "path": "archive/forest-branch-contact-v16.jpg",
+          "label": "逐帧检查图",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/forest-branch-contact-v16.webp"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-perch-sprites-v16.png",
+          "path": "archive/forest-perch-sprites-v16.png",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/forest-perch-sprites-v16.webp"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-branch-detail-v16.png",
+          "path": "archive/forest-branch-detail-v16.png",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/forest-branch-detail-v16.webp"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-contacts-detail-v16.png",
+          "path": "archive/forest-contacts-detail-v16.png",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/forest-contacts-detail-v16.webp"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-departing-v16.png",
+          "path": "archive/forest-departing-v16.png",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/forest-departing-v16.webp"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-returning-v16.png",
+          "path": "archive/forest-returning-v16.png",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/forest-returning-v16.webp"
+        }
+      ],
+      "prompts": [
+        {
+          "source": "archive/forest-branch-provenance-v16.json",
+          "field": "newGeneration.prompt",
+          "text": "Use case: stylized-concept. Asset: a genuine TRANSPARENT PNG sprite sheet of realistic woodland crows, in a precise 4-COLUMN by 3-ROW grid, twelve separate poses total. One square sheet, preferably 1536x1536 or larger. Equal cell sizes, no overlaps or grid lines.\nEach COLUMN shows the SAME bird at the SAME camera angle through three successive poses. Column 1: side profile facing left. Column 2: side profile facing right. Column 3: rear three-quarter view facing diagonally away toward upper left. Column 4: front three-quarter view looking diagonally toward the right. These are different three-dimensional views of naturally upright birds, not rotated copies of a flat icon. Elevated woodland camera about 15 degrees above the bird, realistic crow proportions, charcoal black plumage with finely described feather detail and restrained warm autumn rim light, painterly photographic material suitable for an autumn forest artwork.\nTOP ROW: settled crow PERCHED with tightly folded wings. Both short legs and curled toes are visible, gripping an invisible narrow twig. Tail angled backward, balanced natural posture.\nMIDDLE ROW: the same crow in the same column crouches forward slightly in an alert pre-takeoff posture, wings beginning to lift, feet STILL ON THE SAME TWIG CONTACT POINT.\nBOTTOM ROW: the same crow pushes off upward with partially opened wings; toes are just opening from the SAME CONTACT POINT, legs still extended downward, body lifting a little. This is the first instant of takeoff, not a fully extended huge flying bird.\nRegistration is essential: the twig contact point is exactly in the horizontal centre of EVERY cell and at 78 percent of the cell height. The bird's toes straddle that invisible point. Preserve body size and direction across each column. Leave at least 14 percent transparent margin on all sides; raised wingtips stay inside their own cell. The tail must not obscure the toes or contact point.\nDo NOT draw a branch, perch, floor, scenery or cast shadow. No text, letters, numerals, labels, border or panel separators. No cartoon styling, no stretched anatomy, no extra limbs, no upside down birds. The background must be true transparent alpha, not a white rectangle or painted checkerboard."
+        }
+      ],
+      "poster": "assets/posters/v16.jpg"
+    },
+    {
+      "id": "v17",
+      "version": "V17",
+      "order": 18,
+      "kind": "experiment",
+      "theme": "秋林",
+      "title": "林中惊起光影版",
+      "summary": "增加云影、碎光、林下光斑、微弱光束及飞鸟投影，让不同区域缓慢改变明暗。",
+      "method": "二维重照明＋静态素材合成动画",
+      "status": "rejected",
+      "statusLabel": "真实感不足",
+      "scope": "事件与空间明暗联动",
+      "gif": "forest-light-shadow-v17.gif",
+      "video": "forest-light-shadow-v17.mp4",
+      "image": "forest-light-first-v17.png",
+      "contact": "forest-light-contact-v17.jpg",
+      "feedback": "有点假，和真实世界差异太大。",
+      "feedbackType": "明确负面反馈",
+      "lesson": "云影与鸟影没有完整三维空间依据；在原本已烘焙光照的静态画面上叠加效果，不能可靠补足真实的体积、接触与时序。",
+      "details": [
+        "云影由周期透射场产生；鸟影由透明鸟翼素材模糊后投射。",
+        "这些都是二维解释，不是三维光线追踪，也不是整段模型视频。"
+      ],
+      "provenance": [
+        "forest-light-provenance-v17.json"
+      ],
+      "validation": [
+        "forest-light-validation-v17.json"
+      ],
+      "scripts": [
+        "render-forest-light-v17.cjs"
+      ],
+      "tags": [
+        "光影",
+        "真实感",
+        "二维方法边界"
+      ],
+      "related": [
+        "forest-light-a-v17.png",
+        "forest-light-b-v17.png",
+        "forest-light-c-v17.png",
+        "forest-light-timeline-v17.json"
+      ],
+      "nativeGifGeneratedInThisProject": false,
+      "mediaInfo": {
+        "format": "GIF",
+        "width": 640,
+        "height": 640,
+        "frames": 240,
+        "seconds": 12.0,
+        "loopCount": 0,
+        "infiniteLoop": true,
+        "bytes": 9802444
+      },
+      "assets": {
+        "gif": "archive/forest-light-shadow-v17.gif",
+        "video": "archive/forest-light-shadow-v17.mp4",
+        "image": "archive/forest-light-first-v17.png",
+        "contact": "archive/forest-light-contact-v17.jpg"
+      },
+      "files": [
+        {
+          "label": "制作记录",
+          "name": "forest-light-provenance-v17.json",
+          "path": "archive/forest-light-provenance-v17.json"
+        },
+        {
+          "label": "技术校验",
+          "name": "forest-light-validation-v17.json",
+          "path": "archive/forest-light-validation-v17.json"
+        },
+        {
+          "label": "制作脚本",
+          "name": "render-forest-light-v17.cjs",
+          "path": "archive/render-forest-light-v17.cjs"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-light-a-v17.png",
+          "path": "archive/forest-light-a-v17.png"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-light-b-v17.png",
+          "path": "archive/forest-light-b-v17.png"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-light-c-v17.png",
+          "path": "archive/forest-light-c-v17.png"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-light-timeline-v17.json",
+          "path": "archive/forest-light-timeline-v17.json"
+        }
+      ],
+      "media": [
+        {
+          "name": "forest-light-first-v17.png",
+          "path": "archive/forest-light-first-v17.png",
+          "label": "静态底图 / 关键帧素材",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/forest-light-first-v17.webp"
+        },
+        {
+          "name": "forest-light-contact-v17.jpg",
+          "path": "archive/forest-light-contact-v17.jpg",
+          "label": "逐帧检查图",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/forest-light-contact-v17.webp"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-light-a-v17.png",
+          "path": "archive/forest-light-a-v17.png",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/forest-light-a-v17.webp"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-light-b-v17.png",
+          "path": "archive/forest-light-b-v17.png",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/forest-light-b-v17.webp"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-light-c-v17.png",
+          "path": "archive/forest-light-c-v17.png",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/forest-light-c-v17.webp"
+        }
+      ],
+      "prompts": [],
+      "poster": "assets/posters/v17.jpg"
+    },
+    {
+      "id": "v18",
+      "version": "V18",
+      "order": 19,
+      "kind": "still",
+      "theme": "能力核验",
+      "title": "单鸟起飞的原生 GIF 入口验证",
+      "summary": "准备单鸟起始画面与五秒动作方案；直接请求内置工具生成动画后，实际只得到单帧 PNG。",
+      "method": "原生静态图；原生 GIF 请求未成功",
+      "status": "not-generated",
+      "statusLabel": "尚无原生动画",
+      "scope": "静态测试与能力边界",
+      "image": "forest-bird-test-start-v18.png",
+      "attemptImage": "native-gif-attempt-still-v18.png",
+      "feedback": "这里不是用你自带的 GIF 创作，为什么又是视频模型？",
+      "feedbackType": "用户明确纠正执行路线",
+      "lesson": "模型文档中的能力、当前会话暴露的工具参数与实际返回文件必须分别验证。原生静态图不能标成原生动画。",
+      "details": [
+        "内置生图工具的具体底层模型版本未返回；不能从官方模型名称反推本次使用的模型。",
+        "本次直接请求动画的返回文件经 ffprobe 检查：PNG，1254×1254，只有一帧。",
+        "ChatArt 网页曾准备 Kling 4.0 五秒 720p 草稿，历史页面报价 150 钻；用户未授予本次费用许可。图片没有上传、任务没有提交、积分没有扣除，外部路线已停止。"
+      ],
+      "provenance": [
+        "forest-bird-start-provenance-v18.json",
+        "native-gif-attempt-provenance-v18.json"
+      ],
+      "related": [
+        "forest-realism-test-brief-v18.json"
+      ],
+      "tags": [
+        "原生 GIF",
+        "单帧 PNG",
+        "工具入口",
+        "未提交"
+      ],
+      "nativeGifGeneratedInThisProject": false,
+      "mediaInfo": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "frames": 1,
+        "bytes": 2860520
+      },
+      "attemptInfo": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "frames": 1,
+        "bytes": 2810525
+      },
+      "assets": {
+        "image": "archive/forest-bird-test-start-v18.png",
+        "attemptImage": "archive/native-gif-attempt-still-v18.png"
+      },
+      "files": [
+        {
+          "label": "制作记录",
+          "name": "forest-bird-start-provenance-v18.json",
+          "path": "archive/forest-bird-start-provenance-v18.json"
+        },
+        {
+          "label": "制作记录",
+          "name": "native-gif-attempt-provenance-v18.json",
+          "path": "archive/native-gif-attempt-provenance-v18.json"
+        },
+        {
+          "label": "相关素材与方案",
+          "name": "forest-realism-test-brief-v18.json",
+          "path": "archive/forest-realism-test-brief-v18.json"
+        },
+        {
+          "label": "公开执行状态",
+          "name": "public-execution-status.json",
+          "path": "archive/public-execution-status.json"
+        }
+      ],
+      "media": [
+        {
+          "name": "forest-bird-test-start-v18.png",
+          "path": "archive/forest-bird-test-start-v18.png",
+          "label": "静态底图 / 关键帧素材",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/forest-bird-test-start-v18.webp"
+        },
+        {
+          "name": "native-gif-attempt-still-v18.png",
+          "path": "archive/native-gif-attempt-still-v18.png",
+          "label": "实际返回的单帧 PNG",
+          "format": "IMAGE",
+          "thumbnail": "assets/thumbnails/native-gif-attempt-still-v18.webp"
+        }
+      ],
+      "prompts": [
+        {
+          "source": "archive/forest-bird-start-provenance-v18.json",
+          "field": "prompt",
+          "text": "Use case: photorealistic-natural.\nAsset: ONE photographic start frame for a five-second continuous wildlife video, square composition.\nInput image role: the supplied autumn woodland is an ENVIRONMENT AND COLOUR REFERENCE. Rebuild a closer, convincingly photographic view inside the same kind of woodland; do not preserve its painterly foliage texture or turn it into a flat backdrop.\nScene: a quiet natural autumn woodland with layered birch and maple branches, mixed restrained amber, russet, olive and deep blue-green foliage, and a darker understory. Naturally irregular leaves and branches at different distances, realistic photographic depth, some sharp middle-distance detail and some softer distant foliage. A small area of leaf-littered ground can be glimpsed below. No uniformly golden wall of leaves.\nSubject: exactly ONE anatomically realistic adult charcoal-black crow, settled on a clearly visible slender diagonal branch in the middle distance, at approximately 38 percent image width. The bird is roughly 20 percent of the image height; its feet meet the branch around 58 percent image height. The branch enters naturally from a visible woody support and continues beyond the feet. Both short legs and BOTH feet visibly grip the same branch, with coherent curled toes around it, believable balance and weight. Wings folded tightly, body relaxed but attentive. Three-quarter side view, facing toward the upper right. Fine natural feather texture and dark non-glowing eye. There is clear room ahead of the beak and above the branch for takeoff.\nCamera: a fixed medium-wide wildlife camera close to the bird's height, moderate telephoto perspective. Entire bird, tail, both feet and plenty of surrounding forest are visible. No steep drone view. No motion blur at this resting instant.\nLight: one fixed soft afternoon sunlight direction from upper left, small restrained highlights on feathers and leaves, rich but readable shadows. The crow, branch and forest share the same light and depth; accurate contact occlusion at the feet. Subtle photographic grain, natural colour and contrast.\nConstraints: no second bird, no fox or other animals, no captions or text, no panels, no frames or grid, no theatrical light shafts, no volumetric fantasy fog, no HDR glow, no illustration or plastic CGI rendering, no pasted-on animal silhouette, no oversized bird, no invented floating perch, no extra feet or toes. Deliver one square photographic frame, preferably 1536x1536 or larger."
+        },
+        {
+          "source": "archive/native-gif-attempt-provenance-v18.json",
+          "field": "prompt",
+          "text": "Create a finished ANIMATED GIF file, with actual multiple time frames in a single .gif animation, using the provided image as the start-frame reference. This request is for native animated GIF output, NOT a still picture, NOT a sprite sheet, NOT a contact sheet or storyboard. Approximately five seconds, one continuous locked-off wildlife view of this exact crow on this exact branch in the same autumn woodland. First the crow rests with both feet gripping the branch; then it turns its head alertly and crouches, pushes upward with its legs, releases its toes from the branch, spreads its wings, and flies forward and upward toward the upper right with several natural coherent wingbeats. Preserve the tree, branch, camera, light direction and bird identity across time. Legs, toe contact, body weight, wing anatomy, continuous perspective and natural scale change matter. Only the finest leaves move slightly in the breeze. No camera motion, no extra birds, no other animals, no plastic CGI, no flat image rotation, no sudden exposure changes. This is a short action test and does not need to loop seamlessly. Return the actual animated GIF asset rather than an image depicting animation."
+        }
+      ],
+      "poster": "assets/posters/v18.jpg"
+    }
+  ],
+  "comparisons": [
+    {
+      "title": "局部变化与全幅结构",
+      "left": "v10",
+      "right": "v11",
+      "question": "为什么铺满光点与细节，仍可能缺乏整体循环感？",
+      "finding": "浅海保持固定物体，仅变化光线；潮汐版把整个构图组织为流动的纹样。用户随后要求继续探索，但没有明确认可最终效果。"
+    },
+    {
+      "title": "全幅流动与材料规律",
+      "left": "v12",
+      "right": "v13",
+      "question": "同一种整体运动，为什么换到树林就失效？",
+      "finding": "水与织光允许流动的视觉解释；树的位置和主要枝干需要稳定。运动方法必须随材料和空间关系重建。"
+    },
+    {
+      "title": "从出现到栖枝起飞",
+      "left": "v15",
+      "right": "v16",
+      "question": "事件需要哪些空间前提，才能不显得凭空发生？",
+      "finding": "鸟先占据真实枝杈，再蹲伏、蹬枝和起飞。二维落点对齐有所改进，但姿态切换和透视连续性仍未可靠解决。"
+    },
+    {
+      "title": "增加光影与真实感验收",
+      "left": "v16",
+      "right": "v17",
+      "question": "增加云影与投影，是否足以建立真实空间？",
+      "finding": "光影层丰富了明暗变化；用户仍明确反馈失真。缺少统一体积、遮挡和时序，单独加效果的改善空间有限。"
+    }
+  ],
+  "findings": [
+    {
+      "title": "统一情绪来自稳定的关系",
+      "text": "日常主题可以从花园扩展到玻璃、唱片、浅海和树林。系列的一致性应建立在光色、细节、材质与怀旧气息上，不以重复原作者的具体花朵和布局替代原创。",
+      "evidence": [
+        "ref-garden",
+        "ref-mirror",
+        "v07",
+        "v08",
+        "v09"
+      ]
+    },
+    {
+      "title": "整体参与需要有组织的联动",
+      "text": "顺序点亮对象会像排队展示；仅在固定背景上加入小幅运动又显得零碎。可以让构图关系、运动节律和事件传播共同连接画面各处。",
+      "evidence": [
+        "v03",
+        "v09",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "title": "运动服从对象与空间",
+      "text": "花朵、流体、有根的树、栖枝鸟和奔跑动物各有不同约束。整体感不能靠把所有对象都平移、扭转或折叠来实现。",
+      "evidence": [
+        "v04",
+        "v12",
+        "v13",
+        "v14"
+      ]
+    },
+    {
+      "title": "悬疑依靠可发现的线索",
+      "text": "安静、局部异常、短暂掠过和不同程度的反应可以建立持续观看的动机。让动物始终在空间里真实存在，比凭空添加飞行轨迹更重要。",
+      "evidence": [
+        "v14",
+        "v15",
+        "v16"
+      ]
+    },
+    {
+      "title": "光影必须有共同的空间依据",
+      "text": "光源方向、树冠遮光、动物受光、接触阴影与前后遮挡需要共同成立。当前二维重照明只能作为效果预览，不能据此宣称完成了真实自然影像。",
+      "evidence": [
+        "v16",
+        "v17"
+      ]
+    },
+    {
+      "title": "技术闭环与观看感受分开验收",
+      "text": "编码帧数、无限循环标记和首尾误差是技术检查；舒适、沉浸、真实与有价值是内容验收。本轮多个技术通过的版本仍被用户明确否定。",
+      "evidence": [
+        "v03",
+        "v04",
+        "v13",
+        "v17"
+      ]
+    }
+  ],
+  "workflow": {
+    "note": "依据本轮反馈整理的创作流程建议，尚未形成用户认可的成片配方。",
+    "constants": "一个系列先固定情绪、光色、材质和运动节律；每次换日常主题时，只改变主体与事件。",
+    "steps": [
+      {
+        "title": "从日常里找关系",
+        "text": "收集自己反复注意的光、纹理和小事件。比如窗帘的透光、旧杯的釉面、雨后路面的倒影；先找它们共有的感受，再选择主题。",
+        "output": "留下三个情绪词和一组自己的生活素材。",
+        "evidence": [
+          "ref-garden",
+          "ref-mirror",
+          "v07"
+        ]
+      },
+      {
+        "title": "确定系列的固定规则",
+        "text": "为光源方向、明暗范围、颜色数量、细节密度与观看距离做出明确选择。参考作品用于理解关系，主体、构图与材料来自自己的观察。",
+        "output": "写一张风格卡，跨主题保持四项规则一致。",
+        "evidence": [
+          "v07",
+          "v08",
+          "v09"
+        ]
+      },
+      {
+        "title": "先画视线如何返回",
+        "text": "把画面分成前、中、后景，让光带、纹理方向或事件反应连接各区域。保持多个区域同时存在，避免轮流点名，也避免所有东西一起扭动。",
+        "output": "一张能解释视线如何游走、如何返回的构图草图。",
+        "evidence": [
+          "v03",
+          "v10",
+          "v11",
+          "v13"
+        ]
+      },
+      {
+        "title": "为运动建立原因",
+        "text": "植物随风、反光随表面、鸟从真实枝杈起飞。动之前就明确接触点、遮挡、尺度与光源；先验证一个动作，再扩展到整个场景。",
+        "output": "一条最小动作测试，动作成立后再增加事件。",
+        "evidence": [
+          "v13",
+          "v15",
+          "v16",
+          "v18"
+        ]
+      },
+      {
+        "title": "设计自然的回到起点",
+        "text": "流体可以连续流动；有根的树应维持结构；动物离场后的归位需要合理安排。起点和终点的亮度、形状、位置及运动方向都要接续，避免可见倒放和突然重置。",
+        "output": "先比较首尾状态，再连续观看至少三次循环。",
+        "evidence": [
+          "v04",
+          "v12",
+          "v16",
+          "v17"
+        ]
+      },
+      {
+        "title": "分开检查文件与感受",
+        "text": "先确认文件真的多帧、时长正确、能循环；再检查是否舒服、自然，是否愿意继续看。每轮只改一个主要问题，并保留原版和反馈，逐渐建立个人语言。",
+        "output": "记录保留什么、删去什么、下版只改什么。",
+        "evidence": [
+          "v04",
+          "v13",
+          "v17",
+          "v18"
+        ]
+      }
+    ]
+  },
+  "capabilities": [
+    {
+      "title": "本轮确实完成",
+      "state": "verified",
+      "text": "内置生图生成静态底图、九宫格关键帧素材和透明姿态表；本地程序完成变形、组帧、轨迹、遮挡、重照明与 GIF/MP4 编码。",
+      "evidence": [
+        "v01",
+        "v06",
+        "v07",
+        "v15",
+        "v17"
+      ]
+    },
+    {
+      "title": "本轮没有完成",
+      "state": "not-generated",
+      "text": "没有验证成功的模型原生动画 GIF，也没有已提交完成的外部视频生成任务。V18 的直接动画请求实际只返回一帧 PNG。",
+      "evidence": [
+        "v18"
+      ]
+    },
+    {
+      "title": "官方能力与当前入口分开记录",
+      "state": "documentation",
+      "text": "归档时已查阅的 OpenAI 官方文档记载 GPT-Image 2.6 的 Image API 支持 GIF 输出及帧数、帧时长控制；当前会话暴露的 image_gen 工具没有这些显式字段，且具体模型版本未报告。",
+      "url": "https://developers.openai.com/api/docs/guides/image-generation#generate-animated-gif-output",
+      "evidence": [
+        "v18"
+      ]
+    },
+    {
+      "title": "后续执行约束",
+      "state": "constraint",
+      "text": "用户要求优先使用内置 GIF 创作，暂不使用新服务。历史的外部费用授权针对特定旧方案，不等于对新模型、新图片或更高费用的授权。",
+      "evidence": [
+        "v05",
+        "v18"
+      ]
+    }
+  ],
+  "nextTest": {
+    "title": "保留的下一步测试方案",
+    "status": "仅方案，未生成动画",
+    "text": "五秒固定机位，只验证一只已经栖枝的鸟：安静停留、警觉蹲伏、蹬枝松爪、连贯振翅飞离。先检查真实动作，再考虑其他动物、光影与最终循环。",
+    "file": "forest-realism-test-brief-v18.json",
+    "checks": [
+      "足爪接触不滑动",
+      "身体与翅膀视角连续",
+      "主要树干与机位稳定",
+      "遮挡、尺度与光源一致",
+      "不靠倒放或瞬移重置凑循环"
+    ]
+  },
+  "inventory": [
+    {
+      "name": "after-rain-contact-v8.jpg",
+      "path": "archive/after-rain-contact-v8.jpg",
+      "role": "逐帧与局部检查图",
+      "bytes": 54278,
+      "sha256": "fc534b58866fbb8a4e3e9211b645b6adb5f1bc70cdaecd143f2b984a0eda0548",
+      "recordIds": [
+        "v08"
+      ],
+      "sourceSha256": "fc534b58866fbb8a4e3e9211b645b6adb5f1bc70cdaecd143f2b984a0eda0548",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "after-rain-native-sheet-v8.png",
+      "path": "archive/after-rain-native-sheet-v8.png",
+      "role": "静态图与素材",
+      "bytes": 2431095,
+      "sha256": "3f9d901bcd60e3c58c1542c1c7e24ad90ce8fb283a42a33e89445be73394d96d",
+      "recordIds": [
+        "v08"
+      ],
+      "sourceSha256": "3f9d901bcd60e3c58c1542c1c7e24ad90ce8fb283a42a33e89445be73394d96d",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "after-rain-provenance-v8.json",
+      "path": "archive/after-rain-provenance-v8.json",
+      "role": "生成与制作记录",
+      "bytes": 4134,
+      "sha256": "29111842370239ca5c98204817b472cdc73b258ba084382912dd3d3084b03064",
+      "recordIds": [
+        "v08"
+      ],
+      "sourceSha256": "29111842370239ca5c98204817b472cdc73b258ba084382912dd3d3084b03064",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "after-rain-v8.gif",
+      "path": "archive/after-rain-v8.gif",
+      "role": "程序合成 GIF",
+      "bytes": 7867540,
+      "sha256": "3ca52cc8017f45aef22f02472f289f7e2201ae90fa4040f05333978898c0da31",
+      "recordIds": [
+        "v08"
+      ],
+      "sourceSha256": "3ca52cc8017f45aef22f02472f289f7e2201ae90fa4040f05333978898c0da31",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "after-rain-v8.mp4",
+      "path": "archive/after-rain-v8.mp4",
+      "role": "程序动画视频导出",
+      "bytes": 706177,
+      "sha256": "4e3ccc9bb585c9bc0a4b79e11e72b7cb73ea0ee2c52b182cb9a1890524bc4db2",
+      "recordIds": [
+        "v08"
+      ],
+      "sourceSha256": "4e3ccc9bb585c9bc0a4b79e11e72b7cb73ea0ee2c52b182cb9a1890524bc4db2",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "after-rain-validation-v8.json",
+      "path": "archive/after-rain-validation-v8.json",
+      "role": "技术校验记录",
+      "bytes": 688,
+      "sha256": "efba87785f6e75376b66f906ab2b6e4362ecb62988018d821659d61b4d25bd2b",
+      "recordIds": [
+        "v08"
+      ],
+      "sourceSha256": "edafe2c097fe558ec8e0d99defb36c72d59318dc2b5a417693fee4b5931b948e",
+      "publicationTextAdjusted": true
+    },
+    {
+      "name": "assemble-after-rain-v8.cjs",
+      "path": "archive/assemble-after-rain-v8.cjs",
+      "role": "制作脚本",
+      "bytes": 3795,
+      "sha256": "8d15206aaa24d821e685abb0ed8df5dc599884794ae62070629927f958d8383f",
+      "recordIds": [
+        "v08"
+      ],
+      "sourceSha256": "8d15206aaa24d821e685abb0ed8df5dc599884794ae62070629927f958d8383f",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "assemble-mirror-v7.cjs",
+      "path": "archive/assemble-mirror-v7.cjs",
+      "role": "制作脚本",
+      "bytes": 4331,
+      "sha256": "115512a3d9f5378317874021b62612e64a966a44fe47c9b42d1a294894fe1545",
+      "recordIds": [
+        "v07"
+      ],
+      "sourceSha256": "115512a3d9f5378317874021b62612e64a966a44fe47c9b42d1a294894fe1545",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "assemble-sea-v10.cjs",
+      "path": "archive/assemble-sea-v10.cjs",
+      "role": "制作脚本",
+      "bytes": 3776,
+      "sha256": "88666e6301df4631d3a248929e7882ff7fc1bf17dc5129483d39d2fef2187853",
+      "recordIds": [
+        "v10"
+      ],
+      "sourceSha256": "88666e6301df4631d3a248929e7882ff7fc1bf17dc5129483d39d2fef2187853",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "assemble-softglitch-v6.cjs",
+      "path": "archive/assemble-softglitch-v6.cjs",
+      "role": "制作脚本",
+      "bytes": 3619,
+      "sha256": "4a6b1a88de78d72f8afe7e32a1ab54de54531d7622dc04c13d254c654d86af90",
+      "recordIds": [
+        "v06"
+      ],
+      "sourceSha256": "4a6b1a88de78d72f8afe7e32a1ab54de54531d7622dc04c13d254c654d86af90",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "autumn-breeze-anchored-v14.gif",
+      "path": "archive/autumn-breeze-anchored-v14.gif",
+      "role": "程序合成 GIF",
+      "bytes": 5319766,
+      "sha256": "547978e63abf1991d6c07e549cfc92e5a260befbd10969ea12a15de0aeab8334",
+      "recordIds": [
+        "v14"
+      ],
+      "sourceSha256": "547978e63abf1991d6c07e549cfc92e5a260befbd10969ea12a15de0aeab8334",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "autumn-breeze-anchored-v14.mp4",
+      "path": "archive/autumn-breeze-anchored-v14.mp4",
+      "role": "程序动画视频导出",
+      "bytes": 2001271,
+      "sha256": "3663201333cdd78492e59580051d2b6f7f862acce1a1718ecd92d49cc791d891",
+      "recordIds": [
+        "v14"
+      ],
+      "sourceSha256": "3663201333cdd78492e59580051d2b6f7f862acce1a1718ecd92d49cc791d891",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "autumn-breeze-contact-v14.jpg",
+      "path": "archive/autumn-breeze-contact-v14.jpg",
+      "role": "逐帧与局部检查图",
+      "bytes": 102422,
+      "sha256": "998273d6164ebc998f906b764be2a4a1be837a59631363875230bf123d3d0361",
+      "recordIds": [
+        "v14"
+      ],
+      "sourceSha256": "998273d6164ebc998f906b764be2a4a1be837a59631363875230bf123d3d0361",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "autumn-breeze-provenance-v14.json",
+      "path": "archive/autumn-breeze-provenance-v14.json",
+      "role": "生成与制作记录",
+      "bytes": 1552,
+      "sha256": "8048bec0836682a2fbec40596494bca1d383dbb3465003782841f66b8d8b09c6",
+      "recordIds": [
+        "v14"
+      ],
+      "sourceSha256": "8048bec0836682a2fbec40596494bca1d383dbb3465003782841f66b8d8b09c6",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "autumn-breeze-validation-v14.json",
+      "path": "archive/autumn-breeze-validation-v14.json",
+      "role": "技术校验记录",
+      "bytes": 1782,
+      "sha256": "768c232aec9721491b35f3c86f01462ba8ba034e09c98e393d83fbcf20db9dac",
+      "recordIds": [
+        "v14"
+      ],
+      "sourceSha256": "3d6e40146bf620249f9a856ebfbb87cd6f6bd2295d3a3ac4c1dfa3495cf71d97",
+      "publicationTextAdjusted": true
+    },
+    {
+      "name": "autumn-canopy-contact-v13.jpg",
+      "path": "archive/autumn-canopy-contact-v13.jpg",
+      "role": "逐帧与局部检查图",
+      "bytes": 79941,
+      "sha256": "62ab4e936f34ee579637a2b5fb8174ccbbff68c57b34905773894d8162036af3",
+      "recordIds": [
+        "v13"
+      ],
+      "sourceSha256": "62ab4e936f34ee579637a2b5fb8174ccbbff68c57b34905773894d8162036af3",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "autumn-canopy-native-v13.png",
+      "path": "archive/autumn-canopy-native-v13.png",
+      "role": "静态图与素材",
+      "bytes": 3826035,
+      "sha256": "4e9adfe89cd139c8612182c78b9e183faab09d2bd83dee7c2174403b405ea523",
+      "recordIds": [
+        "v13",
+        "v14"
+      ],
+      "sourceSha256": "4e9adfe89cd139c8612182c78b9e183faab09d2bd83dee7c2174403b405ea523",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "autumn-canopy-provenance-v13.json",
+      "path": "archive/autumn-canopy-provenance-v13.json",
+      "role": "生成与制作记录",
+      "bytes": 3144,
+      "sha256": "6a82e25614b5b0d4b6f604af85e0624358d705c63567462a4e15a7314f335b63",
+      "recordIds": [
+        "v13"
+      ],
+      "sourceSha256": "6a82e25614b5b0d4b6f604af85e0624358d705c63567462a4e15a7314f335b63",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "autumn-canopy-validation-v13.json",
+      "path": "archive/autumn-canopy-validation-v13.json",
+      "role": "技术校验记录",
+      "bytes": 1638,
+      "sha256": "c69d5b5f8199d52c39e33385545535a2cb4826e5bbd681f0e69aca42c3ee70d0",
+      "recordIds": [
+        "v13"
+      ],
+      "sourceSha256": "dbd23599ba9d59480ff0dd4c320bc191c128dcf6e9f11fda8d12ab92b2da7e4f",
+      "publicationTextAdjusted": true
+    },
+    {
+      "name": "autumn-canopy-whole-v13.gif",
+      "path": "archive/autumn-canopy-whole-v13.gif",
+      "role": "程序合成 GIF",
+      "bytes": 39739789,
+      "sha256": "e5674fd1436050e0a6f8f4a3e2562222d8bc9ece0f0d904fe0c686cb1d34e0cd",
+      "recordIds": [
+        "v13"
+      ],
+      "sourceSha256": "e5674fd1436050e0a6f8f4a3e2562222d8bc9ece0f0d904fe0c686cb1d34e0cd",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "autumn-canopy-whole-v13.mp4",
+      "path": "archive/autumn-canopy-whole-v13.mp4",
+      "role": "程序动画视频导出",
+      "bytes": 5565287,
+      "sha256": "a303c27dafbd0eb4ea370274a7a6dae91bc279cdffaff63776b5291a47d683a9",
+      "recordIds": [
+        "v13"
+      ],
+      "sourceSha256": "a303c27dafbd0eb4ea370274a7a6dae91bc279cdffaff63776b5291a47d683a9",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "breeze-contact.jpg",
+      "path": "archive/breeze-contact.jpg",
+      "role": "逐帧与局部检查图",
+      "bytes": 51129,
+      "sha256": "e310ce3afd641504023719df0b7c60b3834f478875b4bfa8d9c3abd99276d81d",
+      "recordIds": [
+        "v05"
+      ],
+      "sourceSha256": "e310ce3afd641504023719df0b7c60b3834f478875b4bfa8d9c3abd99276d81d",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "breeze-preview-validation.json",
+      "path": "archive/breeze-preview-validation.json",
+      "role": "技术校验记录",
+      "bytes": 287,
+      "sha256": "18c80032ada3e4edcbca617ad3790e1f942a244ad690128b067f7fa10b62ea6d",
+      "recordIds": [
+        "v05"
+      ],
+      "sourceSha256": "cd76fe26cfe875613c87fb738115a4c2b5b240e9175420dd8749508344ebab25",
+      "publicationTextAdjusted": true
+    },
+    {
+      "name": "contact-sheet-v2.jpg",
+      "path": "archive/contact-sheet-v2.jpg",
+      "role": "逐帧与局部检查图",
+      "bytes": 66080,
+      "sha256": "30129baa73a47bfdbd14d7909303911806c557001708882962d10730c9d3e370",
+      "recordIds": [
+        "v02"
+      ],
+      "sourceSha256": "30129baa73a47bfdbd14d7909303911806c557001708882962d10730c9d3e370",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "contact-sheet-v3.jpg",
+      "path": "archive/contact-sheet-v3.jpg",
+      "role": "逐帧与局部检查图",
+      "bytes": 71667,
+      "sha256": "f76d026487fa87307672fd0d690096935af04d91f31674ee4068504625871fc3",
+      "recordIds": [
+        "v03"
+      ],
+      "sourceSha256": "f76d026487fa87307672fd0d690096935af04d91f31674ee4068504625871fc3",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "contact-sheet.jpg",
+      "path": "archive/contact-sheet.jpg",
+      "role": "逐帧与局部检查图",
+      "bytes": 64896,
+      "sha256": "6c38ca39065e0cf6c6358a95d96810dc93fd2a49c41861dd8e1dae837ce1b271",
+      "recordIds": [
+        "v01"
+      ],
+      "sourceSha256": "6c38ca39065e0cf6c6358a95d96810dc93fd2a49c41861dd8e1dae837ce1b271",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "dusk-base-v9.png",
+      "path": "archive/dusk-base-v9.png",
+      "role": "静态图与素材",
+      "bytes": 2120712,
+      "sha256": "f1738c14d320018a38f1bbf857bc36b913526c7e9901f9e9368b88000e7997e2",
+      "recordIds": [
+        "v09"
+      ],
+      "sourceSha256": "f1738c14d320018a38f1bbf857bc36b913526c7e9901f9e9368b88000e7997e2",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "dusk-contact-v9.jpg",
+      "path": "archive/dusk-contact-v9.jpg",
+      "role": "逐帧与局部检查图",
+      "bytes": 52117,
+      "sha256": "b1c9f0512ea7f389e792c162574672b2d1bd60c5cedddb55682aefedf78850bc",
+      "recordIds": [
+        "v09"
+      ],
+      "sourceSha256": "b1c9f0512ea7f389e792c162574672b2d1bd60c5cedddb55682aefedf78850bc",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "dusk-first-v9.png",
+      "path": "archive/dusk-first-v9.png",
+      "role": "静态图与素材",
+      "bytes": 288135,
+      "sha256": "f79b7f960f8a6cdddfc597067aab63c406921f57c753c1508d6e2ba174fc25bc",
+      "recordIds": [
+        "v09"
+      ],
+      "sourceSha256": "f79b7f960f8a6cdddfc597067aab63c406921f57c753c1508d6e2ba174fc25bc",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "dusk-notes-v9.png",
+      "path": "archive/dusk-notes-v9.png",
+      "role": "静态图与素材",
+      "bytes": 541234,
+      "sha256": "a4437f1733dc8a98ad9878b278b2fdb4387131f8d902ce1839145182be2d3e10",
+      "recordIds": [
+        "v09"
+      ],
+      "sourceSha256": "a4437f1733dc8a98ad9878b278b2fdb4387131f8d902ce1839145182be2d3e10",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "dusk-provenance-v9.json",
+      "path": "archive/dusk-provenance-v9.json",
+      "role": "生成与制作记录",
+      "bytes": 4339,
+      "sha256": "b454e5235fa74fa2177bfd5a69ca9674a6719b59a3a9fd18e421c069018961d3",
+      "recordIds": [
+        "v09"
+      ],
+      "sourceSha256": "b454e5235fa74fa2177bfd5a69ca9674a6719b59a3a9fd18e421c069018961d3",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "dusk-validation-v9.json",
+      "path": "archive/dusk-validation-v9.json",
+      "role": "技术校验记录",
+      "bytes": 316,
+      "sha256": "a15cf08877b433de8677e33124a8a44572729e1051ed60ba5cd863f0f3ada5d9",
+      "recordIds": [
+        "v09"
+      ],
+      "sourceSha256": "67548027e4a732253bc2bbe7a9e1609ddeb6f36081d20f9e95553c8bf0ecac29",
+      "publicationTextAdjusted": true
+    },
+    {
+      "name": "encoded-validation-v2.json",
+      "path": "archive/encoded-validation-v2.json",
+      "role": "技术校验记录",
+      "bytes": 448,
+      "sha256": "a06f582dcd3ce702956e34ddbc29900399afd64c1c64236ade63e214644212d1",
+      "recordIds": [
+        "v02"
+      ],
+      "sourceSha256": "6b8151fbd5ff1eaa11ed83ef8f450bea5d99a5442172c99560d8f1c803ebd073",
+      "publicationTextAdjusted": true
+    },
+    {
+      "name": "flower-detail-v2.jpg",
+      "path": "archive/flower-detail-v2.jpg",
+      "role": "逐帧与局部检查图",
+      "bytes": 62521,
+      "sha256": "8b3212ba1b4b462c9c0a9bac31c86bf36e88ca09215dbf8ba424f0b0e70673a4",
+      "recordIds": [
+        "v02"
+      ],
+      "sourceSha256": "8b3212ba1b4b462c9c0a9bac31c86bf36e88ca09215dbf8ba424f0b0e70673a4",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "fold-contact-v4.jpg",
+      "path": "archive/fold-contact-v4.jpg",
+      "role": "逐帧与局部检查图",
+      "bytes": 85986,
+      "sha256": "8b312f194c18fd749013d2fa4e5904fecbb55f542abc077bc4b593e5d6224d6f",
+      "recordIds": [
+        "v04"
+      ],
+      "sourceSha256": "8b312f194c18fd749013d2fa4e5904fecbb55f542abc077bc4b593e5d6224d6f",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-bird-start-provenance-v18.json",
+      "path": "archive/forest-bird-start-provenance-v18.json",
+      "role": "生成与制作记录",
+      "bytes": 3184,
+      "sha256": "f061887aa0f898a9df5a72f6a48d6c3d0cddbbc5b686a96317e1b9e0b80ca7d0",
+      "recordIds": [
+        "v18"
+      ],
+      "sourceSha256": "f061887aa0f898a9df5a72f6a48d6c3d0cddbbc5b686a96317e1b9e0b80ca7d0",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-bird-test-start-v18.png",
+      "path": "archive/forest-bird-test-start-v18.png",
+      "role": "静态图与素材",
+      "bytes": 2860520,
+      "sha256": "6afbb2939c1730530c861c8b01b8570a39c66b33db4bcc76115bc17d88b4dc32",
+      "recordIds": [
+        "v18"
+      ],
+      "sourceSha256": "6afbb2939c1730530c861c8b01b8570a39c66b33db4bcc76115bc17d88b4dc32",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-branch-contact-v16.jpg",
+      "path": "archive/forest-branch-contact-v16.jpg",
+      "role": "逐帧与局部检查图",
+      "bytes": 146690,
+      "sha256": "7118308a039f05dc05fcd6274460ae72bb6411c892af19806bf1ca28eab45f69",
+      "recordIds": [
+        "v16"
+      ],
+      "sourceSha256": "7118308a039f05dc05fcd6274460ae72bb6411c892af19806bf1ca28eab45f69",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-branch-detail-v16.png",
+      "path": "archive/forest-branch-detail-v16.png",
+      "role": "逐帧与局部检查图",
+      "bytes": 3530170,
+      "sha256": "771ea28c39071db0c5659269799a9f8b0066ca74ea8cf43e49d27bd9ffa36b2b",
+      "recordIds": [
+        "v16"
+      ],
+      "sourceSha256": "771ea28c39071db0c5659269799a9f8b0066ca74ea8cf43e49d27bd9ffa36b2b",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-branch-provenance-v16.json",
+      "path": "archive/forest-branch-provenance-v16.json",
+      "role": "生成与制作记录",
+      "bytes": 4667,
+      "sha256": "8760f90be33b457b90e2a0a77da7270f75a843bb6796908ac1fa7eb0af731b08",
+      "recordIds": [
+        "v16"
+      ],
+      "sourceSha256": "8760f90be33b457b90e2a0a77da7270f75a843bb6796908ac1fa7eb0af731b08",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-branch-startle-v16.gif",
+      "path": "archive/forest-branch-startle-v16.gif",
+      "role": "程序合成 GIF",
+      "bytes": 3688609,
+      "sha256": "c243ca5872978c6b768a6c45db071d47c90db05a467929a1a28a82f6d8c7e561",
+      "recordIds": [
+        "v16"
+      ],
+      "sourceSha256": "c243ca5872978c6b768a6c45db071d47c90db05a467929a1a28a82f6d8c7e561",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-branch-startle-v16.mp4",
+      "path": "archive/forest-branch-startle-v16.mp4",
+      "role": "程序动画视频导出",
+      "bytes": 1150966,
+      "sha256": "399c1f59c033dcf8a7d3631b0ae4455f665c65327c51cd740d36af223768b4cc",
+      "recordIds": [
+        "v16"
+      ],
+      "sourceSha256": "399c1f59c033dcf8a7d3631b0ae4455f665c65327c51cd740d36af223768b4cc",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-branch-timeline-v16.json",
+      "path": "archive/forest-branch-timeline-v16.json",
+      "role": "动画时间记录",
+      "bytes": 32307,
+      "sha256": "04cf42e703e0980beb795c4f08ec8053c71259765c28652ac42b4c36cb29e5f9",
+      "recordIds": [
+        "v16"
+      ],
+      "sourceSha256": "ada53c6ad27857f1025282334972c280661b5549a2fc111557e4a22662aa87b1",
+      "publicationTextAdjusted": true
+    },
+    {
+      "name": "forest-branch-validation-v16.json",
+      "path": "archive/forest-branch-validation-v16.json",
+      "role": "技术校验记录",
+      "bytes": 1303,
+      "sha256": "7debd306aaf90f1f86106244bc82f78d51c56dbb33bf07d8815178330cde5656",
+      "recordIds": [
+        "v16"
+      ],
+      "sourceSha256": "046698b58a298f10cb920492d73a69822e1a6e75921bbbaf725c3822a5b4886e",
+      "publicationTextAdjusted": true
+    },
+    {
+      "name": "forest-contacts-detail-v16.png",
+      "path": "archive/forest-contacts-detail-v16.png",
+      "role": "逐帧与局部检查图",
+      "bytes": 1685186,
+      "sha256": "f1473ff360aff5eed2b7e8a4a5ca7a5db846ee82cedb5ff6a47a124dfe791f53",
+      "recordIds": [
+        "v16"
+      ],
+      "sourceSha256": "f1473ff360aff5eed2b7e8a4a5ca7a5db846ee82cedb5ff6a47a124dfe791f53",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-crow-sprites-v15.png",
+      "path": "archive/forest-crow-sprites-v15.png",
+      "role": "静态图与素材",
+      "bytes": 793779,
+      "sha256": "cd7f2655f048897b7b2e2d9f35e3250ddbbf246a191836135f8eedea723cebb7",
+      "recordIds": [
+        "v15"
+      ],
+      "sourceSha256": "cd7f2655f048897b7b2e2d9f35e3250ddbbf246a191836135f8eedea723cebb7",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-departing-v16.png",
+      "path": "archive/forest-departing-v16.png",
+      "role": "静态图与素材",
+      "bytes": 1168506,
+      "sha256": "ba2f81a63adcd4c1fe2e3748df4bd98e75b78c313b3951c3cfdce392be95816e",
+      "recordIds": [
+        "v16"
+      ],
+      "sourceSha256": "ba2f81a63adcd4c1fe2e3748df4bd98e75b78c313b3951c3cfdce392be95816e",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-fox-sprites-v15.png",
+      "path": "archive/forest-fox-sprites-v15.png",
+      "role": "静态图与素材",
+      "bytes": 626213,
+      "sha256": "4a954a7ba02d6fd147641e497be2c0cce3585bc068ecb0ff61634e8c588012a4",
+      "recordIds": [
+        "v15"
+      ],
+      "sourceSha256": "4a954a7ba02d6fd147641e497be2c0cce3585bc068ecb0ff61634e8c588012a4",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-light-a-v17.png",
+      "path": "archive/forest-light-a-v17.png",
+      "role": "静态图与素材",
+      "bytes": 1132848,
+      "sha256": "f098594f20c5b0dd5e41d6b1c470d07801fd7e6c7824b1ff8fbbafed905f2df5",
+      "recordIds": [
+        "v17"
+      ],
+      "sourceSha256": "f098594f20c5b0dd5e41d6b1c470d07801fd7e6c7824b1ff8fbbafed905f2df5",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-light-b-v17.png",
+      "path": "archive/forest-light-b-v17.png",
+      "role": "静态图与素材",
+      "bytes": 1145330,
+      "sha256": "af4a79475e824b7f3cbf458c65232a69b240939c9f9a0b788953617765d9d9af",
+      "recordIds": [
+        "v17"
+      ],
+      "sourceSha256": "af4a79475e824b7f3cbf458c65232a69b240939c9f9a0b788953617765d9d9af",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-light-c-v17.png",
+      "path": "archive/forest-light-c-v17.png",
+      "role": "静态图与素材",
+      "bytes": 1135398,
+      "sha256": "9539e1c2ecf05413381481d200c35eaac23360be199a180e3aaee868b9dec263",
+      "recordIds": [
+        "v17"
+      ],
+      "sourceSha256": "9539e1c2ecf05413381481d200c35eaac23360be199a180e3aaee868b9dec263",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-light-contact-v17.jpg",
+      "path": "archive/forest-light-contact-v17.jpg",
+      "role": "逐帧与局部检查图",
+      "bytes": 133534,
+      "sha256": "188eaf63d9f9fcdb3bb91f0026ef8df3f5685289dc4e459996418adb59197fa4",
+      "recordIds": [
+        "v17"
+      ],
+      "sourceSha256": "188eaf63d9f9fcdb3bb91f0026ef8df3f5685289dc4e459996418adb59197fa4",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-light-first-v17.png",
+      "path": "archive/forest-light-first-v17.png",
+      "role": "静态图与素材",
+      "bytes": 1102460,
+      "sha256": "8c7ed5052b92fd64408672f69c0b914c62d82c5fc08c0f14fed603bf9508b732",
+      "recordIds": [
+        "v17"
+      ],
+      "sourceSha256": "8c7ed5052b92fd64408672f69c0b914c62d82c5fc08c0f14fed603bf9508b732",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-light-provenance-v17.json",
+      "path": "archive/forest-light-provenance-v17.json",
+      "role": "生成与制作记录",
+      "bytes": 2382,
+      "sha256": "0a7f74ff264635da6f7bcf5167de5b0d128478c05cf441a31cc217e8864ff8df",
+      "recordIds": [
+        "v17"
+      ],
+      "sourceSha256": "014bff015ecd90cee772bdbb902d4291ae2d05f8ecd62b8e5ed16b554cd7a714",
+      "publicationTextAdjusted": true
+    },
+    {
+      "name": "forest-light-shadow-v17.gif",
+      "path": "archive/forest-light-shadow-v17.gif",
+      "role": "程序合成 GIF",
+      "bytes": 9802444,
+      "sha256": "bf1f0afd2301ad17ae310259890523c025843d0ddb53a8843eddde2cec666971",
+      "recordIds": [
+        "v17"
+      ],
+      "sourceSha256": "bf1f0afd2301ad17ae310259890523c025843d0ddb53a8843eddde2cec666971",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-light-shadow-v17.mp4",
+      "path": "archive/forest-light-shadow-v17.mp4",
+      "role": "程序动画视频导出",
+      "bytes": 1686009,
+      "sha256": "56516bed6c092b81cf1b40bca280710d09acf5a68a655c941fc6d749b4b96460",
+      "recordIds": [
+        "v17"
+      ],
+      "sourceSha256": "56516bed6c092b81cf1b40bca280710d09acf5a68a655c941fc6d749b4b96460",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-light-timeline-v17.json",
+      "path": "archive/forest-light-timeline-v17.json",
+      "role": "动画时间记录",
+      "bytes": 42790,
+      "sha256": "7344a82902d46cd5361c381fa8bf68e8240365d66161613dd0ae720e228c3aee",
+      "recordIds": [
+        "v17"
+      ],
+      "sourceSha256": "8eae1a0fc4e7740cfa397dd56ce74a262766d426a5ecd9124eed724057d81c98",
+      "publicationTextAdjusted": true
+    },
+    {
+      "name": "forest-light-validation-v17.json",
+      "path": "archive/forest-light-validation-v17.json",
+      "role": "技术校验记录",
+      "bytes": 1446,
+      "sha256": "3953b9cfb7a2bf97e04d656ff4a4fa29d7f546531dae796d91f93c6d41a2d281",
+      "recordIds": [
+        "v17"
+      ],
+      "sourceSha256": "f76054e7d8ba0521f453aca25b2c7a428204c9c5dce3a567c930157fe4786d53",
+      "publicationTextAdjusted": true
+    },
+    {
+      "name": "forest-perch-sprites-v16.png",
+      "path": "archive/forest-perch-sprites-v16.png",
+      "role": "静态图与素材",
+      "bytes": 1493418,
+      "sha256": "c8569892bdbc979ca2d269909f50d9e735f84d275533377f60eb4a3c23ef9473",
+      "recordIds": [
+        "v16"
+      ],
+      "sourceSha256": "c8569892bdbc979ca2d269909f50d9e735f84d275533377f60eb4a3c23ef9473",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-perched-v16.png",
+      "path": "archive/forest-perched-v16.png",
+      "role": "静态图与素材",
+      "bytes": 1139877,
+      "sha256": "754137955e86fe99430a57b1adf8e54b07e548b068dd0db422ba66748add9f2e",
+      "recordIds": [
+        "v16"
+      ],
+      "sourceSha256": "754137955e86fe99430a57b1adf8e54b07e548b068dd0db422ba66748add9f2e",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-realism-test-brief-v18.json",
+      "path": "archive/forest-realism-test-brief-v18.json",
+      "role": "执行草稿与方案",
+      "bytes": 3839,
+      "sha256": "5f4b8fb39ad9506dd9f9c12d6751bd47985c474000ff1b8c30427ce06b4a0fc0",
+      "recordIds": [
+        "v18"
+      ],
+      "sourceSha256": "5f4b8fb39ad9506dd9f9c12d6751bd47985c474000ff1b8c30427ce06b4a0fc0",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-returning-v16.png",
+      "path": "archive/forest-returning-v16.png",
+      "role": "静态图与素材",
+      "bytes": 1167625,
+      "sha256": "ce9cc00246c54911f7f70c2360789597ae118d0df92923e34b7b1d23ca8ea13f",
+      "recordIds": [
+        "v16"
+      ],
+      "sourceSha256": "ce9cc00246c54911f7f70c2360789597ae118d0df92923e34b7b1d23ca8ea13f",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-startle-birds-v15.png",
+      "path": "archive/forest-startle-birds-v15.png",
+      "role": "静态图与素材",
+      "bytes": 1139432,
+      "sha256": "94b200870508a662887fcf15e56150a31d341677522dd666f547a309cf76116e",
+      "recordIds": [
+        "v15"
+      ],
+      "sourceSha256": "94b200870508a662887fcf15e56150a31d341677522dd666f547a309cf76116e",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-startle-contact-v15.jpg",
+      "path": "archive/forest-startle-contact-v15.jpg",
+      "role": "逐帧与局部检查图",
+      "bytes": 146275,
+      "sha256": "0d536d4d1b124ff28133602bf7540fdc0c44d28ff7784bfc2c5a7ae6caea8db0",
+      "recordIds": [
+        "v15"
+      ],
+      "sourceSha256": "0d536d4d1b124ff28133602bf7540fdc0c44d28ff7784bfc2c5a7ae6caea8db0",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-startle-event-v15.png",
+      "path": "archive/forest-startle-event-v15.png",
+      "role": "静态图与素材",
+      "bytes": 1140458,
+      "sha256": "07e233a9405178a0a21cc27c5e229d9439824e829a18fe7ee9d87d492a7c5000",
+      "recordIds": [
+        "v15"
+      ],
+      "sourceSha256": "07e233a9405178a0a21cc27c5e229d9439824e829a18fe7ee9d87d492a7c5000",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-startle-provenance-v15.json",
+      "path": "archive/forest-startle-provenance-v15.json",
+      "role": "生成与制作记录",
+      "bytes": 6504,
+      "sha256": "09e669a905ebce18ac83959712267436b51deb42d5eb9bccf492b2d8ad9d5567",
+      "recordIds": [
+        "v15"
+      ],
+      "sourceSha256": "09e669a905ebce18ac83959712267436b51deb42d5eb9bccf492b2d8ad9d5567",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-startle-timeline-v15.json",
+      "path": "archive/forest-startle-timeline-v15.json",
+      "role": "动画时间记录",
+      "bytes": 14852,
+      "sha256": "5de2c1a1324632332cfbdcd93c5b90847e118909087cc7fd912552c59979db91",
+      "recordIds": [
+        "v15"
+      ],
+      "sourceSha256": "65f520d37607d7a99e49b7c379c9e859170c98227f19873c9047552428a5e36d",
+      "publicationTextAdjusted": true
+    },
+    {
+      "name": "forest-startle-v15.gif",
+      "path": "archive/forest-startle-v15.gif",
+      "role": "程序合成 GIF",
+      "bytes": 3162423,
+      "sha256": "8aa84c89af8a8678ade2d412f21864c38b9f84063ed2010ac905fa073c343e65",
+      "recordIds": [
+        "v15"
+      ],
+      "sourceSha256": "8aa84c89af8a8678ade2d412f21864c38b9f84063ed2010ac905fa073c343e65",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-startle-v15.mp4",
+      "path": "archive/forest-startle-v15.mp4",
+      "role": "程序动画视频导出",
+      "bytes": 950999,
+      "sha256": "30288f2b6d0721660bd361a3e5be5901db649403cfe19ad0565c05e670485acb",
+      "recordIds": [
+        "v15"
+      ],
+      "sourceSha256": "30288f2b6d0721660bd361a3e5be5901db649403cfe19ad0565c05e670485acb",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-startle-validation-v15.json",
+      "path": "archive/forest-startle-validation-v15.json",
+      "role": "技术校验记录",
+      "bytes": 595,
+      "sha256": "00f8ebd0586fd72eb1fd7016c8ef8e0e079ae99b4c59af662dfc7eaa6b90c432",
+      "recordIds": [
+        "v15"
+      ],
+      "sourceSha256": "5d43fb04ed25ff4c1863a2fb8104364ca5075714b216d3b991e12ca89d213fac",
+      "publicationTextAdjusted": true
+    },
+    {
+      "name": "forest-suspense-base-preview-v15.png",
+      "path": "archive/forest-suspense-base-preview-v15.png",
+      "role": "静态图与素材",
+      "bytes": 1168888,
+      "sha256": "4800ade3a8b09e306e8017d638e42f6f1ad5bf596f70c3c7af7d9ede85e29cd1",
+      "recordIds": [
+        "v15"
+      ],
+      "sourceSha256": "4800ade3a8b09e306e8017d638e42f6f1ad5bf596f70c3c7af7d9ede85e29cd1",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "forest-suspense-base-v15.png",
+      "path": "archive/forest-suspense-base-v15.png",
+      "role": "静态图与素材",
+      "bytes": 3467082,
+      "sha256": "96145a747d08f6200830e5f7b0247e568dcf6c219340e39fdb09275769bfcddd",
+      "recordIds": [
+        "v15"
+      ],
+      "sourceSha256": "96145a747d08f6200830e5f7b0247e568dcf6c219340e39fdb09275769bfcddd",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "garden-base-v3.png",
+      "path": "archive/garden-base-v3.png",
+      "role": "静态图与素材",
+      "bytes": 3018979,
+      "sha256": "e8a4a9605cd79c7e0526703434318b4d740449620ee469fa353d77ffaaf7760a",
+      "recordIds": [
+        "v03",
+        "v04"
+      ],
+      "sourceSha256": "e8a4a9605cd79c7e0526703434318b4d740449620ee469fa353d77ffaaf7760a",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "garden-base.png",
+      "path": "archive/garden-base.png",
+      "role": "静态图与素材",
+      "bytes": 2489875,
+      "sha256": "bab1fcaf77eeee5f84c278147523e3ed51d84c6867be8235926811f33664e961",
+      "recordIds": [
+        "v01",
+        "v02",
+        "v05"
+      ],
+      "sourceSha256": "bab1fcaf77eeee5f84c278147523e3ed51d84c6867be8235926811f33664e961",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "garden-breeze-preview.gif",
+      "path": "archive/garden-breeze-preview.gif",
+      "role": "程序合成 GIF",
+      "bytes": 10161522,
+      "sha256": "9d92a012bf3c782f5be386bff257697708013958eee3362cbd033dff32d6076a",
+      "recordIds": [
+        "v05"
+      ],
+      "sourceSha256": "9d92a012bf3c782f5be386bff257697708013958eee3362cbd033dff32d6076a",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "garden-breeze-preview.mp4",
+      "path": "archive/garden-breeze-preview.mp4",
+      "role": "程序动画视频导出",
+      "bytes": 802947,
+      "sha256": "19b1789e8bfc6d4e9f24e5807d5043606daf96da73aee369034e6e18c1d5152d",
+      "recordIds": [
+        "v05"
+      ],
+      "sourceSha256": "19b1789e8bfc6d4e9f24e5807d5043606daf96da73aee369034e6e18c1d5152d",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "garden-fold-loop-v4-preview-validation.json",
+      "path": "archive/garden-fold-loop-v4-preview-validation.json",
+      "role": "技术校验记录",
+      "bytes": 155,
+      "sha256": "be8bb0d0af24f6ec0f206947478ad4fdf8b7ad741d280a93ea6ce79835411c6d",
+      "recordIds": [
+        "v04"
+      ],
+      "sourceSha256": "40151fce5eb7ca067e5f1612d0089f34ea763c81a104a500d751f82534fe1d72",
+      "publicationTextAdjusted": true
+    },
+    {
+      "name": "garden-fold-loop-v4-preview.gif",
+      "path": "archive/garden-fold-loop-v4-preview.gif",
+      "role": "程序合成 GIF",
+      "bytes": 13937103,
+      "sha256": "61b6f579a8a2b08b75833686d0d7d00e292a103881f65a59424a446fe6da79af",
+      "recordIds": [
+        "v04"
+      ],
+      "sourceSha256": "61b6f579a8a2b08b75833686d0d7d00e292a103881f65a59424a446fe6da79af",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "garden-fold-loop-v4.gif",
+      "path": "archive/garden-fold-loop-v4.gif",
+      "role": "程序合成 GIF",
+      "bytes": 25308901,
+      "sha256": "1bbe715268d371ce4c6355452aecc056c18356304673efbfbd80d6dcbb9b51a2",
+      "recordIds": [
+        "v04"
+      ],
+      "sourceSha256": "1bbe715268d371ce4c6355452aecc056c18356304673efbfbd80d6dcbb9b51a2",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "garden-fold-loop-v4.mp4",
+      "path": "archive/garden-fold-loop-v4.mp4",
+      "role": "程序动画视频导出",
+      "bytes": 2094337,
+      "sha256": "cc7e4e253329433007c095cb43a983d038ff34b6f1368fad37ce51de02faa158",
+      "recordIds": [
+        "v04"
+      ],
+      "sourceSha256": "cc7e4e253329433007c095cb43a983d038ff34b6f1368fad37ce51de02faa158",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "garden-loop-v2.gif",
+      "path": "archive/garden-loop-v2.gif",
+      "role": "程序合成 GIF",
+      "bytes": 6611716,
+      "sha256": "a54e5ad1be753d12b30f5c9b424641f06afa41fb33fabc68ebf24b57df02d9e8",
+      "recordIds": [
+        "v02"
+      ],
+      "sourceSha256": "a54e5ad1be753d12b30f5c9b424641f06afa41fb33fabc68ebf24b57df02d9e8",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "garden-loop-v2.mp4",
+      "path": "archive/garden-loop-v2.mp4",
+      "role": "程序动画视频导出",
+      "bytes": 595768,
+      "sha256": "e1cec5527de732d3393b3cf0dd686d4ed36d39fbd1916282bf76e0eddd46ba9b",
+      "recordIds": [
+        "v02"
+      ],
+      "sourceSha256": "e1cec5527de732d3393b3cf0dd686d4ed36d39fbd1916282bf76e0eddd46ba9b",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "garden-loop-v3.gif",
+      "path": "archive/garden-loop-v3.gif",
+      "role": "程序合成 GIF",
+      "bytes": 10044031,
+      "sha256": "c186a0d258811881e0b9cf9ac86ef2fb98b2f10381b7c18f97d66ec2aa2d1562",
+      "recordIds": [
+        "v03"
+      ],
+      "sourceSha256": "c186a0d258811881e0b9cf9ac86ef2fb98b2f10381b7c18f97d66ec2aa2d1562",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "garden-loop-v3.mp4",
+      "path": "archive/garden-loop-v3.mp4",
+      "role": "程序动画视频导出",
+      "bytes": 1054044,
+      "sha256": "cca8b7809f0eef0f18478de7067326a1f83f35f7a741644338831e103ffcde0e",
+      "recordIds": [
+        "v03"
+      ],
+      "sourceSha256": "cca8b7809f0eef0f18478de7067326a1f83f35f7a741644338831e103ffcde0e",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "garden-loop.gif",
+      "path": "archive/garden-loop.gif",
+      "role": "程序合成 GIF",
+      "bytes": 8903651,
+      "sha256": "940be66f73f95066088e3ee089d1e58023d0b46d7b0558c296f886db13a8adf7",
+      "recordIds": [
+        "v01"
+      ],
+      "sourceSha256": "940be66f73f95066088e3ee089d1e58023d0b46d7b0558c296f886db13a8adf7",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "garden-loop.mp4",
+      "path": "archive/garden-loop.mp4",
+      "role": "程序动画视频导出",
+      "bytes": 621806,
+      "sha256": "cee1b87d86cc9618ce767f18eb81f2dd2baf073ecbe64669590f449ea259f838",
+      "recordIds": [
+        "v01"
+      ],
+      "sourceSha256": "cee1b87d86cc9618ce767f18eb81f2dd2baf073ecbe64669590f449ea259f838",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "hearing-dusk-v9.gif",
+      "path": "archive/hearing-dusk-v9.gif",
+      "role": "程序合成 GIF",
+      "bytes": 721149,
+      "sha256": "922c47e8007a3b2e2fca20c576a7072aaaf5c332fb8c6305509957d72fe9a78f",
+      "recordIds": [
+        "v09"
+      ],
+      "sourceSha256": "922c47e8007a3b2e2fca20c576a7072aaaf5c332fb8c6305509957d72fe9a78f",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "hearing-dusk-v9.mp4",
+      "path": "archive/hearing-dusk-v9.mp4",
+      "role": "程序动画视频导出",
+      "bytes": 279991,
+      "sha256": "0e994efd318585f6e227d52fac963f1a4d10404f6d04fcafe7649a9e4520b030",
+      "recordIds": [
+        "v09"
+      ],
+      "sourceSha256": "0e994efd318585f6e227d52fac963f1a4d10404f6d04fcafe7649a9e4520b030",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "mirror-contact-v7.jpg",
+      "path": "archive/mirror-contact-v7.jpg",
+      "role": "逐帧与局部检查图",
+      "bytes": 147138,
+      "sha256": "9cb84fd5d5748c62941d4fc6f84c442a397a53f5244a4d761ed8b579a8e5ac2a",
+      "recordIds": [
+        "v07"
+      ],
+      "sourceSha256": "9cb84fd5d5748c62941d4fc6f84c442a397a53f5244a4d761ed8b579a8e5ac2a",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "mirror-first-v7.png",
+      "path": "archive/mirror-first-v7.png",
+      "role": "静态图与素材",
+      "bytes": 272740,
+      "sha256": "b1c46be7cd93d28d4e0a4215c451a7a0a2d1be18f097b9c86c276cc129a3f002",
+      "recordIds": [
+        "v07"
+      ],
+      "sourceSha256": "b1c46be7cd93d28d4e0a4215c451a7a0a2d1be18f097b9c86c276cc129a3f002",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "mirror-floral-v7.gif",
+      "path": "archive/mirror-floral-v7.gif",
+      "role": "程序合成 GIF",
+      "bytes": 5633749,
+      "sha256": "1e823301d5aef752ce2a90af5220e342a20b15c8adf40ca61f2f30d07a12d221",
+      "recordIds": [
+        "v07"
+      ],
+      "sourceSha256": "1e823301d5aef752ce2a90af5220e342a20b15c8adf40ca61f2f30d07a12d221",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "mirror-floral-v7.mp4",
+      "path": "archive/mirror-floral-v7.mp4",
+      "role": "程序动画视频导出",
+      "bytes": 1291268,
+      "sha256": "c62b31bed3e779d68ce8e539adff0ed6e844072e61b3d5786c046c2fb3f5f593",
+      "recordIds": [
+        "v07"
+      ],
+      "sourceSha256": "c62b31bed3e779d68ce8e539adff0ed6e844072e61b3d5786c046c2fb3f5f593",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "mirror-native-sheet-v7.png",
+      "path": "archive/mirror-native-sheet-v7.png",
+      "role": "静态图与素材",
+      "bytes": 3313594,
+      "sha256": "f57b5c2079cb2e9da82eca3a4608ad7b9438c79bd9718dad5d8865f3a1b00c57",
+      "recordIds": [
+        "v07"
+      ],
+      "sourceSha256": "f57b5c2079cb2e9da82eca3a4608ad7b9438c79bd9718dad5d8865f3a1b00c57",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "mirror-provenance-v7.json",
+      "path": "archive/mirror-provenance-v7.json",
+      "role": "生成与制作记录",
+      "bytes": 3739,
+      "sha256": "4efef2fbe9d6fc18a35904499728cb014c86cdc5b5aedee77e03fcc4284ef3f0",
+      "recordIds": [
+        "ref-mirror",
+        "v07"
+      ],
+      "sourceSha256": "4efef2fbe9d6fc18a35904499728cb014c86cdc5b5aedee77e03fcc4284ef3f0",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "mirror-validation-v7.json",
+      "path": "archive/mirror-validation-v7.json",
+      "role": "技术校验记录",
+      "bytes": 686,
+      "sha256": "e13148e7ffb8f7640517f1952b1fde8fa35ea995790d6599ed9e4483d45ef275",
+      "recordIds": [
+        "v07"
+      ],
+      "sourceSha256": "4d661cef2d7ee38498361b776839e33d894923713d0b63e52a81d23a5d7e13e2",
+      "publicationTextAdjusted": true
+    },
+    {
+      "name": "native-gif-attempt-provenance-v18.json",
+      "path": "archive/native-gif-attempt-provenance-v18.json",
+      "role": "生成与制作记录",
+      "bytes": 2353,
+      "sha256": "27a04232348160e2182526c62fd14628091e4ce6393865b7132e98281f4b6320",
+      "recordIds": [
+        "v18"
+      ],
+      "sourceSha256": "27a04232348160e2182526c62fd14628091e4ce6393865b7132e98281f4b6320",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "native-gif-attempt-still-v18.png",
+      "path": "archive/native-gif-attempt-still-v18.png",
+      "role": "静态图与素材",
+      "bytes": 2810525,
+      "sha256": "894dccfaccfd641e739db80cfac632abb9c6aeb26c6044b02b57e8173ac18e70",
+      "recordIds": [
+        "v18"
+      ],
+      "sourceSha256": "894dccfaccfd641e739db80cfac632abb9c6aeb26c6044b02b57e8173ac18e70",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "natural-v5-fal-prompt.txt",
+      "path": "archive/natural-v5-fal-prompt.txt",
+      "role": "提示词",
+      "bytes": 1133,
+      "sha256": "5d8d02613202635f7f3dc224b03936844942325598e6c5b52a47cef8993cb055",
+      "recordIds": [
+        "v05"
+      ],
+      "sourceSha256": "5d8d02613202635f7f3dc224b03936844942325598e6c5b52a47cef8993cb055",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "natural-v5-prompt.txt",
+      "path": "archive/natural-v5-prompt.txt",
+      "role": "提示词",
+      "bytes": 1561,
+      "sha256": "511ba045b01f77d70330333e04fa71c4fd33071441feebd6f054360e1e2aece7",
+      "recordIds": [
+        "v05"
+      ],
+      "sourceSha256": "511ba045b01f77d70330333e04fa71c4fd33071441feebd6f054360e1e2aece7",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "night-tide-contact-v12.jpg",
+      "path": "archive/night-tide-contact-v12.jpg",
+      "role": "逐帧与局部检查图",
+      "bytes": 62589,
+      "sha256": "be32df10ccf81f6fdbca6751179ab41de7ff04ef0d950a370a3d86475b6af2e8",
+      "recordIds": [
+        "v12"
+      ],
+      "sourceSha256": "be32df10ccf81f6fdbca6751179ab41de7ff04ef0d950a370a3d86475b6af2e8",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "night-tide-native-v12.png",
+      "path": "archive/night-tide-native-v12.png",
+      "role": "静态图与素材",
+      "bytes": 3646098,
+      "sha256": "7d6d19a3776537b2e92422f2b9c172507c6ceff1b2824f6f04824ffe97fb69d7",
+      "recordIds": [
+        "v12"
+      ],
+      "sourceSha256": "7d6d19a3776537b2e92422f2b9c172507c6ceff1b2824f6f04824ffe97fb69d7",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "night-tide-provenance-v12.json",
+      "path": "archive/night-tide-provenance-v12.json",
+      "role": "生成与制作记录",
+      "bytes": 2554,
+      "sha256": "612544e0f143cb01f55c14395714554097f93b19df68875c5b0cdc3e1e91c0ad",
+      "recordIds": [
+        "v12"
+      ],
+      "sourceSha256": "612544e0f143cb01f55c14395714554097f93b19df68875c5b0cdc3e1e91c0ad",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "night-tide-validation-v12.json",
+      "path": "archive/night-tide-validation-v12.json",
+      "role": "技术校验记录",
+      "bytes": 1632,
+      "sha256": "3a3fc65dd56e506e40386cadf6c109033355f5e08e15c7ff1cbfcfae9a7974d3",
+      "recordIds": [
+        "v12"
+      ],
+      "sourceSha256": "382e3509fb72189733c67815804b3cc122cf26237184e16a8120987290d79373",
+      "publicationTextAdjusted": true
+    },
+    {
+      "name": "night-tide-whole-v12.gif",
+      "path": "archive/night-tide-whole-v12.gif",
+      "role": "程序合成 GIF",
+      "bytes": 32086375,
+      "sha256": "35bdab339fade14b66bde345b1e940c3e17aa3599825c3bd51bcb6cec02e2815",
+      "recordIds": [
+        "v12"
+      ],
+      "sourceSha256": "35bdab339fade14b66bde345b1e940c3e17aa3599825c3bd51bcb6cec02e2815",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "night-tide-whole-v12.mp4",
+      "path": "archive/night-tide-whole-v12.mp4",
+      "role": "程序动画视频导出",
+      "bytes": 4817308,
+      "sha256": "d9255eb7e8d9145d46e40f3feb40c3b3644b8735e3924c04c9f6ff4c1f33e59d",
+      "recordIds": [
+        "v12"
+      ],
+      "sourceSha256": "d9255eb7e8d9145d46e40f3feb40c3b3644b8735e3924c04c9f6ff4c1f33e59d",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "provenance-v2.json",
+      "path": "archive/provenance-v2.json",
+      "role": "生成与制作记录",
+      "bytes": 964,
+      "sha256": "35d0fb44c3ba705bbc883d605fbd8afa1b8537b698b5c3b1e73f2812c9ec2900",
+      "recordIds": [
+        "v02"
+      ],
+      "sourceSha256": "cb1d95b4745bfb61389a82175269f7f1e9e855e862637b7ede98debc743e06d2",
+      "publicationTextAdjusted": true
+    },
+    {
+      "name": "provenance-v3.json",
+      "path": "archive/provenance-v3.json",
+      "role": "生成与制作记录",
+      "bytes": 2629,
+      "sha256": "396de6087618bdbe425dc47681e5439484046dde791db827ffa4e0738ce77c90",
+      "recordIds": [
+        "v03"
+      ],
+      "sourceSha256": "396de6087618bdbe425dc47681e5439484046dde791db827ffa4e0738ce77c90",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "provenance-v4.json",
+      "path": "archive/provenance-v4.json",
+      "role": "生成与制作记录",
+      "bytes": 796,
+      "sha256": "c0aadf8718ceb94024212b63ae5d3122c21af75f16f7b6357c84193b283b81de",
+      "recordIds": [
+        "v04"
+      ],
+      "sourceSha256": "fb3a0fe7d2287806c6881ca4cc5f3d8569553283db6d9aea8680ec978de7a350",
+      "publicationTextAdjusted": true
+    },
+    {
+      "name": "provenance.json",
+      "path": "archive/provenance.json",
+      "role": "生成与制作记录",
+      "bytes": 2046,
+      "sha256": "8b2984ce1da1b0c5fe9427c61de6a7e5ef565367f3e8c9cdae95d6b845710c48",
+      "recordIds": [
+        "ref-garden",
+        "v01"
+      ],
+      "sourceSha256": "8b2984ce1da1b0c5fe9427c61de6a7e5ef565367f3e8c9cdae95d6b845710c48",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "public-execution-status.json",
+      "path": "archive/public-execution-status.json",
+      "role": "历史执行路线公开摘要",
+      "bytes": 491,
+      "sha256": "fcbe7d43604df29bf35cbc6dcbf4fbb9dd9a880a5b9dd655089ba0c14a41dd4e",
+      "recordIds": [
+        "v05",
+        "v18"
+      ]
+    },
+    {
+      "name": "quantumspirit-original.mp4",
+      "path": "archive/quantumspirit-original.mp4",
+      "role": "作者参考媒体",
+      "bytes": 761917,
+      "sha256": "429c5327e1337756301c09a514b1efc872473fdb643c9aff0bf55bbc971ee13a",
+      "recordIds": [
+        "ref-garden"
+      ],
+      "sourceSha256": "429c5327e1337756301c09a514b1efc872473fdb643c9aff0bf55bbc971ee13a",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "quantumspirit-reference.gif",
+      "path": "archive/quantumspirit-reference.gif",
+      "role": "参考展示副本",
+      "bytes": 9904232,
+      "sha256": "d0506c458eab74d04e3bc85a57e7a3de74d0f8828a727cae1e34f1ea4adb34d4",
+      "recordIds": [
+        "ref-garden"
+      ],
+      "sourceSha256": "d0506c458eab74d04e3bc85a57e7a3de74d0f8828a727cae1e34f1ea4adb34d4",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "reference-13-frames.jpg",
+      "path": "archive/reference-13-frames.jpg",
+      "role": "静态图与素材",
+      "bytes": 151398,
+      "sha256": "52396be21b83a6a1c81c378c060cfa0d0246c424fbb0e5014120fd596ff398ae",
+      "recordIds": [
+        "ref-garden"
+      ],
+      "sourceSha256": "52396be21b83a6a1c81c378c060cfa0d0246c424fbb0e5014120fd596ff398ae",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "reference-detail-motion.jpg",
+      "path": "archive/reference-detail-motion.jpg",
+      "role": "逐帧与局部检查图",
+      "bytes": 117118,
+      "sha256": "5c3a59211000a15c62c049a2905d29fe2cdb96c2e6414e57b3b99caccb847886",
+      "recordIds": [
+        "ref-garden"
+      ],
+      "sourceSha256": "5c3a59211000a15c62c049a2905d29fe2cdb96c2e6414e57b3b99caccb847886",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "reference-mirror-2120150816287760496.mp4",
+      "path": "archive/reference-mirror-2120150816287760496.mp4",
+      "role": "作者参考媒体",
+      "bytes": 1462843,
+      "sha256": "1b258f76424822c18b7c6e52e33f84752772af13531dd9cd354a2012555a1d2c",
+      "recordIds": [
+        "ref-mirror"
+      ],
+      "sourceSha256": "1b258f76424822c18b7c6e52e33f84752772af13531dd9cd354a2012555a1d2c",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "reference-mirror-contact.jpg",
+      "path": "archive/reference-mirror-contact.jpg",
+      "role": "逐帧与局部检查图",
+      "bytes": 130403,
+      "sha256": "ef190f30a09abd6dc90efdfe823360cd6104aaa835cf252a5caee2e04b91d1a5",
+      "recordIds": [
+        "ref-mirror"
+      ],
+      "sourceSha256": "ef190f30a09abd6dc90efdfe823360cd6104aaa835cf252a5caee2e04b91d1a5",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "reference-mirror-original.gif",
+      "path": "archive/reference-mirror-original.gif",
+      "role": "参考展示副本",
+      "bytes": 4443239,
+      "sha256": "bdc5e8e2235502700b5bfedb62fc29ad5e2ddacfc2ba1712dfb7f390f9e69d12",
+      "recordIds": [
+        "ref-mirror"
+      ],
+      "sourceSha256": "bdc5e8e2235502700b5bfedb62fc29ad5e2ddacfc2ba1712dfb7f390f9e69d12",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "reference-mirror-style-frame.png",
+      "path": "archive/reference-mirror-style-frame.png",
+      "role": "静态图与素材",
+      "bytes": 2103201,
+      "sha256": "afcd706b5330a20aa2495d6c4836d896da818cb775b8c6645d50ac9998ca9225",
+      "recordIds": [
+        "ref-mirror"
+      ],
+      "sourceSha256": "afcd706b5330a20aa2495d6c4836d896da818cb775b8c6645d50ac9998ca9225",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "reference-style-frame.png",
+      "path": "archive/reference-style-frame.png",
+      "role": "静态图与素材",
+      "bytes": 1745583,
+      "sha256": "088d231c87a0f6bf6c8ffbf1340c5d228c830622c1f2cb1f0750221a2791ece1",
+      "recordIds": [
+        "ref-garden"
+      ],
+      "sourceSha256": "088d231c87a0f6bf6c8ffbf1340c5d228c830622c1f2cb1f0750221a2791ece1",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "render-anchored-autumn-v14.cjs",
+      "path": "archive/render-anchored-autumn-v14.cjs",
+      "role": "制作脚本",
+      "bytes": 5592,
+      "sha256": "74266799d071aad5eea2f584b97716bee7322910c77527c317285682a94ea02e",
+      "recordIds": [
+        "v14"
+      ],
+      "sourceSha256": "74266799d071aad5eea2f584b97716bee7322910c77527c317285682a94ea02e",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "render-autumn-canopy-v13.cjs",
+      "path": "archive/render-autumn-canopy-v13.cjs",
+      "role": "制作脚本",
+      "bytes": 5922,
+      "sha256": "78ed5aeaff10e4a4c97a03d18bfd2e039ae840abfeb407dcf04555b9613537e4",
+      "recordIds": [
+        "v13"
+      ],
+      "sourceSha256": "78ed5aeaff10e4a4c97a03d18bfd2e039ae840abfeb407dcf04555b9613537e4",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "render-breeze-preview.cjs",
+      "path": "archive/render-breeze-preview.cjs",
+      "role": "制作脚本",
+      "bytes": 4751,
+      "sha256": "bcf0ff3654334ed59fe5e4afc8e3810041b25e172bf738c99274624b63f4ad98",
+      "recordIds": [
+        "v05"
+      ],
+      "sourceSha256": "bcf0ff3654334ed59fe5e4afc8e3810041b25e172bf738c99274624b63f4ad98",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "render-forest-light-v17.cjs",
+      "path": "archive/render-forest-light-v17.cjs",
+      "role": "制作脚本",
+      "bytes": 16887,
+      "sha256": "c677dc95021c3537bbff9629fbd40e80c1aceaaefbd0c62c44b8abd659be902b",
+      "recordIds": [
+        "v17"
+      ],
+      "sourceSha256": "c677dc95021c3537bbff9629fbd40e80c1aceaaefbd0c62c44b8abd659be902b",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "render-forest-perches-v16.cjs",
+      "path": "archive/render-forest-perches-v16.cjs",
+      "role": "制作脚本",
+      "bytes": 12276,
+      "sha256": "0a1ff479a7c69655c8d11f8ebd6575796ed681747d23df0cc958ef1c854de8f9",
+      "recordIds": [
+        "v16"
+      ],
+      "sourceSha256": "0a1ff479a7c69655c8d11f8ebd6575796ed681747d23df0cc958ef1c854de8f9",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "render-forest-suspense-v15.cjs",
+      "path": "archive/render-forest-suspense-v15.cjs",
+      "role": "制作脚本",
+      "bytes": 9960,
+      "sha256": "c65217dbce91ca590810fae855a84768e3f3f4bf7586e53fba3643c83dc0ca5f",
+      "recordIds": [
+        "v15"
+      ],
+      "sourceSha256": "c65217dbce91ca590810fae855a84768e3f3f4bf7586e53fba3643c83dc0ca5f",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "render-hearing-dusk-v9.cjs",
+      "path": "archive/render-hearing-dusk-v9.cjs",
+      "role": "制作脚本",
+      "bytes": 7216,
+      "sha256": "3f713de9db546c0867feb3d03b553e6a6e86e8b2390a93960c47108590bb499f",
+      "recordIds": [
+        "v09"
+      ],
+      "sourceSha256": "3f713de9db546c0867feb3d03b553e6a6e86e8b2390a93960c47108590bb499f",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "render-loop-v2.cjs",
+      "path": "archive/render-loop-v2.cjs",
+      "role": "制作脚本",
+      "bytes": 10474,
+      "sha256": "9ab7fc12cc9bd2c29541ba9105e0682166674c3e554e9b2b0a068aa05c0687df",
+      "recordIds": [
+        "v02"
+      ],
+      "sourceSha256": "9ab7fc12cc9bd2c29541ba9105e0682166674c3e554e9b2b0a068aa05c0687df",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "render-loop-v3.cjs",
+      "path": "archive/render-loop-v3.cjs",
+      "role": "制作脚本",
+      "bytes": 9586,
+      "sha256": "6ccfa3b973f96d647f962c38c64fd4d3e717ea860510ad77741cadd3c890294a",
+      "recordIds": [
+        "v03"
+      ],
+      "sourceSha256": "6ccfa3b973f96d647f962c38c64fd4d3e717ea860510ad77741cadd3c890294a",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "render-loop-v4.cjs",
+      "path": "archive/render-loop-v4.cjs",
+      "role": "制作脚本",
+      "bytes": 6051,
+      "sha256": "f257853992f1bfeacaa97f6cc44da9711502716ac44dedbf85415213edbbc503",
+      "recordIds": [
+        "v04"
+      ],
+      "sourceSha256": "f257853992f1bfeacaa97f6cc44da9711502716ac44dedbf85415213edbbc503",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "render-loop.cjs",
+      "path": "archive/render-loop.cjs",
+      "role": "制作脚本",
+      "bytes": 4320,
+      "sha256": "b360d2e51b9e698f313a00a656a49c86f6bb6bbecf91db6f5517f0d505e1c3bc",
+      "recordIds": [
+        "v01"
+      ],
+      "sourceSha256": "b360d2e51b9e698f313a00a656a49c86f6bb6bbecf91db6f5517f0d505e1c3bc",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "render-night-tide-v12.cjs",
+      "path": "archive/render-night-tide-v12.cjs",
+      "role": "制作脚本",
+      "bytes": 5948,
+      "sha256": "2c1c216af001d928f07776ad03ea0ce083b2e35f8c76c5a9532bf757ccd9cf93",
+      "recordIds": [
+        "v12"
+      ],
+      "sourceSha256": "2c1c216af001d928f07776ad03ea0ce083b2e35f8c76c5a9532bf757ccd9cf93",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "render-tide-field-v11.cjs",
+      "path": "archive/render-tide-field-v11.cjs",
+      "role": "制作脚本",
+      "bytes": 5847,
+      "sha256": "3114200b410404189f61461fb2a3e3f3be793cc337072e413b01a709b30bae5c",
+      "recordIds": [
+        "v11"
+      ],
+      "sourceSha256": "3114200b410404189f61461fb2a3e3f3be793cc337072e413b01a709b30bae5c",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "sea-contact-v10.jpg",
+      "path": "archive/sea-contact-v10.jpg",
+      "role": "逐帧与局部检查图",
+      "bytes": 92315,
+      "sha256": "84ad44d75fa523d6f4ebc4dfe14a4d8208702f25eff5e3ed0febac78bd011794",
+      "recordIds": [
+        "v10"
+      ],
+      "sourceSha256": "84ad44d75fa523d6f4ebc4dfe14a4d8208702f25eff5e3ed0febac78bd011794",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "sea-native-sheet-v10.png",
+      "path": "archive/sea-native-sheet-v10.png",
+      "role": "静态图与素材",
+      "bytes": 3284513,
+      "sha256": "cc303faf5ff922550924608a08cec0d20b1276faaec7af8c0197ab6b90258858",
+      "recordIds": [
+        "v10"
+      ],
+      "sourceSha256": "cc303faf5ff922550924608a08cec0d20b1276faaec7af8c0197ab6b90258858",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "sea-provenance-v10.json",
+      "path": "archive/sea-provenance-v10.json",
+      "role": "生成与制作记录",
+      "bytes": 3676,
+      "sha256": "1bc3da9af6f69f85cde2ae8db52cd9aa3857df17224aa1c63fa2fa064a9a6215",
+      "recordIds": [
+        "v10"
+      ],
+      "sourceSha256": "1bc3da9af6f69f85cde2ae8db52cd9aa3857df17224aa1c63fa2fa064a9a6215",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "sea-validation-v10.json",
+      "path": "archive/sea-validation-v10.json",
+      "role": "技术校验记录",
+      "bytes": 683,
+      "sha256": "fd119c85c2624698cd6ffa946b0d24c50115df51c7ef269953e5216f61eab53d",
+      "recordIds": [
+        "v10"
+      ],
+      "sourceSha256": "f667149d894fceb6e53ba38d1c170fda8ab6b36abe0650236f9fba6ccf8bc3a6",
+      "publicationTextAdjusted": true
+    },
+    {
+      "name": "shallow-sea-v10.gif",
+      "path": "archive/shallow-sea-v10.gif",
+      "role": "程序合成 GIF",
+      "bytes": 7909483,
+      "sha256": "9daeb1f5e9f616c0264129bec8b7b3d906f749cfa9e71d2c710c21b4153e8137",
+      "recordIds": [
+        "v10"
+      ],
+      "sourceSha256": "9daeb1f5e9f616c0264129bec8b7b3d906f749cfa9e71d2c710c21b4153e8137",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "shallow-sea-v10.mp4",
+      "path": "archive/shallow-sea-v10.mp4",
+      "role": "程序动画视频导出",
+      "bytes": 916820,
+      "sha256": "77bc16c69b0cb6bae2d7302af73045c078e1a58ca35c921883de3f63d969f49b",
+      "recordIds": [
+        "v10"
+      ],
+      "sourceSha256": "77bc16c69b0cb6bae2d7302af73045c078e1a58ca35c921883de3f63d969f49b",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "softglitch-contact-v6.jpg",
+      "path": "archive/softglitch-contact-v6.jpg",
+      "role": "逐帧与局部检查图",
+      "bytes": 119480,
+      "sha256": "faf4e6503d54412103e67636b23ec6d209b0d3930f11cddcaf227a4f40ffbe76",
+      "recordIds": [
+        "v06"
+      ],
+      "sourceSha256": "faf4e6503d54412103e67636b23ec6d209b0d3930f11cddcaf227a4f40ffbe76",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "softglitch-native-sheet-v6.png",
+      "path": "archive/softglitch-native-sheet-v6.png",
+      "role": "静态图与素材",
+      "bytes": 3704669,
+      "sha256": "c643071a425c50d4f7b99ed7d6488377175da776b4cb8adfe86fdf835ebcf861",
+      "recordIds": [
+        "v06"
+      ],
+      "sourceSha256": "c643071a425c50d4f7b99ed7d6488377175da776b4cb8adfe86fdf835ebcf861",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "softglitch-native-v6.gif",
+      "path": "archive/softglitch-native-v6.gif",
+      "role": "程序合成 GIF",
+      "bytes": 3468112,
+      "sha256": "cc4a9a1e693b3b31324693b93970860c0f889cad73233c9497854ea3e6740ab6",
+      "recordIds": [
+        "v06"
+      ],
+      "sourceSha256": "cc4a9a1e693b3b31324693b93970860c0f889cad73233c9497854ea3e6740ab6",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "softglitch-native-v6.mp4",
+      "path": "archive/softglitch-native-v6.mp4",
+      "role": "程序动画视频导出",
+      "bytes": 727349,
+      "sha256": "7c3b01bad4d944dd62ae120bed123d87b07beebae859fdbe824e3f2f3471792f",
+      "recordIds": [
+        "v06"
+      ],
+      "sourceSha256": "7c3b01bad4d944dd62ae120bed123d87b07beebae859fdbe824e3f2f3471792f",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "softglitch-provenance-v6.json",
+      "path": "archive/softglitch-provenance-v6.json",
+      "role": "生成与制作记录",
+      "bytes": 3423,
+      "sha256": "86c6a7f8f48ccdd821be53a3b45ebcb54d63814ded575245dcd8139eb482b1bb",
+      "recordIds": [
+        "v06"
+      ],
+      "sourceSha256": "86c6a7f8f48ccdd821be53a3b45ebcb54d63814ded575245dcd8139eb482b1bb",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "softglitch-validation-v6.json",
+      "path": "archive/softglitch-validation-v6.json",
+      "role": "技术校验记录",
+      "bytes": 576,
+      "sha256": "97b71a43eb1bd5a361c3f062ca40fd6041a540c21ac78eefa3802c68b92ad6d6",
+      "recordIds": [
+        "v06"
+      ],
+      "sourceSha256": "28fc2c3fe72d508c627e6fde9a3691b6faabf870ca3657ebcab594eea935b365",
+      "publicationTextAdjusted": true
+    },
+    {
+      "name": "tidal-field-contact-v11.jpg",
+      "path": "archive/tidal-field-contact-v11.jpg",
+      "role": "逐帧与局部检查图",
+      "bytes": 63166,
+      "sha256": "7a83b261b318a5b301ccb86f0e187209285e0bbd098b6b4194220f42f8569b94",
+      "recordIds": [
+        "v11"
+      ],
+      "sourceSha256": "7a83b261b318a5b301ccb86f0e187209285e0bbd098b6b4194220f42f8569b94",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "tidal-field-provenance-v11.json",
+      "path": "archive/tidal-field-provenance-v11.json",
+      "role": "生成与制作记录",
+      "bytes": 2841,
+      "sha256": "abe1418b2777c7c551ff05641ef635de26a8466229968992dec1e824a166b9c0",
+      "recordIds": [
+        "v11"
+      ],
+      "sourceSha256": "abe1418b2777c7c551ff05641ef635de26a8466229968992dec1e824a166b9c0",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "tidal-field-validation-v11.json",
+      "path": "archive/tidal-field-validation-v11.json",
+      "role": "技术校验记录",
+      "bytes": 1639,
+      "sha256": "ae7e8586e942c75eca3956e45b1c5951f0c32d7347c6089a51324ca5ce662b3f",
+      "recordIds": [
+        "v11"
+      ],
+      "sourceSha256": "e97e9f346f184a7b8defba043f757a5f8b714bf5376f5a24638aaf458d707ffa",
+      "publicationTextAdjusted": true
+    },
+    {
+      "name": "tidal-field-whole-v11.gif",
+      "path": "archive/tidal-field-whole-v11.gif",
+      "role": "程序合成 GIF",
+      "bytes": 22783801,
+      "sha256": "715494d00c33d4872ada5ff896987a219da9b1a835244f016ae7aacd80526833",
+      "recordIds": [
+        "v11"
+      ],
+      "sourceSha256": "715494d00c33d4872ada5ff896987a219da9b1a835244f016ae7aacd80526833",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "tidal-field-whole-v11.mp4",
+      "path": "archive/tidal-field-whole-v11.mp4",
+      "role": "程序动画视频导出",
+      "bytes": 2560074,
+      "sha256": "5ac13f9dfe62d1689b7a1a5b8a24794079f144a21a5827c2d97dad817f9fa63f",
+      "recordIds": [
+        "v11"
+      ],
+      "sourceSha256": "5ac13f9dfe62d1689b7a1a5b8a24794079f144a21a5827c2d97dad817f9fa63f",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "tide-field-native-v11.png",
+      "path": "archive/tide-field-native-v11.png",
+      "role": "静态图与素材",
+      "bytes": 3480910,
+      "sha256": "1db86c8e22a752ff0792ae1615b0f0eb98cc5d08ffcd69df647b40cbe1cb44aa",
+      "recordIds": [
+        "v11"
+      ],
+      "sourceSha256": "1db86c8e22a752ff0792ae1615b0f0eb98cc5d08ffcd69df647b40cbe1cb44aa",
+      "publicationTextAdjusted": false
+    },
+    {
+      "name": "validation-v2.json",
+      "path": "archive/validation-v2.json",
+      "role": "技术校验记录",
+      "bytes": 565,
+      "sha256": "59d38aedad3249fa7cc56a5289208e345ed508d5dcaa67fce19fd1680d4a1ef9",
+      "recordIds": [
+        "v02"
+      ],
+      "sourceSha256": "8dd373be659385470b7c3ace71014ab120fac3237ebc22884694930a360fa298",
+      "publicationTextAdjusted": true
+    },
+    {
+      "name": "validation-v3.json",
+      "path": "archive/validation-v3.json",
+      "role": "技术校验记录",
+      "bytes": 2016,
+      "sha256": "9c66ff698f7aed0b7d26869c793180a810f9ad7ca7aa846353b94792cf728d57",
+      "recordIds": [
+        "v03"
+      ],
+      "sourceSha256": "b8b307d01092ef6184022112f744a37646652f0baf929e23b30d62d9d14ac0f4",
+      "publicationTextAdjusted": true
+    },
+    {
+      "name": "validation-v4.json",
+      "path": "archive/validation-v4.json",
+      "role": "技术校验记录",
+      "bytes": 394,
+      "sha256": "535b08653c228f7fcb88ee6369ced5cc561af22315f85d76ea23c60e126e6d76",
+      "recordIds": [
+        "v04"
+      ],
+      "sourceSha256": "57e4b63553d36ee03d41ff6c07845920e29cc866cc3b17e0211887fb408eb8fc",
+      "publicationTextAdjusted": true
+    },
+    {
+      "name": "validation.json",
+      "path": "archive/validation.json",
+      "role": "技术校验记录",
+      "bytes": 232,
+      "sha256": "9e61d985ee342fe92fae70c0fa057ed32783db30d3309373182f976dc45e5f1c",
+      "recordIds": [
+        "v01"
+      ],
+      "sourceSha256": "4a9c6719d152fecefd663a9371913d6f28935a7794de1c6394cbf48760fd57ee",
+      "publicationTextAdjusted": true
+    }
+  ],
+  "summary": {
+    "referenceGroups": 2,
+    "explorationStages": 18,
+    "animatedExperimentStages": 17,
+    "sourceFileCount": 154,
+    "sourceBytes": 328810379,
+    "verifiedNativeAnimatedGifs": 0,
+    "finalUserApprovedFilms": 0
+  },
+  "coverage": {
+    "reviewDate": "2026-11-21",
+    "sourceFileCount": 154,
+    "stageLinkedFiles": 154,
+    "unassignedFiles": [],
+    "gifFileCount": 20,
+    "inPageGifCount": 20,
+    "supplementaryVisualCount": 55,
+    "recordedPromptCount": 17,
+    "scopeNote": "公开版保留十八轮阶段与全部动态实验，省去登录截图和私有执行草稿，以公开事实摘要替代；文字已省去本机路径。反馈为消息摘录，非完整聊天备份。"
+  },
+  "publication": {
+    "mode": "public-research",
+    "date": "2026-11-21",
+    "assetBase": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/research-024-20261121/projects/024-immersive-loop-research/",
+    "mediaTag": "research-024-20261121",
+    "sourceFileCount": 156,
+    "excludedPrivateFiles": 3,
+    "publicStatusSummaries": 1,
+    "textPolicy": "Local paths, emails and account details omitted; visual and animation media retain exact bytes.",
+    "mediaPolicy": "Immutable tagged repository media loaded on demand; the Pages directory contains the UI, posters, thumbnails and original guide only."
+  }
+};

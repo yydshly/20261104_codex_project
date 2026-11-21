@@ -1,0 +1,29 @@
+{
+  "method": "Original shallow-sea artwork: nine native AI-generated neighboring light-refraction keyframes, locally assembled with four temporal samples per transition. Camera, shell identities and sand ridges serve as stable anchors.",
+  "keyframes": 9,
+  "keyframeOrder": [
+    0,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+    8
+  ],
+  "frames": 36,
+  "width": 560,
+  "height": 560,
+  "frameDurationMs": 70,
+  "seconds": 2.5200000000000005,
+  "loopCount": 0,
+  "decodedSeamMAE": 3.9750372023809524,
+  "meanAdjacentMAE": 5.76715357750243,
+  "globalLumaRange": [
+    108.80625576276188,
+    111.84636572132351
+  ],
+  "gifBytes": 7909483,
+  "seamRatio": 0.6892546121690787
+}

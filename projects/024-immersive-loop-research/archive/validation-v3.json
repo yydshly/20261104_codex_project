@@ -1,0 +1,80 @@
+{
+  "version": 3,
+  "frames": 100,
+  "width": 640,
+  "height": 640,
+  "fps": 25,
+  "durationSeconds": 4,
+  "outerFlowerRegions": 12,
+  "innerFlowerRegions": 7,
+  "attachedGlints": 143,
+  "exactPeriodicEndpointMAE": 0,
+  "decodedFrames": 100,
+  "gifLoopCount": 0,
+  "decodedSeamMAE": 1.4625602213541666,
+  "decodedMeanAdjacentMAE": 1.4460940623684762,
+  "decodedSeamToAdjacentRatio": 1.0113866444888941,
+  "orderedHandoffs": [
+    {
+      "timeSeconds": 0,
+      "leadingFlower": "lower-left-ivory",
+      "nextActiveFlower": "bottom-blue"
+    },
+    {
+      "timeSeconds": 0.3333333333333333,
+      "leadingFlower": "left-mauve",
+      "nextActiveFlower": "lower-left-ivory"
+    },
+    {
+      "timeSeconds": 0.6666666666666666,
+      "leadingFlower": "left-dahlia",
+      "nextActiveFlower": "left-mauve"
+    },
+    {
+      "timeSeconds": 1,
+      "leadingFlower": "upper-ivory",
+      "nextActiveFlower": "left-dahlia"
+    },
+    {
+      "timeSeconds": 1.3333333333333333,
+      "leadingFlower": "upper-ivory",
+      "nextActiveFlower": "upper-dahlia"
+    },
+    {
+      "timeSeconds": 1.6666666666666667,
+      "leadingFlower": "upper-dahlia",
+      "nextActiveFlower": "upper-right-ivory"
+    },
+    {
+      "timeSeconds": 2,
+      "leadingFlower": "upper-right-ivory",
+      "nextActiveFlower": "upper-dahlia"
+    },
+    {
+      "timeSeconds": 2.3333333333333335,
+      "leadingFlower": "right-ivory",
+      "nextActiveFlower": "upper-right-ivory"
+    },
+    {
+      "timeSeconds": 2.6666666666666665,
+      "leadingFlower": "right-mauve",
+      "nextActiveFlower": "lower-right-dahlia"
+    },
+    {
+      "timeSeconds": 3,
+      "leadingFlower": "lower-right-dahlia",
+      "nextActiveFlower": "lower-mauve"
+    },
+    {
+      "timeSeconds": 3.3333333333333335,
+      "leadingFlower": "lower-mauve",
+      "nextActiveFlower": "bottom-ivory"
+    },
+    {
+      "timeSeconds": 3.6666666666666665,
+      "leadingFlower": "bottom-blue",
+      "nextActiveFlower": "bottom-ivory"
+    }
+  ],
+  "gifBytes": 10044031
+}

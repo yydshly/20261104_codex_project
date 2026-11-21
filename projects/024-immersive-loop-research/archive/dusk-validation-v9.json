@@ -1,0 +1,15 @@
+{
+  "width": 640,
+  "height": 640,
+  "fps": 25,
+  "frames": 120,
+  "seconds": 4.8,
+  "nativePaperSprites": 4,
+  "animatedNotes": 5,
+  "loopCount": 0,
+  "endpointMAE": 0,
+  "decodedSeamMAE": 0.5245174153645833,
+  "decodedMeanAdjacentMAE": 0.5805889260000876,
+  "gifBytes": 721149,
+  "seamRatio": 0.9034230449040707
+}

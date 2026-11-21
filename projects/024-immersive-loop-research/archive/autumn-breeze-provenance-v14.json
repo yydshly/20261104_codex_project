@@ -1,0 +1,29 @@
+{
+  "title": "秋林浮光 · 风动修正版",
+  "sourceArtwork": "autumn-canopy-native-v13.png",
+  "sourceGenerationRecord": "autumn-canopy-provenance-v13.json",
+  "revision": "Correct the previous whole-image translation and shearing that made the rooted woodland drift like fabric.",
+  "production": "Local procedural GIF animation of an existing native image; no new image generation or video-generation service used.",
+  "renderer": "render-anchored-autumn-v14.cjs",
+  "motion": {
+    "camera": "fixed",
+    "globalTranslationPixels": 0,
+    "globalShear": 0,
+    "foliageMotion": "Small periodic leaf-surface displacement, spatially phased across the frame to suggest a coherent breeze",
+    "mask": "Conservative colour-and-luminance foliage mask eroded by one pixel; dark wood and low-chroma branches are protected. This is not semantic segmentation.",
+    "leafDisplacementLimitPixels": 3,
+    "lighting": "Small leaf-only variations, synchronized with the travelling breeze",
+    "stationaryAreas": "Zero-mask pixels are copied directly from the original in every rendered frame"
+  },
+  "limitations": "A 2D animated interpretation, not a physically simulated forest or AI-generated video. Colour masking does not establish a semantic guarantee that every branch pixel is stationary.",
+  "output": {
+    "gif": "autumn-breeze-anchored-v14.gif",
+    "video": "autumn-breeze-anchored-v14.mp4",
+    "width": 640,
+    "height": 640,
+    "fps": 20,
+    "frames": 128,
+    "seconds": 6.4
+  },
+  "validation": "autumn-breeze-validation-v14.json"
+}

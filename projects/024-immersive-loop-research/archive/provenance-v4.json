@@ -1,0 +1,28 @@
+{
+  "title": "花丛 · 连续反折",
+  "baseImage": "garden-base-v3.png",
+  "imageProvenance": "provenance-v3.json",
+  "renderer": "render-loop-v4.cjs",
+  "production": "Existing AI-generated floral texture animated by deterministic spatial folding",
+  "motion": "One shared periodic coordinate field. Logarithmic radial reflections and five-lobed angular bending transform all flower layers simultaneously; no per-flower handoff sequence.",
+  "parameters": {
+    "center": [
+      335,
+      333
+    ],
+    "lambda": 4.8,
+    "sourceCenter": [
+      326,
+      304
+    ],
+    "sourceRadius": [
+      134,
+      293.579290822769
+    ],
+    "durationSeconds": 3,
+    "fps": 25
+  },
+  "verification": "validation-v4.json",
+  "gif": "garden-fold-loop-v4.gif",
+  "mp4": "garden-fold-loop-v4.mp4"
+}

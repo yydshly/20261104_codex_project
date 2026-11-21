@@ -1,0 +1,29 @@
+{
+  "method": "Original glass-and-light artwork: nine native AI-generated neighboring keyframes, locally assembled with four temporal samples per transition. No copied floral motif, no external image reference and no geometric image warping.",
+  "keyframes": 9,
+  "keyframeOrder": [
+    0,
+    8,
+    7,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "frames": 36,
+  "width": 560,
+  "height": 560,
+  "frameDurationMs": 70,
+  "seconds": 2.5200000000000005,
+  "loopCount": 0,
+  "decodedSeamMAE": 1.7434502551020408,
+  "meanAdjacentMAE": 1.6739059159378042,
+  "globalLumaRange": [
+    91.92056875764152,
+    94.63084219003947
+  ],
+  "gifBytes": 7867540,
+  "seamRatio": 1.0415461457553152
+}

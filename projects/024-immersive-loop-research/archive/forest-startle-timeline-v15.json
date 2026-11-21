@@ -1,0 +1,962 @@
+[
+  {
+    "time": 0,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 0.05,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 0.1,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 0.15,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 0.2,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 0.25,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 0.3,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 0.35,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 0.4,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 0.45,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 0.5,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 0.55,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 0.6,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 0.65,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 0.7,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 0.75,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 0.8,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 0.85,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 0.9,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 0.95,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 1,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 1.05,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 1.1,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 1.15,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 1.2,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 1.25,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 1.3,
+    "foxPixels": 477.8014939066313,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 1.35,
+    "foxPixels": 709.6122833776113,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 1.4,
+    "foxPixels": 1011.4350124505411,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 1.45,
+    "foxPixels": 1143.0735815835187,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 1.5,
+    "foxPixels": 1151.7797303967068,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 1.55,
+    "foxPixels": 1341.959247486024,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 1.6,
+    "foxPixels": 1435.656517894845,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 1.65,
+    "foxPixels": 1410.4962994170914,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 1.7,
+    "foxPixels": 1253.237238613498,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 1.75,
+    "foxPixels": 1138.5978198761632,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 1.8,
+    "foxPixels": 1191.8575123975006,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 1.85,
+    "foxPixels": 1151.7481367241155,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 1.9,
+    "foxPixels": 1287.037057992049,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 1.95,
+    "foxPixels": 1266.2441660583802,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 2,
+    "foxPixels": 1256.583664274519,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 2.05,
+    "foxPixels": 1188.4615722581586,
+    "birds": 1,
+    "birdPixels": 15.200435643581553
+  },
+  {
+    "time": 2.1,
+    "foxPixels": 1355.1451757377686,
+    "birds": 1,
+    "birdPixels": 96.4823177252897
+  },
+  {
+    "time": 2.15,
+    "foxPixels": 1431.0073188997494,
+    "birds": 1,
+    "birdPixels": 188.24997345119226
+  },
+  {
+    "time": 2.2,
+    "foxPixels": 1411.5767372835912,
+    "birds": 2,
+    "birdPixels": 284.4493707358563
+  },
+  {
+    "time": 2.25,
+    "foxPixels": 1352.687513936068,
+    "birds": 2,
+    "birdPixels": 360.6876213019863
+  },
+  {
+    "time": 2.3,
+    "foxPixels": 1241.4372543819695,
+    "birds": 2,
+    "birdPixels": 496.7788242727933
+  },
+  {
+    "time": 2.35,
+    "foxPixels": 1069.3944735437717,
+    "birds": 3,
+    "birdPixels": 552.0221939537316
+  },
+  {
+    "time": 2.4,
+    "foxPixels": 1084.9399023218032,
+    "birds": 3,
+    "birdPixels": 689.83682894463
+  },
+  {
+    "time": 2.45,
+    "foxPixels": 1145.0789534354828,
+    "birds": 4,
+    "birdPixels": 779.4060618257075
+  },
+  {
+    "time": 2.5,
+    "foxPixels": 1109.8584374245804,
+    "birds": 4,
+    "birdPixels": 943.4010843459283
+  },
+  {
+    "time": 2.55,
+    "foxPixels": 1163.4066701534964,
+    "birds": 4,
+    "birdPixels": 983.6123133430376
+  },
+  {
+    "time": 2.6,
+    "foxPixels": 1129.2429019548192,
+    "birds": 5,
+    "birdPixels": 1074.0203996470912
+  },
+  {
+    "time": 2.65,
+    "foxPixels": 1173.5849389993828,
+    "birds": 5,
+    "birdPixels": 1170.6779432090018
+  },
+  {
+    "time": 2.7,
+    "foxPixels": 1374.5152862705247,
+    "birds": 6,
+    "birdPixels": 1320.4938149598984
+  },
+  {
+    "time": 2.75,
+    "foxPixels": 1230.5583595424348,
+    "birds": 6,
+    "birdPixels": 1449.0479174402294
+  },
+  {
+    "time": 2.8,
+    "foxPixels": 933.262299554205,
+    "birds": 6,
+    "birdPixels": 1610.12230549238
+  },
+  {
+    "time": 2.85,
+    "foxPixels": 731.5571332105741,
+    "birds": 7,
+    "birdPixels": 1702.1642148315123
+  },
+  {
+    "time": 2.9,
+    "foxPixels": 561.8914009275766,
+    "birds": 7,
+    "birdPixels": 1746.6357385816482
+  },
+  {
+    "time": 2.95,
+    "foxPixels": 337.0238675753854,
+    "birds": 7,
+    "birdPixels": 2006.7389538270738
+  },
+  {
+    "time": 3,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2021.1190390954912
+  },
+  {
+    "time": 3.05,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2151.419035381755
+  },
+  {
+    "time": 3.1,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2070.920466198295
+  },
+  {
+    "time": 3.15,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2211.8049702558733
+  },
+  {
+    "time": 3.2,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2201.4998661334143
+  },
+  {
+    "time": 3.25,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2408.725102772855
+  },
+  {
+    "time": 3.3,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2423.340660369361
+  },
+  {
+    "time": 3.35,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2572.49695797215
+  },
+  {
+    "time": 3.4,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2479.471375376292
+  },
+  {
+    "time": 3.45,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2600.848804847882
+  },
+  {
+    "time": 3.5,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2638.9641147004563
+  },
+  {
+    "time": 3.55,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2851.3775916947834
+  },
+  {
+    "time": 3.6,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 2913.543958979482
+  },
+  {
+    "time": 3.65,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3046.660841530062
+  },
+  {
+    "time": 3.7,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3053.255731138808
+  },
+  {
+    "time": 3.75,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3013.649924890233
+  },
+  {
+    "time": 3.8,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3153.0440068846933
+  },
+  {
+    "time": 3.85,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3302.6618495752437
+  },
+  {
+    "time": 3.9,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3493.9165390134594
+  },
+  {
+    "time": 3.95,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3541.591101474622
+  },
+  {
+    "time": 4,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3638.2367708430806
+  },
+  {
+    "time": 4.05,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3499.870506416652
+  },
+  {
+    "time": 4.1,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3725.863766181223
+  },
+  {
+    "time": 4.15,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3650.9141431744297
+  },
+  {
+    "time": 4.2,
+    "foxPixels": 0,
+    "birds": 7,
+    "birdPixels": 3020.205469845594
+  },
+  {
+    "time": 4.25,
+    "foxPixels": 0,
+    "birds": 6,
+    "birdPixels": 2371.6349435658394
+  },
+  {
+    "time": 4.3,
+    "foxPixels": 0,
+    "birds": 5,
+    "birdPixels": 2344.1425808684567
+  },
+  {
+    "time": 4.35,
+    "foxPixels": 0,
+    "birds": 5,
+    "birdPixels": 2342.880838006018
+  },
+  {
+    "time": 4.4,
+    "foxPixels": 0,
+    "birds": 5,
+    "birdPixels": 2473.743488194641
+  },
+  {
+    "time": 4.45,
+    "foxPixels": 0,
+    "birds": 5,
+    "birdPixels": 2597.577508328179
+  },
+  {
+    "time": 4.5,
+    "foxPixels": 0,
+    "birds": 5,
+    "birdPixels": 2270.3303780024253
+  },
+  {
+    "time": 4.55,
+    "foxPixels": 0,
+    "birds": 5,
+    "birdPixels": 1985.3990851377607
+  },
+  {
+    "time": 4.6,
+    "foxPixels": 0,
+    "birds": 4,
+    "birdPixels": 1570.5563775653477
+  },
+  {
+    "time": 4.65,
+    "foxPixels": 0,
+    "birds": 3,
+    "birdPixels": 1507.2607501897883
+  },
+  {
+    "time": 4.7,
+    "foxPixels": 0,
+    "birds": 3,
+    "birdPixels": 1524.8608146959061
+  },
+  {
+    "time": 4.75,
+    "foxPixels": 0,
+    "birds": 3,
+    "birdPixels": 1613.8698134091314
+  },
+  {
+    "time": 4.8,
+    "foxPixels": 0,
+    "birds": 3,
+    "birdPixels": 1697.4641917779575
+  },
+  {
+    "time": 4.85,
+    "foxPixels": 0,
+    "birds": 3,
+    "birdPixels": 1552.213268521667
+  },
+  {
+    "time": 4.9,
+    "foxPixels": 0,
+    "birds": 3,
+    "birdPixels": 824.1162732633109
+  },
+  {
+    "time": 4.95,
+    "foxPixels": 0,
+    "birds": 2,
+    "birdPixels": 501.89076945374893
+  },
+  {
+    "time": 5,
+    "foxPixels": 0,
+    "birds": 1,
+    "birdPixels": 426.7315624248836
+  },
+  {
+    "time": 5.05,
+    "foxPixels": 0,
+    "birds": 1,
+    "birdPixels": 484.76715327306135
+  },
+  {
+    "time": 5.1,
+    "foxPixels": 0,
+    "birds": 1,
+    "birdPixels": 464.46608735349156
+  },
+  {
+    "time": 5.15,
+    "foxPixels": 0,
+    "birds": 1,
+    "birdPixels": 494.6294167958933
+  },
+  {
+    "time": 5.2,
+    "foxPixels": 0,
+    "birds": 1,
+    "birdPixels": 441.69339355336086
+  },
+  {
+    "time": 5.25,
+    "foxPixels": 0,
+    "birds": 1,
+    "birdPixels": 488.1485643730762
+  },
+  {
+    "time": 5.3,
+    "foxPixels": 0,
+    "birds": 1,
+    "birdPixels": 333.8193336609971
+  },
+  {
+    "time": 5.35,
+    "foxPixels": 0,
+    "birds": 1,
+    "birdPixels": 14.911717388704822
+  },
+  {
+    "time": 5.4,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 5.45,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 5.5,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 5.55,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 5.6,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 5.65,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 5.7,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 5.75,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 5.8,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 5.85,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 5.9,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 5.95,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 6,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 6.05,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 6.1,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 6.15,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 6.2,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 6.25,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 6.3,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 6.35,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 6.4,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 6.45,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 6.5,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 6.55,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 6.6,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 6.65,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 6.7,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 6.75,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 6.8,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 6.85,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 6.9,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 6.95,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 7,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 7.05,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 7.1,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 7.15,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 7.2,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 7.25,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 7.3,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 7.35,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 7.4,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 7.45,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 7.5,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 7.55,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 7.6,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 7.65,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 7.7,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 7.75,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 7.8,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 7.85,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 7.9,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  },
+  {
+    "time": 7.95,
+    "foxPixels": 0,
+    "birds": 0,
+    "birdPixels": 0
+  }
+]

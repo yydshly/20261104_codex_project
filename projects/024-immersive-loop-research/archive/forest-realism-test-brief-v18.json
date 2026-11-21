@@ -1,0 +1,68 @@
+{
+  "title": "秋林悬疑循环 · 真实性验证镜头",
+  "status": "prepared-not-generated",
+  "purpose": "先验证一个完整动作的空间和时序连续性，通过后再扩展动物事件、光影与无缝循环。",
+  "plannedDelivery": {
+    "testDurationSeconds": 5,
+    "camera": "固定机位连续镜头",
+    "finalOutput": "整体视频作为制作母版，最终导出无缝循环 GIF"
+  },
+  "scene": {
+    "retain": "秋林、温暖而克制的色彩、安静中有轻微悬疑的气氛",
+    "initialFrame": "一只鸟自然栖在清楚可见的斜枝上，足爪实际接触枝条。画面具有前景叶片、中景枝杈与较暗林下。",
+    "light": "来自同一方向的稳定柔光，仅有细微叶间遮光；第一条测试不安排大幅云影变化。"
+  },
+  "timeline": [
+    {
+      "seconds": [
+        0,
+        1.5
+      ],
+      "action": "鸟安静栖枝，树干与主要枝杈固定。"
+    },
+    {
+      "seconds": [
+        1.5,
+        2.3
+      ],
+      "action": "鸟轻微转头、警觉并蹲伏，足爪仍抓住原枝。"
+    },
+    {
+      "seconds": [
+        2.3,
+        2.7
+      ],
+      "action": "双腿蹬枝，足爪松开，身体离枝并展开翅膀。"
+    },
+    {
+      "seconds": [
+        2.7,
+        5
+      ],
+      "action": "连续扑翼飞离，身体视角、大小与遮挡随实际路径连贯变化。"
+    }
+  ],
+  "plannedVideoPrompt": "One locked-off continuous five-second shot in a quiet autumn woodland. A single realistic charcoal woodland bird is already perched on a clearly visible diagonal branch at the start, with both feet gripping it. Retain the same camera, tree geometry and branch identity throughout. For the first 1.5 seconds the bird rests. It then glances toward the darker understory and lowers its body while keeping its feet on the branch. Between about 2.3 and 2.7 seconds its legs push against the branch, toes release, and its body rises as its wings open. It flies away with several natural wingbeats, continuous body perspective and anatomically coherent wings. Scale and occlusion change consistently with its trajectory. Soft sunlight has one fixed direction; foreground leaves only move slightly in a light breeze. Restrained warm autumn colour and subtle film texture. No camera motion, no cuts, no morphing tree geometry, no bird appearing from nowhere, no flat icon rotation, no extra birds or animals, no large lighting change, no reverse playback, no forced reset to the starting pose. This test does not need to loop.",
+  "generation": {
+    "provider": null,
+    "model": null,
+    "taskSubmitted": false,
+    "externalUploadPerformed": false,
+    "cost": null,
+    "authorizationContext": "User previously declined new services. Do not treat this planning document as approval to upload or spend."
+  },
+  "acceptance": [
+    "起始帧里鸟已经真实站在枝条上，脚与枝条接触明确。",
+    "蹲伏、腿部发力、松爪、离枝、展翼之间没有跳姿或位置瞬移。",
+    "身体与两只翅膀的形态和观察角度连续。",
+    "树干、主要枝杈和机位稳定；前后遮挡关系成立。",
+    "光源方向、投影和背景受光不发生无因跳变。"
+  ],
+  "afterAcceptance": [
+    "先把动物惊动事件加入同一连续镜头，控制可见动作数量，检查地面接触和遮挡。",
+    "再增加与空间一致的光影，优先利用生成视频本身的光照，后期以统一调色为主。",
+    "最后设计自然可闭合的事件和较长停顿，检查起飞、返回与落枝，不用整齐归位或倒放来凑首尾。",
+    "导出 GIF，逐帧检查循环接缝，并同时保留视频母版。"
+  ],
+  "stopCriterion": "若单鸟起飞仍不自然，就返修这个测试，不继续叠加狐狸、鸟群、云影和其他效果。"
+}
