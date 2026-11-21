@@ -8,11 +8,11 @@
 
 ## 一图汇总
 
-![投影打怪玩具：效果、意义与当前研究价值有限的判断](assets/projection-play-overview.png)
+![投影打怪玩具：效果、意义与当前研究价值有限的判断](assets/projection-play-overview-v2.png)
 
-[PNG](assets/projection-play-overview.png) · [可编辑SVG](assets/projection-play-overview.svg)
+[PNG](assets/projection-play-overview-v2.png) · [可编辑SVG](assets/projection-play-overview-v2.svg)
 
-原创图解，非原机复现。包括可见效果、童趣解释、产品能力、意义、研究停止依据与未知项。
+修订版加入原帖视频0、4、6、8秒四张画面，直接呈现墙面目标、射击特效、两名孩子参与与家庭视角，帮助回忆。四张画面保持原帖内容，不用AI重绘；实时命中机制仍未核验。其余包括童趣解释、产品能力、意义、研究停止依据与未知项。SVG内嵌图片，可独立保存。
 
 ## 效果与意义
 

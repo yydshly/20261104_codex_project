@@ -291,6 +291,39 @@
       "儿童重新想象城市空间的活动参照；不代表本项目已经有学习或商业成效。"
     ]
   ],
+  "overview": {
+    "revision": 2,
+    "png": "assets/projection-play-overview-v2.png",
+    "svg": "assets/projection-play-overview-v2.svg",
+    "size": [
+      1800,
+      2800
+    ],
+    "source_frames": [
+      {
+        "file": "assets/source-frame-00.jpg",
+        "seconds": 0.0,
+        "caption": "墙上出现卡通怪物"
+      },
+      {
+        "file": "assets/source-frame-04.jpg",
+        "seconds": 4.0,
+        "caption": "射线与爆炸画面"
+      },
+      {
+        "file": "assets/source-frame-06.jpg",
+        "seconds": 6.0,
+        "caption": "两名孩子同场参与"
+      },
+      {
+        "file": "assets/source-frame-08.jpg",
+        "seconds": 8.0,
+        "caption": "家庭中的游戏视角"
+      }
+    ],
+    "source_post": "https://x.com/noni__z/status/2120168976135209223",
+    "note": "原帖附件真实抽帧，未用AI重绘；不等于原机实时命中已核验。"
+  },
   "archive": {
     "title": "苏州小窗灵：今晚谁来做客？",
     "kind": "11页A4纸质活动样稿",

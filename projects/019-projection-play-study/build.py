@@ -5,7 +5,8 @@ import json
 import math
 import shutil
 import hashlib
-from PIL import Image, ImageDraw, ImageFont
+import base64
+from PIL import Image, ImageDraw, ImageFont, ImageOps
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
@@ -104,8 +105,10 @@ def cards(rows, cls='cards'):
     return '<div class="'+cls+'">'+''.join('<article><h3>'+esc(r[0])+'</h3><p>'+esc(r[1])+'</p>'+(''.join('<p class="muted">'+esc(x)+'</p>' for x in r[2:]))+'</article>' for r in rows)+'</div>'
 
 
-# One diagram, two file formats. No generated-photo claim; symbols are original diagrams.
-W,H=1800,2360
+# One diagram, two file formats. Preserve source video frames without AI reconstruction.
+FIGURE_STEM='projection-play-overview-v2'
+W,H=1800,2800
+DRAW_OFFSET=0
 im=Image.new('RGB',(W,H),'#101916')
 draw=ImageDraw.Draw(im)
 svg=[]
@@ -116,17 +119,21 @@ def font(size,bold=False):
         font_cache[k]=ImageFont.truetype('C:/Windows/Fonts/'+('Dengb.ttf' if bold else 'Deng.ttf'),size)
     return font_cache[k]
 def box(x,y,w,h,fill,stroke=None,r=20):
+    y+=DRAW_OFFSET
     if len(fill)==6 and not fill.startswith('#'): fill='#'+fill
     if stroke and len(stroke)==6 and not stroke.startswith('#'): stroke='#'+stroke
     draw.rounded_rectangle((x,y,x+w,y+h),r,fill,stroke,2 if stroke else 1)
     svg.append(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{r}" fill="{fill}"'+(f' stroke="{stroke}" stroke-width="2"' if stroke else '')+'/>')
 def ln(x1,y1,x2,y2,color='#81B6A1',width=3):
+    y1+=DRAW_OFFSET; y2+=DRAW_OFFSET
     draw.line((x1,y1,x2,y2),fill=color,width=width)
     svg.append(f'<path d="M{x1} {y1} L{x2} {y2}" fill="none" stroke="{color}" stroke-width="{width}"/>')
 def ellipse(x,y,w,h,fill,stroke=None):
+    y+=DRAW_OFFSET
     draw.ellipse((x,y,x+w,y+h),fill,stroke,2)
     svg.append(f'<ellipse cx="{x+w/2}" cy="{y+h/2}" rx="{w/2}" ry="{h/2}" fill="{fill}"'+(f' stroke="{stroke}" stroke-width="2"' if stroke else '')+'/>')
 def words(x,y,text,size=30,color='#EAF2EC',bold=False,width=None,line_height=None):
+    y+=DRAW_OFFSET
     f=font(size,bold); line_height=line_height or round(size*1.5)
     lines=[]
     for p in text.split('\n'):
@@ -142,6 +149,14 @@ def words(x,y,text,size=30,color='#EAF2EC',bold=False,width=None,line_height=Non
         svg.append(f'<text x="{x}" y="{yy+size*.88}" fill="{color}" font-size="{size}" font-weight="{700 if bold else 400}" font-family="Microsoft YaHei,DengXian,sans-serif">{esc(t)}</text>')
     return y+len(lines)*line_height
 
+def photo(path,x,y,w,h):
+    y+=DRAW_OFFSET
+    source=Image.open(path).convert('RGB')
+    fitted=ImageOps.contain(source,(w,h),Image.Resampling.LANCZOS)
+    im.paste(fitted,(x+(w-fitted.width)//2,y+(h-fitted.height)//2))
+    encoded=base64.b64encode(path.read_bytes()).decode('ascii')
+    svg.append(f'<image x="{x}" y="{y}" width="{w}" height="{h}" preserveAspectRatio="xMidYMid meet" href="data:image/jpeg;base64,{encoded}"/>')
+
 words(78,58,'019 / 产品理解归档 · 2026-11-21',25,'#9DB4A6')
 words(78,116,'投影打怪玩具',74,bold=True)
 words(78,210,'效果是什么？意义是什么？为什么不再深入？',39,'#C8DFD1')
@@ -149,22 +164,17 @@ box(78,292,1644,132,'273B30')
 words(110,319,'当前判断：新增研究价值有限，归档参考。',43,'#D8F4B7',True)
 words(110,378,'承认娱乐意义；本轮没有找到值得继续投入的具体新增能力或需求。',27,'#BBD1C0')
 
-box(78,456,1644,358,'18261F','#344A3B')
-words(110,484,'看见的效果',35,bold=True)
-# Wall, targets and a handheld tool: an explicitly labelled schematic.
-box(114,548,455,168,'E5EEE7',r=12)
-for xx,yy,color in [(168,589,'#A9C8B5'),(296,579,'#E6C28F'),(423,597,'#C6B3D2')]:
-    box(xx,yy,68,74,color,r=26)
-    ellipse(xx+17,yy+24,8,10,'#233D30');ellipse(xx+43,yy+24,8,10,'#233D30')
-    ln(xx+26,yy+51,xx+39,yy+51,'#233D30',3)
-box(460,732,92,24,'8BB5A4',r=5)
-box(493,754,27,35,'8BB5A4',r=4)
-ln(489,728,456,688,'#AAC3B3',3)
-ln(478,725,440,692,'#AAC3B3',3)
-words(118,756,'原创示意，非原机复现',22,'#9DB4A6')
-words(632,551,'投影目标 → 举起道具瞄准',38,bold=True)
-words(632,612,'画面反馈 → 再次尝试 / 一起玩',38,bold=True)
-words(632,686,'附件可见：墙面角色、玩具枪、儿童动作、多人和爆炸画面。\n未核验：原机每次命中是否与这些变化实时对应。',28,'#BBD1C0',width=1020,line_height=44)
+box(78,456,1644,798,'18261F','#344A3B')
+words(110,484,'原帖游戏画面：先看见，再回忆',35,bold=True)
+words(110,541,'墙面投影、手持道具、射击反馈与共同游戏，回到当时吸引我们的场景。',27,'#BBD1C0')
+FRAME_SPECS=[('00',0.0,'墙上出现卡通怪物'),('04',4.0,'射线与爆炸画面'),('06',6.0,'两名孩子同场参与'),('08',8.0,'家庭中的游戏视角')]
+for i,(stamp,seconds,caption) in enumerate(FRAME_SPECS):
+    x=110+i*400
+    photo(ASSETS/f'source-frame-{stamp}.jpg',x,586,380,522)
+    words(x,1130,caption,28,bold=True)
+    words(x,1174,f'原帖视频 · {seconds:.1f}秒',23,'#9DB4A6')
+words(110,1217,'来源：noni__z / X原帖视频。画面帮助回忆效果；原机实时命中机制未实测。',24,'#BBD1C0')
+DRAW_OFFSET=440
 
 box(78,846,804,434,'18261F','#344A3B')
 box(918,846,804,434,'18261F','#344A3B')
@@ -204,8 +214,13 @@ words(348,2124,'继续立项、追加游戏演示、继续扩展城市纸质任�
 ln(78,2200,1722,2200,'#344A3B',2)
 words(78,2236,'判断对象是“我们继续投入这一方向的收益”，不是所有游戏软件的价值。',27,'#BBD1C0')
 words(78,2295,'来源：原帖 noni__z；Nex 与 LUMOplay 官方资料。完整来源、未知项与历史样稿见网页。',23,'#9DB4A6')
-im.save(ASSETS/'projection-play-overview.png',optimize=True)
-(ASSETS/'projection-play-overview.svg').write_text(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="投影打怪玩具研究汇总"><rect width="100%" height="100%" fill="#101916"/>'+''.join(svg)+'</svg>',encoding='utf-8')
+im.save(ASSETS/(FIGURE_STEM+'.png'),optimize=True)
+(ASSETS/(FIGURE_STEM+'.svg')).write_text(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="投影打怪玩具研究汇总，包含四张原帖游戏画面"><rect width="100%" height="100%" fill="#101916"/>'+''.join(svg)+'</svg>',encoding='utf-8')
+DATA['overview']={
+    'revision':2,'png':'assets/'+FIGURE_STEM+'.png','svg':'assets/'+FIGURE_STEM+'.svg',
+    'size':[W,H], 'source_frames':[{'file':f'assets/source-frame-{stamp}.jpg','seconds':seconds,'caption':caption} for stamp,seconds,caption in FRAME_SPECS],
+    'source_post':DATA['source_post'], 'note':'原帖附件真实抽帧，未用AI重绘；不等于原机实时命中已核验。'
+}
 
 source_pdf=ROOT/'output/pdf/suzhou-window-spirit-print-and-play-v01.pdf'
 source_preview=ROOT/'output/pdf/suzhou-window-spirit-preview.png'
@@ -249,13 +264,13 @@ HTML='''<!doctype html>
 </section>
 <nav class="section-nav" aria-label="本页目录"><a href="#effect">效果</a><a href="#fun">童趣</a><a href="#product">产品能力</a><a href="#meaning">意义</a><a href="#decision">研究判断</a><a href="#history">讨论记录</a><a href="#archive">历史纸样</a><a href="#sources">来源</a></nav>
 
-<section class="overview" id="overview"><div class="section-intro"><p class="eyebrow">一张图，保留当前理解</p><h2>看见效果，也看清为什么停在这里。</h2><p>图中符号是原创理解示意，不是原机实拍或已完成的游戏原型。</p></div>
+<section class="overview" id="overview"><div class="section-intro"><p class="eyebrow">一张图，保留当前理解</p><h2>看见效果，也看清为什么停在这里。</h2><p>上方加入原帖视频0、4、6、8秒的四张游戏画面，帮助回忆投影目标、射击反馈与同场参与。下方保留产品意义和研究判断。</p></div>
 <figure><a href="assets/projection-play-overview.png" id="open-overview" aria-label="放大研究汇总图"><img src="assets/projection-play-overview.png" width="1800" height="2360" alt="投影打怪玩具汇总：墙面目标、道具瞄准与画面反馈；童趣来自惊喜、掌控、挑战、扮演和共玩；意义在娱乐与共同活动；已有方案覆盖且缺少增量与验证，所以当前归档，不再深入。"></a><figcaption>可放大阅读。<a href="assets/projection-play-overview.png" download>保存PNG</a> · <a href="assets/projection-play-overview.svg" download>保存可编辑SVG</a></figcaption></figure></section>
 
 <section id="effect"><div class="section-intro"><p class="eyebrow">效果是什么</p><h2>把家庭墙面变成共同游戏的场景。</h2><p>原帖由noni__z于2026-11-10发布，阿拉伯语正文大意为：听说这是美国第一的游戏，关灯后出现怪物，孩子朝它们射击。排名没有提供出处。<a href="#source-S1">[S1]</a></p></div>
 <div class="flow" aria-label="对产品交互循环的概念理解"><div><b>投影目标</b><span>墙面出现卡通角色</span></div><div><b>道具瞄准</b><span>握持、举起、扣动</span></div><div><b>动作反馈</b><span>画面变化与结果提示</span></div><div><b>继续游戏</b><span>再试一次、比赛或共玩</span></div></div>
 <p class="note">这是一条概念理解，不代表已核实原机的输入识别、命中算法或每个镜头的实时因果。</p>
-<figure class="source-frames"><img src="assets/source-reference-frames.jpg" width="1080" height="494" loading="lazy" alt="原帖视频三个参考帧：孩子瞄准墙上卡通角色、两名孩子同时参与、以及目标变化和爆炸式画面。"><figcaption>原帖附件的代表性抽帧，仅用于分析效果；由左至右约0、4、8秒。来源：<a href="SOURCE_POST" target="_blank" rel="noopener noreferrer">noni__z原帖 [S1]</a>。这是剪辑呈现，不能作为逐次命中或原机功能实测。</figcaption></figure>
+<figure class="source-frames"><img src="assets/source-reference-frames.jpg" width="1080" height="494" loading="lazy" alt="原帖视频三个参考帧：墙上的卡通怪物、射线与爆炸画面，以及另一处家庭投影游戏场景。"><figcaption>原帖附件的代表性抽帧，仅用于分析效果；由左至右约0、4、8秒。来源：<a href="SOURCE_POST" target="_blank" rel="noopener noreferrer">noni__z原帖 [S1]</a>。这是剪辑呈现，不能作为逐次命中或原机功能实测。</figcaption></figure>
 OBSERVATIONS
 <details class="evidence-note"><summary>本轮实际看了什么，没做什么？</summary><p>读取原帖正文和附件信息；取得约12.4秒视频，抽帧观察不同家庭中的墙面目标、道具、儿童动作和特效呈现。没有逐次命中核验、原机购买拆解、传感器识别测试或连续家庭实测。不能把广告式剪辑的呈现效果写成全部功能已证实。</p></details>
 </section>
@@ -311,6 +326,8 @@ replacements={
  'UNKNOWN':unknown,'SOURCES':sources,
 }
 for a,b in replacements.items(): HTML=HTML.replace(a,b)
+HTML=HTML.replace('projection-play-overview.png',FIGURE_STEM+'.png').replace('projection-play-overview.svg',FIGURE_STEM+'.svg').replace('height="2360"','height="2800"')
+HTML=HTML.replace('alt="投影打怪玩具汇总：','alt="含四张原帖游戏画面的投影打怪玩具汇总：')
 HTML=HTML.replace('href="../index.html"','href="../../docs/index.html"')
 (HERE/'index.html').write_text(HTML,encoding='utf-8')
 
@@ -318,7 +335,7 @@ css=(HERE/'styles.css').read_text(encoding='utf-8')
 js=(HERE/'app.js').read_text(encoding='utf-8')
 offline=HTML.replace('  <link rel="stylesheet" href="styles.css">','<style>'+css+'</style>').replace('  <script src="app.js" defer></script>','<script>'+js+'</script>')
 import base64
-offline=offline.replace('src="assets/projection-play-overview.png"','src="data:image/png;base64,'+base64.b64encode((ASSETS/'projection-play-overview.png').read_bytes()).decode('ascii')+'"')
+offline=offline.replace('src="assets/'+FIGURE_STEM+'.png"','src="data:image/png;base64,'+base64.b64encode((ASSETS/(FIGURE_STEM+'.png')).read_bytes()).decode('ascii')+'"')
 (HERE/'offline.html').write_text(offline,encoding='utf-8')
 
 readme=f'''# 019 · {DATA['title']}
@@ -335,7 +352,7 @@ readme=f'''# 019 · {DATA['title']}
 
 [PNG](assets/projection-play-overview.png) · [可编辑SVG](assets/projection-play-overview.svg)
 
-原创图解，非原机复现。包括可见效果、童趣解释、产品能力、意义、研究停止依据与未知项。
+修订版加入原帖视频0、4、6、8秒四张画面，直接呈现墙面目标、射击特效、两名孩子参与与家庭视角，帮助回忆。四张画面保持原帖内容，不用AI重绘；实时命中机制仍未核验。其余包括童趣解释、产品能力、意义、研究停止依据与未知项。SVG内嵌图片，可独立保存。
 
 ## 效果与意义
 
@@ -368,8 +385,9 @@ python projects/019-projection-play-study/build.py
 公开地址以实际部署核对为准：
 https://yydshly.github.io/20261104_codex_project/019-projection-play-study/
 '''
+readme=readme.replace('projection-play-overview.png',FIGURE_STEM+'.png').replace('projection-play-overview.svg',FIGURE_STEM+'.svg')
 (HERE/'README.md').write_text(readme,encoding='utf-8')
-publish=['index.html','offline.html','styles.css','app.js','research-data.json','assets/projection-play-overview.png','assets/projection-play-overview.svg','assets/source-reference-frames.jpg','archive/suzhou-window-spirit-v01.pdf','archive/suzhou-window-spirit-preview.png']
+publish=['index.html','offline.html','styles.css','app.js','research-data.json','assets/'+FIGURE_STEM+'.png','assets/'+FIGURE_STEM+'.svg','assets/source-reference-frames.jpg','archive/suzhou-window-spirit-v01.pdf','archive/suzhou-window-spirit-preview.png']
 (HERE/'publish-files.json').write_text(json.dumps(publish,indent=2),encoding='utf-8')
 for name in publish:
     target=ROOT/'docs/019-projection-play-study'/name

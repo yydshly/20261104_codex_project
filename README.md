@@ -254,11 +254,11 @@ Adam Chernick 个人制作、扩展和组合的网页 3D 实验，部分基于 T
 
 从投影目标、实体道具和动作反馈，理解儿童可能获得的惊喜、掌控、挑战、扮演与共玩。保留产品整体、硬件交互、软件规则、内容与使用流程的分工，以及童趣和家庭活动的意义。
 
-![投影打怪玩具一图汇总，说明效果、产品意义、未知项及当前新增研究价值有限的停止判断](projects/019-projection-play-study/assets/projection-play-overview.png)
+![投影打怪玩具一图汇总，说明效果、产品意义、未知项及当前新增研究价值有限的停止判断](projects/019-projection-play-study/assets/projection-play-overview-v2.png)
 
 当前没有太多新增研究价值，归档参考，停止继续立项与演示。已有产品提供基础能力，尚未识别独特需求或改进；原机、跨日复玩和真实付费未实测。该判断针对本方向的继续投入，不全面否定游戏软件价值。城市文化扩展与11页苏州纸样作为历史讨论保留，未验证的价格、成本与转化假设不作为结果。
 
-[研究与完整讨论](https://yydshly.github.io/20261104_codex_project/019-projection-play-study/) · [一图汇总](projects/019-projection-play-study/assets/projection-play-overview.png) · [本地离线版](projects/019-projection-play-study/offline.html) · [来源与范围](projects/019-projection-play-study/README.md)
+[研究与完整讨论](https://yydshly.github.io/20261104_codex_project/019-projection-play-study/) · [一图汇总](projects/019-projection-play-study/assets/projection-play-overview-v2.png) · [本地离线版](projects/019-projection-play-study/offline.html) · [来源与范围](projects/019-projection-play-study/README.md)
 
 <a id="game-skill-product-guide"></a>
 
