@@ -1,0 +1,47 @@
+{
+  "width": 3600,
+  "height": 5384,
+  "cards": [
+    {
+      "title": "“去哪里找？”",
+      "bottom": 524,
+      "height": 608
+    },
+    {
+      "title": "“哪些人值得关注？”",
+      "bottom": 524,
+      "height": 608
+    },
+    {
+      "title": "“找到后，怎样用？”",
+      "bottom": 582,
+      "height": 608
+    },
+    {
+      "title": "学习与经验研究",
+      "bottom": 474,
+      "height": 500
+    },
+    {
+      "title": "推广作者发现与合作匹配",
+      "bottom": 474,
+      "height": 500
+    },
+    {
+      "title": "有证据、有用途的专题情报",
+      "bottom": 582,
+      "height": 608
+    },
+    {
+      "title": "先验证一个明确的用户任务",
+      "bottom": 582,
+      "height": 608
+    },
+    {
+      "title": "先有有效交付，再谈收费形式",
+      "bottom": 582,
+      "height": 608
+    }
+  ],
+  "examples": 3
+}

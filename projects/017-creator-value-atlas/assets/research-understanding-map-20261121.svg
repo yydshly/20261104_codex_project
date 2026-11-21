@@ -1,0 +1,409 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3600" height="9517" viewBox="0 0 3600 9517" role="img" aria-labelledby="title desc">
+<title id="title">观源研究全景：从创作者地图到独立游戏行动计划</title>
+<desc id="desc">汇总研究范围、平台与领域、二十八位独立游戏作者、五个中文发行案例、推广成本和避坑、二十四项任务及产品验证方向。</desc>
+<rect width="100%" height="100%" fill="#f1f4ef"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<rect x="0" y="0" width="3600" height="480" rx="0" fill="#203d37"/>
+<text x="110" y="89.68" font-size="36" fill="#cce1c7" font-weight="700">观源  /  研究全景与行动方向</text>
+<text x="110" y="222.72" font-size="94" fill="#ffffff" font-weight="700">从创作者地图，到独立游戏行动计划</text>
+<text x="110" y="329.84000000000003" font-size="43" fill="#e2ece5" font-weight="400">我们研究了什么 · 扩展了什么 · 形成了什么判断 · 下一步验证什么</text>
+<text x="110" y="410.4" font-size="30" fill="#c5d6ce" font-weight="400">研究快照 2026.11.21    ｜    已有资料归纳＋编辑判断    ｜    单张可放大阅读</text>
+<text x="126.0" y="591.88" font-size="76" fill="#2f6955" font-weight="700">12</text>
+<text x="126.0" y="662.4" font-size="30" fill="#566961" font-weight="400">平台与分发入口</text>
+<text x="548.5" y="591.88" font-size="76" fill="#2f6955" font-weight="700">12</text>
+<text x="548.5" y="662.4" font-size="30" fill="#566961" font-weight="400">一级领域</text>
+<text x="971.0" y="591.88" font-size="76" fill="#2f6955" font-weight="700">42</text>
+<text x="971.0" y="662.4" font-size="30" fill="#566961" font-weight="400">全站作者样本</text>
+<text x="1393.5" y="591.88" font-size="76" fill="#2f6955" font-weight="700">109</text>
+<text x="1393.5" y="662.4" font-size="30" fill="#566961" font-weight="400">去重来源链接</text>
+<text x="1816.0" y="591.88" font-size="76" fill="#2f6955" font-weight="700">28</text>
+<text x="1816.0" y="662.4" font-size="30" fill="#566961" font-weight="400">独立游戏作者</text>
+<text x="2238.5" y="591.88" font-size="76" fill="#2f6955" font-weight="700">12</text>
+<text x="2238.5" y="662.4" font-size="30" fill="#566961" font-weight="400">其中中文作者</text>
+<text x="2661.0" y="591.88" font-size="76" fill="#2f6955" font-weight="700">56</text>
+<text x="2661.0" y="662.4" font-size="30" fill="#566961" font-weight="400">代表资料</text>
+<text x="3083.5" y="591.88" font-size="76" fill="#2f6955" font-weight="700">5</text>
+<text x="3083.5" y="662.4" font-size="30" fill="#566961" font-weight="400">学习路线</text>
+<text x="110" y="734.28" font-size="31" fill="#566961" font-weight="400">统计口径有重叠：28 位独立游戏作者属于全站 42 位；12 位中文作者属于这 28 位，其中 5 位是发行案例作者。来源数量不代表独立验证次数。</text>
+<rect x="110.0" y="789" width="536.6666666666666" height="175" rx="18" fill="#e1ebe0"/>
+<text x="134.0" y="843.68" font-size="36" fill="#203d37" font-weight="700">01 观察工具</text>
+<text x="134.0" y="899.64" font-size="28" fill="#566961" font-weight="400">Monid 相关采集场景</text>
+<text x="650.6666666666666" y="889.2" font-size="40" fill="#2f6955" font-weight="700">›</text>
+<rect x="678.6666666666666" y="789" width="536.6666666666666" height="175" rx="18" fill="#e1ebe0"/>
+<text x="702.6666666666666" y="843.68" font-size="36" fill="#203d37" font-weight="700">02 追问价值</text>
+<text x="702.6666666666666" y="899.64" font-size="28" fill="#566961" font-weight="400">名单能解决什么问题</text>
+<text x="1219.3333333333333" y="889.2" font-size="40" fill="#2f6955" font-weight="700">›</text>
+<rect x="1247.3333333333333" y="789" width="536.6666666666666" height="175" rx="18" fill="#e1ebe0"/>
+<text x="1271.3333333333333" y="843.68" font-size="36" fill="#203d37" font-weight="700">03 建立地图</text>
+<text x="1271.3333333333333" y="899.64" font-size="28" fill="#566961" font-weight="400">平台 → 领域 → 作者</text>
+<text x="1788.0" y="889.2" font-size="40" fill="#2f6955" font-weight="700">›</text>
+<rect x="1816.0" y="789" width="536.6666666666666" height="175" rx="18" fill="#e1ebe0"/>
+<text x="1840.0" y="843.68" font-size="36" fill="#203d37" font-weight="700">04 做深制作</text>
+<text x="1840.0" y="899.64" font-size="28" fill="#566961" font-weight="400">作品 → 学习 → 练习</text>
+<text x="2356.6666666666665" y="889.2" font-size="40" fill="#2f6955" font-weight="700">›</text>
+<rect x="2384.6666666666665" y="789" width="536.6666666666666" height="175" rx="18" fill="#e1ebe0"/>
+<text x="2408.6666666666665" y="843.68" font-size="36" fill="#203d37" font-weight="700">05 延伸经营</text>
+<text x="2408.6666666666665" y="899.64" font-size="28" fill="#566961" font-weight="400">中文项目与发行复盘</text>
+<text x="2925.333333333333" y="889.2" font-size="40" fill="#2f6955" font-weight="700">›</text>
+<rect x="2953.333333333333" y="789" width="536.6666666666666" height="175" rx="18" fill="#e1ebe0"/>
+<text x="2977.333333333333" y="843.68" font-size="36" fill="#203d37" font-weight="700">06 变成行动</text>
+<text x="2977.333333333333" y="899.64" font-size="28" fill="#566961" font-weight="400">横向比较 → 执行计划</text>
+<text x="110" y="1041.28" font-size="31" fill="#2f6955" font-weight="700">01</text>
+<text x="210" y="1054.16" font-size="57" fill="#203d37" font-weight="700">研究对象与价值框架</text>
+<text x="210" y="1117.16" font-size="32" fill="#566961" font-weight="400">从公开信息出发，先确定用途，再判断谁值得关注、应该看什么、怎样用到任务里。</text>
+<rect x="110.0" y="1165" width="1105.3333333333333" height="583" rx="26" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<rect x="110.0" y="1165" width="9" height="583" rx="4" fill="#2f6955"/>
+<text x="150.0" y="1218.76" font-size="27" fill="#2f6955" font-weight="700">研究范围</text>
+<text x="150.0" y="1284.36" font-size="47" fill="#203d37" font-weight="700">起点：采集能带来什么</text>
+<text x="150.0" y="1362.56" font-size="37" fill="#566961" font-weight="400">研究对象：平台、细分领域、作者、代表作品，以及作者的擅</text>
+<text x="150.0" y="1418.56" font-size="37" fill="#566961" font-weight="400">长方向、关注理由和学习顺序。</text>
+<text x="150.0" y="1492.56" font-size="37" fill="#566961" font-weight="400">Monid 的位置：采集工具候选。流程为发现接口 → 查看字段</text>
+<text x="150.0" y="1548.56" font-size="37" fill="#566961" font-weight="400">与计费 → 限量采样 → 清洗归类 → 人工复核。</text>
+<text x="150.0" y="1622.56" font-size="37" fill="#566961" font-weight="400">当前成果是研究网页与资料结构；尚未接入自动采集，也未建</text>
+<text x="150.0" y="1678.56" font-size="37" fill="#566961" font-weight="400">立完整商业联系人数据库。</text>
+<rect x="1247.3333333333333" y="1165" width="1105.3333333333333" height="583" rx="26" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<rect x="1247.3333333333333" y="1165" width="9" height="583" rx="4" fill="#2f6955"/>
+<text x="1287.3333333333333" y="1218.76" font-size="27" fill="#2f6955" font-weight="700">认识完善</text>
+<text x="1287.3333333333333" y="1284.36" font-size="47" fill="#203d37" font-weight="700">四个维度分别判断</text>
+<text x="1287.3333333333333" y="1362.56" font-size="37" fill="#566961" font-weight="400">体量：同平台、同日期、同口径；专业度：原创内容、实现、</text>
+<text x="1287.3333333333333" y="1418.56" font-size="37" fill="#566961" font-weight="400">作品和复盘。</text>
+<text x="1287.3333333333333" y="1492.56" font-size="37" fill="#566961" font-weight="400">受众匹配：内容与实际目标人群是否吻合；合作效果：回复、</text>
+<text x="1287.3333333333333" y="1548.56" font-size="37" fill="#566961" font-weight="400">报价、履约与结果另行核实。</text>
+<text x="1287.3333333333333" y="1622.56" font-size="37" fill="#566961" font-weight="400">四种组合都可能有价值：大而综合、大而垂直、小而综合、小</text>
+<text x="1287.3333333333333" y="1678.56" font-size="37" fill="#566961" font-weight="400">而垂直。不能只按粉丝量排序。</text>
+<rect x="2384.6666666666665" y="1165" width="1105.3333333333333" height="583" rx="26" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<rect x="2384.6666666666665" y="1165" width="9" height="583" rx="4" fill="#2f6955"/>
+<text x="2424.6666666666665" y="1218.76" font-size="27" fill="#2f6955" font-weight="700">当前判断</text>
+<text x="2424.6666666666665" y="1284.36" font-size="47" fill="#203d37" font-weight="700">价值落在具体任务上</text>
+<text x="2424.6666666666665" y="1362.56" font-size="37" fill="#566961" font-weight="400">学习价值：少走搜索弯路，找到可靠原作、前置知识与阅读顺</text>
+<text x="2424.6666666666665" y="1418.56" font-size="37" fill="#566961" font-weight="400">序。</text>
+<text x="2424.6666666666665" y="1492.56" font-size="37" fill="#566961" font-weight="400">研究价值：将案例条件、成本、证据与适用范围放在一起，帮</text>
+<text x="2424.6666666666665" y="1548.56" font-size="37" fill="#566961" font-weight="400">助作取舍。</text>
+<text x="2424.6666666666665" y="1622.56" font-size="37" fill="#566961" font-weight="400">合作价值：从匹配名单推进到真实沟通、执行与复盘。资料整</text>
+<text x="2424.6666666666665" y="1678.56" font-size="37" fill="#566961" font-weight="400">理的价值已可演示，付费需求仍待验证。</text>
+<text x="110" y="1807.28" font-size="31" fill="#2f6955" font-weight="700">02</text>
+<text x="210" y="1820.16" font-size="57" fill="#203d37" font-weight="700">横向地图：把分散资料放进同一套结构</text>
+<text x="210" y="1883.16" font-size="32" fill="#566961" font-weight="400">覆盖是为了建立入口；各领域深度不同。独立游戏是当前做得最完整的纵向样本。</text>
+<rect x="110.0" y="1931" width="1105.3333333333333" height="583" rx="26" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<rect x="110.0" y="1931" width="9" height="583" rx="4" fill="#2f6955"/>
+<text x="150.0" y="1984.76" font-size="27" fill="#2f6955" font-weight="700">去哪里找</text>
+<text x="150.0" y="2050.36" font-size="47" fill="#203d37" font-weight="700">12 个平台与入口</text>
+<text x="150.0" y="2128.56" font-size="37" fill="#566961" font-weight="400">中文发现：小红书、哔哩哔哩、抖音、知乎、微信公众号。</text>
+<text x="150.0" y="2202.56" font-size="37" fill="#566961" font-weight="400">国际与专业：YouTube、X、GitHub、Substack、独立博客 /</text>
+<text x="150.0" y="2258.56" font-size="37" fill="#566961" font-weight="400">RSS。</text>
+<text x="150.0" y="2332.56" font-size="37" fill="#566961" font-weight="400">游戏专项：机核开发者投稿、itch.io。</text>
+<text x="150.0" y="2406.56" font-size="37" fill="#566961" font-weight="400">按目的、语言和内容形式选择入口，再核对单个作者与原文。</text>
+<rect x="1247.3333333333333" y="1931" width="1105.3333333333333" height="583" rx="26" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<rect x="1247.3333333333333" y="1931" width="9" height="583" rx="4" fill="#2f6955"/>
+<text x="1287.3333333333333" y="1984.76" font-size="27" fill="#2f6955" font-weight="700">如何划分</text>
+<text x="1287.3333333333333" y="2050.36" font-size="47" fill="#203d37" font-weight="700">12 个一级领域</text>
+<text x="1287.3333333333333" y="2128.56" font-size="37" fill="#566961" font-weight="400">AI与软件、科学教育、商业创业、设计影像、游戏开发、职业</text>
+<text x="1287.3333333333333" y="2184.56" font-size="37" fill="#566961" font-weight="400">技能。</text>
+<text x="1287.3333333333333" y="2258.56" font-size="37" fill="#566961" font-weight="400">生活消费、运动户外、美食旅行、家居手作、文化历史、健康</text>
+<text x="1287.3333333333333" y="2314.56" font-size="37" fill="#566961" font-weight="400">科普。</text>
+<text x="1287.3333333333333" y="2388.56" font-size="37" fill="#566961" font-weight="400">当前样本偏技术、教育与商业；消费、运动、旅行等仍有缺口</text>
+<text x="1287.3333333333333" y="2444.56" font-size="37" fill="#566961" font-weight="400">。分类数量不等于每类都已充分研究。</text>
+<rect x="2384.6666666666665" y="1931" width="1105.3333333333333" height="583" rx="26" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<rect x="2384.6666666666665" y="1931" width="9" height="583" rx="4" fill="#2f6955"/>
+<text x="2424.6666666666665" y="1984.76" font-size="27" fill="#2f6955" font-weight="700">如何复用</text>
+<text x="2424.6666666666665" y="2050.36" font-size="47" fill="#203d37" font-weight="700">统一资料卡与工作流</text>
+<text x="2424.6666666666665" y="2128.56" font-size="37" fill="#566961" font-weight="400">作者身份与平台 → 擅长方向 → 代表资料 → 关注理由 → 前置</text>
+<text x="2424.6666666666665" y="2184.56" font-size="37" fill="#566961" font-weight="400">知识 → 阅读、练习与适用范围。</text>
+<text x="2424.6666666666665" y="2258.56" font-size="37" fill="#566961" font-weight="400">每条保留来源、年份 / 版本、访问方式、核对深度与未知字段</text>
+<text x="2424.6666666666665" y="2314.56" font-size="37" fill="#566961" font-weight="400">。跨平台合并需要直接证据。</text>
+<text x="2424.6666666666665" y="2388.56" font-size="37" fill="#566961" font-weight="400">网页已支持搜索、交叉筛选、学习阶段链接、观察清单、最多</text>
+<text x="2424.6666666666665" y="2444.56" font-size="37" fill="#566961" font-weight="400">三人对照，以及研究与进度导出。</text>
+<text x="110" y="2573.28" font-size="31" fill="#2f6955" font-weight="700">03</text>
+<text x="210" y="2586.16" font-size="57" fill="#203d37" font-weight="700">纵向深挖：独立游戏的制作、学习与经营</text>
+<text x="210" y="2649.16" font-size="32" fill="#566961" font-weight="400">28 位作者、56 份代表资料，覆盖六个方向；以下分组用于导航，部分作者也涉及相邻方向。</text>
+<rect x="110.0" y="2697" width="1105.3333333333333" height="527" rx="26" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<rect x="110.0" y="2697" width="9" height="527" rx="4" fill="#2f6955"/>
+<text x="150.0" y="2750.76" font-size="27" fill="#2f6955" font-weight="700">从玩家动作开始</text>
+<text x="150.0" y="2816.36" font-size="47" fill="#203d37" font-weight="700">玩法与关卡</text>
+<text x="150.0" y="2894.56" font-size="37" fill="#566961" font-weight="400">Mark Brown / GMTK、Maddy Thorson；中文：叶梓涛、王</text>
+<text x="150.0" y="2950.56" font-size="37" fill="#566961" font-weight="400">妙一、高鸣。</text>
+<text x="150.0" y="3024.56" font-size="37" fill="#566961" font-weight="400">代表切入点：Celeste 的容错与手感、《写首诗吧》、《WILL</text>
+<text x="150.0" y="3080.56" font-size="37" fill="#566961" font-weight="400">：美好世界》、《蜡烛人》。</text>
+<text x="150.0" y="3154.56" font-size="37" fill="#566961" font-weight="400">先做核心动作与限制，再看引导、反馈和关卡变奏。</text>
+<rect x="1247.3333333333333" y="2697" width="1105.3333333333333" height="527" rx="26" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<rect x="1247.3333333333333" y="2697" width="9" height="527" rx="4" fill="#2f6955"/>
+<text x="1287.3333333333333" y="2750.76" font-size="27" fill="#2f6955" font-weight="700">先完成一个小样</text>
+<text x="1287.3333333333333" y="2816.36" font-size="47" fill="#203d37" font-weight="700">引擎与项目入门</text>
+<text x="1287.3333333333333" y="2894.56" font-size="37" fill="#566961" font-weight="400">Brackeys、GDQuest；中文：麦扣 / M_Studio、凉鞋。</text>
+<text x="1287.3333333333333" y="2968.56" font-size="37" fill="#566961" font-weight="400">代表切入点：Godot / GDScript 小项目、Unity 2D《勇士传</text>
+<text x="1287.3333333333333" y="3024.56" font-size="37" fill="#566961" font-weight="400">说》、QFramework。</text>
+<text x="1287.3333333333333" y="3098.56" font-size="37" fill="#566961" font-weight="400">先补语言并交出闭环；工程变复杂后，再按问题学习框架与分</text>
+<text x="1287.3333333333333" y="3154.56" font-size="37" fill="#566961" font-weight="400">层。</text>
+<rect x="2384.6666666666665" y="2697" width="1105.3333333333333" height="527" rx="26" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<rect x="2384.6666666666665" y="2697" width="9" height="527" rx="4" fill="#2f6955"/>
+<text x="2424.6666666666665" y="2750.76" font-size="27" fill="#2f6955" font-weight="700">按需要深入</text>
+<text x="2424.6666666666665" y="2816.36" font-size="47" fill="#203d37" font-weight="700">程序、算法与图形数学</text>
+<text x="2424.6666666666665" y="2894.56" font-size="37" fill="#566961" font-weight="400">Amit Patel / Red Blob Games、Bob Nystrom、Sebastian L</text>
+<text x="2424.6666666666665" y="2950.56" font-size="37" fill="#566961" font-weight="400">ague、Freya Holmér；中文：冯乐乐。</text>
+<text x="2424.6666666666665" y="3024.56" font-size="37" fill="#566961" font-weight="400">代表切入点：寻路与六角格、游戏循环与状态机、游戏数学、</text>
+<text x="2424.6666666666665" y="3080.56" font-size="37" fill="#566961" font-weight="400">《Unity Shader入门精要》。</text>
+<text x="2424.6666666666665" y="3154.56" font-size="37" fill="#566961" font-weight="400">由实际玩法问题驱动，只补当前需要的算法和技术。</text>
+<rect x="110.0" y="3256" width="1105.3333333333333" height="583" rx="26" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<rect x="110.0" y="3256" width="9" height="583" rx="4" fill="#2f6955"/>
+<text x="150.0" y="3309.76" font-size="27" fill="#2f6955" font-weight="700">先让玩家看懂</text>
+<text x="150.0" y="3375.36" font-size="47" fill="#203d37" font-weight="700">美术与工具</text>
+<text x="150.0" y="3453.56" font-size="37" fill="#566961" font-weight="400">Pedro Medeiros / Saint11、Kenney；中文：Los-muteki /</text>
+<text x="150.0" y="3509.56" font-size="37" fill="#566961" font-weight="400">像素美術實驗室。</text>
+<text x="150.0" y="3583.56" font-size="37" fill="#566961" font-weight="400">代表切入点：像素图解、原型素材、Aseprite 工具与转换示范</text>
+<text x="150.0" y="3639.56" font-size="37" fill="#566961" font-weight="400">。</text>
+<text x="150.0" y="3713.56" font-size="37" fill="#566961" font-weight="400">先保证轮廓、反馈与视觉一致，再增加表现复杂度。</text>
+<rect x="1247.3333333333333" y="3256" width="1105.3333333333333" height="583" rx="26" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<rect x="1247.3333333333333" y="3256" width="9" height="583" rx="4" fill="#2f6955"/>
+<text x="1287.3333333333333" y="3309.76" font-size="27" fill="#2f6955" font-weight="700">把操作变得可感知</text>
+<text x="1287.3333333333333" y="3375.36" font-size="47" fill="#203d37" font-weight="700">声音反馈</text>
+<text x="1287.3333333333333" y="3453.56" font-size="37" fill="#566961" font-weight="400">Akash Thakkar。</text>
+<text x="1287.3333333333333" y="3527.56" font-size="37" fill="#566961" font-weight="400">代表切入点：动作反馈、声音层次、音频协作与制作复盘。</text>
+<text x="1287.3333333333333" y="3601.56" font-size="37" fill="#566961" font-weight="400">先为关键动作补反馈，再考虑层次与协作；中文专业声音作者</text>
+<text x="1287.3333333333333" y="3657.56" font-size="37" fill="#566961" font-weight="400">仍待补充。</text>
+<rect x="2384.6666666666665" y="3256" width="1105.3333333333333" height="583" rx="26" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<rect x="2384.6666666666665" y="3256" width="9" height="583" rx="4" fill="#2f6955"/>
+<text x="2424.6666666666665" y="3309.76" font-size="27" fill="#2f6955" font-weight="700">从做出来到发出去</text>
+<text x="2424.6666666666665" y="3375.36" font-size="47" fill="#203d37" font-weight="700">制作与发行</text>
+<text x="2424.6666666666665" y="3453.56" font-size="37" fill="#566961" font-weight="400">Tom Francis、Derek Yu、Rami Ismail、Chris Zukowski、Si</text>
+<text x="2424.6666666666665" y="3509.56" font-size="37" fill="#566961" font-weight="400">mon Carless。</text>
+<text x="2424.6666666666665" y="3583.56" font-size="37" fill="#566961" font-weight="400">中文延伸：亚恒、夜神不说话、叶千落、传传、ash / 蓝桃游戏</text>
+<text x="2424.6666666666665" y="3639.56" font-size="37" fill="#566961" font-weight="400">。</text>
+<text x="2424.6666666666665" y="3713.56" font-size="37" fill="#566961" font-weight="400">代表问题：控制范围、原型试玩、商店表达、渠道匹配、合作</text>
+<text x="2424.6666666666665" y="3769.56" font-size="37" fill="#566961" font-weight="400">分工与现金流。</text>
+<rect x="110" y="3871" width="3380" height="250" rx="24" fill="#e1ebe0"/>
+<text x="145" y="3931.2" font-size="40" fill="#203d37" font-weight="700">5 条学习路线 · 22 个学习阶段</text>
+<text x="145" y="3996.8" font-size="35" fill="#203d37" font-weight="400">零基础做成小作品 / 已有原型继续打磨 / 准备公开与发行 / 中文起步路线 / 中文发行与商业化。</text>
+<text x="145" y="4049.8" font-size="35" fill="#203d37" font-weight="400">共通顺序：定范围 → 做闭环 → 调手感 → 补视觉与声音 → 陌生玩家测试 → 公开与复盘；各路线按当前问题进入。</text>
+<text x="110" y="4188.28" font-size="31" fill="#2f6955" font-weight="700">04</text>
+<text x="210" y="4201.16" font-size="57" fill="#203d37" font-weight="700">五个中文亲历案例：比较条件，而非照抄结果</text>
+<text x="210" y="4264.16" font-size="32" fill="#566961" font-weight="400">横比团队、动作、现金、人力与可借用部分。以下数字属于各自的历史记录，不是当前报价或效果保证。</text>
+<rect x="110" y="4312" width="620" height="90" rx="0" fill="#203d37"/>
+<text x="134" y="4361.92" font-size="34" fill="#ffffff" font-weight="700">案例与角色</text>
+<rect x="730" y="4312" width="850" height="90" rx="0" fill="#203d37"/>
+<text x="754" y="4361.92" font-size="34" fill="#ffffff" font-weight="700">做过什么</text>
+<rect x="1580" y="4312" width="940" height="90" rx="0" fill="#203d37"/>
+<text x="1604" y="4361.92" font-size="34" fill="#ffffff" font-weight="700">现金 / 人力口径</text>
+<rect x="2520" y="4312" width="970" height="90" rx="0" fill="#203d37"/>
+<text x="2544" y="4361.92" font-size="34" fill="#ffffff" font-weight="700">单人可借用与避坑</text>
+<rect x="110" y="4402" width="620" height="203" rx="0" fill="#e7eee6" stroke="#cfdbd1" stroke-width="2"/>
+<text x="134" y="4455.16" font-size="32" fill="#203d37" font-weight="700">亚恒 ·《拣爱》</text>
+<text x="134" y="4504.16" font-size="32" fill="#203d37" font-weight="700">2018 宣传 / 2021 移植</text>
+<text x="134" y="4553.16" font-size="32" fill="#203d37" font-weight="700">制作人主导推广</text>
+<rect x="730" y="4402" width="850" height="203" rx="0" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<text x="754" y="4455.16" font-size="32" fill="#566961" font-weight="400">明确作品特色，自制宣传片，联系媒体；移植时重查名称</text>
+<text x="754" y="4504.16" font-size="32" fill="#566961" font-weight="400">、平台和付费入口。</text>
+<rect x="1580" y="4402" width="940" height="203" rx="0" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<text x="1604" y="4455.16" font-size="32" fill="#566961" font-weight="400">2018 自述未向媒体付推广费；宣传片学习与制作约两天。全套</text>
+<text x="1604" y="4504.16" font-size="32" fill="#566961" font-weight="400">宣发费用、其余工时未披露。</text>
+<rect x="2520" y="4402" width="970" height="203" rx="0" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<text x="2544" y="4455.16" font-size="32" fill="#566961" font-weight="400">复用一组实机物料＋匹配联系；先跑通一个平台。零媒体付款仍</text>
+<text x="2544" y="4504.16" font-size="32" fill="#566961" font-weight="400">有劳动成本；该案例不证明全流程由单人完成。</text>
+<rect x="110" y="4605" width="620" height="203" rx="0" fill="#e7eee6" stroke="#cfdbd1" stroke-width="2"/>
+<text x="134" y="4658.16" font-size="32" fill="#203d37" font-weight="700">叶千落 ·《戴森球计划》</text>
+<text x="134" y="4707.16" font-size="32" fill="#203d37" font-weight="700">2021 项目访谈</text>
+<text x="134" y="4756.16" font-size="32" fill="#203d37" font-weight="700">研发团队＋专业发行</text>
+<rect x="730" y="4605" width="850" height="203" rx="0" fill="#f8faf7" stroke="#cfdbd1" stroke-width="2"/>
+<text x="754" y="4658.16" font-size="32" fill="#566961" font-weight="400">类型玩家测试、社群维护、展会、配音文案协助与海外联</text>
+<text x="754" y="4707.16" font-size="32" fill="#566961" font-weight="400">系，按节点协作。</text>
+<rect x="1580" y="4605" width="940" height="203" rx="0" fill="#f8faf7" stroke="#cfdbd1" stroke-width="2"/>
+<text x="1604" y="4658.16" font-size="32" fill="#566961" font-weight="400">所读资料未披露宣发总预算、单渠道回报和完整工时。存在多</text>
+<text x="1604" y="4707.16" font-size="32" fill="#566961" font-weight="400">人分工。</text>
+<rect x="2520" y="4605" width="970" height="203" rx="0" fill="#f8faf7" stroke="#cfdbd1" stroke-width="2"/>
+<text x="2544" y="4658.16" font-size="32" fill="#566961" font-weight="400">借用目标玩家测试、排期和持续沟通；一次经营一个主渠道。团</text>
+<text x="2544" y="4707.16" font-size="32" fill="#566961" font-weight="400">队成绩不能归因于某一个动作。</text>
+<rect x="110" y="4808" width="620" height="203" rx="0" fill="#e7eee6" stroke="#cfdbd1" stroke-width="2"/>
+<text x="134" y="4861.16" font-size="32" fill="#203d37" font-weight="700">传传 ·《出将入相》</text>
+<text x="134" y="4910.16" font-size="32" fill="#203d37" font-weight="700">2025 首周复盘</text>
+<text x="134" y="4959.16" font-size="32" fill="#203d37" font-weight="700">制作人与发行合作</text>
+<rect x="730" y="4808" width="850" height="203" rx="0" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<text x="754" y="4861.16" font-size="32" fill="#566961" font-weight="400">线下试玩、新品节、结识发行伙伴；回看 Demo 完成度</text>
+<text x="754" y="4910.16" font-size="32" fill="#566961" font-weight="400">、活动时机与回本。</text>
+<rect x="1580" y="4808" width="940" height="203" rx="0" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<text x="1604" y="4861.16" font-size="32" fill="#566961" font-weight="400">一次展位与背板免费；差旅、住宿、人工与完整发行成本未披</text>
+<text x="1604" y="4910.16" font-size="32" fill="#566961" font-weight="400">露，项目开发人数也未披露。</text>
+<rect x="2520" y="4808" width="970" height="203" rx="0" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<text x="2544" y="4861.16" font-size="32" fill="#566961" font-weight="400">体验完整、日期与响应能力合适时再参展。免费展位仍有成本；</text>
+<text x="2544" y="4910.16" font-size="32" fill="#566961" font-weight="400">有曝光也可能未覆盖投入，首周不是终局。</text>
+<rect x="110" y="5011" width="620" height="203" rx="0" fill="#e7eee6" stroke="#cfdbd1" stroke-width="2"/>
+<text x="134" y="5064.16" font-size="32" fill="#203d37" font-weight="700">夜神 ·《拯救大魔王2：逆流》</text>
+<text x="134" y="5113.16" font-size="32" fill="#203d37" font-weight="700">2020 发售约 18 天</text>
+<text x="134" y="5162.16" font-size="32" fill="#203d37" font-weight="700">团队作品，作者承担宣发修复</text>
+<rect x="730" y="5011" width="850" height="203" rx="0" fill="#f8faf7" stroke="#cfdbd1" stroke-width="2"/>
+<text x="754" y="5064.16" font-size="32" fill="#566961" font-weight="400">内容传播、首发宣传和上线修复同时进行；询问主播报价</text>
+<text x="754" y="5113.16" font-size="32" fill="#566961" font-weight="400">未成交，后来转做自己的内容。</text>
+<rect x="1580" y="5011" width="940" height="203" rx="0" fill="#f8faf7" stroke="#cfdbd1" stroke-width="2"/>
+<text x="1604" y="5064.16" font-size="32" fill="#566961" font-weight="400">约 1.47 万元是当时估算的团队结算额，不是推广费或利润；自</text>
+<text x="1604" y="5113.16" font-size="32" fill="#566961" font-weight="400">述首周修复 101 个问题。</text>
+<rect x="2520" y="5011" width="970" height="203" rx="0" fill="#f8faf7" stroke="#cfdbd1" stroke-width="2"/>
+<text x="2544" y="5064.16" font-size="32" fill="#566961" font-weight="400">提前准备公告、常见问题与修复时段；避免每日内容和抢修同时</text>
+<text x="2544" y="5113.16" font-size="32" fill="#566961" font-weight="400">超载。一次高额询价不等于必需支出。</text>
+<rect x="110" y="5214" width="620" height="203" rx="0" fill="#e7eee6" stroke="#cfdbd1" stroke-width="2"/>
+<text x="134" y="5267.16" font-size="32" fill="#203d37" font-weight="700">ash ·《逃离永明岛》</text>
+<text x="134" y="5316.16" font-size="32" fill="#203d37" font-weight="700">2024 阶段账本 / 2025 首周</text>
+<text x="134" y="5365.16" font-size="32" fill="#203d37" font-weight="700">明确的单人作品</text>
+<rect x="730" y="5214" width="850" height="203" rx="0" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<text x="754" y="5267.16" font-size="32" fill="#566961" font-weight="400">开发日志与试玩，未做付费宣发；首周结果低于预期，保</text>
+<text x="754" y="5316.16" font-size="32" fill="#566961" font-weight="400">留失利与支出复盘。</text>
+<rect x="1580" y="5214" width="940" height="203" rx="0" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<text x="1604" y="5267.16" font-size="32" fill="#566961" font-weight="400">前七个月直接支出约 1,579 美元，属于开发账本，排除生活与</text>
+<text x="1604" y="5316.16" font-size="32" fill="#566961" font-weight="400">机会成本；自述约一年半、2,700 多小时。</text>
+<rect x="2520" y="5214" width="970" height="203" rx="0" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<text x="2544" y="5267.16" font-size="32" fill="#566961" font-weight="400">现金、工时和生活资金分账，活动先写目标。低直接支出仍有大</text>
+<text x="2544" y="5316.16" font-size="32" fill="#566961" font-weight="400">量时间投入；案例不能证明买量会改善销量。</text>
+<text x="110" y="5477.4" font-size="30" fill="#566961" font-weight="400">案例依据：亚恒 / 叶千落的 GameRes 本人署名或明确署源内容；传传的触乐原创；夜神与蓝桃的机核投稿。视频按完整文字稿核对，公开财务数字未独立审计。网页保留每案两份代表资料。</text>
+<text x="110" y="5557.28" font-size="31" fill="#2f6955" font-weight="700">05</text>
+<text x="210" y="5570.16" font-size="57" fill="#203d37" font-weight="700">适合一个人、低预算的推广方法与成本</text>
+<text x="210" y="5633.16" font-size="32" fill="#566961" font-weight="400">优先级与批次数量属于本项目的起步建议，需要在自己的作品上检验。</text>
+<rect x="110.0" y="5681" width="1105.3333333333333" height="639" rx="26" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<rect x="110.0" y="5681" width="9" height="639" rx="4" fill="#2f6955"/>
+<text x="150.0" y="5734.76" font-size="27" fill="#2f6955" font-weight="700">方法</text>
+<text x="150.0" y="5800.36" font-size="47" fill="#203d37" font-weight="700">六种方法，按投入推进</text>
+<text x="150.0" y="5878.56" font-size="37" fill="#566961" font-weight="400">① 实机物料：一句话玩法＋截图＋短片，重复使用。② 类型试</text>
+<text x="150.0" y="5934.56" font-size="37" fill="#566961" font-weight="400">玩：先约 3–5 位陌生目标玩家，找反复出现的卡点。</text>
+<text x="150.0" y="6008.56" font-size="37" fill="#566961" font-weight="400">③ 定向联系：先列 10 个匹配作者或媒体，分两批各 5 个；逐</text>
+<text x="150.0" y="6064.56" font-size="37" fill="#566961" font-weight="400">个改写联系理由。④ 适量开发日志：一个主渠道、固定回复时</text>
+<text x="150.0" y="6120.56" font-size="37" fill="#566961" font-weight="400">段。</text>
+<text x="150.0" y="6194.56" font-size="37" fill="#566961" font-weight="400">⑤ 有条件再参加 Demo 活动或展会。⑥ 确认瓶颈后，才做有</text>
+<text x="150.0" y="6250.56" font-size="37" fill="#566961" font-weight="400">上限的付费实验或外包。</text>
+<rect x="1247.3333333333333" y="5681" width="1105.3333333333333" height="639" rx="26" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<rect x="1247.3333333333333" y="5681" width="9" height="639" rx="4" fill="#2f6955"/>
+<text x="1287.3333333333333" y="5734.76" font-size="27" fill="#2f6955" font-weight="700">成本口径</text>
+<text x="1287.3333333333333" y="5800.36" font-size="47" fill="#203d37" font-weight="700">现金、时间、生活分开算</text>
+<text x="1287.3333333333333" y="5878.56" font-size="37" fill="#566961" font-weight="400">0 元方案：已有工具与合法素材时，自制、主动招试玩和免费</text>
+<text x="1287.3333333333333" y="5934.56" font-size="37" fill="#566961" font-weight="400">联系可不新增推广现金，但仍占用时间。</text>
+<text x="1287.3333333333333" y="6008.56" font-size="37" fill="#566961" font-weight="400">500 元仅为可改的推广上限示例：40% 核心表达、20% 单次</text>
+<text x="1287.3333333333333" y="6064.56" font-size="37" fill="#566961" font-weight="400">实验、40% 预备金；这些是留额度，不是报价或必须花完的钱</text>
+<text x="1287.3333333333333" y="6120.56" font-size="37" fill="#566961" font-weight="400">。</text>
+<text x="1287.3333333333333" y="6194.56" font-size="37" fill="#566961" font-weight="400">另列 Steam 应用费、开发与素材、自己的工时、生活资金。官</text>
+<text x="1287.3333333333333" y="6250.56" font-size="37" fill="#566961" font-weight="400">方应用费为每款 100 美元或等值，返还须满足官方条件。</text>
+<rect x="2384.6666666666665" y="5681" width="1105.3333333333333" height="639" rx="26" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<rect x="2384.6666666666665" y="5681" width="9" height="639" rx="4" fill="#2f6955"/>
+<text x="2424.6666666666665" y="5734.76" font-size="27" fill="#2f6955" font-weight="700">避坑</text>
+<text x="2424.6666666666665" y="5800.36" font-size="47" fill="#203d37" font-weight="700">六项必须检查的坑</text>
+<text x="2424.6666666666665" y="5878.56" font-size="37" fill="#566961" font-weight="400">① 把自制算成零成本。② 为赶活动推出尚不可玩的 Demo。</text>
+<text x="2424.6666666666665" y="5934.56" font-size="37" fill="#566961" font-weight="400">③ 把愿望单、销量、团队到款和净利润混算。</text>
+<text x="2424.6666666666665" y="6008.56" font-size="37" fill="#566961" font-weight="400">④ 单人同时维护所有渠道。⑤ 照抄过时名单，或未核实身份就</text>
+<text x="2424.6666666666665" y="6064.56" font-size="37" fill="#566961" font-weight="400">发 Key。⑥ 奖励换评测、操纵评分。</text>
+<text x="2424.6666666666665" y="6138.56" font-size="37" fill="#566961" font-weight="400">所有传播都记录版本、现金、工时、反馈和同期其他事件；对</text>
+<text x="2424.6666666666665" y="6194.56" font-size="37" fill="#566961" font-weight="400">方无回应时，先查匹配和物料，再决定是否继续。</text>
+<text x="110" y="6379.28" font-size="31" fill="#2f6955" font-weight="700">06</text>
+<text x="210" y="6392.16" font-size="57" fill="#203d37" font-weight="700">能照着执行的发行计划：12 周准备＋上线后 30 天</text>
+<text x="210" y="6455.16" font-size="32" fill="#566961" font-weight="400">假设已有 PC 可演示原型、面向 Steam 小体量买断。周数用于发行安排，剩余开发工期和代码修复另排；条件未满足就顺延。</text>
+<rect x="110.0" y="6503" width="821.0" height="528" rx="26" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<rect x="110.0" y="6503" width="9" height="528" rx="4" fill="#2f6955"/>
+<text x="150.0" y="6556.76" font-size="27" fill="#2f6955" font-weight="700">1｜第 1–2 周</text>
+<text x="150.0" y="6622.36" font-size="47" fill="#203d37" font-weight="700">确定受众与范围</text>
+<text x="150.0" y="6696.16" font-size="32" fill="#566961" font-weight="400">1. 写一句话玩法、目标玩家与 3 个可比作品。</text>
+<text x="150.0" y="6763.16" font-size="32" fill="#566961" font-weight="400">2. 分列开发、推广、生活与工时预算。</text>
+<text x="150.0" y="6830.16" font-size="32" fill="#566961" font-weight="400">3. 准备 Steam 账号、应用费与平台状态记录。</text>
+<text x="150.0" y="6897.16" font-size="32" fill="#566961" font-weight="400">产物：定位页与分账本。</text>
+<text x="150.0" y="6964.16" font-size="32" fill="#566961" font-weight="400">关口：能说清核心体验和暂不做的内容。</text>
+<rect x="963.0" y="6503" width="821.0" height="528" rx="26" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<rect x="963.0" y="6503" width="9" height="528" rx="4" fill="#2f6955"/>
+<text x="1003.0" y="6556.76" font-size="27" fill="#2f6955" font-weight="700">2｜第 3–4 周</text>
+<text x="1003.0" y="6622.36" font-size="47" fill="#203d37" font-weight="700">准备物料与商店页</text>
+<text x="1003.0" y="6696.16" font-size="32" fill="#566961" font-weight="400">1. 做约 30–60 秒实机短片及截图。</text>
+<text x="1003.0" y="6763.16" font-size="32" fill="#566961" font-weight="400">2. 核对名称、描述、功能、语言和价格，送审。</text>
+<text x="1003.0" y="6830.16" font-size="32" fill="#566961" font-weight="400">3. 页面公开后记录日期，设来源链接和反馈口。</text>
+<text x="1003.0" y="6897.16" font-size="32" fill="#566961" font-weight="400">产物：物料包与商店落点。</text>
+<text x="1003.0" y="6964.16" font-size="32" fill="#566961" font-weight="400">关口：玩家能复述玩法，承诺与版本一致。</text>
+<rect x="1816.0" y="6503" width="821.0" height="528" rx="26" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<rect x="1816.0" y="6503" width="9" height="528" rx="4" fill="#2f6955"/>
+<text x="1856.0" y="6556.76" font-size="27" fill="#2f6955" font-weight="700">3｜第 5–6 周</text>
+<text x="1856.0" y="6622.36" font-size="47" fill="#203d37" font-weight="700">陌生玩家试玩</text>
+<text x="1856.0" y="6696.16" font-size="32" fill="#566961" font-weight="400">1. 约首批 3–5 位类型玩家，少解释地观察。</text>
+<text x="1856.0" y="6763.16" font-size="32" fill="#566961" font-weight="400">2. 记录卡点，修最影响理解处，再找新玩家。</text>
+<text x="1856.0" y="6830.16" font-size="32" fill="#566961" font-weight="400">3. 备版本、说明、已知问题，检查异机运行。</text>
+<text x="1856.0" y="6897.16" font-size="32" fill="#566961" font-weight="400">产物：观察与修正记录。</text>
+<text x="1856.0" y="6964.16" font-size="32" fill="#566961" font-weight="400">关口：核心流程可独立完成，无阻断。</text>
+<rect x="2669.0" y="6503" width="821.0" height="528" rx="26" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<rect x="2669.0" y="6503" width="9" height="528" rx="4" fill="#2f6955"/>
+<text x="2709.0" y="6556.76" font-size="27" fill="#2f6955" font-weight="700">4｜第 7–8 周</text>
+<text x="2709.0" y="6622.36" font-size="47" fill="#203d37" font-weight="700">联系与渠道复盘</text>
+<text x="2709.0" y="6696.16" font-size="32" fill="#566961" font-weight="400">1. 筛 10 个匹配对象，核对公开联系入口。</text>
+<text x="2709.0" y="6763.16" font-size="32" fill="#566961" font-weight="400">2. 分两批各 5 个联系，记录版本与访问方式。</text>
+<text x="2709.0" y="6830.16" font-size="32" fill="#566961" font-weight="400">3. 每批复盘；有实质新信息再跟进一次。</text>
+<text x="2709.0" y="6897.16" font-size="32" fill="#566961" font-weight="400">产物：匹配与发送记录。</text>
+<text x="2709.0" y="6964.16" font-size="32" fill="#566961" font-weight="400">关口：资料可访问，联系理由具体。</text>
+<rect x="110.0" y="7063" width="821.0" height="528" rx="26" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<rect x="110.0" y="7063" width="9" height="528" rx="4" fill="#2f6955"/>
+<text x="150.0" y="7116.76" font-size="27" fill="#2f6955" font-weight="700">5｜第 9–10 周</text>
+<text x="150.0" y="7182.36" font-size="47" fill="#203d37" font-weight="700">活动或常规试玩</text>
+<text x="150.0" y="7256.16" font-size="32" fill="#566961" font-weight="400">1. 核对本届日期、资格、审核与差旅成本。</text>
+<text x="150.0" y="7323.16" font-size="32" fill="#566961" font-weight="400">2. 准备演示与回复；不合适就做试玩更新。</text>
+<text x="150.0" y="7390.16" font-size="32" fill="#566961" font-weight="400">3. 按同长度窗口记花费、反馈和数据变化。</text>
+<text x="150.0" y="7457.16" font-size="32" fill="#566961" font-weight="400">产物：活动决定及观察表。</text>
+<text x="150.0" y="7524.16" font-size="32" fill="#566961" font-weight="400">关口：Demo、日期与响应能力都合适。</text>
+<rect x="963.0" y="7063" width="821.0" height="528" rx="26" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<rect x="963.0" y="7063" width="9" height="528" rx="4" fill="#2f6955"/>
+<text x="1003.0" y="7116.76" font-size="27" fill="#2f6955" font-weight="700">6｜第 11 周及更早</text>
+<text x="1003.0" y="7182.36" font-size="47" fill="#203d37" font-weight="700">发布前检查</text>
+<text x="1003.0" y="7256.16" font-size="32" fill="#566961" font-weight="400">1. 倒排商店与版本审核，留修改缓冲。</text>
+<text x="1003.0" y="7323.16" font-size="32" fill="#566961" font-weight="400">2. 干净安装测试启动、存档、退出与核心流程。</text>
+<text x="1003.0" y="7390.16" font-size="32" fill="#566961" font-weight="400">3. 核价格与折扣，备公告、FAQ 和修复时段。</text>
+<text x="1003.0" y="7457.16" font-size="32" fill="#566961" font-weight="400">产物：近终版与首发物料。</text>
+<text x="1003.0" y="7524.16" font-size="32" fill="#566961" font-weight="400">关口：审核、等待期和关键体验均满足。</text>
+<rect x="1816.0" y="7063" width="821.0" height="528" rx="26" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<rect x="1816.0" y="7063" width="9" height="528" rx="4" fill="#2f6955"/>
+<text x="1856.0" y="7116.76" font-size="27" fill="#2f6955" font-weight="700">7｜第 12 周，条件满足后</text>
+<text x="1856.0" y="7182.36" font-size="47" fill="#203d37" font-weight="700">发布与响应</text>
+<text x="1856.0" y="7256.16" font-size="32" fill="#566961" font-weight="400">1. 选择自己能处理问题的时间执行发布。</text>
+<text x="1856.0" y="7323.16" font-size="32" fill="#566961" font-weight="400">2. 发布已准备公告，更新各入口和原联系人。</text>
+<text x="1856.0" y="7390.16" font-size="32" fill="#566961" font-weight="400">3. 固定查看启动、购买和存档问题，发修复说明。</text>
+<text x="1856.0" y="7457.16" font-size="32" fill="#566961" font-weight="400">产物：可买可玩的版本。</text>
+<text x="1856.0" y="7524.16" font-size="32" fill="#566961" font-weight="400">关口：严重阻断时先修复、告知玩家。</text>
+<rect x="2669.0" y="7063" width="821.0" height="528" rx="26" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<rect x="2669.0" y="7063" width="9" height="528" rx="4" fill="#2f6955"/>
+<text x="2709.0" y="7116.76" font-size="27" fill="#2f6955" font-weight="700">8｜上线后第 1 / 7 / 30 天</text>
+<text x="2709.0" y="7182.36" font-size="47" fill="#203d37" font-weight="700">对账与下一步</text>
+<text x="2709.0" y="7256.16" font-size="32" fill="#566961" font-weight="400">1. 保存销量、退款、愿望单、来源和玩家问题。</text>
+<text x="2709.0" y="7323.16" font-size="32" fill="#566961" font-weight="400">2. 区分未结算部分、团队到款、费用与工时。</text>
+<text x="2709.0" y="7390.16" font-size="32" fill="#566961" font-weight="400">3. 只选一个下一步假设，额度用尽先停新增支出。</text>
+<text x="2709.0" y="7457.16" font-size="32" fill="#566961" font-weight="400">产物：三个节点复盘。</text>
+<text x="2709.0" y="7524.16" font-size="32" fill="#566961" font-weight="400">关口：知道缺失数据与成本范围再加投入。</text>
+<rect x="110" y="7623" width="3380" height="315" rx="24" fill="#203d37"/>
+<text x="146" y="7685.08" font-size="41" fill="#ffffff" font-weight="700">执行工具与时间边界</text>
+<text x="146" y="7749.92" font-size="34" fill="#e1ece5" font-weight="400">网页内 24 项可勾选任务，可改项目名、推广上限和每周时间，保存到当前浏览器，并导出带原文引用的 JSON；另有联系模板、传播记录字段和分类账本。</text>
+<text x="146" y="7801.92" font-size="34" fill="#e1ece5" font-weight="400">默认每周 5 小时：12 周容量 60 小时，发行前推广任务预算 43 小时，余 17 小时缓冲；上线后记录与复盘另预留 6 小时。上述工时是编辑编排，开发、修复和日常维护另排。</text>
+<text x="110" y="8005.28" font-size="31" fill="#566961" font-weight="400">平台约束按 2026.11.21 核对：Steam Direct 官网对首几款作品写明付费至发行至少 21 天；即将推出页面至少公开两周；商店页建议至少提前 7 个工作日送审。新品节每款仅一届，日期与资格需另核。以当前官方页面和应用后台为准。</text>
+<text x="110" y="8092.28" font-size="31" fill="#2f6955" font-weight="700">07</text>
+<text x="210" y="8105.16" font-size="57" fill="#203d37" font-weight="700">方向：先证明一个场景有用，再考虑产品化</text>
+<text x="210" y="8168.16" font-size="32" fill="#566961" font-weight="400">优先服务中文、单人或小团队、低预算的独立游戏开发者，把资料与实际动作形成闭环。</text>
+<rect x="110.0" y="8216" width="1105.3333333333333" height="583" rx="26" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<rect x="110.0" y="8216" width="9" height="583" rx="4" fill="#2f6955"/>
+<text x="150.0" y="8269.76" font-size="27" fill="#2f6955" font-weight="700">产品假设</text>
+<text x="150.0" y="8335.36" font-size="47" fill="#203d37" font-weight="700">产品价值：三层递进</text>
+<text x="150.0" y="8413.56" font-size="37" fill="#566961" font-weight="400">信息导航 → 专题目录、来源档案与学习路径；潜在收费依据是</text>
+<text x="150.0" y="8469.56" font-size="37" fill="#566961" font-weight="400">节省筛选时间、保持更新。</text>
+<text x="150.0" y="8543.56" font-size="37" fill="#566961" font-weight="400">细分研究 → 项目匹配、案例横比、适用条件与决策材料；候选</text>
+<text x="150.0" y="8599.56" font-size="37" fill="#566961" font-weight="400">形式是定制报告或持续研究。</text>
+<text x="150.0" y="8673.56" font-size="37" fill="#566961" font-weight="400">合作执行 → 核实合作条件、推进进度、记录结果；候选形式是</text>
+<text x="150.0" y="8729.56" font-size="37" fill="#566961" font-weight="400">明确范围的服务费。三种付费价值均待真实需求验证。</text>
+<rect x="1247.3333333333333" y="8216" width="1105.3333333333333" height="583" rx="26" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<rect x="1247.3333333333333" y="8216" width="9" height="583" rx="4" fill="#2f6955"/>
+<text x="1287.3333333333333" y="8269.76" font-size="27" fill="#2f6955" font-weight="700">优先方向</text>
+<text x="1287.3333333333333" y="8335.36" font-size="47" fill="#203d37" font-weight="700">下一步：用一个项目验证</text>
+<text x="1287.3333333333333" y="8413.56" font-size="37" fill="#566961" font-weight="400">先给真实游戏填入受众、版本、预算、工时和目标；照计划完</text>
+<text x="1287.3333333333333" y="8469.56" font-size="37" fill="#566961" font-weight="400">成一轮物料、试玩和定向联系。</text>
+<text x="1287.3333333333333" y="8543.56" font-size="37" fill="#566961" font-weight="400">分别记录使用目录是否省时、材料是否更易理解、目标玩家是</text>
+<text x="1287.3333333333333" y="8599.56" font-size="37" fill="#566961" font-weight="400">否玩懂、联系是否匹配，以及实际现金与工时。</text>
+<text x="1287.3333333333333" y="8673.56" font-size="37" fill="#566961" font-weight="400">把回复、内容、访问、愿望单、购买和退款分开观察；达到继</text>
+<text x="1287.3333333333333" y="8729.56" font-size="37" fill="#566961" font-weight="400">续条件后，再扩渠道、补作者或尝试服务。</text>
+<rect x="2384.6666666666665" y="8216" width="1105.3333333333333" height="583" rx="26" fill="#ffffff" stroke="#cfdbd1" stroke-width="2"/>
+<rect x="2384.6666666666665" y="8216" width="9" height="583" rx="4" fill="#2f6955"/>
+<text x="2424.6666666666665" y="8269.76" font-size="27" fill="#2f6955" font-weight="700">扩展顺序</text>
+<text x="2424.6666666666665" y="8335.36" font-size="47" fill="#203d37" font-weight="700">可积累的资产与待补项</text>
+<text x="2424.6666666666665" y="8413.56" font-size="37" fill="#566961" font-weight="400">资产：有出处的案例库、作者与题材的关系、适用条件、更新</text>
+<text x="2424.6666666666665" y="8469.56" font-size="37" fill="#566961" font-weight="400">记录、模板，以及自己的执行反馈。</text>
+<text x="2424.6666666666665" y="8543.56" font-size="37" fill="#566961" font-weight="400">待补：中文声音作者、完整成本账、近期合作条件、受众与单</text>
+<text x="2424.6666666666665" y="8599.56" font-size="37" fill="#566961" font-weight="400">渠道结果。先在一个场景形成复用，再扩大领域。</text>
+<text x="2424.6666666666665" y="8673.56" font-size="37" fill="#566961" font-weight="400">自动化放在人工流程跑通之后：确认接口、许可、字段与成本</text>
+<text x="2424.6666666666665" y="8729.56" font-size="37" fill="#566961" font-weight="400">，保留来源日期、去重和复核环节。</text>
+<rect x="110" y="8831" width="3380" height="425" rx="24" fill="#e8e5d6"/>
+<text x="146" y="8892.96" font-size="42" fill="#203d37" font-weight="700">结论的边界：资料可追溯，方法与商业价值仍需执行验证</text>
+<text x="146" y="8965.04" font-size="33" fill="#203d37" font-weight="400">已做到：来源阅读与结构化、作者 / 作品 / 路线关联、五案横比、预算与任务模板、网页筛选 / 保存 / 对照 / 导出，并完成手机、保存和导出验收。</text>
+<text x="146" y="9017.04" font-size="33" fill="#203d37" font-weight="400">尚未做到：独立财务审计、完整视频或付费课程实测、私人后台访问、合作询价或实际发信、真实发行投放、销量因果验证、付费与复购验证。</text>
+<text x="146" y="9069.04" font-size="33" fill="#203d37" font-weight="400">全站 39 位作者的所列资料来源已读，3 位中文视频作者仍待复核；仅 3 个大众频道有非实时体量快照，其余体量待核。关注理由、路线、预算比例和优先级均是编辑判断。</text>
+<text x="110" y="9342.96" font-size="42" fill="#2f6955" font-weight="700">核心闭环：公开资料 → 筛选与证据 → 任务匹配 → 小规模执行 → 记录结果 → 更新判断</text>
+<text x="110" y="9426.52" font-size="29" fill="#566961" font-weight="400">依据：观源项目 README、平台与作者数据、独立游戏专题、中文发行案例与单人计划。逐项原文与官方规则见网页“来源与方法”及“案例与原文”。本图是对已完成研究的汇总，未来方向为待验证建议。</text>
+</g></svg>

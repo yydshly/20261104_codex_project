@@ -22,6 +22,7 @@
 | 014 | [五款游戏的玩法、美术与设计取舍](projects/014-game-design-lab/README.md) | [五款原作与官方资料](https://yydshly.github.io/20261104_codex_project/014-game-design-lab/#sources) | 对照五款原作的玩法、美术与持续动机，整理五条设计方向。结合样片反馈，沉淀核心体验选型、美术投入取舍与先验证乐趣再扩系统的方法，供后续设计回查；扩展提案尚未验证。 | [已有设计总览图](#game-design-lab-guide) | [在线研究与我们的理解](https://yydshly.github.io/20261104_codex_project/014-game-design-lab/) |
 | 015 | [《蜀道难》第一人称诗境研究](projects/015-shu-road/README.md) | [李白《蜀道难》](https://zh.wikisource.org/zh-hans/蜀道难_(李白)) · 自主 WebGL 实践 | 实现一条可走的九幕 3D 蜀道，用双音色语音和镜头把诗句对准景物。探索怎样用旅人站位表达高险，并在模型上标明史料与推测，为古诗教学展示和文化导览提供可复用原型。 | [已有九幕引导图](#shu-road-guide) | [研究与解读](https://yydshly.github.io/20261104_codex_project/015-shu-road/research.html) · [在线演示](https://yydshly.github.io/20261104_codex_project/015-shu-road/) |
 | 016 | [小工具商业机制与个人 AI 协作研究](projects/016-solo-business-study/README.md) | [Feng_YQ](https://x.com/Feng_YQ) · [闷声发大财](https://msfdcszhd.com/) · 逐项官网与用户原帖 | 拆解 10 个工具的能力、获客和收费，保留 20 种扩展设想、15 家企业岗位抽样及 AI 替代核对。价值在理解持续监测、流程承接与结果交付，帮助个人减少误投，并通过样例和反馈形成 AI 协作目标；当前无立项推荐。 | [已有研究引导图](#solo-business-study-guide) | [在线研究与当前理解](https://yydshly.github.io/20261104_codex_project/016-solo-business-study/) |
+| 017 | [观源 · 创作者信息的价值与产品化研究](projects/017-creator-value-atlas/README.md) | 自主研究 · [Monid](https://docs.monid.ai/) · [逐项来源](https://yydshly.github.io/20261104_codex_project/017-creator-value-atlas/#sources) | 研究平台、领域与博主信息怎样帮助找人、选资料、学习和判断合作。以独立游戏为样板，沉淀作者作品、中文发行复盘与行动模板，为我们的学习选型和产品机会判断提供可回查依据；推广匹配、付费与盈利待验证。 | [研究目标与成果关系图](#creator-value-atlas-guide) | [在线研究与我们的理解](https://yydshly.github.io/20261104_codex_project/017-creator-value-atlas/#overview) |
 | 018 | [潮光 · 游戏 Skill 能力与价值研究](projects/018-game-skill-product/README.md) | [asset-maker](https://github.com/Be1l-ai/asset-maker) · [threejs-Skills](https://github.com/zafmy/threejs-Skills) · [八项清单来源](harbor-skill-demo/skill-sources/manifest.json) | 研究 game-design-theory 等八项选型与两轮采用，在《潮光》三章动作游戏中实际调用 create-3d-assets、create-vfx、create-sfx 和 3d-ultra-realistic-water，展示低模 CSG/AO、24 帧特效、材质音效与动态海面，保留来源、配方、实录和验证。确认资源与代码复用；新增玩法单独归属，同模型 A/B、开发提速、返工减少与玩家偏好增益尚未证实。 | [已有研究总览图](#game-skill-product-guide) | [在线研究与效果](https://yydshly.github.io/20261104_codex_project/018-game-skill-product/research.html#overview) · [完整游戏](https://yydshly.github.io/20261104_codex_project/018-game-skill-product/) |
 | 019 | [投影打怪玩具：效果、意义与研究判断](projects/019-projection-play-study/README.md) | [noni__z 原帖](https://x.com/noni__z/status/2120168976135209223) · Nex / LUMOplay 官方资料 | 归档可见效果、童趣解释、产品能力与家庭意义，保留城市扩展和偏题纸样。当前新增研究价值有限，停止继续立项与演示；原机、复玩和付费未实测。 | [一图汇总](#projection-play-guide) | [研究归档网页](https://yydshly.github.io/20261104_codex_project/019-projection-play-study/) |
 | 020 | [知识库与客服业务闭环研究](projects/020-knowledge-service/README.md) | 自主架构探索 · [工作流与路由参考](https://www.anthropic.com/research/building-effective-agents) | 研究知识库怎样支撑可信回答、按需分析和客服跟进。以共享证据、模型路由、统一交流、规则确认与人工闭环构成架构，用包裹延迟原型和30项能力对照说明实现边界；双模型与真实收益待试点验证。 | [已有双模型引导图](#knowledge-service-guide) | [在线研究与演示](https://yydshly.github.io/20261104_codex_project/020-knowledge-service/) |
@@ -235,6 +236,20 @@ Adam Chernick 个人制作、扩展和组合的网页 3D 实验，部分基于 T
 当前无立项推荐：岗位聚合暂缓、SVG 首选撤回、App 截图仅保留参考，个人 AI 沟通工具也暂不产品化。岗位 9 项只是地域文字候选，未确认中国签约；尚未完成同任务对照与外部付费验证。保留研究资产和重启条件，不把设想当作已证明的商机。
 
 [在线研究与价值](https://yydshly.github.io/20261104_codex_project/016-solo-business-study/#value) · [AI 协作探索](https://yydshly.github.io/20261104_codex_project/016-solo-business-study/#collaboration) · [离线研究网页](projects/016-solo-business-study/offline.html) · [完整研究摘要](projects/016-solo-business-study/README.md)
+
+<a id="creator-value-atlas-guide"></a>
+
+### 017 · 观源 · 创作者信息的价值与产品化研究
+
+研究主线是：平台、领域和博主信息经过分类、作品核对与用途判断，能否成为帮助人找资料、选作者、学习、研究及判断合作的产品。Monid 位于采集工具候选环节；持续价值需要由筛选理由、证据、更新与实际使用反馈支持。全站整理 12 个平台与分发入口、12 个一级领域、42 位作者样本和 109 条去重来源。
+
+![研究目标与成果关系图，说明原始提问、信息组织框架、独立游戏样板、已有学习经验成果及推广合作缺口](projects/017-creator-value-atlas/assets/research-goal-map-v2-20261121.png)
+
+独立游戏是第一个深入样板：28 位作者（含 12 位中文）、56 份代表资料、5 条学习路线，以及 5 个中文发行案例的横比、成本与避坑、24 项单人发行任务。它们将作者经验连接到学习顺序与行动取舍，不能直接视为已验证的推广达人库。
+
+对我们的意义在于把零散收藏积累成能回查、比较、按任务使用的研究库，为学习材料选择、制作与经营判断提供依据，并检验信息产品的用途与维护投入。推广合作仍需补齐评测、实况作者的受众与合作条件；真实效果、付费需求和盈利未验证。引导图使用已生成的新版原图。
+
+[在线研究与我们的理解](https://yydshly.github.io/20261104_codex_project/017-creator-value-atlas/#overview) · [独立游戏样板](https://yydshly.github.io/20261104_codex_project/017-creator-value-atlas/#indie) · [案例横比与计划](https://yydshly.github.io/20261104_codex_project/017-creator-value-atlas/#publishing) · [完整摘要与来源](projects/017-creator-value-atlas/README.md)
 
 ## 收录新项目
 

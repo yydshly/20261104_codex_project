@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="观源：研究平台、领域与创作者信息如何成为有用途的产品。以独立游戏为样板，连接作者作品、中文发行复盘与执行计划，区分学习经验成果、推广合作缺口与待验证的商业价值。"
+    />
+    <meta name="theme-color" content="#163f38" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='11' fill='%23163f38'/%3E%3Ccircle cx='20' cy='20' r='10' fill='none' stroke='%23d6f39b' stroke-width='2'/%3E%3Ccircle cx='20' cy='20' r='4' fill='%23d6f39b'/%3E%3C/svg%3E"
+    />
+    <title>观源 · 平台与创作者价值地图</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="data.js"></script>
+    <script defer src="indie-zh-data.js"></script>
+    <script defer src="publishing-data.js"></script>
+    <script defer src="solo-release-data.js"></script>
+    <script defer src="indie-data.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#content">跳到正文</a>
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#overview" aria-label="观源，研究总览"
+        ><span class="brand-icon">◎</span
+        ><span>观源<small>SIGNAL ATLAS</small></span></a
+      >
+      <div class="side-caption">平台与创作者价值研究</div>
+      <nav aria-label="研究导航">
+        <a href="#overview" data-view="overview"><span>◫</span>研究总览</a>
+        <a href="#indie" data-view="indie"><span>⬡</span>独立游戏专题</a>
+        <a href="#publishing" data-view="publishing"><span>↗</span>发行与商业化</a>
+        <a href="#platforms" data-view="platforms"><span>⌘</span>平台地图</a>
+        <a href="#domains" data-view="domains"><span>▦</span>领域导航</a>
+        <a href="#creators" data-view="creators"><span>◉</span>创作者索引</a>
+        <a href="#value" data-view="value"><span>◇</span>价值判断</a>
+        <a href="#product" data-view="product"><span>▤</span>产品分析</a>
+        <a href="#sources" data-view="sources"><span>≋</span>来源与方法</a>
+      </nav>
+      <button class="saved-link" id="saved-link">
+        <span>☆ 我的观察清单</span><b id="saved-count">0</b>
+      </button>
+      <div class="side-bottom">
+        <span class="edition">研究快照 · 2026.11.21</span>
+        <p>把信息的出处、用途与判断<br />放在同一个地方。</p>
+        <a href="../../docs/index.html">研究总库</a>
+      </div>
+    </aside>
+    <div class="workspace">
+      <header class="topbar">
+        <div class="breadcrumb">
+          <button
+            id="menu-button"
+            aria-label="展开导航"
+            aria-expanded="false"
+            aria-controls="sidebar"
+          >
+            ☰</button
+          ><span>研究总库</span><span class="slash">/</span
+          ><span>017 · 创作者价值地图</span>
+        </div>
+        <div class="top-actions">
+          <span class="snapshot-label">公开资料整理</span
+          ><button class="button subtle" id="export-all">导出研究资料</button>
+        </div>
+      </header>
+      <main id="content" tabindex="-1"></main>
+      <footer class="footer">
+        <span>观源 · 研究与判断均可追溯</span
+        ><a href="#sources">查看来源、覆盖范围与更新方法</a>
+      </footer>
+    </div>
+    <dialog id="detail-dialog" aria-labelledby="dialog-title">
+      <div id="dialog-content"></div>
+    </dialog>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <noscript
+      ><p class="noscript">
+        请在浏览器中启用
+        JavaScript，以查看研究内容与筛选工具。资料原文保存在相邻 data.js
+        文件中。
+      </p></noscript
+    >
+  </body>
+</html>
