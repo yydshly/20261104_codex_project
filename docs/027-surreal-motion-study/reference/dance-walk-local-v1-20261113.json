@@ -1,0 +1,139 @@
+{
+  "date": "2026-11-13",
+  "type": "local_music_driven_layered_animation",
+  "file": "assets/dance-walk/dance-walk-100bpm-local-v1.mp4",
+  "seconds": 9.6,
+  "frames": 240,
+  "width": 1280,
+  "height": 720,
+  "fps": 25,
+  "bpm": 100,
+  "beats": 16,
+  "framesPerBeat": 15,
+  "audioCodec": "aac",
+  "continuousForwardTravelVerified": true,
+  "beatNodes": [
+    {
+      "beat": 1,
+      "timeSeconds": 0,
+      "action": "左脚落重拍",
+      "detail": "手贴胸，肩膀轻回弹",
+      "frame": 0
+    },
+    {
+      "beat": 2,
+      "timeSeconds": 0.6,
+      "action": "右脚接重拍",
+      "detail": "头比肩略晚跟上",
+      "frame": 15
+    },
+    {
+      "beat": 3,
+      "timeSeconds": 1.2,
+      "action": "小交叉步",
+      "detail": "衣摆拖后",
+      "frame": 30
+    },
+    {
+      "beat": 4,
+      "timeSeconds": 1.8,
+      "action": "落稳、换肩",
+      "detail": "眼神向侧前方",
+      "frame": 45
+    },
+    {
+      "beat": 5,
+      "timeSeconds": 2.4,
+      "action": "脚尖轻点",
+      "detail": "抬下巴",
+      "frame": 60
+    },
+    {
+      "beat": 6,
+      "timeSeconds": 3,
+      "action": "向前换重心",
+      "detail": "掸一下衣领",
+      "frame": 75
+    },
+    {
+      "beat": 7,
+      "timeSeconds": 3.6,
+      "action": "交叉步接上",
+      "detail": "肩膀吃切分",
+      "frame": 90
+    },
+    {
+      "beat": 8,
+      "timeSeconds": 4.2,
+      "action": "脚掌落稳",
+      "detail": "收回胸前手",
+      "frame": 105
+    },
+    {
+      "beat": 9,
+      "timeSeconds": 4.8,
+      "action": "小步持续前移",
+      "detail": "上身稳住半拍",
+      "frame": 120
+    },
+    {
+      "beat": 10,
+      "timeSeconds": 5.4,
+      "action": "继续向前换脚",
+      "detail": "留空后甩肩",
+      "frame": 135
+    },
+    {
+      "beat": 11,
+      "timeSeconds": 6,
+      "action": "低踢接切分",
+      "detail": "自由手轻摆",
+      "frame": 150
+    },
+    {
+      "beat": 12,
+      "timeSeconds": 6.6,
+      "action": "落地准备弹步",
+      "detail": "重心下沉",
+      "frame": 165
+    },
+    {
+      "beat": 13,
+      "timeSeconds": 7.2,
+      "action": "小弹步落重拍",
+      "detail": "衣摆随后甩回",
+      "frame": 180
+    },
+    {
+      "beat": 14,
+      "timeSeconds": 7.8,
+      "action": "交叉小弹步",
+      "detail": "肩胯错开",
+      "frame": 195
+    },
+    {
+      "beat": 15,
+      "timeSeconds": 8.4,
+      "action": "向前接步",
+      "detail": "手回胸前",
+      "frame": 210
+    },
+    {
+      "beat": 16,
+      "timeSeconds": 9,
+      "action": "正常步幅衔接",
+      "detail": "保持前行，进入下一轮",
+      "frame": 225
+    }
+  ],
+  "sourceAssets": "reference/dance-walk-assets-20261113.json",
+  "music": "reference/dance-walk-music-20261113.json",
+  "script": "scripts/render_dance_walk.py",
+  "sha256": "8d2b4d25e2953b0df94406b60dfe3a8ad0aa620cf362b0dc1adddecb99832113",
+  "limits": [
+    "八个静态姿态作光流插值，局部肢体形变、穿插与脚底滑移仍存在。",
+    "关键姿态与音乐共用拍点，未实现物理脚底锁定或动作捕捉。",
+    "跟拍感来自固定背景的追踪裁切；不是三维摄影机绕拍。",
+    "原创本地合成配乐，无对白；不是现成电影配乐或AI视频。"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "retrieved_on": "2026-11-12",
+  "timezone": "Asia/Shanghai",
+  "purpose": "本地原视频效果研究与抽帧，不用于公开再分发",
+  "references": [
+    {
+      "id": "grassland-special",
+      "title": "grassland special",
+      "post_url": "https://x.com/hi_personality/status/2115567493565825244",
+      "category": "卷曲海岸与巨大尺度",
+      "video_playlist": "https://video.twimg.com/amplify_video/2115567338271682560/pl/avc1/1920x1080/JJgIhN56f2c8-Ww0.m3u8",
+      "audio_playlist": "https://video.twimg.com/amplify_video/2115567338271682560/pl/mp4a/128000/UgCmegGKti81jTFd.m3u8",
+      "master_playlist": "https://video.twimg.com/amplify_video/2115567338271682560/pl/3JdvXRE0wM9DUowA.m3u8?tag=29",
+      "poster_url": "https://pbs.twimg.com/amplify_video_thumb/2115567338271682560/img/C_3e3UarmEalJI5B?format=webp&name=large",
+      "verification": "原帖已打开；视频及播放列表由页面实际加载资源确认"
+    },
+    {
+      "id": "chasing",
+      "title": "chasing",
+      "post_url": "https://x.com/hi_personality/status/2117011977658876093",
+      "category": "楼顶临边骑行与黄昏城市",
+      "video_playlist": "https://video.twimg.com/amplify_video/2117011926274453504/pl/avc1/1920x1080/dCthos-limisqII6.m3u8",
+      "audio_playlist": "https://video.twimg.com/amplify_video/2117011926274453504/pl/mp4a/128000/67-9TyGgIO-o6nlv.m3u8",
+      "master_playlist": "https://video.twimg.com/amplify_video/2117011926274453504/pl/QuGwIitH2WT2k_KE.m3u8?tag=29",
+      "poster_url": "https://pbs.twimg.com/amplify_video_thumb/2117011926274453504/img/BWd6xRqBpzRcADYo?format=webp&name=large",
+      "verification": "原帖已打开；视频及播放列表由页面实际加载资源确认"
+    },
+    {
+      "id": "vortex-road",
+      "title": "vortex road",
+      "post_url": "https://x.com/hi_personality/status/2118132771290030513",
+      "category": "漩涡天空与城市旋转空间",
+      "video_playlist": "https://video.twimg.com/amplify_video/2118132634052415488/pl/avc1/1920x1080/jB9SCw0BCfJbjipq.m3u8",
+      "audio_playlist": "https://video.twimg.com/amplify_video/2118132634052415488/pl/mp4a/128000/8GYADBRTQSsCfJb3.m3u8",
+      "master_playlist": "https://video.twimg.com/amplify_video/2118132634052415488/pl/rlLxFvNsaNxbH9DR.m3u8?tag=29",
+      "poster_url": "https://pbs.twimg.com/amplify_video_thumb/2118132634052415488/img/esKSx-eOIoqBIUyZ?format=webp&name=large",
+      "verification": "原帖已打开；视频及播放列表由页面实际加载资源确认"
+    }
+  ],
+  "author_statements": [
+    {
+      "id": "workflow",
+      "url": "https://x.com/hi_personality/status/2115776938069635304",
+      "verified_in_original_post": true,
+      "statement_summary": "作者自述使用 Midjourney，再通过 ComfyUI 使用其称为 minimax h3 的视频模型，最后在 DaVinci Resolve 做后期与调色。",
+      "limits": "这是作者当时对自身流程的说明；未公开工作流、提示词、模型完整标识或参数，不能证明每条视频都使用相同设置。"
+    },
+    {
+      "id": "hdr-color",
+      "url": "https://x.com/hi_personality/status/2115573454628106332",
+      "verified_in_original_post": true,
+      "statement_summary": "作者确认使用 HDR 和 DaVinci 调色。",
+      "limits": "截图和本地 AVC 分析副本不能还原所有设备上的 HDR 显示；HDR 对传播数据的贡献没有被量化。"
+    }
+  ]
+}

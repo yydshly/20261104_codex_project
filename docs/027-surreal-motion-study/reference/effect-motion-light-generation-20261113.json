@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-13",
+  "tool": "内置 image_gen（两张光照端点）+ Python/OpenCV 本地合成（动态预演）",
+  "input": "assets/original-keyframes/effect-day-night-boundary-v1.png",
+  "prompts": [
+    {
+      "id": "day",
+      "prompt": "Use case: lighting-weather. Edit the supplied canal-city image as a source for a LOCAL compositing motion study. Preserve camera, framing, all architecture, exact window and facade shapes, canal, trees, people and road positions as strictly as possible. Single wide image, no panels or text. Change lighting ONLY. Make the ENTIRE scene late golden afternoon daylight, including the entire right half. Remove the dark diagonal night zone. Sky is a continuous pale golden sunset sky with no stars. All buildings readable and sunlit with coherent warm side lighting. Street lamps and interior window lights OFF. Water reflects bright warm sky. Keep geometry unchanged."
+    },
+    {
+      "id": "night",
+      "prompt": "Use case: lighting-weather. Edit the supplied canal-city image as a source for a LOCAL compositing motion study. Preserve camera, framing, all architecture, exact window and facade shapes, canal, trees, people and road positions as strictly as possible. Single wide image, no panels or text. Change lighting ONLY. Make the ENTIRE scene deep blue nighttime, including the entire left half. Remove the bright golden daytime zone and sunlight. The entire sky is dark blue with sparse stars, coherent night exposure. All street lamps and many existing windows glow softly amber; water has corresponding amber reflections. Keep facade detail and geometry unchanged. No dramatic beam or moon added."
+    }
+  ],
+  "outputs": [
+    {
+      "id": "day",
+      "source": "[local path omitted]",
+      "target": "assets/effect-motion/city-day-source-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1b99141b2a4594a97611e92a3a1ec1ffe5cf6d7c47d4469b5f3f03f1bbf30f6a"
+    },
+    {
+      "id": "night",
+      "source": "[local path omitted]",
+      "target": "assets/effect-motion/city-night-source-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a1727ea14ed4da2b7cf197913d8e616cc2cc95ecaa00de1647ea93de4e98d42a"
+    }
+  ]
+}

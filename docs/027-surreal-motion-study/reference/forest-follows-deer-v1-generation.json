@@ -1,0 +1,37 @@
+{
+  "generatedOn": "2026-11-13",
+  "timezone": "Asia/Shanghai",
+  "title": "追随鹿的森林",
+  "tool": "内置 image_gen",
+  "status": "original_static_visual_direction_v1",
+  "inputImages": [],
+  "modelVersion": null,
+  "seed": null,
+  "asset": "assets/original-keyframes/forest-follows-deer-v1.png",
+  "sourceOutputFile": "[local path omitted]",
+  "prompt": "Use case: stylized-concept.\nAsset: ONE original static visual-direction image for a research website. Complete standalone widescreen landscape 16:9 cinematic environment concept art, ideally 2048x1152. No panels, text or diagram graphics.\nTitle idea: \"The Forest That Follows a Deer\".\nCore fictional rule: the animal does not search for habitat; the habitat moves toward the animal. Make this readable through physical visual clues within a single static image, not arrows.\nScene: A calm lone deer stands STILL on an open pale, slightly cracked sandy plain, at the right foreground third, in full-body profile facing left toward an approaching forest. All four hooves grounded, relaxed alert posture, natural deer anatomy, modest antlers, no running. Keep the deer small relative to the woodland, but identifiable.\nAn entire dense green woodland is migrating in a sweeping arc from the left background into the middle foreground toward the deer. The leading trees visibly lift their root fans out of the old dry soil, carrying coherent chunks of mossy earth between their roots. Several broad root systems are gently reaching forward and lowering onto fresh ground near the deer, as if the forest itself is taking an unhurried step. Exposed underside roots, a lifted leading edge, and displaced soil seams make the direction of environmental movement unmistakable. The trees remain recognizably botanical, not human-shaped creatures; no faces, limbs resembling hands, or monsters.\nA narrow clear river and fresh green meadow travel WITH the advancing woodland: a curved tongue of water bends from the woodland edge across the otherwise barren plain and reaches near the deer's front hooves, with newly moistened soil tracing its leading edge. The advancing bank carries grass, ferns and small plants. Leave bare ground ahead and to the right of the deer so the contrast between dry empty land and approaching living habitat is legible. The deer is waiting to receive its habitat, not leaving a magical trail while running away.\nComposition: strong asymmetric diagonal from the deep left woodland through the reaching roots and curved water to the small deer on the right. Layered background forest in morning mist, readable mid-ground root and earth structure, crisp foreground shallow water and deer contact points. Large-scale environmental agency, intimate animal focal point, generous open sky/plain for calm negative space.\nAtmosphere: quiet ecological wonder, tender and slightly uncanny, as though nature is actively offering shelter and water. Pale warm morning light from one coherent direction, muted olive and sage forest, subdued sandy-grey plain, soft blue-grey mist, restrained amber light on the deer and canopy edges. Physically tactile bark, roots, damp earth, grass and water; painterly cinematic realism. Not dark horror, not action spectacle.\nOriginal new design from written direction only, no reference image pixels. Static scene implying a rule, not a demonstrated animation.\nAvoid: deer running, extra animals or people, ordinary stationary forest with a deer merely standing beside it, cute anthropomorphic walking trees, floating islands high in the air, giant humanoid tree monsters, glowing antlers, neon vegetation, dramatic storm, arrows, movement streaks, text, logos, watermarks, borders, collage, UI.",
+  "actualMetadata": {
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "bytes": 2958645,
+    "sha256": "e46e6ed756b4c3fa1ed77a30ed9ec790e0a5fd5a3dc09fe00344ad29a3e313af"
+  },
+  "scope": "用户只授权一张静态方向图与网页说明，不做动态或产品。",
+  "reverseRule": "生命停留，环境主动寻找生命；森林、草地与河流向鹿聚拢。",
+  "review": {
+    "observed": [
+      "鹿站在右侧干裂地面，身体完整可辨",
+      "左侧树木携带苔土与露出根系，根下可见离地暗隙",
+      "曲线河流从森林延伸到鹿蹄附近",
+      "左侧绿色生境与右侧干燥空地形成反差"
+    ],
+    "intendedMood": "温柔、安静、略带陌生感的生态奇观",
+    "composition": "左侧森林大体量与右侧鹿的不对称关系；根系与水流把两者连接，背景雾林与前景接触细节分层。",
+    "limits": [
+      "单张图表达迁移意图，不能证明运动方向或过程",
+      "可能仍被读作林缘遇鹿；需关注离地根系、土层断口与水流前缘的可读性",
+      "未实现森林运动、动物动作、动态或产品"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "createdOn": "2026-11-13",
+  "type": "local_single_image_2_5d_scene_previsualization",
+  "source": "assets/original-keyframes/twilight-terrace-city-arch-v3.png",
+  "sourceSha256": "55561aab25feba59008023be8842e77e06d54eda0c18c595bcf9c8276e066640",
+  "gif": "assets/gif-studies/terrace-city-approach-local-v2.gif",
+  "method": "Local depth-cloud z-buffer reprojection; foreground planes move more than distant landmark; narrow disocclusions filled locally",
+  "remoteServiceUsed": false,
+  "generatedVideoUsed": false,
+  "cameraDesign": {
+    "motion": "depth-cloud forward reprojection, lateral shift and S-bend heading cue",
+    "movement_seconds": 5,
+    "forward_scene_units": 3.4,
+    "lateral_scene_units": 0.55,
+    "yaw_degrees": "-2 to +0.65; design values, not measured physical camera"
+  },
+  "limits": [
+    "Single-image 2.5D previsualization, not reconstructed 3D or AI-generated video",
+    "Cannot reveal genuinely hidden architecture from a single source image",
+    "People and environmental states are not independently animated",
+    "Loops by returning to the start; not claimed as seamless",
+    "Newly exposed strips are locally inpainted approximations, not recovered hidden architecture"
+  ],
+  "width": 420,
+  "height": 691,
+  "frames": 50,
+  "duration_ms": 6200,
+  "bytes": 6927998,
+  "sha256": "0c2b6e6c02cd8a24937a1845da225fa76fad1017920f0fb2a6574900dbcc5fdb"
+}

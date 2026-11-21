@@ -32,6 +32,7 @@
 | 024 | [日常元素与沉浸式循环研究](projects/024-immersive-loop-research/README.md) | [JenPanepinto](https://x.com/JenPanepinto) · 本轮独立实验 | 研究怎样从自己的日常素材形成统一情绪、个人风格与整体循环，以十八轮实验比较花朵接续、全幅水光、秋林事件及光影。保留三个代表、反馈与方法，积累原创系列和有依据的返修能力；舒适、真实感、原生 GIF 与后续用途仍待验证。 | [已有理解总览图](#immersive-loop-guide) | [在线研究与代表效果](https://yydshly.github.io/20261104_codex_project/024-immersive-loop-research/) |
 | 025 | [留一会儿 · 艺术与情绪图像研究](projects/025-cozy-emotion-lab/README.md) | [@cozyycabin](https://x.com/cozyycabin) · [置顶双图](https://x.com/cozyycabin/status/2084009202192949678) | 以艺术与情绪作为图像入口，从形体呼应、瞬间与留白理解停留感。29幅图、三图对照、实时调色、八秒静态镜头及导出，沉淀审美判断、原创简报和系列表达方法；当前仅原帖双图获明确正向反馈，原创迁移与体验产品价值待验证。 | [沿用本轮引导图](#cozy-emotion-guide) | [在线艺术入口与效果](https://yydshly.github.io/20261104_codex_project/025-cozy-emotion-lab/) |
 | 026 | [日常情绪与 AI 短视频效果研究](projects/026-emotion-led-video/README.md) | [用户分享帖](https://x.com/billtheinvestor/status/2120217438533066946) · [TechHalla原帖](https://x.com/techhalla/status/2110686996049883550) | 从人的日常情绪出发，把渴望变成一个想亲历的瞬间。用四种情绪效果图、六个故事和两轮海洞小样，研究人物回应、创意视角与真实质感怎样承载欲望、代入和观看期待；沉淀选题、镜头与反馈方法，情绪效果仍待验证。 | [本次生成的引导图](#emotion-led-video-guide) | [在线研究与效果](https://yydshly.github.io/20261104_codex_project/026-emotion-led-video/) |
+| 027 | [奇幻影像与世界构造研究](projects/027-surreal-motion-study/README.md) | [@hi_personality原帖](https://x.com/hi_personality/status/2115567493565825244) · [巨构参考](https://x.com/EiiKwesiKay/status/2120958808789029021) | 从奇幻骑行原片提炼光色、反向规则、空间构图、主体情绪、相机、音乐节律和世界一致性七条主轴。以原创关键帧、十种效果、局部预演、一条用户通过的AI舞步和三个世界候选，沉淀关系、参数、提示词与验收方法；区分HDR与高曝光，连续3D、稳定生成与产品价值仍待验证。 | [已有研究总图](#surreal-motion-guide) | [在线研究与效果](https://yydshly.github.io/20261104_codex_project/027-surreal-motion-study/) |
 
 项目按收录顺序从 `001` 开始编号。新条目按编号追加，已分配的编号保持固定。索引摘要用一两句话写清研究对象和关注点。完成验证后，可补上一条主要发现。
 
@@ -399,3 +400,17 @@ Adam Chernick 个人制作、扩展和组合的网页 3D 实验，部分基于 T
 研究积累了情绪选题、人物动作、拍摄者身份与盲区设计，以及根据观看反馈继续修改的方法。海洞两轮小样说明：把动作与情节做出来，尚未满足本轮观看者对吸引力的要求；后续先验证哪一秒让人在意。四种新效果是静态设想，尚未制作成新视频。
 
 引导图原样使用本次生成文件。[在线研究](https://yydshly.github.io/20261104_codex_project/026-emotion-led-video/) · [实际小样](https://yydshly.github.io/20261104_codex_project/026-emotion-led-video/#experiments) · [六个故事](https://yydshly.github.io/20261104_codex_project/026-emotion-led-video/archive.html#stories) · [完整摘要](projects/026-emotion-led-video/README.md)
+
+<a id="surreal-motion-guide"></a>
+
+### 027 · 奇幻影像与世界构造研究
+
+从奇幻骑行原片提炼光色、反向规则、空间构图、主体情绪、相机、音乐节律和世界一致性七条主轴。以原创关键帧、十种效果、局部预演、一条用户通过的AI舞步和三个世界候选，沉淀关系、参数、提示词与验收方法；区分HDR与高曝光，连续3D、稳定生成与产品价值仍待验证。
+
+![沿用已有研究总图：七条主轴、八个代表效果、HDR与曝光、世界候选及六类核心沉淀](docs/027-surreal-motion-study/exports/research-map-20261121.png)
+
+核心理解：先让异常规则具有可见关系，再用人物与相机组织观看，用音乐与停顿引动情绪，最终检查图片之间是否共享世界规则。图片提供构图与风格依据；连续事件、可探索空间和产品收益需要另行验证。
+
+可复用的是关系词典、可变参数、执行材料、验收方法、证据分层和失败边界。曝光改变亮暗，饱和度改变颜色强度，HDR给适配显示链路更多亮度余量；同帧教学图与整张引导图均为SDR。
+
+网页保留12张早期关键帧、36阶段、40项研究手法、10效果图、局部预演、舞步和4母图/16地点。三个世界候选仍待核对地理与连接，40项不等于40个实现，一条成片通过也不等于稳定生成。[在线研究](https://yydshly.github.io/20261104_codex_project/027-surreal-motion-study/) · [HDR与高曝光](https://yydshly.github.io/20261104_codex_project/027-surreal-motion-study/#color) · [效果与世界](https://yydshly.github.io/20261104_codex_project/027-surreal-motion-study/#directions) · [完整研究摘要](projects/027-surreal-motion-study/README.md)

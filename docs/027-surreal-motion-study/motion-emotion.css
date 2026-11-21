@@ -1,0 +1,75 @@
+/* Source playback and emotion analysis extend the existing dark research site. */
+.me-scope { margin-top: 16px; color: var(--warm); font-size: 13px; line-height: 1.85; }
+.me-case-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 23px; }
+.me-case-tab { min-height: 45px; padding: 10px 16px; border: 1px solid var(--line); border-radius: 6px; background: transparent; color: var(--muted); font-size: 14px; text-align: left; }
+.me-case-tab:hover { color: var(--text); border-color: #66744b; background: #18221d; }
+.me-case-tab[aria-selected="true"] { color: var(--accent); border-color: #839456; background: #24301f; }
+.me-study-layout { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 29px; align-items: start; }
+.me-study-layout > * { min-width: 0; }
+.me-player-wrap { min-width: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 7px; background: #05090c; }
+.me-player-wrap video { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: contain; background: #05090c; }
+.me-player-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 15px; margin-top: 15px; }
+.me-rate-controls, .me-step-controls, .me-segment-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 7px; min-width: 0; }
+.me-segment-controls { margin-top: 12px; }
+.me-player-controls button, .me-segment-controls button, .me-step-controls button { min-height: 44px; padding: 9px 12px; border: 1px solid var(--line); border-radius: 5px; background: #14202a; color: var(--muted); font-size: 13px; line-height: 1.65; }
+.me-player-controls button:hover, .me-segment-controls button:hover, .me-step-controls button:hover { color: var(--text); background: #1c2c35; border-color: #52616b; }
+.me-rate-controls button[aria-pressed="true"] { color: var(--accent); border-color: #758451; background: #24301f; }
+.me-segment-controls button[aria-pressed="true"] { color: var(--accent); border-color: #758451; background: #24301f; }
+.me-rate-controls > span, .me-segment-controls > span, .me-step-controls > span { color: var(--faint); font-size: 12px; }
+.me-time-output { color: #d0d9cb; font-size: 13px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.me-time-status { min-height: 24px; margin-top: 10px; color: var(--faint); font-size: 12px; line-height: 1.8; overflow-wrap: anywhere; }
+.me-playback-note { margin-top: 13px; color: var(--faint); font-size: 12px; line-height: 1.9; }
+.me-segment-note { margin-top: 12px; color: var(--muted); font-size: 13px; line-height: 1.9; overflow-wrap: anywhere; }
+.me-contact-sheet .image-button { width: 100%; margin-top: 17px; overflow: hidden; border-radius: 5px; background: #060c10; }
+.me-contact-sheet .image-button img { width: 100%; height: auto; object-fit: contain; }
+.me-source-link { display: inline-flex; align-items: center; min-height: 35px; margin-top: 13px; color: var(--accent); font-size: 14px; text-decoration: none; }
+.me-source-link:hover { text-decoration: underline; }
+.me-analysis-copy h2 { margin: 10px 0 18px; color: var(--text); font-size: 26px; font-weight: 550; letter-spacing: -.03em; }
+.me-watch-for { margin-top: 20px; padding-top: 17px; border-top: 1px solid var(--line); }
+.me-watch-for p { margin-top: 9px; color: var(--muted); font-size: 14px; line-height: 1.9; overflow-wrap: anywhere; }
+.me-observation-list { min-width: 0; margin: 0; }
+.me-observation-list dl { margin: 0; }
+.me-observation-list > div, .me-observation-list dl > div { display: grid; grid-template-columns: 79px minmax(0, 1fr); gap: 13px; padding: 14px 0; border-top: 1px solid var(--line); }
+.me-observation-list dt { color: var(--faint); font-size: 12px; font-weight: 400; line-height: 1.85; }
+.me-observation-list dd { min-width: 0; margin: 0; color: #c8d0d1; font-size: 14px; line-height: 1.85; overflow-wrap: anywhere; }
+.me-interpretation, .me-limit { min-width: 0; margin-top: 18px; padding-top: 17px; border-top: 1px solid var(--line); }
+.me-interpretation h3, .me-limit h3 { margin-top: 7px; font-size: 20px; font-weight: 550; }
+.me-interpretation p, .me-limit p { margin-top: 9px; color: var(--muted); font-size: 14px; line-height: 1.9; overflow-wrap: anywhere; }
+.me-limit { padding: 14px 16px; border-top: 0; border-left: 2px solid #6c7553; background: #141e22; }
+.me-limit > :first-child { margin-top: 0; }
+.me-variables-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 32px; }
+.me-variables-grid > article { min-width: 0; padding: 23px 0 25px; border-top: 1px solid var(--line); }
+.me-variables-grid h3 { font-size: 21px; font-weight: 550; letter-spacing: -.02em; }
+.me-variables-grid p { margin-top: 12px; color: var(--muted); font-size: 14px; line-height: 1.9; overflow-wrap: anywhere; }
+.me-variables-grid p.me-variable-limit { margin-top: 13px; padding-left: 13px; border-left: 2px solid #586343; color: var(--faint); font-size: 13px; }
+.me-recipes-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 34px; }
+.me-recipe { min-width: 0; padding: 25px 0 29px; border-top: 1px solid var(--line); }
+.me-recipe-index, .me-recipe > span:first-child { color: var(--accent); font-size: 12px; font-variant-numeric: tabular-nums; letter-spacing: .06em; }
+.me-recipe h3 { margin-top: 12px; color: var(--text); font-size: 23px; font-weight: 550; letter-spacing: -.025em; }
+.me-recipe dl { margin: 19px 0 0; }
+.me-recipe dl > div { display: grid; grid-template-columns: 66px minmax(0, 1fr); gap: 11px; margin-top: 10px; }
+.me-recipe dt { color: var(--faint); font-size: 12px; font-weight: 400; line-height: 1.9; }
+.me-recipe dd { min-width: 0; margin: 0; color: #c6ced1; font-size: 14px; line-height: 1.9; overflow-wrap: anywhere; }
+.me-recipe-status { display: block; margin-top: 18px; padding-left: 12px; border-left: 2px solid #6a7550; color: var(--warm); font-size: 12px; line-height: 1.9; overflow-wrap: anywhere; }
+.me-conclusion { margin-top: 30px; padding: 24px 27px; border: 1px solid #465538; border-radius: 7px; background: #172219; color: #d5decd; font-size: 15px; line-height: 1.9; overflow-wrap: anywhere; }
+.me-conclusion h2 { margin-bottom: 12px; font-size: 24px; font-weight: 550; }
+.me-conclusion p + p { margin-top: 12px; }
+.me-conclusion > .eyebrow + p { margin-top: 10px; }
+@media (max-width: 1050px) { .me-study-layout { grid-template-columns: minmax(0, 1fr); gap: 26px; } .me-observation-list > div, .me-observation-list dl > div { grid-template-columns: 88px minmax(0, 1fr); } }
+@media (max-width: 640px) {
+  .me-case-tabs { gap: 7px; margin-bottom: 19px; }
+  .me-case-tab { flex: 1 1 140px; padding: 10px 12px; font-size: 13px; }
+  .me-player-controls { align-items: flex-start; gap: 10px 13px; }
+  .me-time-output { align-self: center; }
+  .me-player-controls button, .me-segment-controls button, .me-step-controls button { padding: 9px 11px; }
+  .me-playback-note { font-size: 12px; }
+  .me-observation-list > div, .me-observation-list dl > div { grid-template-columns: 66px minmax(0, 1fr); gap: 12px; }
+  .me-variables-grid, .me-recipes-grid { grid-template-columns: minmax(0, 1fr); }
+  .me-variables-grid > article { padding: 21px 0 23px; }
+  .me-variables-grid h3 { font-size: 20px; }
+  .me-recipe { padding-top: 23px; }
+  .me-recipe h3 { font-size: 22px; }
+  .me-recipe dl > div { grid-template-columns: 57px minmax(0, 1fr); gap: 10px; }
+  .me-conclusion { padding: 21px 19px; }
+  .me-conclusion h2 { font-size: 22px; }
+}

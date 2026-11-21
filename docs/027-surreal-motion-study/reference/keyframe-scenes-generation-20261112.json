@@ -1,0 +1,50 @@
+{
+  "generatedOn": "2026-11-12",
+  "timezone": "Asia/Shanghai",
+  "method": "内置 image_gen；三个独立的新图生成请求，无参考图片输入。",
+  "scope": "追加其他场景的原创静态关键帧；等待评阅，不制作运动、视频或产品演示。",
+  "previousGroup": "reference/keyframe-generation-20261112.json",
+  "exactComparison": false,
+  "limits": "本组刻意改变环境、材质、照明和布局。奶油色上衣与橙色自行车只作为大致的视觉锚点；人物、配件和空间细节并非严格一致。这是三个独立场景提案，不是连续帧或单变量实验。",
+  "frames": [
+    {
+      "id": "d",
+      "title": "雨夜霓虹峡谷",
+      "asset": "assets/original-keyframes/keyframe-d-neon-canyon.png",
+      "prompt": "Use case: stylized-concept. Asset: one original static cinematic keyframe for a research website comparing different fantasy scenes. Create ONE complete 16:9 widescreen landscape image, ideally 2048x1152. Scene D: an impossible rainy-night vertical metropolis, a vast neon urban canyon between staggered monumental building slabs, some colossal upper structures curving and leaning inward far overhead to hint that the entire city wraps upward into the mist. A single coherent wet elevated cycling promenade runs from the lower foreground toward an amber-lit opening far away; broad continuous surface, small safe edge parapets. Exactly one cyclist in a cream jacket, charcoal trousers, riding a burnt-orange bicycle, normal anatomy and two wheels. Cyclist in lower-left third in a medium-wide three-quarter rear view, clearly identifiable but much smaller than the architecture. Strong diagonal depth, a close dark cropped foreground wall on left, mid-distance bridges and offset slabs, distant towers soften into volumetric rain mist. Lighting is cinematic cyan-blue and restrained magenta neon strips reflected in wet stone, with a small warm amber destination. Readable dark values, carefully bounded luminous light sources, rich cold-warm hierarchy, not an overexposed neon mess. Minimal futuristic facade lights, no advertising copy. Mood: immersive, mysterious, energetic invitation to continue, not horror. High-end painterly cinematic environment concept art with believable wet material and atmospheric perspective, coherent large shapes, original architectural design. Borrow only general visual ideas of a small moving subject, giant world, readable route, near/mid/far layers; do not copy a known image, film set or character. Static image, no motion blur, no drawn arrows, no UI, no text, no logos, no watermark, no panels, no extra people, traffic, cars, aircraft, multiple bicycles, broken path, floating rider, coast, stone arch corridor or cloud-sea temple. This is a new subject and environment, not a recolor of the arcade scene.",
+      "borrowed": "参考 chasing 的近景主体、城市高差与冷暖分区，以及 vortex road 中道路亮线朝远处组织注意力的方式。没有复用其楼群、路面或天空像素。",
+      "technique": "画面利用湿地倒影重复光线、深浅雾层分离楼群，并让稀疏的亮线与路缘共同引导视线。发光感来自局部明暗和冷暖关系，不是把整张图统一提亮；雨和反射均为生成图中的静态内容。",
+      "width": 1672,
+      "height": 941,
+      "colorMode": "RGB",
+      "sha256": "689ff9c52a1d139417f6c6565d4063dc3ee30ab207f59c1fd94b59bbdeb76c65",
+      "sourceOutputFile": "exec-8b4f9f6b-cd0d-4009-90d2-2de926bec745.png"
+    },
+    {
+      "id": "e",
+      "title": "巨树悬空栈道",
+      "asset": "assets/original-keyframes/keyframe-e-giant-forest.png",
+      "prompt": "Use case: stylized-concept. Asset: one original static cinematic keyframe for a website comparing fantasy scene directions. Create ONE complete 16:9 landscape image, ideally 2048x1152, no collage. Scene E: a primeval cathedral-scale forest of impossibly gigantic living trees, vast buttress roots bridging an open deep emerald mist-filled ravine. A clear broad wood-plank cycling boardwalk is carefully built along the top of one enormous gently curving root, with slim simple low wooden edge rails. This continuous rideable route enters the lower-right foreground, bends toward the center through giant trunks and disappears into a soft warm sunlit canopy opening at upper-left distance. Exactly one small cyclist in a cream jacket and charcoal trousers riding a burnt-orange bicycle, clearly human with coherent posture and two wheels, seen from rear above in the lower-right/mid-right area. High oblique wide viewpoint showing the top of the route and the huge drop beside it; one close trunk or a fern silhouette frames the far-left edge without blocking the cyclist. Distinct near roots, middle boardwalk and far canopy layers. Humid moss, rough ancient bark, delicate ferns, a few soft suspended motes only. Mood: serene, alive, enchanted, invitation to explore. Green-blue cool forest shade, pale golden late afternoon shafts through leaves, selective warm rim light on path, readable shadows, restrained saturation, detailed organic materials, high-end cinematic painterly environment concept art, no fairy-tale cartoon. Massive scale is communicated by the tiny cyclist and immense roots, not by a random giant creature. No architecture resembling stone arches, no houses, city, sea, waterfalls dominating composition, aircraft, animals, extra people, duplicated bicycles, unreadable disconnected path, text, labels, UI, logos, watermark or panels. Static original keyframe, no promised actual moving camera, no motion blur.",
+      "borrowed": "借鉴 grassland special 的“小主体＋巨大环境”、近中远层次与可辨路线。将弯曲空间的组织方法迁移到树根和栈道，保留探索感。",
+      "technique": "用熟悉的小人物与粗大根系建立尺度差，以连续木板、栏杆和曲线串起路线。前景较深、远谷偏冷、上方暖光与雾层共同分开空间；光束与雾为静态生成的视觉表现。",
+      "width": 1672,
+      "height": 941,
+      "colorMode": "RGB",
+      "sha256": "a97d2f5d00a5179c65183f4406f0fd21c6a877ad0e5541b7b19323cf1030f482",
+      "sourceOutputFile": "exec-11766dc3-a77b-4896-a0d5-ca1bc1fa8dad.png"
+    },
+    {
+      "id": "f",
+      "title": "冰川裂谷",
+      "asset": "assets/original-keyframes/keyframe-f-glacier-rift.png",
+      "prompt": "Use case: stylized-concept. Asset: one original cinematic static keyframe for a fantasy scene comparison website. Generate ONE complete 16:9 widescreen landscape image, ideally 2048x1152, not a collage. Scene F: an immense luminous blue glacial rift whose translucent sculpted ice cliffs curl inward and upward like the walls of a frozen amphitheater; one huge natural ice overhang partly frames the upper-right edge. The glacial walls are fantastically tall with fine layered strata, the route remains horizontal and plausible. A broad dark basalt cycling causeway enters the lower-left foreground, sweeps gently across mid-frame toward a distant golden-pink dawn gap on the right. The continuous dark path has low safety edges with sparse inset amber guide lights; contrast makes the way forward clearly readable against pale cyan ice. Exactly one small cyclist in a cream jacket and charcoal trousers riding a burnt-orange bicycle, viewed from behind-left, located low left of center with normal posture and coherent wheels. Wide moderately elevated three-quarter viewpoint, several spatial layers of close ice, middle causeway, distant glacier gap and faint mountains; delicate suspended cold mist emphasizes depth. Mood: still, crystalline, expansive, wonder rather than danger. Pale cyan and cobalt ice, lavender shaded crevasses, restrained warm dawn on the horizon and small path lights; soft diffused illumination with readable ice texture and no blank clipped white highlights. High-end cinematic painterly environmental concept art with believable translucent ice and basalt, precise hierarchy, original natural forms. No city, timber forest, stone arch corridor, cloud sea temple, giant portals with glyphs, water flooding the path, people besides the one cyclist, animals, vehicles, duplicated bikes, broken or vertical riding surface, text, arrows, interface, labels, logos, watermark or panels. Not motion, not actual HDR delivery. A self-contained new scene that borrows only scale contrast, a clear route and cold-warm visual organization.",
+      "borrowed": "借鉴 grassland special 的环抱空间、高差与小主体尺度关系，并保留 vortex road 中路线朝主要视觉终点收束的思路。原作海岸和旋转天空都未直接使用。",
+      "technique": "通过暗路与浅冰的明暗分离保持路线可读，以冰层纹理、局部蓝色亮区和远处雾化表现冰的厚度与空间。暖灯串起路径，右侧晨光提供落点；未实现物理透射材质、实时三维或 HDR 显示。",
+      "width": 1672,
+      "height": 941,
+      "colorMode": "RGB",
+      "sha256": "1fbd55afcf36e0cc1b44cdcf72b9fc0bc4259c1c891ec4fa196e08cff8311c8d",
+      "sourceOutputFile": "exec-481658ca-ab87-4d22-a289-10b34fad5aa7.png"
+    }
+  ]
+}

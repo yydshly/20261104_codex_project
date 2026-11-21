@@ -1,0 +1,197 @@
+/* Reusable visual skills and demonstration planning; extends styles.css. */
+.learning-path {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 26px;
+  margin: 30px 0 12px;
+}
+.learning-path > article {
+  min-width: 0;
+  padding: 20px 0 12px;
+  border-top: 1px solid var(--line);
+}
+.learning-path > article > span:first-child {
+  color: var(--accent);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: .04em;
+}
+.learning-path h3 {
+  margin-top: 12px;
+  color: var(--text);
+  font-size: 19px;
+  font-weight: 550;
+  line-height: 1.45;
+  letter-spacing: -.02em;
+}
+.learning-path p {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.85;
+}
+
+.capability-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 36px;
+  margin-top: 25px;
+}
+.capability-card {
+  min-width: 0;
+  padding: 25px 0 30px;
+  border-top: 1px solid var(--line);
+}
+.card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 15px;
+}
+.capability-tag {
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: .06em;
+}
+.capability-status {
+  color: var(--faint);
+  font-size: 12px;
+  line-height: 1.6;
+}
+.capability-card h3 {
+  margin-top: 14px;
+  color: var(--text);
+  font-size: 24px;
+  font-weight: 550;
+  line-height: 1.4;
+  letter-spacing: -.025em;
+}
+.capability-goal {
+  max-width: 530px;
+  margin-top: 13px;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.9;
+}
+.capability-card dl {
+  display: grid;
+  grid-template-columns: 82px minmax(0, 1fr);
+  gap: 12px 16px;
+  margin: 21px 0 0;
+  font-size: 14px;
+  line-height: 1.85;
+}
+.capability-card dt {
+  color: var(--faint);
+  font-weight: 400;
+}
+.capability-card dd {
+  min-width: 0;
+  margin: 0;
+  color: #c5cdd1;
+  overflow-wrap: anywhere;
+}
+.capability-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 19px;
+  margin-top: 21px;
+}
+.capability-links a {
+  color: var(--accent);
+  font-size: 14px;
+  text-decoration: none;
+}
+.capability-links a:hover { text-decoration: underline; }
+.capability-check {
+  margin-top: 19px;
+  padding-left: 13px;
+  border-left: 2px solid #62724a;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.85;
+}
+.capability-check strong {
+  color: #d5deca;
+  font-weight: 500;
+}
+
+.demonstration-plan {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 27px;
+  margin-top: 25px;
+}
+.demonstration-plan > article {
+  min-width: 0;
+  padding: 20px 0 15px;
+  border-top: 1px solid var(--line);
+}
+.demonstration-plan .demo-number,
+.demonstration-plan .demo-index,
+.demonstration-plan > article > span:first-child {
+  color: var(--accent);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+.demonstration-plan h3 {
+  margin-top: 12px;
+  color: var(--text);
+  font-size: 20px;
+  font-weight: 550;
+  line-height: 1.45;
+}
+.demonstration-plan p {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.85;
+}
+.demo-status-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 17px;
+  color: var(--warm);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+.demo-status-inline::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  flex: 0 0 5px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+@media (min-width: 701px) and (max-width: 1150px) {
+  .learning-path { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 17px 28px; }
+  .capability-grid { gap: 0 27px; }
+  .capability-card h3 { font-size: 22px; }
+  .capability-card dl { grid-template-columns: 70px minmax(0, 1fr); gap: 11px 12px; }
+  .demonstration-plan { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 28px; }
+}
+
+@media (max-width: 700px) {
+  .learning-path,
+  .capability-grid,
+  .demonstration-plan { grid-template-columns: minmax(0, 1fr); }
+  .learning-path { gap: 8px; margin-top: 23px; }
+  .learning-path > article { padding-top: 17px; padding-bottom: 14px; }
+  .learning-path h3 { margin-top: 9px; font-size: 20px; }
+  .learning-path p { margin-top: 8px; font-size: 15px; }
+  .capability-grid { margin-top: 21px; }
+  .capability-card { padding: 23px 0 27px; }
+  .capability-card h3 { margin-top: 12px; font-size: 23px; }
+  .capability-card dl { grid-template-columns: 72px minmax(0, 1fr); gap: 11px 12px; }
+  .capability-links { gap: 13px 19px; }
+  .capability-links a { display: inline-flex; align-items: center; min-height: 35px; }
+  .capability-check { margin-top: 16px; font-size: 14px; }
+  .demonstration-plan { gap: 12px; margin-top: 21px; }
+  .demonstration-plan h3 { font-size: 21px; }
+}

@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-13",
+  "tool": "内置 image_gen",
+  "reference": "assets/original-keyframes/effect-ahead-reflection-v1.png",
+  "prompts": [
+    {
+      "id": "plate",
+      "transparent": false,
+      "prompt": "Use case: precise-object-edit. Edit the supplied image into a CLEAN BACKGROUND PLATE for a locally animated short. Preserve exact camera, wide landscape framing, stone canal edge, Chinese whitewashed architecture, bridge, lamps, trees, sky, and every architectural reflection. Remove the rust-orange coated person standing on the left bank AND remove their displaced inverted reflection on the far right of the water. Also remove the distorted dark human reflection in the lower-left water and its circular ripple rings. Reconstruct only these removed small regions with the existing wall, pavement and still water reflections. Absolutely no people anywhere. Preserve scene geometry and lighting; do not reimagine the scene, no text. One wide image."
+    },
+    {
+      "id": "poses",
+      "transparent": true,
+      "prompt": "Use case: identity-preserve. The supplied image is CHARACTER IDENTITY AND COSTUME REFERENCE only: the adult woman with tied dark hair, rust-orange long wool coat, black trousers and black ankle boots on the left bank. Create a transparent-background character animation asset sheet, exactly 3 columns by 2 rows of six full-body isolated photorealistic poses of this SAME woman. Every cell same person, costume, size, dusk side light and camera side view, entire boots and head visible, regular generous transparent gutters. No ground, shadows, scene, captions, letters, borders or props. Top row left: walking to the RIGHT with left foot forward and right foot behind. Top middle: walking RIGHT with right foot forward and left foot behind. Top right: stopped in RIGHT-facing profile with feet close and hands by coat pockets. Bottom left: stopped body still facing RIGHT, head and upper shoulders turned to look BACK LEFT over her shoulder, clearly visible leftward face direction. Bottom middle: right-facing woman slightly leaning forward to look DOWN toward water at her feet, right hand lightly reaching forward, feet together. Bottom right: woman startled, torso leaning BACK LEFT, right hand held near chest, a short backward step. Restrained natural acting, not exaggerated theatrical pose. IMPORTANT: six SEPARATE NONOVERLAPPING people in a strict 3x2 grid, transparent alpha background, no extra figures."
+    }
+  ],
+  "outputs": [
+    {
+      "id": "plate",
+      "source": "[local path omitted]",
+      "target": "assets/reflection-short/plate-v1.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "eb90e48fb64052a465d4775d4c2a43c750f7d4bbcdc67da53738a48d0defb6e1"
+    },
+    {
+      "id": "poses",
+      "source": "[local path omitted]",
+      "target": "assets/reflection-short/poses-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "sha256": "f1a868a43efdd2f507f40c8a692a712043e78f76bbf07024b09078745befbad7"
+    }
+  ]
+}

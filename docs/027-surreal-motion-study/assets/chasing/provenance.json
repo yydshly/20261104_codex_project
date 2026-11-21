@@ -1,0 +1,104 @@
+{
+  "id": "chasing",
+  "title": "chasing",
+  "post_url": "https://x.com/hi_personality/status/2117011977658876093",
+  "category": "楼顶临边骑行与黄昏城市",
+  "video_playlist": "https://video.twimg.com/amplify_video/2117011926274453504/pl/avc1/1920x1080/dCthos-limisqII6.m3u8",
+  "audio_playlist": "https://video.twimg.com/amplify_video/2117011926274453504/pl/mp4a/128000/67-9TyGgIO-o6nlv.m3u8",
+  "master_playlist": "https://video.twimg.com/amplify_video/2117011926274453504/pl/QuGwIitH2WT2k_KE.m3u8?tag=29",
+  "poster_url": "https://pbs.twimg.com/amplify_video_thumb/2117011926274453504/img/BWd6xRqBpzRcADYo?format=webp&name=large",
+  "verification": "原帖已打开；视频及播放列表由页面实际加载资源确认",
+  "material_type": "original_video_downloaded_from_observed_public_hls",
+  "duration_seconds": 6.983333,
+  "width": 1920,
+  "height": 1080,
+  "color_transfer": "arib-std-b67",
+  "color_primaries": "bt2020",
+  "frame_rate": "60/1",
+  "frames": [
+    {
+      "time_seconds": 0.1,
+      "path": "assets/chasing/frame-00.10.jpg"
+    },
+    {
+      "time_seconds": 1,
+      "path": "assets/chasing/frame-01.00.jpg"
+    },
+    {
+      "time_seconds": 2,
+      "path": "assets/chasing/frame-02.00.jpg"
+    },
+    {
+      "time_seconds": 3,
+      "path": "assets/chasing/frame-03.00.jpg"
+    },
+    {
+      "time_seconds": 4,
+      "path": "assets/chasing/frame-04.00.jpg"
+    },
+    {
+      "time_seconds": 5,
+      "path": "assets/chasing/frame-05.00.jpg"
+    },
+    {
+      "time_seconds": 6,
+      "path": "assets/chasing/frame-06.00.jpg"
+    },
+    {
+      "time_seconds": 6.883,
+      "path": "assets/chasing/frame-06.88.jpg"
+    }
+  ],
+  "local_video": "assets/chasing/reference.mp4",
+  "track_sources": {
+    "video": {
+      "playlist_url": "https://video.twimg.com/amplify_video/2117011926274453504/pl/avc1/1920x1080/dCthos-limisqII6.m3u8",
+      "segments": [
+        {
+          "order": 0,
+          "url": "https://video.twimg.com/amplify_video/2117011926274453504/vid/avc1/0/0/1920x1080/nYmDgKAimeYLSxB8.mp4",
+          "bytes": 844,
+          "sha256": "dae6e49ee212add141a926c59b47d164c913c1c11ac62c73351e45424a094de3"
+        },
+        {
+          "order": 1,
+          "url": "https://video.twimg.com/amplify_video/2117011926274453504/vid/avc1/0/3000/1920x1080/kwlrJuBKblqFXWoc.m4s",
+          "bytes": 4206341,
+          "sha256": "95e0b9b240be0132dd0da87f9b59de7676bddda176239ec394e4c5b203796210"
+        },
+        {
+          "order": 2,
+          "url": "https://video.twimg.com/amplify_video/2117011926274453504/vid/avc1/3000/6983/1920x1080/8K6nbZJZDMbEdn-E.m4s",
+          "bytes": 5142520,
+          "sha256": "212da7bcf5d8e043660bdaaf946ca50ff12518d63e4ea5fc87cf68889d5dbc01"
+        }
+      ]
+    },
+    "audio": {
+      "playlist_url": "https://video.twimg.com/amplify_video/2117011926274453504/pl/mp4a/128000/67-9TyGgIO-o6nlv.m3u8",
+      "segments": [
+        {
+          "order": 0,
+          "url": "https://video.twimg.com/amplify_video/2117011926274453504/aud/mp4a/0/0/128000/TcQUExmFds79Yd2I.mp4",
+          "bytes": 749,
+          "sha256": "3da5a2418690f2eec0a40a433befb1b189d0d724972b1128c529224bd94129c7"
+        },
+        {
+          "order": 1,
+          "url": "https://video.twimg.com/amplify_video/2117011926274453504/aud/mp4a/0/3000/128000/YtoHOLfm9fzYJOaV.m4s",
+          "bytes": 50207,
+          "sha256": "c1999c81f9b6811c72f70356591037ce430c88c94ae9324735d7bf23707c2270"
+        },
+        {
+          "order": 2,
+          "url": "https://video.twimg.com/amplify_video/2117011926274453504/aud/mp4a/3000/6989/128000/sMmzcjSq-TczCNt5.m4s",
+          "bytes": 64661,
+          "sha256": "886fe7c606d42b4757231c2f5fb0d833cca7236e3d2b8e673534856683e42f01"
+        }
+      ]
+    }
+  },
+  "video_sha256": "c2c31aac574ffc534c98493146c5f8d9f7f59648f7a361bdf25599689b06e2db",
+  "audio_reviewed_by_listener": false,
+  "preview_conversion": "HLG to BT.709 via FFmpeg zscale + Hable tone mapping; approximate SDR analysis preview"
+}

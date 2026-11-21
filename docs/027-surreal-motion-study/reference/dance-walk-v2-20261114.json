@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-14",
+  "type": "local_layered_animation_revision",
+  "outputs": [
+    {
+      "file": "assets/dance-walk/dance-walk-100bpm-local-v2.mp4",
+      "frames": 240,
+      "seconds": 9.6,
+      "size": [
+        1280,
+        720
+      ],
+      "audio": "aac",
+      "sha256": "357f084554e0ca2bbc30bfdbf1e7bd1555bee4c7c36676b7a2b4cc12eaf0020d"
+    },
+    {
+      "file": "assets/dance-walk/dance-walk-100bpm-portrait-v2.mp4",
+      "frames": 240,
+      "seconds": 9.6,
+      "size": [
+        720,
+        960
+      ],
+      "audio": "aac",
+      "sha256": "92928b2a57104edb47bd601955a4beb5e91b3b8dbb1a1a05689e2eca8894ac5f"
+    }
+  ],
+  "bpm": 100,
+  "beats": 16,
+  "framesPerBeat": 15,
+  "continuousForward": true,
+  "changes": [
+    "躯干回弹改为局部变形，前12拍不再整体离地。",
+    "前0.4拍添加足部图层定位约束，随后逐渐释放。",
+    "第9/10拍上身停顿改为连续过渡，减少边界突变。",
+    "横版角色占比增大，另导出720×960全身近景。"
+  ],
+  "plantMeasurement": {
+    "type": "alpha-silhouette estimate, not physical validation",
+    "samples": 112,
+    "medianErrorPx": 0.6725000000000001
+  },
+  "limits": [
+    "局部足部约束不是骨骼IK，无法修复全部滑步、穿插与形变。",
+    "近景会暴露原有静态姿态插值的不足。",
+    "仍使用原创占位配乐；未确认用户记忆中的歌曲。",
+    "现有素材未形成连续闭眼表演，沉醉与释放的表情仍待验证。"
+  ],
+  "sourceAssets": "reference/dance-walk-assets-20261113.json",
+  "music": "reference/dance-walk-music-20261113.json",
+  "script": "scripts/render_dance_walk_v2.py"
+}

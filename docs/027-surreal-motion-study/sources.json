@@ -1,0 +1,333 @@
+{
+  "retrieved_on": "2026-11-12",
+  "references": [
+    {
+      "id": "grassland-special",
+      "title": "grassland special",
+      "post_url": "https://x.com/hi_personality/status/2115567493565825244",
+      "category": "卷曲海岸与巨大尺度",
+      "video_playlist": "https://video.twimg.com/amplify_video/2115567338271682560/pl/avc1/1920x1080/JJgIhN56f2c8-Ww0.m3u8",
+      "audio_playlist": "https://video.twimg.com/amplify_video/2115567338271682560/pl/mp4a/128000/UgCmegGKti81jTFd.m3u8",
+      "master_playlist": "https://video.twimg.com/amplify_video/2115567338271682560/pl/3JdvXRE0wM9DUowA.m3u8?tag=29",
+      "poster_url": "https://pbs.twimg.com/amplify_video_thumb/2115567338271682560/img/C_3e3UarmEalJI5B?format=webp&name=large",
+      "verification": "原帖已打开；视频及播放列表由页面实际加载资源确认",
+      "material_type": "original_video_downloaded_from_observed_public_hls",
+      "duration_seconds": 6.966667,
+      "width": 1920,
+      "height": 1080,
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "frame_rate": "60/1",
+      "frames": [
+        {
+          "time_seconds": 0.1,
+          "path": "assets/grassland-special/frame-00.10.jpg"
+        },
+        {
+          "time_seconds": 1,
+          "path": "assets/grassland-special/frame-01.00.jpg"
+        },
+        {
+          "time_seconds": 2,
+          "path": "assets/grassland-special/frame-02.00.jpg"
+        },
+        {
+          "time_seconds": 3,
+          "path": "assets/grassland-special/frame-03.00.jpg"
+        },
+        {
+          "time_seconds": 4,
+          "path": "assets/grassland-special/frame-04.00.jpg"
+        },
+        {
+          "time_seconds": 5,
+          "path": "assets/grassland-special/frame-05.00.jpg"
+        },
+        {
+          "time_seconds": 6,
+          "path": "assets/grassland-special/frame-06.00.jpg"
+        },
+        {
+          "time_seconds": 6.867,
+          "path": "assets/grassland-special/frame-06.87.jpg"
+        }
+      ],
+      "local_video": "assets/grassland-special/reference.mp4",
+      "track_sources": {
+        "video": {
+          "playlist_url": "https://video.twimg.com/amplify_video/2115567338271682560/pl/avc1/1920x1080/JJgIhN56f2c8-Ww0.m3u8",
+          "segments": [
+            {
+              "order": 0,
+              "url": "https://video.twimg.com/amplify_video/2115567338271682560/vid/avc1/0/0/1920x1080/rRns7MbJ3urcflQr.mp4",
+              "bytes": 844,
+              "sha256": "c956d5cc5baa60100c2d4e9727c54e22023272b5127d12ed50696dfe67b2f3a6"
+            },
+            {
+              "order": 1,
+              "url": "https://video.twimg.com/amplify_video/2115567338271682560/vid/avc1/0/3000/1920x1080/d_TcK0M52PrlHuR7.m4s",
+              "bytes": 4214914,
+              "sha256": "3da9170b1a39c1416429a4e04bdc354dd573e93aa7c8fd1b568c9f5e0c701fde"
+            },
+            {
+              "order": 2,
+              "url": "https://video.twimg.com/amplify_video/2115567338271682560/vid/avc1/3000/6966/1920x1080/iFl1lE4MVXz5slvq.m4s",
+              "bytes": 5185756,
+              "sha256": "e29e384a7c284463096d70801a42e6b1489a5aa0a339ef9ad1dd5e7284b6a0a7"
+            }
+          ]
+        },
+        "audio": {
+          "playlist_url": "https://video.twimg.com/amplify_video/2115567338271682560/pl/mp4a/128000/UgCmegGKti81jTFd.m3u8",
+          "segments": [
+            {
+              "order": 0,
+              "url": "https://video.twimg.com/amplify_video/2115567338271682560/aud/mp4a/0/0/128000/ox79-sXZ6l6_HW-S.mp4",
+              "bytes": 749,
+              "sha256": "ef6e14c4b43b662f99af4dd9f5773b4dcc72c6ee65bd61388c0461dcb8f9264f"
+            },
+            {
+              "order": 1,
+              "url": "https://video.twimg.com/amplify_video/2115567338271682560/aud/mp4a/0/3000/128000/71oRPN6iZKCe7kzp.m4s",
+              "bytes": 50005,
+              "sha256": "c58979c004e7eb51b48787950256991780f2c537e4ca531fc00c5bbc8898deac"
+            },
+            {
+              "order": 2,
+              "url": "https://video.twimg.com/amplify_video/2115567338271682560/aud/mp4a/3000/6968/128000/ifz_bkiIRw_qx1ie.m4s",
+              "bytes": 64475,
+              "sha256": "f7ee8fc579dbde0143cfa5f7ec7a452aa593cb139d56ecdd0ea4d5c206e156cc"
+            }
+          ]
+        }
+      },
+      "video_sha256": "96ee847076984d724aafad3857f5008adda835bc56b337ef66c27924acba2f59",
+      "audio_reviewed_by_listener": false,
+      "preview_conversion": "HLG to BT.709 via FFmpeg zscale + Hable tone mapping; approximate SDR analysis preview"
+    },
+    {
+      "id": "chasing",
+      "title": "chasing",
+      "post_url": "https://x.com/hi_personality/status/2117011977658876093",
+      "category": "楼顶临边骑行与黄昏城市",
+      "video_playlist": "https://video.twimg.com/amplify_video/2117011926274453504/pl/avc1/1920x1080/dCthos-limisqII6.m3u8",
+      "audio_playlist": "https://video.twimg.com/amplify_video/2117011926274453504/pl/mp4a/128000/67-9TyGgIO-o6nlv.m3u8",
+      "master_playlist": "https://video.twimg.com/amplify_video/2117011926274453504/pl/QuGwIitH2WT2k_KE.m3u8?tag=29",
+      "poster_url": "https://pbs.twimg.com/amplify_video_thumb/2117011926274453504/img/BWd6xRqBpzRcADYo?format=webp&name=large",
+      "verification": "原帖已打开；视频及播放列表由页面实际加载资源确认",
+      "material_type": "original_video_downloaded_from_observed_public_hls",
+      "duration_seconds": 6.983333,
+      "width": 1920,
+      "height": 1080,
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "frame_rate": "60/1",
+      "frames": [
+        {
+          "time_seconds": 0.1,
+          "path": "assets/chasing/frame-00.10.jpg"
+        },
+        {
+          "time_seconds": 1,
+          "path": "assets/chasing/frame-01.00.jpg"
+        },
+        {
+          "time_seconds": 2,
+          "path": "assets/chasing/frame-02.00.jpg"
+        },
+        {
+          "time_seconds": 3,
+          "path": "assets/chasing/frame-03.00.jpg"
+        },
+        {
+          "time_seconds": 4,
+          "path": "assets/chasing/frame-04.00.jpg"
+        },
+        {
+          "time_seconds": 5,
+          "path": "assets/chasing/frame-05.00.jpg"
+        },
+        {
+          "time_seconds": 6,
+          "path": "assets/chasing/frame-06.00.jpg"
+        },
+        {
+          "time_seconds": 6.883,
+          "path": "assets/chasing/frame-06.88.jpg"
+        }
+      ],
+      "local_video": "assets/chasing/reference.mp4",
+      "track_sources": {
+        "video": {
+          "playlist_url": "https://video.twimg.com/amplify_video/2117011926274453504/pl/avc1/1920x1080/dCthos-limisqII6.m3u8",
+          "segments": [
+            {
+              "order": 0,
+              "url": "https://video.twimg.com/amplify_video/2117011926274453504/vid/avc1/0/0/1920x1080/nYmDgKAimeYLSxB8.mp4",
+              "bytes": 844,
+              "sha256": "dae6e49ee212add141a926c59b47d164c913c1c11ac62c73351e45424a094de3"
+            },
+            {
+              "order": 1,
+              "url": "https://video.twimg.com/amplify_video/2117011926274453504/vid/avc1/0/3000/1920x1080/kwlrJuBKblqFXWoc.m4s",
+              "bytes": 4206341,
+              "sha256": "95e0b9b240be0132dd0da87f9b59de7676bddda176239ec394e4c5b203796210"
+            },
+            {
+              "order": 2,
+              "url": "https://video.twimg.com/amplify_video/2117011926274453504/vid/avc1/3000/6983/1920x1080/8K6nbZJZDMbEdn-E.m4s",
+              "bytes": 5142520,
+              "sha256": "212da7bcf5d8e043660bdaaf946ca50ff12518d63e4ea5fc87cf68889d5dbc01"
+            }
+          ]
+        },
+        "audio": {
+          "playlist_url": "https://video.twimg.com/amplify_video/2117011926274453504/pl/mp4a/128000/67-9TyGgIO-o6nlv.m3u8",
+          "segments": [
+            {
+              "order": 0,
+              "url": "https://video.twimg.com/amplify_video/2117011926274453504/aud/mp4a/0/0/128000/TcQUExmFds79Yd2I.mp4",
+              "bytes": 749,
+              "sha256": "3da5a2418690f2eec0a40a433befb1b189d0d724972b1128c529224bd94129c7"
+            },
+            {
+              "order": 1,
+              "url": "https://video.twimg.com/amplify_video/2117011926274453504/aud/mp4a/0/3000/128000/YtoHOLfm9fzYJOaV.m4s",
+              "bytes": 50207,
+              "sha256": "c1999c81f9b6811c72f70356591037ce430c88c94ae9324735d7bf23707c2270"
+            },
+            {
+              "order": 2,
+              "url": "https://video.twimg.com/amplify_video/2117011926274453504/aud/mp4a/3000/6989/128000/sMmzcjSq-TczCNt5.m4s",
+              "bytes": 64661,
+              "sha256": "886fe7c606d42b4757231c2f5fb0d833cca7236e3d2b8e673534856683e42f01"
+            }
+          ]
+        }
+      },
+      "video_sha256": "c2c31aac574ffc534c98493146c5f8d9f7f59648f7a361bdf25599689b06e2db",
+      "audio_reviewed_by_listener": false,
+      "preview_conversion": "HLG to BT.709 via FFmpeg zscale + Hable tone mapping; approximate SDR analysis preview"
+    },
+    {
+      "id": "vortex-road",
+      "title": "vortex road",
+      "post_url": "https://x.com/hi_personality/status/2118132771290030513",
+      "category": "漩涡天空与城市旋转空间",
+      "video_playlist": "https://video.twimg.com/amplify_video/2118132634052415488/pl/avc1/1920x1080/jB9SCw0BCfJbjipq.m3u8",
+      "audio_playlist": "https://video.twimg.com/amplify_video/2118132634052415488/pl/mp4a/128000/8GYADBRTQSsCfJb3.m3u8",
+      "master_playlist": "https://video.twimg.com/amplify_video/2118132634052415488/pl/rlLxFvNsaNxbH9DR.m3u8?tag=29",
+      "poster_url": "https://pbs.twimg.com/amplify_video_thumb/2118132634052415488/img/esKSx-eOIoqBIUyZ?format=webp&name=large",
+      "verification": "原帖已打开；视频及播放列表由页面实际加载资源确认",
+      "material_type": "original_video_downloaded_from_observed_public_hls",
+      "duration_seconds": 7.15,
+      "width": 1920,
+      "height": 1080,
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "frame_rate": "60/1",
+      "frames": [
+        {
+          "time_seconds": 0.1,
+          "path": "assets/vortex-road/frame-00.10.jpg"
+        },
+        {
+          "time_seconds": 1,
+          "path": "assets/vortex-road/frame-01.00.jpg"
+        },
+        {
+          "time_seconds": 2,
+          "path": "assets/vortex-road/frame-02.00.jpg"
+        },
+        {
+          "time_seconds": 3,
+          "path": "assets/vortex-road/frame-03.00.jpg"
+        },
+        {
+          "time_seconds": 4,
+          "path": "assets/vortex-road/frame-04.00.jpg"
+        },
+        {
+          "time_seconds": 5,
+          "path": "assets/vortex-road/frame-05.00.jpg"
+        },
+        {
+          "time_seconds": 6,
+          "path": "assets/vortex-road/frame-06.00.jpg"
+        },
+        {
+          "time_seconds": 7.05,
+          "path": "assets/vortex-road/frame-07.05.jpg"
+        }
+      ],
+      "local_video": "assets/vortex-road/reference.mp4",
+      "track_sources": {
+        "video": {
+          "playlist_url": "https://video.twimg.com/amplify_video/2118132634052415488/pl/avc1/1920x1080/jB9SCw0BCfJbjipq.m3u8",
+          "segments": [
+            {
+              "order": 0,
+              "url": "https://video.twimg.com/amplify_video/2118132634052415488/vid/avc1/0/0/1920x1080/InLW7i1ihcyn2BvB.mp4",
+              "bytes": 844,
+              "sha256": "959663e68182e54a362a483f564affe75cbc72478df36e798f69df2b7e1e33d3"
+            },
+            {
+              "order": 1,
+              "url": "https://video.twimg.com/amplify_video/2118132634052415488/vid/avc1/0/3000/1920x1080/GEYU9JyrXxoo_voS.m4s",
+              "bytes": 4151149,
+              "sha256": "58902918baa786ec1d40be23b748d71206830278d8933beb76fd2edd2daab0cc"
+            },
+            {
+              "order": 2,
+              "url": "https://video.twimg.com/amplify_video/2118132634052415488/vid/avc1/3000/7167/1920x1080/zwECT9wlkhXM8qrW.m4s",
+              "bytes": 5469192,
+              "sha256": "5df147dd523601be4d84adda99e9f83e5ab640a2cadd7c7842a293d4fc2bffbc"
+            }
+          ]
+        },
+        "audio": {
+          "playlist_url": "https://video.twimg.com/amplify_video/2118132634052415488/pl/mp4a/128000/8GYADBRTQSsCfJb3.m3u8",
+          "segments": [
+            {
+              "order": 0,
+              "url": "https://video.twimg.com/amplify_video/2118132634052415488/aud/mp4a/0/0/128000/r4Ca-iuROUue_3Li.mp4",
+              "bytes": 749,
+              "sha256": "0df0074c098940e35c7dc8f5b2607cdff1f4543f97373435905d69ff9d250c68"
+            },
+            {
+              "order": 1,
+              "url": "https://video.twimg.com/amplify_video/2118132634052415488/aud/mp4a/0/3000/128000/G89fwRemu7rEHmEz.m4s",
+              "bytes": 50055,
+              "sha256": "98a4cab5b3b042848125caf85a15de6e5c0500e087cb0dd8937b219b4899c047"
+            },
+            {
+              "order": 2,
+              "url": "https://video.twimg.com/amplify_video/2118132634052415488/aud/mp4a/3000/7160/128000/TTyEAZeLuGMFr3Ax.m4s",
+              "bytes": 67222,
+              "sha256": "f74ed5d4c588782c8f49f3901730d30892a2e50b120aa68c952cde3bd7495008"
+            }
+          ]
+        }
+      },
+      "video_sha256": "4a78213e06d579ab5018494aaff971a63307d1d331bb469dce706ac41c5315bb",
+      "audio_reviewed_by_listener": false,
+      "preview_conversion": "HLG to BT.709 via FFmpeg zscale + Hable tone mapping; approximate SDR analysis preview"
+    }
+  ],
+  "author_statements": [
+    {
+      "id": "workflow",
+      "url": "https://x.com/hi_personality/status/2115776938069635304",
+      "verified_in_original_post": true,
+      "statement_summary": "作者自述使用 Midjourney，再通过 ComfyUI 使用其称为 minimax h3 的视频模型，最后在 DaVinci Resolve 做后期与调色。",
+      "limits": "这是作者当时对自身流程的说明；未公开工作流、提示词、模型完整标识或参数，不能证明每条视频都使用相同设置。"
+    },
+    {
+      "id": "hdr-color",
+      "url": "https://x.com/hi_personality/status/2115573454628106332",
+      "verified_in_original_post": true,
+      "statement_summary": "作者确认使用 HDR 和 DaVinci 调色。",
+      "limits": "截图和本地 AVC 分析副本不能还原所有设备上的 HDR 显示；HDR 对传播数据的贡献没有被量化。"
+    }
+  ]
+}

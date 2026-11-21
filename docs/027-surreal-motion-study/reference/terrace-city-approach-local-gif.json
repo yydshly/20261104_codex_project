@@ -1,0 +1,31 @@
+{
+  "createdOn": "2026-11-13",
+  "type": "local_single_image_2_5d_scene_previsualization",
+  "source": "assets/original-keyframes/twilight-terrace-city-arch-v3.png",
+  "sourceSha256": "55561aab25feba59008023be8842e77e06d54eda0c18c595bcf9c8276e066640",
+  "gif": "assets/gif-studies/terrace-city-approach-local.gif",
+  "method": "Hand-authored approximate depth layers and inverse perspective remapping; Pillow GIF assembly; no remote generation service",
+  "remoteServiceUsed": false,
+  "generatedVideoUsed": false,
+  "cameraDesign": {
+    "motion": "steady forward approach along avenue; stable heading",
+    "movement_seconds": 5,
+    "inverse_depth_advance": 0.16,
+    "vanishing_point_normalized": [
+      0.58,
+      0.435
+    ]
+  },
+  "limits": [
+    "Single-image 2.5D previsualization, not reconstructed 3D or AI-generated video",
+    "Cannot reveal genuinely hidden architecture from a single source image",
+    "People and environmental states are not independently animated",
+    "Loops by returning to the start; not claimed as seamless"
+  ],
+  "width": 420,
+  "height": 691,
+  "frames": 50,
+  "duration_ms": 6200,
+  "bytes": 4152008,
+  "sha256": "5f3d116a3e18a765711e2b328235b51b285b8fa665284f9081a3de89b0f477a8"
+}

@@ -1,0 +1,52 @@
+{
+  "generatedOn": "2026-11-13",
+  "timezone": "Asia/Shanghai",
+  "tool": "内置 image_gen（非 CLI）",
+  "modelVersion": null,
+  "seed": null,
+  "status": "static_design_iterations",
+  "scope": "用户要求继续设计；保留V1，继续静态构图迭代，不制作视频或运动。",
+  "selectedVersion": "v3",
+  "referenceVideoUsedAsImageInput": false,
+  "versions": [
+    {
+      "id": "v2",
+      "title": "路线展开",
+      "asset": "assets/original-keyframes/twilight-terrace-city-arch-v2.png",
+      "actualImageInput": "[local path omitted]",
+      "inputRole": "V1作为编辑目标，保留阶梯城与材质，调整巨拱距离和路线显露。",
+      "sourceOutputFile": "[local path omitted]",
+      "prompt": "Use case: stylized-concept, targeted composition refinement of an existing original keyframe.\nImage 1 is the EDIT TARGET: our original \"twilight terraced city + floating open arch\" static draft V1. Preserve the city's architectural language, weathered bronze-grey stone, stepped terraces, large bridges, the connected avenue, small human scale figures, and the quiet twilight mood. Produce ONE complete standalone portrait artwork on the same overall canvas proportions, not a comparison or collage.\n\nPrimary revision: make the arch something we are APPROACHING through the city, rather than a close object hanging over the viewer. Move the same single thick OPEN INVERTED-U ARCH into the middle/far distance, beyond the first layers of terraces. Show its whole upper curve with some blue-grey sky above it; it must no longer be cropped at the top or fill the close foreground. Its scale in the world remains monumental compared with buildings. Both lower ends visibly hover with air gaps above the distant rooftops. Keep its weathered block construction and a restrained thin amber inner-edge light; no complete ring or portal disc.\n\nPreserve the broad avenue starting at lower center and the general stepped city layout. Clarify the route as it continues through the middle terraces toward a small warm destination beneath or close to the distant arch: a readable continuous path, gentle bends, connected ramps or broad steps, no broken sections. Use the existing near dark building masses to frame this approach and create clear near/middle/far layers. Keep near foreground stone crisp, the middle terraces readable, and the far arch subtly separated by atmospheric haze, with visible detail.\n\nOnly make the lighting adjustments necessary to strengthen this depth and focal hierarchy: slightly cooler and quieter near shadows, fewer equally bright warm windows, retain the narrow sunset horizon; warm attention gathers on the distant avenue destination and parts of the arch's inner edge. Keep visible shadow texture and highlight structure. The feeling should be a calm, mysterious approach to an immense ancient-futuristic civilization. No giant hero, action, new landmarks or busy effects.\nDo not alter the work into a cyberpunk city, closed circular rings, neon colors, or a different architectural style. No text, watermark, UI, borders, split panels, arrows, labels, or motion effects. This is a static composition revision only.",
+      "actualMetadata": {
+        "width": 1055,
+        "height": 1491,
+        "mode": "RGB",
+        "bytes": 2156948,
+        "sha256": "795d959d950bce70cb9577bbfb671829344230822bebc3899389b03181e42056"
+      },
+      "review": "S形路线和远处目的地更清楚，巨拱完整进入画面；但巨拱偏小，天空留白增多，奇观存在感下降。"
+    },
+    {
+      "id": "v3",
+      "title": "远处巨构",
+      "asset": "assets/original-keyframes/twilight-terrace-city-arch-v3.png",
+      "actualImageInput": "[local path omitted]",
+      "inputRole": "V2作为编辑目标；主要增加远处开放拱的可见体量，保留路线、材质、城市层次。",
+      "sourceOutputFile": "[local path omitted]",
+      "prompt": "Use case: stylized-concept. One targeted refinement of an existing original static environment keyframe.\nImage 1 is the EDIT TARGET: our V2 twilight terraced stone city with a distant hovering open arch and a clear S-shaped processional route.\nKeep the city, bridges, people, continuous S-shaped route, framing buildings, sky/weather, camera viewpoint, stone material, and twilight lighting exactly as stable as possible.\n\nChange only the visual scale of the distant arch: enlarge the same OPEN INVERTED-U ARCH to about one and a half times its present apparent height and width, keeping its lower hovering ends at roughly the same distant location above the destination terrace. Expand upward and outward from that base, NOT toward the camera. The arch must remain beyond the middle terraces, with readable atmosphere separating it from nearby buildings, and both lower ends visibly suspended above rooftops. It should again be the dominant memorable landmark, much larger than a palace, while remaining FULLY VISIBLE with a modest margin of sky above its highest curve. Do not crop it at the top.\nKeep a thick, weathered stone/bronze block structure with restrained warm inner-edge light, not a closed ring or a glowing portal disc. Preserve the existing route leading the eye into the city beneath it. The desired balance is a clear journey toward an immense distant landmark, not an arch hovering immediately over the viewer and not a small decorative arch.\nNo new buildings or roads, no change to people or city geography beyond necessary occlusion by the enlarged distant arch. No text, graphics, arrows, borders, watermark, added effects, collage or video. One complete portrait static artwork, same canvas proportions as the supplied image.",
+      "actualMetadata": {
+        "width": 1055,
+        "height": 1491,
+        "mode": "RGB",
+        "bytes": 2004581,
+        "sha256": "55561aab25feba59008023be8842e77e06d54eda0c18c595bcf9c8276e066640"
+      },
+      "review": "保留V2清楚的S形进入路线，增大远处巨拱体量，完整保留拱顶；静态观看中兼顾进入方向和主要地标。精确几何、城市一致性与运动仍未验证。"
+    }
+  ],
+  "limits": [
+    "AI编辑不是严格单变量实验；细节可能随生成改变。",
+    "图片之间是设计版本，不是同一镜头的前后帧。",
+    "全部为静态构图，无视频、运镜或三维效果实现。"
+  ]
+}

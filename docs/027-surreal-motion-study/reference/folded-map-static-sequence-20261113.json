@@ -1,0 +1,54 @@
+{
+  "generatedOn": "2026-11-13",
+  "timezone": "Asia/Shanghai",
+  "title": "折叠世界：纸面—折起—成形",
+  "scope": "用户要求继续下一个，在静态图范围内推进已有折叠世界，不生成动态或产品。",
+  "tool": "内置 image_gen",
+  "modelVersion": null,
+  "seed": null,
+  "actualImageInputs": [
+    "[local path omitted]"
+  ],
+  "inputRole": "原折叠世界图作为两次独立静态编辑的目标与视觉连续性参考。",
+  "stages": [
+    {
+      "label": "纸面",
+      "asset": "assets/original-keyframes/folded-map-flat-v1.png",
+      "sourceOutputFile": "exec-b5d7146a-e835-47df-800a-b0ee595219bb.png",
+      "prompt": "Use case: stylized-concept. Edit the supplied original \"folded map becomes a mountain world\" keyframe into ONE standalone widescreen 16:9 static stage illustration. Image 1 is the EDIT TARGET and visual continuity reference. Preserve the same oblique tabletop viewpoint, near wooden table edge, ivory paper texture, brass compass in the lower-left corner, warm window light and the wooden window frame at upper left. Keep the blue winding river line and unlabelled brown contour-line vocabulary. No text, arrows, panel borders, extra props or people.\nShow the BEFORE state: the map is entirely FLAT on the wooden table. All the mountains, ridges, forests and valley in the supplied scene are still only fine flat topographic contour lines and subtle printed terrain shading on paper. The blue river is a flat ink line, not water. NO paper mountains or raised folds yet, no actual rocks, trees or miniature landscape emerging from the map. The near paper continues flat into the far part of the same table. Where the original magical world extended into the background, show the far flat map, softly lit tabletop and a quiet neutral interior beyond it; preserve the original window corner as the spatial anchor. Make the flatness unmistakable through visible paper edges resting on wood, gentle side lighting and continuous planar printed lines. This is a calm starting state before the map has been folded. Match the reference's warm, tactile cinematic realism, composition and compass placement as closely as possible.",
+      "actualMetadata": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "bytes": 2959736,
+        "sha256": "f98ccbfa62ef7e22d9114b616223ead523bc1322cd0f398a1ee2f3a27f0ed4e9"
+      },
+      "observation": "纸面仍平铺在木桌上，以等高线、图绘山形与蓝色墨线表示地形。"
+    },
+    {
+      "label": "折起",
+      "asset": "assets/original-keyframes/folded-map-world-v1.png",
+      "record": "reference/reverse-world-directions-20261113.json",
+      "observation": "明显纸折面与真实山脊并置，蓝墨线接到山谷河流。"
+    },
+    {
+      "label": "成形",
+      "asset": "assets/original-keyframes/folded-map-formed-v1.png",
+      "sourceOutputFile": "exec-15867a72-a9c6-4fe3-934a-40e8d5a84b71.png",
+      "prompt": "Use case: stylized-concept. Edit the supplied original \"folded map becomes a mountain world\" keyframe into ONE standalone widescreen 16:9 static stage illustration. Image 1 is the EDIT TARGET and visual continuity reference. Preserve the same oblique tabletop viewpoint, near wooden table edge, ivory paper texture, brass compass in the lower-left corner, warm window light and the wooden window frame at upper left. Keep the blue winding river line and unlabelled brown contour-line vocabulary. No text, arrows, panel borders, extra props or people.\nShow the developed AFTER state: the raised central paper ridge has become a substantial REAL rocky mountain chain, and the valley and forest have fully opened out beyond it. Physical slate cliffs, forested slopes, a clear winding river and distant snow peaks occupy most of the central and right part of the scene, with deep atmospheric distance. Keep a modest area of FLAT ivory map in the LOWER-LEFT foreground, its visible paper edge and the same brass compass, so the landscape is still unmistakably emerging from that one paper map rather than an unrelated outdoor scene. At the transition, the paper crease aligns with the real stone ridge, and the blue ink river line continues directly into visible flowing water. Reduce the broad unfinished paper facets of the reference's central ridges: most have now become textured rock and vegetation, leaving a few crisp paper edges to make the transformation readable. Do not zoom in, relocate the compass, move the window, add hands, people or settlements. Same static camera and light intent. This is a more fully formed landscape stage of the same original map world, not a collage or a claimed continuous motion frame.",
+      "actualMetadata": {
+        "width": 1671,
+        "height": 941,
+        "mode": "RGB",
+        "bytes": 3188699,
+        "sha256": "de2c14ac1ce287598890fd089d37a5e971ad455298167f4fe9ac06b4bf52e649"
+      },
+      "observation": "中部山脊大部分成为岩石与森林，近处纸面和罗盘仍保留，河谷延伸至远处雪山。"
+    }
+  ],
+  "limits": [
+    "三张为阶段设计，不是运动抽帧或实际地形生成。",
+    "独立AI编辑不保证等高线、山形与河道在三图中逐点一致。",
+    "不制作动画、地图交互、三维场景或产品。"
+  ]
+}

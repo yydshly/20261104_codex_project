@@ -1,0 +1,143 @@
+{
+  "date": "2026-11-13",
+  "tool": "内置 image_gen",
+  "mode": "generate",
+  "inputImages": [],
+  "scope": "10种效果各一张独立原创静态方向图",
+  "items": [
+    {
+      "id": "sea-wall",
+      "name": "海面立成高墙",
+      "description": "水平公路旁的海面连续弯起，成为竖直水墙。",
+      "core": "空间弯曲",
+      "prompt": "Use case: stylized-concept. Create ONE original cinematic surreal environment keyframe for a Chinese visual research website. Single wide 16:9 landscape image, no panels, no letters, no titles, no watermark. Photorealistic materials, carefully composed large-scale space, restrained cinematic color, atmospheric depth, one unmistakable impossible relationship; familiar architecture, road or human scale cues keep it readable. No generic fantasy clutter or glowing particles. A low coastal road snakes toward the horizon at sunset; the road and a tiny lone cyclist stay horizontal. The ocean immediately to its right curves smoothly upward in a huge continuous quarter-turn into a towering vertical WALL OF WATER, occupying the right two thirds and receding beside the road. Show the clear concave curved base joining horizontal ocean to vertical sea, NOT a breaking tsunami. Small ocean wavelets, foam and visible fish silhouettes continue along the vertical surface. Golden grazing sun on blue-green transparent water, calm water rather than disaster. Camera behind road-level cyclist with strong foreground-to-distance leading line, immense water scale.",
+      "image": "assets/original-keyframes/effect-sea-wall-v1.png",
+      "source": "[local path omitted]",
+      "review": "可见水平道路与连续弯起的高水墙，鱼群与反光提供水面线索。",
+      "width": 1672,
+      "height": 941,
+      "sha256": "b484641253d6a02de2ecba38d8b24cf8977441d129cc49527448f3849640e638"
+    },
+    {
+      "id": "cloud-streets",
+      "name": "云层穿过街道",
+      "description": "屋顶在阳光里，街巷藏入穿楼而过的厚云。",
+      "core": "环境分层",
+      "prompt": "Use case: stylized-concept. Create ONE original cinematic surreal environment keyframe for a Chinese visual research website. Single wide 16:9 landscape image, no panels, no letters, no titles, no watermark. Photorealistic materials, carefully composed large-scale space, restrained cinematic color, atmospheric depth, one unmistakable impossible relationship; familiar architecture, road or human scale cues keep it readable. No generic fantasy clutter or glowing particles. Elevated view along an old hilly limestone city street at warm morning light. A dense low cloud bank at the middle height of buildings flows through connected streets and courtyards. Upper storeys and terracotta rooftops are crisply sunlit ABOVE the cloud, while an opening in the foreground reveals lower doorways and cobbled pavement BELOW the cloud, cool and dim. Clouds visibly thread narrow gaps between buildings like a soft horizontal river. Not smoke, no fire. One continuous city, recognizable architecture crossing through the cloud plane. Foreground roof edge supplies depth; quiet, luminous, spatially legible.",
+      "image": "assets/original-keyframes/effect-cloud-streets-v1.png",
+      "source": "[local path omitted]",
+      "review": "云穿楼间，上层屋顶与下层街道可区分。",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5ad0abe9cf57ddaa74fae87e80bd6d294afa799955cc17891b6a8a75a2a988e2"
+    },
+    {
+      "id": "four-seasons",
+      "name": "一条街经过四季",
+      "description": "一条连续弯路穿过积雪、花树、浓绿与落叶。",
+      "core": "时间并置",
+      "prompt": "Use case: stylized-concept. Create ONE original cinematic surreal environment keyframe for a Chinese visual research website. Single wide 16:9 landscape image, no panels, no letters, no titles, no watermark. Photorealistic materials, carefully composed large-scale space, restrained cinematic color, atmospheric depth, one unmistakable impossible relationship; familiar architecture, road or human scale cues keep it readable. No generic fantasy clutter or glowing particles. A single continuous graceful S-shaped stone village road seen from a moderately elevated viewpoint, leading from foreground into distance through FOUR successive seasonal zones without panels or image seams. Foreground winter snow and bare trees; next bend pink spring blossom; next bend lush green summer; far bend golden orange autumn. Same road width, paving and repeated modest houses continue across the boundaries, trees rooted in the same terrain. Snow visibly gives way to petals at one transition. Make all four areas readable at once with about equal emphasis, natural colors, soft neutral daylight rather than four suns. An impossible continuous seasonal journey, no collage borders.",
+      "image": "assets/original-keyframes/effect-four-seasons-v1.png",
+      "source": "[local path omitted]",
+      "review": "四季均可见，沿道路与两侧展开；分区不是严格四段等长顺序。",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1ea7b3e85b17c4771f1dedb2d9cda4838ab7b5ab84fa6b6c66eece1274195ab0"
+    },
+    {
+      "id": "ahead-reflection",
+      "name": "镜中世界提前一步",
+      "description": "岸上的人仍停着，倒影中的同一个人已经走远。",
+      "core": "镜像异步",
+      "prompt": "Use case: stylized-concept. Create ONE original cinematic surreal environment keyframe for a Chinese visual research website. Single wide 16:9 landscape image, no panels, no letters, no titles, no watermark. Photorealistic materials, carefully composed large-scale space, restrained cinematic color, atmospheric depth, one unmistakable impossible relationship; familiar architecture, road or human scale cues keep it readable. No generic fantasy clutter or glowing particles. A wide cinematic side-oblique view of a quiet lakeside stone walkway with a large still dark reflecting pool filling the lower half. ONE real person in a distinctive rust-orange long coat stands motionless upright on the walkway at the left, both feet together, face turned to the distant end. The mirrored architecture is perfectly aligned in the water, but this person's ONE reflection is displaced conspicuously far to the right down the reflected path, in a clear walking stride. The displaced reflection is UPSIDE DOWN vertically as a real reflection would be, same coat and body, legs nearest the reflected waterline and head lower. No correctly positioned reflection beneath the real person, no second real person. A subtle broken ripple at the expected reflection location. Cool twilight, warm lamp cues, clean legible silhouette, thoughtful uncanny mood. This is an impossible asynchronous reflection captured in one image.",
+      "image": "assets/original-keyframes/effect-ahead-reflection-v1.png",
+      "source": "[local path omitted]",
+      "review": "倒影明显错位且为迈步姿态，实际人物站立；原位置仍有波纹与模糊暗影，未验证时间先后。",
+      "width": 1672,
+      "height": 941,
+      "sha256": "b01be352eb966885dc7b64ffbee28e80c38e536276a71d5c514bf6804950ae08"
+    },
+    {
+      "id": "upward-rain",
+      "name": "雨从地面升起",
+      "description": "积水被拉成向上的水线，伞下留出干燥空洞。",
+      "core": "逆向天气",
+      "prompt": "Use case: stylized-concept. Create ONE original cinematic surreal environment keyframe for a Chinese visual research website. Single wide 16:9 landscape image, no panels, no letters, no titles, no watermark. Photorealistic materials, carefully composed large-scale space, restrained cinematic color, atmospheric depth, one unmistakable impossible relationship; familiar architecture, road or human scale cues keep it readable. No generic fantasy clutter or glowing particles. Low close wide-angle view of a rain-darkened cobbled city street at blue twilight. A lone person holds a normal umbrella in the middle distance; beneath its canopy is a conspicuously clear dry pocket. Across the foreground, puddles are being LIFTED upward: visible thin water filaments root in puddles, narrow as they rise and separate into droplets ascending toward a low cloud ceiling. Large tack-sharp foreground droplets have thin trailing water threads pointing DOWN to puddles, with pinprick tips at their top, making upward extraction readable. Puddle surfaces have little upward spouts, not ordinary downward impact splashes. Receding lines converge upward over the street. Restrained amber windows and cold wet paving. No arrows or text. No fountain jets or storm destruction.",
+      "image": "assets/original-keyframes/effect-upward-rain-v1.png",
+      "source": "[local path omitted]",
+      "review": "前景积水被拉出细长水柱，方向具有暗示性，也可能被读为喷泉。",
+      "width": 1672,
+      "height": 941,
+      "sha256": "231d20bf84caec3776a23d55ae1f83fa46983847d509431a41e410edeb61e4a0"
+    },
+    {
+      "id": "draped-buildings",
+      "name": "建筑像布一样垂落",
+      "description": "石砌街区越过崖边后柔软下垂，窗户随墙面折弯。",
+      "core": "材质反转",
+      "prompt": "Use case: stylized-concept. Create ONE original cinematic surreal environment keyframe for a Chinese visual research website. Single wide 16:9 landscape image, no panels, no letters, no titles, no watermark. Photorealistic materials, carefully composed large-scale space, restrained cinematic color, atmospheric depth, one unmistakable impossible relationship; familiar architecture, road or human scale cues keep it readable. No generic fantasy clutter or glowing particles. A sunlit Mediterranean stone town on a sea cliff. The foreground town square and upright houses are normal solid limestone. At the clearly visible cliff lip, ONE continuous strip of the town—connected stone facades, windows, stair and roof tiles—bends smoothly over the edge and hangs down the cliff in huge soft heavy fabric folds. Windows and masonry courses remain recognizable while curving around each sagging fold, proving the BUILDINGS themselves are soft rather than covered with cloth. Strong raking afternoon light reveals the heavy drape and long shadows; cool sea far below. Wide elevated side view shows top horizontal town, the bend, and hanging architectural fabric in the same frame. No cloth sheet overlay, no rubble or collapse.",
+      "image": "assets/original-keyframes/effect-draped-buildings-v1.png",
+      "source": "[local path omitted]",
+      "review": "石墙窗户随大幅垂褶弯曲，屋顶与水平广场保留来源参照。",
+      "width": 1672,
+      "height": 941,
+      "sha256": "cf35569ecf2b83c4032e93c34bea5c5b68e3c1798d752ecf8b67bab9f58983f3"
+    },
+    {
+      "id": "scale-arch",
+      "name": "穿过拱门，尺度改变",
+      "description": "人高的石拱内部容纳巨城，道路连续穿入。",
+      "core": "尺度跃迁",
+      "prompt": "Use case: stylized-concept. Create ONE original cinematic surreal environment keyframe for a Chinese visual research website. Single wide 16:9 landscape image, no panels, no letters, no titles, no watermark. Photorealistic materials, carefully composed large-scale space, restrained cinematic color, atmospheric depth, one unmistakable impossible relationship; familiar architecture, road or human scale cues keep it readable. No generic fantasy clutter or glowing particles. From a quiet empty stone courtyard, camera at human eye level looks through a freestanding modest weathered stone arch doorway about 2.5 metres tall. A small person standing beside the OUTSIDE arch fixes human scale. Inside its aperture, an immense detailed sunlit city fills a deep valley, towers far taller than the doorway. ONE stone path runs uninterrupted from large foreground paving stones under the arch, shrinking impossibly rapidly to a tiny avenue threading the city inside. Outer courtyard has open calm landscape around and above arch, not the same giant city, so the arch is visibly a spatial threshold. Show substantial thickness of arch jambs, clean aperture, no glowing portal effect, no frame within frame repetition. Warm doorway light and cool atmospheric city depth; quiet astonishing scale.",
+      "image": "assets/original-keyframes/effect-scale-arch-v1.png",
+      "source": "[local path omitted]",
+      "review": "人尺度拱门与内部巨城并置，道路穿过拱门；存在普通门洞框景的认读可能，尺度跃迁尚需进一步强化。",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9b9b485aa40bef3eca64fa913ba338cbb588064a54be00ba65afcecb3369dea1"
+    },
+    {
+      "id": "transparent-mountain",
+      "name": "山体变得半透明",
+      "description": "表面森林仍在，透过山体看见内部岩层、地下河与洞穴。",
+      "core": "内部显露",
+      "prompt": "Use case: stylized-concept. Create ONE original cinematic surreal environment keyframe for a Chinese visual research website. Single wide 16:9 landscape image, no panels, no letters, no titles, no watermark. Photorealistic materials, carefully composed large-scale space, restrained cinematic color, atmospheric depth, one unmistakable impossible relationship; familiar architecture, road or human scale cues keep it readable. No generic fantasy clutter or glowing particles. A majestic forested mountain in a calm alpine valley at late golden light, viewed across a small river. Its central mountain mass is selectively translucent like smoky mineral, but retains the mountain silhouette, rough surface rock and scattered normal opaque trees on its slopes. THROUGH its intact semi-transparent outer shell, show coherent curved geological strata, a dark cavern network, and a blue subterranean river running inside and emerging as a real spring at the base. Side mountain shoulders remain opaque ordinary rock, creating a clear transition in the same mass. Backlight catches the shell subtly without neon. Not an exploded diagram, not a flat sliced cutaway, no technical labels, no glass skyscraper, no floating detached layers. Awe through geological depth and material contrast.",
+      "image": "assets/original-keyframes/effect-transparent-mountain-v1.png",
+      "source": "[local path omitted]",
+      "review": "内部岩层与水系可见；效果偏半透明与剖面混合，不是准确地质结构。",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9f0a1e47ec2f135dadf89656c876a416fafb4b76deec37ff328e2f09e26bb834"
+    },
+    {
+      "id": "wind-layers",
+      "name": "风把景物吹成层片",
+      "description": "树冠、草地与云向同一方向错开，根部和地面仍固定。",
+      "core": "分层形变",
+      "prompt": "Use case: stylized-concept. Create ONE original cinematic surreal environment keyframe for a Chinese visual research website. Single wide 16:9 landscape image, no panels, no letters, no titles, no watermark. Photorealistic materials, carefully composed large-scale space, restrained cinematic color, atmospheric depth, one unmistakable impossible relationship; familiar architecture, road or human scale cues keep it readable. No generic fantasy clutter or glowing particles. A wide windswept coastal meadow with three mature trees and distant sea, under luminous overcast afternoon light. An impossible single directional gust from left to right peels the upper tree foliage and turf into several thin coherent contour-shaped layers, separated by visible narrow AIR GAPS and offset horizontally to the right. Tree trunks and lowest roots stay fixed in the earth, some connected foliage remains so source is readable. A thin green grassy top layer of a small foreground mound lifts into the same direction, exposing dark soil beneath while lower ground remains intact. Distant clouds have a few corresponding smooth offset bands. Every displaced layer follows the SAME vector; show tactile leaves, grass and soil, not pixel shards or motion-blur. Clean structural silhouettes, original cinematic surreal scene.",
+      "image": "assets/original-keyframes/effect-wind-layers-v1.png",
+      "source": "[local path omitted]",
+      "review": "草皮与树冠向同一方向拉出；草皮离地明确，树冠仍可能被读为普通风吹造型。",
+      "width": 1672,
+      "height": 941,
+      "sha256": "623e89619b08dd06c25360dd5a89c1a85aff327e648d7d38de62289e5a524228"
+    },
+    {
+      "id": "day-night-boundary",
+      "name": "昼夜边界扫过城市",
+      "description": "一座连续城市里，夕阳与夜色沿清晰斜线相接。",
+      "core": "光照分区",
+      "prompt": "Use case: stylized-concept. Create ONE original cinematic surreal environment keyframe for a Chinese visual research website. Single wide 16:9 landscape image, no panels, no letters, no titles, no watermark. Photorealistic materials, carefully composed large-scale space, restrained cinematic color, atmospheric depth, one unmistakable impossible relationship; familiar architecture, road or human scale cues keep it readable. No generic fantasy clutter or glowing particles. A high oblique wide view along a single continuous canal city boulevard at dusk. One clean diagonal moving-time boundary crosses the street, water and connected building facades. To the LEFT of this boundary is warm bright late-afternoon golden sun with visible long shadows and unlit windows; to the RIGHT is deep blue NIGHT with stars in that side of sky, lit amber windows and street lamps reflecting in dark canal water. One near-centre facade is crossed by the boundary so its identical windows change lighting across it, proving same architecture. No split screen, no two photos, no border stripe, no sun and moon icons; a subtle narrow penumbra embedded naturally in the continuous physical scene. Bold warm/cool difference but full photographic detail both sides. Static captured boundary, no claim of actual motion.",
+      "image": "assets/original-keyframes/effect-day-night-boundary-v1.png",
+      "source": "[local path omitted]",
+      "review": "昼夜色调与灯光在同一建筑上分界；移动尚未呈现。",
+      "width": 1672,
+      "height": 941,
+      "sha256": "b97790352fcb7488216bd98d293023e261daa03e7e506488c7031813302fa260"
+    }
+  ],
+  "limits": [
+    "未制作视频、GIF、三维、产品或连续动作。",
+    "图中目标氛围与运动含义不是已验证的观众反应或动态实现。"
+  ]
+}

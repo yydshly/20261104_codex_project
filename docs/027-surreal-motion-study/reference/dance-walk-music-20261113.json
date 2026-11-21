@@ -1,0 +1,501 @@
+{
+  "date": "2026-11-13",
+  "type": "original_local_synthesis",
+  "bpm": 100,
+  "beats": 16,
+  "seconds": 9.6,
+  "sampleRate": 44100,
+  "channels": 2,
+  "peak": 0.82,
+  "externalSamples": false,
+  "events": [
+    {
+      "kind": "kick",
+      "time": 0.0,
+      "beat": 1
+    },
+    {
+      "kind": "hat",
+      "time": 0.0,
+      "beat": 1
+    },
+    {
+      "kind": "hat",
+      "time": 0.325,
+      "beat": 1
+    },
+    {
+      "kind": "snare",
+      "time": 0.6,
+      "beat": 2
+    },
+    {
+      "kind": "hat",
+      "time": 0.6,
+      "beat": 2
+    },
+    {
+      "kind": "hat",
+      "time": 0.925,
+      "beat": 2
+    },
+    {
+      "kind": "kick",
+      "time": 1.2,
+      "beat": 3
+    },
+    {
+      "kind": "hat",
+      "time": 1.2,
+      "beat": 3
+    },
+    {
+      "kind": "hat",
+      "time": 1.525,
+      "beat": 3
+    },
+    {
+      "kind": "snare",
+      "time": 1.8,
+      "beat": 4
+    },
+    {
+      "kind": "hat",
+      "time": 1.8,
+      "beat": 4
+    },
+    {
+      "kind": "hat",
+      "time": 2.125,
+      "beat": 4
+    },
+    {
+      "kind": "kick",
+      "time": 2.4,
+      "beat": 5
+    },
+    {
+      "kind": "hat",
+      "time": 2.4,
+      "beat": 5
+    },
+    {
+      "kind": "hat",
+      "time": 2.725,
+      "beat": 5
+    },
+    {
+      "kind": "snare",
+      "time": 3.0,
+      "beat": 6
+    },
+    {
+      "kind": "hat",
+      "time": 3.0,
+      "beat": 6
+    },
+    {
+      "kind": "hat",
+      "time": 3.325,
+      "beat": 6
+    },
+    {
+      "kind": "kick",
+      "time": 3.6,
+      "beat": 7
+    },
+    {
+      "kind": "hat",
+      "time": 3.6,
+      "beat": 7
+    },
+    {
+      "kind": "hat",
+      "time": 3.925,
+      "beat": 7
+    },
+    {
+      "kind": "snare",
+      "time": 4.2,
+      "beat": 8
+    },
+    {
+      "kind": "hat",
+      "time": 4.2,
+      "beat": 8
+    },
+    {
+      "kind": "hat",
+      "time": 4.525,
+      "beat": 8
+    },
+    {
+      "kind": "kick",
+      "time": 4.8,
+      "beat": 9
+    },
+    {
+      "kind": "hat",
+      "time": 5.125,
+      "beat": 9
+    },
+    {
+      "kind": "hat",
+      "time": 5.725,
+      "beat": 10
+    },
+    {
+      "kind": "kick",
+      "time": 6.0,
+      "beat": 11
+    },
+    {
+      "kind": "hat",
+      "time": 6.0,
+      "beat": 11
+    },
+    {
+      "kind": "hat",
+      "time": 6.325,
+      "beat": 11
+    },
+    {
+      "kind": "snare",
+      "time": 6.6,
+      "beat": 12
+    },
+    {
+      "kind": "hat",
+      "time": 6.6,
+      "beat": 12
+    },
+    {
+      "kind": "hat",
+      "time": 6.925,
+      "beat": 12
+    },
+    {
+      "kind": "kick",
+      "time": 7.2,
+      "beat": 13
+    },
+    {
+      "kind": "hat",
+      "time": 7.2,
+      "beat": 13
+    },
+    {
+      "kind": "hat",
+      "time": 7.525,
+      "beat": 13
+    },
+    {
+      "kind": "snare",
+      "time": 7.8,
+      "beat": 14
+    },
+    {
+      "kind": "hat",
+      "time": 7.8,
+      "beat": 14
+    },
+    {
+      "kind": "hat",
+      "time": 8.125,
+      "beat": 14
+    },
+    {
+      "kind": "kick",
+      "time": 8.4,
+      "beat": 15
+    },
+    {
+      "kind": "hat",
+      "time": 8.4,
+      "beat": 15
+    },
+    {
+      "kind": "hat",
+      "time": 8.725,
+      "beat": 15
+    },
+    {
+      "kind": "snare",
+      "time": 9.0,
+      "beat": 16
+    },
+    {
+      "kind": "hat",
+      "time": 9.0,
+      "beat": 16
+    },
+    {
+      "kind": "hat",
+      "time": 9.325,
+      "beat": 16
+    },
+    {
+      "kind": "pickup-kick",
+      "time": 2.1,
+      "beat": 4
+    },
+    {
+      "kind": "pickup-kick",
+      "time": 4.65,
+      "beat": 8
+    },
+    {
+      "kind": "pickup-kick",
+      "time": 7.65,
+      "beat": 13
+    },
+    {
+      "kind": "pickup-kick",
+      "time": 9.3,
+      "beat": 16
+    },
+    {
+      "kind": "bass",
+      "time": 0.0,
+      "beat": 1
+    },
+    {
+      "kind": "bass",
+      "time": 0.9,
+      "beat": 2
+    },
+    {
+      "kind": "bass",
+      "time": 1.65,
+      "beat": 3
+    },
+    {
+      "kind": "bass",
+      "time": 2.1,
+      "beat": 4
+    },
+    {
+      "kind": "bass",
+      "time": 2.4,
+      "beat": 5
+    },
+    {
+      "kind": "bass",
+      "time": 3.3,
+      "beat": 6
+    },
+    {
+      "kind": "bass",
+      "time": 3.9,
+      "beat": 7
+    },
+    {
+      "kind": "bass",
+      "time": 4.5,
+      "beat": 8
+    },
+    {
+      "kind": "bass",
+      "time": 4.8,
+      "beat": 9
+    },
+    {
+      "kind": "bass",
+      "time": 6.3,
+      "beat": 11
+    },
+    {
+      "kind": "bass",
+      "time": 6.9,
+      "beat": 12
+    },
+    {
+      "kind": "bass",
+      "time": 7.2,
+      "beat": 13
+    },
+    {
+      "kind": "bass",
+      "time": 8.1,
+      "beat": 14
+    },
+    {
+      "kind": "bass",
+      "time": 8.55,
+      "beat": 15
+    },
+    {
+      "kind": "bass",
+      "time": 9.3,
+      "beat": 16
+    },
+    {
+      "kind": "chord",
+      "time": 0.3,
+      "beat": 1
+    },
+    {
+      "kind": "chord",
+      "time": 0.3,
+      "beat": 1
+    },
+    {
+      "kind": "chord",
+      "time": 0.3,
+      "beat": 1
+    },
+    {
+      "kind": "chord",
+      "time": 0.3,
+      "beat": 1
+    },
+    {
+      "kind": "chord",
+      "time": 1.5,
+      "beat": 3
+    },
+    {
+      "kind": "chord",
+      "time": 1.5,
+      "beat": 3
+    },
+    {
+      "kind": "chord",
+      "time": 1.5,
+      "beat": 3
+    },
+    {
+      "kind": "chord",
+      "time": 2.7,
+      "beat": 5
+    },
+    {
+      "kind": "chord",
+      "time": 2.7,
+      "beat": 5
+    },
+    {
+      "kind": "chord",
+      "time": 2.7,
+      "beat": 5
+    },
+    {
+      "kind": "chord",
+      "time": 2.7,
+      "beat": 5
+    },
+    {
+      "kind": "chord",
+      "time": 3.9,
+      "beat": 7
+    },
+    {
+      "kind": "chord",
+      "time": 3.9,
+      "beat": 7
+    },
+    {
+      "kind": "chord",
+      "time": 3.9,
+      "beat": 7
+    },
+    {
+      "kind": "chord",
+      "time": 6.9,
+      "beat": 12
+    },
+    {
+      "kind": "chord",
+      "time": 6.9,
+      "beat": 12
+    },
+    {
+      "kind": "chord",
+      "time": 6.9,
+      "beat": 12
+    },
+    {
+      "kind": "chord",
+      "time": 7.5,
+      "beat": 13
+    },
+    {
+      "kind": "chord",
+      "time": 7.5,
+      "beat": 13
+    },
+    {
+      "kind": "chord",
+      "time": 7.5,
+      "beat": 13
+    },
+    {
+      "kind": "chord",
+      "time": 8.7,
+      "beat": 15
+    },
+    {
+      "kind": "chord",
+      "time": 8.7,
+      "beat": 15
+    },
+    {
+      "kind": "chord",
+      "time": 8.7,
+      "beat": 15
+    },
+    {
+      "kind": "chord",
+      "time": 8.7,
+      "beat": 15
+    },
+    {
+      "kind": "melody",
+      "time": 1.05,
+      "beat": 2
+    },
+    {
+      "kind": "melody",
+      "time": 1.95,
+      "beat": 4
+    },
+    {
+      "kind": "melody",
+      "time": 3.3,
+      "beat": 6
+    },
+    {
+      "kind": "melody",
+      "time": 3.75,
+      "beat": 7
+    },
+    {
+      "kind": "melody",
+      "time": 4.5,
+      "beat": 8
+    },
+    {
+      "kind": "melody",
+      "time": 6.45,
+      "beat": 11
+    },
+    {
+      "kind": "melody",
+      "time": 7.95,
+      "beat": 14
+    },
+    {
+      "kind": "melody",
+      "time": 8.85,
+      "beat": 15
+    },
+    {
+      "kind": "melody",
+      "time": 9.3,
+      "beat": 16
+    }
+  ],
+  "wav": "assets/dance-walk/dance-walk-100bpm-original.wav",
+  "mp3": "assets/dance-walk/dance-walk-100bpm-original.mp3",
+  "sha256": "54ea68524b256dcf954cf21ba5724098e037f7f52b3abc90dbeac19f22ce9929"
+}

@@ -1,0 +1,75 @@
+{
+  "generatedOn": "2026-11-12",
+  "timezone": "Asia/Shanghai",
+  "tool": "内置 image_gen",
+  "method": "六个独立的新图生成请求；没有输入原片图片；以完整提示词指导静态画面与动作意图。",
+  "scope": "补充已提出的G–L场景静态关键帧；不生成运动、动态实验或产品演示。",
+  "frames": [
+    {
+      "id": "g",
+      "title": "夕阳镜面盐湖",
+      "asset": "assets/original-keyframes/keyframe-g-salt-lake.png",
+      "source_path": "[local path omitted]",
+      "prompt": "Use case: stylized-concept. Original static cinematic keyframe G for a fantasy visual capability research website. Create ONE complete standalone 16:9 landscape image, ideally 2048x1152, no collage, labels or typography. A vast perfectly still mirror salt lake at peach-gold sunset, low horizon and enormous open sky. One continuous pale dry salt causeway starts at lower-right foreground and runs diagonally toward the far-left horizon, a clearly rideable broad strip slightly above shallow reflective brine. Exactly one cyclist in a cream jacket and charcoal trousers on a burnt-orange bicycle, small in the lower-right third, relaxed upright seated posture, coherent normal hands, feet and two wheels. Far side-rear elevated wide view; the cyclist and path have subtle reflections on either side. Immense sky and quiet empty reflective lake dominate; distant violet mountains are very small. Warm apricot sunlight, pale lavender reflected sky and cool blue distant shadows, restrained saturation, minimal visual clutter. Mood: spacious, free, peaceful movement through an impossible expansive world. High-end cinematic environmental concept art with believable salt texture and delicate reflections, clear large shapes and atmospheric depth. Composition deliberately has wide negative space, stable horizon and an unobstructed route. This single pose suggests relaxed riding but does not demonstrate motion or cadence. No buildings, city, monumental arches, multiple people, birds, cars, aircraft, duplicate bikes, spray, speed lines, broken road, floating cyclist, logos, text, watermark, borders, panels, fake HDR labels.",
+      "width": 1672,
+      "height": 941,
+      "colorMode": "RGB",
+      "sha256": "53cb8b68ac6e65dced2f346cabe98794b24e5e212a1fccb40439ef10e6b9aa3b"
+    },
+    {
+      "id": "h",
+      "title": "螺旋风塔高架",
+      "asset": "assets/original-keyframes/keyframe-h-wind-towers.png",
+      "source_path": "[local path omitted]",
+      "prompt": "Use case: stylized-concept. Original static cinematic keyframe H for a visual research website. ONE complete 16:9 widescreen landscape image, ideally 2048x1152, no collage or text. An impossible family of colossal sculptural wind towers emerges from a blue-grey cloud abyss; the towers have twisting helical aerodynamic fins and open vertical voids, architectural rather than ordinary wind turbines. A broad continuous basalt cycling viaduct enters lower-left foreground and curves around the nearest enormous tower toward upper-right distance; low continuous parapets and faint amber embedded edge lights keep the route clear. Exactly one cyclist in cream jacket and charcoal trousers on a burnt-orange bicycle, medium small in lower-left/mid-left, normal two wheels and anatomically coherent posture, slight body lean INTO the visible gentle curve, not performing a stunt. Low rear three-quarter viewpoint close enough to see posture, huge tower rises out of frame and leans visually over route, layered distant towers soften into mist. Cool blue-cyan architecture shade, a few warm light bands and amber horizon light, controlled luminous mist, readable shadows. Mood: monumental, suspended, controlled tension and a hint of weightlessness. Clear foreground road/mid tower/distant towers depth. Painterly high-end cinematic environmental concept art with believable basalt and matte metal. Static form and pose only; not a depiction of animated tower rotation or ground unfolding. No ocean, stone arch arcade, ordinary city, propeller blades near cyclist, extra humans or bikes, flying vehicles, broken track, text, signs, logos, watermark, panels or exaggerated motion blur.",
+      "width": 1672,
+      "height": 941,
+      "colorMode": "RGB",
+      "sha256": "7600f794b42a6d20ba262ce219d0dd9996ed0929804998d49dc50308449c5d2d"
+    },
+    {
+      "id": "i",
+      "title": "重复门洞长廊",
+      "asset": "assets/original-keyframes/keyframe-i-rhythm-corridor.png",
+      "source_path": "[local path omitted]",
+      "prompt": "Use case: stylized-concept. Original cinematic static keyframe I for a research website studying repetition and visual rhythm. Generate ONE complete standalone 16:9 landscape, ideally 2048x1152, no split panels or typography. A colossal quiet transit gallery composed of repeated tall RECTANGULAR portal frames, nested in precise axial perspective, stretching toward a small cool-blue luminous endpoint. This is a new modern-stone and brushed-metal gallery, not a classical Roman arch bridge. Exactly one cyclist wearing a cream jacket, charcoal trousers, on a burnt-orange bicycle, seated balanced riding posture with one knee slightly lifted, no exaggerated effort, normal coherent anatomy and two wheels. Cyclist in lower-center slightly offset right, about medium-small scale. Rear eye-height view, broad continuous dark slate cycle path, repeating side columns and alternating amber-white shafts of light create clear evenly spaced transverse light and shadow bands on the floor. Dominant calm blue-grey environment and warm rhythmic light bars; enough shadow detail to read feet and road, restrained highlights. Repetition and symmetry establish anticipation and a hypnotic visual order while a small offset and worn material keep it natural. High-end cinematic painterly concept art with physical textures and strong near/mid/far layers. Static image showing the spatial spacing of visual events, not proving any BPM, riding frequency or moving camera. No crowds, extra cyclist, rails across the rideable lane, bicycles duplicated, curving road, clouds filling the hallway, motion blur, text, numbers, logos, watermark, interface, borders or collage.",
+      "width": 1672,
+      "height": 941,
+      "colorMode": "RGB",
+      "sha256": "cdb19554863d70c4163beb94033f26e87d1355702e09a8beda6b245f349fc4f9"
+    },
+    {
+      "id": "j",
+      "title": "风雪山脊通道",
+      "asset": "assets/original-keyframes/keyframe-j-snow-ridge.png",
+      "source_path": "[local path omitted]",
+      "prompt": "Use case: stylized-concept. One original static cinematic keyframe J for a fantasy scene and body-action research website. Create ONE standalone complete 16:9 widescreen image, ideally 2048x1152. A vast cold mountain ridge with a broad continuous rough-stone cycling route cut into the side of immense dark rock and ice cliffs, stable low safety parapet along exposed outer side. The path rises diagonally from lower-left foreground toward an upper-right opening of pale warm dawn between enormous mountains. Exactly one cyclist in a thick cream-colored jacket and charcoal trousers riding a burnt-orange bicycle with robust dark tires, near lower-left third in a low side-rear view. The rider's torso inclines forward toward handlebars, elbows bent, compact determined seated posture suggesting effort against wind; both feet and two bicycle wheels are anatomically coherent. Fine slanting snow flecks and mist partially veil far mountains; nearby textured snow and rocks frame the road without blocking the cyclist. Cool slate-blue and pale grey snow, deep readable shadows, a restrained warm opening ahead. Mood: resistance, effort, endurance, possibility of breakthrough. Strong diagonal route, large scale contrast, foreground snow versus distant soft peaks, cinematic atmospheric perspective, high-end painterly environmental concept art. This single still suggests body intent only, no measured force or actual movement. Avoid extreme stunt, airborne rider, broken road, avalanche, injury, extra people or bikes, cars, aircraft, copied monuments, text, arrows, logos, watermark, panels and fake HDR claims.",
+      "width": 1672,
+      "height": 941,
+      "colorMode": "RGB",
+      "sha256": "05d99af1bd104fcc6e15472c52ee8e0f73bf25648877a01c3ec1ef73e57e7ba5"
+    },
+    {
+      "id": "k",
+      "title": "暮色废墟与暖灯站",
+      "asset": "assets/original-keyframes/keyframe-k-ruins-station.png",
+      "source_path": "[local path omitted]",
+      "prompt": "Use case: stylized-concept. Original static cinematic keyframe K for a visual-emotion research website. ONE complete standalone 16:9 landscape image, ideally 2048x1152, no collage or typography. A quiet spacious field of monumental abandoned stone-and-concrete ruins at violet dusk, broken pillars and incomplete structures framing a broad empty landscape. A continuous worn stone cycling route starts in lower-right foreground and gently leads toward a small welcoming shelter station at LEFT-middle distance. The shelter has a simple roof, open entrance and a warm amber window and pool of light; no signs or readable text. Exactly one small cyclist in cream jacket and charcoal trousers on a burnt-orange bicycle in the lower-right third, seated relatively upright with relaxed shoulders and legs in a plausible coasting-like static pose, normal anatomy, two coherent wheels. Wide slightly elevated rear/side view, large restrained areas of empty ground and twilight sky, near dark ruin fragment at far left and a few far silhouettes. Keep the warm station obvious but small enough that the journey still matters. Cool muted lavender-blue atmosphere, desaturated stone, selective amber light, gentle haze, readable dark values. Mood: solitude with comfort and hope ahead, calm rather than horror or disaster. High-end cinematic painterly environmental concept art, believable material, strong compositional hierarchy, uncluttered route. Static original pose cannot prove slowing down or an emotion transition. No other people, corpses, weapons, devastation spectacle, multiple bikes, vehicles, aircraft, neon city, waterfalls, overbright sun, captions, logos, watermark, borders or panels.",
+      "width": 1672,
+      "height": 941,
+      "colorMode": "RGB",
+      "sha256": "0881bc9d0a3c8429ba37ce9e1a32314244f1cc359f910863a2f51ff879a27e0e"
+    },
+    {
+      "id": "l",
+      "title": "雾中巨门与开放世界",
+      "asset": "assets/original-keyframes/keyframe-l-mist-gate.png",
+      "source_path": "[local path omitted]",
+      "prompt": "Use case: stylized-concept. Original cinematic static keyframe L for a fantasy research website exploring occlusion and spatial reveal. Generate ONE complete 16:9 landscape image, ideally 2048x1152, not a collage. We look from just inside the shadow of a colossal ancient-futuristic stone gateway out onto an immense luminous open world of distant layered high plateaus, pale blue atmosphere, enormous soft cloud forms and a far warm horizon. A thick near left jamb and upper gate lintel create a DARK FOREGROUND FRAME, opening mainly toward RIGHT side. One broad continuous pale-stone cycling path enters at lower-left, passes naturally through the gate, and stretches into the right-middle distance across the open high landscape; stable low parapets and readable connection. Exactly one small cyclist in cream jacket and charcoal trousers riding a burnt-orange bicycle in lower-left near the threshold, upright calm posture, coherent hands, feet and two wheels, no stunt. The rider provides scale to the huge gateway; near dark stone, middle threshold fog and far soft landscape are clearly separated. Cool blue-grey interior shadows, diffuse pearl mist, warm pale-gold light outside, gentle controlled contrast and visible cloud/stone texture. Mood: poised discovery, anticipation and the possibility of release into a huge world. Cinematic painterly high-end environmental concept art, physical textures and large elegant forms. This is one static threshold moment; do not use split-screen before-after, arrows, speed lines or claim the reveal has been animated. No city coastline, copied architecture, extra humans, duplicate bicycles, animals, aircraft, glowing glyphs, lettering, logos, watermark, interface frames or panels.",
+      "width": 1672,
+      "height": 941,
+      "colorMode": "RGB",
+      "sha256": "c799d614d057a90bdadbfa14aa92e42c6f237331d8fed24cb01832525e5c62c8"
+    }
+  ]
+}

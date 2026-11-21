@@ -1,0 +1,58 @@
+{
+  "generatedOn": "2026-11-13",
+  "timezone": "Asia/Shanghai",
+  "title": "影桥：发现—试探—站稳",
+  "scope": "用户要求继续推进；在既有静态限制内补前后情景，不生成动态。",
+  "tool": "内置 image_gen",
+  "modelVersion": null,
+  "seed": null,
+  "sourceImage": "assets/original-keyframes/shadow-bridge-first-step-v1.png",
+  "actualImageInputs": [
+    "[local path omitted]"
+  ],
+  "inputRole": "第一步图作为两张静态编辑的目标与场景连续性参考",
+  "stages": [
+    {
+      "id": "discovery",
+      "label": "发现",
+      "asset": "assets/original-keyframes/shadow-bridge-discovery-v1.png",
+      "sourceOutputFile": "exec-1020c035-b3e0-4d40-bf7d-d20a2a99d2a2.png",
+      "prompt": "Use case: stylized-concept. Create ONE standalone 16:9 static keyframe by editing the supplied original \"first step onto a shadow\" image. Image 1 is the EDIT TARGET and continuity reference, not a storyboard panel.\nPreserve the warm sandstone ledge, cliff edge location, cool canyon depth, upper translucent pale bridge, low sunlight direction, ochre coat, brown trousers and leather boots. Keep the thin flat black railing-pattern shadow continuously crossing the rock edge and extending over empty air. Keep the same close side/rear camera, crop and visual style. No solid structure, stone plank, arch, beam or support under the dark plane; no text, labels, borders, effects or added characters.\nMake the moment BEFORE the step: BOTH boots are entirely on the real stone ledge, a short distance behind its edge. Pull the forward foot back onto the rock into a natural cautious standing stance, knees relaxed and body slightly inclined toward the shadow path. Exactly two boots and two legs, no extra limbs. There is NO foot on the suspended black surface yet. Leave the unsupported section completely visible and empty, especially just after the shadow crosses the cliff edge. The composition should clearly show a familiar cast shadow on stone continuing into empty canyon air before anyone has stepped on it. Preserve all scene geometry as closely as possible; adjust the traveler's stance only as needed. Static image, discovery of the path.",
+      "actualMetadata": {
+        "width": 1671,
+        "height": 941,
+        "mode": "RGB",
+        "bytes": 2230798,
+        "sha256": "a3577a2459e96b69c1ffb93f2b63b4b4b4e49dd2b68cabf4c55788390a4bceb9"
+      },
+      "observed": "双脚留在岩台，崖外黑影无人踩踏，投影连续越过边缘。"
+    },
+    {
+      "id": "step",
+      "label": "试探",
+      "asset": "assets/original-keyframes/shadow-bridge-first-step-v1.png",
+      "record": "reference/shadow-bridge-first-step-v1-generation.json",
+      "observed": "后脚在岩台，前脚贴合悬空黑影。"
+    },
+    {
+      "id": "supported",
+      "label": "站稳",
+      "asset": "assets/original-keyframes/shadow-bridge-supported-v1.png",
+      "sourceOutputFile": "exec-776220ab-1638-4c44-b676-bcd9c3bfad3d.png",
+      "prompt": "Use case: stylized-concept. Create ONE standalone 16:9 static keyframe by editing the supplied original \"first step onto a shadow\" image. Image 1 is the EDIT TARGET and continuity reference, not a storyboard panel.\nPreserve the warm sandstone ledge, cliff edge location, cool canyon depth, upper translucent pale bridge, low sunlight direction, ochre coat, brown trousers and leather boots. Keep the thin flat black railing-pattern shadow continuously crossing the rock edge and extending over empty air. Keep the same close side/rear camera, crop and visual style. No solid structure, stone plank, arch, beam or support under the dark plane; no text, labels, borders, effects or added characters.\nMake the moment AFTER the first step: move the same traveler a short distance forward along the dark shadow, so BOTH boots now rest fully on the thin unsupported black shadow surface, beyond the last stone edge. Show a clearly visible gap of open canyon air between the rock ledge and the REAR boot. The FRONT boot is farther along the same surface. Both soles contact the same flat plane; a balanced stationary stance with a small natural knee bend, not a leap or falling pose. Move the coat, hips and legs together coherently to match the new stance. Keep both boots unobscured, with open air visible directly beneath the paper-thin black plane; no new stone or support under them. Preserve the rock edge and camera location so the viewer can compare the positions. The person is still close to the ledge, not halfway across the canyon. Upper torso may remain naturally cropped by the frame. Static image, supported stance after leaving the ledge.",
+      "actualMetadata": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "bytes": 2325322,
+        "sha256": "8019678a2d58e0973a04a982590b7644538ebf17e9aad8ea0cfd59e447920d30"
+      },
+      "observed": "双脚都在崖外黑影上，后脚与岩台之间有可见空隙。"
+    }
+  ],
+  "limits": [
+    "这些是分阶段静态草案，不是实际动作抽帧或生成视频。",
+    "AI独立编辑会改变岩台轮廓、人物尺度和桥体细节，不能视为严格连续素材。",
+    "承托为视觉表达，未实现物理或三维验证。"
+  ]
+}

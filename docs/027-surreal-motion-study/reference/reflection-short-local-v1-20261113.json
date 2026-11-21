@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-13",
+  "title": "倒影先行",
+  "type": "local_layered_animation_rough_cut",
+  "output": "assets/reflection-short/reflection-story-local-v1.mp4",
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "frames": 216,
+  "seconds": 9.0,
+  "audio": {
+    "type": "original_local_synthesis",
+    "sampleRate": 44100,
+    "channels": 2,
+    "codec": "AAC",
+    "peakBeforeEncoding": 0.1135802959866445,
+    "soundtrack": "本地合成水声、风声、脚步、低音提示，无对白"
+  },
+  "sourceAssets": "reference/reflection-short-assets-20261113.json",
+  "storyPlan": "reference/reflection-short-plan-20261113.json",
+  "script": "scripts/render_reflection_short.py",
+  "sha256": "5a440b0b1d562fdb88b551c03841dec8205bad67e8de5b69dd669ee4fd0cc3c6",
+  "limits": [
+    "六个静态姿态通过光流近似插值，存在局部形变和步态滑动。",
+    "背景固定，镜头变化来自同一机位裁切；不是三维运镜。",
+    "镜像接触与透视为人工近似，不是准确反射模拟。",
+    "这是一段本地分层动画粗剪，不是AI生成视频或写实最终成片。"
+  ]
+}

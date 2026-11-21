@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-13",
+  "type": "local_motion_previsualization",
+  "script": "scripts/render_effect_motion_studies.py",
+  "videos": [
+    {
+      "file": "assets/effect-motion/sea-wall-mesh-v1.mp4",
+      "width": 768,
+      "height": 432,
+      "fps": 18,
+      "frames": 126,
+      "seconds": 7.0,
+      "audio": false,
+      "method": "NumPy参数曲面投影、程序水纹与鱼群；原图道路静态遮罩合成。",
+      "limits": "固定相机与骑行者；非原图三维重建，未实现沿路推进和头顶鱼群。",
+      "sha256": "a45e73f1c5380bae0894c42cdf204405c42b214219bd989e12eb7f764ff7aad5"
+    },
+    {
+      "file": "assets/effect-motion/reflection-offset-v1.mp4",
+      "width": 768,
+      "height": 432,
+      "fps": 18,
+      "frames": 126,
+      "seconds": 7.0,
+      "audio": false,
+      "method": "原图倒影手工遮罩、局部补水面、独立位置/尺度插值、水纹扰动。",
+      "limits": "人物姿态沿用原图，尚无走路骨骼、回头与真实镜像透视；水面补绘有近似。",
+      "sha256": "3c66b27dfe75e8baea4f1c7dee3d24975c8b60094a3dc612aa4133b28925e48e"
+    },
+    {
+      "file": "assets/effect-motion/day-night-sweep-v1.mp4",
+      "width": 768,
+      "height": 432,
+      "fps": 18,
+      "frames": 126,
+      "seconds": 7.0,
+      "audio": false,
+      "method": "内置image_gen编辑昼/夜端点、SIFT配准、带柔边的空间遮罩合成。",
+      "limits": "不是物理太阳与阴影模拟；端点几何和人群可能有细节漂移，无声音。",
+      "sha256": "beb983761f7857a4984dccfd677b79b2646c6982cb0ebb5f86292225f9cedfc1"
+    }
+  ],
+  "dayNightRegistration": {
+    "matches": 83,
+    "applied": true,
+    "inliers": 79,
+    "maxCornerDisplacement": 1.7462174892425537
+  },
+  "sourceGenerationRecord": "reference/effect-motion-light-generation-20261113.json",
+  "notAIgeneratedVideo": true
+}

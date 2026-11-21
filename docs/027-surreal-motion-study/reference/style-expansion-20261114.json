@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-14",
+  "scope": "按风格扩展整个画面库；静态图，不安排情节、动作、相机运动、视频或产品。",
+  "tool": "built-in image_gen",
+  "entries": [
+    {
+      "id": "oriental-water",
+      "title": "东方水境",
+      "prompt": "Use case: stylized-concept. Create a single original cinematic environment artwork, wide 16:9, no collage, no text. Style exploration only: an eastern waterscape with the restraint and empty space of ink landscape painting, rendered with tactile photorealistic materials. A long ancient pale stone courtyard and dark timber pavilion stand partly immersed in a vast still shallow lake, asymmetrical low horizontal architecture occupying the lower left, an open water channel leading diagonally toward a tiny distant roof amid layered limestone mountains. Large pale misty negative space across the upper and right frame. Weathered plaster, dark ceramic tiles, submerged worn stone steps, reeds and soft reflections. Overcast pearl dawn, muted jade grey, ivory and charcoal, a few subdued amber window glows. Quiet spacious atmosphere, fine film grain, natural diffuse light, credible scale, subtle uncanny placement of architecture in water. No people, no animals, no dramatic event, no story sequence, no captions, no logos. A composed visual world rather than a tourist photo; avoid ornamental overload and oversaturated fantasy.",
+      "sourcePath": "[local path omitted]",
+      "image": "assets/style-expansion/oriental-water-v1.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "f1a9fd9ef5c8efc14a54689af07ef2bc4e71b37f7890af67991de79ab9817167"
+    },
+    {
+      "id": "desert-monument",
+      "title": "荒漠巨构",
+      "prompt": "Use case: stylized-concept. Create a single original cinematic environment artwork, wide 16:9, no collage, no text. Style exploration: radical monumental minimalism in an immense desert of pale limestone dunes. An enormous solid monolithic horseshoe shaped arch rises out of a deep excavated canyon on the right two thirds, its mass dwarfing the landscape, rough chalk-white stone and rusty oxidized bronze inserts, a razor thin continuous bridge crosses empty space beneath it and enters a slit at its base. Camera low and far back, a small dark rock outcrop in the left foreground, long curved sand ridges draw the eye into the canyon. Hard low sun from left, long clean indigo shadows, warm off-white stone and desaturated copper sand, expansive empty pale sky. Architectural visualization with powerful silhouettes and tactile weathering, uncanny but coherent structural space. No vegetation, no people, no vehicles, no event or narrative, no text or logos. Distinct strong asymmetrical geometry; avoid crowded city detail, generic pyramids, and excessive orange grading.",
+      "sourcePath": "[local path omitted]",
+      "image": "assets/style-expansion/desert-monument-v1.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "98a4958acd501fa53073192d154c477eac9ae06d4c1222bda9700ba1da238bd9"
+    },
+    {
+      "id": "retro-rain-city",
+      "title": "复古未来雨城",
+      "prompt": "Use case: stylized-concept. Create a single original cinematic environment artwork, wide 16:9, no collage, no text. Style exploration: richly textured retrofuturist rain soaked harbor city, analog 1980s science fiction set photography, believable miniatures and practical light aesthetic. View down from a high covered industrial balcony into a deep narrow canal street packed with stacked weathered concrete apartment blocks, curved mint green enamel facades, copper pipes, rounded glass transit stations and warm shop windows. The left foreground balcony forms a dark diagonal frame, the central canal leads deep into layered harbor cranes and a vast circular station in fog, richly staggered depth and framed occlusions. Wet metal, scratched enamel, concrete runoff, diffuse drizzle, subtle red amber and turquoise illuminated geometric light panels WITHOUT any writing or legible symbols. Smoky petrol blue shadows and warm tungsten interior light, subdued film colors, dense but carefully legible architecture. No people, no moving vehicles, no action, no story scene, no text or logos. Avoid modern cyberpunk neon overload, glossy plastic, anime look and generic straight skyscraper canyon.",
+      "sourcePath": "[local path omitted]",
+      "image": "assets/style-expansion/retro-rain-city-v1.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "affc09aea41627786db6804b7f88ec0228b0d8bee89c36bed2c34be4cbef5c10"
+    },
+    {
+      "id": "forest-cloud",
+      "title": "自然奇境",
+      "prompt": "Use case: stylized-concept. Create a single original cinematic environment artwork, wide 16:9, no collage, no text. Style exploration: lush atmospheric natural surrealism with tangible ecology. An immense ancient living tree root system forms a great organic open vault spanning a luminous mist-filled forest basin. View from within a shaded mossy stone hollow in the foreground, looking through the irregular root arch toward a gently lit island of fern canopy and a perfectly still pale blue pool suspended in the mid level of the basin. A thin waterfall descends from the pool into cloud below. Root forms weave into the distant forest, moss hangs in soft sheets, bark, wet rock and translucent leaves are richly tangible, no buildings. Irregular organic framing, clear near middle and far layers, soft filtered late morning sun, pale celadon mist, deep moss greens and small warm leaf highlights. Immersive calm and wonder, restrained high quality cinematic environment realism. No people, no animals, no action sequence, no story event, no glowing magic particles, no text or logos. Avoid giant fantasy mushrooms, oversaturation, decorative clutter and symmetric composition.",
+      "sourcePath": "[local path omitted]",
+      "image": "assets/style-expansion/forest-cloud-v1.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "04d4677b8d7e818a8d21b170ba2e4339224b2bcd3545938d7d023eb86fcb32c2"
+    }
+  ]
+}

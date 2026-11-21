@@ -1,0 +1,43 @@
+{
+  "generatedOn": "2026-11-13",
+  "timezone": "Asia/Shanghai",
+  "title": "暮色阶梯城＋悬空巨拱",
+  "status": "original_static_composition_draft",
+  "tool": "内置 image_gen（非 CLI）",
+  "modelVersion": null,
+  "seed": null,
+  "sourceOutputFile": "[local path omitted]",
+  "asset": "assets/original-keyframes/twilight-terrace-city-arch-v1.png",
+  "sourceReference": "https://x.com/EiiKwesiKay/status/2120958808789029021",
+  "inputImages": [],
+  "referenceRole": "依据已核对原片提炼尺度、疏密、明暗和进入关系；未把原片或旧关键帧作为图片输入。",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE original composition draft for a visual research website, a complete standalone portrait 9:16 cinematic environment keyframe, ideally 1152x2048. This is a static artwork, not a storyboard, collage or annotated sheet.\nPrimary request: \"Twilight terraced city + a suspended monumental open arch.\" Make an original ancient-futuristic environment with quiet awe: a very small visitor could approach a civilization far larger than daily human scale.\nScene and original architecture: A vast city of stepped, setback terraces built from dark weathered bronze and warm grey stone. Blocks are broad, weighty, finely jointed and arranged in staggered levels, with readable roof platforms, inset amber lights and a few bridges. One enormous OFFSET OPEN INVERTED-U ARCH hovers above the distant terraces. It is a thick sculptural arch segment, not a closed ring or circular portal; leave a visible air gap below its hanging lower ends. Its silhouette is simple and dominant, with layered structural ribs and a softly luminous inner edge; surfaces retain real texture rather than becoming pure light. The top of this one giant arch can pass beyond the top edge of the composition.\nComposition: elevated wide establishing viewpoint looking along a broad continuous processional avenue from lower center toward a warm distant terrace. Two nearer dark stepped building masses frame the view without closing it. A few small scattered human silhouettes on the avenue provide scale; no large foreground hero. The arch occupies the upper part, with readable empty blue-grey sky inside and around it. Deliberate near/middle/far layers: near dark architecture and road texture, middle stepped city with bridges, distant lighter terraces and giant arch separated by restrained atmospheric haze. Strong leading lines, coherent perspective, clear connected walking route. Keep the visual hierarchy readable even as a small thumbnail.\nLighting and materials: twilight, desaturated blue-grey/green-grey sky, dark bronze and stone masses, a narrow warm amber-peach horizon, sparse tiny amber street lights, pale warm rim light along parts of the monumental arch. Large shadow masses with some visible structure; detailed local highlights with no blank clipped white regions. Foreground denser and darker, distant forms quieter and hazier. A single coherent low sun direction. Weathered physical materials, subtle imperfections, cinematic architectural concept art, believable depth with restrained painterly finish.\nThis is an ORIGINAL new scene built from the written design principles, not a recreation or edit of an existing frame. No reference image pixels are provided. Differentiate it through the OPEN hovering arch, stepped terrace architecture, bronze-and-stone construction, and new spatial arrangement.\nText: none.\nAvoid: closed circular ring, concentric circular portals, futuristic glass skyscraper canyon, multiple competing giant landmarks, oversaturated neon, full-frame glow or fog wash, explosion, aircraft, large characters, cyclists, logos, watermark, interface, captions, borders, split screen, arrows.",
+  "requestedAspectRatio": "9:16",
+  "actualMetadata": {
+    "width": 1055,
+    "height": 1491,
+    "mode": "RGB",
+    "bytes": 2347714,
+    "sha256": "d2a6ada8e7623ea6fa05a7c5e2bb0e069b450ce7a63615bb9390169ac8cb7b85"
+  },
+  "review": {
+    "retained": [
+      "单一巨大开放拱轮廓，拱脚与城市分离",
+      "暗色近景、暖色地平线、局部亮边",
+      "宽街和阶梯台地连接近中远景",
+      "微小访客与建筑的尺度关系"
+    ],
+    "changed": [
+      "闭合竖向巨环改为悬空开放巨拱",
+      "密集工业城市改为石质阶梯城与桥",
+      "原片笔直中轴街道改为斜向城内延展的宽街",
+      "色调更暖、材质更厚重，偏向古老文明的庄严感"
+    ],
+    "limits": [
+      "本次实际图幅与请求9:16有差异；网页完整呈现，不裁切伪装一致画幅",
+      "独立生成的构图探索，不是同机位或单变量对照",
+      "只证明静态关系；悬浮、空间连续性与镜头运动未实现"
+    ],
+    "videoGenerated": false
+  }
+}

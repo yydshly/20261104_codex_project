@@ -1,0 +1,1783 @@
+{
+  "published": "2026-11-21",
+  "evidenceThrough": "2026-11-14",
+  "slug": "027-surreal-motion-study",
+  "summary": "从奇幻骑行原片提炼光色、反向规则、空间构图、主体情绪、相机、音乐节律和世界一致性七条主轴。以原创关键帧、十种效果、局部预演、一条用户通过的AI舞步和三个世界候选，沉淀关系、参数、提示词与验收方法；区分HDR与高曝光，连续3D、稳定生成与产品价值仍待验证。",
+  "guide": {
+    "path": "exports/research-map-20261121.png",
+    "sourceSha256": "b7e03c4bd7e1806a66f999099c615f514819c7bac29d4fb4af5f6716c2c0c9dc",
+    "publishedSha256": "b7e03c4bd7e1806a66f999099c615f514819c7bac29d4fb4af5f6716c2c0c9dc",
+    "unchanged": true,
+    "color": "SDR"
+  },
+  "publicationScope": "Research site, attributed source analysis, original images, playable experiments, prompts and sanitized records. Source permission for reuse, precise beat sync, continuous 3D and product value unverified.",
+  "localOnly": "Account and login fields, logs, pasted article, intermediate media, truncated download, duplicate 16-image ZIP. Local originals are unchanged.",
+  "excludedMedia": [
+    "assets/chasing/audio-joined.mp4",
+    "assets/chasing/video-joined.mp4",
+    "assets/dance-video/chatart-20261114/video_20261114181228.mp4",
+    "assets/dance-walk/dance-walk-100bpm-local-v1-silent.mp4",
+    "assets/dance-walk/dance-walk-100bpm-local-v2-silent.mp4",
+    "assets/dance-walk/dance-walk-100bpm-portrait-v2-silent.mp4",
+    "assets/divine-multiverse/audio-joined.mp4",
+    "assets/divine-multiverse/video-joined.mp4",
+    "assets/grassland-special/audio-joined.mp4",
+    "assets/grassland-special/video-joined.mp4",
+    "assets/reflection-short/reflection-story-local-v1-silent.mp4",
+    "assets/vortex-road/audio-joined.mp4",
+    "assets/vortex-road/video-joined.mp4",
+    "exports/style-worlds-16-20261114.zip"
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 98,
+      "sha256": "78936285dbf07ff7880b6fecbf61e7f8483fa21eb25bf0db722a6cc78cbae3f8"
+    },
+    {
+      "path": "analysis.md",
+      "bytes": 9823,
+      "sha256": "a6ad6b9c347b26306101f7ce67c0a9ea1237c3d8e3e4223e997e4fb93a6a67a6"
+    },
+    {
+      "path": "app.js",
+      "bytes": 15181,
+      "sha256": "77a14b3c4b52abc1e8a8c8eaf13d63450daa7918f2e3c633a0fc2675f65bbbd8"
+    },
+    {
+      "path": "assets/chasing/frame-00.10.jpg",
+      "bytes": 295488,
+      "sha256": "22080d7653c6680a0722007cf031f573252d8adab1dfbb462e8bb01c4fae083f"
+    },
+    {
+      "path": "assets/chasing/frame-01.00.jpg",
+      "bytes": 302754,
+      "sha256": "15c1e2e770c3b3a8f4c3c2b13937cc1488717abb750b77f283c8ed8186fe2e28"
+    },
+    {
+      "path": "assets/chasing/frame-02.00.jpg",
+      "bytes": 330450,
+      "sha256": "20619cc3a5a4c44539f5a3e784411d5daedb362b866d7364991d71aed8f816a5"
+    },
+    {
+      "path": "assets/chasing/frame-03.00.jpg",
+      "bytes": 326876,
+      "sha256": "c070d38ec1dc3c34aa7b86b730f739a94dd64fd1124751315f106b282ad636f6"
+    },
+    {
+      "path": "assets/chasing/frame-04.00.jpg",
+      "bytes": 313126,
+      "sha256": "68cf4158412eafdd122a8658d589b63d60a73ebb5121cf8d771cc7542001394e"
+    },
+    {
+      "path": "assets/chasing/frame-05.00.jpg",
+      "bytes": 304831,
+      "sha256": "39a372805e61b901665cc5e77a03e4c2bfb656a9be83a11ec46fca6f5c77745d"
+    },
+    {
+      "path": "assets/chasing/frame-06.00.jpg",
+      "bytes": 296007,
+      "sha256": "14311b734d3e2cd39daefcedf1d2d731bf19621c7e4758b0454ec2d0ea030c54"
+    },
+    {
+      "path": "assets/chasing/frame-06.88.jpg",
+      "bytes": 289225,
+      "sha256": "70cac7beae22991a8f3c892ecca5cac6dedf20788586db3305efeadfbf0943ff"
+    },
+    {
+      "path": "assets/chasing/original-poster.webp",
+      "bytes": 232824,
+      "sha256": "12bf36169529a42da5f2c6f07c166e8ffbb6e7bb90766f08768ab6548d71be43"
+    },
+    {
+      "path": "assets/chasing/probe.json",
+      "bytes": 3630,
+      "sha256": "4a191af10e8fc99f1a6abb1800be327a033b55cbaaded64b77aadc6941b3c4c5"
+    },
+    {
+      "path": "assets/chasing/provenance.json",
+      "bytes": 4006,
+      "sha256": "1fcc3a236fbb3ad340bb44a39620f29518ff6d0d85330dc8aa750f86e787cf2d"
+    },
+    {
+      "path": "assets/chasing/reference.mp4",
+      "bytes": 9470794,
+      "sha256": "c2c31aac574ffc534c98493146c5f8d9f7f59648f7a361bdf25599689b06e2db"
+    },
+    {
+      "path": "assets/color-study/baseline-sdr.png",
+      "bytes": 2697238,
+      "sha256": "fe276a71c2f098ad87fb0792482121b772016227021eea90cb226ad623fc4f9b"
+    },
+    {
+      "path": "assets/color-study/exposure-plus-one-ev.png",
+      "bytes": 2640325,
+      "sha256": "b7c3d8c2453a72c42f51f99af84ad3c536c5d1a03138cb58547dfed6944a639c"
+    },
+    {
+      "path": "assets/color-study/hdr-headroom-explainer.jpg",
+      "bytes": 479668,
+      "sha256": "78fe2a994b2e71d05d91184391ce7e853fe3485d3e5363b085a23606fd0bbcdc"
+    },
+    {
+      "path": "assets/color-study/same-frame-comparison.jpg",
+      "bytes": 1005766,
+      "sha256": "bb2fd8b1bc0413a1e40c1e1f79a75a4450db6f62edf09808e1433cec904d0cf6"
+    },
+    {
+      "path": "assets/color-study/saturation-1p4.png",
+      "bytes": 2596261,
+      "sha256": "7364ffbfcdc7178c1b81e85f5602dc33b0ed5af77f4dbee92fd3221a5dbada71"
+    },
+    {
+      "path": "assets/dance-video/chatart-20261114/dance-walk-original.mp4",
+      "bytes": 30091974,
+      "sha256": "d4012baaa034f39991b0555082aa7c3744b5a8d990be84f9512df2998322820b"
+    },
+    {
+      "path": "assets/dance-video/chatart-20261114/dance-walk-playable.mp4",
+      "bytes": 3642579,
+      "sha256": "db1bcea3c01dd8a40bdd23dd2f2aa57c9d59c0c01c9781f411a52a77be4e1705"
+    },
+    {
+      "path": "assets/dance-video/chatart-20261114/dance-walk-poster.jpg",
+      "bytes": 275029,
+      "sha256": "83ddc0cbb74081bd88a50bbe090f616de5d07e8c97702cb2c6860e2b0ad54cb4"
+    },
+    {
+      "path": "assets/dance-video/dance-start-frame-layout-draft.png",
+      "bytes": 2497611,
+      "sha256": "de29441fa67e0fd5d33acda3f2a03752413e630d11968dd02fea85135227291e"
+    },
+    {
+      "path": "assets/dance-video/dance-start-frame-v1.png",
+      "bytes": 2542686,
+      "sha256": "0debba8bdf535b2650897da7f4ed490072d083d6f952b5f578399810543ece29"
+    },
+    {
+      "path": "assets/dance-walk/character-reference-user.png",
+      "bytes": 28843,
+      "sha256": "29e98c22b831952ae55afb4971c8d90720d4a8791d37a3382f55ecd41f5b1926"
+    },
+    {
+      "path": "assets/dance-walk/dance-poses-v1.png",
+      "bytes": 1897753,
+      "sha256": "95cb284ddf6d6a02062252e890267513b603c73f74cef69f212caff736ffa86b"
+    },
+    {
+      "path": "assets/dance-walk/dance-walk-100bpm-local-v1-contact.jpg",
+      "bytes": 296824,
+      "sha256": "60a0386a9be4773df6e45fc5ded5b99e10a8ee2c9df00beea6bdfaf0e08d2635"
+    },
+    {
+      "path": "assets/dance-walk/dance-walk-100bpm-local-v1-poster.jpg",
+      "bytes": 328686,
+      "sha256": "0472e3a3f760ebf5993555008343b01fc92fcc7ae4c6880e0a13f48895258cdc"
+    },
+    {
+      "path": "assets/dance-walk/dance-walk-100bpm-local-v1.mp4",
+      "bytes": 8572686,
+      "sha256": "8d2b4d25e2953b0df94406b60dfe3a8ad0aa620cf362b0dc1adddecb99832113"
+    },
+    {
+      "path": "assets/dance-walk/dance-walk-100bpm-local-v2-poster.jpg",
+      "bytes": 308931,
+      "sha256": "53b9efea8ae1ed6bd30b9b7013d7c77ec1374194c6a45bf98174bfe6cfee3319"
+    },
+    {
+      "path": "assets/dance-walk/dance-walk-100bpm-local-v2.mp4",
+      "bytes": 9599386,
+      "sha256": "357f084554e0ca2bbc30bfdbf1e7bd1555bee4c7c36676b7a2b4cc12eaf0020d"
+    },
+    {
+      "path": "assets/dance-walk/dance-walk-100bpm-original.mp3",
+      "bytes": 232010,
+      "sha256": "cf0b979dae413eb700407dfb902cbac5565fb654ddf80a13c12f294d8a5f9857"
+    },
+    {
+      "path": "assets/dance-walk/dance-walk-100bpm-original.wav",
+      "bytes": 1693484,
+      "sha256": "54ea68524b256dcf954cf21ba5724098e037f7f52b3abc90dbeac19f22ce9929"
+    },
+    {
+      "path": "assets/dance-walk/dance-walk-100bpm-portrait-v2-poster.jpg",
+      "bytes": 203066,
+      "sha256": "002cf4f7530aee916ee5a5eeba3b6343bac2add6c074e0cfea49e0bf1cb8da9f"
+    },
+    {
+      "path": "assets/dance-walk/dance-walk-100bpm-portrait-v2.mp4",
+      "bytes": 6853412,
+      "sha256": "92928b2a57104edb47bd601955a4beb5e91b3b8dbb1a1a05689e2eca8894ac5f"
+    },
+    {
+      "path": "assets/dance-walk/dance-walk-v2-contact.jpg",
+      "bytes": 389747,
+      "sha256": "5dd91ad90e03294f518b4786c93cef8e6648b88aa040c44c63f0eab0b9e372cc"
+    },
+    {
+      "path": "assets/divine-multiverse/design-breakdown.jpg",
+      "bytes": 369889,
+      "sha256": "681229d53af12a4e606ebeb929b2dcc1ccbcca3b316dd09041d24e66516b14f6"
+    },
+    {
+      "path": "assets/divine-multiverse/frame-00.10.jpg",
+      "bytes": 141480,
+      "sha256": "0c1ae839cf0e7e75b748ce0c44a836c802265eb2d53a414031f5f0a9d66cf7a6"
+    },
+    {
+      "path": "assets/divine-multiverse/frame-01.00.jpg",
+      "bytes": 133961,
+      "sha256": "7217abbae66e6489b0d8eac41d143b79c9a93d6fb856758381617203e9890067"
+    },
+    {
+      "path": "assets/divine-multiverse/frame-02.00.jpg",
+      "bytes": 129903,
+      "sha256": "3d6645dea4bca266a76378b78444dab87082ea31b5882492c2dc9b6f69b8b3a4"
+    },
+    {
+      "path": "assets/divine-multiverse/frame-03.00.jpg",
+      "bytes": 137617,
+      "sha256": "f7db6373aba39e8b75f3aa1541416d37c310c4758028832742043a7e33086fa9"
+    },
+    {
+      "path": "assets/divine-multiverse/frame-04.00.jpg",
+      "bytes": 127039,
+      "sha256": "0e928a3419d5562c54fcede51f2b3bf3ab0595ea78cd4f11202256cdb8e43942"
+    },
+    {
+      "path": "assets/divine-multiverse/frame-05.00.jpg",
+      "bytes": 121256,
+      "sha256": "bdb57e69e209e6578763cde01870e607fb86f22ef341e78a489178118a5af363"
+    },
+    {
+      "path": "assets/divine-multiverse/frame-06.00.jpg",
+      "bytes": 132236,
+      "sha256": "5181d37f3c32d7a42f758a0c75d8147cba380cd1bf358e84cde7fc141ebb3108"
+    },
+    {
+      "path": "assets/divine-multiverse/frame-07.00.jpg",
+      "bytes": 130351,
+      "sha256": "506ff66cd228980d862895ffa9d03d006e3d52bdd9cbc7f381f2782f0c29c485"
+    },
+    {
+      "path": "assets/divine-multiverse/frame-08.00.jpg",
+      "bytes": 122896,
+      "sha256": "5cc7d13e3fce6e27c4e759ceae5478241d889dac5f9758ca5a05cac745723a73"
+    },
+    {
+      "path": "assets/divine-multiverse/frame-09.00.jpg",
+      "bytes": 130628,
+      "sha256": "0c94ce4256014e252b867340fdada0efdfe7c48e766660fc2bf09df3a9687e47"
+    },
+    {
+      "path": "assets/divine-multiverse/frame-10.00.jpg",
+      "bytes": 131573,
+      "sha256": "cbe149390b7d084af02148a607f9750ec3f2e6b33b5da527d69ea79afb52ac64"
+    },
+    {
+      "path": "assets/divine-multiverse/probe.json",
+      "bytes": 3474,
+      "sha256": "fd8136eb92c2c67d4732d229e45c8a91ccb09d437bf6f0cd6c28ce4b1f4432a5"
+    },
+    {
+      "path": "assets/divine-multiverse/provenance.json",
+      "bytes": 5448,
+      "sha256": "019680c087ff188b29201ba9f951fd0eb18dd461a96fb88105f3f395e6a8c630"
+    },
+    {
+      "path": "assets/divine-multiverse/reference.mp4",
+      "bytes": 1435097,
+      "sha256": "3b118123557474c51b99e06c8f6cf9f3c515b43d5091bbb63c2a06a69588effe"
+    },
+    {
+      "path": "assets/divine-multiverse/temporal-contact-sheet.jpg",
+      "bytes": 345016,
+      "sha256": "245d0f767067a69eab113f38213756cfaa4fa449fc6887214fb473dcf3da7367"
+    },
+    {
+      "path": "assets/divine-multiverse/three-frame-comparison.jpg",
+      "bytes": 272202,
+      "sha256": "055956b900615e1fa1292c0caed62a89f4958bb62992b4b407cec61aa81bdaae"
+    },
+    {
+      "path": "assets/effect-motion/city-day-aligned.jpg",
+      "bytes": 209286,
+      "sha256": "180b6aea2599fd29ff6d22c2b206acdeaa928fadfbfed751d9b57cc60cc96327"
+    },
+    {
+      "path": "assets/effect-motion/city-day-source-v1.png",
+      "bytes": 3092510,
+      "sha256": "1b99141b2a4594a97611e92a3a1ec1ffe5cf6d7c47d4469b5f3f03f1bbf30f6a"
+    },
+    {
+      "path": "assets/effect-motion/city-night-aligned.jpg",
+      "bytes": 131603,
+      "sha256": "d60c55a6a5d8073a93c95ae1f8e98e656917fce8362668d5cd8e7d46d2017194"
+    },
+    {
+      "path": "assets/effect-motion/city-night-source-v1.png",
+      "bytes": 2438224,
+      "sha256": "a1727ea14ed4da2b7cf197913d8e616cc2cc95ecaa00de1647ea93de4e98d42a"
+    },
+    {
+      "path": "assets/effect-motion/day-night-sweep-v1-contact.jpg",
+      "bytes": 190662,
+      "sha256": "5a59d0e06141ebad23d694443ccd5133551ed4f059676bd0eb8bf2c2e97b7192"
+    },
+    {
+      "path": "assets/effect-motion/day-night-sweep-v1-poster.jpg",
+      "bytes": 170761,
+      "sha256": "b3aceaf859e1283a47799d25d37238de3b0b3ef83e9d85ce85a959e18e16b4f3"
+    },
+    {
+      "path": "assets/effect-motion/day-night-sweep-v1.mp4",
+      "bytes": 603838,
+      "sha256": "beb983761f7857a4984dccfd677b79b2646c6982cb0ebb5f86292225f9cedfc1"
+    },
+    {
+      "path": "assets/effect-motion/reflection-clean-local.jpg",
+      "bytes": 120942,
+      "sha256": "3c9af06837d98b8ecb466bb45c3cbf9d64082593f5bfab447ef8ca998e48ff4a"
+    },
+    {
+      "path": "assets/effect-motion/reflection-offset-v1-contact.jpg",
+      "bytes": 150716,
+      "sha256": "98e3a63cdb21cd4aba3652568f9317c2e670ece5029be06923eceefdc7082356"
+    },
+    {
+      "path": "assets/effect-motion/reflection-offset-v1-poster.jpg",
+      "bytes": 101548,
+      "sha256": "290c6a63f563c28011074dbc5323924b7e36ed391d56aa6ae65da9ad2fb87a41"
+    },
+    {
+      "path": "assets/effect-motion/reflection-offset-v1.mp4",
+      "bytes": 359228,
+      "sha256": "3c66b27dfe75e8baea4f1c7dee3d24975c8b60094a3dc612aa4133b28925e48e"
+    },
+    {
+      "path": "assets/effect-motion/sea-wall-mesh-v1-contact.jpg",
+      "bytes": 118714,
+      "sha256": "3bac4fa936384b676e58f4b349a8ec46f2201e411113a3eeb9d7c6f9a983c44c"
+    },
+    {
+      "path": "assets/effect-motion/sea-wall-mesh-v1-poster.jpg",
+      "bytes": 59492,
+      "sha256": "b685569862329e6fd23733dd6075eacc359377ef6f0347cb62a85bff2ff7cdd4"
+    },
+    {
+      "path": "assets/effect-motion/sea-wall-mesh-v1.mp4",
+      "bytes": 2385180,
+      "sha256": "a45e73f1c5380bae0894c42cdf204405c42b214219bd989e12eb7f764ff7aad5"
+    },
+    {
+      "path": "assets/effects-and-drivers.jpg",
+      "bytes": 866379,
+      "sha256": "e0c66e2e0480bc0ae33f7a21c7b148fd557b3b71d22d8b71693b2580f810ae77"
+    },
+    {
+      "path": "assets/gif-studies/terrace-city-approach-local-contact.jpg",
+      "bytes": 222731,
+      "sha256": "216d76ce4858dfa3237aa1a4db679f7e5e28759f146817fc8ecb4adc968690d5"
+    },
+    {
+      "path": "assets/gif-studies/terrace-city-approach-local-poster.png",
+      "bytes": 364479,
+      "sha256": "6f5b57a533bcac2533aa92351f17d91e26a8c07ac55c68a157959e5268cc6afd"
+    },
+    {
+      "path": "assets/gif-studies/terrace-city-approach-local-v2-contact.jpg",
+      "bytes": 236187,
+      "sha256": "c9dcdbe1edb172e1d837baff01bb83b143fc26bafe2aae9df634fcee2d903ff7"
+    },
+    {
+      "path": "assets/gif-studies/terrace-city-approach-local-v2-poster.png",
+      "bytes": 366281,
+      "sha256": "cb43b81fa552480121ed0ac706e14056957366af2cf0d97215a7f68d165062d9"
+    },
+    {
+      "path": "assets/gif-studies/terrace-city-approach-local-v2.gif",
+      "bytes": 6927998,
+      "sha256": "0c2b6e6c02cd8a24937a1845da225fa76fad1017920f0fb2a6574900dbcc5fdb"
+    },
+    {
+      "path": "assets/gif-studies/terrace-city-approach-local.gif",
+      "bytes": 4152008,
+      "sha256": "5f3d116a3e18a765711e2b328235b51b285b8fa665284f9081a3de89b0f477a8"
+    },
+    {
+      "path": "assets/gif-studies/terrace-city-approximate-depth.png",
+      "bytes": 16939,
+      "sha256": "e0efb43b9b2c52ce28749a45a69da32172e73f6e2b2af2f7ca52508b7bc1ea1a"
+    },
+    {
+      "path": "assets/gif-studies/terrace-city-design-iterations-poster.png",
+      "bytes": 827803,
+      "sha256": "74e202f362dfbcb7d6c90f0c0156df68d7d043c9088a7754b59a777fa6678aef"
+    },
+    {
+      "path": "assets/gif-studies/terrace-city-design-iterations.gif",
+      "bytes": 1063220,
+      "sha256": "0fa45d7c09eedc26a1c7bd9effc71f22238c8e84bc0b9db42eb3f9448858bc60"
+    },
+    {
+      "path": "assets/grassland-eight-frame-sequence.jpg",
+      "bytes": 666627,
+      "sha256": "024d54c60d9af5b41bb33ea7e9ee0ddfa2d0c28eb8ef09c6feb9519c41702757"
+    },
+    {
+      "path": "assets/grassland-scene-vs-camera.jpg",
+      "bytes": 939714,
+      "sha256": "ee56c082d95f1b34ce0d527fead8a3f55c9dd5d9ec90a96eb3c8bfa3ced0167c"
+    },
+    {
+      "path": "assets/grassland-special/frame-00.10.jpg",
+      "bytes": 426074,
+      "sha256": "b0236bf0f630193c2bbe6ab4878c84af309d910c6940f7ff7f858d2d3b12f33b"
+    },
+    {
+      "path": "assets/grassland-special/frame-01.00.jpg",
+      "bytes": 328342,
+      "sha256": "7fd38cde49df07fcd27129fe9369f1b9d858943e254f732bb997df8fe16db91f"
+    },
+    {
+      "path": "assets/grassland-special/frame-02.00.jpg",
+      "bytes": 314013,
+      "sha256": "990f7c26d1fa3f3a2326265fccad1512a01aa6a9609c99ff4d38258bdea57ee2"
+    },
+    {
+      "path": "assets/grassland-special/frame-03.00.jpg",
+      "bytes": 291106,
+      "sha256": "f6e5b8b36401eb934a55bd7077d382427534a59a53f7ff78580a0ae84f850e17"
+    },
+    {
+      "path": "assets/grassland-special/frame-04.00.jpg",
+      "bytes": 284922,
+      "sha256": "c1151f064cc90a3707fd86d50391f78d1cd1825b5b1e91d112938799b73bba68"
+    },
+    {
+      "path": "assets/grassland-special/frame-05.00.jpg",
+      "bytes": 296677,
+      "sha256": "759eb77b9d8e913589055ec9be1aef63385e791d358e94ec714c6e5f3c4bde35"
+    },
+    {
+      "path": "assets/grassland-special/frame-06.00.jpg",
+      "bytes": 295076,
+      "sha256": "0825efdc4fc4d14003faeed3ecda82862251e73e85d2480977846d99029d4aad"
+    },
+    {
+      "path": "assets/grassland-special/frame-06.87.jpg",
+      "bytes": 257292,
+      "sha256": "8458f30def3ce7784dd7fcd83be9d71fd9d6de2f69c3aa98d2c01854020ebe10"
+    },
+    {
+      "path": "assets/grassland-special/original-poster.webp",
+      "bytes": 364502,
+      "sha256": "f2d28bf2910064f3c10ccf4315387336a5315d6da813e1a78f083b8083f48b6b"
+    },
+    {
+      "path": "assets/grassland-special/preview-tonemapped.jpg",
+      "bytes": 426074,
+      "sha256": "b0236bf0f630193c2bbe6ab4878c84af309d910c6940f7ff7f858d2d3b12f33b"
+    },
+    {
+      "path": "assets/grassland-special/probe.json",
+      "bytes": 3630,
+      "sha256": "1b11c444e4050a156f490ef1619f4640193d208f403455dcb5eeaa92534d580a"
+    },
+    {
+      "path": "assets/grassland-special/provenance.json",
+      "bytes": 4110,
+      "sha256": "43bfef7271a75af71c81b259c0a52c021123dcf1d5b8514e0268fd20a8a27325"
+    },
+    {
+      "path": "assets/grassland-special/reference.mp4",
+      "bytes": 9522215,
+      "sha256": "96ee847076984d724aafad3857f5008adda835bc56b337ef66c27924acba2f59"
+    },
+    {
+      "path": "assets/motion-study/chasing/sample-01.jpg",
+      "bytes": 43412,
+      "sha256": "1e3fcdb9fdef1447a5cb11c0017dade3971ec27bb7c7c9c7a9c11e1210956e0f"
+    },
+    {
+      "path": "assets/motion-study/chasing/sample-02.jpg",
+      "bytes": 44312,
+      "sha256": "2745655a9066375b55d78d3bb20286f583e1db608c46867d805f24eb7b27a2d2"
+    },
+    {
+      "path": "assets/motion-study/chasing/sample-03.jpg",
+      "bytes": 45273,
+      "sha256": "c8ad8738d1c176ddda3c644b37fbc6c76f7b7793e892e0981bf43f0a5cdddf0b"
+    },
+    {
+      "path": "assets/motion-study/chasing/sample-04.jpg",
+      "bytes": 46594,
+      "sha256": "e37d0fe8e32d4034f1e61835d3b71592b69bd9d37cb5bc01c6698c3b01fe67e2"
+    },
+    {
+      "path": "assets/motion-study/chasing/sample-05.jpg",
+      "bytes": 46943,
+      "sha256": "ea12237f916c48dddb61650bfaf90c0f30c13a80fd5a911ba28e2668f5d0d03e"
+    },
+    {
+      "path": "assets/motion-study/chasing/sample-06.jpg",
+      "bytes": 47704,
+      "sha256": "b41087ebf37d83b12daf1dea71c4af124c39769a378d947a27378c7f32b70a38"
+    },
+    {
+      "path": "assets/motion-study/chasing/sample-07.jpg",
+      "bytes": 47481,
+      "sha256": "ca04a4055b80f3867964eebc862d6b9d1410c77029b97b11c4b448ea0a6d2c12"
+    },
+    {
+      "path": "assets/motion-study/chasing/sample-08.jpg",
+      "bytes": 47290,
+      "sha256": "d0c53fd10a64f395b49af0287524b9a4e2637cfbeb4cfbecb8a3dc4270b63217"
+    },
+    {
+      "path": "assets/motion-study/chasing/sample-09.jpg",
+      "bytes": 48200,
+      "sha256": "cbc0f7999b2050a32993b05401255cc9dcfe83e0f2c09fa62201b198471ce9ee"
+    },
+    {
+      "path": "assets/motion-study/chasing/sample-10.jpg",
+      "bytes": 46325,
+      "sha256": "7a11909b01a365a9b1c737b6b7293d28384d585363ec4ec54e04815ba130b861"
+    },
+    {
+      "path": "assets/motion-study/chasing/sample-11.jpg",
+      "bytes": 47911,
+      "sha256": "8905f33406116ac0d3f52f785d1f60e8dc45368381d866290822c05af6f4dcb3"
+    },
+    {
+      "path": "assets/motion-study/chasing/sample-12.jpg",
+      "bytes": 47980,
+      "sha256": "8c44374ccadb84f1fb52eaa1e25ee4975df7390e8537c2e75620cde5018b8c28"
+    },
+    {
+      "path": "assets/motion-study/chasing-action-sequence.jpg",
+      "bytes": 714348,
+      "sha256": "a9af467847dc19272d3f6b62491a205d832c3e7b2c8f74e18e614f3f29b9db7a"
+    },
+    {
+      "path": "assets/motion-study/grassland-special/sample-01.jpg",
+      "bytes": 50558,
+      "sha256": "5132c8760c969ac2ae3738ff6e1faf1804002db7216b21da92d246492ce3693a"
+    },
+    {
+      "path": "assets/motion-study/grassland-special/sample-02.jpg",
+      "bytes": 48188,
+      "sha256": "74f370e974252bfaa97781049a435525e55a6567ed4ae8434f9fcbb94583e6f0"
+    },
+    {
+      "path": "assets/motion-study/grassland-special/sample-03.jpg",
+      "bytes": 49975,
+      "sha256": "7f58abedbfa5b088515638083afb95aedd9bec325adf4b5bce1936a2a84a3140"
+    },
+    {
+      "path": "assets/motion-study/grassland-special/sample-04.jpg",
+      "bytes": 47364,
+      "sha256": "a0a8ba122df2d5deb8eac37f6c918d16cc51a8ed2db8e899317e622c195d348a"
+    },
+    {
+      "path": "assets/motion-study/grassland-special/sample-05.jpg",
+      "bytes": 47329,
+      "sha256": "1b47f90675425a7803c93ec19b2702b904d5f3c151d6846c21cf3970f0f2a3b1"
+    },
+    {
+      "path": "assets/motion-study/grassland-special/sample-06.jpg",
+      "bytes": 48500,
+      "sha256": "f5dc76a1c074ea7e544b9f6c9afa9c71f60b14c70fd89c73728316956cc9e8f2"
+    },
+    {
+      "path": "assets/motion-study/grassland-special/sample-07.jpg",
+      "bytes": 44545,
+      "sha256": "d109ec2d8f0ba5260c4fd9daaf900a851b3026d7834d2d6c1b149d19bf94dcec"
+    },
+    {
+      "path": "assets/motion-study/grassland-special/sample-08.jpg",
+      "bytes": 46405,
+      "sha256": "b94834ad01d9a781a91875e56e87a69ddcb4b0e7ac55f617ebfb2c29bf447f24"
+    },
+    {
+      "path": "assets/motion-study/grassland-special/sample-09.jpg",
+      "bytes": 49032,
+      "sha256": "86c3be705dd868274e1296d57847dee90d16a0259adab5c1021a6ab738432e6f"
+    },
+    {
+      "path": "assets/motion-study/grassland-special/sample-10.jpg",
+      "bytes": 48704,
+      "sha256": "a9f1b801484f81f27efde31c531146aecf1384187f970e8b47bf44250eba3866"
+    },
+    {
+      "path": "assets/motion-study/grassland-special/sample-11.jpg",
+      "bytes": 47890,
+      "sha256": "9a0fd0d66915d5bc346160f23070ef0d5a7b3baa31fc206ada8c7b60d4729bad"
+    },
+    {
+      "path": "assets/motion-study/grassland-special/sample-12.jpg",
+      "bytes": 49111,
+      "sha256": "231805d5e82458d2e28581ecc375d18a628158002599cb83a40b2b52f9aa76e4"
+    },
+    {
+      "path": "assets/motion-study/grassland-special-action-sequence.jpg",
+      "bytes": 782572,
+      "sha256": "ad7a26d2b92e98a06eb88635aa40d38871b7cf9adec6f344c65c24b58c2e03f9"
+    },
+    {
+      "path": "assets/motion-study/vortex-road/sample-01.jpg",
+      "bytes": 41899,
+      "sha256": "1f8fcdb6aa5539db3fa5a285a543d6dbc4303cbf070343c811f62608b4980b47"
+    },
+    {
+      "path": "assets/motion-study/vortex-road/sample-02.jpg",
+      "bytes": 42073,
+      "sha256": "1ef0b479b42c57831431d4e0957a0a4e33cce2b482e2ff62a66604e87168cc03"
+    },
+    {
+      "path": "assets/motion-study/vortex-road/sample-03.jpg",
+      "bytes": 42558,
+      "sha256": "b2e7bf6728c8303bbfa4f0a9d0914e58ba8a90e92b045a6e7fb113b41f7e7095"
+    },
+    {
+      "path": "assets/motion-study/vortex-road/sample-04.jpg",
+      "bytes": 43566,
+      "sha256": "6ce7a1d27527500292f0245469b1fd07748426900ccf018dfd72f811aaddc8b1"
+    },
+    {
+      "path": "assets/motion-study/vortex-road/sample-05.jpg",
+      "bytes": 43429,
+      "sha256": "ee4c9fef7a371c767d372f13a2465a4cce5723523fc13aa3851ec6981dd6e813"
+    },
+    {
+      "path": "assets/motion-study/vortex-road/sample-06.jpg",
+      "bytes": 43030,
+      "sha256": "76a24ba415085066677d2be4229e9b4f59a3c4fa2251d582ed6a187029629ff8"
+    },
+    {
+      "path": "assets/motion-study/vortex-road/sample-07.jpg",
+      "bytes": 41233,
+      "sha256": "ce423cb2ded66c4209f7aa7ceb4e95ec7a7f9121c98e9e9038ad03658ee0c2d0"
+    },
+    {
+      "path": "assets/motion-study/vortex-road/sample-08.jpg",
+      "bytes": 38448,
+      "sha256": "c9bbe9dda0fff7d8754d241228c8d20926fc239be89e8652302641fcbf59c532"
+    },
+    {
+      "path": "assets/motion-study/vortex-road/sample-09.jpg",
+      "bytes": 37971,
+      "sha256": "ed6af2506bde42f0a3dde920ca9b65b6e13e3964526cf10033203d5dec28ecb7"
+    },
+    {
+      "path": "assets/motion-study/vortex-road/sample-10.jpg",
+      "bytes": 41781,
+      "sha256": "3cc98b241d9ca6806078f5830b7c2642da35f1df23e969e94aa9a8cc396d1c4e"
+    },
+    {
+      "path": "assets/motion-study/vortex-road/sample-11.jpg",
+      "bytes": 48596,
+      "sha256": "a3bb2564d669c0dfa66be9081eacba64e7ed66617a78ea3d475c71e5b4602ce3"
+    },
+    {
+      "path": "assets/motion-study/vortex-road/sample-12.jpg",
+      "bytes": 48790,
+      "sha256": "5f9b2a840924e9527e4d02bdc6859792acd6ec6813b5c72d4265b9118fcf9802"
+    },
+    {
+      "path": "assets/motion-study/vortex-road-action-sequence.jpg",
+      "bytes": 667377,
+      "sha256": "c022e9198890a6c3ecc137284508a021934f694ee10c9ee65bde3e59bb74383e"
+    },
+    {
+      "path": "assets/original-keyframes/effect-ahead-reflection-v1.png",
+      "bytes": 2310446,
+      "sha256": "b01be352eb966885dc7b64ffbee28e80c38e536276a71d5c514bf6804950ae08"
+    },
+    {
+      "path": "assets/original-keyframes/effect-cloud-streets-v1.png",
+      "bytes": 2808753,
+      "sha256": "5ad0abe9cf57ddaa74fae87e80bd6d294afa799955cc17891b6a8a75a2a988e2"
+    },
+    {
+      "path": "assets/original-keyframes/effect-day-night-boundary-v1.png",
+      "bytes": 2679249,
+      "sha256": "b97790352fcb7488216bd98d293023e261daa03e7e506488c7031813302fa260"
+    },
+    {
+      "path": "assets/original-keyframes/effect-draped-buildings-v1.png",
+      "bytes": 3216033,
+      "sha256": "cf35569ecf2b83c4032e93c34bea5c5b68e3c1798d752ecf8b67bab9f58983f3"
+    },
+    {
+      "path": "assets/original-keyframes/effect-four-seasons-v1.png",
+      "bytes": 3862147,
+      "sha256": "1ea7b3e85b17c4771f1dedb2d9cda4838ab7b5ab84fa6b6c66eece1274195ab0"
+    },
+    {
+      "path": "assets/original-keyframes/effect-scale-arch-v1.png",
+      "bytes": 2930239,
+      "sha256": "9b9b485aa40bef3eca64fa913ba338cbb588064a54be00ba65afcecb3369dea1"
+    },
+    {
+      "path": "assets/original-keyframes/effect-sea-wall-v1.png",
+      "bytes": 2574403,
+      "sha256": "b484641253d6a02de2ecba38d8b24cf8977441d129cc49527448f3849640e638"
+    },
+    {
+      "path": "assets/original-keyframes/effect-transparent-mountain-v1.png",
+      "bytes": 3151062,
+      "sha256": "9f0a1e47ec2f135dadf89656c876a416fafb4b76deec37ff328e2f09e26bb834"
+    },
+    {
+      "path": "assets/original-keyframes/effect-upward-rain-v1.png",
+      "bytes": 2845057,
+      "sha256": "231d20bf84caec3776a23d55ae1f83fa46983847d509431a41e410edeb61e4a0"
+    },
+    {
+      "path": "assets/original-keyframes/effect-wind-layers-v1.png",
+      "bytes": 2863515,
+      "sha256": "623e89619b08dd06c25360dd5a89c1a85aff327e648d7d38de62289e5a524228"
+    },
+    {
+      "path": "assets/original-keyframes/folded-map-connection-v2-draft.png",
+      "bytes": 3114069,
+      "sha256": "77d1ffd38396f4ae8c948f9dbe6f9455ab627e58475e6aa22a135e125170023d"
+    },
+    {
+      "path": "assets/original-keyframes/folded-map-connection-v2.png",
+      "bytes": 2983858,
+      "sha256": "21ce4eeef37be8e07a118a9f1c3f5876cd2846dd17e2aefd2ec4c67640bc20f1"
+    },
+    {
+      "path": "assets/original-keyframes/folded-map-flat-v1.png",
+      "bytes": 2959736,
+      "sha256": "f98ccbfa62ef7e22d9114b616223ead523bc1322cd0f398a1ee2f3a27f0ed4e9"
+    },
+    {
+      "path": "assets/original-keyframes/folded-map-formed-v1.png",
+      "bytes": 3188699,
+      "sha256": "de2c14ac1ce287598890fd089d37a5e971ad455298167f4fe9ac06b4bf52e649"
+    },
+    {
+      "path": "assets/original-keyframes/folded-map-world-v1.png",
+      "bytes": 3147506,
+      "sha256": "2f356bcca275010a89496a382e114ac258398c68ce1858976dab3e4089a3b856"
+    },
+    {
+      "path": "assets/original-keyframes/forest-follows-deer-v1.png",
+      "bytes": 2958645,
+      "sha256": "e46e6ed756b4c3fa1ed77a30ed9ec790e0a5fd5a3dc09fe00344ad29a3e313af"
+    },
+    {
+      "path": "assets/original-keyframes/keyframe-a-centered-world.png",
+      "bytes": 2521342,
+      "sha256": "4e36404f910cff57312c7a763f0458ded537b51ddb2d607c2f261dc116fa9b18"
+    },
+    {
+      "path": "assets/original-keyframes/keyframe-b-diagonal-follow.png",
+      "bytes": 2375533,
+      "sha256": "503c09f640c4ae07c57d8c73d35006c0ff246f3867865f38afaa1912d3dc57c1"
+    },
+    {
+      "path": "assets/original-keyframes/keyframe-c-curve-reveal.png",
+      "bytes": 2424588,
+      "sha256": "0c6cb29c6404fea4762003822c36c8d63a785054b86bf7f62d34c00966a56062"
+    },
+    {
+      "path": "assets/original-keyframes/keyframe-d-neon-canyon.png",
+      "bytes": 2820381,
+      "sha256": "689ff9c52a1d139417f6c6565d4063dc3ee30ab207f59c1fd94b59bbdeb76c65"
+    },
+    {
+      "path": "assets/original-keyframes/keyframe-e-giant-forest.png",
+      "bytes": 2917706,
+      "sha256": "a97d2f5d00a5179c65183f4406f0fd21c6a877ad0e5541b7b19323cf1030f482"
+    },
+    {
+      "path": "assets/original-keyframes/keyframe-f-glacier-rift.png",
+      "bytes": 2807924,
+      "sha256": "1fbd55afcf36e0cc1b44cdcf72b9fc0bc4259c1c891ec4fa196e08cff8311c8d"
+    },
+    {
+      "path": "assets/original-keyframes/keyframe-g-salt-lake.png",
+      "bytes": 1853295,
+      "sha256": "53cb8b68ac6e65dced2f346cabe98794b24e5e212a1fccb40439ef10e6b9aa3b"
+    },
+    {
+      "path": "assets/original-keyframes/keyframe-h-wind-towers.png",
+      "bytes": 2223673,
+      "sha256": "7600f794b42a6d20ba262ce219d0dd9996ed0929804998d49dc50308449c5d2d"
+    },
+    {
+      "path": "assets/original-keyframes/keyframe-i-rhythm-corridor.png",
+      "bytes": 2576636,
+      "sha256": "cdb19554863d70c4163beb94033f26e87d1355702e09a8beda6b245f349fc4f9"
+    },
+    {
+      "path": "assets/original-keyframes/keyframe-j-snow-ridge.png",
+      "bytes": 2936822,
+      "sha256": "05d99af1bd104fcc6e15472c52ee8e0f73bf25648877a01c3ec1ef73e57e7ba5"
+    },
+    {
+      "path": "assets/original-keyframes/keyframe-k-ruins-station.png",
+      "bytes": 2415460,
+      "sha256": "0881bc9d0a3c8429ba37ce9e1a32314244f1cc359f910863a2f51ff879a27e0e"
+    },
+    {
+      "path": "assets/original-keyframes/keyframe-l-mist-gate.png",
+      "bytes": 2638767,
+      "sha256": "c799d614d057a90bdadbfa14aa92e42c6f237331d8fed24cb01832525e5c62c8"
+    },
+    {
+      "path": "assets/original-keyframes/mirror-sea-inverted-garden-city-v1.png",
+      "bytes": 2106710,
+      "sha256": "497888f6be8aeb915fe25f1eecbbc059e1cbeb2a3f3bb8d891416df9d1a801a0"
+    },
+    {
+      "path": "assets/original-keyframes/shadow-bridge-discovery-v1.png",
+      "bytes": 2230798,
+      "sha256": "a3577a2459e96b69c1ffb93f2b63b4b4b4e49dd2b68cabf4c55788390a4bceb9"
+    },
+    {
+      "path": "assets/original-keyframes/shadow-bridge-first-step-v1.png",
+      "bytes": 2375078,
+      "sha256": "ad775968370a27f29077e07de0a0dac6dbd923d7930aa98223f93bdd228d6760"
+    },
+    {
+      "path": "assets/original-keyframes/shadow-bridge-supported-v1.png",
+      "bytes": 2325322,
+      "sha256": "8019678a2d58e0973a04a982590b7644538ebf17e9aad8ea0cfd59e447920d30"
+    },
+    {
+      "path": "assets/original-keyframes/shadow-bridge-v1.png",
+      "bytes": 2269520,
+      "sha256": "a15f1cbc7d9336443da4323128645d8334ebfa902b33369979013605a8fa20f3"
+    },
+    {
+      "path": "assets/original-keyframes/twilight-terrace-city-arch-v1.png",
+      "bytes": 2347714,
+      "sha256": "d2a6ada8e7623ea6fa05a7c5e2bb0e069b450ce7a63615bb9390169ac8cb7b85"
+    },
+    {
+      "path": "assets/original-keyframes/twilight-terrace-city-arch-v2.png",
+      "bytes": 2156948,
+      "sha256": "795d959d950bce70cb9577bbfb671829344230822bebc3899389b03181e42056"
+    },
+    {
+      "path": "assets/original-keyframes/twilight-terrace-city-arch-v3.png",
+      "bytes": 2004581,
+      "sha256": "55561aab25feba59008023be8842e77e06d54eda0c18c595bcf9c8276e066640"
+    },
+    {
+      "path": "assets/reflection-short/plate-v1.png",
+      "bytes": 2437313,
+      "sha256": "eb90e48fb64052a465d4775d4c2a43c750f7d4bbcdc67da53738a48d0defb6e1"
+    },
+    {
+      "path": "assets/reflection-short/pose-1.png",
+      "bytes": 90404,
+      "sha256": "6b7ff344ae7e6af09679bbe937a6b0b37fa8801ba14e23ac7d9d69c4e0a67fa5"
+    },
+    {
+      "path": "assets/reflection-short/pose-2.png",
+      "bytes": 87634,
+      "sha256": "7344ef616061bf6d1ade51b5117f0ff06eb0786f006d31c8f04f1529bfbe4fb1"
+    },
+    {
+      "path": "assets/reflection-short/pose-3.png",
+      "bytes": 73553,
+      "sha256": "0557c69ce0b215d3f2a1aa7a5bb406f05ca2692d98aec0cf1b3c9a871b3e67c9"
+    },
+    {
+      "path": "assets/reflection-short/pose-4.png",
+      "bytes": 72472,
+      "sha256": "0b59990cc00399eb4f80851ab9a37798af6f615dafbb2177fa5c175d4a14e250"
+    },
+    {
+      "path": "assets/reflection-short/pose-5.png",
+      "bytes": 87838,
+      "sha256": "7521954ae68e1d36910eadaf28cfbb5459d4fed24b6b5b4e43b8d0bf5175cc8d"
+    },
+    {
+      "path": "assets/reflection-short/pose-6.png",
+      "bytes": 106784,
+      "sha256": "e3c0039e930d2cb9435eadeff86678de57ee270fd931f7b2ac48e139fb8e8127"
+    },
+    {
+      "path": "assets/reflection-short/poses-v1.png",
+      "bytes": 1566115,
+      "sha256": "f1a868a43efdd2f507f40c8a692a712043e78f76bbf07024b09078745befbad7"
+    },
+    {
+      "path": "assets/reflection-short/reflection-story-local-v1-contact.jpg",
+      "bytes": 349619,
+      "sha256": "c199b371ed1f75724d36c0e1456439581f48979d77735b84ff0832024261e2d7"
+    },
+    {
+      "path": "assets/reflection-short/reflection-story-local-v1-poster.jpg",
+      "bytes": 322703,
+      "sha256": "312403e5ba737c6bfe1073e57190d1d0ea5d8582635b7f1969cab3bdf24bf8db"
+    },
+    {
+      "path": "assets/reflection-short/reflection-story-local-v1-sound.wav",
+      "bytes": 1587644,
+      "sha256": "daa56106b8e88e2691290ea6db7ea8efcc0f0c0aab15bb94e4223bc8dbed1c5a"
+    },
+    {
+      "path": "assets/reflection-short/reflection-story-local-v1.mp4",
+      "bytes": 10371255,
+      "sha256": "5a440b0b1d562fdb88b551c03841dec8205bad67e8de5b69dd669ee4fd0cc3c6"
+    },
+    {
+      "path": "assets/source-library-value.jpg",
+      "bytes": 214472,
+      "sha256": "76ef978bb2047a5245cc1c9dec128d1864864c805b1a639774b93ad1e7ec1d5f"
+    },
+    {
+      "path": "assets/style-expansion/desert-monument-v1.png",
+      "bytes": 2362013,
+      "sha256": "98a4958acd501fa53073192d154c477eac9ae06d4c1222bda9700ba1da238bd9"
+    },
+    {
+      "path": "assets/style-expansion/forest-cloud-v1.png",
+      "bytes": 3253924,
+      "sha256": "04d4677b8d7e818a8d21b170ba2e4339224b2bcd3545938d7d023eb86fcb32c2"
+    },
+    {
+      "path": "assets/style-expansion/oriental-water-v1.png",
+      "bytes": 2316838,
+      "sha256": "f1a9fd9ef5c8efc14a54689af07ef2bc4e71b37f7890af67991de79ab9817167"
+    },
+    {
+      "path": "assets/style-expansion/retro-rain-city-v1.png",
+      "bytes": 2950294,
+      "sha256": "affc09aea41627786db6804b7f88ec0228b0d8bee89c36bed2c34be4cbef5c10"
+    },
+    {
+      "path": "assets/style-worlds/buried-ring-city-v1.png",
+      "bytes": 2561186,
+      "sha256": "6d644e30a3beeb7a93d36efaa02bd97a64e7305e4a42f650ca1e39bd321c23e0"
+    },
+    {
+      "path": "assets/style-worlds/buried-ring-city-v1.webp",
+      "bytes": 99970,
+      "sha256": "db0a2a9dc9878e76f777311d630034904d9efbfba496f957de6c1a0814ccab82"
+    },
+    {
+      "path": "assets/style-worlds/canopy-lake-v1.png",
+      "bytes": 3173766,
+      "sha256": "92a5a2a538dfa5345da35e52ebb53fec4bd2893bdf29170655b04d0613fccfb3"
+    },
+    {
+      "path": "assets/style-worlds/canopy-lake-v1.webp",
+      "bytes": 189820,
+      "sha256": "9cde943f73c8d21163cefc2266ea111e404f3ae4e3afdcda141a1677fe254823"
+    },
+    {
+      "path": "assets/style-worlds/canyon-stair-v1.png",
+      "bytes": 2612468,
+      "sha256": "f99f2313a3cfdb8814904cf75f347bc9d42ff3ffdf9f288da99eed77b322e30f"
+    },
+    {
+      "path": "assets/style-worlds/canyon-stair-v1.webp",
+      "bytes": 103662,
+      "sha256": "e95e86ad2f41329d3ee1defde491c0b73af35c689a846b45a18c1e6b19304d44"
+    },
+    {
+      "path": "assets/style-worlds/cave-wetland-v1.png",
+      "bytes": 2989361,
+      "sha256": "6a438fa705453e12ff66505202418b61d9f5b976ea28be34b13bf1bc8c0a1233"
+    },
+    {
+      "path": "assets/style-worlds/cave-wetland-v1.webp",
+      "bytes": 159888,
+      "sha256": "70fd99a43748d748a6097e2b4a11c16571ce02081f3db83f042986589a144400"
+    },
+    {
+      "path": "assets/style-worlds/cliff-gate-v1.png",
+      "bytes": 2580479,
+      "sha256": "ff2c9b4b2b43a5ed50bd128131cf659f5df9b7457503322d810cce755b39dd4e"
+    },
+    {
+      "path": "assets/style-worlds/cliff-gate-v1.webp",
+      "bytes": 107272,
+      "sha256": "2e428edf66991cf5aee680efef48fdc54ca114a3c9f1db6b63088416a39b913f"
+    },
+    {
+      "path": "assets/style-worlds/flooded-library-v1.png",
+      "bytes": 2362296,
+      "sha256": "4aa3780c0e899ffcd5044a79a23db952b0889dbd38853a4457919a61b5afa627"
+    },
+    {
+      "path": "assets/style-worlds/flooded-library-v1.webp",
+      "bytes": 89450,
+      "sha256": "6842ac4a44890ecfb878d9657af4f6e3c88ea643793a14ecdbf7f73792ed9211"
+    },
+    {
+      "path": "assets/style-worlds/fog-water-street-v1.png",
+      "bytes": 2628615,
+      "sha256": "91eb82d252b22dab902bce05734a2e4f3340f2f894ee62153d4d8ac03abaf395"
+    },
+    {
+      "path": "assets/style-worlds/fog-water-street-v1.webp",
+      "bytes": 106666,
+      "sha256": "7e4f1b359c3136b6fa2e89f9f29d73996df517ff70e39eab7455854d6e20e6a2"
+    },
+    {
+      "path": "assets/style-worlds/giant-fern-forest-v1.png",
+      "bytes": 3277264,
+      "sha256": "827b069dbcfa61db4d856c45ebe97e55367b87b12089302e8234ef8c851ce6ac"
+    },
+    {
+      "path": "assets/style-worlds/giant-fern-forest-v1.webp",
+      "bytes": 198578,
+      "sha256": "7615ddf06b90f0a1434ce876ce1d81c8aa2ac84a179aef77ee769c8f062ef141"
+    },
+    {
+      "path": "assets/style-worlds/harbor-waiting-hall-v1.png",
+      "bytes": 2998057,
+      "sha256": "0b0190bf5f89bafdf02d572771035ab6be5b6e308f0036b8393a0664f3050d32"
+    },
+    {
+      "path": "assets/style-worlds/harbor-waiting-hall-v1.webp",
+      "bytes": 150216,
+      "sha256": "adad105909f9f16cb1680279f0137d1de924703c8ec46d2e0801e201fc0f5213"
+    },
+    {
+      "path": "assets/style-worlds/moon-water-courtyard-v1.png",
+      "bytes": 2369620,
+      "sha256": "b6e3ccf4cbaae20d390fbf5cb2a33932b27f48cf927cbbac924d1fd869db0f2e"
+    },
+    {
+      "path": "assets/style-worlds/moon-water-courtyard-v1.webp",
+      "bytes": 79004,
+      "sha256": "f1973954b1c4b3834064fb417203ca2a6180d550ad9b5b8e9eadca211be716a2"
+    },
+    {
+      "path": "assets/style-worlds/mountain-water-temple-v1.png",
+      "bytes": 2711700,
+      "sha256": "e8c45250e46c830c12dbaedc7430e647cc7136a68aa48725d6823f582c8ff636"
+    },
+    {
+      "path": "assets/style-worlds/mountain-water-temple-v1.webp",
+      "bytes": 106530,
+      "sha256": "fbb82d7f59be6780b5a27a1d735364f3fefd659db75023526fe493771aa3f32b"
+    },
+    {
+      "path": "assets/style-worlds/residential-atrium-v1.png",
+      "bytes": 3089051,
+      "sha256": "d73face6c8e1b9efe750838413251846070b35c1de0ed2de66884c0916201e87"
+    },
+    {
+      "path": "assets/style-worlds/residential-atrium-v1.webp",
+      "bytes": 166142,
+      "sha256": "267d6ff182c53fd025be90804ef47db682014cf5b36298056233d4c962850c3a"
+    },
+    {
+      "path": "assets/style-worlds/root-canyon-v1.png",
+      "bytes": 3437549,
+      "sha256": "0e251f5d2b1ee1164dad16717297184f80b17748a02a7e9f127dffe34e4e1c78"
+    },
+    {
+      "path": "assets/style-worlds/root-canyon-v1.webp",
+      "bytes": 208226,
+      "sha256": "f449ad123bfe346a27d3e69a028dd7337a04840d00928e41d1b3e74e5c823518"
+    },
+    {
+      "path": "assets/style-worlds/salt-lake-tower-v1.png",
+      "bytes": 1939250,
+      "sha256": "c8ea4c6e59aea2aae2e8fd3c3e4739a5f0437c8caaa56e1140d04204f36c73ba"
+    },
+    {
+      "path": "assets/style-worlds/salt-lake-tower-v1.webp",
+      "bytes": 49136,
+      "sha256": "642a62d4da98faa789740794193af1bcac23bf373f46ebba06c34bfd09c67a25"
+    },
+    {
+      "path": "assets/style-worlds/sky-greenhouse-v1.png",
+      "bytes": 3259894,
+      "sha256": "204939dece6cba732928518d4d6dbd174ac287862ec89835beacff2938bc4192"
+    },
+    {
+      "path": "assets/style-worlds/sky-greenhouse-v1.webp",
+      "bytes": 182228,
+      "sha256": "97dd837ea2cd166bee7a3505a376e70845cf25511ade3c944b7d8809f0e73bfa"
+    },
+    {
+      "path": "assets/style-worlds/underground-canal-v1.png",
+      "bytes": 2905640,
+      "sha256": "b4c7c0a2c31c0f04a30959310487d86581b5b36cc896eb0c92fa0c1be4ed5592"
+    },
+    {
+      "path": "assets/style-worlds/underground-canal-v1.webp",
+      "bytes": 139136,
+      "sha256": "ec88011d2c209aa36437e90018b9a6141f856f3ab980ba2e284cf79e9b96885a"
+    },
+    {
+      "path": "assets/temporal-contact-sheet.jpg",
+      "bytes": 789443,
+      "sha256": "1e6f21240c6da82976c872036c3060fc7de86af7c4bb7c65d8ab893ac4e04433"
+    },
+    {
+      "path": "assets/vortex-road/frame-00.10.jpg",
+      "bytes": 266856,
+      "sha256": "9b4f82b161450ece7833e607c8189b2d832ab3f2df85778e3c0ddc7f7bba7e32"
+    },
+    {
+      "path": "assets/vortex-road/frame-01.00.jpg",
+      "bytes": 239601,
+      "sha256": "98964aecb81312b670c51b2a58ead3bf1d5f1f061bac0f363c6401df6f8e3662"
+    },
+    {
+      "path": "assets/vortex-road/frame-02.00.jpg",
+      "bytes": 252655,
+      "sha256": "6ec228337bf5fc0040b5fbd2493f295ab19de3d0dc02ef49965835635e0de09c"
+    },
+    {
+      "path": "assets/vortex-road/frame-03.00.jpg",
+      "bytes": 281368,
+      "sha256": "a4e01c001463e6372cda9cde03f9dac82d8b6de836cbb18eee64283f2543e864"
+    },
+    {
+      "path": "assets/vortex-road/frame-04.00.jpg",
+      "bytes": 267941,
+      "sha256": "f8e313ea186cc98ee2a62359eed4e78823cbee2654140f86f8cb50c14e8133f2"
+    },
+    {
+      "path": "assets/vortex-road/frame-05.00.jpg",
+      "bytes": 245708,
+      "sha256": "e754d7ce592ac7422e9fcbb33e185388e792f879402098148ba1a6865bc7aa0b"
+    },
+    {
+      "path": "assets/vortex-road/frame-06.00.jpg",
+      "bytes": 243636,
+      "sha256": "15815860c583dace1e901d674b26e2cb9dc2fc6ee730620103c455689291bb30"
+    },
+    {
+      "path": "assets/vortex-road/frame-07.05.jpg",
+      "bytes": 242116,
+      "sha256": "4fc7c9ca1b122b020b0f0f0daf564e13a25e51f39623e343d9a5cc1f8babcf0f"
+    },
+    {
+      "path": "assets/vortex-road/original-poster.webp",
+      "bytes": 204216,
+      "sha256": "04a936091e5d5455aee9d7a01a2774632e7850d8add95918db39ba6036b3e0ed"
+    },
+    {
+      "path": "assets/vortex-road/probe.json",
+      "bytes": 3630,
+      "sha256": "7c639764efb597296e5cecb74537ffbafa6f2702a82935ebd5fdc6b4c0cb72f3"
+    },
+    {
+      "path": "assets/vortex-road/provenance.json",
+      "bytes": 4045,
+      "sha256": "a72f56967acd43b56303a32674728cb3818718071b7bd9f65410326bef44a569"
+    },
+    {
+      "path": "assets/vortex-road/reference.mp4",
+      "bytes": 9745027,
+      "sha256": "4a78213e06d579ab5018494aaff971a63307d1d331bb469dce706ac41c5315bb"
+    },
+    {
+      "path": "capabilities.css",
+      "bytes": 4652,
+      "sha256": "ac8f6ee5d2ea6a0572884aa161a45a5352affedcfd72e376f7f2ac1088bdc844"
+    },
+    {
+      "path": "capability-atlas-data.js",
+      "bytes": 36339,
+      "sha256": "0aa2593c65215d098cf34070cf64dcf15aeac924930795ddcde1dc36ad713c18"
+    },
+    {
+      "path": "capability-atlas.css",
+      "bytes": 7068,
+      "sha256": "81bcee05fd49e041707baf5bbc8b794f338708e85a3f8da1674bce6d842394e2"
+    },
+    {
+      "path": "capability-atlas.js",
+      "bytes": 9325,
+      "sha256": "7cf10f71ad574b6fe20b80e5dcb7be9acf91b06bba34302b8faa1dcfd8ec747b"
+    },
+    {
+      "path": "color-hdr-study.md",
+      "bytes": 7222,
+      "sha256": "f255daa130c2382d099d1eab5c8f7df4d0a48541f7bf8eab0b430f42f46e8e58"
+    },
+    {
+      "path": "dance-video-production-data.js",
+      "bytes": 12280,
+      "sha256": "f748e4a56981fd7f71ac3621514de1870afa0819d2ba2f5364a395fb0f86bde5"
+    },
+    {
+      "path": "dance-video-production.js",
+      "bytes": 8686,
+      "sha256": "1f8bad60f4677e043002c1a65350db88050f8f681144b942f86c656c0984f0a1"
+    },
+    {
+      "path": "dance-walk-data.js",
+      "bytes": 2765,
+      "sha256": "fb6799e1e3ede19ce4a01b8eee7cb72a91435a07b78bef5e93a30a297f6cec8e"
+    },
+    {
+      "path": "direction-study.css",
+      "bytes": 19075,
+      "sha256": "7a7dc71d9bd34e17265bf2204b46562efcab3f0396dedce5903ec937276247f6"
+    },
+    {
+      "path": "direction-study.js",
+      "bytes": 40374,
+      "sha256": "1ddf5d0a76c9d15441e79fa1dbfadd93fc5b66c14172bd28bf1a54b8f0a8229f"
+    },
+    {
+      "path": "effect-expansion-data.js",
+      "bytes": 16355,
+      "sha256": "c36ee611a7aeac09f48fc9320713ccc77a3def0c8efaab0773d55df0784569bc"
+    },
+    {
+      "path": "exports/dance-video-transfer-20261114/01_首帧_宽路全身.png",
+      "bytes": 2497611,
+      "sha256": "de29441fa67e0fd5d33acda3f2a03752413e630d11968dd02fea85135227291e"
+    },
+    {
+      "path": "exports/dance-video-transfer-20261114/02_备选首帧_人物更大.png",
+      "bytes": 2542686,
+      "sha256": "0debba8bdf535b2650897da7f4ed490072d083d6f952b5f578399810543ece29"
+    },
+    {
+      "path": "exports/dance-video-transfer-20261114/03_视频主提示词.txt",
+      "bytes": 2240,
+      "sha256": "cd397918a9083e1b0d0a3f96180548a683b23471947fe4c9a8180bba0aca6f58"
+    },
+    {
+      "path": "exports/dance-video-transfer-20261114/04_负面提示词.txt",
+      "bytes": 537,
+      "sha256": "ce1a575a56b0d167e32a73d54ead7b947a3cd3df2dc1e785b2691237f685119f"
+    },
+    {
+      "path": "exports/dance-video-transfer-20261114/05_使用说明.txt",
+      "bytes": 1738,
+      "sha256": "b6164a4a16a3541d179dec8928185e1707b9352bf714b5d820f7caf6f037b647"
+    },
+    {
+      "path": "exports/dance-video-transfer-20261114/06_占位配乐_100BPM_16拍.wav",
+      "bytes": 1693484,
+      "sha256": "54ea68524b256dcf954cf21ba5724098e037f7f52b3abc90dbeac19f22ce9929"
+    },
+    {
+      "path": "exports/dance-video-transfer-20261114/07_文件校验.json",
+      "bytes": 1147,
+      "sha256": "42ca1eb144aefd932826000d09dcfe681ae742a30bc06791bc4a27a3ea799f69"
+    },
+    {
+      "path": "exports/dance-video-transfer-20261114.zip",
+      "bytes": 6214345,
+      "sha256": "c66d4fd53f31e6cd19ff9a1c3e7c0a7b51310e47b8f9dd6f6bd2fd576c5cd4a6"
+    },
+    {
+      "path": "exports/research-map-20261121.png",
+      "bytes": 4899898,
+      "sha256": "b7e03c4bd7e1806a66f999099c615f514819c7bac29d4fb4af5f6716c2c0c9dc"
+    },
+    {
+      "path": "exports/research-map-web-20261121.webp",
+      "bytes": 267756,
+      "sha256": "c7dae4a9a7e44a9961fd8664be654870c6ab549231eedd574abaf6c806a33519"
+    },
+    {
+      "path": "grassland-space-study.md",
+      "bytes": 7924,
+      "sha256": "cc323348b0f2215625740e0e3613f963422daea4857f96796b31e87d4a316ff7"
+    },
+    {
+      "path": "index.html",
+      "bytes": 26068,
+      "sha256": "263f5b651c443b2a97f551304395031aab1e2e7b3f9d4cbeb23a44c5078ad22e"
+    },
+    {
+      "path": "keyframe-data.js",
+      "bytes": 13054,
+      "sha256": "29b86b9d33f220eac05cb7c867581d3d98fb50fa2766f167b5934cfc60c53f74"
+    },
+    {
+      "path": "keyframe-more-scenes.js",
+      "bytes": 24420,
+      "sha256": "4ef86e83fa2105209d45af62d26796fe2d3b6770c8a8d3d7534d617e0de71bd3"
+    },
+    {
+      "path": "keyframe-scenes.js",
+      "bytes": 13621,
+      "sha256": "432561b72116d42f715d418939defc480669bc1c5ce07a9ef2a8ade21c95e7f9"
+    },
+    {
+      "path": "keyframe-study.css",
+      "bytes": 7326,
+      "sha256": "25c954d90e97983f58b2afb41fa6b343bedbafa895b2c44c20472afc10bfaf27"
+    },
+    {
+      "path": "keyframe-study.js",
+      "bytes": 11550,
+      "sha256": "7b66c3466fbbd6bdc9886257c5c92922a42ebd303fe3ffd9126c496d83fab7ea"
+    },
+    {
+      "path": "motion-data.js",
+      "bytes": 16719,
+      "sha256": "aa59eec46aaa076664f7faa13471d374f5e157be14f5cdd1d0e140a2a8fb9fb5"
+    },
+    {
+      "path": "motion-emotion.css",
+      "bytes": 7424,
+      "sha256": "95aef0b0c9c87c81ec88eb2b4d8c874ae26b2e85a96b1516b909ea9b01eb6897"
+    },
+    {
+      "path": "motion-emotion.js",
+      "bytes": 15885,
+      "sha256": "ef5bb0a5cdcb980b04f06e82532ab6123586e47ec9c0750c2fe53f38e0d63aa4"
+    },
+    {
+      "path": "presentation-design-data.js",
+      "bytes": 25637,
+      "sha256": "8cb82854c64f59254ad8369574a27f71070204f79c803fe96f7a3d114af3905c"
+    },
+    {
+      "path": "presentation-design.css",
+      "bytes": 4949,
+      "sha256": "a5ea5af7789a89b754ae503ff7c2f2e57a73a9d4547bcbc545043e85a57d8014"
+    },
+    {
+      "path": "presentation-design.js",
+      "bytes": 7441,
+      "sha256": "dcfcd49176e0113e3bb77fdcfd5b12684720ab4182f5432220d3570d64312419"
+    },
+    {
+      "path": "product-study.js",
+      "bytes": 5123,
+      "sha256": "64a244df2409caf13f53c611a761e312514b788690b046dbe204a188649c6ced"
+    },
+    {
+      "path": "publication-intro.js",
+      "bytes": 2361,
+      "sha256": "62e099ecf69c1c04de77600d8f569e31da5b4b095b1fa5bfcd0297401324ca1f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9168,
+      "sha256": "58a6929f9d66371e4dd79a25552e71c931069c3affb83e6a03903a315e491cd2"
+    },
+    {
+      "path": "reference/author-workflow.md",
+      "bytes": 1390,
+      "sha256": "5c93cff89bb5a6ff7b514193200378384486e1e7da0fa05b6285df8d7e16a43b"
+    },
+    {
+      "path": "reference/color-study-method.json",
+      "bytes": 2646,
+      "sha256": "cd982f504b59357034b1f6164dac8d29b56db02bfb5faa6931478536b39d50af"
+    },
+    {
+      "path": "reference/dance-start-frame-v1-generation-20261114.json",
+      "bytes": 6138,
+      "sha256": "2fa8d165de5f82015a05bd3d3ffefccd85a836f004a1af58f23d4f2ff53d7b50"
+    },
+    {
+      "path": "reference/dance-video-chatart-prompt-20261114.txt",
+      "bytes": 3074,
+      "sha256": "373509525ae435add376fbdce3c62622b33ee685f942b1918d717fe5d0fb7c37"
+    },
+    {
+      "path": "reference/dance-video-chatart-submission-20261114.json",
+      "bytes": 4891,
+      "sha256": "3d6e04d0a4cd8d05d5e2c81d375925c443cf5a903f1666b911f641e6fb9ec465"
+    },
+    {
+      "path": "reference/dance-video-playback-repair-20261114.json",
+      "bytes": 1165,
+      "sha256": "6a6ee4fe4b08c53c06d80618de56fb61883ce379fd14e82451995dc6436f705c"
+    },
+    {
+      "path": "reference/dance-video-production-plan-20261114.json",
+      "bytes": 12235,
+      "sha256": "8640c63b3f8a05226dd87e2a51821705115a3b96f0f0724374c289dc43dafa65"
+    },
+    {
+      "path": "reference/dance-video-prompt-20261114.txt",
+      "bytes": 4465,
+      "sha256": "5ef1f54c704008320dd5406352ffbb077df226c226ae03b729e162867dc89b00"
+    },
+    {
+      "path": "reference/dance-walk-assets-20261113.json",
+      "bytes": 2632,
+      "sha256": "3d16e7f7e5ca4e93b97e97f66f70caf09f178ac290f81d22bedd7add3c46864f"
+    },
+    {
+      "path": "reference/dance-walk-local-v1-20261113.json",
+      "bytes": 3313,
+      "sha256": "887d58b81646eb6363abb8fae4f2b3b7a69837acbb5d41e4cb84f9224523da8d"
+    },
+    {
+      "path": "reference/dance-walk-music-20261113.json",
+      "bytes": 7336,
+      "sha256": "fd29419b77ddd1a7bdb4c1b7da37d654afe7af54800c7f9e6a3122b64d9bbc82"
+    },
+    {
+      "path": "reference/dance-walk-plan-20261113.json",
+      "bytes": 2727,
+      "sha256": "ccf16971225b3537a35ec929eaac87fb111cc4de29a52f8051b12c4139f9e217"
+    },
+    {
+      "path": "reference/dance-walk-v2-20261114.json",
+      "bytes": 1678,
+      "sha256": "31ca057bed4a133f08013cc6873cf975a537b20db969c85299205c0544744d62"
+    },
+    {
+      "path": "reference/divine-multiverse-source.json",
+      "bytes": 949,
+      "sha256": "48653215caa4a29cee692da2331a5618cc00c1c772b0cc807dcdf890365bdca2"
+    },
+    {
+      "path": "reference/effect-continuation-20261113.json",
+      "bytes": 3142,
+      "sha256": "02ebea67b568dcc350c1836dddd89a6d3152ddfd5a9a4758fe88486fa260f8a3"
+    },
+    {
+      "path": "reference/effect-expansion-20261113.json",
+      "bytes": 18545,
+      "sha256": "f811f4bbede9cbb5921b512e34469e7711948da0a42caf69eaaa82bfa18db128"
+    },
+    {
+      "path": "reference/effect-expansion-notes-20261113.json",
+      "bytes": 10484,
+      "sha256": "8bb6a387e9a848d873fe237e294e7e06a4ec602c369e4f8f5d06f0b3cc7bcafa"
+    },
+    {
+      "path": "reference/effect-motion-light-generation-20261113.json",
+      "bytes": 2223,
+      "sha256": "57c6cc939e429269be569f6f314446862c687c578407a6f2d256f01649489613"
+    },
+    {
+      "path": "reference/effect-motion-studies-20261113.json",
+      "bytes": 1899,
+      "sha256": "85cdd2f06a8172462865b001974042db35481e0e4a1ac9cc7d7d49c82832f5f3"
+    },
+    {
+      "path": "reference/folded-map-connection-v2-generation.json",
+      "bytes": 4777,
+      "sha256": "725bf00467bdd4008ce51e3ca30a0b2a69a387069fd94bba848a54f3ac6cc809"
+    },
+    {
+      "path": "reference/folded-map-static-sequence-20261113.json",
+      "bytes": 5318,
+      "sha256": "042edca7bb8ade8af7be4cdb6e4239d6cc212cf6374119500e3423355f77365b"
+    },
+    {
+      "path": "reference/forest-follows-deer-v1-generation.json",
+      "bytes": 4874,
+      "sha256": "a0cfa77ac9b6104d7b5a4e192cc3290d82d185b381e9926470bd0de0e1375ff0"
+    },
+    {
+      "path": "reference/grassland-frame-observations.json",
+      "bytes": 2809,
+      "sha256": "b7bf58a3cb7611c146060266aa87110d6a7da4906d3366fa687f0a78547b747d"
+    },
+    {
+      "path": "reference/keyframe-generation-20261112.json",
+      "bytes": 9279,
+      "sha256": "34263c591a309c5d3b7cddd8c8b4c491ea5b3fdcedd82149bf56456dc403324d"
+    },
+    {
+      "path": "reference/keyframe-more-scenes-generation-20261112.json",
+      "bytes": 12495,
+      "sha256": "c99850b7258f25eefb6d0ad9caa1da6b793e70da9063fac942251abf9be94f8c"
+    },
+    {
+      "path": "reference/keyframe-scenes-generation-20261112.json",
+      "bytes": 9217,
+      "sha256": "5f92e1f4ea92adfc451d9ab43792f68d942095cd90982bee29d2120f4f7fbd3b"
+    },
+    {
+      "path": "reference/media-manifest.json",
+      "bytes": 3439,
+      "sha256": "dd6e7719440409dda88ecd61a629d08f25613d423e79cb4c6320b78bdd3d135f"
+    },
+    {
+      "path": "reference/mirror-sea-inverted-garden-city-v1-generation.json",
+      "bytes": 4245,
+      "sha256": "cc00960c87d729f6e78083e4e2b02b03240d8a9975b9704fbfa3a8dcab2453cc"
+    },
+    {
+      "path": "reference/motion-observation-method.json",
+      "bytes": 9842,
+      "sha256": "90b0ef55caf7c6da4c8b1865133aab693b75b4079b38343922b75f4085bbb284"
+    },
+    {
+      "path": "reference/reflection-short-assets-20261113.json",
+      "bytes": 3048,
+      "sha256": "3be4d4376d7a0838fda9330909e7f03f82f8e515489b3f97f8de30b7c4258c4a"
+    },
+    {
+      "path": "reference/reflection-short-local-v1-20261113.json",
+      "bytes": 1122,
+      "sha256": "64855e825689c6a30dfc549655d91275d1fa945b3f3b8e32b481ab03b3799611"
+    },
+    {
+      "path": "reference/reflection-short-plan-20261113.json",
+      "bytes": 1372,
+      "sha256": "2c5b1178df3dca9885546b43179aa949d89f7e50b97e4f15353e0835cfa02dee"
+    },
+    {
+      "path": "reference/research-map-20261121.json",
+      "bytes": 1282,
+      "sha256": "e7aac59711fd4486de4d16ec67336d0911f1b188fbd69606b9c9736ac5e8c98f"
+    },
+    {
+      "path": "reference/research-summary-20261114.json",
+      "bytes": 14000,
+      "sha256": "f9700f72dd41cf6f6c7878088247dca97b17a54351e39101e6a305caba32d061"
+    },
+    {
+      "path": "reference/reverse-world-directions-20261113.json",
+      "bytes": 6752,
+      "sha256": "168fd002013ce1d4d7babdf3c39fc1de5b40eae54b1b4af2cc642094c63a1bd2"
+    },
+    {
+      "path": "reference/shadow-bridge-first-step-v1-generation.json",
+      "bytes": 4980,
+      "sha256": "f83db413d507140706a91eaf90e4142364c5893d047b602bb4f13e0961ac1c78"
+    },
+    {
+      "path": "reference/shadow-bridge-static-sequence-20261113.json",
+      "bytes": 5257,
+      "sha256": "172e987f25547c7850ea02da14d8f601d85625af5775e0b2c98203c8ef1d4659"
+    },
+    {
+      "path": "reference/status-audit-20261121.json",
+      "bytes": 1139,
+      "sha256": "664cbfe176b5b2dc997acab24dece45f95b82f420c891cb2ab1bf9edaaa045ae"
+    },
+    {
+      "path": "reference/style-expansion-20261114.json",
+      "bytes": 6125,
+      "sha256": "d8f6148548bc86ac6289ad3230f5667186f1d87edb2377b201a114a6cdf01da6"
+    },
+    {
+      "path": "reference/style-worlds-20261114.json",
+      "bytes": 33554,
+      "sha256": "7ccb3c584ceb2a5a59e70b0de1a019a75d00a3db8462f7098a9baad84b35c4a1"
+    },
+    {
+      "path": "reference/style-worlds-interpretation-20261114.json",
+      "bytes": 5078,
+      "sha256": "e51a4b58d6d7d357c70a5e902c34322b25f113303ddbc98b9b77434422992b65"
+    },
+    {
+      "path": "reference/terrace-city-approach-local-gif.json",
+      "bytes": 1227,
+      "sha256": "61d75a91e225e20be8febb34740c9a7912d0a2f19a7a8a1e050bf2972221c78e"
+    },
+    {
+      "path": "reference/terrace-city-approach-local-v2-gif.json",
+      "bytes": 1394,
+      "sha256": "8d11b2ce86b8edadb6cb01f2b500b7d329b938551fb6da98235a2604d1d3bd6c"
+    },
+    {
+      "path": "reference/terrace-city-design-gif.json",
+      "bytes": 842,
+      "sha256": "63a9295e0a3dcbbdec7f3a0fb6fee4f7c29d2ba11b7cc93b2e04a4bcf5ff86f8"
+    },
+    {
+      "path": "reference/terrace-city-scene-gif-plan.json",
+      "bytes": 3016,
+      "sha256": "5a62db2818d895dbcdfcbcc99d2979bdd004ad9b770c65b2f36bbb7e913025f8"
+    },
+    {
+      "path": "reference/terrace-city-scene-gif-prompt.txt",
+      "bytes": 1351,
+      "sha256": "2cea238920dea9c1ee0dd9bba80ca5627d7621a1542269ad149726ef9ed7ac47"
+    },
+    {
+      "path": "reference/twilight-terrace-city-arch-iterations-20261113.json",
+      "bytes": 6374,
+      "sha256": "61be0e21b20082d225f8114d75ee671ef70b6f9815405c42371ba6321cef96be"
+    },
+    {
+      "path": "reference/twilight-terrace-city-arch-v1-generation.json",
+      "bytes": 4817,
+      "sha256": "eacf739d19ecaffb294ed2d7c4ada745a7cdf2ff0781baf31f4d2d639abba7b8"
+    },
+    {
+      "path": "reference/world-construction-20261114.json",
+      "bytes": 8997,
+      "sha256": "11a6cfd039a1019edbd034405602b06c1a7c307272194651a6db4c28da700faa"
+    },
+    {
+      "path": "reference-comparison.css",
+      "bytes": 11331,
+      "sha256": "88b2a51867d408218a5a88fef0e2f88e5b6c5d3af355e73fa2e265932127800e"
+    },
+    {
+      "path": "reference-comparison.js",
+      "bytes": 26984,
+      "sha256": "e463bdcff1867a97765b1c2999d0be77676cec42fd5c7ddee2143db0b8237e77"
+    },
+    {
+      "path": "research-summary-data.js",
+      "bytes": 14038,
+      "sha256": "3b1dc1be2b8eaae4cd00b06f5d62bfe210761e8c501c046563e4ecbad6766aa7"
+    },
+    {
+      "path": "research-summary.css",
+      "bytes": 3651,
+      "sha256": "e80cc5fd6be8d409debe318c1c3b538ea90c8f0d6046022152b5504d863c782a"
+    },
+    {
+      "path": "research-summary.js",
+      "bytes": 8307,
+      "sha256": "3b500c6dc45507e60e63dc30c20c7ad65aaeeb9ac4e90597a69d189cea3538ca"
+    },
+    {
+      "path": "scripts/collect_divine_reference.py",
+      "bytes": 3696,
+      "sha256": "3cb7ab49a40b09f64fdac1711c04babe1eb1192486d9a8ee3012e5c44d1afec3"
+    },
+    {
+      "path": "scripts/collect_references.py",
+      "bytes": 6127,
+      "sha256": "9bcb2f23e854033336b23c1b2289a28cf576898749d8b8db9e3260cdb7e078bf"
+    },
+    {
+      "path": "scripts/compose_dance_walk_music.py",
+      "bytes": 4264,
+      "sha256": "6625408df7c7cd9e955193383894baa5015f14bf925f636b6db273cfaf861866"
+    },
+    {
+      "path": "scripts/export_terrace_scene_gif.py",
+      "bytes": 2390,
+      "sha256": "74ff4ef38030ed145ee0f5afe314e13e2266ca79e9968aaffb583f4165321b1b"
+    },
+    {
+      "path": "scripts/recover_dance_download_20261114.py",
+      "bytes": 953,
+      "sha256": "a3f79cc6028d5ec54e6d8b3da993a8f2193de82cb877148da82c8ba70cbf775d"
+    },
+    {
+      "path": "scripts/render_analysis.py",
+      "bytes": 9837,
+      "sha256": "f03eee055d26277c56d3cad666e7142794b9a405c98647e9c03ddd4770888a37"
+    },
+    {
+      "path": "scripts/render_color_study.py",
+      "bytes": 10831,
+      "sha256": "bea120edb20ee89936eee0e21e4a364eda0395410d8877e4b96a2b7a22a1809a"
+    },
+    {
+      "path": "scripts/render_dance_walk.py",
+      "bytes": 7396,
+      "sha256": "9cbb3c7a8f5bf12b6c6e6846dfb08c79549e711229bc4bc530d2962cf4e53ac7"
+    },
+    {
+      "path": "scripts/render_dance_walk_v2.py",
+      "bytes": 6633,
+      "sha256": "cc5d370b14a84e7d7052459967bacfa0da1f6fca2b5bc995fa1dcb4f2701bf44"
+    },
+    {
+      "path": "scripts/render_divine_comparison.py",
+      "bytes": 1439,
+      "sha256": "8a3de83de4550783b7d6491fce1714b92107ccb7e1fade6fa55cc08445921f8e"
+    },
+    {
+      "path": "scripts/render_divine_design.py",
+      "bytes": 2962,
+      "sha256": "fb53e4598d5caf54869890bcbde6b7cadb99a633bba0a4f0706b4d6637fe7f52"
+    },
+    {
+      "path": "scripts/render_effect_motion_studies.py",
+      "bytes": 8946,
+      "sha256": "81912e793c43d7b078bb9a54b9c0e8b25421b1a22bb0a6c5064fc33cb924f9ce"
+    },
+    {
+      "path": "scripts/render_grassland_study.py",
+      "bytes": 6363,
+      "sha256": "8eac0947bb9277dab243eda12418b9c8715f8754a2af11bdfcef74a046d3e3cc"
+    },
+    {
+      "path": "scripts/render_motion_observations.py",
+      "bytes": 3147,
+      "sha256": "766936649167ad628c856e97cb63ce742ebb57de5079baab3e8010cb7fe77fd3"
+    },
+    {
+      "path": "scripts/render_reflection_short.py",
+      "bytes": 10208,
+      "sha256": "dab1fe6d8a584ebf921edf646537c14c5e52279f99b7aab2f672261c9840534a"
+    },
+    {
+      "path": "scripts/render_research_map_20261121.py",
+      "bytes": 14568,
+      "sha256": "a05177a17d92ade9b32b0c702f888bb01527eee54f3b79a14999d69f9b2b2994"
+    },
+    {
+      "path": "scripts/render_terrace_design_gif.py",
+      "bytes": 3235,
+      "sha256": "ef8c2aaf1ba255cff91cd5ac4d43519b41a75335bff6c0dce24907815bea8e6c"
+    },
+    {
+      "path": "scripts/render_terrace_scene_preview.py",
+      "bytes": 5714,
+      "sha256": "cb3246258430462369092f48f6a14a279da639f617f92cfde0d2f95179510705"
+    },
+    {
+      "path": "scripts/render_terrace_scene_preview_stronger.py",
+      "bytes": 7740,
+      "sha256": "9269bfab901cb8c857f531a58d470cf082c660edf1050ac142b88b7c4d593329"
+    },
+    {
+      "path": "scripts/serve_research.py",
+      "bytes": 4559,
+      "sha256": "8ccf967fa7ad3fa260a099228b6a9b402499a69e59c4cc5d6ce235f28514401b"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 14363,
+      "sha256": "9f632dbe50ac29806d70a62154aa39bab0792aa165edc37090f63b7d9496fba9"
+    },
+    {
+      "path": "study-data.js",
+      "bytes": 46236,
+      "sha256": "995bf4503206f0479f41241919451e3fc056d6683a5b0443bdaa6795eec3536c"
+    },
+    {
+      "path": "style-expansion.js",
+      "bytes": 3228,
+      "sha256": "7b7e7fffb8b809e628dc88d082a06a2d6f74f6f536c358fae34c777a90b95bab"
+    },
+    {
+      "path": "style-worlds-data.js",
+      "bytes": 10833,
+      "sha256": "798bf3c8bb2961ca92226535bf33ac0e7a6987987c9a76d70fca024df9ce99a1"
+    },
+    {
+      "path": "style-worlds.js",
+      "bytes": 3066,
+      "sha256": "36eff23a3babda4babc3a4f4b9eee6db529087952ce0719d4aa5bed8876c1417"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 28905,
+      "sha256": "e5aad7cc012379b5c1a2de5f12adf42be31f8f2eed1b1c73eb96c57b3ff13ec5"
+    },
+    {
+      "path": "upward-rain-analysis.js",
+      "bytes": 5791,
+      "sha256": "28c7995a03eb2c4642632716e7d73c33e465505dae0864c959cfe7428ee8260f"
+    },
+    {
+      "path": "world-construction-data.js",
+      "bytes": 9037,
+      "sha256": "b3c99e474d4dca6cebe29886c54422941af704dac0e05e2b4b7d4aded4c42c1b"
+    },
+    {
+      "path": "world-construction.js",
+      "bytes": 5271,
+      "sha256": "17e6ea3dd1653011b20c75ca258280e192b2e5933f5f6057ce95655d90754553"
+    }
+  ]
+}

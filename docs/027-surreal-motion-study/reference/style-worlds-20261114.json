@@ -1,0 +1,283 @@
+{
+  "date": "2026-11-14",
+  "tool": "built-in image_gen",
+  "scope": "按上轮描述的四种风格，16个不同地点逐项出静态图。旧图仅作风格参考；无视频、人物动作、情节或产品制作。",
+  "entries": [
+    {
+      "id": "fog-water-street",
+      "title": "雾中水街",
+      "note": "水道替代街面，廊柱与两侧旧屋形成纵深。",
+      "group": "oriental",
+      "groupTitle": "东方水境",
+      "reference": "[local path omitted]",
+      "image": "assets/style-worlds/fog-water-street-v1.png",
+      "prompt": "Use case: stylized-concept. Asset: one original static environment artwork for a visual style gallery. Output one wide 16:9 image, no collage, no inset, no text, no logos. Input reference image role: STYLE REFERENCE ONLY for palette, materials, atmosphere and world language; create the NEW location and NEW composition described below, do not reproduce the reference layout. Style rules: Restrained eastern waterscape, tactile cinematic realism influenced by ink landscape negative space, pale weathered plaster, dark ceramic tile, worn stone, pearl mist, muted jade grey and ivory, tiny subdued amber accents. Soft diffuse light except where specified. Believable ancient Chinese architectural construction. Quiet and spacious, no decorative fantasy clutter. New scene: An entire old stone street is submerged in still shallow water. Eye-level perspective from an open arcade at a bend: close timber pillars along the left, irregular whitewashed houses and covered galleries recede on both banks toward a small bridge lost in mist. Recognizable paving and stone thresholds beneath clear water in the foreground. The waterway is the main winding negative space, houses form intimate vertical walls; NOT a lone pavilion on an open lake. Constraints: no people, no animals, no action sequence or staged narrative, no captions, no readable writing. A finished cinematic environment image with strong large shapes and believable lighting, not a storyboard, UI, diagram or product mockup.",
+      "sourcePath": "[local path omitted]",
+      "size": [
+        1672,
+        941
+      ],
+      "thumbnail": "assets/style-worlds/fog-water-street-v1.webp",
+      "sha256": "91eb82d252b22dab902bce05734a2e4f3340f2f894ee62153d4d8ac03abaf395"
+    },
+    {
+      "id": "flooded-library",
+      "title": "半淹藏书楼",
+      "note": "书架、栈廊与室内水面，形成上下两层秩序。",
+      "group": "oriental",
+      "groupTitle": "东方水境",
+      "reference": "[local path omitted]",
+      "image": "assets/style-worlds/flooded-library-v1.png",
+      "prompt": "Use case: stylized-concept. Asset: one original static environment artwork for a visual style gallery. Output one wide 16:9 image, no collage, no inset, no text, no logos. Input reference image role: STYLE REFERENCE ONLY for palette, materials, atmosphere and world language; create the NEW location and NEW composition described below, do not reproduce the reference layout. Style rules: Restrained eastern waterscape, tactile cinematic realism influenced by ink landscape negative space, pale weathered plaster, dark ceramic tile, worn stone, pearl mist, muted jade grey and ivory, tiny subdued amber accents. Soft diffuse light except where specified. Believable ancient Chinese architectural construction. Quiet and spacious, no decorative fantasy clutter. New scene: INTERIOR of a vast ancient timber library partly flooded with perfectly still clear water up to the lower stone landing. Low viewpoint from a dry upper step, rows of towering dark wooden bookcases on raised platforms recede into dimness; elevated walkways keep books above water. Large latticed side windows cast diffuse light across readable water reflections. A single round opening at the far end reveals white mist. Paper volumes have no readable titles. The interior shelves and reflected timber structure dominate, no open lakeside pavilion. Constraints: no people, no animals, no action sequence or staged narrative, no captions, no readable writing. A finished cinematic environment image with strong large shapes and believable lighting, not a storyboard, UI, diagram or product mockup.",
+      "sourcePath": "[local path omitted]",
+      "size": [
+        1672,
+        941
+      ],
+      "thumbnail": "assets/style-worlds/flooded-library-v1.webp",
+      "sha256": "4aa3780c0e899ffcd5044a79a23db952b0889dbd38853a4457919a61b5afa627"
+    },
+    {
+      "id": "mountain-water-temple",
+      "title": "山间水寺",
+      "note": "寺院夹在崖壁与山池之间，以高差组织画面。",
+      "group": "oriental",
+      "groupTitle": "东方水境",
+      "reference": "[local path omitted]",
+      "image": "assets/style-worlds/mountain-water-temple-v1.png",
+      "prompt": "Use case: stylized-concept. Asset: one original static environment artwork for a visual style gallery. Output one wide 16:9 image, no collage, no inset, no text, no logos. Input reference image role: STYLE REFERENCE ONLY for palette, materials, atmosphere and world language; create the NEW location and NEW composition described below, do not reproduce the reference layout. Style rules: Restrained eastern waterscape, tactile cinematic realism influenced by ink landscape negative space, pale weathered plaster, dark ceramic tile, worn stone, pearl mist, muted jade grey and ivory, tiny subdued amber accents. Soft diffuse light except where specified. Believable ancient Chinese architectural construction. Quiet and spacious, no decorative fantasy clutter. New scene: A remote ancient water temple integrated into a steep limestone mountain basin. Elevated wide viewpoint across an emerald natural pool: modest dark-roof temple halls sit on terraced stone platforms pressed against a vertical rock wall, a narrow waterfall drops beside them into the basin. A winding covered stair follows the cliff from the bottom corner toward the temple. Layered mist obscures far summits. Strong V-shaped terrain rather than flat lake, architecture small within deep mountain space. Constraints: no people, no animals, no action sequence or staged narrative, no captions, no readable writing. A finished cinematic environment image with strong large shapes and believable lighting, not a storyboard, UI, diagram or product mockup.",
+      "sourcePath": "[local path omitted]",
+      "size": [
+        1672,
+        941
+      ],
+      "thumbnail": "assets/style-worlds/mountain-water-temple-v1.webp",
+      "sha256": "e8c45250e46c830c12dbaedc7430e647cc7136a68aa48725d6823f582c8ff636"
+    },
+    {
+      "id": "moon-water-courtyard",
+      "title": "月下庭院",
+      "note": "围墙收拢空间，月光、树影与少量灯火落在水面。",
+      "group": "oriental",
+      "groupTitle": "东方水境",
+      "reference": "[local path omitted]",
+      "image": "assets/style-worlds/moon-water-courtyard-v1.png",
+      "prompt": "Use case: stylized-concept. Asset: one original static environment artwork for a visual style gallery. Output one wide 16:9 image, no collage, no inset, no text, no logos. Input reference image role: STYLE REFERENCE ONLY for palette, materials, atmosphere and world language; create the NEW location and NEW composition described below, do not reproduce the reference layout. Style rules: Restrained eastern waterscape, tactile cinematic realism influenced by ink landscape negative space, pale weathered plaster, dark ceramic tile, worn stone, pearl mist, muted jade grey and ivory, tiny subdued amber accents. Soft diffuse light except where specified. Believable ancient Chinese architectural construction. Quiet and spacious, no decorative fantasy clutter. New scene: An enclosed square ancient courtyard at NIGHT, seen diagonally from a dark timber doorway. A thin calm layer of water covers stone paving, one ancient tree grows from a raised stone island near one corner, moon reflected in the open center. White walls and dark eaves frame a limited deep blue night sky. Several shaded warm lanterns under an arcade, modest warm reflections and cool moonlight, convincing low-light exposure, generous unoccupied water surface. The enclosure and single tree dominate; no expansive mountain lake. Constraints: no people, no animals, no action sequence or staged narrative, no captions, no readable writing. A finished cinematic environment image with strong large shapes and believable lighting, not a storyboard, UI, diagram or product mockup.",
+      "sourcePath": "[local path omitted]",
+      "size": [
+        1672,
+        941
+      ],
+      "thumbnail": "assets/style-worlds/moon-water-courtyard-v1.webp",
+      "sha256": "b6e3ccf4cbaae20d390fbf5cb2a33932b27f48cf927cbbac924d1fd869db0f2e"
+    },
+    {
+      "id": "salt-lake-tower",
+      "title": "盐湖孤塔",
+      "note": "细长塔体与完整倒影，建立垂直尺度和空旷感。",
+      "group": "desert",
+      "groupTitle": "荒漠巨构",
+      "reference": "[local path omitted]",
+      "image": "assets/style-worlds/salt-lake-tower-v1.png",
+      "prompt": "Use case: stylized-concept. Asset: one original static environment artwork for a visual style gallery. Output one wide 16:9 image, no collage, no inset, no text, no logos. Input reference image role: STYLE REFERENCE ONLY for palette, materials, atmosphere and world language; create the NEW location and NEW composition described below, do not reproduce the reference layout. Style rules: Monumental architectural minimalism in pale limestone desert, gigantic but coherent structures, rough chalk stone and oxidized bronze details, desaturated copper sand, crisp low side light and long cool shadows. Vast negative space, tactile weathering, no crowded decorative city detail. New scene: A single extremely tall slender slit tower of pale monolithic stone stands alone on a broad shallow mirror salt lake. Very distant low camera, tower near left third with full reflection below, a narrow dark causeway leads from the bottom right to its base. White salt crust textures at foreground edge, almost empty pale sky. A thin bronze vertical recess catches the sun. Strong vertical solitude, NO large arch, NO canyon foreground. Constraints: no people, no animals, no action sequence or staged narrative, no captions, no readable writing. A finished cinematic environment image with strong large shapes and believable lighting, not a storyboard, UI, diagram or product mockup.",
+      "sourcePath": "[local path omitted]",
+      "size": [
+        1672,
+        941
+      ],
+      "thumbnail": "assets/style-worlds/salt-lake-tower-v1.webp",
+      "sha256": "c8ea4c6e59aea2aae2e8fd3c3e4739a5f0437c8caaa56e1140d04204f36c73ba"
+    },
+    {
+      "id": "buried-ring-city",
+      "title": "埋入沙中的环城",
+      "note": "风沙切开同心环形结构，以埋藏与显露形成层次。",
+      "group": "desert",
+      "groupTitle": "荒漠巨构",
+      "reference": "[local path omitted]",
+      "image": "assets/style-worlds/buried-ring-city-v1.png",
+      "prompt": "Use case: stylized-concept. Asset: one original static environment artwork for a visual style gallery. Output one wide 16:9 image, no collage, no inset, no text, no logos. Input reference image role: STYLE REFERENCE ONLY for palette, materials, atmosphere and world language; create the NEW location and NEW composition described below, do not reproduce the reference layout. Style rules: Monumental architectural minimalism in pale limestone desert, gigantic but coherent structures, rough chalk stone and oxidized bronze details, desaturated copper sand, crisp low side light and long cool shadows. Vast negative space, tactile weathering, no crowded decorative city detail. New scene: Elevated oblique wide view of an enormous circular excavated city half buried in dunes. One semicircle of pale concentric stepped stone districts is exposed below the sand, the opposite half disappears under a continuous dune slope. Sparse deep rectangular doorways and a single central circular void convey habitation scale without people. No skyscrapers, no giant arch. Sweeping diagonal sand edge interrupts clean concentric geometry, hard sun reveals excavated depth. Constraints: no people, no animals, no action sequence or staged narrative, no captions, no readable writing. A finished cinematic environment image with strong large shapes and believable lighting, not a storyboard, UI, diagram or product mockup.",
+      "sourcePath": "[local path omitted]",
+      "size": [
+        1672,
+        941
+      ],
+      "thumbnail": "assets/style-worlds/buried-ring-city-v1.webp",
+      "sha256": "6d644e30a3beeb7a93d36efaa02bd97a64e7305e4a42f650ca1e39bd321c23e0"
+    },
+    {
+      "id": "canyon-stair",
+      "title": "峡谷阶梯",
+      "note": "连续台阶逐层缩小，表现下沉的深度。",
+      "group": "desert",
+      "groupTitle": "荒漠巨构",
+      "reference": "[local path omitted]",
+      "image": "assets/style-worlds/canyon-stair-v1.png",
+      "prompt": "Use case: stylized-concept. Asset: one original static environment artwork for a visual style gallery. Output one wide 16:9 image, no collage, no inset, no text, no logos. Input reference image role: STYLE REFERENCE ONLY for palette, materials, atmosphere and world language; create the NEW location and NEW composition described below, do not reproduce the reference layout. Style rules: Monumental architectural minimalism in pale limestone desert, gigantic but coherent structures, rough chalk stone and oxidized bronze details, desaturated copper sand, crisp low side light and long cool shadows. Vast negative space, tactile weathering, no crowded decorative city detail. New scene: From an upper ledge looking steeply down into a gigantic narrow limestone canyon, an impossibly grand but physically coherent broad stone staircase is carved continuously into one canyon side. Several huge landings switch direction and diminish toward a distant narrow shaft of sunlight. Opposite cliff is bare and nearly vertical, deep cool shadow at the bottom, sun slices selected edges. Sand has accumulated on landings. Strong descending diagonal rhythm and depth, no arch or ring city. Constraints: no people, no animals, no action sequence or staged narrative, no captions, no readable writing. A finished cinematic environment image with strong large shapes and believable lighting, not a storyboard, UI, diagram or product mockup.",
+      "sourcePath": "[local path omitted]",
+      "size": [
+        1672,
+        941
+      ],
+      "thumbnail": "assets/style-worlds/canyon-stair-v1.webp",
+      "sha256": "f99f2313a3cfdb8814904cf75f347bc9d42ff3ffdf9f288da99eed77b322e30f"
+    },
+    {
+      "id": "cliff-gate",
+      "title": "岩壁巨门",
+      "note": "整面岩壁上的深凹门洞，用厚度与阴影表达体量。",
+      "group": "desert",
+      "groupTitle": "荒漠巨构",
+      "reference": "[local path omitted]",
+      "image": "assets/style-worlds/cliff-gate-v1.png",
+      "prompt": "Use case: stylized-concept. Asset: one original static environment artwork for a visual style gallery. Output one wide 16:9 image, no collage, no inset, no text, no logos. Input reference image role: STYLE REFERENCE ONLY for palette, materials, atmosphere and world language; create the NEW location and NEW composition described below, do not reproduce the reference layout. Style rules: Monumental architectural minimalism in pale limestone desert, gigantic but coherent structures, rough chalk stone and oxidized bronze details, desaturated copper sand, crisp low side light and long cool shadows. Vast negative space, tactile weathering, no crowded decorative city detail. New scene: Low ground viewpoint toward a single colossal rectangular portal cut into an otherwise unbroken vertical pale sandstone cliff. Very thick lintel and deep dark recessed opening, narrow oxidized bronze lining. Dry flat desert floor in the foreground, a thin horizontal approach slab disappears into the entrance. Low side sunlight makes doorway depth and cliff strata legible. Portal extends beyond ordinary architectural scale, clean severe composition, NOT a freestanding curved arch. Constraints: no people, no animals, no action sequence or staged narrative, no captions, no readable writing. A finished cinematic environment image with strong large shapes and believable lighting, not a storyboard, UI, diagram or product mockup.",
+      "sourcePath": "[local path omitted]",
+      "size": [
+        1672,
+        941
+      ],
+      "thumbnail": "assets/style-worlds/cliff-gate-v1.webp",
+      "sha256": "ff2c9b4b2b43a5ed50bd128131cf659f5df9b7457503322d810cce755b39dd4e"
+    },
+    {
+      "id": "harbor-waiting-hall",
+      "title": "港口候车厅",
+      "note": "候车座椅与弧形玻璃围合室内，港口位于窗外。",
+      "group": "retro",
+      "groupTitle": "复古未来雨城",
+      "reference": "[local path omitted]",
+      "image": "assets/style-worlds/harbor-waiting-hall-v1.png",
+      "prompt": "Use case: stylized-concept. Asset: one original static environment artwork for a visual style gallery. Output one wide 16:9 image, no collage, no inset, no text, no logos. Input reference image role: STYLE REFERENCE ONLY for palette, materials, atmosphere and world language; create the NEW location and NEW composition described below, do not reproduce the reference layout. Style rules: Analog retrofuturist science-fiction set photography, tactile practical miniature aesthetic, weathered concrete, peeling mint enamel, copper pipes, rounded glass structures, rainy petrol-blue atmosphere and warm tungsten interior light. Dense but clearly legible layers, subdued colors, avoid neon cyberpunk overload. All illuminated panels are abstract color, never readable signage. New scene: INTERIOR of a large empty retrofuturist ferry waiting hall beside a rainy industrial harbor. Low rows of worn curved enamel seats create a diagonal in the foreground, a high arched ribbed glass wall fills the right side and reveals blurred cranes and water outside. Rounded departure platforms and copper ducts hang at the back, warm ceiling lamps reflected in wet entry floor, fogged glass. Human-scale room with strong inside/outside depth, no generic open canal street, no readable signs or clocks. Constraints: no people, no animals, no action sequence or staged narrative, no captions, no readable writing. A finished cinematic environment image with strong large shapes and believable lighting, not a storyboard, UI, diagram or product mockup.",
+      "sourcePath": "[local path omitted]",
+      "size": [
+        1672,
+        941
+      ],
+      "thumbnail": "assets/style-worlds/harbor-waiting-hall-v1.webp",
+      "sha256": "0b0190bf5f89bafdf02d572771035ab6be5b6e308f0036b8393a0664f3050d32"
+    },
+    {
+      "id": "residential-atrium",
+      "title": "住宅天井",
+      "note": "向上仰看的楼层、连桥与窄天光，呈现垂直生活空间。",
+      "group": "retro",
+      "groupTitle": "复古未来雨城",
+      "reference": "[local path omitted]",
+      "image": "assets/style-worlds/residential-atrium-v1.png",
+      "prompt": "Use case: stylized-concept. Asset: one original static environment artwork for a visual style gallery. Output one wide 16:9 image, no collage, no inset, no text, no logos. Input reference image role: STYLE REFERENCE ONLY for palette, materials, atmosphere and world language; create the NEW location and NEW composition described below, do not reproduce the reference layout. Style rules: Analog retrofuturist science-fiction set photography, tactile practical miniature aesthetic, weathered concrete, peeling mint enamel, copper pipes, rounded glass structures, rainy petrol-blue atmosphere and warm tungsten interior light. Dense but clearly legible layers, subdued colors, avoid neon cyberpunk overload. All illuminated panels are abstract color, never readable signage. New scene: Look upward from the lower balcony of an extremely deep retrofuturist apartment courtyard. Uneven stacked rounded balconies, enclosed mint enamel service pods, exposed copper rain pipes and small warm windows surround a narrow vertical slot of gray sky. Several transparent bridges connect upper floors, vines and worn domestic surfaces lend lived-in texture but no people or laundry figures. Cool damp lower levels and warm upper interiors, vertical compression and layered private rooms dominate. Constraints: no people, no animals, no action sequence or staged narrative, no captions, no readable writing. A finished cinematic environment image with strong large shapes and believable lighting, not a storyboard, UI, diagram or product mockup.",
+      "sourcePath": "[local path omitted]",
+      "size": [
+        1672,
+        941
+      ],
+      "thumbnail": "assets/style-worlds/residential-atrium-v1.webp",
+      "sha256": "d73face6c8e1b9efe750838413251846070b35c1de0ed2de66884c0916201e87"
+    },
+    {
+      "id": "sky-greenhouse",
+      "title": "高空温室",
+      "note": "温室植物与旧工业骨架并置，窗外楼群交代高度。",
+      "group": "retro",
+      "groupTitle": "复古未来雨城",
+      "reference": "[local path omitted]",
+      "image": "assets/style-worlds/sky-greenhouse-v1.png",
+      "prompt": "Use case: stylized-concept. Asset: one original static environment artwork for a visual style gallery. Output one wide 16:9 image, no collage, no inset, no text, no logos. Input reference image role: STYLE REFERENCE ONLY for palette, materials, atmosphere and world language; create the NEW location and NEW composition described below, do not reproduce the reference layout. Style rules: Analog retrofuturist science-fiction set photography, tactile practical miniature aesthetic, weathered concrete, peeling mint enamel, copper pipes, rounded glass structures, rainy petrol-blue atmosphere and warm tungsten interior light. Dense but clearly legible layers, subdued colors, avoid neon cyberpunk overload. All illuminated panels are abstract color, never readable signage. New scene: INTERIOR of a vast elevated greenhouse built into the top of an old retrofuturist harbor building. Curving oxidized copper ribs and gently fogged glass dome, lush cultivated plant beds on raised platforms, a narrow central metal maintenance aisle. Through the glass floor-edge and side windows, distant rainy city rooftops drop far below into blue gray fog. Warm grow lamps and pale exterior light, greenery embedded in worn machinery. Show convincing high elevation and protected lush interior, no text. Constraints: no people, no animals, no action sequence or staged narrative, no captions, no readable writing. A finished cinematic environment image with strong large shapes and believable lighting, not a storyboard, UI, diagram or product mockup.",
+      "sourcePath": "[local path omitted]",
+      "size": [
+        1672,
+        941
+      ],
+      "thumbnail": "assets/style-worlds/sky-greenhouse-v1.webp",
+      "sha256": "204939dece6cba732928518d4d6dbd174ac287862ec89835beacff2938bc4192"
+    },
+    {
+      "id": "underground-canal",
+      "title": "地下水道",
+      "note": "重复拱肋、管线和中央水道，形成向内延伸的地下空间。",
+      "group": "retro",
+      "groupTitle": "复古未来雨城",
+      "reference": "[local path omitted]",
+      "image": "assets/style-worlds/underground-canal-v1.png",
+      "prompt": "Use case: stylized-concept. Asset: one original static environment artwork for a visual style gallery. Output one wide 16:9 image, no collage, no inset, no text, no logos. Input reference image role: STYLE REFERENCE ONLY for palette, materials, atmosphere and world language; create the NEW location and NEW composition described below, do not reproduce the reference layout. Style rules: Analog retrofuturist science-fiction set photography, tactile practical miniature aesthetic, weathered concrete, peeling mint enamel, copper pipes, rounded glass structures, rainy petrol-blue atmosphere and warm tungsten interior light. Dense but clearly legible layers, subdued colors, avoid neon cyberpunk overload. All illuminated panels are abstract color, never readable signage. New scene: Inside a huge retrofuturist subterranean canal service tunnel. Low viewpoint from a narrow raised metal walkway, dark water occupies the center, massive oval concrete ribs repeat into depth, thick copper pipes bend along one wall, rusted maintenance doors and occasional warm caged lamps. A circular daylight opening very far above a side shaft reveals faint rain and makes the underground depth clear. Humid haze, green-gray enamel fittings, no people, no boats, no horror creatures. Constraints: no people, no animals, no action sequence or staged narrative, no captions, no readable writing. A finished cinematic environment image with strong large shapes and believable lighting, not a storyboard, UI, diagram or product mockup.",
+      "sourcePath": "[local path omitted]",
+      "size": [
+        1672,
+        941
+      ],
+      "thumbnail": "assets/style-worlds/underground-canal-v1.webp",
+      "sha256": "b4c7c0a2c31c0f04a30959310487d86581b5b36cc896eb0c92fa0c1be4ed5592"
+    },
+    {
+      "id": "canopy-lake",
+      "title": "树冠湖泊",
+      "note": "树冠间展开开阔湖面，树隙显露下方森林。",
+      "group": "nature",
+      "groupTitle": "自然奇境",
+      "reference": "[local path omitted]",
+      "image": "assets/style-worlds/canopy-lake-v1.png",
+      "prompt": "Use case: stylized-concept. Asset: one original static environment artwork for a visual style gallery. Output one wide 16:9 image, no collage, no inset, no text, no logos. Input reference image role: STYLE REFERENCE ONLY for palette, materials, atmosphere and world language; create the NEW location and NEW composition described below, do not reproduce the reference layout. Style rules: Tactile cinematic natural surrealism with coherent mossy ecology, ancient roots, wet stone, ferns and clear water. Organic irregular framing, layered atmospheric depth, deep moss greens against pale celadon mist, soft filtered sunlight, restrained wonder, no magic particles or buildings. New scene: A very high elevated lake cradled between the interwoven crowns of enormous ancient trees. Wide view from a nearby thick branch: mirror water spreads across a broad natural bark-and-rock basin, reflected leaf canopy opens toward a large bright patch of sky, distant forest lies visibly far below through gaps at the basin's outer rim. Light mist between tree columns, ferns along the shore. The open LAKE at canopy height dominates, not a tiny pool under a root arch. Constraints: no people, no animals, no action sequence or staged narrative, no captions, no readable writing. A finished cinematic environment image with strong large shapes and believable lighting, not a storyboard, UI, diagram or product mockup.",
+      "sourcePath": "[local path omitted]",
+      "size": [
+        1672,
+        941
+      ],
+      "thumbnail": "assets/style-worlds/canopy-lake-v1.webp",
+      "sha256": "92a5a2a538dfa5345da35e52ebb53fec4bd2893bdf29170655b04d0613fccfb3"
+    },
+    {
+      "id": "root-canyon",
+      "title": "根系峡谷",
+      "note": "根系成为峡谷两侧的“壁”，细水道穿过底部。",
+      "group": "nature",
+      "groupTitle": "自然奇境",
+      "reference": "[local path omitted]",
+      "image": "assets/style-worlds/root-canyon-v1.png",
+      "prompt": "Use case: stylized-concept. Asset: one original static environment artwork for a visual style gallery. Output one wide 16:9 image, no collage, no inset, no text, no logos. Input reference image role: STYLE REFERENCE ONLY for palette, materials, atmosphere and world language; create the NEW location and NEW composition described below, do not reproduce the reference layout. Style rules: Tactile cinematic natural surrealism with coherent mossy ecology, ancient roots, wet stone, ferns and clear water. Organic irregular framing, layered atmospheric depth, deep moss greens against pale celadon mist, soft filtered sunlight, restrained wonder, no magic particles or buildings. New scene: A deep natural canyon whose two steep walls are dense exposed interwoven ancient tree ROOTS and dark earth, trees still living above the rim. Ground-level wide view follows a tiny clear stream winding down the center. Several huge natural root bridges cross overhead at different depths, moss and fine hanging rootlets soften their surfaces, a narrow ribbon of pale daylight at the top. Tall enclosing root walls and twisting depth are central, no architecture and no floating island. Constraints: no people, no animals, no action sequence or staged narrative, no captions, no readable writing. A finished cinematic environment image with strong large shapes and believable lighting, not a storyboard, UI, diagram or product mockup.",
+      "sourcePath": "[local path omitted]",
+      "size": [
+        1672,
+        941
+      ],
+      "thumbnail": "assets/style-worlds/root-canyon-v1.webp",
+      "sha256": "0e251f5d2b1ee1164dad16717297184f80b17748a02a7e9f127dffe34e4e1c78"
+    },
+    {
+      "id": "cave-wetland",
+      "title": "洞穴湿地",
+      "note": "洞顶缺口、浅水小洲与暗处石柱形成明暗层次。",
+      "group": "nature",
+      "groupTitle": "自然奇境",
+      "reference": "[local path omitted]",
+      "image": "assets/style-worlds/cave-wetland-v1.png",
+      "prompt": "Use case: stylized-concept. Asset: one original static environment artwork for a visual style gallery. Output one wide 16:9 image, no collage, no inset, no text, no logos. Input reference image role: STYLE REFERENCE ONLY for palette, materials, atmosphere and world language; create the NEW location and NEW composition described below, do not reproduce the reference layout. Style rules: Tactile cinematic natural surrealism with coherent mossy ecology, ancient roots, wet stone, ferns and clear water. Organic irregular framing, layered atmospheric depth, deep moss greens against pale celadon mist, soft filtered sunlight, restrained wonder, no magic particles or buildings. New scene: Inside an enormous limestone cavern containing a quiet shallow wetland. Low viewpoint beside transparent still water and pale mineral shelves, clusters of soft green reeds and ferns grow on low irregular islands. A large off-center collapsed ceiling opening sends broad diffuse daylight down through mist, distant cave columns dissolve into soft darkness. Wet rock reflections and submerged stone textures remain readable, natural restrained colors, no bioluminescent neon, no huge tree-root arch. Constraints: no people, no animals, no action sequence or staged narrative, no captions, no readable writing. A finished cinematic environment image with strong large shapes and believable lighting, not a storyboard, UI, diagram or product mockup.",
+      "sourcePath": "[local path omitted]",
+      "size": [
+        1672,
+        941
+      ],
+      "thumbnail": "assets/style-worlds/cave-wetland-v1.webp",
+      "sha256": "6a438fa705453e12ff66505202418b61d9f5b976ea28be34b13bf1bc8c0a1233"
+    },
+    {
+      "id": "giant-fern-forest",
+      "title": "巨蕨森林",
+      "note": "普通蕨叶与巨蕨树冠形成尺度对比，叶层构成天然顶棚。",
+      "group": "nature",
+      "groupTitle": "自然奇境",
+      "reference": "[local path omitted]",
+      "image": "assets/style-worlds/giant-fern-forest-v1.png",
+      "prompt": "Use case: stylized-concept. Asset: one original static environment artwork for a visual style gallery. Output one wide 16:9 image, no collage, no inset, no text, no logos. Input reference image role: STYLE REFERENCE ONLY for palette, materials, atmosphere and world language; create the NEW location and NEW composition described below, do not reproduce the reference layout. Style rules: Tactile cinematic natural surrealism with coherent mossy ecology, ancient roots, wet stone, ferns and clear water. Organic irregular framing, layered atmospheric depth, deep moss greens against pale celadon mist, soft filtered sunlight, restrained wonder, no magic particles or buildings. New scene: An immersive prehistoric-feeling forest of enormous tree ferns, no dinosaurs or animals. Low viewpoint among clearly textured wet foreground stones and ordinary small ferns, colossal fern trunks rise like columns; enormous overlapping fronds form a layered cathedral canopy high overhead. A narrow irregular light gap draws the gaze into dense distant foliage. Deep green humid shadows, fine pale mist, translucent golden-green fern tips catching filtered light. The extreme small-fern versus giant-fern scale contrast must be visible. No buildings, no huge mushrooms, no lake centerpiece. Constraints: no people, no animals, no action sequence or staged narrative, no captions, no readable writing. A finished cinematic environment image with strong large shapes and believable lighting, not a storyboard, UI, diagram or product mockup.",
+      "sourcePath": "[local path omitted]",
+      "size": [
+        1672,
+        941
+      ],
+      "thumbnail": "assets/style-worlds/giant-fern-forest-v1.webp",
+      "sha256": "827b069dbcfa61db4d856c45ebe97e55367b87b12089302e8234ef8c851ce6ac"
+    }
+  ],
+  "review": {
+    "completedImages": 16,
+    "observation": "已逐张目视检查。四组材质光色延续，地点布局可区分；环城更接近下沉环形遗址，居住细节稀疏。无连续时空或运动主张。"
+  }
+}

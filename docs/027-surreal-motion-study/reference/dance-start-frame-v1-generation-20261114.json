@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-14",
+  "tool": "内置 image_gen",
+  "type": "video_start_frame_candidate",
+  "status": "候选待用户评阅，尚未提交视频模型",
+  "inputs": [
+    {
+      "path": "assets/dance-walk/character-reference-user.png",
+      "role": "身份、服装、贴胸姿态参考"
+    },
+    {
+      "path": "assets/reflection-short/plate-v1.png",
+      "role": "建筑与暮色氛围参考，不沿用窄路边缘几何"
+    }
+  ],
+  "passes": [
+    {
+      "prompt": "Use case: compositing / identity-preserve. Create ONE original photorealistic cinematic IMAGE-TO-VIDEO START FRAME, VERTICAL 9:16 composition.\nINPUT 1 is CHARACTER IDENTITY, COSTUME and HAND-AT-CHEST POSTURE reference: same adult woman, loose dark bun, rust-brown knee-length wool coat, charcoal trousers, black flat ankle boots.\nINPUT 2 is ARCHITECTURAL AND DUSK LIGHTING REFERENCE ONLY: whitewashed Jiangnan canal town, dark tiled roofs, amber window lamps, blue evening sky. Completely REBUILD walkway geometry and camera for the shot below. Do not inherit the narrow edge-hugging bank in input 2.\nComposition: camera in FRONT of her walking direction and offset about 30 degrees, natural full-body three-quarter view with an undistorted medium-focal-length look. She is about 68–72 percent of picture height, head, both hands, entire coat hem, BOTH COMPLETE BOOTS and abundant paving beneath them visible. Leave generous headroom, shoe room, and clear walking space ahead. She is NOT at the edge of the picture.\nSetting: a conspicuously BROAD, LEVEL, DRY STONE- PAVED PEDESTRIAN PROMENADE approximately 3.5–4 metres wide, between houses on the LEFT and a canal on the RIGHT. All visible paving belongs to ONE continuous horizontal walkable surface. Put her in the CENTRE of that promenade. Between her canal-side boot and the canal edge show a broad unoccupied band of several whole paving slabs, visually about 1.2 metres or more. Make this empty paved band extremely obvious. Canal should occupy only the rightmost strip/middle-distance, not the foreground below her feet. No raised curb under her, no narrow ledge, no staircase. Brick/stone paving lines establish a coherent ground plane.\nPose: the very start of a relaxed forward dance-walk. Her anatomical LEFT foot is a short step forward, ENTIRE sole visibly settled flat on the paving and supporting her weight; knee soft, pelvis balanced above this support foot. The right leg is naturally behind, rear boot toe/ball touching paving and heel gently raised for toe-off. The front boot has clear paving visible around all sides and is nowhere near a ledge. A subtle grounded contact shadow connects the support sole to the road. No boots clipped or concealed by coat.\nPerformance: one hand loosely near the upper chest/lapel, the other hand relaxed at her side with a soft wrist. Slight backward ease through shoulders only, hips balanced rather than falling backward. A quiet pleased half-smile, eyes naturally OPEN looking forward slightly aside, relaxed breathing; she is enjoying a private rhythm. Reserve the brief closed-eye expression for subsequent video movement, not this start frame. Not startled, tense, posing for a fashion ad, or aggressively comic.\nSoft warm lamplight on coat/cheek against cool blue dusk, believable cloth texture and skin, gentle atmospheric depth. Consistent scale, no magical elements, no duplicate person, no visible text or labels, no collage/sprite sheet. A SINGLE coherent vertical cinematic shot ready for continuous forward choreography.\nAVOID the previous half-foot-on-curb problem: no support foot suspended over water, no half sole on an edge, no person on the canal lip, no road abruptly ending beneath her, no impossible weight, crossed/tangled legs or floating feet. Keep broad dry road clearly visible between her boots and the water.",
+      "source": "[local path omitted]",
+      "target": "assets/dance-video/dance-start-frame-layout-draft.png",
+      "review": "宽路和脚下关系已可见；人物约占画面高度55%，再做一次取景收紧。",
+      "width": 941,
+      "height": 1672,
+      "mode": "RGB",
+      "sha256": "de29441fa67e0fd5d33acda3f2a03752413e630d11968dd02fea85135227291e"
+    },
+    {
+      "prompt": "Use case: precise-object-edit. The supplied image is the complete EDIT TARGET, a newly approved-direction start-frame draft. Make ONE targeted FRAMING refinement only: bring the framing about 1.23–1.27 times closer, while retaining a VERTICAL 9:16 output. The woman should now occupy about 68–72% of image height instead of about 55%. Preserve her exact identity, facial expression, open eyes, hair, chest hand, loose free hand, coat, same anatomically plausible LEFT planted front foot and rear right toe-off. Do not redesign or change her body pose or feet. Preserve the coherent broad dry horizontal stone promenade and the broad visible band of paving between both boots and canal edge. Keep WHOLE head, both hands, entire coat, both complete boots and visible paving below them. Remove excess sky at top and some excess foreground only, without moving her toward the canal edge. Keep generous shoe clearance and all four sides of the planted boot visibly surrounded by paving. Same warm lamps and cool dusk, natural photographic detail. No labels, no extra people, no image zoom graphics, no borders. Output ONE refined cinematic full-body start frame, no video.",
+      "input": "[local path omitted]",
+      "source": "[local path omitted]",
+      "target": "assets/dance-video/dance-start-frame-v1.png",
+      "review": "取景收紧，完整头、手、大衣和双靴仍可见，承重前脚与路面相接；水边与脚之间保持宽铺装带。",
+      "width": 941,
+      "height": 1672,
+      "mode": "RGB",
+      "sha256": "0debba8bdf535b2650897da7f4ed490072d083d6f952b5f578399810543ece29"
+    }
+  ],
+  "limits": [
+    "静态首帧不能证明连续步态、动态重心或音乐同步。",
+    "路面宽度和离岸距离为构图意向，不能以单张生成图作精确米数测量。",
+    "本轮没有生成视频；闭眼表演留给后续连续动作。"
+  ]
+}

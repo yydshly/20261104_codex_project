@@ -1,0 +1,104 @@
+{
+  "id": "vortex-road",
+  "title": "vortex road",
+  "post_url": "https://x.com/hi_personality/status/2118132771290030513",
+  "category": "漩涡天空与城市旋转空间",
+  "video_playlist": "https://video.twimg.com/amplify_video/2118132634052415488/pl/avc1/1920x1080/jB9SCw0BCfJbjipq.m3u8",
+  "audio_playlist": "https://video.twimg.com/amplify_video/2118132634052415488/pl/mp4a/128000/8GYADBRTQSsCfJb3.m3u8",
+  "master_playlist": "https://video.twimg.com/amplify_video/2118132634052415488/pl/rlLxFvNsaNxbH9DR.m3u8?tag=29",
+  "poster_url": "https://pbs.twimg.com/amplify_video_thumb/2118132634052415488/img/esKSx-eOIoqBIUyZ?format=webp&name=large",
+  "verification": "原帖已打开；视频及播放列表由页面实际加载资源确认",
+  "material_type": "original_video_downloaded_from_observed_public_hls",
+  "duration_seconds": 7.15,
+  "width": 1920,
+  "height": 1080,
+  "color_transfer": "arib-std-b67",
+  "color_primaries": "bt2020",
+  "frame_rate": "60/1",
+  "frames": [
+    {
+      "time_seconds": 0.1,
+      "path": "assets/vortex-road/frame-00.10.jpg"
+    },
+    {
+      "time_seconds": 1,
+      "path": "assets/vortex-road/frame-01.00.jpg"
+    },
+    {
+      "time_seconds": 2,
+      "path": "assets/vortex-road/frame-02.00.jpg"
+    },
+    {
+      "time_seconds": 3,
+      "path": "assets/vortex-road/frame-03.00.jpg"
+    },
+    {
+      "time_seconds": 4,
+      "path": "assets/vortex-road/frame-04.00.jpg"
+    },
+    {
+      "time_seconds": 5,
+      "path": "assets/vortex-road/frame-05.00.jpg"
+    },
+    {
+      "time_seconds": 6,
+      "path": "assets/vortex-road/frame-06.00.jpg"
+    },
+    {
+      "time_seconds": 7.05,
+      "path": "assets/vortex-road/frame-07.05.jpg"
+    }
+  ],
+  "local_video": "assets/vortex-road/reference.mp4",
+  "track_sources": {
+    "video": {
+      "playlist_url": "https://video.twimg.com/amplify_video/2118132634052415488/pl/avc1/1920x1080/jB9SCw0BCfJbjipq.m3u8",
+      "segments": [
+        {
+          "order": 0,
+          "url": "https://video.twimg.com/amplify_video/2118132634052415488/vid/avc1/0/0/1920x1080/InLW7i1ihcyn2BvB.mp4",
+          "bytes": 844,
+          "sha256": "959663e68182e54a362a483f564affe75cbc72478df36e798f69df2b7e1e33d3"
+        },
+        {
+          "order": 1,
+          "url": "https://video.twimg.com/amplify_video/2118132634052415488/vid/avc1/0/3000/1920x1080/GEYU9JyrXxoo_voS.m4s",
+          "bytes": 4151149,
+          "sha256": "58902918baa786ec1d40be23b748d71206830278d8933beb76fd2edd2daab0cc"
+        },
+        {
+          "order": 2,
+          "url": "https://video.twimg.com/amplify_video/2118132634052415488/vid/avc1/3000/7167/1920x1080/zwECT9wlkhXM8qrW.m4s",
+          "bytes": 5469192,
+          "sha256": "5df147dd523601be4d84adda99e9f83e5ab640a2cadd7c7842a293d4fc2bffbc"
+        }
+      ]
+    },
+    "audio": {
+      "playlist_url": "https://video.twimg.com/amplify_video/2118132634052415488/pl/mp4a/128000/8GYADBRTQSsCfJb3.m3u8",
+      "segments": [
+        {
+          "order": 0,
+          "url": "https://video.twimg.com/amplify_video/2118132634052415488/aud/mp4a/0/0/128000/r4Ca-iuROUue_3Li.mp4",
+          "bytes": 749,
+          "sha256": "0df0074c098940e35c7dc8f5b2607cdff1f4543f97373435905d69ff9d250c68"
+        },
+        {
+          "order": 1,
+          "url": "https://video.twimg.com/amplify_video/2118132634052415488/aud/mp4a/0/3000/128000/G89fwRemu7rEHmEz.m4s",
+          "bytes": 50055,
+          "sha256": "98a4cab5b3b042848125caf85a15de6e5c0500e087cb0dd8937b219b4899c047"
+        },
+        {
+          "order": 2,
+          "url": "https://video.twimg.com/amplify_video/2118132634052415488/aud/mp4a/3000/7160/128000/TTyEAZeLuGMFr3Ax.m4s",
+          "bytes": 67222,
+          "sha256": "f74ed5d4c588782c8f49f3901730d30892a2e50b120aa68c952cde3bd7495008"
+        }
+      ]
+    }
+  },
+  "video_sha256": "4a78213e06d579ab5018494aaff971a63307d1d331bb469dce706ac41c5315bb",
+  "audio_reviewed_by_listener": false,
+  "preview_conversion": "HLG to BT.709 via FFmpeg zscale + Hable tone mapping; approximate SDR analysis preview"
+}

@@ -1,0 +1,50 @@
+{
+  "generatedOn": "2026-11-12",
+  "timezone": "Asia/Shanghai",
+  "method": "内置 image_gen；三个独立的新图生成请求，无参考图片输入。",
+  "scope": "只制作静态关键帧；用户看完前不制作运动、视频或产品演示。",
+  "assetIntent": "原创构图探索；视觉原则来自已核对参考，不代表作者工程复刻。",
+  "exactComparison": false,
+  "limits": "共同设计方向：暖色石质巨构、蓝紫云海、奶油色上衣的单个骑行者和橙色自行车。三张独立生成，建筑细节、人物形态与光照仍有差异；这是一组构图探索，不能视为严格单变量实验。",
+  "frames": [
+    {
+      "id": "a",
+      "title": "轴线远景 · 世界先成立",
+      "asset": "assets/original-keyframes/keyframe-a-centered-world.png",
+      "prompt": "Use case: stylized-concept. Asset: original cinematic keyframe A for a three-layout comparison on a research website. Generate ONE complete standalone 16:9 widescreen landscape image, ideally 2048x1152, not a collage. Scene: an original impossible monumental promenade of warm ivory travertine arches suspended above a vast deep-indigo cloud sea at dusk. Ancient-futuristic architecture, clean repeated open arches, no recognizable existing landmarks. Exactly one small cyclist, cream jacket, charcoal trousers, burnt-orange bicycle, seen mostly from behind. A continuous pale-stone safe-width riding path with subtle warm amber inset lights, architectural texture and perspective rigor. Shared visual direction: quiet awe and exploration, cool blue-violet shadows, luminous peach-gold late sunset, warm light grazing the stone, soft atmospheric distance, rich but controlled color, readable shadow detail, painterly cinematic environment concept art with believable surfaces, no flat vector look. COMPOSITION A IS SPECIFIC: extremely wide establishing view, almost symmetrical axial composition. Long straight promenade rises from lower center toward a luminous distant arch at central vanishing point. Huge repeated arches on both sides provide near/mid/far layers; cloud sea visible beyond and below open edges. Cyclist occupies only 4 percent of image height, positioned lower center around x48%, y79%, still clearly identifiable. The architecture and open world dominate. Horizon in upper third, ample depth; clear continuous route forward, no ambiguous broken floor. Strong scale contrast, restrained microdetail, one coherent sun direction. This is a static ORIGINAL image inspired by general composition principles only. Text: none. Avoid sea coast, water, cities copied from references, helicopers, extra people or bicycles, logos, labels, borders, interface, surreal melted wheels, ground curling in motion, HDR labels, illegible overexposed highlights.",
+      "borrowed": "借鉴 grassland special 开场 0.10 秒“小主体＋巨大环境”的尺度关系，以及 vortex road 中路线与视觉终点相互呼应的组织方式。",
+      "technique": "用重复拱券的透视收束、近大远小、人物与建筑的尺度对比建立纵深；用远处雾化和冷暖分区分开空间层次。当前由 image_gen 生成这些视觉关系，未建立三维场景。",
+      "width": 1672,
+      "height": 941,
+      "colorMode": "RGB",
+      "sha256": "4e36404f910cff57312c7a763f0458ded537b51ddb2d607c2f261dc116fa9b18",
+      "sourceOutputFile": "exec-e307ecbc-3840-425f-9aed-b55ba7f13d0a.png"
+    },
+    {
+      "id": "b",
+      "title": "斜向近景 · 跟随主体",
+      "asset": "assets/original-keyframes/keyframe-b-diagonal-follow.png",
+      "prompt": "Use case: stylized-concept. Asset: original cinematic keyframe B for a three-layout comparison. Generate ONE standalone complete 16:9 widescreen landscape image, ideally 2048x1152, not a collage. World and look: an original monumental warm ivory travertine arch promenade floating above an expansive deep-indigo cloud sea at late dusk, ancient-futuristic design, enormous repeated open arches and subtle amber inset path lights. Exactly one cyclist wearing a cream jacket and charcoal trousers, riding a burnt-orange bicycle, normal two wheels and coherent anatomy. Quiet awe and exploration. Rich but controlled blue-violet shadows and peach-gold late sunset, warm grazing light from left on stone, readable shadows and luminous clouds without featureless clipped white areas, painterly high-end cinematic environmental concept art with believable physical textures. COMPOSITION B IS SPECIFIC: low, close three-quarter rear follow view, emphatically ASYMMETRIC DIAGONAL rather than centered axial. The cyclist is prominent in the lower-left third, about 19 percent of image height; three-quarter-back body and bicycle fully visible with room around wheels. Promenade runs diagonally from bottom left toward upper-right distance, past monumental arches concentrated along the right side. A very close cropped stone pier intrudes at far left as foreground depth cue; enormous arch overhead cropped naturally. Right upper third contains the warm distant destination. A long continuous safe-width path with clear open space ahead of the bicycle. Cloud sea and distant arches seen between right-hand openings, pronounced near/mid/far parallax potential, side-oriented viewpoint without centered symmetrical tunnel. Large shapes and attention hierarchy, restrained decorative detail. This is an original static layout alternative, not a video or a reconstruction of a known artwork. Text none. Avoid coast, water, copied city buildings, aircraft, extra characters, duplicate bicycles, logos, watermarks, captions, split-screen, interface frames, danger stunt, airborne bicycle, melted anatomy, excessive bloom, fake HDR labels.",
+      "borrowed": "借鉴 chasing 的近距离主体、可读路面和冷暖层次；也参考 grassland special 后段接近主体的观看关系。此图没有复制原片的临边危险情境。",
+      "technique": "用近景遮挡、较大的完整人车轮廓和斜向引导线增加层次与代入感；侧向暖光强化石面及人物边缘，冷云衬托暖色主体。这些是静态画面的视觉手法。",
+      "width": 1672,
+      "height": 941,
+      "colorMode": "RGB",
+      "sha256": "503c09f640c4ae07c57d8c73d35006c0ff246f3867865f38afaa1912d3dc57c1",
+      "sourceOutputFile": "exec-c0e4afb3-3c54-4e25-b5cb-eeb1a29917ef.png"
+    },
+    {
+      "id": "c",
+      "title": "高位曲线 · 路线展开",
+      "asset": "assets/original-keyframes/keyframe-c-curve-reveal.png",
+      "prompt": "Use case: stylized-concept. Asset: original cinematic keyframe C, the third of a three-layout comparison. ONE complete standalone 16:9 widescreen landscape image, ideally 2048x1152, no panels. Scene vocabulary shared with other variants: monumental warm ivory travertine open arches and a continuous promenade suspended over a deep-indigo cloud sea at dusk. Ancient-futuristic architectural concept, no copied real monuments. Exactly one cyclist in a cream jacket and charcoal trousers on a burnt-orange bicycle, coherent anatomy and two readable wheels. Quiet awe, invitation to explore, cool blue-violet environment with warm amber path lights, peach-gold sunset grazing stone from left, richly colored yet controlled cinematic lighting, readable shadows, textured architectural surfaces, painterly polished environment concept art. COMPOSITION C IS SPECIFIC: HIGH oblique bird's-eye view that clearly reveals the layout, strongly asymmetric S-CURVE. A broad continuous stone promenade starts in lower RIGHT foreground, gently bends left through middle frame, then bends back toward a warm distant gateway at upper RIGHT. The small cyclist rides in the lower-right/mid-right third, around x70%,y69%, roughly 7 percent image height, seen from rear above and aligned to the path, not centered. A huge near arch pier and curved arch intrude from the TOP-LEFT, acting as a partial foreground framing aperture, while the LEFT half opens to a vast violet cloud abyss. Repeated arches follow the curved path at varying depths; abundant negative space of clouds to left, clear near/mid/far stages, destination offset rather than central. The architecture follows the curve plausibly, riding path remains unbroken, readable and comfortably broad. Distinct from a straight centered tunnel or low close-follow shot. Static original artwork, not demonstrated movement or real HDR output. No text, logos, UI, border, collage, sea coast, water, helicopters, extra people, duplicate bikes, ornamental clutter, spiral sky, melted structures, giant close cyclist, clipped blank highlights.",
+      "borrowed": "借鉴 grassland special 已经存在的弧形空间与巨大尺度，提取 vortex road 中清楚路线通向视觉终点的关系；未照搬海岸轮廓或旋转天空。",
+      "technique": "用曲线引导、前景拱券框景、近中远桥段的遮挡与雾化分层表现空间；沿路暖灯帮助辨认路线。曲路是静态造型，图中没有地面卷起或相机运动。",
+      "width": 1672,
+      "height": 941,
+      "colorMode": "RGB",
+      "sha256": "0c6cb29c6404fea4762003822c36c8d63a785054b86bf7f62d34c00966a56062",
+      "sourceOutputFile": "exec-117f70cb-48c1-4a1f-b436-495e3686a3b5.png"
+    }
+  ]
+}

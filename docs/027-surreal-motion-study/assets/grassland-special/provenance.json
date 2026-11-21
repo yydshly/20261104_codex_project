@@ -1,0 +1,104 @@
+{
+  "id": "grassland-special",
+  "title": "grassland special",
+  "post_url": "https://x.com/hi_personality/status/2115567493565825244",
+  "category": "卷曲海岸与巨大尺度",
+  "video_playlist": "https://video.twimg.com/amplify_video/2115567338271682560/pl/avc1/1920x1080/JJgIhN56f2c8-Ww0.m3u8",
+  "audio_playlist": "https://video.twimg.com/amplify_video/2115567338271682560/pl/mp4a/128000/UgCmegGKti81jTFd.m3u8",
+  "master_playlist": "https://video.twimg.com/amplify_video/2115567338271682560/pl/3JdvXRE0wM9DUowA.m3u8?tag=29",
+  "poster_url": "https://pbs.twimg.com/amplify_video_thumb/2115567338271682560/img/C_3e3UarmEalJI5B?format=webp&name=large",
+  "verification": "原帖已打开；视频及播放列表由页面实际加载资源确认",
+  "material_type": "original_video_downloaded_from_observed_public_hls",
+  "duration_seconds": 6.966667,
+  "width": 1920,
+  "height": 1080,
+  "color_transfer": "arib-std-b67",
+  "color_primaries": "bt2020",
+  "frame_rate": "60/1",
+  "frames": [
+    {
+      "time_seconds": 0.1,
+      "path": "assets/grassland-special/frame-00.10.jpg"
+    },
+    {
+      "time_seconds": 1,
+      "path": "assets/grassland-special/frame-01.00.jpg"
+    },
+    {
+      "time_seconds": 2,
+      "path": "assets/grassland-special/frame-02.00.jpg"
+    },
+    {
+      "time_seconds": 3,
+      "path": "assets/grassland-special/frame-03.00.jpg"
+    },
+    {
+      "time_seconds": 4,
+      "path": "assets/grassland-special/frame-04.00.jpg"
+    },
+    {
+      "time_seconds": 5,
+      "path": "assets/grassland-special/frame-05.00.jpg"
+    },
+    {
+      "time_seconds": 6,
+      "path": "assets/grassland-special/frame-06.00.jpg"
+    },
+    {
+      "time_seconds": 6.867,
+      "path": "assets/grassland-special/frame-06.87.jpg"
+    }
+  ],
+  "local_video": "assets/grassland-special/reference.mp4",
+  "track_sources": {
+    "video": {
+      "playlist_url": "https://video.twimg.com/amplify_video/2115567338271682560/pl/avc1/1920x1080/JJgIhN56f2c8-Ww0.m3u8",
+      "segments": [
+        {
+          "order": 0,
+          "url": "https://video.twimg.com/amplify_video/2115567338271682560/vid/avc1/0/0/1920x1080/rRns7MbJ3urcflQr.mp4",
+          "bytes": 844,
+          "sha256": "c956d5cc5baa60100c2d4e9727c54e22023272b5127d12ed50696dfe67b2f3a6"
+        },
+        {
+          "order": 1,
+          "url": "https://video.twimg.com/amplify_video/2115567338271682560/vid/avc1/0/3000/1920x1080/d_TcK0M52PrlHuR7.m4s",
+          "bytes": 4214914,
+          "sha256": "3da9170b1a39c1416429a4e04bdc354dd573e93aa7c8fd1b568c9f5e0c701fde"
+        },
+        {
+          "order": 2,
+          "url": "https://video.twimg.com/amplify_video/2115567338271682560/vid/avc1/3000/6966/1920x1080/iFl1lE4MVXz5slvq.m4s",
+          "bytes": 5185756,
+          "sha256": "e29e384a7c284463096d70801a42e6b1489a5aa0a339ef9ad1dd5e7284b6a0a7"
+        }
+      ]
+    },
+    "audio": {
+      "playlist_url": "https://video.twimg.com/amplify_video/2115567338271682560/pl/mp4a/128000/UgCmegGKti81jTFd.m3u8",
+      "segments": [
+        {
+          "order": 0,
+          "url": "https://video.twimg.com/amplify_video/2115567338271682560/aud/mp4a/0/0/128000/ox79-sXZ6l6_HW-S.mp4",
+          "bytes": 749,
+          "sha256": "ef6e14c4b43b662f99af4dd9f5773b4dcc72c6ee65bd61388c0461dcb8f9264f"
+        },
+        {
+          "order": 1,
+          "url": "https://video.twimg.com/amplify_video/2115567338271682560/aud/mp4a/0/3000/128000/71oRPN6iZKCe7kzp.m4s",
+          "bytes": 50005,
+          "sha256": "c58979c004e7eb51b48787950256991780f2c537e4ca531fc00c5bbc8898deac"
+        },
+        {
+          "order": 2,
+          "url": "https://video.twimg.com/amplify_video/2115567338271682560/aud/mp4a/3000/6968/128000/ifz_bkiIRw_qx1ie.m4s",
+          "bytes": 64475,
+          "sha256": "f7ee8fc579dbde0143cfa5f7ec7a452aa593cb139d56ecdd0ea4d5c206e156cc"
+        }
+      ]
+    }
+  },
+  "video_sha256": "96ee847076984d724aafad3857f5008adda835bc56b337ef66c27924acba2f59",
+  "audio_reviewed_by_listener": false,
+  "preview_conversion": "HLG to BT.709 via FFmpeg zscale + Hable tone mapping; approximate SDR analysis preview"
+}

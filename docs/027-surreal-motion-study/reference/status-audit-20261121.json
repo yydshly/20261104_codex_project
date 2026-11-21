@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-21",
+  "lastSubstantiveResearchDate": "2026-11-14",
+  "currentStage": "研究、素材与候选世界整理完成；尚未进行世界连贯性验证。",
+  "checks": {
+    "referenceJsonValid": 43,
+    "referenceJsonInvalid": 0,
+    "earlyFramesPresent": 12,
+    "effectImagesPresent": 10,
+    "styleReferencesHashVerified": 4,
+    "worldSceneImagesHashVerified": 16,
+    "videoOriginalHashVerified": true,
+    "videoPreviewHashVerified": true,
+    "capabilityItems": 40,
+    "worldClassification": "3核心+8内部空间+4城市生活体系+1视觉母题",
+    "localPreviewHTTP": 200,
+    "videoByteRangeHTTP": 206
+  },
+  "maintenance": [
+    "恢复127.0.0.1:4186本地预览",
+    "README增加当前状态核对与历史阶段边界"
+  ],
+  "notYetDone": [
+    "上次建议的森林世界空间关系页",
+    "现有森林四图的关联与冲突标注",
+    "共同地标、高差、水路和通行关系的跨图验证",
+    "多样本重复生成与动作/音乐量化验证"
+  ],
+  "notImplemented": [
+    "可进入的三维世界",
+    "交互产品和用户体验验证"
+  ],
+  "newGeneration": false
+}

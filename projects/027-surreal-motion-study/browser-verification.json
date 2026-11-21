@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-21",
+  "localPreview": "http://127.0.0.1:4187/",
+  "routes": ["overview", "coast", "color", "sources", "value", "keyframes", "motion", "atlas", "comparison", "directions"],
+  "visibleBrokenImages": [],
+  "consoleErrors": [],
+  "guidePreviewWidth": 1120,
+  "guideDialogSize": [3200, 5700],
+  "summaryInjected": true,
+  "desktopHorizontalOverflow": false,
+  "scope": "Rendered routes, added understanding summary and guide image; not a new research or media generation run."
+}

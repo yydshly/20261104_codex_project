@@ -1,0 +1,139 @@
+{
+  "id": "divine-multiverse",
+  "author": "@EiiKwesiKay",
+  "title": "The Divine Multiverse",
+  "post_url": "https://x.com/EiiKwesiKay/status/2120958808789029021",
+  "post_text": "The Divine Multiverse. A breathtaking world beyond imagination. Good night, everyone",
+  "post_date_displayed": "2026-11-13 03:16",
+  "retrieved_on": "2026-11-13",
+  "media_observation": "Public post and media URLs observed in the rendered X page. No login or account interaction.",
+  "master_playlist": "https://video.twimg.com/amplify_video/2120923668578549761/pl/MgTKF6a7-KR2ljWO.m3u8?tag=29&v=cfc",
+  "video_playlist": "https://video.twimg.com/amplify_video/2120923668578549761/pl/avc1/720x1280/UBOHFRTQcs07T33J.m3u8",
+  "audio_playlist": "https://video.twimg.com/amplify_video/2120923668578549761/pl/mp4a/128000/E828xRUYTniT0PjR.m3u8",
+  "poster_url": "https://pbs.twimg.com/amplify_video_thumb/2120923668578549761/img/z3ffainaF3j0rqdQ?format=webp&name=medium",
+  "material_type": "complete_original_video_from_observed_public_hls",
+  "local_video": "assets/divine-multiverse/reference.mp4",
+  "duration_seconds": 10.125246,
+  "width": 720,
+  "height": 1280,
+  "frame_rate": "1093500000/45563609",
+  "color_transfer": null,
+  "color_primaries": null,
+  "color_space": null,
+  "frames": [
+    {
+      "time_seconds": 0.1,
+      "path": "assets/divine-multiverse/frame-00.10.jpg"
+    },
+    {
+      "time_seconds": 1,
+      "path": "assets/divine-multiverse/frame-01.00.jpg"
+    },
+    {
+      "time_seconds": 2,
+      "path": "assets/divine-multiverse/frame-02.00.jpg"
+    },
+    {
+      "time_seconds": 3,
+      "path": "assets/divine-multiverse/frame-03.00.jpg"
+    },
+    {
+      "time_seconds": 4,
+      "path": "assets/divine-multiverse/frame-04.00.jpg"
+    },
+    {
+      "time_seconds": 5,
+      "path": "assets/divine-multiverse/frame-05.00.jpg"
+    },
+    {
+      "time_seconds": 6,
+      "path": "assets/divine-multiverse/frame-06.00.jpg"
+    },
+    {
+      "time_seconds": 7,
+      "path": "assets/divine-multiverse/frame-07.00.jpg"
+    },
+    {
+      "time_seconds": 8,
+      "path": "assets/divine-multiverse/frame-08.00.jpg"
+    },
+    {
+      "time_seconds": 9,
+      "path": "assets/divine-multiverse/frame-09.00.jpg"
+    },
+    {
+      "time_seconds": 10,
+      "path": "assets/divine-multiverse/frame-10.00.jpg"
+    }
+  ],
+  "track_sources": {
+    "video": {
+      "playlist_url": "https://video.twimg.com/amplify_video/2120923668578549761/pl/avc1/720x1280/UBOHFRTQcs07T33J.m3u8",
+      "segments": [
+        {
+          "order": 0,
+          "url": "https://video.twimg.com/amplify_video/2120923668578549761/vid/avc1/0/0/720x1280/62jwZ2viJVed7lOt.mp4",
+          "bytes": 903,
+          "sha256": "ba24e0971c99c18f5ab268af3919e16b84af42a9b29c7ec50b3659a2fa8fcdb3"
+        },
+        {
+          "order": 1,
+          "url": "https://video.twimg.com/amplify_video/2120923668578549761/vid/avc1/0/3000/720x1280/0PY930dTqhXMwN3g.m4s",
+          "bytes": 370021,
+          "sha256": "583303e29b29954465a0b2a66e8294daf3ed2d4676779c5d30a2606d9a68a112"
+        },
+        {
+          "order": 2,
+          "url": "https://video.twimg.com/amplify_video/2120923668578549761/vid/avc1/3000/6000/720x1280/LXiI4snBvlWFdMoe.m4s",
+          "bytes": 379189,
+          "sha256": "86c9a7645d8d2ba2a1f02c91ff9f7ba1eb00baa0c29b48c4788157d9577615bd"
+        },
+        {
+          "order": 3,
+          "url": "https://video.twimg.com/amplify_video/2120923668578549761/vid/avc1/6000/10125/720x1280/im7GXQiP5MZC1sR-.m4s",
+          "bytes": 517407,
+          "sha256": "e50c10b1034d3c1b1d32440c6ed620c43cf252170b4e9be04f91b6821cb8dc63"
+        }
+      ]
+    },
+    "audio": {
+      "playlist_url": "https://video.twimg.com/amplify_video/2120923668578549761/pl/mp4a/128000/E828xRUYTniT0PjR.m3u8",
+      "segments": [
+        {
+          "order": 0,
+          "url": "https://video.twimg.com/amplify_video/2120923668578549761/aud/mp4a/0/0/128000/hq8M2nyEfscklPoK.mp4",
+          "bytes": 786,
+          "sha256": "4019385e1a2d627cacbe5eb49c66d3a3c71efd8611b2c10c132a822157fb2b5c"
+        },
+        {
+          "order": 1,
+          "url": "https://video.twimg.com/amplify_video/2120923668578549761/aud/mp4a/0/3000/128000/bW8l_z_rmy6n4Zet.m4s",
+          "bytes": 48609,
+          "sha256": "3705239e1ed5772e0fc8f449d7fe2a34650fbc757156fa4d24f904534568d914"
+        },
+        {
+          "order": 2,
+          "url": "https://video.twimg.com/amplify_video/2120923668578549761/aud/mp4a/3000/6000/128000/lXGkIlV1qtgrYZPg.m4s",
+          "bytes": 48648,
+          "sha256": "ee5144e6f8ac7f709b648ea6b3228347c7f24600529fda37e76fdb2bff480065"
+        },
+        {
+          "order": 3,
+          "url": "https://video.twimg.com/amplify_video/2120923668578549761/aud/mp4a/6000/9000/128000/3EQzcST9hGsK_fJg.m4s",
+          "bytes": 48995,
+          "sha256": "5d07ce1e1e8d218fa3667da5f70b4a58fc4473afd781070038624db78a81c825"
+        },
+        {
+          "order": 4,
+          "url": "https://video.twimg.com/amplify_video/2120923668578549761/aud/mp4a/9000/10137/128000/5ev-EBEyyYRtPbBC.m4s",
+          "bytes": 18366,
+          "sha256": "14a697f1c6d296017bc1a6f8a16774617aa83605cb5889e13f208f30dd45c662"
+        }
+      ]
+    }
+  },
+  "sha256": "3b118123557474c51b99e06c8f6cf9f3c515b43d5091bbb63c2a06a69588effe",
+  "audio_reviewed_by_listener": false,
+  "workflow_confirmed": false,
+  "preview_conversion": "Direct decoded frame; no exposure or saturation adjustment"
+}

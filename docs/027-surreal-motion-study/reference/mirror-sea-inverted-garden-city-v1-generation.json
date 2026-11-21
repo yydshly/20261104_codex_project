@@ -1,0 +1,34 @@
+{
+  "generatedOn": "2026-11-13",
+  "timezone": "Asia/Shanghai",
+  "title": "镜面浅海＋倒悬花园城",
+  "status": "original_static_visual_direction_v1",
+  "tool": "内置 image_gen（非外部生成服务）",
+  "inputImages": [],
+  "modelVersion": null,
+  "seed": null,
+  "asset": "assets/original-keyframes/mirror-sea-inverted-garden-city-v1.png",
+  "sourceOutputFile": "[local path omitted]",
+  "prompt": "Use case: stylized-concept.\nAsset: ONE original static visual-direction image for a research website, a complete cinematic environmental concept painting in wide landscape 16:9, ideally 2048x1152. No panels, labels or text.\nPrimary subject: a mirror-like shallow sea beneath a single enormous UPSIDE-DOWN GARDEN CITY suspended in morning air.\nMake the inversion unmistakable. A broad, thin, gently terraced foundation slab floats horizontally high over the water. Pale grey-white architectural blocks, slender towers and roof spires are attached beneath this slab and point DOWNWARD toward the sea, forming an inverted city skyline. Layered hanging gardens, soft green vines and planted ledges weave through this inverted architecture. Show believable surface details, overlapping city districts and occasional warm dawn-lit edges. The suspended city's entire silhouette should be visible, with open air above and a clear gap between its lowest towers and the water. This is a city hanging upside down, not upright buildings sitting on a floating island.\nComposition: wide, airy, quiet. Place the city across the upper-middle part, leaving pale blue-grey sky around it. The calm shallow sea fills the lower half and gives a coherent vertically mirrored reflection of the inverted city; the reflected architecture consequently points upward in the water. A thin band of distant morning mist partially separates the real city and its reflection, while their outlines remain legible. Leave a generous horizontal area of uncluttered water between the viewer and the distant city. Exactly one tiny upright visitor in the lower-left foreground stands in ankle-deep clear water on a subtle pale sandbar, with a small natural reflection. The visitor is a scale cue, not a large hero. Fine visible seabed texture in the foreground and very small ripples around the visitor establish shallow water; most of the surface remains mirror-smooth.\nMood and light: quiet dawn, dreamlike exploration, gentle wonder. Desaturated cyan-blue water, pale warm-grey architecture, restrained green gardens, delicate peach sunlight grazing a few edges from one consistent side. Soft atmospheric distance and readable near/middle/far layers. Keep large calm areas and clear value hierarchy; no heavy gloom, oversaturated green or neon glow.\nMedium: polished cinematic architectural environment concept art, physically plausible stone and plants within an impossible gravitational arrangement, restrained painterly finish, fine detail supporting the broad silhouette.\nOriginal scene from written direction only; no reference image pixels supplied.\nAvoid: upright city on top of a rock island, normal downward reflection of an upright city, multiple floating islands, giant circular portals, arches as the main landmark, crowded foreground, extra people, aircraft, giant sun, dramatic storm, text, captions, logos, borders or interface. Static visual direction only, not a movement demonstration.",
+  "scope": "只做一张静态方向图，在网页说明氛围、构图和核心看点。不制作动态。",
+  "review": {
+    "mood": "清晨、安静、轻盈探索；为视觉解读与设计目标",
+    "composition": "倒悬城体横向占据上半幅，薄雾分开悬空城市与水中倒影，左下近景人物和水纹建立观看位置",
+    "focus": [
+      "建筑朝下的倒悬轮廓",
+      "倒影朝上的上下呼应",
+      "浅水沙底、波纹与植被的可辨认细节"
+    ],
+    "limits": [
+      "倒影为生成图中的视觉关系，未验证严格光学对应",
+      "没有三维场景、镜头运动或人物动作"
+    ]
+  },
+  "actualMetadata": {
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "sha256": "497888f6be8aeb915fe25f1eecbbc059e1cbeb2a3f3bb8d891416df9d1a801a0",
+    "bytes": 2106710
+  }
+}

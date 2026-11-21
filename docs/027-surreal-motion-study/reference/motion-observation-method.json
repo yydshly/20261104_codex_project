@@ -1,0 +1,249 @@
+{
+  "date": "2026-11-12",
+  "purpose": "原片动作观察；不生成运动，不量化真实踏频或车速。",
+  "sampling": "每隔12个源帧取1帧；60fps名义时间间隔0.20秒；每条12帧。",
+  "preview": "完整画幅，HLG→BT.709 SDR近似预览，再等比例缩小。",
+  "limits": "这些离散样本不能单独证明稳定踩踏周期；有遮挡、取景变化与生成式形变。慢放与原速原片需共同核对。",
+  "cases": [
+    {
+      "id": "grassland-special",
+      "source": "assets/grassland-special/reference.mp4",
+      "source_sha256": "96ee847076984d724aafad3857f5008adda835bc56b337ef66c27924acba2f59",
+      "contact_sheet": "assets/motion-study/grassland-special-action-sequence.jpg",
+      "frames": [
+        {
+          "nominal_time": 2.0,
+          "frame_index": 120,
+          "path": "assets/motion-study/grassland-special/sample-01.jpg",
+          "sha256": "5132c8760c969ac2ae3738ff6e1faf1804002db7216b21da92d246492ce3693a"
+        },
+        {
+          "nominal_time": 2.2,
+          "frame_index": 132,
+          "path": "assets/motion-study/grassland-special/sample-02.jpg",
+          "sha256": "74f370e974252bfaa97781049a435525e55a6567ed4ae8434f9fcbb94583e6f0"
+        },
+        {
+          "nominal_time": 2.4,
+          "frame_index": 144,
+          "path": "assets/motion-study/grassland-special/sample-03.jpg",
+          "sha256": "7f58abedbfa5b088515638083afb95aedd9bec325adf4b5bce1936a2a84a3140"
+        },
+        {
+          "nominal_time": 2.6,
+          "frame_index": 156,
+          "path": "assets/motion-study/grassland-special/sample-04.jpg",
+          "sha256": "a0a8ba122df2d5deb8eac37f6c918d16cc51a8ed2db8e899317e622c195d348a"
+        },
+        {
+          "nominal_time": 2.8,
+          "frame_index": 168,
+          "path": "assets/motion-study/grassland-special/sample-05.jpg",
+          "sha256": "1b47f90675425a7803c93ec19b2702b904d5f3c151d6846c21cf3970f0f2a3b1"
+        },
+        {
+          "nominal_time": 3.0,
+          "frame_index": 180,
+          "path": "assets/motion-study/grassland-special/sample-06.jpg",
+          "sha256": "f5dc76a1c074ea7e544b9f6c9afa9c71f60b14c70fd89c73728316956cc9e8f2"
+        },
+        {
+          "nominal_time": 3.2,
+          "frame_index": 192,
+          "path": "assets/motion-study/grassland-special/sample-07.jpg",
+          "sha256": "d109ec2d8f0ba5260c4fd9daaf900a851b3026d7834d2d6c1b149d19bf94dcec"
+        },
+        {
+          "nominal_time": 3.4,
+          "frame_index": 204,
+          "path": "assets/motion-study/grassland-special/sample-08.jpg",
+          "sha256": "b94834ad01d9a781a91875e56e87a69ddcb4b0e7ac55f617ebfb2c29bf447f24"
+        },
+        {
+          "nominal_time": 3.6,
+          "frame_index": 216,
+          "path": "assets/motion-study/grassland-special/sample-09.jpg",
+          "sha256": "86c3be705dd868274e1296d57847dee90d16a0259adab5c1021a6ab738432e6f"
+        },
+        {
+          "nominal_time": 3.8,
+          "frame_index": 228,
+          "path": "assets/motion-study/grassland-special/sample-10.jpg",
+          "sha256": "a9f1b801484f81f27efde31c531146aecf1384187f970e8b47bf44250eba3866"
+        },
+        {
+          "nominal_time": 4.0,
+          "frame_index": 240,
+          "path": "assets/motion-study/grassland-special/sample-11.jpg",
+          "sha256": "9a0fd0d66915d5bc346160f23070ef0d5a7b3baa31fc206ada8c7b60d4729bad"
+        },
+        {
+          "nominal_time": 4.2,
+          "frame_index": 252,
+          "path": "assets/motion-study/grassland-special/sample-12.jpg",
+          "sha256": "231805d5e82458d2e28581ecc375d18a628158002599cb83a40b2b52f9aa76e4"
+        }
+      ]
+    },
+    {
+      "id": "chasing",
+      "source": "assets/chasing/reference.mp4",
+      "source_sha256": "c2c31aac574ffc534c98493146c5f8d9f7f59648f7a361bdf25599689b06e2db",
+      "contact_sheet": "assets/motion-study/chasing-action-sequence.jpg",
+      "frames": [
+        {
+          "nominal_time": 1.0,
+          "frame_index": 60,
+          "path": "assets/motion-study/chasing/sample-01.jpg",
+          "sha256": "1e3fcdb9fdef1447a5cb11c0017dade3971ec27bb7c7c9c7a9c11e1210956e0f"
+        },
+        {
+          "nominal_time": 1.2,
+          "frame_index": 72,
+          "path": "assets/motion-study/chasing/sample-02.jpg",
+          "sha256": "2745655a9066375b55d78d3bb20286f583e1db608c46867d805f24eb7b27a2d2"
+        },
+        {
+          "nominal_time": 1.4,
+          "frame_index": 84,
+          "path": "assets/motion-study/chasing/sample-03.jpg",
+          "sha256": "c8ad8738d1c176ddda3c644b37fbc6c76f7b7793e892e0981bf43f0a5cdddf0b"
+        },
+        {
+          "nominal_time": 1.6,
+          "frame_index": 96,
+          "path": "assets/motion-study/chasing/sample-04.jpg",
+          "sha256": "e37d0fe8e32d4034f1e61835d3b71592b69bd9d37cb5bc01c6698c3b01fe67e2"
+        },
+        {
+          "nominal_time": 1.8,
+          "frame_index": 108,
+          "path": "assets/motion-study/chasing/sample-05.jpg",
+          "sha256": "ea12237f916c48dddb61650bfaf90c0f30c13a80fd5a911ba28e2668f5d0d03e"
+        },
+        {
+          "nominal_time": 2.0,
+          "frame_index": 120,
+          "path": "assets/motion-study/chasing/sample-06.jpg",
+          "sha256": "b41087ebf37d83b12daf1dea71c4af124c39769a378d947a27378c7f32b70a38"
+        },
+        {
+          "nominal_time": 2.2,
+          "frame_index": 132,
+          "path": "assets/motion-study/chasing/sample-07.jpg",
+          "sha256": "ca04a4055b80f3867964eebc862d6b9d1410c77029b97b11c4b448ea0a6d2c12"
+        },
+        {
+          "nominal_time": 2.4,
+          "frame_index": 144,
+          "path": "assets/motion-study/chasing/sample-08.jpg",
+          "sha256": "d0c53fd10a64f395b49af0287524b9a4e2637cfbeb4cfbecb8a3dc4270b63217"
+        },
+        {
+          "nominal_time": 2.6,
+          "frame_index": 156,
+          "path": "assets/motion-study/chasing/sample-09.jpg",
+          "sha256": "cbc0f7999b2050a32993b05401255cc9dcfe83e0f2c09fa62201b198471ce9ee"
+        },
+        {
+          "nominal_time": 2.8,
+          "frame_index": 168,
+          "path": "assets/motion-study/chasing/sample-10.jpg",
+          "sha256": "7a11909b01a365a9b1c737b6b7293d28384d585363ec4ec54e04815ba130b861"
+        },
+        {
+          "nominal_time": 3.0,
+          "frame_index": 180,
+          "path": "assets/motion-study/chasing/sample-11.jpg",
+          "sha256": "8905f33406116ac0d3f52f785d1f60e8dc45368381d866290822c05af6f4dcb3"
+        },
+        {
+          "nominal_time": 3.2,
+          "frame_index": 192,
+          "path": "assets/motion-study/chasing/sample-12.jpg",
+          "sha256": "8c44374ccadb84f1fb52eaa1e25ee4975df7390e8537c2e75620cde5018b8c28"
+        }
+      ]
+    },
+    {
+      "id": "vortex-road",
+      "source": "assets/vortex-road/reference.mp4",
+      "source_sha256": "4a78213e06d579ab5018494aaff971a63307d1d331bb469dce706ac41c5315bb",
+      "contact_sheet": "assets/motion-study/vortex-road-action-sequence.jpg",
+      "frames": [
+        {
+          "nominal_time": 1.0,
+          "frame_index": 60,
+          "path": "assets/motion-study/vortex-road/sample-01.jpg",
+          "sha256": "1f8fcdb6aa5539db3fa5a285a543d6dbc4303cbf070343c811f62608b4980b47"
+        },
+        {
+          "nominal_time": 1.2,
+          "frame_index": 72,
+          "path": "assets/motion-study/vortex-road/sample-02.jpg",
+          "sha256": "1ef0b479b42c57831431d4e0957a0a4e33cce2b482e2ff62a66604e87168cc03"
+        },
+        {
+          "nominal_time": 1.4,
+          "frame_index": 84,
+          "path": "assets/motion-study/vortex-road/sample-03.jpg",
+          "sha256": "b2e7bf6728c8303bbfa4f0a9d0914e58ba8a90e92b045a6e7fb113b41f7e7095"
+        },
+        {
+          "nominal_time": 1.6,
+          "frame_index": 96,
+          "path": "assets/motion-study/vortex-road/sample-04.jpg",
+          "sha256": "6ce7a1d27527500292f0245469b1fd07748426900ccf018dfd72f811aaddc8b1"
+        },
+        {
+          "nominal_time": 1.8,
+          "frame_index": 108,
+          "path": "assets/motion-study/vortex-road/sample-05.jpg",
+          "sha256": "ee4c9fef7a371c767d372f13a2465a4cce5723523fc13aa3851ec6981dd6e813"
+        },
+        {
+          "nominal_time": 2.0,
+          "frame_index": 120,
+          "path": "assets/motion-study/vortex-road/sample-06.jpg",
+          "sha256": "76a24ba415085066677d2be4229e9b4f59a3c4fa2251d582ed6a187029629ff8"
+        },
+        {
+          "nominal_time": 2.2,
+          "frame_index": 132,
+          "path": "assets/motion-study/vortex-road/sample-07.jpg",
+          "sha256": "ce423cb2ded66c4209f7aa7ceb4e95ec7a7f9121c98e9e9038ad03658ee0c2d0"
+        },
+        {
+          "nominal_time": 2.4,
+          "frame_index": 144,
+          "path": "assets/motion-study/vortex-road/sample-08.jpg",
+          "sha256": "c9bbe9dda0fff7d8754d241228c8d20926fc239be89e8652302641fcbf59c532"
+        },
+        {
+          "nominal_time": 2.6,
+          "frame_index": 156,
+          "path": "assets/motion-study/vortex-road/sample-09.jpg",
+          "sha256": "ed6af2506bde42f0a3dde920ca9b65b6e13e3964526cf10033203d5dec28ecb7"
+        },
+        {
+          "nominal_time": 2.8,
+          "frame_index": 168,
+          "path": "assets/motion-study/vortex-road/sample-10.jpg",
+          "sha256": "3cc98b241d9ca6806078f5830b7c2642da35f1df23e969e94aa9a8cc396d1c4e"
+        },
+        {
+          "nominal_time": 3.0,
+          "frame_index": 180,
+          "path": "assets/motion-study/vortex-road/sample-11.jpg",
+          "sha256": "a3bb2564d669c0dfa66be9081eacba64e7ed66617a78ea3d475c71e5b4602ce3"
+        },
+        {
+          "nominal_time": 3.2,
+          "frame_index": 192,
+          "path": "assets/motion-study/vortex-road/sample-12.jpg",
+          "sha256": "5f9b2a840924e9527e4d02bdc6859792acd6ec6813b5c72d4265b9118fcf9802"
+        }
+      ]
+    }
+  ]
+}

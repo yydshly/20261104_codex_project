@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-13",
+  "tool": "内置 image_gen",
+  "mode": "RGBA",
+  "reference": "[local path omitted]",
+  "prompt": "Use case: identity-preserve. Use the supplied cropped woman as character/costume reference. Make a transparent-background ANIMATION ASSET SHEET of the SAME adult woman with dark hair in a loose bun, rust-brown knee-length wool coat, black trousers, black ankle boots. Exactly FOUR columns by TWO rows, EIGHT full-body poses, same three-quarter SIDE camera looking at her RIGHT-facing profile, same character height and costume proportions, generous transparent gutters, entire head and boots visible. No floor, shadows, environment, background, text, borders, captions or extra people. Natural photorealistic cloth and anatomy. This character is continuously dance-walking FORWARD TO THE RIGHT, playful self-composure and restrained self-satisfaction, a cheeky cinematic strut. Her chest-hand pose and slightly leaned-back torso are the signature. All poses must convey WEIGHT and BENT KNEES, not stiff mannequin posing. Read cells left to right, then next row. 1: LEFT foot forward planted heel-to-sole, RIGHT foot trailing heel lifted, one hand at chest, other hand low balancing. 2: weight on RIGHT foot forward, LEFT knee soft passing forward, shoulder slightly dipping, hand still at chest. 3: LEFT foot crossing lightly in front of right, knees bent, hips shifted, coat swinging backward. 4: weight settles onto RIGHT leg, LEFT heel raised, free shoulder bouncing upward, hand near collar. 5: LEFT toe reaches forward for a light tap, torso held elegantly upright slightly back, chin tilted up with a sidelong glance. 6: weight on LEFT foot, RIGHT knee comes softly forward, chest hand flicking the coat lapel, relaxed amused expression. 7: low RIGHT-foot kick forward with toe extended, weight visibly on bent LEFT leg, free hand loose to the side, coat hem trailing. 8: small springy landing on RIGHT foot forward, LEFT foot about to follow, chest hand returns, shoulders relaxed. IMPORTANT poses 1 and 2 must have opposite planted feet. Forward travel, not marching in place, no big aerial jumps, no fearful/startled expression. Keep personality in asymmetry, eye direction, soft wrists and coat lag. True transparent alpha outside eight figures.",
+  "source": "[local path omitted]",
+  "target": "assets/dance-walk/dance-poses-v1.png",
+  "role": "八个舞步关键姿态透明素材；不是连续视频帧",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "95cb284ddf6d6a02062252e890267513b603c73f74cef69f212caff736ffa86b",
+  "referenceSaved": "assets/dance-walk/character-reference-user.png"
+}

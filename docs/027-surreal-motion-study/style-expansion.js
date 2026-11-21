@@ -1,0 +1,10 @@
+'use strict';
+window.renderStyleExpansion=()=>{
+  const styles=[
+    {id:'oriental-water',name:'东方水境',key:'留白 · 水平展开 · 雾中层次',description:'半浸水的庭院、远山与大片空水面，整体偏宁静、疏朗。',composition:'建筑压在左下方，水面向右侧和远处打开；层层山影把空间慢慢推远。',material:'旧白墙、深色瓦、浸水石阶；灰绿与米白为主，暖灯只占很小面积。',extension:'月下水庭、雾中长廊、浅水旧街'},
+    {id:'desert-monument',name:'荒漠巨构',key:'极简 · 巨大体量 · 明确阴影',description:'沙丘、深峡谷与单一巨拱，视觉重点集中在尺度和空旷感。',composition:'厚重拱体占据右侧，细桥横跨峡谷；大片天空与沙地衬出体量差。',material:'粗粝浅石、锈铜内壁与细沙；硬侧光把大形体和长阴影切开。',extension:'盐湖孤塔、峡谷环城、岩壁巨门'},
+    {id:'retro-rain-city',name:'复古未来雨城',key:'密集 · 层层遮挡 · 潮湿旧质感',description:'运河、玻璃连廊、管线与环形远站叠在一起，带有旧式科幻布景的生活质感。',composition:'近处暗阳台包住左上角，栏杆斜向引入水道；桥廊、楼层和远站接出纵深。',material:'剥落搪瓷、旧混凝土、铜管与湿玻璃；蓝灰雨雾中保留暖色室内灯。',extension:'雨港站厅、垂直旧社区、温室车站'},
+    {id:'forest-cloud',name:'自然奇境',key:'有机包围 · 高低错层 · 散射光',description:'粗大树根围成自然拱顶，托着岩池与蕨类平台，下方是雾中的森林深谷。',composition:'近处树根与石洞构成不规则框景，中景水池较亮，瀑布与雾谷连接上下层。',material:'湿树皮、苔藓、蕨叶和岩石；深绿前景配浅青雾气，局部叶片透光。',extension:'根系峡谷、云雾湿地、树冠湖泊'}
+  ];
+  return `<section id="style-expansion" aria-label="四组静态风格扩展"><p class="ds-effect-core">4 张新原创图 · 内置图片生成 · 仅静态风格探索</p><p>本轮只比较画面气质、空间布局、光色与材质。四组各自形成一套视觉语言；下方“同风格画面”仅列可继续扩展的静态题材。</p><div class="ds-style-gallery">${styles.map((s,i)=>`<article class="ds-style-card"><p class="eyebrow">STYLE 0${i+1}</p><h2>${s.name}</h2><button class="image-button" data-image="assets/style-expansion/${s.id}-v1.png" data-image-title="风格扩展 · ${s.name}" aria-label="放大${s.name}风格图"><img src="assets/style-expansion/${s.id}-v1.png" alt="${s.description}" loading="${i<2?'eager':'lazy'}" width="1672" height="941"></button><p class="ds-effect-core">${s.key}</p><p>${s.description}</p><dl><dt>布局</dt><dd>${s.composition}</dd><dt>光色与材质</dt><dd>${s.material}</dd><dt>同风格画面 · 尚未出图</dt><dd>${s.extension}</dd></dl><a class="text-link" href="assets/style-expansion/${s.id}-v1.png" download>保存完整原图 ↗</a></article>`).join('')}</div><p><a class="text-link" href="reference/style-expansion-20261114.json" target="_blank" rel="noopener">四张原图、完整提示词与生成记录 ↗</a></p></section>`;
+};

@@ -1,0 +1,71 @@
+{
+  "reference_id": "grassland-special",
+  "post_url": "https://x.com/hi_personality/status/2115567493565825244",
+  "analyzed_on": "2026-11-12",
+  "source_resolution": [
+    1920,
+    1080
+  ],
+  "method": "人工观察原片抽帧；人车包络框为近似可见范围，不是自动跟踪或三维测量",
+  "frames": [
+    {
+      "time_seconds": 0.1,
+      "file": "assets/grassland-special/frame-00.10.jpg",
+      "visible_rider_and_bicycle_bbox_xyxy": [
+        235,
+        878,
+        435,
+        1070
+      ],
+      "observation": "骑行者很小、偏左下、近侧面；弧形海湾、高崖、巨型建筑和近景草坡已经同时存在。",
+      "interpretation": "场景造型和构图已提供异常尺度；镜头尚未推进到人物近处。",
+      "limits": "早期单帧不能证明背景是固定三维几何。"
+    },
+    {
+      "time_seconds": 2.0,
+      "file": "assets/grassland-special/frame-02.00.jpg",
+      "visible_rider_and_bicycle_bbox_xyxy": [
+        410,
+        282,
+        925,
+        1080
+      ],
+      "observation": "人车明显变大、近侧后方；右侧巨型建筑和拱廊仍在，海湾取景范围与开场不同。",
+      "interpretation": "出现明显的相对接近与画面推进感。",
+      "limits": "包络框触及下沿；主体大小还受骑行动作和姿态影响，不能直接换算相机距离或焦距。"
+    },
+    {
+      "time_seconds": 6.867,
+      "file": "assets/grassland-special/frame-06.87.jpg",
+      "visible_rider_and_bicycle_bbox_xyxy": [
+        600,
+        290,
+        880,
+        1065
+      ],
+      "observation": "人物主要呈背面，位于中部偏左；前方草坡小径更清楚，右侧主建筑大部移出取景，对岸高崖和海湾仍可辨。",
+      "interpretation": "观看关系转为跟入路线，人物朝向和可见区域变化共同产生进入感。",
+      "limits": "可能同时包含相机转向、骑行者过弯和生成式形变；无法唯一分离。"
+    }
+  ],
+  "classification": {
+    "scene_and_composition": [
+      "海湾弧线与凹深",
+      "高崖和巨型建筑的竖向尺度",
+      "草坡、海湾、对岸的空间层次",
+      "熟悉物体与小主体提供的尺度参照"
+    ],
+    "apparent_camera_and_subject_motion": [
+      "从全景到人物近景的相对接近",
+      "侧面到背后的观看关系变化",
+      "随行进显露的新草坡、道路与遮挡关系"
+    ],
+    "not_established": [
+      "地面由平变卷的完整变形过程",
+      "固定不变且可玩的三维场景",
+      "唯一的真实相机轨迹、焦距或推轨距离",
+      "所有背景变化都由相机运动引起"
+    ]
+  },
+  "preview": "沿用既有的 HLG→BT.709 SDR 近似预览；本轮不额外调色，不裁切原片画幅。"
+}

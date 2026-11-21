@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-13",
+  "tool": "内置 image_gen",
+  "mode": "edit",
+  "finalFile": "assets/original-keyframes/folded-map-connection-v2.png",
+  "width": 1670,
+  "height": 941,
+  "sha256": "21ce4eeef37be8e07a118a9f1c3f5876cd2846dd17e2aefd2ec4c67640bc20f1",
+  "intent": "修正同一画面内纸折痕到山脊、蓝色墨线到水流的连续关系",
+  "input": "assets/original-keyframes/folded-map-world-v1.png",
+  "passes": [
+    {
+      "prompt": "Use case: precise-object-edit. Edit target: the supplied folded-map-world-v1.png, a static original direction image. Create a revised transition keyframe, keeping the same wide landscape camera, brass compass at lower left, warm window at upper left, wooden table, paper foreground, alpine valley and distant snowy mountains. This is a single cinematic image, not a triptych.\nPrimary change: make the CAUSAL GEOMETRIC CONNECTION between paper folding and real mountain unmistakable. Simplify the transition into ONE very legible dominant mountain spine, running diagonally from a large ivory triangular paper fold near foreground center toward the rocky mountain in middle distance. The sharp upper edge of that same paper fold must CONTINUE, without a gap, lateral shift or separate overlapping mountain, into the rocky ridge crest. Its two paper slopes become the two rock slopes of the SAME ridge. Across a short continuous transition band, paper fibers and printed contour lines become rock layers and sparse miniature fir trees. Near side is unmistakably folded map paper; far side unmistakably rock. Keep fine printed contour lines visible on the paper fold right up to the material transition, with a few lines carrying continuously into rock strata. Do not scatter many competing accordion folds.\nSecond connection: ONE continuous blue river ink line on the flat foreground map follows a low valley on the RIGHT side of the main paper ridge, curves toward the mid-right valley, gradually widens and gains reflective water texture into the real river. Its ink and water segments must touch in the same valley groove, no break or jump, no ink line climbing over a mountain ridge. A short intermediate wet dark-blue channel makes the transformation legible.\nThe image should be understandable without labels: paper ridge crest = rock mountain crest; blue ink = flowing river; contour lines = surface trace. Retain warm grazing sunlight revealing creases, rich tactile ivory paper texture, natural forest greens and slate rock, realistic tiny tree scale, believable atmospheric depth. Keep the compass and foreground table as fixed familiar scale cues. Improve connection clarity rather than adding spectacle.\nAvoid: separate mountains sitting on top of paper, disconnected seams, floating land, turned pages, an accordion wall, magical particles, glow, arrows, labels, any text, people, extra objects. Static concept only, do not claim physical origami simulation.",
+      "output": "assets/original-keyframes/folded-map-connection-v2-draft.png",
+      "review": "主山脊关联更明确，但前景左侧蓝色墨线断开，进行局部返修。"
+    },
+    {
+      "input": "assets/original-keyframes/folded-map-connection-v2-draft.png",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied revised paper-mountain image. Preserve its composition, camera, compass, window, dominant continuous paper-to-rock ridge, lighting, landscape and all object positions. Make one localized correction ONLY: the blue river drawing on the foreground paper. Remove the disconnected blue ink segment at the lower left which ends against the left side of the paper mountain. Replace it with ONE unbroken slender blue river ink line in the low flat paper area on the RIGHT of the main ridge. It begins near the lower-right foreground paper edge, gently snakes leftward through that low paper valley, then curves back toward the existing water entrance at the middle-right base of the ridge. The ink line must touch and seamlessly widen into the existing actual turquoise river. Keep the entire ink-to-water route visible, on the same side of the paper ridge, without crossing or going behind the ridge, without branches or disconnected segments. Paper contours can adjust locally to follow this low river groove. No text, labels, arrows, glow or new props. Same wide single image.",
+      "output": "assets/original-keyframes/folded-map-connection-v2.png",
+      "review": "前景墨线移至主山脊右侧低谷，连续接入现有河水。"
+    }
+  ],
+  "limits": [
+    "本轮只修正中间过渡关键帧。",
+    "此前纸面、成形图未重绘，仍是阶段意向，非严格连续帧。",
+    "静态材质与形状的关联设计，不是物理折纸仿真、动画、视频或产品。"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "generatedOn": "2026-11-13",
+  "timezone": "Asia/Shanghai",
+  "title": "迈上影子的第一步",
+  "tool": "内置 image_gen",
+  "status": "original_static_keyframe_for_shadow_bridge_redesign",
+  "modelVersion": null,
+  "seed": null,
+  "inputImages": [],
+  "asset": "assets/original-keyframes/shadow-bridge-first-step-v1.png",
+  "sourceOutputFile": "[local path omitted]",
+  "prompt": "Use case: stylized-concept.\nCreate ONE original 16:9 widescreen cinematic static keyframe: \"The First Step onto a Shadow\". The essential visual proof is a boot resting on a thin, unsupported shadow over an abyss, while the other boot is still on real stone.\nSCENE AND FRAMING: warm sandstone canyon, cool blue-grey depth, low afternoon sunlight. Close three-quarter side/rear view at the edge of a stone ledge. A traveler in a muted ochre coat is on the LEFT foreground, shown from shoulders down or waist down so the legs and BOOT CONTACT are large and clearly readable. Natural adult anatomy, exactly two legs and two boots. The entire rear boot rests on the real sandstone ledge. The front leg reaches a short, believable step to the RIGHT beyond the cliff edge, with the front boot's whole sole resting flush on the dark shadow surface. The body leans forward slightly, still cautious; the back foot remains safely planted. No jumping or falling.\nTHE SHADOW: On the ledge there is an ordinary-looking flat black cast shadow with recognizable repeated railing-post shapes. It runs across the textured stone, reaches the exact broken edge of the rock, and CONTINUES UNINTERRUPTED across empty air as a PAPER-THIN BLACK HORIZONTAL WALKING SURFACE toward a lower ledge on the opposite cliff. Show the continuous transition from familiar shadow on rock to unsupported shadow over the void. The front boot is on the unsupported section. Immediately underneath its sole and the thin shadow edge, open canyon air and distant cliffs are clearly visible. The dark surface has NO thickness, NO stone texture, NO beams, NO vertical supports, NO solid parapets, NO arched bridge structure hanging below it. It is a two-dimensional cast-shadow shape, including thin projected railing patterns at the sides, NOT a second black stone bridge. Keep the key foot, rock edge and unsupported thin black plane unobscured.\nSOURCE OF THE SHADOW: In the UPPER BACKGROUND, a single pale, ghostlike translucent stone bridge spans the canyon higher than the shadow. Its repeated balustrade pattern corresponds visually to the pattern on the black shadow on the ledge. Sky and distant rock show through the pale structure. This upper bridge is contextual and less visually dominant than the foreground step. A coherent slanted sun direction links the architecture and its displaced shadow in this fictional world. No person on the upper bridge.\nCOMPOSITION PRIORITY: 1 foreground rear boot on stone + front boot on black plane; 2 sharply visible stone edge and empty air under the unsupported surface; 3 shadow continuing toward the far cliff; 4 faint source bridge above. Use an oblique diagonal view that shows the TOP of the shadow as a very thin flat shape rather than a vertical silhouette of a bridge. Spacious canyon negative space separates the boot and shadow from distant background.\nSTYLE: tactile, believable boots, cloth and sandstone; restrained warm/cool separation, atmospheric depth, quiet bodily tension and discovery; polished cinematic environmental concept art. Keep exposure and detail readable at the sole contact. The impossible rule is that a shadow can support weight. Original new composition, not a technical infographic.\nNo text, labels, arrows, panels, borders, logos, watermark, glow effects, opaque black arched bridge, floating stone slabs underneath the front foot, front foot still on rock, foot hovering above the shadow, extra limbs or extra people. Static image only.",
+  "actualMetadata": {
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "bytes": 2375078,
+    "sha256": "ad775968370a27f29077e07de0a0dac6dbd923d7930aa98223f93bdd228d6760"
+  },
+  "comparison": "assets/original-keyframes/shadow-bridge-v1.png",
+  "scope": "用户要求一张静态图，画清脚踩悬空影子的关系，网页与原版影桥对比；不做动态。",
+  "review": {
+    "observed": [
+      "后脚完整落在岩台，前脚鞋底贴合崖外黑色薄面",
+      "栏杆投影在石面上开始，连续越过崖边延伸到远处",
+      "悬空黑影下没有桥墩或拱券，能看见峡谷",
+      "上方淡色桥体与下方投影提供轮廓来源线索"
+    ],
+    "designChange": "从远观两座桥改为靠近接触位置，优先阅读石面—岩台边缘—悬空黑影—前脚的关系。",
+    "limits": [
+      "一张静态构图，不代表承重物理或动作已实现",
+      "与原版为独立生成构图，人物、建筑与投影不保证严格一致",
+      "光学投影对应尚未严格验证；可读性仍需用户评阅"
+    ]
+  }
+}

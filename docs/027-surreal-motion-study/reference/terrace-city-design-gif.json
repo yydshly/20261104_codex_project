@@ -1,0 +1,23 @@
+{
+  "createdOn": "2026-11-13",
+  "type": "labelled_static_design_version_sequence",
+  "method": "Pillow assembly from existing V1/V2/V3 PNGs; shared 256-color palette; no new generative images or motion",
+  "scope": "GIF demonstrates design iteration only; it is not camera motion, a 3D render or a continuous scene",
+  "gif": "assets/gif-studies/terrace-city-design-iterations.gif",
+  "sources": [
+    "assets/original-keyframes/twilight-terrace-city-arch-v1.png",
+    "assets/original-keyframes/twilight-terrace-city-arch-v2.png",
+    "assets/original-keyframes/twilight-terrace-city-arch-v3.png"
+  ],
+  "width": 640,
+  "height": 1040,
+  "frame_count": 3,
+  "duration_ms": 9200,
+  "frame_durations_ms": [
+    2800,
+    2800,
+    3600
+  ],
+  "bytes": 1063220,
+  "sha256": "0fa45d7c09eedc26a1c7bd9effc71f22238c8e84bc0b9db42eb3f9448858bc60"
+}

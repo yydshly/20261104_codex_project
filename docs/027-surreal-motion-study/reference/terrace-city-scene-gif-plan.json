@@ -1,0 +1,41 @@
+{
+  "preparedOn": "2026-11-13",
+  "status": "completed_with_local_previsualization",
+  "userConstraint": "不要调用外部能力",
+  "localMethod": "V3单图本地深度点层重投影，沿路线侧移与轻微转向，按遮挡关系合成",
+  "requestedDeliverable": "沿路接近巨拱的场景动态GIF",
+  "sourceImage": "assets/original-keyframes/twilight-terrace-city-arch-v3.png",
+  "inputRole": "single image reference; starting composition requested, exact first frame not yet verified",
+  "generation": {
+    "status": "cancelled_before_submission_at_user_request",
+    "service": "ChatArt",
+    "skill": "[local path omitted]",
+    "script": "video_gen.py run",
+    "type": "i2v",
+    "model": "Kling V3",
+    "inputMode": "single_image",
+    "durationSeconds": 5,
+    "resolution": 720,
+    "aspectRatio": "by input image; source 1055x1491",
+    "count": 1,
+    "estimatedCredits": 40,
+    "submitted": false,
+    "prompt": "Use the supplied original V3 terraced-city image as the visual starting reference. Make one continuous five-second cinematic shot that moves gently forward along the processional avenue, toward the illuminated terrace and the distant suspended open arch. The camera is an observer at a believable elevated street-side viewpoint, with a stable horizon and a steady forward direction. Foreground stone and nearby framing buildings shift past the edges more noticeably than the distant city; the S-shaped route gradually opens, and the warm destination terrace becomes clearer. The far monumental arch remains suspended in a stable position above the city and approaches only gradually; preserve its open inverted-U silhouette, block construction, air gaps below its feet and restrained amber inner edge. Preserve the stepped architecture, connected roads, bridges, twilight sky, shadow detail and low warm horizon. Small pedestrians move naturally without attracting the camera. The main change is a change of viewing position and revealed space, not the whole image uniformly zooming, morphing architecture, the arch growing or spinning, or a new building appearing. Keep the journey slow and calm. End still approaching the destination, with the avenue continuing ahead. No cuts, fast flight, orbiting camera, camera roll, labels, subtitles or logos."
+  },
+  "export": {
+    "format": "GIF",
+    "width": 420,
+    "fps": 10,
+    "audio": false,
+    "loop": "repeat; seamless loop not assumed",
+    "target": "assets/gif-studies/terrace-city-approach-local-v2.gif"
+  },
+  "review": [
+    "近景退出与远景变化是否有区别",
+    "道路、巨拱与建筑是否连续",
+    "是否显露更多空间而非仅放大整图",
+    "巨拱悬空和暖光氛围是否保留"
+  ],
+  "note": "实际成品为本地单图分层视差GIF，记录见terrace-city-approach-local-gif.json。上方外部生成参数仅保留为取消记录，未提交；版本轮播GIF不作为本次场景动态交付。",
+  "currentRecord": "reference/terrace-city-approach-local-v2-gif.json"
+}

@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-14",
+  "purpose": "用户改用其他平台自行试验；停止ChatArt登录流程",
+  "primaryFrame": "01_首帧_宽路全身.png",
+  "files": [
+    {
+      "name": "01_首帧_宽路全身.png",
+      "bytes": 2497611,
+      "sha256": "de29441fa67e0fd5d33acda3f2a03752413e630d11968dd02fea85135227291e"
+    },
+    {
+      "name": "02_备选首帧_人物更大.png",
+      "bytes": 2542686,
+      "sha256": "0debba8bdf535b2650897da7f4ed490072d083d6f952b5f578399810543ece29"
+    },
+    {
+      "name": "03_视频主提示词.txt",
+      "bytes": 2240,
+      "sha256": "cd397918a9083e1b0d0a3f96180548a683b23471947fe4c9a8180bba0aca6f58"
+    },
+    {
+      "name": "04_负面提示词.txt",
+      "bytes": 537,
+      "sha256": "ce1a575a56b0d167e32a73d54ead7b947a3cd3df2dc1e785b2691237f685119f"
+    },
+    {
+      "name": "05_使用说明.txt",
+      "bytes": 1738,
+      "sha256": "b6164a4a16a3541d179dec8928185e1707b9352bf714b5d820f7caf6f037b647"
+    },
+    {
+      "name": "06_占位配乐_100BPM_16拍.wav",
+      "bytes": 1693484,
+      "sha256": "54ea68524b256dcf954cf21ba5724098e037f7f52b3abc90dbeac19f22ce9929"
+    }
+  ]
+}

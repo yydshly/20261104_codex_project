@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-21",
+  "artifact": "exports/research-map-20261121.png",
+  "size": [
+    3200,
+    5700
+  ],
+  "method": "Pillow typesetting and layout of existing source images; no new AI images; originals unchanged.",
+  "colorMode": "RGB SDR; HDR section is explanatory only.",
+  "sha256": "b7e03c4bd7e1806a66f999099c615f514819c7bac29d4fb4af5f6716c2c0c9dc",
+  "sources": [
+    "assets/grassland-special/frame-00.10.jpg",
+    "assets/original-keyframes/twilight-terrace-city-arch-v3.png",
+    "assets/original-keyframes/mirror-sea-inverted-garden-city-v1.png",
+    "assets/original-keyframes/shadow-bridge-first-step-v1.png",
+    "assets/original-keyframes/folded-map-connection-v2.png",
+    "assets/original-keyframes/effect-ahead-reflection-v1.png",
+    "assets/dance-video/chatart-20261114/dance-walk-poster.jpg",
+    "assets/style-worlds/canopy-lake-v1.png",
+    "assets/color-study/baseline-sdr.png",
+    "assets/color-study/exposure-plus-one-ev.png",
+    "assets/color-study/saturation-1p4.png"
+  ],
+  "contentSources": [
+    "reference/research-summary-20261114.json",
+    "reference/world-construction-20261114.json",
+    "reference/color-study-method.json",
+    "reference/author-workflow.md",
+    "reference/status-audit-20261121.json"
+  ],
+  "layoutTextRuns": 156
+}

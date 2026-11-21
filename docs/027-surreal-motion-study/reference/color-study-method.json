@@ -1,0 +1,62 @@
+{
+  "analyzed_on": "2026-11-12",
+  "reference_id": "grassland-special",
+  "post_url": "https://x.com/hi_personality/status/2115567493565825244",
+  "source_video": "assets/grassland-special/reference.mp4",
+  "source_video_sha256": "96ee847076984d724aafad3857f5008adda835bc56b337ef66c27924acba2f59",
+  "source_time_seconds": 0.1,
+  "source_resolution": [
+    1920,
+    1080
+  ],
+  "source_signal": {
+    "transfer": "arib-std-b67 (HLG)",
+    "primaries": "bt2020",
+    "decoded_pixel_format": "8-bit yuv420p"
+  },
+  "baseline": "Already-graded source frame mapped to SDR with Hable; converted to linear BT.709 RGB then encoded sRGB with an ICC profile. This is not an ungraded source or a camera-RAW exposure reconstruction.",
+  "linear_decode_filter": "zscale=t=linear:npl=100,format=gbrpf32le,tonemap=tonemap=hable:desat=0,zscale=p=bt709:t=linear:m=gbr:r=full,format=gbrpf32le",
+  "exposure_simulation": {
+    "gain_linear_rgb": 2.0,
+    "ev_equivalent": 1.0,
+    "stage": "after SDR tone mapping, display-referred illustration",
+    "clamp_output": [
+      0,
+      1
+    ]
+  },
+  "saturation_simulation": {
+    "factor": 1.4,
+    "axis": "linear BT.709 luminance",
+    "weights": [
+      0.2126,
+      0.7152,
+      0.0722
+    ],
+    "max_luminance_error_before_clamp": 1.7881393432617188e-07,
+    "limits": "Output gamut clipping can change luminance and hue. This is not the DaVinci saturation algorithm or the author's setting."
+  },
+  "hdr_panel": "Exact same baseline SDR picture with annotated regions and a conceptual display-range diagram. No synthetic HDR before/after image or nit measurements.",
+  "geometry": "All three variants preserve the exact 1920x1080 frame and time; diagrams resize uniformly. No crop, warping, content replacement or perspective change in the comparison.",
+  "outputs": [
+    {
+      "name": "baseline-sdr",
+      "file": "assets/color-study/baseline-sdr.png",
+      "sha256": "fe276a71c2f098ad87fb0792482121b772016227021eea90cb226ad623fc4f9b",
+      "out_of_display_rgb_range_pixel_fraction_before_clamp": 0.0
+    },
+    {
+      "name": "exposure-plus-one-ev",
+      "file": "assets/color-study/exposure-plus-one-ev.png",
+      "sha256": "b7c3d8c2453a72c42f51f99af84ad3c536c5d1a03138cb58547dfed6944a639c",
+      "out_of_display_rgb_range_pixel_fraction_before_clamp": 0.39511863425925925
+    },
+    {
+      "name": "saturation-1p4",
+      "file": "assets/color-study/saturation-1p4.png",
+      "sha256": "7364ffbfcdc7178c1b81e85f5602dc33b0ed5af77f4dbee92fd3221a5dbada71",
+      "out_of_display_rgb_range_pixel_fraction_before_clamp": 0.707674575617284
+    }
+  ],
+  "scope": "analysis illustrations only"
+}

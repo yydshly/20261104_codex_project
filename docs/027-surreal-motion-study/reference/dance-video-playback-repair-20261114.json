@@ -1,0 +1,35 @@
+{
+  "cause": "原网络路径连接不畅，原副本截断；直连官方源恢复完整文件，未关闭TLS验证。",
+  "expectedSourceBytes": 30091974,
+  "decodeValidation": "原片完整转码成功；播放版全段严格解码通过，无错误。",
+  "files": {
+    "dance-walk-original.mp4": {
+      "bytes": 30091974,
+      "width": 1080,
+      "height": 1916,
+      "fps": 24.0,
+      "frames": 241.0,
+      "duration": 10.041666666666666,
+      "sha256": "d4012baaa034f39991b0555082aa7c3744b5a8d990be84f9512df2998322820b"
+    },
+    "dance-walk-playable.mp4": {
+      "bytes": 3642579,
+      "width": 722,
+      "height": 1280,
+      "fps": 24.0,
+      "frames": 241.0,
+      "duration": 10.041666666666666,
+      "sha256": "db1bcea3c01dd8a40bdd23dd2f2aa57c9d59c0c01c9781f411a52a77be4e1705"
+    }
+  },
+  "regenerated": false,
+  "browserVerification": {
+    "page": "https://yydshly.github.io/20261104_codex_project/027-surreal-motion-study/#directions",
+    "readyState": 4,
+    "duration": 10.041667,
+    "observedPlaybackTime": 6.412198,
+    "paused": false,
+    "mediaError": null,
+    "screenshot": "reference/dance-video-playback-fixed.jpg"
+  }
+}

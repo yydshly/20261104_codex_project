@@ -1,0 +1,43 @@
+{
+  "generatedOn": "2026-11-13",
+  "timezone": "Asia/Shanghai",
+  "tool": "内置 image_gen",
+  "inputImages": [],
+  "modelVersion": null,
+  "seed": null,
+  "scope": "用户要求继续扩展图片；新增两张静态逆向关系方向图，不追加故事、动态或产品。",
+  "images": [
+    {
+      "id": "shadow",
+      "title": "影桥",
+      "asset": "assets/original-keyframes/shadow-bridge-v1.png",
+      "sourceOutputFile": "exec-ed63364d-0b00-424c-94ec-97d919944337.png",
+      "prompt": "Use case: stylized-concept.\nCreate ONE complete original widescreen cinematic environment concept image, 16:9. Static visual exploration of a reversed rule: \"The shadow is solid; the bridge casting it is intangible.\"\nScene: a sunlit sandstone canyon with a deep blue-grey abyss. A monumental pale-stone arched bridge crosses between two cliffs in the upper-middle distance. This UPPER bridge is visibly ghostlike and translucent: its pale architectural outline, parapets and arches remain readable, while sky and distant cliffs are clearly visible THROUGH its surfaces. Several small loose pebbles fall through a gap in this ghostly deck, subtly emphasizing its lack of solidity.\nBelow and slightly toward the viewer, its sharply outlined DARK SHADOW has detached from any receiving rock surface and spans the open void as a continuous FLAT BLACK PATH. Give the shadow the recognizable projected silhouette of the upper bridge, with parapet shapes at its edges; keep it very thin, charcoal matte, and visibly suspended over empty air, not painted onto a canyon floor. Connect its two ends to small lower ledges in the opposing cliffs. Exactly one small, clearly readable traveler in a muted warm ochre coat walks on this LOWER black shadow-path, BOTH feet aligned to its surface, full body visible, with clear empty air underneath. The person is nowhere on the upper ghost bridge. A foot contact and a few tiny dust flecks on the shadow make the impossible support clear. This is a fantastical world rule, not an optical diagram.\nComposition: an elevated oblique wide view separates the upper translucent bridge from the lower dark pathway so they cannot be confused. Diagonal depth across the canyon, strong negative space in the abyss between the two structures. A near sandstone ledge anchors the lower left; the traveler is small but visually noticeable on the central part of the dark path. Repeating stone arches, cliff strata, distant haze establish scale and depth. One coherent low afternoon sun from upper left; restrained golden stone against cool atmospheric blues. Quiet tension and curiosity, physically textured cliffs and architecture, painterly cinematic realism.\nThe reversal should be visible as one strong image: an empty ghost bridge above, a supported human on its displaced black shadow below.\nNo labels, text, arrows, UI, split panels, logos or watermark. Avoid giant people, multiple travelers, a normal opaque bridge with a person on top, a shadow painted on solid ground, glowing neon paths, busy magical effects or explosions.",
+      "actualMetadata": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "bytes": 2269520,
+        "sha256": "a15f1cbc7d9336443da4323128645d8334ebfa902b33369979013605a8fa20f3"
+      },
+      "observation": "上层透明桥与下层黑色桥形轮廓分离，旅人站在下层。",
+      "limit": "静态图不验证承重。下层黑色轮廓仍可能被读成另一座深色桥，未证明影子的解释必然成立。"
+    },
+    {
+      "id": "fold",
+      "title": "折叠地图长成山脉",
+      "asset": "assets/original-keyframes/folded-map-world-v1.png",
+      "sourceOutputFile": "exec-05f79ea9-51dd-4ce1-9eab-8de5a8c9cae5.png",
+      "prompt": "Use case: stylized-concept.\nCreate ONE original widescreen 16:9 cinematic concept artwork. Static image idea: \"Folding the map creates the mountains.\" A clearly readable transformation of a paper map into an actual landscape.\nAn immense warm ivory paper map lies across an old dark wooden survey table in the close foreground, lit by soft late-morning window light. The near-left part remains completely flat paper with fine unlabelled topographic contour lines and a thin blue ink river. One long deliberate fold lifts out of the map across the center diagonal. Along this SAME continuous ridge, the creased paper visibly becomes layered stone, green foothills and then a magnificent real snow-capped mountain range stretching into the deep distance. Show a legible sequence within one coherent scene: flat ink contours -> sharp folded ivory paper facets -> physical rock strata and forest -> distant alpine peaks.\nA blue ink line crosses the transition: on the paper it is a drawn line, and beyond the crease it becomes a clear flowing river winding through a lush valley. The fold is the geometric cause of the mountain ridge: contours should follow the slopes rather than decorate them randomly. Keep several exposed white-paper edges and folded triangular facets clearly visible among the closer ridges so this cannot read as an ordinary model terrain or a landscape photograph.\nComposition: low oblique tabletop view with strong diagonal depth from lower left flat map to upper right distant mountain range. A single simple brass compass at the paper corner provides scale. No hands or people. The far half of the map expands impossibly into a full atmospheric world, with layered mountain silhouettes and a pale sky beyond, while the near wooden table and paper edges remain unmistakable. Integrate the scale shift seamlessly, not separate panels, no miniature city or toy figurines.\nMood: discovery, precision meeting wonder, calm bright exploration. Pale paper, slate grey mountains, natural sage-green forest, restrained turquoise river and a little warm golden sunlight. Physically tactile paper fibers, stone strata, tiny trees and water. Beautiful cinematic environment concept art with fine details supporting one clear visual idea.\nReverse rule shown visually: the map determines the terrain, rather than merely depicting terrain.\nNo map labels, words, numbers, logos, arrows, diagrams, panels, borders, UI, floating holographic screens, glowing runes, excessive magic particles, multiple unrelated worlds or storms.",
+      "actualMetadata": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "bytes": 3147506,
+        "sha256": "2f356bcca275010a89496a382e114ac258398c68ce1858976dab3e4089a3b856"
+      },
+      "observation": "近处平面等高线与折纸山脊连续过渡到真实山体，蓝墨线接成河流。",
+      "limit": "静态表达地图决定地形的设定，未实现地图操作、地形生成或动画。"
+    }
+  ]
+}
