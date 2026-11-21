@@ -1,0 +1,16 @@
+{
+  "entry": "index.html",
+  "editor": "studio.html",
+  "offline": true,
+  "bytes": 5280435,
+  "editor_bytes": 5319490,
+  "sha256": "3eba18f8986e395aeb0a9e5e84ad0238a28d131dc85468cac6c4e9095708fc1a",
+  "editor_sha256": "850783bf8babc2e19d987082a9fb5823828a82646964f1729bec8fbd9414b9f6",
+  "embedded_assets": 4,
+  "configuration": "brand.config.json",
+  "presets": [
+    "shanbai",
+    "songjian"
+  ],
+  "new_generation_credits": 0
+}

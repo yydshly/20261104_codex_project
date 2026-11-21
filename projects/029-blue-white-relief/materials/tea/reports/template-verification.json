@@ -1,0 +1,34 @@
+{
+  "story": "Edit an existing brand template, replace local media, save/import configuration, export an independent offline page and play its media.",
+  "new_generation_credits": 0,
+  "console_errors": [],
+  "external_requests": [],
+  "live_brand_and_copy": "brand, auto-updated seal, collection, literal angle-bracket text and theme updated in preview",
+  "local_media": "existing WebP and MP4 imported through real file inputs; no upload endpoint",
+  "optional_product": "hidden by default; export blocked without name/image; supplied test fields then rendered",
+  "downloads": {
+    "configuration": "样例茶坊-上新配置.json",
+    "exported_page": "[本机路径已省略]",
+    "contains_local_media": true
+  },
+  "exported_html": "opened from a separate directory with no assets folder; replaced media plays, edited content persists, no editor controls",
+  "config_round_trip": "downloaded JSON restored brand, content, product and local media after loading another preset",
+  "invalid_import": "invalid action URL rejected; current edits retained",
+  "mobile_editor": "390px: edit/preview switches, phone preview and no horizontal overflow",
+  "status": "passed",
+  "layout_follow_up": "reports/template-viewport-check.json",
+  "final_artifacts": {
+    "index.html": {
+      "sha256": "3eba18f8986e395aeb0a9e5e84ad0238a28d131dc85468cac6c4e9095708fc1a",
+      "bytes": 5280435,
+      "external_or_local_dependencies": [],
+      "unique_html_ids": true
+    },
+    "studio.html": {
+      "sha256": "850783bf8babc2e19d987082a9fb5823828a82646964f1729bec8fbd9414b9f6",
+      "bytes": 5319490,
+      "external_or_local_dependencies": [],
+      "unique_html_ids": true
+    }
+  }
+}

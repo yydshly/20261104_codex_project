@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4efe7">
+  <meta name="description" content="山白 · 青山一盏。以青花山水、器物与一缕茶烟，呈现一个虚构茶品牌的春日上新概念。">
+  <title>山白 SHAN BAI｜把春山，留在这一盏。</title>
+  <link rel="stylesheet" href="styles.css">
+  <script id="brand-config" type="application/json">null</script>
+  <script src="brand-data.js" defer></script>
+  <script src="template-core.js" defer></script>
+  <script src="brand-render.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header wrap">
+    <a class="brand" href="#top" aria-label="山白，回到页面顶部">
+      <span class="brand-seal" aria-hidden="true" data-bind="brand.seal">山<br>白</span>
+      <span class="brand-type"><b data-bind="brand.name">山白</b><span data-bind="brand.latin">SHAN BAI</span></span>
+    </a>
+    <nav aria-label="主导航"><a href="#collection">春日新作</a><a href="#landscape">山水之间</a><a href="#ritual">一盏日常</a></nav>
+    <a class="header-link" href="#collection">赏新作 <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="tiny-line"></span><span data-derived="heroEyebrow">山白 · 春日新作</span></div>
+        <h1 id="hero-title"><span class="hero-first" data-bind="copy.heroTop">把春山，</span><br><span data-bind="copy.heroBottom">留在这一盏。</span></h1>
+        <p class="hero-lead" data-bind="copy.heroLead">青花落在器上，山水落在心间。<br>用一缕茶烟，给日常留一点空白。</p>
+        <div class="hero-actions">
+          <button class="button" type="button" data-open-film="teapot"><span class="play-icon" aria-hidden="true">▶</span><span data-bind="copy.heroPlay">看茶烟升起</span></button>
+          <a class="under-link" href="#collection"><span data-bind="copy.heroLearn">认识青山一盏</span> <span aria-hidden="true">↘</span></a>
+        </div>
+        <p class="hero-edition" data-derived="heroEdition">青山一盏 / 春日茶席系列 / CONCEPT 01</p>
+      </div>
+      <div class="hero-art">
+        <span class="art-index">A MOMENT, IN PORCELAIN.</span>
+        <video id="hero-film" class="hero-video" muted playsinline autoplay preload="metadata" poster="../media/assets__generated__teapot.webp" aria-label="青花茶器主视觉，壶盖上方有轻薄蒸汽"><source src="../media/assets__ai-video__teapot-v2-exposure-matched.mp4" type="video/mp4"></video>
+        <div class="art-caption"><span data-bind="copy.artCaption">釉白为底 · 青蓝为山</span><button class="film-toggle" type="button" data-toggle-film="hero-film" aria-label="暂停茶器影像"><span data-film-symbol aria-hidden="true">Ⅱ</span><span data-film-label>暂停影像</span></button></div>
+        <div class="round-seal" aria-hidden="true"><span data-bind="copy.sealTop">山水</span><i></i><span data-bind="copy.sealBottom">入盏</span></div>
+        <span class="film-line" aria-hidden="true"><i id="hero-progress"></i></span>
+      </div>
+      <div class="hero-bottom"><span data-bind="copy.heroFoot">茶有余温，日子有留白。</span><span>TEA, AT YOUR OWN PACE.</span><a href="#collection" aria-label="向下查看春日新作">向下慢看 <span aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <section class="collection wrap" id="collection" aria-labelledby="collection-title">
+      <div class="section-label"><span>01 / THE COLLECTION</span><span data-derived="collectionLabel">本季新作 · 青山一盏</span></div>
+      <div class="collection-intro"><p class="small-vertical" aria-hidden="true" data-bind="copy.collectionSide">一器见山川</p><h2 id="collection-title"><span data-bind="copy.collectionTop">青花入境，</span><br><em data-bind="copy.collectionBottom">春山入席。</em></h2><p data-bind="copy.collectionIntro">以一幅青花山水，想象这一季的茶席。<br>不急着填满时间，也给自己一点慢下来的余地。</p></div>
+      <div class="detail-strip">
+        <figure><div class="detail-image detail-relief"><img data-image-role="teapotImage" src="../media/assets__generated__teapot.webp" alt="茶器腹部的青蓝山川浮雕" loading="lazy" width="1448" height="1086"></div><figcaption><span data-bind="copy.detail1Label">01 / 青蓝</span><h3 data-bind="copy.detail1Title">山色，有了层次。</h3><p data-bind="copy.detail1Body">深浅之间，山川沿着器身展开。</p></figcaption></figure>
+        <figure><div class="detail-image detail-lid"><img data-image-role="teapotImage" src="../media/assets__generated__teapot.webp" alt="茶器壶盖与上方的暖白留白" loading="lazy" width="1448" height="1086"></div><figcaption><span data-bind="copy.detail2Label">02 / 釉白</span><h3 data-bind="copy.detail2Title">留白，有了温度。</h3><p data-bind="copy.detail2Body">一缕轻汽，让静物多一点呼吸。</p></figcaption></figure>
+        <figure><div class="detail-image detail-handle"><img data-image-role="teapotImage" src="../media/assets__generated__teapot.webp" alt="青花茶器的壶把和侧面轮廓" loading="lazy" width="1448" height="1086"></div><figcaption><span data-bind="copy.detail3Label">03 / 器形</span><h3 data-bind="copy.detail3Title">日常，有了从容。</h3><p data-bind="copy.detail3Body">把山水的想象，安放在一席之间。</p></figcaption></figure>
+      </div>
+    </section>
+
+    <section id="product-section" class="product-section wrap" hidden aria-labelledby="product-title"><div class="section-label"><span>THE PRODUCT</span><span data-bind="campaign.name"></span></div><div class="product-layout"><figure><img id="product-image" alt="本季商品图片" loading="lazy"></figure><div><p class="eyebrow" data-bind="brand.name"></p><h2 id="product-title" data-bind="product.name"></h2><p class="product-intro" data-bind="product.intro" data-optional="product.intro"></p><dl class="product-info"><div data-optional="product.spec"><dt>规格</dt><dd data-bind="product.spec"></dd></div><div data-optional="product.price"><dt>价格</dt><dd data-bind="product.price"></dd></div></dl><a class="under-link product-action" target="_blank" rel="noopener noreferrer" hidden></a></div></div></section>
+
+    <section class="landscape-section" id="landscape" aria-labelledby="landscape-title">
+      <div class="landscape-layout wrap">
+        <div class="landscape-art"><video id="landscape-film" muted playsinline preload="metadata" poster="../media/assets__generated__landscape.webp" aria-label="青花微缩山水，瀑布与水面轻微流动"><source src="../media/assets__ai-video__landscape-v2-exposure-matched.mp4" type="video/mp4"></video><button class="landscape-play" data-toggle-film="landscape-film" type="button" aria-label="播放山水影像"><span data-film-symbol aria-hidden="true">▶</span><span data-film-label>看山水流动</span></button><span class="landscape-stamp" aria-hidden="true">山有声<br>心有闲</span></div>
+        <div class="landscape-copy"><div class="eyebrow">02 / BETWEEN MOUNTAINS</div><h2 id="landscape-title"><span data-bind="copy.storyTop">山水很远。</span><br><em data-bind="copy.storyBottom">一盏，就很近。</em></h2><p class="story-lead" data-bind="copy.storyLead">山白想留住的，是看山时的那一点清静。</p><p data-bind="copy.storyBody">让青蓝沿着山脊舒展，让暖白成为水与雾。再把这份疏密有致的山水，带进茶器，带到桌前。</p><div class="story-note"><span data-bind="copy.storyNoteLabel">山水入器</span><p data-bind="copy.storyNote">从远处的春山，<br>到此刻的一席。</p></div><button class="under-link" type="button" data-open-film="landscape"><span data-bind="copy.storyPlay">看一段山水</span> <span aria-hidden="true">↗</span></button></div>
+      </div>
+    </section>
+
+    <section class="ritual-section" id="ritual" aria-labelledby="ritual-title">
+      <div class="wrap"><div class="section-label"><span>03 / A DAILY RITUAL</span><span>这一盏，留给今天的你</span></div><div class="ritual-heading"><h2 id="ritual-title" data-bind="copy.ritualTitle">不必等一个<br>特别的日子。</h2><p data-bind="copy.ritualIntro">独坐、对谈，或有朋友来。<br>一席茶，就从眼前开始。</p></div>
+        <div class="ritual-body"><div class="ritual-content"><div class="ritual-tabs" role="tablist" aria-label="选择茶席时刻"><button id="tab-alone" role="tab" aria-selected="true" aria-controls="panel-alone" tabindex="0" type="button" data-bind="copy.scene1Name">一人独坐</button><button id="tab-together" role="tab" aria-selected="false" aria-controls="panel-together" tabindex="-1" type="button" data-bind="copy.scene2Name">两人对谈</button><button id="tab-guests" role="tab" aria-selected="false" aria-controls="panel-guests" tabindex="-1" type="button" data-bind="copy.scene3Name">春日待客</button></div>
+          <div id="panel-alone" class="ritual-panel" role="tabpanel" aria-labelledby="tab-alone" tabindex="0"><span class="ritual-time">A LITTLE TIME, JUST FOR YOU.</span><h3 data-bind="copy.scene1Title">把一段空白，<br>还给自己。</h3><p data-bind="copy.scene1Body">放下手边的事，坐一会儿。<br>等一缕热气升起，等这一刻慢下来。</p><div class="ritual-steps" data-bind="copy.scene1Steps"><span>收起屏幕</span><i>—</i><span>留一席空</span><i>—</i><span>慢饮一盏</span></div></div>
+          <div id="panel-together" class="ritual-panel" role="tabpanel" aria-labelledby="tab-together" tabindex="0" hidden><span class="ritual-time">GOOD TEA. UNHURRIED WORDS.</span><h3 data-bind="copy.scene2Title">有些话，<br>可以慢慢说。</h3><p data-bind="copy.scene2Body">隔着一席山水，坐近一点。<br>茶烟轻轻升起，话题也有自己的去处。</p><div class="ritual-steps" data-bind="copy.scene2Steps"><span>添一张椅</span><i>—</i><span>分一盏茶</span><i>—</i><span>聊一阵春天</span></div></div>
+          <div id="panel-guests" class="ritual-panel" role="tabpanel" aria-labelledby="tab-guests" tabindex="0" hidden><span class="ritual-time">A SMALL GATHERING, A WARM WELCOME.</span><h3 data-bind="copy.scene3Title">以一席春山，<br>迎一个来客。</h3><p data-bind="copy.scene3Body">不必隆重，把桌面收拾清爽就好。<br>留几处空位，让朋友与春意一起入席。</p><div class="ritual-steps" data-bind="copy.scene3Steps"><span>理一张桌</span><i>—</i><span>添几只杯</span><i>—</i><span>等朋友来</span></div></div>
+        </div><div class="ritual-poem" aria-hidden="true"><span data-bind="copy.poemCaption">茶有余温</span><strong data-bind="copy.poemText">日子<br>有留白</strong><i data-bind="brand.name">山白</i></div></div>
+      </div>
+    </section>
+
+    <section class="closing wrap" aria-labelledby="closing-title"><span class="eyebrow" data-derived="closingLabel">SHAN BAI / 青山一盏</span><h2 id="closing-title" data-bind="copy.closingTitle">此刻，给自己一盏。</h2><p data-bind="copy.closingIntro">把这一页春山，留在今天。</p><div class="closing-actions"><a class="button" id="brand-action" hidden target="_blank" rel="noopener noreferrer"></a><a class="button" id="brand-download" href="../media/assets__generated__teapot.webp" download="山白-青山一盏-茶器主视觉.webp"><span data-bind="copy.downloadLabel">保存春日图景</span> <span aria-hidden="true">↓</span></a><button type="button" class="under-link" data-open-film="teapot"><span data-bind="copy.closingPlay">再看一缕茶烟</span> <span aria-hidden="true">↗</span></button></div><span class="closing-word" aria-hidden="true" data-bind="brand.name">山 白</span></section>
+  </main>
+
+  <footer class="site-footer wrap"><div><a class="footer-brand" href="#top" data-derived="brandFull">山白 SHAN BAI</a><p data-bind="brand.tagline">一盏茶，一点留白。</p></div><p class="demo-note" data-bind="brand.notice">虚构茶品牌 · 上新概念展示样板<br>页面中的品牌与系列为创作概念，非在售商品。</p><a href="#top" class="back-top">回到页首 ↑</a></footer>
+
+  <dialog id="film-dialog" class="film-dialog" aria-labelledby="film-dialog-title"><div class="dialog-head"><div><span class="eyebrow" data-derived="filmLabel">SHAN BAI / MOVING STILLNESS</span><h2 id="film-dialog-title">一缕茶烟，一点留白。</h2></div><button type="button" class="dialog-close" aria-label="关闭影像">×</button></div><video id="dialog-film" controls muted playsinline preload="none" poster="../media/assets__generated__teapot.webp" aria-label="山白品牌动态影像"></video><p class="dialog-foot">影像会在片尾停留。可以重播，也可以留在这一刻。</p></dialog>
+  <noscript><p class="noscript-note">请启用 JavaScript 以查看内嵌影像和页面交互。</p></noscript>
+</body>
+</html>

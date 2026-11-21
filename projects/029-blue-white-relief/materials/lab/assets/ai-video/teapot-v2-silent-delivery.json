@@ -1,0 +1,10 @@
+{
+  "raw": "assets/ai-video/teapot-v2.mp4",
+  "derived": "assets/ai-video/teapot-v2-silent.mp4",
+  "sha256": "7b45b3cecca1affcf96d2cffa456f66795ebcf06269bc96fba5a24930f44ddb3",
+  "method": "FFmpeg stream copy of video; audio removed; raw AI output preserved",
+  "compressed_video_payload_hash": "SHA256=acbd633658202bf5e3612e542d8c4715313f0e5916a6ea72114634b6148c9b78",
+  "video_payload_matches_raw": true,
+  "full_decode": "passed",
+  "audio_stream_present": false
+}

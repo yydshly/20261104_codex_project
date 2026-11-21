@@ -1,0 +1,23 @@
+{
+  "created": "2026-11-14T16:43:18.483Z",
+  "study": "teapot",
+  "method": "web procedural overlay on generated still; no AI video generation",
+  "settings": {
+    "study": "teapot",
+    "strength": 0.9,
+    "speed": 1.45,
+    "space": 0.03,
+    "paused": false,
+    "regions": true,
+    "time": 50.18217499999961
+  },
+  "input_image": "assets/generated/teapot.png",
+  "actual_image_prompt": "Use case: stylized-concept. Asset: actual original visual study for a local art direction website, a coherent series of blue-and-white porcelain relief art. Text-to-image only; no image references are supplied. Warm ivory empty background, cobalt blue accents following structural folds, pale blue distance, tactile porcelain glaze with controlled soft highlights and convincing contact shadows, detailed yet restrained, quiet and elegant. No text, letters, labels, logos, watermarks, graphic borders or split panels. Create a polished full composition with generous breathing space. Landscape 4:3 product-art composition, three quarter front view of one functional round porcelain teapot on warm ivory. Spout clearly on the left, large open handle on the right, intact lid above, stable foot below, recognizable generous round silhouette. A sculptural micro-landscape relief grows only over the front belly, several flowing cobalt and white ridges and one tiny pine; the mountain layers follow the curvature of the pot. A continuous white glazed recessed channel connects the relief layers. Preserve the spout opening, lid seam and handle loop clearly. Keep the pot functional and readable, no mountain replacing the entire pot. Gentle tiny steam wisp above lid. Side studio light, subtle shadow. Pot occupies central 65 percent with clean margins.",
+  "allowed_motion": "只在壶盖上方叠加轻缓上升的蒸汽提示；壶嘴、把手、浮雕与青蓝纹样保持固定。",
+  "source_reference": "http[本机路径已省略]",
+  "limits": [
+    "single sample",
+    "fixed image; no 3D camera",
+    "video generation not tested"
+  ]
+}

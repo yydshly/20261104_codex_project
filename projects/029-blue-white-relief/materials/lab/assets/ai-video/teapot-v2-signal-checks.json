@@ -1,0 +1,539 @@
+{
+  "audio_stream_present": true,
+  "volume": {
+    "mean_volume": "-49.7 dB",
+    "max_volume": "-28.5 dB"
+  },
+  "audio_samples": {
+    "decoded_float_samples": 325632,
+    "nonzero_samples": 325632,
+    "peak_absolute": 0.03750445321202278
+  },
+  "background_roi_normalized": [
+    0.02,
+    0.02,
+    0.15,
+    0.2
+  ],
+  "background_samples": [
+    {
+      "time": 0,
+      "background_gray_mean": 227.68
+    },
+    {
+      "time": 0.0417,
+      "background_gray_mean": 213.78
+    },
+    {
+      "time": 0.2083,
+      "background_gray_mean": 188.3
+    },
+    {
+      "time": 1.25,
+      "background_gray_mean": 185.62
+    },
+    {
+      "time": 2.5,
+      "background_gray_mean": 185.32
+    },
+    {
+      "time": 3.75,
+      "background_gray_mean": 185.27
+    },
+    {
+      "time": 5.0,
+      "background_gray_mean": 185.5
+    }
+  ],
+  "all_frame_background_samples": [
+    {
+      "time": 0.0,
+      "background_gray_mean": 227.68
+    },
+    {
+      "time": 0.0417,
+      "background_gray_mean": 213.78
+    },
+    {
+      "time": 0.0833,
+      "background_gray_mean": 198.07
+    },
+    {
+      "time": 0.125,
+      "background_gray_mean": 189.73
+    },
+    {
+      "time": 0.1667,
+      "background_gray_mean": 187.4
+    },
+    {
+      "time": 0.2083,
+      "background_gray_mean": 188.3
+    },
+    {
+      "time": 0.25,
+      "background_gray_mean": 187.21
+    },
+    {
+      "time": 0.2917,
+      "background_gray_mean": 187.81
+    },
+    {
+      "time": 0.3333,
+      "background_gray_mean": 187.97
+    },
+    {
+      "time": 0.375,
+      "background_gray_mean": 187.5
+    },
+    {
+      "time": 0.4167,
+      "background_gray_mean": 186.71
+    },
+    {
+      "time": 0.4583,
+      "background_gray_mean": 186.6
+    },
+    {
+      "time": 0.5,
+      "background_gray_mean": 186.68
+    },
+    {
+      "time": 0.5417,
+      "background_gray_mean": 186.61
+    },
+    {
+      "time": 0.5833,
+      "background_gray_mean": 186.16
+    },
+    {
+      "time": 0.625,
+      "background_gray_mean": 186.08
+    },
+    {
+      "time": 0.6667,
+      "background_gray_mean": 186.18
+    },
+    {
+      "time": 0.7083,
+      "background_gray_mean": 186.08
+    },
+    {
+      "time": 0.75,
+      "background_gray_mean": 185.97
+    },
+    {
+      "time": 0.7917,
+      "background_gray_mean": 185.88
+    },
+    {
+      "time": 0.8333,
+      "background_gray_mean": 186.01
+    },
+    {
+      "time": 0.875,
+      "background_gray_mean": 185.64
+    },
+    {
+      "time": 0.9167,
+      "background_gray_mean": 185.73
+    },
+    {
+      "time": 0.9583,
+      "background_gray_mean": 185.72
+    },
+    {
+      "time": 1.0,
+      "background_gray_mean": 185.88
+    },
+    {
+      "time": 1.0417,
+      "background_gray_mean": 185.3
+    },
+    {
+      "time": 1.0833,
+      "background_gray_mean": 185.43
+    },
+    {
+      "time": 1.125,
+      "background_gray_mean": 185.43
+    },
+    {
+      "time": 1.1667,
+      "background_gray_mean": 185.59
+    },
+    {
+      "time": 1.2083,
+      "background_gray_mean": 185.62
+    },
+    {
+      "time": 1.25,
+      "background_gray_mean": 185.62
+    },
+    {
+      "time": 1.2917,
+      "background_gray_mean": 185.6
+    },
+    {
+      "time": 1.3333,
+      "background_gray_mean": 185.74
+    },
+    {
+      "time": 1.375,
+      "background_gray_mean": 185.45
+    },
+    {
+      "time": 1.4167,
+      "background_gray_mean": 185.56
+    },
+    {
+      "time": 1.4583,
+      "background_gray_mean": 185.45
+    },
+    {
+      "time": 1.5,
+      "background_gray_mean": 185.65
+    },
+    {
+      "time": 1.5417,
+      "background_gray_mean": 185.54
+    },
+    {
+      "time": 1.5833,
+      "background_gray_mean": 185.66
+    },
+    {
+      "time": 1.625,
+      "background_gray_mean": 185.62
+    },
+    {
+      "time": 1.6667,
+      "background_gray_mean": 185.75
+    },
+    {
+      "time": 1.7083,
+      "background_gray_mean": 185.5
+    },
+    {
+      "time": 1.75,
+      "background_gray_mean": 185.6
+    },
+    {
+      "time": 1.7917,
+      "background_gray_mean": 185.54
+    },
+    {
+      "time": 1.8333,
+      "background_gray_mean": 185.68
+    },
+    {
+      "time": 1.875,
+      "background_gray_mean": 185.76
+    },
+    {
+      "time": 1.9167,
+      "background_gray_mean": 185.8
+    },
+    {
+      "time": 1.9583,
+      "background_gray_mean": 185.83
+    },
+    {
+      "time": 2.0,
+      "background_gray_mean": 185.95
+    },
+    {
+      "time": 2.0417,
+      "background_gray_mean": 185.62
+    },
+    {
+      "time": 2.0833,
+      "background_gray_mean": 185.68
+    },
+    {
+      "time": 2.125,
+      "background_gray_mean": 185.63
+    },
+    {
+      "time": 2.1667,
+      "background_gray_mean": 185.72
+    },
+    {
+      "time": 2.2083,
+      "background_gray_mean": 185.54
+    },
+    {
+      "time": 2.25,
+      "background_gray_mean": 185.7
+    },
+    {
+      "time": 2.2917,
+      "background_gray_mean": 185.66
+    },
+    {
+      "time": 2.3333,
+      "background_gray_mean": 185.75
+    },
+    {
+      "time": 2.375,
+      "background_gray_mean": 185.19
+    },
+    {
+      "time": 2.4167,
+      "background_gray_mean": 185.23
+    },
+    {
+      "time": 2.4583,
+      "background_gray_mean": 185.23
+    },
+    {
+      "time": 2.5,
+      "background_gray_mean": 185.32
+    },
+    {
+      "time": 2.5417,
+      "background_gray_mean": 185.51
+    },
+    {
+      "time": 2.5833,
+      "background_gray_mean": 185.64
+    },
+    {
+      "time": 2.625,
+      "background_gray_mean": 185.63
+    },
+    {
+      "time": 2.6667,
+      "background_gray_mean": 185.73
+    },
+    {
+      "time": 2.7083,
+      "background_gray_mean": 185.61
+    },
+    {
+      "time": 2.75,
+      "background_gray_mean": 185.67
+    },
+    {
+      "time": 2.7917,
+      "background_gray_mean": 185.69
+    },
+    {
+      "time": 2.8333,
+      "background_gray_mean": 185.77
+    },
+    {
+      "time": 2.875,
+      "background_gray_mean": 185.79
+    },
+    {
+      "time": 2.9167,
+      "background_gray_mean": 185.87
+    },
+    {
+      "time": 2.9583,
+      "background_gray_mean": 185.86
+    },
+    {
+      "time": 3.0,
+      "background_gray_mean": 185.95
+    },
+    {
+      "time": 3.0417,
+      "background_gray_mean": 185.76
+    },
+    {
+      "time": 3.0833,
+      "background_gray_mean": 185.85
+    },
+    {
+      "time": 3.125,
+      "background_gray_mean": 185.78
+    },
+    {
+      "time": 3.1667,
+      "background_gray_mean": 185.87
+    },
+    {
+      "time": 3.2083,
+      "background_gray_mean": 185.64
+    },
+    {
+      "time": 3.25,
+      "background_gray_mean": 185.73
+    },
+    {
+      "time": 3.2917,
+      "background_gray_mean": 185.69
+    },
+    {
+      "time": 3.3333,
+      "background_gray_mean": 185.76
+    },
+    {
+      "time": 3.375,
+      "background_gray_mean": 185.5
+    },
+    {
+      "time": 3.4167,
+      "background_gray_mean": 185.61
+    },
+    {
+      "time": 3.4583,
+      "background_gray_mean": 185.58
+    },
+    {
+      "time": 3.5,
+      "background_gray_mean": 185.68
+    },
+    {
+      "time": 3.5417,
+      "background_gray_mean": 185.35
+    },
+    {
+      "time": 3.5833,
+      "background_gray_mean": 185.44
+    },
+    {
+      "time": 3.625,
+      "background_gray_mean": 185.45
+    },
+    {
+      "time": 3.6667,
+      "background_gray_mean": 185.5
+    },
+    {
+      "time": 3.7083,
+      "background_gray_mean": 185.18
+    },
+    {
+      "time": 3.75,
+      "background_gray_mean": 185.27
+    },
+    {
+      "time": 3.7917,
+      "background_gray_mean": 185.31
+    },
+    {
+      "time": 3.8333,
+      "background_gray_mean": 185.4
+    },
+    {
+      "time": 3.875,
+      "background_gray_mean": 185.49
+    },
+    {
+      "time": 3.9167,
+      "background_gray_mean": 185.57
+    },
+    {
+      "time": 3.9583,
+      "background_gray_mean": 185.65
+    },
+    {
+      "time": 4.0,
+      "background_gray_mean": 185.71
+    },
+    {
+      "time": 4.0417,
+      "background_gray_mean": 185.46
+    },
+    {
+      "time": 4.0833,
+      "background_gray_mean": 185.52
+    },
+    {
+      "time": 4.125,
+      "background_gray_mean": 185.55
+    },
+    {
+      "time": 4.1667,
+      "background_gray_mean": 185.61
+    },
+    {
+      "time": 4.2083,
+      "background_gray_mean": 185.24
+    },
+    {
+      "time": 4.25,
+      "background_gray_mean": 185.35
+    },
+    {
+      "time": 4.2917,
+      "background_gray_mean": 185.28
+    },
+    {
+      "time": 4.3333,
+      "background_gray_mean": 185.39
+    },
+    {
+      "time": 4.375,
+      "background_gray_mean": 185.24
+    },
+    {
+      "time": 4.4167,
+      "background_gray_mean": 185.34
+    },
+    {
+      "time": 4.4583,
+      "background_gray_mean": 185.35
+    },
+    {
+      "time": 4.5,
+      "background_gray_mean": 185.44
+    },
+    {
+      "time": 4.5417,
+      "background_gray_mean": 185.4
+    },
+    {
+      "time": 4.5833,
+      "background_gray_mean": 185.43
+    },
+    {
+      "time": 4.625,
+      "background_gray_mean": 185.48
+    },
+    {
+      "time": 4.6667,
+      "background_gray_mean": 185.57
+    },
+    {
+      "time": 4.7083,
+      "background_gray_mean": 185.39
+    },
+    {
+      "time": 4.75,
+      "background_gray_mean": 185.46
+    },
+    {
+      "time": 4.7917,
+      "background_gray_mean": 185.45
+    },
+    {
+      "time": 4.8333,
+      "background_gray_mean": 185.54
+    },
+    {
+      "time": 4.875,
+      "background_gray_mean": 186.07
+    },
+    {
+      "time": 4.9167,
+      "background_gray_mean": 185.19
+    },
+    {
+      "time": 4.9583,
+      "background_gray_mean": 185.47
+    },
+    {
+      "time": 5.0,
+      "background_gray_mean": 185.5
+    }
+  ],
+  "background_range": [
+    185.18,
+    227.68
+  ],
+  "note": "Brightness and audio signal measures are supporting evidence, not perceptual or geometric ground truth."
+}

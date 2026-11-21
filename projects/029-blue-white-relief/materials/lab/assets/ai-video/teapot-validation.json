@@ -1,0 +1,147 @@
+{
+  "date": "2026-11-15",
+  "job": "teapot",
+  "task_id": "1059592",
+  "provider": "ChatArt",
+  "model": "Seedance 2.0",
+  "input_role": "first_frame",
+  "input_image": "assets/generated/teapot.png",
+  "input_sha256": "83f53807aa2a8970c548859f94212a2b023d73576aacdd9f7d0e826c24c46add",
+  "prompt_file": "prompts/ai-teapot-v1.txt",
+  "prompt": "Use the supplied image as the exact opening frame and visual anchor. Create one continuous five-second locked-camera shot of this blue-and-white porcelain teapot. Preserve the complete teapot silhouette, spout opening, open handle loop, lid seam, round body, foot, landscape relief, tiny pine tree, cobalt decoration, lighting, background and negative space.\n\nAnimate only the existing faint steam above the lid knob. The steam rises slowly from the same origin, gently curls, thins and dissipates. Keep it delicate, translucent and small enough to leave the knob and lid readable. The teapot, lid, relief mountains, white glazed channels and all painted patterns remain absolutely still. No water pours from the spout, no liquid flows over the relief, and the lid does not lift.\n\nNo camera movement, zoom, object rotation, cuts or transition. No wobbling geometry, breathing body, distorted spout or handle, pattern sliding, moving miniature trees, changing highlights, extra objects, color flicker or billowing smoke. No text, subtitles, music, speech or sound effects. The purpose is to test subtle steam motion while porcelain geometry and surface identity remain stable.\n",
+  "requested": {
+    "id": "teapot",
+    "task_type": "i2v",
+    "input_mode": "first_last_frames",
+    "input_role": "first_frame",
+    "input_sha256": "83f53807aa2a8970c548859f94212a2b023d73576aacdd9f7d0e826c24c46add",
+    "prompt_sha256": "8132a0f99fbf1cd26d264f6c0a3ba7a974e10c1fd25e8d9a935246cd51f760f0",
+    "model": "Seedance 2.0",
+    "resolution": 720,
+    "duration": 5,
+    "aspect_ratio": "4:3",
+    "sound": false,
+    "count": 1,
+    "estimated_credits": 90,
+    "status": "approved_ready_to_submit"
+  },
+  "video": "assets/ai-video/teapot-v1.mp4",
+  "sha256": "63e2e297d6d84a66b28043de0b4d14ebb863795e62300bb337dac2d274a6dc99",
+  "bytes": 2889055,
+  "width": 1112,
+  "height": 834,
+  "fps": 24.0,
+  "frame_count": 121,
+  "decoded_frames": 121,
+  "duration": 5.041666666666667,
+  "full_decode": "passed",
+  "audio_stream_present": true,
+  "actual_credits": "75",
+  "contact_sheet": "assets/ai-video/teapot-contact.jpg",
+  "anchor_sheet": "assets/ai-video/teapot-anchors.jpg",
+  "sample_times": [
+    0,
+    1.25,
+    2.5,
+    3.75,
+    4.96
+  ],
+  "visual_review_status": "reviewed",
+  "visual_observations": [
+    "首帧保留茶壶、壶嘴、把手、盖缝与浮雕构图；实际输出为1112×834、5.04秒、24fps。",
+    "第二轮放大复核显示，第一轮约3秒仍有细丝，4–5秒难以辨认；未达到全段持续可辨的升汽目标。此前将减弱时间概括为约2秒，判断偏早，现按局部对照修正。",
+    "25帧序列与起止局部对照中未见明显壶嘴、把手变形或浮雕换形。辅助特征跟踪最大中位位移约为图宽0.14%，该量只作图像层面的参考。",
+    "开场约0.21秒即明显变暗。选定背景区域的灰度均值由227.69降至186.78，之后接近稳定；不满足首帧光色全程不变的要求。",
+    "已请求无声，但这版脚本固定发送开启音轨的参数。返回文件含非零音轨（峰值-32dB），未听审具体内容；对比默认静音，原件保留。"
+  ],
+  "method": "Unmodified AI original copied byte-for-byte; JPEG derivatives are analysis frames, not generated video replacements",
+  "query_transport_note": "Official CLI query with duplicate GET body omitted; question_id remains in the original URL. No resubmission.",
+  "filmstrip": "assets/ai-video/teapot-filmstrip.jpg",
+  "filmstrip_times": [
+    0.0,
+    0.20833333333333334,
+    0.4166666666666667,
+    0.625,
+    0.8333333333333334,
+    1.0416666666666667,
+    1.25,
+    1.4583333333333333,
+    1.6666666666666667,
+    1.875,
+    2.0833333333333335,
+    2.2916666666666665,
+    2.5,
+    2.7083333333333335,
+    2.9166666666666665,
+    3.125,
+    3.3333333333333335,
+    3.5416666666666665,
+    3.75,
+    3.9583333333333335,
+    4.166666666666667,
+    4.375,
+    4.583333333333333,
+    4.791666666666667,
+    5.0
+  ],
+  "actual_sound_request_note": "CLI --sound false was requested, but the installed i2v builder fixed the submitted body to sound=1. Returned audio track status is reported separately.",
+  "review_method": "25 chronological sampled frames, first/last anchor crops, all-frame image-feature displacement, full video/audio decode; audio content not listened to",
+  "verdict": "壶形保住了，蒸汽还不够持续。",
+  "summary": "第一轮约3秒仍能辨认细蒸汽，4–5秒的放大检查帧中已难以辨认，未覆盖完整5秒。壶嘴、把手、盖缝与山水浮雕整体保持，开场发生了明显曝光下降。",
+  "next_revision": "保持现有壶形、纹样与固定机位。只修改两点：5秒内持续从同一出口补充少量可见的细蒸汽；锁定首帧曝光、色温和高光，禁止开场重新调光。",
+  "criteria": [
+    {
+      "name": "首帧与主体识别",
+      "status": "passed",
+      "label": "基本成立",
+      "observation": "首帧保留茶壶、壶嘴、把手、盖缝与浮雕构图；实际输出为1112×834、5.04秒、24fps。"
+    },
+    {
+      "name": "蒸汽持续性",
+      "status": "partial",
+      "label": "有偏差",
+      "observation": "第二轮放大复核显示，第一轮约3秒仍有细丝，4–5秒难以辨认；未达到全段持续可辨的升汽目标。此前将减弱时间概括为约2秒，判断偏早，现按局部对照修正。"
+    },
+    {
+      "name": "壶体结构与纹样",
+      "status": "passed",
+      "label": "本段基本稳定",
+      "observation": "25帧序列与起止局部对照中未见明显壶嘴、把手变形或浮雕换形。辅助特征跟踪最大中位位移约为图宽0.14%，该量只作图像层面的参考。"
+    },
+    {
+      "name": "曝光与材质明暗",
+      "status": "partial",
+      "label": "有偏差",
+      "observation": "开场约0.21秒即明显变暗。选定背景区域的灰度均值由227.69降至186.78，之后接近稳定；不满足首帧光色全程不变的要求。"
+    },
+    {
+      "name": "无声要求",
+      "status": "failed",
+      "label": "未达要求",
+      "observation": "已请求无声，但这版脚本固定发送开启音轨的参数。返回文件含非零音轨（峰值-32dB），未听审具体内容；对比默认静音，原件保留。"
+    }
+  ],
+  "feature_report": "reports/ai-review/teapot-motion-features.json",
+  "signal_report": "assets/ai-video/teapot-signal-checks.json",
+  "actual_submitted_api_parameters": {
+    "gpt_type": "seedance-2.0",
+    "original_model": "seedance-2.0",
+    "function_mode": "first_last_frames",
+    "quality": "720p",
+    "ratio": "4:3",
+    "duration": "5",
+    "sound": 1
+  },
+  "actual_input_image_count": 1,
+  "review_revisions": [
+    {
+      "date": "2026-11-15",
+      "reason": "Magnified v1/v2 steam comparison clarifies timing; raw original is unchanged.",
+      "before": {
+        "summary": "开头可以辨认蒸汽舒展，约 2 秒后逐渐变弱，在后半段检查帧中很难辨认。壶嘴、把手、盖缝与山水浮雕整体保持，开场却发生了明显的曝光变化。",
+        "steam_observation": "约0–1.9秒可见蒸汽形状变化，约2秒后趋弱或消失；未达到全段持续可辨的升汽目标。"
+      },
+      "evidence": "assets/ai-video/teapot-v1-v2-steam.jpg"
+    }
+  ]
+}

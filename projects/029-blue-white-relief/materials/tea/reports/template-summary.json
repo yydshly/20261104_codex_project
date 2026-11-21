@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "editor": "studio.html",
+  "visitor_example": "index.html",
+  "configuration": "brand.config.json",
+  "alternate_preset": "presets/songjian.json",
+  "new_generation_credits": 0,
+  "new_generation_tasks": 0,
+  "asset_hashes_preserved": true,
+  "embedded_assets": 4,
+  "checks": {
+    "index.html": {
+      "sha256": "3eba18f8986e395aeb0a9e5e84ad0238a28d131dc85468cac6c4e9095708fc1a",
+      "bytes": 5280435,
+      "external_or_local_dependencies": [],
+      "unique_html_ids": true
+    },
+    "studio.html": {
+      "sha256": "850783bf8babc2e19d987082a9fb5823828a82646964f1729bec8fbd9414b9f6",
+      "bytes": 5319490,
+      "external_or_local_dependencies": [],
+      "unique_html_ids": true
+    }
+  },
+  "browser_checks": "reports/template-verification.json",
+  "viewport_check": "reports/template-viewport-check.json",
+  "real_product_validation": "not performed; user-supplied product data and images are required",
+  "scope": "Local editing, live preview, configuration download/import, standalone visitor-page export; no hosting, checkout or generation service."
+}

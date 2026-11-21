@@ -1,0 +1,31 @@
+{
+  "story": "Open the offline tea launch page, view existing motion, open/close films, choose a tea moment and download the visual.",
+  "new_generation_credits": 0,
+  "browser": "isolated headless Chrome; no existing user browser or native UI controlled",
+  "console_errors": [],
+  "requests_failed": [],
+  "desktop_media": {
+    "currentTime": 0.469,
+    "duration": 5.041667,
+    "width": 1112,
+    "height": 834,
+    "muted": true,
+    "error": null
+  },
+  "teapot_dialog": "playback, Escape close, pause and focus return passed",
+  "landscape": "inline visibility playback, large film and close passed",
+  "ritual_tabs": "click and ArrowRight keyboard selection passed",
+  "download": {
+    "filename": "山白-青山一盏-茶器主视觉.webp",
+    "status": "passed"
+  },
+  "mobile": {
+    "viewport": 390,
+    "body": 390,
+    "title": "山白 SHAN BAI｜把春山，留在这一盏。",
+    "reduced_motion_paused": true,
+    "external_dependencies": []
+  },
+  "offline_file": "fil[本机路径已省略] entry: media playback, dialog, scene selection and zero external dependencies passed",
+  "status": "passed"
+}

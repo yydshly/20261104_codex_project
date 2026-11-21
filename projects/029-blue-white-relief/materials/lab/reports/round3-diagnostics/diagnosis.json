@@ -1,0 +1,371 @@
+{
+  "date": "2026-11-15",
+  "generation_tasks_submitted": 0,
+  "method": "Independent FFmpeg RGB and raw decoded Y-plane measurements, OpenCV comparison, per-frame color tags, original-download SHA256 comparison, PNG metadata inspection. No source or video altered.",
+  "results": [
+    {
+      "subject": "landscape",
+      "video": "assets/ai-video/landscape-v2.mp4",
+      "download_matches_canonical_sha256": true,
+      "input_png_sha256": "e2a9022d5ee4a1df2e9c98b377c8246f1ddd671d2c5a11841f5c6fa49af9f29b",
+      "png_metadata_keys": [],
+      "input_resized_roi_gray_mean": 237.536,
+      "roi_normalized": [
+        0.02,
+        0.02,
+        0.15,
+        0.2
+      ],
+      "frames": 121,
+      "color_tag_records": 121,
+      "unique_color_tags": [
+        [
+          "unknown",
+          "unknown",
+          "unknown",
+          "unknown"
+        ]
+      ],
+      "frame_samples": [
+        {
+          "frame": 0,
+          "time": 0.0,
+          "ffmpeg_rgb_roi_mean": [
+            245.72,
+            233.131,
+            221.074
+          ],
+          "ffmpeg_gray_mean": 235.361,
+          "opencv_gray_mean": 235.361,
+          "decoded_y_plane_roi_mean": 219.262,
+          "decoder_roi_rgb_mae": 0.0
+        },
+        {
+          "frame": 1,
+          "time": 0.0417,
+          "ffmpeg_rgb_roi_mean": [
+            232.823,
+            218.238,
+            202.276
+          ],
+          "ffmpeg_gray_mean": 220.531,
+          "opencv_gray_mean": 220.531,
+          "decoded_y_plane_roi_mean": 206.53,
+          "decoder_roi_rgb_mae": 0.0
+        },
+        {
+          "frame": 2,
+          "time": 0.0833,
+          "ffmpeg_rgb_roi_mean": [
+            222.459,
+            204.79,
+            192.96
+          ],
+          "ffmpeg_gray_mean": 208.512,
+          "opencv_gray_mean": 208.512,
+          "decoded_y_plane_roi_mean": 196.498,
+          "decoder_roi_rgb_mae": 0.0
+        },
+        {
+          "frame": 3,
+          "time": 0.125,
+          "ffmpeg_rgb_roi_mean": [
+            217.845,
+            201.022,
+            185.304
+          ],
+          "ffmpeg_gray_mean": 204.278,
+          "opencv_gray_mean": 204.278,
+          "decoded_y_plane_roi_mean": 192.741,
+          "decoder_roi_rgb_mae": 0.0
+        },
+        {
+          "frame": 4,
+          "time": 0.1667,
+          "ffmpeg_rgb_roi_mean": [
+            217.056,
+            201.028,
+            185.932
+          ],
+          "ffmpeg_gray_mean": 204.013,
+          "opencv_gray_mean": 204.013,
+          "decoded_y_plane_roi_mean": 192.514,
+          "decoder_roi_rgb_mae": 0.0
+        },
+        {
+          "frame": 5,
+          "time": 0.2083,
+          "ffmpeg_rgb_roi_mean": [
+            219.033,
+            200.216,
+            185.114
+          ],
+          "ffmpeg_gray_mean": 204.174,
+          "opencv_gray_mean": 204.174,
+          "decoded_y_plane_roi_mean": 192.653,
+          "decoder_roi_rgb_mae": 0.0
+        },
+        {
+          "frame": 6,
+          "time": 0.25,
+          "ffmpeg_rgb_roi_mean": [
+            218.222,
+            200.32,
+            187.738
+          ],
+          "ffmpeg_gray_mean": 203.983,
+          "opencv_gray_mean": 203.983,
+          "decoded_y_plane_roi_mean": 192.447,
+          "decoder_roi_rgb_mae": 0.0
+        },
+        {
+          "frame": 24,
+          "time": 1.0,
+          "ffmpeg_rgb_roi_mean": [
+            217.452,
+            200.446,
+            186.333
+          ],
+          "ffmpeg_gray_mean": 203.819,
+          "opencv_gray_mean": 203.819,
+          "decoded_y_plane_roi_mean": 192.386,
+          "decoder_roi_rgb_mae": 0.0
+        },
+        {
+          "frame": 60,
+          "time": 2.5,
+          "ffmpeg_rgb_roi_mean": [
+            216.724,
+            200.854,
+            186.834
+          ],
+          "ffmpeg_gray_mean": 203.929,
+          "opencv_gray_mean": 203.929,
+          "decoded_y_plane_roi_mean": 192.37,
+          "decoder_roi_rgb_mae": 0.0
+        },
+        {
+          "frame": 120,
+          "time": 5.0,
+          "ffmpeg_rgb_roi_mean": [
+            217.142,
+            201.046,
+            186.918
+          ],
+          "ffmpeg_gray_mean": 204.23,
+          "opencv_gray_mean": 204.23,
+          "decoded_y_plane_roi_mean": 192.524,
+          "decoder_roi_rgb_mae": 0.0
+        }
+      ],
+      "actual_submitted_sound": 0,
+      "returned_audio": {
+        "decoded_float_samples": 325632,
+        "nonzero_samples": 305152,
+        "peak_absolute": 0.07065913826227188
+      }
+    },
+    {
+      "subject": "teapot",
+      "video": "assets/ai-video/teapot-v2.mp4",
+      "download_matches_canonical_sha256": true,
+      "input_png_sha256": "83f53807aa2a8970c548859f94212a2b023d73576aacdd9f7d0e826c24c46add",
+      "png_metadata_keys": [],
+      "input_resized_roi_gray_mean": 230.274,
+      "roi_normalized": [
+        0.02,
+        0.02,
+        0.15,
+        0.2
+      ],
+      "frames": 121,
+      "color_tag_records": 121,
+      "unique_color_tags": [
+        [
+          "unknown",
+          "unknown",
+          "unknown",
+          "unknown"
+        ]
+      ],
+      "frame_samples": [
+        {
+          "frame": 0,
+          "time": 0.0,
+          "ffmpeg_rgb_roi_mean": [
+            242.683,
+            223.679,
+            210.643
+          ],
+          "ffmpeg_gray_mean": 227.683,
+          "opencv_gray_mean": 227.683,
+          "decoded_y_plane_roi_mean": 212.693,
+          "decoder_roi_rgb_mae": 0.0
+        },
+        {
+          "frame": 1,
+          "time": 0.0417,
+          "ffmpeg_rgb_roi_mean": [
+            229.779,
+            208.863,
+            193.656
+          ],
+          "ffmpeg_gray_mean": 213.779,
+          "opencv_gray_mean": 213.779,
+          "decoded_y_plane_roi_mean": 200.801,
+          "decoder_roi_rgb_mae": 0.0
+        },
+        {
+          "frame": 2,
+          "time": 0.0833,
+          "ffmpeg_rgb_roi_mean": [
+            215.047,
+            193.064,
+            180.175
+          ],
+          "ffmpeg_gray_mean": 198.07,
+          "opencv_gray_mean": 198.07,
+          "decoded_y_plane_roi_mean": 187.242,
+          "decoder_roi_rgb_mae": 0.0
+        },
+        {
+          "frame": 3,
+          "time": 0.125,
+          "ffmpeg_rgb_roi_mean": [
+            205.701,
+            185.556,
+            168.1
+          ],
+          "ffmpeg_gray_mean": 189.729,
+          "opencv_gray_mean": 189.729,
+          "decoded_y_plane_roi_mean": 180.218,
+          "decoder_roi_rgb_mae": 0.0
+        },
+        {
+          "frame": 4,
+          "time": 0.1667,
+          "ffmpeg_rgb_roi_mean": [
+            203.216,
+            182.607,
+            167.66
+          ],
+          "ffmpeg_gray_mean": 187.397,
+          "opencv_gray_mean": 187.397,
+          "decoded_y_plane_roi_mean": 178.361,
+          "decoder_roi_rgb_mae": 0.0
+        },
+        {
+          "frame": 5,
+          "time": 0.2083,
+          "ffmpeg_rgb_roi_mean": [
+            207.275,
+            182.837,
+            165.178
+          ],
+          "ffmpeg_gray_mean": 188.296,
+          "opencv_gray_mean": 188.296,
+          "decoded_y_plane_roi_mean": 178.639,
+          "decoder_roi_rgb_mae": 0.0
+        },
+        {
+          "frame": 6,
+          "time": 0.25,
+          "ffmpeg_rgb_roi_mean": [
+            203.632,
+            182.176,
+            169.859
+          ],
+          "ffmpeg_gray_mean": 187.211,
+          "opencv_gray_mean": 187.211,
+          "decoded_y_plane_roi_mean": 178.151,
+          "decoder_roi_rgb_mae": 0.0
+        },
+        {
+          "frame": 24,
+          "time": 1.0,
+          "ffmpeg_rgb_roi_mean": [
+            201.535,
+            181.228,
+            167.919
+          ],
+          "ffmpeg_gray_mean": 185.884,
+          "opencv_gray_mean": 185.884,
+          "decoded_y_plane_roi_mean": 176.927,
+          "decoder_roi_rgb_mae": 0.0
+        },
+        {
+          "frame": 60,
+          "time": 2.5,
+          "ffmpeg_rgb_roi_mean": [
+            200.963,
+            180.695,
+            167.078
+          ],
+          "ffmpeg_gray_mean": 185.324,
+          "opencv_gray_mean": 185.324,
+          "decoded_y_plane_roi_mean": 176.433,
+          "decoder_roi_rgb_mae": 0.0
+        },
+        {
+          "frame": 120,
+          "time": 5.0,
+          "ffmpeg_rgb_roi_mean": [
+            201.322,
+            180.699,
+            166.71
+          ],
+          "ffmpeg_gray_mean": 185.496,
+          "opencv_gray_mean": 185.496,
+          "decoded_y_plane_roi_mean": 176.553,
+          "decoder_roi_rgb_mae": 0.0
+        }
+      ],
+      "actual_submitted_sound": 0,
+      "returned_audio": {
+        "decoded_float_samples": 325632,
+        "nonzero_samples": 325632,
+        "peak_absolute": 0.03750445321202278
+      }
+    }
+  ],
+  "confirmed": [
+    "Brightness drop is in the unmodified returned file and in the decoded Y plane, before browser display or RGB conversion.",
+    "FFmpeg and OpenCV ROI pixels agree in the sampled frames.",
+    "The checked frame color tags do not switch during the clip; the files do not declare color range/space/transfer.",
+    "Both outgoing sound fields were integer 0, while both returned audio streams contain nonzero samples.",
+    "Existing uploaded PNG objects match local source PNGs byte-for-byte, excluding local image conversion during upload for these samples."
+  ],
+  "not_proven": [
+    "The remote service internal stage causing tonal change (generation/conditioning/first-frame compositing/tone processing) is not observable from these files.",
+    "Whether ChatArt forwards sound=0 to the upstream vendor, and whether it maps it to generate_audio=false, is not observable without server-side evidence.",
+    "A model-native audio flag documented by its vendor is not automatically a supported field of the ChatArt gateway."
+  ],
+  "upload_object_check": [
+    {
+      "subject": "landscape",
+      "remote_object_sha256": "e2a9022d5ee4a1df2e9c98b377c8246f1ddd671d2c5a11841f5c6fa49af9f29b",
+      "local_input_sha256": "e2a9022d5ee4a1df2e9c98b377c8246f1ddd671d2c5a11841f5c6fa49af9f29b",
+      "byte_identical": true
+    },
+    {
+      "subject": "teapot",
+      "remote_object_sha256": "83f53807aa2a8970c548859f94212a2b023d73576aacdd9f7d0e826c24c46add",
+      "local_input_sha256": "83f53807aa2a8970c548859f94212a2b023d73576aacdd9f7d0e826c24c46add",
+      "byte_identical": true
+    }
+  ],
+  "sources": [
+    {
+      "title": "ChatArt public client video_gen.py",
+      "url": "http[本机路径已省略]",
+      "observed": "i2v builder defaults sound=1; omni builder uses JSON boolean false. Client exposes no generate_audio gateway mapping.",
+      "scope": "Client code only; server forwarding is not observed."
+    },
+    {
+      "title": "Volcengine Create video generation task API",
+      "url": "http[本机路径已省略]",
+      "observed": "Vendor API documents boolean generate_audio, default true; false requests silent output.",
+      "scope": "Vendor contract; not proof that ChatArt accepts or forwards this field."
+    }
+  ]
+}

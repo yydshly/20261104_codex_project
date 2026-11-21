@@ -1,0 +1,5 @@
+Use the supplied image as the exact opening frame and visual anchor. Create one continuous five-second locked-camera shot of this blue-and-white porcelain teapot. Preserve the complete teapot silhouette, spout opening, open handle loop, lid seam, round body, foot, landscape relief, tiny pine tree, cobalt decoration, lighting, background and negative space.
+
+Animate only the existing faint steam above the lid knob. The steam rises slowly from the same origin, gently curls, thins and dissipates. Keep it delicate, translucent and small enough to leave the knob and lid readable. The teapot, lid, relief mountains, white glazed channels and all painted patterns remain absolutely still. No water pours from the spout, no liquid flows over the relief, and the lid does not lift.
+
+No camera movement, zoom, object rotation, cuts or transition. No wobbling geometry, breathing body, distorted spout or handle, pattern sliding, moving miniature trees, changing highlights, extra objects, color flicker or billowing smoke. No text, subtitles, music, speech or sound effects. The purpose is to test subtle steam motion while porcelain geometry and surface identity remain stable.

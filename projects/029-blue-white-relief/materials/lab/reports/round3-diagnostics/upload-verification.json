@@ -1,0 +1,14 @@
+[
+  {
+    "subject": "landscape",
+    "remote_object_sha256": "e2a9022d5ee4a1df2e9c98b377c8246f1ddd671d2c5a11841f5c6fa49af9f29b",
+    "local_input_sha256": "e2a9022d5ee4a1df2e9c98b377c8246f1ddd671d2c5a11841f5c6fa49af9f29b",
+    "byte_identical": true
+  },
+  {
+    "subject": "teapot",
+    "remote_object_sha256": "83f53807aa2a8970c548859f94212a2b023d73576aacdd9f7d0e826c24c46add",
+    "local_input_sha256": "83f53807aa2a8970c548859f94212a2b023d73576aacdd9f7d0e826c24c46add",
+    "byte_identical": true
+  }
+]

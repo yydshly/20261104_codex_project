@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "publicResources": 147,
+  "nativeTrials": 5,
+  "roundCounts": [
+    2,
+    2,
+    1
+  ],
+  "currentDeliveries": 2,
+  "knownVideoCredits": 375,
+  "guideUnchanged": true,
+  "linksChecked": 218,
+  "machinePathsRemoved": true,
+  "sourceMedia": "author-post links; no source images/video copied",
+  "businessValidation": "not claimed",
+  "newGenerationCredits": 0
+}

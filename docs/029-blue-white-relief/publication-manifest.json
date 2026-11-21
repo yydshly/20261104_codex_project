@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-21",
+  "site": "https://yydshly.github.io/20261104_codex_project/029-blue-white-relief/",
+  "guide": {
+    "path": "assets/research-understanding-20261121.png",
+    "sha256": "1a7d847c656621b2559d85787420c32c48cc624b10f40bdc4f8d8fa1c14c9b63",
+    "originalUnchanged": true
+  },
+  "evidenceResources": 147,
+  "knownVideoCredits": 375,
+  "newGenerationCredits": 0,
+  "sourceMediaDistribution": "author-post links only; original post images/video remain local",
+  "files": [
+    {
+      "path": "app.js",
+      "bytes": 16394,
+      "sha256": "4072b9db6dd879509bbf4ba6c607ffd2e45b8e761f970af3ef0d5c282a312c61"
+    },
+    {
+      "path": "assets/research-understanding-20261121.png",
+      "bytes": 1176833,
+      "sha256": "1a7d847c656621b2559d85787420c32c48cc624b10f40bdc4f8d8fa1c14c9b63"
+    },
+    {
+      "path": "data.js",
+      "bytes": 827781,
+      "sha256": "b3a0d2146be49f196854012445e535193c2396342c21a22ec747e100830221f7"
+    },
+    {
+      "path": "index.html",
+      "bytes": 14899,
+      "sha256": "ee8da9c9566e261cb720f09a09b08767f9cf2e24f899f07f3fb53f4e65ab8315"
+    },
+    {
+      "path": "media/assets__ai-video__landscape-v2-exposure-matched.mp4",
+      "bytes": 2163666,
+      "sha256": "736d365e8a0c9e5f2aa4367fe04b3f0eaf59341cb503d86a210b29614e696a81"
+    },
+    {
+      "path": "media/assets__ai-video__teapot-v2-exposure-matched.mp4",
+      "bytes": 1492757,
+      "sha256": "c62761c7aa7c9e51d2a48baa545350f8b2984ff232fa4a921208351b3b47feef"
+    },
+    {
+      "path": "media/assets__generated__landscape.webp",
+      "bytes": 177128,
+      "sha256": "5ca164b7d780e9a6c70f4b00a95de9afe7bfa540ec032eed4ee7109d6fd4da74"
+    },
+    {
+      "path": "media/assets__generated__lotus.webp",
+      "bytes": 110732,
+      "sha256": "f478443965f5cd4a9d70a747305e7f16b33f2f2e165613f6789885eef481f3c5"
+    },
+    {
+      "path": "media/assets__generated__teapot.webp",
+      "bytes": 87686,
+      "sha256": "c6fb23021ae7cf20a4d53f95298a1e494f7843d120cd8425cd62331dc26eb52e"
+    },
+    {
+      "path": "media/reports__desktop-home.png",
+      "bytes": 406301,
+      "sha256": "59a84cc2e5c8dd4195f260ee1dce8d3dbcbc76da0bea2b6d7cb790a27744dd0f"
+    },
+    {
+      "path": "media/reports__studio-desktop.png",
+      "bytes": 330574,
+      "sha256": "d349370d4adc14cc01e34db48b75c146cb406cbff3c61918aa4e447587452f74"
+    },
+    {
+      "path": "PUBLICATION.md",
+      "bytes": 2088,
+      "sha256": "99f7257d4b3a2dda4c34bcf515f0e665ccbddaad11d3d2705296025ab07ec97a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9410,
+      "sha256": "d0003b60b62d5054c970538f9e53128b1db814d0e9db527ab67ad6293b8732b9"
+    },
+    {
+      "path": "research/index.html",
+      "bytes": 18282,
+      "sha256": "13ea0fc1a0b08a01ba25e39c67ae82d159c665ed038ca47ad2a1b06054f9f7ac"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 27080,
+      "sha256": "ae344a10b5082fbd73484011be4664c034248992c1946373675cd26653668ec8"
+    },
+    {
+      "path": "tea/app.js",
+      "bytes": 5393,
+      "sha256": "45591c8fb4a1be30379d4f5300bff2cc91af35ca7b5891f2fa65b44c393107fa"
+    },
+    {
+      "path": "tea/brand-data.js",
+      "bytes": 3714,
+      "sha256": "5f8b2f8926be2ff4cd688b1154c047b40963a8e7d794bc3f0066445af28adb35"
+    },
+    {
+      "path": "tea/brand-render.js",
+      "bytes": 4633,
+      "sha256": "e989349fe0b4f341e6fd0a23ee481a2b2c43b8dacb560b23da2c770eb699fb16"
+    },
+    {
+      "path": "tea/index.html",
+      "bytes": 13284,
+      "sha256": "82465549356503f96d00f16621b191aaf17fa2500f5eb994d35f41ec42206a3c"
+    },
+    {
+      "path": "tea/studio.html",
+      "bytes": 5319490,
+      "sha256": "850783bf8babc2e19d987082a9fb5823828a82646964f1729bec8fbd9414b9f6"
+    },
+    {
+      "path": "tea/styles.css",
+      "bytes": 18509,
+      "sha256": "afeeeb21779c03b53c3e4d0063ac79dc131e4a60eb250e9c92c3c184309493fa"
+    },
+    {
+      "path": "tea/template-core.js",
+      "bytes": 3905,
+      "sha256": "23b1ca83d76ba99c4a01cbb80ec11b8e7093daaa89a7e1175d7f4859ddf6c9bb"
+    },
+    {
+      "path": "verification/browser.json",
+      "bytes": 510,
+      "sha256": "55cd2ed1b3488ad2937ed2b0f9e93c5c1d6b44e076eb444e94bf08750fe96967"
+    },
+    {
+      "path": "verification/desktop.png",
+      "bytes": 225325,
+      "sha256": "05f548773af9cd5f3bcc205f0a56bbf7018563993d51cec1bcc72866bd5cea75"
+    },
+    {
+      "path": "verification/guide-mobile.png",
+      "bytes": 47162,
+      "sha256": "ff63fae3903fe036a2a2aadd8dfc1b651b215044d751206c79e2c4d9eaaae98b"
+    },
+    {
+      "path": "verification/mobile.png",
+      "bytes": 47161,
+      "sha256": "fd0962fb54f0c02ff192352a8e5cb9cdc17814224c51cfe49089e592e77a6e71"
+    },
+    {
+      "path": "verification/static.json",
+      "bytes": 403,
+      "sha256": "b71045add6a0d9e4e933fa7922e6ea5e359b4f65aa48e98723bfed85e84b2cb8"
+    }
+  ]
+}

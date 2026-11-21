@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "preview_metrics": {
+    "viewport": 390,
+    "scrollWidth": 390,
+    "heroLayout": "flex",
+    "heroMediaWidth": 350
+  },
+  "reason": "Verified actual iframe reflow after removing the width transition; no repeat of unchanged export/media checks."
+}

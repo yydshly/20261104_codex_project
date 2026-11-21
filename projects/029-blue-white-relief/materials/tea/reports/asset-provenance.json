@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-15",
+  "fictional_brand": "山白 / SHAN BAI",
+  "new_generation_credits": 0,
+  "new_generation_tasks": 0,
+  "assets": [
+    {
+      "file": "assets/teapot.webp",
+      "source": "http[本机路径已省略]",
+      "sha256": "c6fb23021ae7cf20a4d53f95298a1e494f7843d120cd8425cd62331dc26eb52e",
+      "bytes": 87686,
+      "method": "existing AI still",
+      "copied_byte_for_byte": true
+    },
+    {
+      "file": "assets/landscape.webp",
+      "source": "http[本机路径已省略]",
+      "sha256": "5ca164b7d780e9a6c70f4b00a95de9afe7bfa540ec032eed4ee7109d6fd4da74",
+      "bytes": 177128,
+      "method": "existing AI still",
+      "copied_byte_for_byte": true
+    },
+    {
+      "file": "assets/teapot-motion.mp4",
+      "source": "http[本机路径已省略]",
+      "sha256": "c62761c7aa7c9e51d2a48baa545350f8b2984ff232fa4a921208351b3b47feef",
+      "bytes": 1492757,
+      "method": "round-two AI video with local exposure matching and audio removal",
+      "copied_byte_for_byte": true
+    },
+    {
+      "file": "assets/landscape-motion.mp4",
+      "source": "http[本机路径已省略]",
+      "sha256": "736d365e8a0c9e5f2aa4367fe04b3f0eaf59341cb503d86a210b29614e696a81",
+      "bytes": 2163666,
+      "method": "round-two AI video with local exposure matching and audio removal",
+      "copied_byte_for_byte": true
+    }
+  ],
+  "offline_entry": "index.html",
+  "all_media_embedded": true,
+  "local_or_external_runtime_dependencies": [],
+  "entry_sha256": "3eba18f8986e395aeb0a9e5e84ad0238a28d131dc85468cac6c4e9095708fc1a",
+  "verified": "reports/verification.json",
+  "screenshots": [
+    "reports/desktop-home.png",
+    "reports/desktop-page.png",
+    "reports/mobile-home.png",
+    "reports/mobile-page.png"
+  ],
+  "notes": [
+    "Brand and collection are fictional presentation concepts, not goods for sale.",
+    "No generation API or paid model is used by this page.",
+    "Motion is played once with replay; seamless looping is not claimed.",
+    "Existing raw native AI failures remain recorded in the source research project.",
+    "Loopback preview was unreachable in this environment. Browser verification passed against the actual fil[本机路径已省略] delivery instead.",
+    "Template editor reuses the same four assets; the alternate brand is a fictional concept, not a new media-generation or real-product validation case. Browser checks cover offline editing, local media replacement, configuration round-trip, export to a separate directory, and mobile preview."
+  ],
+  "editor": "studio.html",
+  "editor_sha256": "850783bf8babc2e19d987082a9fb5823828a82646964f1729bec8fbd9414b9f6",
+  "configuration": "brand.config.json",
+  "preset": "presets/songjian.json",
+  "template_verification": "reports/template-verification.json",
+  "template_viewport_follow_up": "reports/template-viewport-check.json"
+}

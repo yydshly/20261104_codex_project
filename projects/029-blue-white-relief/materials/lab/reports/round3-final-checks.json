@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-15",
+  "round": 3,
+  "status": "passed",
+  "native_ai_result": "probe gates not passed; this is an artifact verification pass, not a native AI quality pass",
+  "probe_task_id": "1059905",
+  "actual_round3_credits": 75,
+  "all_rounds_native_ai_credits": 375,
+  "landscape_round3_submitted": false,
+  "preserved_source_and_native_hashes": [
+    "assets/original/contact-sheet.jpg",
+    "assets/original/landscape-poster.webp",
+    "assets/original/palette-study.webp",
+    "assets/original/source-video.mp4",
+    "assets/generated/landscape.png",
+    "assets/generated/teapot.png",
+    "assets/generated/lotus.png",
+    "assets/ai-video/landscape-v1.mp4",
+    "assets/ai-video/teapot-v1.mp4",
+    "assets/ai-video/landscape-v2.mp4",
+    "assets/ai-video/teapot-v2.mp4",
+    "assets/ai-video/teapot-v3.mp4"
+  ],
+  "local_deliveries": [
+    {
+      "video": "assets/ai-video/landscape-v2-exposure-matched.mp4",
+      "sha256": "736d365e8a0c9e5f2aa4367fe04b3f0eaf59341cb503d86a210b29614e696a81",
+      "comparison_video": "assets/ai-video/landscape-v2-exposure-compare.mp4",
+      "comparison_sha256": "76912baed67314a461adfad3bac002521636727ba3fad82e0d5632c27944161d",
+      "max_tested_roi_range_percent": 3.16,
+      "audio_stream_present": false,
+      "credits": 0
+    },
+    {
+      "video": "assets/ai-video/teapot-v2-exposure-matched.mp4",
+      "sha256": "c62761c7aa7c9e51d2a48baa545350f8b2984ff232fa4a921208351b3b47feef",
+      "comparison_video": "assets/ai-video/teapot-v2-exposure-compare.mp4",
+      "comparison_sha256": "c6f7091d2f5fcfb46635efb57df8056716ebdcf6bcc3831025762e3d2c09e599",
+      "max_tested_roi_range_percent": 2.952,
+      "audio_stream_present": false,
+      "credits": 0
+    }
+  ],
+  "javascript_syntax": {
+    "files": [
+      "data.js",
+      "app.js",
+      "ai-validation-data.js",
+      "ai-validation.js"
+    ],
+    "status": "passed"
+  },
+  "python_syntax": {
+    "files": [
+      "prepare_round3.py",
+      "run_round3.py",
+      "wait_round3.py",
+      "diagnose_round3.py",
+      "check_round3_uploaded_inputs.py",
+      "audit_round3_probe.py",
+      "make_exposure_delivery.py",
+      "publish_calibrated_deliveries.py",
+      "record_probe_gate.py",
+      "finalize_round3_records.py",
+      "prepare_round3_skill_update.py",
+      "render_round3_section.py",
+      "collect_ai_evidence.py",
+      "build.py",
+      "verify_round3_artifacts.py"
+    ],
+    "status": "passed"
+  },
+  "offline_bytes": 84956728,
+  "offline_sha256": "ff1b26d99a97cd24ad931f5dbb4028d535a05e003845f82efc11f061c1cc382e",
+  "embedded_assets": 63,
+  "all_embedded_bytes_match_sources": true,
+  "offline_local_dependencies": [],
+  "offline_remote_media": [],
+  "html_ids_and_literal_js_id_selectors": "passed",
+  "installed_skill_files": [
+    "references/styles/blue-white-relief.md",
+    "references/cases.md",
+    "references/provenance.md",
+    "references/cases/blue-white-ai-video.md"
+  ],
+  "skill_validation": "passed",
+  "browser_interaction": "not re-verified; no desktop/browser control during round 3",
+  "decode_scope": "Earlier full decodes of these exact hashed outputs retained; no redundant re-encode or regeneration performed",
+  "limits": [
+    "One native probe sample; routes/parameters changed together, no isolated causal inference",
+    "Audio content was not listened to; raw nonzero audio track presence was measured",
+    "Local exposure matching is separate post-processing and does not change raw quality gates",
+    "Selected background/structure ROIs include the near-stationary landscape boat anchor; not full-image exposure truth"
+  ]
+}

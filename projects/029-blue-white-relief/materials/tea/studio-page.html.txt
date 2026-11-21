@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f3f0e9"><title>品牌上新模板｜本地编辑与导出</title><link rel="stylesheet" href="studio.css"><script src="template-core.js" defer></script><script src="studio.js" defer></script></head>
+<body>
+  <header class="studio-header"><a href="#" class="studio-brand" aria-label="品牌上新模板"><span>作</span><div><h1>品牌上新模板</h1><p>LOCAL EDITION / 从一份样板，到你的品牌</p></div></a><div class="header-actions"><button id="import-config" type="button">导入配置</button><button id="save-config" type="button">保存配置</button><button id="export-page" class="primary" type="button">导出完整网页 ↗</button><input id="config-file" type="file" accept=".json,application/json" hidden></div></header>
+  <nav class="mobile-switch" aria-label="切换编辑与预览"><button type="button" id="show-editor" aria-pressed="true">编辑内容</button><button type="button" id="show-preview" aria-pressed="false">查看预览</button></nav>
+  <main class="studio-layout">
+    <aside class="editor-panel" aria-label="品牌与页面设置"><div class="editor-intro"><span class="overline">MAKE IT YOURS</span><h2>换一个品牌，<br>保留这份从容。</h2><p>修改后即刻预览。图片与视频可从本机替换，导出的网页可独立、离线打开。</p><div class="preset-row"><label for="preset-select" class="sr-only">选择概念示例</label><select id="preset-select"><option value="shanbai">山白 · 青山一盏</option><option value="songjian">松间 · 闲日一席</option></select><button id="load-preset" type="button">载入示例</button></div><p class="small-note">示例均为虚构概念，复用同一批既有素材。载入示例前，请先保存当前配置。</p></div>
+      <form id="editor-form" novalidate><div id="fields"></div><section class="media-fields"><h3>本地素材</h3><p>静帧与动态分别替换，请保持主体一致。所有文件仅在此页面中读取。</p><div id="media-inputs"></div></section><section class="product-fields"><h3>商品资料 <span>可选</span></h3><p>有了真实资料，再启用商品区。价格、规格和介绍按你填写的内容展示。</p><label class="check-field"><input id="product-enabled" type="checkbox" data-field="product.enabled"> 显示商品区</label><div id="product-inputs"></div><label class="upload-field">商品图片 <input type="file" accept="image/png,image/jpeg,image/webp,image/gif" data-upload="product.image"><span class="asset-state" data-asset-state="product.image">未添加</span></label></section></form>
+      <div class="local-note"><span aria-hidden="true">○</span><p>本地编辑与导出，无需登录。当前功能不调用 AI 生成服务，也不会自动上传素材。</p></div>
+    </aside>
+    <section class="preview-panel" aria-label="页面预览"><div class="preview-toolbar"><div><span class="preview-dot"></span><span id="preview-brand">山白 · 青山一盏</span></div><div class="viewport-switch" role="group" aria-label="预览尺寸"><button id="desktop-view" type="button" aria-pressed="true">桌面</button><button id="mobile-view" type="button" aria-pressed="false">手机</button></div></div><div class="preview-stage"><iframe id="brand-preview" title="品牌网页实时预览" sandbox="allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox"></iframe></div><div class="preview-footer"><p id="studio-status" role="status" aria-live="polite">正在准备本地预览…</p><span>零新增生成费用</span></div></section>
+  </main>
+  <div id="studio-error" class="error-banner" role="alert" hidden></div>
+</body>
+</html>

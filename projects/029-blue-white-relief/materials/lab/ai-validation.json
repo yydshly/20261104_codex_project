@@ -1,0 +1,266 @@
+{
+  "date": "2026-11-15",
+  "generationStatus": "两轮四段 Seedance 2.0 原片已返回并完成检查。第一轮合计150积分；第二轮合计150积分。每题材每轮各一次样本。",
+  "referenceVideo": "assets/original/source-video.mp4",
+  "referencePoster": "assets/original/landscape-poster.webp",
+  "clips": {
+    "landscape": {
+      "status": "completed",
+      "title": "山水 · 瀑布水流",
+      "model": "Seedance 2.0",
+      "video": "assets/ai-video/landscape-v2.mp4",
+      "poster": "assets/generated/landscape.webp",
+      "firstFrame": "assets/generated/landscape.png",
+      "proceduralVideo": "assets/generated/landscape-motion.mp4",
+      "proceduralTitle": "固定地形 + 水光曲线",
+      "width": 834,
+      "height": 1112,
+      "duration": 5.041666666666667,
+      "audioLabel": "含音轨 / 默认静音",
+      "credits": 75,
+      "verdict": "小舟和高处雾气改善了，曝光与原生无声仍未达标。",
+      "summary": "第二轮小舟的左右漂移明显减小，高处背景没有再出现第一轮那样的新增雾丝。亭桥与山体保持可辨，落水泡沫和池面有变化；小舟外形、倒影及周围水纹仍有细小变化，不能记为绝对冻结。开场变暗与非零音轨仍存在。",
+      "criteria": [
+        {
+          "name": "小舟、倒影和接触水线",
+          "status": "partial",
+          "label": "有改善，未完全冻结",
+          "observation": "船区最大中位特征位移约为图宽0.277%，第一轮约3.258%。样本中船位较稳定，但船体外观、倒影和船边水纹仍有细小变化；数值只描述图像特征，不是几何真值。"
+        },
+        {
+          "name": "雾气区域",
+          "status": "passed",
+          "label": "本段基本符合",
+          "observation": "25帧序列与上部背景局部对照中，未再见第一轮约2秒后出现的高处雾丝；落水处仍有局部水花与薄雾变化。"
+        },
+        {
+          "name": "水景动态与亭桥结构",
+          "status": "partial",
+          "label": "局部动态可见",
+          "observation": "落水泡沫和池面水纹有变化，主要亭桥与地形可辨。亭、桥特征位移最大中位数约为图宽0.052%和0.043%；严格流向与水体物理没有单凭抽帧判定通过。"
+        },
+        {
+          "name": "首帧曝光连续性",
+          "status": "failed",
+          "label": "仍有开场变暗",
+          "observation": "背景区域灰度均值从首帧235.36降至约0.21秒的204.17；第一轮同期约200.63。第二轮仍未保持首帧曝光，全部121帧已测量该区域亮度。"
+        },
+        {
+          "name": "关闭声音的实际请求",
+          "status": "passed",
+          "label": "参数已修正",
+          "observation": "保存的实际请求为sound=0；使用一张原始PNG作首帧，5秒、720p、3:4，未更换模型或重复提交。"
+        },
+        {
+          "name": "原片无声与交付",
+          "status": "failed",
+          "label": "原生无声未达标",
+          "observation": "返回原片仍有非零音轨，峰值约-23dB；音频内容未听审。另附去音轨交付版，压缩视频数据与原片一致；该派生版不替代原片的验收结论。"
+        }
+      ],
+      "contactSheet": "assets/ai-video/landscape-v2-contact.jpg",
+      "filmstrip": "assets/ai-video/landscape-v2-filmstrip.jpg",
+      "anchorSheet": "assets/ai-video/landscape-v2-anchors.jpg",
+      "report": "assets/ai-video/landscape-v2-validation.json",
+      "prompt": "Use the supplied image as the exact opening frame. Make one continuous five-second locked-camera shot of this blue-and-white porcelain landscape. Preserve the complete composition, mountain silhouettes and ceramic volumes, cobalt patterns, pavilion, arched bridge, trees, the single small boat, warm ivory background and all negative space.\n\nThe single small boat is moored and motionless throughout the entire shot. Freeze its screen position, scale, heading, hull shape, reflection and the contact waterline immediately against the hull. It must not drift left or right, bob, rotate or be carried by the water. The mountains, pavilion, bridge, trees and painted patterns also stay rigidly fixed.\n\nThe only motion is gentle continuous downward water flow inside the three existing white waterfall channels, following their established drops and riverbed, plus very small ripples within the existing pools directly below each fall. Keep white and pale-blue water detail readable. Any mist is confined to a tiny, thin, translucent patch immediately around the existing waterfall impact points. No new mist high in the scene, above the mountains, beside the upper peaks or in the right-hand background; no expanding cloud or drifting fog crossing the scenery. If mist cannot remain tightly localized, omit additional mist and prioritize water motion and the fixed boat.\n\nMaintain the exact exposure, background luminance, white balance, porcelain highlights and shadows of the opening image from the very first frame through the last frame. No automatic exposure settling, opening dimming, fade, relighting or changing color temperature. Do not reinterpret the opening light into a darker cinematic grade.\n\nNo camera movement, pan, zoom, orbit, cut or transition. No structural breathing, melting ceramic, pattern sliding, moving trees, new objects, extra boats or aggressive spray. The result is completely silent: no music, speech, ambient sound, water sound or sound effects. Test localized water motion while every structural anchor and the original lighting remain fixed.\n",
+      "previousRound": {
+        "status": "completed",
+        "title": "山水 · 瀑布水流",
+        "model": "Seedance 2.0",
+        "video": "assets/ai-video/landscape-v1.mp4",
+        "poster": "assets/generated/landscape.webp",
+        "firstFrame": "assets/generated/landscape.png",
+        "proceduralVideo": "assets/generated/landscape-motion.mp4",
+        "proceduralTitle": "固定地形 + 水光曲线",
+        "width": 834,
+        "height": 1112,
+        "duration": 5.041666666666667,
+        "audioLabel": "含音轨 / 默认静音",
+        "credits": 75,
+        "verdict": "水景有了变化，冻结边界还不够严格。",
+        "summary": "瀑布末端、局部水纹、水面涟漪和薄雾有时序变化，主要山体与亭桥保持可辨。小舟却向左移动，约2秒后高处出现新的雾丝；开场曝光下降。局部动态的范围仍有外溢，不能把这次样本当作所有非目标区域都已锁定。",
+        "criteria": [
+          {
+            "name": "首帧与主体识别",
+            "status": "passed",
+            "label": "基本成立",
+            "observation": "开场保持瓷质山水、桥亭、松树与小舟构图。实际返回834×1112、5.04秒、24fps。"
+          },
+          {
+            "name": "目标水景动态",
+            "status": "partial",
+            "label": "部分成立",
+            "observation": "放大时间对照中可见瀑布末端泡沫、水纹和水面涟漪变化；严格流向和完整水体物理仍需结合原片复核。"
+          },
+          {
+            "name": "山体、亭桥与纹样",
+            "status": "passed",
+            "label": "本段基本稳定",
+            "observation": "检查帧中主要山体与亭桥没有明显换形或整体运镜。亭与桥的辅助特征跟踪最大中位位移分别约为图宽0.052%和0.044%；不将其当作三维几何真值。"
+          },
+          {
+            "name": "非目标区域冻结",
+            "status": "partial",
+            "label": "有外溢",
+            "observation": "小舟向左位移，未遵守固定船位的要求；船区特征位移最大中位数约为图宽3.26%。约2秒后，高处还出现了新的雾丝。"
+          },
+          {
+            "name": "曝光连续与无声要求",
+            "status": "failed",
+            "label": "未达全部要求",
+            "observation": "选定背景区域灰度均值从首帧235.36降至约0.21秒的200.63。文件还含非零音轨（峰值-21.7dB），未听审内容；比较默认静音，原片保留。"
+          }
+        ],
+        "contactSheet": "assets/ai-video/landscape-contact.jpg",
+        "filmstrip": "assets/ai-video/landscape-filmstrip.jpg",
+        "anchorSheet": "assets/ai-video/landscape-anchors.jpg",
+        "waterDetail": "assets/ai-video/landscape-water-detail.jpg",
+        "report": "assets/ai-video/landscape-validation.json",
+        "prompt": "Use the supplied image as the exact opening frame and visual anchor. Create one continuous five-second locked-camera shot of this blue-and-white porcelain landscape. Preserve the composition, mountain silhouettes, solid porcelain volumes, cobalt decoration, pavilion, arched bridge, trees, single boat, warm ivory background, lighting and negative space.\n\nOnly animate water inside the three existing white waterfall channels: a gentle continuous downward flow following the existing drop and riverbed, with small coherent ripples where each waterfall meets the pool. The surrounding porcelain terrain stays completely rigid. Keep the water white and pale blue, retain readable detail and restrained motion. A very thin veil of mist may drift slowly close to the water, without hiding architecture or changing the mountain shapes. The boat remains in its existing position for this controlled test.\n\nNo pan, zoom, orbit, cuts or transition. No mountain breathing, melting ceramic, crawling patterns, deformation of the pavilion or bridge, moving trees, extra boats, new objects, flickering colors or aggressive spray. No text, subtitles, music, speech or sound effects. The purpose is to test localized fluid motion while all structural anchors remain stable.\n"
+      },
+      "round": 2,
+      "roundProgress": "小舟区域的最大中位图像特征位移由第一轮约图宽3.26%降为第二轮约0.28%；高处雾丝未再出现。曝光仍在开场下落，声音请求修正为0后原片仍有非零音轨。两次样本不能据此证明修正的因果效果或稳定性。",
+      "silentDelivery": "assets/ai-video/landscape-v2-silent.mp4",
+      "comparisonSheets": [
+        {
+          "label": "两轮船位对照",
+          "image": "assets/ai-video/landscape-v1-v2-boat.jpg"
+        },
+        {
+          "label": "两轮高处雾区对照",
+          "image": "assets/ai-video/landscape-v1-v2-upper-mist.jpg"
+        },
+        {
+          "label": "两轮水景对照",
+          "image": "assets/ai-video/landscape-v1-v2-water.jpg"
+        }
+      ]
+    },
+    "teapot": {
+      "status": "completed",
+      "title": "茶器 · 蒸汽微动",
+      "model": "Seedance 2.0",
+      "video": "assets/ai-video/teapot-v2.mp4",
+      "poster": "assets/generated/teapot.webp",
+      "firstFrame": "assets/generated/teapot.png",
+      "proceduralVideo": "assets/generated/teapot-motion.mp4",
+      "proceduralTitle": "固定壶体 + 蒸汽曲线",
+      "width": 1112,
+      "height": 834,
+      "duration": 5.041666666666667,
+      "audioLabel": "含音轨 / 默认静音",
+      "credits": 75,
+      "verdict": "细蒸汽保持到了片尾，曝光与原生无声仍未达标。",
+      "summary": "覆盖0–5秒的25个抽查时间点均可辨认从壶盖同一位置上升的细蒸汽，第二轮4–5秒仍有可见细丝。壶嘴、把手、盖缝和浮雕整体保持，没有见到倾倒或开盖。开场仍明显变暗，返回原片仍含非零音轨。",
+      "criteria": [
+        {
+          "name": "0–5秒蒸汽持续性",
+          "status": "passed",
+          "label": "本段抽帧符合",
+          "observation": "25个抽查时间点均能辨认轻薄升汽，4.0、4.96和5.0秒附近仍有可见细丝；源头保持在壶盖上方。没有用厚重烟团遮住壶盖。"
+        },
+        {
+          "name": "壶体、壶嘴与把手",
+          "status": "passed",
+          "label": "本段基本稳定",
+          "observation": "起止结构对照与25帧序列中，壶嘴、把手、盖缝和浮雕身份保持，未见明显旋转、开盖或倒水。壶嘴、把手、浮雕特征的最大中位位移约为图宽0.110%、0.163%、0.051%；只作图像层面参考。"
+        },
+        {
+          "name": "首帧曝光连续性",
+          "status": "failed",
+          "label": "仍有开场变暗",
+          "observation": "背景区域灰度均值由首帧227.68降至约0.21秒的188.30，之后约185–186。第一轮同期约186.78；第二轮仍未锁住首帧曝光，全部121帧已测量该区域。"
+        },
+        {
+          "name": "关闭声音的实际请求",
+          "status": "passed",
+          "label": "参数已修正",
+          "observation": "实际提交请求保存为sound=0，沿用同一原始PNG、Seedance 2.0、720p、5秒、4:3、固定机位；没有重提任务或更换模型。"
+        },
+        {
+          "name": "原片无声与交付",
+          "status": "failed",
+          "label": "原生无声未达标",
+          "observation": "原片仍含非零音轨，峰值约-28.5dB；未听审具体内容。去音轨交付版已另存，压缩视频数据与原片完全相同；原片仍按未达无声要求记录。"
+        }
+      ],
+      "contactSheet": "assets/ai-video/teapot-v2-contact.jpg",
+      "filmstrip": "assets/ai-video/teapot-v2-filmstrip.jpg",
+      "anchorSheet": "assets/ai-video/teapot-v2-anchors.jpg",
+      "report": "assets/ai-video/teapot-v2-validation.json",
+      "prompt": "Use the supplied image as the exact opening frame. Make one continuous five-second locked-camera shot of this blue-and-white porcelain teapot. Preserve the complete teapot silhouette, spout opening, open handle loop, lid seam, round body, foot, landscape relief, miniature pine tree, cobalt decoration, warm ivory background and negative space.\n\nOnly the existing delicate steam above the lid knob may move. During the whole interval from 0 to 5 seconds, continuously replenish a small amount of thin, translucent steam from the same fixed origin. As an older wisp rises slowly, gently curls and dissipates, a new faint wisp is already appearing, so a small readable rising plume remains visible at every stage, including seconds 2, 3, 4 and 5. The steam supply does not stop halfway. Do not solve persistence by making a thick smoke cloud: retain fine, pale, restrained wisps, keep the knob readable and confine steam to the small space just above the lid.\n\nThe teapot, spout, handle, lid, lid seam, relief mountains, glazed channels, miniature tree and painted patterns stay completely still. No lid lifting, pouring liquid, water running over the relief, rotation, wobble or pattern movement.\n\nMaintain the exact exposure, background luminance, white balance, porcelain highlights and shadows of the opening image from the first frame through the last frame. No opening darkening, auto-exposure settling, fade, relighting, high-light pulsing or color-temperature change. Keep the existing soft light and warm ivory background unchanged.\n\nNo camera movement, pan, zoom, cut, transition, deformation or new objects. The result is completely silent: no music, speech, ambient sound or sound effects. Test continuous delicate steam while the porcelain geometry, surface identity and opening-image lighting remain fixed.\n",
+      "previousRound": {
+        "status": "completed",
+        "title": "茶器 · 蒸汽微动",
+        "model": "Seedance 2.0",
+        "video": "assets/ai-video/teapot-v1.mp4",
+        "poster": "assets/generated/teapot.webp",
+        "firstFrame": "assets/generated/teapot.png",
+        "proceduralVideo": "assets/generated/teapot-motion.mp4",
+        "proceduralTitle": "固定壶体 + 蒸汽曲线",
+        "width": 1112,
+        "height": 834,
+        "duration": 5.041666666666667,
+        "audioLabel": "含音轨 / 默认静音",
+        "credits": 75,
+        "verdict": "壶形保住了，蒸汽还不够持续。",
+        "summary": "第一轮约3秒仍能辨认细蒸汽，4–5秒的放大检查帧中已难以辨认，未覆盖完整5秒。壶嘴、把手、盖缝与山水浮雕整体保持，开场发生了明显曝光下降。",
+        "criteria": [
+          {
+            "name": "首帧与主体识别",
+            "status": "passed",
+            "label": "基本成立",
+            "observation": "首帧保留茶壶、壶嘴、把手、盖缝与浮雕构图；实际输出为1112×834、5.04秒、24fps。"
+          },
+          {
+            "name": "蒸汽持续性",
+            "status": "partial",
+            "label": "有偏差",
+            "observation": "第二轮放大复核显示，第一轮约3秒仍有细丝，4–5秒难以辨认；未达到全段持续可辨的升汽目标。此前将减弱时间概括为约2秒，判断偏早，现按局部对照修正。"
+          },
+          {
+            "name": "壶体结构与纹样",
+            "status": "passed",
+            "label": "本段基本稳定",
+            "observation": "25帧序列与起止局部对照中未见明显壶嘴、把手变形或浮雕换形。辅助特征跟踪最大中位位移约为图宽0.14%，该量只作图像层面的参考。"
+          },
+          {
+            "name": "曝光与材质明暗",
+            "status": "partial",
+            "label": "有偏差",
+            "observation": "开场约0.21秒即明显变暗。选定背景区域的灰度均值由227.69降至186.78，之后接近稳定；不满足首帧光色全程不变的要求。"
+          },
+          {
+            "name": "无声要求",
+            "status": "failed",
+            "label": "未达要求",
+            "observation": "已请求无声，但这版脚本固定发送开启音轨的参数。返回文件含非零音轨（峰值-32dB），未听审具体内容；对比默认静音，原件保留。"
+          }
+        ],
+        "contactSheet": "assets/ai-video/teapot-contact.jpg",
+        "filmstrip": "assets/ai-video/teapot-filmstrip.jpg",
+        "anchorSheet": "assets/ai-video/teapot-anchors.jpg",
+        "report": "assets/ai-video/teapot-validation.json",
+        "prompt": "Use the supplied image as the exact opening frame and visual anchor. Create one continuous five-second locked-camera shot of this blue-and-white porcelain teapot. Preserve the complete teapot silhouette, spout opening, open handle loop, lid seam, round body, foot, landscape relief, tiny pine tree, cobalt decoration, lighting, background and negative space.\n\nAnimate only the existing faint steam above the lid knob. The steam rises slowly from the same origin, gently curls, thins and dissipates. Keep it delicate, translucent and small enough to leave the knob and lid readable. The teapot, lid, relief mountains, white glazed channels and all painted patterns remain absolutely still. No water pours from the spout, no liquid flows over the relief, and the lid does not lift.\n\nNo camera movement, zoom, object rotation, cuts or transition. No wobbling geometry, breathing body, distorted spout or handle, pattern sliding, moving miniature trees, changing highlights, extra objects, color flicker or billowing smoke. No text, subtitles, music, speech or sound effects. The purpose is to test subtle steam motion while porcelain geometry and surface identity remain stable.\n"
+      },
+      "round": 2,
+      "roundProgress": "放大复核后，第一轮约3秒仍有细丝、4–5秒难以辨认；第二轮在4–5秒仍保持可见细蒸汽，持续性在这次样本中改善。壶形保持在相近水平，曝光下降和原片音轨仍未解决。两轮各一次样本，不能证明稳定成功率或单项修改的因果效果。",
+      "silentDelivery": "assets/ai-video/teapot-v2-silent.mp4",
+      "comparisonSheets": [
+        {
+          "label": "两轮蒸汽对照",
+          "image": "assets/ai-video/teapot-v1-v2-steam.jpg"
+        },
+        {
+          "label": "两轮壶嘴对照",
+          "image": "assets/ai-video/teapot-v1-v2-spout.jpg"
+        },
+        {
+          "label": "两轮把手对照",
+          "image": "assets/ai-video/teapot-v1-v2-handle.jpg"
+        }
+      ]
+    }
+  },
+  "round": 2
+}

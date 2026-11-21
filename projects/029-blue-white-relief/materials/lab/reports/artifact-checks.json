@@ -1,0 +1,48 @@
+{
+  "missing_local_assets": [],
+  "local_references_checked": 20,
+  "motion": [
+    {
+      "file": "assets/generated/landscape-motion.mp4",
+      "frame_size": [
+        960,
+        720
+      ],
+      "decode": "passed",
+      "mean_frame_change": [
+        0.02728732638888889,
+        0.025562789351851852,
+        0.026456886574074075
+      ]
+    },
+    {
+      "file": "assets/generated/teapot-motion.mp4",
+      "frame_size": [
+        960,
+        720
+      ],
+      "decode": "passed",
+      "mean_frame_change": [
+        0.05829282407407407,
+        0.052633101851851855,
+        0.05301793981481481
+      ]
+    },
+    {
+      "file": "assets/generated/lotus-motion.mp4",
+      "frame_size": [
+        960,
+        720
+      ],
+      "decode": "passed",
+      "mean_frame_change": [
+        0.028684895833333335,
+        0.026124131944444445,
+        0.027592592592592592
+      ]
+    }
+  ],
+  "offline_bytes": 19339625,
+  "offline_external_media": [],
+  "offline_local_dependencies": []
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-15",
+  "round": 2,
+  "ai_trials": [
+    {
+      "subject": "landscape",
+      "task_id": "1059825",
+      "raw_sha256": "6427457874fa7d883f7e529d3a3ed07eb73f1d4787c8315225df493f657f9f88",
+      "original_preserved": true,
+      "decoded_frames": 121,
+      "actual_request_sound": 0,
+      "raw_audio": "nonzero",
+      "silent_derivative_verified": true,
+      "actual_credits": 75
+    },
+    {
+      "subject": "teapot",
+      "task_id": "1059824",
+      "raw_sha256": "b669d3afcbf6c71c3f183259a683b1afa895bb30bd2eae7052cbfbd30835a302",
+      "original_preserved": true,
+      "decoded_frames": 121,
+      "actual_request_sound": 0,
+      "raw_audio": "nonzero",
+      "silent_derivative_verified": true,
+      "actual_credits": 75
+    }
+  ],
+  "actual_round2_credits": 150,
+  "all_rounds_ai_credits": 300,
+  "offline_bytes": 49188285,
+  "embedded_assets": 45,
+  "all_embedded_bytes_match_sources": true,
+  "offline_media_dependencies": "self-contained",
+  "html_ids_and_js_literal_selectors": "passed",
+  "installed_skill_files_hashes": "passed (4 files)",
+  "browser_interaction": "not verified: user stopped Computer Use before page interaction; no further browser control performed",
+  "limits": [
+    "One sample per subject per round; 2 rounds are not a repeatability or causal benchmark",
+    "Raw audio content was not listened to",
+    "The silent derivatives do not turn the raw native-audio requirement into a pass"
+  ]
+}

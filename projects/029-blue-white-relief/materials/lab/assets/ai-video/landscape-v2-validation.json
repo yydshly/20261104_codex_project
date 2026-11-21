@@ -1,0 +1,152 @@
+{
+  "date": "2026-11-15",
+  "job": "landscape",
+  "task_id": "1059825",
+  "provider": "ChatArt",
+  "model": "Seedance 2.0",
+  "input_role": "first_frame",
+  "input_image": "assets/generated/landscape.png",
+  "input_sha256": "e2a9022d5ee4a1df2e9c98b377c8246f1ddd671d2c5a11841f5c6fa49af9f29b",
+  "prompt_file": "prompts/ai-landscape-v2.txt",
+  "prompt": "Use the supplied image as the exact opening frame. Make one continuous five-second locked-camera shot of this blue-and-white porcelain landscape. Preserve the complete composition, mountain silhouettes and ceramic volumes, cobalt patterns, pavilion, arched bridge, trees, the single small boat, warm ivory background and all negative space.\n\nThe single small boat is moored and motionless throughout the entire shot. Freeze its screen position, scale, heading, hull shape, reflection and the contact waterline immediately against the hull. It must not drift left or right, bob, rotate or be carried by the water. The mountains, pavilion, bridge, trees and painted patterns also stay rigidly fixed.\n\nThe only motion is gentle continuous downward water flow inside the three existing white waterfall channels, following their established drops and riverbed, plus very small ripples within the existing pools directly below each fall. Keep white and pale-blue water detail readable. Any mist is confined to a tiny, thin, translucent patch immediately around the existing waterfall impact points. No new mist high in the scene, above the mountains, beside the upper peaks or in the right-hand background; no expanding cloud or drifting fog crossing the scenery. If mist cannot remain tightly localized, omit additional mist and prioritize water motion and the fixed boat.\n\nMaintain the exact exposure, background luminance, white balance, porcelain highlights and shadows of the opening image from the very first frame through the last frame. No automatic exposure settling, opening dimming, fade, relighting or changing color temperature. Do not reinterpret the opening light into a darker cinematic grade.\n\nNo camera movement, pan, zoom, orbit, cut or transition. No structural breathing, melting ceramic, pattern sliding, moving trees, new objects, extra boats or aggressive spray. The result is completely silent: no music, speech, ambient sound, water sound or sound effects. Test localized water motion while every structural anchor and the original lighting remain fixed.\n",
+  "requested": {
+    "id": "landscape",
+    "task_type": "i2v",
+    "input_mode": "first_last_frames",
+    "input_role": "first_frame",
+    "input_sha256": "e2a9022d5ee4a1df2e9c98b377c8246f1ddd671d2c5a11841f5c6fa49af9f29b",
+    "prompt_sha256": "991d1f8c7163a112adb40e66d3cce37ff7d6d6efa425265a03901885bb6136f0",
+    "model": "Seedance 2.0",
+    "resolution": 720,
+    "duration": 5,
+    "aspect_ratio": "3:4",
+    "sound": false,
+    "count": 1,
+    "estimated_credits": 90,
+    "status": "approved_ready_to_submit"
+  },
+  "video": "assets/ai-video/landscape-v2.mp4",
+  "sha256": "6427457874fa7d883f7e529d3a3ed07eb73f1d4787c8315225df493f657f9f88",
+  "bytes": 3055706,
+  "width": 834,
+  "height": 1112,
+  "fps": 24.0,
+  "frame_count": 121,
+  "decoded_frames": 121,
+  "duration": 5.041666666666667,
+  "full_decode": "passed",
+  "audio_stream_present": true,
+  "actual_credits": "75",
+  "contact_sheet": "assets/ai-video/landscape-v2-contact.jpg",
+  "anchor_sheet": "assets/ai-video/landscape-v2-anchors.jpg",
+  "sample_times": [
+    0,
+    1.25,
+    2.5,
+    3.75,
+    4.96
+  ],
+  "visual_review_status": "reviewed",
+  "visual_observations": [
+    "船区最大中位特征位移约为图宽0.277%，第一轮约3.258%。样本中船位较稳定，但船体外观、倒影和船边水纹仍有细小变化；数值只描述图像特征，不是几何真值。",
+    "25帧序列与上部背景局部对照中，未再见第一轮约2秒后出现的高处雾丝；落水处仍有局部水花与薄雾变化。",
+    "落水泡沫和池面水纹有变化，主要亭桥与地形可辨。亭、桥特征位移最大中位数约为图宽0.052%和0.043%；严格流向与水体物理没有单凭抽帧判定通过。",
+    "背景区域灰度均值从首帧235.36降至约0.21秒的204.17；第一轮同期约200.63。第二轮仍未保持首帧曝光，全部121帧已测量该区域亮度。",
+    "保存的实际请求为sound=0；使用一张原始PNG作首帧，5秒、720p、3:4，未更换模型或重复提交。",
+    "返回原片仍有非零音轨，峰值约-23dB；音频内容未听审。另附去音轨交付版，压缩视频数据与原片一致；该派生版不替代原片的验收结论。"
+  ],
+  "method": "Unmodified AI original copied byte-for-byte; JPEG derivatives are analysis frames, not generated video replacements",
+  "query_transport_note": null,
+  "round": 2,
+  "filmstrip": "assets/ai-video/landscape-v2-filmstrip.jpg",
+  "filmstrip_times": [
+    0.0,
+    0.20833333333333334,
+    0.4166666666666667,
+    0.625,
+    0.8333333333333334,
+    1.0416666666666667,
+    1.25,
+    1.4583333333333333,
+    1.6666666666666667,
+    1.875,
+    2.0833333333333335,
+    2.2916666666666665,
+    2.5,
+    2.7083333333333335,
+    2.9166666666666665,
+    3.125,
+    3.3333333333333335,
+    3.5416666666666665,
+    3.75,
+    3.9583333333333335,
+    4.166666666666667,
+    4.375,
+    4.583333333333333,
+    4.791666666666667,
+    5.0
+  ],
+  "actual_sound_request_note": "The project-local adapter corrected the actual submitted sound field to 0; returned audio is checked independently. Original installed CLI source is unchanged.",
+  "actual_submitted_api_parameters": {
+    "gpt_type": "seedance-2.0",
+    "original_model": "seedance-2.0",
+    "function_mode": "first_last_frames",
+    "quality": "720p",
+    "ratio": "3:4",
+    "duration": "5",
+    "sound": 0
+  },
+  "actual_input_image_count": 1,
+  "review_method": "25 chronological frames, paired v1/v2 boat/upper-mist/water crops, first/end structural anchors, all-frame image-feature and background brightness checks, full codec decode. Audio signal measured; audio content not listened to.",
+  "verdict": "小舟和高处雾气改善了，曝光与原生无声仍未达标。",
+  "summary": "第二轮小舟的左右漂移明显减小，高处背景没有再出现第一轮那样的新增雾丝。亭桥与山体保持可辨，落水泡沫和池面有变化；小舟外形、倒影及周围水纹仍有细小变化，不能记为绝对冻结。开场变暗与非零音轨仍存在。",
+  "comparison_to_v1": "小舟区域的最大中位图像特征位移由第一轮约图宽3.26%降为第二轮约0.28%；高处雾丝未再出现。曝光仍在开场下落，声音请求修正为0后原片仍有非零音轨。两次样本不能据此证明修正的因果效果或稳定性。",
+  "next_revision": "保留本次较好的船位与高处雾区控制，进一步约束船体形状和接触水线；曝光需单独检验生成链路，声音需确认该服务对Seedance 2.0关闭音轨参数的实际支持。去音轨派生版仅解决交付文件的声音，不计为原生无声通过。",
+  "signal_report": "assets/ai-video/landscape-v2-signal-checks.json",
+  "feature_report": "reports/ai-review/landscape-v2-motion-features.json",
+  "silent_delivery": "assets/ai-video/landscape-v2-silent.mp4",
+  "silent_delivery_report": "assets/ai-video/landscape-v2-silent-delivery.json",
+  "comparison_images": [
+    "assets/ai-video/landscape-v1-v2-boat.jpg",
+    "assets/ai-video/landscape-v1-v2-upper-mist.jpg",
+    "assets/ai-video/landscape-v1-v2-water.jpg"
+  ],
+  "criteria": [
+    {
+      "name": "小舟、倒影和接触水线",
+      "status": "partial",
+      "label": "有改善，未完全冻结",
+      "observation": "船区最大中位特征位移约为图宽0.277%，第一轮约3.258%。样本中船位较稳定，但船体外观、倒影和船边水纹仍有细小变化；数值只描述图像特征，不是几何真值。"
+    },
+    {
+      "name": "雾气区域",
+      "status": "passed",
+      "label": "本段基本符合",
+      "observation": "25帧序列与上部背景局部对照中，未再见第一轮约2秒后出现的高处雾丝；落水处仍有局部水花与薄雾变化。"
+    },
+    {
+      "name": "水景动态与亭桥结构",
+      "status": "partial",
+      "label": "局部动态可见",
+      "observation": "落水泡沫和池面水纹有变化，主要亭桥与地形可辨。亭、桥特征位移最大中位数约为图宽0.052%和0.043%；严格流向与水体物理没有单凭抽帧判定通过。"
+    },
+    {
+      "name": "首帧曝光连续性",
+      "status": "failed",
+      "label": "仍有开场变暗",
+      "observation": "背景区域灰度均值从首帧235.36降至约0.21秒的204.17；第一轮同期约200.63。第二轮仍未保持首帧曝光，全部121帧已测量该区域亮度。"
+    },
+    {
+      "name": "关闭声音的实际请求",
+      "status": "passed",
+      "label": "参数已修正",
+      "observation": "保存的实际请求为sound=0；使用一张原始PNG作首帧，5秒、720p、3:4，未更换模型或重复提交。"
+    },
+    {
+      "name": "原片无声与交付",
+      "status": "failed",
+      "label": "原生无声未达标",
+      "observation": "返回原片仍有非零音轨，峰值约-23dB；音频内容未听审。另附去音轨交付版，压缩视频数据与原片一致；该派生版不替代原片的验收结论。"
+    }
+  ]
+}

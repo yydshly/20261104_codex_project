@@ -1,0 +1,35 @@
+{
+  "volume": {
+    "mean_volume": "-50.6 dB",
+    "max_volume": "-32.0 dB"
+  },
+  "background_roi_normalized": [
+    0.02,
+    0.02,
+    0.15,
+    0.2
+  ],
+  "background_samples": [
+    {
+      "time": 0,
+      "background_gray_mean": 227.69
+    },
+    {
+      "time": 0.21,
+      "background_gray_mean": 186.78
+    },
+    {
+      "time": 1.25,
+      "background_gray_mean": 186.61
+    },
+    {
+      "time": 2.5,
+      "background_gray_mean": 186.62
+    },
+    {
+      "time": 4.96,
+      "background_gray_mean": 186.47
+    }
+  ],
+  "note": "Image brightness and audio level are technical measurements, not perceptual or semantic ground truth."
+}

@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-15",
+  "round": 3,
+  "status": "complete",
+  "actual_credits": 75,
+  "native_trials": [
+    {
+      "id": "teapot",
+      "round": 3,
+      "task_id": "1059905",
+      "actual_credits": 75,
+      "status": "reviewed",
+      "input_mode": "omni_reference",
+      "sound_json_type": "boolean",
+      "sound": false,
+      "video": "assets/ai-video/teapot-v3.mp4",
+      "sha256": "a6bf09c26e91f95310f159104abb461450fff81f9258f7ba0d2feeb5edc46fde",
+      "validation": "assets/ai-video/teapot-v3-validation.json"
+    }
+  ],
+  "landscape_submitted": false,
+  "gate": {
+    "date": "2026-11-15",
+    "recorded_at": "2026-11-15T05:06:05.779078+00:00",
+    "probe_task_id": "1059905",
+    "raw_sha256": "a6bf09c26e91f95310f159104abb461450fff81f9258f7ba0d2feeb5edc46fde",
+    "raw_output_only": true,
+    "all_raw_output_gates_passed": false,
+    "gates": {
+      "brightness": false,
+      "no_audio_stream": false,
+      "sustained_steam": true,
+      "stable_geometry": true,
+      "technical_parameters": true
+    },
+    "failed_or_unverified": [
+      "brightness",
+      "no_audio_stream"
+    ],
+    "notes": [
+      "All four tested corners remain comparable empty background or ground in the inspected output; numeric brightness variation passes but target reference brightness error exceeds5%.",
+      "The raw clip contains an AAC track and325632 nonzero decoded float samples despite actual JSON boolean sound=false.",
+      "Steam and basic object geometry pass the sampled visual checks; these do not compensate for the failed raw brightness/audio gates.",
+      "This path changes both conditioning mode and sound JSON type; do not attribute changes to one internal backend cause."
+    ],
+    "local_corrected_deliveries_do_not_affect_gate": true,
+    "decision": "do not submit landscape; confirmed conditional stop"
+  },
+  "local_deliveries": [
+    {
+      "subject": "landscape",
+      "video": "assets/ai-video/landscape-v2-exposure-matched.mp4",
+      "sha256": "736d365e8a0c9e5f2aa4367fe04b3f0eaf59341cb503d86a210b29614e696a81",
+      "source": "assets/ai-video/landscape-v2.mp4",
+      "source_sha256": "6427457874fa7d883f7e529d3a3ed07eb73f1d4787c8315225df493f657f9f88",
+      "report": "assets/ai-video/landscape-v2-exposure-matched.json",
+      "native_ai_generation": false,
+      "credits": 0,
+      "max_tested_static_brightness_range_percent": 3.16,
+      "audio_stream_present": false
+    },
+    {
+      "subject": "teapot",
+      "video": "assets/ai-video/teapot-v2-exposure-matched.mp4",
+      "sha256": "c62761c7aa7c9e51d2a48baa545350f8b2984ff232fa4a921208351b3b47feef",
+      "source": "assets/ai-video/teapot-v2.mp4",
+      "source_sha256": "b669d3afcbf6c71c3f183259a683b1afa895bb30bd2eae7052cbfbd30835a302",
+      "report": "assets/ai-video/teapot-v2-exposure-matched.json",
+      "native_ai_generation": false,
+      "credits": 0,
+      "max_tested_static_brightness_range_percent": 2.952,
+      "audio_stream_present": false
+    }
+  ],
+  "scope": "Native results and local post-processing are separate. Earlier raw originals are preserved. One sample per route does not isolate internal backend causes or prove repeatability."
+}

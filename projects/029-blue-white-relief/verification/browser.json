@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "scope": "Isolated desktop Chrome and390px simulated viewport; local raw-repository requests fulfilled with the exact staged files.",
+  "errors": [],
+  "httpErrors": [],
+  "newGenerationCredits": 0,
+  "desktop": "Guide original loaded; three complete summary panels, delivery metadata, round3 stop, state filters, Chinese search, comparison playback and three related-page iframes passed.",
+  "mobile": "390px simulated viewport: no horizontal overflow; guide retains aspect ratio."
+}

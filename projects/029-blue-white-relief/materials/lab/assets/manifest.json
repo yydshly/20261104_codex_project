@@ -1,0 +1,182 @@
+{
+  "created": "2026-11-15",
+  "source_author": "Zidan 子丹 / @liluocheng13",
+  "source_post": "http[本机路径已省略]",
+  "source_video_playlist": "http[本机路径已省略]",
+  "source_video_method": "Public HLS downloaded and remuxed using stream copy; H.264/AAC; no redraw or content edit",
+  "source_poster_url": "http[本机路径已省略]",
+  "source_palette_url": "http[本机路径已省略]",
+  "source_video_observation": "Downloaded and decoded completely; visual review uses sampled frames; audio has not been listened to",
+  "originals": [
+    {
+      "file": "assets/original/contact-sheet.jpg",
+      "sha256": "36155a83e6c86d02234672424dd09f28d03bd821fe5ddfe9f0b500a65ac069b9"
+    },
+    {
+      "file": "assets/original/landscape-poster.webp",
+      "sha256": "2b5fc5295140237c69d2786f20c31edb33ef0cd8daa50c381f7a5b0a17d61629"
+    },
+    {
+      "file": "assets/original/palette-study.webp",
+      "sha256": "3877db417482d17baa8384d328e87fd827297481f03ed9b808b23c3aa8ceeca1"
+    },
+    {
+      "file": "assets/original/source-video.mp4",
+      "sha256": "3e153076ce55530237ddc38490bb1841764bbb174c5c43464259746a97a7f945"
+    }
+  ],
+  "generated": [
+    {
+      "id": "landscape",
+      "file": "assets/generated/landscape.png",
+      "sha256": "e2a9022d5ee4a1df2e9c98b377c8246f1ddd671d2c5a11841f5c6fa49af9f29b",
+      "width": 1086,
+      "height": 1448,
+      "method": "built-in ImageGen; text-to-image; no reference image input",
+      "model_version": null,
+      "seed": null,
+      "prompt": "prompts/generation.json#landscape",
+      "motion_file": "assets/generated/landscape-motion.mp4",
+      "motion_method": "Python/Pillow overlays + FFmpeg encoding; no AI video generation; fixed image, local light/steam cues; silent",
+      "motion_sha256": "3d9f6e65545ef2a3fbb7a0b4c725a3e0d24eae130a58e2030fc007375040d4ca"
+    },
+    {
+      "id": "teapot",
+      "file": "assets/generated/teapot.png",
+      "sha256": "83f53807aa2a8970c548859f94212a2b023d73576aacdd9f7d0e826c24c46add",
+      "width": 1448,
+      "height": 1086,
+      "method": "built-in ImageGen; text-to-image; no reference image input",
+      "model_version": null,
+      "seed": null,
+      "prompt": "prompts/generation.json#teapot",
+      "motion_file": "assets/generated/teapot-motion.mp4",
+      "motion_method": "Python/Pillow overlays + FFmpeg encoding; no AI video generation; fixed image, local light/steam cues; silent",
+      "motion_sha256": "ee188faba4ab7f3bec709cfdd0a4b39163d16a84bdfe8c6b3d6999cf5942699c"
+    },
+    {
+      "id": "lotus",
+      "file": "assets/generated/lotus.png",
+      "sha256": "6399e626ffc66aac5f91c644f025746eea2d64df8be855512e9bbd6746582c62",
+      "width": 1448,
+      "height": 1086,
+      "method": "built-in ImageGen; text-to-image; no reference image input",
+      "model_version": null,
+      "seed": null,
+      "prompt": "prompts/generation.json#lotus",
+      "motion_file": "assets/generated/lotus-motion.mp4",
+      "motion_method": "Python/Pillow overlays + FFmpeg encoding; no AI video generation; fixed image, local light/steam cues; silent",
+      "motion_sha256": "8509fcbf50586156c27c36fdf9604084eb948e0cafcd99086ea9f7dd487af946"
+    }
+  ],
+  "limits": [
+    "One generated sample per subject; not a repeatability benchmark",
+    "Source palette ratios are author chart labels, not measured pixel coverage",
+    "No third-party source images were passed to ImageGen",
+    "Procedural motion and real AI video originals are documented separately",
+    "Each AI subject has one sample; structure stability, motion scope, brightness and sound deviations are documented separately."
+  ],
+  "ai_video_trials": [
+    {
+      "id": "landscape",
+      "status": "reviewed",
+      "video": "assets/ai-video/landscape-v1.mp4",
+      "sha256": "4f018802979727351982e539a9b2ca614362391f9773df6b9e5ff94313f8ecb0",
+      "validation": "assets/ai-video/landscape-validation.json",
+      "actual_credits": 75
+    },
+    {
+      "id": "teapot",
+      "status": "reviewed",
+      "video": "assets/ai-video/teapot-v1.mp4",
+      "sha256": "63e2e297d6d84a66b28043de0b4d14ebb863795e62300bb337dac2d274a6dc99",
+      "validation": "assets/ai-video/teapot-validation.json",
+      "actual_credits": 75
+    },
+    {
+      "id": "landscape",
+      "round": 2,
+      "status": "reviewed",
+      "video": "assets/ai-video/landscape-v2.mp4",
+      "sha256": "6427457874fa7d883f7e529d3a3ed07eb73f1d4787c8315225df493f657f9f88",
+      "validation": "assets/ai-video/landscape-v2-validation.json",
+      "actual_credits": 75
+    },
+    {
+      "id": "teapot",
+      "round": 2,
+      "status": "reviewed",
+      "video": "assets/ai-video/teapot-v2.mp4",
+      "sha256": "b669d3afcbf6c71c3f183259a683b1afa895bb30bd2eae7052cbfbd30835a302",
+      "validation": "assets/ai-video/teapot-v2-validation.json",
+      "actual_credits": 75
+    },
+    {
+      "id": "teapot",
+      "round": 3,
+      "task_id": "1059905",
+      "actual_credits": 75,
+      "status": "reviewed",
+      "input_mode": "omni_reference",
+      "sound_json_type": "boolean",
+      "sound": false,
+      "video": "assets/ai-video/teapot-v3.mp4",
+      "sha256": "a6bf09c26e91f95310f159104abb461450fff81f9258f7ba0d2feeb5edc46fde",
+      "validation": "assets/ai-video/teapot-v3-validation.json"
+    }
+  ],
+  "ai_video_actual_total_credits": 375,
+  "ai_video_silent_derivatives": [
+    {
+      "raw": "assets/ai-video/landscape-v2.mp4",
+      "derived": "assets/ai-video/landscape-v2-silent.mp4",
+      "sha256": "bb2f2b2daff68baef5eea7407ca38ac763378be9fa735ed491fa8418ddb1cb19",
+      "method": "FFmpeg stream copy of video; audio removed; raw AI output preserved",
+      "compressed_video_payload_hash": "SHA256=2fc76faf7c905589a927372e6d9f036034b1eb1bcaa3b70484174ae813894d8e",
+      "video_payload_matches_raw": true,
+      "full_decode": "passed",
+      "audio_stream_present": false
+    },
+    {
+      "raw": "assets/ai-video/teapot-v2.mp4",
+      "derived": "assets/ai-video/teapot-v2-silent.mp4",
+      "sha256": "7b45b3cecca1affcf96d2cffa456f66795ebcf06269bc96fba5a24930f44ddb3",
+      "method": "FFmpeg stream copy of video; audio removed; raw AI output preserved",
+      "compressed_video_payload_hash": "SHA256=acbd633658202bf5e3612e542d8c4715313f0e5916a6ea72114634b6148c9b78",
+      "video_payload_matches_raw": true,
+      "full_decode": "passed",
+      "audio_stream_present": false
+    }
+  ],
+  "ai_video_round2_actual_credits": 150,
+  "ai_video_actual_total_credits_known": 375,
+  "ai_video_round3_actual_credits": 75,
+  "ai_video_round3_landscape_submitted": false,
+  "local_exposure_deliveries": [
+    {
+      "subject": "landscape",
+      "video": "assets/ai-video/landscape-v2-exposure-matched.mp4",
+      "sha256": "736d365e8a0c9e5f2aa4367fe04b3f0eaf59341cb503d86a210b29614e696a81",
+      "source": "assets/ai-video/landscape-v2.mp4",
+      "source_sha256": "6427457874fa7d883f7e529d3a3ed07eb73f1d4787c8315225df493f657f9f88",
+      "report": "assets/ai-video/landscape-v2-exposure-matched.json",
+      "native_ai_generation": false,
+      "credits": 0,
+      "max_tested_static_brightness_range_percent": 3.16,
+      "audio_stream_present": false
+    },
+    {
+      "subject": "teapot",
+      "video": "assets/ai-video/teapot-v2-exposure-matched.mp4",
+      "sha256": "c62761c7aa7c9e51d2a48baa545350f8b2984ff232fa4a921208351b3b47feef",
+      "source": "assets/ai-video/teapot-v2.mp4",
+      "source_sha256": "b669d3afcbf6c71c3f183259a683b1afa895bb30bd2eae7052cbfbd30835a302",
+      "report": "assets/ai-video/teapot-v2-exposure-matched.json",
+      "native_ai_generation": false,
+      "credits": 0,
+      "max_tested_static_brightness_range_percent": 2.952,
+      "audio_stream_present": false
+    }
+  ],
+  "round3_gate_report": "reports/round3-phase-gate.json"
+}

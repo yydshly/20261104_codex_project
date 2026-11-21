@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-15",
+  "reference": {
+    "post": "http[本机路径已省略]",
+    "video_downloaded": true,
+    "video_decode": "passed; entire H.264/AAC source",
+    "video_duration_seconds_approx": 6.12,
+    "visual_evidence": "Contact sheet at 0.1, 1.5, 3.0, 4.5, 5.9 seconds",
+    "observed": [
+      "Boat changes position from lower left toward lower right",
+      "Waterfall and mist/cloud shapes change across the sampled frames",
+      "Mountain, pavilion and tree anchors remain broadly recognizable in sampled frames"
+    ],
+    "not_verified": [
+      "Audio content or quality",
+      "Frame-by-frame geometric continuity",
+      "Exact author prompts or model versions"
+    ]
+  },
+  "generated_stills": {
+    "landscape": {
+      "observed": "Visible ceramic volumes, coherent layered terrain, waterfalls, bridge, pavilion and boat",
+      "deviation": "Glossier than reference, more floral ornament, denser body",
+      "next": "Reduce ornaments and gloss, open gaps between peaks"
+    },
+    "teapot": {
+      "observed": "Spout, handle, lid seam and foot remain readable; landscape relief follows belly",
+      "deviation": "White channel reads primarily as glaze rather than flowing water",
+      "next": "Keep functional silhouette; test one bounded channel only if water is wanted"
+    },
+    "lotus": {
+      "observed": "Lotus center, petal layers, stem and two leaves remain recognizable; blue-white glaze transfers",
+      "deviation": "Scale contrast is weaker than reference; reads as a ceramic flower sculpture",
+      "next": "Strengthen structural path continuity and negative space without adding unrelated landscape props"
+    }
+  },
+  "motion_method": "Three 6-second silent procedural overlay studies. Still-image structure is fixed; local water highlights, steam or dew light are composited with Python/Pillow and encoded using FFmpeg. Browser canvas implements the same type of effect with interactive settings.",
+  "ability_status": {
+    "rules_and_prompts": "documented",
+    "still_generation": "one observed sample per subject",
+    "cross_subject_transfer": "visible in samples, repeatability not established",
+    "procedural_motion": "rendered; browser controls, region overlays, pause and exports verified",
+    "ai_video_generation": "Four actual Seedance 2.0 clips reviewed across two targeted rounds; observations are sample-specific, not a causal or repeatability benchmark.",
+    "3d_camera": "not implemented",
+    "postprocessed_exposure_delivery": "Two v2 clips corrected and reviewed with held-out static regions, unchanged frame count/time order and no audio. Applies to these fixed-camera samples only.",
+    "round3_native_path": "Tea raw-output gate not passed; landscape was not submitted under the confirmed conditional stop"
+  },
+  "ai_video_reviews": [
+    "assets/ai-video/landscape-validation.json",
+    "assets/ai-video/teapot-validation.json",
+    "assets/ai-video/landscape-v2-validation.json",
+    "assets/ai-video/teapot-v2-validation.json",
+    "assets/ai-video/teapot-v3-validation.json"
+  ],
+  "round3_summary": "reports/round3-summary.json",
+  "local_exposure_deliveries": [
+    "assets/ai-video/landscape-v2-exposure-matched.json",
+    "assets/ai-video/teapot-v2-exposure-matched.json"
+  ]
+}

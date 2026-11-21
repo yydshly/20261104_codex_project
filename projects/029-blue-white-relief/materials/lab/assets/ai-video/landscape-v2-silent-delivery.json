@@ -1,0 +1,10 @@
+{
+  "raw": "assets/ai-video/landscape-v2.mp4",
+  "derived": "assets/ai-video/landscape-v2-silent.mp4",
+  "sha256": "bb2f2b2daff68baef5eea7407ca38ac763378be9fa735ed491fa8418ddb1cb19",
+  "method": "FFmpeg stream copy of video; audio removed; raw AI output preserved",
+  "compressed_video_payload_hash": "SHA256=2fc76faf7c905589a927372e6d9f036034b1eb1bcaa3b70484174ae813894d8e",
+  "video_payload_matches_raw": true,
+  "full_decode": "passed",
+  "audio_stream_present": false
+}

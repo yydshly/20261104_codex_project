@@ -34,6 +34,7 @@
 | 026 | [日常情绪与 AI 短视频效果研究](projects/026-emotion-led-video/README.md) | [用户分享帖](https://x.com/billtheinvestor/status/2120217438533066946) · [TechHalla原帖](https://x.com/techhalla/status/2110686996049883550) | 从人的日常情绪出发，把渴望变成一个想亲历的瞬间。用四种情绪效果图、六个故事和两轮海洞小样，研究人物回应、创意视角与真实质感怎样承载欲望、代入和观看期待；沉淀选题、镜头与反馈方法，情绪效果仍待验证。 | [本次生成的引导图](#emotion-led-video-guide) | [在线研究与效果](https://yydshly.github.io/20261104_codex_project/026-emotion-led-video/) |
 | 027 | [奇幻影像与世界构造研究](projects/027-surreal-motion-study/README.md) | [@hi_personality原帖](https://x.com/hi_personality/status/2115567493565825244) · [巨构参考](https://x.com/EiiKwesiKay/status/2120958808789029021) | 从奇幻骑行原片提炼光色、反向规则、空间构图、主体情绪、相机、音乐节律和世界一致性七条主轴。以原创关键帧、十种效果、局部预演、一条用户通过的AI舞步和三个世界候选，沉淀关系、参数、提示词与验收方法；区分HDR与高曝光，连续3D、稳定生成与产品价值仍待验证。 | [已有研究总图](#surreal-motion-guide) | [在线研究与效果](https://yydshly.github.io/20261104_codex_project/027-surreal-motion-study/) |
 | 028 | [地球里的小世界：连续生态世界与痕迹记忆](projects/028-earth-within/README.md) | 自主实践 · [Three.js](https://github.com/mrdoob/three.js) · [MiniMax](https://www.minimax.io/) | 研究怎样以小岚为中心，把雪山、河谷、森林、河口与海底接成可自由行走的世界，让天气、水流、动物、声音和足迹共同回应人的行动。15个观察点、27幕图鉴、雨洪潮汐、游泳跃水、干湿脚印与MiniMax导览构成可操作原型；沉淀共享状态、触地事件、环境记忆和连续导览的复用方法，服务自然科普、数字展陈与探索体验。流体和生态为简化模型，动作真实度、长时性能与学习/商业收益仍需验证。 | [本轮全景引导图](#earth-within-guide) | [在线研究与自由探索](https://yydshly.github.io/20261104_codex_project/028-earth-within/) |
+| 029 | [青白造境：风格作品与现实应用研究](projects/029-blue-white-relief/README.md) | [Zidan子丹原帖](https://x.com/liluocheng13/status/2121285407824572635) · 自主图像、视频与网页交付实践 | 从青花山水参考出发，研究瓷质体积、色彩、通路与留白怎样沉淀为作品和交付方法。三题材静帧、五段AI原片、两段校正短片、概念展示页与可编辑模板，验证了样本制作、局部修正和网页复用。价值在作品资产、可追溯经验与交付工具；真实商品、地方或故事的保真和商业效果仍待验证。 | [已有理解引导图](#blue-white-relief-guide) | [在线研究、效果与模板](https://yydshly.github.io/20261104_codex_project/029-blue-white-relief/) |
 
 项目按收录顺序从 `001` 开始编号。新条目按编号追加，已分配的编号保持固定。索引摘要用一两句话写清研究对象和关注点。完成验证后，可补上一条主要发现。
 
@@ -431,3 +432,23 @@ Adam Chernick 个人制作、扩展和组合的网页 3D 实验，部分基于 T
 **价值与扩展**：让自然因果、时间与“我来过”的痕迹被观察，服务科普、展陈、探索与陪伴体验；沉淀共享状态、触地事件、近看镜头、音频缓存和环境记忆的复用方法。下一步先做长时稳定、动作真实度与全路线验收，再扩生态细节、昼夜季节、水沙演化和观测工具。现有75项检查与10分钟离屏模拟不等于商业画质或实机恒定帧率；完整流体、食物网、长期情绪/学习效果与商业收益未验证。
 
 引导图沿用本轮4000×7200原始PNG并保留SVG及哈希。研究与公开整理截至2026-11-21。[在线研究](https://yydshly.github.io/20261104_codex_project/028-earth-within/) · [自由探索](https://yydshly.github.io/20261104_codex_project/028-earth-within/play.html#walk) · [观察脚印](https://yydshly.github.io/20261104_codex_project/028-earth-within/play.html?shore=footprints&tide=ebb#walk) · [完整研究摘要](projects/028-earth-within/README.md)
+
+<a id="blue-white-relief-guide"></a>
+
+### 029 · 青白造境：风格作品、网页交付与现实应用研究
+
+从青花山水参考出发，研究瓷质体积、色彩、通路与留白怎样沉淀为作品和交付方法。三题材静帧、五段AI原片、两段校正短片、概念展示页与可编辑模板，验证了样本制作、局部修正和网页复用。价值在作品资产、可追溯经验与交付工具；真实商品、地方或故事的保真和商业效果仍待验证。
+
+![已有青白造境理解总览图：实际山水与茶器效果、已做成的网页与模板、能力边界、现实扩展方向及产品价值](projects/029-blue-white-relief/assets/research-understanding-20261121.png)
+
+**研究方向：** 研究参考效果中的材质、形体、青蓝重点、白色通路、点景尺度与疏密留白，怎样随主体调整，并经过静帧、局部动态、返修、验收与网页交付，成为可回查、可改稿的创作资产。
+
+**实际效果：** 已有山水、茶器、莲花三张静帧，三轮五段Seedance 2.0原片，两段约5秒的曝光匹配无音轨交付，以及山白概念页、本地编辑器和证据索引。原生曝光与声音约束仍未通过，交付效果来自本地校正。
+
+**对我们的价值：** 已落地的是可直接展示的作品、准确指令和偏差记录，以及能换内容、保存配置和导出网页的工具。它们支持内部提案、风格评审与概念演示；省时多少、是否被采用或付费、能否带来转化，尚无测量。
+
+**与现实世界结合：** 进一步把真实茶叶与包装、地方地标、器物或文化故事作为对象，保留识别特征并使用准确信息，形成品牌视觉套件或文化专题页面。这些是候选方向，尚未完成真实商品和客户验证。
+
+引导图原样复用本轮已生成的2800×2366图，图内146条为此前本地快照，公开索引以网页为准。历史AI视频实际累计375积分，网页、模板和本次发布未新增生成任务；静帧未提供积分记录。原帖媒体保留本地归档，公开页保留出处与文字观察。
+
+[研究与一图理解](https://yydshly.github.io/20261104_codex_project/029-blue-white-relief/#guide-image) · [当前成品](https://yydshly.github.io/20261104_codex_project/029-blue-white-relief/#results) · [能力与边界](https://yydshly.github.io/20261104_codex_project/029-blue-white-relief/#capabilities) · [概念展示页](https://yydshly.github.io/20261104_codex_project/029-blue-white-relief/tea/) · [本地模板](https://yydshly.github.io/20261104_codex_project/029-blue-white-relief/tea/studio.html) · [完整摘要](projects/029-blue-white-relief/README.md)

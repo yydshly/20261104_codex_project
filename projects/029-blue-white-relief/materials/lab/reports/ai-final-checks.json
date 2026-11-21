@@ -1,0 +1,26 @@
+{
+  "ai_trials": [
+    {
+      "subject": "landscape",
+      "reviewed": true,
+      "full_decode_previously_passed": true,
+      "sha256_matches": true,
+      "offline_original_and_report_match": true,
+      "actual_credits": 75
+    },
+    {
+      "subject": "teapot",
+      "reviewed": true,
+      "full_decode_previously_passed": true,
+      "sha256_matches": true,
+      "offline_original_and_report_match": true,
+      "actual_credits": 75
+    }
+  ],
+  "actual_total_credits": 150,
+  "offline_bytes": 29428278,
+  "embedded_assets": 27,
+  "offline_media_and_local_dependencies": "passed",
+  "original_and_generated_asset_hashes": "passed",
+  "installed_skill_files_hashes": "passed (4 files)"
+}
