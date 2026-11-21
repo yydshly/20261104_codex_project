@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="把李白《蜀道难》做成一条可走的九幕 3D 蜀道，探索怎样让诗句、地形、语音、镜头和史料互相对应。">
+  <meta property="og:title" content="《蜀道难》第一人称诗境研究">
+  <meta property="og:description" content="从秦塞太白走到锦城西望。九幕三维实景、双音色导览与史料依据。">
+  <meta property="og:image" content="https://yydshly.github.io/20261104_codex_project/015-shu-road/shu-road-overview.png">
+  <title>蜀道难 · 研究与演示</title>
+  <link rel="stylesheet" href="research.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-inner">
+      <a class="wordmark" href="research.html"><span aria-hidden="true">蜀</span> 三维诗境</a>
+      <nav aria-label="页面导航"><a href="#summary">研究摘要</a><a href="#guide-image">九幕引导图</a><a href="index.html">进入演示 ↗</a></nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <div class="body-grid">
+      <section class="intro">
+        <p class="kicker">唐 · 李白</p>
+        <h1>沿着《蜀道难》<br>走一遍蜀道</h1>
+        <p>站上栈道，低头看脚下的木板，转身望向峡谷。走到诗中的地点，先听原诗，再听眼前地形与诗意的解说。</p>
+        <div class="actions"><a class="button" href="index.html">进入第一视角</a><a href="#guide-image">先看九幕引导图</a></div>
+        <ul class="stats" aria-label="演示规模">
+          <li><strong>九幕</strong><span>连续可走的路线</span></li>
+          <li><strong>18 段</strong><span>MiniMax 双音色语音</span></li>
+          <li><strong>约 4 分 47 秒</strong><span>完整演示实测</span></li>
+        </ul>
+      </section>
+      <figure id="guide-image">
+        <figcaption><h2>九幕引导图</h2><a href="shu-road-overview.png">查看原图 ↗</a></figcaption>
+        <a href="shu-road-overview.png" aria-label="查看《蜀道难》九幕引导图原图"><img src="shu-road-overview.png" width="2304" height="2893" alt="九幕网页实景、对应诗句、青泥岭和剑门关的史料依据与推测复原"></a>
+      </figure>
+      <div class="study" id="summary">
+        <section>
+          <h2>实现了什么</h2>
+          <p>将秦塞太白到锦城西望的九幕连成可行走的 3D 路线。可停步、自由转头、切换全景或一键演示。到达景点先听诗人朗诵，随后听旁白解说，字幕和镜头随语句指向景物。</p>
+          <p>鸟道是一条可辨认的窄岩沿。抚膺坐叹时，视点坐低，手臂收向胸前。「万壑雷」一幕可以看见急瀑、击石、飞沫和雾气。</p>
+        </section>
+        <section>
+          <h2>探索了什么</h2>
+          <p>先找到旅人的站位和脚下通路，再用近处的栈板、绝壁与远峰建立高低落差。操作、镜头和语音一起引导理解：五丁开山写开路之难，青泥与飞湍写亲历之险，剑门转到守关人事，锦城收在劝归与回望。</p>
+          <p>手动游览可以留在现场继续看，完整演示以短转场压缩长路。两种节奏都使用同一套 3D 场景和语音。</p>
+        </section>
+        <section>
+          <h2>有什么价值</h2>
+          <p>把读者容易一带而过的景物和动作变成可停留、可观察的空间。朗诵负责传达诗的节奏，旁白解释眼前所见，史料标注让观众判断画面依据。这套从诗句到场景的做法可复用于古诗教学展示、史地导览和文化展陈原型。</p>
+          <p class="fine">已有本机全程播放和交互验证。真实教学收益有待读者体验验证。</p>
+        </section>
+      </div>
+    </div>
+    <section class="evidence" aria-labelledby="evidence-title">
+      <h2 id="evidence-title">史料如何进入画面</h2>
+      <div class="evidence-grid">
+        <article>
+          <h3>青泥岭</h3>
+          <dl>
+            <dt>唐文献</dt><dd>《元和郡县图志》记崖险多雨、行人遇泥淖。</dd>
+            <dt>遗存参照</dt><dd>关坪山石碥道与八渡沟栈道遗迹。</dd>
+            <dt>推测复原</dt><dd>栈孔孔位、孔形与短木栈的板梁、斜撑。</dd>
+          </dl>
+          <p class="sources"><a href="https://zh.wikisource.org/wiki/元和郡縣圖志/卷22">唐代原文</a><a href="https://www.gs.gov.cn/gsszf/c100054/202304/169834641/files/d47e74422e0f4aa99fbeb09bf1f9b698.pdf">甘肃省文保名录</a></p>
+        </article>
+        <article>
+          <h3>剑门关</h3>
+          <dl>
+            <dt>唐文献</dt><dd>《剑门铭》用「界山为门」写关隘地势。</dd>
+            <dt>遗存参照</dt><dd>剑门蜀道遗址的年代跨战国至清。</dd>
+            <dt>推测复原</dt><dd>低石墙与木门形制，守关者属于诗意演绎。</dd>
+          </dl>
+          <p class="sources"><a href="https://zh.wikisource.org/wiki/劍門銘（並序）">唐代原文</a><a href="https://www.mct.gov.cn/whzx/ggtz/200606/t20060609_694678.htm">全国重点文保名录</a></p>
+        </article>
+      </div>
+      <p class="fine">九幕按诗序组织，相对位置、距离与传说人物均按诗境编排。</p>
+    </section>
+  </main>
+  <footer class="wrap"><a href="index.html">进入 3D 演示</a><a href="https://github.com/yydshly/20261104_codex_project/tree/main/projects/015-shu-road">研究档案与源码</a></footer>
+</body>
+</html>

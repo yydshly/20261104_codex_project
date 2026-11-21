@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="沿一条可连续行走的三维蜀道前行，每到一处先听李白《蜀道难》原诗，再听地形与意境的解说。">
+  <title>蜀道难 · 三维诗境</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="scenes.js"></script>
+  <script defer src="trail-notes.js"></script>
+  <script defer src="full-geometry.js"></script>
+  <script defer src="narration.js"></script>
+  <script defer src="speech-cues.js"></script>
+  <script defer src="location-player.js"></script>
+  <script defer src="ambience.js"></script>
+  <script defer src="look.js"></script>
+  <script defer src="first-person.js"></script>
+  <script defer src="road-connectors.js"></script>
+  <script defer src="walk-motion.js"></script>
+  <script defer src="gaze-cues.js"></script>
+  <script defer src="scene.js"></script>
+</head>
+<body data-view-mode="first-person">
+  <main class="page">
+    <header class="masthead">
+      <div class="identity">
+        <div class="seal" aria-hidden="true">蜀</div>
+        <div><div class="eyebrow">唐 · 李白</div><h1>蜀道难</h1></div>
+      </div>
+      <div class="header-actions">
+        <button type="button" class="quiet" id="view-mode" aria-pressed="false">切换全景</button>
+        <button type="button" class="quiet" id="reset-view">看向前路</button>
+        <button type="button" class="quiet" id="play-sequence"><span id="play-icon" aria-hidden="true">♪</span><span id="play-label">开启语音导览</span></button>
+        <button type="button" class="primary" id="full-demo">完整演示</button>
+      </div>
+    </header>
+    <section class="stage" aria-label="可操作的三维场景">
+      <canvas id="terrain" tabindex="0" aria-label="《蜀道难》的三维地形" aria-describedby="camera-hint"></canvas>
+      <div class="stage-dissolve" id="stage-dissolve" aria-hidden="true"><span id="travel-caption"></span></div>
+      <div class="stage-heading">
+        <div class="stage-kicker">
+          <span class="camera-mode"><span class="first-person-label">第一视角</span><span class="orbit-label">全景</span></span>
+          <span class="stage-index" id="stage-index">01 / 09</span>
+          <span class="scene-model-tag" id="scene-model-tag">诗境演绎</span>
+        </div>
+        <span class="stage-place" id="stage-place"></span>
+        <ul class="history-key" id="history-key" aria-label="本幕证据分类" hidden>
+          <li data-evidence="document"></li>
+          <li data-evidence="material"></li>
+          <li data-evidence="hypothesis"></li>
+        </ul>
+      </div>
+      <button class="feature-marker" id="feature-marker" type="button" hidden></button>
+      <details class="scene-notes" id="scene-notes">
+        <summary>详细解说</summary>
+        <div class="notes-panel">
+          <div class="eyebrow">场景拆解 <span id="scene-type" class="type"></span></div>
+          <h2 id="scene-title"></h2>
+          <p id="scene-location" class="scene-location"></p>
+          <dl class="effects">
+            <div><dt>地形</dt><dd id="scene-terrain"></dd></div>
+            <div><dt>效果</dt><dd id="scene-effect"></dd></div>
+            <div><dt>意境</dt><dd id="scene-mood"></dd></div>
+          </dl>
+          <dl class="effects scene-basis">
+            <div><dt id="scene-basis-label">依据</dt><dd id="scene-basis"></dd></div>
+            <div id="scene-material-row" hidden><dt>实物</dt><dd id="scene-material-basis"></dd></div>
+            <div><dt id="scene-interpretation-label">演绎</dt><dd id="scene-interpretation"></dd></div>
+          </dl>
+          <div class="verse-panel">
+            <div class="eyebrow">诗句原文</div>
+            <div id="scene-verse"></div>
+          </div>
+          <a id="scene-source" class="source-link" target="_blank" rel="noopener noreferrer"></a>
+          <a id="scene-extra-source" class="source-link" target="_blank" rel="noopener noreferrer" hidden></a>
+          <a id="scene-context-source" class="source-link" target="_blank" rel="noopener noreferrer" hidden></a>
+        </div>
+      </details>
+      <div class="stage-bottom">
+        <div class="subtitle">
+          <span class="subtitle-speaker" id="caption-speaker" hidden></span>
+          <span id="stage-caption"></span>
+        </div>
+        <div class="stage-tools">
+          <p class="controls-hint"><span id="camera-hint">W / S 行走 · Shift 快行 · 拖动环顾</span><span id="touch-camera-hint">拖动环顾 · 前行或停步</span><span id="walk-end" hidden>已抵达蜀道终点</span></p>
+          <div class="walk-controls" role="group" aria-label="沿山路移动">
+            <button type="button" data-walk="-1">后退</button>
+            <button type="button" id="walk-toggle" aria-pressed="false">沿路前行</button>
+            <button type="button" id="trail-shortcut" hidden>快到下一景</button>
+          </div>
+        </div>
+      </div>
+      <p id="scene-error" class="scene-error" role="alert" hidden></p>
+    </section>
+    <aside class="waypoint-guide" aria-label="沿途解说">
+      <div class="waypoint-copy">
+        <h2 id="arrival-title"></h2>
+        <p id="arrival-note"></p>
+      </div>
+      <button type="button" class="quiet" id="explain-location" disabled>只听解说</button>
+    </aside>
+    <section class="sequence" aria-label="沿途九处地点">
+      <div class="sequence-head"><h2>沿蜀道前行</h2><span id="play-status" aria-live="polite">每到一处，先听原诗，再听解说</span></div>
+      <div class="chapter-grid" id="chapters"></div>
+      <div class="timeline">
+        <label class="visually-hidden" for="journey-progress">蜀道行程</label>
+        <progress id="journey-progress" max="1" value="0"></progress>
+        <span id="chapter-clock" aria-hidden="true">0 m</span>
+      </div>
+      <label class="trail-option"><input type="checkbox" id="compress-trail"> 自动前行时缩短长路</label>
+    </section>
+    <footer>
+      <span>九处场景沿诗序组合，地形、建筑和路程为诗境示意。各幕依据见「详细解说」。</span>
+      <div class="footer-links">
+        <a href="research.html#guide-image">研究与引导图</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://zh.wikisource.org/zh-hans/%E8%9C%80%E9%81%93%E9%9B%A3_(%E6%9D%8E%E7%99%BD)">《全唐诗》原文 ↗</a>
+      </div>
+    </footer>
+    <audio id="narration" preload="none"></audio>
+  </main>
+</body>
+</html>

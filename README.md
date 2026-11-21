@@ -19,6 +19,7 @@
 | 011 | [云隙行 · 3D 骑行世界研究](projects/011-yunxi-ride/README.md) | 自主实践 · 浏览器 WebGL 原型 | 研究怎样把 3D 鹈鹕骑车做成可游历的修仙世界。程序化天路、轮脚同步与承载、自游避障、三处秘境、双曲目跟拍和完整界面实录，沉淀可复用的关卡原型、状态驱动动画、导览与验收方法。 | [本轮生成的引导图](#yunxi-ride-guide) | [在线研究与试玩](https://yydshly.github.io/20261104_codex_project/011-yunxi-ride/) |
 | 012 | [暮色之堡与知识世界探索](projects/012-castle-knowledge-world/README.md) | 自主实践 · [Three.js](https://github.com/mrdoob/three.js) · [从零造物](https://github.com/bluesky-rgb/cong-ling-zao-wu) | 用 Three.js + HTML 实现第一人称从渔屋码头渡湖、入堡与螺旋登塔，研究怎样把科普、历史、音乐和农业融入可漫游世界。沉淀可复用的场景、通行与操作基础，并提出器物学习与生活联动方案，知识模型和学习成效继续验证。 | [已有研究全景图](#castle-knowledge-world-guide) | [在线研究与原型试玩](https://yydshly.github.io/20261104_codex_project/012-castle-knowledge-world/) |
 | 013 | [视差窗口与微缩交互研究](projects/013-spatial-window/README.md) | [Doui Lab 原帖](https://x.com/DouiLabApps/status/2119414517126107169) · [Parapeek Clock](https://www.doui-lab.com/en/apps/parapeek-clock/) · [Three.js](https://github.com/mrdoob/three.js) | 研究普通摄像头与观看位置如何驱动屏幕内的空间，用 11 个场景实现视差出框、嵌套桌面、日常信息、双机位列车与齿轮修复。沉淀可复用的投影、场景状态和操作反馈，服务互动展示、氛围桌面与修复原型，实机稳定性和长期收益继续验证。 | [已有三栏引导图](#spatial-window-guide) | [在线研究与交互效果](https://yydshly.github.io/20261104_codex_project/013-spatial-window/) |
+| 015 | [《蜀道难》第一人称诗境研究](projects/015-shu-road/README.md) | [李白《蜀道难》](https://zh.wikisource.org/zh-hans/蜀道难_(李白)) · 自主 WebGL 实践 | 实现一条可走的九幕 3D 蜀道，用双音色语音和镜头把诗句对准景物。探索怎样用旅人站位表达高险，并在模型上标明史料与推测，为古诗教学展示和文化导览提供可复用原型。 | [已有九幕引导图](#shu-road-guide) | [研究与解读](https://yydshly.github.io/20261104_codex_project/015-shu-road/research.html) · [在线演示](https://yydshly.github.io/20261104_codex_project/015-shu-road/) |
 
 项目按收录顺序从 `001` 开始编号。新条目按编号追加，已分配的编号保持固定。索引摘要用一两句话写清研究对象和关注点。完成验证后，可补上一条主要发现。
 
@@ -189,6 +190,18 @@ Adam Chernick 个人制作、扩展和组合的网页 3D 实验，部分基于 T
 引导图沿用本轮已生成的三栏版本，公开网页提供 15 个研究主题、场景直达、交互原理、来源与 8 个扩展方向。公开演示使用已有 VRoid 样例作为举钟人物，引导图与历史截图记录的是本机 MMD 版本。天气湿度为室外数据，车站为有限编排，机芯为演示性运动，网页逐项说明范围。
 
 [在线研究与价值](https://yydshly.github.io/20261104_codex_project/013-spatial-window/#summary) · [直接体验工坊](https://yydshly.github.io/20261104_codex_project/013-spatial-window/play.html?scene=workshop) · [已有引导图](https://yydshly.github.io/20261104_codex_project/013-spatial-window/#guide-image) · [完整研究摘要](projects/013-spatial-window/README.md)
+
+<a id="shu-road-guide"></a>
+
+### 015 · 《蜀道难》第一人称诗境研究
+
+从秦塞太白到锦城西望，九幕连成一条实际可走的 3D 蜀道。与原诗逐句对应，抬头辨认鸟道与远峰、低头看栈板和绝壁，转身寻找解说中的地形。18 段 MiniMax 朗诵和旁白按地点与语句播放，一键演示约 4 分 47 秒。
+
+![已有《蜀道难》引导图，汇总九幕网页实景、代表诗句、青泥岭与剑门关的考据](shu-road-demo/shu-road-overview.png)
+
+本轮探索从旅人站位和脚下支撑出发，校正台阶、木构与动植物的尺度和动作，让讲解能指向眼前的具体景物。青泥岭和剑门关在画面中区分唐代文献、遗存参照与推测复原。可复用价值是把诗文、可走路径、三维景物与语音定位结合，用于古诗教学展示和文化展陈原型。
+
+[在线研究与引导图](https://yydshly.github.io/20261104_codex_project/015-shu-road/research.html#guide-image) · [进入 3D 演示](https://yydshly.github.io/20261104_codex_project/015-shu-road/) · [完整研究摘要](projects/015-shu-road/README.md)
 
 ## 收录新项目
 
