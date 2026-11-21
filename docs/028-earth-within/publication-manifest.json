@@ -471,18 +471,18 @@
     },
     {
       "path": "verification/browser.json",
-      "bytes": 696,
-      "sha256": "0e35612268963ef0c7b34ef351ec957c5dd101a0e00711cd8250a2242da7e8ab"
+      "bytes": 879,
+      "sha256": "f190c6bc289930f1bba61462a555006e71144ddfbbd1e31da7e3e769dfd5876a"
     },
     {
       "path": "verification/desktop.jpg",
-      "bytes": 64511,
-      "sha256": "e28bd87c6525645ed63f32f75e9e9698544482c3994b7b0c48f71f5fccdaa589"
+      "bytes": 64513,
+      "sha256": "b78175554d7bb0f1516d3c23f6dc62c2551d1feb8101027f731189dac9523d5d"
     },
     {
       "path": "verification/guide-mobile.jpg",
-      "bytes": 43387,
-      "sha256": "5222055782f04becf1fb97194c1b9ca01a6e31fe654adc436b4921be5fa2d378"
+      "bytes": 45016,
+      "sha256": "11df8bc33330987849f964509eda1742c5a3a5df38f620a30cfd44a8284764a6"
     },
     {
       "path": "verification/historical-stability.json",
@@ -491,13 +491,18 @@
     },
     {
       "path": "verification/mobile.jpg",
-      "bytes": 45098,
-      "sha256": "9b142255b313d8e1443b0538336d4af418b14c94b9b1fcc62f6c2c1f0d5fee2c"
+      "bytes": 46909,
+      "sha256": "13dc9a6db0982d232ec8b297797500128930bb3a4fe326baff72bed49be30fff"
+    },
+    {
+      "path": "verification/online-assets.json",
+      "bytes": 277,
+      "sha256": "3531dd47b57870ffd3f188f2dc9d6ac55f06070fa395452fa240085633ecb3fa"
     },
     {
       "path": "verification/world-guide.jpg",
-      "bytes": 68297,
-      "sha256": "dd74bcba367090f0031f05fe9684e57805e3e2e82684f81b88eff9efd0f833fb"
+      "bytes": 78967,
+      "sha256": "1f9192de6dd5c1cc1fbe4ee9eab59be657bc0201d54cacef5a2e32b0ce7794c6"
     },
     {
       "path": "verification/world-tests.json",

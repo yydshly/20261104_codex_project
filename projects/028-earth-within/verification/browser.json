@@ -1,7 +1,8 @@
 {
   "date": "2026-11-21",
-  "scope": "Local nested-path browser QA, not physical-device or long-duration acceptance",
-  "entry": "/20261104_codex_project/028-earth-within/",
+  "scope": "Deployed GitHub Pages browser QA; responsive viewport emulation, not physical-device or long-duration acceptance",
+  "url": "https://yydshly.github.io/20261104_codex_project/028-earth-within/",
+  "verifiedCommit": "66eda34a156074a96a4e0535e60138073c3403dd",
   "researchDefaultWidth": 779,
   "mobileContentWidth": 375,
   "mobileScrollWidth": 375,
@@ -14,8 +15,10 @@
   "researchToPlayable": "passed via visible link",
   "worldRendered": "snow cabin and character visible",
   "narrationUI": "MiniMax 语音 · 预生成录音",
+  "ambienceUI": "实录声开",
   "worldConsoleErrors": [],
   "worldConsoleWarnings": [],
+  "atlas": "27幕已加载",
   "screenshots": [
     "desktop.jpg",
     "mobile.jpg",
