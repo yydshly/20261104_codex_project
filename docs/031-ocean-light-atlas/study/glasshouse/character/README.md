@@ -1,0 +1,59 @@
+# 海边向导 · 可动人物初版
+
+根据用户提供的四视图，保留短发、圆框眼镜、深蓝卫衣、青色代码标识、灰裤与浅色运动鞋等造型特征，制作适合玻璃屋场景的可动角色。脸部是风格化近似，未声称精确重建人物身份或达到摄影级相似度。原型图片没有作为平面人物贴在场景中。
+
+## 使用
+
+打开父项目的 `glasshouse/index.html`。右侧人物区可换装、挥手、指引、坐下与起身；选择三个地点后，人物会沿预设路线步行带路。靠近玻璃门时门扇会滑开，岸边路线经过平台和台阶。坐下会先走到室内座椅。
+
+- 跟随人物：步行时第三人称跟随，停下后构图包含人物与对应景色。
+- 人物视线：从眼睛前方看，拖动调整视线；仍可选择下一处地点继续带路。
+- 自由环视：使用原有拖动、缩放功能。拖动第三人称画面也会切到自由环视。
+- 近看人物：靠近检查脸部、眼镜和衣服，再用自由环视调整观察角度。
+- 开始导览：依次进入屋内、走到岸边、回到露台。点击「站立」或选择新动作可以中断走动。
+- 暂停按钮同时暂停海面、人物动作与行走，镜头仍可调整。
+
+## 角色构造
+
+- 成人基础人体采用 Quaternius 的 CC0 人体拓扑，保留 65 根骨骼以及手指骨骼。头脸作局部形状调整，眼睛、眼镜、短发、服装细节在本项目制作。
+- 衣服是独立三维网格，包含深蓝卫衣、短袖亚麻衫、暮色针织衫三种实际造型。上衣有独立的领口、袖子、袖口和细节；裤装也独立蒙皮。它们共用人体骨架，换装保持当前动作和位置。
+- 上衣先参考人体转移权重，再按躯干、肩袖区域修正；动作需要的是骨骼蒙皮变形，当前没有布料模拟。
+- 眼镜包含细框、镜桥、镜腿和薄镜片；头发是三维表面与贴合表面的梳理发丝。模型各个方向均为实际几何。
+- 人物会投射太阳阴影并进入海面的场景反射。室内材质可接收定向水光，人物在室内移动时也参与水光深度遮挡。
+
+## 动作与交付
+
+每套服装 GLB 均包含以下 7 段动作：
+
+| 动作 | 内容 | 时长 |
+| --- | --- | --- |
+| Idle | 放松站立与轻微呼吸 | 4 秒循环 |
+| Walk | 原地步行，位移由导览控制器提供 | 1.1 秒循环 |
+| Wave | 挥手招呼 | 3.2 秒 |
+| Point | 指向景色 | 3 秒 |
+| SitDown | 坐下过渡 | 1.4 秒 |
+| SitIdle | 坐着看海 | 4 秒循环 |
+| StandUp | 起身过渡 | 1.4 秒 |
+
+网页「带走人物模型」下载当前服装的原始 GLB，保留骨骼和全部动作。GLB 使用米制、Y 向上、Z 向前；根部平面位移由场景路径控制。姿态切换采用动作混合，换装时沿用动作时相。
+
+- `.https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/031-ocean-light-atlas/runtime/glasshouse/assets/guide/guide-hoodie.glb`、`guide-linen.glb`、`guide-knit.glb`：三套可直接加载的角色。
+- `seaside-guide.blend`：本地 Blender 可编辑源文件，包含三套衣服、骨骼和动作；未选衣服及人体参考可能被隐藏。
+- `build-guide.py`：本次实际执行的制作、蒙皮、动作烘焙和导出脚本。
+- `source/`：用于可复建的免费 CC0 人体和动作输入。用户图片 `reference.png` 是造型参照，不属于这些 CC0 输入。
+- `.https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/031-ocean-light-atlas/runtime/glasshouse/assets/guide/manifest.json`：来源、动作、服装文件及 SHA-256。
+- `validation.json` 与 `import-validation.json`：二进制模型结构检查、Blender 全新导入与足部采样记录。
+
+完整包位于父项目 `deliverables/seaside-guide-kit.zip`。保留包内 `glasshouse/` 目录结构后，可用 Blender 4.5 LTS 或兼容版本在包根目录运行：
+
+```
+blender --background --factory-startup --disable-autoexec --python glasshouse/character/build-guide.py
+```
+
+本轮使用本机便携版 Blender 4.5.14 LTS 执行。脚本先生成模型与 `.blend`，最后的工作室 PNG 仅用于造型检查；网页截图才用于验证人物与玻璃屋的实际结合。
+
+## 来源与制作边界
+
+基础人体作者为 [Quaternius / Universal Base Characters](https://quaternius.itch.io/universal-base-characters)。基础步行与坐姿参考 [Quaternius / Universal Animation Library](https://quaternius.itch.io/universal-animation-library)。两者为作者发布的免费 CC0 输入。本项目新增服装、短发、眼镜、造型调整、手势烘焙、坐姿适配、导览路线和网页接入，不把原始人体拓扑或原始动作声称为从零制作。
+
+这是可继续精修的角色初版：脸部、发际线与布料细节仍是风格化表现；没有实时表情捕捉、口型、通用物理碰撞或自由寻路。当前步行约束于已制作的安全通路，台阶由路径高度适配，不等同于通用足部 IK 与角色物理系统。没有把造型相似度自动判定为达标。

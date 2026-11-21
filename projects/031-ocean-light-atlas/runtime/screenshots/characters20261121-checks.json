@@ -1,0 +1,67 @@
+{
+  "errors": [],
+  "checks": [
+    "red jacket entry loads its real asset, Wave action and keyboard movement",
+    "legacy wardrobe really switches hoodie, linen and knit through visible buttons",
+    "Adult17 static comparison and five historical comparison entries remain available",
+    "frozen 4.3 deliberately pins 0597 even when another character query is supplied",
+    "summary character catalog fits 390px"
+  ],
+  "outfits": [
+    {
+      "asset": "undefined",
+      "hash": "undefined",
+      "outfit": "hoodie",
+      "action": "Wave",
+      "position": [
+        -1.25,
+        1.413,
+        6.7
+      ]
+    },
+    {
+      "asset": "undefined",
+      "hash": "undefined",
+      "outfit": "linen",
+      "action": "Wave",
+      "position": [
+        -1.25,
+        1.413,
+        6.7
+      ]
+    },
+    {
+      "asset": "undefined",
+      "hash": "undefined",
+      "outfit": "knit",
+      "action": "Idle",
+      "position": [
+        -1.25,
+        1.413,
+        6.7
+      ]
+    }
+  ],
+  "rocket": {
+    "before": [
+      -1.25,
+      1.413,
+      6.7
+    ],
+    "after": [
+      -1.515,
+      1.413,
+      6.572
+    ],
+    "asset": "rocket-guide.glb",
+    "hash": "03a215c373c12f4c9cc7e3e417cb2cc42cd3415b77b85588cdf13cc2a5d935e6",
+    "outfit": "rocket10",
+    "action": "Idle",
+    "position": [
+      -1.553,
+      1.413,
+      6.572
+    ]
+  },
+  "result": "passed"
+}

@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "character": "User 0597 / single front-facing figure",
+  "file": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/031-ocean-light-atlas/runtime/glasshouse/assets/personal-guide/personal-guide.glb",
+  "bytes": 9615660,
+  "sha256": "58ad44b9d3450485ed398e9c7b9509e5567c1e8482e50272e6381ef99e7d191b",
+  "bones": 80,
+  "vertices": 23940,
+  "triangles": 47916,
+  "height": 1.78,
+  "actions": [
+    {
+      "name": "Idle",
+      "frames": 83,
+      "duration": 2.7333333333333334,
+      "floorErrorMax": 8.463393896818161e-08
+    },
+    {
+      "name": "Walk",
+      "frames": 33,
+      "duration": 1.0666666666666667,
+      "floorErrorMax": 6.891787052154541e-08
+    },
+    {
+      "name": "Wave",
+      "frames": 86,
+      "duration": 2.8333333333333335,
+      "floorErrorMax": 8.935603545978665e-08
+    },
+    {
+      "name": "Point",
+      "frames": 121,
+      "duration": 4.0,
+      "floorErrorMax": 8.132190032483777e-08
+    },
+    {
+      "name": "LookAround",
+      "frames": 140,
+      "duration": 4.633333333333334,
+      "floorErrorMax": 7.967628334881738e-08
+    }
+  ],
+  "walkSpeed": 1.310632639339958,
+  "sourceModel": "../user-model-0597/manifest.json",
+  "motionSource": "https://github.com/microsoft/Microsoft-Rocketbox",
+  "motionLicense": "MIT",
+  "modelLicense": "User-provided; original generation terms not independently verified",
+  "status": "basic-actions-and-controls-verified; user visual review pending",
+  "limitations": [
+    "No facial expression or individual finger animation.",
+    "Original generated eye detail retained.",
+    "Runtime stairs/contact require the website controller."
+  ],
+  "sourceSha256": "bde0c12688b20e7bf197fea13122186a16f9bb0c15484eee28e0a66fd63b709e",
+  "selection": "Second / front-facing figure, extracted through empty X gaps",
+  "maxWeightsPerVertex": 4,
+  "verification": {
+    "checkedAt": "2026-11-14T07:29:15.108168+00:00",
+    "browser": "../../../screenshots/personal-guide-browser-checks.json",
+    "controls": "../../../screenshots/personal-character-controls-checks.json",
+    "independentImport": "import-validation.json"
+  }
+}

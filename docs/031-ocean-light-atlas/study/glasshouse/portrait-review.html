@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>人物近景 · 本轮修整对照</title>
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f0eee7;color:#263a40;font:15px/1.8 system-ui,"Microsoft YaHei",sans-serif}main{max-width:1260px;margin:auto;padding:35px 24px 80px}a{color:#275866;text-underline-offset:4px}nav{display:flex;gap:24px;flex-wrap:wrap}h1{font-size:clamp(28px,4vw,42px);line-height:1.3;font-weight:500;margin:25px 0 12px}h2{font-size:22px;font-weight:550;margin:35px 0 15px}p{max-width:850px}.status{display:inline-block;padding:5px 13px;border:1px solid #bd9e72;background:#e9ddc4;border-radius:3px;color:#69522f;font-size:12px}.pair{display:grid;grid-template-columns:1fr 1fr;gap:18px}figure{margin:0;background:#fffdf7;border:1px solid #d2d6cd;border-radius:6px;overflow:hidden}figure img{display:block;width:100%;height:auto}figcaption{padding:12px 16px;font-size:13px}.notes{background:#fffdf7;padding:18px 24px;border-left:3px solid #ad9367;margin-top:24px}.notes p{margin:8px 0}.live{display:flex;flex-wrap:wrap;gap:12px;margin:22px 0}.live a{padding:9px 17px;border:1px solid #a5b1ac;border-radius:4px;text-decoration:none}small{color:#63726e}@media(max-width:650px){main{padding:24px 16px 60px}.pair{grid-template-columns:1fr;gap:12px}h2{margin-top:28px}}
+</style>
+<main>
+<nav><a href="./index.html?v=light32">← 返回当前演示</a><a href="./index.html?hero=personal0597&amp;detail=1&amp;v=portrait33">进入本轮实时修整稿 ↗</a></nav>
+<h1>人物近景，本轮修整对照。</h1>
+<span class="status">迭代稿 · 近景视觉仍未达标 · 默认演示保留上轮人物</span>
+<p>这轮保留原有脸型、头发和深蓝西装，局部处理眼部与镜框，并用已有授权成人手部网格替换黏连的手指。下面全部来自同一网页、同一光照和对应机位；不是生成效果图。</p>
+<div class="live"><a href="./index.html?hero=personal0597&amp;detail=1&amp;portrait=face&amp;v=portrait33">实时近看脸部 ↗</a><a href="./index.html?hero=personal0597&amp;detail=1&amp;portrait=side&amp;v=portrait33">实时查看侧面 ↗</a><a href="./index.html?hero=personal0597&amp;detail=1&amp;portrait=hands&amp;v=portrait33">实时近看双手 ↗</a></div>
+<h2>眼睛与镜框</h2>
+<div class="pair"><figure><img src="../screenshots/portrait33-before-face.png" alt="上轮人物脸部：眼睛模糊，镜框与皮肤混在一起"><figcaption>上轮：眼部细节被压扁，镜框表面粗糙。</figcaption></figure><figure><img src="../screenshots/portrait33-face.png" alt="本轮脸部：局部眼部及细镜框修整稿"><figcaption>本轮：增加眼白、虹膜和眼睑，重建细镜框；眼神、镜腿与眼角仍需继续修整。</figcaption></figure></div>
+<h2>双手与袖口</h2>
+<div class="pair"><figure><img src="../screenshots/portrait33-before-hands.png" alt="上轮人物手部，手指黏连与袖口生成痕迹"><figcaption>上轮：部分手指黏连，袖口边缘不连续。</figcaption></figure><figure><img src="../screenshots/portrait33-hands.png" alt="本轮成人手部与袖口修整稿"><figcaption>本轮：手指分开，补腕部连接与连续袖口；皮肤细节和局部体积仍需精修。</figcaption></figure></div>
+<h2>侧面与弯肘检查</h2>
+<div class="pair"><figure><img src="../screenshots/portrait33-side.png" alt="本轮模型在网页中的侧面近景"><figcaption>侧面：原脸部曲面保留，镜腿附近仍有可见残留。</figcaption></figure><figure><img src="../screenshots/portrait33-wave.png" alt="本轮人物在网页中挥手，显示五指及弯肘姿态"><figcaption>挥手：检查手腕连接和弯肘；肩腋、衣料变形仍有改进空间。</figcaption></figure></div>
+<div class="notes"><p><strong>当前判断：有局部进展，尚未完成。</strong>眼神仍偏僵，镜腿和眼角残留不自然，衣领、胸前图案及肩腋仍保留原生成模型的痕迹。继续只靠局部脚本修补，难以把所有近景细节修到成品质量。</p><p>原始四人物GLB、上轮单人模型和可编辑文件均保留。新手部几何来自本项目已有的 Microsoft/Rocketbox 成人模型（MIT）；没有替换原人物的脸或整体身体。此稿没有新增眨眼、口型、独立手指动画或换装。</p><small>画面与动作可查看，不将加载、导览或结构检查通过当作美术验收通过。手机硬件性能仍未实机测试。</small></div>
+</main></html>

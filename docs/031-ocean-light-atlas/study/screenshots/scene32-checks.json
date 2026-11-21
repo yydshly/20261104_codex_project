@@ -1,0 +1,261 @@
+{
+  "checkedAt": "2026-11-14T10:30:42.369Z",
+  "errors": [],
+  "consoleErrors": [],
+  "frames": [
+    {
+      "name": "terrace",
+      "position": [
+        -1.25,
+        1.413,
+        6.7
+      ],
+      "camera": [
+        -3.8,
+        3.05,
+        11.8
+      ],
+      "guard": {
+        "adjusted": false,
+        "blocker": null,
+        "adjustments": 0,
+        "lastBlocker": null,
+        "distance": 5.732,
+        "clear": true
+      },
+      "contact": [
+        {
+          "height": 0.0035,
+          "weight": 1
+        },
+        {
+          "height": 0.0038,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "portrait",
+      "position": [
+        -1.25,
+        1.413,
+        6.7
+      ],
+      "camera": [
+        -1.9,
+        2.833,
+        9.401
+      ],
+      "guard": {
+        "adjusted": false,
+        "blocker": null,
+        "adjustments": 0,
+        "lastBlocker": null,
+        "distance": 2.802,
+        "clear": true
+      },
+      "contact": [
+        {
+          "height": 0.0035,
+          "weight": 1
+        },
+        {
+          "height": 0.0038,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "tide",
+      "position": [
+        3.5,
+        0.098,
+        7.7
+      ],
+      "camera": [
+        1.7,
+        1.85,
+        12.7
+      ],
+      "guard": {
+        "adjusted": false,
+        "blocker": null,
+        "adjustments": 2,
+        "lastBlocker": "pavilion geometry",
+        "distance": 5.36,
+        "clear": true
+      },
+      "contact": [
+        {
+          "height": 0.0189,
+          "weight": 1
+        },
+        {
+          "height": 0.0025,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "tide-rose",
+      "position": [
+        3.5,
+        0.098,
+        7.7
+      ],
+      "camera": [
+        1.7,
+        1.85,
+        12.7
+      ],
+      "guard": {
+        "adjusted": false,
+        "blocker": null,
+        "adjustments": 2,
+        "lastBlocker": "pavilion geometry",
+        "distance": 5.36,
+        "clear": true
+      },
+      "contact": [
+        {
+          "height": 0.019,
+          "weight": 1
+        },
+        {
+          "height": 0.0026,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "tide-blue",
+      "position": [
+        3.5,
+        0.098,
+        7.7
+      ],
+      "camera": [
+        1.7,
+        1.85,
+        12.7
+      ],
+      "guard": {
+        "adjusted": false,
+        "blocker": null,
+        "adjustments": 2,
+        "lastBlocker": "pavilion geometry",
+        "distance": 5.36,
+        "clear": true
+      },
+      "contact": [
+        {
+          "height": 0.0189,
+          "weight": 1
+        },
+        {
+          "height": 0.0023,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "contact-on",
+      "position": [
+        -1.25,
+        1.413,
+        6.7
+      ],
+      "pose": {
+        "time": 0,
+        "hand": [
+          -1.4564,
+          2.278,
+          6.8879
+        ],
+        "headRotation": [
+          -0.09854,
+          0,
+          0,
+          0.99513
+        ],
+        "leftFoot": [
+          -1.1607,
+          1.508,
+          6.6167
+        ],
+        "rightFoot": [
+          -1.3458,
+          1.508,
+          6.7757
+        ]
+      },
+      "contact": [
+        {
+          "height": 0.0035,
+          "weight": 1
+        },
+        {
+          "height": 0.0038,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "contact-off",
+      "position": [
+        -1.25,
+        1.413,
+        6.7
+      ],
+      "pose": {
+        "time": 0,
+        "hand": [
+          -1.4564,
+          2.278,
+          6.8879
+        ],
+        "headRotation": [
+          -0.09854,
+          0,
+          0,
+          0.99513
+        ],
+        "leftFoot": [
+          -1.1607,
+          1.508,
+          6.6167
+        ],
+        "rightFoot": [
+          -1.3458,
+          1.508,
+          6.7757
+        ]
+      },
+      "contact": [
+        {
+          "height": 0.0035,
+          "weight": 1
+        },
+        {
+          "height": 0.0038,
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "mobile": {
+    "width": 390,
+    "panel": {
+      "x": 16.047780990600586,
+      "y": 380.765625,
+      "width": 358.00000953674316,
+      "height": 388.234375
+    },
+    "shots": {
+      "x": 22,
+      "y": 82,
+      "width": 346,
+      "height": 52
+    }
+  }
+}

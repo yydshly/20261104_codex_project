@@ -1,0 +1,76 @@
+Use case: infographic-diagram
+Asset type: one finished Chinese research-summary poster, portrait 4:5, high resolution, suitable for saving and sharing.
+Primary request: Summarize our coastal-glasshouse research goal, the FOUR CHARACTER PRESENTATIONS just reviewed, the concrete value for our own future work, and honest limitations. The ocean remains the main subject. This is an internal research review, not an advertisement or a promise of a profitable product.
+
+Input images are supporting composition inserts, in this order:
+1. hands-surf43-rock.png: existing browser-rendered seaside scene, sunset ocean with the navy-suited character sitting on a rock.
+2. character-preview-0597.png: our current 0597 character, glasses and navy suit.
+3. character-preview-rocket10.png: Rocketbox Adult10 in a red jacket.
+4. character-preview-legacy-hoodie.png: historical early guide in navy hoodie, intentionally simple geometry.
+5. character-preview-rocket17.png: static Adult17 candidate, cap and blue/white hoodie.
+Use the actual visual identity, proportions, clothing and visible fidelity of these sources. Frame these five inserts as source-based illustrations; do not upgrade their rendering quality, add realistic waves, change faces, invent controls, or suggest every character has identical abilities. No added people. Only the named four character versions appear. The static candidate is explicitly static. Omit website UI around the inserts.
+
+Style and layout: elegant editorial research poster, warm ivory paper, deep sea-teal typography, muted sunset gold accents, generous whitespace, crisp Chinese typography. Clean aligned grid, refined thin rules, minimal numbered labels. Bold informative headings, readable Chinese body text, no tiny dense footnotes. No neon, futuristic circuits, fake charts, devices, invented logos, QR codes, or decorative text. Clear hierarchy: title; research goal beside a wide sea-scene insert; four equal portrait cards in a horizontal row; reusable value in four compact items; a final conclusion and limitations. The source images provide the content, not the previous webpage layout. Preserve enough room for every line below, with nothing cut off. Use the exact Chinese copy below; do not add claims or alter numbers.
+
+Text (verbatim, grouped by section):
+
+TITLE:
+走进海的光影里
+海边玻璃屋 · 研究目标、四类人物呈现与我们的价值
+
+01 研究目标
+做一个可以走进、停留和自主观看的海边场景。
+海是主体；玻璃屋提供观景位置，人物提供尺度与陪伴感。
+以最终画面的自然度、氛围和操作感受为判断依据。
+
+Small reference strip:
+20项效果参考 / 80份扩展方案 / 实拍对照 / 4.3固定演示
+
+02 四类人物呈现
+CARD 1, using image 2:
+0597 · 自有形象
+当前4.3基线
+走动、五处坐起、眨眼与固定讲解
+积累：自有形象与场景适配
+
+CARD 2, using image 3:
+红夹克 · 成品人物
+另一可动入口
+基础动作、键盘操作、场景带路
+积累：成熟角色的接入方法
+
+CARD 3, using image 4:
+早期向导 · 三套服装
+历史换装版本
+深蓝卫衣 / 亚麻衫 / 针织衫
+积累：同骨架换装的实现路径
+
+CARD 4, using image 5:
+Adult 17 · 静态候选
+外观比较，无动作
+人物外观、材质与受光对照
+积累：先看效果，再决定适配
+
+03 对我们的价值
+效果有依据
+保留参考、实拍与方案，帮助判断画面，而非只凭印象制作。
+
+制作有底座
+海面、光照、声音和控制模块可沿用，新场景仍需调整。
+
+人物接入有流程
+区分静态、骨架、动作与换装；新角色按需要逐项适配。
+
+结果可回看
+固定4.3、保留源码、素材来源与实录，支持复现和比较。
+
+FINAL highlighted conclusion:
+把一次试做，沉淀为下次可以继续使用的海景制作基础。
+
+BOUNDARIES, clearly readable:
+当前限制：海面与声音为实时近似，各人物能力不同；0597尚无换装与自由对话。
+后续构想：太阳全天运动、涨退潮与风灯联动，尚未实现。
+产品判断：需求与付费价值仍待验证；目前保留演示，暂不继续扩展。
+
+Footer:
+研究总结示意 · 基于现有网页画面 · 2026.11.21

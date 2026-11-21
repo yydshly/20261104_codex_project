@@ -1,0 +1,3467 @@
+{
+  "number": "031",
+  "site": "https://yydshly.github.io/20261104_codex_project/031-ocean-light-atlas/",
+  "date": "2026-11-21",
+  "guideSha256": "1f02314494627a7d3f39267e107f196b29ce041971791c191fcb478657ffd13e",
+  "guideUnchanged": true,
+  "frozenVersionUnchanged": true,
+  "publicationAdaptations": [
+    "研究方向/价值摘要与原有引导图",
+    "首页和总库索引",
+    "大模型/历史大录屏由同库raw地址提供",
+    "机构实拍使用原机构媒体地址，不发布本地副本",
+    "完整模型制作工程与原始FBX留在本地"
+  ],
+  "files": [
+    {
+      "file": "additional-references.js",
+      "delivery": "pages",
+      "bytes": 19548,
+      "sha256": "39374893cf6493b12f45a3229cb7add34f9b8f518cccb52014f134325a28cedb"
+    },
+    {
+      "file": "app.js",
+      "delivery": "pages",
+      "bytes": 14447,
+      "sha256": "2cfa614ddcc7a8879e781226bf3b091deb0ead10909a18ad108dbf606c8f557d"
+    },
+    {
+      "file": "effects.js",
+      "delivery": "pages",
+      "bytes": 27111,
+      "sha256": "18cf595442b16bb290dfc83fb0c2a0c303a244f4879698536b1c26e0065522d1"
+    },
+    {
+      "file": "extension-plans.js",
+      "delivery": "pages",
+      "bytes": 66717,
+      "sha256": "1917c99142cf8bb11330aa84d2be37c5997aaab5e90308023da470efe3b3652f"
+    },
+    {
+      "file": "extension-view.js",
+      "delivery": "pages",
+      "bytes": 8148,
+      "sha256": "d59ba353adaf77da0f7343628b19c0b0b503d7c3e4df200d109ab2d08f89255c"
+    },
+    {
+      "file": "extensions.css",
+      "delivery": "pages",
+      "bytes": 13810,
+      "sha256": "a78fbea62820d74564794694919755ad52fbdb2f253113a7f3c6e7bd90cb415b"
+    },
+    {
+      "file": "favicon.svg",
+      "delivery": "pages",
+      "bytes": 284,
+      "sha256": "e4d3ede53b6d068c8a1b7a3c0b75b3ab254ec57b7d4c5a049a398fda5b221fda"
+    },
+    {
+      "file": "glasshouse-entry.css",
+      "delivery": "pages",
+      "bytes": 1275,
+      "sha256": "a2ebca8765223374cab9c59da2560682425ca414047a904bb166821e1819a078"
+    },
+    {
+      "file": "index.html",
+      "delivery": "pages",
+      "bytes": 20524,
+      "sha256": "65839beadd4a6557dc9a66c5b00e12b738e7eb8f3b795f06b666949a35595f8e"
+    },
+    {
+      "file": "package.json",
+      "delivery": "pages",
+      "bytes": 4771,
+      "sha256": "90ebab81fb70fd2df9a0ab985aae8f0b424308f6f5c32e0d2855d0dde393e6e1"
+    },
+    {
+      "file": "README.md",
+      "delivery": "pages",
+      "bytes": 21167,
+      "sha256": "9d2b9f0ddc5a8af321881b0f18db6f29b0f923bd6bb0c6d89488d7f7a4d314e7"
+    },
+    {
+      "file": "reality-comparisons.js",
+      "delivery": "pages",
+      "bytes": 30443,
+      "sha256": "a146475742168883c30ec36ccf4491f1cca49caf03d20b5ed3986ecf19a56c59"
+    },
+    {
+      "file": "reality-video-sources.js",
+      "delivery": "pages",
+      "bytes": 14238,
+      "sha256": "9146a02686e8e6966205f7a1feced9873728697f0ab7f13eab2700116652bf22"
+    },
+    {
+      "file": "reality-view.css",
+      "delivery": "pages",
+      "bytes": 13714,
+      "sha256": "0c73547703a531e6dabc0f3a049abd5eafcdbac33e16eb18cb98c04ec51ff3dd"
+    },
+    {
+      "file": "reality-view.js",
+      "delivery": "pages",
+      "bytes": 21352,
+      "sha256": "d15e10ee43fb5c28f21cc607b0b77a95d433fb56357c6be9530e8019d45d3146"
+    },
+    {
+      "file": "reference-studies.css",
+      "delivery": "pages",
+      "bytes": 6352,
+      "sha256": "f12134930cdd33a7764abb96ad1874d10d7adae8ff806c8e41507a1f161ecd47"
+    },
+    {
+      "file": "reference-studies.js",
+      "delivery": "pages",
+      "bytes": 5552,
+      "sha256": "474f70085f64c22a7fd7c6cc7b80c466e3a7ec0aaad11bab615306b8a25429ac"
+    },
+    {
+      "file": "server.mjs",
+      "delivery": "pages",
+      "bytes": 3016,
+      "sha256": "abe161fa8a54ba9764a7b6e4204867bff0fb2e6916a2ad7b7cfe66e409b7682e"
+    },
+    {
+      "file": "studies.js",
+      "delivery": "pages",
+      "bytes": 7268,
+      "sha256": "7a7e7b3df27acbc1348c1bf4767464112a32ef73efdd9ceb90904c6bc0f32e1a"
+    },
+    {
+      "file": "studio.css",
+      "delivery": "pages",
+      "bytes": 25910,
+      "sha256": "64dce0e7c55e48f4e3cae7c08b73443abb528a980c86acbcf392ab35acaf18a4"
+    },
+    {
+      "file": "studio.js",
+      "delivery": "pages",
+      "bytes": 25161,
+      "sha256": "a71f56121013467fe201ddede11a7a386f927e2eeb0ab7dba45a9a64f6db8ff8"
+    },
+    {
+      "file": "styles.css",
+      "delivery": "pages",
+      "bytes": 21797,
+      "sha256": "fb0cacf55a8c6f059bf80ad4066e8a7fcfe84a5cb9f0f161d71adbabd5720757"
+    },
+    {
+      "file": "VERIFICATION.md",
+      "delivery": "pages",
+      "bytes": 93023,
+      "sha256": "f5c71058f8aae5bfce169b6c45f3f50be538b311e642d9637e8bc031b238466c"
+    },
+    {
+      "file": "water-renderer.js",
+      "delivery": "pages",
+      "bytes": 23701,
+      "sha256": "326eb78580effcd6a491768d98d785aebf7ec4b84dc714a322932c9e0b009b0a"
+    },
+    {
+      "file": "zip.js",
+      "delivery": "pages",
+      "bytes": 2148,
+      "sha256": "6d3404f190e7dd3e33226f12cf1263c67953971ed7a9fc12bea0f579cabc87bc"
+    },
+    {
+      "file": "assets/reality-nps-sunset-page.html",
+      "delivery": "pages",
+      "bytes": 13100,
+      "sha256": "e88faaf2ebbb28573d8cf49b0654819dcafef8bc85801b70e1d5875bef50e9ab"
+    },
+    {
+      "file": "assets/reality/3339-blurred-light-on-water.html",
+      "delivery": "pages",
+      "bytes": 4805,
+      "sha256": "e119cc96684c905f4c9993c1abbcff12ae0637a27667253ba81235b3afa19c4b"
+    },
+    {
+      "file": "assets/reality/3405-close-up-surf.html",
+      "delivery": "pages",
+      "bytes": 6200,
+      "sha256": "ae10ee2f2ea3e3c88a8f4393d37afcd0cc130ed85c01dfe5504ac02aa16d4105"
+    },
+    {
+      "file": "assets/reality/3407-rolling-foam.html",
+      "delivery": "pages",
+      "bytes": 6178,
+      "sha256": "c5fbb47f945b0ec7bfe63022b734620574112c6809609db77e367ffaa333250c"
+    },
+    {
+      "file": "assets/reality/3416-sunset-on-waves.html",
+      "delivery": "pages",
+      "bytes": 6205,
+      "sha256": "05fa22d1e3b24f6b6616277ecb0639e353b11f6ae90ea73c65a792b53e333843"
+    },
+    {
+      "file": "assets/reality/3482-wave-pattern.html",
+      "delivery": "pages",
+      "bytes": 6320,
+      "sha256": "91a9461589a2bd42e80ba524595ccabb48e2eae62edcedd476ec7195d13204e8"
+    },
+    {
+      "file": "assets/reality/3539-shallow-water.html",
+      "delivery": "pages",
+      "bytes": 6038,
+      "sha256": "df8dbf8ea7be8aae9f893c5c80135045106cf1d8c61dceb6647d00805f61a984"
+    },
+    {
+      "file": "assets/reality/keywords-light.html",
+      "delivery": "pages",
+      "bytes": 5454,
+      "sha256": "9f9dfd99e6179842baff0b637c91bc91af05d92573273ca22219f6d9765f26cf"
+    },
+    {
+      "file": "assets/reality/local-video-verification.json",
+      "delivery": "pages",
+      "bytes": 4948,
+      "sha256": "6f1abe484515e0446722793dd03eaa733096396afc7525538c629225e4fb3cb2"
+    },
+    {
+      "file": "assets/reality/nps-bird-rock-embed.html",
+      "delivery": "pages",
+      "bytes": 13752,
+      "sha256": "d887692b426f5e78fd7296b7db61131d487f28ae1e5535b777f7c9755e380634"
+    },
+    {
+      "file": "assets/reality/nps-embed-verification.json",
+      "delivery": "pages",
+      "bytes": 2184,
+      "sha256": "88bfcdac17a13de1c0f54b2cbff3d468eb6f2ba8c0a27a82a675c6264ff355cc"
+    },
+    {
+      "file": "assets/reality/nps-gulls-embed.html",
+      "delivery": "pages",
+      "bytes": 13745,
+      "sha256": "e03eb91c996b6f73e52631e99ea6e5f7af8ce26ac254c0715a89b38b3ab1dea8"
+    },
+    {
+      "file": "assets/reality/nps-sunset-embed.html",
+      "delivery": "pages",
+      "bytes": 13417,
+      "sha256": "1b295c411d5fa438be736f0968a620438efa3b58f0cd48b6bdb249a52e86b6f9"
+    },
+    {
+      "file": "assets/reality/usf-closeup-surf-observations.jpg",
+      "delivery": "pages",
+      "bytes": 27502,
+      "sha256": "f1c9e9f2988560e616aa5da51e417a8371a6c35cacd6af85a7c4a03fa8ab8be2"
+    },
+    {
+      "file": "assets/reality/usf-closeup-surf.jpg",
+      "delivery": "pages",
+      "bytes": 99894,
+      "sha256": "bb853996f01ed845f6aeeb6871dfcc9c648b7c96f5b49f65443f1a5acdca3224"
+    },
+    {
+      "file": "assets/reality/usf-license.html",
+      "delivery": "pages",
+      "bytes": 5467,
+      "sha256": "d8273859c05b556f2305a9d3bb06fbac06162c7e040621db1680db8aa623e8b2"
+    },
+    {
+      "file": "assets/reality/usf-rolling-foam-observations.jpg",
+      "delivery": "pages",
+      "bytes": 34382,
+      "sha256": "2f10d1ff590c0f06d84ea5b2be093c501fc5059ed2b57c94298769d81ab97acf"
+    },
+    {
+      "file": "assets/reality/usf-rolling-foam.jpg",
+      "delivery": "pages",
+      "bytes": 140714,
+      "sha256": "a2b463b2c5db47ad66dfb2bedb686f2a98e6ee6609074721ffe7f59b6dd698a8"
+    },
+    {
+      "file": "assets/reality/usf-shallow-water-observations.jpg",
+      "delivery": "pages",
+      "bytes": 60111,
+      "sha256": "35ec961eb96741192fa9ec27b79f4ed2c9e430b8cd7905b33b80d206e7cb89b2"
+    },
+    {
+      "file": "assets/reality/usf-shallow-water.jpg",
+      "delivery": "pages",
+      "bytes": 220130,
+      "sha256": "16efaca25b6bd48c0e76632180d4bb076fd97070b590e310e43b9ad702b31a3d"
+    },
+    {
+      "file": "assets/reality/usf-sunset-waves-observations.jpg",
+      "delivery": "pages",
+      "bytes": 50279,
+      "sha256": "c44d13a09f2af1ac1e57b7f982243064afd57d392e0b5d82633975f5408ec963"
+    },
+    {
+      "file": "assets/reality/usf-sunset-waves.jpg",
+      "delivery": "pages",
+      "bytes": 215329,
+      "sha256": "2416c0bce5907a6ebffd17089e5f0d495b3a52a5d603fcc86c381ce024d474e8"
+    },
+    {
+      "file": "assets/reality/usf-wave-pattern-observations.jpg",
+      "delivery": "pages",
+      "bytes": 39666,
+      "sha256": "5086c513edad55afcdab967120264605c41c6385c3f874af90faeabdb12dea9f"
+    },
+    {
+      "file": "assets/reality/usf-wave-pattern.jpg",
+      "delivery": "pages",
+      "bytes": 161498,
+      "sha256": "d3b781ee007f0a5a3d2f7c89542ab1138301625bada408feef7748bed65140be"
+    },
+    {
+      "file": "assets/reference/contact-sheet.jpg",
+      "delivery": "pages",
+      "bytes": 1133641,
+      "sha256": "dd560ece18fbcad65f4ae8e118f569bd1f5ae1eed9a72abad886e2cf4a8922f5"
+    },
+    {
+      "file": "assets/reference/manifest.json",
+      "delivery": "pages",
+      "bytes": 6029,
+      "sha256": "66805a7203fe27826c3bec655be35bff429dec797e66ce684f1cd158beaeb11f"
+    },
+    {
+      "file": "assets/reference/sea-01.webp",
+      "delivery": "pages",
+      "bytes": 43414,
+      "sha256": "43352a896d8623e68e2e06150c4a9b924c8faf57f366612f36b8bc1338339d6f"
+    },
+    {
+      "file": "assets/reference/sea-02.webp",
+      "delivery": "pages",
+      "bytes": 34414,
+      "sha256": "ad3c194162d90919f7f50726ab542a7efc7d180eb6fdbb62cb676144cf01b5a6"
+    },
+    {
+      "file": "assets/reference/sea-03.webp",
+      "delivery": "pages",
+      "bytes": 36402,
+      "sha256": "ab2a66c4a575aac8da92a1e92b7bfff748594cc1a48d5fef40f7ccb91163cef5"
+    },
+    {
+      "file": "assets/reference/sea-04.webp",
+      "delivery": "pages",
+      "bytes": 33316,
+      "sha256": "832fe30fc89888f203831be2b67134e008041929814b769a8fc5d22abb106859"
+    },
+    {
+      "file": "assets/reference/sea-05.webp",
+      "delivery": "pages",
+      "bytes": 36010,
+      "sha256": "5d90b4ff74b4c4b9c01f7c05c7323aefe61185b2fc5627bd17a46ac285d283e6"
+    },
+    {
+      "file": "assets/reference/sea-06.webp",
+      "delivery": "pages",
+      "bytes": 20424,
+      "sha256": "34be17166bf3c131b47817f28e4dfeafae595fab754deffc7edb80a9714aebad"
+    },
+    {
+      "file": "assets/reference/sea-07.webp",
+      "delivery": "pages",
+      "bytes": 33598,
+      "sha256": "069b96c3d616f3bcc60eda15b910d26ac028af4754ec53b6be6358f2d35ad5d6"
+    },
+    {
+      "file": "assets/reference/sea-08.webp",
+      "delivery": "pages",
+      "bytes": 26410,
+      "sha256": "b4740740d2d4383fc6fca829ff6077d29282b0a106b9d3b5b512c17a068028c6"
+    },
+    {
+      "file": "assets/reference/sea-09.webp",
+      "delivery": "pages",
+      "bytes": 38180,
+      "sha256": "95de950d84ed82cb4b2a93de165a659892e255b0c84a2a7a472cabe23f0d2fd4"
+    },
+    {
+      "file": "assets/reference/sea-10.webp",
+      "delivery": "pages",
+      "bytes": 23388,
+      "sha256": "b1bc908585c731aa20352eff033b1cd40ea535b79fa23f6d6fef8cb0f5bd3503"
+    },
+    {
+      "file": "assets/reference/sea-11.webp",
+      "delivery": "pages",
+      "bytes": 24478,
+      "sha256": "6cbd88996b10f53a3b7a14e7b232910a322a8520fb91d17a015320f37389fa71"
+    },
+    {
+      "file": "assets/reference/sea-12.webp",
+      "delivery": "pages",
+      "bytes": 28064,
+      "sha256": "f832682b93bf8983e3b1ca5d51091defe81ca9101089c6f975e27a63c12bb298"
+    },
+    {
+      "file": "assets/reference/sea-13.webp",
+      "delivery": "pages",
+      "bytes": 25068,
+      "sha256": "662e68497a3ac7285cb86727c4d3d2a7f8893cdefa82c9bb167d0ba9a3ede0e9"
+    },
+    {
+      "file": "assets/reference/sea-14.webp",
+      "delivery": "pages",
+      "bytes": 37864,
+      "sha256": "bbb8527296d9d8acd4ab55437e1dccb2f7c080cb897ead124024765fde5243b0"
+    },
+    {
+      "file": "assets/reference/sea-15.webp",
+      "delivery": "pages",
+      "bytes": 25628,
+      "sha256": "90a67d534c4d453a74fef24ef54ad8d158592021504324748b95d0f734191fc3"
+    },
+    {
+      "file": "assets/reference/sea-16.webp",
+      "delivery": "pages",
+      "bytes": 23952,
+      "sha256": "77b0e8ef1f24ba8c7f7734adb2126b4d0562da75430f86a355b5a8bef0d37c31"
+    },
+    {
+      "file": "assets/reference/sea-17.webp",
+      "delivery": "pages",
+      "bytes": 24186,
+      "sha256": "d154c58fb894e232ff9e79ea270d0e2a637ebdc3d8d453d2034a8a00d56ac917"
+    },
+    {
+      "file": "assets/reference/sea-18.webp",
+      "delivery": "pages",
+      "bytes": 19908,
+      "sha256": "cd0fbeedb297553c544b264bd4ec668696912e363ac958c713ecb6c7e1dec0c5"
+    },
+    {
+      "file": "assets/reference/sea-19.webp",
+      "delivery": "pages",
+      "bytes": 41164,
+      "sha256": "51ce04c86c096b49e0f2b5053d3f023359d787f93e510dcfb297709f613c46bc"
+    },
+    {
+      "file": "assets/reference/sea-20.webp",
+      "delivery": "pages",
+      "bytes": 44544,
+      "sha256": "c3c958cdd60dba5dee11df94cca3b7e9b0e627c7d2fccba36406d5d9b06fd79d"
+    },
+    {
+      "file": "assets/reference/naturehealyou-2121228035932188844/comparison-review.json",
+      "delivery": "pages",
+      "bytes": 5482,
+      "sha256": "52c18d0c950c161be94494d833519481aa207ebd4b0041ffc9d835b9d29dd8b3"
+    },
+    {
+      "file": "assets/reference/naturehealyou-2121228035932188844/diagnostic-comparison.json",
+      "delivery": "pages",
+      "bytes": 8635,
+      "sha256": "756fa90d26e0f2c6d964b628afbdcb3e77ebacab8f1b48bf9908478acb592889"
+    },
+    {
+      "file": "assets/reference/naturehealyou-2121228035932188844/diagnostic-new-contactsheet.jpg",
+      "delivery": "pages",
+      "bytes": 315325,
+      "sha256": "4128bfe8522e037a9cb70d0a5ff28abe877e8548f62498ade3415802bfe542bd"
+    },
+    {
+      "file": "assets/reference/naturehealyou-2121228035932188844/diagnostic-original-pebit-contactsheet.jpg",
+      "delivery": "pages",
+      "bytes": 228311,
+      "sha256": "5d25e61170fc9785d0b4e3c888d2d3b7bcba23b921e217433992712ac3866d57"
+    },
+    {
+      "file": "assets/reference/naturehealyou-2121228035932188844/manifest.json",
+      "delivery": "pages",
+      "bytes": 9941,
+      "sha256": "f99cb9cdfe521beafcc91e22da7b9e2aadb25840eccec4edee951161a9cebad6"
+    },
+    {
+      "file": "assets/reference/naturehealyou-2121228035932188844/photo-01.jpg",
+      "delivery": "pages",
+      "bytes": 104637,
+      "sha256": "d581d487e322bf552324b30919ba2cdaf652f6c4ebea38136e04598b914d08dd"
+    },
+    {
+      "file": "assets/reference/naturehealyou-2121228035932188844/photo-02.jpg",
+      "delivery": "pages",
+      "bytes": 84917,
+      "sha256": "728fea61b43b51a48b935526de5e933d91db930377c8d3b180fc82e68dc2c35e"
+    },
+    {
+      "file": "assets/reference/naturehealyou-2121228035932188844/photo-03.jpg",
+      "delivery": "pages",
+      "bytes": 75534,
+      "sha256": "512a193e348f9367b70c185d835c3dd6ee6e21513acc23fea838884d74609e63"
+    },
+    {
+      "file": "assets/reference/naturehealyou-2121228035932188844/photo-04.jpg",
+      "delivery": "pages",
+      "bytes": 57932,
+      "sha256": "d3c6a2eb3832c90e7e1c8172966e0ed66b614629c37d352705b6f5817508fac5"
+    },
+    {
+      "file": "assets/reference/naturehealyou-2121228035932188844/photo-05.jpg",
+      "delivery": "pages",
+      "bytes": 72739,
+      "sha256": "68def4324d3a5441eb08567841fedc3ef4061cb1ebc654d24834d1ee9dc182cb"
+    },
+    {
+      "file": "assets/reference/naturehealyou-2121228035932188844/photo-06.jpg",
+      "delivery": "pages",
+      "bytes": 86374,
+      "sha256": "3fa59a6651805d5aa27d1c08002ff7234d5852382fb6482aa7b55dff75337dfa"
+    },
+    {
+      "file": "assets/reference/naturehealyou-2121228035932188844/photo-07.jpg",
+      "delivery": "pages",
+      "bytes": 50571,
+      "sha256": "2da58d2faa0f3c4091c224c5eca9a630a9937331b40f680f73801105d7910b2d"
+    },
+    {
+      "file": "assets/reference/naturehealyou-2121228035932188844/photo-08.jpg",
+      "delivery": "pages",
+      "bytes": 46427,
+      "sha256": "2d684fd4f3c197be0dc28b63a125cf712d00201134e67c575cb6e9b440284a4d"
+    },
+    {
+      "file": "assets/reference/naturehealyou-2121228035932188844/photo-09.jpg",
+      "delivery": "pages",
+      "bytes": 194377,
+      "sha256": "5bc45914164e970b0e4aacf593798ff56b1b48f20c7ad531c94b87d1568b6984"
+    },
+    {
+      "file": "assets/reference/naturehealyou-2121228035932188844/photo-10.jpg",
+      "delivery": "pages",
+      "bytes": 42111,
+      "sha256": "180d044df38a6e6679338fb3abb28e9c02feb10ee2d6e371d3da1ccdae87e681"
+    },
+    {
+      "file": "assets/reference/naturehealyou-2121228035932188844/photo-11.jpg",
+      "delivery": "pages",
+      "bytes": 57388,
+      "sha256": "6317ada63d4efbf884e47ca0624ef3eb1e11b25c2af21224b893615496e38bef"
+    },
+    {
+      "file": "assets/reference/naturehealyou-2121228035932188844/photo-12.jpg",
+      "delivery": "pages",
+      "bytes": 61731,
+      "sha256": "385fefd6d14649915b24b4a59555948de6a3191cd18cd97c51629dfeea7cc494"
+    },
+    {
+      "file": "assets/reference/naturehealyou-2121228035932188844/photo-13.jpg",
+      "delivery": "pages",
+      "bytes": 42265,
+      "sha256": "8e58b5e10ca5b129b78e082e0a7aaee8e45b47a9d48f05e76f8ee9b0877047b3"
+    },
+    {
+      "file": "assets/reference/naturehealyou-2121228035932188844/photo-14.jpg",
+      "delivery": "pages",
+      "bytes": 43693,
+      "sha256": "e511d1f6b682baf357b6bc2e1dbe6ec69374e1b5cdaa8e2397f6400136a5830c"
+    },
+    {
+      "file": "assets/reference/naturehealyou-2121228035932188844/photo-15.jpg",
+      "delivery": "pages",
+      "bytes": 34448,
+      "sha256": "9bbfdd575325df7c52ddb64d446087942e94a7bcbe1ac512b22b17985c72e35e"
+    },
+    {
+      "file": "assets/reference/naturehealyou-2121228035932188844/photo-16.jpg",
+      "delivery": "pages",
+      "bytes": 66999,
+      "sha256": "9503a6444bcab6dbc34df2f9ab3c7796b150d91cd326c949d289c4d604fa493f"
+    },
+    {
+      "file": "assets/reference/naturehealyou-2121228035932188844/photo-17.jpg",
+      "delivery": "pages",
+      "bytes": 45540,
+      "sha256": "8971a83dca67c3e59806cc5f36cc20f6243738cff227174729d120f3c2828709"
+    },
+    {
+      "file": "assets/reference/naturehealyou-2121228035932188844/photo-18.jpg",
+      "delivery": "pages",
+      "bytes": 58594,
+      "sha256": "80ab9dc537c8cf65ef034e516f3be66a2330c8e64d917ea4e1d31b70d5976613"
+    },
+    {
+      "file": "assets/reference/naturehealyou-2121228035932188844/photo-19.jpg",
+      "delivery": "pages",
+      "bytes": 51812,
+      "sha256": "8612c93150401c5f9c0ed856e86e93e3d3ae757f971e326ffa9f86d7862b3944"
+    },
+    {
+      "file": "assets/reference/naturehealyou-2121228035932188844/photo-20.jpg",
+      "delivery": "pages",
+      "bytes": 56063,
+      "sha256": "08a761c907d474c459abd6d92205e6ab6a4150793eaa0317734545fc721f09c4"
+    },
+    {
+      "file": "assets/reference/naturehealyou-2121228035932188844/source.json",
+      "delivery": "pages",
+      "bytes": 18155,
+      "sha256": "5b143c4e5518b0a12d65ba7cc5b587bf6f16d4595f3a804e4371cc47c381dd31"
+    },
+    {
+      "file": "glasshouse/build.mjs",
+      "delivery": "pages",
+      "bytes": 952,
+      "sha256": "8b14c0a5a13ff2b62d0f5080eb4a37288e40ef07604b702eaeec388024357e95"
+    },
+    {
+      "file": "glasshouse/camera-guard.js",
+      "delivery": "pages",
+      "bytes": 3614,
+      "sha256": "a51f3544fc45a38156cb7c876b29655383e1a7f9f1eef3aa9a94a6a683153657"
+    },
+    {
+      "file": "glasshouse/camera-motion.js",
+      "delivery": "pages",
+      "bytes": 866,
+      "sha256": "ae7ea3b43f248aea61a19de2f3c36c5c96bf5f5df04ad6c8393726765c1497c0"
+    },
+    {
+      "file": "glasshouse/capabilities43.json",
+      "delivery": "pages",
+      "bytes": 13801,
+      "sha256": "540f0497286650ddcbb090460e50cd4ba37af7cc492572a72040a7591d4e4f50"
+    },
+    {
+      "file": "glasshouse/coast.js",
+      "delivery": "pages",
+      "bytes": 764,
+      "sha256": "e3a097c83f4c01968fe5cd2d553a46d094c405811bcc64e576c3dcd300e16b0d"
+    },
+    {
+      "file": "glasshouse/contact-light.js",
+      "delivery": "pages",
+      "bytes": 2978,
+      "sha256": "78d15519b0d050f7f2f05dfe6751cd912593dd96e383dfc96715416c4df50b71"
+    },
+    {
+      "file": "glasshouse/day-cycle-plan.json",
+      "delivery": "pages",
+      "bytes": 6295,
+      "sha256": "6fed99546fc2188c28c7fca005a030cc78bf4ed56fdf5dc56ac7f20ef8303e32"
+    },
+    {
+      "file": "glasshouse/facial-performance.js",
+      "delivery": "pages",
+      "bytes": 8610,
+      "sha256": "3bca944b49ac9ccf5d8898040699cb60a7b62e453396a0b403691a942eb94839"
+    },
+    {
+      "file": "glasshouse/facial-review.html",
+      "delivery": "pages",
+      "bytes": 6283,
+      "sha256": "bd76b69cc9bbec4e1d90ec4f9a8c52a2bff3a236bc18c2381fb5b53f28e96def"
+    },
+    {
+      "file": "glasshouse/facial.css",
+      "delivery": "pages",
+      "bytes": 2430,
+      "sha256": "07cd8a2af91ee814ad60f8b3352a004cdbe17cf795893ab78c651c95df4d310f"
+    },
+    {
+      "file": "glasshouse/foot-placement.js",
+      "delivery": "pages",
+      "bytes": 13001,
+      "sha256": "8851dfade07675fe0dc24937e5ab87a7d75333791d128fa31ad31e3edfd7e3c7"
+    },
+    {
+      "file": "glasshouse/guide-avatar.js",
+      "delivery": "pages",
+      "bytes": 4134,
+      "sha256": "471032b41c5512e85ed2df63f9c99f15944b519ce4233f4b5f7548a34dc02b42"
+    },
+    {
+      "file": "glasshouse/guide-controller.js",
+      "delivery": "pages",
+      "bytes": 38489,
+      "sha256": "d17517e5a84dad6dcb5a06d8e52cc4ad8090d74d5a8a92d500d418093659e0dc"
+    },
+    {
+      "file": "glasshouse/guide.css",
+      "delivery": "pages",
+      "bytes": 8055,
+      "sha256": "adb5b8ff61e39853c8da63784c5986d0572651c8e4c7d1d51b0da30f8d2297f4"
+    },
+    {
+      "file": "glasshouse/head-review.html",
+      "delivery": "pages",
+      "bytes": 6346,
+      "sha256": "b61a03806f4a24a7cc51e5b892139c7eaa5ab80437cf2b31c16e735805a4585f"
+    },
+    {
+      "file": "glasshouse/hero-candidates.js",
+      "delivery": "pages",
+      "bytes": 4557,
+      "sha256": "febf3be48f426ebc8cd7f6909cf20dedda25267a5c49d76c976863987f47d404"
+    },
+    {
+      "file": "glasshouse/hero-study.css",
+      "delivery": "pages",
+      "bytes": 5384,
+      "sha256": "b71c9935ab40ee7c46bd11e50190561fb5a66e39b8104e0213e489eaf3e17212"
+    },
+    {
+      "file": "glasshouse/hero-study.js",
+      "delivery": "pages",
+      "bytes": 12443,
+      "sha256": "9f7576a338ea5296f8591a78225d75945f4c2c107e11115154f29b9bfed3a711"
+    },
+    {
+      "file": "glasshouse/implementation.css",
+      "delivery": "pages",
+      "bytes": 12030,
+      "sha256": "5a23094d632be1a08ca7b2c2475c85614173a83d545c9b35f0db66c317c65dd8"
+    },
+    {
+      "file": "glasshouse/implementation.html",
+      "delivery": "pages",
+      "bytes": 11717,
+      "sha256": "6063228349fefce734f7ff35c5da38972452c06f73c1f494e9fa80f9a8c799dd"
+    },
+    {
+      "file": "glasshouse/implementation.js",
+      "delivery": "pages",
+      "bytes": 4994,
+      "sha256": "4cc5bd8fde72e5820d17abd9f3e10ad85fddfe1e4b1602822e2ac90440e989f4"
+    },
+    {
+      "file": "glasshouse/index.html",
+      "delivery": "pages",
+      "bytes": 13678,
+      "sha256": "a481a3cb414a8ce2ff05fa02642352a13642555a417c4aa47c62c8129b3ec7bd"
+    },
+    {
+      "file": "glasshouse/locomotion.js",
+      "delivery": "pages",
+      "bytes": 702,
+      "sha256": "7cae18f44fccf6ec69f95f2c2c7b41e11cf4533db6272b5c8f537d6f4f381d5d"
+    },
+    {
+      "file": "glasshouse/movement-input.js",
+      "delivery": "pages",
+      "bytes": 1661,
+      "sha256": "1450a481fd128ed9204734a461a105f06ec2fb0c5b50613c9023b9810c4af699"
+    },
+    {
+      "file": "glasshouse/orbit-review.html",
+      "delivery": "pages",
+      "bytes": 4593,
+      "sha256": "c5e82a9bf414a35111c74bea0ee14ffe4b3c9f42e4ea68d197b390b343beb662"
+    },
+    {
+      "file": "glasshouse/package.json",
+      "delivery": "pages",
+      "bytes": 172,
+      "sha256": "2d60fc9ada154513ff2c21c51d01a9abb31ccbda853b9a255cfb9c6976f6ab5c"
+    },
+    {
+      "file": "glasshouse/portrait-review.html",
+      "delivery": "pages",
+      "bytes": 4616,
+      "sha256": "b893c02e384842204da077038d236ad709056a7045d2a3c59499f4ca3d345ed4"
+    },
+    {
+      "file": "glasshouse/qa-recording.js",
+      "delivery": "pages",
+      "bytes": 2590,
+      "sha256": "d6cd0e24b1ecdcfb4da5b2f0cb44ef0c80caffa250268ef9d93a9e4ae4bfe30e"
+    },
+    {
+      "file": "glasshouse/README.md",
+      "delivery": "pages",
+      "bytes": 28196,
+      "sha256": "b728006dcc877cefc5ea54f65bdf8fa98e2c35a8167ec302849a3863b203d6dd"
+    },
+    {
+      "file": "glasshouse/releases.json",
+      "delivery": "pages",
+      "bytes": 265,
+      "sha256": "012a3a3eb2b78ba08ccd700b6aad813de94052749895380465b7740987610658"
+    },
+    {
+      "file": "glasshouse/rock-seat.js",
+      "delivery": "pages",
+      "bytes": 2212,
+      "sha256": "2fd8ec003e6da25f861243e0f0bc8d0ac3d82874fc1309d96764d742f2a89367"
+    },
+    {
+      "file": "glasshouse/rocket-avatar.js",
+      "delivery": "pages",
+      "bytes": 7930,
+      "sha256": "7a262cd51399e837874b804457371297a43ee1994f10df948b9b89f0ccf43c25"
+    },
+    {
+      "file": "glasshouse/scene-extension-plans.json",
+      "delivery": "pages",
+      "bytes": 34525,
+      "sha256": "e586c3aa007583ddcd579abeb6fef6cdf3207cb508b432d14786d65c5bf9f2fd"
+    },
+    {
+      "file": "glasshouse/scene-extensions.css",
+      "delivery": "pages",
+      "bytes": 10241,
+      "sha256": "f9946208ccec935cc150b3483700de3f3d3f644891a570e1a2ff1eb5ad60d052"
+    },
+    {
+      "file": "glasshouse/scene-extensions.html",
+      "delivery": "pages",
+      "bytes": 7014,
+      "sha256": "ab3c5423cc61496b64d2b2ea28d95bfbef48caeb7f0e6fc64975b5b676b4af1d"
+    },
+    {
+      "file": "glasshouse/scene-extensions.js",
+      "delivery": "pages",
+      "bytes": 6235,
+      "sha256": "badf99c2960217248120e82b60de2b82458b2f5f1e2f8556411300c4bb27dbf5"
+    },
+    {
+      "file": "glasshouse/scene-layout.js",
+      "delivery": "pages",
+      "bytes": 1805,
+      "sha256": "8573a8d17c6da5ff15c8e9e29e929a4dae4fbc692046f01717d52a238ef957fb"
+    },
+    {
+      "file": "glasshouse/scene-shots.js",
+      "delivery": "pages",
+      "bytes": 809,
+      "sha256": "5b3bd12be021e637899b996c29ce43d56744aed1c3599494b9058d502f148ae0"
+    },
+    {
+      "file": "glasshouse/scene.bundle.js",
+      "delivery": "pages",
+      "bytes": 1063664,
+      "sha256": "385af997338a253b75a9f777842152c6c474dc4ff00d54f0d0ef89c1ca5f8cc0"
+    },
+    {
+      "file": "glasshouse/scene.css",
+      "delivery": "pages",
+      "bytes": 8393,
+      "sha256": "79dc36078ff08654056a908c77fb3f1be82df2692627c331d42b07680ed8aba3"
+    },
+    {
+      "file": "glasshouse/scene.js",
+      "delivery": "pages",
+      "bytes": 37897,
+      "sha256": "c8447ee8941911021949f062c39022f63085305306a5c2dec70045ebd7bd5f22"
+    },
+    {
+      "file": "glasshouse/seaside-audio.js",
+      "delivery": "pages",
+      "bytes": 7644,
+      "sha256": "3c7b1f263500b31d32e49267bda7a6f08b778ea031a9b6564314726c0d560d01"
+    },
+    {
+      "file": "glasshouse/seaside-review.html",
+      "delivery": "pages",
+      "bytes": 15026,
+      "sha256": "781a65ea8551649e4a8fb0d275c7b1d83efa11e08604a9f6c21b8f9166f6b271"
+    },
+    {
+      "file": "glasshouse/seaside.css",
+      "delivery": "pages",
+      "bytes": 2767,
+      "sha256": "cd0408b717b495e79f2c0c19f10b305d078d8cdaefafb9cee668f55599d8188c"
+    },
+    {
+      "file": "glasshouse/seat-coat.js",
+      "delivery": "pages",
+      "bytes": 3316,
+      "sha256": "5551d16e4b3d0ffcbef2307f911567bf8d1fce6c9306991a7a6a5bbe34835bb8"
+    },
+    {
+      "file": "glasshouse/seated-pose.js",
+      "delivery": "pages",
+      "bytes": 7272,
+      "sha256": "4e2487a4b09c51fb048bdae4005298fab989949e67bed7ef2edac20ba1ce3c1b"
+    },
+    {
+      "file": "glasshouse/seats.js",
+      "delivery": "pages",
+      "bytes": 2540,
+      "sha256": "d242e8d3d163045cf606a5501d3c6301bdebe423164f7d7a35fc1617e333a639"
+    },
+    {
+      "file": "glasshouse/shore-rocks.js",
+      "delivery": "pages",
+      "bytes": 2458,
+      "sha256": "0d4b90f3d50ecbc432d7a854c433aeb3a40ea97acd0b97d2c052d53e8967c164"
+    },
+    {
+      "file": "glasshouse/stair-motion.js",
+      "delivery": "pages",
+      "bytes": 1085,
+      "sha256": "2ebbd1acac37aae5d938fd61c1eab7b05a49970a7d72ba61aa3d9ac39a0de9e9"
+    },
+    {
+      "file": "glasshouse/stairs-review.html",
+      "delivery": "pages",
+      "bytes": 5010,
+      "sha256": "1e6b7b8d362784f66a929ce284bfcaf4fe541988a0974024caa1ded6331dd712"
+    },
+    {
+      "file": "glasshouse/summary.css",
+      "delivery": "pages",
+      "bytes": 12946,
+      "sha256": "60cb4576bbaa897c9b2cd3fae8cd34fe328c025850d22c0589a9e8faec12cf54"
+    },
+    {
+      "file": "glasshouse/summary.html",
+      "delivery": "pages",
+      "bytes": 12638,
+      "sha256": "1d3244e71d0fad2611310543272fc43c1942397a40b581d8bd426090b185e4e9"
+    },
+    {
+      "file": "glasshouse/summary.js",
+      "delivery": "pages",
+      "bytes": 5535,
+      "sha256": "0bf127ea874f042b4315d98684075a7377dc846f2db7fa8632a91d0a27dd4a4f"
+    },
+    {
+      "file": "glasshouse/summary.json",
+      "delivery": "pages",
+      "bytes": 16043,
+      "sha256": "f37f9824e4758f6e1de9be95e9133db37582b017bde7bc5ded7b485e741e499a"
+    },
+    {
+      "file": "glasshouse/surf-cycle.js",
+      "delivery": "pages",
+      "bytes": 1236,
+      "sha256": "1ca7e90f9b5e348895423bd7d3eb95cf00ac9f48d0f08aa59c419662eb858876"
+    },
+    {
+      "file": "glasshouse/THREE-LICENSE.txt",
+      "delivery": "pages",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "file": "glasshouse/walk-surface.js",
+      "delivery": "pages",
+      "bytes": 6062,
+      "sha256": "5aeb4ea5f805deb492a16328cb91a8676ca9f2bc8b07cffbfd184b9b589fbe56"
+    },
+    {
+      "file": "glasshouse/water-system.js",
+      "delivery": "pages",
+      "bytes": 21599,
+      "sha256": "0c9d5d734422803e688b4174fde742a84fb4ad6bb0d64cf8f4d6f4dffcf7ccb4"
+    },
+    {
+      "file": "glasshouse/assets/ambience/manifest.json",
+      "delivery": "pages",
+      "bytes": 2723,
+      "sha256": "a9baa6785692ce55c15c4fd37bb62aa0d7e1fb800f34bf27c55b3be44363a698"
+    },
+    {
+      "file": "glasshouse/assets/ambience/ocean-surf.ogg",
+      "delivery": "pages",
+      "bytes": 1008044,
+      "sha256": "4f749fa3382b86de5d3967b9c8824c3d6155a7428d74f401686994ae74a1620b"
+    },
+    {
+      "file": "glasshouse/assets/ambience/surf-texture43.json",
+      "delivery": "pages",
+      "bytes": 714,
+      "sha256": "22deb3ba4f8b9b6ee7ba9b5f74cfc03a6b9e55c0325679df5fa694e6b2558808"
+    },
+    {
+      "file": "glasshouse/assets/ambience/surf-texture43.ogg",
+      "delivery": "pages",
+      "bytes": 177112,
+      "sha256": "e7a83f7e7c2d537632aa1e3a3c4856c852823cd9e7250e982780941218ae1c31"
+    },
+    {
+      "file": "glasshouse/assets/ambience/surf-texture43.wav",
+      "delivery": "pages",
+      "bytes": 3168044,
+      "sha256": "46fcc52450aec126cd5ce275b738e28ca1e18ecb41eac923eb02c12ab52c4473"
+    },
+    {
+      "file": "glasshouse/assets/ambience/wind.ogg",
+      "delivery": "pages",
+      "bytes": 374905,
+      "sha256": "5563b42caa0fabbcbf0c7b5e208d5f6fed9ab1992bac77a69f4c532639bd6ba4"
+    },
+    {
+      "file": "glasshouse/assets/guide/guide-hoodie.glb",
+      "delivery": "repository-raw",
+      "bytes": 4720672,
+      "sha256": "e94fb171db9bc1632e2b53c2b10d4dc743e6f36dff071e4c8a8b01aab35f12c0"
+    },
+    {
+      "file": "glasshouse/assets/guide/guide-knit.glb",
+      "delivery": "repository-raw",
+      "bytes": 4623356,
+      "sha256": "0ce23e7019b986de31d3d3b300e5dba1a9fb087b98d7a37c6516ce530a48cbcb"
+    },
+    {
+      "file": "glasshouse/assets/guide/guide-linen.glb",
+      "delivery": "repository-raw",
+      "bytes": 4818172,
+      "sha256": "843b65ee5e61ecf95dc8f8c55049c5d78ed8484e550d84ee22070f5f0cf570ce"
+    },
+    {
+      "file": "glasshouse/assets/guide/import-validation.json",
+      "delivery": "pages",
+      "bytes": 4186,
+      "sha256": "8595ff6c21ecb94427ced01497418228147f458960398168def174dada54da78"
+    },
+    {
+      "file": "glasshouse/assets/guide/manifest.json",
+      "delivery": "pages",
+      "bytes": 3030,
+      "sha256": "b280dc76b78aec3f81f8f8271e36d4ed548c9ae819b2680e2555b65f9c061e56"
+    },
+    {
+      "file": "glasshouse/assets/guide/validation.json",
+      "delivery": "pages",
+      "bytes": 2576,
+      "sha256": "1b8d49d80f8e470638096e312418b64229bea8f3747058426d99ba1767594ee0"
+    },
+    {
+      "file": "glasshouse/assets/hero/hero-static.glb",
+      "delivery": "repository-raw",
+      "bytes": 21607644,
+      "sha256": "2b34996048436cf68b1a657233bc3e1cedd3448f637144ce451a1e656661a39f"
+    },
+    {
+      "file": "glasshouse/assets/hero/manifest.json",
+      "delivery": "pages",
+      "bytes": 246,
+      "sha256": "7482d5561ed6d1b1141778633da5ab0f8748f554250d70fc1799065a167b4c55"
+    },
+    {
+      "file": "glasshouse/assets/hero/validation.json",
+      "delivery": "pages",
+      "bytes": 508,
+      "sha256": "caaae27a18786055b3a7610c93b74b8c819418bb7c8b72945d378c80599070fe"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/35659cad051247e4b66f5c4d1ca13ea8.jpg",
+      "delivery": "pages",
+      "bytes": 65534,
+      "sha256": "32960297b60c8d2fa318f08b1a3ccda76a1649b5888beda38363492921c7eaea"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/candidate-validation.json",
+      "delivery": "pages",
+      "bytes": 935,
+      "sha256": "412ba2346583059ef069d66e82ed872b7a865eb9be7ce105fa21e35b81e7afbb"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/ee033db06c434142b32111239492a64d.jpg",
+      "delivery": "pages",
+      "bytes": 168463,
+      "sha256": "f75aa8165e27c6a284dcb6af19edac9e61d423bf9b697dd6fab59751fa7a88bb"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/LICENSE-Rocketbox.txt",
+      "delivery": "pages",
+      "bytes": 1066,
+      "sha256": "17474e386e0b9e1a700cc3d06b2b0882a2c376d9c6b49c7f8274409b8f8d2352"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/LICENSE-Visage.txt",
+      "delivery": "pages",
+      "bytes": 1073,
+      "sha256": "cd377eddad436ef72e989a3b71eb95cb0014df52b1dd72cb9e0b513a4fb81221"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/Male_Adult_10-Export.json",
+      "delivery": "pages",
+      "bytes": 2555,
+      "sha256": "482fe2465c70ac47a29c5bac0f1d9d440d40974bbc04f62697f503c200af5fb0"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/Male_Adult_10-Textures.json",
+      "delivery": "pages",
+      "bytes": 9027,
+      "sha256": "8c24df0d0452f3387296b5d5db70dd0838733d6e5bf01b665cbe8b848996b73c"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/male_adult_10.glb",
+      "delivery": "repository-raw",
+      "bytes": 20999704,
+      "sha256": "938a0496dfebbcf95501013ab0dc3750d7c392aab133b651a45938423a3e1cdf"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/Male_Adult_17-Export.json",
+      "delivery": "pages",
+      "bytes": 2555,
+      "sha256": "1e1a24eee5f68c9cd34a3445cef2fbe9b84a7832077b0103cf2977654da6def9"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/Male_Adult_17-Textures.json",
+      "delivery": "pages",
+      "bytes": 7729,
+      "sha256": "cd790cd61bbf98b72bc7681b8b6187a6a33d164f984f3f7c941d3f05513035b5"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/male_adult_17.glb",
+      "delivery": "repository-raw",
+      "bytes": 22817996,
+      "sha256": "a31851ee65999e7b100dbadfc0898fed74fc4d31523e554eea6cd51165160ef8"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/prepared-candidates.json",
+      "delivery": "pages",
+      "bytes": 1289,
+      "sha256": "fcd4cd54440af2978a3f5b2e0d939c33cdde2be6c02e0c2cc177b83e3216cf64"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/README.md",
+      "delivery": "pages",
+      "bytes": 2662,
+      "sha256": "4f890f86a01c5a0a083bcb78cd4d8bbc4ad11a14a42367580f5b514c2e0cfb87"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/rocketbox-animations-directory.json",
+      "delivery": "pages",
+      "bytes": 367,
+      "sha256": "74f92b0d4791aece72ab8e5e918dcfc756b1face3fe32c11719c3829ebeed9ae"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/rocketbox-animations-static.json",
+      "delivery": "pages",
+      "bytes": 89501,
+      "sha256": "874808ca88ee267ade0a7d6ced804f5e68dc42fbff47975f911b12d894c164c2"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/rocketbox-animations-xy.json",
+      "delivery": "pages",
+      "bytes": 18291,
+      "sha256": "763751b82c5c29c475d891bef0464bd7c5ee337802c4334d642e09e456d6b7da"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/rocketbox-downloads.json",
+      "delivery": "pages",
+      "bytes": 4721,
+      "sha256": "1fcec02a482f7d9a5e2abefa01be2eae51b057de05e615413d8fe6e7910d6b6c"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/rocketbox-official-overview.jpg",
+      "delivery": "pages",
+      "bytes": 224644,
+      "sha256": "337b38bcf8692cc474f06b1c1b66b8a587b8465a5d6a3497ce8937f5c327fde2"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/rocketbox-tree.json",
+      "delivery": "pages",
+      "bytes": 6,
+      "sha256": "abdfbffecbe18ed94df9829819e596ee285b52a94aa108514452a9121721c789"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/sketchfab-35659cad051247e4b66f5c4d1ca13ea8.json",
+      "delivery": "pages",
+      "bytes": 4993,
+      "sha256": "3d0098835f35ccd4d54f315c034a28fd9a3c6e366a35363f284100963683c9c9"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/sketchfab-ee033db06c434142b32111239492a64d.json",
+      "delivery": "pages",
+      "bytes": 9884,
+      "sha256": "b7ffb480df6b26e8ea317f61697341493190058a984edd466e617b3dcf4c6d80"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/visage-tree.json",
+      "delivery": "pages",
+      "bytes": 57587,
+      "sha256": "78e873047817c55ad592d0e16d97bfdb02009b50dfb800e273da90e1bc4ff1dc"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_01.png",
+      "delivery": "pages",
+      "bytes": 450889,
+      "sha256": "54c9b5a695881c3d8aea99fb23d234282a5642c3e96f966b441ab7893461d535"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_02.png",
+      "delivery": "pages",
+      "bytes": 478395,
+      "sha256": "2df56390d069f322e43eeebf2bdff6f0f911769805d29c6e9595cc19f3420f36"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_03.png",
+      "delivery": "pages",
+      "bytes": 515426,
+      "sha256": "0a5cece1ce2bf7f44df7fab730d332c934a8f21ff4dda098b49e2ece6223936b"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_04.png",
+      "delivery": "pages",
+      "bytes": 511910,
+      "sha256": "df86a37938030b23701a3e00daa39c7e1b965f0a1d79c338ac8b56eb4f64efc9"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_05.png",
+      "delivery": "pages",
+      "bytes": 488838,
+      "sha256": "48a9600b2e8651c46fe1fbb741fefdd1c4087afd10137d1704227abee37a439f"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_06.png",
+      "delivery": "pages",
+      "bytes": 485364,
+      "sha256": "b914d4979afbf2c7b5eb8ad970117bb03587f56e4116140143d6dff6d432f511"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_07.png",
+      "delivery": "pages",
+      "bytes": 482710,
+      "sha256": "f83499d67142c505bb7a93c37e1f04a77649a8eaa791321cb5f8b668df09cf39"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_08.png",
+      "delivery": "pages",
+      "bytes": 448126,
+      "sha256": "022f5cd70091203ed8c64734ff859b0b57af62ba06cfa4ba34d31b333f715c5a"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_09.png",
+      "delivery": "pages",
+      "bytes": 472224,
+      "sha256": "67493d2ce72857cb3b93b313c7e582c4631a0b5b5222b43b8e1725e80a5a2ce6"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_10.png",
+      "delivery": "pages",
+      "bytes": 457608,
+      "sha256": "7963b9cc195cbd65b8f70d813bee5a22dc59cade1d08241a56cb6b949ea0c71f"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_11.png",
+      "delivery": "pages",
+      "bytes": 419506,
+      "sha256": "2aeb7c055095e6e821d234ed33f7719b5d02fdfee295e93ea72f5fa56110eac9"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_12.png",
+      "delivery": "pages",
+      "bytes": 506050,
+      "sha256": "d680a0a9b094981f7383a47ec21cc8a5fdd8dccb5941e73e85abb3793b03a2e6"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_13.png",
+      "delivery": "pages",
+      "bytes": 473462,
+      "sha256": "e859bc8b5c1583fe39d9f234d2431edb8571ce30a3f7c6ff770c75070712bcae"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_14.png",
+      "delivery": "pages",
+      "bytes": 465232,
+      "sha256": "4e9204462cc1d0c04b3d7eb6fb7a3a50d8593ef846a171415cb4d770d6c85236"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_15.png",
+      "delivery": "pages",
+      "bytes": 389579,
+      "sha256": "097a2cbabcac598fc73133880e797fe44acee3159a7db1b6b478a7689a8a91a1"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_16.png",
+      "delivery": "pages",
+      "bytes": 462484,
+      "sha256": "e5819dee79c529993a564a0d0af126111f5883da40c88d35817d367dffe4cffc"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_17.png",
+      "delivery": "pages",
+      "bytes": 483358,
+      "sha256": "0cf8b8634eb4c7577dc2e49267c7d820e6a2b5242c60308654fa3fdf5696deee"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_18.png",
+      "delivery": "pages",
+      "bytes": 458613,
+      "sha256": "f611ea80f0be286228a9d3bab0098804392bae19de54debfd2eba229d36cb10f"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_19.png",
+      "delivery": "pages",
+      "bytes": 439455,
+      "sha256": "bf9061c0bdd2214b8db0ca919f0e23a336cdaa6792cae50cf486ef2d28f73b5a"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_20.png",
+      "delivery": "pages",
+      "bytes": 463415,
+      "sha256": "a5ac430a38df99b23f0e9a7251257694230d62c5f92e4efcfa1e09f6eb75532e"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/rocketbox/Male_Adult_21.png",
+      "delivery": "pages",
+      "bytes": 352293,
+      "sha256": "60a5d5812b05342d696d7bf2ea45bcedf3e815c7bde7112865697be89361c003"
+    },
+    {
+      "file": "glasshouse/assets/personal-guide/HEAD-LICENSE.txt",
+      "delivery": "pages",
+      "bytes": 1066,
+      "sha256": "17474e386e0b9e1a700cc3d06b2b0882a2c376d9c6b49c7f8274409b8f8d2352"
+    },
+    {
+      "file": "glasshouse/assets/personal-guide/import-validation-detail.json",
+      "delivery": "pages",
+      "bytes": 12758,
+      "sha256": "2a982c8e446f202dc37de384d6f1d4c3680b15298ed14dac2a85fbf9cce4661d"
+    },
+    {
+      "file": "glasshouse/assets/personal-guide/import-validation-facial.json",
+      "delivery": "pages",
+      "bytes": 15359,
+      "sha256": "2c1547fbca3014e13192c644dfeda92c94ac7be157b91f289935cb89e854eb60"
+    },
+    {
+      "file": "glasshouse/assets/personal-guide/import-validation-head.json",
+      "delivery": "pages",
+      "bytes": 13237,
+      "sha256": "0262e4e763ef24e085b4d84e1950d4883532dce47b484ce02e339a29ec5d2b10"
+    },
+    {
+      "file": "glasshouse/assets/personal-guide/import-validation-orbit.json",
+      "delivery": "pages",
+      "bytes": 12758,
+      "sha256": "b2dac435d676db568baec289653529f06d103598af7abcf7717234d419dc59a5"
+    },
+    {
+      "file": "glasshouse/assets/personal-guide/import-validation.json",
+      "delivery": "pages",
+      "bytes": 12758,
+      "sha256": "b2dac435d676db568baec289653529f06d103598af7abcf7717234d419dc59a5"
+    },
+    {
+      "file": "glasshouse/assets/personal-guide/manifest-detail.json",
+      "delivery": "pages",
+      "bytes": 2724,
+      "sha256": "1630a1ed3a26be450d7f3f20741a1b2ddcd2ee0bc0fd55e5dbc37faaef80f7a5"
+    },
+    {
+      "file": "glasshouse/assets/personal-guide/manifest-facial.json",
+      "delivery": "pages",
+      "bytes": 3341,
+      "sha256": "00015e039c0c9daca023aebcbc3cf2435f50ed9d188838c4bc94ebda70b5cf4b"
+    },
+    {
+      "file": "glasshouse/assets/personal-guide/manifest-hands43.json",
+      "delivery": "pages",
+      "bytes": 5298,
+      "sha256": "656e76bcc1058d12e587759b3e89e27b29329bf84dd908b61c3727f5899a6503"
+    },
+    {
+      "file": "glasshouse/assets/personal-guide/manifest-head.json",
+      "delivery": "pages",
+      "bytes": 2664,
+      "sha256": "8c22dc4e92f3edc29070211b88250875fae5e0e0b1d480ec4bb110ad01e97865"
+    },
+    {
+      "file": "glasshouse/assets/personal-guide/manifest-orbit.json",
+      "delivery": "pages",
+      "bytes": 2632,
+      "sha256": "62997c75c0f23901cddb5bee3ff3d9d314b2da2d4e0ef65fae8d944e4b4f82f6"
+    },
+    {
+      "file": "glasshouse/assets/personal-guide/manifest-v30.json",
+      "delivery": "pages",
+      "bytes": 2209,
+      "sha256": "a3f205ac7840d3e1a83ec398ff7c496992092117413c2c3d39743dc0a28cc0c7"
+    },
+    {
+      "file": "glasshouse/assets/personal-guide/manifest.json",
+      "delivery": "pages",
+      "bytes": 2209,
+      "sha256": "a3f205ac7840d3e1a83ec398ff7c496992092117413c2c3d39743dc0a28cc0c7"
+    },
+    {
+      "file": "glasshouse/assets/personal-guide/MOTION-LICENSE.txt",
+      "delivery": "pages",
+      "bytes": 1066,
+      "sha256": "17474e386e0b9e1a700cc3d06b2b0882a2c376d9c6b49c7f8274409b8f8d2352"
+    },
+    {
+      "file": "glasshouse/assets/personal-guide/personal-guide-detail.glb",
+      "delivery": "repository-raw",
+      "bytes": 10153100,
+      "sha256": "c7b07d1b2e6125c4f30d1b15233a8fbb76914f820e0acfd91bb9d9af88a12aaa"
+    },
+    {
+      "file": "glasshouse/assets/personal-guide/personal-guide-facial.glb",
+      "delivery": "repository-raw",
+      "bytes": 16662052,
+      "sha256": "69927e9fb807a1e63d9d901166c2167d740d2efd8997cdf08295b2c095969f94"
+    },
+    {
+      "file": "glasshouse/assets/personal-guide/personal-guide-hands43.glb",
+      "delivery": "repository-raw",
+      "bytes": 27153676,
+      "sha256": "bee62731b932e907f66eca8e58dc42daf8565f2501f77ab9e71cd20c3a0336f1"
+    },
+    {
+      "file": "glasshouse/assets/personal-guide/personal-guide-head.glb",
+      "delivery": "repository-raw",
+      "bytes": 15236576,
+      "sha256": "167bed9f770a7174473759947d89934c8d5839657d5eb119fdb14769fabfa0c3"
+    },
+    {
+      "file": "glasshouse/assets/personal-guide/personal-guide-orbit.glb",
+      "delivery": "repository-raw",
+      "bytes": 11105708,
+      "sha256": "252069a40c80cecd70bc188968822ee374eba4804b62fd027de44443965a7cbc"
+    },
+    {
+      "file": "glasshouse/assets/personal-guide/personal-guide.glb",
+      "delivery": "repository-raw",
+      "bytes": 9615660,
+      "sha256": "58ad44b9d3450485ed398e9c7b9509e5567c1e8482e50272e6381ef99e7d191b"
+    },
+    {
+      "file": "glasshouse/assets/personal-guide/personal-static.glb",
+      "delivery": "repository-raw",
+      "bytes": 8244788,
+      "sha256": "4e4f0670d7bcbe405cec1a9e7efa085cd882bc2858be1be69883239f295eca27"
+    },
+    {
+      "file": "glasshouse/assets/personal-guide/README.md",
+      "delivery": "pages",
+      "bytes": 12886,
+      "sha256": "1606eec5bc24f17212221023f6cb01e226febcd2f866e637d3f6b06622d51cfa"
+    },
+    {
+      "file": "glasshouse/assets/personal-guide/speech/terrace-intro.json",
+      "delivery": "pages",
+      "bytes": 24772,
+      "sha256": "c99951a52006105489ed75054640dbb6a7e3bf8e9975e591f66e3e0abf65fc3f"
+    },
+    {
+      "file": "glasshouse/assets/personal-guide/speech/terrace-intro.wav",
+      "delivery": "pages",
+      "bytes": 490250,
+      "sha256": "347998eb988efd846d0b37e1a2e5522cd74c1fafd8a64996df0aa42df2d4e5da"
+    },
+    {
+      "file": "glasshouse/assets/rocket-guide/import-validation.json",
+      "delivery": "pages",
+      "bytes": 12696,
+      "sha256": "4164ec9594b543dc6780d50ed4d28bdf5be784c3ab087f3e829e6ad1f73e8754"
+    },
+    {
+      "file": "glasshouse/assets/rocket-guide/LICENSE.txt",
+      "delivery": "pages",
+      "bytes": 1066,
+      "sha256": "17474e386e0b9e1a700cc3d06b2b0882a2c376d9c6b49c7f8274409b8f8d2352"
+    },
+    {
+      "file": "glasshouse/assets/rocket-guide/manifest.json",
+      "delivery": "pages",
+      "bytes": 2497,
+      "sha256": "ff63bdc1e29dec2c2fa4e94df7e53ee0d7e322f1ca564830564d4924a14d27d4"
+    },
+    {
+      "file": "glasshouse/assets/rocket-guide/README.md",
+      "delivery": "pages",
+      "bytes": 2817,
+      "sha256": "3afc386e32f9fd89093fe2643673d2ea5f6e63c1814c9e3c7dda35d800d08901"
+    },
+    {
+      "file": "glasshouse/assets/rocket-guide/rocket-guide.glb",
+      "delivery": "repository-raw",
+      "bytes": 21879456,
+      "sha256": "03a215c373c12f4c9cc7e3e417cb2cc42cd3415b77b85588cdf13cc2a5d935e6"
+    },
+    {
+      "file": "glasshouse/assets/rocket-guide/source/animation-inspection.json",
+      "delivery": "pages",
+      "bytes": 4244,
+      "sha256": "078725d944e10b27d831790c705690c59df142f4907d9be5f985a520f33547bf"
+    },
+    {
+      "file": "glasshouse/assets/rocket-guide/source/animation-sources.json",
+      "delivery": "pages",
+      "bytes": 1913,
+      "sha256": "bb45861d90ec998629efdc135e61b4b6b78c4e86158bc089a012d6160f5ef5ac"
+    },
+    {
+      "file": "glasshouse/assets/user-model-0597/0597b54ff20068bcd556b1e005aed56d.glb",
+      "delivery": "repository-raw",
+      "bytes": 80673996,
+      "sha256": "bde0c12688b20e7bf197fea13122186a16f9bb0c15484eee28e0a66fd63b709e"
+    },
+    {
+      "file": "glasshouse/assets/user-model-0597/components.json",
+      "delivery": "pages",
+      "bytes": 3495,
+      "sha256": "d6857ccb425972189c4727d5e837218f794b8e5b59cedb20b1177c9a3d6bf762"
+    },
+    {
+      "file": "glasshouse/assets/user-model-0597/manifest.json",
+      "delivery": "pages",
+      "bytes": 1603,
+      "sha256": "cae9d32faffd7d3969af3e3ecfb51c8b8bf3b51922e94c51b1d973a5eaa1cefc"
+    },
+    {
+      "file": "glasshouse/character/base-inspection.json",
+      "delivery": "pages",
+      "bytes": 27092,
+      "sha256": "80a3caee54ceb74cddeefb060d7f5a7adc035bb0c61e97cfc790859e1827887c"
+    },
+    {
+      "file": "glasshouse/character/build-guide.py",
+      "delivery": "pages",
+      "bytes": 30770,
+      "sha256": "3fb8aeb5958ecdf58c6c0c93f04123fa2069dd6e1db531a87b268919faf774b9"
+    },
+    {
+      "file": "glasshouse/character/build-hands43.py",
+      "delivery": "pages",
+      "bytes": 17452,
+      "sha256": "2d621596020082852ea2de7cca1a0c9bfaded3af95712d31496973a747fb84f7"
+    },
+    {
+      "file": "glasshouse/character/build-hero-static.py",
+      "delivery": "pages",
+      "bytes": 15360,
+      "sha256": "e15cf242bfc935d7e018208a10303c31bff20aa942fdf03d4f18c2e2d4926726"
+    },
+    {
+      "file": "glasshouse/character/build-natural-head.py",
+      "delivery": "pages",
+      "bytes": 9911,
+      "sha256": "9ed3c1c151e6cb6f4229431192b1c788762a3d4e136237cfe9f4cca040090e46"
+    },
+    {
+      "file": "glasshouse/character/build-own-face.py",
+      "delivery": "pages",
+      "bytes": 13339,
+      "sha256": "faea41a6a45a70f45f803485a8f876b6e1307da12e3ac6aa3301ab8c279ee182"
+    },
+    {
+      "file": "glasshouse/character/build-personal-guide.py",
+      "delivery": "pages",
+      "bytes": 11259,
+      "sha256": "b003f82e8c57cf1c383217ce955ca02bf8202322fcc7fadce178de3772228b7b"
+    },
+    {
+      "file": "glasshouse/character/build-rocket-guide.py",
+      "delivery": "pages",
+      "bytes": 6465,
+      "sha256": "be96540bcbe6dde1ba893bd28f9c5ef22f8db9ae13dfb8faaeb4ad077001af4e"
+    },
+    {
+      "file": "glasshouse/character/build-rocket-head.py",
+      "delivery": "pages",
+      "bytes": 7232,
+      "sha256": "5eaff3b4fb1f9f6aea099e3d29266a4b8979fc28d8d95192ffb97a0003608510"
+    },
+    {
+      "file": "glasshouse/character/guide-face.png",
+      "delivery": "pages",
+      "bytes": 527593,
+      "sha256": "f7932e9de04dca0da108d30024674293249c3cd8ac7ce7e51ea188b7a1e7dcc9"
+    },
+    {
+      "file": "glasshouse/character/guide-fullbody.png",
+      "delivery": "pages",
+      "bytes": 559745,
+      "sha256": "9e0de75da916913cba3e434431e3eb23a0480111ec775fa1f3e13b283eda8552"
+    },
+    {
+      "file": "glasshouse/character/hero-body-joints.json",
+      "delivery": "pages",
+      "bytes": 13188,
+      "sha256": "385a79f7a1725f75e315d012709c1d1e4b328c81be0e46487e0ce809ad528820"
+    },
+    {
+      "file": "glasshouse/character/hero-body.py",
+      "delivery": "pages",
+      "bytes": 5554,
+      "sha256": "82a7d2bae4ad731543fcd47c85f537823768d3b18a2528b0a5003af0e58934a6"
+    },
+    {
+      "file": "glasshouse/character/hero-cloth-albedo.png",
+      "delivery": "pages",
+      "bytes": 1009013,
+      "sha256": "2ebd34bf62b8284cb179fa792aa289f28d5dd9b5b52c72266e01ca1103f3799f"
+    },
+    {
+      "file": "glasshouse/character/hero-cloth-normal.png",
+      "delivery": "pages",
+      "bytes": 1871934,
+      "sha256": "d3aeaba7505f0ee6c5bf263ba0fc8e65e5e863ea519c273d9f7f7d913035c872"
+    },
+    {
+      "file": "glasshouse/character/hero-cloth-preview.png",
+      "delivery": "pages",
+      "bytes": 731053,
+      "sha256": "4d2f7c06bee6b314978d6644eb0cc99c96503148224d4650baebbd4ae457dbca"
+    },
+    {
+      "file": "glasshouse/character/hero-cloth-roughness.png",
+      "delivery": "pages",
+      "bytes": 1109456,
+      "sha256": "066c39f40aa68a12e9952d1ed4f0023d106c3c833cc8b999c39867debf7e034f"
+    },
+    {
+      "file": "glasshouse/character/hero-fullbody-neutral.png",
+      "delivery": "pages",
+      "bytes": 734948,
+      "sha256": "3e7d7c8590392a089c1ca1ab2d1b6566f81cd23c939e904d0e1a4eba5da4c7e8"
+    },
+    {
+      "file": "glasshouse/character/hero-head-neutral.png",
+      "delivery": "pages",
+      "bytes": 678672,
+      "sha256": "34ad935c9fb25d8a01c1a8d9642001dd2d6f112267dfc7752a79abe20b95f3ed"
+    },
+    {
+      "file": "glasshouse/character/hero-hoodie.py",
+      "delivery": "pages",
+      "bytes": 18280,
+      "sha256": "2efb07defc4d459d3144fc4a60b46509661e0f1cedfe74e55334fb668b2dc04c"
+    },
+    {
+      "file": "glasshouse/character/inspect-base.py",
+      "delivery": "pages",
+      "bytes": 745,
+      "sha256": "2d9ce040c98b3062f2a2e3d216d8a09163e23aaf0420ade072d740d7a9f475bb"
+    },
+    {
+      "file": "glasshouse/character/inspect-detail-regions.py",
+      "delivery": "pages",
+      "bytes": 1739,
+      "sha256": "387f22ee986e5e252fc3f88ef5982b1cf24bc449226b408e01f2e33723f2f313"
+    },
+    {
+      "file": "glasshouse/character/inspect-personal-detail.py",
+      "delivery": "pages",
+      "bytes": 3020,
+      "sha256": "52b77877384ae1e0bddc903bde4868578560089638a426d1b988268c45ebbcfe"
+    },
+    {
+      "file": "glasshouse/character/inspect-personal-rig.py",
+      "delivery": "pages",
+      "bytes": 1431,
+      "sha256": "676909dea9f7eaac3b3d306a98df245465a5d3945e5d8f7bbff3847abd74dfb3"
+    },
+    {
+      "file": "glasshouse/character/inspect-rocket-animations.py",
+      "delivery": "pages",
+      "bytes": 1959,
+      "sha256": "0db8efd39a231578829dfdf33b985ed31b8ab1d9fd4601c73715e99177df7ed3"
+    },
+    {
+      "file": "glasshouse/character/prepare-hero-candidates.py",
+      "delivery": "pages",
+      "bytes": 6234,
+      "sha256": "369204d9adf0130ccc990871157309c7fc29d32ffc15723deafdc1710fa82312"
+    },
+    {
+      "file": "glasshouse/character/prepare-personal-0597.py",
+      "delivery": "pages",
+      "bytes": 5728,
+      "sha256": "0f0269c8d3b1f229d2fbf266288228bd55a7d3a5576910a1672ca0438c27bdfb"
+    },
+    {
+      "file": "glasshouse/character/README.md",
+      "delivery": "pages",
+      "bytes": 5106,
+      "sha256": "7690da12305cade87072c91a52dbe10158fd555b1b8c1056fbd3ac3cc88ef236"
+    },
+    {
+      "file": "glasshouse/character/rebuild-orbit.py",
+      "delivery": "pages",
+      "bytes": 19563,
+      "sha256": "4798734a2a3b1b086cfec0611186bc9b9753c95c36f67455bbd879e2328ff144"
+    },
+    {
+      "file": "glasshouse/character/reference.png",
+      "delivery": "pages",
+      "bytes": 2126011,
+      "sha256": "75bd43eb02c87d2942fc883cf62a71e69c0d78ca5fa3543b5948b6659ebc738b"
+    },
+    {
+      "file": "glasshouse/character/refine-personal-guide.py",
+      "delivery": "pages",
+      "bytes": 20711,
+      "sha256": "1afa561557e5f3ec132b514fd9759e1afc0d7975833b8d1f1e0afda08a0f7563"
+    },
+    {
+      "file": "glasshouse/character/SOURCES.txt",
+      "delivery": "pages",
+      "bytes": 668,
+      "sha256": "4d7b854d2b9b175e1bb88c63423a0e67ced361e58038f1db2432a4d152c94660"
+    },
+    {
+      "file": "glasshouse/character/verify-guide.mjs",
+      "delivery": "pages",
+      "bytes": 3530,
+      "sha256": "1b4612f63f4e822ca5552467b9f7cd7baeacf3b5865af61492681587e45ace6a"
+    },
+    {
+      "file": "glasshouse/character/verify-import.py",
+      "delivery": "pages",
+      "bytes": 2005,
+      "sha256": "6df4dc33ebada6626471114244c57e04dc13963a5f6cb11397f94f4c59d6f34f"
+    },
+    {
+      "file": "glasshouse/character/verify-rocket-import.py",
+      "delivery": "pages",
+      "bytes": 4649,
+      "sha256": "a05c18513056a304a643ed210f5dd823eeb92b59852d5c399dd0dffd12d0dd76"
+    },
+    {
+      "file": "glasshouse/character/hero-source/basemesh_vertex_groups.json",
+      "delivery": "pages",
+      "bytes": 81984,
+      "sha256": "8cb1417bc55ae5ec8aa99f90734e81ed5fbb556511ff6a2c00e0534b70911444"
+    },
+    {
+      "file": "glasshouse/character/hero-source/hm08_config.json",
+      "delivery": "pages",
+      "bytes": 3600,
+      "sha256": "0ebab5f8ba35e56f3be49e3de241746552bce57fe8e079b72b00a362be246a29"
+    },
+    {
+      "file": "glasshouse/character/hero-source/MAKEHUMAN-LICENSE.md",
+      "delivery": "pages",
+      "bytes": 3598,
+      "sha256": "edd99571ca62698f78c943fd4fffb159a413c315fa0d4819d3cec5cadaf8b4f1"
+    },
+    {
+      "file": "glasshouse/character/hero-source/makehuman-tree.json",
+      "delivery": "pages",
+      "bytes": 622039,
+      "sha256": "951fd0018f7b6e9b5cca3e5585c9ef135d4018b8ca6e55f39e9041e1cd6e9799"
+    },
+    {
+      "file": "glasshouse/character/hero-source/mpfb-tree.json",
+      "delivery": "pages",
+      "bytes": 867387,
+      "sha256": "8607959e9b21fb8335c5a7335c92189a6171ad212d843e5f3eac9d70ffa15bb3"
+    },
+    {
+      "file": "glasshouse/character/hero-source/official-pants-manifest.json",
+      "delivery": "pages",
+      "bytes": 2550,
+      "sha256": "b62995844ddc88d91ea6c4d557ec83d8582b8d856546af6d56a219c65350300d"
+    },
+    {
+      "file": "glasshouse/character/hero-source/official-system-manifest.json",
+      "delivery": "pages",
+      "bytes": 7051,
+      "sha256": "50e21c320f1e98ab4b25de13a0b68a3a393ecb50cd3f29c838758b51f7dbf02a"
+    },
+    {
+      "file": "glasshouse/character/hero-source/README.md",
+      "delivery": "pages",
+      "bytes": 3584,
+      "sha256": "f86ff362cc5e9f3090c96f185e4d6c1cd30fb115fb3577c7459ff60b7a00abae"
+    },
+    {
+      "file": "glasshouse/character/hero-source/rig.default.json",
+      "delivery": "pages",
+      "bytes": 126355,
+      "sha256": "8b949de35c2dd70dbb5094e57a8586c3b9a9f650775a293212581a8f67be6797"
+    },
+    {
+      "file": "glasshouse/character/hero-source/rig.game_engine.json",
+      "delivery": "pages",
+      "bytes": 40936,
+      "sha256": "b324ddb4b707721c19630bfadb87c3e3b38eed3b6e4590bb3cead43ea918f799"
+    },
+    {
+      "file": "glasshouse/character/hero-source/SOURCES.json",
+      "delivery": "pages",
+      "bytes": 20748,
+      "sha256": "f1fc4a0b2fcc1c4446a7f51073de7859aeb90b3a373764222c9edad33b1345fb"
+    },
+    {
+      "file": "glasshouse/character/hero-source/weights.default.json",
+      "delivery": "pages",
+      "bytes": 5034981,
+      "sha256": "154b866774a8c2b055a8e86419f22a87b76c60440fdcb70bcb78345f00924e89"
+    },
+    {
+      "file": "glasshouse/character/hero-source/weights.game_engine.json",
+      "delivery": "pages",
+      "bytes": 3026778,
+      "sha256": "9f4a773e74ce5ba08415b4f30070338e9f75bae5971b5075b10cd6b9caa58473"
+    },
+    {
+      "file": "glasshouse/character/personal-0597/extraction.json",
+      "delivery": "pages",
+      "bytes": 1031,
+      "sha256": "6d536caaa738acd17e35e9961b2f467e6fd964d0819f10f201b97633c9c73c52"
+    },
+    {
+      "file": "glasshouse/character/personal-0597/source-rig-idle.json",
+      "delivery": "pages",
+      "bytes": 21710,
+      "sha256": "f608a31b089309d7217d76637a29f2190279c37f37c66bce808076bc129430a9"
+    },
+    {
+      "file": "glasshouse/character/personal-0597/detail-after/inspection.json",
+      "delivery": "pages",
+      "bytes": 776,
+      "sha256": "889c9e458804a95613635d245fe03fedb29c01d073cbe1d10e45f76200232fa8"
+    },
+    {
+      "file": "glasshouse/character/personal-0597/detail-review/inspection.json",
+      "delivery": "pages",
+      "bytes": 584,
+      "sha256": "16e52510781ac82959efc8d17f48b70f9d6893cf3e451a15e0b3b056f5ebc0b0"
+    },
+    {
+      "file": "glasshouse/character/personal-0597/detail-review/regions.json",
+      "delivery": "pages",
+      "bytes": 6884,
+      "sha256": "d51d04c7c77da057c271d92b77972714567d8f5452676d780655d7972e3d2a39"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/entry.js",
+      "delivery": "pages",
+      "bytes": 318,
+      "sha256": "496aefc7279ea730aeec184b0720ded152ebc0090271b6f23a9a5f6aff2165a8"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/facial.css",
+      "delivery": "pages",
+      "bytes": 2430,
+      "sha256": "07cd8a2af91ee814ad60f8b3352a004cdbe17cf795893ab78c651c95df4d310f"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/favicon.svg",
+      "delivery": "pages",
+      "bytes": 284,
+      "sha256": "e4d3ede53b6d068c8a1b7a3c0b75b3ab254ec57b7d4c5a049a398fda5b221fda"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/guide.css",
+      "delivery": "pages",
+      "bytes": 8055,
+      "sha256": "adb5b8ff61e39853c8da63784c5986d0572651c8e4c7d1d51b0da30f8d2297f4"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/hero-study.css",
+      "delivery": "pages",
+      "bytes": 5384,
+      "sha256": "b71c9935ab40ee7c46bd11e50190561fb5a66e39b8104e0213e489eaf3e17212"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/index.html",
+      "delivery": "pages",
+      "bytes": 13631,
+      "sha256": "fde7099ba91f4d9a42661d07a6eca43aac75a670601890f5353e5133612fc03f"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/README.md",
+      "delivery": "pages",
+      "bytes": 1583,
+      "sha256": "e1a7151e65bff99231f4f3543361550d1d1ae05f9e2955ed1d802095b683042b"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/release.json",
+      "delivery": "pages",
+      "bytes": 12940,
+      "sha256": "d6546b3cce001d0ecb8d04be364295f4722191adc5736434efcd43f012f85e1d"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/scene.bundle.js",
+      "delivery": "pages",
+      "bytes": 1061658,
+      "sha256": "87741bc34f71ef8d9ab4de23cac928af37556de2e8a04bbf3821df05752b9148"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/scene.css",
+      "delivery": "pages",
+      "bytes": 8393,
+      "sha256": "79dc36078ff08654056a908c77fb3f1be82df2692627c331d42b07680ed8aba3"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/seaside.css",
+      "delivery": "pages",
+      "bytes": 2767,
+      "sha256": "cd0408b717b495e79f2c0c19f10b305d078d8cdaefafb9cee668f55599d8188c"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/THREE-LICENSE.txt",
+      "delivery": "pages",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/assets/ambience/manifest.json",
+      "delivery": "pages",
+      "bytes": 2723,
+      "sha256": "a9baa6785692ce55c15c4fd37bb62aa0d7e1fb800f34bf27c55b3be44363a698"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/assets/ambience/ocean-surf.ogg",
+      "delivery": "pages",
+      "bytes": 1008044,
+      "sha256": "4f749fa3382b86de5d3967b9c8824c3d6155a7428d74f401686994ae74a1620b"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/assets/ambience/surf-texture43.json",
+      "delivery": "pages",
+      "bytes": 714,
+      "sha256": "22deb3ba4f8b9b6ee7ba9b5f74cfc03a6b9e55c0325679df5fa694e6b2558808"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/assets/ambience/surf-texture43.ogg",
+      "delivery": "pages",
+      "bytes": 177112,
+      "sha256": "e7a83f7e7c2d537632aa1e3a3c4856c852823cd9e7250e982780941218ae1c31"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/assets/ambience/wind.ogg",
+      "delivery": "pages",
+      "bytes": 374905,
+      "sha256": "5563b42caa0fabbcbf0c7b5e208d5f6fed9ab1992bac77a69f4c532639bd6ba4"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/assets/personal-guide/manifest-hands43.json",
+      "delivery": "pages",
+      "bytes": 4890,
+      "sha256": "7b92274074325cfff3d8442973b36b567dd80be92bc0707cc11943e67c32979d"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/assets/personal-guide/personal-guide-hands43.glb",
+      "delivery": "pages",
+      "bytes": 27153676,
+      "sha256": "bee62731b932e907f66eca8e58dc42daf8565f2501f77ab9e71cd20c3a0336f1"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/assets/personal-guide/README.md",
+      "delivery": "pages",
+      "bytes": 552,
+      "sha256": "15dea8feddc0cf70226d6914552198017f439115f230e82baf52288546d3f27b"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/assets/personal-guide/speech/terrace-intro.json",
+      "delivery": "pages",
+      "bytes": 24772,
+      "sha256": "c99951a52006105489ed75054640dbb6a7e3bf8e9975e591f66e3e0abf65fc3f"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/assets/personal-guide/speech/terrace-intro.wav",
+      "delivery": "pages",
+      "bytes": 490250,
+      "sha256": "347998eb988efd846d0b37e1a2e5522cd74c1fafd8a64996df0aa42df2d4e5da"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/assets/rocket-guide/LICENSE.txt",
+      "delivery": "pages",
+      "bytes": 1066,
+      "sha256": "17474e386e0b9e1a700cc3d06b2b0882a2c376d9c6b49c7f8274409b8f8d2352"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/character/reference.png",
+      "delivery": "pages",
+      "bytes": 2126011,
+      "sha256": "75bd43eb02c87d2942fc883cf62a71e69c0d78ca5fa3543b5948b6659ebc738b"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/build.mjs",
+      "delivery": "pages",
+      "bytes": 952,
+      "sha256": "8b14c0a5a13ff2b62d0f5080eb4a37288e40ef07604b702eaeec388024357e95"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/camera-guard.js",
+      "delivery": "pages",
+      "bytes": 3614,
+      "sha256": "a51f3544fc45a38156cb7c876b29655383e1a7f9f1eef3aa9a94a6a683153657"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/camera-motion.js",
+      "delivery": "pages",
+      "bytes": 866,
+      "sha256": "ae7ea3b43f248aea61a19de2f3c36c5c96bf5f5df04ad6c8393726765c1497c0"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/coast.js",
+      "delivery": "pages",
+      "bytes": 764,
+      "sha256": "e3a097c83f4c01968fe5cd2d553a46d094c405811bcc64e576c3dcd300e16b0d"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/contact-light.js",
+      "delivery": "pages",
+      "bytes": 2978,
+      "sha256": "78d15519b0d050f7f2f05dfe6751cd912593dd96e383dfc96715416c4df50b71"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/facial-performance.js",
+      "delivery": "pages",
+      "bytes": 8492,
+      "sha256": "5dee7ce82ce71bca60414ab288cb2f8de8ecceee674bf70347c8ac88a65ea6eb"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/foot-placement.js",
+      "delivery": "pages",
+      "bytes": 13001,
+      "sha256": "8851dfade07675fe0dc24937e5ab87a7d75333791d128fa31ad31e3edfd7e3c7"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/guide-avatar.js",
+      "delivery": "pages",
+      "bytes": 4016,
+      "sha256": "a8c48eba2a003b44a8063e1064802eb1a0969bf9a95b73f8ca58e51b5192091c"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/guide-controller.js",
+      "delivery": "pages",
+      "bytes": 38489,
+      "sha256": "d17517e5a84dad6dcb5a06d8e52cc4ad8090d74d5a8a92d500d418093659e0dc"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/hero-candidates.js",
+      "delivery": "pages",
+      "bytes": 3495,
+      "sha256": "e98fb2579a9205e896ffb687a411685439d5c88289d745d3ac800c80973869e8"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/hero-study.js",
+      "delivery": "pages",
+      "bytes": 12325,
+      "sha256": "391af3d2c6f6d096307708cf1de9b1e2c716f699f5d8f2ebf834549b5186764a"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/implementation.js",
+      "delivery": "pages",
+      "bytes": 3378,
+      "sha256": "f7b693d7a6737c55b9e90c60277a845a81856e15373ce5fa025c3e41724bfd3e"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/locomotion.js",
+      "delivery": "pages",
+      "bytes": 702,
+      "sha256": "7cae18f44fccf6ec69f95f2c2c7b41e11cf4533db6272b5c8f537d6f4f381d5d"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/movement-input.js",
+      "delivery": "pages",
+      "bytes": 1661,
+      "sha256": "1450a481fd128ed9204734a461a105f06ec2fb0c5b50613c9023b9810c4af699"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/package.json",
+      "delivery": "pages",
+      "bytes": 193,
+      "sha256": "90cdaaeb40efb651efdb49fcf48d5d75998ea68e9cc7132d483828c176ea68a9"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/qa-recording.js",
+      "delivery": "pages",
+      "bytes": 2590,
+      "sha256": "d6cd0e24b1ecdcfb4da5b2f0cb44ef0c80caffa250268ef9d93a9e4ae4bfe30e"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/rock-seat.js",
+      "delivery": "pages",
+      "bytes": 2212,
+      "sha256": "2fd8ec003e6da25f861243e0f0bc8d0ac3d82874fc1309d96764d742f2a89367"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/rocket-avatar.js",
+      "delivery": "pages",
+      "bytes": 7812,
+      "sha256": "2c9663b41446dde720d8553207e1b180a2552466d296f95bdfc0adc6a18db76e"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/scene-layout.js",
+      "delivery": "pages",
+      "bytes": 1805,
+      "sha256": "8573a8d17c6da5ff15c8e9e29e929a4dae4fbc692046f01717d52a238ef957fb"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/scene-shots.js",
+      "delivery": "pages",
+      "bytes": 809,
+      "sha256": "5b3bd12be021e637899b996c29ce43d56744aed1c3599494b9058d502f148ae0"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/scene.js",
+      "delivery": "pages",
+      "bytes": 37425,
+      "sha256": "8146f674e429f311dfc0a4515421da20e103782f764b6c0c8408085e2211dedc"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/seaside-audio.js",
+      "delivery": "pages",
+      "bytes": 7644,
+      "sha256": "3c7b1f263500b31d32e49267bda7a6f08b778ea031a9b6564314726c0d560d01"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/seat-coat.js",
+      "delivery": "pages",
+      "bytes": 3316,
+      "sha256": "5551d16e4b3d0ffcbef2307f911567bf8d1fce6c9306991a7a6a5bbe34835bb8"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/seated-pose.js",
+      "delivery": "pages",
+      "bytes": 7272,
+      "sha256": "4e2487a4b09c51fb048bdae4005298fab989949e67bed7ef2edac20ba1ce3c1b"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/seats.js",
+      "delivery": "pages",
+      "bytes": 2540,
+      "sha256": "d242e8d3d163045cf606a5501d3c6301bdebe423164f7d7a35fc1617e333a639"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/shore-rocks.js",
+      "delivery": "pages",
+      "bytes": 2458,
+      "sha256": "0d4b90f3d50ecbc432d7a854c433aeb3a40ea97acd0b97d2c052d53e8967c164"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/stair-motion.js",
+      "delivery": "pages",
+      "bytes": 1085,
+      "sha256": "2ebbd1acac37aae5d938fd61c1eab7b05a49970a7d72ba61aa3d9ac39a0de9e9"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/surf-cycle.js",
+      "delivery": "pages",
+      "bytes": 1236,
+      "sha256": "1ca7e90f9b5e348895423bd7d3eb95cf00ac9f48d0f08aa59c419662eb858876"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/walk-surface.js",
+      "delivery": "pages",
+      "bytes": 6062,
+      "sha256": "5aeb4ea5f805deb492a16328cb91a8676ca9f2bc8b07cffbfd184b9b589fbe56"
+    },
+    {
+      "file": "glasshouse/releases/4.3-20261115/source/water-system.js",
+      "delivery": "pages",
+      "bytes": 21599,
+      "sha256": "0c9d5d734422803e688b4174fde742a84fb4ad6bb0d64cf8f4d6f4dffcf7ccb4"
+    },
+    {
+      "file": "output/research-summary-20261121/manifest.json",
+      "delivery": "pages",
+      "bytes": 967,
+      "sha256": "461861e7bf70de9384f25aa5530aba1275673f2ea0ca84d12544bd9cad239403"
+    },
+    {
+      "file": "output/research-summary-20261121/ocean-research-summary-20261121.png",
+      "delivery": "pages",
+      "bytes": 2030123,
+      "sha256": "1f02314494627a7d3f39267e107f196b29ce041971791c191fcb478657ffd13e"
+    },
+    {
+      "file": "output/research-summary-20261121/prompt.txt",
+      "delivery": "pages",
+      "bytes": 4232,
+      "sha256": "1d026d9b4d1dd33694ed3417bdc9313ff4a0350d1fc45fdd83f7815113360f1b"
+    },
+    {
+      "file": "screenshots/20-effects-desktop.jpg",
+      "delivery": "pages",
+      "bytes": 116498,
+      "sha256": "184bdd62f065b05b5fb4b8b51e947aa9cc410c350fd8078d92788a4cd90bfed3"
+    },
+    {
+      "file": "screenshots/20-effects-mobile.jpg",
+      "delivery": "pages",
+      "bytes": 44602,
+      "sha256": "62b31dcd5bf4f9156a25b2acbdf217ae7cfbbe10bf1bff7edf25b7075c4c7225"
+    },
+    {
+      "file": "screenshots/20-effects-workspace.jpg",
+      "delivery": "pages",
+      "bytes": 366445,
+      "sha256": "0f8da339809f5afa5d01686531ec77cc9e9387e75cc4d476a6962d7e180faac1"
+    },
+    {
+      "file": "screenshots/baseline43-capabilities.png",
+      "delivery": "pages",
+      "bytes": 83137,
+      "sha256": "b22cee73c6da89699bc60f8fe9bd9a863d5f0c514e73161de1d24fc13a61d211"
+    },
+    {
+      "file": "screenshots/baseline43-documentation-mobile.png",
+      "delivery": "pages",
+      "bytes": 129824,
+      "sha256": "4be1a60f01acb7b338dddd1389ab877441e3d553875abef94b64556d344913b9"
+    },
+    {
+      "file": "screenshots/baseline43-documentation.png",
+      "delivery": "pages",
+      "bytes": 386475,
+      "sha256": "23d874c9da5e6790a068f2058566d176b34fd09aada975ac49f41575c5881b1b"
+    },
+    {
+      "file": "screenshots/baseline43-frozen-sofa.png",
+      "delivery": "pages",
+      "bytes": 1223633,
+      "sha256": "f2c81647746b9e5ac35df334f118eb633944dce75712894852bac7c7c59797c6"
+    },
+    {
+      "file": "screenshots/baseline43-integration-mobile.png",
+      "delivery": "pages",
+      "bytes": 65791,
+      "sha256": "b1af54a9a643804b8119548a4afd02421b2ba5e7abbf1c03d0f5255e6f141321"
+    },
+    {
+      "file": "screenshots/character-gallery20261121-checks.json",
+      "delivery": "pages",
+      "bytes": 630,
+      "sha256": "08ddfe10b2ca000b772a90428f8166a0cfa328c8eee3ffb4da475603fcb463b7"
+    },
+    {
+      "file": "screenshots/character-gallery20261121-desktop.png",
+      "delivery": "pages",
+      "bytes": 324686,
+      "sha256": "3b52b0c580755be8ba8fd7cce4794d585ae84a0d8bc4c77582ef895807f8424c"
+    },
+    {
+      "file": "screenshots/character-gallery20261121-enlarged-mobile.png",
+      "delivery": "pages",
+      "bytes": 128506,
+      "sha256": "6a920acec1e4b90b5ab0c26ef73985822cc01c9861f8ee5cd792df58a3479b5c"
+    },
+    {
+      "file": "screenshots/character-gallery20261121-enlarged.png",
+      "delivery": "pages",
+      "bytes": 455120,
+      "sha256": "b058ec499657a311a28be0821f3ce20c4b3e7db4b0ee2d681b3c442bef72f2e7"
+    },
+    {
+      "file": "screenshots/character-gallery20261121-knit.png",
+      "delivery": "pages",
+      "bytes": 95053,
+      "sha256": "744d1340ae8dd26cfbbc32077ee591f7c045f12d2ca52451b44c47f1decfcdab"
+    },
+    {
+      "file": "screenshots/character-gallery20261121-linen-mobile.png",
+      "delivery": "pages",
+      "bytes": 120181,
+      "sha256": "d299d7fa287f68f43aebf24470bed8d7a9e312a12cab0a6ae2b86c87b9d45678"
+    },
+    {
+      "file": "screenshots/character-gallery20261121-mobile.png",
+      "delivery": "pages",
+      "bytes": 139650,
+      "sha256": "3c94b273621e9d5e95a1be907bc43e9c59664b7ea371475dbc1d5529267c8ff0"
+    },
+    {
+      "file": "screenshots/character-preview-0597.png",
+      "delivery": "pages",
+      "bytes": 2975092,
+      "sha256": "29606ee4bdbf00f051e22b058ddb4f5a9058dbb539975282701b05e7b53e1168"
+    },
+    {
+      "file": "screenshots/character-preview-captures.json",
+      "delivery": "pages",
+      "bytes": 2437,
+      "sha256": "9db67a9a5b9a71ed7e49670156c2e3135db4d331b1a8100155bacae99f8ca039"
+    },
+    {
+      "file": "screenshots/character-preview-legacy-hoodie.png",
+      "delivery": "pages",
+      "bytes": 2676870,
+      "sha256": "e2e97834c0a5a556cf9c4ca61a0d5856da324edb375f6d166d8961018224e5e2"
+    },
+    {
+      "file": "screenshots/character-preview-legacy-knit.png",
+      "delivery": "pages",
+      "bytes": 2687425,
+      "sha256": "b84e624a5395fa4684eecc0ab7de871f25ef99567b28ef35ac0e04fbd98de071"
+    },
+    {
+      "file": "screenshots/character-preview-legacy-linen.png",
+      "delivery": "pages",
+      "bytes": 2754518,
+      "sha256": "19d91fa05cc7a05429a974daee18b180b9f2d80678fd21b59891f12694f5c600"
+    },
+    {
+      "file": "screenshots/character-preview-rocket10.png",
+      "delivery": "pages",
+      "bytes": 3540621,
+      "sha256": "072409d97472ca4aa811d10a6e0d904847823ce678b505f6d434727dfbb08c62"
+    },
+    {
+      "file": "screenshots/character-preview-rocket17.png",
+      "delivery": "pages",
+      "bytes": 3537483,
+      "sha256": "1b387ab8c2a23df1305af57bddb484c0ec6c5bf3d1a2b695dccc5b6f2cf07459"
+    },
+    {
+      "file": "screenshots/characters20261121-catalog-mobile.png",
+      "delivery": "pages",
+      "bytes": 53369,
+      "sha256": "a32723c72ba954e928eaf0e89b657db8f71f31d3c9936994970f4ad5f221b877"
+    },
+    {
+      "file": "screenshots/characters20261121-checks.json",
+      "delivery": "pages",
+      "bytes": 1387,
+      "sha256": "fa553ed2c9dcd99af7274efd6d4f8d8f1c693457a240dd29de67bda0445ad70f"
+    },
+    {
+      "file": "screenshots/characters20261121-rocket10.png",
+      "delivery": "pages",
+      "bytes": 866667,
+      "sha256": "681b6f56cc5cccb5fe2cf629079abad9f170afac28bbd24868905c75039dd2da"
+    },
+    {
+      "file": "screenshots/characters20261121-rocket17-static.png",
+      "delivery": "pages",
+      "bytes": 812712,
+      "sha256": "9f6f72bcb6ba1fa695704ecfa02d40cef62999462664cf48ce4c924325295751"
+    },
+    {
+      "file": "screenshots/day-extension-desktop.png",
+      "delivery": "pages",
+      "bytes": 113912,
+      "sha256": "97005c6d2418296a0d8587851ad8250722dea7596d01567c10299a4487a0ffbf"
+    },
+    {
+      "file": "screenshots/day-extension-mobile.png",
+      "delivery": "pages",
+      "bytes": 55516,
+      "sha256": "31a91fb8be8342fecca0f163532ba99afab2ba1c37df66675ef0032ab03b83cd"
+    },
+    {
+      "file": "screenshots/extension-desktop.jpg",
+      "delivery": "pages",
+      "bytes": 59191,
+      "sha256": "7962d9b4d25155cc721fd89242af75e302079a1df6e5e5800405690aadc7ef7f"
+    },
+    {
+      "file": "screenshots/extension-mobile.jpg",
+      "delivery": "pages",
+      "bytes": 34021,
+      "sha256": "b8b208fc5c7bea536c7ff1be4d5338625160d66bc28eb35a6457bc41f4233a9f"
+    },
+    {
+      "file": "screenshots/extension-overview.jpg",
+      "delivery": "pages",
+      "bytes": 59833,
+      "sha256": "6b779ca4a95b326ac3381be1da64128b29ce75893d173afe635ad6d8a8a8bd14"
+    },
+    {
+      "file": "screenshots/extension-production.jpg",
+      "delivery": "pages",
+      "bytes": 43501,
+      "sha256": "13fb153f2cbbcbc0f3300d1df64831d0543e2ea010429ce0cab51b42d2593d64"
+    },
+    {
+      "file": "screenshots/extension-ui-checks.json",
+      "delivery": "pages",
+      "bytes": 34700,
+      "sha256": "ca7826ac0ee3043a8a3e950e3ed26a6bd74c07c4c417fa9580011d3de4241b09"
+    },
+    {
+      "file": "screenshots/face36-checks.json",
+      "delivery": "pages",
+      "bytes": 57061,
+      "sha256": "e2ca94b4911f8fdf887cd3a3248102c0469f4c5cef823976ac4a39676746fd94"
+    },
+    {
+      "file": "screenshots/face36-face-aa.png",
+      "delivery": "pages",
+      "bytes": 667651,
+      "sha256": "c712f64f9f7815f1bf1a6a2b33fba5deff6aedda12851f28196e6ad0a80205e3"
+    },
+    {
+      "file": "screenshots/face36-face-closed.png",
+      "delivery": "pages",
+      "bytes": 665500,
+      "sha256": "9a12fae9b957b5a5e548b90c5ca7c92111f13f4bac42d4ec215c0b9c5ca1d8db"
+    },
+    {
+      "file": "screenshots/face36-face-neutral.png",
+      "delivery": "pages",
+      "bytes": 666538,
+      "sha256": "937871b36682a84b90759a12475541dd6d5f3bf13608e9c86949ea7262dfb906"
+    },
+    {
+      "file": "screenshots/face36-face-o.png",
+      "delivery": "pages",
+      "bytes": 667576,
+      "sha256": "0aaf8c460d06b33d83ff7746bf5be435467b3b1a555bd71c821caedf7ef4c55f"
+    },
+    {
+      "file": "screenshots/face36-mobile.png",
+      "delivery": "pages",
+      "bytes": 201005,
+      "sha256": "957a44dcc921e6e25782453a69331bf98c7549b9a560264306fbcff94a52db75"
+    },
+    {
+      "file": "screenshots/face36-poses.json",
+      "delivery": "pages",
+      "bytes": 6218,
+      "sha256": "5df1517eeb21fc03af36da51f8d9b3e85b2a7f4411e405b29c8803fcccbec83b"
+    },
+    {
+      "file": "screenshots/face36-review-checks.json",
+      "delivery": "pages",
+      "bytes": 930,
+      "sha256": "c9179d8a815a78099568d1d8ace8a20f8dd86dfcc053e5d8622d36c7e3e9c175"
+    },
+    {
+      "file": "screenshots/face36-review-desktop.png",
+      "delivery": "pages",
+      "bytes": 362065,
+      "sha256": "3f982436cec76f8610695b3001179684cdbbac8c2e76d362338f023f00ffff29"
+    },
+    {
+      "file": "screenshots/face36-review-mobile.png",
+      "delivery": "pages",
+      "bytes": 98429,
+      "sha256": "18d20248943a61c4df53d005d78635f189acc59a3d77bcdaec3399c96d33a7be"
+    },
+    {
+      "file": "screenshots/face36-speaking.mp4",
+      "delivery": "pages",
+      "bytes": 918697,
+      "sha256": "e688e3fc8b3044907526266f9392ac4d8ecd53663238b2e3150e340b8cea954a"
+    },
+    {
+      "file": "screenshots/face36-speaking.png",
+      "delivery": "pages",
+      "bytes": 784113,
+      "sha256": "dcfc9ccf4745098239a8ddad5f8246ed7500c0854f601db66bfbec038a3a5110"
+    },
+    {
+      "file": "screenshots/face36-speaking.webm",
+      "delivery": "pages",
+      "bytes": 1137533,
+      "sha256": "4f9b5b3f2ef07b5c80f7bd37eb163c34300aacffcd03e043fbf1b48e854c831c"
+    },
+    {
+      "file": "screenshots/glasshouse-refined-scene.jpg",
+      "delivery": "pages",
+      "bytes": 75071,
+      "sha256": "14dfe63335787262bafc51dd89d02e99d26f9f0b0d96f59c9590b755fff54001"
+    },
+    {
+      "file": "screenshots/glasshouse-scene.jpg",
+      "delivery": "pages",
+      "bytes": 79335,
+      "sha256": "fc8aa75b61b42798babdf0e4d83b7e5f08a057b58a1c0dfa09c6cbcbdf6027a7"
+    },
+    {
+      "file": "screenshots/guide-hoodie.jpg",
+      "delivery": "pages",
+      "bytes": 73879,
+      "sha256": "3a69e7fceeffa6e76d1764d4cf45cf29bec4d4173a62ac83a600d651e8446c83"
+    },
+    {
+      "file": "screenshots/hands-surf43-audio-checks.json",
+      "delivery": "pages",
+      "bytes": 786149,
+      "sha256": "e9428011ecab0b1b2a67bfc029f1388db233645b49709fff6c5a8b629c15c6cf"
+    },
+    {
+      "file": "screenshots/hands-surf43-chair-checks.json",
+      "delivery": "pages",
+      "bytes": 2654,
+      "sha256": "b1ed234ec885113a6c6d636f739a3ae9383384eb1e52f12b3a35278a27e2e005"
+    },
+    {
+      "file": "screenshots/hands-surf43-chair.png",
+      "delivery": "pages",
+      "bytes": 936214,
+      "sha256": "f8c586402752b8560739d901fedff08780b71f766f4b885e1ddc33c2c361381e"
+    },
+    {
+      "file": "screenshots/hands-surf43-controls-controls-checks.json",
+      "delivery": "pages",
+      "bytes": 117092,
+      "sha256": "36c63ec28a283bd7bcd666646e30a19a36881a6459b5a40147cb87385925a8fa"
+    },
+    {
+      "file": "screenshots/hands-surf43-final-interaction.webm",
+      "delivery": "pages",
+      "bytes": 1840061,
+      "sha256": "d4b28aa0dcb892eb7a75700df37a975243512a1202bb673d29d844934308cde4"
+    },
+    {
+      "file": "screenshots/hands-surf43-final-native-checks.json",
+      "delivery": "pages",
+      "bytes": 501447,
+      "sha256": "8c3b7545b54b33906e1a46edcd8330cdc09859e812beb651b20ae98479ef84cf"
+    },
+    {
+      "file": "screenshots/hands-surf43-final-pose.json",
+      "delivery": "pages",
+      "bytes": 2876,
+      "sha256": "012ec9e6445b8386f5bbd99306db760212d18bdb107342ac5c4319e2330d2493"
+    },
+    {
+      "file": "screenshots/hands-surf43-mobile.png",
+      "delivery": "pages",
+      "bytes": 335266,
+      "sha256": "4ac18c384f0291a9529832d6d5e49212eb99f45e3e5ed588f4d358db88bb1459"
+    },
+    {
+      "file": "screenshots/hands-surf43-review-checks.json",
+      "delivery": "pages",
+      "bytes": 425,
+      "sha256": "d5fa36ede84d2d41610e037c7e39a00d60b45d5d2d86b95ed4545cfc8c7ccb28"
+    },
+    {
+      "file": "screenshots/hands-surf43-review-mobile.png",
+      "delivery": "pages",
+      "bytes": 2930538,
+      "sha256": "dfb76105846925c4f82e4a43795849d25a438ed957ad8ef96ab200c58928060a"
+    },
+    {
+      "file": "screenshots/hands-surf43-review.png",
+      "delivery": "pages",
+      "bytes": 7180390,
+      "sha256": "539cfc68cf3f6c62e7ced86b6a198f47455be1cd2bfaa153c0d8efba7000ff86"
+    },
+    {
+      "file": "screenshots/hands-surf43-rock.png",
+      "delivery": "pages",
+      "bytes": 871674,
+      "sha256": "8a6623355ec5adf23cab994e5d3056f08d655266463a11f8358b8f1fe0459ff2"
+    },
+    {
+      "file": "screenshots/hands-surf43-room.png",
+      "delivery": "pages",
+      "bytes": 1223662,
+      "sha256": "68fd17850eba2a7a00a1d3dffd215eb6feaa8eff0bea77c99a7c97fccc07925a"
+    },
+    {
+      "file": "screenshots/hands-surf43-shore.webm",
+      "delivery": "repository-raw",
+      "bytes": 3469698,
+      "sha256": "ed9ca05e30a5dc7fb3d40d416784f0351f1ef991b0c0c03d4b2ec5c91b3fd015"
+    },
+    {
+      "file": "screenshots/hands-surf43-sofa.mp4",
+      "delivery": "pages",
+      "bytes": 2754982,
+      "sha256": "0da83ca6bb4e26db749a4fc46ddacef900b21be8f318590146c797a6246c5a5b"
+    },
+    {
+      "file": "screenshots/hands-surf43-ui-checks.json",
+      "delivery": "pages",
+      "bytes": 35051,
+      "sha256": "e48113b10e1297623c6676b00b71163d9aeeb901c80bdaa9d9244390554f1f07"
+    },
+    {
+      "file": "screenshots/hands43-inspection.json",
+      "delivery": "pages",
+      "bytes": 6819,
+      "sha256": "477ab17695217850b624e2daacbdb26999105e11fc8b51108df0a1c5f0b29339"
+    },
+    {
+      "file": "screenshots/hands43-lap.png",
+      "delivery": "pages",
+      "bytes": 987404,
+      "sha256": "9308623f30144d98fc2e4a4a222018734aa915078a4058d6add0905af6ced172"
+    },
+    {
+      "file": "screenshots/hands43-support.png",
+      "delivery": "pages",
+      "bytes": 934572,
+      "sha256": "4da3e50d6188bda58b0482524a9a7d207b00ebe7effe0c513ea2d9d3480d2021"
+    },
+    {
+      "file": "screenshots/head35-checks.json",
+      "delivery": "pages",
+      "bytes": 2253,
+      "sha256": "8eb1699e857ef24d3805f0455179446b6c4d0b9dd06796327b275b2252cadc4c"
+    },
+    {
+      "file": "screenshots/head35-face.png",
+      "delivery": "pages",
+      "bytes": 773303,
+      "sha256": "1229f68fade154197c61e1535c27a0935752df8a953da2648935ff4caa431a83"
+    },
+    {
+      "file": "screenshots/head35-half.png",
+      "delivery": "pages",
+      "bytes": 716925,
+      "sha256": "4c9a5644bfffc26844ecd2750a07a10e4572bf1b62cd9126cec6544831bd353d"
+    },
+    {
+      "file": "screenshots/head35-mobile-half.png",
+      "delivery": "pages",
+      "bytes": 224946,
+      "sha256": "f10a1ab8ca41729efd392db82e62c175ac5f00557991b4d07e5f87b66aa551e8"
+    },
+    {
+      "file": "screenshots/head35-review-checks.json",
+      "delivery": "pages",
+      "bytes": 2002,
+      "sha256": "fa6e469406d448c35d4838c78c9d35b3062dea6e9c56b1177257fa434223c3d1"
+    },
+    {
+      "file": "screenshots/head35-review-desktop.png",
+      "delivery": "pages",
+      "bytes": 338300,
+      "sha256": "f4c16d3b29aec23f32d3b3a965c79d90f837449ca96aca8a11dd95db1f17e42e"
+    },
+    {
+      "file": "screenshots/head35-review-mobile.png",
+      "delivery": "pages",
+      "bytes": 110835,
+      "sha256": "427ce4ba849bdc195fd09cc3fdeda9f58a5c999c03e84583431cafb33d736325"
+    },
+    {
+      "file": "screenshots/head35-side.png",
+      "delivery": "pages",
+      "bytes": 997766,
+      "sha256": "c65a7780f8edb0ba5e202cb5120e542273eedc17e2869636323948d4d0020868"
+    },
+    {
+      "file": "screenshots/hero-2.5-current-neutral.png",
+      "delivery": "pages",
+      "bytes": 157765,
+      "sha256": "eba655208ef02f36e085d728af50edf0ec58a449206a5bbe18a26f4c1b2fbae0"
+    },
+    {
+      "file": "screenshots/hero-candidate-checks.json",
+      "delivery": "pages",
+      "bytes": 291,
+      "sha256": "2c71bf2d88c23acaf30c13cdaf7d05f5ca0a3b8551068d75bf8e68e885f2d3a4"
+    },
+    {
+      "file": "screenshots/hero-static-terrace.jpg",
+      "delivery": "pages",
+      "bytes": 58514,
+      "sha256": "9a6cca60104cf3401457f395950e76a733f2c578a02728cc6c9db28752494e76"
+    },
+    {
+      "file": "screenshots/orbit34-before-face.png",
+      "delivery": "pages",
+      "bytes": 660050,
+      "sha256": "02b47ef3eef3521463f3a7d725a94b4df2381cf81138f6b587086015e792e07b"
+    },
+    {
+      "file": "screenshots/orbit34-checks.json",
+      "delivery": "pages",
+      "bytes": 2256,
+      "sha256": "95c220e8c895fc61cb6b22f13b839f82205a5d1fefedaa289d218d644644e2fe"
+    },
+    {
+      "file": "screenshots/orbit34-face.png",
+      "delivery": "pages",
+      "bytes": 666105,
+      "sha256": "4221bdd78a03e706b84ad9ecd6b58c79b5ec6214a785cc5bdfe66e2b6b411b2c"
+    },
+    {
+      "file": "screenshots/orbit34-half.png",
+      "delivery": "pages",
+      "bytes": 713840,
+      "sha256": "092694651a10e5c511028af79798126c26e7329776fa3b9bc7fbfcc5e2345e56"
+    },
+    {
+      "file": "screenshots/orbit34-mobile-half.png",
+      "delivery": "pages",
+      "bytes": 224933,
+      "sha256": "1fe0ce40e1802247840d454267a0528ed6c63f2fa8bd916076fec996ea5c410a"
+    },
+    {
+      "file": "screenshots/orbit34-review-checks.json",
+      "delivery": "pages",
+      "bytes": 3126,
+      "sha256": "5b560d273a048741844e03aa61ef8d23b4c2fc94df0688bef17afb2991de3f40"
+    },
+    {
+      "file": "screenshots/orbit34-review-desktop.png",
+      "delivery": "pages",
+      "bytes": 329904,
+      "sha256": "3c1b9f665de617b009d0c6f8dbc505a7e62b6d0de7abf41ef8c8f7702c4bb453"
+    },
+    {
+      "file": "screenshots/orbit34-review-mobile.png",
+      "delivery": "pages",
+      "bytes": 122265,
+      "sha256": "627740fbe05f506415845efe88dafab9621871bca3e4d00dc0e124812b119e8f"
+    },
+    {
+      "file": "screenshots/orbit34-side.png",
+      "delivery": "pages",
+      "bytes": 911241,
+      "sha256": "3976ce3cb7a91cc09c7ed73ea267b87de25b569acae6d35a93560416094e9344"
+    },
+    {
+      "file": "screenshots/personal-character-controls-checks.json",
+      "delivery": "pages",
+      "bytes": 100252,
+      "sha256": "aa943221273997aebe2cce2861952402b23c7e74720401b8f643d75d2d6eb5cf"
+    },
+    {
+      "file": "screenshots/personal-detail-browser-checks.json",
+      "delivery": "pages",
+      "bytes": 3075,
+      "sha256": "238de21262dba1ec24d28288d246c67ab0b4cc2229590933315bad9c760cc666"
+    },
+    {
+      "file": "screenshots/personal-detail-character-controls-checks.json",
+      "delivery": "pages",
+      "bytes": 96369,
+      "sha256": "8d01db19979d5e4bb62dfeb71cdbcc37ee171376afc8a7b44dfdbdb894177ab9"
+    },
+    {
+      "file": "screenshots/personal-facial-character-controls-checks.json",
+      "delivery": "pages",
+      "bytes": 101613,
+      "sha256": "a6af3f59b73297b23914c6a9a39e6e82548205d24a26b3f86276ad4c28d5110d"
+    },
+    {
+      "file": "screenshots/personal-guide-browser-checks.json",
+      "delivery": "pages",
+      "bytes": 3073,
+      "sha256": "c687f06d1f61eec7e88c25c740797fdda495dc51f5d89bf8e61c4e1c7e9c8b50"
+    },
+    {
+      "file": "screenshots/portrait33-before-face.png",
+      "delivery": "pages",
+      "bytes": 659354,
+      "sha256": "8af57c2eebcf2e2a3e735338797ee94693436b43b0b3e8aed65d0c982d5c61b0"
+    },
+    {
+      "file": "screenshots/portrait33-before-hands.png",
+      "delivery": "pages",
+      "bytes": 617401,
+      "sha256": "eda1b030a83a660b877c39ea6960e3b572265e0d81d499f8dff124e9b639f4c4"
+    },
+    {
+      "file": "screenshots/portrait33-face.png",
+      "delivery": "pages",
+      "bytes": 664215,
+      "sha256": "7c63f0500601741123269756f30f2f117b64c265612759f4ef34831827ddc71a"
+    },
+    {
+      "file": "screenshots/portrait33-hands.png",
+      "delivery": "pages",
+      "bytes": 588378,
+      "sha256": "14536a022f8ff7413096c27de595ab64db80e4b161dd1883e95c87632eae304e"
+    },
+    {
+      "file": "screenshots/portrait33-initial-checks.json",
+      "delivery": "pages",
+      "bytes": 1058,
+      "sha256": "659b5a5a9aa0c8dc751accaf8c6100622e630b9dfb7a010b166836d361a4c20f"
+    },
+    {
+      "file": "screenshots/portrait33-review-desktop.png",
+      "delivery": "pages",
+      "bytes": 368889,
+      "sha256": "edd1f7f2ce60186d2e3fcf9e5db6a68c2dfcd08a397e1fe739b5cd6db1abce64"
+    },
+    {
+      "file": "screenshots/portrait33-review-mobile.png",
+      "delivery": "pages",
+      "bytes": 124795,
+      "sha256": "8d70d27930804932496d49de17f360a3a2b12d7255e863038a18e18c2d9b3d88"
+    },
+    {
+      "file": "screenshots/portrait33-side.png",
+      "delivery": "pages",
+      "bytes": 912938,
+      "sha256": "46283fb6e626141f7b71f45c6c360830a8421b044a1bd1fc077acc22b970e898"
+    },
+    {
+      "file": "screenshots/portrait33-wave.png",
+      "delivery": "pages",
+      "bytes": 731932,
+      "sha256": "1e48458446be0f008b1e07fd748ead3d2ddd9c850eeac1798c04da2dd7288e99"
+    },
+    {
+      "file": "screenshots/reality-browser-checks.json",
+      "delivery": "pages",
+      "bytes": 3475,
+      "sha256": "d5daa7e48732f28df8c6fee46a193f886bb886b18e347643d3c4198a1fc8ff51"
+    },
+    {
+      "file": "screenshots/reality-desktop.png",
+      "delivery": "pages",
+      "bytes": 1122795,
+      "sha256": "6ff9fc9f8fd29f4cd0e9903b8eebd1137e12bad6754ebab15beed5921d8c4f1c"
+    },
+    {
+      "file": "screenshots/reality-mobile.png",
+      "delivery": "pages",
+      "bytes": 482836,
+      "sha256": "3f66ceb59e1f14faa66f3f53c3e069bea7964ace19a9f35b708d93349ee50c4a"
+    },
+    {
+      "file": "screenshots/reality-nps-browser-checks.json",
+      "delivery": "pages",
+      "bytes": 2013,
+      "sha256": "7b2ba419c275d58e88bbc634a2e0c90e6c82d852c2e47d2cd9bc6d3275d14254"
+    },
+    {
+      "file": "screenshots/response42-checks.json",
+      "delivery": "pages",
+      "bytes": 33316,
+      "sha256": "2a7d78d3b026ae2162aae545b82663bf3043cc2beea941239698bf409f2a5248"
+    },
+    {
+      "file": "screenshots/response42-near-middle.png",
+      "delivery": "pages",
+      "bytes": 1277548,
+      "sha256": "abc9aa3c4a76be896e794b31ab74801a906252c198aa181c1fc70492a95fc179"
+    },
+    {
+      "file": "screenshots/response42-north.png",
+      "delivery": "pages",
+      "bytes": 345529,
+      "sha256": "8b0fb7e4344d01656c481af7ed1ca52c62abb3e2f8770af9b64f17555254b6e2"
+    },
+    {
+      "file": "screenshots/rocket-guide-browser-checks.json",
+      "delivery": "pages",
+      "bytes": 3072,
+      "sha256": "66609f10ac5a3cb67e57574e7702f81e1bfedf40dc2f84240f67cce50290d97f"
+    },
+    {
+      "file": "screenshots/rocks31-camera-clear.png",
+      "delivery": "pages",
+      "bytes": 1303382,
+      "sha256": "09b18ef8d155b9e18dfb92067528179ec86a987b0d0adb6e801051e268cf8f2a"
+    },
+    {
+      "file": "screenshots/rocks31-character-blocked.png",
+      "delivery": "pages",
+      "bytes": 1091331,
+      "sha256": "22fbeb517332b797e35e498d4d5fe526edba2014ff57128fd796c2e081365d00"
+    },
+    {
+      "file": "screenshots/rocks31-checks.json",
+      "delivery": "pages",
+      "bytes": 13811,
+      "sha256": "184d55a5962dea87b6616c5fe2be90f3b48d4aa896fad9998815fbf7e9023af2"
+    },
+    {
+      "file": "screenshots/rocks31-glass-camera-clear.png",
+      "delivery": "pages",
+      "bytes": 1052156,
+      "sha256": "778e2474a845341936cbc8e7add8e3405332ade76b910b9f45226bebb5058874"
+    },
+    {
+      "file": "screenshots/scene-extensions-checks.json",
+      "delivery": "pages",
+      "bytes": 2294,
+      "sha256": "90e7856d8af80326a729279a535103ee74c5877b56c9cace2ad03a1159bba1b0"
+    },
+    {
+      "file": "screenshots/scene-extensions-cloud.png",
+      "delivery": "pages",
+      "bytes": 129327,
+      "sha256": "b295f4db30e1b277762f14529925e37dcef9dd7276b55d56a7353690f83c2d25"
+    },
+    {
+      "file": "screenshots/scene-extensions-mobile.png",
+      "delivery": "pages",
+      "bytes": 40564,
+      "sha256": "60542acf75ac75bd316042f74d2f437379266d6b958f9a0bb52d3576967359b2"
+    },
+    {
+      "file": "screenshots/scene-extensions-overview.png",
+      "delivery": "pages",
+      "bytes": 289852,
+      "sha256": "a6e87f7b4667ba70b33cb96af1e403b006f81af4e36ec9180d7481456c7b7be3"
+    },
+    {
+      "file": "screenshots/scene-extensions-two-person.png",
+      "delivery": "pages",
+      "bytes": 101985,
+      "sha256": "63262f8ab12090a8593f64e6a25b472fe207a0cc3206f36a31dc23cedc3ae967"
+    },
+    {
+      "file": "screenshots/scene32-checks.json",
+      "delivery": "pages",
+      "bytes": 4397,
+      "sha256": "5dcbf822546068319a123e057a38de9e85ea9d911fe8136dbae48a0efb2ebb75"
+    },
+    {
+      "file": "screenshots/scene32-export-checks.json",
+      "delivery": "pages",
+      "bytes": 8380,
+      "sha256": "c05f57a69c1be11868903c4b34607c5f19eb8ccd16a78e962d26638b9afe577e"
+    },
+    {
+      "file": "screenshots/scene32-midroute-portrait.png",
+      "delivery": "pages",
+      "bytes": 872896,
+      "sha256": "d23207544a5e2a0633d70312795f0e3c52b2919439960dafc9c250ae1a448a3a"
+    },
+    {
+      "file": "screenshots/scene32-mobile-panel.png",
+      "delivery": "pages",
+      "bytes": 269522,
+      "sha256": "68d4a6960edae0ca163a4bcb7ceeff5c6edf23e0795a388418c6a8b6db6169f1"
+    },
+    {
+      "file": "screenshots/scene32-mobile-portrait.png",
+      "delivery": "pages",
+      "bytes": 252512,
+      "sha256": "e4beaca726f71dbdb2424139e4a3d8475e4045a229e9e816355fb08a306c58b7"
+    },
+    {
+      "file": "screenshots/scene32-mobile-terrace.png",
+      "delivery": "pages",
+      "bytes": 274665,
+      "sha256": "9ce5842d97c9c0bc0ce57c0091b56d61679b47e328431b9db9c3c5ba5f8bce3d"
+    },
+    {
+      "file": "screenshots/sea-view-focus-desktop.png",
+      "delivery": "pages",
+      "bytes": 289852,
+      "sha256": "a6e87f7b4667ba70b33cb96af1e403b006f81af4e36ec9180d7481456c7b7be3"
+    },
+    {
+      "file": "screenshots/sea-view-focus-mobile.png",
+      "delivery": "pages",
+      "bytes": 125327,
+      "sha256": "3108d6884897de04964e77ece900bf3d0dd3be8a9f5c0c21176296cd195455d7"
+    },
+    {
+      "file": "screenshots/seaside38-checks.json",
+      "delivery": "pages",
+      "bytes": 512755,
+      "sha256": "706eca536227481a8738f709a68ecc4ca0f3a4af7dea7a768e31c0a841f71333"
+    },
+    {
+      "file": "screenshots/seaside38-hero.png",
+      "delivery": "pages",
+      "bytes": 956107,
+      "sha256": "499742c89c756d324c9edddb4a870c040a2ca53326ed2ff3b2c6912279b1761f"
+    },
+    {
+      "file": "screenshots/seaside38-inspect.json",
+      "delivery": "pages",
+      "bytes": 358599,
+      "sha256": "4d537cd8e96fe5b10e636a2cc12b546c2197a49a1d8d700c603fd84f50acb32c"
+    },
+    {
+      "file": "screenshots/seaside38-journey.mp4",
+      "delivery": "repository-raw",
+      "bytes": 15475673,
+      "sha256": "2db9c82b926895ea50758dc0d3920b3a6eebb3c4fdfb99ed86748ddf58bed443"
+    },
+    {
+      "file": "screenshots/seaside38-seated.png",
+      "delivery": "pages",
+      "bytes": 1183452,
+      "sha256": "58f32b200634dc843cab0b28ac79923b8d1b738dd64838912ff0aee3f9441f31"
+    },
+    {
+      "file": "screenshots/seaside39-contact.jpg",
+      "delivery": "pages",
+      "bytes": 78935,
+      "sha256": "0cabf4442ac0073fb823b5da232ef8e5320cf97f6b29b03052981a8d4dd4ca31"
+    },
+    {
+      "file": "screenshots/seaside39-interaction.mp4",
+      "delivery": "repository-raw",
+      "bytes": 4073738,
+      "sha256": "46f02a73d3e4762b32cf4c18eda51a9756b0a68d1cc0f804adff3ee317699ab1"
+    },
+    {
+      "file": "screenshots/seaside39-user-sitting.jpg",
+      "delivery": "pages",
+      "bytes": 27613,
+      "sha256": "e2bc7fbb98d0769e106e635b83beb33d87dc90e77e79e3e03fdd279c5a2f0a72"
+    },
+    {
+      "file": "screenshots/seating40-interaction.mp4",
+      "delivery": "repository-raw",
+      "bytes": 3959642,
+      "sha256": "35c8f975e31ea00cbab68f1365e573c6e86dc1f5b0aa662d45fa1b9e9ffb3ac6"
+    },
+    {
+      "file": "screenshots/seating40-mobile-checks.json",
+      "delivery": "pages",
+      "bytes": 5152781,
+      "sha256": "3d959fe4294bd1699cb94b63feb4e51d8e8924ec5153ea208166aca248cf4852"
+    },
+    {
+      "file": "screenshots/seating40-mobile.jpg",
+      "delivery": "pages",
+      "bytes": 22109,
+      "sha256": "ae8f6f69f94e3c066621eec50713a5d7149e76d8c50514eeee7973a4db1bbe32"
+    },
+    {
+      "file": "screenshots/seating40-video-rising.jpg",
+      "delivery": "pages",
+      "bytes": 21785,
+      "sha256": "8a50e7f0f379254380b5880d6bb9e0f4c7b134eeb596acbd205a2f8bfa0ab23b"
+    },
+    {
+      "file": "screenshots/sofa41-checks.json",
+      "delivery": "pages",
+      "bytes": 2071318,
+      "sha256": "09e61cf797983ffa029f502e715d9462c9042d7f96836fe4d50c6094754ef7d7"
+    },
+    {
+      "file": "screenshots/sofa41-contact.png",
+      "delivery": "pages",
+      "bytes": 1086632,
+      "sha256": "3326d4af4ee443e05150692b7172158ea448e172a8241d4efa8724814b6d97a1"
+    },
+    {
+      "file": "screenshots/sofa41-final-interaction.webm",
+      "delivery": "pages",
+      "bytes": 2411624,
+      "sha256": "01c45b6ac49ab8becd7fbbaedcca22d223948ed9c5f2dd4a5b60c66b1f3450f5"
+    },
+    {
+      "file": "screenshots/sofa41-final-native-checks.json",
+      "delivery": "pages",
+      "bytes": 370115,
+      "sha256": "522fe810d7f79c7e19a6b1f3ed623902a48559ccf2a705af96da4d72f904f8ec"
+    },
+    {
+      "file": "screenshots/sofa41-final-pose.json",
+      "delivery": "pages",
+      "bytes": 2256,
+      "sha256": "b76bc74a8c67a738179c808d4e2ef3215e0f41559777c6db473ace2600a2ade6"
+    },
+    {
+      "file": "screenshots/sofa41-interaction.mp4",
+      "delivery": "repository-raw",
+      "bytes": 4513566,
+      "sha256": "72b75e34ad26b682cde7131c4a90789799613b9b6d4055801d6b1a9bcac4f807"
+    },
+    {
+      "file": "screenshots/sofa41-interaction.webm",
+      "delivery": "repository-raw",
+      "bytes": 3538879,
+      "sha256": "047252bed68c3e8b5f6cbfc5b206ea0ef7e4ff3ef0b22b563b28bf3348c1a385"
+    },
+    {
+      "file": "screenshots/sofa41-mobile.png",
+      "delivery": "pages",
+      "bytes": 333955,
+      "sha256": "89fe8cfd0967f7cbdf6b25c06ed9b40469556b604815f1d8a7f99034be899c64"
+    },
+    {
+      "file": "screenshots/sofa41-native-checks.json",
+      "delivery": "pages",
+      "bytes": 778698,
+      "sha256": "99c461b4671bddd9eade6d41ab43f7f7ce72d2a26257caa145af9323e582898f"
+    },
+    {
+      "file": "screenshots/sofa41-room.png",
+      "delivery": "pages",
+      "bytes": 1227918,
+      "sha256": "d0347b30af1756c544d82cbfefb20d921ad9f4cb252cc8cbebcab3d6f2441594"
+    },
+    {
+      "file": "screenshots/stairs37-down.mp4",
+      "delivery": "pages",
+      "bytes": 1792312,
+      "sha256": "c2578e22d8b9d6212e0f639199c609a14b45d6148acd467eb8fa94bf041bb4c1"
+    },
+    {
+      "file": "screenshots/stairs37-final-down-8.5.png",
+      "delivery": "pages",
+      "bytes": 1243930,
+      "sha256": "0047186cdf7888e39703d1dfa1d46eefb5519a05e69d7f9252628c8f03748df5"
+    },
+    {
+      "file": "screenshots/stairs37-final-up-9.png",
+      "delivery": "pages",
+      "bytes": 1265135,
+      "sha256": "e50406a98e604bd865974606fcd7b4fdfc4f2ffebb836602046622e0057aba1c"
+    },
+    {
+      "file": "screenshots/stairs37-final.json",
+      "delivery": "pages",
+      "bytes": 2878758,
+      "sha256": "bd732c7a998902459410cef6862ad06846361a5d376bd398c03d3fe24ecaf0e2"
+    },
+    {
+      "file": "screenshots/stairs37-mobile-touch.png",
+      "delivery": "pages",
+      "bytes": 245296,
+      "sha256": "3fb825ea364d93d5e36181bd75ce6a51de83d3cd281e1dba1e3af2186812b639"
+    },
+    {
+      "file": "screenshots/stairs37-review-checks.json",
+      "delivery": "pages",
+      "bytes": 498,
+      "sha256": "bbc504fd3cd0f8b631202696a6df18948bd1714ca49ca4b9bcbcdfb45a62d35e"
+    },
+    {
+      "file": "screenshots/stairs37-review-desktop.png",
+      "delivery": "pages",
+      "bytes": 463734,
+      "sha256": "d8fc3d27cae79cb4f543ac18bda32ec675e3f505bfed04cdc49609fef889d35a"
+    },
+    {
+      "file": "screenshots/stairs37-review-mobile.png",
+      "delivery": "pages",
+      "bytes": 257103,
+      "sha256": "4be8ce9f4ace7a284c48a925fd8a733863a931b2f5ba0c0d6d8dfd479528f976"
+    },
+    {
+      "file": "screenshots/stairs37-up.mp4",
+      "delivery": "pages",
+      "bytes": 1780911,
+      "sha256": "f2ee37631ce37de42b26e757e134381772644e3867cb0d308eaac642fbd5faf5"
+    },
+    {
+      "file": "screenshots/summary20261121-checks.json",
+      "delivery": "pages",
+      "bytes": 1083,
+      "sha256": "9ff8dcb15cf8c67ff18716ac1cdfeb558a3b1b78f5672cd9ba67e18aa022eefd"
+    },
+    {
+      "file": "screenshots/summary20261121-desktop.png",
+      "delivery": "pages",
+      "bytes": 340163,
+      "sha256": "309f9fa99c58944ed353055bbbf05997995215195fd267fe6fd09197c6f0a368"
+    },
+    {
+      "file": "screenshots/summary20261121-mobile.png",
+      "delivery": "pages",
+      "bytes": 131086,
+      "sha256": "2db9016ad21d50c366fb8f3dde770aed71015744e55dc2aa7fb796666c1fe626"
+    },
+    {
+      "file": "screenshots/summary20261121-product-mobile.png",
+      "delivery": "pages",
+      "bytes": 55278,
+      "sha256": "c27eee8118dbb07e30a828587d9622d1553c627f5503d09a70871bbd84976b8b"
+    },
+    {
+      "file": "screenshots/summary20261121-product.png",
+      "delivery": "pages",
+      "bytes": 95987,
+      "sha256": "9a6cf156f326539755521431d022460533effa6f10d98b0a077715239b37efaf"
+    },
+    {
+      "file": "screenshots/surf43-live.mp4",
+      "delivery": "repository-raw",
+      "bytes": 3171930,
+      "sha256": "d81ff160ee76b20b56d62d97a32bc655e78d80e4be0ec3de4b1cb92be15a27de"
+    },
+    {
+      "file": "screenshots/audit-20261114/report.json",
+      "delivery": "pages",
+      "bytes": 1380,
+      "sha256": "d8bbc31d0baaa7e585c4cb095391fd744b167c0a04982c76a256e778c1c6e58e"
+    },
+    {
+      "file": "scripts/align-guide-speech.py",
+      "delivery": "pages",
+      "bytes": 4256,
+      "sha256": "b324e1a93924e815f0d08f9c35159ae6bae8218510682b8d5a5fe77544237ca4"
+    },
+    {
+      "file": "scripts/audit-stairs.mjs",
+      "delivery": "pages",
+      "bytes": 5173,
+      "sha256": "8e16c024251e25ea8f6d47dc48d3dd2e29039ceaf8698587cf1a863041305696"
+    },
+    {
+      "file": "scripts/capture-character-previews.mjs",
+      "delivery": "pages",
+      "bytes": 2805,
+      "sha256": "e29c374d6621522f50905d0d54767346171288d404cef090527901745315d8e5"
+    },
+    {
+      "file": "scripts/capture-hands43.mjs",
+      "delivery": "pages",
+      "bytes": 4525,
+      "sha256": "020fa569def03ed69fb6a0225d23bbb7f4d8c47dd9b8b5338d17d5b81df01cc0"
+    },
+    {
+      "file": "scripts/capture-scene32.mjs",
+      "delivery": "pages",
+      "bytes": 4312,
+      "sha256": "9b1a74c61d6c32db7c4d6b7dc9ee5810b795860d5a32bcdf751125cda45a81dd"
+    },
+    {
+      "file": "scripts/capture-sofa.mjs",
+      "delivery": "pages",
+      "bytes": 3156,
+      "sha256": "71a3c4dce444bb0fcaee8e0b600a5a7c7fdcc519dc21889202c79304eb6f6ad4"
+    },
+    {
+      "file": "scripts/export-extension-plans.mjs",
+      "delivery": "pages",
+      "bytes": 1138,
+      "sha256": "4cd37c5ae4e7661555b7dddbd9925e92af8f120db7b6cdfc73ec7f5509033052"
+    },
+    {
+      "file": "scripts/export-scene32-preview.mjs",
+      "delivery": "pages",
+      "bytes": 2702,
+      "sha256": "34ad45fd0ffa66f5d35b090a15780ed12a33c00c262854841e2b5dfce1efe613"
+    },
+    {
+      "file": "scripts/freeze-glasshouse.mjs",
+      "delivery": "pages",
+      "bytes": 8529,
+      "sha256": "7717a9df781715d5506ba8e6c5627019198dbfaaddb346c31911d922fac5f2f8"
+    },
+    {
+      "file": "scripts/inspect-face.mjs",
+      "delivery": "pages",
+      "bytes": 1577,
+      "sha256": "2ed5f2461a207c80644d6163f3563d5d2bf3b4b3e1cf6780ec89540763e7d187"
+    },
+    {
+      "file": "scripts/inspect-head.mjs",
+      "delivery": "pages",
+      "bytes": 1458,
+      "sha256": "7d3ae8df3a0d2482074385a614d4bc312fcfdc3a0e4ee85d82deb1251dc65f66"
+    },
+    {
+      "file": "scripts/inspect-orbit.mjs",
+      "delivery": "pages",
+      "bytes": 1772,
+      "sha256": "7fa8e1e8589cec527d8bea3d01a9916620c14dcaa2dd649cea4858b45cc6ff8f"
+    },
+    {
+      "file": "scripts/inspect-portrait33.mjs",
+      "delivery": "pages",
+      "bytes": 1635,
+      "sha256": "ad766a967d9a31698f874a3c5b62271036d4ed561e2ca2ee66c155f4246a06c6"
+    },
+    {
+      "file": "scripts/inspect-rock-visit.mjs",
+      "delivery": "pages",
+      "bytes": 1674,
+      "sha256": "34d72574519c461ea8765525e8f333e8fc296bc66f2544097bd77a3c637a88d4"
+    },
+    {
+      "file": "scripts/inspect-seated-hands.mjs",
+      "delivery": "pages",
+      "bytes": 1562,
+      "sha256": "e3a79ef509d1e4b9b3dc96995b6d53c435a1c767d677c5aafe272cafe559e4fc"
+    },
+    {
+      "file": "scripts/inspect-stair-mobile.mjs",
+      "delivery": "pages",
+      "bytes": 1543,
+      "sha256": "60a6b66162f843c7075d50ef1b924ccb7f8093c27edcb070003ef4bd67058fcd"
+    },
+    {
+      "file": "scripts/make-surf-texture43.py",
+      "delivery": "pages",
+      "bytes": 1429,
+      "sha256": "5c3644783c032fdcfbdf7c70a7877fa158819201104855e749779638ff08e501"
+    },
+    {
+      "file": "scripts/package-seaside-guide.py",
+      "delivery": "pages",
+      "bytes": 1671,
+      "sha256": "fb2c8016cd017d06fef30309456b5915e90af9fcf37161032e8f819543be76b1"
+    },
+    {
+      "file": "scripts/verify-character-controls.mjs",
+      "delivery": "pages",
+      "bytes": 10260,
+      "sha256": "cd5add74563d8575659c511d31919b5b3c5f3e7e9d4f2c15368d8e3ff0fd9237"
+    },
+    {
+      "file": "scripts/verify-character-entries.mjs",
+      "delivery": "pages",
+      "bytes": 4776,
+      "sha256": "b7ff3c0a87414d3bb5d1811f95e1238dbebf8fad10c7466206809f8c364cd019"
+    },
+    {
+      "file": "scripts/verify-character-gallery.mjs",
+      "delivery": "pages",
+      "bytes": 6248,
+      "sha256": "0ecd479e34863d7b6a487e5987ad3f50e5a12657f0aa6a3446da09c32b2c120d"
+    },
+    {
+      "file": "scripts/verify-facial-review.mjs",
+      "delivery": "pages",
+      "bytes": 2467,
+      "sha256": "d53a8a62bded74fab45bf4c96e01e343b0211b094841b8269acaf74f355c2ee4"
+    },
+    {
+      "file": "scripts/verify-head-review.mjs",
+      "delivery": "pages",
+      "bytes": 3725,
+      "sha256": "0c484bfb02f672d4871b21d9fcf578fdd210e57775e0d0d25f95a81de16992bb"
+    },
+    {
+      "file": "scripts/verify-implementation.mjs",
+      "delivery": "pages",
+      "bytes": 9461,
+      "sha256": "a8a60cf28b02b50a95207e779011e8db0f3415cdd847f21f85b848285c7691b5"
+    },
+    {
+      "file": "scripts/verify-interaction-response.mjs",
+      "delivery": "pages",
+      "bytes": 5695,
+      "sha256": "71f076ed303bf06459b310f97ca36fe2048c48d9a15b77c47f864e4219e2077c"
+    },
+    {
+      "file": "scripts/verify-orbit-review.mjs",
+      "delivery": "pages",
+      "bytes": 3885,
+      "sha256": "e23d8d876a6e174a9530b59420d01903e8218f1b37164247b49a899771c3956b"
+    },
+    {
+      "file": "scripts/verify-own-face.mjs",
+      "delivery": "pages",
+      "bytes": 7217,
+      "sha256": "88cd36be946b583c0e7a10d574d7be03fced3804f632a4fdc9dfcc7f03a1b516"
+    },
+    {
+      "file": "scripts/verify-personal.mjs",
+      "delivery": "pages",
+      "bytes": 430,
+      "sha256": "e92032b175375a1b2f7ae86f8d037c87be58748f6dd73a3578e0975b71b72537"
+    },
+    {
+      "file": "scripts/verify-portrait-review.mjs",
+      "delivery": "pages",
+      "bytes": 2623,
+      "sha256": "d7289b4f357ad843f41bab76b6270ff073d1176634d9907ddbc9b3ff2acd6f8b"
+    },
+    {
+      "file": "scripts/verify-reality-browser.mjs",
+      "delivery": "pages",
+      "bytes": 6913,
+      "sha256": "783146fe6d8b846bd9ec9e4dbb72b91a058a6580df17d41ed1b049b026fba963"
+    },
+    {
+      "file": "scripts/verify-rocket-browser.mjs",
+      "delivery": "pages",
+      "bytes": 9249,
+      "sha256": "9b9dfb35fa27d5f2d7482db1615faee252faf629a4387330aa384f53842d9246"
+    },
+    {
+      "file": "scripts/verify-rocks-browser.mjs",
+      "delivery": "pages",
+      "bytes": 4334,
+      "sha256": "d58a1ee6e8a588394b6f7db0695c62967d47bd47ff0b3bcb2575d83957512641"
+    },
+    {
+      "file": "scripts/verify-scene-extensions.mjs",
+      "delivery": "pages",
+      "bytes": 7310,
+      "sha256": "9f679db8011efbcdf4ebe314095ea43fb7eab93465e2e0143126cadf438a854d"
+    },
+    {
+      "file": "scripts/verify-seaside-review.mjs",
+      "delivery": "pages",
+      "bytes": 161,
+      "sha256": "93290871857584729646e8a2f9ff589a2500556671caca211d6580e9fd73e15e"
+    },
+    {
+      "file": "scripts/verify-seaside.mjs",
+      "delivery": "pages",
+      "bytes": 7383,
+      "sha256": "53b5dd0f5dfddaf8d4870310f334d7d26320cc7d8b78383550e235cbf70eefa0"
+    },
+    {
+      "file": "scripts/verify-sofa-review.mjs",
+      "delivery": "pages",
+      "bytes": 3072,
+      "sha256": "5586c3e2ce3bc96bac0beb575aff8bd320d1eaa33d111913cb446d9bd024c0ba"
+    },
+    {
+      "file": "scripts/verify-sofa.mjs",
+      "delivery": "pages",
+      "bytes": 7016,
+      "sha256": "3cb72b2dae4b72ffbb0ca4c6214aca7dac3efaa01b99e63113b42b20fbc9a8db"
+    },
+    {
+      "file": "scripts/verify-stairs-review.mjs",
+      "delivery": "pages",
+      "bytes": 2140,
+      "sha256": "3ea64ac99f091f8e75eced00f508438d8337715fffe76c4d4f8a4e8aa9dcf748"
+    },
+    {
+      "file": "scripts/verify-summary.mjs",
+      "delivery": "pages",
+      "bytes": 5665,
+      "sha256": "030cfd9a02ee9eda4d37896e6145e051ee3c0234f43e4eec5165c0cb92172256"
+    },
+    {
+      "file": "scripts/verify-surf-sync.mjs",
+      "delivery": "pages",
+      "bytes": 4576,
+      "sha256": "d0f16e3f575317f36e64a5d6b9ed14269f87fa5f94866358d05acb18143d6cf9"
+    },
+    {
+      "file": "tests/additional-references.test.mjs",
+      "delivery": "pages",
+      "bytes": 2011,
+      "sha256": "00befb78a48b090d8d930422a77d7d26678758cfcba19ebbbb60929e8c93fcb4"
+    },
+    {
+      "file": "tests/extension-plans.test.mjs",
+      "delivery": "pages",
+      "bytes": 3241,
+      "sha256": "f228afed59b92dcfe72abcf17271a0c24f00041bcdea6e8fb1f525fb69a64a88"
+    },
+    {
+      "file": "tests/facial-assets.test.mjs",
+      "delivery": "pages",
+      "bytes": 3102,
+      "sha256": "c9b5a1d22bbccb93b3dd8606b37870097081b46813435d27151bb29cfd981acd"
+    },
+    {
+      "file": "tests/hands-assets.test.mjs",
+      "delivery": "pages",
+      "bytes": 2313,
+      "sha256": "db2090f2ee28bfc369fd0ddf59bb54179a95d1cbc4c400c1c92e73320a06f7fb"
+    },
+    {
+      "file": "tests/personal-guide.test.mjs",
+      "delivery": "pages",
+      "bytes": 3408,
+      "sha256": "3528a622205fa08fce92ea380467e769b84e3ec6c44f67f0b0c0d17027340d35"
+    },
+    {
+      "file": "tests/reality-evidence.test.mjs",
+      "delivery": "pages",
+      "bytes": 3660,
+      "sha256": "c90b2f9126664d0db20d6e64cb1ffc1e7b321a7162923cf425a1f3f035f8a7ef"
+    },
+    {
+      "file": "tests/rock-seat.test.mjs",
+      "delivery": "pages",
+      "bytes": 1134,
+      "sha256": "881b1fdf1d8e6a765a1e35d1f0313739559d421a69bfbc154ab2ad06541148c8"
+    },
+    {
+      "file": "tests/room-seat.test.mjs",
+      "delivery": "pages",
+      "bytes": 4639,
+      "sha256": "5e06d5f9bb7fadd445d4b6579272c45e9c91cc222487f963cae76cf9bb3a6fdb"
+    },
+    {
+      "file": "tests/scene-collision.test.mjs",
+      "delivery": "pages",
+      "bytes": 2317,
+      "sha256": "3c759ad0e0f3901d76cb3cd33dc7b27ef9241162639868b5992bef40ccb5f123"
+    },
+    {
+      "file": "tests/seat-performance.test.mjs",
+      "delivery": "pages",
+      "bytes": 1740,
+      "sha256": "6e7195b91450fbd9a9fb6213cb504ac420984a3e8510963c4397e0efcd8bd1fa"
+    },
+    {
+      "file": "tests/stair-motion.test.mjs",
+      "delivery": "pages",
+      "bytes": 1445,
+      "sha256": "af2fa9d5f38ec705ea90dd93dc60f3090064c8801bbc7ccf82cab44fd4f3ff61"
+    },
+    {
+      "file": "tests/surf-sync.test.mjs",
+      "delivery": "pages",
+      "bytes": 2351,
+      "sha256": "d5c5d59317f26fb0a1227526cf2921e12d3b8f8b181674bcef9889403305c9e9"
+    },
+    {
+      "file": "tests/walk-surface.test.mjs",
+      "delivery": "pages",
+      "bytes": 1487,
+      "sha256": "e4ef9efc35c63a6b992024a77e56df32ad48c5ef932f29d6ea58ff5cd6575f8c"
+    }
+  ]
+}

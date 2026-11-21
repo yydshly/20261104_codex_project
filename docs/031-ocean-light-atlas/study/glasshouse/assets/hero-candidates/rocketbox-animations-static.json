@@ -1,0 +1,1958 @@
+[
+  {
+    "name": "f_cell_phone_textmessage.max.fbx",
+    "type": "file",
+    "size": 3647440,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_cell_phone_textmessage.max.fbx"
+  },
+  {
+    "name": "f_cheer_01.max.fbx",
+    "type": "file",
+    "size": 3015536,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_cheer_01.max.fbx"
+  },
+  {
+    "name": "f_cheer_02.max.fbx",
+    "type": "file",
+    "size": 3494400,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_cheer_02.max.fbx"
+  },
+  {
+    "name": "f_cheer_03.max.fbx",
+    "type": "file",
+    "size": 1513040,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_cheer_03.max.fbx"
+  },
+  {
+    "name": "f_cheer_04.max.fbx",
+    "type": "file",
+    "size": 2066480,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_cheer_04.max.fbx"
+  },
+  {
+    "name": "f_cheer_05.max.fbx",
+    "type": "file",
+    "size": 2066768,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_cheer_05.max.fbx"
+  },
+  {
+    "name": "f_claphands_01.max.fbx",
+    "type": "file",
+    "size": 3088480,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_claphands_01.max.fbx"
+  },
+  {
+    "name": "f_claphands_02.max.fbx",
+    "type": "file",
+    "size": 3715744,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_claphands_02.max.fbx"
+  },
+  {
+    "name": "f_crouch_gestic.max.fbx",
+    "type": "file",
+    "size": 4207680,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_crouch_gestic.max.fbx"
+  },
+  {
+    "name": "f_crouch_idle.max.fbx",
+    "type": "file",
+    "size": 2108192,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_crouch_idle.max.fbx"
+  },
+  {
+    "name": "f_crouch_in.max.fbx",
+    "type": "file",
+    "size": 1335312,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_crouch_in.max.fbx"
+  },
+  {
+    "name": "f_crouch_out.max.fbx",
+    "type": "file",
+    "size": 1379472,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_crouch_out.max.fbx"
+  },
+  {
+    "name": "f_dancing_affective.max.fbx",
+    "type": "file",
+    "size": 5333952,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_dancing_affective.max.fbx"
+  },
+  {
+    "name": "f_dancing_aggressive.max.fbx",
+    "type": "file",
+    "size": 4353872,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_dancing_aggressive.max.fbx"
+  },
+  {
+    "name": "f_dancing_cool.max.fbx",
+    "type": "file",
+    "size": 4251696,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_dancing_cool.max.fbx"
+  },
+  {
+    "name": "f_dancing_neutral.max.fbx",
+    "type": "file",
+    "size": 4442480,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_dancing_neutral.max.fbx"
+  },
+  {
+    "name": "f_dancing_silly.max.fbx",
+    "type": "file",
+    "size": 5910304,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_dancing_silly.max.fbx"
+  },
+  {
+    "name": "f_documentfile_idle.max.fbx",
+    "type": "file",
+    "size": 4535824,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_documentfile_idle.max.fbx"
+  },
+  {
+    "name": "f_documents_check.max.fbx",
+    "type": "file",
+    "size": 2517152,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_documents_check.max.fbx"
+  },
+  {
+    "name": "f_documents_idle.max.fbx",
+    "type": "file",
+    "size": 4714768,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_documents_idle.max.fbx"
+  },
+  {
+    "name": "f_documents_in.max.fbx",
+    "type": "file",
+    "size": 1557616,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_documents_in.max.fbx"
+  },
+  {
+    "name": "f_documents_note.max.fbx",
+    "type": "file",
+    "size": 2027248,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_documents_note.max.fbx"
+  },
+  {
+    "name": "f_documents_out.max.fbx",
+    "type": "file",
+    "size": 1557424,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_documents_out.max.fbx"
+  },
+  {
+    "name": "f_documents_take.max.fbx",
+    "type": "file",
+    "size": 2260096,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_documents_take.max.fbx"
+  },
+  {
+    "name": "f_drink_drinking.max.fbx",
+    "type": "file",
+    "size": 2484912,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_drink_drinking.max.fbx"
+  },
+  {
+    "name": "f_drink_idle.max.fbx",
+    "type": "file",
+    "size": 5017600,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_drink_idle.max.fbx"
+  },
+  {
+    "name": "f_gestic_laugh_extreme.max.fbx",
+    "type": "file",
+    "size": 3918544,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_laugh_extreme.max.fbx"
+  },
+  {
+    "name": "f_gestic_laugh_loud.max.fbx",
+    "type": "file",
+    "size": 2281280,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_laugh_loud.max.fbx"
+  },
+  {
+    "name": "f_gestic_laugh_low.max.fbx",
+    "type": "file",
+    "size": 2499584,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_laugh_low.max.fbx"
+  },
+  {
+    "name": "f_gestic_listen_accept_01.max.fbx",
+    "type": "file",
+    "size": 1210672,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_listen_accept_01.max.fbx"
+  },
+  {
+    "name": "f_gestic_listen_accept_02.max.fbx",
+    "type": "file",
+    "size": 1237456,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_listen_accept_02.max.fbx"
+  },
+  {
+    "name": "f_gestic_listen_accept_03.max.fbx",
+    "type": "file",
+    "size": 1605088,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_listen_accept_03.max.fbx"
+  },
+  {
+    "name": "f_gestic_listen_accept_04.max.fbx",
+    "type": "file",
+    "size": 1786624,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_listen_accept_04.max.fbx"
+  },
+  {
+    "name": "f_gestic_listen_accept_05.max.fbx",
+    "type": "file",
+    "size": 2988480,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_listen_accept_05.max.fbx"
+  },
+  {
+    "name": "f_gestic_listen_angry_01.max.fbx",
+    "type": "file",
+    "size": 4835008,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_listen_angry_01.max.fbx"
+  },
+  {
+    "name": "f_gestic_listen_deny_01.max.fbx",
+    "type": "file",
+    "size": 1513200,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_listen_deny_01.max.fbx"
+  },
+  {
+    "name": "f_gestic_listen_deny_02.max.fbx",
+    "type": "file",
+    "size": 1424368,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_listen_deny_02.max.fbx"
+  },
+  {
+    "name": "f_gestic_listen_deny_03.max.fbx",
+    "type": "file",
+    "size": 1193088,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_listen_deny_03.max.fbx"
+  },
+  {
+    "name": "f_gestic_listen_deny_04.max.fbx",
+    "type": "file",
+    "size": 1602208,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_listen_deny_04.max.fbx"
+  },
+  {
+    "name": "f_gestic_listen_deny_05.max.fbx",
+    "type": "file",
+    "size": 2992528,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_listen_deny_05.max.fbx"
+  },
+  {
+    "name": "f_gestic_listen_excited_01.max.fbx",
+    "type": "file",
+    "size": 4982560,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_listen_excited_01.max.fbx"
+  },
+  {
+    "name": "f_gestic_listen_left_01.max.fbx",
+    "type": "file",
+    "size": 5286544,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_listen_left_01.max.fbx"
+  },
+  {
+    "name": "f_gestic_listen_nervous_01.max.fbx",
+    "type": "file",
+    "size": 4717328,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_listen_nervous_01.max.fbx"
+  },
+  {
+    "name": "f_gestic_listen_neutral_01.max.fbx",
+    "type": "file",
+    "size": 3817248,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_listen_neutral_01.max.fbx"
+  },
+  {
+    "name": "f_gestic_listen_neutral_02.max.fbx",
+    "type": "file",
+    "size": 4138032,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_listen_neutral_02.max.fbx"
+  },
+  {
+    "name": "f_gestic_listen_neutral_03.max.fbx",
+    "type": "file",
+    "size": 3644976,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_listen_neutral_03.max.fbx"
+  },
+  {
+    "name": "f_gestic_listen_relaxed_01.max.fbx",
+    "type": "file",
+    "size": 4985952,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_listen_relaxed_01.max.fbx"
+  },
+  {
+    "name": "f_gestic_listen_right_01.max.fbx",
+    "type": "file",
+    "size": 5372224,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_listen_right_01.max.fbx"
+  },
+  {
+    "name": "f_gestic_listen_sad_01.max.fbx",
+    "type": "file",
+    "size": 3850304,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_listen_sad_01.max.fbx"
+  },
+  {
+    "name": "f_gestic_listen_self-assured_01.max.fbx",
+    "type": "file",
+    "size": 4763392,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_listen_self-assured_01.max.fbx"
+  },
+  {
+    "name": "f_gestic_presentation_left_01.max.fbx",
+    "type": "file",
+    "size": 3118320,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_presentation_left_01.max.fbx"
+  },
+  {
+    "name": "f_gestic_presentation_right_01.max.fbx",
+    "type": "file",
+    "size": 2842928,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_presentation_right_01.max.fbx"
+  },
+  {
+    "name": "f_gestic_shrug_01.max.fbx",
+    "type": "file",
+    "size": 1157488,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_shrug_01.max.fbx"
+  },
+  {
+    "name": "f_gestic_shrug_02.max.fbx",
+    "type": "file",
+    "size": 1659152,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_shrug_02.max.fbx"
+  },
+  {
+    "name": "f_gestic_talk_angry_01.max.fbx",
+    "type": "file",
+    "size": 5600656,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_talk_angry_01.max.fbx"
+  },
+  {
+    "name": "f_gestic_talk_cool.max.fbx",
+    "type": "file",
+    "size": 5446176,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_talk_cool.max.fbx"
+  },
+  {
+    "name": "f_gestic_talk_excited_01.max.fbx",
+    "type": "file",
+    "size": 5043104,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_talk_excited_01.max.fbx"
+  },
+  {
+    "name": "f_gestic_talk_excited_02.max.fbx",
+    "type": "file",
+    "size": 5055840,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_talk_excited_02.max.fbx"
+  },
+  {
+    "name": "f_gestic_talk_femalestressed_01.max.fbx",
+    "type": "file",
+    "size": 7018864,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_talk_femalestressed_01.max.fbx"
+  },
+  {
+    "name": "f_gestic_talk_left_01.max.fbx",
+    "type": "file",
+    "size": 5398880,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_talk_left_01.max.fbx"
+  },
+  {
+    "name": "f_gestic_talk_nervous_01.max.fbx",
+    "type": "file",
+    "size": 5012944,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_talk_nervous_01.max.fbx"
+  },
+  {
+    "name": "f_gestic_talk_nervous_02.max.fbx",
+    "type": "file",
+    "size": 4503328,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_talk_nervous_02.max.fbx"
+  },
+  {
+    "name": "f_gestic_talk_neutral_01.max.fbx",
+    "type": "file",
+    "size": 4761664,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_talk_neutral_01.max.fbx"
+  },
+  {
+    "name": "f_gestic_talk_neutral_02.max.fbx",
+    "type": "file",
+    "size": 4836720,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_talk_neutral_02.max.fbx"
+  },
+  {
+    "name": "f_gestic_talk_neutral_03.max.fbx",
+    "type": "file",
+    "size": 5874016,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_talk_neutral_03.max.fbx"
+  },
+  {
+    "name": "f_gestic_talk_relaxed_01.max.fbx",
+    "type": "file",
+    "size": 4802192,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_talk_relaxed_01.max.fbx"
+  },
+  {
+    "name": "f_gestic_talk_relaxed_02.max.fbx",
+    "type": "file",
+    "size": 4794000,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_talk_relaxed_02.max.fbx"
+  },
+  {
+    "name": "f_gestic_talk_right_01.max.fbx",
+    "type": "file",
+    "size": 5324752,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_talk_right_01.max.fbx"
+  },
+  {
+    "name": "f_gestic_talk_sad_01.max.fbx",
+    "type": "file",
+    "size": 5074992,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_talk_sad_01.max.fbx"
+  },
+  {
+    "name": "f_gestic_talk_self-assured_01.max.fbx",
+    "type": "file",
+    "size": 5553520,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_talk_self-assured_01.max.fbx"
+  },
+  {
+    "name": "f_gestic_talk_self-assured_02.max.fbx",
+    "type": "file",
+    "size": 5431088,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_talk_self-assured_02.max.fbx"
+  },
+  {
+    "name": "f_gestic_thoughtful_01.max.fbx",
+    "type": "file",
+    "size": 2136016,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_thoughtful_01.max.fbx"
+  },
+  {
+    "name": "f_headphones_idle.max.fbx",
+    "type": "file",
+    "size": 5511824,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_headphones_idle.max.fbx"
+  },
+  {
+    "name": "f_hold_bag_idle_01.max.fbx",
+    "type": "file",
+    "size": 4351872,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_hold_bag_idle_01.max.fbx"
+  },
+  {
+    "name": "f_hold_bag_listen.max.fbx",
+    "type": "file",
+    "size": 3643648,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_hold_bag_listen.max.fbx"
+  },
+  {
+    "name": "f_hold_bag_talk.max.fbx",
+    "type": "file",
+    "size": 4296816,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_hold_bag_talk.max.fbx"
+  },
+  {
+    "name": "f_idle_angry_01.max.fbx",
+    "type": "file",
+    "size": 4229648,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_angry_01.max.fbx"
+  },
+  {
+    "name": "f_idle_breathe_01.max.fbx",
+    "type": "file",
+    "size": 1379504,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_breathe_01.max.fbx"
+  },
+  {
+    "name": "f_idle_breathe_02.max.fbx",
+    "type": "file",
+    "size": 2114336,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_breathe_02.max.fbx"
+  },
+  {
+    "name": "f_idle_breathe_03.max.fbx",
+    "type": "file",
+    "size": 2336704,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_breathe_03.max.fbx"
+  },
+  {
+    "name": "f_idle_cough_01.max.fbx",
+    "type": "file",
+    "size": 1646352,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_cough_01.max.fbx"
+  },
+  {
+    "name": "f_idle_cough_02.max.fbx",
+    "type": "file",
+    "size": 1735552,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_cough_02.max.fbx"
+  },
+  {
+    "name": "f_idle_drunk_01.max.fbx",
+    "type": "file",
+    "size": 5237824,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_drunk_01.max.fbx"
+  },
+  {
+    "name": "f_idle_dust_01.max.fbx",
+    "type": "file",
+    "size": 1692576,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_dust_01.max.fbx"
+  },
+  {
+    "name": "f_idle_finger nail_01.max.fbx",
+    "type": "file",
+    "size": 1820608,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_finger%20nail_01.max.fbx"
+  },
+  {
+    "name": "f_idle_look_around_01.max.fbx",
+    "type": "file",
+    "size": 1617760,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_look_around_01.max.fbx"
+  },
+  {
+    "name": "f_idle_look_around_02.max.fbx",
+    "type": "file",
+    "size": 1646656,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_look_around_02.max.fbx"
+  },
+  {
+    "name": "f_idle_look_around_03.max.fbx",
+    "type": "file",
+    "size": 1770960,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_look_around_03.max.fbx"
+  },
+  {
+    "name": "f_idle_move_01.max.fbx",
+    "type": "file",
+    "size": 2066688,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_move_01.max.fbx"
+  },
+  {
+    "name": "f_idle_move_leg_01.max.fbx",
+    "type": "file",
+    "size": 2266304,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_move_leg_01.max.fbx"
+  },
+  {
+    "name": "f_idle_nervous_01.max.fbx",
+    "type": "file",
+    "size": 7442016,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_nervous_01.max.fbx"
+  },
+  {
+    "name": "f_idle_nervous_02.max.fbx",
+    "type": "file",
+    "size": 7452656,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_nervous_02.max.fbx"
+  },
+  {
+    "name": "f_idle_nervous_03.max.fbx",
+    "type": "file",
+    "size": 2066688,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_nervous_03.max.fbx"
+  },
+  {
+    "name": "f_idle_neutral_01.max.fbx",
+    "type": "file",
+    "size": 2959360,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_neutral_01.max.fbx"
+  },
+  {
+    "name": "f_idle_neutral_02.max.fbx",
+    "type": "file",
+    "size": 2335264,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_neutral_02.max.fbx"
+  },
+  {
+    "name": "f_idle_neutral_03.max.fbx",
+    "type": "file",
+    "size": 3058816,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_neutral_03.max.fbx"
+  },
+  {
+    "name": "f_idle_neutral_04.max.fbx",
+    "type": "file",
+    "size": 5120144,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_neutral_04.max.fbx"
+  },
+  {
+    "name": "f_idle_neutral_05.max.fbx",
+    "type": "file",
+    "size": 5310288,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_neutral_05.max.fbx"
+  },
+  {
+    "name": "f_idle_neutral_06.max.fbx",
+    "type": "file",
+    "size": 7409216,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_neutral_06.max.fbx"
+  },
+  {
+    "name": "f_idle_neutral_07.max.fbx",
+    "type": "file",
+    "size": 7686576,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_neutral_07.max.fbx"
+  },
+  {
+    "name": "f_idle_neutral_08.max.fbx",
+    "type": "file",
+    "size": 5021664,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_neutral_08.max.fbx"
+  },
+  {
+    "name": "f_idle_neutral_09.max.fbx",
+    "type": "file",
+    "size": 2326688,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_neutral_09.max.fbx"
+  },
+  {
+    "name": "f_idle_roll_head_01.max.fbx",
+    "type": "file",
+    "size": 2025520,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_roll_head_01.max.fbx"
+  },
+  {
+    "name": "f_idle_roll_head_02.max.fbx",
+    "type": "file",
+    "size": 1644976,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_roll_head_02.max.fbx"
+  },
+  {
+    "name": "f_idle_scratch_head_01.max.fbx",
+    "type": "file",
+    "size": 1735488,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_scratch_head_01.max.fbx"
+  },
+  {
+    "name": "f_idle_shake_arms_01.max.fbx",
+    "type": "file",
+    "size": 1659152,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_shake_arms_01.max.fbx"
+  },
+  {
+    "name": "f_idle_shake_leg_01.max.fbx",
+    "type": "file",
+    "size": 2066704,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_shake_leg_01.max.fbx"
+  },
+  {
+    "name": "f_idle_stretch_arms_01.max.fbx",
+    "type": "file",
+    "size": 2192688,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_stretch_arms_01.max.fbx"
+  },
+  {
+    "name": "f_idle_touch_face_01.max.fbx",
+    "type": "file",
+    "size": 1845888,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_touch_face_01.max.fbx"
+  },
+  {
+    "name": "f_idle_touch_hair_01.max.fbx",
+    "type": "file",
+    "size": 1696944,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_touch_hair_01.max.fbx"
+  },
+  {
+    "name": "f_idle_waiting_01.max.fbx",
+    "type": "file",
+    "size": 7600640,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_waiting_01.max.fbx"
+  },
+  {
+    "name": "f_idle_yawn_01.max.fbx",
+    "type": "file",
+    "size": 2027408,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_yawn_01.max.fbx"
+  },
+  {
+    "name": "f_invite_sit.max.fbx",
+    "type": "file",
+    "size": 1779808,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_invite_sit.max.fbx"
+  },
+  {
+    "name": "f_knock_door.max.fbx",
+    "type": "file",
+    "size": 1513056,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_knock_door.max.fbx"
+  },
+  {
+    "name": "f_listen_door.max.fbx",
+    "type": "file",
+    "size": 2199312,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_listen_door.max.fbx"
+  },
+  {
+    "name": "f_moderate_01.max.fbx",
+    "type": "file",
+    "size": 5275296,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_moderate_01.max.fbx"
+  },
+  {
+    "name": "f_moderate_02.max.fbx",
+    "type": "file",
+    "size": 5034880,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_moderate_02.max.fbx"
+  },
+  {
+    "name": "f_newspaper_arm_idle.max.fbx",
+    "type": "file",
+    "size": 4531312,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_newspaper_arm_idle.max.fbx"
+  },
+  {
+    "name": "f_newspaper_hand_idle.max.fbx",
+    "type": "file",
+    "size": 5641184,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_newspaper_hand_idle.max.fbx"
+  },
+  {
+    "name": "f_sit_chair_breathe_01.max.fbx",
+    "type": "file",
+    "size": 3445856,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_chair_breathe_01.max.fbx"
+  },
+  {
+    "name": "f_sit_chair_gestic_shrug_01.max.fbx",
+    "type": "file",
+    "size": 1059616,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_chair_gestic_shrug_01.max.fbx"
+  },
+  {
+    "name": "f_sit_chair_gestic_shrug_02.max.fbx",
+    "type": "file",
+    "size": 1584256,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_chair_gestic_shrug_02.max.fbx"
+  },
+  {
+    "name": "f_sit_chair_gestic_thoughtful.max.fbx",
+    "type": "file",
+    "size": 2047904,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_chair_gestic_thoughtful.max.fbx"
+  },
+  {
+    "name": "f_sit_chair_idle_cough.max.fbx",
+    "type": "file",
+    "size": 1602016,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_chair_idle_cough.max.fbx"
+  },
+  {
+    "name": "f_sit_chair_idle_dust.max.fbx",
+    "type": "file",
+    "size": 1624048,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_chair_idle_dust.max.fbx"
+  },
+  {
+    "name": "f_sit_chair_idle_finger nail.max.fbx",
+    "type": "file",
+    "size": 2100928,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_chair_idle_finger%20nail.max.fbx"
+  },
+  {
+    "name": "f_sit_chair_idle_look_around.max.fbx",
+    "type": "file",
+    "size": 2166576,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_chair_idle_look_around.max.fbx"
+  },
+  {
+    "name": "f_sit_chair_idle_neutral_01.max.fbx",
+    "type": "file",
+    "size": 5562720,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_chair_idle_neutral_01.max.fbx"
+  },
+  {
+    "name": "f_sit_chair_idle_neutral_02.max.fbx",
+    "type": "file",
+    "size": 5696528,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_chair_idle_neutral_02.max.fbx"
+  },
+  {
+    "name": "f_sit_chair_idle_relaxed_01.max.fbx",
+    "type": "file",
+    "size": 6127488,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_chair_idle_relaxed_01.max.fbx"
+  },
+  {
+    "name": "f_sit_chair_idle_roll_head.max.fbx",
+    "type": "file",
+    "size": 2252624,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_chair_idle_roll_head.max.fbx"
+  },
+  {
+    "name": "f_sit_chair_idle_scratch_head.max.fbx",
+    "type": "file",
+    "size": 1779888,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_chair_idle_scratch_head.max.fbx"
+  },
+  {
+    "name": "f_sit_chair_idle_touch_face.max.fbx",
+    "type": "file",
+    "size": 1617584,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_chair_idle_touch_face.max.fbx"
+  },
+  {
+    "name": "f_sit_chair_idle_touch_hair.max.fbx",
+    "type": "file",
+    "size": 1833872,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_chair_idle_touch_hair.max.fbx"
+  },
+  {
+    "name": "f_sit_chair_idle_waiting_01.max.fbx",
+    "type": "file",
+    "size": 4509648,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_chair_idle_waiting_01.max.fbx"
+  },
+  {
+    "name": "f_sit_chair_idle_waiting_02.max.fbx",
+    "type": "file",
+    "size": 4713312,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_chair_idle_waiting_02.max.fbx"
+  },
+  {
+    "name": "f_sit_chair_idle_yawn.max.fbx",
+    "type": "file",
+    "size": 2212592,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_chair_idle_yawn.max.fbx"
+  },
+  {
+    "name": "f_sit_table_breathe_01.max.fbx",
+    "type": "file",
+    "size": 3408608,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_table_breathe_01.max.fbx"
+  },
+  {
+    "name": "f_sit_table_gestic_shrug_01.max.fbx",
+    "type": "file",
+    "size": 1024144,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_table_gestic_shrug_01.max.fbx"
+  },
+  {
+    "name": "f_sit_table_gestic_shrug_02.max.fbx",
+    "type": "file",
+    "size": 1762192,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_table_gestic_shrug_02.max.fbx"
+  },
+  {
+    "name": "f_sit_table_gestic_thoughtful.max.fbx",
+    "type": "file",
+    "size": 2947024,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_table_gestic_thoughtful.max.fbx"
+  },
+  {
+    "name": "f_sit_table_idle_cough.max.fbx",
+    "type": "file",
+    "size": 1486320,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_table_idle_cough.max.fbx"
+  },
+  {
+    "name": "f_sit_table_idle_dust.max.fbx",
+    "type": "file",
+    "size": 1735392,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_table_idle_dust.max.fbx"
+  },
+  {
+    "name": "f_sit_table_idle_look_around.max.fbx",
+    "type": "file",
+    "size": 1735408,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_table_idle_look_around.max.fbx"
+  },
+  {
+    "name": "f_sit_table_idle_neutral_01.max.fbx",
+    "type": "file",
+    "size": 4516208,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_table_idle_neutral_01.max.fbx"
+  },
+  {
+    "name": "f_sit_table_idle_neutral_02.max.fbx",
+    "type": "file",
+    "size": 3890336,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_table_idle_neutral_02.max.fbx"
+  },
+  {
+    "name": "f_sit_table_idle_relaxed_01.max.fbx",
+    "type": "file",
+    "size": 4759104,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_table_idle_relaxed_01.max.fbx"
+  },
+  {
+    "name": "f_sit_table_idle_roll_head.max.fbx",
+    "type": "file",
+    "size": 2153328,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_table_idle_roll_head.max.fbx"
+  },
+  {
+    "name": "f_sit_table_idle_scratch_head.max.fbx",
+    "type": "file",
+    "size": 1539888,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_table_idle_scratch_head.max.fbx"
+  },
+  {
+    "name": "f_sit_table_idle_stretch arms.max.fbx",
+    "type": "file",
+    "size": 2280160,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_table_idle_stretch%20arms.max.fbx"
+  },
+  {
+    "name": "f_sit_table_idle_touch_face.max.fbx",
+    "type": "file",
+    "size": 1592496,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_table_idle_touch_face.max.fbx"
+  },
+  {
+    "name": "f_sit_table_idle_touch_hair.max.fbx",
+    "type": "file",
+    "size": 1958544,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_table_idle_touch_hair.max.fbx"
+  },
+  {
+    "name": "f_sit_table_idle_waiting_01.max.fbx",
+    "type": "file",
+    "size": 4450896,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_table_idle_waiting_01.max.fbx"
+  },
+  {
+    "name": "f_sit_table_idle_yawn.max.fbx",
+    "type": "file",
+    "size": 2159248,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_sit_table_idle_yawn.max.fbx"
+  },
+  {
+    "name": "f_take_picture.max.fbx",
+    "type": "file",
+    "size": 2420880,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_take_picture.max.fbx"
+  },
+  {
+    "name": "f_trolley_idle.max.fbx",
+    "type": "file",
+    "size": 4249984,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_trolley_idle.max.fbx"
+  },
+  {
+    "name": "f_trolley_listen.max.fbx",
+    "type": "file",
+    "size": 3692336,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_trolley_listen.max.fbx"
+  },
+  {
+    "name": "f_trolley_talk.max.fbx",
+    "type": "file",
+    "size": 3480592,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_trolley_talk.max.fbx"
+  },
+  {
+    "name": "f_try_door_inwards.max.fbx",
+    "type": "file",
+    "size": 2071920,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_try_door_inwards.max.fbx"
+  },
+  {
+    "name": "f_try_door_outwards.max.fbx",
+    "type": "file",
+    "size": 2240192,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_try_door_outwards.max.fbx"
+  },
+  {
+    "name": "f_umbrella_idle_01.max.fbx",
+    "type": "file",
+    "size": 5302256,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_umbrella_idle_01.max.fbx"
+  },
+  {
+    "name": "f_umbrella_idle_02.max.fbx",
+    "type": "file",
+    "size": 5610880,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_umbrella_idle_02.max.fbx"
+  },
+  {
+    "name": "f_umbrella_listen_01.max.fbx",
+    "type": "file",
+    "size": 3572800,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_umbrella_listen_01.max.fbx"
+  },
+  {
+    "name": "f_umbrella_talk_01.max.fbx",
+    "type": "file",
+    "size": 3562320,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_umbrella_talk_01.max.fbx"
+  },
+  {
+    "name": "f_wave_01.max.fbx",
+    "type": "file",
+    "size": 1839824,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_wave_01.max.fbx"
+  },
+  {
+    "name": "f_wave_02.max.fbx",
+    "type": "file",
+    "size": 2414192,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_wave_02.max.fbx"
+  },
+  {
+    "name": "f_work_mid.max.fbx",
+    "type": "file",
+    "size": 4022992,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_work_mid.max.fbx"
+  },
+  {
+    "name": "f_work_table.max.fbx",
+    "type": "file",
+    "size": 4879328,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_work_table.max.fbx"
+  },
+  {
+    "name": "m_cell_phone_listen_01.max.fbx",
+    "type": "file",
+    "size": 6124448,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_cell_phone_listen_01.max.fbx"
+  },
+  {
+    "name": "m_cell_phone_talk_01.max.fbx",
+    "type": "file",
+    "size": 5374704,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_cell_phone_talk_01.max.fbx"
+  },
+  {
+    "name": "m_cell_phone_textmessage.max.fbx",
+    "type": "file",
+    "size": 5693776,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_cell_phone_textmessage.max.fbx"
+  },
+  {
+    "name": "m_cheer_01.max.fbx",
+    "type": "file",
+    "size": 4390576,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_cheer_01.max.fbx"
+  },
+  {
+    "name": "m_cheer_03.max.fbx",
+    "type": "file",
+    "size": 1788592,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_cheer_03.max.fbx"
+  },
+  {
+    "name": "m_cheer_04.max.fbx",
+    "type": "file",
+    "size": 2079808,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_cheer_04.max.fbx"
+  },
+  {
+    "name": "m_cheer_05.max.fbx",
+    "type": "file",
+    "size": 1999792,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_cheer_05.max.fbx"
+  },
+  {
+    "name": "m_claphands_01.max.fbx",
+    "type": "file",
+    "size": 2133184,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_claphands_01.max.fbx"
+  },
+  {
+    "name": "m_claphands_02.max.fbx",
+    "type": "file",
+    "size": 2808000,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_claphands_02.max.fbx"
+  },
+  {
+    "name": "m_crouch_gestic.max.fbx",
+    "type": "file",
+    "size": 2328720,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_crouch_gestic.max.fbx"
+  },
+  {
+    "name": "m_crouch_idle.max.fbx",
+    "type": "file",
+    "size": 2106496,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_crouch_idle.max.fbx"
+  },
+  {
+    "name": "m_dancing_aggressive.max.fbx",
+    "type": "file",
+    "size": 4561376,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_dancing_aggressive.max.fbx"
+  },
+  {
+    "name": "m_dancing_cool.max.fbx",
+    "type": "file",
+    "size": 5111840,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_dancing_cool.max.fbx"
+  },
+  {
+    "name": "m_dancing_neutral.max.fbx",
+    "type": "file",
+    "size": 3925376,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_dancing_neutral.max.fbx"
+  },
+  {
+    "name": "m_dancing_silly.max.fbx",
+    "type": "file",
+    "size": 4595872,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_dancing_silly.max.fbx"
+  },
+  {
+    "name": "m_documentfile_idle.max.fbx",
+    "type": "file",
+    "size": 5551696,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_documentfile_idle.max.fbx"
+  },
+  {
+    "name": "m_documents_check.max.fbx",
+    "type": "file",
+    "size": 3057824,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_documents_check.max.fbx"
+  },
+  {
+    "name": "m_documents_idle.max.fbx",
+    "type": "file",
+    "size": 4670352,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_documents_idle.max.fbx"
+  },
+  {
+    "name": "m_documents_in.max.fbx",
+    "type": "file",
+    "size": 1646240,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_documents_in.max.fbx"
+  },
+  {
+    "name": "m_documents_note.max.fbx",
+    "type": "file",
+    "size": 2221712,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_documents_note.max.fbx"
+  },
+  {
+    "name": "m_documents_out.max.fbx",
+    "type": "file",
+    "size": 1735168,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_documents_out.max.fbx"
+  },
+  {
+    "name": "m_documents_take.max.fbx",
+    "type": "file",
+    "size": 1733056,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_documents_take.max.fbx"
+  },
+  {
+    "name": "m_drink_drinking.max.fbx",
+    "type": "file",
+    "size": 5859792,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_drink_drinking.max.fbx"
+  },
+  {
+    "name": "m_drink_idle.max.fbx",
+    "type": "file",
+    "size": 5229184,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_drink_idle.max.fbx"
+  },
+  {
+    "name": "m_drunk_gestic_01.max.fbx",
+    "type": "file",
+    "size": 11382176,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_drunk_gestic_01.max.fbx"
+  },
+  {
+    "name": "m_drunk_gestic_02.max.fbx",
+    "type": "file",
+    "size": 5467392,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_drunk_gestic_02.max.fbx"
+  },
+  {
+    "name": "m_gestic_laugh_extreme.max.fbx",
+    "type": "file",
+    "size": 3614080,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_laugh_extreme.max.fbx"
+  },
+  {
+    "name": "m_gestic_laugh_loud.max.fbx",
+    "type": "file",
+    "size": 3194512,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_laugh_loud.max.fbx"
+  },
+  {
+    "name": "m_gestic_laugh_low.max.fbx",
+    "type": "file",
+    "size": 2402608,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_laugh_low.max.fbx"
+  },
+  {
+    "name": "m_gestic_listen_accept_01.max.fbx",
+    "type": "file",
+    "size": 1655280,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_listen_accept_01.max.fbx"
+  },
+  {
+    "name": "m_gestic_listen_accept_02.max.fbx",
+    "type": "file",
+    "size": 1290704,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_listen_accept_02.max.fbx"
+  },
+  {
+    "name": "m_gestic_listen_accept_03.max.fbx",
+    "type": "file",
+    "size": 1539680,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_listen_accept_03.max.fbx"
+  },
+  {
+    "name": "m_gestic_listen_accept_04.max.fbx",
+    "type": "file",
+    "size": 1699648,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_listen_accept_04.max.fbx"
+  },
+  {
+    "name": "m_gestic_listen_accept_05.max.fbx",
+    "type": "file",
+    "size": 2158192,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_listen_accept_05.max.fbx"
+  },
+  {
+    "name": "m_gestic_listen_angry_01.max.fbx",
+    "type": "file",
+    "size": 5179024,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_listen_angry_01.max.fbx"
+  },
+  {
+    "name": "m_gestic_listen_deny_01.max.fbx",
+    "type": "file",
+    "size": 1468448,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_listen_deny_01.max.fbx"
+  },
+  {
+    "name": "m_gestic_listen_deny_02.max.fbx",
+    "type": "file",
+    "size": 1557456,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_listen_deny_02.max.fbx"
+  },
+  {
+    "name": "m_gestic_listen_deny_03.max.fbx",
+    "type": "file",
+    "size": 1779664,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_listen_deny_03.max.fbx"
+  },
+  {
+    "name": "m_gestic_listen_deny_04.max.fbx",
+    "type": "file",
+    "size": 1299488,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_listen_deny_04.max.fbx"
+  },
+  {
+    "name": "m_gestic_listen_deny_05.max.fbx",
+    "type": "file",
+    "size": 1557360,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_listen_deny_05.max.fbx"
+  },
+  {
+    "name": "m_gestic_listen_deny_06.max.fbx",
+    "type": "file",
+    "size": 2889088,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_listen_deny_06.max.fbx"
+  },
+  {
+    "name": "m_gestic_listen_excited_01.max.fbx",
+    "type": "file",
+    "size": 4796384,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_listen_excited_01.max.fbx"
+  },
+  {
+    "name": "m_gestic_listen_left_01.max.fbx",
+    "type": "file",
+    "size": 4389760,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_listen_left_01.max.fbx"
+  },
+  {
+    "name": "m_gestic_listen_nervous_01.max.fbx",
+    "type": "file",
+    "size": 5380384,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_listen_nervous_01.max.fbx"
+  },
+  {
+    "name": "m_gestic_listen_neutral_01.max.fbx",
+    "type": "file",
+    "size": 5445056,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_listen_neutral_01.max.fbx"
+  },
+  {
+    "name": "m_gestic_listen_neutral_02.max.fbx",
+    "type": "file",
+    "size": 4316432,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_listen_neutral_02.max.fbx"
+  },
+  {
+    "name": "m_gestic_listen_neutral_03.max.fbx",
+    "type": "file",
+    "size": 5184320,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_listen_neutral_03.max.fbx"
+  },
+  {
+    "name": "m_gestic_listen_relaxed_01.max.fbx",
+    "type": "file",
+    "size": 5917568,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_listen_relaxed_01.max.fbx"
+  },
+  {
+    "name": "m_gestic_listen_right_01.max.fbx",
+    "type": "file",
+    "size": 5329024,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_listen_right_01.max.fbx"
+  },
+  {
+    "name": "m_gestic_listen_sad_01.max.fbx",
+    "type": "file",
+    "size": 5498288,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_listen_sad_01.max.fbx"
+  },
+  {
+    "name": "m_gestic_presentation_left_01.max.fbx",
+    "type": "file",
+    "size": 4049664,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_presentation_left_01.max.fbx"
+  },
+  {
+    "name": "m_gestic_presentation_right_01.max.fbx",
+    "type": "file",
+    "size": 4451072,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_presentation_right_01.max.fbx"
+  },
+  {
+    "name": "m_gestic_shrug_01.max.fbx",
+    "type": "file",
+    "size": 1157296,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_shrug_01.max.fbx"
+  },
+  {
+    "name": "m_gestic_shrug_02.max.fbx",
+    "type": "file",
+    "size": 1584112,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_shrug_02.max.fbx"
+  },
+  {
+    "name": "m_gestic_talk_cool.max.fbx",
+    "type": "file",
+    "size": 7538848,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_talk_cool.max.fbx"
+  },
+  {
+    "name": "m_gestic_talk_excited_01.max.fbx",
+    "type": "file",
+    "size": 4669728,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_talk_excited_01.max.fbx"
+  },
+  {
+    "name": "m_gestic_talk_left_01.max.fbx",
+    "type": "file",
+    "size": 5126320,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_talk_left_01.max.fbx"
+  },
+  {
+    "name": "m_gestic_talk_nervous_01.max.fbx",
+    "type": "file",
+    "size": 4558688,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_talk_nervous_01.max.fbx"
+  },
+  {
+    "name": "m_gestic_talk_neutral_01.max.fbx",
+    "type": "file",
+    "size": 5977648,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_talk_neutral_01.max.fbx"
+  },
+  {
+    "name": "m_gestic_talk_neutral_02.max.fbx",
+    "type": "file",
+    "size": 7247408,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_talk_neutral_02.max.fbx"
+  },
+  {
+    "name": "m_gestic_talk_neutral_03.max.fbx",
+    "type": "file",
+    "size": 10236976,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_talk_neutral_03.max.fbx"
+  },
+  {
+    "name": "m_gestic_talk_relaxed_01.max.fbx",
+    "type": "file",
+    "size": 5511856,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_talk_relaxed_01.max.fbx"
+  },
+  {
+    "name": "m_gestic_talk_relaxed_02.max.fbx",
+    "type": "file",
+    "size": 4786576,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_talk_relaxed_02.max.fbx"
+  },
+  {
+    "name": "m_gestic_talk_right_01.max.fbx",
+    "type": "file",
+    "size": 5056592,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_talk_right_01.max.fbx"
+  },
+  {
+    "name": "m_gestic_talk_sad_01.max.fbx",
+    "type": "file",
+    "size": 5501744,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_talk_sad_01.max.fbx"
+  },
+  {
+    "name": "m_gestic_thoughtful_01.max.fbx",
+    "type": "file",
+    "size": 2716624,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_thoughtful_01.max.fbx"
+  },
+  {
+    "name": "m_headphones_idle.max.fbx",
+    "type": "file",
+    "size": 4481968,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_headphones_idle.max.fbx"
+  },
+  {
+    "name": "m_hold_bag_idle.max.fbx",
+    "type": "file",
+    "size": 5760800,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_hold_bag_idle.max.fbx"
+  },
+  {
+    "name": "m_idle_angry_01.max.fbx",
+    "type": "file",
+    "size": 4898032,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_angry_01.max.fbx"
+  },
+  {
+    "name": "m_idle_angry_02.max.fbx",
+    "type": "file",
+    "size": 3233568,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_angry_02.max.fbx"
+  },
+  {
+    "name": "m_idle_breathe_01.max.fbx",
+    "type": "file",
+    "size": 1397280,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_breathe_01.max.fbx"
+  },
+  {
+    "name": "m_idle_breathe_02.max.fbx",
+    "type": "file",
+    "size": 2158176,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_breathe_02.max.fbx"
+  },
+  {
+    "name": "m_idle_breathe_03.max.fbx",
+    "type": "file",
+    "size": 3092640,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_breathe_03.max.fbx"
+  },
+  {
+    "name": "m_idle_cough_01.max.fbx",
+    "type": "file",
+    "size": 1646352,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_cough_01.max.fbx"
+  },
+  {
+    "name": "m_idle_cough_02.max.fbx",
+    "type": "file",
+    "size": 1651440,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_cough_02.max.fbx"
+  },
+  {
+    "name": "m_idle_drunk_01.max.fbx",
+    "type": "file",
+    "size": 7135552,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_drunk_01.max.fbx"
+  },
+  {
+    "name": "m_idle_drunk_02.max.fbx",
+    "type": "file",
+    "size": 7761792,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_drunk_02.max.fbx"
+  },
+  {
+    "name": "m_idle_dust_01.max.fbx",
+    "type": "file",
+    "size": 1833824,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_dust_01.max.fbx"
+  },
+  {
+    "name": "m_idle_dust_02.max.fbx",
+    "type": "file",
+    "size": 1833824,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_dust_02.max.fbx"
+  },
+  {
+    "name": "m_idle_look_around_01.max.fbx",
+    "type": "file",
+    "size": 1651456,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_look_around_01.max.fbx"
+  },
+  {
+    "name": "m_idle_look_around_02.max.fbx",
+    "type": "file",
+    "size": 1624144,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_look_around_02.max.fbx"
+  },
+  {
+    "name": "m_idle_look_around_03.max.fbx",
+    "type": "file",
+    "size": 2446880,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_look_around_03.max.fbx"
+  },
+  {
+    "name": "m_idle_nervous_01.max.fbx",
+    "type": "file",
+    "size": 5227600,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_nervous_01.max.fbx"
+  },
+  {
+    "name": "m_idle_nervous_02.max.fbx",
+    "type": "file",
+    "size": 8150768,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_nervous_02.max.fbx"
+  },
+  {
+    "name": "m_idle_nervous_03.max.fbx",
+    "type": "file",
+    "size": 2780736,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_nervous_03.max.fbx"
+  },
+  {
+    "name": "m_idle_neutral_01.max.fbx",
+    "type": "file",
+    "size": 2418544,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_neutral_01.max.fbx"
+  },
+  {
+    "name": "m_idle_neutral_02.max.fbx",
+    "type": "file",
+    "size": 2938656,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_neutral_02.max.fbx"
+  },
+  {
+    "name": "m_idle_neutral_03.max.fbx",
+    "type": "file",
+    "size": 5466800,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_neutral_03.max.fbx"
+  },
+  {
+    "name": "m_idle_neutral_04.max.fbx",
+    "type": "file",
+    "size": 6073920,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_neutral_04.max.fbx"
+  },
+  {
+    "name": "m_idle_neutral_05.max.fbx",
+    "type": "file",
+    "size": 5716640,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_neutral_05.max.fbx"
+  },
+  {
+    "name": "m_idle_neutral_06.max.fbx",
+    "type": "file",
+    "size": 5411552,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_neutral_06.max.fbx"
+  },
+  {
+    "name": "m_idle_neutral_07.max.fbx",
+    "type": "file",
+    "size": 5113152,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_neutral_07.max.fbx"
+  },
+  {
+    "name": "m_idle_neutral_08.max.fbx",
+    "type": "file",
+    "size": 8102912,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_neutral_08.max.fbx"
+  },
+  {
+    "name": "m_idle_neutral_09.max.fbx",
+    "type": "file",
+    "size": 3791648,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_neutral_09.max.fbx"
+  },
+  {
+    "name": "m_idle_roll_head_01.max.fbx",
+    "type": "file",
+    "size": 2265840,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_roll_head_01.max.fbx"
+  },
+  {
+    "name": "m_idle_scratch_head_01.max.fbx",
+    "type": "file",
+    "size": 1727040,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_scratch_head_01.max.fbx"
+  },
+  {
+    "name": "m_idle_scratch_head_02.max.fbx",
+    "type": "file",
+    "size": 1585712,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_scratch_head_02.max.fbx"
+  },
+  {
+    "name": "m_idle_shake_arms_01.max.fbx",
+    "type": "file",
+    "size": 1646368,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_shake_arms_01.max.fbx"
+  },
+  {
+    "name": "m_idle_shake_leg_01.max.fbx",
+    "type": "file",
+    "size": 1617360,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_shake_leg_01.max.fbx"
+  },
+  {
+    "name": "m_idle_stretch_arms_01.max.fbx",
+    "type": "file",
+    "size": 2060592,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_stretch_arms_01.max.fbx"
+  },
+  {
+    "name": "m_idle_touch_face_01.max.fbx",
+    "type": "file",
+    "size": 1926368,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_touch_face_01.max.fbx"
+  },
+  {
+    "name": "m_idle_touch_face_02.max.fbx",
+    "type": "file",
+    "size": 2113744,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_touch_face_02.max.fbx"
+  },
+  {
+    "name": "m_idle_touch_hair_01.max.fbx",
+    "type": "file",
+    "size": 1733056,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_touch_hair_01.max.fbx"
+  },
+  {
+    "name": "m_idle_waiting_01.max.fbx",
+    "type": "file",
+    "size": 7450000,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_waiting_01.max.fbx"
+  },
+  {
+    "name": "m_idle_waiting_02.max.fbx",
+    "type": "file",
+    "size": 5717376,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_waiting_02.max.fbx"
+  },
+  {
+    "name": "m_idle_yawn_01.max.fbx",
+    "type": "file",
+    "size": 2089808,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_yawn_01.max.fbx"
+  },
+  {
+    "name": "m_invite_sit.max.fbx",
+    "type": "file",
+    "size": 1592240,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_invite_sit.max.fbx"
+  },
+  {
+    "name": "m_knock_door.max.fbx",
+    "type": "file",
+    "size": 2333888,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_knock_door.max.fbx"
+  },
+  {
+    "name": "m_listen_door.max.fbx",
+    "type": "file",
+    "size": 2400672,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_listen_door.max.fbx"
+  },
+  {
+    "name": "m_moderate_01.max.fbx",
+    "type": "file",
+    "size": 6047328,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_moderate_01.max.fbx"
+  },
+  {
+    "name": "m_moderate_02.max.fbx",
+    "type": "file",
+    "size": 4459152,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_moderate_02.max.fbx"
+  },
+  {
+    "name": "m_newspaper_arm_idle.max.fbx",
+    "type": "file",
+    "size": 5732352,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_newspaper_arm_idle.max.fbx"
+  },
+  {
+    "name": "m_newspaper_hand_idle.max.fbx",
+    "type": "file",
+    "size": 5241040,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_newspaper_hand_idle.max.fbx"
+  },
+  {
+    "name": "m_sit_chair_breathe_01.max.fbx",
+    "type": "file",
+    "size": 2537504,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_chair_breathe_01.max.fbx"
+  },
+  {
+    "name": "m_sit_chair_gestic_shrug_01.max.fbx",
+    "type": "file",
+    "size": 1468560,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_chair_gestic_shrug_01.max.fbx"
+  },
+  {
+    "name": "m_sit_chair_gestic_shrug_02.max.fbx",
+    "type": "file",
+    "size": 1557376,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_chair_gestic_shrug_02.max.fbx"
+  },
+  {
+    "name": "m_sit_chair_gestic_thoughtful.max.fbx",
+    "type": "file",
+    "size": 3128272,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_chair_gestic_thoughtful.max.fbx"
+  },
+  {
+    "name": "m_sit_chair_idle_cough.max.fbx",
+    "type": "file",
+    "size": 1773824,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_chair_idle_cough.max.fbx"
+  },
+  {
+    "name": "m_sit_chair_idle_dust.max.fbx",
+    "type": "file",
+    "size": 1994256,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_chair_idle_dust.max.fbx"
+  },
+  {
+    "name": "m_sit_chair_idle_look_around.max.fbx",
+    "type": "file",
+    "size": 1997872,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_chair_idle_look_around.max.fbx"
+  },
+  {
+    "name": "m_sit_chair_idle_nervous_01.max.fbx",
+    "type": "file",
+    "size": 7222208,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_chair_idle_nervous_01.max.fbx"
+  },
+  {
+    "name": "m_sit_chair_idle_neutral_01.max.fbx",
+    "type": "file",
+    "size": 5868640,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_chair_idle_neutral_01.max.fbx"
+  },
+  {
+    "name": "m_sit_chair_idle_neutral_02.max.fbx",
+    "type": "file",
+    "size": 6408736,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_chair_idle_neutral_02.max.fbx"
+  },
+  {
+    "name": "m_sit_chair_idle_relaxed_01.max.fbx",
+    "type": "file",
+    "size": 5949808,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_chair_idle_relaxed_01.max.fbx"
+  },
+  {
+    "name": "m_sit_chair_idle_roll_head.max.fbx",
+    "type": "file",
+    "size": 2172208,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_chair_idle_roll_head.max.fbx"
+  },
+  {
+    "name": "m_sit_chair_idle_scratch_head.max.fbx",
+    "type": "file",
+    "size": 2020864,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_chair_idle_scratch_head.max.fbx"
+  },
+  {
+    "name": "m_sit_chair_idle_touch_face.max.fbx",
+    "type": "file",
+    "size": 2172512,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_chair_idle_touch_face.max.fbx"
+  },
+  {
+    "name": "m_sit_chair_idle_touch_hair.max.fbx",
+    "type": "file",
+    "size": 2199088,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_chair_idle_touch_hair.max.fbx"
+  },
+  {
+    "name": "m_sit_chair_idle_waiting_01.max.fbx",
+    "type": "file",
+    "size": 7987600,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_chair_idle_waiting_01.max.fbx"
+  },
+  {
+    "name": "m_sit_chair_idle_waiting_02.max.fbx",
+    "type": "file",
+    "size": 7669600,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_chair_idle_waiting_02.max.fbx"
+  },
+  {
+    "name": "m_sit_chair_idle_yawn.max.fbx",
+    "type": "file",
+    "size": 2265648,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_chair_idle_yawn.max.fbx"
+  },
+  {
+    "name": "m_sit_table_breathe_01.max.fbx",
+    "type": "file",
+    "size": 2531376,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_table_breathe_01.max.fbx"
+  },
+  {
+    "name": "m_sit_table_gestic_shrug_01.max.fbx",
+    "type": "file",
+    "size": 1601936,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_table_gestic_shrug_01.max.fbx"
+  },
+  {
+    "name": "m_sit_table_gestic_shrug_02.max.fbx",
+    "type": "file",
+    "size": 1726320,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_table_gestic_shrug_02.max.fbx"
+  },
+  {
+    "name": "m_sit_table_gestic_thoughtful.max.fbx",
+    "type": "file",
+    "size": 3168208,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_table_gestic_thoughtful.max.fbx"
+  },
+  {
+    "name": "m_sit_table_idle_cough.max.fbx",
+    "type": "file",
+    "size": 1744192,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_table_idle_cough.max.fbx"
+  },
+  {
+    "name": "m_sit_table_idle_dust.max.fbx",
+    "type": "file",
+    "size": 2115536,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_table_idle_dust.max.fbx"
+  },
+  {
+    "name": "m_sit_table_idle_look_around.max.fbx",
+    "type": "file",
+    "size": 1983056,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_table_idle_look_around.max.fbx"
+  },
+  {
+    "name": "m_sit_table_idle_nervous_01.max.fbx",
+    "type": "file",
+    "size": 5712096,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_table_idle_nervous_01.max.fbx"
+  },
+  {
+    "name": "m_sit_table_idle_neutral_01.max.fbx",
+    "type": "file",
+    "size": 7189408,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_table_idle_neutral_01.max.fbx"
+  },
+  {
+    "name": "m_sit_table_idle_neutral_02.max.fbx",
+    "type": "file",
+    "size": 5960992,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_table_idle_neutral_02.max.fbx"
+  },
+  {
+    "name": "m_sit_table_idle_relaxed_01.max.fbx",
+    "type": "file",
+    "size": 7158896,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_table_idle_relaxed_01.max.fbx"
+  },
+  {
+    "name": "m_sit_table_idle_roll_head.max.fbx",
+    "type": "file",
+    "size": 2374048,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_table_idle_roll_head.max.fbx"
+  },
+  {
+    "name": "m_sit_table_idle_scratch_head.max.fbx",
+    "type": "file",
+    "size": 2133168,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_table_idle_scratch_head.max.fbx"
+  },
+  {
+    "name": "m_sit_table_idle_touch_face.max.fbx",
+    "type": "file",
+    "size": 2232720,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_table_idle_touch_face.max.fbx"
+  },
+  {
+    "name": "m_sit_table_idle_touch_hair.max.fbx",
+    "type": "file",
+    "size": 2414176,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_table_idle_touch_hair.max.fbx"
+  },
+  {
+    "name": "m_sit_table_idle_waiting_01.max.fbx",
+    "type": "file",
+    "size": 5398576,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_table_idle_waiting_01.max.fbx"
+  },
+  {
+    "name": "m_sit_table_idle_yawn.max.fbx",
+    "type": "file",
+    "size": 2014752,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_sit_table_idle_yawn.max.fbx"
+  },
+  {
+    "name": "m_take_picture.max.fbx",
+    "type": "file",
+    "size": 1969648,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_take_picture.max.fbx"
+  },
+  {
+    "name": "m_trolley_idle.max.fbx",
+    "type": "file",
+    "size": 5322480,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_trolley_idle.max.fbx"
+  },
+  {
+    "name": "m_try_door_inwards.max.fbx",
+    "type": "file",
+    "size": 1972400,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_try_door_inwards.max.fbx"
+  },
+  {
+    "name": "m_try_door_outwards.max.fbx",
+    "type": "file",
+    "size": 1972496,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_try_door_outwards.max.fbx"
+  },
+  {
+    "name": "m_umbrella_idle_01.max.fbx",
+    "type": "file",
+    "size": 6778816,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_umbrella_idle_01.max.fbx"
+  },
+  {
+    "name": "m_umbrella_idle_02.max.fbx",
+    "type": "file",
+    "size": 5262464,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_umbrella_idle_02.max.fbx"
+  },
+  {
+    "name": "m_wave_01.max.fbx",
+    "type": "file",
+    "size": 1424016,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_wave_01.max.fbx"
+  },
+  {
+    "name": "m_wave_02.max.fbx",
+    "type": "file",
+    "size": 1972368,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_wave_02.max.fbx"
+  },
+  {
+    "name": "m_work_mid.max.fbx",
+    "type": "file",
+    "size": 2477312,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_work_mid.max.fbx"
+  },
+  {
+    "name": "m_work_table.max.fbx",
+    "type": "file",
+    "size": 2405424,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_work_table.max.fbx"
+  }
+]

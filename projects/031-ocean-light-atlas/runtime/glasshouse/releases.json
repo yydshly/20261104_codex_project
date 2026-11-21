@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "id": "4.3-20261115",
+      "entry": "./releases/4.3-20261115/index.html",
+      "manifest": "./releases/4.3-20261115/release.json",
+      "manifestSha256": "d6546b3cce001d0ecb8d04be364295f4722191adc5736434efcd43f012f85e1d"
+    }
+  ]
+}

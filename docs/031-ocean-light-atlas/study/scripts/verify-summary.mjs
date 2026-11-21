@@ -1,0 +1,28 @@
+import { chromium } from '../.qa-runtime/node_modules/playwright/index.mjs';
+import { readFile,writeFile } from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const origin=process.env.OCEAN_PREVIEW_URL||'http://127.0.0.1:4198',report={checkedOn:'2026-11-21',errors:[],checks:[],media:[]};
+const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});
+try{
+ const context=await browser.newContext({viewport:{width:1360,height:1000},acceptDownloads:true,reducedMotion:'reduce'}),page=await context.newPage();page.on('pageerror',e=>report.errors.push(String(e)));page.on('console',m=>{if(m.type()==='error')report.errors.push(m.text());});page.on('response',r=>{if(r.status()>=400)report.errors.push(`${r.status()} ${r.url()}`);});
+ await page.goto(origin+'/glasshouse/summary.html');await page.waitForSelector('body[data-summary-ready="true"]');
+ assert.equal(await page.locator('#recap-understanding article').count(),5);assert.equal(await page.locator('#recap-implemented article').count(),6);assert.equal(await page.locator('#recap-future article').count(),4);assert(await page.locator('#recap-error').isHidden());assert.match(await page.locator('#recap-decision').textContent(),/产品方向待定/);assert.match(await page.locator('#recap-decision').textContent(),/暂不继续扩展/);assert.match(await page.locator('#recap-release').textContent(),/53个文件/);assert.match(await page.locator('#recap-release').textContent(),/2026-11-21/);
+ for(const article of await page.locator('#recap-future article').all())assert.match(await article.locator('.tag').textContent(),/未实现/);
+ report.checks.push('five shared understandings, six result groups, four explicitly unimplemented ideas; product undecided and extension on hold');
+ const links=await page.locator('a[href]').evaluateAll(list=>[...new Set(list.map(a=>a.href))]);let checked=0;
+ for(const href of links){const url=new URL(href);if(url.origin!==origin)continue;const response=await context.request.head(url.href);assert.equal(response.status(),200,url.href);checked++;}
+ const missing=await page.locator('a[href^="#"]').evaluateAll(list=>list.map(a=>a.getAttribute('href')).filter(h=>h!=='#'&&!document.getElementById(h.slice(1))));assert.deepEqual(missing,[]);report.checks.push(`${checked} local page, source, media and record links resolve; all section anchors exist`);
+ await page.locator('.recap-image img').evaluate(img=>img.decode());await page.screenshot({path:'screenshots/summary20261121-desktop.png'});await page.locator('#product').scrollIntoViewIfNeeded();await page.screenshot({path:'screenshots/summary20261121-product.png'});
+ for(let i=0;i<2;i++){
+  if(i===1)await page.locator('.recap-support>summary').click();
+  const video=page.locator('video').nth(i);await video.scrollIntoViewIfNeeded();await video.evaluate(async e=>{e.muted=true;await e.play();});await page.waitForTimeout(650);
+  const media=await video.evaluate(e=>({src:e.currentSrc,time:e.currentTime,duration:e.duration,width:e.videoWidth,height:e.videoHeight,error:e.error?.message||null}));assert(media.time>.2);assert.equal(media.width,1280);assert.equal(media.error,null);assert(Math.abs(media.duration-(i===0?16.449:15.957))<.1);report.media.push(media);
+  await video.evaluate(e=>e.currentTime=e.duration-1.5);await page.waitForTimeout(200);assert(await video.evaluate(e=>e.currentTime>e.duration-1.6));await video.evaluate(e=>e.pause());
+ }
+ await page.locator('.recap-support img').evaluate(img=>img.decode());report.checks.push('both historical 4.3 recordings play and seek; actual screenshots load');
+ const downloadEvent=page.waitForEvent('download');await page.locator('a[download][href="./summary.json"]').click();const download=await downloadEvent,data=JSON.parse(await readFile(await download.path(),'utf8'));assert.equal(data.updatedOn,'2026-11-21');assert.equal(data.implemented.length,6);assert.match(data.currentDecision.development,/暂不继续扩展/);assert.match(data.currentDecision.product,/待定/);report.checks.push('downloaded summary retains scope, fixed version and pending product decision');
+ await page.setViewportSize({width:390,height:844});await page.evaluate(()=>scrollTo({top:0,behavior:'instant'}));assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth),390);await page.screenshot({path:'screenshots/summary20261121-mobile.png'});await page.locator('#product').scrollIntoViewIfNeeded();assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth),390);await page.screenshot({path:'screenshots/summary20261121-product-mobile.png'});report.checks.push('390px summary and product decision fit without horizontal overflow');
+ await page.goto(origin+'/');await page.locator('.spatial-copy a[href="./glasshouse/summary.html"]').click();await page.waitForSelector('body[data-summary-ready="true"]');report.checks.push('effect collection homepage opens the new summary');
+ await page.locator('#recap-demo').click();await page.locator('#loading').waitFor({state:'hidden',timeout:60000});assert.equal(await page.locator('#scene').getAttribute('data-guide-asset-hash'),'bee62731b932e907f66eca8e58dc42daf8565f2501f77ab9e71cd20c3a0336f1');report.checks.push('summary opens the saved 4.3 runtime and original accepted character asset');
+ assert.deepEqual(report.errors,[]);report.result='passed';console.log(JSON.stringify({result:report.result,checks:report.checks,media:report.media.map(m=>({duration:m.duration,time:m.time}))}));await context.close();
+}finally{await writeFile('screenshots/summary20261121-checks.json',JSON.stringify(report,null,2));await browser.close();}

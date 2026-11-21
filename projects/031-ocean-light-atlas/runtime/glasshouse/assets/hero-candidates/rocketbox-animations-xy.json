@@ -1,0 +1,428 @@
+[
+  {
+    "name": "f_run_extremefemale.max.fbx",
+    "type": "file",
+    "size": 868272,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_run_extremefemale.max.fbx"
+  },
+  {
+    "name": "f_run_fast_01.max.fbx",
+    "type": "file",
+    "size": 859600,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_run_fast_01.max.fbx"
+  },
+  {
+    "name": "f_run_funny_01.max.fbx",
+    "type": "file",
+    "size": 859600,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_run_funny_01.max.fbx"
+  },
+  {
+    "name": "f_run_funny_02.max.fbx",
+    "type": "file",
+    "size": 850544,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_run_funny_02.max.fbx"
+  },
+  {
+    "name": "f_run_injured.max.fbx",
+    "type": "file",
+    "size": 877296,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_run_injured.max.fbx"
+  },
+  {
+    "name": "f_run_neutral.max.fbx",
+    "type": "file",
+    "size": 895504,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_run_neutral.max.fbx"
+  },
+  {
+    "name": "f_run_neutral_01.max.fbx",
+    "type": "file",
+    "size": 877504,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_run_neutral_01.max.fbx"
+  },
+  {
+    "name": "f_run_neutral_02.max.fbx",
+    "type": "file",
+    "size": 895216,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_run_neutral_02.max.fbx"
+  },
+  {
+    "name": "f_run_slow_01.max.fbx",
+    "type": "file",
+    "size": 895392,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_run_slow_01.max.fbx"
+  },
+  {
+    "name": "f_run_slow_02.max.fbx",
+    "type": "file",
+    "size": 886256,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_run_slow_02.max.fbx"
+  },
+  {
+    "name": "f_run_start.max.fbx",
+    "type": "file",
+    "size": 957904,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_run_start.max.fbx"
+  },
+  {
+    "name": "f_run_stop.max.fbx",
+    "type": "file",
+    "size": 1120448,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_run_stop.max.fbx"
+  },
+  {
+    "name": "f_run_to_walk.max.fbx",
+    "type": "file",
+    "size": 1147040,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_run_to_walk.max.fbx"
+  },
+  {
+    "name": "f_walk_bruised.max.fbx",
+    "type": "file",
+    "size": 948912,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_walk_bruised.max.fbx"
+  },
+  {
+    "name": "f_walk_cool_01.max.fbx",
+    "type": "file",
+    "size": 1029584,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_walk_cool_01.max.fbx"
+  },
+  {
+    "name": "f_walk_cool_02.max.fbx",
+    "type": "file",
+    "size": 1119216,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_walk_cool_02.max.fbx"
+  },
+  {
+    "name": "f_walk_drunk.max.fbx",
+    "type": "file",
+    "size": 1020624,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_walk_drunk.max.fbx"
+  },
+  {
+    "name": "f_walk_extremefemale.max.fbx",
+    "type": "file",
+    "size": 939888,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_walk_extremefemale.max.fbx"
+  },
+  {
+    "name": "f_walk_fast_01.max.fbx",
+    "type": "file",
+    "size": 948912,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_walk_fast_01.max.fbx"
+  },
+  {
+    "name": "f_walk_fast_02.max.fbx",
+    "type": "file",
+    "size": 839936,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_walk_fast_02.max.fbx"
+  },
+  {
+    "name": "f_walk_fast_03.max.fbx",
+    "type": "file",
+    "size": 958176,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_walk_fast_03.max.fbx"
+  },
+  {
+    "name": "f_walk_funny_01.max.fbx",
+    "type": "file",
+    "size": 1012352,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_walk_funny_01.max.fbx"
+  },
+  {
+    "name": "f_walk_funny_02.max.fbx",
+    "type": "file",
+    "size": 913744,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_walk_funny_02.max.fbx"
+  },
+  {
+    "name": "f_walk_injured.max.fbx",
+    "type": "file",
+    "size": 975776,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_walk_injured.max.fbx"
+  },
+  {
+    "name": "f_walk_neutral.max.fbx",
+    "type": "file",
+    "size": 1002832,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_walk_neutral.max.fbx"
+  },
+  {
+    "name": "f_walk_neutral_01.max.fbx",
+    "type": "file",
+    "size": 993792,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_walk_neutral_01.max.fbx"
+  },
+  {
+    "name": "f_walk_neutral_02.max.fbx",
+    "type": "file",
+    "size": 1003600,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_walk_neutral_02.max.fbx"
+  },
+  {
+    "name": "f_walk_neutral_03.max.fbx",
+    "type": "file",
+    "size": 1039536,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_walk_neutral_03.max.fbx"
+  },
+  {
+    "name": "f_walk_neutral_04.max.fbx",
+    "type": "file",
+    "size": 1002848,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_walk_neutral_04.max.fbx"
+  },
+  {
+    "name": "f_walk_self-assured.max.fbx",
+    "type": "file",
+    "size": 994832,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_walk_self-assured.max.fbx"
+  },
+  {
+    "name": "f_walk_slow_01.max.fbx",
+    "type": "file",
+    "size": 1075504,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_walk_slow_01.max.fbx"
+  },
+  {
+    "name": "f_walk_slow_02.max.fbx",
+    "type": "file",
+    "size": 1039504,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_walk_slow_02.max.fbx"
+  },
+  {
+    "name": "f_walk_start.max.fbx",
+    "type": "file",
+    "size": 922800,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_walk_start.max.fbx"
+  },
+  {
+    "name": "f_walk_stop.max.fbx",
+    "type": "file",
+    "size": 1147184,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_walk_stop.max.fbx"
+  },
+  {
+    "name": "f_walk_stroll_01.max.fbx",
+    "type": "file",
+    "size": 1048576,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_walk_stroll_01.max.fbx"
+  },
+  {
+    "name": "f_walk_stroll_02.max.fbx",
+    "type": "file",
+    "size": 1253616,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_walk_stroll_02.max.fbx"
+  },
+  {
+    "name": "f_walk_to_run.max.fbx",
+    "type": "file",
+    "size": 1200944,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_walk_to_run.max.fbx"
+  },
+  {
+    "name": "m_cheer_02.max.fbx",
+    "type": "file",
+    "size": 4165232,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_cheer_02.max.fbx"
+  },
+  {
+    "name": "m_crouch_in.max.fbx",
+    "type": "file",
+    "size": 1634800,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_crouch_in.max.fbx"
+  },
+  {
+    "name": "m_crouch_out.max.fbx",
+    "type": "file",
+    "size": 1634608,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_crouch_out.max.fbx"
+  },
+  {
+    "name": "m_run_fast_01.max.fbx",
+    "type": "file",
+    "size": 833040,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_run_fast_01.max.fbx"
+  },
+  {
+    "name": "m_run_fast_02.max.fbx",
+    "type": "file",
+    "size": 814992,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_run_fast_02.max.fbx"
+  },
+  {
+    "name": "m_run_funny_02.max.fbx",
+    "type": "file",
+    "size": 859984,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_run_funny_02.max.fbx"
+  },
+  {
+    "name": "m_run_injured.max.fbx",
+    "type": "file",
+    "size": 850704,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_run_injured.max.fbx"
+  },
+  {
+    "name": "m_run_neutral.max.fbx",
+    "type": "file",
+    "size": 877760,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_run_neutral.max.fbx"
+  },
+  {
+    "name": "m_run_neutral_01.max.fbx",
+    "type": "file",
+    "size": 868752,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_run_neutral_01.max.fbx"
+  },
+  {
+    "name": "m_run_neutral_02.max.fbx",
+    "type": "file",
+    "size": 877776,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_run_neutral_02.max.fbx"
+  },
+  {
+    "name": "m_run_slow_01.max.fbx",
+    "type": "file",
+    "size": 877200,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_run_slow_01.max.fbx"
+  },
+  {
+    "name": "m_run_slow_02.max.fbx",
+    "type": "file",
+    "size": 886352,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_run_slow_02.max.fbx"
+  },
+  {
+    "name": "m_run_start.max.fbx",
+    "type": "file",
+    "size": 841824,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_run_start.max.fbx"
+  },
+  {
+    "name": "m_run_stop.max.fbx",
+    "type": "file",
+    "size": 1012752,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_run_stop.max.fbx"
+  },
+  {
+    "name": "m_run_to_walk.max.fbx",
+    "type": "file",
+    "size": 887056,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_run_to_walk.max.fbx"
+  },
+  {
+    "name": "m_walk_bruised.max.fbx",
+    "type": "file",
+    "size": 1352016,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_walk_bruised.max.fbx"
+  },
+  {
+    "name": "m_walk_cool_01.max.fbx",
+    "type": "file",
+    "size": 1012368,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_walk_cool_01.max.fbx"
+  },
+  {
+    "name": "m_walk_cool_02.max.fbx",
+    "type": "file",
+    "size": 976464,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_walk_cool_02.max.fbx"
+  },
+  {
+    "name": "m_walk_drunk.max.fbx",
+    "type": "file",
+    "size": 1342864,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_walk_drunk.max.fbx"
+  },
+  {
+    "name": "m_walk_fast_01.max.fbx",
+    "type": "file",
+    "size": 957776,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_walk_fast_01.max.fbx"
+  },
+  {
+    "name": "m_walk_fast_02.max.fbx",
+    "type": "file",
+    "size": 913536,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_walk_fast_02.max.fbx"
+  },
+  {
+    "name": "m_walk_funny_01.max.fbx",
+    "type": "file",
+    "size": 1030528,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_walk_funny_01.max.fbx"
+  },
+  {
+    "name": "m_walk_funny_02.max.fbx",
+    "type": "file",
+    "size": 949648,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_walk_funny_02.max.fbx"
+  },
+  {
+    "name": "m_walk_neutral.max.fbx",
+    "type": "file",
+    "size": 958512,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_walk_neutral.max.fbx"
+  },
+  {
+    "name": "m_walk_neutral_01.max.fbx",
+    "type": "file",
+    "size": 994336,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_walk_neutral_01.max.fbx"
+  },
+  {
+    "name": "m_walk_neutral_02.max.fbx",
+    "type": "file",
+    "size": 958640,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_walk_neutral_02.max.fbx"
+  },
+  {
+    "name": "m_walk_neutral_03.max.fbx",
+    "type": "file",
+    "size": 958528,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_walk_neutral_03.max.fbx"
+  },
+  {
+    "name": "m_walk_slow_01.max.fbx",
+    "type": "file",
+    "size": 1066224,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_walk_slow_01.max.fbx"
+  },
+  {
+    "name": "m_walk_slow_02.max.fbx",
+    "type": "file",
+    "size": 1012240,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_walk_slow_02.max.fbx"
+  },
+  {
+    "name": "m_walk_start.max.fbx",
+    "type": "file",
+    "size": 931792,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_walk_start.max.fbx"
+  },
+  {
+    "name": "m_walk_stop.max.fbx",
+    "type": "file",
+    "size": 1209760,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_walk_stop.max.fbx"
+  },
+  {
+    "name": "m_walk_stroll_01.max.fbx",
+    "type": "file",
+    "size": 1093264,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_walk_stroll_01.max.fbx"
+  },
+  {
+    "name": "m_walk_stroll_02.max.fbx",
+    "type": "file",
+    "size": 1163680,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_walk_stroll_02.max.fbx"
+  },
+  {
+    "name": "m_walk_to_run.max.fbx",
+    "type": "file",
+    "size": 922608,
+    "download_url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_walk_to_run.max.fbx"
+  }
+]

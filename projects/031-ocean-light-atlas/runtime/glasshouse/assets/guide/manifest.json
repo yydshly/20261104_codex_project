@@ -1,0 +1,109 @@
+{
+  "name": "海边向导 / Seaside Guide",
+  "version": "1.0.0",
+  "reference": "User-supplied four-view character image; visual reference, not a scan.",
+  "baseAuthor": "Quaternius",
+  "baseLicense": "CC0-1.0",
+  "baseSource": "https://quaternius.itch.io/universal-base-characters",
+  "animationSource": "https://quaternius.itch.io/universal-animation-library",
+  "derivedWork": "Original clothing, short hair, round spectacles, face adjustments, seated fitting and guide gesture baking.",
+  "up": "+Y",
+  "forward": "+Z",
+  "heightMeters": 1.8259,
+  "bones": 65,
+  "animations": [
+    {
+      "name": "Idle",
+      "duration": 4.0,
+      "loop": true
+    },
+    {
+      "name": "Walk",
+      "duration": 1.1,
+      "loop": true
+    },
+    {
+      "name": "Wave",
+      "duration": 3.2,
+      "loop": false
+    },
+    {
+      "name": "Point",
+      "duration": 3.0,
+      "loop": false
+    },
+    {
+      "name": "SitDown",
+      "duration": 1.4,
+      "loop": false
+    },
+    {
+      "name": "SitIdle",
+      "duration": 4.0,
+      "loop": true
+    },
+    {
+      "name": "StandUp",
+      "duration": 1.4,
+      "loop": false
+    }
+  ],
+  "outfits": [
+    {
+      "id": "hoodie",
+      "label": "原型 · 深蓝卫衣",
+      "file": "guide-hoodie.glb",
+      "bytes": 4720672,
+      "sha256": "e94fb171db9bc1632e2b53c2b10d4dc743e6f36dff071e4c8a8b01aab35f12c0",
+      "meshes": 31,
+      "animations": [
+        "Idle",
+        "Point",
+        "SitDown",
+        "SitIdle",
+        "StandUp",
+        "Walk",
+        "Wave"
+      ]
+    },
+    {
+      "id": "linen",
+      "label": "海边 · 亚麻衫",
+      "file": "guide-linen.glb",
+      "bytes": 4818172,
+      "sha256": "843b65ee5e61ecf95dc8f8c55049c5d78ed8484e550d84ee22070f5f0cf570ce",
+      "meshes": 29,
+      "animations": [
+        "Idle",
+        "Point",
+        "SitDown",
+        "SitIdle",
+        "StandUp",
+        "Walk",
+        "Wave"
+      ]
+    },
+    {
+      "id": "knit",
+      "label": "暮色 · 针织衫",
+      "file": "guide-knit.glb",
+      "bytes": 4623356,
+      "sha256": "0ce23e7019b986de31d3d3b300e5dba1a9fb087b98d7a37c6516ce530a48cbcb",
+      "meshes": 26,
+      "animations": [
+        "Idle",
+        "Point",
+        "SitDown",
+        "SitIdle",
+        "StandUp",
+        "Walk",
+        "Wave"
+      ]
+    }
+  ],
+  "limits": [
+    "Likeness adaptation, not exact facial reconstruction",
+    "No cloth simulation or full-body collision solver",
+    "Walking motion is in-place; route controller supplies translation"
+  ]
+}

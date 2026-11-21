@@ -1,0 +1,1406 @@
+{
+  "errors": [],
+  "walks": [
+    {
+      "touch": false,
+      "before": {
+        "time": 31558.10000000894,
+        "position": [
+          -6.8,
+          1.557,
+          4.3
+        ],
+        "phase": "idle",
+        "mode": "manual",
+        "action": "Idle",
+        "speed": 0,
+        "inputAt": null,
+        "motionAt": null,
+        "seat": {
+          "stage": "idle",
+          "slot": "south",
+          "seat": "room-sofa",
+          "elapsed": 0,
+          "autoReturn": false,
+          "near": true,
+          "pose": null
+        },
+        "feet": {
+          "stairs": false,
+          "bodyOffset": 0,
+          "feet": [
+            {
+              "side": "L",
+              "swing": false,
+              "ankle": [
+                -6.7512,
+                1.6524,
+                4.1989
+              ],
+              "clearance": 0.0039,
+              "probes": 40
+            },
+            {
+              "side": "R",
+              "swing": false,
+              "ankle": [
+                -6.9569,
+                1.7083,
+                4.3924
+              ],
+              "clearance": 0.0038,
+              "probes": 43
+            }
+          ]
+        },
+        "guard": {
+          "adjusted": false,
+          "blocker": null,
+          "adjustments": 28,
+          "lastBlocker": "pavilion geometry",
+          "distance": 1.618,
+          "clear": true
+        }
+      },
+      "first": {
+        "time": 31571.79999999702,
+        "position": [
+          -6.8,
+          1.557,
+          4.3
+        ],
+        "phase": "manual-walking",
+        "mode": "manual",
+        "action": "Walk",
+        "speed": 0,
+        "inputAt": 31565.60000000894,
+        "motionAt": null,
+        "seat": {
+          "stage": "idle",
+          "slot": "south",
+          "seat": "room-sofa",
+          "elapsed": 0,
+          "autoReturn": false,
+          "near": true,
+          "pose": null
+        },
+        "feet": {
+          "stairs": false,
+          "bodyOffset": 0,
+          "feet": [
+            {
+              "side": "L",
+              "swing": false,
+              "ankle": [
+                -6.7512,
+                1.6524,
+                4.1989
+              ],
+              "clearance": 0.0039,
+              "probes": 40
+            },
+            {
+              "side": "R",
+              "swing": false,
+              "ankle": [
+                -6.9569,
+                1.7083,
+                4.3924
+              ],
+              "clearance": 0.0038,
+              "probes": 43
+            }
+          ]
+        },
+        "guard": {
+          "adjusted": false,
+          "blocker": null,
+          "adjustments": 28,
+          "lastBlocker": "pavilion geometry",
+          "distance": 1.618,
+          "clear": true
+        }
+      },
+      "moving": {
+        "time": 31643.70000000298,
+        "position": [
+          -6.8,
+          1.557,
+          4.279
+        ],
+        "phase": "manual-walking",
+        "mode": "manual",
+        "action": "Walk",
+        "speed": 0.414,
+        "inputAt": 31565.60000000894,
+        "motionAt": 31589.40000000596,
+        "seat": {
+          "stage": "idle",
+          "slot": "south",
+          "seat": "room-sofa",
+          "elapsed": 0,
+          "autoReturn": false,
+          "near": true,
+          "pose": null
+        },
+        "feet": {
+          "stairs": false,
+          "bodyOffset": 0,
+          "feet": [
+            {
+              "side": "L",
+              "swing": false,
+              "ankle": [
+                -6.8623,
+                1.7117,
+                4.1452
+              ],
+              "clearance": 0.0121,
+              "probes": 40
+            },
+            {
+              "side": "R",
+              "swing": false,
+              "ankle": [
+                -6.8441,
+                1.6505,
+                4.339
+              ],
+              "clearance": 0.0021,
+              "probes": 43
+            }
+          ]
+        },
+        "guard": {
+          "adjusted": false,
+          "blocker": null,
+          "adjustments": 28,
+          "lastBlocker": "pavilion geometry",
+          "distance": 1.618,
+          "clear": true
+        }
+      },
+      "stopped": {
+        "time": 33314.10000000894,
+        "position": [
+          -6.8,
+          1.557,
+          3.048
+        ],
+        "phase": "idle",
+        "mode": "manual",
+        "action": "Idle",
+        "speed": 0,
+        "inputAt": 31565.60000000894,
+        "motionAt": 31589.40000000596,
+        "seat": {
+          "stage": "idle",
+          "slot": "middle",
+          "seat": "room-sofa",
+          "elapsed": 0,
+          "autoReturn": false,
+          "near": true,
+          "pose": null
+        },
+        "feet": {
+          "stairs": false,
+          "bodyOffset": 0,
+          "feet": [
+            {
+              "side": "L",
+              "swing": false,
+              "ankle": [
+                -7.1489,
+                1.7973,
+                2.9171
+              ],
+              "clearance": 0.0685,
+              "probes": 40
+            },
+            {
+              "side": "R",
+              "swing": false,
+              "ankle": [
+                -6.6669,
+                1.6599,
+                3.0751
+              ],
+              "clearance": 0.0126,
+              "probes": 43
+            }
+          ]
+        },
+        "guard": {
+          "adjusted": false,
+          "blocker": null,
+          "adjustments": 28,
+          "lastBlocker": "pavilion geometry",
+          "distance": 1.618,
+          "clear": true
+        }
+      },
+      "responseMs": 23.799999997019768
+    },
+    {
+      "touch": true,
+      "before": {
+        "time": 45997,
+        "position": [
+          -6.8,
+          1.557,
+          3.024
+        ],
+        "phase": "idle",
+        "mode": "manual",
+        "action": "Idle",
+        "speed": 0,
+        "inputAt": 31565.60000000894,
+        "motionAt": 31589.40000000596,
+        "seat": {
+          "stage": "idle",
+          "slot": "middle",
+          "seat": "room-sofa",
+          "elapsed": 0,
+          "autoReturn": false,
+          "near": true,
+          "pose": null
+        },
+        "feet": {
+          "stairs": false,
+          "bodyOffset": 0,
+          "feet": [
+            {
+              "side": "L",
+              "swing": false,
+              "ankle": [
+                -6.8073,
+                1.652,
+                2.9022
+              ],
+              "clearance": 0.004,
+              "probes": 40
+            },
+            {
+              "side": "R",
+              "swing": false,
+              "ankle": [
+                -6.8072,
+                1.6518,
+                3.1462
+              ],
+              "clearance": 0.0041,
+              "probes": 43
+            }
+          ]
+        },
+        "guard": {
+          "adjusted": false,
+          "blocker": null,
+          "adjustments": 28,
+          "lastBlocker": "pavilion geometry",
+          "distance": 1.17,
+          "clear": true
+        }
+      },
+      "first": {
+        "time": 46036.5,
+        "position": [
+          -6.8,
+          1.557,
+          3.024
+        ],
+        "phase": "manual-walking",
+        "mode": "manual",
+        "action": "Walk",
+        "speed": 0,
+        "inputAt": 46029.60000000894,
+        "motionAt": 31589.40000000596,
+        "seat": {
+          "stage": "idle",
+          "slot": "middle",
+          "seat": "room-sofa",
+          "elapsed": 0,
+          "autoReturn": false,
+          "near": true,
+          "pose": null
+        },
+        "feet": {
+          "stairs": false,
+          "bodyOffset": 0,
+          "feet": [
+            {
+              "side": "L",
+              "swing": false,
+              "ankle": [
+                -6.8073,
+                1.652,
+                2.9022
+              ],
+              "clearance": 0.004,
+              "probes": 40
+            },
+            {
+              "side": "R",
+              "swing": false,
+              "ankle": [
+                -6.8072,
+                1.6518,
+                3.1462
+              ],
+              "clearance": 0.0041,
+              "probes": 43
+            }
+          ]
+        },
+        "guard": {
+          "adjusted": false,
+          "blocker": null,
+          "adjustments": 28,
+          "lastBlocker": "pavilion geometry",
+          "distance": 1.17,
+          "clear": true
+        }
+      },
+      "moving": {
+        "time": 46125.29999999702,
+        "position": [
+          -6.8,
+          1.557,
+          3.024
+        ],
+        "phase": "manual-walking",
+        "mode": "manual",
+        "action": "Walk",
+        "speed": 0.516,
+        "inputAt": 46029.60000000894,
+        "motionAt": 46050.29999999702,
+        "seat": {
+          "stage": "idle",
+          "slot": "middle",
+          "seat": "room-sofa",
+          "elapsed": 0,
+          "autoReturn": false,
+          "near": true,
+          "pose": null
+        },
+        "feet": {
+          "stairs": false,
+          "bodyOffset": 0,
+          "feet": [
+            {
+              "side": "L",
+              "swing": false,
+              "ankle": [
+                -6.8073,
+                1.652,
+                2.9022
+              ],
+              "clearance": 0.004,
+              "probes": 40
+            },
+            {
+              "side": "R",
+              "swing": false,
+              "ankle": [
+                -6.8072,
+                1.6518,
+                3.1462
+              ],
+              "clearance": 0.0041,
+              "probes": 43
+            }
+          ]
+        },
+        "guard": {
+          "adjusted": false,
+          "blocker": null,
+          "adjustments": 28,
+          "lastBlocker": "pavilion geometry",
+          "distance": 1.17,
+          "clear": true
+        }
+      },
+      "stopped": {
+        "time": 48118,
+        "position": [
+          -6.8,
+          1.557,
+          1.527
+        ],
+        "phase": "idle",
+        "mode": "manual",
+        "action": "Idle",
+        "speed": 0,
+        "inputAt": 46029.60000000894,
+        "motionAt": 46050.29999999702,
+        "seat": {
+          "stage": "idle",
+          "slot": "north",
+          "seat": "room-sofa",
+          "elapsed": 0,
+          "autoReturn": false,
+          "near": true,
+          "pose": null
+        },
+        "feet": {
+          "stairs": false,
+          "bodyOffset": 0,
+          "feet": [
+            {
+              "side": "L",
+              "swing": false,
+              "ankle": [
+                -6.8366,
+                1.7666,
+                1.3946
+              ],
+              "clearance": 0.0612,
+              "probes": 40
+            },
+            {
+              "side": "R",
+              "swing": false,
+              "ankle": [
+                -6.8898,
+                1.6527,
+                1.5564
+              ],
+              "clearance": 0.0038,
+              "probes": 43
+            }
+          ]
+        },
+        "guard": {
+          "adjusted": false,
+          "blocker": null,
+          "adjustments": 28,
+          "lastBlocker": "pavilion geometry",
+          "distance": 1.17,
+          "clear": true
+        }
+      },
+      "responseMs": 20.69999998807907
+    }
+  ],
+  "seats": [
+    {
+      "slot": "south",
+      "before": {
+        "time": 20065,
+        "position": [
+          -6.799,
+          1.55,
+          4.328
+        ],
+        "phase": "idle",
+        "mode": "manual",
+        "action": "Idle",
+        "speed": 0,
+        "inputAt": null,
+        "motionAt": null,
+        "seat": {
+          "stage": "idle",
+          "slot": "south",
+          "seat": "room-sofa",
+          "elapsed": 0,
+          "autoReturn": false,
+          "near": true,
+          "pose": null
+        },
+        "feet": {
+          "stairs": false,
+          "bodyOffset": 0,
+          "feet": [
+            {
+              "side": "L",
+              "swing": false,
+              "ankle": [
+                -6.8719,
+                1.6608,
+                4.465
+              ],
+              "clearance": 0.004,
+              "probes": 40
+            },
+            {
+              "side": "R",
+              "swing": false,
+              "ankle": [
+                -6.7337,
+                1.6782,
+                4.1485
+              ],
+              "clearance": 0.0311,
+              "probes": 43
+            }
+          ]
+        },
+        "guard": {
+          "adjusted": false,
+          "blocker": null,
+          "adjustments": 28,
+          "lastBlocker": "pavilion geometry",
+          "distance": 1.608,
+          "clear": true
+        }
+      },
+      "immediate": {
+        "time": 20081.40000000596,
+        "position": [
+          -6.799,
+          1.55,
+          4.328
+        ],
+        "phase": "rock-turn",
+        "mode": "guide",
+        "action": "Idle",
+        "speed": 0,
+        "inputAt": null,
+        "motionAt": null,
+        "seat": {
+          "stage": "idle",
+          "slot": "south",
+          "seat": "room-sofa",
+          "elapsed": 0,
+          "autoReturn": false,
+          "near": true,
+          "pose": null
+        },
+        "feet": {
+          "stairs": false,
+          "bodyOffset": 0,
+          "feet": [
+            {
+              "side": "L",
+              "swing": false,
+              "ankle": [
+                -6.8719,
+                1.6608,
+                4.465
+              ],
+              "clearance": 0.004,
+              "probes": 40
+            },
+            {
+              "side": "R",
+              "swing": false,
+              "ankle": [
+                -6.7337,
+                1.6782,
+                4.1485
+              ],
+              "clearance": 0.0311,
+              "probes": 43
+            }
+          ]
+        },
+        "guard": {
+          "adjusted": false,
+          "blocker": null,
+          "adjustments": 28,
+          "lastBlocker": "pavilion geometry",
+          "distance": 1.608,
+          "clear": true
+        }
+      },
+      "seated": {
+        "time": 26399.5,
+        "position": [
+          -7.38,
+          1.554,
+          4.3
+        ],
+        "phase": "rock-watch",
+        "mode": "guide",
+        "action": "Idle",
+        "speed": 0,
+        "inputAt": null,
+        "motionAt": null,
+        "seat": {
+          "stage": "watch",
+          "slot": "south",
+          "seat": "room-sofa",
+          "elapsed": 1.271,
+          "autoReturn": false,
+          "near": false,
+          "pose": {
+            "seat": "room-sofa",
+            "amount": 1,
+            "lean": -0.18,
+            "pelvis": [
+              -7.947999999225139,
+              2.0859999999999994,
+              4.299999999908846
+            ],
+            "hands": [
+              [
+                -7.729999989965758,
+                2.1709999831801685,
+                4.159999990815603
+              ],
+              [
+                -7.72000002958166,
+                2.3150000105633763,
+                4.740000002245654
+              ]
+            ],
+            "elbows": [
+              [
+                -7.8760608572912565,
+                2.3382989821445705,
+                4.051934117611085
+              ],
+              [
+                -7.942823773481251,
+                2.349744947717842,
+                4.639285734098697
+              ]
+            ],
+            "shoulders": [
+              [
+                -8.007044078337298,
+                2.570227119408358,
+                4.102359152404045
+              ],
+              [
+                -8.006864213311745,
+                2.5721509052269846,
+                4.498132400869665
+              ]
+            ],
+            "seatTop": 1.96,
+            "coatCorrectiveVertices": 180,
+            "knees": [
+              [
+                -7.536303518556191,
+                1.9917102682196,
+                4.1865065203556915
+              ],
+              [
+                -7.531146098913139,
+                2.0175399594367835,
+                4.411200534251907
+              ]
+            ],
+            "contact": {
+              "probes": 281,
+              "minimumSurfaceGap": 0.005486314922534152
+            },
+            "backContact": {
+              "probes": 101,
+              "minimumGap": 0.003695588244131187
+            }
+          }
+        },
+        "feet": {
+          "stairs": false,
+          "bodyOffset": 0,
+          "feet": [
+            {
+              "side": "L",
+              "swing": false,
+              "ankle": [
+                -7.345,
+                1.653,
+                4.155
+              ],
+              "clearance": 0.0055,
+              "probes": 40
+            },
+            {
+              "side": "R",
+              "swing": false,
+              "ankle": [
+                -7.405,
+                1.6497,
+                4.445
+              ],
+              "clearance": 0.0052,
+              "probes": 43
+            }
+          ]
+        },
+        "guard": {
+          "adjusted": false,
+          "blocker": null,
+          "adjustments": 28,
+          "lastBlocker": "pavilion geometry",
+          "distance": 2,
+          "clear": true
+        }
+      },
+      "standing": {
+        "time": 31314,
+        "position": [
+          -6.807,
+          1.557,
+          4.3
+        ],
+        "phase": "idle",
+        "mode": "manual",
+        "action": "Idle",
+        "speed": 0,
+        "inputAt": null,
+        "motionAt": null,
+        "seat": {
+          "stage": "idle",
+          "slot": "south",
+          "seat": "room-sofa",
+          "elapsed": 0,
+          "autoReturn": false,
+          "near": true,
+          "pose": null
+        },
+        "feet": {
+          "stairs": false,
+          "bodyOffset": 0,
+          "feet": [
+            {
+              "side": "L",
+              "swing": false,
+              "ankle": [
+                -6.683,
+                1.6524,
+                4.2206
+              ],
+              "clearance": 0.0039,
+              "probes": 40
+            },
+            {
+              "side": "R",
+              "swing": false,
+              "ankle": [
+                -7.1202,
+                1.7662,
+                4.377
+              ],
+              "clearance": 0.0338,
+              "probes": 43
+            }
+          ]
+        },
+        "guard": {
+          "adjusted": false,
+          "blocker": null,
+          "adjustments": 28,
+          "lastBlocker": "pavilion geometry",
+          "distance": 1.618,
+          "clear": true
+        }
+      }
+    },
+    {
+      "slot": "middle",
+      "before": {
+        "time": 34169.90000000596,
+        "position": [
+          -6.8,
+          1.557,
+          3.024
+        ],
+        "phase": "idle",
+        "mode": "manual",
+        "action": "Idle",
+        "speed": 0,
+        "inputAt": 31565.60000000894,
+        "motionAt": 31589.40000000596,
+        "seat": {
+          "stage": "idle",
+          "slot": "middle",
+          "seat": "room-sofa",
+          "elapsed": 0,
+          "autoReturn": false,
+          "near": true,
+          "pose": null
+        },
+        "feet": {
+          "stairs": false,
+          "bodyOffset": 0,
+          "feet": [
+            {
+              "side": "L",
+              "swing": false,
+              "ankle": [
+                -6.8066,
+                1.6521,
+                2.9024
+              ],
+              "clearance": 0.0041,
+              "probes": 40
+            },
+            {
+              "side": "R",
+              "swing": false,
+              "ankle": [
+                -6.8065,
+                1.6518,
+                3.1464
+              ],
+              "clearance": 0.004,
+              "probes": 43
+            }
+          ]
+        },
+        "guard": {
+          "adjusted": false,
+          "blocker": null,
+          "adjustments": 28,
+          "lastBlocker": "pavilion geometry",
+          "distance": 1.881,
+          "clear": true
+        }
+      },
+      "immediate": {
+        "time": 34185.10000000894,
+        "position": [
+          -6.8,
+          1.557,
+          3.024
+        ],
+        "phase": "rock-turn",
+        "mode": "guide",
+        "action": "Idle",
+        "speed": 0,
+        "inputAt": 31565.60000000894,
+        "motionAt": 31589.40000000596,
+        "seat": {
+          "stage": "turn",
+          "slot": "middle",
+          "seat": "room-sofa",
+          "elapsed": 0.025,
+          "autoReturn": false,
+          "near": true,
+          "pose": null
+        },
+        "feet": {
+          "stairs": false,
+          "bodyOffset": 0,
+          "feet": [
+            {
+              "side": "L",
+              "swing": false,
+              "ankle": [
+                -6.8046,
+                1.6522,
+                2.9021
+              ],
+              "clearance": 0.0042,
+              "probes": 40
+            },
+            {
+              "side": "R",
+              "swing": false,
+              "ankle": [
+                -6.8046,
+                1.6517,
+                3.1461
+              ],
+              "clearance": 0.004,
+              "probes": 43
+            }
+          ]
+        },
+        "guard": {
+          "adjusted": false,
+          "blocker": null,
+          "adjustments": 28,
+          "lastBlocker": "pavilion geometry",
+          "distance": 1.849,
+          "clear": true
+        }
+      },
+      "seated": {
+        "time": 40414.29999999702,
+        "position": [
+          -7.38,
+          1.554,
+          2.9
+        ],
+        "phase": "rock-watch",
+        "mode": "guide",
+        "action": "Idle",
+        "speed": 0,
+        "inputAt": 31565.60000000894,
+        "motionAt": 31589.40000000596,
+        "seat": {
+          "stage": "watch",
+          "slot": "middle",
+          "seat": "room-sofa",
+          "elapsed": 1.275,
+          "autoReturn": false,
+          "near": false,
+          "pose": {
+            "seat": "room-sofa",
+            "amount": 1,
+            "lean": -0.18,
+            "pelvis": [
+              -7.947999999225139,
+              2.0859999999999994,
+              2.8999999999114245
+            ],
+            "hands": [
+              [
+                -7.7299999899829706,
+                2.1709999831741174,
+                2.7599999903350696
+              ],
+              [
+                -7.729999997887364,
+                2.170999996214927,
+                3.0399999891773897
+              ]
+            ],
+            "elbows": [
+              [
+                -7.875176746347053,
+                2.3380724961251595,
+                2.6504032309073158
+              ],
+              [
+                -7.874800388491689,
+                2.3395879506991353,
+                3.147758799356355
+              ]
+            ],
+            "shoulders": [
+              [
+                -8.004412407069974,
+                2.5706426972815,
+                2.702357003985553
+              ],
+              [
+                -8.004254838416317,
+                2.572544355645282,
+                3.0981330691899105
+              ]
+            ],
+            "seatTop": 1.96,
+            "coatCorrectiveVertices": 180,
+            "knees": [
+              [
+                -7.537139224765918,
+                1.9912400312745633,
+                2.7864732116540063
+              ],
+              [
+                -7.531943075880161,
+                2.017266332528039,
+                3.0112079836737373
+              ]
+            ],
+            "contact": {
+              "probes": 289,
+              "minimumSurfaceGap": 0.005302053946792729
+            },
+            "backContact": {
+              "probes": 101,
+              "minimumGap": 0.006756796887200878
+            }
+          }
+        },
+        "feet": {
+          "stairs": false,
+          "bodyOffset": 0,
+          "feet": [
+            {
+              "side": "L",
+              "swing": false,
+              "ankle": [
+                -7.345,
+                1.653,
+                2.755
+              ],
+              "clearance": 0.0055,
+              "probes": 40
+            },
+            {
+              "side": "R",
+              "swing": false,
+              "ankle": [
+                -7.405,
+                1.6497,
+                3.045
+              ],
+              "clearance": 0.0052,
+              "probes": 43
+            }
+          ]
+        },
+        "guard": {
+          "adjusted": false,
+          "blocker": null,
+          "adjustments": 28,
+          "lastBlocker": "pavilion geometry",
+          "distance": 1.58,
+          "clear": true
+        }
+      },
+      "standing": {
+        "time": 45403,
+        "position": [
+          -6.811,
+          1.557,
+          3.022
+        ],
+        "phase": "idle",
+        "mode": "manual",
+        "action": "Idle",
+        "speed": 0,
+        "inputAt": 31565.60000000894,
+        "motionAt": 31589.40000000596,
+        "seat": {
+          "stage": "idle",
+          "slot": "middle",
+          "seat": "room-sofa",
+          "elapsed": 0,
+          "autoReturn": false,
+          "near": true,
+          "pose": null
+        },
+        "feet": {
+          "stairs": false,
+          "bodyOffset": 0,
+          "feet": [
+            {
+              "side": "L",
+              "swing": false,
+              "ankle": [
+                -6.6881,
+                1.6525,
+                2.9427
+              ],
+              "clearance": 0.0039,
+              "probes": 40
+            },
+            {
+              "side": "R",
+              "swing": false,
+              "ankle": [
+                -7.1232,
+                1.7667,
+                3.0993
+              ],
+              "clearance": 0.0344,
+              "probes": 43
+            }
+          ]
+        },
+        "guard": {
+          "adjusted": false,
+          "blocker": null,
+          "adjustments": 28,
+          "lastBlocker": "pavilion geometry",
+          "distance": 1.149,
+          "clear": true
+        }
+      }
+    },
+    {
+      "slot": "north",
+      "before": {
+        "time": 48278.10000000894,
+        "position": [
+          -6.8,
+          1.557,
+          1.456
+        ],
+        "phase": "idle",
+        "mode": "manual",
+        "action": "Idle",
+        "speed": 0,
+        "inputAt": 46029.60000000894,
+        "motionAt": 46050.29999999702,
+        "seat": {
+          "stage": "idle",
+          "slot": "north",
+          "seat": "room-sofa",
+          "elapsed": 0,
+          "autoReturn": false,
+          "near": true,
+          "pose": null
+        },
+        "feet": {
+          "stairs": false,
+          "bodyOffset": 0,
+          "feet": [
+            {
+              "side": "L",
+              "swing": false,
+              "ankle": [
+                -6.7066,
+                1.6715,
+                1.3288
+              ],
+              "clearance": 0.0168,
+              "probes": 40
+            },
+            {
+              "side": "R",
+              "swing": false,
+              "ankle": [
+                -6.9013,
+                1.6533,
+                1.5152
+              ],
+              "clearance": 0.0039,
+              "probes": 43
+            }
+          ]
+        },
+        "guard": {
+          "adjusted": false,
+          "blocker": null,
+          "adjustments": 28,
+          "lastBlocker": "pavilion geometry",
+          "distance": 1.214,
+          "clear": true
+        }
+      },
+      "immediate": {
+        "time": 48293.60000000894,
+        "position": [
+          -6.8,
+          1.557,
+          1.456
+        ],
+        "phase": "rock-turn",
+        "mode": "guide",
+        "action": "Idle",
+        "speed": 0,
+        "inputAt": 46029.60000000894,
+        "motionAt": 46050.29999999702,
+        "seat": {
+          "stage": "turn",
+          "slot": "north",
+          "seat": "room-sofa",
+          "elapsed": 0.021,
+          "autoReturn": false,
+          "near": true,
+          "pose": null
+        },
+        "feet": {
+          "stairs": false,
+          "bodyOffset": 0,
+          "feet": [
+            {
+              "side": "L",
+              "swing": false,
+              "ankle": [
+                -6.7066,
+                1.6715,
+                1.3288
+              ],
+              "clearance": 0.0168,
+              "probes": 40
+            },
+            {
+              "side": "R",
+              "swing": false,
+              "ankle": [
+                -6.9013,
+                1.6533,
+                1.5152
+              ],
+              "clearance": 0.0039,
+              "probes": 43
+            }
+          ]
+        },
+        "guard": {
+          "adjusted": false,
+          "blocker": null,
+          "adjustments": 28,
+          "lastBlocker": "pavilion geometry",
+          "distance": 1.247,
+          "clear": true
+        }
+      },
+      "seated": {
+        "time": 54435.70000000298,
+        "position": [
+          -7.38,
+          1.554,
+          1.4
+        ],
+        "phase": "rock-watch",
+        "mode": "guide",
+        "action": "Idle",
+        "speed": 0,
+        "inputAt": 46029.60000000894,
+        "motionAt": 46050.29999999702,
+        "seat": {
+          "stage": "watch",
+          "slot": "north",
+          "seat": "room-sofa",
+          "elapsed": 1.25,
+          "autoReturn": false,
+          "near": false,
+          "pose": {
+            "seat": "room-sofa",
+            "amount": 1,
+            "lean": -0.18,
+            "pelvis": [
+              -7.947999999225139,
+              2.0859999999999994,
+              1.3999999998894908
+            ],
+            "hands": [
+              [
+                -7.72000001141555,
+                2.3150000200096312,
+                0.959999994948885
+              ],
+              [
+                -7.729999997512196,
+                2.170999996278009,
+                1.539999989170827
+              ]
+            ],
+            "elbows": [
+              [
+                -7.943237479563136,
+                2.348422296354309,
+                1.0602443645725268
+              ],
+              [
+                -7.876122082091777,
+                2.3399926527672874,
+                1.6453130036731094
+              ]
+            ],
+            "shoulders": [
+              [
+                -8.008302673667375,
+                2.5699425616167004,
+                1.202319107479328
+              ],
+              [
+                -8.008212809152385,
+                2.571962077085361,
+                1.5980681052570964
+              ]
+            ],
+            "seatTop": 1.96,
+            "coatCorrectiveVertices": 180,
+            "knees": [
+              [
+                -7.536707196368127,
+                1.9885276562881673,
+                1.2862410810215523
+              ],
+              [
+                -7.530833972827299,
+                2.017644333531138,
+                1.511173011954966
+              ]
+            ],
+            "contact": {
+              "probes": 279,
+              "minimumSurfaceGap": 0.005390457116807967
+            },
+            "backContact": {
+              "probes": 101,
+              "minimumGap": 0.003280693377945454
+            }
+          }
+        },
+        "feet": {
+          "stairs": false,
+          "bodyOffset": 0,
+          "feet": [
+            {
+              "side": "L",
+              "swing": false,
+              "ankle": [
+                -7.345,
+                1.65,
+                1.255
+              ],
+              "clearance": 0.0055,
+              "probes": 40
+            },
+            {
+              "side": "R",
+              "swing": false,
+              "ankle": [
+                -7.405,
+                1.6497,
+                1.545
+              ],
+              "clearance": 0.0052,
+              "probes": 43
+            }
+          ]
+        },
+        "guard": {
+          "adjusted": false,
+          "blocker": null,
+          "adjustments": 28,
+          "lastBlocker": "pavilion geometry",
+          "distance": 2.39,
+          "clear": true
+        }
+      },
+      "standing": {
+        "time": 59029,
+        "position": [
+          -6.819,
+          1.557,
+          1.454
+        ],
+        "phase": "idle",
+        "mode": "manual",
+        "action": "Idle",
+        "speed": 0,
+        "inputAt": 46029.60000000894,
+        "motionAt": 46050.29999999702,
+        "seat": {
+          "stage": "idle",
+          "slot": "north",
+          "seat": "room-sofa",
+          "elapsed": 0,
+          "autoReturn": false,
+          "near": true,
+          "pose": null
+        },
+        "feet": {
+          "stairs": false,
+          "bodyOffset": 0,
+          "feet": [
+            {
+              "side": "L",
+              "swing": false,
+              "ankle": [
+                -6.6548,
+                1.652,
+                1.3753
+              ],
+              "clearance": 0.004,
+              "probes": 40
+            },
+            {
+              "side": "R",
+              "swing": false,
+              "ankle": [
+                -7.1618,
+                1.7512,
+                1.5249
+              ],
+              "clearance": 0.0185,
+              "probes": 43
+            }
+          ]
+        },
+        "guard": {
+          "adjusted": false,
+          "blocker": null,
+          "adjustments": 28,
+          "lastBlocker": "pavilion geometry",
+          "distance": 2.097,
+          "clear": true
+        }
+      }
+    }
+  ],
+  "result": "passed"
+}

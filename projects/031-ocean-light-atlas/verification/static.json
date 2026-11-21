@@ -1,0 +1,10 @@
+{
+  "result": "passed",
+  "originalGuideSha256": "1f02314494627a7d3f39267e107f196b29ce041971791c191fcb478657ffd13e",
+  "frozenInventoryFiles": 53,
+  "frozenFilesIncludingManifest": 54,
+  "frozenDirectoryUnchanged": true,
+  "localUSFClipsNotPublished": true,
+  "fullBriefAndIndexesPresent": true,
+  "noFilesOverGitHubLimit": true
+}

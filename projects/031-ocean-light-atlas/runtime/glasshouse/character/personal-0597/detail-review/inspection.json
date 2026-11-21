@@ -1,0 +1,40 @@
+{
+  "vertices": 23940,
+  "headBounds": [
+    [
+      -0.09103988111019135,
+      -0.14214351773262024,
+      1.5400062799453735
+    ],
+    [
+      0.11738687753677368,
+      0.10090178996324539,
+      1.78000009059906
+    ]
+  ],
+  "materials": [
+    "Material.001"
+  ],
+  "objects": [
+    [
+      "Personal0597_OriginalFrontFigure",
+      "MESH"
+    ],
+    [
+      "Personal0597_Rig",
+      "ARMATURE"
+    ],
+    [
+      "Key",
+      "LIGHT"
+    ],
+    [
+      "Fill",
+      "LIGHT"
+    ],
+    [
+      "Detail camera",
+      "CAMERA"
+    ]
+  ]
+}

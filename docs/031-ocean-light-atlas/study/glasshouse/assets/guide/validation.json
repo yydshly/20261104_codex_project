@@ -1,0 +1,123 @@
+{
+  "format": "glTF 2.0 binary",
+  "checks": "Finite geometry, valid inverse bind matrices, normalized weights, valid joints, outfit isolation, seven clips",
+  "reports": [
+    {
+      "outfit": "hoodie",
+      "bytes": 4720672,
+      "bones": 65,
+      "meshes": 31,
+      "vertices": 56564,
+      "triangles": 101492,
+      "maxWeightError": 1.2386590242385864e-7,
+      "animations": [
+        {
+          "name": "Idle",
+          "duration": 4
+        },
+        {
+          "name": "Point",
+          "duration": 3
+        },
+        {
+          "name": "SitDown",
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "SitIdle",
+          "duration": 4
+        },
+        {
+          "name": "StandUp",
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "Walk",
+          "duration": 1.100000023841858
+        },
+        {
+          "name": "Wave",
+          "duration": 3.200000047683716
+        }
+      ]
+    },
+    {
+      "outfit": "linen",
+      "bytes": 4818172,
+      "bones": 65,
+      "meshes": 29,
+      "vertices": 57008,
+      "triangles": 102120,
+      "maxWeightError": 1.2386590242385864e-7,
+      "animations": [
+        {
+          "name": "Idle",
+          "duration": 4
+        },
+        {
+          "name": "Point",
+          "duration": 3
+        },
+        {
+          "name": "SitDown",
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "SitIdle",
+          "duration": 4
+        },
+        {
+          "name": "StandUp",
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "Walk",
+          "duration": 1.100000023841858
+        },
+        {
+          "name": "Wave",
+          "duration": 3.200000047683716
+        }
+      ]
+    },
+    {
+      "outfit": "knit",
+      "bytes": 4623356,
+      "bones": 65,
+      "meshes": 26,
+      "vertices": 55069,
+      "triangles": 99032,
+      "maxWeightError": 1.2386590242385864e-7,
+      "animations": [
+        {
+          "name": "Idle",
+          "duration": 4
+        },
+        {
+          "name": "Point",
+          "duration": 3
+        },
+        {
+          "name": "SitDown",
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "SitIdle",
+          "duration": 4
+        },
+        {
+          "name": "StandUp",
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "Walk",
+          "duration": 1.100000023841858
+        },
+        {
+          "name": "Wave",
+          "duration": 3.200000047683716
+        }
+      ]
+    }
+  ]
+}

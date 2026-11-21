@@ -1,0 +1,62 @@
+{
+  "license": "CC0-1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "processing": "48 kHz stereo; 45 Hz high-pass; 14.5 kHz low-pass; constant gain to -25 dBFS RMS with -3 dBFS peak ceiling; two-second equal-power loop join; Vorbis q5",
+  "recordings": [
+    {
+      "file": "ocean-surf.ogg",
+      "title": "Calm ocean waves",
+      "author": "SamsterBirdies",
+      "source": "https://freesound.org/people/SamsterBirdies/sounds/578524/",
+      "excerptStart": 32.0,
+      "excerptDuration": 64.0,
+      "loopOverlap": 2.0,
+      "duration": 62.0,
+      "sampleRate": 48000,
+      "channels": 2,
+      "gainDb": -2.2,
+      "bytes": 1008044,
+      "rmsDbfs": -27.437,
+      "peakDbfs": -2.966,
+      "sourceSha256": "fd505dbd43cb1c3508f884279bf5d3e060bb14f2bc3d9b4cce334eb7a75b5d7f",
+      "sha256": "4f749fa3382b86de5d3967b9c8824c3d6155a7428d74f401686994ae74a1620b"
+    },
+    {
+      "file": "wind.ogg",
+      "title": "WIND - 1",
+      "author": "SamuelGremaud",
+      "source": "https://freesound.org/people/SamuelGremaud/sounds/547472/",
+      "excerptStart": 0.5,
+      "excerptDuration": 22.0,
+      "loopOverlap": 2.0,
+      "duration": 20.0,
+      "sampleRate": 48000,
+      "channels": 2,
+      "gainDb": 14.4,
+      "bytes": 374905,
+      "rmsDbfs": -24.712,
+      "peakDbfs": -8.471,
+      "sourceSha256": "1e1a8479c6925c9ab35b9cf5f64c63fd448e284042da9a1d27cae5320d4bbc26",
+      "sha256": "5563b42caa0fabbcbf0c7b5e208d5f6fed9ab1992bac77a69f4c532639bd6ba4"
+    }
+  ],
+  "reuse": "Copied without modification from local earth-within/assets/audio; original source pages and CC0 checked 2026-11-15.",
+  "use": "Original ocean recording retained as quiet distant bed; derived steady texture driven by shared visible nearshore phase. Filtered forest wind remains atmospheric background, not a coastal synchronous recording. Footsteps generated from actual contacts.",
+  "phaseLinkedTexture": {
+    "source": "ocean-surf.ogg",
+    "sourceSha256": "4f749fa3382b86de5d3967b9c8824c3d6155a7428d74f401686994ae74a1620b",
+    "sourceRangeSeconds": [
+      20,
+      32
+    ],
+    "processing": "80 Hz\u201311 kHz bandpass, local 200ms RMS levelling, 100ms gain smoothing, 1s equal-power loop join. This is a steady surf texture; visible wave phase supplies its macro envelope at runtime.",
+    "sampleRate": 48000,
+    "channels": 2,
+    "duration": 11.0,
+    "rmsDbfs": -25.47681893592459,
+    "license": "CC0-1.0; derived from the already recorded SamsterBirdies source in manifest.json",
+    "file": "surf-texture43.ogg",
+    "bytes": 177112,
+    "sha256": "e7a83f7e7c2d537632aa1e3a3c4856c852823cd9e7250e982780941218ae1c31"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-14T06:02:18.101Z",
+  "errors": [],
+  "steps": [
+    {
+      "step": 1,
+      "name": "default scene",
+      "experience": "animated-guide",
+      "phase": "gesture",
+      "control": "guide",
+      "fps": "18",
+      "drawCalls": "265",
+      "position": "[-1.25,1.413,6.7]",
+      "camera": "[3.354,3.36,12.04]"
+    },
+    {
+      "step": 2,
+      "name": "portrait",
+      "experience": "animated-guide",
+      "phase": "gesture",
+      "control": "guide",
+      "fps": "41",
+      "drawCalls": "59",
+      "position": "[-1.25,1.413,6.7]",
+      "camera": "[0.542,2.714,7.942]"
+    },
+    {
+      "step": 3,
+      "name": "manual camera orbit",
+      "experience": "animated-guide",
+      "phase": "idle",
+      "control": "manual",
+      "fps": "39",
+      "drawCalls": "133",
+      "position": "[-1.25,1.413,6.7]",
+      "camera": "[1.471,4.241,3.792]"
+    },
+    {
+      "step": 4,
+      "name": "user model terrace",
+      "experience": "static-study",
+      "fps": "11",
+      "drawCalls": "72",
+      "candidate": "generated0597",
+      "mode": "terrace"
+    },
+    {
+      "step": 5,
+      "name": "user model neutral",
+      "fps": "1"
+    },
+    {
+      "step": 6,
+      "name": "user model face",
+      "fps": "3"
+    },
+    {
+      "step": 7,
+      "name": "phone controls",
+      "width": 390
+    }
+  ],
+  "result": "captured for visual audit"
+}

@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "character": "User 0597 body / Microsoft Rocketbox Male Adult 10 head",
+  "file": "personal-guide-head.glb",
+  "bytes": 15236576,
+  "sha256": "167bed9f770a7174473759947d89934c8d5839657d5eb119fdb14769fabfa0c3",
+  "bones": 80,
+  "vertices": 16517,
+  "triangles": 32662,
+  "height": 1.78,
+  "actions": [
+    {
+      "name": "Idle",
+      "frames": 83,
+      "duration": 2.7333333333333334,
+      "floorErrorMax": 8.463393896818161e-08
+    },
+    {
+      "name": "Walk",
+      "frames": 33,
+      "duration": 1.0666666666666667,
+      "floorErrorMax": 6.891787052154541e-08
+    },
+    {
+      "name": "Wave",
+      "frames": 86,
+      "duration": 2.8333333333333335,
+      "floorErrorMax": 8.935603545978665e-08
+    },
+    {
+      "name": "Point",
+      "frames": 121,
+      "duration": 4.0,
+      "floorErrorMax": 8.132190032483777e-08
+    },
+    {
+      "name": "LookAround",
+      "frames": 140,
+      "duration": 4.633333333333334,
+      "floorErrorMax": 7.967628334881738e-08
+    }
+  ],
+  "walkSpeed": 1.310632639339958,
+  "sourceModel": "../user-model-0597/manifest.json",
+  "motionSource": "https://github.com/microsoft/Microsoft-Rocketbox",
+  "motionLicense": "MIT",
+  "modelLicense": "User-provided body/clothes; Microsoft Rocketbox head and facial weights MIT",
+  "status": "Rocketbox mature head fitted to 0597 body; static review pending",
+  "limitations": [
+    "No speech audio or viseme driver implemented. Existing facial bones and weights are a foundation, not a completed speech feature.",
+    "Static head fitting requires visual review.",
+    "Retained body actions do not constitute facial animation."
+  ],
+  "sourceSha256": "bde0c12688b20e7bf197fea13122186a16f9bb0c15484eee28e0a66fd63b709e",
+  "selection": "Second / front-facing figure, extracted through empty X gaps",
+  "maxWeightsPerVertex": 4,
+  "verification": {
+    "browser": "../../../screenshots/head35-checks.json",
+    "independentImport": "import-validation-head.json",
+    "review": "../../../screenshots/head35-review-checks.json"
+  },
+  "headSource": {
+    "geometry": "Microsoft/Rocketbox Male Adult 10 mature head, eyebrows, eyes, hair and original facial skin weights",
+    "license": "MIT",
+    "source": "https://github.com/microsoft/Microsoft-Rocketbox",
+    "preserved": "User 0597 body and clothes",
+    "identity": "Different mature face; not a restoration of the generated 0597 facial identity",
+    "licenseFile": "HEAD-LICENSE.txt"
+  }
+}

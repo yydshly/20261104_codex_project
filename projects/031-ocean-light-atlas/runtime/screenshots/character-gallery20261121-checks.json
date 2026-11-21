@@ -1,0 +1,12 @@
+{
+  "checkedOn": "2026-11-21",
+  "errors": [],
+  "checks": [
+    "four distinct actual portraits decode at 1920×1920, display side by side on desktop, and retain working demo links",
+    "all three outfit screenshot switches show distinct sources and a single selected button",
+    "all four images enlarge correctly, including the selected knit variant; close button and Escape restore focus",
+    "390px cards and outfit buttons work without horizontal overflow; enlarged portrait stays within the viewport",
+    "all six native webpage exports and their original-entry capture record are available"
+  ],
+  "result": "passed"
+}

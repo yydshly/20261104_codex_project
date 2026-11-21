@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#243b46">
+  <meta name="description" content="傍晚海边玻璃屋：把海面金光、透光薄浪与室内水光放进可漫游的实时三维空间。">
+  <title>傍晚海边玻璃屋 · 海的切片</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./scene.css">
+  <link rel="stylesheet" href="./guide.css">
+  <link rel="stylesheet" href="./hero-study.css">
+  <link rel="stylesheet" href="./facial.css">
+  <link rel="stylesheet" href="./seaside.css">
+  <script type="module" src="./scene.bundle.js"></script>
+</head>
+<body class="hero-study">
+  <main id="experience">
+    <canvas id="scene" aria-label="可拖动旋转、滚轮拉近的傍晚海边玻璃屋三维场景" tabindex="0"></canvas>
+    <div class="vignette" aria-hidden="true"></div>
+    <header class="topbar interface">
+      <a class="back" href="../index.html"><span>↖</span> 海的切片</a>
+      <span class="chapter">SPATIAL STUDY <i></i> 01</span>
+      <button id="toggle-panel" aria-controls="panel" aria-expanded="true">调整画面 <span>☷</span></button>
+    </header>
+    <nav class="scene-shots interface" aria-label="选择观看画面"><button data-shot="shore" aria-pressed="true"><span>01</span> 露台与海</button><button data-shot="portrait" aria-pressed="false"><span>02</span> 人物半身</button><button data-shot="tide" aria-pressed="false"><span>03</span> 岸边看海</button></nav>
+    <section id="rock-visit" class="rock-visit-controls interface" aria-label="坐一会儿" hidden>
+      <p id="rock-caption" role="status">走到岩石旁，再自己决定坐多久。</p>
+      <div><button id="sofa-approach">走到室内沙发 →</button><button id="room-approach">走到室内扶手椅 →</button><button id="rock-approach">走到岩石旁 →</button><button id="rock-sit" hidden>坐下 · E</button><button id="rock-stand" hidden>起身 · E</button><button id="rock-manual">自己走动</button><button id="rock-start">自动往返演示</button><button id="rock-return" hidden>返回露台 ↗</button><button id="sea-sound" aria-pressed="false">开启海边声音</button></div>
+      <label class="sea-volume" for="sea-volume">音量 <input id="sea-volume" type="range" min="0" max="100" value="60"></label>
+    </section>
+    <section class="scene-title interface" aria-labelledby="title">
+      <p class="eyebrow">A QUIET PLACE, BETWEEN LIGHT AND TIDE</p>
+      <h1 id="title">走进海的<br>光影里。</h1>
+      <p class="poem">沿着露台，走向海面上的最后一束光。</p>
+      <div class="scene-tags"><span>08 橙金浪带</span><span>12 透光浪唇</span><span>17 蓝底白沫</span></div>
+    </section>
+    <aside id="panel" class="panel interface" aria-label="场景控制">
+      <section class="hero-controls" aria-label="静态人物画面">
+        <p class="hero-kicker">PORTRAIT STUDY / 01</p>
+        <h2>露台上的人</h2>
+        <p id="hero-model-status" class="hero-model-status">正在准备深蓝卫衣人物…</p>
+        <div id="hero-candidates" class="hero-candidates" aria-label="静态人物与成品候选"></div><p id="hero-source-note" class="hero-source-note"></p><div class="hero-mode-buttons" aria-label="静态画面光照"><button data-hero-mode="terrace" aria-pressed="true">黄昏露台 <span>SCENE</span></button><button data-hero-mode="neutral" aria-pressed="false">中性光检查 <span>FORM</span></button></div>
+        <div class="hero-small-actions"><button id="hero-reset">回到主镜头 ↗</button><button id="hero-reference">对照人物原型 ↗</button></div>
+        <button id="hero-closeup" class="hero-review-button">近看脸部与肩颈 ↗</button><button id="hero-review" class="hero-review-button">人物改进与候选对照 ↗</button><a id="hero-source-link" class="hero-source-link" target="_blank" rel="noopener noreferrer"></a><button id="hero-capture">保存画面 <span>↓</span></button>
+        <a class="hero-source-link" href="./index.html">进入可走动的玻璃屋演示 ↗</a><p class="hero-note">先把人物形象做好。<br>候选用于比较，尚未还原原型。</p>
+      </section>
+      <div class="panel-heading"><span class="eyebrow">MAKE YOUR MOMENT</span><span class="live"><i></i> LIVE 3D</span></div>
+      <section class="guide-controls" aria-label="人物、换装与动作">
+        <div class="guide-heading"><span>海边向导</span><span id="guide-motion">正在就位…</span></div>
+        <p id="guide-outfit-status">短发、圆框眼镜与熟悉的深蓝卫衣</p>
+        <div class="manual-controls"><div class="control-mode" aria-label="人物控制方式"><button data-control-mode="guide" aria-pressed="true">向导带路</button><button data-control-mode="manual" aria-pressed="false">自己走动</button></div><p>WASD / 方向键移动 · 拖动调整视角</p><a href="https://github.com/microsoft/Microsoft-Rocketbox" target="_blank" rel="noopener noreferrer">人物：Microsoft Rocketbox · Male Adult 10 ↗</a></div>
+        <div class="wardrobe" aria-label="选择人物服装"><button data-outfit="hoodie" aria-pressed="true"><i class="outfit-navy"></i>卫衣</button><button data-outfit="linen" aria-pressed="false"><i class="outfit-linen"></i>亚麻衫</button><button data-outfit="knit" aria-pressed="false"><i class="outfit-sage"></i>针织衫</button></div>
+        <div class="guide-actions" aria-label="人物动作"><button data-guide-action="Idle">站立 / 停下</button><button data-guide-action="Wave">挥手</button><button data-guide-action="Point">示意</button><button data-guide-action="LookAround" hidden>看海</button><button data-guide-action="SitDown">坐下</button><button data-guide-action="StandUp">起身</button></div>
+        <div class="guide-camera" aria-label="人物视角"><button data-guide-camera="follow" aria-pressed="true">跟随人物</button><button data-guide-camera="eye" aria-pressed="false">人物视线</button><button data-guide-camera="free" aria-pressed="false">自由环视</button></div>
+        <p id="guide-camera-note">移动时跟随人物 · 停下时看向景色</p>
+        <div class="guide-tools"><button id="guide-portrait">近看人物 ↗</button><button id="guide-tour">开始导览 →</button></div>
+        <p><a href="./facial-review.html">我们的头部 · 眨眼与语音讲解 ↗</a></p>
+        <p><a href="./stairs-review.html">上下台阶 · 实走画面与本轮修正 ↗</a></p>
+        <p><a href="./index.html?seaside=1&amp;v=hands-surf43">室内与海边 · 自主坐下与起身 ↗</a></p>
+        <p><a href="./seaside-review.html">沙发、扶手椅与海边看海 · 网页实录 ↗</a></p>
+        <p><a href="./summary.html">理解与效果汇总 · 当前结论 ↗</a></p>
+        <p><a href="./implementation.html">4.3固定版 · 能力与人物/场景接入说明 ↗</a></p>
+      </section>
+      <fieldset><legend>让向导带路 <span>WALK WITH ME</span></legend><div class="view-list">
+        <button data-view="shore" aria-pressed="true"><span>01</span> 露台看碎金 <b>↗</b></button>
+        <button data-view="inside" aria-pressed="false"><span>02</span> 屋内看水光 <b>↗</b></button>
+        <button data-view="tide" aria-pressed="false"><span>03</span> 近岸看薄浪 <b>↗</b></button>
+      </div></fieldset>
+      <fieldset><legend>此刻的天色 <span>ATMOSPHERE</span></legend><div class="mood-list">
+        <button data-mood="gold" aria-pressed="true"><i class="gold"></i>日落</button>
+        <button data-mood="rose" aria-pressed="false"><i class="rose"></i>晚霞</button>
+        <button data-mood="blue" aria-pressed="false"><i class="blue"></i>蓝调</button>
+      </div></fieldset>
+      <div class="slider-field"><label for="wave">海风与波纹 <output id="wave-value">轻风</output></label><input id="wave" type="range" min="0" max="100" value="36"></div>
+      <div class="slider-field"><label for="warmth">屋内的灯 <output id="warmth-value">温暖</output></label><input id="warmth" type="range" min="0" max="100" value="65"></div>
+      <div class="layer-switches">
+        <label><input id="glass" type="checkbox" checked><span>玻璃的透射与反光</span></label>
+        <label><input id="foam" type="checkbox" checked><span>近岸薄浪与碎沫</span></label>
+        <label><input id="caustic" type="checkbox" checked><span>屋内流动的水光</span></label>
+      </div>
+      <div class="actions"><button id="capture" title="导出长边至少 1920 像素的纯画面 PNG">保存这一刻 <span>↓</span></button><button id="pause" aria-label="暂停海面动画" aria-pressed="false">Ⅱ</button></div>
+      <details id="about"><summary>这三个效果如何进入空间？ <span>＋</span></summary><p>金色浪带 → 波峰上明灭的碎金。<br>透光浪唇 → 近岸前倾、回落的薄浪。<br>蓝底白沫 → 细碎泡孔与退去后的湿沙。</p><p>切到屋内机位，可以观察天花上的流动水光；切换蓝调，水光随日照减弱。玻璃屋、家具与海岸均为三维几何，海浪、反射与水光仍采用实时近似。</p><a href="./README.md" target="_blank">查看制作说明 ↗</a></details>
+      <details class="guide-delivery"><summary>带走人物模型 <span>＋</span></summary><p>当前人物包含骨骼和5段基础身体动作，坐姿与台阶适配由网页运行时完成。</p><button id="guide-download">下载当前人物 GLB ↓</button><span id="guide-download-status"></span><div><a href="./implementation.html#resources">可编辑工程与当前资产说明 ↗</a><button id="guide-reference">查看人物原型 ↗</button></div><a href="./implementation.html#character">人物、动作与网页驱动如何一起复用 ↗</a><br><a id="guide-provenance-link" href="./character/README.md" target="_blank">人物制作与来源说明 ↗</a></details>
+    </aside>
+    <footer class="bottom-bar interface"><span class="gesture">拖动环视 <i>·</i> 滚轮拉近 <i>·</i> H 隐藏界面</span><span id="scene-status" role="status" aria-live="polite">正在点亮海边的屋子…</span></footer>
+    <button id="restore-ui" class="restore" hidden>显示界面</button>
+    <div class="guide-caption interface" aria-live="polite"><span class="guide-dot"></span><div><span id="guide-destination">向导正在就位</span><p id="guide-caption-text">一起走到海边，看看光怎样进入空间。</p></div></div>
+    <div class="movement-pad interface" role="group" aria-label="按住方向控制人物"><button data-move="forward" aria-label="向前走">↑</button><button data-move="left" aria-label="向左走">←</button><span aria-hidden="true">走</span><button data-move="right" aria-label="向右走">→</button><button data-move="back" aria-label="向后走">↓</button></div>
+    <div class="hero-caption interface"><span>ONE PERSON, ONE QUIET MOMENT</span><p id="hero-mode-label">黄昏露台 · 静态画面</p></div>
+    <section id="face-controls" class="face-controls interface" aria-label="人物眨眼与语音讲解" hidden>
+      <h2>听向导介绍这片海</h2><p id="face-status" role="status">正在准备语音与面部…</p>
+      <div class="face-buttons"><button id="face-play">播放讲解</button><button id="face-pause" disabled>暂停</button><button id="face-stop" disabled>停止</button></div>
+      <progress id="face-progress" max="1" value="0" aria-label="讲解进度"></progress><small id="face-clock">0.0 秒</small>
+      <p id="face-subtitle"></p><div class="face-tools"><button id="face-blink">眨一下眼</button><button id="face-gaze" aria-pressed="true">看向镜头</button><label><input id="face-auto-blink" type="checkbox" checked>自然眨眼</label></div>
+      <a href="./facial-review.html">本轮画面与实现说明 ↗</a>
+    </section>
+    <div id="notice" role="status" aria-live="polite"></div>
+    <div id="loading"><div class="loader-ring"></div><p>海风正在抵达</p><small>正在构建海面、玻璃与光线</small></div>
+  </main>
+  <dialog id="guide-reference-dialog"><button id="guide-reference-close" aria-label="关闭人物原型">×</button><p>人物原型 · 用户提供的四视图</p><img src="./character/reference.png" alt="用户提供的人物原型：短发、圆框眼镜、深蓝卫衣、灰裤与白色运动鞋的四视图"><p>当前是静态人物检视；现有稿未通过，成品候选尚未适配原型面貌与服装。</p></dialog>
+<dialog id="hero-review-dialog" class="hero-review-dialog"><button id="hero-review-close" aria-label="关闭人物改进对照">×</button><p class="hero-kicker">CHARACTER / ASSET REVIEW</p><h2>先用成品人物，把体验做起来。</h2><p id="hero-review-status"></p><div class="hero-review-reference"><img src="./character/reference.png" alt="用户提供的深蓝卫衣人物四视图原型"><div><h3>早期造型参考 · 按需要扩展</h3><ol id="hero-review-priorities"></ol><button type="button" id="hero-review-reference-open">查看完整原型 ↗</button></div></div><div id="hero-review-candidates" class="hero-review-candidate-grid"></div><p id="hero-review-boundary"></p><p class="hero-review-license">候选为 Microsoft / Rocketbox 原作者成品，MIT许可。原型面貌与服装按需要扩展；静态对照保留，成品A已有独立的可动演示。</p></dialog>
+</body>
+</html>

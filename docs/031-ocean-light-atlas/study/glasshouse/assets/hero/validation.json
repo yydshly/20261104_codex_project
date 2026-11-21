@@ -1,0 +1,20 @@
+{
+  "structuralValidation": "passed",
+  "visualApproval": "rejected-by-user",
+  "sha256": "2b34996048436cf68b1a657233bc3e1cedd3448f637144ce451a1e656661a39f",
+  "bytes": 21607644,
+  "meshes": 40,
+  "vertices": 166150,
+  "triangles": 307674,
+  "embeddedImages": 8,
+  "animations": 0,
+  "checks": [
+    "finite positions",
+    "valid GLB length",
+    "embedded PBR images",
+    "transparent eye surface",
+    "alpha-masked hair",
+    "independent tailored trousers",
+    "static only"
+  ]
+}

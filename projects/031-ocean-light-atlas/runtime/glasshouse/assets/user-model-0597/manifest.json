@@ -1,0 +1,28 @@
+{
+  "file": "0597b54ff20068bcd556b1e005aed56d.glb",
+  "source": "User-provided GLB, recovered from the named file in Downloads; original shared URL not yet recovered.",
+  "sha256": "bde0c12688b20e7bf197fea13122186a16f9bb0c15484eee28e0a66fd63b709e",
+  "bytes": 80673996,
+  "vertices": 881769,
+  "triangles": 1499998,
+  "meshes": 1,
+  "materials": 1,
+  "embeddedImages": 3,
+  "skinCount": 0,
+  "bones": 0,
+  "animations": [],
+  "status": "static inspection only; not rigged or animation ready",
+  "license": "User-provided asset; third-party generation terms not verified.",
+  "integration": "Optional same-terrace static comparison. Original geometry, UVs, textures and node orientation preserved; display height normalized to 1.78m.",
+  "nextSteps": [
+    "Inspect shape and textures in neutral light and terrace light.",
+    "Make a lower-density deformable copy, preserve the original texture appearance.",
+    "Bind an appropriate humanoid rig; validate shoulders, elbows, fingers, hips and knees.",
+    "Retarget locomotion and gestures; recalibrate soles, stairs and camera."
+  ],
+  "visualFindings": [
+    "Browser inspection shows four human figures side by side within the original mesh, rather than one isolated avatar.",
+    "Single-person extraction/reconstruction and deformation-ready topology are required before rigging.",
+    "Eye/face detail and materials need further inspection under final scene lighting."
+  ]
+}

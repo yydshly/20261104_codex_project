@@ -1,0 +1,51 @@
+{
+  "sourceSha256": "bde0c12688b20e7bf197fea13122186a16f9bb0c15484eee28e0a66fd63b709e",
+  "selection": "second / front-facing figure",
+  "sourceRegion": [
+    -0.235,
+    0.055
+  ],
+  "sourceBounds": [
+    [
+      -0.2052769958972931,
+      -0.03043600544333458,
+      0.00014700097381137311
+    ],
+    [
+      0.026240000501275063,
+      0.08865100145339966,
+      0.6611970663070679
+    ]
+  ],
+  "scale": 2.692685612401604,
+  "sourceTriangles": 399312,
+  "vertices": 23940,
+  "triangles": 47916,
+  "height": 1.78,
+  "images": [
+    {
+      "name": "texture_pbr_20250901",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorSpace": "sRGB"
+    },
+    {
+      "name": "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorSpace": "Non-Color"
+    },
+    {
+      "name": "texture_pbr_20250901_normal",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorSpace": "Non-Color"
+    }
+  ]
+}

@@ -1,0 +1,1458 @@
+{
+  "sha": "157f07372576de3f182cdc88074a0fac48a61734",
+  "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/157f07372576de3f182cdc88074a0fac48a61734",
+  "tree": [
+    {
+      "path": ".eslintignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43d4ba4cce49b7d9527e219ed3bc76fcf2407a31",
+      "size": 24,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/43d4ba4cce49b7d9527e219ed3bc76fcf2407a31"
+    },
+    {
+      "path": ".eslintrc.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "777134fe5bf6042793f0de538c6a680453425d93",
+      "size": 1959,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/777134fe5bf6042793f0de538c6a680453425d93"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6723f149471e3fdb5e6a2e9bab504291e71a2cec",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/6723f149471e3fdb5e6a2e9bab504291e71a2cec"
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76da9df36a5d16fb23da551205152f28a5136a7f",
+      "size": 265,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/76da9df36a5d16fb23da551205152f28a5136a7f"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a50eb106673efa6b03a6ab6b155aab661aecea53",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/a50eb106673efa6b03a6ab6b155aab661aecea53"
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45dc7fcf9d22d4fc421144a71cda493684607eac",
+      "size": 2317,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/45dc7fcf9d22d4fc421144a71cda493684607eac"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "061121ff9aa31708d54f62b92810b2f4793ca51b",
+      "size": 1193,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/061121ff9aa31708d54f62b92810b2f4793ca51b"
+    },
+    {
+      "path": ".husky",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b502612e8df382cfb7f479dd1aa07a45fb952bc3",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/b502612e8df382cfb7f479dd1aa07a45fb952bc3"
+    },
+    {
+      "path": ".husky/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9cdc63b07017d57efbf45789ceaecc069064a8b",
+      "size": 1,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/c9cdc63b07017d57efbf45789ceaecc069064a8b"
+    },
+    {
+      "path": ".husky/commit-msg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7cd8dd9a45d5485e97b44788a0db3be37988ba19",
+      "size": 77,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/7cd8dd9a45d5485e97b44788a0db3be37988ba19"
+    },
+    {
+      "path": ".husky/pre-commit",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e1c12eb032030fd85173c1769d4d28c75c283be8",
+      "size": 78,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/e1c12eb032030fd85173c1769d4d28c75c283be8"
+    },
+    {
+      "path": ".npmignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7702fb63522ce53fa2385e1ea469ed6012a9fee5",
+      "size": 42,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/7702fb63522ce53fa2385e1ea469ed6012a9fee5"
+    },
+    {
+      "path": ".npmrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8316df36f4e2fdeb35d8cbd396dabb6a2485c2a1",
+      "size": 42,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/8316df36f4e2fdeb35d8cbd396dabb6a2485c2a1"
+    },
+    {
+      "path": ".prettierignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43d4ba4cce49b7d9527e219ed3bc76fcf2407a31",
+      "size": 24,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/43d4ba4cce49b7d9527e219ed3bc76fcf2407a31"
+    },
+    {
+      "path": ".prettierrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "452a2c0fa887cef61f02dab50e9c83e39f0e75bd",
+      "size": 111,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/452a2c0fa887cef61f02dab50e9c83e39f0e75bd"
+    },
+    {
+      "path": ".storybook",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a60491d2de1bd9b6dc4b3db9f1c7f17e1fdddb6e",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/a60491d2de1bd9b6dc4b3db9f1c7f17e1fdddb6e"
+    },
+    {
+      "path": ".storybook/index.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e21842af4ac453b55dca8f165bd210f8ec5bb29",
+      "size": 320,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/8e21842af4ac453b55dca8f165bd210f8ec5bb29"
+    },
+    {
+      "path": ".storybook/logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "800b5c96dcfc944b3627368719fa51723ffe19c6",
+      "size": 7960,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/800b5c96dcfc944b3627368719fa51723ffe19c6"
+    },
+    {
+      "path": ".storybook/main.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bec77de35133e8b8fe5227665ba90b13dbb11c9",
+      "size": 399,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/0bec77de35133e8b8fe5227665ba90b13dbb11c9"
+    },
+    {
+      "path": ".storybook/manager.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92c6c8f325f76691ac4511c9720accf62fd58c40",
+      "size": 150,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/92c6c8f325f76691ac4511c9720accf62fd58c40"
+    },
+    {
+      "path": ".storybook/preview.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aca0c6a537b627ffa493b7759a6844c13875d39b",
+      "size": 175,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/aca0c6a537b627ffa493b7759a6844c13875d39b"
+    },
+    {
+      "path": ".storybook/theme.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b1ae5ac4dbacc5a1aae4555463897fb4674d756",
+      "size": 226,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/9b1ae5ac4dbacc5a1aae4555463897fb4674d756"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6db1508eb718bc21a1fd89fa25e7d1b59ee86ee8",
+      "size": 1073,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/6db1508eb718bc21a1fd89fa25e7d1b59ee86ee8"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eddbb4dad59aed7019d67ea5174f93a22aef87fd",
+      "size": 2000,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/eddbb4dad59aed7019d67ea5174f93a22aef87fd"
+    },
+    {
+      "path": "commitlint.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "422b19445bd83d06acea0d73d2a05410b7b94b44",
+      "size": 67,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/422b19445bd83d06acea0d73d2a05410b7b94b44"
+    },
+    {
+      "path": "css-modules.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9a5240c7fdcab3608db5e8afd86cf9d6c7281a4",
+      "size": 210,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/d9a5240c7fdcab3608db5e8afd86cf9d6c7281a4"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8505180921df9df7dac015d3613a68e7d1c3e166",
+      "size": 2276691,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/8505180921df9df7dac015d3613a68e7d1c3e166"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ed71fb55e4a0f3e13f633e748d98c42cbf18d17",
+      "size": 4971,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/3ed71fb55e4a0f3e13f633e748d98c42cbf18d17"
+    },
+    {
+      "path": "public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b9427e054974c28de2c66ab44c167264f12a5221",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/b9427e054974c28de2c66ab44c167264f12a5221"
+    },
+    {
+      "path": "public/half-body.glb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4e3a3c96d0508ba10cd3c297072ddc71bb928f5",
+      "size": 5928964,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/f4e3a3c96d0508ba10cd3c297072ddc71bb928f5"
+    },
+    {
+      "path": "public/headwear.glb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7d6061ec1d4faa00de040ed18b1ce76cc0fc5f9",
+      "size": 1980556,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/b7d6061ec1d4faa00de040ed18b1ce76cc0fc5f9"
+    },
+    {
+      "path": "public/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5db6c78653c4ace87a72b6a75f744da3c1df1297",
+      "size": 875,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/5db6c78653c4ace87a72b6a75f744da3c1df1297"
+    },
+    {
+      "path": "public/logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "800b5c96dcfc944b3627368719fa51723ffe19c6",
+      "size": 7960,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/800b5c96dcfc944b3627368719fa51723ffe19c6"
+    },
+    {
+      "path": "react-app-env.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6431bc5fc6b2c932dfe5d0418fc667b86c18b9fc",
+      "size": 40,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/6431bc5fc6b2c932dfe5d0418fc667b86c18b9fc"
+    },
+    {
+      "path": "release.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "561fd666aa248128efd114462d632ed59cd8973b",
+      "size": 465,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/561fd666aa248128efd114462d632ed59cd8973b"
+    },
+    {
+      "path": "rollup.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb0dbdf583c5fd7e2f582dbdd99138445df63814",
+      "size": 1250,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/cb0dbdf583c5fd7e2f582dbdd99138445df63814"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "932beeb9a8b0a88ec61503fca99d43cee5b43516",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/932beeb9a8b0a88ec61503fca99d43cee5b43516"
+    },
+    {
+      "path": "src/App",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5c1570f87fa754345606205173671424ae8a429b",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/5c1570f87fa754345606205173671424ae8a429b"
+    },
+    {
+      "path": "src/App/App.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bd067aef33b96a49fa0a819411b855e30baa124",
+      "size": 970,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/6bd067aef33b96a49fa0a819411b855e30baa124"
+    },
+    {
+      "path": "src/App/App.module.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad3a34a5e7d845ba7480c80f17273323ad378dcb",
+      "size": 262,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/ad3a34a5e7d845ba7480c80f17273323ad378dcb"
+    },
+    {
+      "path": "src/App/App.test.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5c11de0dfd3b43bb923c9ae336738f81de787f2",
+      "size": 283,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/d5c11de0dfd3b43bb923c9ae336738f81de787f2"
+    },
+    {
+      "path": "src/App/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fb9ab8ee641ea7d686a11f2853b3fefb0c01ea7e",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/fb9ab8ee641ea7d686a11f2853b3fefb0c01ea7e"
+    },
+    {
+      "path": "src/App/components/Capture.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19b383c2173ebb70f1a7fb58e413133bcadae3c7",
+      "size": 2068,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/19b383c2173ebb70f1a7fb58e413133bcadae3c7"
+    },
+    {
+      "path": "src/App/components/Develop.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29179295b285b77c698f5afa47ff4482276abd02",
+      "size": 804,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/29179295b285b77c698f5afa47ff4482276abd02"
+    },
+    {
+      "path": "src/App/components/Exhibit.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0c0c460a16476e4d0e8bda677f3d2167d4f1a57",
+      "size": 835,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/b0c0c460a16476e4d0e8bda677f3d2167d4f1a57"
+    },
+    {
+      "path": "src/App/components/Nova.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d88043abebdb55ee8ccac51df68ff5ce3085e25",
+      "size": 1822,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/3d88043abebdb55ee8ccac51df68ff5ce3085e25"
+    },
+    {
+      "path": "src/App/components/SettingsPanel.module.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e97aee11c3ed2c923da125963bde1ff3dede95be",
+      "size": 586,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/e97aee11c3ed2c923da125963bde1ff3dede95be"
+    },
+    {
+      "path": "src/App/components/SettingsPanel.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ca5f2d7311ad0988e2a53c07249caa76f1312c7",
+      "size": 462,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/1ca5f2d7311ad0988e2a53c07249caa76f1312c7"
+    },
+    {
+      "path": "src/App/components/Test.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ab4cbfc5ebe449f1b1c7150eb6b68435129dee1",
+      "size": 800,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/9ab4cbfc5ebe449f1b1c7150eb6b68435129dee1"
+    },
+    {
+      "path": "src/App/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8aeac09e8c6ffe5abe08f41a53cc317d3809720a",
+      "size": 50,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/8aeac09e8c6ffe5abe08f41a53cc317d3809720a"
+    },
+    {
+      "path": "src/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "64bcf3ea3a720a0457307750c28dcb62c063b683",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/64bcf3ea3a720a0457307750c28dcb62c063b683"
+    },
+    {
+      "path": "src/components/Avatar",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b43ae92eac61c0adaf0d54f37cbb2946ae86a87",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/8b43ae92eac61c0adaf0d54f37cbb2946ae86a87"
+    },
+    {
+      "path": "src/components/Avatar/Avatar.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1852a736e6959ced9da4ce0f3e3fb0c21e84a22",
+      "size": 13626,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/d1852a736e6959ced9da4ce0f3e3fb0c21e84a22"
+    },
+    {
+      "path": "src/components/Avatar/Avatar.stories.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fdd76a8d3c7c1a0b561e98744b256ee35989197",
+      "size": 8385,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/6fdd76a8d3c7c1a0b561e98744b256ee35989197"
+    },
+    {
+      "path": "src/components/Avatar/Debug.stories.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30c6686c66a6a0e18b0ccc6be9ab18efde0b052b",
+      "size": 1240,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/30c6686c66a6a0e18b0ccc6be9ab18efde0b052b"
+    },
+    {
+      "path": "src/components/Avatar/Examples.stories.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d7e3b4ab7bdbde99f5d764bf1166137aac71820",
+      "size": 7634,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/6d7e3b4ab7bdbde99f5d764bf1166137aac71820"
+    },
+    {
+      "path": "src/components/Avatar/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07a545275f3c4abd49feae77177252dd96a1e85b",
+      "size": 123,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/07a545275f3c4abd49feae77177252dd96a1e85b"
+    },
+    {
+      "path": "src/components/Background",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "57d713286a458f7fad73abc5dce312cc5cc4b0bb",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/57d713286a458f7fad73abc5dce312cc5cc4b0bb"
+    },
+    {
+      "path": "src/components/Background/Box",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dbc2def0b672e6e654c92e11a3dc8fc065610260",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/dbc2def0b672e6e654c92e11a3dc8fc065610260"
+    },
+    {
+      "path": "src/components/Background/Box/Box.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13f757f2f607541e24073cc3837018c9d41397a0",
+      "size": 603,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/13f757f2f607541e24073cc3837018c9d41397a0"
+    },
+    {
+      "path": "src/components/Background/Color",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e7bb6350e1943b01e2bfd54175ffa86db7de0d46",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/e7bb6350e1943b01e2bfd54175ffa86db7de0d46"
+    },
+    {
+      "path": "src/components/Background/Color/Color.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99e164af558bd5d85ca0d38755b82b8f384c4723",
+      "size": 387,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/99e164af558bd5d85ca0d38755b82b8f384c4723"
+    },
+    {
+      "path": "src/components/Background/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d4e13fc29571ad24d23efe50de68445611b69e3",
+      "size": 102,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/6d4e13fc29571ad24d23efe50de68445611b69e3"
+    },
+    {
+      "path": "src/components/BaseCanvas",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "45f4db08fce4fc3bf797a3ae35c26e063ad610da",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/45f4db08fce4fc3bf797a3ae35c26e063ad610da"
+    },
+    {
+      "path": "src/components/BaseCanvas/BaseCanvas.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1460aa8a0cd67586a66ed4909a6f89886977b73e",
+      "size": 1387,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/1460aa8a0cd67586a66ed4909a6f89886977b73e"
+    },
+    {
+      "path": "src/components/BaseCanvas/BaseCanvas.module.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04eb1b3c8e92342743dd4d099b70fcec13b54259",
+      "size": 75,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/04eb1b3c8e92342743dd4d099b70fcec13b54259"
+    },
+    {
+      "path": "src/components/BaseCanvas/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f1420324ad2f6a9c73ae1de4bdb9a4cd4f13594",
+      "size": 53,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/6f1420324ad2f6a9c73ae1de4bdb9a4cd4f13594"
+    },
+    {
+      "path": "src/components/Bloom",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bbad12f915e56296e089a6953ee9b1477336bd19",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/bbad12f915e56296e089a6953ee9b1477336bd19"
+    },
+    {
+      "path": "src/components/Bloom/Bloom.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c9dd6b23533d546f1d7017df05c63fcd1581e48",
+      "size": 542,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/8c9dd6b23533d546f1d7017df05c63fcd1581e48"
+    },
+    {
+      "path": "src/components/Capture",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5a5576117a694e328d2ab612c4ab7c395e833153",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/5a5576117a694e328d2ab612c4ab7c395e833153"
+    },
+    {
+      "path": "src/components/Capture/Capture.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1d8af2527a5f525fda1f79a36b0ffa6e70e0bb9",
+      "size": 851,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/c1d8af2527a5f525fda1f79a36b0ffa6e70e0bb9"
+    },
+    {
+      "path": "src/components/Exhibit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dc78248c7fba5756022125d39ea08a38f553d849",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/dc78248c7fba5756022125d39ea08a38f553d849"
+    },
+    {
+      "path": "src/components/Exhibit/Exhibit.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "caa37cf1e01bb3a668b688e702935c523b5c2185",
+      "size": 4768,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/caa37cf1e01bb3a668b688e702935c523b5c2185"
+    },
+    {
+      "path": "src/components/Exhibit/Exhibit.stories.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efb7c671eec5425860607a8ee23a260165dcd8fe",
+      "size": 1847,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/efb7c671eec5425860607a8ee23a260165dcd8fe"
+    },
+    {
+      "path": "src/components/Exhibit/Exhibit.test.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ca55168593127f0793a8997237d77c6827b6a3d",
+      "size": 785,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/5ca55168593127f0793a8997237d77c6827b6a3d"
+    },
+    {
+      "path": "src/components/Exhibit/__snapshots__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f02b18aa4bae4c877df1bb01243ebae7a7ab6b3d",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/f02b18aa4bae4c877df1bb01243ebae7a7ab6b3d"
+    },
+    {
+      "path": "src/components/Exhibit/__snapshots__/Exhibit.test.tsx.snap",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6032a7c9e4a4019976894591914cf9b89579fdb",
+      "size": 788,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/c6032a7c9e4a4019976894591914cf9b89579fdb"
+    },
+    {
+      "path": "src/components/Exhibit/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b82eacb481b72698f6da6be431b061a318dbcb8f",
+      "size": 47,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/b82eacb481b72698f6da6be431b061a318dbcb8f"
+    },
+    {
+      "path": "src/components/FileDropper",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "33a87193d61b38eef404b9da87d8d2e6b8674d92",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/33a87193d61b38eef404b9da87d8d2e6b8674d92"
+    },
+    {
+      "path": "src/components/FileDropper/FileDropper.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c4cda76c372dc032bf7d01803ce49a2fec8ab7e",
+      "size": 2625,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/2c4cda76c372dc032bf7d01803ce49a2fec8ab7e"
+    },
+    {
+      "path": "src/components/FileDropper/FileDropper.module.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b63f997be015d1b39edc613766efb5517e1384db",
+      "size": 545,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/b63f997be015d1b39edc613766efb5517e1384db"
+    },
+    {
+      "path": "src/components/FileDropper/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4b549efa12bde2e42bcfe469b56773c3133c679",
+      "size": 55,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/f4b549efa12bde2e42bcfe469b56773c3133c679"
+    },
+    {
+      "path": "src/components/FloorReflection",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "95cb893220b579eb969a6f83fd0da18d9f7b74b8",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/95cb893220b579eb969a6f83fd0da18d9f7b74b8"
+    },
+    {
+      "path": "src/components/FloorReflection/FloorReflection.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f1609ae7521abcc7f7860675c23deb3ea6f5601",
+      "size": 1863,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/7f1609ae7521abcc7f7860675c23deb3ea6f5601"
+    },
+    {
+      "path": "src/components/FloorReflection/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c7003014c0518f6adf13c040fe02d6a7f3ceda3",
+      "size": 136,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/1c7003014c0518f6adf13c040fe02d6a7f3ceda3"
+    },
+    {
+      "path": "src/components/Lights",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8849941fed8a35f7fd4aeae37edcca2dfc5f48a4",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/8849941fed8a35f7fd4aeae37edcca2dfc5f48a4"
+    },
+    {
+      "path": "src/components/Lights/Lights.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c940af30f0e68fc0a82fb39d5f683d847bb24868",
+      "size": 3413,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/c940af30f0e68fc0a82fb39d5f683d847bb24868"
+    },
+    {
+      "path": "src/components/Loader",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7a0c241665d1ef5073524be8ca865c5818cda638",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/7a0c241665d1ef5073524be8ca865c5818cda638"
+    },
+    {
+      "path": "src/components/Loader/Loader.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d21a39b9680c6315cc6a524781a5d701c8b09b4",
+      "size": 307,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/2d21a39b9680c6315cc6a524781a5d701c8b09b4"
+    },
+    {
+      "path": "src/components/Loader/Loader.module.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ad103a1ebfdeeeba6ff2a4575d257d90e15f887",
+      "size": 1011,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/0ad103a1ebfdeeeba6ff2a4575d257d90e15f887"
+    },
+    {
+      "path": "src/components/Loader/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b43c5bb6a1161bab62558791d43e69df1188d7c",
+      "size": 69,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/5b43c5bb6a1161bab62558791d43e69df1188d7c"
+    },
+    {
+      "path": "src/components/Models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "179899900a204c49fec41041aacf7830ad634829",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/179899900a204c49fec41041aacf7830ad634829"
+    },
+    {
+      "path": "src/components/Models/AnimationModel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "379384c4a3bca26d346e9041bc497b576ea001bc",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/379384c4a3bca26d346e9041bc497b576ea001bc"
+    },
+    {
+      "path": "src/components/Models/AnimationModel/AnimationModel.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df68e6f5774c3eda92b87b8b98173b139a0782da",
+      "size": 3194,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/df68e6f5774c3eda92b87b8b98173b139a0782da"
+    },
+    {
+      "path": "src/components/Models/AnimationModel/AnimationModel.container.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72a6561ec4f8abd62e6cfaad17e4d4a4177ed383",
+      "size": 535,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/72a6561ec4f8abd62e6cfaad17e4d4a4177ed383"
+    },
+    {
+      "path": "src/components/Models/AnimationModel/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0af8cbd71e6063732514744921f4a1a1a872724",
+      "size": 88,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/a0af8cbd71e6063732514744921f4a1a1a872724"
+    },
+    {
+      "path": "src/components/Models/BoundsModel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "132f7d1f65559b91336ad48e2e00103a0b617e34",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/132f7d1f65559b91336ad48e2e00103a0b617e34"
+    },
+    {
+      "path": "src/components/Models/BoundsModel/BoundsModel.container.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72eef3df13ee0c85174a1ee05a4f2e66eb5e88ef",
+      "size": 1161,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/72eef3df13ee0c85174a1ee05a4f2e66eb5e88ef"
+    },
+    {
+      "path": "src/components/Models/BoundsModel/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37949a37f2cf6d90e0d8ac1b912e86760aa36e5d",
+      "size": 79,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/37949a37f2cf6d90e0d8ac1b912e86760aa36e5d"
+    },
+    {
+      "path": "src/components/Models/CenteredModel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3c603157192e258b744479c3887092fdd1368e4b",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/3c603157192e258b744479c3887092fdd1368e4b"
+    },
+    {
+      "path": "src/components/Models/CenteredModel/CenteredModel.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d98f3d1984380282ee3dd5fcf28efc1867d67b54",
+      "size": 4406,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/d98f3d1984380282ee3dd5fcf28efc1867d67b54"
+    },
+    {
+      "path": "src/components/Models/CenteredModel/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfe010dea1ce0016ea9cd1f521e3717093a40390",
+      "size": 59,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/bfe010dea1ce0016ea9cd1f521e3717093a40390"
+    },
+    {
+      "path": "src/components/Models/EnvironmentModel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "270c97cf0860f48274aa2ea9adb5dfd5854e4af4",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/270c97cf0860f48274aa2ea9adb5dfd5854e4af4"
+    },
+    {
+      "path": "src/components/Models/EnvironmentModel/EnvironmentModel.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afefe049410695473c99809b0f2c3c29cd653ce9",
+      "size": 1383,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/afefe049410695473c99809b0f2c3c29cd653ce9"
+    },
+    {
+      "path": "src/components/Models/EnvironmentModel/EnvironmentModel.container.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c69c1be820c780afad4d52fa3d00428fd3976c7",
+      "size": 866,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/5c69c1be820c780afad4d52fa3d00428fd3976c7"
+    },
+    {
+      "path": "src/components/Models/EnvironmentModel/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f87d655064a159a08fb16ec1fa19bbf49bfc33d",
+      "size": 94,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/3f87d655064a159a08fb16ec1fa19bbf49bfc33d"
+    },
+    {
+      "path": "src/components/Models/FloatingModel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a6b00916163aed75ecd42b9eb13520b1bbe7223c",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/a6b00916163aed75ecd42b9eb13520b1bbe7223c"
+    },
+    {
+      "path": "src/components/Models/FloatingModel/FloatingModel.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa62517f960aca8dbdf0b6b8319fc448ffa287b8",
+      "size": 1149,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/aa62517f960aca8dbdf0b6b8319fc448ffa287b8"
+    },
+    {
+      "path": "src/components/Models/FloatingModel/FloatingModel.container.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0c84985983af374ebe4e2e1915eee4250415a60",
+      "size": 529,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/b0c84985983af374ebe4e2e1915eee4250415a60"
+    },
+    {
+      "path": "src/components/Models/FloatingModel/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c5e14ce578be3afc254b458532c07ae85895f94",
+      "size": 85,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/9c5e14ce578be3afc254b458532c07ae85895f94"
+    },
+    {
+      "path": "src/components/Models/HalfBodyModel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "70217b990006af09c240b2efcc1bb9d9fa8d8ec0",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/70217b990006af09c240b2efcc1bb9d9fa8d8ec0"
+    },
+    {
+      "path": "src/components/Models/HalfBodyModel/HalfBodyModel.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e22a9cffddf5e9ffd691a8231450ff78b55fc87",
+      "size": 2076,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/4e22a9cffddf5e9ffd691a8231450ff78b55fc87"
+    },
+    {
+      "path": "src/components/Models/HalfBodyModel/HalfBodyModel.container.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40769b8025017dc3a9c465bc7f2707a1e8bac582",
+      "size": 529,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/40769b8025017dc3a9c465bc7f2707a1e8bac582"
+    },
+    {
+      "path": "src/components/Models/HalfBodyModel/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4c97289900efad582df991819ac9b1c84b8eb09",
+      "size": 85,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/e4c97289900efad582df991819ac9b1c84b8eb09"
+    },
+    {
+      "path": "src/components/Models/Model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2629f0d3456da02e3a4562283f564cbd91dcda88",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/2629f0d3456da02e3a4562283f564cbd91dcda88"
+    },
+    {
+      "path": "src/components/Models/Model/Model.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4263887128d8df4b14896c680b333fe6cb510401",
+      "size": 4812,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/4263887128d8df4b14896c680b333fe6cb510401"
+    },
+    {
+      "path": "src/components/Models/Model/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77e423d8b76db6945e81da942f07b4061a4e4c00",
+      "size": 43,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/77e423d8b76db6945e81da942f07b4061a4e4c00"
+    },
+    {
+      "path": "src/components/Models/MultipleAnimationModel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f606dfaa4b982abc1e16f859770201c40e710188",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/f606dfaa4b982abc1e16f859770201c40e710188"
+    },
+    {
+      "path": "src/components/Models/MultipleAnimationModel/MultipleAnimationModel.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ece3ad96f28c4e58edc2824d5ef0224c447b21b1",
+      "size": 4233,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/ece3ad96f28c4e58edc2824d5ef0224c447b21b1"
+    },
+    {
+      "path": "src/components/Models/MultipleAnimationModel/MultipleAnimationModel.container.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d71ad4b18f7f0229a3791ab6ae392f17ff3d6142",
+      "size": 584,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/d71ad4b18f7f0229a3791ab6ae392f17ff3d6142"
+    },
+    {
+      "path": "src/components/Models/MultipleAnimationModel/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "838890922d09581a66d89d61de51ae3d65dc60c0",
+      "size": 112,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/838890922d09581a66d89d61de51ae3d65dc60c0"
+    },
+    {
+      "path": "src/components/Models/PoseModel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "65f9534721436af3c1747e94ca370b302e2c2f40",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/65f9534721436af3c1747e94ca370b302e2c2f40"
+    },
+    {
+      "path": "src/components/Models/PoseModel/PoseModel.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02f83ec8cbb1c2aab9c98a4e6858ee7ecc07a198",
+      "size": 1390,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/02f83ec8cbb1c2aab9c98a4e6858ee7ecc07a198"
+    },
+    {
+      "path": "src/components/Models/PoseModel/PoseModel.container.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b8c16d626800a4b00a092bf0451df5a2b8dedb0",
+      "size": 505,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/5b8c16d626800a4b00a092bf0451df5a2b8dedb0"
+    },
+    {
+      "path": "src/components/Models/PoseModel/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "906b4dcfcd4d0b17b4419541d4182d581d93e372",
+      "size": 73,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/906b4dcfcd4d0b17b4419541d4182d581d93e372"
+    },
+    {
+      "path": "src/components/Models/RotatingModel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f91e6a1498c4750ca08c5d486dc75f4af8ae2ce",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/1f91e6a1498c4750ca08c5d486dc75f4af8ae2ce"
+    },
+    {
+      "path": "src/components/Models/RotatingModel/RotatingModel.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60786b61c0ab52874fa25326f9d8f6b17ced2883",
+      "size": 2737,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/60786b61c0ab52874fa25326f9d8f6b17ced2883"
+    },
+    {
+      "path": "src/components/Models/RotatingModel/RotatingModel.container.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5fdfcf41ca6a48595c584c1c1b96678f6b7c414",
+      "size": 529,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/a5fdfcf41ca6a48595c584c1c1b96678f6b7c414"
+    },
+    {
+      "path": "src/components/Models/RotatingModel/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33853351ac70e1e2986843ce14988a6b34ca0e05",
+      "size": 85,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/33853351ac70e1e2986843ce14988a6b34ca0e05"
+    },
+    {
+      "path": "src/components/Models/StaticModel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "61e1e3b3669c9b68cabc99485590266a8a5d3374",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/61e1e3b3669c9b68cabc99485590266a8a5d3374"
+    },
+    {
+      "path": "src/components/Models/StaticModel/StaticModel.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "364e4e8adda0fdf5ca664c2b74f88c2077c317a9",
+      "size": 1219,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/364e4e8adda0fdf5ca664c2b74f88c2077c317a9"
+    },
+    {
+      "path": "src/components/Models/StaticModel/StaticModel.container.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23cadcbcecc2e977729ec12ea2fbd161068d01ca",
+      "size": 517,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/23cadcbcecc2e977729ec12ea2fbd161068d01ca"
+    },
+    {
+      "path": "src/components/Models/StaticModel/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "928a7c8b66368b43db034052a7ee2a5b823ef110",
+      "size": 79,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/928a7c8b66368b43db034052a7ee2a5b823ef110"
+    },
+    {
+      "path": "src/components/Models/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7133f22dad24ae8972474c431b52c94f60520fe0",
+      "size": 390,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/7133f22dad24ae8972474c431b52c94f60520fe0"
+    },
+    {
+      "path": "src/components/Scene",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f833f11c7dbc527f4a59fb8f1c4cbebe703afbd",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/1f833f11c7dbc527f4a59fb8f1c4cbebe703afbd"
+    },
+    {
+      "path": "src/components/Scene/AnimatedCamera.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0864b715dadd5b52f4d2320d0bbaf867b5d0be4",
+      "size": 1219,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/a0864b715dadd5b52f4d2320d0bbaf867b5d0be4"
+    },
+    {
+      "path": "src/components/Scene/CameraControls.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6553f25245636243dcbb7cd501132acc7fff0e90",
+      "size": 3673,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/6553f25245636243dcbb7cd501132acc7fff0e90"
+    },
+    {
+      "path": "src/components/Scene/Environment.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ead3b1bedf947db0ab06167f90dc767e658c8ad1",
+      "size": 891,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/ead3b1bedf947db0ab06167f90dc767e658c8ad1"
+    },
+    {
+      "path": "src/components/Shadow",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ea8783d40e254b3228ed4f87e152e71cf49d1f36",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/ea8783d40e254b3228ed4f87e152e71cf49d1f36"
+    },
+    {
+      "path": "src/components/Shadow/Shadow.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e61e82e7ff866ebb1bffd04c35111cfebe51ca75",
+      "size": 362,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/e61e82e7ff866ebb1bffd04c35111cfebe51ca75"
+    },
+    {
+      "path": "src/components/Spawn",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aea83f4160d66790ed64fc78f30ca925d5a78344",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/aea83f4160d66790ed64fc78f30ca925d5a78344"
+    },
+    {
+      "path": "src/components/Spawn/Spawn.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2c64a5eb157f79e43bc3a9dbd38bf7203477557",
+      "size": 1754,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/e2c64a5eb157f79e43bc3a9dbd38bf7203477557"
+    },
+    {
+      "path": "src/components/Spawn/SpawnAnimation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f6bd761377594ea9a24c1246b344b88b6e9f344e",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/f6bd761377594ea9a24c1246b344b88b6e9f344e"
+    },
+    {
+      "path": "src/components/Spawn/SpawnAnimation/SpawnAnimation.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "016e4c160146f39a337ff63ed3a18b3e9a0a62e9",
+      "size": 1707,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/016e4c160146f39a337ff63ed3a18b3e9a0a62e9"
+    },
+    {
+      "path": "src/components/Spawn/SpawnEffect",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6c565e4ea05856a86d1171ece2c20d3cc3835e6f",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/6c565e4ea05856a86d1171ece2c20d3cc3835e6f"
+    },
+    {
+      "path": "src/components/Spawn/SpawnEffect/SpawnEffect.component.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93ffd4a297a3c64ce0d449c1f76a9a1a38978406",
+      "size": 2000,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/93ffd4a297a3c64ce0d449c1f76a9a1a38978406"
+    },
+    {
+      "path": "src/hooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "847c14714b642f28eb8838202bf1168b2f10d39c",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/847c14714b642f28eb8838202bf1168b2f10d39c"
+    },
+    {
+      "path": "src/hooks/useDeviceDetector",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "47bf70d9302eabacfa0f71d7725c70f3eddddb26",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/47bf70d9302eabacfa0f71d7725c70f3eddddb26"
+    },
+    {
+      "path": "src/hooks/useDeviceDetector/use-device-detector.hook.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec752fc7d6170752a4ff5b2b189f93c64368d7d0",
+      "size": 2790,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/ec752fc7d6170752a4ff5b2b189f93c64368d7d0"
+    },
+    {
+      "path": "src/index.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5ef9fe82ee7a1fe4d2df35efd1b6825056d49c8",
+      "size": 251,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/a5ef9fe82ee7a1fe4d2df35efd1b6825056d49c8"
+    },
+    {
+      "path": "src/library.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2a7f76d314427ab2ffc51fbe4c83b286e08ab76",
+      "size": 878,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/f2a7f76d314427ab2ffc51fbe4c83b286e08ab76"
+    },
+    {
+      "path": "src/services",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6fb4125d85ef1e6f9abe84485333514eeaf1fc28",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/6fb4125d85ef1e6f9abe84485333514eeaf1fc28"
+    },
+    {
+      "path": "src/services/Analytics.service.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37db0009ca99e177af1c0775544f8137ad10511c",
+      "size": 236,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/37db0009ca99e177af1c0775544f8137ad10511c"
+    },
+    {
+      "path": "src/services/Animation.service.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48eb2dd85f002bfa536224fae04445d05bfee6b1",
+      "size": 6853,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/48eb2dd85f002bfa536224fae04445d05bfee6b1"
+    },
+    {
+      "path": "src/services/Client.service.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "832d465c87ad75356bc7cdf323312f0efeb89cb0",
+      "size": 56,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/832d465c87ad75356bc7cdf323312f0efeb89cb0"
+    },
+    {
+      "path": "src/services/DownloadSpeed.service.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4965a2deba2cbec323dcb4128d0b7ed1e47d6106",
+      "size": 693,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/4965a2deba2cbec323dcb4128d0b7ed1e47d6106"
+    },
+    {
+      "path": "src/services/Environment.service.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cac86e6b3c8eb79274438b8637739d57ff7ebc1",
+      "size": 923,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/3cac86e6b3c8eb79274438b8637739d57ff7ebc1"
+    },
+    {
+      "path": "src/services/GLTFLoaderAnimationPointer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a23aabd5139c8bd9c3bcc895125206125df86f50",
+      "size": 21263,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/a23aabd5139c8bd9c3bcc895125206125df86f50"
+    },
+    {
+      "path": "src/services/Models.service.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0045765854b6b294a89ed53aae689ae4dbbdf8c",
+      "size": 16012,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/b0045765854b6b294a89ed53aae689ae4dbbdf8c"
+    },
+    {
+      "path": "src/services/Models.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa497a4c7b6293fb6e296dfa6ab16034a7c3d596",
+      "size": 1947,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/fa497a4c7b6293fb6e296dfa6ab16034a7c3d596"
+    },
+    {
+      "path": "src/services/Stories.service.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87a7639e8202e0e5c4b3a3f16dc478a0db8e601f",
+      "size": 2788,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/87a7639e8202e0e5c4b3a3f16dc478a0db8e601f"
+    },
+    {
+      "path": "src/services/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0bdd07b33d7a0995e9d2142153d820fc9e042f3",
+      "size": 34,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/e0bdd07b33d7a0995e9d2142153d820fc9e042f3"
+    },
+    {
+      "path": "src/services/meshopt_decoder.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f760a656be5549a320af23b13ae764aaf4c4384",
+      "size": 25427,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/0f760a656be5549a320af23b13ae764aaf4c4384"
+    },
+    {
+      "path": "src/setupTests.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dad9d0b69f30a38b8a6f03498148a8d761345bdc",
+      "size": 331,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/dad9d0b69f30a38b8a6f03498148a8d761345bdc"
+    },
+    {
+      "path": "src/state",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "82f5776419f8a2826d6dd01be75c1e02ee680baf",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/82f5776419f8a2826d6dd01be75c1e02ee680baf"
+    },
+    {
+      "path": "src/state/spawnAtom.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5576b602cd4c25f150a2a64e2c704d1b459ea69c",
+      "size": 221,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/5576b602cd4c25f150a2a64e2c704d1b459ea69c"
+    },
+    {
+      "path": "src/types",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6a43bf218c51e2287f8e101480106e4365dadb37",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/6a43bf218c51e2287f8e101480106e4365dadb37"
+    },
+    {
+      "path": "src/types/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "435c97318f54b90e2090a9e6ad294f80f3918aa1",
+      "size": 5003,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/435c97318f54b90e2090a9e6ad294f80f3918aa1"
+    },
+    {
+      "path": "src/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "356a136566393730b368efcbaf5b23dfffdcb26d",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/356a136566393730b368efcbaf5b23dfffdcb26d"
+    },
+    {
+      "path": "src/utils/props.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dcf7824a088603d250a8c1882064ad34b2330f9",
+      "size": 256,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/6dcf7824a088603d250a8c1882064ad34b2330f9"
+    },
+    {
+      "path": "test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d9c6644de44a7287255d18d4051ca0100e58868f",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/d9c6644de44a7287255d18d4051ca0100e58868f"
+    },
+    {
+      "path": "test/functional",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8fd79b2be260f9b3f2d8aad93c22450f2f87c034",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/8fd79b2be260f9b3f2d8aad93c22450f2f87c034"
+    },
+    {
+      "path": "test/functional/cypress-image-diff-screenshots",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "010e1717945d90e68e43027d85e8a00703168b95",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/010e1717945d90e68e43027d85e8a00703168b95"
+    },
+    {
+      "path": "test/functional/cypress-image-diff-screenshots/baseline",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fc96ac8dc77ff3a5d5dd42dae79e5cdc83031537",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/fc96ac8dc77ff3a5d5dd42dae79e5cdc83031537"
+    },
+    {
+      "path": "test/functional/cypress-image-diff-screenshots/baseline/visual.cy.ts-avatar-zoom-0.5-side-[-1].png",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b396818ff1b38dc104857ba6c4cb4bde66e82586",
+      "size": 646282,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/b396818ff1b38dc104857ba6c4cb4bde66e82586"
+    },
+    {
+      "path": "test/functional/cypress-image-diff-screenshots/baseline/visual.cy.ts-avatar-zoom-0.5-side-[1].png",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f53b6c08ea4d9f9dbf68cab2b87e046b9e12bd74",
+      "size": 358557,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/f53b6c08ea4d9f9dbf68cab2b87e046b9e12bd74"
+    },
+    {
+      "path": "test/functional/cypress-image-diff-screenshots/baseline/visual.cy.ts-avatar-zoom-3-side-[1].png",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3547166a6307e40caaf7897ccd65043eb77996a4",
+      "size": 196774,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/3547166a6307e40caaf7897ccd65043eb77996a4"
+    },
+    {
+      "path": "test/functional/cypress.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d980ad385377ffc70be79a4e8fde7cdeb9c4f28a",
+      "size": 493,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/d980ad385377ffc70be79a4e8fde7cdeb9c4f28a"
+    },
+    {
+      "path": "test/functional/cypress",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ae08f73e6fdbf916980824c4e03c94e39d233dc7",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/ae08f73e6fdbf916980824c4e03c94e39d233dc7"
+    },
+    {
+      "path": "test/functional/cypress/e2e",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "99b710faf9f8d1133c51d821212af69fd15d29e2",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/99b710faf9f8d1133c51d821212af69fd15d29e2"
+    },
+    {
+      "path": "test/functional/cypress/e2e/visual.cy.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dccaac2b1a5b0fa58dba8ce9bd6c356368ab2d62",
+      "size": 1373,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/dccaac2b1a5b0fa58dba8ce9bd6c356368ab2d62"
+    },
+    {
+      "path": "test/functional/cypress/fixtures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "52d712d29051c895ad906c77573f4d455857feda",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/52d712d29051c895ad906c77573f4d455857feda"
+    },
+    {
+      "path": "test/functional/cypress/fixtures/example.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02e4254378e9785f013be7cc8d94a8229dcbcbb7",
+      "size": 155,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/02e4254378e9785f013be7cc8d94a8229dcbcbb7"
+    },
+    {
+      "path": "test/functional/cypress/fixtures/soft.hdr",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47d4db9bee626139561c46f30e07a3912060a602",
+      "size": 131135,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/47d4db9bee626139561c46f30e07a3912060a602"
+    },
+    {
+      "path": "test/functional/cypress/support",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9fbb87fe2433a93138fbdac9545b7cb08b187f6d",
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/trees/9fbb87fe2433a93138fbdac9545b7cb08b187f6d"
+    },
+    {
+      "path": "test/functional/cypress/support/commands.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39e507442bbd1149403161dcca4fcafe0407e8e9",
+      "size": 109,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/39e507442bbd1149403161dcca4fcafe0407e8e9"
+    },
+    {
+      "path": "test/functional/cypress/support/e2e.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "598ab5f0d7fe1a8549f89789c4b5b5d483ca9136",
+      "size": 669,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/598ab5f0d7fe1a8549f89789c4b5b5d483ca9136"
+    },
+    {
+      "path": "tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2326a92a54d6ba2ef43420ca0ed47813cea5739",
+      "size": 952,
+      "url": "https://api.github.com/repos/readyplayerme/visage/git/blobs/c2326a92a54d6ba2ef43420ca0ed47813cea5739"
+    }
+  ],
+  "truncated": false
+}

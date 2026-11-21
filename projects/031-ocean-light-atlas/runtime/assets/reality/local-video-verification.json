@@ -1,0 +1,112 @@
+[
+  {
+    "id": "usf-sunset-waves",
+    "localFile": "assets/reality/usf-sunset-waves.mp4",
+    "sourceUrl": "https://etc.usf.edu/clipvideo/3416-sunset-on-waves",
+    "mediaUrl": "https://etc.usf.edu/clipvideo/f/item/3416/sunset-on-waves.15.640x360.m4v",
+    "duration": 15.118345,
+    "bytes": 7146482,
+    "sha256": "adc1ea33a91431d95d93792430cba45fb9466e93eb55c76ea73d0bde71d74a10",
+    "width": 640,
+    "height": 360,
+    "codec": "h264",
+    "fps": "30/1",
+    "representativeFrames": [
+      0.0,
+      5.0,
+      10.0
+    ],
+    "processing": "Downloaded institution-provided 15-second 640x360 m4v bytes renamed to mp4. No recompression or color grading applied locally.",
+    "licenseUrl": "https://etc.usf.edu/clipvideo/license",
+    "downloadedAt": "2026-11-14",
+    "use": "Non-commercial educational comparison only; credit FCIT / University of South Florida and Dr. Roy Winkelman. Not for commercial export or stock collection redistribution."
+  },
+  {
+    "id": "usf-wave-pattern",
+    "localFile": "assets/reality/usf-wave-pattern.mp4",
+    "sourceUrl": "https://etc.usf.edu/clipvideo/3482-wave-pattern",
+    "mediaUrl": "https://etc.usf.edu/clipvideo/f/item/3482/wave-pattern.15.640x360.m4v",
+    "duration": 15.199,
+    "bytes": 6730115,
+    "sha256": "815512b770bd0f9a3bd63bd032858241d47556681a916e9d04352c59fc617846",
+    "width": 640,
+    "height": 360,
+    "codec": "h264",
+    "fps": "3427500/114239",
+    "representativeFrames": [
+      0.0,
+      4.9883,
+      9.9933
+    ],
+    "processing": "Downloaded institution-provided 15-second 640x360 m4v bytes renamed to mp4. No recompression or color grading applied locally.",
+    "licenseUrl": "https://etc.usf.edu/clipvideo/license",
+    "downloadedAt": "2026-11-14",
+    "use": "Non-commercial educational comparison only; credit FCIT / University of South Florida and Dr. Roy Winkelman. Not for commercial export or stock collection redistribution."
+  },
+  {
+    "id": "usf-closeup-surf",
+    "localFile": "assets/reality/usf-closeup-surf.mp4",
+    "sourceUrl": "https://etc.usf.edu/clipvideo/3405-close-up-surf",
+    "mediaUrl": "https://etc.usf.edu/clipvideo/f/item/3405/close-up-surf.15.640x360.m4v",
+    "duration": 15.331667,
+    "bytes": 6575236,
+    "sha256": "b31f97484e88ebe2127d0765b68b4b954ae52da5f67d157e46529bd6b07380ab",
+    "width": 640,
+    "height": 360,
+    "codec": "h264",
+    "fps": "30000/1001",
+    "representativeFrames": [
+      0.0,
+      5.005,
+      10.01
+    ],
+    "processing": "Downloaded institution-provided 15-second 640x360 m4v bytes renamed to mp4. No recompression or color grading applied locally.",
+    "licenseUrl": "https://etc.usf.edu/clipvideo/license",
+    "downloadedAt": "2026-11-14",
+    "use": "Non-commercial educational comparison only; credit FCIT / University of South Florida and Dr. Roy Winkelman. Not for commercial export or stock collection redistribution."
+  },
+  {
+    "id": "usf-shallow-water",
+    "localFile": "assets/reality/usf-shallow-water.mp4",
+    "sourceUrl": "https://etc.usf.edu/clipvideo/3539-shallow-water",
+    "mediaUrl": "https://etc.usf.edu/clipvideo/f/item/3539/shallow-water.15.640x360.m4v",
+    "duration": 15.054542,
+    "bytes": 7152970,
+    "sha256": "f58c10d889b28d63b0d202887b6c12fc164269b3d247008b251210712f70e591",
+    "width": 640,
+    "height": 360,
+    "codec": "h264",
+    "fps": "3390000/112909",
+    "representativeFrames": [
+      0.0,
+      4.9883,
+      9.9933
+    ],
+    "processing": "Downloaded institution-provided 15-second 640x360 m4v bytes renamed to mp4. No recompression or color grading applied locally.",
+    "licenseUrl": "https://etc.usf.edu/clipvideo/license",
+    "downloadedAt": "2026-11-14",
+    "use": "Non-commercial educational comparison only; credit FCIT / University of South Florida and Dr. Roy Winkelman. Not for commercial export or stock collection redistribution."
+  },
+  {
+    "id": "usf-rolling-foam",
+    "localFile": "assets/reality/usf-rolling-foam.mp4",
+    "sourceUrl": "https://etc.usf.edu/clipvideo/3407-rolling-foam",
+    "mediaUrl": "https://etc.usf.edu/clipvideo/f/item/3407/rolling-foam.15.640x360.m4v",
+    "duration": 15.193875,
+    "bytes": 7287677,
+    "sha256": "715e777fdacb6ec551af96a7c25833be0749d6fd0fa81091c7e7b623b60d3abc",
+    "width": 640,
+    "height": 360,
+    "codec": "h264",
+    "fps": "1710000/56977",
+    "representativeFrames": [
+      0.0,
+      5.005,
+      10.01
+    ],
+    "processing": "Downloaded institution-provided 15-second 640x360 m4v bytes renamed to mp4. No recompression or color grading applied locally.",
+    "licenseUrl": "https://etc.usf.edu/clipvideo/license",
+    "downloadedAt": "2026-11-14",
+    "use": "Non-commercial educational comparison only; credit FCIT / University of South Florida and Dr. Roy Winkelman. Not for commercial export or stock collection redistribution."
+  }
+]

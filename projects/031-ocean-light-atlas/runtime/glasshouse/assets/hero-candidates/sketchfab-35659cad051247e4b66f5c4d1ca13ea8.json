@@ -1,0 +1,137 @@
+{
+  "animationCount": 0,
+  "categories": [],
+  "commentCount": 0,
+  "createdAt": "2025-08-21T20:23:59.795601",
+  "embedUrl": "https://sketchfab.com/models/35659cad051247e4b66f5c4d1ca13ea8/embed",
+  "faceCount": 295356,
+  "isAgeRestricted": false,
+  "license": {
+    "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+    "label": "CC Attribution",
+    "fullName": "Creative Commons Attribution",
+    "requirements": "Author must be credited. Commercial use is allowed.",
+    "url": "http://creativecommons.org/licenses/by/4.0/",
+    "slug": "by"
+  },
+  "likeCount": 2,
+  "name": "Man in Hoodie",
+  "publishedAt": "2025-08-21T20:24:33.464511",
+  "soundCount": 0,
+  "staffpickedAt": null,
+  "tags": [
+    {
+      "name": "AI",
+      "slug": "ai",
+      "uri": "https://api.sketchfab.com/v3/tags/ai"
+    },
+    {
+      "name": "createdwithai",
+      "slug": "createdwithai",
+      "uri": "https://api.sketchfab.com/v3/tags/createdwithai"
+    },
+    {
+      "name": "meshy",
+      "slug": "meshy",
+      "uri": "https://api.sketchfab.com/v3/tags/meshy"
+    }
+  ],
+  "thumbnails": {
+    "images": [
+      {
+        "uid": "5f7d486afc5c45a68ef6e3fb3a181e8f",
+        "width": 1920,
+        "height": 1080,
+        "size": 65534,
+        "url": "https://media.sketchfab.com/models/35659cad051247e4b66f5c4d1ca13ea8/thumbnails/774739b9bc0c4f959d7e325062a651f3/5aba8de93ea541f8b1139342e7221032.jpeg"
+      },
+      {
+        "uid": "275546b2b7604bb0acdf8b703bb7f41f",
+        "width": 1024,
+        "height": 576,
+        "size": 18439,
+        "url": "https://media.sketchfab.com/models/35659cad051247e4b66f5c4d1ca13ea8/thumbnails/774739b9bc0c4f959d7e325062a651f3/c54b1a5f2d474a079ca9fcb1d0497331.jpeg"
+      },
+      {
+        "uid": "30ed0cdacf7a41d198c6ae064cde225f",
+        "width": 720,
+        "height": 405,
+        "size": 10443,
+        "url": "https://media.sketchfab.com/models/35659cad051247e4b66f5c4d1ca13ea8/thumbnails/774739b9bc0c4f959d7e325062a651f3/f887e3ed7acb4e9ea07d648fc7bde402.jpeg"
+      },
+      {
+        "uid": "cf10afef7ed644b093c64028d34e9662",
+        "width": 256,
+        "height": 144,
+        "size": 2510,
+        "url": "https://media.sketchfab.com/models/35659cad051247e4b66f5c4d1ca13ea8/thumbnails/774739b9bc0c4f959d7e325062a651f3/73ba0248dcf649ccb42356b2482de86f.jpeg"
+      },
+      {
+        "uid": "0fd2a417289247208da3383d17014e9d",
+        "width": 64,
+        "height": 36,
+        "size": 902,
+        "url": "https://media.sketchfab.com/models/35659cad051247e4b66f5c4d1ca13ea8/thumbnails/774739b9bc0c4f959d7e325062a651f3/1135c89aa9cf4c18aa07c347ab0f5858.jpeg"
+      }
+    ]
+  },
+  "uid": "35659cad051247e4b66f5c4d1ca13ea8",
+  "uri": "https://api.sketchfab.com/v3/models/35659cad051247e4b66f5c4d1ca13ea8",
+  "user": {
+    "uid": "ea56864b96834651a267900bdf5c6e63",
+    "username": "dmitryzinatulin",
+    "displayName": "dmitryzinatulin",
+    "account": "basic",
+    "profileUrl": "https://sketchfab.com/dmitryzinatulin",
+    "avatar": {
+      "uid": "3ef1bd11d3eb4b57a0b353e8f2e5fc3e",
+      "uri": "https://api.sketchfab.com/v3/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e",
+      "images": [
+        {
+          "width": 32,
+          "height": 32,
+          "size": 680,
+          "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/116042a0854e40538adab302b593683d.jpeg"
+        },
+        {
+          "width": 48,
+          "height": 48,
+          "size": 1253,
+          "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/efea16be51d04eb7a00cb9ea0b43b87f.jpeg"
+        },
+        {
+          "width": 90,
+          "height": 90,
+          "size": 2797,
+          "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/ac9b469ccec74caf923a81fb2f0be3ed.jpeg"
+        },
+        {
+          "width": 100,
+          "height": 100,
+          "size": 3215,
+          "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/a075e1d43d2f446c949b5967b470c757.jpeg"
+        }
+      ]
+    },
+    "uri": "https://api.sketchfab.com/v3/users/ea56864b96834651a267900bdf5c6e63"
+  },
+  "vertexCount": 147675,
+  "viewCount": 686,
+  "viewerUrl": "https://sketchfab.com/3d-models/man-in-hoodie-35659cad051247e4b66f5c4d1ca13ea8",
+  "isDownloadable": true,
+  "isProtected": false,
+  "description": "This model was generated using Meshy(https://www.meshy.ai)'s AI toolkit. It provides tools that effortlessly turn human imagination into stunning 3D models.",
+  "price": null,
+  "downloadCount": 155,
+  "editorUrl": "https://sketchfab.com/models/35659cad051247e4b66f5c4d1ca13ea8/edit",
+  "status": {
+    "warning": {},
+    "processing": "SUCCEEDED"
+  },
+  "source": "unknown",
+  "hasCommentsDisabled": false,
+  "updatedAt": "2025-08-21T20:30:53.105836",
+  "pbrType": null,
+  "textureCount": 1,
+  "materialCount": 1
+}

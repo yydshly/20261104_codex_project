@@ -1,0 +1,162 @@
+{
+  "version": 7,
+  "character": "User 0597 / own head with local facial morphs",
+  "file": "personal-guide-hands43.glb",
+  "bytes": 27153676,
+  "sha256": "bee62731b932e907f66eca8e58dc42daf8565f2501f77ab9e71cd20c3a0336f1",
+  "bones": 80,
+  "vertices": 43889,
+  "triangles": 86348,
+  "height": 1.78,
+  "actions": [
+    {
+      "name": "Idle",
+      "frames": 83,
+      "duration": 2.7333333333333334,
+      "floorErrorMax": 8.463393896818161e-08
+    },
+    {
+      "name": "Walk",
+      "frames": 33,
+      "duration": 1.0666666666666667,
+      "floorErrorMax": 6.891787052154541e-08
+    },
+    {
+      "name": "Wave",
+      "frames": 86,
+      "duration": 2.8333333333333335,
+      "floorErrorMax": 8.935603545978665e-08
+    },
+    {
+      "name": "Point",
+      "frames": 121,
+      "duration": 4.0,
+      "floorErrorMax": 8.132190032483777e-08
+    },
+    {
+      "name": "LookAround",
+      "frames": 140,
+      "duration": 4.633333333333334,
+      "floorErrorMax": 7.967628334881738e-08
+    }
+  ],
+  "walkSpeed": 1.310632639339958,
+  "sourceModel": "../user-model-0597/manifest.json",
+  "motionSource": "https://github.com/microsoft/Microsoft-Rocketbox",
+  "motionLicense": "MIT",
+  "modelLicense": "User-provided; original generation terms not independently verified",
+  "status": "Own 0597 face preserved; local hand and cuff repair used by the seaside demo. Runtime seating and phase-linked ambience.",
+  "limitations": [
+    "Hands are relaxed anatomical surfaces driven by the wrist, without individual finger performance.",
+    "Seated palm contact and surf sound envelopes are website runtime."
+  ],
+  "sourceSha256": "bde0c12688b20e7bf197fea13122186a16f9bb0c15484eee28e0a66fd63b709e",
+  "selection": "Second / front-facing figure, extracted through empty X gaps",
+  "maxWeightsPerVertex": 4,
+  "verification": {
+    "browser": "../../../screenshots/face36-checks.json",
+    "independentImport": "import-validation-facial.json"
+  },
+  "facial": {
+    "identity": "Own 0597 head, hairstyle, glasses, body and clothes retained. No donor face geometry. Only hand surfaces locally replaced with MIT adult hand geometry.",
+    "source": "personal-guide-orbit.blend",
+    "shapes": [
+      "eyeBlinkLeft",
+      "eyeBlinkRight",
+      "eyeLookLeft",
+      "eyeLookRight",
+      "eyeLookUp",
+      "eyeLookDown",
+      "jawOpen",
+      "viseme_PP",
+      "viseme_FF",
+      "viseme_TH",
+      "viseme_DD",
+      "viseme_kk",
+      "viseme_CH",
+      "viseme_SS",
+      "viseme_nn",
+      "viseme_RR",
+      "viseme_aa",
+      "viseme_E",
+      "viseme_I",
+      "viseme_O",
+      "viseme_U"
+    ],
+    "mouthBoundaryVertices": 61,
+    "sharedMouthBoundaryVertices": 61,
+    "mouthCentre": [
+      0.011,
+      1.5412
+    ],
+    "reference": "Separate eyelid, eye and lip controls inspired by Rocketbox/Headbox; shapes authored on own mesh",
+    "speech": "speech/terrace-intro.json"
+  },
+  "hands": {
+    "source": "Microsoft/Rocketbox Male Adult 10 hand surfaces only, local MIT asset",
+    "sourceFile": "../rocket-guide/rocket-guide.glb",
+    "license": "../rocket-guide/LICENSE.txt",
+    "sourceFace": "personal-guide-facial.glb",
+    "sourceFaceSha256": "69927e9fb807a1e63d9d901166c2167d740d2efd8997cdf08295b2c095969f94",
+    "originalSourceVertices": 41999,
+    "removedOriginalVertices": 4520,
+    "retainedOriginalVertices": 37479,
+    "maxRetainedShapePositionError": 0,
+    "cuffWeightVertices": 0,
+    "records": [
+      {
+        "side": "L",
+        "sourceVertices": 433,
+        "vertices": 2500,
+        "colourFactor": [
+          1.1745282768614376,
+          1.2517006542473137,
+          1.5
+        ],
+        "skinTarget": [
+          0.9764706492424011,
+          0.7215686440467834,
+          0.5921568870544434
+        ],
+        "localFingers": [
+          0.06492486596107483,
+          0.997726321220398,
+          0.018082082271575928
+        ],
+        "localPalm": [
+          -0.9951909780502319,
+          0.06340675055980682,
+          0.07466189563274384
+        ],
+        "originalRemovedVertices": 2297
+      },
+      {
+        "side": "R",
+        "sourceVertices": 433,
+        "vertices": 2502,
+        "colourFactor": [
+          1.1745282768614376,
+          1.2517006542473137,
+          1.5
+        ],
+        "skinTarget": [
+          0.9764706492424011,
+          0.7215686440467834,
+          0.5921568870544434
+        ],
+        "localFingers": [
+          -0.06492143869400024,
+          0.9977265000343323,
+          0.018083006143569946
+        ],
+        "localPalm": [
+          0.9951909780502319,
+          0.06340326368808746,
+          0.07466574013233185
+        ],
+        "originalRemovedVertices": 2223
+      }
+    ],
+    "independentFingerAnimation": false
+  }
+}

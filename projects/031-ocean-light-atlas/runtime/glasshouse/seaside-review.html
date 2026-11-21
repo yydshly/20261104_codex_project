@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>室内与海边 · 0597坐姿实景</title><link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f0eee7;color:#263a40;font:15px/1.85 system-ui,"Microsoft YaHei",sans-serif}main{max-width:1280px;margin:auto;padding:32px 24px 70px}a{color:#275866;text-underline-offset:4px}nav,.live{display:flex;gap:16px;flex-wrap:wrap}h1{font:500 clamp(28px,4vw,44px)/1.3 Georgia,"Songti SC",serif;margin:30px 0 14px}h2{font-size:22px;font-weight:550;margin:32px 0 14px}p{max-width:940px}.status{display:inline-block;padding:5px 12px;background:#e9ddc4;border:1px solid #bd9e72;border-radius:3px;color:#69522f;font-size:12px}.pair{display:grid;grid-template-columns:1fr 1fr;gap:18px}figure{margin:0;background:#fffdf7;border:1px solid #d2d6cd;border-radius:6px;overflow:hidden}img,video{display:block;width:100%;height:auto}video{background:#213b45;max-height:720px}figcaption{padding:12px 16px;font-size:13px}.notes{background:#fffdf7;border-left:3px solid #ad9367;padding:16px 24px;margin:26px 0}.live{margin:22px 0}.live a{padding:9px 16px;border:1px solid #a5b1ac;border-radius:4px;text-decoration:none}.live a:first-child{background:#263f47;color:#fff9ed}small{color:#63726e}a:focus-visible,video:focus-visible{outline:3px solid #d4964d;outline-offset:4px}details{background:#fffdf7;border:1px solid #d2d6cd;border-radius:5px;padding:13px 18px;margin-top:24px}summary{cursor:pointer}@media(max-width:650px){main{padding:24px 16px 50px}.pair{grid-template-columns:1fr;gap:12px}nav{gap:12px}}
+</style></head><body><main>
+<nav><a href="./summary.html">理解与效果汇总 ↗</a><a href="./implementation.html">4.3固定版与能力复用 ↗</a><a href="./index.html?seaside=1&amp;v=hands-surf43">← 进入海边玻璃屋</a><a href="./stairs-review.html">台阶记录</a><a href="./facial-review.html">人物与面部记录</a></nav>
+<h1>在屋里，也在海边坐一会儿。</h1>
+<span class="status">4.3 · 手部与袖口修整 · 近岸浪声随画面起落 · 保留0597人物</span>
+<p>在室内坐进沙发或扶手椅，或者沿着玻璃屋的木露台走下台阶，走到临海岩石前，转向海面、后退靠近坐面，慢慢坐下。听一会儿海浪和风，再起身走回露台。</p>
+<div class="live"><a href="./index.html?seaside=1&amp;v=hands-surf43">进入实际3D · 自己控制坐下 ↗</a><a href="./index.html?detail=hands43&amp;seaside=contact&amp;v=hands-surf43">侧面检查动作与接触 ↗</a></div>
+<p>点击「走到岩石旁」后，人物只会走到近旁停住。点击「坐下 · E」或按 E 才会坐下；坐多久由你决定，再点「起身 · E」或按 E 站起来，继续自己走动。也可以直接用 WASD / 方向按钮走近岩石正面，靠近后坐下。「自动往返演示」保留完整路线，「返回露台」单独负责带路返回。</p>
+<p>坐下前先前倾、再向后降低重心；起身先前倾把重量移回双脚，随后伸腿，双手随大腿支撑和释放。镜头沿人物外侧绕行并限制转动速度；拖动环视后会保留你的视角。声音和右上暂停继续可用。</p>
+<section id="hands-current"><h2>让手放稳，让浪声跟着浪走 · 当前4.3</h2>
+<p>保留0597自己的脸、发型、眼镜、身体与西装，局部修整双手、腕部和袖口。坐着时手掌朝向支撑面，一手放大腿、一手搭扶手；沙发中段仍是双手放大腿。手部表面取自本项目已保存的MIT成人手部资产，没有采用供体头部。</p>
+<div class="pair"><figure><img src="../screenshots/hands-surf43-room.png" alt="当前0597人物在沙发上，手掌自然放向扶手与大腿"><figcaption>当前普通网页：双手与袖口修整后。</figcaption></figure><figure><img src="../screenshots/hands-surf43-mobile.png" alt="手机网页中的当前沙发坐姿与起身按钮"><figcaption>390像素手机网页，仍由用户决定坐下和起身。</figcaption></figure></div>
+<video controls playsinline preload="metadata" poster="../screenshots/hands-surf43-room.png" src="../screenshots/hands-surf43-sofa.mp4" aria-label="4.3手部修正后，0597实际网页坐下与起身录屏"></video>
+<p><small>录自当前网页的同一画布和实际混音，动作原速。近景仍能看到部分袖管衔接与原服装生成痕迹；手指当前为放松形体，没有独立抓握表演。</small></p>
+<details><summary>查看实际网页手部近景</summary><div class="pair"><figure><img src="../screenshots/hands43-lap.png" alt="实际网页近景检查手掌向下放在大腿上"><figcaption>手腕与大腿一侧。</figcaption></figure><figure><img src="../screenshots/hands43-support.png" alt="实际网页近景检查手搭在沙发扶手上"><figcaption>扶手一侧，保留近景检查界面。</figcaption></figure></div></details>
+<h2>同一片近岸浪，同一套起落节奏</h2>
+<p>此前海浪录音独立循环，响起的浪头可能与画面错开。现在近岸浪唇、残沫和声音共用场景时间：浪头翻起时增强破浪声，泡沫铺开、回落时转为较柔和的水声；原录音仅作低音量的远处底声。暂停时画面与声音一起停，关闭近岸薄浪时相应声层也关闭。</p>
+<video controls playsinline preload="metadata" poster="../screenshots/hands-surf43-rock.png" src="../screenshots/surf43-live.mp4" aria-label="4.3实际近岸浪群与网页同步混音录屏"></video>
+<p><small>此段直接录制网页实际WebAudio输出，未另配音轨。使用真实录音处理成均匀水声纹理，再由人物附近一段近岸浪群的相位控制强弱，并按距离与室内外位置混音。属于浪群节奏联动，尚非每一朵浪花的物理声学；风声仍为低音量处理素材。</small></p>
+<p><a href="../screenshots/hands-surf43-audio-checks.json">浪声、暂停与静音检查</a> · <a href="../screenshots/hands-surf43-ui-checks.json">三处沙发与手机操作检查</a> · <a href="./assets/personal-guide/manifest-hands43.json">当前人物来源与清单</a></p></section>
+<section id="response-current"><h2>走到沙发前，就能坐下 · 保留4.2记录</h2>
+<p>自己走到沙发正面后，会立即显示「在沙发坐下 · E」。系统按距离选择沙发两端或中间的座位；点按钮或按 E 后直接转身对位，不必先走回原来的固定触发点。起身后回到你原来站的位置。</p>
+<p>键盘和屏幕方向按钮的起步、停步与动画切换更快。室内移动也已排除楼板下岸边石头造成的隐形阻挡；室外岩石和家具继续保持碰撞。</p>
+<div class="pair"><figure><img src="../screenshots/response42-near-middle.png" alt="人物自己走到沙发中段后，网页显示可坐下的按钮"><figcaption>沙发中段也能识别坐下，靠近后直接按 E。</figcaption></figure><figure><img src="../screenshots/response42-north.png" alt="0597人物在沙发另一端坐下，手机显示起身按钮"><figcaption>另一端和手机也可用，保持原人物和自然支撑。</figcaption></figure></div>
+<p><small>当前按三处已适配座位就近对齐，尚非任意连续位置的软体坐姿。<a href="../screenshots/response42-checks.json">识别与响应实测记录</a></small></p></section>
+<section id="sofa-current"><h2>沙发姿态与动作 · 保留4.1实录</h2>
+<p>点击「走到室内沙发」，人物沿桌旁通道走到沙发前停下。再点「在沙发坐下 · E」或按 E，才会转身、靠近、慢慢坐下。坐多久由你决定；再点「起身 · E」或按 E，起身后留在近旁，继续自己走动。</p>
+<p>这一处安排在靠扶手的位置：身体轻靠后，一侧前臂搭扶手，另一只手放在大腿上，双脚稍微错开、踩住地板。坐垫前缘让出小腿空间，腰背由靠垫承托；起身先把重心移到双脚，再抬起身体。</p>
+<video controls playsinline preload="metadata" poster="../screenshots/sofa41-room.png" src="../screenshots/sofa41-interaction.mp4" aria-label="当前0597人物在沙发上自主坐下和起身的实际网页录屏，含网页环境混音"></video>
+<p><small>实际网页的三维画布与同一环境混音录制，动作原速，没有另配音轨或生成替代动画。下图为普通网页界面的实际截图。</small></p>
+<div class="pair"><figure><img src="../screenshots/sofa41-room.png" alt="0597人物在室内沙发靠扶手的位置放松坐着，界面提供起身按钮"><figcaption>坐着休息：一侧搭扶手，一侧放大腿，双脚落地。</figcaption></figure><figure><img src="../screenshots/sofa41-mobile.png" alt="390像素手机网页中可见完整沙发坐姿和起身按钮"><figcaption>手机也能自主坐下和起身，按钮保持可用。</figcaption></figure></div>
+<p><small>4.1实录展示靠扶手的位置；当前4.2已增加沙发中间和另一端的就近识别；扶手椅和海边岩石继续可用。尚未实现任意位置就座、软垫受压或完整衣服物理，下载的基础人物GLB保持原文件。<a href="../screenshots/sofa41-checks.json">本轮完整检查记录</a></small></p></section>
+<h2>扶手椅 · 保留4.0实录</h2>
+<p>点击「走到室内扶手椅」，人物会正常走进房间、停在椅前。再点「在扶手椅坐下 · E」或按 E 才落座；可以一直坐着休息，再点「起身 · E」继续自己走动。也能直接走近椅子正面再坐下。</p>
+<p>室内采用独立坐姿：臀部落在坐垫上，身体轻微后靠，肩肘放松，前臂沿着扶手放下，双脚踩住地板。坐下与起身先转移重心；手机机位留出两侧扶手、双脚和操作按钮的空间。</p>
+<video controls playsinline preload="metadata" poster="../screenshots/seating40-mobile.jpg" src="../screenshots/seating40-interaction.mp4" aria-label="当前0597人物在室内扶手椅自主坐下和起身的实际网页录屏，含真实运行时声音"></video>
+<p><small>录自本轮实际网页的同一三维画布与环境混音。动作原速，仅剪去等待和长时间静坐；没有另配音轨或生成替代动画。原始WebM与检查记录保留。</small></p>
+<div class="pair"><figure><img src="../screenshots/seating40-mobile.jpg" alt="实际390像素网页画布录屏中，0597人物放松坐在扶手椅上"><figcaption>实际网页画布录屏帧：身体轻靠后，双臂与双脚有支撑。</figcaption></figure><figure><img src="../screenshots/seating40-video-rising.jpg" alt="实际录屏中人物先前倾，再从扶手椅起身"><figcaption>实际动作录屏帧：先把重心移向双脚，再起身。</figcaption></figure></div>
+<p><small>4.0实录展示室内扶手椅；沙发已在上方4.1接入。其他石头尚未适配；坐姿为网页运行时驱动，下载的基础GLB保持原文件。<a href="../screenshots/seating40-mobile-checks.json">本轮实际检查记录</a></small></p>
+<h2>海边自主坐下 · 保留3.9实录</h2>
+<video controls playsinline preload="metadata" poster="../screenshots/seaside39-user-sitting.jpg" src="../screenshots/seaside39-interaction.mp4" aria-label="0597人物由用户决定坐下和起身的实际网页录屏，包含环境声音"></video>
+<p><small>录制自同一个实时网页的三维画布和实际环境音轨。原实录中由用户自主停留约64秒，节选只缩短静坐与结束空白，动作保持原速；视口尺寸统一为1280×1000，编码24fps。没有另行生成动画或替换人物。</small></p>
+<h2>看海，也看接触</h2><div class="pair">
+<figure><img src="../screenshots/seaside39-user-sitting.jpg" alt="0597人物由用户控制坐下看海，界面显示自行决定停留时间"><figcaption>由你决定：坐着时保留起身按钮，不再到时自动站起来。</figcaption></figure>
+<figure><img src="../screenshots/seaside39-contact.jpg" alt="实际网页侧面检查坐下时的重心、手部和腿部接触"><figcaption>动作侧面：前倾、重心下降、手搭大腿与鞋底接触。</figcaption></figure>
+</div>
+<div class="notes"><p>使用我们自己的0597脸、发型、眼镜、身体和西装；原有眨眼保留，坐下看海时视线不再追随镜头。身体通过骨盆、脊柱、手臂与双腿配合完成坐下与起身，双脚逐渐调整到稳定位置，后摆在坐姿时折起。</p><p>海浪与风使用已有授权的实录素材，脚步按木板/沙地和实际触地触发；屋内声音更闷、更轻，讲解时环境音降低。风声原录于林间，本场景作低音量过滤混音，并非海边同期录音。3.9至4.2的录音独立循环；当前4.3在上方记录了近岸浪群相位联动的改进。</p><p>当前适配了沙发三处座位、一把室内扶手椅和一块海边岩石，仍有程序化动作感，尚非任意石头都可坐或完整布料物理。坐姿、后摆修正与环境声音在网页运行时工作；当前下载包含局部手部修正，原始与3.6人物文件仍保留。</p></div>
+<details><summary>声音来源与制作记录</summary><p>海浪：<a href="https://freesound.org/people/SamsterBirdies/sounds/578524/" target="_blank" rel="noopener noreferrer">Calm ocean waves · SamsterBirdies</a>；风：<a href="https://freesound.org/people/SamuelGremaud/sounds/547472/" target="_blank" rel="noopener noreferrer">WIND - 1 · SamuelGremaud</a>。两者来源页标注CC0，均复用本机已有处理片段，保留原速原调。脚步为本地合成音效。</p><p>制作：rock-seat.js、seated-pose.js、seat-coat.js、guide-controller.js、seaside-audio.js。<a href="./assets/ambience/manifest.json">录音来源与校验值</a> · <a href="../screenshots/seaside38-checks.json">实际网页流程检查</a>。坐姿自然度与最终画面仍以实际观看为准。</p></details>
+<details><summary>保留上一轮3.8自动往返实录</summary><p>下方是3.8旧版动作与镜头，保留作对照；当前手部与浪声请看4.3；旧沙发4.1、扶手椅4.0与海边3.9保留用于过程对照。</p><video controls playsinline preload="none" poster="../screenshots/seaside38-hero.png" src="../screenshots/seaside38-journey.mp4"></video></details>
+</main></body></html>

@@ -1,0 +1,576 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/naturehealyou/status/2121228035932188844",
+    "id": "2121228035932188844",
+    "text": "the shades of the sea in 20 images",
+    "raw_text": {
+      "text": "the shades of the sea in 20 images https://t.co/TZVCUaSdKH",
+      "display_text_range": [
+        0,
+        34
+      ],
+      "facets": [
+        {
+          "type": "media",
+          "indices": [
+            35,
+            58
+          ],
+          "id": "2121228011278082048",
+          "display": "pic.x.com/TZVCUaSdKH",
+          "original": "https://t.co/TZVCUaSdKH",
+          "replacement": "https://x.com/naturehealyou/status/2121228035932188844/photo/1"
+        },
+        {
+          "type": "media",
+          "indices": [
+            35,
+            58
+          ],
+          "id": "2121228011299065856",
+          "display": "pic.x.com/TZVCUaSdKH",
+          "original": "https://t.co/TZVCUaSdKH",
+          "replacement": "https://x.com/naturehealyou/status/2121228035932188844/photo/2"
+        },
+        {
+          "type": "media",
+          "indices": [
+            35,
+            58
+          ],
+          "id": "2121228011227779072",
+          "display": "pic.x.com/TZVCUaSdKH",
+          "original": "https://t.co/TZVCUaSdKH",
+          "replacement": "https://x.com/naturehealyou/status/2121228035932188844/photo/3"
+        },
+        {
+          "type": "media",
+          "indices": [
+            35,
+            58
+          ],
+          "id": "2121228011240321024",
+          "display": "pic.x.com/TZVCUaSdKH",
+          "original": "https://t.co/TZVCUaSdKH",
+          "replacement": "https://x.com/naturehealyou/status/2121228035932188844/photo/4"
+        },
+        {
+          "type": "media",
+          "indices": [
+            35,
+            58
+          ],
+          "id": "2121228011584274432",
+          "display": "pic.x.com/TZVCUaSdKH",
+          "original": "https://t.co/TZVCUaSdKH",
+          "replacement": "https://x.com/naturehealyou/status/2121228035932188844/photo/5"
+        },
+        {
+          "type": "media",
+          "indices": [
+            35,
+            58
+          ],
+          "id": "2121228011244548096",
+          "display": "pic.x.com/TZVCUaSdKH",
+          "original": "https://t.co/TZVCUaSdKH",
+          "replacement": "https://x.com/naturehealyou/status/2121228035932188844/photo/6"
+        },
+        {
+          "type": "media",
+          "indices": [
+            35,
+            58
+          ],
+          "id": "2121228011533942784",
+          "display": "pic.x.com/TZVCUaSdKH",
+          "original": "https://t.co/TZVCUaSdKH",
+          "replacement": "https://x.com/naturehealyou/status/2121228035932188844/photo/7"
+        },
+        {
+          "type": "media",
+          "indices": [
+            35,
+            58
+          ],
+          "id": "2121228011567456256",
+          "display": "pic.x.com/TZVCUaSdKH",
+          "original": "https://t.co/TZVCUaSdKH",
+          "replacement": "https://x.com/naturehealyou/status/2121228035932188844/photo/8"
+        },
+        {
+          "type": "media",
+          "indices": [
+            35,
+            58
+          ],
+          "id": "2121228011307474944",
+          "display": "pic.x.com/TZVCUaSdKH",
+          "original": "https://t.co/TZVCUaSdKH",
+          "replacement": "https://x.com/naturehealyou/status/2121228035932188844/photo/9"
+        },
+        {
+          "type": "media",
+          "indices": [
+            35,
+            58
+          ],
+          "id": "2121228011617787904",
+          "display": "pic.x.com/TZVCUaSdKH",
+          "original": "https://t.co/TZVCUaSdKH",
+          "replacement": "https://x.com/naturehealyou/status/2121228035932188844/photo/10"
+        },
+        {
+          "type": "media",
+          "indices": [
+            35,
+            58
+          ],
+          "id": "2121228011596808194",
+          "display": "pic.x.com/TZVCUaSdKH",
+          "original": "https://t.co/TZVCUaSdKH",
+          "replacement": "https://x.com/naturehealyou/status/2121228035932188844/photo/11"
+        },
+        {
+          "type": "media",
+          "indices": [
+            35,
+            58
+          ],
+          "id": "2121228011575943168",
+          "display": "pic.x.com/TZVCUaSdKH",
+          "original": "https://t.co/TZVCUaSdKH",
+          "replacement": "https://x.com/naturehealyou/status/2121228035932188844/photo/12"
+        },
+        {
+          "type": "media",
+          "indices": [
+            35,
+            58
+          ],
+          "id": "2121228011571671040",
+          "display": "pic.x.com/TZVCUaSdKH",
+          "original": "https://t.co/TZVCUaSdKH",
+          "replacement": "https://x.com/naturehealyou/status/2121228035932188844/photo/13"
+        },
+        {
+          "type": "media",
+          "indices": [
+            35,
+            58
+          ],
+          "id": "2121228011588419585",
+          "display": "pic.x.com/TZVCUaSdKH",
+          "original": "https://t.co/TZVCUaSdKH",
+          "replacement": "https://x.com/naturehealyou/status/2121228035932188844/photo/14"
+        },
+        {
+          "type": "media",
+          "indices": [
+            35,
+            58
+          ],
+          "id": "2121228011542384640",
+          "display": "pic.x.com/TZVCUaSdKH",
+          "original": "https://t.co/TZVCUaSdKH",
+          "replacement": "https://x.com/naturehealyou/status/2121228035932188844/photo/15"
+        },
+        {
+          "type": "media",
+          "indices": [
+            35,
+            58
+          ],
+          "id": "2121228011601002496",
+          "display": "pic.x.com/TZVCUaSdKH",
+          "original": "https://t.co/TZVCUaSdKH",
+          "replacement": "https://x.com/naturehealyou/status/2121228035932188844/photo/16"
+        },
+        {
+          "type": "media",
+          "indices": [
+            35,
+            58
+          ],
+          "id": "2121228011571646464",
+          "display": "pic.x.com/TZVCUaSdKH",
+          "original": "https://t.co/TZVCUaSdKH",
+          "replacement": "https://x.com/naturehealyou/status/2121228035932188844/photo/17"
+        },
+        {
+          "type": "media",
+          "indices": [
+            35,
+            58
+          ],
+          "id": "2121228011592626176",
+          "display": "pic.x.com/TZVCUaSdKH",
+          "original": "https://t.co/TZVCUaSdKH",
+          "replacement": "https://x.com/naturehealyou/status/2121228035932188844/photo/18"
+        },
+        {
+          "type": "media",
+          "indices": [
+            35,
+            58
+          ],
+          "id": "2121228011567513600",
+          "display": "pic.x.com/TZVCUaSdKH",
+          "original": "https://t.co/TZVCUaSdKH",
+          "replacement": "https://x.com/naturehealyou/status/2121228035932188844/photo/19"
+        },
+        {
+          "type": "media",
+          "indices": [
+            35,
+            58
+          ],
+          "id": "2121228011588419584",
+          "display": "pic.x.com/TZVCUaSdKH",
+          "original": "https://t.co/TZVCUaSdKH",
+          "replacement": "https://x.com/naturehealyou/status/2121228035932188844/photo/20"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "naturehealyou",
+      "url": "https://x.com/naturehealyou",
+      "id": "1846899312707424256",
+      "followers": 78382,
+      "following": 17,
+      "likes": 1964,
+      "media_count": 2222,
+      "name": "𝑙𝑦𝑟𝑎",
+      "description": "nature always wears the colors of the spirit🍂",
+      "raw_description": {
+        "text": "nature always wears the colors of the spirit🍂",
+        "facets": []
+      },
+      "location": "",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1846899312707424256/1773923579",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2034404010879569921/nPem1Un0_200x200.jpg",
+      "joined": "Thu Oct 17 13:01:34 +0000 2024",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 61,
+    "retweets": 4042,
+    "likes": 16786,
+    "bookmarks": 1669,
+    "quotes": 141,
+    "created_at": "Fri Nov 13 13:05:48 +0000 2026",
+    "created_timestamp": 1794575148,
+    "possibly_sensitive": false,
+    "views": 270299,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "media": {
+      "all": [
+        {
+          "type": "photo",
+          "id": "2121228011278082048",
+          "url": "https://pbs.twimg.com/media/HXAdozPWoAALnqm.jpg?name=orig",
+          "width": 239,
+          "height": 1909
+        },
+        {
+          "type": "photo",
+          "id": "2121228011299065856",
+          "url": "https://pbs.twimg.com/media/HXAdozUW0AATAND.jpg?name=orig",
+          "width": 195,
+          "height": 1572
+        },
+        {
+          "type": "photo",
+          "id": "2121228011227779072",
+          "url": "https://pbs.twimg.com/media/HXAdozDXEAAt-6H.jpg?name=orig",
+          "width": 202,
+          "height": 1519
+        },
+        {
+          "type": "photo",
+          "id": "2121228011240321024",
+          "url": "https://pbs.twimg.com/media/HXAdozGWcAAqeJk.jpg?name=orig",
+          "width": 187,
+          "height": 1501
+        },
+        {
+          "type": "photo",
+          "id": "2121228011584274432",
+          "url": "https://pbs.twimg.com/media/HXAdo0YWwAA7H8v.jpg?name=orig",
+          "width": 197,
+          "height": 1573
+        },
+        {
+          "type": "photo",
+          "id": "2121228011244548096",
+          "url": "https://pbs.twimg.com/media/HXAdozHW8AAJ75U.jpg?name=orig",
+          "width": 201,
+          "height": 1600
+        },
+        {
+          "type": "photo",
+          "id": "2121228011533942784",
+          "url": "https://pbs.twimg.com/media/HXAdo0MWwAADtk-.jpg?name=orig",
+          "width": 163,
+          "height": 1309
+        },
+        {
+          "type": "photo",
+          "id": "2121228011567456256",
+          "url": "https://pbs.twimg.com/media/HXAdo0UWIAAffEc.jpg?name=orig",
+          "width": 181,
+          "height": 1456
+        },
+        {
+          "type": "photo",
+          "id": "2121228011307474944",
+          "url": "https://pbs.twimg.com/media/HXAdozWXIAAmcRs.jpg?name=orig",
+          "width": 395,
+          "height": 3177
+        },
+        {
+          "type": "photo",
+          "id": "2121228011617787904",
+          "url": "https://pbs.twimg.com/media/HXAdo0gWIAAqy1j.jpg?name=orig",
+          "width": 162,
+          "height": 1307
+        },
+        {
+          "type": "photo",
+          "id": "2121228011596808194",
+          "url": "https://pbs.twimg.com/media/HXAdo0bWAAI1UG7.jpg?name=orig",
+          "width": 241,
+          "height": 1937
+        },
+        {
+          "type": "photo",
+          "id": "2121228011575943168",
+          "url": "https://pbs.twimg.com/media/HXAdo0WXoAAJdfi.jpg?name=orig",
+          "width": 202,
+          "height": 1577
+        },
+        {
+          "type": "photo",
+          "id": "2121228011571671040",
+          "url": "https://pbs.twimg.com/media/HXAdo0VWcAARBlb.jpg?name=orig",
+          "width": 162,
+          "height": 1307
+        },
+        {
+          "type": "photo",
+          "id": "2121228011588419585",
+          "url": "https://pbs.twimg.com/media/HXAdo0ZWAAEgNZ8.jpg?name=orig",
+          "width": 202,
+          "height": 1560
+        },
+        {
+          "type": "photo",
+          "id": "2121228011542384640",
+          "url": "https://pbs.twimg.com/media/HXAdo0OXkAAHL8H.jpg?name=orig",
+          "width": 189,
+          "height": 1515
+        },
+        {
+          "type": "photo",
+          "id": "2121228011601002496",
+          "url": "https://pbs.twimg.com/media/HXAdo0cWAAAkLfs.jpg?name=orig",
+          "width": 183,
+          "height": 1468
+        },
+        {
+          "type": "photo",
+          "id": "2121228011571646464",
+          "url": "https://pbs.twimg.com/media/HXAdo0VWEAA3OOx.jpg?name=orig",
+          "width": 187,
+          "height": 1502
+        },
+        {
+          "type": "photo",
+          "id": "2121228011592626176",
+          "url": "https://pbs.twimg.com/media/HXAdo0aWMAA_esv.jpg?name=orig",
+          "width": 186,
+          "height": 1497
+        },
+        {
+          "type": "photo",
+          "id": "2121228011567513600",
+          "url": "https://pbs.twimg.com/media/HXAdo0UXAAApag_.jpg?name=orig",
+          "width": 187,
+          "height": 1503
+        },
+        {
+          "type": "photo",
+          "id": "2121228011588419584",
+          "url": "https://pbs.twimg.com/media/HXAdo0ZWAAAZpIm.jpg?name=orig",
+          "width": 181,
+          "height": 1459
+        }
+      ],
+      "photos": [
+        {
+          "type": "photo",
+          "id": "2121228011278082048",
+          "url": "https://pbs.twimg.com/media/HXAdozPWoAALnqm.jpg?name=orig",
+          "width": 239,
+          "height": 1909
+        },
+        {
+          "type": "photo",
+          "id": "2121228011299065856",
+          "url": "https://pbs.twimg.com/media/HXAdozUW0AATAND.jpg?name=orig",
+          "width": 195,
+          "height": 1572
+        },
+        {
+          "type": "photo",
+          "id": "2121228011227779072",
+          "url": "https://pbs.twimg.com/media/HXAdozDXEAAt-6H.jpg?name=orig",
+          "width": 202,
+          "height": 1519
+        },
+        {
+          "type": "photo",
+          "id": "2121228011240321024",
+          "url": "https://pbs.twimg.com/media/HXAdozGWcAAqeJk.jpg?name=orig",
+          "width": 187,
+          "height": 1501
+        },
+        {
+          "type": "photo",
+          "id": "2121228011584274432",
+          "url": "https://pbs.twimg.com/media/HXAdo0YWwAA7H8v.jpg?name=orig",
+          "width": 197,
+          "height": 1573
+        },
+        {
+          "type": "photo",
+          "id": "2121228011244548096",
+          "url": "https://pbs.twimg.com/media/HXAdozHW8AAJ75U.jpg?name=orig",
+          "width": 201,
+          "height": 1600
+        },
+        {
+          "type": "photo",
+          "id": "2121228011533942784",
+          "url": "https://pbs.twimg.com/media/HXAdo0MWwAADtk-.jpg?name=orig",
+          "width": 163,
+          "height": 1309
+        },
+        {
+          "type": "photo",
+          "id": "2121228011567456256",
+          "url": "https://pbs.twimg.com/media/HXAdo0UWIAAffEc.jpg?name=orig",
+          "width": 181,
+          "height": 1456
+        },
+        {
+          "type": "photo",
+          "id": "2121228011307474944",
+          "url": "https://pbs.twimg.com/media/HXAdozWXIAAmcRs.jpg?name=orig",
+          "width": 395,
+          "height": 3177
+        },
+        {
+          "type": "photo",
+          "id": "2121228011617787904",
+          "url": "https://pbs.twimg.com/media/HXAdo0gWIAAqy1j.jpg?name=orig",
+          "width": 162,
+          "height": 1307
+        },
+        {
+          "type": "photo",
+          "id": "2121228011596808194",
+          "url": "https://pbs.twimg.com/media/HXAdo0bWAAI1UG7.jpg?name=orig",
+          "width": 241,
+          "height": 1937
+        },
+        {
+          "type": "photo",
+          "id": "2121228011575943168",
+          "url": "https://pbs.twimg.com/media/HXAdo0WXoAAJdfi.jpg?name=orig",
+          "width": 202,
+          "height": 1577
+        },
+        {
+          "type": "photo",
+          "id": "2121228011571671040",
+          "url": "https://pbs.twimg.com/media/HXAdo0VWcAARBlb.jpg?name=orig",
+          "width": 162,
+          "height": 1307
+        },
+        {
+          "type": "photo",
+          "id": "2121228011588419585",
+          "url": "https://pbs.twimg.com/media/HXAdo0ZWAAEgNZ8.jpg?name=orig",
+          "width": 202,
+          "height": 1560
+        },
+        {
+          "type": "photo",
+          "id": "2121228011542384640",
+          "url": "https://pbs.twimg.com/media/HXAdo0OXkAAHL8H.jpg?name=orig",
+          "width": 189,
+          "height": 1515
+        },
+        {
+          "type": "photo",
+          "id": "2121228011601002496",
+          "url": "https://pbs.twimg.com/media/HXAdo0cWAAAkLfs.jpg?name=orig",
+          "width": 183,
+          "height": 1468
+        },
+        {
+          "type": "photo",
+          "id": "2121228011571646464",
+          "url": "https://pbs.twimg.com/media/HXAdo0VWEAA3OOx.jpg?name=orig",
+          "width": 187,
+          "height": 1502
+        },
+        {
+          "type": "photo",
+          "id": "2121228011592626176",
+          "url": "https://pbs.twimg.com/media/HXAdo0aWMAA_esv.jpg?name=orig",
+          "width": 186,
+          "height": 1497
+        },
+        {
+          "type": "photo",
+          "id": "2121228011567513600",
+          "url": "https://pbs.twimg.com/media/HXAdo0UXAAApag_.jpg?name=orig",
+          "width": 187,
+          "height": 1503
+        },
+        {
+          "type": "photo",
+          "id": "2121228011588419584",
+          "url": "https://pbs.twimg.com/media/HXAdo0ZWAAAZpIm.jpg?name=orig",
+          "width": 181,
+          "height": 1459
+        }
+      ],
+      "mosaic": {
+        "type": "mosaic_photo",
+        "formats": {
+          "jpeg": "https://mosaic.fxtwitter.com/jpeg/2121228035932188844/HXAdozPWoAALnqm/HXAdozUW0AATAND/HXAdozDXEAAt-6H/HXAdozGWcAAqeJk",
+          "webp": "https://mosaic.fxtwitter.com/webp/2121228035932188844/HXAdozPWoAALnqm/HXAdozUW0AATAND/HXAdozDXEAAt-6H/HXAdozGWcAAqeJk"
+        }
+      }
+    },
+    "twitter_card": "summary_large_image",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

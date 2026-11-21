@@ -1,0 +1,42 @@
+[
+  {
+    "action": "Idle",
+    "filename": "m_idle_breathe_01.max.fbx",
+    "sourceUrl": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_breathe_01.max.fbx",
+    "bytes": 1397280,
+    "sha256": "281735704260d96e882d13e3c77d0ede00ed5d2e40805cd305000b3e5cbb1090",
+    "license": "MIT"
+  },
+  {
+    "action": "Walk",
+    "filename": "m_walk_neutral_02.max.fbx",
+    "sourceUrl": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_walk_neutral_02.max.fbx",
+    "bytes": 958640,
+    "sha256": "6a4e6f2c8e78214cc3e3b7d85a1ad12c3580b61fb7b429451387ea40db7421d2",
+    "license": "MIT"
+  },
+  {
+    "action": "Wave",
+    "filename": "m_wave_01.max.fbx",
+    "sourceUrl": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_wave_01.max.fbx",
+    "bytes": 1424016,
+    "sha256": "42ec91d2f077fe02321b2e929d878b10ec86936c3c43d11310001050a4d79c73",
+    "license": "MIT"
+  },
+  {
+    "action": "Point",
+    "filename": "m_gestic_presentation_right_01.max.fbx",
+    "sourceUrl": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_presentation_right_01.max.fbx",
+    "bytes": 4451072,
+    "sha256": "ba9a1e0bdf3dff77a7283d549c5eb69c95d676412069f0566c9d6021baf2760c",
+    "license": "MIT"
+  },
+  {
+    "action": "LookAround",
+    "filename": "m_idle_look_around_01.max.fbx",
+    "sourceUrl": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_look_around_01.max.fbx",
+    "bytes": 1651456,
+    "sha256": "018b19ad26695c5ebbd4131e0506da69dc76f4001a8100a9e38fcdb9a202b7a4",
+    "license": "MIT"
+  }
+]

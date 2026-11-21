@@ -1,0 +1,77 @@
+[
+  {
+    "id": "nps-sunset",
+    "url": "https://www.nps.gov/media/video/embed.htm?id=56132319-1DD8-B71B-0B410405E8F135F8",
+    "errors": [],
+    "status": 200,
+    "before": {
+      "duration": null,
+      "currentTime": 0,
+      "readyState": 0,
+      "width": 0,
+      "height": 0,
+      "src": "https://www.nps.gov/nps-audiovideo/audiovideo/bed5ac9d-bdcd-4fc0-81c1-4f9e9b88a783720p.mp4"
+    },
+    "play": "resolved",
+    "after": {
+      "duration": 60.9609,
+      "currentTime": 0.968435,
+      "readyState": 4,
+      "width": 1280,
+      "height": 720,
+      "paused": false
+    },
+    "screenshot": "screenshots/reality-nps-sunset.png",
+    "elapsedMs": 4488
+  },
+  {
+    "id": "nps-gulls",
+    "url": "https://www.nps.gov/media/video/embed.htm?id=5B11A65B-2E51-4377-9E52-367426BAE6A1",
+    "errors": [],
+    "status": 200,
+    "before": {
+      "duration": null,
+      "currentTime": 0,
+      "readyState": 0,
+      "width": 0,
+      "height": 0,
+      "src": "https://www.nps.gov/nps-audiovideo/audiovideo/72b13618-5203-4294-be2f-e99b0f897438720p.mp4"
+    },
+    "play": "Error: play timeout",
+    "after": {
+      "duration": null,
+      "currentTime": 0,
+      "readyState": 0,
+      "width": 0,
+      "height": 0,
+      "paused": false
+    },
+    "screenshot": "screenshots/reality-nps-gulls.png",
+    "elapsedMs": 5192
+  },
+  {
+    "id": "nps-bird-rock",
+    "url": "https://www.nps.gov/media/video/embed.htm?id=3558C284-3E9C-479A-83C2-62034B6BB516",
+    "errors": [],
+    "status": 200,
+    "before": {
+      "duration": null,
+      "currentTime": 0,
+      "readyState": 0,
+      "width": 0,
+      "height": 0,
+      "src": "https://www.nps.gov/nps-audiovideo/audiovideo/663a2f13-6183-4b3e-a4a9-6698a84619d0720p.mp4"
+    },
+    "play": "Error: play timeout",
+    "after": {
+      "duration": null,
+      "currentTime": 0,
+      "readyState": 0,
+      "width": 0,
+      "height": 0,
+      "paused": false
+    },
+    "screenshot": "screenshots/reality-nps-bird-rock.png",
+    "elapsedMs": 5196
+  }
+]

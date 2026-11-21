@@ -1,0 +1,5160 @@
+{
+  "checkedAt": "2026-11-14T12:42:39.974Z",
+  "errors": [],
+  "checks": [
+    {
+      "name": "keyboard and glass collision",
+      "from": [
+        -1.25,
+        1.413,
+        6.7
+      ],
+      "to": [
+        -0.905,
+        1.413,
+        6.57
+      ]
+    },
+    {
+      "name": "focus loss clears held movement"
+    },
+    {
+      "name": "up/down/stop/pause stairs",
+      "samples": 74,
+      "minimumClearance": 0.004,
+      "maximumStanceClearance": 0.0053,
+      "manualTop": [
+        -1.5,
+        1.413,
+        6.587
+      ]
+    },
+    {
+      "name": "start complete tour after manual control",
+      "secondLegStarted": true
+    },
+    {
+      "name": "mobile held touch and release",
+      "from": [
+        -1.25,
+        1.413,
+        6.7
+      ],
+      "to": [
+        -1.631,
+        1.413,
+        6.571
+      ],
+      "width": 390
+    }
+  ],
+  "stairs": [
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.217,
+        3.559,
+        9.054
+      ],
+      "position": [
+        -1.5,
+        1.413,
+        7.345
+      ],
+      "pose": {
+        "time": 0.83,
+        "hand": [
+          -1.7789,
+          2.2203,
+          7.1854
+        ],
+        "headRotation": [
+          -0.02014,
+          -0.00881,
+          -0.02608,
+          0.99942
+        ],
+        "leftFoot": [
+          -1.4092,
+          1.5886,
+          7.0585
+        ],
+        "rightFoot": [
+          -1.5823,
+          1.5079,
+          7.6241
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0531,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.4092,
+              1.5886,
+              7.0585
+            ],
+            "clearance": 0.0831,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.5823,
+              1.5079,
+              7.6241
+            ],
+            "clearance": 0.0053,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.291,
+        3.561,
+        9.616
+      ],
+      "position": [
+        -1.5,
+        1.413,
+        7.644
+      ],
+      "pose": {
+        "time": 0.118,
+        "hand": [
+          -1.7527,
+          2.3243,
+          7.9038
+        ],
+        "headRotation": [
+          -0.03414,
+          -0.00691,
+          -0.00261,
+          0.99939
+        ],
+        "leftFoot": [
+          -1.3906,
+          1.6195,
+          7.9371
+        ],
+        "rightFoot": [
+          -1.5823,
+          1.5079,
+          7.6241
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0009,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.3906,
+              1.6195,
+              7.9371
+            ],
+            "clearance": 0.3046,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.5823,
+              1.5079,
+              7.6241
+            ],
+            "clearance": 0.0044,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.299,
+        3.474,
+        9.92
+      ],
+      "position": [
+        -1.5,
+        1.28,
+        7.932
+      ],
+      "pose": {
+        "time": 0.506,
+        "hand": [
+          -1.7884,
+          2.0964,
+          8.0727
+        ],
+        "headRotation": [
+          -0.0559,
+          -0.02005,
+          -0.02248,
+          0.99798
+        ],
+        "leftFoot": [
+          -1.3905,
+          1.32,
+          7.9403
+        ],
+        "rightFoot": [
+          -1.5924,
+          1.6179,
+          7.8465
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0453,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.3905,
+              1.32,
+              7.9403
+            ],
+            "clearance": 0.0045,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.5924,
+              1.6179,
+              7.8465
+            ],
+            "clearance": 0.3027,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.299,
+        3.432,
+        10.019
+      ],
+      "position": [
+        -1.5,
+        1.235,
+        8.028
+      ],
+      "pose": {
+        "time": 0.633,
+        "hand": [
+          -1.8015,
+          2.0827,
+          8.0396
+        ],
+        "headRotation": [
+          -0.05531,
+          -0.013,
+          -0.02945,
+          0.99795
+        ],
+        "leftFoot": [
+          -1.3905,
+          1.32,
+          7.9403
+        ],
+        "rightFoot": [
+          -1.6056,
+          1.6179,
+          8.1367
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0108,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.3905,
+              1.32,
+              7.9403
+            ],
+            "clearance": 0.0041,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.6056,
+              1.6179,
+              8.1367
+            ],
+            "clearance": 0.3023,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        3.395,
+        10.107
+      ],
+      "position": [
+        -1.5,
+        1.2,
+        8.117
+      ],
+      "pose": {
+        "time": 0.753,
+        "hand": [
+          -1.7941,
+          2.0567,
+          8.0256
+        ],
+        "headRotation": [
+          -0.03027,
+          -0.01103,
+          -0.02875,
+          0.99907
+        ],
+        "leftFoot": [
+          -1.3905,
+          1.3213,
+          7.9403
+        ],
+        "rightFoot": [
+          -1.61,
+          1.5766,
+          8.2343
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0006,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.3905,
+              1.3213,
+              7.9403
+            ],
+            "clearance": 0.005,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.61,
+              1.5766,
+              8.2343
+            ],
+            "clearance": 0.2612,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        3.365,
+        10.186
+      ],
+      "position": [
+        -1.5,
+        1.167,
+        8.213
+      ],
+      "pose": {
+        "time": 0.88,
+        "hand": [
+          -1.7822,
+          2.0315,
+          8.0845
+        ],
+        "headRotation": [
+          -0.02049,
+          -0.00623,
+          -0.02342,
+          0.9995
+        ],
+        "leftFoot": [
+          -1.3905,
+          1.3601,
+          7.9403
+        ],
+        "rightFoot": [
+          -1.61,
+          1.3197,
+          8.2343
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": 0,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.3905,
+              1.3601,
+              7.9403
+            ],
+            "clearance": 0.044,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              1.3197,
+              8.2343
+            ],
+            "clearance": 0.0043,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        3.336,
+        10.265
+      ],
+      "position": [
+        -1.5,
+        1.167,
+        8.213
+      ],
+      "pose": {
+        "time": 0.88,
+        "hand": [
+          -1.7822,
+          2.0315,
+          8.0845
+        ],
+        "headRotation": [
+          -0.02049,
+          -0.00623,
+          -0.02342,
+          0.9995
+        ],
+        "leftFoot": [
+          -1.3905,
+          1.3601,
+          7.9403
+        ],
+        "rightFoot": [
+          -1.61,
+          1.3197,
+          8.2343
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": 0,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.3905,
+              1.3601,
+              7.9403
+            ],
+            "clearance": 0.044,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              1.3197,
+              8.2343
+            ],
+            "clearance": 0.0043,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        3.308,
+        10.344
+      ],
+      "position": [
+        -1.5,
+        1.134,
+        8.308
+      ],
+      "pose": {
+        "time": 1.007,
+        "hand": [
+          -1.7768,
+          1.9916,
+          8.3441
+        ],
+        "headRotation": [
+          -0.0335,
+          0.0023,
+          -0.01334,
+          0.99935
+        ],
+        "leftFoot": [
+          -1.3905,
+          1.43,
+          8.0078
+        ],
+        "rightFoot": [
+          -1.61,
+          1.3197,
+          8.2343
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": 0,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.3905,
+              1.43,
+              8.0078
+            ],
+            "clearance": 0.1144,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              1.3197,
+              8.2343
+            ],
+            "clearance": 0.0041,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        3.279,
+        10.423
+      ],
+      "position": [
+        -1.5,
+        1.101,
+        8.403
+      ],
+      "pose": {
+        "time": 0.034,
+        "hand": [
+          -1.7796,
+          1.9899,
+          8.5836
+        ],
+        "headRotation": [
+          -0.04471,
+          0.00858,
+          -0.00546,
+          0.99895
+        ],
+        "leftFoot": [
+          -1.3903,
+          1.43,
+          8.3833
+        ],
+        "rightFoot": [
+          -1.61,
+          1.3197,
+          8.2343
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": 0,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.3903,
+              1.43,
+              8.3833
+            ],
+            "clearance": 0.1182,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              1.3197,
+              8.2343
+            ],
+            "clearance": 0.0043,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        3.247,
+        10.516
+      ],
+      "position": [
+        -1.5,
+        1.067,
+        8.5
+      ],
+      "pose": {
+        "time": 0.163,
+        "hand": [
+          -1.7356,
+          1.9912,
+          8.7924
+        ],
+        "headRotation": [
+          -0.0279,
+          -0.01558,
+          -0.00077,
+          0.99949
+        ],
+        "leftFoot": [
+          -1.39,
+          1.43,
+          8.7511
+        ],
+        "rightFoot": [
+          -1.61,
+          1.3197,
+          8.2343
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": 0,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.39,
+              1.43,
+              8.7511
+            ],
+            "clearance": 0.3442,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              1.3197,
+              8.2343
+            ],
+            "clearance": 0.0045,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        3.158,
+        10.768
+      ],
+      "position": [
+        -1.5,
+        0.969,
+        8.777
+      ],
+      "pose": {
+        "time": 0.547,
+        "hand": [
+          -1.7973,
+          1.8303,
+          8.873
+        ],
+        "headRotation": [
+          -0.0603,
+          -0.01665,
+          -0.02598,
+          0.9977
+        ],
+        "leftFoot": [
+          -1.39,
+          1.09,
+          8.8003
+        ],
+        "rightFoot": [
+          -1.61,
+          1.4297,
+          8.364
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0002,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.39,
+              1.09,
+              8.8003
+            ],
+            "clearance": 0.0042,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.61,
+              1.4297,
+              8.364
+            ],
+            "clearance": 0.1187,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        3.123,
+        10.864
+      ],
+      "position": [
+        -1.5,
+        0.934,
+        8.872
+      ],
+      "pose": {
+        "time": 0.674,
+        "hand": [
+          -1.7989,
+          1.7906,
+          8.8497
+        ],
+        "headRotation": [
+          -0.04746,
+          -0.01223,
+          -0.0298,
+          0.99835
+        ],
+        "leftFoot": [
+          -1.39,
+          1.0912,
+          8.8003
+        ],
+        "rightFoot": [
+          -1.61,
+          1.4297,
+          8.8378
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": 0,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.39,
+              1.0912,
+              8.8003
+            ],
+            "clearance": 0.005,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.61,
+              1.4297,
+              8.8378
+            ],
+            "clearance": 0.3447,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        3.095,
+        10.941
+      ],
+      "position": [
+        -1.5,
+        0.898,
+        8.967
+      ],
+      "pose": {
+        "time": 0.801,
+        "hand": [
+          -1.7903,
+          1.7579,
+          8.8362
+        ],
+        "headRotation": [
+          -0.02242,
+          -0.00992,
+          -0.02726,
+          0.99933
+        ],
+        "leftFoot": [
+          -1.39,
+          1.0912,
+          8.8003
+        ],
+        "rightFoot": [
+          -1.61,
+          1.4297,
+          9.2261
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": 0,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.39,
+              1.0912,
+              8.8003
+            ],
+            "clearance": 0.005,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.61,
+              1.4297,
+              9.2261
+            ],
+            "clearance": 0.5744,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        3.06,
+        11.036
+      ],
+      "position": [
+        -1.5,
+        0.863,
+        9.063
+      ],
+      "pose": {
+        "time": 0.928,
+        "hand": [
+          -1.7779,
+          1.6397,
+          8.981
+        ],
+        "headRotation": [
+          -0.02389,
+          -0.00326,
+          -0.02006,
+          0.99951
+        ],
+        "leftFoot": [
+          -1.39,
+          1.09,
+          8.8003
+        ],
+        "rightFoot": [
+          -1.61,
+          0.8967,
+          9.2551
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0849,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.39,
+              1.09,
+              8.8003
+            ],
+            "clearance": 0.0044,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.61,
+              0.8967,
+              9.2551
+            ],
+            "clearance": 0.0421,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        3.032,
+        11.111
+      ],
+      "position": [
+        -1.5,
+        0.863,
+        9.063
+      ],
+      "pose": {
+        "time": 0.928,
+        "hand": [
+          -1.7779,
+          1.6397,
+          8.981
+        ],
+        "headRotation": [
+          -0.02389,
+          -0.00326,
+          -0.02006,
+          0.99951
+        ],
+        "leftFoot": [
+          -1.39,
+          1.09,
+          8.8003
+        ],
+        "rightFoot": [
+          -1.61,
+          0.8967,
+          9.2551
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0849,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.39,
+              1.09,
+              8.8003
+            ],
+            "clearance": 0.0044,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.61,
+              0.8967,
+              9.2551
+            ],
+            "clearance": 0.0421,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        3,
+        11.197
+      ],
+      "position": [
+        -1.5,
+        0.834,
+        9.14
+      ],
+      "pose": {
+        "time": 1.05,
+        "hand": [
+          -1.7786,
+          1.6166,
+          9.2458
+        ],
+        "headRotation": [
+          -0.0391,
+          0.00532,
+          -0.0096,
+          0.99918
+        ],
+        "leftFoot": [
+          -1.39,
+          1.1879,
+          8.8003
+        ],
+        "rightFoot": [
+          -1.61,
+          0.8597,
+          9.2551
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0871,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.39,
+              1.1879,
+              8.8003
+            ],
+            "clearance": 0.1031,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              0.8597,
+              9.2551
+            ],
+            "clearance": 0.005,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        2.973,
+        11.271
+      ],
+      "position": [
+        -1.5,
+        0.8,
+        9.233
+      ],
+      "pose": {
+        "time": 0.074,
+        "hand": [
+          -1.7688,
+          1.6539,
+          9.453
+        ],
+        "headRotation": [
+          -0.04006,
+          0.00148,
+          -0.0043,
+          0.99919
+        ],
+        "leftFoot": [
+          -1.39,
+          1.2,
+          8.9653
+        ],
+        "rightFoot": [
+          -1.61,
+          0.8597,
+          9.2551
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0443,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.39,
+              1.2,
+              8.9653
+            ],
+            "clearance": 0.1162,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              0.8597,
+              9.2551
+            ],
+            "clearance": 0.0046,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        2.941,
+        11.356
+      ],
+      "position": [
+        -1.5,
+        0.764,
+        9.33
+      ],
+      "pose": {
+        "time": 0.204,
+        "hand": [
+          -1.727,
+          1.6891,
+          9.6387
+        ],
+        "headRotation": [
+          -0.02305,
+          -0.02262,
+          0.00054,
+          0.99948
+        ],
+        "leftFoot": [
+          -1.39,
+          1.2,
+          9.4051
+        ],
+        "rightFoot": [
+          -1.61,
+          0.8597,
+          9.2551
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.003,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.39,
+              1.2,
+              9.4051
+            ],
+            "clearance": 0.344,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              0.8597,
+              9.2551
+            ],
+            "clearance": 0.0042,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        2.91,
+        11.442
+      ],
+      "position": [
+        -1.5,
+        0.726,
+        9.433
+      ],
+      "pose": {
+        "time": 0.34,
+        "hand": [
+          -1.7467,
+          1.645,
+          9.7338
+        ],
+        "headRotation": [
+          -0.02228,
+          -0.03365,
+          -0.00263,
+          0.99918
+        ],
+        "leftFoot": [
+          -1.39,
+          1.2,
+          9.6963
+        ],
+        "rightFoot": [
+          -1.61,
+          0.8597,
+          9.2551
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0001,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.39,
+              1.2,
+              9.6963
+            ],
+            "clearance": 0.5742,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              0.8597,
+              9.2551
+            ],
+            "clearance": 0.0041,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        2.879,
+        11.524
+      ],
+      "position": [
+        -1.5,
+        0.688,
+        9.534
+      ],
+      "pose": {
+        "time": 0.474,
+        "hand": [
+          -1.779,
+          1.3984,
+          9.7133
+        ],
+        "headRotation": [
+          -0.05007,
+          -0.02332,
+          -0.01886,
+          0.9983
+        ],
+        "leftFoot": [
+          -1.39,
+          0.63,
+          9.6971
+        ],
+        "rightFoot": [
+          -1.61,
+          0.8597,
+          9.2551
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.1552,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.39,
+              0.63,
+              9.6971
+            ],
+            "clearance": 0.0053,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              0.8597,
+              9.2551
+            ],
+            "clearance": 0.0047,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        2.782,
+        11.787
+      ],
+      "position": [
+        -1.5,
+        0.587,
+        9.808
+      ],
+      "pose": {
+        "time": 0.853,
+        "hand": [
+          -1.785,
+          1.4187,
+          9.6669
+        ],
+        "headRotation": [
+          -0.01986,
+          -0.0077,
+          -0.02497,
+          0.99946
+        ],
+        "leftFoot": [
+          -1.39,
+          0.63,
+          9.6971
+        ],
+        "rightFoot": [
+          -1.61,
+          0.9697,
+          9.9051
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0307,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.39,
+              0.63,
+              9.6971
+            ],
+            "clearance": 0.004,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.61,
+              0.9697,
+              9.9051
+            ],
+            "clearance": 0.3443,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        2.748,
+        11.877
+      ],
+      "position": [
+        -1.5,
+        0.551,
+        9.905
+      ],
+      "pose": {
+        "time": 0.975,
+        "hand": [
+          -1.7762,
+          1.384,
+          9.8907
+        ],
+        "headRotation": [
+          -0.02934,
+          0.00004,
+          -0.01612,
+          0.99944
+        ],
+        "leftFoot": [
+          -1.39,
+          0.6311,
+          9.6971
+        ],
+        "rightFoot": [
+          -1.61,
+          0.9519,
+          10.0943
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.023,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.39,
+              0.6311,
+              9.6971
+            ],
+            "clearance": 0.005,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.61,
+              0.9519,
+              10.0943
+            ],
+            "clearance": 0.3264,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        2.716,
+        11.971
+      ],
+      "position": [
+        -1.5,
+        0.527,
+        10.003
+      ],
+      "pose": {
+        "time": 1.097,
+        "hand": [
+          -1.7797,
+          1.3848,
+          10.179
+        ],
+        "headRotation": [
+          -0.0445,
+          0.00852,
+          -0.00568,
+          0.99896
+        ],
+        "leftFoot": [
+          -1.39,
+          0.6408,
+          9.6971
+        ],
+        "rightFoot": [
+          -1.61,
+          0.6297,
+          10.0943
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0295,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.39,
+              0.6408,
+              9.6971
+            ],
+            "clearance": 0.0147,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              0.6297,
+              10.0943
+            ],
+            "clearance": 0.0046,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        2.696,
+        12.052
+      ],
+      "position": [
+        -1.5,
+        0.527,
+        10.003
+      ],
+      "pose": {
+        "time": 1.097,
+        "hand": [
+          -1.7797,
+          1.3848,
+          10.179
+        ],
+        "headRotation": [
+          -0.0445,
+          0.00852,
+          -0.00568,
+          0.99896
+        ],
+        "leftFoot": [
+          -1.39,
+          0.6408,
+          9.6971
+        ],
+        "rightFoot": [
+          -1.61,
+          0.6297,
+          10.0943
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0295,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.39,
+              0.6408,
+              9.6971
+            ],
+            "clearance": 0.0147,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              0.6297,
+              10.0943
+            ],
+            "clearance": 0.0046,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        2.676,
+        12.15
+      ],
+      "position": [
+        -1.5,
+        0.513,
+        10.102
+      ],
+      "pose": {
+        "time": 0.122,
+        "hand": [
+          -1.7509,
+          1.4243,
+          10.3657
+        ],
+        "headRotation": [
+          -0.0336,
+          -0.00767,
+          -0.00244,
+          0.9994
+        ],
+        "leftFoot": [
+          -1.39,
+          0.74,
+          9.7371
+        ],
+        "rightFoot": [
+          -1.61,
+          0.6297,
+          10.0943
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0014,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.39,
+              0.74,
+              9.7371
+            ],
+            "clearance": 0.1143,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              0.6297,
+              10.0943
+            ],
+            "clearance": 0.0043,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        2.662,
+        12.232
+      ],
+      "position": [
+        -1.5,
+        0.499,
+        10.202
+      ],
+      "pose": {
+        "time": 0.247,
+        "hand": [
+          -1.7278,
+          1.4278,
+          10.5162
+        ],
+        "headRotation": [
+          -0.01959,
+          -0.02857,
+          0.0011,
+          0.9994
+        ],
+        "leftFoot": [
+          -1.39,
+          0.74,
+          10.124
+        ],
+        "rightFoot": [
+          -1.61,
+          0.6297,
+          10.0943
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0001,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.39,
+              0.74,
+              10.124
+            ],
+            "clearance": 0.1142,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              0.6297,
+              10.0943
+            ],
+            "clearance": 0.0041,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        2.647,
+        12.331
+      ],
+      "position": [
+        -1.5,
+        0.486,
+        10.299
+      ],
+      "pose": {
+        "time": 0.369,
+        "hand": [
+          -1.7527,
+          1.3947,
+          10.5869
+        ],
+        "headRotation": [
+          -0.02687,
+          -0.03273,
+          -0.00549,
+          0.99909
+        ],
+        "leftFoot": [
+          -1.39,
+          0.74,
+          10.5343
+        ],
+        "rightFoot": [
+          -1.61,
+          0.6297,
+          10.0943
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": 0,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.39,
+              0.74,
+              10.5343
+            ],
+            "clearance": 0.2114,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              0.6297,
+              10.0943
+            ],
+            "clearance": 0.0041,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        2.632,
+        12.428
+      ],
+      "position": [
+        -1.5,
+        0.472,
+        10.399
+      ],
+      "pose": {
+        "time": 0.493,
+        "hand": [
+          -1.7847,
+          1.3345,
+          10.5546
+        ],
+        "headRotation": [
+          -0.05374,
+          -0.02134,
+          -0.02108,
+          0.9981
+        ],
+        "leftFoot": [
+          -1.39,
+          0.5962,
+          10.6075
+        ],
+        "rightFoot": [
+          -1.61,
+          0.6297,
+          10.0943
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": 0,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.39,
+              0.5962,
+              10.6075
+            ],
+            "clearance": 0.0672,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              0.6297,
+              10.0943
+            ],
+            "clearance": 0.0042,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        2.62,
+        12.515
+      ],
+      "position": [
+        -1.5,
+        0.458,
+        10.498
+      ],
+      "pose": {
+        "time": 0.618,
+        "hand": [
+          -1.8021,
+          1.2921,
+          10.5243
+        ],
+        "headRotation": [
+          -0.05735,
+          -0.01344,
+          -0.02907,
+          0.99784
+        ],
+        "leftFoot": [
+          -1.39,
+          0.534,
+          10.6075
+        ],
+        "rightFoot": [
+          -1.61,
+          0.7326,
+          10.0943
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0256,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.39,
+              0.534,
+              10.6075
+            ],
+            "clearance": 0.005,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.61,
+              0.7326,
+              10.0943
+            ],
+            "clearance": 0.1076,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "down",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "shore",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        2.615,
+        12.61
+      ],
+      "position": [
+        -1.5,
+        0.444,
+        10.597
+      ],
+      "pose": {
+        "time": 0.743,
+        "hand": [
+          -1.7949,
+          1.2987,
+          10.5157
+        ],
+        "headRotation": [
+          -0.03238,
+          -0.01121,
+          -0.02901,
+          0.99899
+        ],
+        "leftFoot": [
+          -1.39,
+          0.534,
+          10.6075
+        ],
+        "rightFoot": [
+          -1.61,
+          0.7397,
+          10.3127
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0017,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.39,
+              0.534,
+              10.6075
+            ],
+            "clearance": 0.0046,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.61,
+              0.7397,
+              10.3127
+            ],
+            "clearance": 0.1987,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "up",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "tide",
+      "camera": "follow",
+      "cameraPosition": [
+        2.321,
+        2.609,
+        12.672
+      ],
+      "position": [
+        -1.5,
+        0.455,
+        10.516
+      ],
+      "pose": {
+        "time": 1.014,
+        "hand": [
+          -1.2239,
+          1.2875,
+          10.4626
+        ],
+        "headRotation": [
+          -0.03445,
+          0.00281,
+          -0.01271,
+          0.99932
+        ],
+        "leftFoot": [
+          -1.5984,
+          0.74,
+          10.9599
+        ],
+        "rightFoot": [
+          -1.4815,
+          0.5353,
+          10.4094
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0269,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.5984,
+              0.74,
+              10.9599
+            ],
+            "clearance": 0.193,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.4815,
+              0.5353,
+              10.4094
+            ],
+            "clearance": 0.0051,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "up",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "tide",
+      "camera": "follow",
+      "cameraPosition": [
+        2.31,
+        2.616,
+        12.579
+      ],
+      "position": [
+        -1.5,
+        0.469,
+        10.415
+      ],
+      "pose": {
+        "time": 0.041,
+        "hand": [
+          -1.2229,
+          1.3261,
+          10.2263
+        ],
+        "headRotation": [
+          -0.04391,
+          0.00735,
+          -0.00527,
+          0.99899
+        ],
+        "leftFoot": [
+          -1.6021,
+          0.74,
+          10.643
+        ],
+        "rightFoot": [
+          -1.4815,
+          0.5353,
+          10.4094
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0338,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.6021,
+              0.74,
+              10.643
+            ],
+            "clearance": 0.1961,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.4815,
+              0.5353,
+              10.4094
+            ],
+            "clearance": 0.0048,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "up",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "tide",
+      "camera": "follow",
+      "cameraPosition": [
+        2.306,
+        2.625,
+        12.498
+      ],
+      "position": [
+        -1.5,
+        0.483,
+        10.316
+      ],
+      "pose": {
+        "time": 0.166,
+        "hand": [
+          -1.2656,
+          1.3797,
+          10.0217
+        ],
+        "headRotation": [
+          -0.02759,
+          -0.01601,
+          -0.00067,
+          0.99949
+        ],
+        "leftFoot": [
+          -1.6078,
+          0.74,
+          10.1453
+        ],
+        "rightFoot": [
+          -1.4815,
+          0.5353,
+          10.4094
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0283,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.6078,
+              0.74,
+              10.1453
+            ],
+            "clearance": 0.114,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.4815,
+              0.5353,
+              10.4094
+            ],
+            "clearance": 0.0045,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "up",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "tide",
+      "camera": "follow",
+      "cameraPosition": [
+        2.303,
+        2.637,
+        12.4
+      ],
+      "position": [
+        -1.5,
+        0.497,
+        10.216
+      ],
+      "pose": {
+        "time": 0.29,
+        "hand": [
+          -1.2648,
+          1.3809,
+          9.9025
+        ],
+        "headRotation": [
+          -0.01855,
+          -0.03258,
+          0.00044,
+          0.9993
+        ],
+        "leftFoot": [
+          -1.6098,
+          0.7164,
+          9.9675
+        ],
+        "rightFoot": [
+          -1.4815,
+          0.5352,
+          10.4094
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0461,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.6098,
+              0.7164,
+              9.9675
+            ],
+            "clearance": 0.0909,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.4815,
+              0.5352,
+              10.4094
+            ],
+            "clearance": 0.0044,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "up",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "tide",
+      "camera": "follow",
+      "cameraPosition": [
+        2.302,
+        2.648,
+        12.313
+      ],
+      "position": [
+        -1.5,
+        0.511,
+        10.115
+      ],
+      "pose": {
+        "time": 0.417,
+        "hand": [
+          -1.237,
+          1.3629,
+          9.8673
+        ],
+        "headRotation": [
+          -0.03731,
+          -0.0291,
+          -0.01151,
+          0.99881
+        ],
+        "leftFoot": [
+          -1.6098,
+          0.63,
+          9.9675
+        ],
+        "rightFoot": [
+          -1.4815,
+          0.7255,
+          10.4094
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0311,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.6098,
+              0.63,
+              9.9675
+            ],
+            "clearance": 0.0044,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.4815,
+              0.7255,
+              10.4094
+            ],
+            "clearance": 0.1949,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "up",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "tide",
+      "camera": "follow",
+      "cameraPosition": [
+        2.301,
+        2.661,
+        12.218
+      ],
+      "position": [
+        -1.5,
+        0.525,
+        10.015
+      ],
+      "pose": {
+        "time": 0.542,
+        "hand": [
+          -1.2035,
+          1.3848,
+          9.9145
+        ],
+        "headRotation": [
+          -0.06004,
+          -0.01698,
+          -0.02565,
+          0.99772
+        ],
+        "leftFoot": [
+          -1.6098,
+          0.63,
+          9.9675
+        ],
+        "rightFoot": [
+          -1.4719,
+          0.9697,
+          10.3175
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0015,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.6098,
+              0.63,
+              9.9675
+            ],
+            "clearance": 0.0044,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.4719,
+              0.9697,
+              10.3175
+            ],
+            "clearance": 0.3451,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "up",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "tide",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        2.674,
+        12.138
+      ],
+      "position": [
+        -1.5,
+        0.546,
+        9.918
+      ],
+      "pose": {
+        "time": 0.664,
+        "hand": [
+          -1.2005,
+          1.4031,
+          9.9326
+        ],
+        "headRotation": [
+          -0.0495,
+          -0.01239,
+          -0.02978,
+          0.99825
+        ],
+        "leftFoot": [
+          -1.6098,
+          0.63,
+          9.9675
+        ],
+        "rightFoot": [
+          -1.4293,
+          0.9697,
+          9.9086
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0001,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.6098,
+              0.63,
+              9.9675
+            ],
+            "clearance": 0.0043,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.4293,
+              0.9697,
+              9.9086
+            ],
+            "clearance": 0.3443,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "up",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "tide",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        2.699,
+        12.04
+      ],
+      "position": [
+        -1.5,
+        0.581,
+        9.822
+      ],
+      "pose": {
+        "time": 0.784,
+        "hand": [
+          -1.2083,
+          1.4134,
+          9.9406
+        ],
+        "headRotation": [
+          -0.02493,
+          -0.01035,
+          -0.02782,
+          0.99925
+        ],
+        "leftFoot": [
+          -1.6098,
+          0.63,
+          9.9675
+        ],
+        "rightFoot": [
+          -1.3933,
+          0.9697,
+          9.5624
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0265,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.6098,
+              0.63,
+              9.9675
+            ],
+            "clearance": 0.004,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.3933,
+              0.9697,
+              9.5624
+            ],
+            "clearance": 0.1144,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "up",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "tide",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        2.728,
+        11.946
+      ],
+      "position": [
+        -1.5,
+        0.616,
+        9.729
+      ],
+      "pose": {
+        "time": 0.906,
+        "hand": [
+          -1.2204,
+          1.3895,
+          9.8357
+        ],
+        "headRotation": [
+          -0.02199,
+          -0.00467,
+          -0.02168,
+          0.99951
+        ],
+        "leftFoot": [
+          -1.6098,
+          0.6312,
+          9.9675
+        ],
+        "rightFoot": [
+          -1.39,
+          0.8747,
+          9.5311
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0899,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.6098,
+              0.6312,
+              9.9675
+            ],
+            "clearance": 0.005,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.39,
+              0.8747,
+              9.5311
+            ],
+            "clearance": 0.0193,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "up",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "tide",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        2.76,
+        11.853
+      ],
+      "position": [
+        -1.5,
+        0.649,
+        9.64
+      ],
+      "pose": {
+        "time": 1.026,
+        "hand": [
+          -1.2224,
+          1.4836,
+          9.5727
+        ],
+        "headRotation": [
+          -0.036,
+          0.00363,
+          -0.01169,
+          0.99928
+        ],
+        "leftFoot": [
+          -1.6098,
+          0.9249,
+          9.9675
+        ],
+        "rightFoot": [
+          -1.39,
+          0.8597,
+          9.5311
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0276,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.6098,
+              0.9249,
+              9.9675
+            ],
+            "clearance": 0.2993,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.39,
+              0.8597,
+              9.5311
+            ],
+            "clearance": 0.0042,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "up",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "tide",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        2.786,
+        11.778
+      ],
+      "position": [
+        -1.5,
+        0.682,
+        9.55
+      ],
+      "pose": {
+        "time": 0.045,
+        "hand": [
+          -1.2231,
+          1.5723,
+          9.3582
+        ],
+        "headRotation": [
+          -0.04343,
+          0.0066,
+          -0.00515,
+          0.99902
+        ],
+        "leftFoot": [
+          -1.6099,
+          0.97,
+          9.841
+        ],
+        "rightFoot": [
+          -1.39,
+          0.8597,
+          9.5311
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0015,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.6099,
+              0.97,
+              9.841
+            ],
+            "clearance": 0.3444,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.39,
+              0.8597,
+              9.5311
+            ],
+            "clearance": 0.0042,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "up",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "tide",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        2.82,
+        11.686
+      ],
+      "position": [
+        -1.5,
+        0.716,
+        9.458
+      ],
+      "pose": {
+        "time": 0.168,
+        "hand": [
+          -1.2659,
+          1.6415,
+          9.1633
+        ],
+        "headRotation": [
+          -0.02731,
+          -0.01641,
+          -0.0006,
+          0.99949
+        ],
+        "leftFoot": [
+          -1.6099,
+          0.97,
+          9.4826
+        ],
+        "rightFoot": [
+          -1.39,
+          0.8597,
+          9.5311
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0001,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.6099,
+              0.97,
+              9.4826
+            ],
+            "clearance": 0.114,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.39,
+              0.8597,
+              9.5311
+            ],
+            "clearance": 0.0041,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "up",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "tide",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        2.848,
+        11.61
+      ],
+      "position": [
+        -1.5,
+        0.716,
+        9.458
+      ],
+      "pose": {
+        "time": 0.168,
+        "hand": [
+          -1.2659,
+          1.6415,
+          9.1633
+        ],
+        "headRotation": [
+          -0.02731,
+          -0.01641,
+          -0.0006,
+          0.99949
+        ],
+        "leftFoot": [
+          -1.6099,
+          0.97,
+          9.4826
+        ],
+        "rightFoot": [
+          -1.39,
+          0.8597,
+          9.5311
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0001,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.6099,
+              0.97,
+              9.4826
+            ],
+            "clearance": 0.114,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.39,
+              0.8597,
+              9.5311
+            ],
+            "clearance": 0.0041,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "up",
+      "mode": "guide",
+      "phase": "walking",
+      "stop": "tide",
+      "camera": "follow",
+      "cameraPosition": [
+        2.3,
+        2.881,
+        11.52
+      ],
+      "position": [
+        -1.5,
+        0.75,
+        9.368
+      ],
+      "pose": {
+        "time": 0.288,
+        "hand": [
+          -1.2654,
+          1.6798,
+          9.0545
+        ],
+        "headRotation": [
+          -0.01854,
+          -0.03238,
+          0.00052,
+          0.9993
+        ],
+        "leftFoot": [
+          -1.61,
+          0.97,
+          9.2072
+        ],
+        "rightFoot": [
+          -1.39,
+          0.8597,
+          9.5311
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": 0,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.61,
+              0.97,
+              9.2072
+            ],
+            "clearance": 0.1142,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.39,
+              0.8597,
+              9.5311
+            ],
+            "clearance": 0.0041,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-up",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        2.124,
+        3.057,
+        11.202
+      ],
+      "position": [
+        -1.5,
+        0.858,
+        9.075
+      ],
+      "pose": {
+        "time": 0,
+        "hand": [
+          -1.2178,
+          1.5898,
+          9.0695
+        ],
+        "headRotation": [
+          -0.09761,
+          0.0081,
+          -0.00286,
+          0.99519
+        ],
+        "leftFoot": [
+          -1.61,
+          0.86,
+          9.1851
+        ],
+        "rightFoot": [
+          -1.39,
+          0.8618,
+          9.3144
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.1339,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              0.86,
+              9.1851
+            ],
+            "clearance": 0.0041,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.39,
+              0.8618,
+              9.3144
+            ],
+            "clearance": 0.0064,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-up",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.511,
+        2.375,
+        8.754
+      ],
+      "position": [
+        -1.5,
+        0.888,
+        8.996
+      ],
+      "pose": {
+        "time": 0.082,
+        "hand": [
+          -1.2159,
+          1.6432,
+          8.8181
+        ],
+        "headRotation": [
+          -0.05296,
+          0.0017,
+          -0.00354,
+          0.99859
+        ],
+        "leftFoot": [
+          -1.61,
+          0.86,
+          9.1851
+        ],
+        "rightFoot": [
+          -1.39,
+          1.1997,
+          9.3141
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.1325,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              0.86,
+              9.1851
+            ],
+            "clearance": 0.0042,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.39,
+              1.1997,
+              9.3141
+            ],
+            "clearance": 0.3451,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-up",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.522,
+        2.342,
+        8.653
+      ],
+      "position": [
+        -1.5,
+        0.923,
+        8.901
+      ],
+      "pose": {
+        "time": 0.202,
+        "hand": [
+          -1.2729,
+          1.6815,
+          8.593
+        ],
+        "headRotation": [
+          -0.02324,
+          -0.0223,
+          0.0005,
+          0.99948
+        ],
+        "leftFoot": [
+          -1.61,
+          0.86,
+          9.1851
+        ],
+        "rightFoot": [
+          -1.39,
+          1.1997,
+          9.1018
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.1701,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              0.86,
+              9.1851
+            ],
+            "clearance": 0.0042,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.39,
+              1.1997,
+              9.1018
+            ],
+            "clearance": 0.1152,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-up",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.518,
+        2.338,
+        8.554
+      ],
+      "position": [
+        -1.5,
+        0.962,
+        8.797
+      ],
+      "pose": {
+        "time": 0.331,
+        "hand": [
+          -1.2553,
+          1.6838,
+          8.4927
+        ],
+        "headRotation": [
+          -0.02101,
+          -0.03382,
+          -0.0018,
+          0.99921
+        ],
+        "leftFoot": [
+          -1.6102,
+          1.0788,
+          9.1669
+        ],
+        "rightFoot": [
+          -1.39,
+          1.1997,
+          8.7097
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.2,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.6102,
+              1.0788,
+              9.1669
+            ],
+            "clearance": 0.005,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.39,
+              1.1997,
+              8.7097
+            ],
+            "clearance": 0.1143,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-up",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.511,
+        2.384,
+        8.45
+      ],
+      "position": [
+        -1.5,
+        0.999,
+        8.696
+      ],
+      "pose": {
+        "time": 0.458,
+        "hand": [
+          -1.226,
+          1.6671,
+          8.4953
+        ],
+        "headRotation": [
+          -0.04661,
+          -0.02504,
+          -0.01682,
+          0.99846
+        ],
+        "leftFoot": [
+          -1.61,
+          1.0895,
+          9.1182
+        ],
+        "rightFoot": [
+          -1.39,
+          1.1781,
+          8.5657
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.2,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              1.0895,
+              9.1182
+            ],
+            "clearance": 0.005,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.39,
+              1.1781,
+              8.5657
+            ],
+            "clearance": 0.0925,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-up",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.506,
+        2.447,
+        8.345
+      ],
+      "position": [
+        -1.5,
+        1.035,
+        8.592
+      ],
+      "pose": {
+        "time": 0.587,
+        "hand": [
+          -1.1984,
+          1.7022,
+          8.5368
+        ],
+        "headRotation": [
+          -0.06033,
+          -0.01447,
+          -0.02812,
+          0.99768
+        ],
+        "leftFoot": [
+          -1.61,
+          1.193,
+          9.1851
+        ],
+        "rightFoot": [
+          -1.39,
+          1.0897,
+          8.5657
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.194,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.61,
+              1.193,
+              9.1851
+            ],
+            "clearance": 0.3373,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.39,
+              1.0897,
+              8.5657
+            ],
+            "clearance": 0.0042,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-up",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.503,
+        2.603,
+        8.241
+      ],
+      "position": [
+        -1.5,
+        1.071,
+        8.489
+      ],
+      "pose": {
+        "time": 0.717,
+        "hand": [
+          -1.2036,
+          1.8576,
+          8.547
+        ],
+        "headRotation": [
+          -0.03791,
+          -0.0116,
+          -0.02948,
+          0.99878
+        ],
+        "leftFoot": [
+          -1.61,
+          1.43,
+          9.0118
+        ],
+        "rightFoot": [
+          -1.39,
+          1.0897,
+          8.5657
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0692,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.61,
+              1.43,
+              9.0118
+            ],
+            "clearance": 0.345,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.39,
+              1.0897,
+              8.5657
+            ],
+            "clearance": 0.0046,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-up",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.502,
+        2.588,
+        8.14
+      ],
+      "position": [
+        -1.5,
+        1.107,
+        8.387
+      ],
+      "pose": {
+        "time": 0.844,
+        "hand": [
+          -1.214,
+          1.8583,
+          8.5297
+        ],
+        "headRotation": [
+          -0.01988,
+          -0.00817,
+          -0.02543,
+          0.99945
+        ],
+        "leftFoot": [
+          -1.61,
+          1.43,
+          8.4218
+        ],
+        "rightFoot": [
+          -1.39,
+          1.0897,
+          8.5657
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.1096,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.61,
+              1.43,
+              8.4218
+            ],
+            "clearance": 0.1144,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.39,
+              1.0897,
+              8.5657
+            ],
+            "clearance": 0.0044,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-up",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.514,
+        2.563,
+        8.037
+      ],
+      "position": [
+        -1.5,
+        1.143,
+        8.284
+      ],
+      "pose": {
+        "time": 0.973,
+        "hand": [
+          -1.2238,
+          1.8085,
+          8.3015
+        ],
+        "headRotation": [
+          -0.02907,
+          -0.00012,
+          -0.0163,
+          0.99944
+        ],
+        "leftFoot": [
+          -1.61,
+          1.43,
+          8.0191
+        ],
+        "rightFoot": [
+          -1.39,
+          1.0897,
+          8.5657
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.1906,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.61,
+              1.43,
+              8.0191
+            ],
+            "clearance": 0.1141,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.39,
+              1.0897,
+              8.5657
+            ],
+            "clearance": 0.0041,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-up",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.513,
+        2.588,
+        7.93
+      ],
+      "position": [
+        -1.5,
+        1.179,
+        8.18
+      ],
+      "pose": {
+        "time": 0.003,
+        "hand": [
+          -1.2203,
+          1.8676,
+          8.0002
+        ],
+        "headRotation": [
+          -0.04478,
+          0.00869,
+          -0.00547,
+          0.99894
+        ],
+        "leftFoot": [
+          -1.61,
+          1.3211,
+          8.0162
+        ],
+        "rightFoot": [
+          -1.3901,
+          1.1542,
+          8.5591
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.2,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              1.3211,
+              8.0162
+            ],
+            "clearance": 0.005,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.3901,
+              1.1542,
+              8.5591
+            ],
+            "clearance": 0.0685,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-up",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.519,
+        2.795,
+        7.826
+      ],
+      "position": [
+        -1.5,
+        1.215,
+        8.075
+      ],
+      "pose": {
+        "time": 0.134,
+        "hand": [
+          -1.2541,
+          2.1215,
+          7.8012
+        ],
+        "headRotation": [
+          -0.03188,
+          -0.01006,
+          -0.00194,
+          0.99944
+        ],
+        "leftFoot": [
+          -1.61,
+          1.32,
+          8.0162
+        ],
+        "rightFoot": [
+          -1.39,
+          1.6192,
+          8.5074
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0109,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              1.32,
+              8.0162
+            ],
+            "clearance": 0.0043,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.39,
+              1.6192,
+              8.5074
+            ],
+            "clearance": 0.3097,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-up",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.521,
+        2.833,
+        7.723
+      ],
+      "position": [
+        -1.5,
+        1.263,
+        7.967
+      ],
+      "pose": {
+        "time": 0.268,
+        "hand": [
+          -1.2694,
+          2.1925,
+          7.6518
+        ],
+        "headRotation": [
+          -0.01853,
+          -0.03102,
+          0.00104,
+          0.99935
+        ],
+        "leftFoot": [
+          -1.61,
+          1.32,
+          8.0162
+        ],
+        "rightFoot": [
+          -1.39,
+          1.6192,
+          8.028
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0014,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              1.32,
+              8.0162
+            ],
+            "clearance": 0.0045,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.39,
+              1.6192,
+              8.028
+            ],
+            "clearance": 0.304,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-up",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.514,
+        2.834,
+        7.616
+      ],
+      "position": [
+        -1.5,
+        1.314,
+        7.86
+      ],
+      "pose": {
+        "time": 0.403,
+        "hand": [
+          -1.2405,
+          2.1377,
+          7.5975
+        ],
+        "headRotation": [
+          -0.03394,
+          -0.03043,
+          -0.0096,
+          0.99891
+        ],
+        "leftFoot": [
+          -1.61,
+          1.32,
+          8.0162
+        ],
+        "rightFoot": [
+          -1.39,
+          1.6192,
+          7.5981
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0676,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              1.32,
+              8.0162
+            ],
+            "clearance": 0.0041,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.39,
+              1.6192,
+              7.5981
+            ],
+            "clearance": 0.1144,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-up",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.508,
+        2.819,
+        7.521
+      ],
+      "position": [
+        -1.5,
+        1.359,
+        7.766
+      ],
+      "pose": {
+        "time": 0.52,
+        "hand": [
+          -1.2082,
+          2.0643,
+          7.6414
+        ],
+        "headRotation": [
+          -0.05778,
+          -0.01878,
+          -0.02381,
+          0.99787
+        ],
+        "leftFoot": [
+          -1.61,
+          1.3211,
+          8.0162
+        ],
+        "rightFoot": [
+          -1.39,
+          1.5147,
+          7.5753
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.1556,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              1.3211,
+              8.0162
+            ],
+            "clearance": 0.005,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.39,
+              1.5147,
+              7.5753
+            ],
+            "clearance": 0.0097,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-up",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.505,
+        2.978,
+        7.412
+      ],
+      "position": [
+        -1.5,
+        1.409,
+        7.659
+      ],
+      "pose": {
+        "time": 0.654,
+        "hand": [
+          -1.1997,
+          2.2435,
+          7.6649
+        ],
+        "headRotation": [
+          -0.05135,
+          -0.01258,
+          -0.02968,
+          0.99816
+        ],
+        "leftFoot": [
+          -1.61,
+          1.6195,
+          8.0109
+        ],
+        "rightFoot": [
+          -1.39,
+          1.5092,
+          7.5753
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0236,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.61,
+              1.6195,
+              8.0109
+            ],
+            "clearance": 0.3036,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.39,
+              1.5092,
+              7.5753
+            ],
+            "clearance": 0.0047,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-up",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.5,
+        3.009,
+        7.316
+      ],
+      "position": [
+        -1.5,
+        1.413,
+        7.559
+      ],
+      "pose": {
+        "time": 0.779,
+        "hand": [
+          -1.2079,
+          2.2706,
+          7.6734
+        ],
+        "headRotation": [
+          -0.02569,
+          -0.01048,
+          -0.02799,
+          0.99922
+        ],
+        "leftFoot": [
+          -1.61,
+          1.6195,
+          7.7054
+        ],
+        "rightFoot": [
+          -1.39,
+          1.5092,
+          7.5754
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0011,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.61,
+              1.6195,
+              7.7054
+            ],
+            "clearance": 0.1139,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.39,
+              1.5092,
+              7.5754
+            ],
+            "clearance": 0.0046,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-up",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.507,
+        3.01,
+        7.212
+      ],
+      "position": [
+        -1.5,
+        1.413,
+        7.456
+      ],
+      "pose": {
+        "time": 0.908,
+        "hand": [
+          -1.2206,
+          2.2767,
+          7.5593
+        ],
+        "headRotation": [
+          -0.02218,
+          -0.00453,
+          -0.02152,
+          0.99951
+        ],
+        "leftFoot": [
+          -1.61,
+          1.6195,
+          7.2527
+        ],
+        "rightFoot": [
+          -1.39,
+          1.5092,
+          7.5754
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": 0,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.61,
+              1.6195,
+              7.2527
+            ],
+            "clearance": 0.1144,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.39,
+              1.5092,
+              7.5754
+            ],
+            "clearance": 0.0044,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-up",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.515,
+        3.001,
+        7.099
+      ],
+      "position": [
+        -1.5,
+        1.413,
+        7.346
+      ],
+      "pose": {
+        "time": 1.045,
+        "hand": [
+          -1.2216,
+          2.2521,
+          7.2487
+        ],
+        "headRotation": [
+          -0.03845,
+          0.00496,
+          -0.01005,
+          0.9992
+        ],
+        "leftFoot": [
+          -1.61,
+          1.5563,
+          7.1307
+        ],
+        "rightFoot": [
+          -1.39,
+          1.5092,
+          7.5754
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.029,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.61,
+              1.5563,
+              7.1307
+            ],
+            "clearance": 0.0517,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.39,
+              1.5092,
+              7.5754
+            ],
+            "clearance": 0.0041,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-down",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.509,
+        2.99,
+        7.068
+      ],
+      "position": [
+        -1.5,
+        1.413,
+        7.345
+      ],
+      "pose": {
+        "time": 0.454,
+        "hand": [
+          -1.2272,
+          2.2645,
+          7.1393
+        ],
+        "headRotation": [
+          -0.04566,
+          -0.02548,
+          -0.01628,
+          0.9985
+        ],
+        "leftFoot": [
+          -1.58,
+          1.5816,
+          7.2278
+        ],
+        "rightFoot": [
+          -1.4192,
+          1.5092,
+          7.5804
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0179,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.58,
+              1.5816,
+              7.2278
+            ],
+            "clearance": 0.076,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.4192,
+              1.5092,
+              7.5804
+            ],
+            "clearance": 0.0041,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-down",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.516,
+        2.996,
+        7.168
+      ],
+      "position": [
+        -1.5,
+        1.413,
+        7.443
+      ],
+      "pose": {
+        "time": 0.332,
+        "hand": [
+          -1.2552,
+          2.3347,
+          7.1383
+        ],
+        "headRotation": [
+          -0.02105,
+          -0.03382,
+          -0.00183,
+          0.9992
+        ],
+        "leftFoot": [
+          -1.5842,
+          1.6195,
+          7.3273
+        ],
+        "rightFoot": [
+          -1.4192,
+          1.5092,
+          7.5804
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0009,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.5842,
+              1.6195,
+              7.3273
+            ],
+            "clearance": 0.1139,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.4192,
+              1.5092,
+              7.5804
+            ],
+            "clearance": 0.004,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-down",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.521,
+        2.991,
+        7.265
+      ],
+      "position": [
+        -1.5,
+        1.413,
+        7.54
+      ],
+      "pose": {
+        "time": 0.209,
+        "hand": [
+          -1.2732,
+          2.3416,
+          7.2311
+        ],
+        "headRotation": [
+          -0.02252,
+          -0.02346,
+          0.00065,
+          0.99947
+        ],
+        "leftFoot": [
+          -1.5987,
+          1.6195,
+          7.6674
+        ],
+        "rightFoot": [
+          -1.4192,
+          1.5092,
+          7.5804
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": 0,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.5987,
+              1.6195,
+              7.6674
+            ],
+            "clearance": 0.1141,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.4192,
+              1.5092,
+              7.5804
+            ],
+            "clearance": 0.0041,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-down",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.518,
+        3.018,
+        7.359
+      ],
+      "position": [
+        -1.5,
+        1.413,
+        7.64
+      ],
+      "pose": {
+        "time": 0.085,
+        "hand": [
+          -1.2348,
+          2.3149,
+          7.4104
+        ],
+        "headRotation": [
+          -0.03869,
+          -0.00049,
+          -0.00392,
+          0.99924
+        ],
+        "leftFoot": [
+          -1.6097,
+          1.6195,
+          7.9244
+        ],
+        "rightFoot": [
+          -1.4192,
+          1.5092,
+          7.5804
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": 0,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.6097,
+              1.6195,
+              7.9244
+            ],
+            "clearance": 0.3036,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.4192,
+              1.5092,
+              7.5804
+            ],
+            "clearance": 0.0048,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-down",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.513,
+        2.834,
+        7.465
+      ],
+      "position": [
+        -1.5,
+        1.367,
+        7.747
+      ],
+      "pose": {
+        "time": 1.051,
+        "hand": [
+          -1.2213,
+          2.0845,
+          7.6402
+        ],
+        "headRotation": [
+          -0.03921,
+          0.00538,
+          -0.00953,
+          0.99917
+        ],
+        "leftFoot": [
+          -1.61,
+          1.32,
+          7.9323
+        ],
+        "rightFoot": [
+          -1.4192,
+          1.5092,
+          7.5804
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.1524,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.61,
+              1.32,
+              7.9323
+            ],
+            "clearance": 0.004,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.4192,
+              1.5092,
+              7.5804
+            ],
+            "clearance": 0.0041,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-down",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.513,
+        2.829,
+        7.57
+      ],
+      "position": [
+        -1.5,
+        1.319,
+        7.849
+      ],
+      "pose": {
+        "time": 0.924,
+        "hand": [
+          -1.2218,
+          2.089,
+          7.9352
+        ],
+        "headRotation": [
+          -0.02355,
+          -0.00352,
+          -0.02035,
+          0.99951
+        ],
+        "leftFoot": [
+          -1.61,
+          1.32,
+          7.9323
+        ],
+        "rightFoot": [
+          -1.4187,
+          1.6192,
+          7.5946
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0919,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              1.32,
+              7.9323
+            ],
+            "clearance": 0.004,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.4187,
+              1.6192,
+              7.5946
+            ],
+            "clearance": 0.1142,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-down",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.501,
+        2.833,
+        7.669
+      ],
+      "position": [
+        -1.5,
+        1.273,
+        7.947
+      ],
+      "pose": {
+        "time": 0.801,
+        "hand": [
+          -1.2097,
+          2.1052,
+          8.0784
+        ],
+        "headRotation": [
+          -0.02236,
+          -0.00989,
+          -0.02722,
+          0.99933
+        ],
+        "leftFoot": [
+          -1.61,
+          1.32,
+          7.9323
+        ],
+        "rightFoot": [
+          -1.4078,
+          1.6192,
+          7.8882
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0272,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              1.32,
+              7.9323
+            ],
+            "clearance": 0.0044,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.4078,
+              1.6192,
+              7.8882
+            ],
+            "clearance": 0.3039,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-down",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.504,
+        2.834,
+        7.775
+      ],
+      "position": [
+        -1.5,
+        1.223,
+        8.052
+      ],
+      "pose": {
+        "time": 0.67,
+        "hand": [
+          -1.2009,
+          2.0784,
+          8.0716
+        ],
+        "headRotation": [
+          -0.04833,
+          -0.01229,
+          -0.0298,
+          0.99831
+        ],
+        "leftFoot": [
+          -1.61,
+          1.32,
+          7.9323
+        ],
+        "rightFoot": [
+          -1.393,
+          1.6192,
+          8.2864
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0018,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              1.32,
+              7.9323
+            ],
+            "clearance": 0.005,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.393,
+              1.6192,
+              8.2864
+            ],
+            "clearance": 0.3045,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-down",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.506,
+        2.813,
+        7.868
+      ],
+      "position": [
+        -1.5,
+        1.191,
+        8.146
+      ],
+      "pose": {
+        "time": 0.552,
+        "hand": [
+          -1.2019,
+          2.0518,
+          8.0558
+        ],
+        "headRotation": [
+          -0.06059,
+          -0.01629,
+          -0.02634,
+          0.99768
+        ],
+        "leftFoot": [
+          -1.61,
+          1.32,
+          7.9323
+        ],
+        "rightFoot": [
+          -1.39,
+          1.479,
+          8.3674
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": -0.0001,
+        "feet": [
+          {
+            "side": "L",
+            "swing": false,
+            "ankle": [
+              -1.61,
+              1.32,
+              7.9323
+            ],
+            "clearance": 0.0053,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": true,
+            "ankle": [
+              -1.39,
+              1.479,
+              8.3674
+            ],
+            "clearance": 0.1638,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-down",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.51,
+        2.757,
+        7.965
+      ],
+      "position": [
+        -1.5,
+        1.158,
+        8.24
+      ],
+      "pose": {
+        "time": 0.435,
+        "hand": [
+          -1.2326,
+          2.0317,
+          8.0114
+        ],
+        "headRotation": [
+          -0.04138,
+          -0.02746,
+          -0.01383,
+          0.99867
+        ],
+        "leftFoot": [
+          -1.61,
+          1.3881,
+          7.9323
+        ],
+        "rightFoot": [
+          -1.39,
+          1.3197,
+          8.3674
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": 0,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.61,
+              1.3881,
+              7.9323
+            ],
+            "clearance": 0.0732,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.39,
+              1.3197,
+              8.3674
+            ],
+            "clearance": 0.0042,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-down",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.517,
+        2.709,
+        8.072
+      ],
+      "position": [
+        -1.5,
+        1.121,
+        8.345
+      ],
+      "pose": {
+        "time": 0.303,
+        "hand": [
+          -1.262,
+          2.0498,
+          8.0336
+        ],
+        "headRotation": [
+          -0.0188,
+          -0.03332,
+          -0.00002,
+          0.99927
+        ],
+        "leftFoot": [
+          -1.61,
+          1.43,
+          8.0766
+        ],
+        "rightFoot": [
+          -1.39,
+          1.3197,
+          8.3674
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": 0,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.61,
+              1.43,
+              8.0766
+            ],
+            "clearance": 0.1144,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.39,
+              1.3197,
+              8.3674
+            ],
+            "clearance": 0.0041,
+            "probes": 43
+          }
+        ]
+      }
+    },
+    {
+      "direction": "manual-down",
+      "mode": "manual",
+      "phase": "manual-walking",
+      "stop": "tide",
+      "camera": "eye",
+      "cameraPosition": [
+        -1.522,
+        2.675,
+        8.176
+      ],
+      "position": [
+        -1.5,
+        1.084,
+        8.453
+      ],
+      "pose": {
+        "time": 0.169,
+        "hand": [
+          -1.2662,
+          2.0089,
+          8.1575
+        ],
+        "headRotation": [
+          -0.02717,
+          -0.01662,
+          -0.00056,
+          0.99949
+        ],
+        "leftFoot": [
+          -1.61,
+          1.43,
+          8.5505
+        ],
+        "rightFoot": [
+          -1.39,
+          1.3197,
+          8.3674
+        ]
+      },
+      "contact": {
+        "stairs": true,
+        "bodyOffset": 0,
+        "feet": [
+          {
+            "side": "L",
+            "swing": true,
+            "ankle": [
+              -1.61,
+              1.43,
+              8.5505
+            ],
+            "clearance": 0.3444,
+            "probes": 40
+          },
+          {
+            "side": "R",
+            "swing": false,
+            "ankle": [
+              -1.39,
+              1.3197,
+              8.3674
+            ],
+            "clearance": 0.0041,
+            "probes": 43
+          }
+        ]
+      }
+    }
+  ],
+  "result": "passed; visual review recorded separately"
+}

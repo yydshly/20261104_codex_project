@@ -1,0 +1,185 @@
+{
+  "scope": "Compare this new 20-photo reference source with the existing 20 PEBIT effect references; do not replace original numbering or automatically create new effect IDs.",
+  "method": "All 40 source images inspected in full-aspect contact sheets; resampled color/shape distances computed only as diagnostics.",
+  "finding": "Different photo group with overlapping visual categories. No clear one-to-one duplicate or reordered re-upload sequence was found in the contact-sheet review. Similar effect categories do not prove same source photo or same original creator.",
+  "reviewStatus": "Reference classification suggestions only; no effect or extension marked visually accepted.",
+  "primaryBenefits": [
+    "More visible wave volume and water depth",
+    "Natural reflection density, scale and dark gaps",
+    "Foam mass and sea/shore contact",
+    "Warm reflection and turbulent water combination references"
+  ],
+  "doesNotReplace": [
+    "Round bokeh shape and deliberate depth-of-field examples",
+    "Clear diffraction starburst examples",
+    "Strong yellow/cobalt-blue mirror-color separation",
+    "Rose/purple dusk palette",
+    "Specific thin transmitted wave-lip criterion"
+  ],
+  "suggestedMappings": [
+    {
+      "newPhotoNumber": 1,
+      "existingEffectNumbers": [
+        1,
+        19,
+        20
+      ],
+      "reason": "深钴蓝水体上的斜向碎泡与湍流，适合泡网和碎浪的形体参照。"
+    },
+    {
+      "newPhotoNumber": 2,
+      "existingEffectNumbers": [
+        8,
+        15
+      ],
+      "reason": "橙金反光与较暗波面交替，可补真实反射宽度和密度。"
+    },
+    {
+      "newPhotoNumber": 3,
+      "existingEffectNumbers": [
+        3,
+        16
+      ],
+      "reason": "远处密集细碎银光；可补碎光尺度，不足以替代星芒形状标准。"
+    },
+    {
+      "newPhotoNumber": 4,
+      "existingEffectNumbers": [
+        5,
+        19
+      ],
+      "reason": "灰黑波面与推进的白沫，适合浪体体积和白沫边界。"
+    },
+    {
+      "newPhotoNumber": 5,
+      "existingEffectNumbers": [
+        6,
+        13
+      ],
+      "reason": "前后层次中的浅金光点与细波纹；颜色偏暖，不能直接当中性银白终稿。"
+    },
+    {
+      "newPhotoNumber": 6,
+      "existingEffectNumbers": [
+        3,
+        16
+      ],
+      "reason": "深蓝水面上的细小反光群，可补远近密度与暗缝。"
+    },
+    {
+      "newPhotoNumber": 7,
+      "existingEffectNumbers": [
+        14,
+        4
+      ],
+      "reason": "绿蓝清水、可见水下结构和局部反光，适合清透流纹的层次参考。"
+    },
+    {
+      "newPhotoNumber": 8,
+      "existingEffectNumbers": [
+        5,
+        1
+      ],
+      "reason": "深水上的厚白浪沫与泡孔，适合破浪重量感及飞沫前后关系。"
+    },
+    {
+      "newPhotoNumber": 9,
+      "existingEffectNumbers": [
+        15,
+        8
+      ],
+      "reason": "高覆盖金色反射和暗色浪脊，适合熔金覆盖率与亮暗节奏。"
+    },
+    {
+      "newPhotoNumber": 10,
+      "existingEffectNumbers": [
+        10,
+        16
+      ],
+      "reason": "暗蓝近景波面上有稀疏亮点，适合暗面占比与光点群聚。"
+    },
+    {
+      "newPhotoNumber": 11,
+      "existingEffectNumbers": [
+        4,
+        11
+      ],
+      "reason": "蓝色清水由深到浅的连续波面，适合波纹尺度与水深色层。"
+    },
+    {
+      "newPhotoNumber": 12,
+      "existingEffectNumbers": [
+        11,
+        14
+      ],
+      "reason": "浅绿灰水面可见海床，适合清水纵深；并非原组低对比海面或翡翠流纹的直接同图。"
+    },
+    {
+      "newPhotoNumber": 13,
+      "existingEffectNumbers": [
+        10,
+        11
+      ],
+      "reason": "暗海上稀疏横向反光，适合低高光占比和纵深。"
+    },
+    {
+      "newPhotoNumber": 14,
+      "existingEffectNumbers": [
+        10,
+        3
+      ],
+      "reason": "暗面上的细亮反射，适合亮点疏密；不能据此认定已有十字星芒。"
+    },
+    {
+      "newPhotoNumber": 15,
+      "existingEffectNumbers": [
+        8,
+        15
+      ],
+      "reason": "宽阔顺滑金色反射带，适合镜纹弯曲与连续过渡。"
+    },
+    {
+      "newPhotoNumber": 16,
+      "existingEffectNumbers": [
+        8,
+        9,
+        12
+      ],
+      "reason": "浅滩和波面中出现暖光，适合组合方向的受光和水沙接触。"
+    },
+    {
+      "newPhotoNumber": 17,
+      "existingEffectNumbers": [
+        19,
+        1,
+        8
+      ],
+      "reason": "较暗湍流与暖光碎沫同框，适合碎浪与暖反光组合。"
+    },
+    {
+      "newPhotoNumber": 18,
+      "existingEffectNumbers": [
+        19,
+        5,
+        12
+      ],
+      "reason": "青黑浪体与弯曲白沫，适合浪的体积和翻落边界。"
+    },
+    {
+      "newPhotoNumber": 19,
+      "existingEffectNumbers": [
+        8,
+        15
+      ],
+      "reason": "黑褐海面上的金光带，适合控制金色亮部与大暗面。"
+    },
+    {
+      "newPhotoNumber": 20,
+      "existingEffectNumbers": [
+        20,
+        1
+      ],
+      "reason": "青蓝水中的薄泡网和清水空隙，适合细泡尺度与疏密。"
+    }
+  ]
+}

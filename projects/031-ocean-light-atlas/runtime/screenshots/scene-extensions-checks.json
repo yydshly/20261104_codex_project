@@ -1,0 +1,96 @@
+{
+  "errors": [],
+  "plans": [
+    {
+      "id": "cloud-afternoon",
+      "title": "云影掠过的午后",
+      "story": 3,
+      "method": 3,
+      "acceptance": 3,
+      "limits": 2
+    },
+    {
+      "id": "rainy-glasshouse",
+      "title": "雨夜玻璃屋",
+      "story": 3,
+      "method": 3,
+      "acceptance": 3,
+      "limits": 2
+    },
+    {
+      "id": "moonlit-boardwalk",
+      "title": "月色栈道与灯塔",
+      "story": 3,
+      "method": 3,
+      "acceptance": 3,
+      "limits": 2
+    },
+    {
+      "id": "lake-cabin",
+      "title": "山湖木屋",
+      "story": 3,
+      "method": 3,
+      "acceptance": 3,
+      "limits": 2
+    },
+    {
+      "id": "courtyard-pool",
+      "title": "树影庭院与浅池",
+      "story": 3,
+      "method": 3,
+      "acceptance": 3,
+      "limits": 2
+    },
+    {
+      "id": "seaside-study",
+      "title": "海边书房",
+      "story": 3,
+      "method": 3,
+      "acceptance": 3,
+      "limits": 2
+    },
+    {
+      "id": "tidal-pools",
+      "title": "观潮步道与潮池",
+      "story": 3,
+      "method": 3,
+      "acceptance": 3,
+      "limits": 2
+    },
+    {
+      "id": "two-person",
+      "title": "双人对坐与短对话",
+      "story": 3,
+      "method": 3,
+      "acceptance": 3,
+      "limits": 2
+    },
+    {
+      "id": "seaside-exhibition",
+      "title": "海边展亭与轻导览",
+      "story": 3,
+      "method": 3,
+      "acceptance": 3,
+      "limits": 2
+    },
+    {
+      "id": "spatial-shortfilm",
+      "title": "三镜头空间短片",
+      "story": 3,
+      "method": 3,
+      "acceptance": 3,
+      "limits": 2
+    }
+  ],
+  "checks": [
+    "sea-view purpose and three views lead; ten other proposals are collapsed by default",
+    "all ten plans show their own target, camera/person/sound, sequence, reuse/new work, first version, acceptance and limits",
+    "four type filters 3/3/2/2 and reset",
+    "individual and complete proposal downloads retain explicit not-implemented status",
+    "frozen source links and suggested entry points work",
+    "direct plan link restores the selected scenario",
+    "390px fits; native plan selection and type filters work",
+    "archive entry returns to sea-view purpose; secondary proposals remain accessible on mobile"
+  ],
+  "result": "passed"
+}

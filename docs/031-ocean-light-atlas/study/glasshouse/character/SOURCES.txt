@@ -1,0 +1,11 @@
+Base anatomy: Quaternius, Universal Base Characters, free Standard asset, CC0 1.0 Universal.
+https://quaternius.itch.io/universal-base-characters
+
+Source locomotion and seated poses: Quaternius, Universal Animation Library, free Standard asset, CC0 1.0 Universal.
+https://quaternius.itch.io/universal-animation-library
+
+CC0 legal code:
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+User-provided reference.png is a visual reference for this requested character adaptation. No CC0 claim is made for that image.
+New clothing meshes, short hair, spectacles, shape adjustments, gesture baking, guide controller and integration were created in this project.
