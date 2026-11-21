@@ -1,0 +1,67 @@
+[
+  {
+    "company": "DuckDuckGo",
+    "source": "https://jobs.ashbyhq.com/duck-duck-go",
+    "total_public_listings": 10,
+    "recent_all_roles": 1,
+    "recent_developer_remote": 0,
+    "region_eligible": 0,
+    "region_unknown": 0,
+    "region_excluded": 0,
+    "date_basis": "publishedAt: last publication",
+    "difficulty": "low-medium",
+    "note": "Only recent role is Product Partnerships, out of developer scope."
+  },
+  {
+    "company": "Docker",
+    "source": "https://jobs.ashbyhq.com/docker",
+    "total_public_listings": 50,
+    "recent_all_roles": 5,
+    "recent_developer_remote": 0,
+    "region_eligible": 0,
+    "region_unknown": 0,
+    "region_excluded": 0,
+    "date_basis": "publishedAt: last publication",
+    "difficulty": "low-medium",
+    "note": "Recent roles are product management, finance, renewals and Director of Developer Success. No hands-on developer IC."
+  },
+  {
+    "company": "Zapier",
+    "source": "https://jobs.ashbyhq.com/zapier",
+    "total_public_listings": 9,
+    "recent_all_roles": 1,
+    "recent_developer_remote": 0,
+    "region_eligible": 0,
+    "region_unknown": 0,
+    "region_excluded": 0,
+    "date_basis": "publishedAt: last publication",
+    "difficulty": "low-medium",
+    "note": "Only recent role Legal Counsel is out of developer scope."
+  },
+  {
+    "company": "Mattermost",
+    "source": "https://job-boards.greenhouse.io/mattermost",
+    "total_public_listings": 10,
+    "recent_all_roles": 0,
+    "recent_developer_remote": 0,
+    "region_eligible": 0,
+    "region_unknown": 0,
+    "region_excluded": 0,
+    "date_basis": "first_published",
+    "difficulty": "low-medium",
+    "note": "No first_published date in window."
+  },
+  {
+    "company": "Tailscale",
+    "source": "https://job-boards.greenhouse.io/tailscale",
+    "total_public_listings": 89,
+    "recent_all_roles": 13,
+    "recent_developer_remote": 0,
+    "region_eligible": 0,
+    "region_unknown": 0,
+    "region_excluded": 0,
+    "date_basis": "first_published",
+    "difficulty": "low-medium",
+    "note": "Recent Forward Deployed roles are customer onboarding/support/advisory without software implementation responsibilities; other recent roles management/design/sales. Developer remote candidates 0."
+  }
+]

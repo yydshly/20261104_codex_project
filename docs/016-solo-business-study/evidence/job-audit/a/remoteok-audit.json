@@ -1,0 +1,1020 @@
+{
+  "window_start_utc": "2026-11-14T06:34:00Z",
+  "window_end_utc": "2026-11-21T06:34:00Z",
+  "coverage": "Current Remote OK API visible snapshot only. Earliest old/pinned record does not establish full 7-day completeness.",
+  "source": "https://remoteok.com/api",
+  "snapshot_records": 98,
+  "visible_records_in_window": 91,
+  "date_distribution": [
+    {
+      "date": "2026-11-17",
+      "count": 3
+    },
+    {
+      "date": "2026-11-19",
+      "count": 32
+    },
+    {
+      "date": "2026-11-20",
+      "count": 56
+    }
+  ],
+  "developer_related_candidate_records": 23,
+  "geography_eligible": 1,
+  "geography_unknown": 2,
+  "geography_excluded": 20,
+  "unknown_remote_records": 2,
+  "occupation_excluded": 68,
+  "exact_duplicate_ids_in_candidates": 0,
+  "duplicates": [
+    {
+      "kind": "confirmed_cross_board",
+      "ids": [
+        "1137844"
+      ],
+      "other_source": "We Work Remotely",
+      "canonical_url": "https://job-boards.greenhouse.io/netlify/jobs/8895506002",
+      "note": "Root verified same Netlify Interfaces role in WWR and Remote OK; China excluded."
+    },
+    {
+      "kind": "possible_region_variant",
+      "ids": [
+        "1137874",
+        "1137860"
+      ],
+      "company": "Dropbox",
+      "note": "Atlassian Cloud Administrator vs misspelled Admininstrator, very similar responsibilities but Europe vs North America. No common employer requisition ID captured; do not merge as proven duplicate."
+    }
+  ],
+  "candidates": [
+    {
+      "source": "Remote OK visible API snapshot",
+      "id": "1137887",
+      "company": "Storyblok",
+      "title": "Senior DevOps Engineer II - Europe",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-devops-engineer-ii-europe-storyblok-1137887",
+      "date": "2026-11-20T13:30:14+08:00",
+      "date_basis": "Remote OK board listing date, not verified employer first publication",
+      "board_locations": [
+        "Worldwide"
+      ],
+      "developer_scope": "Infrastructure/DevOps",
+      "remote_evidence_status": "confirmed_by_title",
+      "china_geography": "exclude",
+      "evidence": "Europe in job title overrides Worldwide board label",
+      "china_contract_status": "not_verified",
+      "currently_in_snapshot": true,
+      "employer_open_verified": false,
+      "employer_source_url": null,
+      "review_note": "API labels Worldwide but role title specifies Europe; demonstrates need to review content."
+    },
+    {
+      "source": "Remote OK visible API snapshot",
+      "id": "1137874",
+      "company": "Dropbox",
+      "title": "Senior Atlassian Cloud Administrator",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-atlassian-cloud-administrator-dropbox-1137874",
+      "date": "2026-11-20T10:15:13+08:00",
+      "date_basis": "Remote OK board listing date, not verified employer first publication",
+      "board_locations": [
+        "Europe"
+      ],
+      "developer_scope": "Enterprise workflow automation",
+      "remote_evidence_status": "board_remote_claim",
+      "china_geography": "exclude",
+      "evidence": "Europe board location; Poland compensation",
+      "china_contract_status": "not_verified",
+      "currently_in_snapshot": true,
+      "employer_open_verified": false,
+      "employer_source_url": null,
+      "review_note": ""
+    },
+    {
+      "source": "Remote OK visible API snapshot",
+      "id": "1137872",
+      "company": "Clover Health",
+      "title": "Senior Software Developer - Canada",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-software-developer-canada-clover-health-1137872",
+      "date": "2026-11-20T09:45:13+08:00",
+      "date_basis": "Remote OK board listing date, not verified employer first publication",
+      "board_locations": [
+        "Canada Only"
+      ],
+      "developer_scope": "Full-stack software",
+      "remote_evidence_status": "board_remote_claim",
+      "china_geography": "exclude",
+      "evidence": "Canada in title and Canada Only board location",
+      "china_contract_status": "not_verified",
+      "currently_in_snapshot": true,
+      "employer_open_verified": false,
+      "employer_source_url": null,
+      "review_note": ""
+    },
+    {
+      "source": "Remote OK visible API snapshot",
+      "id": "1137871",
+      "company": "Clover Health",
+      "title": "Senior Software Engineer",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-clover-health-1137871",
+      "date": "2026-11-20T09:30:14+08:00",
+      "date_basis": "Remote OK board listing date, not verified employer first publication",
+      "board_locations": [
+        "US Only"
+      ],
+      "developer_scope": "Software engineering",
+      "remote_evidence_status": "board_remote_claim",
+      "china_geography": "exclude",
+      "evidence": "US Only job location; global benefits language does not override location",
+      "china_contract_status": "not_verified",
+      "currently_in_snapshot": true,
+      "employer_open_verified": false,
+      "employer_source_url": null,
+      "review_note": ""
+    },
+    {
+      "source": "Remote OK visible API snapshot",
+      "id": "1137865",
+      "company": "Arbor Education",
+      "title": "Senior Product Engineer",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-product-engineer-arbor-education-1137865",
+      "date": "2026-11-20T08:00:47+08:00",
+      "date_basis": "Remote OK board listing date, not verified employer first publication",
+      "board_locations": [
+        ""
+      ],
+      "developer_scope": "Product/software engineering",
+      "remote_evidence_status": "confirmed_in_description",
+      "china_geography": "exclude",
+      "evidence": "Location: Remote - UK",
+      "china_contract_status": "not_verified",
+      "currently_in_snapshot": true,
+      "employer_open_verified": false,
+      "employer_source_url": null,
+      "review_note": ""
+    },
+    {
+      "source": "Remote OK visible API snapshot",
+      "id": "1137860",
+      "company": "Dropbox",
+      "title": "Senior Atlassian Cloud Admininstrator",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-atlassian-cloud-admininstrator-dropbox-1137860",
+      "date": "2026-11-20T05:15:14+08:00",
+      "date_basis": "Remote OK board listing date, not verified employer first publication",
+      "board_locations": [
+        "North America"
+      ],
+      "developer_scope": "Enterprise workflow automation",
+      "remote_evidence_status": "board_remote_claim",
+      "china_geography": "exclude",
+      "evidence": "North America board location",
+      "china_contract_status": "not_verified",
+      "currently_in_snapshot": true,
+      "employer_open_verified": false,
+      "employer_source_url": null,
+      "review_note": ""
+    },
+    {
+      "source": "Remote OK visible API snapshot",
+      "id": "1137858",
+      "company": "Upgrade",
+      "title": "Principal DevSecOps Engineer",
+      "url": "https://remoteOK.com/remote-jobs/remote-principal-devsecops-engineer-upgrade-1137858",
+      "date": "2026-11-20T04:45:40+08:00",
+      "date_basis": "Remote OK board listing date, not verified employer first publication",
+      "board_locations": [
+        "US Only"
+      ],
+      "developer_scope": "DevSecOps automation",
+      "remote_evidence_status": "board_remote_claim",
+      "china_geography": "exclude",
+      "evidence": "US Only board location",
+      "china_contract_status": "not_verified",
+      "currently_in_snapshot": true,
+      "employer_open_verified": false,
+      "employer_source_url": null,
+      "review_note": ""
+    },
+    {
+      "source": "Remote OK visible API snapshot",
+      "id": "1137857",
+      "company": "Dropbox",
+      "title": "Infrastructure Software Engineer",
+      "url": "https://remoteOK.com/remote-jobs/remote-infrastructure-software-engineer-dropbox-1137857",
+      "date": "2026-11-20T04:30:17+08:00",
+      "date_basis": "Remote OK board listing date, not verified employer first publication",
+      "board_locations": [
+        "North America"
+      ],
+      "developer_scope": "Infrastructure software",
+      "remote_evidence_status": "board_remote_claim",
+      "china_geography": "exclude",
+      "evidence": "North America board location",
+      "china_contract_status": "not_verified",
+      "currently_in_snapshot": true,
+      "employer_open_verified": false,
+      "employer_source_url": null,
+      "review_note": ""
+    },
+    {
+      "source": "Remote OK visible API snapshot",
+      "id": "1137856",
+      "company": "Tebra",
+      "title": "Senior Software Engineer",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-tebra-1137856",
+      "date": "2026-11-20T04:15:13+08:00",
+      "date_basis": "Remote OK board listing date, not verified employer first publication",
+      "board_locations": [
+        "US Only"
+      ],
+      "developer_scope": "Software engineering",
+      "remote_evidence_status": "board_remote_claim",
+      "china_geography": "exclude",
+      "evidence": "US Only board location",
+      "china_contract_status": "not_verified",
+      "currently_in_snapshot": true,
+      "employer_open_verified": false,
+      "employer_source_url": null,
+      "review_note": ""
+    },
+    {
+      "source": "Remote OK visible API snapshot",
+      "id": "1137854",
+      "company": "MetaMask",
+      "title": "Senior Software Engineer: Assets",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-assets-metamask-1137854",
+      "date": "2026-11-20T03:45:47+08:00",
+      "date_basis": "Remote OK board listing date, not verified employer first publication",
+      "board_locations": [
+        "US Only"
+      ],
+      "developer_scope": "Software engineering",
+      "remote_evidence_status": "root_verified_employer",
+      "china_geography": "exclude",
+      "evidence": "Official MetaMask/Consensys board: United States - Remote",
+      "china_contract_status": "not_verified",
+      "currently_in_snapshot": true,
+      "employer_open_verified": true,
+      "employer_source_url": "https://job-boards.greenhouse.io/consensys",
+      "review_note": "API US Only label is corroborated by official employer job location. Generic outside-US compensation text is insufficient to infer China eligibility."
+    },
+    {
+      "source": "Remote OK visible API snapshot",
+      "id": "1137853",
+      "company": "Clover Health",
+      "title": "Engineering Lead, Growth",
+      "url": "https://remoteOK.com/remote-jobs/remote-engineering-lead-growth-clover-health-1137853",
+      "date": "2026-11-20T03:30:14+08:00",
+      "date_basis": "Remote OK board listing date, not verified employer first publication",
+      "board_locations": [
+        "US Only"
+      ],
+      "developer_scope": "Hands-on engineering lead",
+      "remote_evidence_status": "board_remote_claim",
+      "china_geography": "exclude",
+      "evidence": "US Only board location; role is 60% hands-on technical work",
+      "china_contract_status": "not_verified",
+      "currently_in_snapshot": true,
+      "employer_open_verified": false,
+      "employer_source_url": null,
+      "review_note": ""
+    },
+    {
+      "source": "Remote OK visible API snapshot",
+      "id": "1137852",
+      "company": "Clover Health",
+      "title": "Engineering Lead, Clinical Operations",
+      "url": "https://remoteOK.com/remote-jobs/remote-engineering-lead-clinical-operations-clover-health-1137852",
+      "date": "2026-11-20T03:15:15+08:00",
+      "date_basis": "Remote OK board listing date, not verified employer first publication",
+      "board_locations": [
+        "US Only"
+      ],
+      "developer_scope": "Hands-on engineering lead",
+      "remote_evidence_status": "board_remote_claim",
+      "china_geography": "exclude",
+      "evidence": "US Only board location; role includes personally building APIs and software",
+      "china_contract_status": "not_verified",
+      "currently_in_snapshot": true,
+      "employer_open_verified": false,
+      "employer_source_url": null,
+      "review_note": ""
+    },
+    {
+      "source": "Remote OK visible API snapshot",
+      "id": "1137851",
+      "company": "Salesloft",
+      "title": "Senior GTM Engineer",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-gtm-engineer-salesloft-1137851",
+      "date": "2026-11-20T03:00:14+08:00",
+      "date_basis": "Remote OK board listing date, not verified employer first publication",
+      "board_locations": [
+        "US Only"
+      ],
+      "developer_scope": "GTM systems automation",
+      "remote_evidence_status": "confirmed_in_description",
+      "china_geography": "exclude",
+      "evidence": "fully remote opportunity ... from any location in the United States",
+      "china_contract_status": "not_verified",
+      "currently_in_snapshot": true,
+      "employer_open_verified": false,
+      "employer_source_url": null,
+      "review_note": ""
+    },
+    {
+      "source": "Remote OK visible API snapshot",
+      "id": "1137849",
+      "company": "Airbnb",
+      "title": "Senior Software Engineer Guest & Host",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-guest-host-airbnb-1137849",
+      "date": "2026-11-20T02:30:15+08:00",
+      "date_basis": "Remote OK board listing date, not verified employer first publication",
+      "board_locations": [
+        "US Only"
+      ],
+      "developer_scope": "Software engineering",
+      "remote_evidence_status": "board_remote_claim",
+      "china_geography": "exclude",
+      "evidence": "US Only board location",
+      "china_contract_status": "not_verified",
+      "currently_in_snapshot": true,
+      "employer_open_verified": false,
+      "employer_source_url": null,
+      "review_note": ""
+    },
+    {
+      "source": "Remote OK visible API snapshot",
+      "id": "1137846",
+      "company": "Airbnb",
+      "title": "Senior Data Engineer Tech Foundations",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-data-engineer-tech-foundations-airbnb-1137846",
+      "date": "2026-11-20T01:45:24+08:00",
+      "date_basis": "Remote OK board listing date, not verified employer first publication",
+      "board_locations": [
+        "US Only"
+      ],
+      "developer_scope": "Data engineering",
+      "remote_evidence_status": "confirmed_in_description",
+      "china_geography": "exclude",
+      "evidence": "This position is US - Remote Eligible",
+      "china_contract_status": "not_verified",
+      "currently_in_snapshot": true,
+      "employer_open_verified": false,
+      "employer_source_url": null,
+      "review_note": ""
+    },
+    {
+      "source": "Remote OK visible API snapshot",
+      "id": "1137844",
+      "company": "Netlify",
+      "title": "Staff Software Engineer (Interfaces)",
+      "url": "https://remoteOK.com/remote-jobs/remote-staff-software-engineer-interfaces-netlify-1137844",
+      "date": "2026-11-20T01:15:52+08:00",
+      "date_basis": "Remote OK board listing date, not verified employer first publication",
+      "board_locations": [
+        "Worldwide"
+      ],
+      "developer_scope": "Software engineering",
+      "remote_evidence_status": "root_verified_employer_form",
+      "china_geography": "exclude",
+      "evidence": "Official application mandatory eligibility limited to US, Canada, UK (root verified)",
+      "china_contract_status": "not_verified",
+      "currently_in_snapshot": true,
+      "employer_open_verified": true,
+      "employer_source_url": "https://job-boards.greenhouse.io/netlify/jobs/8895506002",
+      "review_note": "Same Netlify Interfaces job also appears on WWR. API Worldwide label and generic compensation text conflict with mandatory application eligibility; exclude by employer form."
+    },
+    {
+      "source": "Remote OK visible API snapshot",
+      "id": "1137839",
+      "company": "NIKI Digital Engineering",
+      "title": "Engineer Software Defined Vehicle Simulation and Development",
+      "url": "https://remoteOK.com/remote-jobs/remote-engineer-software-defined-vehicle-simulation-and-development-niki-digital-engineering-1137839",
+      "date": "2026-11-20T00:00:34+08:00",
+      "date_basis": "Remote OK board listing date, not verified employer first publication",
+      "board_locations": [
+        ""
+      ],
+      "developer_scope": "Vehicle simulation/embedded software",
+      "remote_evidence_status": "remote_not_confirmed",
+      "china_geography": "unknown",
+      "evidence": "Workplace flexibility; no explicit worldwide remote or allowed-country statement",
+      "china_contract_status": "not_verified",
+      "currently_in_snapshot": true,
+      "employer_open_verified": false,
+      "employer_source_url": null,
+      "review_note": ""
+    },
+    {
+      "source": "Remote OK visible API snapshot",
+      "id": "1137837",
+      "company": "NIKI Digital Engineering",
+      "title": "Postdoc PhD PhD cand. Physics Computer Science",
+      "url": "https://remoteOK.com/remote-jobs/remote-postdoc-phd-phd-cand-physics-computer-science-niki-digital-engineering-1137837",
+      "date": "2026-11-20T00:00:21+08:00",
+      "date_basis": "Remote OK board listing date, not verified employer first publication",
+      "board_locations": [
+        ""
+      ],
+      "developer_scope": "CS/physics programming R&D",
+      "remote_evidence_status": "remote_not_confirmed",
+      "china_geography": "unknown",
+      "evidence": "Workplace flexibility; only compatible projects; no explicit remote country scope",
+      "china_contract_status": "not_verified",
+      "currently_in_snapshot": true,
+      "employer_open_verified": false,
+      "employer_source_url": null,
+      "review_note": ""
+    },
+    {
+      "source": "Remote OK visible API snapshot",
+      "id": "1137835",
+      "company": "Norm",
+      "title": "Technical Lead Norm Compliance",
+      "url": "https://remoteOK.com/remote-jobs/remote-technical-lead-norm-compliance-norm-1137835",
+      "date": "2026-11-20T00:00:15+08:00",
+      "date_basis": "Remote OK board listing date, not verified employer first publication",
+      "board_locations": [
+        ""
+      ],
+      "developer_scope": "Technical lead/software",
+      "remote_evidence_status": "confirmed_in_description",
+      "china_geography": "exclude",
+      "evidence": "Norm employment, US residency and work performed from the US are conditions of the role",
+      "china_contract_status": "not_verified",
+      "currently_in_snapshot": true,
+      "employer_open_verified": false,
+      "employer_source_url": null,
+      "review_note": ""
+    },
+    {
+      "source": "Remote OK visible API snapshot",
+      "id": "1137833",
+      "company": "BeyondTrust",
+      "title": "Front-End Engineer, UX/UI",
+      "url": "https://remoteOK.com/remote-jobs/remote-front-end-engineer-ux-ui-beyondtrust-1137833",
+      "date": "2026-11-19T23:30:02+08:00",
+      "date_basis": "Remote OK board listing date, not verified employer first publication",
+      "board_locations": [
+        "Canada Only"
+      ],
+      "developer_scope": "Front-end engineering",
+      "remote_evidence_status": "board_remote_claim",
+      "china_geography": "exclude",
+      "evidence": "Canada Only board location",
+      "china_contract_status": "not_verified",
+      "currently_in_snapshot": true,
+      "employer_open_verified": false,
+      "employer_source_url": null,
+      "review_note": ""
+    },
+    {
+      "source": "Remote OK visible API snapshot",
+      "id": "1137809",
+      "company": "Tebra",
+      "title": "Senior Analytics Engineer",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-analytics-engineer-tebra-1137809",
+      "date": "2026-11-19T17:58:02+08:00",
+      "date_basis": "Remote OK board listing date, not verified employer first publication",
+      "board_locations": [
+        "US Only"
+      ],
+      "developer_scope": "Analytics engineering",
+      "remote_evidence_status": "board_remote_claim",
+      "china_geography": "exclude",
+      "evidence": "US Only board location",
+      "china_contract_status": "not_verified",
+      "currently_in_snapshot": true,
+      "employer_open_verified": false,
+      "employer_source_url": null,
+      "review_note": ""
+    },
+    {
+      "source": "Remote OK visible API snapshot",
+      "id": "1137808",
+      "company": "Askable",
+      "title": "Software Engineer AI Coding Tasks",
+      "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-ai-coding-tasks-askable-1137808",
+      "date": "2026-11-19T13:56:01+08:00",
+      "date_basis": "Remote OK board listing date, not verified employer first publication",
+      "board_locations": [
+        ""
+      ],
+      "developer_scope": "AI coding-task contract work",
+      "remote_evidence_status": "root_verified_employer",
+      "china_geography": "eligible",
+      "evidence": "Remote, any location.",
+      "china_contract_status": "not_verified",
+      "currently_in_snapshot": true,
+      "employer_open_verified": true,
+      "employer_source_url": "https://www.askable.com/experts/roles/senior-software-engineer",
+      "review_note": "Task-based paid AI coding work, not guaranteed salaried full-time employment. Employer role page has no publication date; Nov 19 is Remote OK date."
+    },
+    {
+      "source": "Remote OK visible API snapshot",
+      "id": "1137805",
+      "company": "Treatwell",
+      "title": "SEO Full Stack Engineer",
+      "url": "https://remoteOK.com/remote-jobs/remote-seo-full-stack-engineer-treatwell-1137805",
+      "date": "2026-11-19T00:00:31+08:00",
+      "date_basis": "Remote OK board listing date, not verified employer first publication",
+      "board_locations": [
+        ""
+      ],
+      "developer_scope": "Full-stack software",
+      "remote_evidence_status": "confirmed_in_description",
+      "china_geography": "exclude",
+      "evidence": "based in any city within Italy or Spain, with a valid right to work",
+      "china_contract_status": "not_verified",
+      "currently_in_snapshot": true,
+      "employer_open_verified": false,
+      "employer_source_url": null,
+      "review_note": ""
+    }
+  ],
+  "occupation_exclusions": [
+    {
+      "id": "1137891",
+      "company": "LaunchDarkly",
+      "title": "Sales Commissions Analyst",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137890",
+      "company": "BeyondTrust",
+      "title": "Sr Director, L2C Process Owner",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137889",
+      "company": "BeyondTrust",
+      "title": "Lead-to-Cash Business Partner",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137888",
+      "company": "Talkspace",
+      "title": "Intake and Discharge Clinician",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137886",
+      "company": "6sense",
+      "title": "Sr. Product Manager",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137885",
+      "company": "Oportun",
+      "title": "Senior Director of Product Management (R14361)",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137884",
+      "company": "Ping Identity",
+      "title": "Director, Sales",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137883",
+      "company": "Clover Health",
+      "title": "Technical Chief of Staff to the CTO",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137882",
+      "company": "Galileo",
+      "title": "Per Diem Digital Clinician | MD/DO (CA license)",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137881",
+      "company": "Galileo",
+      "title": "Per Diem Digital Clinician | NP (CA license)",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137880",
+      "company": "Bybit",
+      "title": "Compliance Officer/MLRO",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137879",
+      "company": "Reddit",
+      "title": "Manager, Business Risk and AI Automation",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137878",
+      "company": "6sense",
+      "title": "Compensation Manager",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137877",
+      "company": "Sumo Logic",
+      "title": "PreSales Solutions Engineer",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137876",
+      "company": "Bybit",
+      "title": "P2P Regional Operations - Africa",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137875",
+      "company": "Cribl",
+      "title": "International People Ops Analyst, Benefits",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137873",
+      "company": "Tebra",
+      "title": "Product Designer",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137870",
+      "company": "Everpure",
+      "title": "Lifecycle Value Manager (Enterprise Customer Success/ Expansion), UK",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137869",
+      "company": "Everpure",
+      "title": "Lifecycle Value Manager, Germany",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137868",
+      "company": "Everpure",
+      "title": "Regional MSP Partner Manager, EMEA South (Paris)",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137867",
+      "company": "GitLab",
+      "title": "Customer Success Engineer",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137866",
+      "company": "GitLab",
+      "title": "Customer Success LATAM",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137864",
+      "company": "1mind",
+      "title": "IT Manager",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137863",
+      "company": "FP Markets",
+      "title": "Business Development Specialist Arabic speaker",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137862",
+      "company": "Handspring",
+      "title": "Mental Health Clinical Supervisor",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137861",
+      "company": "GitLab",
+      "title": "Customer Success Architect - East",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137859",
+      "company": "Elation Health",
+      "title": "Senior Manager, Commercial Learning and Development",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137855",
+      "company": "Clover Health",
+      "title": "Engineering Manager",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137848",
+      "company": "Airbnb",
+      "title": "Engineering Manager, External Search & AI Optimization",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137847",
+      "company": "Lattice",
+      "title": "Engineering Manager, Product Engineering",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137845",
+      "company": "Storyblok",
+      "title": "Velocity, Sales Director - USA & Europe",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137843",
+      "company": "Bitwarden",
+      "title": "Vice President, Public Sector",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137842",
+      "company": "Tebra",
+      "title": "Senior Sales Training and Enablement Manager",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137841",
+      "company": "Abnormal",
+      "title": "Director, Enterprise Sales",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137840",
+      "company": "Collibra",
+      "title": "Senior Account Executive II",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137838",
+      "company": "NIKI Digital Engineering",
+      "title": "Marketing and Communications Officer",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137836",
+      "company": "Bybit",
+      "title": "Business Development Assistant",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137834",
+      "company": "Ping Identity",
+      "title": "Enterprise Account Executive",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137832",
+      "company": "Rubrik Job Board",
+      "title": "Global Head of GSI Solutions Architecture",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137831",
+      "company": "Everpure",
+      "title": "Regional MSP Partner Manager, Benelux",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137830",
+      "company": "Rubrik Job Board",
+      "title": "GSI Specialty Seller, Identity Resilience (Global)",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137829",
+      "company": "Abnormal",
+      "title": "Integrated Marketing Manager, Global Programs",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137828",
+      "company": "Rubrik Job Board",
+      "title": "Manager, WW Distribution",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137827",
+      "company": "Everpure",
+      "title": "Account Executive, Enterprise (Atlanta/Tennessee)",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137826",
+      "company": "Glean",
+      "title": "Enterprise Solutions Engineer, East",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137825",
+      "company": "Legion",
+      "title": "Revenue Enablement Manager",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137824",
+      "company": "Bitwarden",
+      "title": "Sales Development Representative",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137823",
+      "company": "BeyondTrust",
+      "title": "Enterprise Customer Success Manager",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137822",
+      "company": "Ping Identity",
+      "title": "Customer Success Manager",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137821",
+      "company": "Abnormal",
+      "title": "L1 Technical Support Engineer (Spanish-Speaking)",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137820",
+      "company": "Glean",
+      "title": "Designated Technical Support Engineer - West",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137819",
+      "company": "Talkspace",
+      "title": "Community Moderator - Wisdo (1099)",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137818",
+      "company": "Airtable",
+      "title": "Customer Success Manager",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137817",
+      "company": "Tines",
+      "title": "Paralegal",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137816",
+      "company": "Salesloft",
+      "title": "Head of Channel Sales & Alliances",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137815",
+      "company": "GitLab",
+      "title": "Customer Success Engineer, India",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137814",
+      "company": "GitLab",
+      "title": "Customer Success Engineer, Singapore",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137813",
+      "company": "GitLab",
+      "title": "Customer Success Architect - West",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137812",
+      "company": "Stripe",
+      "title": "Briefing Content Strategist",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137811",
+      "company": "6sense",
+      "title": "Agency Partnerships Director",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137810",
+      "company": "Everpure",
+      "title": "Regional Marketing Manager, Southeast",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137806",
+      "company": "Syner-G",
+      "title": "Project Manager",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137804",
+      "company": "Gravie",
+      "title": "Manager EDI",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137803",
+      "company": "Stedi",
+      "title": "Legal Engineering Counsel",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137802",
+      "company": "Maya HTT",
+      "title": "Business Development Manager",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137799",
+      "company": "Clera",
+      "title": "Expert Talent Pool Physical AI",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137798",
+      "company": "Clera",
+      "title": "Expert Talent Pool Feedback and Alignment",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    },
+    {
+      "id": "1137797",
+      "company": "PatientPoint",
+      "title": "Engineering Manager Network Engineering",
+      "scope_decision": "excluded_occupation",
+      "note": "Not a software/infra/ML/programming role for this audit; includes sales, support, pure management, clinical, legal and human rating/capture pools."
+    }
+  ],
+  "limitations": [
+    "Only current visible board records, not historical closed jobs or all jobs published during week.",
+    "Most exclusion decisions rely on board job location or description; only highlighted cases rechecked against employer source by root.",
+    "No contact with employers; mainland China contractual employment arrangement not confirmed.",
+    "NIKI technical roles have no confirmed fully remote/country eligibility and are not counted valid China opportunities.",
+    "Clera Physical AI capture/rater talent pools and Stedi Legal Engineering Counsel were excluded after content review.",
+    "Clover Growth/Clinical engineering leads were kept because descriptions explicitly require hands-on software building; 2 Atlassian workflow automation roles and GTM automation engineer kept as adjacent technical work."
+  ]
+}

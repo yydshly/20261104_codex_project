@@ -1,0 +1,85 @@
+中国开发者远程岗位供给审计
+时间窗口：2026-11-14 14:34 至 2026-11-21 14:34，上海时间
+口径：核对仍公开的招聘条目及地域条件；不代表已确认中国雇佣、真实招聘进度或全市场新增量。
+
+结果：15家企业，14家列表可读，12家日期可核；当前公开发布条目1060，近周标记发布103（不限职能，含最近重发/地区版本）。
+核心地域条件符合机会9项：企业5＋电鸭2＋补充职位板2。另列Windows/DMA专项外包1项。
+
+企业统计（当前公开条目 / 近周全部职能发布 / 近周地域符合技术岗）：
+GitLab：246 / 38 / 0；获取难度 low-medium
+Canonical：318 / 4 / 1；获取难度 low-medium
+Grafana Labs：140 / 20 / 0；获取难度 low-medium
+Automattic：6 / 未知 / 未知；获取难度 medium
+Elastic：未知 / 未知 / 未知；获取难度 high for basic HTTP retrieval
+Supabase：80 / 4 / 4；获取难度 low: documented public JSON returned all listed roles; text review needed
+n8n：68 / 15 / 0；获取难度 low: documented public JSON; description parsing needed
+PostHog：9 / 未知 / 未知；获取难度 medium-high: public rendered page readable, HTML contains selected job detail; no visible date or datePosted/publishedAt/article:published_time metadata
+Railway：17 / 0 / 0；获取难度 medium: 17 HTML detail pages all readable, JobPosting JSON-LD parsed
+Sourcegraph：8 / 2 / 0；获取难度 low: sourcegraph91 board verified from official career links; public JSON returned full 8 records
+DuckDuckGo：10 / 1 / 0；获取难度 low-medium
+Docker：50 / 5 / 0；获取难度 low-medium
+Zapier：9 / 1 / 0；获取难度 low-medium
+Mattermost：10 / 0 / 0；获取难度 low-medium
+Tailscale：89 / 13 / 0；获取难度 low-medium
+
+核心机会：
+Canonical | Graduate Software Engineer, Open Source and Linux, Canonical Ubuntu | 11/16/2026 21:39:36
+https://job-boards.greenhouse.io/canonical/jobs/8379825
+依据：Location: This is a Globally remote role.
+条件：2026/2027 first-degree graduates; English and international travel
+日期口径：first_published (source first publish)
+
+Supabase | Multigres Deployment Engineer | 11/20/2026 05:07:22
+https://jobs.ashbyhq.com/supabase/f035bda1-b5d3-4c5b-8736-b9c335fe1c3b
+依据：We hire globally. We believe you can do your best work from anywhere.
+条件：software/platform engineering IC
+日期口径：latest publication, not confirmed original first publication
+
+Supabase | Storage Platform Engineer | 11/19/2026 20:56:25
+https://jobs.ashbyhq.com/supabase/463d8cd7-3092-44eb-b80e-8d21008e569e
+依据：We hire globally. We believe you can do your best work from anywhere.
+条件：software/platform engineering IC
+日期口径：latest publication, not confirmed original first publication
+
+Supabase | Red Team Lead | 11/20/2026 21:04:20
+https://jobs.ashbyhq.com/supabase/4ee6b96f-cc38-4531-aadd-7ff0f8e87e25
+依据：We hire globally. We believe you can do your best work from anywhere.
+条件：hands-on security player-coach lead
+日期口径：latest publication, not confirmed original first publication
+
+Supabase | Software Engineer - Postgres Tooling | 11/20/2026 01:48:28
+https://jobs.ashbyhq.com/supabase/2184cfbd-927e-4d3c-b34a-f2301d3e8281
+依据：We hire globally. We believe you can do your best work from anywhere.
+条件：software/platform engineering IC
+日期口径：latest publication, not confirmed original first publication
+
+Eleduck | 后端工程师（偏全栈能力） | 3天前
+https://eleduck.com/posts/K7fabv
+依据：北京优先，长期远程IC合作
+条件：公开条款支持中国大陆候选；每周约40小时，工作日10–19点；未联系雇主
+日期口径：public page relative publication label, observed 2026-11-21 afternoon CST
+
+Eleduck | Agent应用研发工程师 | 2天前
+https://eleduck.com/posts/oQfRE8
+依据：远程或深圳办公，可买社保公积金
+条件：公司名未披露；职位正文完整，仍有投递按钮；未联系雇主
+日期口径：public page relative publication label, observed 2026-11-21 afternoon CST
+
+Remote OK, employer page verified | Software Engineer, AI Coding Tasks | 2026-11-19T13:56:01+08:00
+https://www.askable.com/experts/roles/senior-software-engineer
+依据：Remote, any location
+条件：2+ years software experience; at least 10 hours/week; payment per accepted task, not salaried employment
+日期口径：Remote OK board publication; employer first publication unknown
+
+WWR | Elvoro: AI Creative Engineer (Social Media) | 11/18/2026 08:12:31
+https://weworkremotely.com/remote-jobs/elvoro-ai-creative-engineer-social-media
+依据：Location: Remote, Worldwide
+条件：Maintain production Python codebase and integrate media/publishing APIs; FFmpeg, MoviePy, Pillow, GCS, GitHub Actions.
+日期口径：WWR RSS pubDate; not employer original first publication
+
+专项外包单列：
+Windows底层/DMA上位机全栈工程师 | 2天前 | https://eleduck.com/posts/pqfAq0
+正文涉及驱动、反作弊适配，业务性质需另核；不作优先推荐
+
+重复：V2EX有6组疑似重复，不能将24个发布条目当24个独立岗位。WWR有1条完全重复的非开发岗位；Netlify有1组跨职位板重复，并因申请地区限制排除。GitLab有1组相同内部岗位ID的地区版本。
+完整来源、逐条判定、候选与限制见 results.json 及各分组审计JSON。

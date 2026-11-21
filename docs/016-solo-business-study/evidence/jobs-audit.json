@@ -1,0 +1,382 @@
+{
+  "window_start": "2026-11-14T14:34:00+08:00",
+  "window_end": "2026-11-21T14:34:00+08:00",
+  "scope": "Mainland China residents, software/data/infra/ML/security engineering, including hands-on technical leads; exclude pure management, sales, manual QA and onsite/hybrid",
+  "definition": "Public geographic conditions compatible; not an assurance of employment or country contracting. A single current snapshot, not complete historical new-job volume.",
+  "summary": {
+    "companies_selected": 15,
+    "companies_with_readable_lists": 14,
+    "companies_with_auditable_dates": 12,
+    "current_public_corporate_entries": 1060,
+    "recent_all_role_publication_entries": 103,
+    "corporate_eligible_technical_roles": 5,
+    "core_geographic_opportunities": 9,
+    "special_project_separately_listed": 1,
+    "confirmed_china_contracts": 0
+  },
+  "companies": [
+    {
+      "company": "GitLab",
+      "current_public_entries": 246,
+      "recent_all_role_publication_entries": 38,
+      "recent_geo_eligible_technical_roles": 0,
+      "date_basis": "first_published",
+      "difficulty": "low-medium",
+      "notes": "Complete official public board JSON read successfully; available postings only, not historical closed postings."
+    },
+    {
+      "company": "Canonical",
+      "current_public_entries": 318,
+      "recent_all_role_publication_entries": 4,
+      "recent_geo_eligible_technical_roles": 1,
+      "date_basis": "first_published",
+      "difficulty": "low-medium",
+      "notes": "Complete official public board JSON read successfully; available postings only, not historical closed postings."
+    },
+    {
+      "company": "Grafana Labs",
+      "current_public_entries": 140,
+      "recent_all_role_publication_entries": 20,
+      "recent_geo_eligible_technical_roles": 0,
+      "date_basis": "first_published",
+      "difficulty": "low-medium",
+      "notes": "Recent 20 include 9 engineering management jobs and 2 sales-oriented Field Engineer jobs; excluded by audit occupation scope. No in-scope developer IC recent postings."
+    },
+    {
+      "company": "Automattic",
+      "current_public_entries": 6,
+      "recent_all_role_publication_entries": null,
+      "recent_geo_eligible_technical_roles": null,
+      "date_basis": "no publish dates exposed in inspected HTML/data",
+      "difficulty": "medium",
+      "notes": "Six live jobs parsed from publicly embedded official-page data; two technical roles. Dates absent in two detail pages as well. Do not interpret unknown week count as zero."
+    },
+    {
+      "company": "Elastic",
+      "current_public_entries": null,
+      "recent_all_role_publication_entries": null,
+      "recent_geo_eligible_technical_roles": null,
+      "date_basis": "not_obtained",
+      "difficulty": "high for basic HTTP retrieval",
+      "notes": "Official careers links to jobs.elastic.co. Single public page read HTTP 200 but only JS application shell and no job records. No hidden endpoint used, no login attempted. Unmeasured, not zero."
+    },
+    {
+      "company": "Supabase",
+      "current_public_entries": 80,
+      "recent_all_role_publication_entries": 4,
+      "recent_geo_eligible_technical_roles": 4,
+      "date_basis": "Ashby publishedAt latest publication",
+      "difficulty": "low: documented public JSON returned all listed roles; text review needed",
+      "notes": null
+    },
+    {
+      "company": "n8n",
+      "current_public_entries": 68,
+      "recent_all_role_publication_entries": 15,
+      "recent_geo_eligible_technical_roles": 0,
+      "date_basis": "Ashby publishedAt latest publication",
+      "difficulty": "low: documented public JSON; description parsing needed",
+      "notes": "Recent roles are design, sales, customer success/renewals and management; one Forward Deployed Engineer is EMEA Hybrid. No scoped developer + fully remote overlap."
+    },
+    {
+      "company": "PostHog",
+      "current_public_entries": 9,
+      "recent_all_role_publication_entries": null,
+      "recent_geo_eligible_technical_roles": null,
+      "date_basis": "unknown, excluded from verified one-week count",
+      "difficulty": "medium-high: public rendered page readable, HTML contains selected job detail; no visible date or datePosted/publishedAt/article:published_time metadata",
+      "notes": null
+    },
+    {
+      "company": "Railway",
+      "current_public_entries": 17,
+      "recent_all_role_publication_entries": 0,
+      "recent_geo_eligible_technical_roles": 0,
+      "date_basis": "JobPosting datePosted; latest date 2026-10-16, multiple evergreen posts date to 2022",
+      "difficulty": "medium: 17 HTML detail pages all readable, JobPosting JSON-LD parsed",
+      "notes": "Current open stock is not last-week new supply"
+    },
+    {
+      "company": "Sourcegraph",
+      "current_public_entries": 8,
+      "recent_all_role_publication_entries": 2,
+      "recent_geo_eligible_technical_roles": 0,
+      "date_basis": "Greenhouse first_published; updated_at not treated as first publication",
+      "difficulty": "low: sourcegraph91 board verified from official career links; public JSON returned full 8 records",
+      "notes": null
+    },
+    {
+      "company": "DuckDuckGo",
+      "current_public_entries": 10,
+      "recent_all_role_publication_entries": 1,
+      "recent_geo_eligible_technical_roles": 0,
+      "date_basis": "publishedAt: last publication",
+      "difficulty": "low-medium",
+      "notes": "Only recent role is Product Partnerships, out of developer scope."
+    },
+    {
+      "company": "Docker",
+      "current_public_entries": 50,
+      "recent_all_role_publication_entries": 5,
+      "recent_geo_eligible_technical_roles": 0,
+      "date_basis": "publishedAt: last publication",
+      "difficulty": "low-medium",
+      "notes": "Recent roles are product management, finance, renewals and Director of Developer Success. No hands-on developer IC."
+    },
+    {
+      "company": "Zapier",
+      "current_public_entries": 9,
+      "recent_all_role_publication_entries": 1,
+      "recent_geo_eligible_technical_roles": 0,
+      "date_basis": "publishedAt: last publication",
+      "difficulty": "low-medium",
+      "notes": "Only recent role Legal Counsel is out of developer scope."
+    },
+    {
+      "company": "Mattermost",
+      "current_public_entries": 10,
+      "recent_all_role_publication_entries": 0,
+      "recent_geo_eligible_technical_roles": 0,
+      "date_basis": "first_published",
+      "difficulty": "low-medium",
+      "notes": "No first_published date in window."
+    },
+    {
+      "company": "Tailscale",
+      "current_public_entries": 89,
+      "recent_all_role_publication_entries": 13,
+      "recent_geo_eligible_technical_roles": 0,
+      "date_basis": "first_published",
+      "difficulty": "low-medium",
+      "notes": "Recent Forward Deployed roles are customer onboarding/support/advisory without software implementation responsibilities; other recent roles management/design/sales. Developer remote candidates 0."
+    }
+  ],
+  "community_sources": [
+    {
+      "source": "V2EX remote",
+      "url": "https://www.v2ex.com/feed/remote.json",
+      "method": "Official JSON Feed plus public original pages",
+      "feed_records": 50,
+      "feed_oldest": "2026-09-21T16:41:14+08:00",
+      "window_posts": 5,
+      "coverage": "Feed extends before window start and includes all 5 window posts visible in this node feed",
+      "engineering_remote_ad_entries": 4,
+      "mainland_allowed": 0,
+      "mainland_unknown": 4,
+      "constraints_conflict": 0,
+      "exclusions": "One manual-testing post, one non-programming AI video/content-production post",
+      "maintenance": "Low acquisition; medium classification/geographic verification",
+      "date_basis": "date_published; date_modified is not counted as a new posting"
+    },
+    {
+      "source": "V2EX jobs",
+      "url": "https://www.v2ex.com/feed/jobs.json",
+      "method": "Official JSON Feed plus public original pages",
+      "feed_records": 50,
+      "feed_oldest": "2026-11-06T20:57:06+08:00",
+      "window_posts": 20,
+      "coverage": "Feed extends before window start and includes 20 window posts visible in this node feed",
+      "engineering_remote_ad_entries": 20,
+      "mainland_allowed": 0,
+      "mainland_unknown": 16,
+      "constraints_conflict": 4,
+      "entry_breakdown": "17 technical-title entries in one 26-role roundup, 2 in one full-stack post, 1 back-end post; headcount not used as job count",
+      "conflict_detail": "Two repeated UTC-5 to UTC+5 entries (China UTC+8 not in stated timezone range, off-hours acceptance unknown), Taiwan and Europe ops entries",
+      "maintenance": "Low acquisition; high interpretation of anonymous multi-role recruiter roundups",
+      "detail_failure": "1258720 original page unavailable in web tool, but current official feed contains full posted roundup text"
+    },
+    {
+      "source": "Eleduck latest public posts",
+      "url": "https://eleduck.com/?sort=new",
+      "method": "Official latest RSS, then public in-app-browser latest sorting and pages 1-4",
+      "feed_records": 25,
+      "feed_oldest": "2026-11-19T13:23:16Z",
+      "feed_coverage": "RSS covers only about 2 days and descriptions are truncated, so insufficient alone",
+      "listing_cards_reviewed": 100,
+      "definitely_in_window_posts": 90,
+      "seven_day_boundary_posts_unresolved": 4,
+      "outside_window_eight_day_posts": 6,
+      "exact_week_post_total": null,
+      "coverage": "Public latest list reached 8-day-old posts. Four 7-day boundary publication times were not available exactly; no extra active technical candidate was identified in those boundary cards",
+      "active_technical_remote_candidate_posts": 12,
+      "candidate_full_details_read": 10,
+      "mainland_allowed_normal": 2,
+      "mainland_allowed_needs_business_review": 1,
+      "mainland_unknown": 9,
+      "detail_incomplete": "2 candidates: IT remote-support RSS/list sample; n8n/Dify project details blocked by CAPTCHA",
+      "closed_and_hybrid": "Closed MVP full-stack and hybrid/closed technical cofounder/onsite forum project recorded separately; not active fully remote supply",
+      "maintenance": "RSS low; complete one-week classification and full-detail verification medium-high",
+      "failure": "Plain HTTP detail access redirected to verification. In-app browser read 10 candidate details, then n8n/Dify detail showed CAPTCHA; stopped without clicking or bypassing verification"
+    }
+  ],
+  "remoteok_sample": {
+    "current_rows": 98,
+    "within_window_rows": 91,
+    "technical_candidates": 23,
+    "eligible": 1,
+    "pending": 2,
+    "excluded": 20,
+    "coverage": "Current Remote OK API visible snapshot only. Earliest old/pinned record does not establish full 7-day completeness."
+  },
+  "wwr_sample": {
+    "current_rows": 98,
+    "within_window_rows": 90,
+    "within_window_unique_urls": 89,
+    "remote_technical_candidates": 20,
+    "eligible": 1,
+    "pending": 4,
+    "excluded": 15,
+    "coverage": "Current visible RSS snapshot only. An older item/pinned entry before window is not evidence of complete week coverage. No continuous history or pagination completeness proved."
+  },
+  "core_opportunities": [
+    {
+      "source": "Canonical",
+      "title": "Graduate Software Engineer, Open Source and Linux, Canonical Ubuntu",
+      "url": "https://job-boards.greenhouse.io/canonical/jobs/8379825",
+      "source_date": "2026-11-16T21:39:36+08:00",
+      "date_basis": "first_published (source first publish)",
+      "location_basis": "Location: This is a Globally remote role.",
+      "conditions": "2026/2027 first-degree graduates; English and international travel",
+      "type": "full-time",
+      "china_contract_confirmed": false
+    },
+    {
+      "source": "Supabase",
+      "title": "Multigres Deployment Engineer",
+      "url": "https://jobs.ashbyhq.com/supabase/f035bda1-b5d3-4c5b-8736-b9c335fe1c3b",
+      "source_date": "2026-11-20T05:07:22.705+08:00",
+      "date_basis": "latest publication, not confirmed original first publication",
+      "location_basis": "We hire globally. We believe you can do your best work from anywhere.",
+      "conditions": "software/platform engineering IC",
+      "type": "full-time",
+      "china_contract_confirmed": false,
+      "application_form_checked": true,
+      "form_note": "Public form asks passport country and country of residence as free-text fields; no narrower country condition found in visible form; nothing entered or submitted."
+    },
+    {
+      "source": "Supabase",
+      "title": "Storage Platform Engineer",
+      "url": "https://jobs.ashbyhq.com/supabase/463d8cd7-3092-44eb-b80e-8d21008e569e",
+      "source_date": "2026-11-19T20:56:25.99+08:00",
+      "date_basis": "latest publication, not confirmed original first publication",
+      "location_basis": "We hire globally. We believe you can do your best work from anywhere.",
+      "conditions": "software/platform engineering IC",
+      "type": "full-time",
+      "china_contract_confirmed": false,
+      "application_form_checked": true,
+      "form_note": "Public form asks passport country and country of residence as free-text fields; no narrower country condition found in visible form; nothing entered or submitted."
+    },
+    {
+      "source": "Supabase",
+      "title": "Red Team Lead",
+      "url": "https://jobs.ashbyhq.com/supabase/4ee6b96f-cc38-4531-aadd-7ff0f8e87e25",
+      "source_date": "2026-11-20T21:04:20.56+08:00",
+      "date_basis": "latest publication, not confirmed original first publication",
+      "location_basis": "We hire globally. We believe you can do your best work from anywhere.",
+      "conditions": "hands-on security player-coach lead",
+      "type": "full-time",
+      "china_contract_confirmed": false,
+      "application_form_checked": true,
+      "form_note": "Public form asks passport country and country of residence as free-text fields; no narrower country condition found in visible form; nothing entered or submitted."
+    },
+    {
+      "source": "Supabase",
+      "title": "Software Engineer - Postgres Tooling",
+      "url": "https://jobs.ashbyhq.com/supabase/2184cfbd-927e-4d3c-b34a-f2301d3e8281",
+      "source_date": "2026-11-20T01:48:28.617+08:00",
+      "date_basis": "latest publication, not confirmed original first publication",
+      "location_basis": "We hire globally. We believe you can do your best work from anywhere.",
+      "conditions": "software/platform engineering IC",
+      "type": "full-time",
+      "china_contract_confirmed": false,
+      "application_form_checked": true,
+      "form_note": "Public form asks passport country and country of residence as free-text fields; no narrower country condition found in visible form; nothing entered or submitted."
+    },
+    {
+      "source": "Eleduck",
+      "company": "SmartDeer",
+      "title": "后端工程师（偏全栈能力）",
+      "url": "https://eleduck.com/posts/K7fabv",
+      "source_date": "3天前",
+      "date_basis": "public page relative publication label, observed 2026-11-21 afternoon CST",
+      "location_basis": "北京优先，长期远程IC合作",
+      "conditions": "公开条款支持中国大陆候选；每周约40小时，工作日10–19点；未联系雇主",
+      "type": "as published; remote role or independent-contractor cooperation",
+      "china_contract_confirmed": false
+    },
+    {
+      "source": "Eleduck",
+      "company": "未披露",
+      "title": "Agent应用研发工程师",
+      "url": "https://eleduck.com/posts/oQfRE8",
+      "source_date": "2天前",
+      "date_basis": "public page relative publication label, observed 2026-11-21 afternoon CST",
+      "location_basis": "远程或深圳办公，可买社保公积金",
+      "conditions": "公司名未披露；职位正文完整，仍有投递按钮；未联系雇主",
+      "type": "as published; remote role or independent-contractor cooperation",
+      "china_contract_confirmed": false
+    },
+    {
+      "source": "Remote OK, employer page verified",
+      "company": "Askable",
+      "title": "Software Engineer, AI Coding Tasks",
+      "url": "https://www.askable.com/experts/roles/senior-software-engineer",
+      "board_url": "https://remoteok.com/remote-jobs/remote-software-engineer-ai-coding-tasks-askable-1137808",
+      "source_date": "2026-11-19T13:56:01+08:00",
+      "date_basis": "Remote OK board publication; employer first publication unknown",
+      "location_basis": "Remote, any location",
+      "conditions": "2+ years software experience; at least 10 hours/week; payment per accepted task, not salaried employment",
+      "type": "task-based contract",
+      "china_contract_confirmed": false
+    },
+    {
+      "source": "WWR",
+      "company": "Elvoro",
+      "title": "Elvoro: AI Creative Engineer (Social Media)",
+      "url": "https://weworkremotely.com/remote-jobs/elvoro-ai-creative-engineer-social-media",
+      "source_date": "2026-11-18T08:12:31+08:00",
+      "date_basis": "WWR RSS pubDate; not employer original first publication",
+      "location_basis": "Location: Remote, Worldwide",
+      "conditions": "Maintain production Python codebase and integrate media/publishing APIs; FFmpeg, MoviePy, Pillow, GCS, GitHub Actions.",
+      "type": "project-based contract, planned expansion to full-time",
+      "china_contract_confirmed": false
+    }
+  ],
+  "special_project": [
+    {
+      "source": "Eleduck",
+      "title": "Windows底层/DMA上位机全栈工程师",
+      "company": "未披露，个人合作",
+      "url": "https://eleduck.com/posts/pqfAq0",
+      "posted_at": null,
+      "posted_label": "2天前",
+      "date_basis": "public page relative publication label, observed 2026-11-21 afternoon CST",
+      "within_window": true,
+      "mainland_eligibility": "allowed_with_business_review",
+      "mainland_contract_confirmation": "not verified with employer",
+      "salary_as_published": "预算未定，按模块/分成",
+      "detail_read": true,
+      "current_status": "open_public_ad",
+      "eligibility_evidence_summary": "页面标上海，远程按模块合作",
+      "note": "正文涉及驱动、反作弊适配，业务性质需另核；不作优先推荐"
+    }
+  ],
+  "duplicates": {
+    "v2ex_suspected_groups": 6,
+    "v2ex_suspected_excess_entries": 6,
+    "wwr_exact_duplicate_extra_rows": 1,
+    "confirmed_cross_board_duplicate": "Netlify Staff Software Engineer (Interfaces), WWR and Remote OK, excluded by employer application country restriction",
+    "confirmed_corporate_region_version": "GitLab CX Platform Engineer internal_job_id 6552189002, Canada current-week and US older posting",
+    "additional_suspected_region_version": "Dropbox Atlassian Cloud Administrator, different regions and spelling; no shared employer ID confirmed",
+    "eligible_cross_source_confirmed_duplicates_found": 0
+  },
+  "limitations": [
+    "Only public sources read; no applications, employer contact, login or CAPTCHA bypass.",
+    "Ashby timestamps are latest publication; job-board dates may be syndication dates rather than employer original first posting.",
+    "Eleduck boundary has four cards with only seven-days-ago relative labels; exact weekly post count unresolved.",
+    "Remote OK and WWR are current visible samples; complete seven-day history not established.",
+    "Automattic/PostHog dates missing; Elastic source incomplete, none interpreted as zero.",
+    "Anon recruiter roundups lack employer identifiers; suspected duplicates not treated as certain.",
+    "Eligibility has been assessed against mainland residence only; user-specific qualifications still apply."
+  ]
+}

@@ -1,0 +1,118 @@
+Use case: infographic-diagram / productivity-visual.
+Create ONE finished, exceptionally legible, detailed Simplified Chinese research infographic, not a website screenshot. This is a comprehensive visual reference for an individual developer. A high-resolution tall portrait poster, ideally 2160 x 3840 or the largest available, 9:16 ratio, designed for zooming and reading. Do not shrink into a square or omit cases.
+
+Visual direction: restrained premium editorial information design, white/cool light-gray paper, dark navy typography, cobalt structural rules, muted teal for value, warm orange for unvalidated extension ideas. Clean Chinese sans-serif with very clear glyphs, black body text, generous padding. Ten compact but well-organized case cards in TWO columns and FIVE rows form about 70% of the poster. Each card has a small useful conceptual illustration (bell/seat; job list; connected posting calendar; form; QR photo album; clipboard; screenshot artboards; vector paths; PDF pages; 3D model), large exact Latin product name and a clear Chinese subtitle. Avoid decorative clutter, illegible tiny lettering, invented logos, watermarks, fake charts or revenue. This is one continuous designed poster with clear grouping and reader progression.
+
+Structure: title and takeaway at top, ten case cards in the specified order, then a concise synthesis band about reusable value mechanisms, actual research and AI checks, ending with expansion path for the research project. Copy all text below accurately and keep every product and the ability/value/extension/market/constraint fields. Wrap lines as needed instead of clipping text. Distinguish EXISTING CAPABILITY and OUR PROPOSED EXTENSIONS using labeled color, so no idea can be mistaken for an existing feature or validated opportunity. Value descriptions are interpretations, not claimed customer interviews. No numerical rankings or build recommendations.
+
+EXACT CHINESE CONTENT TO LAYOUT:
+
+Title: 一个人做小工具：能力、价值与扩展地图
+Subtitle: 10 个案例 · 从能做什么，到用户为何付钱，再到可以验证的新产品
+Legend: 蓝色：现有能力　绿色：价值解释　橙色：扩展设想，均待验证
+Top takeaway: 借鉴工作机制，不照搬产品。AI 与免费方案必须进入同任务对照。
+
+ROW 1 LEFT:
+Seat Alert｜选课空位提醒
+能力：持续检查课程余位，短信与邮件通知。
+价值：替学生盯住短暂机会，减少反复刷新。
+扩展：社区课程补位提醒；工作室预约空档通知。
+获客／收费：校园社群线索；按课程、学期收费。
+检验：数据接入、送达时效；AI 代理也能成为替代。
+
+ROW 1 RIGHT:
+Remote Rocketship｜远程岗位筛选
+能力：收集企业招聘信息，统一字段并筛选。
+价值：减少逐家公司查找与排除无效岗位。
+扩展：自选企业新岗提醒；地域条件核对清单。
+获客／收费：社区、搜索页线索；职位访问收费。
+检验：有效供给与申请条件；通用聚合建议已撤回。
+
+ROW 2 LEFT:
+Postiz｜多平台内容发布
+能力：连接社交账号，排期、审核并执行发布。
+价值：减少账号切换、盯时发布和自部署维护。
+扩展：小团队审稿发布台；发布失败提醒与补发。
+获客／收费：开源、教程、集成入口；托管订阅。
+检验：平台授权、接口变化与失败处理的长期成本。
+
+ROW 2 RIGHT:
+Tally｜在线表单
+能力：条件逻辑、附件、支付与资料收集。
+价值：把零散沟通变成可追踪、可交接的信息。
+扩展：摄影预约与定金收集；售后资料检查与分流。
+获客／收费：免费表单品牌曝光；去品牌与管理升级。
+检验：传播需有转化；通用表单竞争与支持成本。
+
+ROW 3 LEFT:
+FridaySnap｜二维码共享相册
+能力：多人扫码上传照片、视频，集中下载。
+价值：减少逐人催交素材与散落文件的整理。
+扩展：活动素材收集台；带授权确认的照片交接包。
+获客／收费：婚礼服务商合作；按活动一次收费。
+检验：存储、下载流量、活动当天支持与网盘替代。
+
+ROW 3 RIGHT:
+Maccy｜本地剪贴板历史
+能力：保存复制历史，键盘搜索并再次粘贴。
+价值：减少重复查找、切换窗口和重新复制。
+扩展：客服复制内容脱敏；开发者日志片段整理。
+获客／收费：GitHub、商店、播客线索；免费与买断。
+检验：系统自带与免费替代；核心功能并非付费独占。
+
+ROW 4 LEFT:
+AppLaunchFlow｜App 上架素材
+能力：制作、翻译并导出不同尺寸的上架素材。
+价值：减少重复排版，保持版本与语言间一致性。
+扩展：更新截图差异检查；品牌模板下的本地化审校。
+获客／收费：社区、教程与免费工具；按次或订阅。
+检验：免费工具已覆盖多语与批量导出；保留待验证。
+
+ROW 4 RIGHT:
+VectoSolve｜图片转矢量
+能力：将位图描成轮廓，导出后续流程所需格式。
+价值：减少手工描边与格式处理，衔接制作流程。
+扩展：SVG 兼容预检；带错误说明的修复交付。
+获客／收费：教程、经销商合作；按文件或订阅。
+检验：转换、修复、生成须分开；SVG 首选推荐已撤回。
+
+ROW 5 LEFT:
+PDFBolt｜批量 PDF 接口
+能力：将网页或模板通过接口批量生成 PDF。
+价值：让业务系统自动出文件，减少自建服务工作。
+扩展：行业证书生成接口；字体、分页与溢出检查。
+获客／收费：编程教程与社区发布；按用量套餐。
+检验：开源替代、字体兼容、并发、超时与稳定性。
+
+ROW 5 RIGHT:
+DownConvert｜模型版本转换
+能力：转为部分旧软件或配套工具接受的模型版本。
+价值：减少格式兼容导致的交接中断。
+扩展：指定插件兼容预检；模型批量交接检查。
+获客／收费：格式报错搜索与论坛线索；付费转换。
+检验：并非所有新旧版本都不兼容；收入口径有冲突。
+
+SYNTHESIS BAND heading: 跨案例可以复用的四种价值
+Four short items with matching icons:
+持续监测：在需要的时间发现变化。
+流程承接：连接系统，持续执行与处理失败。
+结果交付：输出可导入、可上传、可验收的成品。
+传播与收费：传播路径可观察，收费适应使用频次。
+
+RESEARCH & AI BAND heading: 我们实际核对了什么，仍缺什么
+Actual research line: 岗位样本：15 家企业；1,060 条当前发布；103 条近周标记；企业 5 项地域技术候选。
+Next line: 社区与补充职位板另 4 项，合计 9 项；均未确认中国签约，不代表全市场。
+Current judgment line: 岗位方向暂缓｜SVG 首选撤回｜App 截图待验证｜当前无立项推荐
+AI test process line, shown as a clear connected progression:
+同一批真实任务 → 现有 AI／免费工具／拟议方案 → 比效果、耗时、返工与成本 → 看真实付款与复购
+Evidence caveat line: 渠道入口不等于成交；整站收款不等于单功能需求；旧求助不等于今天仍有缺口。
+Research project expansion heading: 016 子项目后续可扩展
+Three compact columns:
+机制与个人适配：用户、任务、付费触发、渠道、单人维护条件。
+证据档案：原文、日期、版本、核查记录与冲突。
+实验记录：AI 对照、获客来源、报价、付款、交付与复购。
+
+Footer: 资料快照 2026-11-21｜来源：产品官网、用户原帖、创始人自述与本轮岗位审计，详见 016 研究网页。
+Footer note: 全部扩展产品均为构想，未完成 AI 对照或收费验证；图中价值为功能解释，非买家动机统计。
+
+Constraints: produce the entire single poster, no omissions, no added products, exact readable Chinese labels, no invented clients, no unsupported profitability assertions. Text is primary; illustrations support understanding and consume little space. Clear alignment and excellent typography at full resolution.

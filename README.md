@@ -20,6 +20,7 @@
 | 012 | [暮色之堡与知识世界探索](projects/012-castle-knowledge-world/README.md) | 自主实践 · [Three.js](https://github.com/mrdoob/three.js) · [从零造物](https://github.com/bluesky-rgb/cong-ling-zao-wu) | 用 Three.js + HTML 实现第一人称从渔屋码头渡湖、入堡与螺旋登塔，研究怎样把科普、历史、音乐和农业融入可漫游世界。沉淀可复用的场景、通行与操作基础，并提出器物学习与生活联动方案，知识模型和学习成效继续验证。 | [已有研究全景图](#castle-knowledge-world-guide) | [在线研究与原型试玩](https://yydshly.github.io/20261104_codex_project/012-castle-knowledge-world/) |
 | 013 | [视差窗口与微缩交互研究](projects/013-spatial-window/README.md) | [Doui Lab 原帖](https://x.com/DouiLabApps/status/2119414517126107169) · [Parapeek Clock](https://www.doui-lab.com/en/apps/parapeek-clock/) · [Three.js](https://github.com/mrdoob/three.js) | 研究普通摄像头与观看位置如何驱动屏幕内的空间，用 11 个场景实现视差出框、嵌套桌面、日常信息、双机位列车与齿轮修复。沉淀可复用的投影、场景状态和操作反馈，服务互动展示、氛围桌面与修复原型，实机稳定性和长期收益继续验证。 | [已有三栏引导图](#spatial-window-guide) | [在线研究与交互效果](https://yydshly.github.io/20261104_codex_project/013-spatial-window/) |
 | 015 | [《蜀道难》第一人称诗境研究](projects/015-shu-road/README.md) | [李白《蜀道难》](https://zh.wikisource.org/zh-hans/蜀道难_(李白)) · 自主 WebGL 实践 | 实现一条可走的九幕 3D 蜀道，用双音色语音和镜头把诗句对准景物。探索怎样用旅人站位表达高险，并在模型上标明史料与推测，为古诗教学展示和文化导览提供可复用原型。 | [已有九幕引导图](#shu-road-guide) | [研究与解读](https://yydshly.github.io/20261104_codex_project/015-shu-road/research.html) · [在线演示](https://yydshly.github.io/20261104_codex_project/015-shu-road/) |
+| 016 | [小工具商业机制与个人 AI 协作研究](projects/016-solo-business-study/README.md) | [Feng_YQ](https://x.com/Feng_YQ) · [闷声发大财](https://msfdcszhd.com/) · 逐项官网与用户原帖 | 拆解 10 个工具的能力、获客和收费，保留 20 种扩展设想、15 家企业岗位抽样及 AI 替代核对。价值在理解持续监测、流程承接与结果交付，帮助个人减少误投，并通过样例和反馈形成 AI 协作目标；当前无立项推荐。 | [已有研究引导图](#solo-business-study-guide) | [在线研究与当前理解](https://yydshly.github.io/20261104_codex_project/016-solo-business-study/) |
 
 项目按收录顺序从 `001` 开始编号。新条目按编号追加，已分配的编号保持固定。索引摘要用一两句话写清研究对象和关注点。完成验证后，可补上一条主要发现。
 
@@ -202,6 +203,20 @@ Adam Chernick 个人制作、扩展和组合的网页 3D 实验，部分基于 T
 本轮探索从旅人站位和脚下支撑出发，校正台阶、木构与动植物的尺度和动作，让讲解能指向眼前的具体景物。青泥岭和剑门关在画面中区分唐代文献、遗存参照与推测复原。可复用价值是把诗文、可走路径、三维景物与语音定位结合，用于古诗教学展示和文化展陈原型。
 
 [在线研究与引导图](https://yydshly.github.io/20261104_codex_project/015-shu-road/research.html#guide-image) · [进入 3D 演示](https://yydshly.github.io/20261104_codex_project/015-shu-road/) · [完整研究摘要](projects/015-shu-road/README.md)
+
+<a id="solo-business-study-guide"></a>
+
+### 016 · 小工具的商业机制与个人 AI 协作研究
+
+从“闷声发大财”的 10 个案例出发，梳理能力、用户价值、获客与收费，提出 20 种待验证扩展。随后抽样核对 15 家企业和招聘社区，并回到自己日常用 AI 做作品的场景，比较现有工具能否支持目标探索、局部反馈和偏好记录。
+
+[![一个人做小工具的研究全景图，展示 10 个案例的能力、价值和 20 种待验证产品扩展](projects/016-solo-business-study/assets/research-map-20261121.png)](https://yydshly.github.io/20261104_codex_project/016-solo-business-study/#map)
+
+沿用已经生成的首版引导图，作为前段案例研究快照：蓝色为公开能力，绿色为价值解释，橙色均为未验证设想，后来的 AI 协作讨论另见网页。持续监测、流程承接、结果交付与传播收费是可复用的机制；对我们的意义是分清“工具有用、生意成立、适合自己做”，减少证据不足的投入，并用小样、具体反馈和选择记录逐渐形成目标。
+
+当前无立项推荐：岗位聚合暂缓、SVG 首选撤回、App 截图仅保留参考，个人 AI 沟通工具也暂不产品化。岗位 9 项只是地域文字候选，未确认中国签约；尚未完成同任务对照与外部付费验证。保留研究资产和重启条件，不把设想当作已证明的商机。
+
+[在线研究与价值](https://yydshly.github.io/20261104_codex_project/016-solo-business-study/#value) · [AI 协作探索](https://yydshly.github.io/20261104_codex_project/016-solo-business-study/#collaboration) · [离线研究网页](projects/016-solo-business-study/offline.html) · [完整研究摘要](projects/016-solo-business-study/README.md)
 
 ## 收录新项目
 

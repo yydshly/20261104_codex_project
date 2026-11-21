@@ -1,0 +1,24 @@
+{
+  "selectedImage": "research-map-20261121.png",
+  "generatedWith": "built-in image_gen",
+  "prompt": "research-map-prompt.txt",
+  "snapshot": "2026-11-21",
+  "dimensions": {
+    "width": 1024,
+    "height": 1536
+  },
+  "cases": 10,
+  "extensionIdeas": 20,
+  "selectionNotes": [
+    "Selected original version with neutral model illustration.",
+    "Version 2 was not selected because the DownConvert illustration could be mistaken for Blender support.",
+    "Two local-edit attempts failed with a network error; no successful local edit is claimed."
+  ],
+  "readingNotes": [
+    "All extension products are unvalidated proposals, not existing capabilities or recommendations to build.",
+    "Value explanations do not establish the motivations of all paying customers.",
+    "1,060 is the all-function public corporate inventory; 103 is recent publication labeling, including republications and regional variants.",
+    "The total 9 opportunities are geographic-text candidates, not employer-confirmed China contracts or the whole market.",
+    "DownConvert here refers to SketchUp .skp compatibility, not arbitrary 3D model software."
+  ]
+}

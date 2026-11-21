@@ -1,0 +1,101 @@
+{
+  "window_start": "2026-11-14T14:34:00+08:00",
+  "window_end": "2026-11-21T14:34:00+08:00",
+  "scope": "Mainland-China-resident developers; software/front-end/back-end/mobile/DevOps/SRE/data/ML/security engineering; exclude manual QA, sales, content production, pure management, onsite/hybrid roles",
+  "meaning_of_valid": "Currently public advertisement and evidence-based location compatibility; no employer contact, vacancy authenticity or contracting approval independently confirmed",
+  "sources": [
+    {
+      "source": "V2EX remote",
+      "url": "https://www.v2ex.com/feed/remote.json",
+      "method": "Official JSON Feed plus public original pages",
+      "feed_records": 50,
+      "feed_oldest": "2026-09-21T16:41:14+08:00",
+      "window_posts": 5,
+      "coverage": "Feed extends before window start and includes all 5 window posts visible in this node feed",
+      "engineering_remote_ad_entries": 4,
+      "mainland_allowed": 0,
+      "mainland_unknown": 4,
+      "constraints_conflict": 0,
+      "exclusions": "One manual-testing post, one non-programming AI video/content-production post",
+      "maintenance": "Low acquisition; medium classification/geographic verification",
+      "date_basis": "date_published; date_modified is not counted as a new posting"
+    },
+    {
+      "source": "V2EX jobs",
+      "url": "https://www.v2ex.com/feed/jobs.json",
+      "method": "Official JSON Feed plus public original pages",
+      "feed_records": 50,
+      "feed_oldest": "2026-11-06T20:57:06+08:00",
+      "window_posts": 20,
+      "coverage": "Feed extends before window start and includes 20 window posts visible in this node feed",
+      "engineering_remote_ad_entries": 20,
+      "mainland_allowed": 0,
+      "mainland_unknown": 16,
+      "constraints_conflict": 4,
+      "entry_breakdown": "17 technical-title entries in one 26-role roundup, 2 in one full-stack post, 1 back-end post; headcount not used as job count",
+      "conflict_detail": "Two repeated UTC-5 to UTC+5 entries (China UTC+8 not in stated timezone range, off-hours acceptance unknown), Taiwan and Europe ops entries",
+      "maintenance": "Low acquisition; high interpretation of anonymous multi-role recruiter roundups",
+      "detail_failure": "1258720 original page unavailable in web tool, but current official feed contains full posted roundup text"
+    },
+    {
+      "source": "Eleduck latest public posts",
+      "url": "https://eleduck.com/?sort=new",
+      "method": "Official latest RSS, then public in-app-browser latest sorting and pages 1-4",
+      "feed_records": 25,
+      "feed_oldest": "2026-11-19T13:23:16Z",
+      "feed_coverage": "RSS covers only about 2 days and descriptions are truncated, so insufficient alone",
+      "listing_cards_reviewed": 100,
+      "definitely_in_window_posts": 90,
+      "seven_day_boundary_posts_unresolved": 4,
+      "outside_window_eight_day_posts": 6,
+      "exact_week_post_total": null,
+      "coverage": "Public latest list reached 8-day-old posts. Four 7-day boundary publication times were not available exactly; no extra active technical candidate was identified in those boundary cards",
+      "active_technical_remote_candidate_posts": 12,
+      "candidate_full_details_read": 10,
+      "mainland_allowed_normal": 2,
+      "mainland_allowed_needs_business_review": 1,
+      "mainland_unknown": 9,
+      "detail_incomplete": "2 candidates: IT remote-support RSS/list sample; n8n/Dify project details blocked by CAPTCHA",
+      "closed_and_hybrid": "Closed MVP full-stack and hybrid/closed technical cofounder/onsite forum project recorded separately; not active fully remote supply",
+      "maintenance": "RSS low; complete one-week classification and full-detail verification medium-high",
+      "failure": "Plain HTTP detail access redirected to verification. In-app browser read 10 candidate details, then n8n/Dify detail showed CAPTCHA; stopped without clicking or bypassing verification"
+    }
+  ],
+  "duplicates": {
+    "v2ex_cross_node_same_url_count": 0,
+    "confirmed_same_employer_same_job_duplicates": 0,
+    "suspected_duplicate_groups": 6,
+    "suspected_excess_ad_entries": 6,
+    "groups": [
+      "TTS algorithm 22-35K",
+      "image/video algorithm 22-35K",
+      "security 40-150K",
+      "fullstack 15-28K",
+      "AI fullstack UTC-5..+5 30-40K",
+      "backend 18-25K"
+    ],
+    "basis": "Roundup repeats titles and salary ranges from this week's stand-alone posts. Anonymous employers and no employer job IDs prevent confirmation; do not present 24 ad entries as 24 unique verified vacancies",
+    "eleduck_confirmed_duplicate_count": 0,
+    "cross_community_confirmed_duplicate_count": 0,
+    "mainland_allowed_cross_source_review": [
+      {
+        "result": "No matching named SmartDeer employer in V2EX sample. Its Java/Spring EOR business differs from the PHP/CMS back-end post. Public contact unavailable, therefore not a proof of distinct employer.",
+        "url": "https://eleduck.com/posts/K7fabv"
+      },
+      {
+        "result": "15-25K x15 Java/Go/C++ Agent role with Shenzhen option; no complete title/pay/duties match in V2EX. Public contact unavailable, employer unconfirmed.",
+        "url": "https://eleduck.com/posts/oQfRE8"
+      },
+      {
+        "result": "Windows/DMA contractor differs in wording and compensation from V2EX Game Mod title; field overlaps but no employer ID or public contact, so duplicate status unknown.",
+        "url": "https://eleduck.com/posts/pqfAq0"
+      }
+    ]
+  },
+  "main_findings": [
+    "Acquisition feasibility does not imply mainland applicant eligibility: V2EX yields many remote labels but zero explicitly compatible mainland-geography confirmations under the strict rule",
+    "Two Eleduck ads have useful mainland evidence: SmartDeer remote IC with Beijing preference, and Agent application developer allowing remote or Shenzhen office with social-insurance option",
+    "A third Shanghai-tagged remote Windows/DMA project is location-compatible but its anti-cheat/driver-related business scope should be reviewed separately rather than promoted as a routine recommendation",
+    "No application, recruiter message, login, CAPTCHA completion or development was performed"
+  ]
+}

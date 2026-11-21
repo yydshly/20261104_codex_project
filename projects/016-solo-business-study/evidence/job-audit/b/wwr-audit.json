@@ -1,0 +1,940 @@
+{
+  "source": "WWR all jobs official RSS",
+  "source_url": "https://weworkremotely.com/remote-jobs.rss",
+  "window_start_utc": "2026-11-14T06:34:00Z",
+  "window_end_utc": "2026-11-21T06:34:00Z",
+  "coverage": "Current visible RSS snapshot only. An older item/pinned entry before window is not evidence of complete week coverage. No continuous history or pagination completeness proved.",
+  "feed_rows": 98,
+  "in_window_rows": 90,
+  "in_window_unique_urls": 89,
+  "in_window_days_shanghai": {
+    "2026-11-18": 6,
+    "2026-11-19": 5,
+    "2026-11-20": 14,
+    "2026-11-21": 65
+  },
+  "earliest_visible_window_item_shanghai": "2026-11-18T02:01:48+08:00",
+  "engineering_rows_after_manual_scope_review": 21,
+  "hybrid_removed": 1,
+  "remote_claimed_engineering_candidates": 20,
+  "geographic_eligible_and_current_source_readable": 1,
+  "geographic_excluded_among_remote_claimed": 15,
+  "pending": 4,
+  "pending_breakdown": {
+    "Ritual_current_validity_conflict": 2,
+    "Stability_country_scope_unknown": 1,
+    "Storyblok_specific_country_scope_unknown": 1
+  },
+  "scope_notes": [
+    "Includes infrastructure/FinOps automation, IT systems automation and production applied-science algorithms. These are marked so a strict app-development-only view can exclude them.",
+    "Excludes generic talent pools, pure management, product management, design, legal, customer support and presales.",
+    "Feed categories and Anywhere labels are not accepted as role or country truth."
+  ],
+  "duplicates": [
+    {
+      "canonical_url": "https://weworkremotely.com/remote-jobs/instacart-business-intelligence-manager-ii",
+      "indices": [
+        10,
+        14
+      ],
+      "extra_rows": 1
+    }
+  ],
+  "do_not_merge": [
+    {
+      "indices": [
+        38,
+        53
+      ],
+      "reason": "Upgrade HELOC Engineer is US; Developer is Canada. Distinct country-specific postings."
+    },
+    {
+      "indices": [
+        37,
+        53
+      ],
+      "reason": "Upgrade Platform QA and HELOC QA are distinct product scopes."
+    }
+  ],
+  "candidates": [
+    {
+      "feed_index": 1,
+      "title": "Gusto, Inc.: Software Engineer,  Financial Data & Payments",
+      "url": "https://weworkremotely.com/remote-jobs/gusto-inc-software-engineer-financial-data-payments",
+      "guid": "https://weworkremotely.com/remote-jobs/gusto-inc-software-engineer-financial-data-payments",
+      "feed_date": "2026-11-21T06:03:18.0000000+00:00",
+      "feed_date_shanghai": "2026-11-21T14:03:18+08:00",
+      "date_basis": "WWR RSS pubDate; not employer original first publication",
+      "category": "Full-Stack Programming",
+      "region_label": "Anywhere in the World",
+      "engineering_scope": "software",
+      "eligibility": "excluded",
+      "reason": "Listed locations are US offices/hybrid and Seattle remote; no China location offered.",
+      "evidence_quote": "Seattle, WA - Remote",
+      "evidence_url": "https://weworkremotely.com/remote-jobs/gusto-inc-software-engineer-financial-data-payments",
+      "canonical_key": "https://weworkremotely.com/remote-jobs/gusto-inc-software-engineer-financial-data-payments",
+      "china_contract_or_payroll_confirmed": false
+    },
+    {
+      "feed_index": 17,
+      "title": "Ritual: Growth Engineer",
+      "url": "https://weworkremotely.com/remote-jobs/ritual-growth-engineer",
+      "guid": "https://weworkremotely.com/remote-jobs/ritual-growth-engineer",
+      "feed_date": "2026-11-21T06:02:45.0000000+00:00",
+      "feed_date_shanghai": "2026-11-21T14:02:45+08:00",
+      "date_basis": "WWR RSS pubDate; not employer original first publication",
+      "category": "Full-Stack Programming",
+      "region_label": "Anywhere in the World",
+      "engineering_scope": "software integration",
+      "eligibility": "unknown_validity_conflict",
+      "reason": "WWR says remote, but employer current official careers page says no open positions. Do not count as effective opening.",
+      "evidence_quote": "No open positions at the moment",
+      "evidence_url": "https://ritual.net/team",
+      "canonical_key": "https://weworkremotely.com/remote-jobs/ritual-growth-engineer",
+      "china_contract_or_payroll_confirmed": false,
+      "current_validity": "conflict: WWR current listing vs official no-open-positions"
+    },
+    {
+      "feed_index": 19,
+      "title": "Ritual: Frontend Engineer",
+      "url": "https://weworkremotely.com/remote-jobs/ritual-frontend-engineer",
+      "guid": "https://weworkremotely.com/remote-jobs/ritual-frontend-engineer",
+      "feed_date": "2026-11-21T06:02:45.0000000+00:00",
+      "feed_date_shanghai": "2026-11-21T14:02:45+08:00",
+      "date_basis": "WWR RSS pubDate; not employer original first publication",
+      "category": "Full-Stack Programming",
+      "region_label": "Anywhere in the World",
+      "engineering_scope": "frontend",
+      "eligibility": "unknown_validity_conflict",
+      "reason": "WWR says remote, but employer current official careers page says no open positions. Do not count as effective opening.",
+      "evidence_quote": "No open positions at the moment",
+      "evidence_url": "https://ritual.net/team",
+      "canonical_key": "https://weworkremotely.com/remote-jobs/ritual-frontend-engineer",
+      "china_contract_or_payroll_confirmed": false,
+      "current_validity": "conflict: WWR current listing vs official no-open-positions"
+    },
+    {
+      "feed_index": 21,
+      "title": "Smartsheet: Software Engineer I (Remote Eligible)",
+      "url": "https://weworkremotely.com/remote-jobs/smartsheet-software-engineer-i-remote-eligible",
+      "guid": "https://weworkremotely.com/remote-jobs/smartsheet-software-engineer-i-remote-eligible",
+      "feed_date": "2026-11-21T06:02:45.0000000+00:00",
+      "feed_date_shanghai": "2026-11-21T14:02:45+08:00",
+      "date_basis": "WWR RSS pubDate; not employer original first publication",
+      "category": "DevOps and Sysadmin",
+      "region_label": "Anywhere in the World",
+      "engineering_scope": "software",
+      "eligibility": "excluded",
+      "reason": "Explicit ongoing US work eligibility and US telework requirement.",
+      "evidence_quote": "Legally eligible to work in the U.S. on an ongoing basis",
+      "evidence_url": "https://weworkremotely.com/remote-jobs/smartsheet-software-engineer-i-remote-eligible",
+      "canonical_key": "https://weworkremotely.com/remote-jobs/smartsheet-software-engineer-i-remote-eligible",
+      "china_contract_or_payroll_confirmed": false
+    },
+    {
+      "feed_index": 23,
+      "title": "Smartsheet: Software Engineer II - Full Stack (Remote Eligible)",
+      "url": "https://weworkremotely.com/remote-jobs/smartsheet-software-engineer-ii-full-stack-remote-eligible",
+      "guid": "https://weworkremotely.com/remote-jobs/smartsheet-software-engineer-ii-full-stack-remote-eligible",
+      "feed_date": "2026-11-21T06:02:26.0000000+00:00",
+      "feed_date_shanghai": "2026-11-21T14:02:26+08:00",
+      "date_basis": "WWR RSS pubDate; not employer original first publication",
+      "category": "Full-Stack Programming",
+      "region_label": "Anywhere in the World",
+      "engineering_scope": "fullstack",
+      "eligibility": "excluded",
+      "reason": "Explicit ongoing US work eligibility and US telework requirement.",
+      "evidence_quote": "Teleworking options from any registered location in the U.S.",
+      "evidence_url": "https://weworkremotely.com/remote-jobs/smartsheet-software-engineer-ii-full-stack-remote-eligible",
+      "canonical_key": "https://weworkremotely.com/remote-jobs/smartsheet-software-engineer-ii-full-stack-remote-eligible",
+      "china_contract_or_payroll_confirmed": false
+    },
+    {
+      "feed_index": 25,
+      "title": "Cockroach Labs: Member of Technical Staff (Storage)",
+      "url": "https://weworkremotely.com/remote-jobs/cockroach-labs-member-of-technical-staff-storage",
+      "guid": "https://weworkremotely.com/remote-jobs/cockroach-labs-member-of-technical-staff-storage",
+      "feed_date": "2026-11-21T06:02:25.0000000+00:00",
+      "feed_date_shanghai": "2026-11-21T14:02:25+08:00",
+      "date_basis": "WWR RSS pubDate; not employer original first publication",
+      "category": "Full-Stack Programming",
+      "region_label": "Anywhere in the World",
+      "engineering_scope": "storage software",
+      "eligibility": "excluded",
+      "reason": "Listing restricts working locations to US/Canada; employer hybrid rules apply near offices.",
+      "evidence_quote": "New York, NY; Remote, United States; San Mateo, CA; Toronto, Canada",
+      "evidence_url": "https://weworkremotely.com/remote-jobs/cockroach-labs-member-of-technical-staff-storage",
+      "canonical_key": "https://weworkremotely.com/remote-jobs/cockroach-labs-member-of-technical-staff-storage",
+      "china_contract_or_payroll_confirmed": false
+    },
+    {
+      "feed_index": 26,
+      "title": "ZoomInfo Technologies LLC: FinOps Engineer III",
+      "url": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-finops-engineer-iii",
+      "guid": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-finops-engineer-iii",
+      "feed_date": "2026-11-21T06:02:25.0000000+00:00",
+      "feed_date_shanghai": "2026-11-21T14:02:25+08:00",
+      "date_basis": "WWR RSS pubDate; not employer original first publication",
+      "category": "All Other Remote",
+      "region_label": "Anywhere in the World",
+      "engineering_scope": "cloud/FinOps automation",
+      "eligibility": "excluded",
+      "reason": "Public job location is Canada or Ireland, not worldwide.",
+      "evidence_quote": "Remote - Canada; Remote-Ireland",
+      "evidence_url": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-finops-engineer-iii",
+      "canonical_key": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-finops-engineer-iii",
+      "china_contract_or_payroll_confirmed": false
+    },
+    {
+      "feed_index": 34,
+      "title": "Tebra: Staff Software Engineer, AI Engineering",
+      "url": "https://weworkremotely.com/remote-jobs/tebra-staff-software-engineer-ai-engineering",
+      "guid": "https://weworkremotely.com/remote-jobs/tebra-staff-software-engineer-ai-engineering",
+      "feed_date": "2026-11-21T06:02:13.0000000+00:00",
+      "feed_date_shanghai": "2026-11-21T14:02:13+08:00",
+      "date_basis": "WWR RSS pubDate; not employer original first publication",
+      "category": "Back-End Programming",
+      "region_label": "Anywhere in the World",
+      "engineering_scope": "AI software",
+      "eligibility": "excluded",
+      "reason": "Listing location says United States Remote.",
+      "evidence_quote": "United States - Remote",
+      "evidence_url": "https://weworkremotely.com/remote-jobs/tebra-staff-software-engineer-ai-engineering",
+      "canonical_key": "https://weworkremotely.com/remote-jobs/tebra-staff-software-engineer-ai-engineering",
+      "china_contract_or_payroll_confirmed": false
+    },
+    {
+      "feed_index": 35,
+      "title": "Stability AI: Staff Software Engineer, Data",
+      "url": "https://weworkremotely.com/remote-jobs/stability-ai-staff-software-engineer-data",
+      "guid": "https://weworkremotely.com/remote-jobs/stability-ai-staff-software-engineer-data",
+      "feed_date": "2026-11-21T06:02:13.0000000+00:00",
+      "feed_date_shanghai": "2026-11-21T14:02:13+08:00",
+      "date_basis": "WWR RSS pubDate; not employer original first publication",
+      "category": "DevOps and Sysadmin",
+      "region_label": "Anywhere in the World",
+      "engineering_scope": "data engineering",
+      "eligibility": "unknown_country",
+      "reason": "Employer public job is still active and accepts non-US applications, but no country list or explicit worldwide eligibility. China unknown.",
+      "evidence_quote": "If you’re applying from outside the U.S., your recruiter will share the details for your country early in the process.",
+      "evidence_url": "https://job-boards.eu.greenhouse.io/stabilityai/jobs/5018185101",
+      "canonical_key": "greenhouse-eu:stabilityai:5018185101",
+      "china_contract_or_payroll_confirmed": false,
+      "current_validity": "present in employer official board with 3 jobs; application readable"
+    },
+    {
+      "feed_index": 37,
+      "title": "Upgrade: Senior QA Automation Developer (Platform)",
+      "url": "https://weworkremotely.com/remote-jobs/upgrade-senior-qa-automation-developer-platform",
+      "guid": "https://weworkremotely.com/remote-jobs/upgrade-senior-qa-automation-developer-platform",
+      "feed_date": "2026-11-21T06:01:43.0000000+00:00",
+      "feed_date_shanghai": "2026-11-21T14:01:43+08:00",
+      "date_basis": "WWR RSS pubDate; not employer original first publication",
+      "category": "DevOps and Sysadmin",
+      "region_label": "Anywhere in the World",
+      "engineering_scope": "QA automation",
+      "eligibility": "excluded",
+      "reason": "Explicit residence in Canada.",
+      "evidence_quote": "open to candidates who are based in Canada",
+      "evidence_url": "https://weworkremotely.com/remote-jobs/upgrade-senior-qa-automation-developer-platform",
+      "canonical_key": "https://weworkremotely.com/remote-jobs/upgrade-senior-qa-automation-developer-platform",
+      "china_contract_or_payroll_confirmed": false
+    },
+    {
+      "feed_index": 38,
+      "title": "Upgrade: Senior QA Automation Engineer (HELOC)",
+      "url": "https://weworkremotely.com/remote-jobs/upgrade-senior-qa-automation-engineer-heloc",
+      "guid": "https://weworkremotely.com/remote-jobs/upgrade-senior-qa-automation-engineer-heloc",
+      "feed_date": "2026-11-21T06:01:43.0000000+00:00",
+      "feed_date_shanghai": "2026-11-21T14:01:43+08:00",
+      "date_basis": "WWR RSS pubDate; not employer original first publication",
+      "category": "DevOps and Sysadmin",
+      "region_label": "Anywhere in the World",
+      "engineering_scope": "QA automation",
+      "eligibility": "excluded",
+      "reason": "Explicit residence in US; distinct from Canada Developer HELOC posting.",
+      "evidence_quote": "candidates who are based in the US",
+      "evidence_url": "https://weworkremotely.com/remote-jobs/upgrade-senior-qa-automation-engineer-heloc",
+      "canonical_key": "https://weworkremotely.com/remote-jobs/upgrade-senior-qa-automation-engineer-heloc",
+      "china_contract_or_payroll_confirmed": false
+    },
+    {
+      "feed_index": 46,
+      "title": "Wrike: Senior CloudOps Engineer (Network Engineer)",
+      "url": "https://weworkremotely.com/remote-jobs/wrike-senior-cloudops-engineer-network-engineer",
+      "guid": "https://weworkremotely.com/remote-jobs/wrike-senior-cloudops-engineer-network-engineer",
+      "feed_date": "2026-11-20T18:32:06.0000000+00:00",
+      "feed_date_shanghai": "2026-11-21T02:32:06+08:00",
+      "date_basis": "WWR RSS pubDate; not employer original first publication",
+      "category": "DevOps and Sysadmin",
+      "region_label": "Anywhere in the World",
+      "engineering_scope": "cloud/network infrastructure",
+      "eligibility": "excluded_hybrid",
+      "reason": "Job explicitly hybrid 1-2 days/week, Czech Republic; not a full-remote China job.",
+      "evidence_quote": "Hybrid mode (1-2 days per week)",
+      "evidence_url": "https://weworkremotely.com/remote-jobs/wrike-senior-cloudops-engineer-network-engineer",
+      "canonical_key": "https://weworkremotely.com/remote-jobs/wrike-senior-cloudops-engineer-network-engineer",
+      "china_contract_or_payroll_confirmed": false
+    },
+    {
+      "feed_index": 51,
+      "title": "Discord: Staff Software Engineer, Safety Platform",
+      "url": "https://weworkremotely.com/remote-jobs/discord-staff-software-engineer-safety-platform",
+      "guid": "https://weworkremotely.com/remote-jobs/discord-staff-software-engineer-safety-platform",
+      "feed_date": "2026-11-20T18:31:33.0000000+00:00",
+      "feed_date_shanghai": "2026-11-21T02:31:33+08:00",
+      "date_basis": "WWR RSS pubDate; not employer original first publication",
+      "category": "Product",
+      "region_label": "Anywhere in the World",
+      "engineering_scope": "software safety platform",
+      "eligibility": "excluded",
+      "reason": "Listed job location US remote or San Francisco Bay Area.",
+      "evidence_quote": "San Francisco Bay Area or Remote (U.S.)",
+      "evidence_url": "https://weworkremotely.com/remote-jobs/discord-staff-software-engineer-safety-platform",
+      "canonical_key": "https://weworkremotely.com/remote-jobs/discord-staff-software-engineer-safety-platform",
+      "china_contract_or_payroll_confirmed": false
+    },
+    {
+      "feed_index": 52,
+      "title": "Discord: Staff Software Engineer, Enterprise Platform",
+      "url": "https://weworkremotely.com/remote-jobs/discord-staff-software-engineer-enterprise-platform",
+      "guid": "https://weworkremotely.com/remote-jobs/discord-staff-software-engineer-enterprise-platform",
+      "feed_date": "2026-11-20T18:31:16.0000000+00:00",
+      "feed_date_shanghai": "2026-11-21T02:31:16+08:00",
+      "date_basis": "WWR RSS pubDate; not employer original first publication",
+      "category": "DevOps and Sysadmin",
+      "region_label": "Anywhere in the World",
+      "engineering_scope": "software enterprise platform",
+      "eligibility": "excluded",
+      "reason": "Listed job location Bay Area or West Coast remote.",
+      "evidence_quote": "San Francisco Bay Area or Remote (West Coast)",
+      "evidence_url": "https://weworkremotely.com/remote-jobs/discord-staff-software-engineer-enterprise-platform",
+      "canonical_key": "https://weworkremotely.com/remote-jobs/discord-staff-software-engineer-enterprise-platform",
+      "china_contract_or_payroll_confirmed": false
+    },
+    {
+      "feed_index": 53,
+      "title": "Upgrade: Senior QA Automation Developer (HELOC)",
+      "url": "https://weworkremotely.com/remote-jobs/upgrade-senior-qa-automation-developer-heloc",
+      "guid": "https://weworkremotely.com/remote-jobs/upgrade-senior-qa-automation-developer-heloc",
+      "feed_date": "2026-11-20T18:31:01.0000000+00:00",
+      "feed_date_shanghai": "2026-11-21T02:31:01+08:00",
+      "date_basis": "WWR RSS pubDate; not employer original first publication",
+      "category": "DevOps and Sysadmin",
+      "region_label": "Anywhere in the World",
+      "engineering_scope": "QA automation",
+      "eligibility": "excluded",
+      "reason": "Explicit residence in Canada; distinct from US Engineer HELOC posting.",
+      "evidence_quote": "candidates who are based in Canada",
+      "evidence_url": "https://weworkremotely.com/remote-jobs/upgrade-senior-qa-automation-developer-heloc",
+      "canonical_key": "https://weworkremotely.com/remote-jobs/upgrade-senior-qa-automation-developer-heloc",
+      "china_contract_or_payroll_confirmed": false
+    },
+    {
+      "feed_index": 56,
+      "title": "Upgrade: Principal DevSecOps Engineer",
+      "url": "https://weworkremotely.com/remote-jobs/upgrade-principal-devsecops-engineer",
+      "guid": "https://weworkremotely.com/remote-jobs/upgrade-principal-devsecops-engineer",
+      "feed_date": "2026-11-20T18:31:01.0000000+00:00",
+      "feed_date_shanghai": "2026-11-21T02:31:01+08:00",
+      "date_basis": "WWR RSS pubDate; not employer original first publication",
+      "category": "DevOps and Sysadmin",
+      "region_label": "Anywhere in the World",
+      "engineering_scope": "DevSecOps automation",
+      "eligibility": "excluded",
+      "reason": "Listed location United States remote.",
+      "evidence_quote": "United States (Remote)",
+      "evidence_url": "https://weworkremotely.com/remote-jobs/upgrade-principal-devsecops-engineer",
+      "canonical_key": "https://weworkremotely.com/remote-jobs/upgrade-principal-devsecops-engineer",
+      "china_contract_or_payroll_confirmed": false
+    },
+    {
+      "feed_index": 67,
+      "title": "Storyblok: Senior Product Architect",
+      "url": "https://weworkremotely.com/remote-jobs/storyblok-senior-product-architect",
+      "guid": "https://weworkremotely.com/remote-jobs/storyblok-senior-product-architect",
+      "feed_date": "2026-11-20T06:01:27.0000000+00:00",
+      "feed_date_shanghai": "2026-11-20T14:01:27+08:00",
+      "date_basis": "WWR RSS pubDate; not employer original first publication",
+      "category": "Product",
+      "region_label": "Anywhere in the World",
+      "engineering_scope": "software/platform architecture",
+      "eligibility": "unknown_country",
+      "reason": "Company policy says work from anywhere, but specific employer job/application country scope not verified. Dynamic official careers list showed loading/0; not treated as closed.",
+      "evidence_quote": "Remote (home) work opportunity or funded by Storyblok co-working space",
+      "evidence_url": "https://weworkremotely.com/remote-jobs/storyblok-senior-product-architect",
+      "canonical_key": "https://weworkremotely.com/remote-jobs/storyblok-senior-product-architect",
+      "china_contract_or_payroll_confirmed": false,
+      "additional_evidence_url": "https://www.storyblok.com/jobs",
+      "current_validity": "WWR current listing; original employer specific job not verified"
+    },
+    {
+      "feed_index": 70,
+      "title": "Instacart: Applied Scientist II - Advertiser Optimization",
+      "url": "https://weworkremotely.com/remote-jobs/instacart-applied-scientist-ii-advertiser-optimization",
+      "guid": "https://weworkremotely.com/remote-jobs/instacart-applied-scientist-ii-advertiser-optimization",
+      "feed_date": "2026-11-20T06:01:06.0000000+00:00",
+      "feed_date_shanghai": "2026-11-20T14:01:06+08:00",
+      "date_basis": "WWR RSS pubDate; not employer original first publication",
+      "category": "Design",
+      "region_label": "Anywhere in the World",
+      "engineering_scope": "applied ML/algorithm production",
+      "eligibility": "excluded",
+      "reason": "Explicit hiring only selected Canadian provinces.",
+      "evidence_quote": "Currently, we are only hiring in the following provinces",
+      "evidence_url": "https://weworkremotely.com/remote-jobs/instacart-applied-scientist-ii-advertiser-optimization",
+      "canonical_key": "https://weworkremotely.com/remote-jobs/instacart-applied-scientist-ii-advertiser-optimization",
+      "china_contract_or_payroll_confirmed": false
+    },
+    {
+      "feed_index": 78,
+      "title": "Flexport: Senior IT Systems Engineer",
+      "url": "https://weworkremotely.com/remote-jobs/flexport-senior-it-systems-engineer",
+      "guid": "https://weworkremotely.com/remote-jobs/flexport-senior-it-systems-engineer",
+      "feed_date": "2026-11-19T18:30:55.0000000+00:00",
+      "feed_date_shanghai": "2026-11-20T02:30:55+08:00",
+      "date_basis": "WWR RSS pubDate; not employer original first publication",
+      "category": "Design",
+      "region_label": "Anywhere in the World",
+      "engineering_scope": "IT systems automation",
+      "eligibility": "excluded",
+      "reason": "Listed US remote; duties include Python/PowerShell automation but also endpoint/SaaS administration.",
+      "evidence_quote": "U.S. Remote",
+      "evidence_url": "https://weworkremotely.com/remote-jobs/flexport-senior-it-systems-engineer",
+      "canonical_key": "https://weworkremotely.com/remote-jobs/flexport-senior-it-systems-engineer",
+      "china_contract_or_payroll_confirmed": false
+    },
+    {
+      "feed_index": 83,
+      "title": "Netlify: Staff Software Engineer (Interfaces)",
+      "url": "https://weworkremotely.com/remote-jobs/netlify-staff-software-engineer-interfaces",
+      "guid": "https://weworkremotely.com/remote-jobs/netlify-staff-software-engineer-interfaces",
+      "feed_date": "2026-11-19T06:00:58.0000000+00:00",
+      "feed_date_shanghai": "2026-11-19T14:00:58+08:00",
+      "date_basis": "WWR RSS pubDate; not employer original first publication",
+      "category": "Front-End Programming",
+      "region_label": "Anywhere in the World",
+      "engineering_scope": "software interfaces",
+      "eligibility": "excluded",
+      "reason": "Employer application required question overrides broad compensation language: must be based US, Canada or UK.",
+      "evidence_quote": "we are seeking candidates based in the US, Canada, or the UK",
+      "evidence_url": "https://job-boards.greenhouse.io/netlify/jobs/8895506002",
+      "canonical_key": "greenhouse:netlify:8895506002",
+      "china_contract_or_payroll_confirmed": false,
+      "current_validity": "employer application active; explicit country gate"
+    },
+    {
+      "feed_index": 88,
+      "title": "Elvoro: AI Creative Engineer (Social Media)",
+      "url": "https://weworkremotely.com/remote-jobs/elvoro-ai-creative-engineer-social-media",
+      "guid": "https://weworkremotely.com/remote-jobs/elvoro-ai-creative-engineer-social-media",
+      "feed_date": "2026-11-18T00:12:31.0000000+00:00",
+      "feed_date_shanghai": "2026-11-18T08:12:31+08:00",
+      "date_basis": "WWR RSS pubDate; not employer original first publication",
+      "category": "Back-End Programming",
+      "region_label": "Anywhere in the World",
+      "engineering_scope": "Python/media/API software",
+      "eligibility": "eligible_global",
+      "reason": "Body explicitly Remote Worldwide and anywhere; real production Python, media processing/API engineering. China contracting still unconfirmed.",
+      "evidence_quote": "Location: Remote, Worldwide",
+      "evidence_url": "https://weworkremotely.com/remote-jobs/elvoro-ai-creative-engineer-social-media",
+      "canonical_key": "https://weworkremotely.com/remote-jobs/elvoro-ai-creative-engineer-social-media",
+      "china_contract_or_payroll_confirmed": false,
+      "current_validity": "WWR detail directly readable, posted 3 days ago, apply before Dec 18 2026",
+      "employment_type": "project-based contract, planned expansion to full-time",
+      "salary": "to be agreed",
+      "engineering_evidence": "Maintain production Python codebase and integrate media/publishing APIs; FFmpeg, MoviePy, Pillow, GCS, GitHub Actions."
+    }
+  ],
+  "excluded_non_target_records": [
+    {
+      "feed_index": 0,
+      "title": "Oportun: Senior Director of Product Management (R14361)",
+      "url": "https://weworkremotely.com/remote-jobs/oportun-senior-director-of-product-management-r14361",
+      "feed_date": "2026-11-21T06:03:19.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 2,
+      "title": "Salesloft: Head of Channel Sales & Alliances",
+      "url": "https://weworkremotely.com/remote-jobs/salesloft-head-of-channel-sales-alliances",
+      "feed_date": "2026-11-21T06:03:18.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 3,
+      "title": "Salesloft: Senior Commercial Account Manager",
+      "url": "https://weworkremotely.com/remote-jobs/salesloft-senior-commercial-account-manager",
+      "feed_date": "2026-11-21T06:03:18.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 4,
+      "title": "Oportun: Manager, Marketing Data and Technology (R14345)",
+      "url": "https://weworkremotely.com/remote-jobs/oportun-manager-marketing-data-and-technology-r14345",
+      "feed_date": "2026-11-21T06:03:18.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 5,
+      "title": "Okta: Regional Sales Manager (Bay Area)",
+      "url": "https://weworkremotely.com/remote-jobs/okta-regional-sales-manager-bay-area",
+      "feed_date": "2026-11-21T06:03:04.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 6,
+      "title": "Okta: Enterprise Account Executive, West",
+      "url": "https://weworkremotely.com/remote-jobs/okta-enterprise-account-executive-west",
+      "feed_date": "2026-11-21T06:03:00.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 7,
+      "title": "Wrike: Senior Product Builder - Talent Pool",
+      "url": "https://weworkremotely.com/remote-jobs/wrike-senior-product-builder-talent-pool",
+      "feed_date": "2026-11-21T06:03:00.0000000+00:00",
+      "reason": "Talent pool/general expression of interest, not a verified specific engineering vacancy."
+    },
+    {
+      "feed_index": 8,
+      "title": "Wrike: Senior Director, Growth & Demand Marketing",
+      "url": "https://weworkremotely.com/remote-jobs/wrike-senior-director-growth-demand-marketing",
+      "feed_date": "2026-11-21T06:03:00.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 9,
+      "title": "Pinterest: Content Enablement Intern 2027 (USA)",
+      "url": "https://weworkremotely.com/remote-jobs/pinterest-content-enablement-intern-2027-usa",
+      "feed_date": "2026-11-21T06:02:54.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 10,
+      "title": "Instacart: Business Intelligence Manager II",
+      "url": "https://weworkremotely.com/remote-jobs/instacart-business-intelligence-manager-ii",
+      "feed_date": "2026-11-21T06:02:51.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 11,
+      "title": "Upstart: Director of Privacy & Data Governance Risk",
+      "url": "https://weworkremotely.com/remote-jobs/upstart-director-of-privacy-data-governance-risk",
+      "feed_date": "2026-11-21T06:02:51.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 12,
+      "title": "Pinterest: Business Development, AI Product Partnerships",
+      "url": "https://weworkremotely.com/remote-jobs/pinterest-business-development-ai-product-partnerships",
+      "feed_date": "2026-11-21T06:02:51.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 13,
+      "title": "OKX: Affiliate Business Development Manager, Southeast Asia",
+      "url": "https://weworkremotely.com/remote-jobs/okx-affiliate-business-development-manager-southeast-asia",
+      "feed_date": "2026-11-21T06:02:51.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 14,
+      "title": "Instacart: Business Intelligence Manager II",
+      "url": "https://weworkremotely.com/remote-jobs/instacart-business-intelligence-manager-ii",
+      "feed_date": "2026-11-21T06:02:51.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 15,
+      "title": "Upstart: Director, Internal Communications",
+      "url": "https://weworkremotely.com/remote-jobs/upstart-director-internal-communications",
+      "feed_date": "2026-11-21T06:02:45.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 16,
+      "title": "OKX: Affiliate Business Development Manager, Poland",
+      "url": "https://weworkremotely.com/remote-jobs/okx-affiliate-business-development-manager-poland",
+      "feed_date": "2026-11-21T06:02:45.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 18,
+      "title": "Ping Identity: Business Services Assistant",
+      "url": "https://weworkremotely.com/remote-jobs/ping-identity-business-services-assistant",
+      "feed_date": "2026-11-21T06:02:45.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 20,
+      "title": "Ping Identity: Account Executive (New Logo Hunter)",
+      "url": "https://weworkremotely.com/remote-jobs/ping-identity-account-executive-new-logo-hunter",
+      "feed_date": "2026-11-21T06:02:45.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 22,
+      "title": "ZoomInfo Technologies LLC: Principal Product Manager, Person Data",
+      "url": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-principal-product-manager-person-data",
+      "feed_date": "2026-11-21T06:02:29.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 24,
+      "title": "Galileo: Per Diem Digital Clinician | NP (CA license)",
+      "url": "https://weworkremotely.com/remote-jobs/galileo-per-diem-digital-clinician-np-ca-license",
+      "feed_date": "2026-11-21T06:02:25.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 27,
+      "title": "Databricks: Enterprise Account Executive, Healthcare",
+      "url": "https://weworkremotely.com/remote-jobs/databricks-enterprise-account-executive-healthcare",
+      "feed_date": "2026-11-21T06:02:25.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 28,
+      "title": "Galileo: Per Diem Digital Clinician | MD/DO (MO License)",
+      "url": "https://weworkremotely.com/remote-jobs/galileo-per-diem-digital-clinician-md-do-mo-license",
+      "feed_date": "2026-11-21T06:02:25.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 29,
+      "title": "Airbnb: Senior Engineering Manager - Partner Ecosystem",
+      "url": "https://weworkremotely.com/remote-jobs/airbnb-senior-engineering-manager-partner-ecosystem",
+      "feed_date": "2026-11-21T06:02:15.0000000+00:00",
+      "reason": "Engineering manager; people-management role excluded by scope."
+    },
+    {
+      "feed_index": 30,
+      "title": "Databricks: Enterprise Account Executive, Federal Financials",
+      "url": "https://weworkremotely.com/remote-jobs/databricks-enterprise-account-executive-federal-financials",
+      "feed_date": "2026-11-21T06:02:15.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 31,
+      "title": "Airbnb: Senior Data Scientist, People Analytics & Research",
+      "url": "https://weworkremotely.com/remote-jobs/airbnb-senior-data-scientist-people-analytics-research",
+      "feed_date": "2026-11-21T06:02:14.0000000+00:00",
+      "reason": "People analytics/research data scientist; no production software/ML engineering role established."
+    },
+    {
+      "feed_index": 32,
+      "title": "Twilio: Developer Success Engineer, P2",
+      "url": "https://weworkremotely.com/remote-jobs/twilio-developer-success-engineer-p2",
+      "feed_date": "2026-11-21T06:02:14.0000000+00:00",
+      "reason": "Developer/technical support role; customer support excluded by requested scope."
+    },
+    {
+      "feed_index": 33,
+      "title": "Elation Health: Principal, Key Accounts",
+      "url": "https://weworkremotely.com/remote-jobs/elation-health-principal-key-accounts",
+      "feed_date": "2026-11-21T06:02:13.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 36,
+      "title": "Elation Health: Part-Time Temporary HR Business Partner / HR Generalist",
+      "url": "https://weworkremotely.com/remote-jobs/elation-health-part-time-temporary-hr-business-partner-hr-generalist",
+      "feed_date": "2026-11-21T06:02:13.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 39,
+      "title": "Cadence Health: Licensed Practical Nurse (CA license required)",
+      "url": "https://weworkremotely.com/remote-jobs/cadence-health-licensed-practical-nurse-ca-license-required",
+      "feed_date": "2026-11-21T06:01:22.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 40,
+      "title": "Bybit: Country Manager",
+      "url": "https://weworkremotely.com/remote-jobs/bybit-country-manager",
+      "feed_date": "2026-11-20T18:32:29.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 41,
+      "title": "BeyondTrust: Lead-to-Cash Business Partner",
+      "url": "https://weworkremotely.com/remote-jobs/beyondtrust-lead-to-cash-business-partner",
+      "feed_date": "2026-11-20T18:32:28.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 42,
+      "title": "SeekOut: Senior Product Designer (Remote)",
+      "url": "https://weworkremotely.com/remote-jobs/seekout-senior-product-designer-remote",
+      "feed_date": "2026-11-20T18:32:19.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 43,
+      "title": "Bybit: Compliance Officer/MLRO",
+      "url": "https://weworkremotely.com/remote-jobs/bybit-compliance-officer-mlro",
+      "feed_date": "2026-11-20T18:32:19.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 44,
+      "title": "Affirm: Accounting Manager",
+      "url": "https://weworkremotely.com/remote-jobs/affirm-accounting-manager",
+      "feed_date": "2026-11-20T18:32:14.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 45,
+      "title": "Wrike: Senior Customer Success Manager",
+      "url": "https://weworkremotely.com/remote-jobs/wrike-senior-customer-success-manager",
+      "feed_date": "2026-11-20T18:32:14.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 47,
+      "title": "Sezzle: Customer Service Agent",
+      "url": "https://weworkremotely.com/remote-jobs/sezzle-customer-service-agent",
+      "feed_date": "2026-11-20T18:32:06.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 48,
+      "title": "StockX: Don’t See the Right Role? Join Our Talent Community!",
+      "url": "https://weworkremotely.com/remote-jobs/stockx-don-t-see-the-right-role-join-our-talent-community",
+      "feed_date": "2026-11-20T18:31:58.0000000+00:00",
+      "reason": "Talent pool/general expression of interest, not a verified specific engineering vacancy."
+    },
+    {
+      "feed_index": 49,
+      "title": "Twilio: Commercial Finance Manager, Carrier Relations",
+      "url": "https://weworkremotely.com/remote-jobs/twilio-commercial-finance-manager-carrier-relations",
+      "feed_date": "2026-11-20T18:31:33.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 50,
+      "title": "Ledgy: Head of Design",
+      "url": "https://weworkremotely.com/remote-jobs/ledgy-head-of-design",
+      "feed_date": "2026-11-20T18:31:33.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 54,
+      "title": "Elation Health: Head of Design",
+      "url": "https://weworkremotely.com/remote-jobs/elation-health-head-of-design",
+      "feed_date": "2026-11-20T18:31:01.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 55,
+      "title": "Smartsheet: Senior Product Manager, Field Systems (Salesforce)",
+      "url": "https://weworkremotely.com/remote-jobs/smartsheet-senior-product-manager-field-systems-salesforce",
+      "feed_date": "2026-11-20T18:31:01.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 57,
+      "title": "Elation Health: Enterprise Customer Success Manager",
+      "url": "https://weworkremotely.com/remote-jobs/elation-health-enterprise-customer-success-manager",
+      "feed_date": "2026-11-20T18:31:01.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 58,
+      "title": "Asana: Customer Success Manager (AI Success Architect)",
+      "url": "https://weworkremotely.com/remote-jobs/asana-customer-success-manager-ai-success-architect",
+      "feed_date": "2026-11-20T18:30:52.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 59,
+      "title": "Smartsheet: Engagement Manager",
+      "url": "https://weworkremotely.com/remote-jobs/smartsheet-engagement-manager",
+      "feed_date": "2026-11-20T18:30:52.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 60,
+      "title": "JetBrains: Entrepreneur in Residence/Product Lead",
+      "url": "https://weworkremotely.com/remote-jobs/jetbrains-entrepreneur-in-residence-product-lead",
+      "feed_date": "2026-11-20T18:30:44.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 61,
+      "title": "GitLab: Sr. Manager, Support Engineering (Public Sector)",
+      "url": "https://weworkremotely.com/remote-jobs/gitlab-sr-manager-support-engineering-public-sector",
+      "feed_date": "2026-11-20T17:00:34.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 62,
+      "title": "6sense: Sr. Customer Success Manager - Upmarket",
+      "url": "https://weworkremotely.com/remote-jobs/6sense-sr-customer-success-manager-upmarket",
+      "feed_date": "2026-11-20T17:00:32.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 63,
+      "title": "Resolv.Global: Bilingual Customer Support Specialist (English/French-Canadian)",
+      "url": "https://weworkremotely.com/remote-jobs/resolv-global-bilingual-customer-support-specialist-english-french-canadian",
+      "feed_date": "2026-11-20T17:00:30.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 64,
+      "title": "Global Dimensions, LLC: Part-Time HUBZone Business Operations & Support Specialist",
+      "url": "https://weworkremotely.com/remote-jobs/global-dimensions-llc-part-time-hubzone-business-operations-support-specialist",
+      "feed_date": "2026-11-20T17:00:26.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 65,
+      "title": "Tebra: Senior Product Manager",
+      "url": "https://weworkremotely.com/remote-jobs/tebra-senior-product-manager",
+      "feed_date": "2026-11-20T06:01:44.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 66,
+      "title": "Storyblok: Technical Support Engineer II - Costa Rica, Colombia, Mexico",
+      "url": "https://weworkremotely.com/remote-jobs/storyblok-technical-support-engineer-ii-costa-rica-colombia-mexico",
+      "feed_date": "2026-11-20T06:01:35.0000000+00:00",
+      "reason": "Developer/technical support role; customer support excluded by requested scope."
+    },
+    {
+      "feed_index": 68,
+      "title": "Modern Health: Don’t see what you’re looking for?",
+      "url": "https://weworkremotely.com/remote-jobs/modern-health-don-t-see-what-you-re-looking-for",
+      "feed_date": "2026-11-20T06:01:19.0000000+00:00",
+      "reason": "Talent pool/general expression of interest, not a verified specific engineering vacancy."
+    },
+    {
+      "feed_index": 69,
+      "title": "Modern Health: Don't see what you are looking for?",
+      "url": "https://weworkremotely.com/remote-jobs/modern-health-don-t-see-what-you-are-looking-for",
+      "feed_date": "2026-11-20T06:01:10.0000000+00:00",
+      "reason": "Talent pool/general expression of interest, not a verified specific engineering vacancy."
+    },
+    {
+      "feed_index": 71,
+      "title": "Databricks: Accounting Manager, Accounts Receivable",
+      "url": "https://weworkremotely.com/remote-jobs/databricks-accounting-manager-accounts-receivable",
+      "feed_date": "2026-11-20T06:01:06.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 72,
+      "title": "Bybit: Client Services Analyst - Swedish",
+      "url": "https://weworkremotely.com/remote-jobs/bybit-client-services-analyst-swedish",
+      "feed_date": "2026-11-20T06:00:50.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 73,
+      "title": "Bybit: Client Services Analyst - French",
+      "url": "https://weworkremotely.com/remote-jobs/bybit-client-services-analyst-french",
+      "feed_date": "2026-11-20T06:00:43.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 74,
+      "title": "6sense: Business Solutions Partner - Enterprise AI",
+      "url": "https://weworkremotely.com/remote-jobs/6sense-business-solutions-partner-enterprise-ai",
+      "feed_date": "2026-11-19T18:31:40.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 75,
+      "title": "Tebra: Product Designer",
+      "url": "https://weworkremotely.com/remote-jobs/tebra-product-designer",
+      "feed_date": "2026-11-19T18:31:26.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 76,
+      "title": "Storyblok: Senior Legal Counsel (EMEA)",
+      "url": "https://weworkremotely.com/remote-jobs/storyblok-senior-legal-counsel-emea",
+      "feed_date": "2026-11-19T18:31:26.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 77,
+      "title": "Mercury: Corporate Development Lead",
+      "url": "https://weworkremotely.com/remote-jobs/mercury-corporate-development-lead",
+      "feed_date": "2026-11-19T18:31:26.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 79,
+      "title": "Checkr: Solutions Architect",
+      "url": "https://weworkremotely.com/remote-jobs/checkr-solutions-architect",
+      "feed_date": "2026-11-19T06:01:30.0000000+00:00",
+      "reason": "Customer solutions architecture/presales; not target product/infra development."
+    },
+    {
+      "feed_index": 80,
+      "title": "Chime Financial, Inc: Senior Training Lead",
+      "url": "https://weworkremotely.com/remote-jobs/chime-financial-inc-senior-training-lead",
+      "feed_date": "2026-11-19T06:01:25.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 81,
+      "title": "Netlify: Talent Partner",
+      "url": "https://weworkremotely.com/remote-jobs/netlify-talent-partner",
+      "feed_date": "2026-11-19T06:01:14.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 82,
+      "title": "Current: Associate, Resource Management",
+      "url": "https://weworkremotely.com/remote-jobs/current-associate-resource-management",
+      "feed_date": "2026-11-19T06:01:00.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 84,
+      "title": "Terac: AML and Compliance Experts: AI Training Tasks",
+      "url": "https://weworkremotely.com/remote-jobs/terac-aml-and-compliance-experts-ai-training-tasks",
+      "feed_date": "2026-11-18T11:32:01.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 85,
+      "title": "SHIRVANO: Graphic Design Intern (Remote)",
+      "url": "https://weworkremotely.com/remote-jobs/shirvano-graphic-design-intern-remote",
+      "feed_date": "2026-11-18T11:31:43.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 86,
+      "title": "Lightbox Animation: Senior Sets&Props Surface Artist",
+      "url": "https://weworkremotely.com/remote-jobs/lightbox-animation-senior-sets-props-surface-artist",
+      "feed_date": "2026-11-18T11:31:41.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 87,
+      "title": "Lightbox Animation: Senior Sets&Props Concept Artist",
+      "url": "https://weworkremotely.com/remote-jobs/lightbox-animation-senior-sets-props-concept-artist",
+      "feed_date": "2026-11-18T11:31:38.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    },
+    {
+      "feed_index": 89,
+      "title": "WorkMotion: Junior AE Benelux",
+      "url": "https://weworkremotely.com/remote-jobs/workmotion-junior-ae-benelux",
+      "feed_date": "2026-11-17T18:01:48.0000000+00:00",
+      "reason": "Non-target role: product, sales, marketing, finance, recruiting, design/creative, legal, operations or customer support."
+    }
+  ],
+  "limitations": [
+    "No employer contacted and no applications submitted.",
+    "Country employment/contract feasibility not confirmed even for geographic-eligible Elvoro.",
+    "WWR dates are board publication dates and may be syndicated/reposted; not claimed as original employer new roles.",
+    "No cross-board duplicates evaluated here beyond canonical IDs exposed for Netlify/Stability; parent should join to other sources."
+  ]
+}

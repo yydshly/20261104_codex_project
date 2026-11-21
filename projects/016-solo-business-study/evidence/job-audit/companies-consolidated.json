@@ -1,0 +1,137 @@
+[
+  {
+    "company": "GitLab",
+    "current_public_entries": 246,
+    "recent_all_role_publication_entries": 38,
+    "recent_geo_eligible_technical_roles": 0,
+    "date_basis": "first_published",
+    "difficulty": "low-medium",
+    "notes": "Complete official public board JSON read successfully; available postings only, not historical closed postings."
+  },
+  {
+    "company": "Canonical",
+    "current_public_entries": 318,
+    "recent_all_role_publication_entries": 4,
+    "recent_geo_eligible_technical_roles": 1,
+    "date_basis": "first_published",
+    "difficulty": "low-medium",
+    "notes": "Complete official public board JSON read successfully; available postings only, not historical closed postings."
+  },
+  {
+    "company": "Grafana Labs",
+    "current_public_entries": 140,
+    "recent_all_role_publication_entries": 20,
+    "recent_geo_eligible_technical_roles": 0,
+    "date_basis": "first_published",
+    "difficulty": "low-medium",
+    "notes": "Recent 20 include 9 engineering management jobs and 2 sales-oriented Field Engineer jobs; excluded by audit occupation scope. No in-scope developer IC recent postings."
+  },
+  {
+    "company": "Automattic",
+    "current_public_entries": 6,
+    "recent_all_role_publication_entries": null,
+    "recent_geo_eligible_technical_roles": null,
+    "date_basis": "no publish dates exposed in inspected HTML/data",
+    "difficulty": "medium",
+    "notes": "Six live jobs parsed from publicly embedded official-page data; two technical roles. Dates absent in two detail pages as well. Do not interpret unknown week count as zero."
+  },
+  {
+    "company": "Elastic",
+    "current_public_entries": null,
+    "recent_all_role_publication_entries": null,
+    "recent_geo_eligible_technical_roles": null,
+    "date_basis": "not_obtained",
+    "difficulty": "high for basic HTTP retrieval",
+    "notes": "Official careers links to jobs.elastic.co. Single public page read HTTP 200 but only JS application shell and no job records. No hidden endpoint used, no login attempted. Unmeasured, not zero."
+  },
+  {
+    "company": "Supabase",
+    "current_public_entries": 80,
+    "recent_all_role_publication_entries": 4,
+    "recent_geo_eligible_technical_roles": 4,
+    "date_basis": "Ashby publishedAt latest publication",
+    "difficulty": "low: documented public JSON returned all listed roles; text review needed",
+    "notes": null
+  },
+  {
+    "company": "n8n",
+    "current_public_entries": 68,
+    "recent_all_role_publication_entries": 15,
+    "recent_geo_eligible_technical_roles": 0,
+    "date_basis": "Ashby publishedAt latest publication",
+    "difficulty": "low: documented public JSON; description parsing needed",
+    "notes": "Recent roles are design, sales, customer success/renewals and management; one Forward Deployed Engineer is EMEA Hybrid. No scoped developer + fully remote overlap."
+  },
+  {
+    "company": "PostHog",
+    "current_public_entries": 9,
+    "recent_all_role_publication_entries": null,
+    "recent_geo_eligible_technical_roles": null,
+    "date_basis": "unknown, excluded from verified one-week count",
+    "difficulty": "medium-high: public rendered page readable, HTML contains selected job detail; no visible date or datePosted/publishedAt/article:published_time metadata",
+    "notes": null
+  },
+  {
+    "company": "Railway",
+    "current_public_entries": 17,
+    "recent_all_role_publication_entries": 0,
+    "recent_geo_eligible_technical_roles": 0,
+    "date_basis": "JobPosting datePosted; latest date 2026-10-16, multiple evergreen posts date to 2022",
+    "difficulty": "medium: 17 HTML detail pages all readable, JobPosting JSON-LD parsed",
+    "notes": "Current open stock is not last-week new supply"
+  },
+  {
+    "company": "Sourcegraph",
+    "current_public_entries": 8,
+    "recent_all_role_publication_entries": 2,
+    "recent_geo_eligible_technical_roles": 0,
+    "date_basis": "Greenhouse first_published; updated_at not treated as first publication",
+    "difficulty": "low: sourcegraph91 board verified from official career links; public JSON returned full 8 records",
+    "notes": null
+  },
+  {
+    "company": "DuckDuckGo",
+    "current_public_entries": 10,
+    "recent_all_role_publication_entries": 1,
+    "recent_geo_eligible_technical_roles": 0,
+    "date_basis": "publishedAt: last publication",
+    "difficulty": "low-medium",
+    "notes": "Only recent role is Product Partnerships, out of developer scope."
+  },
+  {
+    "company": "Docker",
+    "current_public_entries": 50,
+    "recent_all_role_publication_entries": 5,
+    "recent_geo_eligible_technical_roles": 0,
+    "date_basis": "publishedAt: last publication",
+    "difficulty": "low-medium",
+    "notes": "Recent roles are product management, finance, renewals and Director of Developer Success. No hands-on developer IC."
+  },
+  {
+    "company": "Zapier",
+    "current_public_entries": 9,
+    "recent_all_role_publication_entries": 1,
+    "recent_geo_eligible_technical_roles": 0,
+    "date_basis": "publishedAt: last publication",
+    "difficulty": "low-medium",
+    "notes": "Only recent role Legal Counsel is out of developer scope."
+  },
+  {
+    "company": "Mattermost",
+    "current_public_entries": 10,
+    "recent_all_role_publication_entries": 0,
+    "recent_geo_eligible_technical_roles": 0,
+    "date_basis": "first_published",
+    "difficulty": "low-medium",
+    "notes": "No first_published date in window."
+  },
+  {
+    "company": "Tailscale",
+    "current_public_entries": 89,
+    "recent_all_role_publication_entries": 13,
+    "recent_geo_eligible_technical_roles": 0,
+    "date_basis": "first_published",
+    "difficulty": "low-medium",
+    "notes": "Recent Forward Deployed roles are customer onboarding/support/advisory without software implementation responsibilities; other recent roles management/design/sales. Developer remote candidates 0."
+  }
+]
