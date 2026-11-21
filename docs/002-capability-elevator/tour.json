@@ -1,0 +1,52 @@
+{
+  "title": "电梯叙事与工具能力研究",
+  "question": "AI 为什么会答错？",
+  "intro": "从一个真实问题出发，看看「见全」怎样带你一步步找到解释。",
+  "atlasOrigin": "http://127.0.0.1:4173",
+  "fps": 24,
+  "holdSeconds": 3.7,
+  "travelSeconds": 1.2,
+  "finaleSeconds": 3.6,
+  "finale": {
+    "title": "从一个问题，看见一张地图",
+    "description": "找到入口 · 拆开机制 · 对照证据 · 跨域阅读"
+  },
+  "floors": [
+    {
+      "id": "entry",
+      "sign": "ENTRY",
+      "title": "找到问题入口",
+      "description": "从生活里的疑问进入「AI 为什么会答错」漫游。",
+      "action": "打开案例起点，先看问题和整条路线。",
+      "route": "#roam/ai-errors",
+      "color": "#eab877"
+    },
+    {
+      "id": "map",
+      "sign": "MECHANISM",
+      "title": "拆开生成过程",
+      "description": "进入大语言模型地图，沿着「逐步生成」展开机制。",
+      "action": "查看模型怎样逐步选出下一个词。",
+      "route": "#map/llm?node=generation&depth=mechanism",
+      "color": "#7bc8c0"
+    },
+    {
+      "id": "lab",
+      "sign": "EVIDENCE",
+      "title": "动手对照证据",
+      "description": "切换旧版通知和现行通知，看看哪份资料支持回答。",
+      "action": "在资料对照站切换通知版本。",
+      "route": "#roam/ai-errors/sources?material=current",
+      "color": "#e98c69"
+    },
+    {
+      "id": "links",
+      "sign": "CONNECTIONS",
+      "title": "沿线跨域阅读",
+      "description": "从 AI 检索走到信息组织，继续了解资料的来源和版本。",
+      "action": "打开信息组织领域，查看它与 AI 的关系。",
+      "route": "#domain/information",
+      "color": "#b7a3dd"
+    }
+  ]
+}

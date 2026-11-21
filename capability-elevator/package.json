@@ -1,0 +1,21 @@
+{
+  "name": "capability-elevator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node server.mjs",
+    "build": "node build.mjs",
+    "render": "node render.mjs",
+    "check": "node --check server.mjs && node --check render.mjs && node --check build.mjs && node --check src/app.js && node --check src/scene.js && node --check src/audio.mjs && node --check src/timeline.js && node --check src/tool-guide.js"
+  },
+  "dependencies": {
+    "three": "0.187.0"
+  },
+  "devDependencies": {
+    "playwright": "1.64.1"
+  }
+}

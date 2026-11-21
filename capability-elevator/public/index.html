@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#151310">
+  <meta name="description" content="研究角色乘电梯逐层展示主题、片尾拉远全景的产品呈现方式。收录四层互动样板、22 秒成片、13 个工具仓库和跨项目复用说明。">
+  <meta property="og:title" content="电梯叙事与工具能力研究">
+  <meta property="og:description" content="以电梯逐层展示主题，把工具清单或产品能力讲成一段旅程。包含互动演示、成片、研究图卡和 13 项工具能力。">
+  <meta property="og:image" content="https://yydshly.github.io/20261104_codex_project/002-capability-elevator/media/cognition-elevator-research.png">
+  <link rel="canonical" href="https://yydshly.github.io/20261104_codex_project/002-capability-elevator/">
+  <title>电梯叙事与工具能力研究</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script type="importmap">
+    {"imports":{"three":"./vendor/three.module.js","three/addons/":"./vendor/addons/"}}
+  </script>
+  <script type="module" src="./src/app.js"></script>
+</head>
+<body>
+  <div class="shell">
+    <header class="site-header">
+      <a class="identity" href="./" aria-label="见全 · 认知电梯首页">
+        <span class="identity-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M6 10.5 12 5l6 5.5M12 5.5V19M6 15v4m12-4v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        <span>见全<small>JIANQUAN ATLAS</small></span>
+      </a>
+      <div class="site-meta">
+        <nav class="site-nav" aria-label="研究内容">
+          <a class="guide-jump" href="#research-summary">研究归纳 <span aria-hidden="true">↓</span></a>
+          <a class="guide-jump" href="#tool-guide">工具参考 <span aria-hidden="true">↓</span></a>
+        </nav>
+        <span class="edition"><span aria-hidden="true"></span> 产品能力展映 <b>01</b></span>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="intro" aria-labelledby="page-title">
+        <div>
+          <p class="overline"><span></span> THE KNOWLEDGE LIFT</p>
+          <h1 id="page-title">认知电梯<span>。</span></h1>
+        </div>
+        <p class="intro-copy"><strong id="tour-question">AI 为什么会答错？</strong><br><span id="tour-intro">跟着小小访客，看看见全如何带你找到方向、理解机制，再动手验证。</span></p>
+      </section>
+
+      <p class="project-abstract"><strong>用电梯逐层展示主题。</strong>角色上行、逐层停靠，每层介绍一项工具或产品能力，最后用全景展示它们的整体关系。本研究收录四层互动样板、22 秒成片、引导图，以及原帖 13 个工具的能力与复用说明。</p>
+
+      <div class="showcase-grid">
+        <section class="projection" aria-label="认知电梯三维演示">
+          <div class="stage" id="stage">
+            <canvas id="scene" aria-label="展馆剖面中的电梯随时间逐层移动"></canvas>
+            <div class="stage-top" aria-hidden="true">
+              <span class="stage-badge"><span class="badge-light"></span><span id="hud-kicker">见全 · 认知电梯</span></span>
+              <span class="stage-floor" id="hud-floor">01</span>
+            </div>
+            <div class="stage-caption" aria-hidden="true">
+              <p id="hud-state">STATION 01</p>
+              <h2 id="hud-title">认知电梯</h2>
+              <p id="hud-copy">一段关于理解的旅程</p>
+            </div>
+            <div class="film-progress" aria-hidden="true"><span id="hud-progress"></span></div>
+            <p class="stage-error" id="error" role="status" hidden></p>
+            <noscript><p class="stage-error">打开 JavaScript 后即可预览认知电梯。</p></noscript>
+          </div>
+
+          <div class="transport" role="group" aria-label="动画播放控制">
+            <div class="transport-buttons">
+              <button class="control" type="button" id="previous" aria-label="上一站" title="上一站">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6v12m12-11-8 5 8 5V7Z" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+              <button class="control control-play" type="button" id="play" aria-label="播放导览" title="播放或暂停">
+                <svg class="play-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m9 6 10 6-10 6V6Z" fill="currentColor"/></svg>
+                <svg class="pause-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6v12m6-12v12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+              </button>
+              <button class="control" type="button" id="next" aria-label="下一站" title="下一站">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M18 6v12M6 7l8 5-8 5V7Z" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+            <input type="range" id="scrubber" min="0" max="1" step="0.01" value="0" aria-label="播放进度">
+            <span class="clock" id="clock" aria-hidden="true">0:00 / 0:00</span>
+          </div>
+        </section>
+
+        <aside class="companion" aria-label="站点导览">
+          <nav class="directory" aria-labelledby="directory-title">
+            <div class="directory-header">
+              <div>
+                <p class="overline">EXHIBITION GUIDE</p>
+                <h2 id="directory-title">楼层导览</h2>
+              </div>
+              <svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><rect x="5.5" y="5.5" width="21" height="21" rx="3" stroke="currentColor"/><path d="m11 14 5-5 5 5m-5-5v14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="floor-list" id="floor-list"></div>
+          </nav>
+          <section class="floor-detail" aria-labelledby="floor-title">
+            <p class="overline">本层能力</p>
+            <h3 id="floor-title">从问题出发</h3>
+            <p id="floor-description">跟随电梯，或者选择一个楼层直达。</p>
+            <p class="floor-action" id="floor-action"></p>
+            <a class="floor-link" id="floor-link" target="_blank" rel="noopener" hidden>在见全体验 <span aria-hidden="true">↗</span></a>
+            <p class="floor-local-note" id="floor-local-note" hidden>完整案例需在本机启动「见全」，再从本地导览进入。</p>
+          </section>
+        </aside>
+      </div>
+
+      <section class="research-summary" id="research-summary" aria-labelledby="research-title">
+        <header class="research-heading">
+          <div>
+            <p class="overline">RESEARCH NOTES</p>
+            <h2 id="research-title">这次研究，我们理解了什么</h2>
+            <p class="research-lead">原作把一张工具清单变成了一段电梯旅程。我们把这种组织方式用到「见全」的四项能力，并验证了同一套网页场景可以生成可分享的视频。</p>
+          </div>
+          <span class="research-date">归纳于 <time datetime="2026-11-21">2026.11.21</time></span>
+        </header>
+
+        <figure class="research-guide" id="guide-image">
+          <figcaption>
+            <p class="overline">STUDY MAP</p>
+            <h3>一张图回看效果、入口和价值</h3>
+            <p>沿用本轮生成的研究图卡。图中包含我们的电梯实帧、原帖入口、13 个仓库路径和跨项目复用例子。</p>
+            <p>图卡制作于 2026 年 11 月 5 日，其中的 127.0.0.1 是本机地址。本页提供可在线体验的导览与工具入口。</p>
+            <a class="research-link" href="./media/cognition-elevator-research.png" download>保存高清引导图 <span aria-hidden="true">↓</span></a>
+          </figcaption>
+          <a class="guide-image-link" href="./media/cognition-elevator-research.png" target="_blank" rel="noopener" aria-label="打开高清研究引导图">
+            <img src="./media/cognition-elevator-research.png" width="2000" height="2191" loading="lazy" alt="认知电梯研究图卡，包含电梯实帧、原帖与本机入口、13 个仓库的能力和跨项目复用价值">
+          </a>
+        </figure>
+
+        <div class="research-facts">
+          <article class="research-fact">
+            <p class="overline">01 / 原作</p>
+            <h3>一支短片，介绍 13 个工具</h3>
+            <p>nicco 的原帖配了一支约 27 秒的 3D 电梯短片。小人逐层上行，每层用楼层牌与布景介绍一个项目，最后拉远露出整栋楼。</p>
+            <a class="research-link" href="https://x.com/0xnicc0/status/2117961453722354173" target="_blank" rel="noopener noreferrer">看原帖与视频 <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="research-fact">
+            <p class="overline">02 / 链接</p>
+            <h3>每一层对应一个独立仓库</h3>
+            <p>13 个链接在原帖正文中，分别通往制作规范、建模、动效、音效与出片工具。进入仓库可以查文档、接口和示例，再按自己的任务选择。</p>
+            <a class="research-link" href="#tool-guide">查看 13 项能力与用途 <span aria-hidden="true">↓</span></a>
+          </article>
+          <article class="research-fact">
+            <p class="overline">03 / 制作过程</p>
+            <h3>有通用方法，也有可运行参考</h3>
+            <p>原帖引用的指南讨论分镜、按时间定位画面、关键帧检查和导出。指南里的独立示例工程可以用来读制作过程。本轮查阅未找到电梯原片的工程或构建记录，实际用了哪些工具仍待核对。</p>
+            <div class="research-links">
+              <a class="research-link" href="https://x.com/seeconvm/status/2106096193235259564" target="_blank" rel="noopener noreferrer">制作指南 <span aria-hidden="true">↗</span></a>
+              <a class="research-link" href="https://github.com/JohnHeibel/ClaudeAnimationBase" target="_blank" rel="noopener noreferrer">示例工程 <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+
+        <section class="verified-work" aria-labelledby="verified-title">
+          <div class="verified-header">
+            <div>
+              <p class="overline">RUNNING EXAMPLE</p>
+              <h3 id="verified-title">我们已落地的认知电梯</h3>
+            </div>
+            <span class="verified-spec">4 层 · 22 秒 · 1280 × 720 · 24 fps</span>
+          </div>
+          <p>以「AI 为什么会答错？」串起找到入口、理解生成、对照证据和跨域阅读。网页可以播放、拖动和直达楼层。本机预览时，每层可进入「见全」对应页面。导出的 MP4 带有合成音轨和到站提示音。</p>
+          <ol class="render-flow" aria-label="认知电梯已验证的制作路径">
+            <li><span>01</span><h4>配置内容和时间轴</h4><p>楼层、文案、链接和停靠时间放在数据中。</p></li>
+            <li><span>02</span><h4>Three.js 绘制场景</h4><p>同一个时间点确定电梯、门、角色和镜头位置。</p></li>
+            <li><span>03</span><h4>Playwright 逐帧采集</h4><p>代码打开浏览器，按帧定位并截取画面。</p></li>
+            <li><span>04</span><h4>FFmpeg 编码与混音</h4><p>合成可播放的 MP4，交付到网页下载入口。</p></li>
+          </ol>
+          <div class="research-links">
+            <a class="research-link" href="#stage">回到互动演示 <span aria-hidden="true">↑</span></a>
+            <a class="research-link" href="./media/cognition-elevator.mp4" target="_blank" rel="noopener">播放 22 秒成片 <span aria-hidden="true">↗</span></a>
+            <a class="research-link" href="#guide-image">查看研究引导图 <span aria-hidden="true">↑</span></a>
+          </div>
+        </section>
+
+        <section class="reuse-panel" aria-labelledby="reuse-title">
+          <h3 id="reuse-title">怎样用到其他项目</h3>
+          <div class="reuse-grid">
+            <div class="reuse-card">
+              <p class="overline">SKILLS / SPEC-KIT</p>
+              <h4>工作规范</h4>
+              <p>把输入要求、任务步骤和验收条件留成模板。「见全」新增图解、实验室新增案例时，可以沿用研究和交付要求。</p>
+            </div>
+            <div class="reuse-card">
+              <p class="overline">MCP / COMFYUI</p>
+              <h4>可重复流程</h4>
+              <p>借鉴带参数的操作接口与可保存工作流。商品素材换一批输入后可按原流程处理，3D 场景的批量修改也可查询和预览结果。</p>
+            </div>
+            <div class="reuse-card">
+              <p class="overline">PLAYWRIGHT / REMOTION / FFMPEG</p>
+              <h4>验证与交付</h4>
+              <p>用浏览器操作和截图核对网页，让案例和字幕成为可替换数据。效果研究室的俳句、产品介绍都可以按模板导出。</p>
+            </div>
+          </div>
+          <p class="reuse-note"><strong>按任务选择</strong>交互效果实验室可借鉴统一进度、模型加载与相机控制。Three.js / React Three Fiber 用于网页 3D，Blender 用于制作模型，ComfyUI 用于生成素材，ManimGL 用于精确图解，Tone.js 用于程序音效。</p>
+          <p class="reuse-note"><strong>落地状态</strong>上面的四步是认知电梯已跑通的路径。这里的跨项目用法是可继续采用的方案，具体接口、素材和验收条件需要随项目确定。</p>
+        </section>
+
+        <details class="research-detail">
+          <summary>Playwright 能怎样支持浏览器分析？</summary>
+          <div>
+            <p>它可以让我们的代码打开浏览器、点击控件、调整视口，读取网页文字与结构，记录报错并截图。程序可以检查按钮结果和页面溢出，AI 可以结合截图和操作记录判断画面与交互。</p>
+            <p>认知电梯已经用它做逐帧采集和网页交互核验。若要让用户在产品里直接浏览任意网页，还需要另行实现浏览器界面。</p>
+            <a class="research-link" href="https://playwright.dev/docs/intro" target="_blank" rel="noopener noreferrer">Playwright 文档 <span aria-hidden="true">↗</span></a>
+          </div>
+        </details>
+        <div class="research-conclusion">
+          <h3>这轮研究可带走什么</h3>
+          <p>我们已经有一份可体验的产品呈现样板，以及一张按任务查找的工具能力表。需要做导览时，复用角色、站点与真实入口的组织方式。需要做网页验证、素材处理或视频交付时，再进入相应仓库，沿接口和示例深入。</p>
+        </div>
+      </section>
+
+      <section class="tool-guide" id="tool-guide" aria-labelledby="tool-guide-title">
+        <header class="tool-guide-header">
+          <div>
+            <p class="overline">PRODUCTION REFERENCES</p>
+            <h2 id="tool-guide-title">原帖的 13 个工具</h2>
+            <p>保留原帖顺序，按制作环节归类。每项列出能力和跨项目复用例子，「本项目使用」标出认知电梯实际采用的工具。</p>
+          </div>
+          <a class="tool-source" href="https://x.com/0xnicc0/status/2117961453722354173" target="_blank" rel="noopener noreferrer">查看原帖 <span aria-hidden="true">↗</span></a>
+        </header>
+        <p class="tool-guide-note">制作规范、工具操作、图像处理、浏览器绘制和视频编排分属不同环节。按交付目标选择组合，软件与素材的具体使用条件以各仓库说明为准。</p>
+        <div class="tool-groups" id="tool-groups"></div>
+        <noscript><p class="tool-guide-note">开启 JavaScript 后即可查看分组工具说明。</p></noscript>
+      </section>
+
+      <footer class="project-footer">
+        <p><strong>见全 · 认知电梯</strong><span>用一段旅程看懂产品如何工作</span></p>
+        <a id="download" class="download" download hidden>
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 4v11m-4-4 4 4 4-4M5 17v3h14v-3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          下载影片
+        </a>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
