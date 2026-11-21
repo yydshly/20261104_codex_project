@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="用《风吹信封》三条五秒原片区分模型已能做到的动作、首尾帧与七段式提示词后的实际变化。最值得保留的是付费前叠帧和局部合成，已发现并修正四处输入图意外变化。稳定性、整片一致性和省成本效果仍待验证。">
+  <meta property="og:title" content="风吹信封｜模型试用与付费前检查">
+  <meta property="og:description" content="模型已经拍出了动作链，增加输入后的变化各有得失。最值得保留的做法是在付费前检查并修正参考图。含三组原片、八步流程、研究长图与未验证价值。">
+  <meta property="og:image" content="https://yydshly.github.io/20261104_codex_project/003-eian-seedance-workflow/wind-envelope-research-infographic.png">
+  <meta property="og:type" content="article">
+  <title>风吹信封｜模型试用与付费前检查</title>
+  <link rel="stylesheet" href="exhibit.css">
+  <script src="exhibit.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#main"><span class="brand-mark" aria-hidden="true">✦</span> 镜头实验室</a>
+      <nav class="site-nav" aria-label="网页目录">
+        <a href="../">研究总库</a>
+        <a href="#baseline">模型基线</a>
+        <a href="#results">实拍对照</a>
+        <a href="#value">付费前检查</a>
+        <a href="#flow">原文八步</a>
+        <a href="#guide-image">研究长图</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero shell" aria-labelledby="title">
+      <div class="hero-copy">
+        <p class="eyebrow">研究 003 <span aria-hidden="true">/</span> 单镜头生成实验</p>
+        <h1 id="title">风吹信封</h1>
+        <p class="hero-lede">最值得保留的做法，是在付费生成视频前，检查并修正首尾帧的意外变化。</p>
+        <p class="hero-context">三条五秒原片让我们重新理解这套流程。短提示词已经拍出了动作链，加入首尾帧后画面更贴近分镜，七段式提示词仍有执行偏差。叠帧检查则确实找出并修正了四处输入图变化。</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#results">播放三组原片</a>
+          <a class="button button-quiet" href="#value">看检查证据</a>
+          <a class="button button-quiet" href="#guide-image">打开研究长图</a>
+        </div>
+      </div>
+      <figure class="hero-visual guide-cover">
+        <a href="#guide-image" aria-label="查看我们生成的完整研究引导图"><img src="wind-envelope-research-infographic.png" width="1920" height="6823" fetchpriority="high" alt="本轮生成的研究引导图，区分模型基线、增加输入后的变化和付费前检查，保留八步流程与待验证价值。"></a>
+        <figcaption><span>沿用本轮生成的引导图</span><a href="wind-envelope-research-infographic.png" target="_blank" rel="noopener">查看高清原图</a></figcaption>
+      </figure>
+      <div class="stat-strip" aria-label="实验概况">
+        <div class="stat"><strong>03</strong><span>生成样本 · 每组一次</span></div>
+        <div class="stat"><strong>04</strong><span>提交前修正的固定区域</span></div>
+        <div class="stat"><strong>225</strong><span>实际积分 · 预估 180</span></div>
+      </div>
+    </section>
+
+    <section class="section shell" id="baseline" aria-labelledby="baseline-title">
+      <header class="section-heading">
+        <p class="section-kicker">模型基线</p>
+        <h2 id="baseline-title">只给短提示词，已经拍出了动作链</h2>
+        <p>A 只收到一条文字描述。窗帘约 0.4 秒明显掀起，信封约 0.75 秒开始微移、约 2.9 秒停稳，邮差约 3.3 秒轻微转向。先动什么、后动什么，在这条短提示词样本中已经可见。</p>
+      </header>
+      <div class="summary-grid">
+        <article class="summary-card"><h3>A 中模型已经做到的部分</h3><p>红围巾、蓝灰外套、开窗与木桌都出现在画面里。单封信贴桌左滑，邮差最后有轻微反应，没有伸手接信。</p><p>具体的人物造型、近距离斜侧机位和深色房间，由模型自行生成。</p><a class="text-link" href="chatart-results/A/raw.mp4">打开 A 原片</a></article>
+        <article class="scope-card"><h3>重新理解这次研究</h3><p>这是一轮单镜头模型试用，也形成了一项可以继续使用的输入图检查方法。增加输入后的画面变化值得记录，流程的稳定收益需要重复生成和整片制作来检验。</p><p>三组使用同一模型，各生成一条，未固定同一个随机种子。</p></article>
+      </div>
+    </section>
+
+
+
+
+
+
+    <section class="section shell" id="explore" aria-labelledby="explore-title">
+      <header class="section-heading">
+        <p class="section-kicker">对照设计</p>
+        <h2 id="explore-title">分开观察参考图和提示词</h2>
+        <p>我们用 Codex 统筹、ImageGen 做图、FFmpeg 修整参考帧，再用 ChatArt 的 Seedance 2.0 Mini 生成三条。共同目标为五秒、横版和固定机位。A → B 添加首尾帧，B → C 同时扩写动作、空间与约束。各组一次生成，随机结果也可能影响差异。</p>
+      </header>
+      <div class="variant-grid">
+        <article class="variant"><span class="variant-letter" aria-hidden="true">A</span><h3>纯文本</h3><p>一句镜头描述。观察模型怎样自行决定人物、构图和动作。</p><a class="text-link" href="A-short.txt">看短提示词 ↗</a></article>
+        <article class="variant"><span class="variant-letter" aria-hidden="true">B</span><h3>短提示词＋首尾帧</h3><p>保留 A 的文字，加上指定的起止画面。A → B 看首尾帧带来的变化。</p><a class="text-link" href="frames-side-by-side.png">看首尾帧 ↗</a></article>
+        <article class="variant"><span class="variant-letter" aria-hidden="true">C</span><h3>七段式＋同一对帧</h3><p>沿用 B 的图片，写细动作时间和画面约束。B → C 看提示词带来的变化。</p><a class="text-link" href="C-structured.txt">看七段式提示词 ↗</a></article>
+      </div>
+      <p class="scope-note">提示词要求静音，实际交付的三条原片均含音轨。A、C 为 1280 × 720、约 5.09 秒，B 为 1344 × 768、约 5.18 秒。均为 24 fps，每条实耗 75 积分。提交前总预估 180 积分，实际 225 积分。A 从提交到出片等待超过一小时。</p>
+    </section>
+
+    <section class="section shell" id="results" aria-labelledby="results-title">
+      <header class="section-heading">
+        <p class="section-kicker">增加输入后的实际变化</p>
+        <h2 id="results-title">把三条视频放到同一秒</h2>
+        <p>左到右是 A、B、C。B 的构图与信封起止更贴近参考图，窗帘和信封却几乎同时起动。C 将两次起动拉开约半秒，但邮差提前追看，还出现额外斜光。A 的短提示词也实现了先帘后信。</p>
+      </header>
+      <div class="screen">
+        <div class="screen-top">
+          <h3>镜头 01 · 风吹信封</h3>
+          <div class="player-tabs" role="group" aria-label="选择播放版本">
+            <button type="button" aria-pressed="true" data-clip="all" data-src="chatart-results/abc-comparison.mp4" data-poster="exhibit-media/compare.webp" data-description="并排版取三条共同的前五秒，画面按原比例缩放。此版静音。">三组并排</button>
+            <button type="button" aria-pressed="false" data-clip="A" data-src="chatart-results/A/raw.mp4" data-poster="exhibit-media/a.webp" data-description="A 原片 · 短提示词。模型自行生成画面和动作，保留原音轨。">A 原片</button>
+            <button type="button" aria-pressed="false" data-clip="B" data-src="chatart-results/B/raw.mp4" data-poster="exhibit-media/b.webp" data-description="B 原片 · 与 A 同一条短提示词，加首尾帧，保留原音轨。">B 原片</button>
+            <button type="button" aria-pressed="false" data-clip="C" data-src="chatart-results/C/raw.mp4" data-poster="exhibit-media/c.webp" data-description="C 原片 · 七段式提示词，加 B 的同一对首尾帧，保留原音轨。">C 原片</button>
+          </div>
+        </div>
+        <div class="player-frame">
+          <video id="study-video" src="chatart-results/abc-comparison.mp4" poster="exhibit-media/compare.webp" controls playsinline preload="metadata" aria-label="《风吹信封》实验视频" aria-describedby="player-note">
+            你的浏览器可以通过下方链接打开视频原片。
+          </video>
+        </div>
+        <div class="cue-list" role="group" aria-label="按观察点跳转">
+          <button type="button" data-seek="0" data-observation="开场。A 自行选择人物和斜侧机位，B/C 接近参考构图。"><strong>0.0 秒</strong><span>先看构图</span></button>
+          <button type="button" data-seek="0.85" data-observation="起动。C 的帘子已经掀起，信封刚开始滑，B 的信封已移动一段。"><strong>0.85 秒</strong><span>谁先动</span></button>
+          <button type="button" data-seek="3.0" data-observation="停点。A/C 的信封已近终点，B 还在向左滑。"><strong>3.0 秒</strong><span>何时停住</span></button>
+          <button type="button" data-seek="3.7" data-observation="反应。A 有轻微转头，B 反应不明显，C 在追看之后轻微前探。"><strong>3.7 秒</strong><span>人物反应</span></button>
+        </div>
+        <p class="player-note" id="player-note">并排版取三条共同的前五秒，画面按原比例缩放。此版静音。</p>
+        <p class="player-status" id="player-status" role="status" aria-live="polite"></p>
+        <div class="clip-links">
+          <a href="chatart-results/A/raw.mp4">打开 A 原片 ↗</a>
+          <a href="chatart-results/B/raw.mp4">打开 B 原片 ↗</a>
+          <a href="chatart-results/C/raw.mp4">打开 C 原片 ↗</a>
+          <a href="chatart-results/abc-contact-sheet.png">看同步抽帧 ↗</a>
+        </div>
+      </div>
+      <div class="table-wrap" role="region" aria-label="三组观察表，可横向滚动" tabindex="0">
+        <table>
+          <caption>逐帧观察摘要</caption>
+          <thead><tr><th scope="col">检查项</th><th scope="col">A · 纯文本</th><th scope="col">B · 短提示词＋首尾帧</th><th scope="col">C · 七段式＋同一对帧</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">画面</th><td>自行选择近距离斜侧景、深色房间和人物造型。</td><td>更接近预设人物、桌窗布局和信封起止位置。</td><td>延续 B 的构图，开头出现额外斜阳光。</td></tr>
+            <tr><th scope="row">动作先后</th><td>帘约 0.4 秒明显掀起，信封约 0.75 秒开始微移。</td><td>信封约 0.125 秒已有微移，帘和信封起步接近。</td><td>帘约 0.17 秒掀起，信封约 0.75 秒开始左滑。</td></tr>
+            <tr><th scope="row">停止与反应</th><td>约 2.9 秒停稳，邮差约 3.3 秒轻微转向右下。</td><td>约 3.75 秒停稳，邮差反应不明显。</td><td>约 3 秒停稳。邮差此前已追看，随后轻微前探。</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section shell" id="value" aria-labelledby="value-title">
+      <header class="section-heading">
+        <p class="section-kicker">付费前检查</p>
+        <h2 id="value-title">付费生成前，修掉四处输入图变化</h2>
+        <p>本来只想移动信封、微调眼睛，生成图片时却同时改动了窗户、头发、手和桌面。叠帧与差分把这些变化找了出来，再只将眼睛和信封合回底图，四处固定区域的输入像素差均归零。</p>
+      </header>
+      <div class="preflight">
+        <div class="preflight-copy">
+          <h3>保留检查与局部合成</h3>
+          <p>提交前先说清哪些区域应该变化、哪些应保持固定。叠看首尾帧，用差分查偏差，把需要变化的局部合成回同一底图。</p>
+          <p>本轮确实在付费视频生成前修正了四处输入问题。后续视频更稳、重试更少或积分更省，需要单独测量。</p>
+        </div>
+        <figure class="evidence-figure">
+          <img src="frame-difference.png" width="1280" height="360" loading="lazy" alt="左侧原始首尾帧差分显示头发、手、窗和桌面变化。右侧局部合成后的变化集中在眼睛与信封。">
+          <figcaption>左为原始差分，右为修正后。差值放大 6 倍，亮处表示两张输入图的像素不同。</figcaption>
+        </figure>
+      </div>
+      <div class="table-wrap" role="region" aria-label="固定区域输入像素差，可横向滚动" tabindex="0">
+        <table><caption>归一至 1280 × 720 后，局部平均 RGB 差值</caption><thead><tr><th scope="col">区域</th><th scope="col">修正前</th><th scope="col">修正后</th></tr></thead><tbody>
+          <tr><th scope="row">窗户</th><td>3.698</td><td>0</td></tr>
+          <tr><th scope="row">头发</th><td>21.06</td><td>0</td></tr>
+          <tr><th scope="row">手</th><td>4.448</td><td>0</td></tr>
+          <tr><th scope="row">桌面中央</th><td>2.245</td><td>0</td></tr>
+        </tbody></table>
+      </div>
+      <p class="scope-note">测量对象是静态输入图。归零来自固定区域复用同一底图像素。生成视频中的连续性与成功率仍需验收。</p>
+    </section>
+
+    <section class="section shell" id="flow" aria-labelledby="flow-title">
+      <header class="section-heading">
+        <p class="section-kicker">原文八步</p>
+        <h2 id="flow-title">从想法到一部短片</h2>
+        <p>Eian 的八步涵盖从故事到整片交付。本次由 Codex 统筹，只做了一个镜头、三组生成、并排剪辑和单镜复核。原文所述整片返工收益仍待验证。</p>
+      </header>
+      <ol class="flow-grid">
+        <li class="flow-step"><span class="step-number">01</span><h3>定故事</h3><p>把想法写成可拍的故事。让没参与创作的人复述，找出因果和动机是否读得懂。</p><span class="step-output">本次完成单镜头故事</span></li>
+        <li class="flow-step"><span class="step-number">02</span><h3>写分镜</h3><p>逐镜确定景别、机位、画面方向、动作起止和转场，明确每个镜头交代什么。</p><span class="step-output">本次完成单镜头分镜</span></li>
+        <li class="flow-step"><span class="step-number">03</span><h3>定画风和角色</h3><p>用样帧确定配色和画风，为人物、服装与固定道具建立参考图。</p><span class="step-output">本次完成单角色设定</span></li>
+        <li class="flow-step"><span class="step-number">04</span><h3>做首尾帧</h3><p>把动作前后画出来，给物体留出移动空间。叠帧检查窗、桌面和人物等固定部分。</p><span class="step-output">本次完成一对参考帧</span></li>
+        <li class="flow-step"><span class="step-number">05</span><h3>写提示词并复核</h3><p>写清画风、镜头、构图配色、人物、分段动作、声音和约束。对照首尾帧查矛盾。</p><span class="step-output">本次完成提交前复核</span></li>
+        <li class="flow-step"><span class="step-number">06</span><h3>先试难镜头</h3><p>让 Seedance 生成最难的一镜。看实际结果后再推进其他镜头，保留各次原片。</p><span class="step-output">本次生成 A / B / C</span></li>
+        <li class="flow-step"><span class="step-number">07</span><h3>剪辑和修复</h3><p>用 FFmpeg 和 Python 剪切、拼接、转场和调色。能靠后期处理的问题先在后期修。</p><span class="step-output">本次仅做并排剪辑</span></li>
+        <li class="flow-step"><span class="step-number">08</span><h3>盲审成片</h3><p>让独立审核者复述看懂的故事并标记问题，再由人确认播放节奏和声音。</p><span class="step-output">本次仅做单镜头复核</span></li>
+      </ol>
+      <a class="text-link" href="https://x.com/i/article/2118298893238845441" target="_blank" rel="noopener noreferrer">Eian 原文与提示词示例 ↗</a>
+    </section>
+
+    <section class="section shell" id="summary" aria-labelledby="summary-title">
+      <header class="section-heading">
+        <p class="section-kicker">理解与边界</p>
+        <h2 id="summary-title">一次模型试用，一项可复用检查</h2>
+        <p>目前最值得保留的是提交前检查和局部合成，它在本轮确实找出并修正了输入图问题。三条原片记录了模型在不同输入下的表现，帮助下一次明确检查重点。</p>
+      </header>
+      <div class="summary-grid">
+        <article class="summary-card"><h3>三个样本中的观察</h3><p>A 已能拍出主要动作链。B 加首尾帧后更接近指定画面。C 的分段描述把动作目标写得更具体，成片中仍有提前反应和额外光线。</p><p>每组一条且未固定相同随机种子，稳定性需要重复生成。B → C 扩写了多个方面，分段格式本身的影响也需要另测。</p></article>
+        <article class="scope-card"><h3>原文价值中仍待验证的部分</h3><ul><li>参考帧和七段式提示词能否稳定提高通过率。</li><li>跨镜头人物、场景和画风是否更一致。</li><li>整片剪辑节奏、声音与画面衔接。</li><li>平均等待、重试、返工与积分消耗是否下降。</li></ul><p>第 7、8 步本次只完成并排剪辑和单镜头复核。</p></article>
+      </div>
+      <a class="text-link" href="README.md">查看完整实验记录、原片规格和实测积分</a>
+    </section>
+
+    <section class="section shell" id="guide-image" aria-labelledby="guide-title">
+      <header class="section-heading"><p class="section-kicker">研究引导图</p><h2 id="guide-title">沿用本轮生成的完整长图</h2><p>图中保留模型基线、三组效果、四处差分、原文八步，以及本次执行范围和待验证价值。</p></header>
+      <p class="hero-actions"><a class="button button-primary" href="wind-envelope-research-infographic.png" target="_blank" rel="noopener">查看高清原图</a><a class="button button-quiet" href="wind-envelope-research-infographic.png" download>下载研究长图</a></p>
+      <details class="guide-details"><summary>展开长图，在页内滚动查看</summary><div class="guide-viewport" tabindex="0" role="region" aria-label="完整研究长图，可上下滚动"><img src="wind-envelope-research-infographic.png" width="1920" height="6823" loading="lazy" alt="风吹信封研究长图，逐项展示模型基线、加入首尾帧与七段提示词后的变化、付费前检查、八步流程及待验证价值。"></div></details>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell"><span>镜头实验室 · 风吹信封</span><a href="#main">回到顶部 ↑</a></div>
+  </footer>
+</body>
+</html>
