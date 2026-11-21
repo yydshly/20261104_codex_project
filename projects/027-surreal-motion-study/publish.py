@@ -50,6 +50,8 @@ def run(source):
             text=text.replace('exports/style-worlds-16-20261114.zip',REPO+'/assets/style-worlds')
             if f.suffix=='.html': text=text.replace('reference/user-provided-article.txt','https://hi-personality-7-3zdk.pages.grok.bot/').replace('用户提供文章全文','用户提供文章链接')
             text=text.replace('下载16张原图与提示词 ZIP','查看16张原图与提示词目录').replace('下载16张原图 ZIP','查看16张原图目录').replace('打包下载 16 张原图与完整提示词','查看 16 张原图目录与提示词记录')
+            if f.name=='dance-video-production.js':
+                text=text.replace('表演、接地与音乐关系待评阅。','用户已确认当前舞步样本通过；精确BPM、足部接地与音乐同步未做量化验证。')
             text=re.sub(r'http://127\.0\.0\.1:4186/?',SITE,text)
             raw=text.encode('utf-8')
         to.write_bytes(raw)
