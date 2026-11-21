@@ -1,0 +1,842 @@
+{
+  "schema_version": "1.0",
+  "project_id": "851813117222455996b3a659038b11e0",
+  "version": 1,
+  "generated_at": "2026-11-21T07:30:30+00:00",
+  "mode": "evidence",
+  "summary": "围绕 Dub 核对了 6 份公开资料，整理出 6 条入口与动作。可继续研究的方向包括产品试用、使用教育、内容营销、开发者生态。",
+  "summary_source_ids": [],
+  "sources": [
+    {
+      "id": "s-f8e1619fca09c78c",
+      "kind": "website",
+      "title": "Dub - The Modern Link Attribution Platform",
+      "url": "https://dub.co/",
+      "collected_at": "2026-11-21T07:30:26+00:00",
+      "published_at": null,
+      "text": "Introducing our Startup Program\nLearn more\nTurn clicks into revenue\nDub is the modern link attribution platform for short links, conversion tracking, and affiliate programs.\nStart for free\nGet a demo\nAffiliate Programs\nConversion Analytics\nShort Links\nAffiliate Programs\nAll-in-on",
+      "links": [
+        {
+          "url": "https://dub.co/customers",
+          "text": "Customers"
+        },
+        {
+          "url": "https://dub.co/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://dub.co/enterprise",
+          "text": "Enterprise"
+        },
+        {
+          "url": "https://dub.co/startups",
+          "text": "Startups"
+        },
+        {
+          "url": "https://dub.co/home",
+          "text": ""
+        },
+        {
+          "url": "https://app.dub.co/register",
+          "text": "Start for free"
+        },
+        {
+          "url": "https://dub.co/contact/sales",
+          "text": "Get a demo"
+        },
+        {
+          "url": "https://dub.co/partners",
+          "text": "Learn more"
+        },
+        {
+          "url": "https://dub.co/analytics",
+          "text": "Learn more"
+        },
+        {
+          "url": "https://dub.co/links",
+          "text": "Learn more"
+        },
+        {
+          "url": "https://dub.co/customers/wisprflow",
+          "text": "CASE STUDY"
+        },
+        {
+          "url": "https://dub.co/customers/tella",
+          "text": "CASE STUDY"
+        },
+        {
+          "url": "https://dub.co/customers/framer",
+          "text": "CASE STUDY"
+        },
+        {
+          "url": "https://dub.co/customers/chatbase",
+          "text": "CASE STUDY"
+        },
+        {
+          "url": "https://dub.co/help/article/link-expiration",
+          "text": "Link expiration"
+        },
+        {
+          "url": "https://dub.co/help/article/link-cloaking",
+          "text": "Link cloaking"
+        },
+        {
+          "url": "https://dub.co/docs/concepts/deep-links/quickstart",
+          "text": "Deep links"
+        },
+        {
+          "url": "https://dub.co/docs/concepts/webhooks/introduction",
+          "text": "Webhooks"
+        },
+        {
+          "url": "https://dub.co/help/article/device-targeting",
+          "text": "Device targeting"
+        },
+        {
+          "url": "https://dub.co/help/article/geo-targeting",
+          "text": "Geo targeting"
+        },
+        {
+          "url": "https://dub.co/help/article/utm-builder",
+          "text": "UTM Builder"
+        },
+        {
+          "url": "https://dub.co/help/article/custom-link-previews",
+          "text": "Custom previews"
+        },
+        {
+          "url": "https://dub.co/help/article/link-folders",
+          "text": "Folders"
+        },
+        {
+          "url": "https://dub.co/help/article/password-protected-links",
+          "text": "Password protection"
+        },
+        {
+          "url": "https://dub.co/help/article/how-to-add-custom-domain",
+          "text": "Learn more"
+        },
+        {
+          "url": "https://dub.co/help/article/custom-qr-codes",
+          "text": "Learn more"
+        },
+        {
+          "url": "https://dub.co/help/article/dub-conversions",
+          "text": "Learn more"
+        },
+        {
+          "url": "https://dub.co/help/article/dub-analytics",
+          "text": "Learn more"
+        },
+        {
+          "url": "https://dub.co/help/article/customer-insights",
+          "text": "Learn more"
+        },
+        {
+          "url": "https://dub.co/integrations",
+          "text": "Explore integrations"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-5f8aa0c395e84e2c",
+      "kind": "pricing",
+      "title": "Pricing | Dub",
+      "url": "https://dub.co/pricing",
+      "collected_at": "2026-11-21T07:30:26+00:00",
+      "published_at": null,
+      "text": "Flexible plans that grow with you\nAll plans include a 14-day trial.\nMonthly\nYearly\n10%\noff\ndiscount\n+ 12x usage upfront\nBusiness\n$90\n/month\nFor startups looking to get started with affiliate and creator partnerships\nAdvanced\nMost popular\n$300\n/month\nFor scaling teams with high-vo",
+      "links": [
+        {
+          "url": "https://dub.co/customers",
+          "text": "Customers"
+        },
+        {
+          "url": "https://dub.co/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://dub.co/enterprise",
+          "text": "Enterprise"
+        },
+        {
+          "url": "https://dub.co/startups",
+          "text": "Startups"
+        },
+        {
+          "url": "https://dub.co/home",
+          "text": ""
+        },
+        {
+          "url": "https://app.dub.co/register",
+          "text": "Start 14-day trial"
+        },
+        {
+          "url": "https://dub.co/contact/sales",
+          "text": "Get a demo"
+        },
+        {
+          "url": "https://dub.co/customers/framer",
+          "text": "Read the story"
+        },
+        {
+          "url": "https://dub.co/help/article/how-to-use-tags",
+          "text": "Unlimited tags"
+        },
+        {
+          "url": "https://dub.co/help/article/custom-qr-codes",
+          "text": "Custom QR codes"
+        },
+        {
+          "url": "https://dub.co/help/article/how-to-create-utm-templates",
+          "text": "UTM builder + templates"
+        },
+        {
+          "url": "https://dub.co/help/article/custom-link-previews",
+          "text": "Custom link previews"
+        },
+        {
+          "url": "https://dub.co/docs/concepts/deep-links/quickstart",
+          "text": "Deep links"
+        },
+        {
+          "url": "https://dub.co/help/article/link-cloaking",
+          "text": "Link cloaking"
+        },
+        {
+          "url": "https://dub.co/help/article/link-expiration",
+          "text": "Link expiration"
+        },
+        {
+          "url": "https://dub.co/help/article/password-protected-links",
+          "text": "Password protection"
+        },
+        {
+          "url": "https://dub.co/help/article/device-targeting",
+          "text": "Device targeting"
+        },
+        {
+          "url": "https://dub.co/help/article/geo-targeting",
+          "text": "Geo targeting"
+        },
+        {
+          "url": "https://dub.co/help/article/partner-payouts",
+          "text": "Automated global payouts"
+        },
+        {
+          "url": "https://dub.co/help/article/partner-rewards",
+          "text": "Basic partner rewards"
+        },
+        {
+          "url": "https://dub.co/help/article/dual-sided-incentives",
+          "text": "Dual-sided incentives"
+        },
+        {
+          "url": "https://dub.co/help/article/program-landing-page",
+          "text": "AI landing page generator"
+        },
+        {
+          "url": "https://dub.co/help/article/inviting-partners",
+          "text": "500 partners"
+        },
+        {
+          "url": "https://dub.co/help/article/partner-groups",
+          "text": "3 partner groups"
+        },
+        {
+          "url": "https://dub.co/docs/partners/embedded-referrals",
+          "text": "Embedded referral dashboard"
+        },
+        {
+          "url": "https://dub.co/help/article/partner-referrals",
+          "text": "Partner referral rewards"
+        },
+        {
+          "url": "https://dub.co/help/article/messaging-partners",
+          "text": "Messaging center"
+        },
+        {
+          "url": "https://dub.co/help/article/email-campaigns",
+          "text": "Email campaigns"
+        },
+        {
+          "url": "https://dub.co/help/article/program-bounties",
+          "text": "Social metrics bounties"
+        },
+        {
+          "url": "https://dub.co/help/article/risk-monitoring",
+          "text": "Risk monitoring"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-54c55c49dca74cd5",
+      "kind": "content",
+      "title": "Blog | Dub",
+      "url": "https://dub.co/blog",
+      "collected_at": "2026-11-21T07:30:27+00:00",
+      "published_at": null,
+      "text": "Blog\nLatest news and updates from Dub\nCategories\nLemon Squeezy is shutting down: How to move your affiliate program to Dub.co\nRunning affiliates on Lemon Squeezy? The program closes March 31, 2027. Here’s how to move them to Dub.co, Lemon Squeezy’s official recommendation.\nNovemb",
+      "links": [
+        {
+          "url": "https://dub.co/customers",
+          "text": "Customers"
+        },
+        {
+          "url": "https://dub.co/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://dub.co/enterprise",
+          "text": "Enterprise"
+        },
+        {
+          "url": "https://dub.co/startups",
+          "text": "Startups"
+        },
+        {
+          "url": "https://dub.co/home",
+          "text": ""
+        },
+        {
+          "url": "https://dub.co/blog",
+          "text": "Overview"
+        },
+        {
+          "url": "https://dub.co/blog/category/company",
+          "text": "Company News"
+        },
+        {
+          "url": "https://dub.co/blog/category/education",
+          "text": "Education"
+        },
+        {
+          "url": "https://dub.co/blog/category/engineering",
+          "text": "Engineering"
+        },
+        {
+          "url": "https://dub.co/blog/category/customers",
+          "text": "Customer Stories"
+        },
+        {
+          "url": "https://dub.co/changelog",
+          "text": "Changelog"
+        },
+        {
+          "url": "https://dub.co/blog/lemonsqueezy-affiliate-alternative",
+          "text": "Lemon Squeezy is shutting down: How to move your affiliate program to Dub.co Running affiliates on Lemon Squeezy? The pr"
+        },
+        {
+          "url": "https://dub.co/blog/partnerstack-alternatives",
+          "text": "Top 5 PartnerStack Alternatives (2026) Compare the 5 best PartnerStack alternatives (Dub.co, Impact.com, Rewardful, Firs"
+        },
+        {
+          "url": "https://dub.co/blog/dub-vs-firstpromoter",
+          "text": "Dub vs FirstPromoter: Features, Pricing, and Which Is Better for SaaS Affiliate Programs (2026) Learn how Dub and FirstP"
+        },
+        {
+          "url": "https://dub.co/blog/dub-vs-partnerstack",
+          "text": "Dub vs PartnerStack: Which Affiliate Platform is Best for SaaS (2026) Learn how Dub and PartnerStack differ in features "
+        },
+        {
+          "url": "https://dub.co/blog/network-referral-bonus",
+          "text": "Introducing the Dub Network Referral Bonus You can now refer other partners to join the Dub Partner Network and get rewa"
+        },
+        {
+          "url": "https://dub.co/blog/dub-mcp-server",
+          "text": "Introducing the Dub MCP Server Leverage our new MCP server to manage your partner program with Claude, Perplexity, Codex"
+        },
+        {
+          "url": "https://dub.co/blog/introducing-commission-analytics",
+          "text": "Introducing Commission Analytics You can now see a real-time analytics dashboard of your partner commissions to measure "
+        },
+        {
+          "url": "https://dub.co/blog/introducing-partner-tags",
+          "text": "Introducing Partner Tags You can now segment your partners by tags and build custom reports to measure the ROI of your p"
+        },
+        {
+          "url": "https://dub.co/blog/introducing-partner-referrals",
+          "text": "Introducing Partner Referrals You can now reward partners for referring other partners to join your program on Dub – eit"
+        },
+        {
+          "url": "https://dub.co/blog/stablecoin-payouts",
+          "text": "Introducing Stablecoin Payouts Partners on Dub can now receive payouts in USDC within minutes – instead of waiting days "
+        },
+        {
+          "url": "https://dub.co/blog/dub-vs-tolt",
+          "text": "Dub vs Tolt: Features, Pricing, and Key Differences for SaaS Affiliate Programs (2026) Compare Dub Partners and Tolt acr"
+        },
+        {
+          "url": "https://dub.co/blog/dub-vs-rewardful",
+          "text": "Dub vs Rewardful: An Honest Comparison for SaaS Affiliate Programs (2026) Learn how Dub Partners and Rewardful differ in"
+        },
+        {
+          "url": "https://dub.co/blog/social-metrics-bounties",
+          "text": "Introducing Social Metrics Bounties Reward partners for creating viral content – with support for variable bonuses and e"
+        },
+        {
+          "url": "https://dub.co/blog/best-link-management-tools",
+          "text": "Best Link Management Tools in 2026: In-Depth Comparison and Top Picks This article compares top link management tools by"
+        },
+        {
+          "url": "https://dub.co/blog/bitly-vs-rebrandly",
+          "text": "Bitly vs Rebrandly: An updated comparison (2026) A detailed comparison of Bitly vs Rebrandly – and how Dub is a better a"
+        },
+        {
+          "url": "https://dub.co/blog/bitly-vs-tinyurl",
+          "text": "Bitly vs TinyURL: An updated comparison (2026) A detailed comparison of Bitly vs TinyURL – and how Dub is a better alter"
+        },
+        {
+          "url": "https://dub.co/blog/10m-payouts",
+          "text": "Celebrating $10 million in partner payouts on Dub We're excited to share that we've crossed $10M in payouts sent via Dub"
+        },
+        {
+          "url": "https://dub.co/blog/introducing-email-campaigns",
+          "text": "Introducing Email Campaigns Send marketing and transactional emails to your partners to increase engagement and drive co"
+        },
+        {
+          "url": "https://dub.co/blog/introducing-bounties",
+          "text": "Introducing Program Bounties Create performance and submission bounties to drive partner engagement for your Dub partner"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-e698322ddc3ac46f",
+      "kind": "docs",
+      "title": "Introduction - Dub",
+      "url": "https://dub.co/docs",
+      "collected_at": "2026-11-21T07:30:27+00:00",
+      "published_at": null,
+      "text": "Dub\nis the modern link attribution platform for you to\nrun partner programs\n,\ntrack conversion analytics\n, and\ncreate short links\n.\nWhether you are:\na founder looking to\nlaunch an affiliate or referral program\na marketer looking to\ntrack the success of your campaigns\na developer ",
+      "links": [
+        {
+          "url": "https://dub.co/llms.txt",
+          "text": "/llms.txt"
+        },
+        {
+          "url": "https://dub.co/docs",
+          "text": "Skip to main content"
+        },
+        {
+          "url": "https://dub.co/home",
+          "text": "Dub home page"
+        },
+        {
+          "url": "https://dub.co/contact/support",
+          "text": "Contact support"
+        },
+        {
+          "url": "https://app.dub.co/register",
+          "text": "Dashboard"
+        },
+        {
+          "url": "https://dub.co/help",
+          "text": "Help Center"
+        },
+        {
+          "url": "https://dub.co/docs/api-reference/introduction",
+          "text": "API Reference"
+        },
+        {
+          "url": "https://dub.co/docs/webhooks/introduction",
+          "text": "Webhooks"
+        },
+        {
+          "url": "https://dub.co/docs/concepts/attribution",
+          "text": "How attribution works"
+        },
+        {
+          "url": "https://dub.co/docs/quickstart/server",
+          "text": "Server-side tracking (recommended)"
+        },
+        {
+          "url": "https://dub.co/docs/quickstart/client",
+          "text": "Client-side tracking"
+        },
+        {
+          "url": "https://dub.co/docs/integrations/stripe",
+          "text": "Stripe"
+        },
+        {
+          "url": "https://dub.co/docs/integrations/google-tag-manager",
+          "text": "Google Tag Manager"
+        },
+        {
+          "url": "https://dub.co/docs/integrations/shopify",
+          "text": "Shopify"
+        },
+        {
+          "url": "https://dub.co/docs/integrations/hubspot",
+          "text": "HubSpot"
+        },
+        {
+          "url": "https://dub.co/docs/integrations/segment",
+          "text": "Segment"
+        },
+        {
+          "url": "https://dub.co/docs/testing",
+          "text": "Testing your implementation"
+        },
+        {
+          "url": "https://dub.co/docs/integrations",
+          "text": "Introduction"
+        },
+        {
+          "url": "https://dub.co/docs/integrations/quickstart",
+          "text": "Build your own integration"
+        },
+        {
+          "url": "https://dub.co/docs/local-development",
+          "text": "Local development"
+        },
+        {
+          "url": "https://dub.co/docs/self-hosting",
+          "text": "Self-hosting Dub"
+        },
+        {
+          "url": "https://dub.co",
+          "text": "Dub"
+        },
+        {
+          "url": "https://dub.co/help/article/dub-partners",
+          "text": "run partner programs"
+        },
+        {
+          "url": "https://dub.co/docs/concepts/links/introduction",
+          "text": "create short links"
+        },
+        {
+          "url": "https://dub.co/docs/concepts/analytics/introduction",
+          "text": "integrate link analytics"
+        },
+        {
+          "url": "https://dub.co/docs/concepts/links/bulk-operations",
+          "text": "bulk link creation"
+        },
+        {
+          "url": "https://dub.co/integrations",
+          "text": "Integrations"
+        },
+        {
+          "url": "https://dub.co/docs/sdks/overview",
+          "text": "native SDKs"
+        },
+        {
+          "url": "https://github.com/dubinc/docs/edit/main/docs.mdx",
+          "text": "Suggest edits"
+        },
+        {
+          "url": "https://github.com/dubinc/docs/issues/new?title=Issue+on+docs&body=Path%3A+%2Fdocs",
+          "text": "Raise issue"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-f46820865c3250a9",
+      "kind": "repository",
+      "title": "dubinc/dub.link",
+      "url": "https://github.com/dubinc/dub.link",
+      "collected_at": "2026-11-21T07:30:29+00:00",
+      "published_at": null,
+      "text": "{\"full_name\": \"dubinc/dub.link\", \"stargazers_count\": 25206, \"forks_count\": 3409, \"open_issues_count\": 75, \"language\": \"TypeScript\", \"license\": {\"key\": \"other\", \"name\": \"Other\", \"spdx_id\": \"NOASSERTION\", \"url\": null, \"node_id\": \"MDc6TGljZW5zZTA=\"}, \"created_at\": \"2022-08-27T22:15:",
+      "links": [],
+      "metadata": {
+        "full_name": "dubinc/dub.link",
+        "stargazers_count": 25206,
+        "forks_count": 3409,
+        "open_issues_count": 75,
+        "language": "TypeScript",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "created_at": "2022-08-27T22:15:11Z",
+        "pushed_at": "2026-10-27T02:24:37Z",
+        "topics": [
+          "clickhouse",
+          "mysql",
+          "nextjs",
+          "open-source",
+          "planetscale",
+          "prisma",
+          "tailwindcss",
+          "tinybird",
+          "typescript",
+          "upstash",
+          "vercel"
+        ],
+        "description": "The modern link attribution platform. Loved by world-class engineering teams at Twilio, Zillow, Jobber, Vercel, Raycast, and more.",
+        "homepage": "https://dub.link",
+        "archived": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-6ff0f52b7402a955",
+      "kind": "readme",
+      "title": "dubinc/dub.link README",
+      "url": "https://github.com/dubinc/dub.link/blob/main/README.md",
+      "collected_at": "2026-11-21T07:30:29+00:00",
+      "published_at": null,
+      "text": "<a href=\"https://dub.co\">\n  <img alt=\"Dub is the modern, open-source link attribution platform for short links and conversion tracking.\" src=\"https://github.com/user-attachments/assets/42cf0705-f5a2-4200-bc4a-c5acf0ba9e15\">\n</a>\n\n<h3 align=\"center\">Dub Links</h3>\n\n<p align=\"cente",
+      "links": [],
+      "metadata": {
+        "public_excerpt": true
+      }
+    }
+  ],
+  "actions": [
+    {
+      "id": "a-1",
+      "title": "提供公开试用入口",
+      "channel": "产品试用",
+      "description": "定价页面公开提供试用入口。可进一步检查试用额度、触达位置和转付费步骤。",
+      "source_ids": [
+        "s-5f8aa0c395e84e2c"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-2",
+      "title": "用公开内容承接用户问题",
+      "channel": "内容营销",
+      "description": "官网提供内容入口。可从文章主题、目标读者和文章内的产品引导，研究内容如何连接产品。",
+      "source_ids": [
+        "s-54c55c49dca74cd5"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-3",
+      "title": "提供文档与上手路径",
+      "channel": "使用教育",
+      "description": "公开文档为用户了解功能和开始使用提供入口。可研究教程是否覆盖客户的真实任务。",
+      "source_ids": [
+        "s-e698322ddc3ac46f"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-4",
+      "title": "维护公开代码仓库",
+      "channel": "开发者生态",
+      "description": "公开代码、README 和发布记录让开发者能够评估项目、参与讨论或尝试部署。Stars 与 Forks 表示公开互动规模。",
+      "source_ids": [
+        "s-f46820865c3250a9"
+      ],
+      "date": null,
+      "result": "本次记录了仓库当前的 Stars 与 Forks 快照，收入和付费客户数需要另行核对。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-5",
+      "title": "GitHub 仓库建立",
+      "channel": "项目历史",
+      "description": "GitHub API 记录的仓库创建日期。产品上线日期需要其他来源确认。",
+      "source_ids": [
+        "s-f46820865c3250a9"
+      ],
+      "date": "2022-08-27",
+      "result": "已取得仓库创建时间。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-6",
+      "title": "为自行部署的用户提供路径",
+      "channel": "开发者生态",
+      "description": "README 出现自托管或 Docker 部署说明。可研究免费部署入口与托管服务之间的使用路径。",
+      "source_ids": [
+        "s-6ff0f52b7402a955"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "产品概览",
+      "intro": "从官网和公开仓库核对产品定位、功能与公开入口。",
+      "facts": [
+        {
+          "text": "Dub is the modern link attribution platform for short links, conversion tracking, and affiliate programs.",
+          "source_ids": [
+            "s-f8e1619fca09c78c"
+          ]
+        },
+        {
+          "text": "README 内容摘录：Dub Links The open-source link attribution platform. Learn more » Introduction · Tech Stack · Self-hosting · Contributing ## Introduction Dub Links is the modern, open-source link attribution platform for short links and conversio",
+          "source_ids": [
+            "s-6ff0f52b7402a955"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "business",
+      "title": "生意与定价",
+      "intro": "定价信息来自产品自己的公开页面。收入指标需要单独的公开披露或授权数据。",
+      "facts": [
+        {
+          "text": "定价页中的原始片段：count + 12x usage upfront Business $90 /month For startups looking to get started with affiliate and creato；partnerships Advanced Most popular $300 /month For scaling teams with high-volume affiliate traffic and whit；support and volume discounts Up to $2,500 payouts / month Up to $15,000 payouts / month $20,000+ payouts /",
+          "source_ids": [
+            "s-5f8aa0c395e84e2c"
+          ]
+        },
+        {
+          "text": "公开仓库为 dubinc/dub.link，API 标注许可证为 Other。",
+          "source_ids": [
+            "s-f46820865c3250a9"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "acquisition",
+      "title": "获客入口",
+      "intro": "下面列出已观察到的入口与动作。渠道带来的访问和付费效果仍需转化数据验证。",
+      "facts": [
+        {
+          "text": "内容页可见文本摘录：Blog Latest news and updates from Dub Categories Lemon Squeezy is shutting down: How to move your affiliate program to Dub.co Running affiliates on Lemon Squeezy? The program closes March 31, 2027. Here’s how to move the",
+          "source_ids": [
+            "s-54c55c49dca74cd5"
+          ]
+        }
+      ],
+      "action_ids": [
+        "a-1",
+        "a-2",
+        "a-3",
+        "a-4",
+        "a-6"
+      ]
+    },
+    {
+      "id": "growth",
+      "title": "公开动作拆解",
+      "intro": "每个动作都关联原始资料，适合进一步研究具体做法和执行条件。",
+      "facts": [],
+      "action_ids": [
+        "a-1",
+        "a-2",
+        "a-3",
+        "a-4",
+        "a-5",
+        "a-6"
+      ]
+    },
+    {
+      "id": "social",
+      "title": "社媒与社区",
+      "intro": "本次保留官网引用的社媒与社区链接。账号归属、帖子内容和互动数据需要进一步核对。",
+      "facts": [
+        {
+          "text": "官网引用的社媒与社区链接涉及 linkedin.com、twitter.com、youtube.com。",
+          "source_ids": [
+            "s-f8e1619fca09c78c"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "timeline",
+      "title": "事件时间线",
+      "intro": "仅展示来源中明确给出日期的事件，采集时间另列。产品更新可以帮助理解推广内容的背景。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "competitors",
+      "title": "竞品研究线索",
+      "intro": "本轮采集围绕单个产品。可按目标客户、解决的问题和购买方式，再添加相关产品进行研究。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "appendix",
+      "title": "来源与数据缺口",
+      "intro": "报告保留了本次采集的来源快照。缺失指标保持为空，观察到的动作与分析建议分别呈现。",
+      "facts": [],
+      "action_ids": []
+    }
+  ],
+  "metrics": [
+    {
+      "name": "GitHub Stars",
+      "value": 25206,
+      "unit": "stars",
+      "source_id": "s-f46820865c3250a9",
+      "observed_at": "2026-11-21T07:30:29+00:00"
+    },
+    {
+      "name": "Forks",
+      "value": 3409,
+      "unit": "forks",
+      "source_id": "s-f46820865c3250a9",
+      "observed_at": "2026-11-21T07:30:29+00:00"
+    }
+  ],
+  "gaps": [
+    "连续收入序列和已核验 MRR",
+    "真实访问量及渠道占比",
+    "搜索关键词排名与点击数据",
+    "社媒帖子、互动和渠道转化数据",
+    "独立核对过的竞品比较"
+  ],
+  "warnings": [],
+  "discovered_accounts": [
+    {
+      "url": "https://twitter.com/dubdotco",
+      "platform": "twitter.com",
+      "label": "@dubdotco"
+    },
+    {
+      "url": "https://www.linkedin.com/company/dubinc",
+      "platform": "linkedin.com",
+      "label": "linkedin.com"
+    },
+    {
+      "url": "https://www.youtube.com/@dubdotco",
+      "platform": "youtube.com",
+      "label": "youtube.com"
+    }
+  ],
+  "translations": {
+    "Blog | Dub": "Dub 博客与内容",
+    "Dub - The Modern Link Attribution Platform": "Dub 官网",
+    "Dub is the modern link attribution platform for short links, conversion tracking, and affiliate programs.": "链接归因平台，提供短链接、转化追踪和联盟营销计划管理。",
+    "Introduction - Dub": "Dub 文档与更新",
+    "Pricing | Dub": "Dub 定价与方案",
+    "README 内容摘录：Dub Links The open-source link attribution platform. Learn more » Introduction · Tech Stack · Self-hosting · Contributing ## Introduction Dub Links is the modern, open-source link attribution platform for short links and conversio": "README 摘录（中文）：Dub Links 是开源链接归因平台，提供介绍、技术栈、自托管和贡献指南，支持短链接及转化相关功能；摘录在功能说明中被截断。",
+    "dubinc/dub.link": "Dub 公开代码仓库",
+    "dubinc/dub.link README": "Dub 项目说明（README）",
+    "内容页可见文本摘录：Blog Latest news and updates from Dub Categories Lemon Squeezy is shutting down: How to move your affiliate program to Dub.co Running affiliates on Lemon Squeezy? The program closes March 31, 2027. Here’s how to move the": "内容页摘录（中文）：Dub 博客分享新闻和更新。摘录文章讨论 Lemon Squeezy 联盟计划的关闭及迁移到 Dub.co 的步骤，并称该计划将于 2027 年 3 月 31 日关闭。这是来源文章的表述，需结合原文核对。",
+    "定价页中的原始片段：count + 12x usage upfront Business $90 /month For startups looking to get started with affiliate and creato；partnerships Advanced Most popular $300 /month For scaling teams with high-volume affiliate traffic and whit；support and volume discounts Up to $2,500 payouts / month Up to $15,000 payouts / month $20,000+ payouts /": "定价页摘录（中文）：Business 每月 90 美元，面向开始使用联盟营销和创作者合作的初创企业；Advanced 每月 300 美元，面向联盟流量较大的成长团队。摘录还列出每月最高 2,500 美元、15,000 美元和 20,000 美元以上的佣金支付额度，具体方案对应关系需查看原页。"
+  },
+  "coverage": "website"
+}

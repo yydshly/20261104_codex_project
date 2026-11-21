@@ -1,0 +1,169 @@
+{
+  "schema_version": "1.0",
+  "project_id": "e0cb7410c718490daff583cd43aca794",
+  "version": 2,
+  "generated_at": "2026-11-21T09:42:14+00:00",
+  "mode": "evidence",
+  "coverage": "listing_only",
+  "summary": "根据公开订阅整理了 Backspin 的产品简介与发布记录。本份为发布简报，尚未取得已确认的官网、定价、流量或收入数据。",
+  "summary_source_ids": [],
+  "translations": {
+    "Learn to DJ in your browser, on real vinyl decks": "在浏览器中通过黑胶唱盘学习 DJ 打碟。"
+  },
+  "sources": [
+    {
+      "id": "s-124272402573f99d",
+      "kind": "listing",
+      "title": "Backspin",
+      "url": "https://www.producthunt.com/products/backspin",
+      "collected_at": "2026-11-21T09:42:14+00:00",
+      "published_at": "2026-11-18T18:52:10-08:00",
+      "text": "Backspin\nLearn to DJ in your browser, on real vinyl decks",
+      "links": [],
+      "metadata": {
+        "source_kind": "product_hunt",
+        "discovered_at": "2026-11-21T09:10:58+00:00",
+        "feed_url": "https://www.producthunt.com/feed",
+        "feed_entry_id": "tag:www.producthunt.com,2005:Post/1322372",
+        "outbound_url": "https://www.producthunt.com/r/p/1322372?app_id=339",
+        "website_status": "unconfirmed",
+        "transport": "public_atom",
+        "public_excerpt": true
+      }
+    }
+  ],
+  "actions": [
+    {
+      "id": "a-1",
+      "title": "在 Product Hunt 出现产品展示记录",
+      "channel": "产品发布",
+      "description": "公开目录或社区帖子提供了产品介绍入口。记录日期来自该来源，不能直接视为产品首次上线日期；提交者与产品方的关系仍需核对。",
+      "source_ids": [
+        "s-124272402573f99d"
+      ],
+      "date": "2026-11-18",
+      "result": "已保存公开展示记录，尚未验证该渠道带来的访问、注册和收入。",
+      "evidence_type": "公开动作"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "产品概览",
+      "intro": "本份发布简报仅根据公开订阅整理，尚未取得已确认的产品官网资料。",
+      "facts": [
+        {
+          "text": "Learn to DJ in your browser, on real vinyl decks",
+          "source_ids": [
+            "s-124272402573f99d"
+          ]
+        },
+        {
+          "text": "该产品在 Product Hunt 中有公开展示记录，已保留原始链接与记录日期。公开展示不代表收入、开源状态或实际转化已核验。",
+          "source_ids": [
+            "s-124272402573f99d"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "business",
+      "title": "生意与定价",
+      "intro": "本份简报尚未取得官网与定价资料，商业模式和价格保持待核对。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "acquisition",
+      "title": "获客入口",
+      "intro": "下面列出已观察到的入口与动作。渠道带来的访问和付费效果仍需转化数据验证。",
+      "facts": [],
+      "action_ids": [
+        "a-1"
+      ]
+    },
+    {
+      "id": "growth",
+      "title": "公开动作拆解",
+      "intro": "每个动作都关联原始资料，适合进一步研究具体做法和执行条件。",
+      "facts": [],
+      "action_ids": [
+        "a-1"
+      ]
+    },
+    {
+      "id": "social",
+      "title": "社媒与社区",
+      "intro": "本次保留官网引用的社媒与社区链接。账号归属、帖子内容和互动数据需要进一步核对。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "timeline",
+      "title": "事件时间线",
+      "intro": "仅展示来源中明确给出日期的事件，采集时间另列。产品更新可以帮助理解推广内容的背景。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "competitors",
+      "title": "竞品研究线索",
+      "intro": "本轮采集围绕单个产品。可按目标客户、解决的问题和购买方式，再添加相关产品进行研究。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "appendix",
+      "title": "来源与数据缺口",
+      "intro": "报告保留了本次采集的来源快照。缺失指标保持为空，观察到的动作与分析建议分别呈现。",
+      "facts": [],
+      "action_ids": []
+    }
+  ],
+  "metrics": [],
+  "gaps": [
+    "已确认的产品官网及官网页面资料",
+    "连续收入序列和已核验 MRR",
+    "真实访问量及渠道占比",
+    "搜索关键词排名与点击数据",
+    "社媒帖子、互动和渠道转化数据",
+    "可解析的定价页",
+    "开源状态与许可证（本轮未确认公开仓库）",
+    "独立核对过的竞品比较"
+  ],
+  "warnings": [
+    "已尝试自动查找官网，公开线索尚不足以确认；本份仅根据 Product Hunt 公开订阅生成，稍后自动重试。"
+  ],
+  "discovered_accounts": [],
+  "website_resolution": {
+    "status": "unresolved",
+    "checked_at": "2026-11-21T09:42:10+00:00",
+    "website": null,
+    "method": null,
+    "evidence": [],
+    "attempts": [
+      {
+        "provider": "Product Hunt 发布链接",
+        "url": "https://www.producthunt.com/r/p/1322372?app_id=339",
+        "message": "来源返回 HTTP 403"
+      },
+      {
+        "provider": "公开产品目录",
+        "url": "https://hunted.space/product/backspin",
+        "message": "已读取同一产品的公开介绍与显式链接"
+      },
+      {
+        "provider": "Hacker News 公开搜索",
+        "url": "https://hn.algolia.com/api/v1/search?query=Backspin&tags=story&restrictSearchableAttributes=title&hitsPerPage=5",
+        "message": "已检索公开发布链接"
+      },
+      {
+        "provider": "官网核对",
+        "url": "https://backspinit.com/",
+        "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1007)"
+      }
+    ],
+    "message": "公开线索尚不足以确认官网，保留发布简报；稍后自动重试。"
+  }
+}

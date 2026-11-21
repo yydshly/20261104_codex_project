@@ -1,0 +1,2915 @@
+{
+  "published_at": "2026-11-21T18:52:58+08:00",
+  "mode": "public-snapshot",
+  "projects": [
+    {
+      "id": "eb04023657eb431a85f2f0057fd0e92a",
+      "identity": "beatwatcher.app",
+      "website": "https://beatwatcher.app/",
+      "name": "Beat Watcher",
+      "category": "软件工具",
+      "github": "",
+      "description": "Real-time heart rate monitoring with customizable threshold alerts for Apple Watch. Background mode, haptic feedback, and support for POTS, ME/CFS, and stress tracking.",
+      "created_at": "2026-11-21T09:10:59+00:00",
+      "updated_at": "2026-11-21T09:42:25+00:00",
+      "hidden_reason": "",
+      "description_zh": "为 Apple Watch 提供实时心率监测和可自定义阈值的提醒，具备后台模式与触觉反馈。官网列出的使用场景包括 POTS、ME/CFS 和压力跟踪。",
+      "source_count": 2,
+      "action_count": 1,
+      "channels": [
+        "产品发布"
+      ],
+      "coverage": "website",
+      "listing_count": 1,
+      "version": 2,
+      "generated_at": "2026-11-21T09:42:25+00:00",
+      "mode": "evidence",
+      "metrics": [],
+      "gap_count": 7,
+      "summary": "围绕 Beat Watcher 核对了 2 份公开资料，整理出 1 条入口与动作。可继续研究的方向包括产品发布。",
+      "website_resolution": {
+        "status": "confirmed",
+        "checked_at": "2026-11-21T09:42:19+00:00",
+        "website": "https://beatwatcher.app/",
+        "method": "apple_developer_website",
+        "evidence": [
+          {
+            "url": "https://itunes.apple.com/search?term=Beat+Watcher&entity=software&country=us&limit=5",
+            "title": "Apple 官方应用搜索",
+            "detail": "名称与功能匹配，返回开发者提交的官网 sellerUrl。"
+          },
+          {
+            "url": "https://apps.apple.com/us/app/id1546373421",
+            "title": "Beat Watcher: Heart Rate Alert",
+            "detail": "匹配应用记录，App ID 1546373421"
+          },
+          {
+            "url": "https://beatwatcher.app/",
+            "title": "Beat Watcher: Heart Rate Alert App for Apple Watch",
+            "detail": "官网产品名称与功能匹配；回链到同一 App Store 应用。",
+            "matched_terms": [
+              "alert",
+              "alerts",
+              "apple",
+              "background",
+              "below",
+              "choose",
+              "critical",
+              "crown",
+              "csv",
+              "digital",
+              "disturb",
+              "down"
+            ]
+          }
+        ],
+        "attempts": [
+          {
+            "provider": "Product Hunt 发布链接",
+            "url": "https://www.producthunt.com/r/p/1317062?app_id=339",
+            "message": "来源返回 HTTP 403"
+          },
+          {
+            "provider": "公开产品目录",
+            "url": "https://hunted.space/product/beat-watcher",
+            "message": "已读取同一产品的公开介绍与显式链接"
+          },
+          {
+            "provider": "Apple 官方应用搜索",
+            "url": "https://itunes.apple.com/search?term=Beat+Watcher&entity=software&country=us&limit=5",
+            "message": "已按产品名称与功能筛选，未采用同名但用途不同的 App"
+          }
+        ],
+        "message": "已自动核对官网名称、功能与产品回链，继续采集公开资料。",
+        "identity": "beatwatcher.app"
+      }
+    },
+    {
+      "id": "8e73d5dac16d4e3aa7f50d1ed6bd9bae",
+      "identity": "jasoneliphalet.com/hollr",
+      "website": "https://jasoneliphalet.com/hollr",
+      "name": "Hollr",
+      "category": "软件工具",
+      "github": "",
+      "description": "Push-to-talk for your family on iPhone and Apple Watch, even a kid's watch without an iPhone. Free for two, up to 12 with Hollr Family. No accounts, no ads.",
+      "created_at": "2026-11-21T09:10:59+00:00",
+      "updated_at": "2026-11-21T09:42:19+00:00",
+      "hidden_reason": "",
+      "description_zh": "在 iPhone 和 Apple Watch 上为家人提供按键通话，也支持没有配套 iPhone 的儿童手表。两人使用免费，Hollr Family 最多支持 12 人；无需注册账号，无广告。",
+      "source_count": 2,
+      "action_count": 1,
+      "channels": [
+        "产品发布"
+      ],
+      "coverage": "website",
+      "listing_count": 1,
+      "version": 2,
+      "generated_at": "2026-11-21T09:42:19+00:00",
+      "mode": "evidence",
+      "metrics": [],
+      "gap_count": 6,
+      "summary": "围绕 Hollr 核对了 2 份公开资料，整理出 1 条入口与动作。可继续研究的方向包括产品发布。",
+      "website_resolution": {
+        "status": "confirmed",
+        "checked_at": "2026-11-21T09:42:14+00:00",
+        "website": "https://jasoneliphalet.com/hollr",
+        "method": "apple_developer_website",
+        "evidence": [
+          {
+            "url": "https://itunes.apple.com/search?term=Hollr&entity=software&country=us&limit=5",
+            "title": "Apple 官方应用搜索",
+            "detail": "名称与功能匹配，返回开发者提交的官网 sellerUrl。"
+          },
+          {
+            "url": "https://apps.apple.com/us/app/id6831921517",
+            "title": "Hollr: Family Walkie-Talkie",
+            "detail": "匹配应用记录，App ID 6831921517"
+          },
+          {
+            "url": "https://jasoneliphalet.com/hollr",
+            "title": "Hollr: Family Walkie-Talkie for iPhone and Apple Watch",
+            "detail": "官网产品名称与功能匹配；回链到同一 App Store 应用。",
+            "matched_terms": [
+              "apple",
+              "button",
+              "family",
+              "hold",
+              "including",
+              "iphone",
+              "kids",
+              "let",
+              "listen",
+              "message",
+              "people",
+              "push"
+            ]
+          }
+        ],
+        "attempts": [
+          {
+            "provider": "Product Hunt 发布链接",
+            "url": "https://www.producthunt.com/r/p/1320275?app_id=339",
+            "message": "来源返回 HTTP 403"
+          },
+          {
+            "provider": "公开产品目录",
+            "url": "https://hunted.space/product/hollr-3",
+            "message": "已读取同一产品的公开介绍与显式链接"
+          },
+          {
+            "provider": "Apple 官方应用搜索",
+            "url": "https://itunes.apple.com/search?term=Hollr&entity=software&country=us&limit=5",
+            "message": "已按产品名称与功能筛选，未采用同名但用途不同的 App"
+          }
+        ],
+        "message": "已自动核对官网名称、功能与产品回链，继续采集公开资料。",
+        "identity": "jasoneliphalet.com/hollr"
+      }
+    },
+    {
+      "id": "e0cb7410c718490daff583cd43aca794",
+      "identity": "producthunt:products/backspin",
+      "website": "https://www.producthunt.com/products/backspin",
+      "name": "Backspin",
+      "category": "软件工具",
+      "github": "",
+      "description": "Learn to DJ in your browser, on real vinyl decks",
+      "created_at": "2026-11-21T09:10:59+00:00",
+      "updated_at": "2026-11-21T09:42:14+00:00",
+      "hidden_reason": "",
+      "description_zh": "在浏览器中通过黑胶唱盘学习 DJ 打碟。",
+      "source_count": 1,
+      "action_count": 1,
+      "channels": [
+        "产品发布"
+      ],
+      "coverage": "listing_only",
+      "listing_count": 1,
+      "version": 2,
+      "generated_at": "2026-11-21T09:42:14+00:00",
+      "mode": "evidence",
+      "metrics": [],
+      "gap_count": 8,
+      "summary": "根据公开订阅整理了 Backspin 的产品简介与发布记录。本份为发布简报，尚未取得已确认的官网、定价、流量或收入数据。",
+      "website_resolution": {
+        "status": "unresolved",
+        "checked_at": "2026-11-21T09:42:10+00:00",
+        "website": null,
+        "method": null,
+        "evidence": [],
+        "attempts": [
+          {
+            "provider": "Product Hunt 发布链接",
+            "url": "https://www.producthunt.com/r/p/1322372?app_id=339",
+            "message": "来源返回 HTTP 403"
+          },
+          {
+            "provider": "公开产品目录",
+            "url": "https://hunted.space/product/backspin",
+            "message": "已读取同一产品的公开介绍与显式链接"
+          },
+          {
+            "provider": "Hacker News 公开搜索",
+            "url": "https://hn.algolia.com/api/v1/search?query=Backspin&tags=story&restrictSearchableAttributes=title&hitsPerPage=5",
+            "message": "已检索公开发布链接"
+          },
+          {
+            "provider": "官网核对",
+            "url": "https://backspinit.com/",
+            "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1007)"
+          }
+        ],
+        "message": "公开线索尚不足以确认官网，保留发布简报；稍后自动重试。"
+      }
+    },
+    {
+      "id": "8c6eeb15980f4656afe1749ac1c61cf0",
+      "identity": "producthunt:products/prompt-puncher",
+      "website": "https://www.producthunt.com/products/prompt-puncher",
+      "name": "Prompt Puncher",
+      "category": "软件工具",
+      "github": "",
+      "description": "The AI CEO Fighting Game",
+      "created_at": "2026-11-21T09:10:59+00:00",
+      "updated_at": "2026-11-21T09:42:10+00:00",
+      "hidden_reason": "",
+      "description_zh": "以 AI 公司 CEO 为主题的格斗游戏。",
+      "source_count": 1,
+      "action_count": 1,
+      "channels": [
+        "产品发布"
+      ],
+      "coverage": "listing_only",
+      "listing_count": 1,
+      "version": 2,
+      "generated_at": "2026-11-21T09:42:10+00:00",
+      "mode": "evidence",
+      "metrics": [],
+      "gap_count": 8,
+      "summary": "根据公开订阅整理了 Prompt Puncher 的产品简介与发布记录。本份为发布简报，尚未取得已确认的官网、定价、流量或收入数据。",
+      "website_resolution": {
+        "status": "unresolved",
+        "checked_at": "2026-11-21T09:42:06+00:00",
+        "website": null,
+        "method": null,
+        "evidence": [],
+        "attempts": [
+          {
+            "provider": "Product Hunt 发布链接",
+            "url": "https://www.producthunt.com/r/p/1320677?app_id=339",
+            "message": "来源返回 HTTP 403"
+          },
+          {
+            "provider": "公开产品目录",
+            "url": "https://hunted.space/product/prompt-puncher",
+            "message": "已读取同一产品的公开介绍与显式链接"
+          },
+          {
+            "provider": "Hacker News 公开搜索",
+            "url": "https://hn.algolia.com/api/v1/search?query=Prompt+Puncher&tags=story&restrictSearchableAttributes=title&hitsPerPage=5",
+            "message": "已检索公开发布链接"
+          }
+        ],
+        "message": "公开线索尚不足以确认官网，保留发布简报；稍后自动重试。"
+      }
+    },
+    {
+      "id": "9775141a1f664f209c77593cd361e9cf",
+      "identity": "altercontacts.ai",
+      "website": "https://altercontacts.ai/",
+      "name": "Alter Contacts",
+      "category": "软件工具",
+      "github": "",
+      "description": "A personal AI assistant for people whose business runs on client relationships. Talk to it after a meeting; it files what was said, notices who needs attention, and drafts the next move for you to approve.",
+      "created_at": "2026-11-21T09:10:59+00:00",
+      "updated_at": "2026-11-21T09:42:06+00:00",
+      "hidden_reason": "",
+      "description_zh": "面向依靠客户关系开展业务的人士的个人 AI 助手。会后通过语音记录交流内容，由它整理资料、提示需要跟进的客户，并起草后续行动供用户确认。",
+      "source_count": 4,
+      "action_count": 2,
+      "channels": [
+        "产品发布",
+        "内容营销"
+      ],
+      "coverage": "website",
+      "listing_count": 1,
+      "version": 2,
+      "generated_at": "2026-11-21T09:42:06+00:00",
+      "mode": "evidence",
+      "metrics": [],
+      "gap_count": 6,
+      "summary": "围绕 Alter Contacts 核对了 4 份公开资料，整理出 2 条入口与动作。可继续研究的方向包括产品发布、内容营销。",
+      "website_resolution": {
+        "status": "confirmed",
+        "checked_at": "2026-11-21T09:41:58+00:00",
+        "website": "https://altercontacts.ai/",
+        "method": "public_directory",
+        "evidence": [
+          {
+            "url": "https://hunted.space/product/alter-contacts-ai-client-relationships",
+            "title": "Alter Contacts · 公开目录",
+            "detail": "同名产品且链接到相同 Product Hunt 记录；第三方线索仅用于官网核对。"
+          },
+          {
+            "url": "https://altercontacts.ai/",
+            "title": "AlterContacts: the AI client relationship assistant for advisors",
+            "detail": "官网产品名称与功能匹配；回链到同一 Product Hunt 产品记录。",
+            "matched_terms": [
+              "about",
+              "advisors",
+              "altercontacts",
+              "approval",
+              "assistant",
+              "brokers",
+              "built",
+              "client",
+              "consultants",
+              "crm",
+              "data",
+              "details"
+            ]
+          }
+        ],
+        "attempts": [
+          {
+            "provider": "Product Hunt 发布链接",
+            "url": "https://www.producthunt.com/r/p/1320128?app_id=339",
+            "message": "来源返回 HTTP 403"
+          },
+          {
+            "provider": "公开产品目录",
+            "url": "https://hunted.space/product/alter-contacts-ai-client-relationships",
+            "message": "已读取同一产品的公开介绍与显式链接"
+          }
+        ],
+        "message": "已自动核对官网名称、功能与产品回链，继续采集公开资料。",
+        "identity": "altercontacts.ai"
+      }
+    },
+    {
+      "id": "f930f1bc70ff4a9cb2757b1bc1f42748",
+      "identity": "triremes.com",
+      "website": "https://triremes.com/",
+      "name": "Triremes",
+      "category": "软件工具",
+      "github": "",
+      "description": "Triremes is a marketplace of SEO and AEO leads: business websites that fail search and AI search checks, sold to agencies and web designers, $1 to $29 each.",
+      "created_at": "2026-11-21T08:52:08+00:00",
+      "updated_at": "2026-11-21T08:52:26+00:00",
+      "hidden_reason": "",
+      "description_zh": "面向营销机构和网站设计师的 SEO/AEO 销售线索市场，提供在搜索与 AI 搜索检查中存在问题的企业网站线索，每条售价 1 至 29 美元。",
+      "source_count": 4,
+      "action_count": 2,
+      "channels": [
+        "产品发布",
+        "内容营销"
+      ],
+      "coverage": "website",
+      "listing_count": 1,
+      "version": 1,
+      "generated_at": "2026-11-21T08:52:25+00:00",
+      "mode": "evidence",
+      "metrics": [],
+      "gap_count": 6,
+      "summary": "围绕 Triremes 核对了 4 份公开资料，整理出 2 条入口与动作。可继续研究的方向包括产品发布、内容营销。",
+      "website_resolution": {}
+    },
+    {
+      "id": "6181b429127c4c3d94388d9d9c6ee2da",
+      "identity": "trymova.app",
+      "website": "https://trymova.app/",
+      "name": "Mova",
+      "category": "软件工具",
+      "github": "",
+      "description": "Mova is an AI job search tool. It scans 30+ job boards every day, matches new roles to your profile and writes your application strategy. Free for 7 days.",
+      "created_at": "2026-11-21T08:52:07+00:00",
+      "updated_at": "2026-11-21T08:52:20+00:00",
+      "hidden_reason": "",
+      "description_zh": "Mova 是 AI 求职工具，每天扫描 30 多个招聘网站，将新岗位与个人资料匹配并生成求职申请策略，提供 7 天免费体验。",
+      "source_count": 3,
+      "action_count": 2,
+      "channels": [
+        "产品发布",
+        "内容营销"
+      ],
+      "coverage": "website",
+      "listing_count": 1,
+      "version": 1,
+      "generated_at": "2026-11-21T08:52:19+00:00",
+      "mode": "evidence",
+      "metrics": [],
+      "gap_count": 7,
+      "summary": "围绕 Mova 核对了 3 份公开资料，整理出 2 条入口与动作。可继续研究的方向包括产品发布、内容营销。",
+      "website_resolution": {}
+    },
+    {
+      "id": "d09ac17cd28b472c8dbd3dd6525c2a48",
+      "identity": "tooljet.com",
+      "website": "https://tooljet.com/",
+      "name": "ToolJet",
+      "category": "自动化",
+      "github": "https://github.com/ToolJet/ToolJet",
+      "description": "ToolJet is the open-source, AI-native low-code platform for internal tools. Build with AI, Visual Builder or React Builder, on ToolJet Cloud or self-hosted.",
+      "created_at": "2026-11-21T08:52:07+00:00",
+      "updated_at": "2026-11-21T08:52:18+00:00",
+      "hidden_reason": "",
+      "description_zh": "ToolJet 是面向内部工具的开源 AI 低代码平台，支持通过 AI、可视化构建器或 React 构建器开发，提供云服务和自托管部署。",
+      "source_count": 9,
+      "action_count": 9,
+      "channels": [
+        "产品发布",
+        "产品更新",
+        "产品试用",
+        "开发者生态",
+        "项目历史"
+      ],
+      "coverage": "website",
+      "listing_count": 1,
+      "version": 1,
+      "generated_at": "2026-11-21T08:52:16+00:00",
+      "mode": "evidence",
+      "metrics": [
+        {
+          "name": "GitHub Stars",
+          "value": 41270,
+          "unit": "stars",
+          "source_id": "s-067f046a6a82cf3a",
+          "observed_at": "2026-11-21T08:52:15+00:00"
+        },
+        {
+          "name": "Forks",
+          "value": 5516,
+          "unit": "forks",
+          "source_id": "s-067f046a6a82cf3a",
+          "observed_at": "2026-11-21T08:52:15+00:00"
+        }
+      ],
+      "gap_count": 5,
+      "summary": "围绕 ToolJet 核对了 9 份公开资料，整理出 9 条入口与动作。可继续研究的方向包括产品发布、产品试用、开发者生态。",
+      "website_resolution": {}
+    },
+    {
+      "id": "a695f7ddd20f4cc78ef459a6f022ba16",
+      "identity": "hydromancer.xyz",
+      "website": "https://hydromancer.xyz/",
+      "name": "Hydromancer",
+      "category": "软件工具",
+      "github": "",
+      "description": "Hydromancer is a Hyperliquid data provider: REST API, WebSocket streams, L2/L4 orderbook feeds and historical data. Used by 100+ teams on Hyperliquid.",
+      "created_at": "2026-11-21T08:52:07+00:00",
+      "updated_at": "2026-11-21T08:52:12+00:00",
+      "hidden_reason": "",
+      "description_zh": "Hydromancer 为 Hyperliquid 生态提供数据服务，包括 REST API、WebSocket 数据流、L2/L4 订单簿和历史数据。官网称已有 100 多个团队使用。",
+      "source_count": 5,
+      "action_count": 3,
+      "channels": [
+        "产品发布",
+        "使用教育",
+        "内容营销"
+      ],
+      "coverage": "website",
+      "listing_count": 1,
+      "version": 1,
+      "generated_at": "2026-11-21T08:52:11+00:00",
+      "mode": "evidence",
+      "metrics": [],
+      "gap_count": 6,
+      "summary": "围绕 Hydromancer 核对了 5 份公开资料，整理出 3 条入口与动作。可继续研究的方向包括产品发布、使用教育、内容营销。",
+      "website_resolution": {}
+    },
+    {
+      "id": "5b3f2a59173e41499f9bd8e6087f5b31",
+      "identity": "netdata.cloud",
+      "website": "https://www.netdata.cloud/",
+      "name": "netdata",
+      "category": "开发者工具",
+      "github": "https://github.com/netdata/netdata",
+      "description": "Netdata: per-second observability for your team and your AI agents. Metrics, logs and traces, anomaly detection on every metric, and an AI SRE that shows you the root cause. Your data never leaves your infrastructure.",
+      "created_at": "2026-11-21T08:03:49+00:00",
+      "updated_at": "2026-11-21T08:04:41+00:00",
+      "hidden_reason": "",
+      "description_zh": "为团队和 AI 智能体提供秒级可观测能力，涵盖指标、日志、链路和指标异常检测，并通过 AI SRE 辅助定位根因。官网强调数据留在自己的基础设施内。",
+      "source_count": 9,
+      "action_count": 8,
+      "channels": [
+        "产品更新",
+        "产品试用",
+        "内容营销",
+        "开发者生态",
+        "项目历史"
+      ],
+      "coverage": "website",
+      "listing_count": 0,
+      "version": 1,
+      "generated_at": "2026-11-21T08:04:28+00:00",
+      "mode": "evidence",
+      "metrics": [
+        {
+          "name": "GitHub Stars",
+          "value": 81565,
+          "unit": "stars",
+          "source_id": "s-046d80cd7ea62016",
+          "observed_at": "2026-11-21T08:04:27+00:00"
+        },
+        {
+          "name": "Forks",
+          "value": 6741,
+          "unit": "forks",
+          "source_id": "s-046d80cd7ea62016",
+          "observed_at": "2026-11-21T08:04:27+00:00"
+        }
+      ],
+      "gap_count": 5,
+      "summary": "围绕 netdata 核对了 9 份公开资料，整理出 8 条入口与动作。可继续研究的方向包括产品试用、内容营销、开发者生态。",
+      "website_resolution": {}
+    },
+    {
+      "id": "d5486caab6d646f9b17711d0804840ff",
+      "identity": "uptime.kuma.pet",
+      "website": "https://uptime.kuma.pet/",
+      "name": "uptime-kuma",
+      "category": "开发者工具",
+      "github": "https://github.com/louislam/uptime-kuma",
+      "description": "A self-hosted monitoring tool",
+      "created_at": "2026-11-21T08:03:48+00:00",
+      "updated_at": "2026-11-21T08:04:23+00:00",
+      "hidden_reason": "",
+      "description_zh": "可自托管的监控工具。",
+      "source_count": 8,
+      "action_count": 8,
+      "channels": [
+        "产品更新",
+        "使用教育",
+        "开发者生态",
+        "项目历史"
+      ],
+      "coverage": "website",
+      "listing_count": 0,
+      "version": 1,
+      "generated_at": "2026-11-21T08:04:20+00:00",
+      "mode": "evidence",
+      "metrics": [
+        {
+          "name": "GitHub Stars",
+          "value": 94725,
+          "unit": "stars",
+          "source_id": "s-05b853ba300b6a89",
+          "observed_at": "2026-11-21T08:04:19+00:00"
+        },
+        {
+          "name": "Forks",
+          "value": 8861,
+          "unit": "forks",
+          "source_id": "s-05b853ba300b6a89",
+          "observed_at": "2026-11-21T08:04:19+00:00"
+        }
+      ],
+      "gap_count": 6,
+      "summary": "围绕 uptime-kuma 核对了 8 份公开资料，整理出 8 条入口与动作。可继续研究的方向包括使用教育、开发者生态。",
+      "website_resolution": {}
+    },
+    {
+      "id": "308431ca613c4b6a85574e3270f7d72f",
+      "identity": "stirling.com",
+      "website": "https://www.stirling.com/",
+      "name": "Stirling-PDF",
+      "category": "软件工具",
+      "github": "https://github.com/Stirling-Tools/Stirling-PDF",
+      "description": "A free, private PDF editor you can run on any infrastructure.",
+      "created_at": "2026-11-21T08:03:48+00:00",
+      "updated_at": "2026-11-21T08:04:16+00:00",
+      "hidden_reason": "",
+      "description_zh": "免费、注重隐私的 PDF 编辑器，可在自己的基础设施中部署运行。",
+      "source_count": 9,
+      "action_count": 8,
+      "channels": [
+        "产品更新",
+        "内容营销",
+        "开发者生态",
+        "项目历史"
+      ],
+      "coverage": "website",
+      "listing_count": 0,
+      "version": 1,
+      "generated_at": "2026-11-21T08:04:13+00:00",
+      "mode": "evidence",
+      "metrics": [
+        {
+          "name": "GitHub Stars",
+          "value": 97126,
+          "unit": "stars",
+          "source_id": "s-a368faa9ac2a6f5c",
+          "observed_at": "2026-11-21T08:04:11+00:00"
+        },
+        {
+          "name": "Forks",
+          "value": 9386,
+          "unit": "forks",
+          "source_id": "s-a368faa9ac2a6f5c",
+          "observed_at": "2026-11-21T08:04:11+00:00"
+        }
+      ],
+      "gap_count": 5,
+      "summary": "围绕 Stirling-PDF 核对了 9 份公开资料，整理出 8 条入口与动作。可继续研究的方向包括内容营销、开发者生态。",
+      "website_resolution": {}
+    },
+    {
+      "id": "7c7ba91e64ab48d6aabf776b0c519f46",
+      "identity": "immich.app",
+      "website": "https://immich.app/",
+      "name": "immich",
+      "category": "软件工具",
+      "github": "https://github.com/immich-app/immich",
+      "description": "Self-hosted photo and video management solution. Easily back up, organize, and manage your photos on your own server. Immich helps you browse, search and organize your photos and videos with ease, without sacrificing your privacy.",
+      "created_at": "2026-11-21T08:03:48+00:00",
+      "updated_at": "2026-11-21T08:04:07+00:00",
+      "hidden_reason": "",
+      "description_zh": "可自托管的照片和视频管理方案。在自己的服务器上备份、整理、浏览和搜索照片与视频，同时保护个人隐私。",
+      "source_count": 8,
+      "action_count": 8,
+      "channels": [
+        "产品更新",
+        "内容营销",
+        "开发者生态",
+        "项目历史"
+      ],
+      "coverage": "website",
+      "listing_count": 0,
+      "version": 1,
+      "generated_at": "2026-11-21T08:04:03+00:00",
+      "mode": "evidence",
+      "metrics": [
+        {
+          "name": "GitHub Stars",
+          "value": 119753,
+          "unit": "stars",
+          "source_id": "s-bfefa0db462ca5c0",
+          "observed_at": "2026-11-21T08:04:02+00:00"
+        },
+        {
+          "name": "Forks",
+          "value": 7663,
+          "unit": "forks",
+          "source_id": "s-bfefa0db462ca5c0",
+          "observed_at": "2026-11-21T08:04:02+00:00"
+        }
+      ],
+      "gap_count": 6,
+      "summary": "围绕 immich 核对了 8 份公开资料，整理出 8 条入口与动作。可继续研究的方向包括内容营销、开发者生态。",
+      "website_resolution": {}
+    },
+    {
+      "id": "6390e18a5505408ea8920f1339a6a9ec",
+      "identity": "openwebui.com",
+      "website": "https://openwebui.com/",
+      "name": "open-webui",
+      "category": "软件工具",
+      "github": "https://github.com/open-webui/open-webui",
+      "description": "Run AI on your own terms. Connect any model, extend with code, and protect what matters without compromise.",
+      "created_at": "2026-11-21T08:03:47+00:00",
+      "updated_at": "2026-11-21T08:03:59+00:00",
+      "hidden_reason": "",
+      "description_zh": "按自己的需求运行 AI，可连接任意模型、通过代码扩展，并自主保护重要数据。",
+      "source_count": 8,
+      "action_count": 8,
+      "channels": [
+        "产品更新",
+        "内容营销",
+        "开发者生态",
+        "项目历史"
+      ],
+      "coverage": "website",
+      "listing_count": 0,
+      "version": 1,
+      "generated_at": "2026-11-21T08:03:56+00:00",
+      "mode": "evidence",
+      "metrics": [
+        {
+          "name": "GitHub Stars",
+          "value": 159188,
+          "unit": "stars",
+          "source_id": "s-7c94eb734f17ebfc",
+          "observed_at": "2026-11-21T08:03:54+00:00"
+        },
+        {
+          "name": "Forks",
+          "value": 23104,
+          "unit": "forks",
+          "source_id": "s-7c94eb734f17ebfc",
+          "observed_at": "2026-11-21T08:03:54+00:00"
+        }
+      ],
+      "gap_count": 6,
+      "summary": "围绕 open-webui 核对了 8 份公开资料，整理出 8 条入口与动作。可继续研究的方向包括内容营销、开发者生态。",
+      "website_resolution": {}
+    },
+    {
+      "id": "f09afe7755834678b72699d3bfa1dcce",
+      "identity": "buffer.com",
+      "website": "https://buffer.com/",
+      "name": "Buffer",
+      "category": "内容与营销",
+      "github": "",
+      "description": "Use Buffer to manage your social media so that you can create and share your content everywhere, consistently. Try our forever free plan or upgrade for more.",
+      "created_at": "2026-11-21T07:30:21+00:00",
+      "updated_at": "2026-11-21T07:31:23+00:00",
+      "hidden_reason": "",
+      "description_zh": "用 Buffer 管理社交媒体，持续在各个平台创作和发布内容。提供永久免费方案，也可升级获得更多功能。",
+      "source_count": 4,
+      "action_count": 3,
+      "channels": [
+        "产品试用",
+        "使用教育",
+        "内容营销"
+      ],
+      "coverage": "website",
+      "listing_count": 0,
+      "version": 1,
+      "generated_at": "2026-11-21T07:31:23+00:00",
+      "mode": "evidence",
+      "metrics": [],
+      "gap_count": 7,
+      "summary": "围绕 Buffer 核对了 4 份公开资料，整理出 3 条入口与动作。可继续研究的方向包括产品试用、使用教育、内容营销。",
+      "website_resolution": {}
+    },
+    {
+      "id": "4e3a5bfd66a641ada8707703d3103994",
+      "identity": "tally.so",
+      "website": "https://tally.so/",
+      "name": "Tally",
+      "category": "表单工具",
+      "github": "",
+      "description": "The simplest way to create beautiful, professional forms in seconds. Unlimited forms, unlimited submissions, forever free. Just start typing - no coding needed.",
+      "created_at": "2026-11-21T07:30:20+00:00",
+      "updated_at": "2026-11-21T07:31:20+00:00",
+      "hidden_reason": "",
+      "description_zh": "几秒内创建美观、专业的在线表单。表单数量和提交次数不限，永久免费，直接输入即可创建，无需编程。",
+      "source_count": 2,
+      "action_count": 0,
+      "channels": [],
+      "coverage": "website",
+      "listing_count": 0,
+      "version": 1,
+      "generated_at": "2026-11-21T07:31:20+00:00",
+      "mode": "evidence",
+      "metrics": [],
+      "gap_count": 7,
+      "summary": "围绕 Tally 核对了 2 份公开资料，整理出 0 条入口与动作。",
+      "website_resolution": {}
+    },
+    {
+      "id": "41282286f13c4272ab99fae62df67917",
+      "identity": "supabase.com",
+      "website": "https://supabase.com/",
+      "name": "Supabase",
+      "category": "开发者工具",
+      "github": "https://github.com/supabase/supabase",
+      "description": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
+      "created_at": "2026-11-21T07:30:20+00:00",
+      "updated_at": "2026-11-21T07:31:16+00:00",
+      "hidden_reason": "",
+      "description_zh": "基于 Postgres 构建可用于生产环境的应用，提供身份认证、即时 API、实时数据、函数、存储和向量嵌入，支持免费起步。",
+      "source_count": 10,
+      "action_count": 9,
+      "channels": [
+        "产品更新",
+        "使用教育",
+        "内容营销",
+        "开发者生态",
+        "项目历史"
+      ],
+      "coverage": "website",
+      "listing_count": 0,
+      "version": 1,
+      "generated_at": "2026-11-21T07:31:16+00:00",
+      "mode": "evidence",
+      "metrics": [
+        {
+          "name": "GitHub Stars",
+          "value": 115211,
+          "unit": "stars",
+          "source_id": "s-2b5226bf08105545",
+          "observed_at": "2026-11-21T07:31:15+00:00"
+        },
+        {
+          "name": "Forks",
+          "value": 15138,
+          "unit": "forks",
+          "source_id": "s-2b5226bf08105545",
+          "observed_at": "2026-11-21T07:31:15+00:00"
+        }
+      ],
+      "gap_count": 5,
+      "summary": "围绕 Supabase 核对了 10 份公开资料，整理出 9 条入口与动作。可继续研究的方向包括使用教育、内容营销、开发者生态。",
+      "website_resolution": {}
+    },
+    {
+      "id": "c3c59b81e3084d5eb0c6ae9002cf15f6",
+      "identity": "novu.co",
+      "website": "https://www.novu.co/",
+      "name": "Novu",
+      "category": "开发者工具",
+      "github": "https://github.com/novuhq/novu",
+      "description": "Novu is the open-source notification and agent communication infrastructure. Connect AI agents and products to customers across in-app, email, SMS, push, WhatsApp, Slack, Microsoft Teams, and Telegram with one API. Start with npx novu connect.",
+      "created_at": "2026-11-21T07:30:20+00:00",
+      "updated_at": "2026-11-21T07:31:11+00:00",
+      "hidden_reason": "",
+      "description_zh": "面向产品和 AI 智能体的开源通知与通信基础设施。通过统一 API 连接应用内通知、邮件、短信、推送、WhatsApp、Slack、Microsoft Teams 和 Telegram 等渠道。",
+      "source_count": 10,
+      "action_count": 8,
+      "channels": [
+        "产品更新",
+        "使用教育",
+        "内容营销",
+        "开发者生态",
+        "项目历史"
+      ],
+      "coverage": "website",
+      "listing_count": 0,
+      "version": 1,
+      "generated_at": "2026-11-21T07:31:11+00:00",
+      "mode": "evidence",
+      "metrics": [
+        {
+          "name": "GitHub Stars",
+          "value": 40397,
+          "unit": "stars",
+          "source_id": "s-b43721e695aec821",
+          "observed_at": "2026-11-21T07:31:10+00:00"
+        },
+        {
+          "name": "Forks",
+          "value": 4566,
+          "unit": "forks",
+          "source_id": "s-b43721e695aec821",
+          "observed_at": "2026-11-21T07:31:10+00:00"
+        }
+      ],
+      "gap_count": 5,
+      "summary": "围绕 Novu 核对了 10 份公开资料，整理出 8 条入口与动作。可继续研究的方向包括使用教育、内容营销、开发者生态。",
+      "website_resolution": {}
+    },
+    {
+      "id": "c35f00c05c784dd3a66f2c63ca0d31e3",
+      "identity": "typebot.com",
+      "website": "https://typebot.com/",
+      "name": "Typebot",
+      "category": "聊天机器人",
+      "github": "https://github.com/baptisteArno/typebot.io",
+      "description": "Typebot is a no-code platform that enables you to effortlessly create and integrate advanced chatbots into websites and chat platforms like WhatsApp.",
+      "created_at": "2026-11-21T07:30:19+00:00",
+      "updated_at": "2026-11-21T07:31:06+00:00",
+      "hidden_reason": "",
+      "description_zh": "无需编程即可创建高级聊天机器人，并将其集成到网站和 WhatsApp 等聊天平台。",
+      "source_count": 8,
+      "action_count": 7,
+      "channels": [
+        "产品更新",
+        "开发者生态",
+        "项目历史"
+      ],
+      "coverage": "website",
+      "listing_count": 0,
+      "version": 1,
+      "generated_at": "2026-11-21T07:31:06+00:00",
+      "mode": "evidence",
+      "metrics": [
+        {
+          "name": "GitHub Stars",
+          "value": 10639,
+          "unit": "stars",
+          "source_id": "s-b06617ebe99fa277",
+          "observed_at": "2026-11-21T07:31:05+00:00"
+        },
+        {
+          "name": "Forks",
+          "value": 3252,
+          "unit": "forks",
+          "source_id": "s-b06617ebe99fa277",
+          "observed_at": "2026-11-21T07:31:05+00:00"
+        }
+      ],
+      "gap_count": 5,
+      "summary": "围绕 Typebot 核对了 8 份公开资料，整理出 7 条入口与动作。可继续研究的方向包括开发者生态。",
+      "website_resolution": {}
+    },
+    {
+      "id": "07240a5c5b994974af6c34d12bc9e74b",
+      "identity": "appsmith.com",
+      "website": "https://www.appsmith.com/",
+      "name": "Appsmith",
+      "category": "开发者工具",
+      "github": "https://github.com/appsmithorg/appsmith",
+      "description": "Stop grappling with data, scouring for the perfect React library, and coding everything from scratch. Build custom software 10X faster with Appsmith.",
+      "created_at": "2026-11-21T07:30:19+00:00",
+      "updated_at": "2026-11-21T07:31:02+00:00",
+      "hidden_reason": "",
+      "description_zh": "通过低代码方式构建定制软件，减少处理数据、挑选 React 组件库和从零编程的工作；官网宣称可将开发速度提升至原来的 10 倍。",
+      "source_count": 9,
+      "action_count": 8,
+      "channels": [
+        "产品更新",
+        "产品试用",
+        "内容营销",
+        "开发者生态",
+        "项目历史"
+      ],
+      "coverage": "website",
+      "listing_count": 0,
+      "version": 1,
+      "generated_at": "2026-11-21T07:31:02+00:00",
+      "mode": "evidence",
+      "metrics": [
+        {
+          "name": "GitHub Stars",
+          "value": 41284,
+          "unit": "stars",
+          "source_id": "s-395bd10bb47f4dff",
+          "observed_at": "2026-11-21T07:31:00+00:00"
+        },
+        {
+          "name": "Forks",
+          "value": 4849,
+          "unit": "forks",
+          "source_id": "s-395bd10bb47f4dff",
+          "observed_at": "2026-11-21T07:31:00+00:00"
+        }
+      ],
+      "gap_count": 5,
+      "summary": "围绕 Appsmith 核对了 9 份公开资料，整理出 8 条入口与动作。可继续研究的方向包括产品试用、内容营销、开发者生态。",
+      "website_resolution": {}
+    },
+    {
+      "id": "3352d4cf766342bd89d45b07939c25a4",
+      "identity": "plane.so",
+      "website": "https://plane.so/",
+      "name": "Plane",
+      "category": "团队协作",
+      "github": "https://github.com/makeplane/plane",
+      "description": "Project management for teams and AI agents. Plan, track, and ship with Projects, Wiki, and AI. Available on cloud, self-hosted, and air-gapped.",
+      "created_at": "2026-11-21T07:30:19+00:00",
+      "updated_at": "2026-11-21T07:30:57+00:00",
+      "hidden_reason": "",
+      "description_zh": "面向团队和 AI 智能体的项目管理工具，通过项目、知识库和 AI 进行规划、跟踪与交付，支持云端、自托管及隔离网络部署。",
+      "source_count": 10,
+      "action_count": 10,
+      "channels": [
+        "产品更新",
+        "产品试用",
+        "使用教育",
+        "内容营销",
+        "开发者生态",
+        "项目历史"
+      ],
+      "coverage": "website",
+      "listing_count": 0,
+      "version": 1,
+      "generated_at": "2026-11-21T07:30:57+00:00",
+      "mode": "evidence",
+      "metrics": [
+        {
+          "name": "GitHub Stars",
+          "value": 62886,
+          "unit": "stars",
+          "source_id": "s-6bbd89da1a951eab",
+          "observed_at": "2026-11-21T07:30:56+00:00"
+        },
+        {
+          "name": "Forks",
+          "value": 6481,
+          "unit": "forks",
+          "source_id": "s-6bbd89da1a951eab",
+          "observed_at": "2026-11-21T07:30:56+00:00"
+        }
+      ],
+      "gap_count": 5,
+      "summary": "围绕 Plane 核对了 10 份公开资料，整理出 10 条入口与动作。可继续研究的方向包括产品试用、使用教育、内容营销、开发者生态。",
+      "website_resolution": {}
+    },
+    {
+      "id": "f708fd20b6df4597a1957b7971989d3d",
+      "identity": "twenty.com",
+      "website": "https://twenty.com/",
+      "name": "Twenty",
+      "category": "客户关系",
+      "github": "https://github.com/twentyhq/twenty",
+      "description": "The #1 Open Source CRM for modern teams. Modular, scalable, and built to fit your business.",
+      "created_at": "2026-11-21T07:30:18+00:00",
+      "updated_at": "2026-11-21T07:30:40+00:00",
+      "hidden_reason": "",
+      "description_zh": "面向现代团队的开源客户关系管理系统（CRM），支持模块化配置和扩展，可按业务需要定制。官网自称排名第一。",
+      "source_count": 8,
+      "action_count": 8,
+      "channels": [
+        "产品更新",
+        "产品试用",
+        "开发者生态",
+        "项目历史"
+      ],
+      "coverage": "website",
+      "listing_count": 0,
+      "version": 1,
+      "generated_at": "2026-11-21T07:30:40+00:00",
+      "mode": "evidence",
+      "metrics": [
+        {
+          "name": "GitHub Stars",
+          "value": 61274,
+          "unit": "stars",
+          "source_id": "s-a20220596b25af30",
+          "observed_at": "2026-11-21T07:30:39+00:00"
+        },
+        {
+          "name": "Forks",
+          "value": 10138,
+          "unit": "forks",
+          "source_id": "s-a20220596b25af30",
+          "observed_at": "2026-11-21T07:30:39+00:00"
+        }
+      ],
+      "gap_count": 5,
+      "summary": "围绕 Twenty 核对了 8 份公开资料，整理出 8 条入口与动作。可继续研究的方向包括产品试用、开发者生态。",
+      "website_resolution": {}
+    },
+    {
+      "id": "1790cbaab9934b358fb4ef56b19801e1",
+      "identity": "chatwoot.com",
+      "website": "https://www.chatwoot.com/",
+      "name": "Chatwoot",
+      "category": "客户服务",
+      "github": "https://github.com/chatwoot/chatwoot",
+      "description": "AI-powered, open-source customer support for live chat, email, WhatsApp, and social. Self-host or use our cloud: an alternative to Intercom and Zendesk.",
+      "created_at": "2026-11-21T07:30:18+00:00",
+      "updated_at": "2026-11-21T07:30:36+00:00",
+      "hidden_reason": "",
+      "description_zh": "由 AI 辅助的开源客服平台，支持在线聊天、邮件、WhatsApp 和社交媒体。可自托管或使用云服务，定位为 Intercom 和 Zendesk 的替代方案。",
+      "source_count": 10,
+      "action_count": 10,
+      "channels": [
+        "产品更新",
+        "产品试用",
+        "使用教育",
+        "内容营销",
+        "开发者生态",
+        "项目历史"
+      ],
+      "coverage": "website",
+      "listing_count": 0,
+      "version": 1,
+      "generated_at": "2026-11-21T07:30:36+00:00",
+      "mode": "evidence",
+      "metrics": [
+        {
+          "name": "GitHub Stars",
+          "value": 40274,
+          "unit": "stars",
+          "source_id": "s-6ea562cffa653c96",
+          "observed_at": "2026-11-21T07:30:34+00:00"
+        },
+        {
+          "name": "Forks",
+          "value": 9805,
+          "unit": "forks",
+          "source_id": "s-6ea562cffa653c96",
+          "observed_at": "2026-11-21T07:30:34+00:00"
+        }
+      ],
+      "gap_count": 5,
+      "summary": "围绕 Chatwoot 核对了 10 份公开资料，整理出 10 条入口与动作。可继续研究的方向包括产品试用、使用教育、内容营销、开发者生态。",
+      "website_resolution": {}
+    },
+    {
+      "id": "851813117222455996b3a659038b11e0",
+      "identity": "dub.co",
+      "website": "https://dub.co/",
+      "name": "Dub",
+      "category": "营销工具",
+      "github": "https://github.com/dubinc/dub.link",
+      "description": "Dub is the modern link attribution platform for short links, conversion tracking, and affiliate programs.",
+      "created_at": "2026-11-21T07:30:18+00:00",
+      "updated_at": "2026-11-21T07:30:30+00:00",
+      "hidden_reason": "",
+      "description_zh": "链接归因平台，提供短链接、转化追踪和联盟营销计划管理。",
+      "source_count": 6,
+      "action_count": 6,
+      "channels": [
+        "产品试用",
+        "使用教育",
+        "内容营销",
+        "开发者生态",
+        "项目历史"
+      ],
+      "coverage": "website",
+      "listing_count": 0,
+      "version": 1,
+      "generated_at": "2026-11-21T07:30:30+00:00",
+      "mode": "evidence",
+      "metrics": [
+        {
+          "name": "GitHub Stars",
+          "value": 25206,
+          "unit": "stars",
+          "source_id": "s-f46820865c3250a9",
+          "observed_at": "2026-11-21T07:30:29+00:00"
+        },
+        {
+          "name": "Forks",
+          "value": 3409,
+          "unit": "forks",
+          "source_id": "s-f46820865c3250a9",
+          "observed_at": "2026-11-21T07:30:29+00:00"
+        }
+      ],
+      "gap_count": 5,
+      "summary": "围绕 Dub 核对了 6 份公开资料，整理出 6 条入口与动作。可继续研究的方向包括产品试用、使用教育、内容营销、开发者生态。",
+      "website_resolution": {}
+    },
+    {
+      "id": "472f735f1c5841fe800838c97b8704cd",
+      "identity": "activepieces.com",
+      "website": "https://www.activepieces.com/",
+      "name": "Activepieces",
+      "category": "自动化",
+      "github": "https://github.com/activepieces/activepieces",
+      "description": "Chat, agents, flows, tables, and 770+ apps in one workspace, so your whole team works with AI in the tools they already use. Open source at the core.",
+      "created_at": "2026-11-21T07:30:17+00:00",
+      "updated_at": "2026-11-21T07:30:25+00:00",
+      "hidden_reason": "",
+      "description_zh": "在同一个工作空间中整合聊天、AI 智能体、自动化流程、表格和 770 多个应用，让团队在现有工具中使用 AI，核心代码开源。",
+      "source_count": 10,
+      "action_count": 9,
+      "channels": [
+        "产品更新",
+        "使用教育",
+        "内容营销",
+        "开发者生态",
+        "项目历史"
+      ],
+      "coverage": "website",
+      "listing_count": 0,
+      "version": 1,
+      "generated_at": "2026-11-21T07:30:25+00:00",
+      "mode": "evidence",
+      "metrics": [
+        {
+          "name": "GitHub Stars",
+          "value": 25658,
+          "unit": "stars",
+          "source_id": "s-5471379ee4ff0490",
+          "observed_at": "2026-11-21T07:30:24+00:00"
+        },
+        {
+          "name": "Forks",
+          "value": 4489,
+          "unit": "forks",
+          "source_id": "s-5471379ee4ff0490",
+          "observed_at": "2026-11-21T07:30:24+00:00"
+        }
+      ],
+      "gap_count": 5,
+      "summary": "围绕 Activepieces 核对了 10 份公开资料，整理出 9 条入口与动作。可继续研究的方向包括使用教育、内容营销、开发者生态。",
+      "website_resolution": {}
+    },
+    {
+      "id": "263b62a88b7642c792eb3db9de788dac",
+      "identity": "n8n.io",
+      "website": "https://n8n.io/",
+      "name": "n8n",
+      "category": "自动化",
+      "github": "https://github.com/n8n-io/n8n",
+      "description": "n8n is a workflow automation platform that uniquely combines AI capabilities with business process automation, giving technical teams the flexibility of code with the speed of no-code.",
+      "created_at": "2026-11-21T07:30:17+00:00",
+      "updated_at": "2026-11-21T07:30:21+00:00",
+      "hidden_reason": "",
+      "description_zh": "融合 AI 与业务流程自动化的工作流平台，让技术团队兼顾编程的灵活性和无代码工具的搭建速度。",
+      "source_count": 8,
+      "action_count": 8,
+      "channels": [
+        "产品更新",
+        "产品试用",
+        "开发者生态",
+        "项目历史"
+      ],
+      "coverage": "website",
+      "listing_count": 0,
+      "version": 1,
+      "generated_at": "2026-11-21T07:30:21+00:00",
+      "mode": "evidence",
+      "metrics": [
+        {
+          "name": "GitHub Stars",
+          "value": 211567,
+          "unit": "stars",
+          "source_id": "s-c37165a31cd3fc39",
+          "observed_at": "2026-11-21T07:30:20+00:00"
+        },
+        {
+          "name": "Forks",
+          "value": 61594,
+          "unit": "forks",
+          "source_id": "s-c37165a31cd3fc39",
+          "observed_at": "2026-11-21T07:30:20+00:00"
+        }
+      ],
+      "gap_count": 5,
+      "summary": "围绕 n8n 核对了 8 份公开资料，整理出 8 条入口与动作。可继续研究的方向包括产品试用、开发者生态。",
+      "website_resolution": {}
+    },
+    {
+      "id": "ec325f43dced45eb8e8f8d92a170e6ad",
+      "identity": "formbricks.com",
+      "website": "https://formbricks.com/",
+      "name": "Formbricks",
+      "category": "客户反馈",
+      "github": "https://github.com/formbricks/formbricks",
+      "description": "Run experience management on your own servers, in your own database. Feedback tied to revenue, unlimited seats, AI on your models.",
+      "created_at": "2026-11-21T07:21:09+00:00",
+      "updated_at": "2026-11-21T07:21:36+00:00",
+      "hidden_reason": "",
+      "description_zh": "在自己的服务器和数据库中运行体验管理平台，将用户反馈与收入关联，提供不限席位和使用自有模型的 AI 功能。",
+      "source_count": 10,
+      "action_count": 9,
+      "channels": [
+        "产品更新",
+        "使用教育",
+        "内容营销",
+        "开发者生态",
+        "项目历史"
+      ],
+      "coverage": "website",
+      "listing_count": 0,
+      "version": 1,
+      "generated_at": "2026-11-21T07:21:36+00:00",
+      "mode": "evidence",
+      "metrics": [
+        {
+          "name": "GitHub Stars",
+          "value": 13284,
+          "unit": "stars",
+          "source_id": "s-e6eafe596be3b8a8",
+          "observed_at": "2026-11-21T07:21:35+00:00"
+        },
+        {
+          "name": "Forks",
+          "value": 2628,
+          "unit": "forks",
+          "source_id": "s-e6eafe596be3b8a8",
+          "observed_at": "2026-11-21T07:21:35+00:00"
+        }
+      ],
+      "gap_count": 5,
+      "summary": "围绕 Formbricks 核对了 10 份公开资料，整理出 9 条入口与动作。可继续研究的方向包括使用教育、内容营销、开发者生态。",
+      "website_resolution": {}
+    },
+    {
+      "id": "0a35fb9eb7184e28a05f1d43c732dc3d",
+      "identity": "documenso.com",
+      "website": "https://documenso.com/",
+      "name": "Documenso",
+      "category": "电子签名",
+      "github": "https://github.com/documenso/documenso",
+      "description": "The Open Source DocuSign Alternative.",
+      "created_at": "2026-11-21T07:21:09+00:00",
+      "updated_at": "2026-11-21T07:21:32+00:00",
+      "hidden_reason": "",
+      "description_zh": "开源的电子签名工具，定位为 DocuSign 的替代方案。",
+      "source_count": 6,
+      "action_count": 7,
+      "channels": [
+        "产品更新",
+        "开发者生态",
+        "项目历史"
+      ],
+      "coverage": "repository",
+      "listing_count": 0,
+      "version": 1,
+      "generated_at": "2026-11-21T07:21:32+00:00",
+      "mode": "evidence",
+      "metrics": [
+        {
+          "name": "GitHub Stars",
+          "value": 15848,
+          "unit": "stars",
+          "source_id": "s-7cc8c3aaa602bc24",
+          "observed_at": "2026-11-21T07:21:30+00:00"
+        },
+        {
+          "name": "Forks",
+          "value": 3520,
+          "unit": "forks",
+          "source_id": "s-7cc8c3aaa602bc24",
+          "observed_at": "2026-11-21T07:21:30+00:00"
+        }
+      ],
+      "gap_count": 6,
+      "summary": "围绕 Documenso 核对了 6 份公开资料，整理出 7 条入口与动作。可继续研究的方向包括开发者生态。",
+      "website_resolution": {}
+    },
+    {
+      "id": "bf6a61990e904487b493c2cf8642cea2",
+      "identity": "cal.com",
+      "website": "https://cal.com/",
+      "name": "Cal.com",
+      "category": "日程预约",
+      "github": "https://github.com/calcom/cal.diy",
+      "description": "The highest-rated scheduling system that helps you grow your business and better find time.",
+      "created_at": "2026-11-21T07:21:09+00:00",
+      "updated_at": "2026-11-21T07:21:29+00:00",
+      "hidden_reason": "",
+      "description_zh": "日程预约系统，帮助用户安排时间并发展业务；官网称其拥有很高的用户评价。",
+      "source_count": 10,
+      "action_count": 10,
+      "channels": [
+        "产品更新",
+        "产品试用",
+        "使用教育",
+        "内容营销",
+        "开发者生态",
+        "项目历史"
+      ],
+      "coverage": "website",
+      "listing_count": 0,
+      "version": 1,
+      "generated_at": "2026-11-21T07:21:29+00:00",
+      "mode": "evidence",
+      "metrics": [
+        {
+          "name": "GitHub Stars",
+          "value": 50273,
+          "unit": "stars",
+          "source_id": "s-62dd270bed5d0f57",
+          "observed_at": "2026-11-21T07:21:28+00:00"
+        },
+        {
+          "name": "Forks",
+          "value": 15712,
+          "unit": "forks",
+          "source_id": "s-62dd270bed5d0f57",
+          "observed_at": "2026-11-21T07:21:28+00:00"
+        }
+      ],
+      "gap_count": 5,
+      "summary": "围绕 Cal.com 核对了 10 份公开资料，整理出 10 条入口与动作。可继续研究的方向包括产品试用、使用教育、内容营销、开发者生态。",
+      "website_resolution": {}
+    },
+    {
+      "id": "ebdd90d707024558b08604275723853a",
+      "identity": "umami.is",
+      "website": "https://umami.is/",
+      "name": "Umami",
+      "category": "数据分析",
+      "github": "https://github.com/umami-software/umami",
+      "description": "Umami is an open-source web and product analytics platform. Understand acquisition, behavior, conversion, and retention without cookies. Self-host or use Umami Cloud.",
+      "created_at": "2026-11-21T07:21:09+00:00",
+      "updated_at": "2026-11-21T07:21:22+00:00",
+      "hidden_reason": "",
+      "description_zh": "开源的网站与产品分析平台，无需 Cookie 即可分析获客、用户行为、转化和留存，支持自托管或使用 Umami Cloud。",
+      "source_count": 10,
+      "action_count": 10,
+      "channels": [
+        "产品更新",
+        "产品试用",
+        "使用教育",
+        "内容营销",
+        "开发者生态",
+        "项目历史"
+      ],
+      "coverage": "website",
+      "listing_count": 0,
+      "version": 1,
+      "generated_at": "2026-11-21T07:21:22+00:00",
+      "mode": "evidence",
+      "metrics": [
+        {
+          "name": "GitHub Stars",
+          "value": 40272,
+          "unit": "stars",
+          "source_id": "s-8bd06fdb87821dd0",
+          "observed_at": "2026-11-21T07:21:20+00:00"
+        },
+        {
+          "name": "Forks",
+          "value": 8611,
+          "unit": "forks",
+          "source_id": "s-8bd06fdb87821dd0",
+          "observed_at": "2026-11-21T07:21:20+00:00"
+        }
+      ],
+      "gap_count": 5,
+      "summary": "围绕 Umami 核对了 10 份公开资料，整理出 10 条入口与动作。可继续研究的方向包括产品试用、使用教育、内容营销、开发者生态。",
+      "website_resolution": {}
+    },
+    {
+      "id": "245e2880c9d64e908d1325a6e7ddb03e",
+      "identity": "postiz.com",
+      "website": "https://postiz.com/",
+      "name": "Postiz",
+      "category": "内容与营销",
+      "github": "https://github.com/gitroomhq/postiz-app",
+      "description": "Postiz is the agentic social media scheduling platform. Claude, ChatGPT, Cursor or OpenClaw plan, schedule and publish to 30+ channels from one calendar.",
+      "created_at": "2026-11-21T07:04:46+00:00",
+      "updated_at": "2026-11-21T07:11:16+00:00",
+      "hidden_reason": "",
+      "description_zh": "面向 AI 智能体的社交媒体排期平台，让 Claude、ChatGPT、Cursor 或 OpenClaw 通过统一日历规划、排期并发布内容到 30 多个渠道。",
+      "source_count": 9,
+      "action_count": 9,
+      "channels": [
+        "产品更新",
+        "产品试用",
+        "内容营销",
+        "开发者生态",
+        "项目历史"
+      ],
+      "coverage": "website",
+      "listing_count": 0,
+      "version": 3,
+      "generated_at": "2026-11-21T07:11:16+00:00",
+      "mode": "evidence",
+      "metrics": [
+        {
+          "name": "GitHub Stars",
+          "value": 42070,
+          "unit": "stars",
+          "source_id": "s-63daa2753f23acef",
+          "observed_at": "2026-11-21T07:11:15+00:00"
+        },
+        {
+          "name": "Forks",
+          "value": 8040,
+          "unit": "forks",
+          "source_id": "s-63daa2753f23acef",
+          "observed_at": "2026-11-21T07:11:15+00:00"
+        }
+      ],
+      "gap_count": 5,
+      "summary": "围绕 Postiz 核对了 9 份公开资料，整理出 9 条入口与动作。可继续研究的方向包括产品试用、内容营销、开发者生态。",
+      "website_resolution": {}
+    },
+    {
+      "id": "226c35da16d349acbed743e593e18570",
+      "identity": "plausible.io",
+      "website": "https://plausible.io/",
+      "name": "Plausible",
+      "category": "数据分析",
+      "github": "https://github.com/plausible/analytics",
+      "description": "Plausible is a lightweight and open-source Google Analytics alternative. Your website data is 100% yours and the privacy of your visitors is respected.",
+      "created_at": "2026-11-21T07:09:11+00:00",
+      "updated_at": "2026-11-21T07:11:12+00:00",
+      "hidden_reason": "",
+      "description_zh": "轻量、开源的网站分析工具，定位为 Google Analytics 的替代方案，强调用户对网站数据的所有权和访客隐私。",
+      "source_count": 9,
+      "action_count": 9,
+      "channels": [
+        "产品更新",
+        "使用教育",
+        "内容营销",
+        "开发者生态",
+        "项目历史"
+      ],
+      "coverage": "website",
+      "listing_count": 0,
+      "version": 2,
+      "generated_at": "2026-11-21T07:11:12+00:00",
+      "mode": "evidence",
+      "metrics": [
+        {
+          "name": "GitHub Stars",
+          "value": 29900,
+          "unit": "stars",
+          "source_id": "s-1322cd90adeb0862",
+          "observed_at": "2026-11-21T07:11:11+00:00"
+        },
+        {
+          "name": "Forks",
+          "value": 1945,
+          "unit": "forks",
+          "source_id": "s-1322cd90adeb0862",
+          "observed_at": "2026-11-21T07:11:11+00:00"
+        }
+      ],
+      "gap_count": 6,
+      "summary": "围绕 Plausible 核对了 9 份公开资料，整理出 9 条入口与动作。可继续研究的方向包括使用教育、内容营销、开发者生态。",
+      "website_resolution": {}
+    }
+  ],
+  "versions": {
+    "eb04023657eb431a85f2f0057fd0e92a": [
+      {
+        "version": 2,
+        "created_at": "2026-11-21T09:42:25+00:00"
+      },
+      {
+        "version": 1,
+        "created_at": "2026-11-21T09:11:00+00:00"
+      }
+    ],
+    "8e73d5dac16d4e3aa7f50d1ed6bd9bae": [
+      {
+        "version": 2,
+        "created_at": "2026-11-21T09:42:19+00:00"
+      },
+      {
+        "version": 1,
+        "created_at": "2026-11-21T09:11:00+00:00"
+      }
+    ],
+    "e0cb7410c718490daff583cd43aca794": [
+      {
+        "version": 2,
+        "created_at": "2026-11-21T09:42:14+00:00"
+      },
+      {
+        "version": 1,
+        "created_at": "2026-11-21T09:11:00+00:00"
+      }
+    ],
+    "8c6eeb15980f4656afe1749ac1c61cf0": [
+      {
+        "version": 2,
+        "created_at": "2026-11-21T09:42:10+00:00"
+      },
+      {
+        "version": 1,
+        "created_at": "2026-11-21T09:11:00+00:00"
+      }
+    ],
+    "9775141a1f664f209c77593cd361e9cf": [
+      {
+        "version": 2,
+        "created_at": "2026-11-21T09:42:06+00:00"
+      },
+      {
+        "version": 1,
+        "created_at": "2026-11-21T09:11:00+00:00"
+      }
+    ],
+    "f930f1bc70ff4a9cb2757b1bc1f42748": [
+      {
+        "version": 1,
+        "created_at": "2026-11-21T08:52:26+00:00"
+      }
+    ],
+    "6181b429127c4c3d94388d9d9c6ee2da": [
+      {
+        "version": 1,
+        "created_at": "2026-11-21T08:52:20+00:00"
+      }
+    ],
+    "d09ac17cd28b472c8dbd3dd6525c2a48": [
+      {
+        "version": 1,
+        "created_at": "2026-11-21T08:52:18+00:00"
+      }
+    ],
+    "a695f7ddd20f4cc78ef459a6f022ba16": [
+      {
+        "version": 1,
+        "created_at": "2026-11-21T08:52:12+00:00"
+      }
+    ],
+    "5b3f2a59173e41499f9bd8e6087f5b31": [
+      {
+        "version": 1,
+        "created_at": "2026-11-21T08:04:41+00:00"
+      }
+    ],
+    "d5486caab6d646f9b17711d0804840ff": [
+      {
+        "version": 1,
+        "created_at": "2026-11-21T08:04:23+00:00"
+      }
+    ],
+    "308431ca613c4b6a85574e3270f7d72f": [
+      {
+        "version": 1,
+        "created_at": "2026-11-21T08:04:16+00:00"
+      }
+    ],
+    "7c7ba91e64ab48d6aabf776b0c519f46": [
+      {
+        "version": 1,
+        "created_at": "2026-11-21T08:04:07+00:00"
+      }
+    ],
+    "6390e18a5505408ea8920f1339a6a9ec": [
+      {
+        "version": 1,
+        "created_at": "2026-11-21T08:03:59+00:00"
+      }
+    ],
+    "f09afe7755834678b72699d3bfa1dcce": [
+      {
+        "version": 1,
+        "created_at": "2026-11-21T07:31:23+00:00"
+      }
+    ],
+    "4e3a5bfd66a641ada8707703d3103994": [
+      {
+        "version": 1,
+        "created_at": "2026-11-21T07:31:20+00:00"
+      }
+    ],
+    "41282286f13c4272ab99fae62df67917": [
+      {
+        "version": 1,
+        "created_at": "2026-11-21T07:31:16+00:00"
+      }
+    ],
+    "c3c59b81e3084d5eb0c6ae9002cf15f6": [
+      {
+        "version": 1,
+        "created_at": "2026-11-21T07:31:11+00:00"
+      }
+    ],
+    "c35f00c05c784dd3a66f2c63ca0d31e3": [
+      {
+        "version": 1,
+        "created_at": "2026-11-21T07:31:06+00:00"
+      }
+    ],
+    "07240a5c5b994974af6c34d12bc9e74b": [
+      {
+        "version": 1,
+        "created_at": "2026-11-21T07:31:02+00:00"
+      }
+    ],
+    "3352d4cf766342bd89d45b07939c25a4": [
+      {
+        "version": 1,
+        "created_at": "2026-11-21T07:30:57+00:00"
+      }
+    ],
+    "f708fd20b6df4597a1957b7971989d3d": [
+      {
+        "version": 1,
+        "created_at": "2026-11-21T07:30:40+00:00"
+      }
+    ],
+    "1790cbaab9934b358fb4ef56b19801e1": [
+      {
+        "version": 1,
+        "created_at": "2026-11-21T07:30:36+00:00"
+      }
+    ],
+    "851813117222455996b3a659038b11e0": [
+      {
+        "version": 1,
+        "created_at": "2026-11-21T07:30:30+00:00"
+      }
+    ],
+    "472f735f1c5841fe800838c97b8704cd": [
+      {
+        "version": 1,
+        "created_at": "2026-11-21T07:30:25+00:00"
+      }
+    ],
+    "263b62a88b7642c792eb3db9de788dac": [
+      {
+        "version": 1,
+        "created_at": "2026-11-21T07:30:21+00:00"
+      }
+    ],
+    "ec325f43dced45eb8e8f8d92a170e6ad": [
+      {
+        "version": 1,
+        "created_at": "2026-11-21T07:21:36+00:00"
+      }
+    ],
+    "0a35fb9eb7184e28a05f1d43c732dc3d": [
+      {
+        "version": 1,
+        "created_at": "2026-11-21T07:21:32+00:00"
+      }
+    ],
+    "bf6a61990e904487b493c2cf8642cea2": [
+      {
+        "version": 1,
+        "created_at": "2026-11-21T07:21:29+00:00"
+      }
+    ],
+    "ebdd90d707024558b08604275723853a": [
+      {
+        "version": 1,
+        "created_at": "2026-11-21T07:21:22+00:00"
+      }
+    ],
+    "245e2880c9d64e908d1325a6e7ddb03e": [
+      {
+        "version": 3,
+        "created_at": "2026-11-21T07:11:16+00:00"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-11-21T07:08:54+00:00"
+      },
+      {
+        "version": 1,
+        "created_at": "2026-11-21T07:04:50+00:00"
+      }
+    ],
+    "226c35da16d349acbed743e593e18570": [
+      {
+        "version": 2,
+        "created_at": "2026-11-21T07:11:12+00:00"
+      },
+      {
+        "version": 1,
+        "created_at": "2026-11-21T07:09:15+00:00"
+      }
+    ]
+  },
+  "discovery": {
+    "settings": {
+      "enabled": true,
+      "batch_size": 5,
+      "interval_hours": 24,
+      "next_run_at": "2026-11-22T09:10:57+00:00",
+      "cooldown_until": null,
+      "enabled_sources": [
+        "product_hunt",
+        "betalist",
+        "hacker_news",
+        "github"
+      ]
+    },
+    "runs": [
+      {
+        "id": "a0fb3a4c36f84cfaaef9cffa294219d7",
+        "trigger": "manual",
+        "status": "completed",
+        "stage": "发现完成，报告按队列生成",
+        "batch_size": 5,
+        "scanned": 50,
+        "accepted": 50,
+        "queued": 5,
+        "duplicates": 0,
+        "warnings": [
+          "Product Hunt 公开订阅：公开订阅读取正常；官网尚未确认，当前生成中文发布简报"
+        ],
+        "attempts": 1,
+        "lease_until": null,
+        "created_at": "2026-11-21T09:10:57+00:00",
+        "updated_at": "2026-11-21T09:10:59+00:00",
+        "enabled_sources": [
+          "product_hunt"
+        ],
+        "source_stats": [
+          {
+            "source_kind": "product_hunt",
+            "label": "Product Hunt 公开订阅",
+            "scanned": 50,
+            "accepted": 50,
+            "status": "partial",
+            "error": "公开订阅读取正常；官网尚未确认，当前生成中文发布简报"
+          }
+        ]
+      },
+      {
+        "id": "1db8d98a3e214fdda09044ace73aa070",
+        "trigger": "manual",
+        "status": "completed",
+        "stage": "发现完成，报告按队列生成",
+        "batch_size": 5,
+        "scanned": 36,
+        "accepted": 24,
+        "queued": 5,
+        "duplicates": 0,
+        "warnings": [],
+        "attempts": 1,
+        "lease_until": null,
+        "created_at": "2026-11-21T08:51:44+00:00",
+        "updated_at": "2026-11-21T08:52:08+00:00",
+        "enabled_sources": [
+          "betalist",
+          "hacker_news"
+        ],
+        "source_stats": [
+          {
+            "source_kind": "betalist",
+            "label": "BetaList 产品目录",
+            "scanned": 6,
+            "accepted": 6,
+            "status": "ok",
+            "error": ""
+          },
+          {
+            "source_kind": "hacker_news",
+            "label": "Show HN 社区发布",
+            "scanned": 30,
+            "accepted": 18,
+            "status": "ok",
+            "error": ""
+          }
+        ]
+      },
+      {
+        "id": "5c0d71a251ba49f1b8a268f50871d29f",
+        "trigger": "manual",
+        "status": "completed",
+        "stage": "发现完成，报告按队列生成",
+        "batch_size": 5,
+        "scanned": 60,
+        "accepted": 40,
+        "queued": 5,
+        "duplicates": 1,
+        "warnings": [],
+        "attempts": 1,
+        "lease_until": null,
+        "created_at": "2026-11-21T08:03:43+00:00",
+        "updated_at": "2026-11-21T08:03:49+00:00",
+        "enabled_sources": [
+          "github"
+        ],
+        "source_stats": []
+      }
+    ],
+    "candidates": [
+      {
+        "candidate_key": "producthunt:products/alter-contacts-ai-client-relationships",
+        "repository": "",
+        "identity": "altercontacts.ai",
+        "name": "Alter Contacts",
+        "website": "https://altercontacts.ai/",
+        "description": "AI client relationship assistant that thinks and does ahead",
+        "category": "软件工具",
+        "source_kind": "product_hunt",
+        "source_url": "https://www.producthunt.com/products/alter-contacts-ai-client-relationships",
+        "status": "queued",
+        "reason": "通过公开产品筛选，已交给采集流水线",
+        "project_id": "9775141a1f664f209c77593cd361e9cf",
+        "task_id": "57d57b7451bd4df6b407f008fc3e8ab2",
+        "first_seen": "2026-11-21T09:10:58+00:00",
+        "last_seen": "2026-11-21T09:10:58+00:00",
+        "task_status": "completed",
+        "task_stage": "报告已发布",
+        "task_error": null,
+        "hidden_reason": "",
+        "project_description": "A personal AI assistant for people whose business runs on client relationships. Talk to it after a meeting; it files what was said, notices who needs attention, and drafts the next move for you to approve.",
+        "has_report": 1,
+        "website_resolution": {
+          "status": "confirmed",
+          "checked_at": "2026-11-21T09:41:58+00:00",
+          "website": "https://altercontacts.ai/",
+          "method": "public_directory",
+          "evidence": [
+            {
+              "url": "https://hunted.space/product/alter-contacts-ai-client-relationships",
+              "title": "Alter Contacts · 公开目录",
+              "detail": "同名产品且链接到相同 Product Hunt 记录；第三方线索仅用于官网核对。"
+            },
+            {
+              "url": "https://altercontacts.ai/",
+              "title": "AlterContacts: the AI client relationship assistant for advisors",
+              "detail": "官网产品名称与功能匹配；回链到同一 Product Hunt 产品记录。",
+              "matched_terms": [
+                "about",
+                "advisors",
+                "altercontacts",
+                "approval",
+                "assistant",
+                "brokers",
+                "built",
+                "client",
+                "consultants",
+                "crm",
+                "data",
+                "details"
+              ]
+            }
+          ],
+          "attempts": [
+            {
+              "provider": "Product Hunt 发布链接",
+              "url": "https://www.producthunt.com/r/p/1320128?app_id=339",
+              "message": "来源返回 HTTP 403"
+            },
+            {
+              "provider": "公开产品目录",
+              "url": "https://hunted.space/product/alter-contacts-ai-client-relationships",
+              "message": "已读取同一产品的公开介绍与显式链接"
+            }
+          ],
+          "message": "已自动核对官网名称、功能与产品回链，继续采集公开资料。",
+          "identity": "altercontacts.ai"
+        },
+        "description_zh": "面向依靠客户关系开展业务的人士的个人 AI 助手。会后通过语音记录交流内容，由它整理资料、提示需要跟进的客户，并起草后续行动供用户确认。",
+        "origins": [
+          {
+            "candidate_key": "producthunt:products/alter-contacts-ai-client-relationships",
+            "source_kind": "product_hunt",
+            "source_url": "https://www.producthunt.com/products/alter-contacts-ai-client-relationships"
+          }
+        ]
+      },
+      {
+        "candidate_key": "producthunt:products/prompt-puncher",
+        "repository": "",
+        "identity": "producthunt:products/prompt-puncher",
+        "name": "Prompt Puncher",
+        "website": "https://www.producthunt.com/products/prompt-puncher",
+        "description": "The AI CEO Fighting Game",
+        "category": "软件工具",
+        "source_kind": "product_hunt",
+        "source_url": "https://www.producthunt.com/products/prompt-puncher",
+        "status": "queued",
+        "reason": "通过公开产品筛选，已交给采集流水线",
+        "project_id": "8c6eeb15980f4656afe1749ac1c61cf0",
+        "task_id": "1d988b9085d844dba2f1edf7befd4e0c",
+        "first_seen": "2026-11-21T09:10:58+00:00",
+        "last_seen": "2026-11-21T09:10:58+00:00",
+        "task_status": "completed",
+        "task_stage": "报告已发布",
+        "task_error": null,
+        "hidden_reason": "",
+        "project_description": "The AI CEO Fighting Game",
+        "has_report": 1,
+        "website_resolution": {
+          "status": "unresolved",
+          "checked_at": "2026-11-21T09:42:06+00:00",
+          "website": null,
+          "method": null,
+          "evidence": [],
+          "attempts": [
+            {
+              "provider": "Product Hunt 发布链接",
+              "url": "https://www.producthunt.com/r/p/1320677?app_id=339",
+              "message": "来源返回 HTTP 403"
+            },
+            {
+              "provider": "公开产品目录",
+              "url": "https://hunted.space/product/prompt-puncher",
+              "message": "已读取同一产品的公开介绍与显式链接"
+            },
+            {
+              "provider": "Hacker News 公开搜索",
+              "url": "https://hn.algolia.com/api/v1/search?query=Prompt+Puncher&tags=story&restrictSearchableAttributes=title&hitsPerPage=5",
+              "message": "已检索公开发布链接"
+            }
+          ],
+          "message": "公开线索尚不足以确认官网，保留发布简报；稍后自动重试。"
+        },
+        "description_zh": "以 AI 公司 CEO 为主题的格斗游戏。",
+        "origins": [
+          {
+            "candidate_key": "producthunt:products/prompt-puncher",
+            "source_kind": "product_hunt",
+            "source_url": "https://www.producthunt.com/products/prompt-puncher"
+          }
+        ]
+      },
+      {
+        "candidate_key": "producthunt:products/backspin",
+        "repository": "",
+        "identity": "producthunt:products/backspin",
+        "name": "Backspin",
+        "website": "https://www.producthunt.com/products/backspin",
+        "description": "Learn to DJ in your browser, on real vinyl decks",
+        "category": "软件工具",
+        "source_kind": "product_hunt",
+        "source_url": "https://www.producthunt.com/products/backspin",
+        "status": "queued",
+        "reason": "通过公开产品筛选，已交给采集流水线",
+        "project_id": "e0cb7410c718490daff583cd43aca794",
+        "task_id": "f489d25db7464d1fb9a39e12094d5f97",
+        "first_seen": "2026-11-21T09:10:58+00:00",
+        "last_seen": "2026-11-21T09:10:58+00:00",
+        "task_status": "completed",
+        "task_stage": "报告已发布",
+        "task_error": null,
+        "hidden_reason": "",
+        "project_description": "Learn to DJ in your browser, on real vinyl decks",
+        "has_report": 1,
+        "website_resolution": {
+          "status": "unresolved",
+          "checked_at": "2026-11-21T09:42:10+00:00",
+          "website": null,
+          "method": null,
+          "evidence": [],
+          "attempts": [
+            {
+              "provider": "Product Hunt 发布链接",
+              "url": "https://www.producthunt.com/r/p/1322372?app_id=339",
+              "message": "来源返回 HTTP 403"
+            },
+            {
+              "provider": "公开产品目录",
+              "url": "https://hunted.space/product/backspin",
+              "message": "已读取同一产品的公开介绍与显式链接"
+            },
+            {
+              "provider": "Hacker News 公开搜索",
+              "url": "https://hn.algolia.com/api/v1/search?query=Backspin&tags=story&restrictSearchableAttributes=title&hitsPerPage=5",
+              "message": "已检索公开发布链接"
+            },
+            {
+              "provider": "官网核对",
+              "url": "https://backspinit.com/",
+              "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1007)"
+            }
+          ],
+          "message": "公开线索尚不足以确认官网，保留发布简报；稍后自动重试。"
+        },
+        "description_zh": "在浏览器中通过黑胶唱盘学习 DJ 打碟。",
+        "origins": [
+          {
+            "candidate_key": "producthunt:products/backspin",
+            "source_kind": "product_hunt",
+            "source_url": "https://www.producthunt.com/products/backspin"
+          }
+        ]
+      },
+      {
+        "candidate_key": "producthunt:products/hollr-3",
+        "repository": "",
+        "identity": "jasoneliphalet.com/hollr",
+        "name": "Hollr",
+        "website": "https://jasoneliphalet.com/hollr",
+        "description": "Push-to-talk for your family, on iPhone and Apple Watch",
+        "category": "软件工具",
+        "source_kind": "product_hunt",
+        "source_url": "https://www.producthunt.com/products/hollr-3",
+        "status": "queued",
+        "reason": "通过公开产品筛选，已交给采集流水线",
+        "project_id": "8e73d5dac16d4e3aa7f50d1ed6bd9bae",
+        "task_id": "038465693e82403ab038f9d991633a9b",
+        "first_seen": "2026-11-21T09:10:58+00:00",
+        "last_seen": "2026-11-21T09:10:58+00:00",
+        "task_status": "completed",
+        "task_stage": "报告已发布",
+        "task_error": null,
+        "hidden_reason": "",
+        "project_description": "Push-to-talk for your family on iPhone and Apple Watch, even a kid's watch without an iPhone. Free for two, up to 12 with Hollr Family. No accounts, no ads.",
+        "has_report": 1,
+        "website_resolution": {
+          "status": "confirmed",
+          "checked_at": "2026-11-21T09:42:14+00:00",
+          "website": "https://jasoneliphalet.com/hollr",
+          "method": "apple_developer_website",
+          "evidence": [
+            {
+              "url": "https://itunes.apple.com/search?term=Hollr&entity=software&country=us&limit=5",
+              "title": "Apple 官方应用搜索",
+              "detail": "名称与功能匹配，返回开发者提交的官网 sellerUrl。"
+            },
+            {
+              "url": "https://apps.apple.com/us/app/id6831921517",
+              "title": "Hollr: Family Walkie-Talkie",
+              "detail": "匹配应用记录，App ID 6831921517"
+            },
+            {
+              "url": "https://jasoneliphalet.com/hollr",
+              "title": "Hollr: Family Walkie-Talkie for iPhone and Apple Watch",
+              "detail": "官网产品名称与功能匹配；回链到同一 App Store 应用。",
+              "matched_terms": [
+                "apple",
+                "button",
+                "family",
+                "hold",
+                "including",
+                "iphone",
+                "kids",
+                "let",
+                "listen",
+                "message",
+                "people",
+                "push"
+              ]
+            }
+          ],
+          "attempts": [
+            {
+              "provider": "Product Hunt 发布链接",
+              "url": "https://www.producthunt.com/r/p/1320275?app_id=339",
+              "message": "来源返回 HTTP 403"
+            },
+            {
+              "provider": "公开产品目录",
+              "url": "https://hunted.space/product/hollr-3",
+              "message": "已读取同一产品的公开介绍与显式链接"
+            },
+            {
+              "provider": "Apple 官方应用搜索",
+              "url": "https://itunes.apple.com/search?term=Hollr&entity=software&country=us&limit=5",
+              "message": "已按产品名称与功能筛选，未采用同名但用途不同的 App"
+            }
+          ],
+          "message": "已自动核对官网名称、功能与产品回链，继续采集公开资料。",
+          "identity": "jasoneliphalet.com/hollr"
+        },
+        "description_zh": "在 iPhone 和 Apple Watch 上为家人提供按键通话，也支持没有配套 iPhone 的儿童手表。两人使用免费，Hollr Family 最多支持 12 人；无需注册账号，无广告。",
+        "origins": [
+          {
+            "candidate_key": "producthunt:products/hollr-3",
+            "source_kind": "product_hunt",
+            "source_url": "https://www.producthunt.com/products/hollr-3"
+          }
+        ]
+      },
+      {
+        "candidate_key": "producthunt:products/beat-watcher",
+        "repository": "",
+        "identity": "beatwatcher.app",
+        "name": "Beat Watcher",
+        "website": "https://beatwatcher.app/",
+        "description": "Fast Apple Watch heart rate alerts you can share with family",
+        "category": "软件工具",
+        "source_kind": "product_hunt",
+        "source_url": "https://www.producthunt.com/products/beat-watcher",
+        "status": "queued",
+        "reason": "通过公开产品筛选，已交给采集流水线",
+        "project_id": "eb04023657eb431a85f2f0057fd0e92a",
+        "task_id": "3958a5c23a914612b6832b5af513f355",
+        "first_seen": "2026-11-21T09:10:58+00:00",
+        "last_seen": "2026-11-21T09:10:58+00:00",
+        "task_status": "completed",
+        "task_stage": "报告已发布",
+        "task_error": null,
+        "hidden_reason": "",
+        "project_description": "Real-time heart rate monitoring with customizable threshold alerts for Apple Watch. Background mode, haptic feedback, and support for POTS, ME/CFS, and stress tracking.",
+        "has_report": 1,
+        "website_resolution": {
+          "status": "confirmed",
+          "checked_at": "2026-11-21T09:42:19+00:00",
+          "website": "https://beatwatcher.app/",
+          "method": "apple_developer_website",
+          "evidence": [
+            {
+              "url": "https://itunes.apple.com/search?term=Beat+Watcher&entity=software&country=us&limit=5",
+              "title": "Apple 官方应用搜索",
+              "detail": "名称与功能匹配，返回开发者提交的官网 sellerUrl。"
+            },
+            {
+              "url": "https://apps.apple.com/us/app/id1546373421",
+              "title": "Beat Watcher: Heart Rate Alert",
+              "detail": "匹配应用记录，App ID 1546373421"
+            },
+            {
+              "url": "https://beatwatcher.app/",
+              "title": "Beat Watcher: Heart Rate Alert App for Apple Watch",
+              "detail": "官网产品名称与功能匹配；回链到同一 App Store 应用。",
+              "matched_terms": [
+                "alert",
+                "alerts",
+                "apple",
+                "background",
+                "below",
+                "choose",
+                "critical",
+                "crown",
+                "csv",
+                "digital",
+                "disturb",
+                "down"
+              ]
+            }
+          ],
+          "attempts": [
+            {
+              "provider": "Product Hunt 发布链接",
+              "url": "https://www.producthunt.com/r/p/1317062?app_id=339",
+              "message": "来源返回 HTTP 403"
+            },
+            {
+              "provider": "公开产品目录",
+              "url": "https://hunted.space/product/beat-watcher",
+              "message": "已读取同一产品的公开介绍与显式链接"
+            },
+            {
+              "provider": "Apple 官方应用搜索",
+              "url": "https://itunes.apple.com/search?term=Beat+Watcher&entity=software&country=us&limit=5",
+              "message": "已按产品名称与功能筛选，未采用同名但用途不同的 App"
+            }
+          ],
+          "message": "已自动核对官网名称、功能与产品回链，继续采集公开资料。",
+          "identity": "beatwatcher.app"
+        },
+        "description_zh": "为 Apple Watch 提供实时心率监测和可自定义阈值的提醒，具备后台模式与触觉反馈。官网列出的使用场景包括 POTS、ME/CFS 和压力跟踪。",
+        "origins": [
+          {
+            "candidate_key": "producthunt:products/beat-watcher",
+            "source_kind": "product_hunt",
+            "source_url": "https://www.producthunt.com/products/beat-watcher"
+          }
+        ]
+      },
+      {
+        "candidate_key": "github:tooljet/tooljet",
+        "repository": "tooljet/tooljet",
+        "identity": "tooljet.com",
+        "name": "ToolJet",
+        "website": "https://tooljet.com/",
+        "description": "Open-source foundation of ToolJet AI - the enterprise app generation platform for internal tools, dashboards, business applications, workflows and AI agents. Build visually, from a prompt, or from Claude Code, Codex and Cursor over MCP 🚀",
+        "category": "自动化",
+        "source_kind": "github",
+        "source_url": "https://github.com/search?q=topic%3Aself-hosted+stars%3A%3E%3D500+archived%3Afalse+fork%3Afalse&type=repositories",
+        "status": "queued",
+        "reason": "通过公开产品筛选，已交给采集流水线",
+        "project_id": "d09ac17cd28b472c8dbd3dd6525c2a48",
+        "task_id": "a34e9361dd4e45b9bc38652f1f95ddee",
+        "first_seen": "2026-11-21T08:03:45+00:00",
+        "last_seen": "2026-11-21T08:52:07+00:00",
+        "task_status": "completed",
+        "task_stage": "报告已发布",
+        "task_error": null,
+        "hidden_reason": "",
+        "project_description": "ToolJet is the open-source, AI-native low-code platform for internal tools. Build with AI, Visual Builder or React Builder, on ToolJet Cloud or self-hosted.",
+        "has_report": 1,
+        "website_resolution": {},
+        "description_zh": "ToolJet 是面向内部工具的开源 AI 低代码平台，支持通过 AI、可视化构建器或 React 构建器开发，提供云服务和自托管部署。",
+        "origins": [
+          {
+            "candidate_key": "github:tooljet/tooljet",
+            "source_kind": "github",
+            "source_url": "https://github.com/search?q=topic%3Aself-hosted+stars%3A%3E%3D500+archived%3Afalse+fork%3Afalse&type=repositories"
+          },
+          {
+            "candidate_key": "github:tooljet/tooljet",
+            "source_kind": "hacker_news",
+            "source_url": "https://news.ycombinator.com/item?id=50560051"
+          }
+        ]
+      },
+      {
+        "candidate_key": "site:triremes.com",
+        "repository": "",
+        "identity": "triremes.com",
+        "name": "Triremes",
+        "website": "https://triremes.com/",
+        "description": "Triremes helps agencies and builders find real, validated problems and the businesses that have them. It aggregates thousands of user-reported software issues and identifies which companies are affected so you can pitch solutions or build products that address clear demand. Triremes also flags websites with poor SEO and AEO, providing scoped leads with contact details and measured gaps, allowing you to target prospects and sell fixes with confidence. View startup",
+        "category": "软件工具",
+        "source_kind": "betalist",
+        "source_url": "https://betalist.com/startups/triremes",
+        "status": "queued",
+        "reason": "通过公开产品筛选，已交给采集流水线",
+        "project_id": "f930f1bc70ff4a9cb2757b1bc1f42748",
+        "task_id": "a2cae21df19246c0a4c19c84c70dca2e",
+        "first_seen": "2026-11-21T08:51:56+00:00",
+        "last_seen": "2026-11-21T08:51:56+00:00",
+        "task_status": "completed",
+        "task_stage": "报告已发布",
+        "task_error": null,
+        "hidden_reason": "",
+        "project_description": "Triremes is a marketplace of SEO and AEO leads: business websites that fail search and AI search checks, sold to agencies and web designers, $1 to $29 each.",
+        "has_report": 1,
+        "website_resolution": {},
+        "description_zh": "面向营销机构和网站设计师的 SEO/AEO 销售线索市场，提供在搜索与 AI 搜索检查中存在问题的企业网站线索，每条售价 1 至 29 美元。",
+        "origins": [
+          {
+            "candidate_key": "site:triremes.com",
+            "source_kind": "betalist",
+            "source_url": "https://betalist.com/startups/triremes"
+          }
+        ]
+      },
+      {
+        "candidate_key": "site:trymova.app",
+        "repository": "",
+        "identity": "trymova.app",
+        "name": "Mova",
+        "website": "https://trymova.app/",
+        "description": "Mova is an AI job search tool for professionals who want to avoid spending hours scrolling job boards. Every day, it scans over 30 job boards and company career pages, filters roles that fit your profile and goals, and displays them in one dashboard. For each match, it creates an application strategy showing where your experience aligns with the role, ATS keyword and CV recommendations, and a tailored cover letter in 21 languages. It focuses on fewer, better applications, not auto-apply spam. Early adopters can use it free for 7 days with no card required, or try a live demo without signing up. View startup",
+        "category": "软件工具",
+        "source_kind": "betalist",
+        "source_url": "https://betalist.com/startups/mova",
+        "status": "queued",
+        "reason": "通过公开产品筛选，已交给采集流水线",
+        "project_id": "6181b429127c4c3d94388d9d9c6ee2da",
+        "task_id": "2c6168a146f342749ef3eb8093d4d830",
+        "first_seen": "2026-11-21T08:51:52+00:00",
+        "last_seen": "2026-11-21T08:51:52+00:00",
+        "task_status": "completed",
+        "task_stage": "报告已发布",
+        "task_error": null,
+        "hidden_reason": "",
+        "project_description": "Mova is an AI job search tool. It scans 30+ job boards every day, matches new roles to your profile and writes your application strategy. Free for 7 days.",
+        "has_report": 1,
+        "website_resolution": {},
+        "description_zh": "Mova 是 AI 求职工具，每天扫描 30 多个招聘网站，将新岗位与个人资料匹配并生成求职申请策略，提供 7 天免费体验。",
+        "origins": [
+          {
+            "candidate_key": "site:trymova.app",
+            "source_kind": "betalist",
+            "source_url": "https://betalist.com/startups/mova"
+          }
+        ]
+      },
+      {
+        "candidate_key": "site:hydromancer.xyz",
+        "repository": "",
+        "identity": "hydromancer.xyz",
+        "name": "Hydromancer",
+        "website": "https://hydromancer.xyz/",
+        "description": "Hydromancer is a data and infrastructure platform for the Hyperliquid ecosystem. It offers REST APIs, real-time WebSocket feeds, L2 and L4 orderbook streaming, and historical market datasets for developers, traders, and market makers. The APIs support batch wallet queries and builder-specific endpoints, covering data on trades, orders, liquidations, prices, and account activity. Hydromancer also creates ecosystem tools like Flowscan, a Hyperliquid explorer, and Reservoir, a free historical data archive. View startup",
+        "category": "软件工具",
+        "source_kind": "betalist",
+        "source_url": "https://betalist.com/startups/hydromancer",
+        "status": "queued",
+        "reason": "通过公开产品筛选，已交给采集流水线",
+        "project_id": "a695f7ddd20f4cc78ef459a6f022ba16",
+        "task_id": "2ad41abbb07c4666b778ea3181bbf4c4",
+        "first_seen": "2026-11-21T08:51:49+00:00",
+        "last_seen": "2026-11-21T08:51:49+00:00",
+        "task_status": "completed",
+        "task_stage": "报告已发布",
+        "task_error": null,
+        "hidden_reason": "",
+        "project_description": "Hydromancer is a Hyperliquid data provider: REST API, WebSocket streams, L2/L4 orderbook feeds and historical data. Used by 100+ teams on Hyperliquid.",
+        "has_report": 1,
+        "website_resolution": {},
+        "description_zh": "Hydromancer 为 Hyperliquid 生态提供数据服务，包括 REST API、WebSocket 数据流、L2/L4 订单簿和历史数据。官网称已有 100 多个团队使用。",
+        "origins": [
+          {
+            "candidate_key": "site:hydromancer.xyz",
+            "source_kind": "betalist",
+            "source_url": "https://betalist.com/startups/hydromancer"
+          }
+        ]
+      },
+      {
+        "candidate_key": "github:open-webui/open-webui",
+        "repository": "open-webui/open-webui",
+        "identity": "openwebui.com",
+        "name": "open-webui",
+        "website": "https://openwebui.com/",
+        "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+        "category": "软件工具",
+        "source_kind": "github",
+        "source_url": "https://github.com/search?q=topic%3Aself-hosted+stars%3A%3E%3D500+archived%3Afalse+fork%3Afalse&type=repositories",
+        "status": "queued",
+        "reason": "通过公开产品筛选，已交给采集流水线",
+        "project_id": "6390e18a5505408ea8920f1339a6a9ec",
+        "task_id": "b387bd4e937c43ffb52de42b829a5395",
+        "first_seen": "2026-11-21T08:03:45+00:00",
+        "last_seen": "2026-11-21T08:03:45+00:00",
+        "task_status": "completed",
+        "task_stage": "报告已发布",
+        "task_error": null,
+        "hidden_reason": "",
+        "project_description": "Run AI on your own terms. Connect any model, extend with code, and protect what matters without compromise.",
+        "has_report": 1,
+        "website_resolution": {},
+        "description_zh": "按自己的需求运行 AI，可连接任意模型、通过代码扩展，并自主保护重要数据。",
+        "origins": [
+          {
+            "candidate_key": "github:open-webui/open-webui",
+            "source_kind": "github",
+            "source_url": "https://github.com/search?q=topic%3Aself-hosted+stars%3A%3E%3D500+archived%3Afalse+fork%3Afalse&type=repositories"
+          }
+        ]
+      },
+      {
+        "candidate_key": "github:immich-app/immich",
+        "repository": "immich-app/immich",
+        "identity": "immich.app",
+        "name": "immich",
+        "website": "https://immich.app/",
+        "description": "High performance self-hosted photo and video management solution.",
+        "category": "软件工具",
+        "source_kind": "github",
+        "source_url": "https://github.com/search?q=topic%3Aself-hosted+stars%3A%3E%3D500+archived%3Afalse+fork%3Afalse&type=repositories",
+        "status": "queued",
+        "reason": "通过公开产品筛选，已交给采集流水线",
+        "project_id": "7c7ba91e64ab48d6aabf776b0c519f46",
+        "task_id": "7e102e0bf25c419c87ff808080287b3c",
+        "first_seen": "2026-11-21T08:03:45+00:00",
+        "last_seen": "2026-11-21T08:03:45+00:00",
+        "task_status": "completed",
+        "task_stage": "报告已发布",
+        "task_error": null,
+        "hidden_reason": "",
+        "project_description": "Self-hosted photo and video management solution. Easily back up, organize, and manage your photos on your own server. Immich helps you browse, search and organize your photos and videos with ease, without sacrificing your privacy.",
+        "has_report": 1,
+        "website_resolution": {},
+        "description_zh": "可自托管的照片和视频管理方案。在自己的服务器上备份、整理、浏览和搜索照片与视频，同时保护个人隐私。",
+        "origins": [
+          {
+            "candidate_key": "github:immich-app/immich",
+            "source_kind": "github",
+            "source_url": "https://github.com/search?q=topic%3Aself-hosted+stars%3A%3E%3D500+archived%3Afalse+fork%3Afalse&type=repositories"
+          }
+        ]
+      },
+      {
+        "candidate_key": "github:stirling-tools/stirling-pdf",
+        "repository": "stirling-tools/stirling-pdf",
+        "identity": "stirling.com",
+        "name": "Stirling-PDF",
+        "website": "https://stirling.com/",
+        "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
+        "category": "软件工具",
+        "source_kind": "github",
+        "source_url": "https://github.com/search?q=topic%3Aself-hosted+stars%3A%3E%3D500+archived%3Afalse+fork%3Afalse&type=repositories",
+        "status": "queued",
+        "reason": "通过公开产品筛选，已交给采集流水线",
+        "project_id": "308431ca613c4b6a85574e3270f7d72f",
+        "task_id": "21aadb8aa33c46e5823cdcc7ebd2f454",
+        "first_seen": "2026-11-21T08:03:45+00:00",
+        "last_seen": "2026-11-21T08:03:45+00:00",
+        "task_status": "completed",
+        "task_stage": "报告已发布",
+        "task_error": null,
+        "hidden_reason": "",
+        "project_description": "A free, private PDF editor you can run on any infrastructure.",
+        "has_report": 1,
+        "website_resolution": {},
+        "description_zh": "免费、注重隐私的 PDF 编辑器，可在自己的基础设施中部署运行。",
+        "origins": [
+          {
+            "candidate_key": "github:stirling-tools/stirling-pdf",
+            "source_kind": "github",
+            "source_url": "https://github.com/search?q=topic%3Aself-hosted+stars%3A%3E%3D500+archived%3Afalse+fork%3Afalse&type=repositories"
+          }
+        ]
+      },
+      {
+        "candidate_key": "github:louislam/uptime-kuma",
+        "repository": "louislam/uptime-kuma",
+        "identity": "uptime.kuma.pet",
+        "name": "uptime-kuma",
+        "website": "https://uptime.kuma.pet/",
+        "description": "A fancy self-hosted monitoring tool",
+        "category": "开发者工具",
+        "source_kind": "github",
+        "source_url": "https://github.com/search?q=topic%3Aself-hosted+stars%3A%3E%3D500+archived%3Afalse+fork%3Afalse&type=repositories",
+        "status": "queued",
+        "reason": "通过公开产品筛选，已交给采集流水线",
+        "project_id": "d5486caab6d646f9b17711d0804840ff",
+        "task_id": "3e44add0b73f46ff89010e774249a092",
+        "first_seen": "2026-11-21T08:03:45+00:00",
+        "last_seen": "2026-11-21T08:03:45+00:00",
+        "task_status": "completed",
+        "task_stage": "报告已发布",
+        "task_error": null,
+        "hidden_reason": "",
+        "project_description": "A self-hosted monitoring tool",
+        "has_report": 1,
+        "website_resolution": {},
+        "description_zh": "可自托管的监控工具。",
+        "origins": [
+          {
+            "candidate_key": "github:louislam/uptime-kuma",
+            "source_kind": "github",
+            "source_url": "https://github.com/search?q=topic%3Aself-hosted+stars%3A%3E%3D500+archived%3Afalse+fork%3Afalse&type=repositories"
+          }
+        ]
+      },
+      {
+        "candidate_key": "github:netdata/netdata",
+        "repository": "netdata/netdata",
+        "identity": "netdata.cloud",
+        "name": "netdata",
+        "website": "https://www.netdata.cloud/",
+        "description": "Full-stack observability · Metrics · Logs · Traces · Flows · Topology · Infrastructure · APM · NPM · DBM · RUM · Synthetics · Cloud · AI SRE · OpenTelemetry · SNMP · NetFlow/IPFIX/sFlow · IPMI · Redfish · 2000+ integrations",
+        "category": "开发者工具",
+        "source_kind": "github",
+        "source_url": "https://github.com/search?q=topic%3Aself-hosted+stars%3A%3E%3D500+archived%3Afalse+fork%3Afalse&type=repositories",
+        "status": "queued",
+        "reason": "通过公开产品筛选，已交给采集流水线",
+        "project_id": "5b3f2a59173e41499f9bd8e6087f5b31",
+        "task_id": "b028c4847be342209c75d6b72a05a03d",
+        "first_seen": "2026-11-21T08:03:45+00:00",
+        "last_seen": "2026-11-21T08:03:45+00:00",
+        "task_status": "completed",
+        "task_stage": "报告已发布",
+        "task_error": null,
+        "hidden_reason": "",
+        "project_description": "Netdata: per-second observability for your team and your AI agents. Metrics, logs and traces, anomaly detection on every metric, and an AI SRE that shows you the root cause. Your data never leaves your infrastructure.",
+        "has_report": 1,
+        "website_resolution": {},
+        "description_zh": "为团队和 AI 智能体提供秒级可观测能力，涵盖指标、日志、链路和指标异常检测，并通过 AI SRE 辅助定位根因。官网强调数据留在自己的基础设施内。",
+        "origins": [
+          {
+            "candidate_key": "github:netdata/netdata",
+            "source_kind": "github",
+            "source_url": "https://github.com/search?q=topic%3Aself-hosted+stars%3A%3E%3D500+archived%3Afalse+fork%3Afalse&type=repositories"
+          }
+        ]
+      }
+    ],
+    "counts": {
+      "candidate": 97,
+      "duplicate": 1,
+      "queued": 14,
+      "rejected": 1,
+      "published": 14
+    },
+    "sources": [
+      {
+        "id": "product_hunt",
+        "label": "Product Hunt 公开订阅",
+        "enabled": true,
+        "source_kind": "product_hunt",
+        "status": "partial",
+        "error": "公开订阅读取正常；官网尚未确认，当前生成中文发布简报",
+        "cooldown_until": null,
+        "checked_at": "2026-11-21T09:10:59+00:00"
+      },
+      {
+        "id": "betalist",
+        "label": "BetaList 产品目录",
+        "enabled": true,
+        "source_kind": "betalist",
+        "status": "ok",
+        "error": "",
+        "cooldown_until": null,
+        "checked_at": "2026-11-21T08:52:05+00:00"
+      },
+      {
+        "id": "hacker_news",
+        "label": "Show HN 社区发布",
+        "enabled": true,
+        "source_kind": "hacker_news",
+        "status": "ok",
+        "error": "",
+        "cooldown_until": null,
+        "checked_at": "2026-11-21T08:52:07+00:00"
+      },
+      {
+        "id": "github",
+        "label": "GitHub 公开产品",
+        "enabled": true
+      }
+    ],
+    "translation_ready": true
+  },
+  "tasks": [
+    {
+      "id": "3958a5c23a914612b6832b5af513f355",
+      "project_id": "eb04023657eb431a85f2f0057fd0e92a",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [
+        "产品官网已通过公开链接、名称、功能和回链自动核对，依据见官网匹配记录。"
+      ],
+      "created_at": "2026-11-21T09:41:58+00:00",
+      "updated_at": "2026-11-21T09:42:25+00:00",
+      "project_name": "Beat Watcher"
+    },
+    {
+      "id": "038465693e82403ab038f9d991633a9b",
+      "project_id": "8e73d5dac16d4e3aa7f50d1ed6bd9bae",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [
+        "产品官网已通过公开链接、名称、功能和回链自动核对，依据见官网匹配记录。"
+      ],
+      "created_at": "2026-11-21T09:41:58+00:00",
+      "updated_at": "2026-11-21T09:42:19+00:00",
+      "project_name": "Hollr"
+    },
+    {
+      "id": "f489d25db7464d1fb9a39e12094d5f97",
+      "project_id": "e0cb7410c718490daff583cd43aca794",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [
+        "已尝试自动查找官网，公开线索尚不足以确认；本份仅根据 Product Hunt 公开订阅生成，稍后自动重试。"
+      ],
+      "created_at": "2026-11-21T09:41:58+00:00",
+      "updated_at": "2026-11-21T09:42:14+00:00",
+      "project_name": "Backspin"
+    },
+    {
+      "id": "1d988b9085d844dba2f1edf7befd4e0c",
+      "project_id": "8c6eeb15980f4656afe1749ac1c61cf0",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [
+        "已尝试自动查找官网，公开线索尚不足以确认；本份仅根据 Product Hunt 公开订阅生成，稍后自动重试。"
+      ],
+      "created_at": "2026-11-21T09:41:58+00:00",
+      "updated_at": "2026-11-21T09:42:10+00:00",
+      "project_name": "Prompt Puncher"
+    },
+    {
+      "id": "57d57b7451bd4df6b407f008fc3e8ab2",
+      "project_id": "9775141a1f664f209c77593cd361e9cf",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [
+        "产品官网已通过公开链接、名称、功能和回链自动核对，依据见官网匹配记录。"
+      ],
+      "created_at": "2026-11-21T09:41:58+00:00",
+      "updated_at": "2026-11-21T09:42:06+00:00",
+      "project_name": "Alter Contacts"
+    },
+    {
+      "id": "89a26972217a4558b2c7f6e22ffee600",
+      "project_id": "eb04023657eb431a85f2f0057fd0e92a",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [
+        "本份仅根据 Product Hunt 公开订阅生成；尚未解析或确认真实官网，官网资料未采集。"
+      ],
+      "created_at": "2026-11-21T09:10:59+00:00",
+      "updated_at": "2026-11-21T09:11:00+00:00",
+      "project_name": "Beat Watcher"
+    },
+    {
+      "id": "71cd7b6815d34e7f90a0f10843be10a9",
+      "project_id": "8e73d5dac16d4e3aa7f50d1ed6bd9bae",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [
+        "本份仅根据 Product Hunt 公开订阅生成；尚未解析或确认真实官网，官网资料未采集。"
+      ],
+      "created_at": "2026-11-21T09:10:59+00:00",
+      "updated_at": "2026-11-21T09:11:00+00:00",
+      "project_name": "Hollr"
+    },
+    {
+      "id": "5f7e7da4a6064ae5ac9357df9961dbf4",
+      "project_id": "e0cb7410c718490daff583cd43aca794",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [
+        "本份仅根据 Product Hunt 公开订阅生成；尚未解析或确认真实官网，官网资料未采集。"
+      ],
+      "created_at": "2026-11-21T09:10:59+00:00",
+      "updated_at": "2026-11-21T09:11:00+00:00",
+      "project_name": "Backspin"
+    },
+    {
+      "id": "7fe0d2b87be24ead99b022f778bc1982",
+      "project_id": "8c6eeb15980f4656afe1749ac1c61cf0",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [
+        "本份仅根据 Product Hunt 公开订阅生成；尚未解析或确认真实官网，官网资料未采集。"
+      ],
+      "created_at": "2026-11-21T09:10:59+00:00",
+      "updated_at": "2026-11-21T09:11:00+00:00",
+      "project_name": "Prompt Puncher"
+    },
+    {
+      "id": "3b466951a9154796b24064148997b5c1",
+      "project_id": "9775141a1f664f209c77593cd361e9cf",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [
+        "本份仅根据 Product Hunt 公开订阅生成；尚未解析或确认真实官网，官网资料未采集。"
+      ],
+      "created_at": "2026-11-21T09:10:59+00:00",
+      "updated_at": "2026-11-21T09:11:00+00:00",
+      "project_name": "Alter Contacts"
+    },
+    {
+      "id": "a2cae21df19246c0a4c19c84c70dca2e",
+      "project_id": "f930f1bc70ff4a9cb2757b1bc1f42748",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [],
+      "created_at": "2026-11-21T08:52:08+00:00",
+      "updated_at": "2026-11-21T08:52:26+00:00",
+      "project_name": "Triremes"
+    },
+    {
+      "id": "2c6168a146f342749ef3eb8093d4d830",
+      "project_id": "6181b429127c4c3d94388d9d9c6ee2da",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [],
+      "created_at": "2026-11-21T08:52:07+00:00",
+      "updated_at": "2026-11-21T08:52:20+00:00",
+      "project_name": "Mova"
+    },
+    {
+      "id": "a34e9361dd4e45b9bc38652f1f95ddee",
+      "project_id": "d09ac17cd28b472c8dbd3dd6525c2a48",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [],
+      "created_at": "2026-11-21T08:52:07+00:00",
+      "updated_at": "2026-11-21T08:52:18+00:00",
+      "project_name": "ToolJet"
+    },
+    {
+      "id": "2ad41abbb07c4666b778ea3181bbf4c4",
+      "project_id": "a695f7ddd20f4cc78ef459a6f022ba16",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [],
+      "created_at": "2026-11-21T08:52:07+00:00",
+      "updated_at": "2026-11-21T08:52:12+00:00",
+      "project_name": "Hydromancer"
+    },
+    {
+      "id": "b028c4847be342209c75d6b72a05a03d",
+      "project_id": "5b3f2a59173e41499f9bd8e6087f5b31",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [],
+      "created_at": "2026-11-21T08:03:49+00:00",
+      "updated_at": "2026-11-21T08:04:41+00:00",
+      "project_name": "netdata"
+    },
+    {
+      "id": "3e44add0b73f46ff89010e774249a092",
+      "project_id": "d5486caab6d646f9b17711d0804840ff",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [],
+      "created_at": "2026-11-21T08:03:48+00:00",
+      "updated_at": "2026-11-21T08:04:23+00:00",
+      "project_name": "uptime-kuma"
+    },
+    {
+      "id": "21aadb8aa33c46e5823cdcc7ebd2f454",
+      "project_id": "308431ca613c4b6a85574e3270f7d72f",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [],
+      "created_at": "2026-11-21T08:03:48+00:00",
+      "updated_at": "2026-11-21T08:04:16+00:00",
+      "project_name": "Stirling-PDF"
+    },
+    {
+      "id": "7e102e0bf25c419c87ff808080287b3c",
+      "project_id": "7c7ba91e64ab48d6aabf776b0c519f46",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [],
+      "created_at": "2026-11-21T08:03:48+00:00",
+      "updated_at": "2026-11-21T08:04:07+00:00",
+      "project_name": "immich"
+    },
+    {
+      "id": "b387bd4e937c43ffb52de42b829a5395",
+      "project_id": "6390e18a5505408ea8920f1339a6a9ec",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [],
+      "created_at": "2026-11-21T08:03:47+00:00",
+      "updated_at": "2026-11-21T08:03:59+00:00",
+      "project_name": "open-webui"
+    },
+    {
+      "id": "a42403147f4145048fa33c196bb18b70",
+      "project_id": "f09afe7755834678b72699d3bfa1dcce",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [],
+      "created_at": "2026-11-21T07:30:21+00:00",
+      "updated_at": "2026-11-21T07:31:23+00:00",
+      "project_name": "Buffer"
+    },
+    {
+      "id": "5da11d6a72b348bb805f4acfcf379bc5",
+      "project_id": "4e3a5bfd66a641ada8707703d3103994",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [
+        "https://tally.so/changelog 采集未完成。页面超过 2 MB 的采集上限"
+      ],
+      "created_at": "2026-11-21T07:30:20+00:00",
+      "updated_at": "2026-11-21T07:31:20+00:00",
+      "project_name": "Tally"
+    },
+    {
+      "id": "2062df7e1f774137b95a669f192e5f16",
+      "project_id": "41282286f13c4272ab99fae62df67917",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [],
+      "created_at": "2026-11-21T07:30:20+00:00",
+      "updated_at": "2026-11-21T07:31:16+00:00",
+      "project_name": "Supabase"
+    },
+    {
+      "id": "44233f29bf5f4cc69142df92961cf6a9",
+      "project_id": "c3c59b81e3084d5eb0c6ae9002cf15f6",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [],
+      "created_at": "2026-11-21T07:30:20+00:00",
+      "updated_at": "2026-11-21T07:31:11+00:00",
+      "project_name": "Novu"
+    },
+    {
+      "id": "7bcbacd8d3e44d409303c3970ffe29df",
+      "project_id": "c35f00c05c784dd3a66f2c63ca0d31e3",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [
+        "https://typebot.com/blog 采集未完成。页面超过 2 MB 的采集上限"
+      ],
+      "created_at": "2026-11-21T07:30:19+00:00",
+      "updated_at": "2026-11-21T07:31:06+00:00",
+      "project_name": "Typebot"
+    },
+    {
+      "id": "06388d8925cf460381d88a197ec0bebe",
+      "project_id": "07240a5c5b994974af6c34d12bc9e74b",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [],
+      "created_at": "2026-11-21T07:30:19+00:00",
+      "updated_at": "2026-11-21T07:31:02+00:00",
+      "project_name": "Appsmith"
+    },
+    {
+      "id": "003366bc0508449b8fd4c5cd91eea058",
+      "project_id": "3352d4cf766342bd89d45b07939c25a4",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [],
+      "created_at": "2026-11-21T07:30:19+00:00",
+      "updated_at": "2026-11-21T07:30:57+00:00",
+      "project_name": "Plane"
+    },
+    {
+      "id": "e89acb2ffa064703847e9a8869183281",
+      "project_id": "f708fd20b6df4597a1957b7971989d3d",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [],
+      "created_at": "2026-11-21T07:30:18+00:00",
+      "updated_at": "2026-11-21T07:30:40+00:00",
+      "project_name": "Twenty"
+    },
+    {
+      "id": "0c6d19728e9440e5aaf1d45e7dde8395",
+      "project_id": "1790cbaab9934b358fb4ef56b19801e1",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [],
+      "created_at": "2026-11-21T07:30:18+00:00",
+      "updated_at": "2026-11-21T07:30:36+00:00",
+      "project_name": "Chatwoot"
+    },
+    {
+      "id": "86890a839fbd45428512bcb2023f1e7d",
+      "project_id": "851813117222455996b3a659038b11e0",
+      "status": "completed",
+      "stage": "报告已发布",
+      "progress": 100,
+      "error": null,
+      "warnings": [],
+      "created_at": "2026-11-21T07:30:18+00:00",
+      "updated_at": "2026-11-21T07:30:30+00:00",
+      "project_name": "Dub"
+    }
+  ],
+  "stats": {
+    "projects": 32,
+    "sources": 222,
+    "actions": 202,
+    "channels": 5
+  }
+}

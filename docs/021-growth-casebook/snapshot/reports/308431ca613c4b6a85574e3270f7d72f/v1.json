@@ -1,0 +1,718 @@
+{
+  "schema_version": "1.0",
+  "project_id": "308431ca613c4b6a85574e3270f7d72f",
+  "version": 1,
+  "generated_at": "2026-11-21T08:04:13+00:00",
+  "mode": "evidence",
+  "summary": "围绕 Stirling-PDF 核对了 9 份公开资料，整理出 8 条入口与动作。可继续研究的方向包括内容营销、开发者生态。",
+  "summary_source_ids": [],
+  "translations": {
+    "3.2.1 Viewer improvements and bug fixes ": "3.2.1 查看器改进和错误修正",
+    "3.2.2 new annotations and other minor changes and improvements": "3.2.2 新说明和其他小的改动和改进",
+    "3.3.0 Conversion upgrades, bug fixes and several minor improvements ": "3.3.0 转换升级、错误修正和若干小改进",
+    "3.4.0 Big text editor changes, OneDrive, SCIM and Accessibility checker": "3.4.0 大文本编辑器更改, OneDrive, SCIM 和无障碍检查器",
+    "A big release! Lots of changes in this release around the PDF Text Editor, such as it now works directly inside the viewer by clicking the edit text button in the top bar. Other changes for it include: - It can use fonts from the server including any custom provided fonts that are placed in customFiles/static/fonts/. - It does a": "一个大解脱!围绕 PDF 文本编辑器的此版本中的许多变化, 例如它现在直接在查看器内部工作, 点击顶部栏的编辑文本按钮 。其它更改包括: - 它可以使用服务器的字体,包括任何自定义提供的字体,这些字体被放置在自定义的Files/static/fonts/中.- 这确实",
+    "A free, private PDF editor you can run on any infrastructure.": "免费、注重隐私的 PDF 编辑器，可在自己的基础设施中部署运行。",
+    "Another small release with some bug fixes - Fix for some viewer rendering issues - New auto fit to width button for viewer - New annotation shape options like arrow and polyline - QR code stamp types ## What's Changed ### Bug Fixes * fix(i18n): expand Turkish translations by @alkank in https://github.com/Stirling-Tools/Stirling-": "另一张小版本, 带有一些错误修正 - 修正一些查看器渲染问题 - 新的自动适合查看器的宽度按钮 - 箭头和多线等新注释形状选项 - QR 代码印章类型 What's Changed BugFixes fix(i18n):由@alkank在https://github.com/Stirling-Tools/Stirling-中扩充土耳其语译名.",
+    "Pricing - Stirling PDF": "定价 - Stirling PDF",
+    "README 内容摘录：Stirling PDF - The Open-Source PDF Platform Stirling PDF is a powerful, open-source PDF editing platform. Run it as a personal desktop app, in the browser, or deploy it on your own servers with a private API. Edit, sign, redact, c": "README 内容摘录：Stirling PDF - 开源PDF平台 Stirling PDF是一个强大的开源PDF编辑平台. 在浏览器中作为个人桌面应用程序运行,或者用私人API在自己的服务器上部署.编辑、签名、编辑、c",
+    "Smaller release with some nice viewer and editor improvements and bug fixes for annotation and compression Key features are: - Arrow key support for viewer - Dual page view to support cover pages - Read aloud now starts at the selected text - You can now duplicate pages in page editor (multi tool) - Memory optimisations - Label ": "较小的发布, 并带有一些很好的查看器和编辑器的改进以及用于注释和压缩的bug修正 密钥功能有: - 箭形键支持查看器 - 支持封面页面的双页面视图 - 读出当前开始 在选定的文本中 - 您可以在页面编辑器中复制页面( 多工具) - 内存优化 - 标签",
+    "Stirling Office Convert (still beta) has been upgraded. You can also now pick it as the converter in lots of other tools such as Email, HTML, Markdown and ebooks to PDF plus PDF to HTML/Markdown/XML/EPUB/AZW3, and PDF/A. Please compare it with the existing converter and let us know! Our roadmap is to turn Office Convert on by de": "Stirling Office Transform(仍为β)已经升级. 现在还可以在很多其他工具中选取它作为转换器,如电子邮件,HTML,Markdown和电子书到PDF+PDF到HTML/Markdown/XML/EPUB/AZW3和PDF/A. 请与现有的转换器比较一下,让我们知道! 我们的行进图是打开办公室 转换由de",
+    "Stirling PDF - 30M+ Downloads": "扭曲 PDF - 30M+ 下载",
+    "Stirling-Tools/Stirling-PDF": "钢铁图/钢铁图/PDF",
+    "Stirling-Tools/Stirling-PDF README": "Stirling-Tools/Stirling-PDF 读取器",
+    "发布 3.2.1 Viewer improvements and bug fixes ": "发布 3.2.1 查看器改进和错误修正",
+    "发布 3.2.2 new annotations and other minor changes and improvements": "发布 3.2.2 新说明和其他小的改动和改进",
+    "发布 3.3.0 Conversion upgrades, bug fixes and several minor improvements ": "发布 3.3.0 转换升级、错误修正和若干小改进",
+    "发布 3.4.0 Big text editor changes, OneDrive, SCIM and Accessibility checker": "发布 3.4.0 大文本编辑器更改, OneDrive, SCIM 和无障碍检查器"
+  },
+  "sources": [
+    {
+      "id": "s-91c6c6e8f4ac9533",
+      "kind": "website",
+      "title": "Stirling PDF - 30M+ Downloads",
+      "url": "https://www.stirling.com/",
+      "collected_at": "2026-11-21T08:04:10+00:00",
+      "published_at": null,
+      "text": "Bring your whole team.\nEverything you need to scale from editing one PDF to processing millions.\nPDF Reader\nLightning-fast reading and simple tools for casual use.\nPDF Editor\n60+ powerful tools for editing PDFs on any computer or server.\nPDF Processor\nClassify, standardize and ro",
+      "links": [
+        {
+          "url": "https://www.stirling.com/",
+          "text": "Stirling"
+        },
+        {
+          "url": "https://www.stirling.com/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://www.stirling.com/download",
+          "text": "Download"
+        },
+        {
+          "url": "https://docs.stirlingpdf.com",
+          "text": "Docs"
+        },
+        {
+          "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+          "text": "80 Page"
+        },
+        {
+          "url": "https://stirling.com/app/login",
+          "text": "Log in"
+        },
+        {
+          "url": "https://stirling.com/app/signup",
+          "text": "Sign up"
+        },
+        {
+          "url": "https://docs.stirlingpdf.com/",
+          "text": "Explore docs"
+        },
+        {
+          "url": "https://discord.com/invite/Cn8pWhQRxZ",
+          "text": ""
+        },
+        {
+          "url": "https://x.com/StirlingPDF",
+          "text": ""
+        },
+        {
+          "url": "https://www.linkedin.com/company/stirling-pdf/",
+          "text": ""
+        },
+        {
+          "url": "https://www.stirling.com/book-a-demo",
+          "text": "Book a demo"
+        },
+        {
+          "url": "https://www.stirling.com/about",
+          "text": "About"
+        },
+        {
+          "url": "https://www.stirling.com/careers",
+          "text": "Careers"
+        },
+        {
+          "url": "https://www.stirling.com/help-center",
+          "text": "Help center"
+        },
+        {
+          "url": "https://www.stirling.com/legal/terms-of-service",
+          "text": "Legal"
+        },
+        {
+          "url": "https://www.stirling.com/blog",
+          "text": "Blog"
+        },
+        {
+          "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases",
+          "text": "Changelog"
+        },
+        {
+          "url": "https://www.stirling.com/legal/privacy-policy",
+          "text": "Privacy Policy"
+        },
+        {
+          "url": "https://www.stirling.com/legal/cookie-policy",
+          "text": "Cookie Policy"
+        },
+        {
+          "url": "https://www.framerstatus.com",
+          "text": "All systems normal"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-662a45c4dc640d18",
+      "kind": "pricing",
+      "title": "Pricing - Stirling PDF",
+      "url": "https://www.stirling.com/pricing",
+      "collected_at": "2026-11-21T08:04:10+00:00",
+      "published_at": null,
+      "text": "\"This is the one PDF Editor to rule them all! My quest for the perfect PDF editor finally paid off. Meet Stirling PDF, the only PDF editor you will ever need.\"\nVikash Jhagroe\nSr Technical Adoption Manager\nAndrew Scott\nHead of Product\nEmily Patel\nCo-Founder\nBook a demo with a spec",
+      "links": [
+        {
+          "url": "https://www.stirling.com/",
+          "text": "Stirling"
+        },
+        {
+          "url": "https://www.stirling.com/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://www.stirling.com/download",
+          "text": "Download"
+        },
+        {
+          "url": "https://docs.stirlingpdf.com",
+          "text": "Docs"
+        },
+        {
+          "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+          "text": "80 Page"
+        },
+        {
+          "url": "https://stirling.com/app/login",
+          "text": "Log in"
+        },
+        {
+          "url": "https://stirling.com/app/signup",
+          "text": "Sign up"
+        },
+        {
+          "url": "https://stirling.com/app/team",
+          "text": "Get started"
+        },
+        {
+          "url": "https://stirling.com/app/enterprise",
+          "text": "Get started"
+        },
+        {
+          "url": "https://www.stirling.com/book-a-demo",
+          "text": "Book a demo"
+        },
+        {
+          "url": "https://www.stirling.com/help-center",
+          "text": "Help Center."
+        },
+        {
+          "url": "https://discord.com/invite/Cn8pWhQRxZ",
+          "text": ""
+        },
+        {
+          "url": "https://x.com/StirlingPDF",
+          "text": ""
+        },
+        {
+          "url": "https://www.linkedin.com/company/stirling-pdf/",
+          "text": ""
+        },
+        {
+          "url": "https://www.stirling.com/about",
+          "text": "About"
+        },
+        {
+          "url": "https://www.stirling.com/careers",
+          "text": "Careers"
+        },
+        {
+          "url": "https://www.stirling.com/legal/terms-of-service",
+          "text": "Legal"
+        },
+        {
+          "url": "https://docs.stirlingpdf.com/",
+          "text": "Docs"
+        },
+        {
+          "url": "https://www.stirling.com/blog",
+          "text": "Blog"
+        },
+        {
+          "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases",
+          "text": "Changelog"
+        },
+        {
+          "url": "https://www.stirling.com/legal/privacy-policy",
+          "text": "Privacy Policy"
+        },
+        {
+          "url": "https://www.stirling.com/legal/cookie-policy",
+          "text": "Cookie Policy"
+        },
+        {
+          "url": "https://www.framerstatus.com",
+          "text": "All systems normal"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-bd1d833e0dfd7db3",
+      "kind": "content",
+      "title": "Blog - Stirling PDF",
+      "url": "https://www.stirling.com/blog",
+      "collected_at": "2026-11-21T08:04:11+00:00",
+      "published_at": null,
+      "text": "Blog\nLatest articles, insights, and trends.\nAll\nProduct Release\nExecutive Hire\nStrategy\nIntroducing Stirling V2\nProduct Release\nSep 25, 2025\nOn joining Stirling PDF as CEO\nExecutive Hire\nMar 1, 2025\nPDF Redaction is now open source\nProduct Release\nJan 13, 2025\nWhat’s Next for Sti",
+      "links": [
+        {
+          "url": "https://www.stirling.com/",
+          "text": "Stirling"
+        },
+        {
+          "url": "https://www.stirling.com/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://www.stirling.com/download",
+          "text": "Download"
+        },
+        {
+          "url": "https://docs.stirlingpdf.com",
+          "text": "Docs"
+        },
+        {
+          "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+          "text": "80 Page"
+        },
+        {
+          "url": "https://stirling.com/app/login",
+          "text": "Log in"
+        },
+        {
+          "url": "https://stirling.com/app/signup",
+          "text": "Sign up"
+        },
+        {
+          "url": "https://www.stirling.com/blog/introducing-v2",
+          "text": "Introducing Stirling V2 Product Release Sep 25, 2025"
+        },
+        {
+          "url": "https://www.stirling.com/blog/ceo-announcement",
+          "text": "On joining Stirling PDF as CEO Executive Hire Mar 1, 2025"
+        },
+        {
+          "url": "https://www.stirling.com/blog/redaction-open-source",
+          "text": "PDF Redaction is now open source Product Release Jan 13, 2025"
+        },
+        {
+          "url": "https://www.stirling.com/blog/stirling-open-core",
+          "text": "What’s Next for Stirling PDF: Going Open Core Strategy Sep 16, 2024"
+        },
+        {
+          "url": "https://discord.com/invite/Cn8pWhQRxZ",
+          "text": ""
+        },
+        {
+          "url": "https://x.com/StirlingPDF",
+          "text": ""
+        },
+        {
+          "url": "https://www.linkedin.com/company/stirling-pdf/",
+          "text": ""
+        },
+        {
+          "url": "https://www.stirling.com/book-a-demo",
+          "text": "Book a demo"
+        },
+        {
+          "url": "https://www.stirling.com/about",
+          "text": "About"
+        },
+        {
+          "url": "https://www.stirling.com/careers",
+          "text": "Careers"
+        },
+        {
+          "url": "https://www.stirling.com/help-center",
+          "text": "Help center"
+        },
+        {
+          "url": "https://www.stirling.com/legal/terms-of-service",
+          "text": "Legal"
+        },
+        {
+          "url": "https://docs.stirlingpdf.com/",
+          "text": "Docs"
+        },
+        {
+          "url": "https://www.stirling.com/blog",
+          "text": "Blog"
+        },
+        {
+          "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases",
+          "text": "Changelog"
+        },
+        {
+          "url": "https://www.stirling.com/legal/privacy-policy",
+          "text": "Privacy Policy"
+        },
+        {
+          "url": "https://www.stirling.com/legal/cookie-policy",
+          "text": "Cookie Policy"
+        },
+        {
+          "url": "https://www.framerstatus.com",
+          "text": "All systems normal"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-a368faa9ac2a6f5c",
+      "kind": "repository",
+      "title": "Stirling-Tools/Stirling-PDF",
+      "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+      "collected_at": "2026-11-21T08:04:11+00:00",
+      "published_at": null,
+      "text": "{\"full_name\": \"Stirling-Tools/Stirling-PDF\", \"stargazers_count\": 97126, \"forks_count\": 9386, \"open_issues_count\": 448, \"language\": \"TypeScript\", \"license\": {\"key\": \"other\", \"name\": \"Other\", \"spdx_id\": \"NOASSERTION\", \"url\": null, \"node_id\": \"MDc6TGljZW5zZTA=\"}, \"created_at\": \"2023",
+      "links": [],
+      "metadata": {
+        "full_name": "Stirling-Tools/Stirling-PDF",
+        "stargazers_count": 97126,
+        "forks_count": 9386,
+        "open_issues_count": 448,
+        "language": "TypeScript",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "created_at": "2023-01-27T18:22:42Z",
+        "pushed_at": "2026-11-21T07:56:00Z",
+        "topics": [
+          "docker",
+          "hacktoberfest",
+          "java",
+          "pdf",
+          "pdf-converter",
+          "pdf-editor",
+          "pdf-manipulation",
+          "pdf-merger",
+          "pdf-ocr",
+          "pdf-tools",
+          "pdf-web-apps",
+          "pdfmerger",
+          "self-hosted"
+        ],
+        "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
+        "homepage": "https://stirling.com",
+        "archived": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-2da62cd0e762fde8",
+      "kind": "readme",
+      "title": "Stirling-Tools/Stirling-PDF README",
+      "url": "https://github.com/Stirling-Tools/Stirling-PDF/blob/main/README.md",
+      "collected_at": "2026-11-21T08:04:12+00:00",
+      "published_at": null,
+      "text": "<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/main/docs/stirling.png\" width=\"80\" alt=\"Stirling PDF logo\">\n</p>\n\n<h1 align=\"center\">Stirling PDF - The Open-Source PDF Platform</h1>\n\nStirling PDF is a powerful, open-source PDF editing ",
+      "links": [],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-f756ca9470614137",
+      "kind": "release",
+      "title": "3.4.0 Big text editor changes, OneDrive, SCIM and Accessibility checker",
+      "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/tag/v3.4.0",
+      "collected_at": "2026-11-21T08:04:13+00:00",
+      "published_at": "2026-11-19T01:42:09Z",
+      "text": "A big release!  Lots of changes in this release around the PDF Text Editor, such as it now works directly inside the viewer by clicking the edit text button in the top bar. \r\nOther changes for it include: \r\n\r\n- It can use fonts from the server including any custom provided fonts ",
+      "links": [],
+      "metadata": {
+        "tag": "v3.4.0",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-49a2bf4b9fa169c6",
+      "kind": "release",
+      "title": "3.3.0 Conversion upgrades, bug fixes and several minor improvements ",
+      "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/tag/v3.3.0",
+      "collected_at": "2026-11-21T08:04:13+00:00",
+      "published_at": "2026-11-05T08:24:34Z",
+      "text": "Stirling Office Convert (still beta) has been upgraded. You can also now pick it as the converter in lots of other tools such as Email, HTML, Markdown and ebooks to PDF plus PDF to HTML/Markdown/XML/EPUB/AZW3, and PDF/A. Please compare it with the existing converter and let us kn",
+      "links": [],
+      "metadata": {
+        "tag": "v3.3.0",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-9c4b87434d4397c6",
+      "kind": "release",
+      "title": "3.2.2 new annotations and other minor changes and improvements",
+      "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/tag/v3.2.2",
+      "collected_at": "2026-11-21T08:04:13+00:00",
+      "published_at": "2026-10-24T09:24:55Z",
+      "text": "Another small release with some bug fixes\r\n\r\n- Fix for some viewer rendering issues \r\n- New auto fit to width button for viewer\r\n- New annotation shape options like arrow and polyline\r\n- QR code stamp types\r\n\r\n## What's Changed\r\n### Bug Fixes\r\n* fix(i18n): expand Turkish translat",
+      "links": [],
+      "metadata": {
+        "tag": "v3.2.2",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-2237771f6eb16a07",
+      "kind": "release",
+      "title": "3.2.1 Viewer improvements and bug fixes ",
+      "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/tag/v3.2.1",
+      "collected_at": "2026-11-21T08:04:13+00:00",
+      "published_at": "2026-10-21T21:49:47Z",
+      "text": "Smaller release with some nice viewer and editor improvements and bug fixes for annotation and compression\r\n\r\nKey features  are:\r\n- Arrow key support for viewer\r\n- Dual page view to support cover pages\r\n- Read aloud now starts at the selected text\r\n- You can now duplicate pages i",
+      "links": [],
+      "metadata": {
+        "tag": "v3.2.1",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    }
+  ],
+  "actions": [
+    {
+      "id": "a-1",
+      "title": "用公开内容承接用户问题",
+      "channel": "内容营销",
+      "description": "官网提供内容入口。可从文章主题、目标读者和文章内的产品引导，研究内容如何连接产品。",
+      "source_ids": [
+        "s-bd1d833e0dfd7db3"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-2",
+      "title": "维护公开代码仓库",
+      "channel": "开发者生态",
+      "description": "公开代码、README 和发布记录让开发者能够评估项目、参与讨论或尝试部署。Stars 与 Forks 表示公开互动规模。",
+      "source_ids": [
+        "s-a368faa9ac2a6f5c"
+      ],
+      "date": null,
+      "result": "本次记录了仓库当前的 Stars 与 Forks 快照，收入和付费客户数需要另行核对。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-3",
+      "title": "GitHub 仓库建立",
+      "channel": "项目历史",
+      "description": "GitHub API 记录的仓库创建日期。产品上线日期需要其他来源确认。",
+      "source_ids": [
+        "s-a368faa9ac2a6f5c"
+      ],
+      "date": "2023-01-27",
+      "result": "已取得仓库创建时间。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-4",
+      "title": "为自行部署的用户提供路径",
+      "channel": "开发者生态",
+      "description": "README 出现自托管或 Docker 部署说明。可研究免费部署入口与托管服务之间的使用路径。",
+      "source_ids": [
+        "s-2da62cd0e762fde8"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-5",
+      "title": "发布 3.4.0 Big text editor changes, OneDrive, SCIM and Accessibility checker",
+      "channel": "产品更新",
+      "description": "A big release! Lots of changes in this release around the PDF Text Editor, such as it now works directly inside the viewer by clicking the edit text button in the top bar. Other changes for it include: - It can use fonts from the server including any custom provided fonts that are placed in customFiles/static/fonts/. - It does a",
+      "source_ids": [
+        "s-f756ca9470614137"
+      ],
+      "date": "2026-11-19",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-6",
+      "title": "发布 3.3.0 Conversion upgrades, bug fixes and several minor improvements ",
+      "channel": "产品更新",
+      "description": "Stirling Office Convert (still beta) has been upgraded. You can also now pick it as the converter in lots of other tools such as Email, HTML, Markdown and ebooks to PDF plus PDF to HTML/Markdown/XML/EPUB/AZW3, and PDF/A. Please compare it with the existing converter and let us know! Our roadmap is to turn Office Convert on by de",
+      "source_ids": [
+        "s-49a2bf4b9fa169c6"
+      ],
+      "date": "2026-11-05",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-7",
+      "title": "发布 3.2.2 new annotations and other minor changes and improvements",
+      "channel": "产品更新",
+      "description": "Another small release with some bug fixes - Fix for some viewer rendering issues - New auto fit to width button for viewer - New annotation shape options like arrow and polyline - QR code stamp types ## What's Changed ### Bug Fixes * fix(i18n): expand Turkish translations by @alkank in https://github.com/Stirling-Tools/Stirling-",
+      "source_ids": [
+        "s-9c4b87434d4397c6"
+      ],
+      "date": "2026-10-24",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-8",
+      "title": "发布 3.2.1 Viewer improvements and bug fixes ",
+      "channel": "产品更新",
+      "description": "Smaller release with some nice viewer and editor improvements and bug fixes for annotation and compression Key features are: - Arrow key support for viewer - Dual page view to support cover pages - Read aloud now starts at the selected text - You can now duplicate pages in page editor (multi tool) - Memory optimisations - Label ",
+      "source_ids": [
+        "s-2237771f6eb16a07"
+      ],
+      "date": "2026-10-21",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "产品概览",
+      "intro": "从官网和公开仓库核对产品定位、功能与公开入口。",
+      "facts": [
+        {
+          "text": "A free, private PDF editor you can run on any infrastructure.",
+          "source_ids": [
+            "s-91c6c6e8f4ac9533"
+          ]
+        },
+        {
+          "text": "README 内容摘录：Stirling PDF - The Open-Source PDF Platform Stirling PDF is a powerful, open-source PDF editing platform. Run it as a personal desktop app, in the browser, or deploy it on your own servers with a private API. Edit, sign, redact, c",
+          "source_ids": [
+            "s-2da62cd0e762fde8"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "business",
+      "title": "生意与定价",
+      "intro": "定价信息来自产品自己的公开页面。收入指标需要单独的公开披露或授权数据。",
+      "facts": [
+        {
+          "text": "已找到公开定价页。套餐范围和付费周期请以原页面为准。",
+          "source_ids": [
+            "s-662a45c4dc640d18"
+          ]
+        },
+        {
+          "text": "公开仓库为 Stirling-Tools/Stirling-PDF，API 标注许可证为 Other。",
+          "source_ids": [
+            "s-a368faa9ac2a6f5c"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "acquisition",
+      "title": "获客入口",
+      "intro": "下面列出已观察到的入口与动作。渠道带来的访问和付费效果仍需转化数据验证。",
+      "facts": [
+        {
+          "text": "内容页可见文本摘录：Blog Latest articles, insights, and trends. All Product Release Executive Hire Strategy Introducing Stirling V2 Product Release Sep 25, 2025 On joining Stirling PDF as CEO Executive Hire Mar 1, 2025 PDF Redaction is now ",
+          "source_ids": [
+            "s-bd1d833e0dfd7db3"
+          ]
+        }
+      ],
+      "action_ids": [
+        "a-1",
+        "a-2",
+        "a-4"
+      ]
+    },
+    {
+      "id": "growth",
+      "title": "公开动作拆解",
+      "intro": "每个动作都关联原始资料，适合进一步研究具体做法和执行条件。",
+      "facts": [],
+      "action_ids": [
+        "a-1",
+        "a-2",
+        "a-3",
+        "a-4",
+        "a-5",
+        "a-6",
+        "a-7",
+        "a-8"
+      ]
+    },
+    {
+      "id": "social",
+      "title": "社媒与社区",
+      "intro": "本次保留官网引用的社媒与社区链接。账号归属、帖子内容和互动数据需要进一步核对。",
+      "facts": [
+        {
+          "text": "官网引用的社媒与社区链接涉及 discord.com、linkedin.com、x.com。",
+          "source_ids": [
+            "s-91c6c6e8f4ac9533"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "timeline",
+      "title": "事件时间线",
+      "intro": "仅展示来源中明确给出日期的事件，采集时间另列。产品更新可以帮助理解推广内容的背景。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "competitors",
+      "title": "竞品研究线索",
+      "intro": "本轮采集围绕单个产品。可按目标客户、解决的问题和购买方式，再添加相关产品进行研究。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "appendix",
+      "title": "来源与数据缺口",
+      "intro": "报告保留了本次采集的来源快照。缺失指标保持为空，观察到的动作与分析建议分别呈现。",
+      "facts": [],
+      "action_ids": []
+    }
+  ],
+  "metrics": [
+    {
+      "name": "GitHub Stars",
+      "value": 97126,
+      "unit": "stars",
+      "source_id": "s-a368faa9ac2a6f5c",
+      "observed_at": "2026-11-21T08:04:11+00:00"
+    },
+    {
+      "name": "Forks",
+      "value": 9386,
+      "unit": "forks",
+      "source_id": "s-a368faa9ac2a6f5c",
+      "observed_at": "2026-11-21T08:04:11+00:00"
+    }
+  ],
+  "gaps": [
+    "连续收入序列和已核验 MRR",
+    "真实访问量及渠道占比",
+    "搜索关键词排名与点击数据",
+    "社媒帖子、互动和渠道转化数据",
+    "独立核对过的竞品比较"
+  ],
+  "warnings": [],
+  "discovered_accounts": [
+    {
+      "url": "https://discord.com/invite/Cn8pWhQRxZ",
+      "platform": "discord.com",
+      "label": "discord.com"
+    },
+    {
+      "url": "https://x.com/StirlingPDF",
+      "platform": "x.com",
+      "label": "@StirlingPDF"
+    },
+    {
+      "url": "https://www.linkedin.com/company/stirling-pdf/",
+      "platform": "linkedin.com",
+      "label": "linkedin.com"
+    }
+  ],
+  "coverage": "website"
+}

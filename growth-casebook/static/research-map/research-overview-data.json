@@ -1,0 +1,63 @@
+{
+  "captured_at": "2026-11-21T18:24:52+08:00",
+  "projects": 32,
+  "sources": 222,
+  "actions": 202,
+  "coverage": {
+    "website": 29,
+    "repository": 1,
+    "listing_only": 2
+  },
+  "discovered_published": 14,
+  "candidates": 97,
+  "settings": {
+    "enabled": true,
+    "batch_size": 5,
+    "interval_hours": 24,
+    "next_run_at": "2026-11-22T09:10:57+00:00",
+    "cooldown_until": null,
+    "enabled_sources": [
+      "product_hunt",
+      "betalist",
+      "hacker_news",
+      "github"
+    ]
+  },
+  "product_hunt": [
+    {
+      "name": "Beat Watcher",
+      "status": "confirmed",
+      "coverage": "website"
+    },
+    {
+      "name": "Hollr",
+      "status": "confirmed",
+      "coverage": "website"
+    },
+    {
+      "name": "Backspin",
+      "status": "unresolved",
+      "coverage": "listing_only"
+    },
+    {
+      "name": "Prompt Puncher",
+      "status": "unresolved",
+      "coverage": "listing_only"
+    },
+    {
+      "name": "Alter Contacts",
+      "status": "confirmed",
+      "coverage": "website"
+    }
+  ],
+  "validation_tests": 32,
+  "evidence": [
+    "static/project-review.md",
+    "casebook/public_products.py",
+    "casebook/website_resolver.py",
+    "casebook/collect.py",
+    "casebook/report.py",
+    "GET /api/projects",
+    "GET /api/discovery"
+  ]
+}

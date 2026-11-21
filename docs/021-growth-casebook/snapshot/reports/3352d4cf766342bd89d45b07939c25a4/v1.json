@@ -1,0 +1,971 @@
+{
+  "schema_version": "1.0",
+  "project_id": "3352d4cf766342bd89d45b07939c25a4",
+  "version": 1,
+  "generated_at": "2026-11-21T07:30:57+00:00",
+  "mode": "evidence",
+  "summary": "围绕 Plane 核对了 10 份公开资料，整理出 10 条入口与动作。可继续研究的方向包括产品试用、使用教育、内容营销、开发者生态。",
+  "summary_source_ids": [],
+  "sources": [
+    {
+      "id": "s-1c63f27411da1781",
+      "kind": "website",
+      "title": "AI-native project management | Plane",
+      "url": "https://plane.so/",
+      "collected_at": "2026-11-21T07:30:48+00:00",
+      "published_at": null,
+      "text": "Cloud, self-hosted and air-gapped ready\nProject\nmanagement\nand\nknowledge\nmanagement\nfor\nteams\nand\nagents\nPlane brings projects, docs, and AI-powered workflows into one unified\nworkspace so teams and agents can plan, execute, and stay aligned.\nTry Plane Business for 14 days\nTalk t",
+      "links": [
+        {
+          "url": "https://plane.so/",
+          "text": ""
+        },
+        {
+          "url": "https://plane.so/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://plane.so/self-hosted",
+          "text": "Self-host Plane"
+        },
+        {
+          "url": "https://plane.so/view-demo",
+          "text": "View demo"
+        },
+        {
+          "url": "https://plane.so/talk-to-sales",
+          "text": "Sales Contact sales"
+        },
+        {
+          "url": "https://app.plane.so/",
+          "text": "Login"
+        },
+        {
+          "url": "https://app.plane.so/sign-up",
+          "text": "Get started free"
+        },
+        {
+          "url": "https://app.plane.so/sign-up/",
+          "text": "Try Plane Business for 14 days"
+        },
+        {
+          "url": "https://plane.so/customers/fortyau",
+          "text": "Why FortyAU replaced Monday and Trello with Plane for flexible, self-hosted project delivery Read customer story"
+        },
+        {
+          "url": "https://plane.so/customers/minimalart",
+          "text": "Why MinimalArt replaced ClickUp with Plane for simpler project management Read customer story"
+        },
+        {
+          "url": "https://plane.so/customers/vates",
+          "text": "Why VATES replaced a Trello alternative with Plane as they scaled Read customer story"
+        },
+        {
+          "url": "https://plane.so/customers/inits",
+          "text": "How INITS built a real-world innovation lab for students with Plane Read customer story"
+        },
+        {
+          "url": "https://developers.plane.so/self-hosting/overview",
+          "text": "Self-host Plane"
+        },
+        {
+          "url": "https://apps.apple.com/in/app/plane/id6657986465",
+          "text": "Download for iOS"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.plane.so",
+          "text": "Download for Android"
+        },
+        {
+          "url": "https://plane.so/marketplace",
+          "text": "Go to Marketplace →"
+        },
+        {
+          "url": "https://developers.plane.so/dev-tools/agents/building-an-agent",
+          "text": "Read the docs →"
+        },
+        {
+          "url": "https://trust.plane.so/",
+          "text": "Go to trust.plane.so →"
+        },
+        {
+          "url": "https://status.plane.so/",
+          "text": "Go to status.plane.so →"
+        },
+        {
+          "url": "https://plane.so/solutions/enterprise-teams",
+          "text": "Go to /enterprise →"
+        },
+        {
+          "url": "https://plane.so/plane-compose",
+          "text": "Learn More about Plane Compose for Projects-as-Code"
+        },
+        {
+          "url": "https://plane.so/developers",
+          "text": "APIs, Webhooks, and SDKs REST API with OAuth 2.0, HMAC-signed webhooks, and typed SDKs in Node.js and Python. Build cust"
+        },
+        {
+          "url": "https://developers.plane.so/dev-tools/mcp-server",
+          "text": "MCP Server Native MCP server, an agent framework with @mention support, and full Agent Run lifecycle tracking. Let AI ma"
+        },
+        {
+          "url": "https://plane.so/project-management",
+          "text": "Project Management"
+        },
+        {
+          "url": "https://plane.so/wiki",
+          "text": "Wiki"
+        },
+        {
+          "url": "https://plane.so/ai",
+          "text": "Plane AI"
+        },
+        {
+          "url": "https://plane.so/airgapped",
+          "text": "Airgapped Edition"
+        },
+        {
+          "url": "https://prime.plane.so/",
+          "text": "Prime Portal"
+        },
+        {
+          "url": "https://plane.so/work-items",
+          "text": "Work items"
+        },
+        {
+          "url": "https://plane.so/work-item-types",
+          "text": "Work item types"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-b52a0487f3ad11b9",
+      "kind": "pricing",
+      "title": "Plane Pricing | Simple per-seat plans for teams that ship",
+      "url": "https://plane.so/pricing",
+      "collected_at": "2026-11-21T07:30:50+00:00",
+      "published_at": null,
+      "text": "Start free,\nupgrade comfortably\nPackaged for modern project management teams, each of our plans\nunlocks way more than available alternatives.\nSee for yourself\nCloud\nSelf-hosted\nMonthly\nAnnually\nYearly\nFree\n$\n0\nper seat per month\nNo-frills project management for startups, passion ",
+      "links": [
+        {
+          "url": "https://plane.so/",
+          "text": ""
+        },
+        {
+          "url": "https://plane.so/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://plane.so/self-hosted",
+          "text": "Self-host Plane"
+        },
+        {
+          "url": "https://plane.so/view-demo",
+          "text": "View demo"
+        },
+        {
+          "url": "https://plane.so/talk-to-sales",
+          "text": "Sales Contact sales"
+        },
+        {
+          "url": "https://app.plane.so/",
+          "text": "Login"
+        },
+        {
+          "url": "https://app.plane.so/sign-up",
+          "text": "Get started free"
+        },
+        {
+          "url": "https://docs.plane.so/workspaces-and-users/billing-and-plans",
+          "text": "12 users"
+        },
+        {
+          "url": "https://app.plane.so/upgrade/pro/",
+          "text": "Get Pro at this price"
+        },
+        {
+          "url": "https://app.plane.so/upgrade/business/",
+          "text": "Get Business at this price"
+        },
+        {
+          "url": "https://plane.so/testimonials",
+          "text": "Join 50,000+ teams that actually enjoy their work"
+        },
+        {
+          "url": "https://app.plane.so/sign-up/",
+          "text": "Get started free"
+        },
+        {
+          "url": "https://app.plane.so/upgrade/pro",
+          "text": "Get Pro"
+        },
+        {
+          "url": "https://app.plane.so/upgrade/business",
+          "text": "Get Business"
+        },
+        {
+          "url": "https://trust.plane.so/",
+          "text": ""
+        },
+        {
+          "url": "https://plane.so/project-management",
+          "text": "Project Management"
+        },
+        {
+          "url": "https://plane.so/wiki",
+          "text": "Wiki"
+        },
+        {
+          "url": "https://plane.so/ai",
+          "text": "Plane AI"
+        },
+        {
+          "url": "https://plane.so/plane-compose",
+          "text": "Plane Compose"
+        },
+        {
+          "url": "https://plane.so/airgapped",
+          "text": "Airgapped Edition"
+        },
+        {
+          "url": "https://prime.plane.so/",
+          "text": "Prime Portal"
+        },
+        {
+          "url": "https://plane.so/work-items",
+          "text": "Work items"
+        },
+        {
+          "url": "https://plane.so/work-item-types",
+          "text": "Work item types"
+        },
+        {
+          "url": "https://plane.so/intake",
+          "text": "Intake"
+        },
+        {
+          "url": "https://plane.so/cycles",
+          "text": "Cycles"
+        },
+        {
+          "url": "https://plane.so/workflows-and-approvals",
+          "text": "Workflows and Approvals"
+        },
+        {
+          "url": "https://plane.so/epics-initiatives",
+          "text": "Epics and Initiatives"
+        },
+        {
+          "url": "https://plane.so/customer-requests",
+          "text": "Customers"
+        },
+        {
+          "url": "https://plane.so/dashboards",
+          "text": "Dashboards"
+        },
+        {
+          "url": "https://plane.so/teamspaces",
+          "text": "Teamspaces"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-ecac1f8c833ac2f0",
+      "kind": "content",
+      "title": "Planes of Thought | Blog | Plane",
+      "url": "https://plane.so/blog",
+      "collected_at": "2026-11-21T07:30:51+00:00",
+      "published_at": null,
+      "text": "Product\n20 Nov, 2026\nRoles and permissions in Plane: Who can access what\nSee how roles and permissions work in Plane across workspaces, projects, teamspaces, and private pages, and how to check who can access what.\nSneha Kanojia\nRead more\nProduct\n20 Nov, 2026\nHow to manage beta p",
+      "links": [
+        {
+          "url": "https://plane.so/",
+          "text": ""
+        },
+        {
+          "url": "https://plane.so/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://plane.so/self-hosted",
+          "text": "Self-host Plane"
+        },
+        {
+          "url": "https://plane.so/view-demo",
+          "text": "View demo"
+        },
+        {
+          "url": "https://plane.so/talk-to-sales",
+          "text": "Sales Contact sales"
+        },
+        {
+          "url": "https://app.plane.so/",
+          "text": "Login"
+        },
+        {
+          "url": "https://app.plane.so/sign-up",
+          "text": "Get started free"
+        },
+        {
+          "url": "https://plane.so/blog/roles-and-permissions-in-plane-who-can-access-what",
+          "text": "Product 20 Nov, 2026 Roles and permissions in Plane: Who can access what See how roles and permissions work in Plane acr"
+        },
+        {
+          "url": "https://plane.so/blog/how-to-manage-product-beta-programs-in-plane",
+          "text": "Product 20 Nov, 2026 How to manage beta programs in Plane Om Lakhe"
+        },
+        {
+          "url": "https://plane.so/blog/jira-admins-guide-to-plane-schemes-workflows-and-pql",
+          "text": "Product 20 Nov, 2026 Jira admin's guide to Plane: Schemes, workflows and PQL Sneha Kanojia"
+        },
+        {
+          "url": "https://plane.so/blog/best-practices-for-building-dashboards-in-plane",
+          "text": "Product 18 Nov, 2026 Best practices for building Dashboards in Plane: 5 examples Sneha Kanojia"
+        },
+        {
+          "url": "https://plane.so/blog",
+          "text": "All"
+        },
+        {
+          "url": "https://plane.so/blog?category=tech",
+          "text": "Tech"
+        },
+        {
+          "url": "https://plane.so/blog?category=comparisons",
+          "text": "Comparisons"
+        },
+        {
+          "url": "https://plane.so/blog?category=concepts",
+          "text": "Concepts"
+        },
+        {
+          "url": "https://plane.so/blog?category=product",
+          "text": "Product"
+        },
+        {
+          "url": "https://plane.so/blog?category=plane-pov",
+          "text": "Plane POV"
+        },
+        {
+          "url": "https://plane.so/blog?category=announcements",
+          "text": "Announcements"
+        },
+        {
+          "url": "https://trust.plane.so/",
+          "text": ""
+        },
+        {
+          "url": "https://plane.so/project-management",
+          "text": "Project Management"
+        },
+        {
+          "url": "https://plane.so/wiki",
+          "text": "Wiki"
+        },
+        {
+          "url": "https://plane.so/ai",
+          "text": "Plane AI"
+        },
+        {
+          "url": "https://plane.so/plane-compose",
+          "text": "Plane Compose"
+        },
+        {
+          "url": "https://plane.so/airgapped",
+          "text": "Airgapped Edition"
+        },
+        {
+          "url": "https://prime.plane.so/",
+          "text": "Prime Portal"
+        },
+        {
+          "url": "https://plane.so/work-items",
+          "text": "Work items"
+        },
+        {
+          "url": "https://plane.so/work-item-types",
+          "text": "Work item types"
+        },
+        {
+          "url": "https://plane.so/intake",
+          "text": "Intake"
+        },
+        {
+          "url": "https://plane.so/cycles",
+          "text": "Cycles"
+        },
+        {
+          "url": "https://plane.so/workflows-and-approvals",
+          "text": "Workflows and Approvals"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-daeb0da4aa1f7dab",
+      "kind": "docs",
+      "title": "Plane Docs | Plane",
+      "url": "https://docs.plane.so/",
+      "collected_at": "2026-11-21T07:30:55+00:00",
+      "published_at": null,
+      "text": "Plane documentation\n​\nPlan, track, and ship your work with Plane.\nThis documentation helps you learn Plane, manage projects, collaborate with teams, and automate workflows.\nGet Started\nTutorials\nWorkspaces\nSet up workspaces, invite members, configure roles and permissions, and co",
+      "links": [
+        {
+          "url": "https://docs.plane.so/",
+          "text": "Skip to content"
+        },
+        {
+          "url": "https://developers.plane.so",
+          "text": "Developer Docs"
+        },
+        {
+          "url": "https://app.plane.so/sign-in",
+          "text": "Sign in"
+        },
+        {
+          "url": "https://forum.plane.so",
+          "text": ""
+        },
+        {
+          "url": "https://github.com/makeplane/plane",
+          "text": ""
+        },
+        {
+          "url": "https://x.com/planepowers",
+          "text": ""
+        },
+        {
+          "url": "https://www.linkedin.com/company/planepowers/",
+          "text": ""
+        },
+        {
+          "url": "https://docs.plane.so/introduction/home",
+          "text": "Introduction"
+        },
+        {
+          "url": "https://docs.plane.so/introduction/core-concepts",
+          "text": "Core concepts"
+        },
+        {
+          "url": "https://docs.plane.so/introduction/quickstart",
+          "text": "Quickstart guide"
+        },
+        {
+          "url": "https://docs.plane.so/introduction/quickstart/startups",
+          "text": "How to Plane: For startups"
+        },
+        {
+          "url": "https://docs.plane.so/introduction/quickstart/growing-teams",
+          "text": "How to Plane: For growing teams"
+        },
+        {
+          "url": "https://docs.plane.so/introduction/quickstart/enterprise-teams",
+          "text": "How to Plane: For enterprise teams"
+        },
+        {
+          "url": "https://docs.plane.so/introduction/tutorials/overview",
+          "text": "Tutorials"
+        },
+        {
+          "url": "https://docs.plane.so/introduction/tutorials/create-workspace",
+          "text": "Create workspace"
+        },
+        {
+          "url": "https://docs.plane.so/introduction/tutorials/invite-members",
+          "text": "Invite members"
+        },
+        {
+          "url": "https://docs.plane.so/introduction/tutorials/create-project",
+          "text": "Create project"
+        },
+        {
+          "url": "https://docs.plane.so/introduction/tutorials/create-work-items",
+          "text": "Create work items"
+        },
+        {
+          "url": "https://docs.plane.so/introduction/tutorials/collaborate-on-work-items",
+          "text": "Collaborate on work items"
+        },
+        {
+          "url": "https://docs.plane.so/introduction/tutorials/organize-and-view-work",
+          "text": "Organize and view work"
+        },
+        {
+          "url": "https://docs.plane.so/introduction/tutorials/plan-and-create-cycles",
+          "text": "Plan work with cycles"
+        },
+        {
+          "url": "https://docs.plane.so/introduction/tutorials/create-pages",
+          "text": "Write content with pages"
+        },
+        {
+          "url": "https://plane.so/download",
+          "text": "Download Plane"
+        },
+        {
+          "url": "https://developers.plane.so/self-hosting/overview",
+          "text": "Self-host Plane"
+        },
+        {
+          "url": "https://docs.plane.so/workspaces/overview",
+          "text": "Workspaces"
+        },
+        {
+          "url": "https://docs.plane.so/workspaces/manage-workspaces",
+          "text": "Workspace management"
+        },
+        {
+          "url": "https://docs.plane.so/workspaces/workspace-settings",
+          "text": "Workspace settings"
+        },
+        {
+          "url": "https://docs.plane.so/workspaces/workspace-features",
+          "text": "Workspace features"
+        },
+        {
+          "url": "https://docs.plane.so/workspaces-and-users/search-workspace",
+          "text": "Search workspace"
+        },
+        {
+          "url": "https://docs.plane.so/core-concepts/account/overview",
+          "text": "Personalize homepage"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-6bbd89da1a951eab",
+      "kind": "repository",
+      "title": "makeplane/plane",
+      "url": "https://github.com/makeplane/plane",
+      "collected_at": "2026-11-21T07:30:56+00:00",
+      "published_at": null,
+      "text": "{\"full_name\": \"makeplane/plane\", \"stargazers_count\": 62886, \"forks_count\": 6481, \"open_issues_count\": 1175, \"language\": \"TypeScript\", \"license\": {\"key\": \"agpl-3.0\", \"name\": \"GNU Affero General Public License v3.0\", \"spdx_id\": \"AGPL-3.0\", \"url\": \"https://api.github.com/licenses/ag",
+      "links": [],
+      "metadata": {
+        "full_name": "makeplane/plane",
+        "stargazers_count": 62886,
+        "forks_count": 6481,
+        "open_issues_count": 1175,
+        "language": "TypeScript",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "created_at": "2022-11-19T12:55:01Z",
+        "pushed_at": "2026-11-20T13:14:22Z",
+        "topics": [
+          "boards",
+          "bug-tracker",
+          "django",
+          "docker",
+          "gantt",
+          "issue-tracker",
+          "jira",
+          "jira-alternative",
+          "kanban",
+          "linear",
+          "postgresql",
+          "product-management",
+          "project-management",
+          "project-planning",
+          "python",
+          "react",
+          "redis",
+          "typescipt",
+          "vite",
+          "work-management"
+        ],
+        "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+        "homepage": "http://plane.so",
+        "archived": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-f49e2bb027838a47",
+      "kind": "readme",
+      "title": "makeplane/plane README",
+      "url": "https://github.com/makeplane/plane/blob/preview/README.md",
+      "collected_at": "2026-11-21T07:30:57+00:00",
+      "published_at": null,
+      "text": "<br /><br />\n\n<p align=\"center\">\n<a href=\"https://plane.so\">\n  <img src=\"https://media.docs.plane.so/logo/plane_github_readme.png\" alt=\"Plane Logo\" width=\"400\">\n</a>\n</p>\n<p align=\"center\"><b>Modern project management for all teams</b></p>\n\n<p align=\"center\">\n    <a href=\"https:/",
+      "links": [],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-b44cce58121a9dea",
+      "kind": "release",
+      "title": "v1.5.0",
+      "url": "https://github.com/makeplane/plane/releases/tag/v1.5.0",
+      "collected_at": "2026-11-21T07:30:57+00:00",
+      "published_at": "2026-11-16T14:45:07Z",
+      "text": "### ✨ Features\n\n- Refreshed the web app, Space and Admin UI to match the Propel design system. UI primitives now come from `@makeplane/propel`.\n- Added Bulgarian, Georgian and Dutch.\n- Upgraded to React 19, React Router 8, and Tiptap and Hocuspocus v3.\n- The admin and web images ",
+      "links": [],
+      "metadata": {
+        "tag": "v1.5.0",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-7205b51b1afaffba",
+      "kind": "release",
+      "title": "v1.5.0-rc2",
+      "url": "https://github.com/makeplane/plane/releases/tag/v1.5.0-rc2",
+      "collected_at": "2026-11-21T07:30:57+00:00",
+      "published_at": "2026-11-12T15:17:33Z",
+      "text": "## What's Changed\n* [WEB-10027] fix: reject legacy file-asset POST and strip query from asset id by @pablohashescobar in https://github.com/makeplane/plane/pull/10216\n* [WEB-10025] fix: require active workspace members as project lead/assignee by @pablohashescobar in https://gith",
+      "links": [],
+      "metadata": {
+        "tag": "v1.5.0-rc2",
+        "prerelease": true,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-54abef7683e07dfb",
+      "kind": "release",
+      "title": "v1.5.0-rc1",
+      "url": "https://github.com/makeplane/plane/releases/tag/v1.5.0-rc1",
+      "collected_at": "2026-11-21T07:30:57+00:00",
+      "published_at": "2026-11-10T12:21:57Z",
+      "text": "## What's Changed\n* chore: remove posthog integration and analytics scaffold by @sriramveeraghanta in https://github.com/makeplane/plane/pull/9634\n* chore: set issue type on GitHub issue templates by @sriramveeraghanta in https://github.com/makeplane/plane/pull/9559\n* [WEB-8789] ",
+      "links": [],
+      "metadata": {
+        "tag": "v1.5.0-rc1",
+        "prerelease": true,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-9f5dbdff60a2c3f9",
+      "kind": "release",
+      "title": "v1.4.3",
+      "url": "https://github.com/makeplane/plane/releases/tag/v1.4.3",
+      "collected_at": "2026-11-21T07:30:57+00:00",
+      "published_at": "2026-10-28T19:36:28Z",
+      "text": "### 🐞  Bug fixes\r\n\r\n- Fixed voting on published work items that had no votes yet, which previously failed without registering the vote.\r\n- Fixed archiving a cycle that has no end date.\r\n- Fixed work item links being re-crawled on every update even when the URL had not changed.\r\n-",
+      "links": [],
+      "metadata": {
+        "tag": "v1.4.3",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    }
+  ],
+  "actions": [
+    {
+      "id": "a-1",
+      "title": "提供公开试用入口",
+      "channel": "产品试用",
+      "description": "定价页面公开提供试用入口。可进一步检查试用额度、触达位置和转付费步骤。",
+      "source_ids": [
+        "s-b52a0487f3ad11b9"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-2",
+      "title": "用公开内容承接用户问题",
+      "channel": "内容营销",
+      "description": "官网提供内容入口。可从文章主题、目标读者和文章内的产品引导，研究内容如何连接产品。",
+      "source_ids": [
+        "s-ecac1f8c833ac2f0"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-3",
+      "title": "提供文档与上手路径",
+      "channel": "使用教育",
+      "description": "公开文档为用户了解功能和开始使用提供入口。可研究教程是否覆盖客户的真实任务。",
+      "source_ids": [
+        "s-daeb0da4aa1f7dab"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-4",
+      "title": "维护公开代码仓库",
+      "channel": "开发者生态",
+      "description": "公开代码、README 和发布记录让开发者能够评估项目、参与讨论或尝试部署。Stars 与 Forks 表示公开互动规模。",
+      "source_ids": [
+        "s-6bbd89da1a951eab"
+      ],
+      "date": null,
+      "result": "本次记录了仓库当前的 Stars 与 Forks 快照，收入和付费客户数需要另行核对。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-5",
+      "title": "GitHub 仓库建立",
+      "channel": "项目历史",
+      "description": "GitHub API 记录的仓库创建日期。产品上线日期需要其他来源确认。",
+      "source_ids": [
+        "s-6bbd89da1a951eab"
+      ],
+      "date": "2022-11-19",
+      "result": "已取得仓库创建时间。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-6",
+      "title": "为自行部署的用户提供路径",
+      "channel": "开发者生态",
+      "description": "README 出现自托管或 Docker 部署说明。可研究免费部署入口与托管服务之间的使用路径。",
+      "source_ids": [
+        "s-f49e2bb027838a47"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-7",
+      "title": "发布 v1.5.0",
+      "channel": "产品更新",
+      "description": "### ✨ Features - Refreshed the web app, Space and Admin UI to match the Propel design system. UI primitives now come from `@makeplane/propel`. - Added Bulgarian, Georgian and Dutch. - Upgraded to React 19, React Router 8, and Tiptap and Hocuspocus v3. - The admin and web images now serve with Caddy instead of nginx. - Docker ima",
+      "source_ids": [
+        "s-b44cce58121a9dea"
+      ],
+      "date": "2026-11-16",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-8",
+      "title": "发布 v1.5.0-rc2",
+      "channel": "产品更新",
+      "description": "## What's Changed * [WEB-10027] fix: reject legacy file-asset POST and strip query from asset id by @pablohashescobar in https://github.com/makeplane/plane/pull/10216 * [WEB-10025] fix: require active workspace members as project lead/assignee by @pablohashescobar in https://github.com/makeplane/plane/pull/10214 * [WEB-10024] fi",
+      "source_ids": [
+        "s-7205b51b1afaffba"
+      ],
+      "date": "2026-11-12",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-9",
+      "title": "发布 v1.5.0-rc1",
+      "channel": "产品更新",
+      "description": "## What's Changed * chore: remove posthog integration and analytics scaffold by @sriramveeraghanta in https://github.com/makeplane/plane/pull/9634 * chore: set issue type on GitHub issue templates by @sriramveeraghanta in https://github.com/makeplane/plane/pull/9559 * [WEB-8789] Adopt @makeplane/propel as the design token source",
+      "source_ids": [
+        "s-54abef7683e07dfb"
+      ],
+      "date": "2026-11-10",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-10",
+      "title": "发布 v1.4.3",
+      "channel": "产品更新",
+      "description": "### 🐞 Bug fixes - Fixed voting on published work items that had no votes yet, which previously failed without registering the vote. - Fixed archiving a cycle that has no end date. - Fixed work item links being re-crawled on every update even when the URL had not changed. - The REST API now returns a validation error when a work ",
+      "source_ids": [
+        "s-9f5dbdff60a2c3f9"
+      ],
+      "date": "2026-10-28",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "产品概览",
+      "intro": "从官网和公开仓库核对产品定位、功能与公开入口。",
+      "facts": [
+        {
+          "text": "Project management for teams and AI agents. Plan, track, and ship with Projects, Wiki, and AI. Available on cloud, self-hosted, and air-gapped.",
+          "source_ids": [
+            "s-1c63f27411da1781"
+          ]
+        },
+        {
+          "text": "README 内容摘录：Modern project management for all teams Website • Forum • X • Documentation Meet Plane, an open-source project management tool to track issues, run ~sprints~ cycles, and manage product roadmaps without the chaos of managing the to",
+          "source_ids": [
+            "s-f49e2bb027838a47"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "business",
+      "title": "生意与定价",
+      "intro": "定价信息来自产品自己的公开页面。收入指标需要单独的公开披露或授权数据。",
+      "facts": [
+        {
+          "text": "定价页中的原始片段：osted Monthly Annually Yearly Free $ 0 per seat per month No-frills project management for startups, pa；interface. 12 users Pro Save 25 % $ 6 per seat per month Designed and built for mature teams that need；ack. 1:5 Guests Business Save 13 % $ 13 per seat per month Best for group PMs, larger teams, and greater",
+          "source_ids": [
+            "s-b52a0487f3ad11b9"
+          ]
+        },
+        {
+          "text": "公开仓库为 makeplane/plane，API 标注许可证为 GNU Affero General Public License v3.0。",
+          "source_ids": [
+            "s-6bbd89da1a951eab"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "acquisition",
+      "title": "获客入口",
+      "intro": "下面列出已观察到的入口与动作。渠道带来的访问和付费效果仍需转化数据验证。",
+      "facts": [
+        {
+          "text": "内容页可见文本摘录：Product 20 Nov, 2026 Roles and permissions in Plane: Who can access what See how roles and permissions work in Plane across workspaces, projects, teamspaces, and private pages, and how to check who can access what. Sneha",
+          "source_ids": [
+            "s-ecac1f8c833ac2f0"
+          ]
+        }
+      ],
+      "action_ids": [
+        "a-1",
+        "a-2",
+        "a-3",
+        "a-4",
+        "a-6"
+      ]
+    },
+    {
+      "id": "growth",
+      "title": "公开动作拆解",
+      "intro": "每个动作都关联原始资料，适合进一步研究具体做法和执行条件。",
+      "facts": [],
+      "action_ids": [
+        "a-1",
+        "a-2",
+        "a-3",
+        "a-4",
+        "a-5",
+        "a-6",
+        "a-7",
+        "a-8",
+        "a-9",
+        "a-10"
+      ]
+    },
+    {
+      "id": "social",
+      "title": "社媒与社区",
+      "intro": "本次保留官网引用的社媒与社区链接。账号归属、帖子内容和互动数据需要进一步核对。",
+      "facts": [
+        {
+          "text": "官网引用的社媒与社区链接涉及 discord.com、linkedin.com、twitter.com、youtube.com。",
+          "source_ids": [
+            "s-1c63f27411da1781"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "timeline",
+      "title": "事件时间线",
+      "intro": "仅展示来源中明确给出日期的事件，采集时间另列。产品更新可以帮助理解推广内容的背景。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "competitors",
+      "title": "竞品研究线索",
+      "intro": "本轮采集围绕单个产品。可按目标客户、解决的问题和购买方式，再添加相关产品进行研究。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "appendix",
+      "title": "来源与数据缺口",
+      "intro": "报告保留了本次采集的来源快照。缺失指标保持为空，观察到的动作与分析建议分别呈现。",
+      "facts": [],
+      "action_ids": []
+    }
+  ],
+  "metrics": [
+    {
+      "name": "GitHub Stars",
+      "value": 62886,
+      "unit": "stars",
+      "source_id": "s-6bbd89da1a951eab",
+      "observed_at": "2026-11-21T07:30:56+00:00"
+    },
+    {
+      "name": "Forks",
+      "value": 6481,
+      "unit": "forks",
+      "source_id": "s-6bbd89da1a951eab",
+      "observed_at": "2026-11-21T07:30:56+00:00"
+    }
+  ],
+  "gaps": [
+    "连续收入序列和已核验 MRR",
+    "真实访问量及渠道占比",
+    "搜索关键词排名与点击数据",
+    "社媒帖子、互动和渠道转化数据",
+    "独立核对过的竞品比较"
+  ],
+  "warnings": [],
+  "discovered_accounts": [
+    {
+      "url": "https://www.linkedin.com/company/planepowers/",
+      "platform": "linkedin.com",
+      "label": "linkedin.com"
+    },
+    {
+      "url": "https://twitter.com/planepowers",
+      "platform": "twitter.com",
+      "label": "@planepowers"
+    },
+    {
+      "url": "https://discord.com/invite/A92xrEGCge",
+      "platform": "discord.com",
+      "label": "discord.com"
+    },
+    {
+      "url": "https://www.youtube.com/@planepowers",
+      "platform": "youtube.com",
+      "label": "youtube.com"
+    }
+  ],
+  "translations": {
+    "## What's Changed * [WEB-10027] fix: reject legacy file-asset POST and strip query from asset id by @pablohashescobar in https://github.com/makeplane/plane/pull/10216 * [WEB-10025] fix: require active workspace members as project lead/assignee by @pablohashescobar in https://github.com/makeplane/plane/pull/10214 * [WEB-10024] fi": "发布说明摘译：拒绝旧版 file-asset POST 请求，并移除资源 ID 中的查询参数（WEB-10027，#10216）；项目负责人或受理人必须是活跃工作空间成员（WEB-10025，#10214）。后续 WEB-10024 的说明被截断。",
+    "### ✨ Features - Refreshed the web app, Space and Admin UI to match the Propel design system. UI primitives now come from `@makeplane/propel`. - Added Bulgarian, Georgian and Dutch. - Upgraded to React 19, React Router 8, and Tiptap and Hocuspocus v3. - The admin and web images now serve with Caddy instead of nginx. - Docker ima": "发布说明摘译：网页应用、Space 和管理界面采用 Propel 设计系统，基础组件来自 @makeplane/propel；新增保加利亚语、格鲁吉亚语和荷兰语；升级 React 19、React Router 8，以及 Tiptap 和 Hocuspocus v3；管理端与网页镜像改用 Caddy，取代 nginx。后续 Docker 镜像说明被截断。",
+    "### 🐞 Bug fixes - Fixed voting on published work items that had no votes yet, which previously failed without registering the vote. - Fixed archiving a cycle that has no end date. - Fixed work item links being re-crawled on every update even when the URL had not changed. - The REST API now returns a validation error when a work ": "发布说明摘译：修复尚无投票的已发布工作项无法登记投票的问题；修复归档无结束日期的迭代周期；避免链接未变化时仍反复抓取。下一项 REST API 校验错误说明被截断。",
+    "AI-native project management | Plane": "Plane 官网",
+    "Plane Docs | Plane": "Plane 文档与更新",
+    "Plane Pricing | Simple per-seat plans for teams that ship": "Plane 定价与方案",
+    "Planes of Thought | Blog | Plane": "Plane 博客与内容",
+    "Project management for teams and AI agents. Plan, track, and ship with Projects, Wiki, and AI. Available on cloud, self-hosted, and air-gapped.": "面向团队和 AI 智能体的项目管理工具，通过项目、知识库和 AI 进行规划、跟踪与交付，支持云端、自托管及隔离网络部署。",
+    "README 内容摘录：Modern project management for all teams Website • Forum • X • Documentation Meet Plane, an open-source project management tool to track issues, run ~sprints~ cycles, and manage product roadmaps without the chaos of managing the to": "README 摘录（中文）：面向各类团队的现代项目管理工具，提供官网、论坛、X 和文档入口。Plane 是开源项目管理工具，用于跟踪事项、运行迭代周期和管理产品路线图。",
+    "makeplane/plane": "Plane 公开代码仓库",
+    "makeplane/plane README": "Plane 项目说明（README）",
+    "内容页可见文本摘录：Product 20 Nov, 2026 Roles and permissions in Plane: Who can access what See how roles and permissions work in Plane across workspaces, projects, teamspaces, and private pages, and how to check who can access what. Sneha": "内容页摘录（中文）：2026 年 11 月 20 日的产品文章介绍 Plane 中的角色与权限，涵盖工作空间、项目、团队空间和私有页面，以及如何检查谁能访问哪些内容。",
+    "定价页中的原始片段：osted Monthly Annually Yearly Free $ 0 per seat per month No-frills project management for startups, pa；interface. 12 users Pro Save 25 % $ 6 per seat per month Designed and built for mature teams that need；ack. 1:5 Guests Business Save 13 % $ 13 per seat per month Best for group PMs, larger teams, and greater": "定价页摘录（中文）：Free 每个席位每月 0 美元，摘录提及 12 名用户。Pro 每个席位每月 6 美元，标注节省 25%，面向成熟团队，访客比例为 1:5。Business 每个席位每月 13 美元，标注节省 13%，面向项目经理群体和较大团队。原文混有月付与年付选项，具体计费周期需核对定价页。"
+  },
+  "coverage": "website"
+}

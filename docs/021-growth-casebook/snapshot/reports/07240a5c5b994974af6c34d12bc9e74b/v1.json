@@ -1,0 +1,812 @@
+{
+  "schema_version": "1.0",
+  "project_id": "07240a5c5b994974af6c34d12bc9e74b",
+  "version": 1,
+  "generated_at": "2026-11-21T07:31:02+00:00",
+  "mode": "evidence",
+  "summary": "围绕 Appsmith 核对了 9 份公开资料，整理出 8 条入口与动作。可继续研究的方向包括产品试用、内容营销、开发者生态。",
+  "summary_source_ids": [],
+  "sources": [
+    {
+      "id": "s-90640434f2e3363d",
+      "kind": "website",
+      "title": "Appsmith | Open-Source Low-Code Application Platform",
+      "url": "https://www.appsmith.com/",
+      "collected_at": "2026-11-21T07:30:59+00:00",
+      "published_at": null,
+      "text": "Save\n100s of development hours\nand 1000s of development dollars\nBuild custom applications more quickly and securely with the leader in open-source low-code development.\nGet a demo\nSupport Apps\nAI Apps\nIT Apps\nSalesforce Apps\nSupport Apps\nAI Apps\nIT Apps\nSalesforce Apps\nCreate cus",
+      "links": [
+        {
+          "url": "https://www.appsmith.com/",
+          "text": ""
+        },
+        {
+          "url": "https://www.github.com/appsmithorg/appsmith",
+          "text": "Github Logo 41,284 Stars"
+        },
+        {
+          "url": "https://kite.ai/",
+          "text": "Kite AI"
+        },
+        {
+          "url": "https://www.appsmith.com/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://login.appsmith.com/org",
+          "text": "Login"
+        },
+        {
+          "url": "https://login.appsmith.com",
+          "text": "Sign up"
+        },
+        {
+          "url": "https://www.appsmith.com/enterprise",
+          "text": "Get a demo"
+        },
+        {
+          "url": "https://www.appsmith.com/solution/customer-support",
+          "text": "Explore"
+        },
+        {
+          "url": "https://www.appsmith.com/ai/low-code",
+          "text": "Explore"
+        },
+        {
+          "url": "https://www.appsmith.com/solution/it-automation",
+          "text": "Explore"
+        },
+        {
+          "url": "https://www.appsmith.com/solution/enterprise-app-extensions",
+          "text": "Explore"
+        },
+        {
+          "url": "https://www.appsmith.com/case-study/gsk",
+          "text": "Automate manual processes GSK built an app to patch their fleet of 3,500 Linux servers in just one sprint."
+        },
+        {
+          "url": "https://www.appsmith.com/case-study/hifi",
+          "text": "Streamline customer support Block processes new customer applications 50% faster."
+        },
+        {
+          "url": "https://www.appsmith.com/case-study/f22-labs",
+          "text": "Reduce seat licenses F22 labs saved $1,200 a month by developing custom extensions to their project management platform."
+        },
+        {
+          "url": "https://www.appsmith.com/case-study/heyjobs",
+          "text": "Modernize legacy applications HeyJobs adds new features to their campaign management and budgeting applications 90% fast"
+        },
+        {
+          "url": "https://docs.appsmith.com/advanced-concepts/embed-appsmith-into-existing-application",
+          "text": "Manage variables, functions, and logic in a centralized IDE Don’t dribble code across individual widgets or workflow ste"
+        },
+        {
+          "url": "https://docs.appsmith.com/getting-started/setup/instance-configuration/authentication",
+          "text": "Use prompts to generate code, not abstractions Appsmith’s copilots allow you to create custom widgets and workflow logic"
+        },
+        {
+          "url": "https://www.appsmith.com/blog/appsmith-business-for-teams-who-need-more-for-their-internal-tools",
+          "text": "Fully maintained open-source edition under Apache 2.0 license Build with the transparency and security that comes with a"
+        },
+        {
+          "url": "https://docs.appsmith.com/getting-started/setup",
+          "text": "Integrate with Git to collaborate, manage versions, and merge updates Sync to a git repository, and use the same dev wor"
+        },
+        {
+          "url": "https://www.aicpa.org/soc4so",
+          "text": ""
+        },
+        {
+          "url": "https://www.appsmith.com/use-cases",
+          "text": "All use cases"
+        },
+        {
+          "url": "https://www.appsmith.com/use-case/admin-panels",
+          "text": "Admin panels"
+        },
+        {
+          "url": "https://www.appsmith.com/use-case/backoffice-apps",
+          "text": "Backoffice apps"
+        },
+        {
+          "url": "https://www.appsmith.com/use-case/crud-frontends",
+          "text": "CRUD frontends"
+        },
+        {
+          "url": "https://www.appsmith.com/use-case/dashboards",
+          "text": "Dashboards"
+        },
+        {
+          "url": "https://www.appsmith.com/use-case/portals",
+          "text": "Portals"
+        },
+        {
+          "url": "https://www.appsmith.com/use-case/trackers",
+          "text": "Trackers"
+        },
+        {
+          "url": "https://www.appsmith.com/templates",
+          "text": "All templates"
+        },
+        {
+          "url": "https://www.appsmith.com/template/customer-support",
+          "text": "Customer support"
+        },
+        {
+          "url": "https://www.appsmith.com/template/business-analytics-dashboard",
+          "text": "Business analytics"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-7202bde9645de3e8",
+      "kind": "pricing",
+      "title": "Appsmith pricing - simple, user-based pricing",
+      "url": "https://www.appsmith.com/pricing",
+      "collected_at": "2026-11-21T07:30:59+00:00",
+      "published_at": null,
+      "text": "Simple, user-based pricing\nNo extra costs for developers, no complicated classes of users, just predictable pricing that aligns platform costs with value. From hobbyists to enterprises, Appsmith has a plan that fits your needs.\nFree\nFor individual developers and small teams\n$0\nUp",
+      "links": [
+        {
+          "url": "https://www.appsmith.com/",
+          "text": ""
+        },
+        {
+          "url": "https://www.github.com/appsmithorg/appsmith",
+          "text": "Github Logo 41,284 Stars"
+        },
+        {
+          "url": "https://kite.ai/",
+          "text": "Kite AI"
+        },
+        {
+          "url": "https://www.appsmith.com/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://login.appsmith.com/org",
+          "text": "Login"
+        },
+        {
+          "url": "https://login.appsmith.com",
+          "text": "Sign up"
+        },
+        {
+          "url": "https://www.appsmith.com/enterprise?lead_source=pricing+page",
+          "text": "Contact us"
+        },
+        {
+          "url": "https://www.appsmith.com/enterprise-managed-hosting",
+          "text": "Managed hosting"
+        },
+        {
+          "url": "https://docs.appsmith.com/getting-started/setup/installation-guides",
+          "text": "Read our docs"
+        },
+        {
+          "url": "https://customer.appsmith.com",
+          "text": "self-hosted"
+        },
+        {
+          "url": "https://www.appsmith.com/enterprise?lead_source=public_app_faq",
+          "text": "contact us"
+        },
+        {
+          "url": "https://customer.appsmith.com/",
+          "text": "Start free trial (self-hosted)"
+        },
+        {
+          "url": "https://www.appsmith.com/enterprise",
+          "text": "Talk to Sales"
+        },
+        {
+          "url": "https://www.aicpa.org/soc4so",
+          "text": ""
+        },
+        {
+          "url": "https://www.appsmith.com/use-cases",
+          "text": "All use cases"
+        },
+        {
+          "url": "https://www.appsmith.com/use-case/admin-panels",
+          "text": "Admin panels"
+        },
+        {
+          "url": "https://www.appsmith.com/use-case/backoffice-apps",
+          "text": "Backoffice apps"
+        },
+        {
+          "url": "https://www.appsmith.com/use-case/crud-frontends",
+          "text": "CRUD frontends"
+        },
+        {
+          "url": "https://www.appsmith.com/use-case/dashboards",
+          "text": "Dashboards"
+        },
+        {
+          "url": "https://www.appsmith.com/use-case/portals",
+          "text": "Portals"
+        },
+        {
+          "url": "https://www.appsmith.com/use-case/trackers",
+          "text": "Trackers"
+        },
+        {
+          "url": "https://www.appsmith.com/templates",
+          "text": "All templates"
+        },
+        {
+          "url": "https://www.appsmith.com/template/customer-support",
+          "text": "Customer support"
+        },
+        {
+          "url": "https://www.appsmith.com/template/business-analytics-dashboard",
+          "text": "Business analytics"
+        },
+        {
+          "url": "https://www.appsmith.com/template/inventory-management-dashboard",
+          "text": "Inventory Dashboard"
+        },
+        {
+          "url": "https://www.appsmith.com/template/IT-Asset-Tracker",
+          "text": "IT asset tracker"
+        },
+        {
+          "url": "https://docs.appsmith.com/",
+          "text": "Docs"
+        },
+        {
+          "url": "https://github.com/appsmithorg/appsmith",
+          "text": "GitHub"
+        },
+        {
+          "url": "https://github.com/appsmithorg/appsmith/releases",
+          "text": "Changelog"
+        },
+        {
+          "url": "https://status.appsmith.com/",
+          "text": "Status"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-5f57627062a189f8",
+      "kind": "content",
+      "title": "Appsmith Blog | Open-Source Low-Code Platform for Internal Tools",
+      "url": "https://www.appsmith.com/blog",
+      "collected_at": "2026-11-21T07:31:00+00:00",
+      "published_at": null,
+      "text": "The Appsmith\nBlog\nDive into Appsmith's product updates, company news, and educational content on how developers and enterprises can leverage the platform.",
+      "links": [
+        {
+          "url": "https://www.appsmith.com/",
+          "text": ""
+        },
+        {
+          "url": "https://www.github.com/appsmithorg/appsmith",
+          "text": "Github Logo 41,284 Stars"
+        },
+        {
+          "url": "https://kite.ai/",
+          "text": "Kite AI"
+        },
+        {
+          "url": "https://www.appsmith.com/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://login.appsmith.com/org",
+          "text": "Login"
+        },
+        {
+          "url": "https://login.appsmith.com",
+          "text": "Sign up"
+        },
+        {
+          "url": "https://www.appsmith.com/blog",
+          "text": "Request a demo"
+        },
+        {
+          "url": "https://www.aicpa.org/soc4so",
+          "text": ""
+        },
+        {
+          "url": "https://www.appsmith.com/use-cases",
+          "text": "All use cases"
+        },
+        {
+          "url": "https://www.appsmith.com/use-case/admin-panels",
+          "text": "Admin panels"
+        },
+        {
+          "url": "https://www.appsmith.com/use-case/backoffice-apps",
+          "text": "Backoffice apps"
+        },
+        {
+          "url": "https://www.appsmith.com/use-case/crud-frontends",
+          "text": "CRUD frontends"
+        },
+        {
+          "url": "https://www.appsmith.com/use-case/dashboards",
+          "text": "Dashboards"
+        },
+        {
+          "url": "https://www.appsmith.com/use-case/portals",
+          "text": "Portals"
+        },
+        {
+          "url": "https://www.appsmith.com/use-case/trackers",
+          "text": "Trackers"
+        },
+        {
+          "url": "https://www.appsmith.com/templates",
+          "text": "All templates"
+        },
+        {
+          "url": "https://www.appsmith.com/template/customer-support",
+          "text": "Customer support"
+        },
+        {
+          "url": "https://www.appsmith.com/template/business-analytics-dashboard",
+          "text": "Business analytics"
+        },
+        {
+          "url": "https://www.appsmith.com/template/inventory-management-dashboard",
+          "text": "Inventory Dashboard"
+        },
+        {
+          "url": "https://www.appsmith.com/template/IT-Asset-Tracker",
+          "text": "IT asset tracker"
+        },
+        {
+          "url": "https://docs.appsmith.com/",
+          "text": "Docs"
+        },
+        {
+          "url": "https://github.com/appsmithorg/appsmith",
+          "text": "GitHub"
+        },
+        {
+          "url": "https://github.com/appsmithorg/appsmith/releases",
+          "text": "Changelog"
+        },
+        {
+          "url": "https://status.appsmith.com/",
+          "text": "Status"
+        },
+        {
+          "url": "https://docs.appsmith.com/getting-started/setup",
+          "text": "Deployment options"
+        },
+        {
+          "url": "https://discord.com/invite/rBTTVJp",
+          "text": "Support forum"
+        },
+        {
+          "url": "https://community.appsmith.com/",
+          "text": "Community"
+        },
+        {
+          "url": "https://www.appsmith.com/blog?cat=Tutorial",
+          "text": "Tutorials"
+        },
+        {
+          "url": "https://www.appsmith.com/low-code-for-developers",
+          "text": "Low Code"
+        },
+        {
+          "url": "https://www.appsmith.com/customers",
+          "text": "Customers"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-395bd10bb47f4dff",
+      "kind": "repository",
+      "title": "appsmithorg/appsmith",
+      "url": "https://github.com/appsmithorg/appsmith",
+      "collected_at": "2026-11-21T07:31:00+00:00",
+      "published_at": null,
+      "text": "{\"full_name\": \"appsmithorg/appsmith\", \"stargazers_count\": 41284, \"forks_count\": 4849, \"open_issues_count\": 4518, \"language\": \"TypeScript\", \"license\": {\"key\": \"apache-2.0\", \"name\": \"Apache License 2.0\", \"spdx_id\": \"Apache-2.0\", \"url\": \"https://api.github.com/licenses/apache-2.0\", ",
+      "links": [],
+      "metadata": {
+        "full_name": "appsmithorg/appsmith",
+        "stargazers_count": 41284,
+        "forks_count": 4849,
+        "open_issues_count": 4518,
+        "language": "TypeScript",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "created_at": "2020-06-30T04:07:36Z",
+        "pushed_at": "2026-11-21T00:33:06Z",
+        "topics": [
+          "admin-dashboard",
+          "admin-panels",
+          "app-builder",
+          "automation",
+          "crud",
+          "custom-internal",
+          "developer-tools",
+          "gui",
+          "gui-application",
+          "hacktoberfest",
+          "internal-tools",
+          "java",
+          "javascript",
+          "low-code",
+          "low-code-framework",
+          "react",
+          "self-hosted",
+          "typescript",
+          "webdevelopment",
+          "workflows"
+        ],
+        "description": "Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API.",
+        "homepage": "https://www.appsmith.com",
+        "archived": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-9d8871d4fcc6e489",
+      "kind": "readme",
+      "title": "appsmithorg/appsmith README",
+      "url": "https://github.com/appsmithorg/appsmith/blob/release/README.md",
+      "collected_at": "2026-11-21T07:31:01+00:00",
+      "published_at": null,
+      "text": "<p align=\"center\">\n<a href=\"https://www.appsmith.com?utm_source=github&utm_medium=organic&utm_campaign=readme\">\n  <img src=\"static/appsmith_logo_white.png\" alt=\"Appsmith Logo\" width=\"350\">\n</a>\n</p>\n\n<p align=\"center\">\n<a href=\"https://discord.gg/rBTTVJp\">\n<img alt=\"Discord\" src=",
+      "links": [],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-6575475c84821e1b",
+      "kind": "release",
+      "title": "Release v2.7.2 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v2.7.2",
+      "collected_at": "2026-11-21T07:31:02+00:00",
+      "published_at": "2026-11-19T16:23:11Z",
+      "text": "## 🔐 Security\r\n\r\n- The bundled Java runtime is now Eclipse Temurin 25.0.5.1. This fixes [CVE-2026-114938](https://nvd.nist.gov/vuln/detail/CVE-2026-114938) (\"Java4Shell\") in the Java runtime. All earlier Appsmith images include an affected Java version. Self-hosted instances shou",
+      "links": [],
+      "metadata": {
+        "tag": "v2.7.2",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-066a5fe70e89fbef",
+      "kind": "release",
+      "title": "Release v2.7.1 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v2.7.1",
+      "collected_at": "2026-11-21T07:31:02+00:00",
+      "published_at": "2026-11-18T15:11:01Z",
+      "text": "## ⚠️ Important Upgrade Notes\r\n\r\n- **Embed allowlist:** `APPSMITH_ALLOWED_FRAME_ANCESTORS` must be a list of CSP `frame-ancestors` source expressions. A saved value that is not in that form is served as `'self'` after the next restart. Saving the setting rejects an invalid value.",
+      "links": [],
+      "metadata": {
+        "tag": "v2.7.1",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-bffecde82380f7ba",
+      "kind": "release",
+      "title": "Release v2.7.0 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v2.7.0",
+      "collected_at": "2026-11-21T07:31:02+00:00",
+      "published_at": "2026-11-12T17:45:16Z",
+      "text": "## ⚠️ Important Upgrade Notes\r\n\r\n- Helm chart: if you set some `probes` keys, the keys you did not set now take the new defaults (10 s period, 5 s timeout). If you tuned `failureThreshold` for the old 60 s period, also set `periodSeconds: 60`. Probe values that are not positive i",
+      "links": [],
+      "metadata": {
+        "tag": "v2.7.0",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-798f77d39df5753b",
+      "kind": "release",
+      "title": "Release v2.6.0 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v2.6.0",
+      "collected_at": "2026-11-21T07:31:02+00:00",
+      "published_at": "2026-10-28T18:10:23Z",
+      "text": "## ⚠️ For EE users, before upgrading to v2.6.0 finish existing Temporal workflow runs on v2.5.1\r\n\r\nAppsmith is moving to a new workflow engine. Runs that started on the old Temporal engine cannot be relied on to resume or finish after upgrading to v2.6.0.\r\n\r\nA **run** is one exec",
+      "links": [],
+      "metadata": {
+        "tag": "v2.6.0",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    }
+  ],
+  "actions": [
+    {
+      "id": "a-1",
+      "title": "提供公开试用入口",
+      "channel": "产品试用",
+      "description": "定价页面公开提供试用入口。可进一步检查试用额度、触达位置和转付费步骤。",
+      "source_ids": [
+        "s-7202bde9645de3e8"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-2",
+      "title": "用公开内容承接用户问题",
+      "channel": "内容营销",
+      "description": "官网提供内容入口。可从文章主题、目标读者和文章内的产品引导，研究内容如何连接产品。",
+      "source_ids": [
+        "s-5f57627062a189f8"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-3",
+      "title": "维护公开代码仓库",
+      "channel": "开发者生态",
+      "description": "公开代码、README 和发布记录让开发者能够评估项目、参与讨论或尝试部署。Stars 与 Forks 表示公开互动规模。",
+      "source_ids": [
+        "s-395bd10bb47f4dff"
+      ],
+      "date": null,
+      "result": "本次记录了仓库当前的 Stars 与 Forks 快照，收入和付费客户数需要另行核对。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-4",
+      "title": "GitHub 仓库建立",
+      "channel": "项目历史",
+      "description": "GitHub API 记录的仓库创建日期。产品上线日期需要其他来源确认。",
+      "source_ids": [
+        "s-395bd10bb47f4dff"
+      ],
+      "date": "2020-06-30",
+      "result": "已取得仓库创建时间。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-5",
+      "title": "发布 Release v2.7.2 🌈",
+      "channel": "产品更新",
+      "description": "## 🔐 Security - The bundled Java runtime is now Eclipse Temurin 25.0.5.1. This fixes CVE-2026-114938 (\"Java4Shell\") in the Java runtime. All earlier Appsmith images include an affected Java version. Self-hosted instances should upgrade.",
+      "source_ids": [
+        "s-6575475c84821e1b"
+      ],
+      "date": "2026-11-19",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-6",
+      "title": "发布 Release v2.7.1 🌈",
+      "channel": "产品更新",
+      "description": "## ⚠️ Important Upgrade Notes - **Embed allowlist:** `APPSMITH_ALLOWED_FRAME_ANCESTORS` must be a list of CSP `frame-ancestors` source expressions. A saved value that is not in that form is served as `'self'` after the next restart. Saving the setting rejects an invalid value. (#42622) - **Git page names:** Git will not commit a",
+      "source_ids": [
+        "s-066a5fe70e89fbef"
+      ],
+      "date": "2026-11-18",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-7",
+      "title": "发布 Release v2.7.0 🌈",
+      "channel": "产品更新",
+      "description": "## ⚠️ Important Upgrade Notes - Helm chart: if you set some `probes` keys, the keys you did not set now take the new defaults (10 s period, 5 s timeout). If you tuned `failureThreshold` for the old 60 s period, also set `periodSeconds: 60`. Probe values that are not positive integers now fail `helm install` and `helm upgrade`. Q",
+      "source_ids": [
+        "s-bffecde82380f7ba"
+      ],
+      "date": "2026-11-12",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-8",
+      "title": "发布 Release v2.6.0 🌈",
+      "channel": "产品更新",
+      "description": "## ⚠️ For EE users, before upgrading to v2.6.0 finish existing Temporal workflow runs on v2.5.1 Appsmith is moving to a new workflow engine. Runs that started on the old Temporal engine cannot be relied on to resume or finish after upgrading to v2.6.0. A **run** is one execution of a workflow. This includes executions waiting fo",
+      "source_ids": [
+        "s-798f77d39df5753b"
+      ],
+      "date": "2026-10-28",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "产品概览",
+      "intro": "从官网和公开仓库核对产品定位、功能与公开入口。",
+      "facts": [
+        {
+          "text": "Stop grappling with data, scouring for the perfect React library, and coding everything from scratch. Build custom software 10X faster with Appsmith.",
+          "source_ids": [
+            "s-90640434f2e3363d"
+          ]
+        },
+        {
+          "text": "README 内容摘录：--- Organizations build custom applications like dashboards, admin panels, customer 360, IT automation, and service management tools to help their teams work more efficiently and effectively. Appsmith is an open-source low-code pl",
+          "source_ids": [
+            "s-9d8871d4fcc6e489"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "business",
+      "title": "生意与定价",
+      "intro": "定价信息来自产品自己的公开页面。收入指标需要单独的公开披露或授权数据。",
+      "facts": [
+        {
+          "text": "定价页中的原始片段：ividual developers and small teams $0 Up to 5 users for cloud 5 workspaces Version control with Git 3；re customization and collaboration $15 / Month per user Everything in Free, plus Up to 99 users Unlimited en；anced security, scale, and support $2,500 / Month For 100 users Contact us Everything in Business, plus SAML /",
+          "source_ids": [
+            "s-7202bde9645de3e8"
+          ]
+        },
+        {
+          "text": "公开仓库为 appsmithorg/appsmith，API 标注许可证为 Apache License 2.0。",
+          "source_ids": [
+            "s-395bd10bb47f4dff"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "acquisition",
+      "title": "获客入口",
+      "intro": "下面列出已观察到的入口与动作。渠道带来的访问和付费效果仍需转化数据验证。",
+      "facts": [
+        {
+          "text": "内容页可见文本摘录：The Appsmith Blog Dive into Appsmith's product updates, company news, and educational content on how developers and enterprises can leverage the platform.",
+          "source_ids": [
+            "s-5f57627062a189f8"
+          ]
+        }
+      ],
+      "action_ids": [
+        "a-1",
+        "a-2",
+        "a-3"
+      ]
+    },
+    {
+      "id": "growth",
+      "title": "公开动作拆解",
+      "intro": "每个动作都关联原始资料，适合进一步研究具体做法和执行条件。",
+      "facts": [],
+      "action_ids": [
+        "a-1",
+        "a-2",
+        "a-3",
+        "a-4",
+        "a-5",
+        "a-6",
+        "a-7",
+        "a-8"
+      ]
+    },
+    {
+      "id": "social",
+      "title": "社媒与社区",
+      "intro": "本次保留官网引用的社媒与社区链接。账号归属、帖子内容和互动数据需要进一步核对。",
+      "facts": [
+        {
+          "text": "官网引用的社媒与社区链接涉及 discord.com、twitter.com、youtube.com。",
+          "source_ids": [
+            "s-90640434f2e3363d"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "timeline",
+      "title": "事件时间线",
+      "intro": "仅展示来源中明确给出日期的事件，采集时间另列。产品更新可以帮助理解推广内容的背景。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "competitors",
+      "title": "竞品研究线索",
+      "intro": "本轮采集围绕单个产品。可按目标客户、解决的问题和购买方式，再添加相关产品进行研究。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "appendix",
+      "title": "来源与数据缺口",
+      "intro": "报告保留了本次采集的来源快照。缺失指标保持为空，观察到的动作与分析建议分别呈现。",
+      "facts": [],
+      "action_ids": []
+    }
+  ],
+  "metrics": [
+    {
+      "name": "GitHub Stars",
+      "value": 41284,
+      "unit": "stars",
+      "source_id": "s-395bd10bb47f4dff",
+      "observed_at": "2026-11-21T07:31:00+00:00"
+    },
+    {
+      "name": "Forks",
+      "value": 4849,
+      "unit": "forks",
+      "source_id": "s-395bd10bb47f4dff",
+      "observed_at": "2026-11-21T07:31:00+00:00"
+    }
+  ],
+  "gaps": [
+    "连续收入序列和已核验 MRR",
+    "真实访问量及渠道占比",
+    "搜索关键词排名与点击数据",
+    "社媒帖子、互动和渠道转化数据",
+    "独立核对过的竞品比较"
+  ],
+  "warnings": [],
+  "discovered_accounts": [
+    {
+      "url": "https://discord.com/invite/rBTTVJp",
+      "platform": "discord.com",
+      "label": "discord.com"
+    },
+    {
+      "url": "https://www.youtube.com/c/Appsmith",
+      "platform": "youtube.com",
+      "label": "youtube.com"
+    },
+    {
+      "url": "https://twitter.com/theappsmith?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+      "platform": "twitter.com",
+      "label": "@theappsmith"
+    }
+  ],
+  "translations": {
+    "## ⚠️ For EE users, before upgrading to v2.6.0 finish existing Temporal workflow runs on v2.5.1 Appsmith is moving to a new workflow engine. Runs that started on the old Temporal engine cannot be relied on to resume or finish after upgrading to v2.6.0. A **run** is one execution of a workflow. This includes executions waiting fo": "发布说明摘译：企业版用户升级 v2.6.0 前，应先在 v2.5.1 完成已有 Temporal 工作流执行。项目正迁移到新工作流引擎，旧引擎启动的执行在升级后不能保证恢复或完成，后续说明被截断。",
+    "## ⚠️ Important Upgrade Notes - **Embed allowlist:** `APPSMITH_ALLOWED_FRAME_ANCESTORS` must be a list of CSP `frame-ancestors` source expressions. A saved value that is not in that form is served as `'self'` after the next restart. Saving the setting rejects an invalid value. (#42622) - **Git page names:** Git will not commit a": "发布说明摘译：APPSMITH_ALLOWED_FRAME_ANCESTORS 必须由 CSP frame-ancestors 来源表达式组成；不符合格式的已有值在重启后按 self 处理，保存时拒绝无效值（#42622）。下一项 Git 页面名称说明被截断。",
+    "## ⚠️ Important Upgrade Notes - Helm chart: if you set some `probes` keys, the keys you did not set now take the new defaults (10 s period, 5 s timeout). If you tuned `failureThreshold` for the old 60 s period, also set `periodSeconds: 60`. Probe values that are not positive integers now fail `helm install` and `helm upgrade`. Q": "发布说明摘译：Helm chart 未显式设置的 probes 配置使用新默认值：周期 10 秒、超时 5 秒。若 failureThreshold 按旧的 60 秒周期调整，还应设置 periodSeconds: 60。非正整数的探针配置会导致 helm install 或 helm upgrade 失败。",
+    "## 🔐 Security - The bundled Java runtime is now Eclipse Temurin 25.0.5.1. This fixes CVE-2026-114938 (\"Java4Shell\") in the Java runtime. All earlier Appsmith images include an affected Java version. Self-hosted instances should upgrade.": "发布说明摘译：捆绑的 Java 运行环境升级为 Eclipse Temurin 25.0.5.1。发布说明称其修复 CVE-2026-114938（Java4Shell），并称早期 Appsmith 镜像包含受影响版本，建议自托管实例升级。以上为来源发布说明的表述。",
+    "Appsmith Blog | Open-Source Low-Code Platform for Internal Tools": "Appsmith 博客与内容",
+    "Appsmith pricing - simple, user-based pricing": "Appsmith 定价与方案",
+    "Appsmith | Open-Source Low-Code Application Platform": "Appsmith 官网",
+    "README 内容摘录：--- Organizations build custom applications like dashboards, admin panels, customer 360, IT automation, and service management tools to help their teams work more efficiently and effectively. Appsmith is an open-source low-code pl": "README 摘录（中文）：企业可构建仪表盘、管理后台、客户全景视图、IT 自动化和服务管理等定制应用，提升团队效率。Appsmith 是开源低代码平台，摘录在此被截断。",
+    "Release v2.6.0 🌈": "版本 v2.6.0 🌈",
+    "Release v2.7.0 🌈": "版本 v2.7.0 🌈",
+    "Release v2.7.1 🌈": "版本 v2.7.1 🌈",
+    "Release v2.7.2 🌈": "版本 v2.7.2 🌈",
+    "Stop grappling with data, scouring for the perfect React library, and coding everything from scratch. Build custom software 10X faster with Appsmith.": "通过低代码方式构建定制软件，减少处理数据、挑选 React 组件库和从零编程的工作；官网宣称可将开发速度提升至原来的 10 倍。",
+    "appsmithorg/appsmith": "Appsmith 公开代码仓库",
+    "appsmithorg/appsmith README": "Appsmith 项目说明（README）",
+    "内容页可见文本摘录：The Appsmith Blog Dive into Appsmith's product updates, company news, and educational content on how developers and enterprises can leverage the platform.": "内容页摘录（中文）：Appsmith 博客提供产品更新、公司新闻和教程，帮助开发者与企业了解如何使用该平台。",
+    "发布 Release v2.6.0 🌈": "发布 版本 v2.6.0 🌈",
+    "发布 Release v2.7.0 🌈": "发布 版本 v2.7.0 🌈",
+    "发布 Release v2.7.1 🌈": "发布 版本 v2.7.1 🌈",
+    "发布 Release v2.7.2 🌈": "发布 版本 v2.7.2 🌈",
+    "定价页中的原始片段：ividual developers and small teams $0 Up to 5 users for cloud 5 workspaces Version control with Git 3；re customization and collaboration $15 / Month per user Everything in Free, plus Up to 99 users Unlimited en；anced security, scale, and support $2,500 / Month For 100 users Contact us Everything in Business, plus SAML /": "定价页摘录（中文）：免费方案 0 美元，云端最多 5 名用户、5 个工作空间，并支持 Git 版本控制。Business 每名用户每月 15 美元，包含免费方案功能，最多支持 99 名用户。企业级方案每月 2,500 美元，面向 100 名用户，增加安全、扩展和支持能力，摘录提及 SAML。"
+  },
+  "coverage": "website"
+}

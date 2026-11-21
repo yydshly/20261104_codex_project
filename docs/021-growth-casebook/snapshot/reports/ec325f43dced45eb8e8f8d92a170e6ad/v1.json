@@ -1,0 +1,925 @@
+{
+  "schema_version": "1.0",
+  "project_id": "ec325f43dced45eb8e8f8d92a170e6ad",
+  "version": 1,
+  "generated_at": "2026-11-21T07:21:36+00:00",
+  "mode": "evidence",
+  "summary": "围绕 Formbricks 核对了 10 份公开资料，整理出 9 条入口与动作。可继续研究的方向包括使用教育、内容营销、开发者生态。",
+  "summary_source_ids": [],
+  "sources": [
+    {
+      "id": "s-7f51d6e7dcf14e90",
+      "kind": "website",
+      "title": "Formbricks Experience Suite: own your experience data",
+      "url": "https://formbricks.com/",
+      "collected_at": "2026-11-21T07:21:33+00:00",
+      "published_at": null,
+      "text": "We're hiring\n: two open roles, remote in Europe\nFormbricks Experience Suite\nOwn your XM stack. Stop renting it.\nOpen source experience management that runs in\nyour\ninfrastructure, next to\nyour\nrevenue data. AI runs on the model you already approved, with zero new sub-processors.\n",
+      "links": [
+        {
+          "url": "https://formbricks.com/",
+          "text": "Experience Suite · For organizations"
+        },
+        {
+          "url": "https://formbricks.com/surveys",
+          "text": "Surveys · For product teams"
+        },
+        {
+          "url": "https://app.formbricks.com",
+          "text": "Go to app"
+        },
+        {
+          "url": "https://formbricks.com/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://formbricks.com/about",
+          "text": "About"
+        },
+        {
+          "url": "https://formbricks.com/enterprise-license?ref_path=%2F&ref_section=header",
+          "text": "Get a trial license"
+        },
+        {
+          "url": "https://app.formbricks.com/s/w7lxc7szvx6ooyewo20upvuc?request_type=discovery&utm_source=formbricks.com&utm_medium=website&utm_campaign=home&utm_content=header&ref_path=%2F&product=experience-suite",
+          "text": "Talk to us"
+        },
+        {
+          "url": "https://formbricks.com/careers",
+          "text": "We're hiring : two open roles, remote in Europe"
+        },
+        {
+          "url": "https://app.formbricks.com/s/w7lxc7szvx6ooyewo20upvuc?request_type=discovery&utm_source=formbricks.com&utm_medium=website&utm_campaign=home&utm_content=home-hero&ref_path=%2F&product=experience-suite",
+          "text": "Talk to us"
+        },
+        {
+          "url": "https://formbricks.com/enterprise-license?ref_path=%2F&ref_section=home-hero",
+          "text": "Get a trial license"
+        },
+        {
+          "url": "https://formbricks.com/customer-experience",
+          "text": "What this means for CX"
+        },
+        {
+          "url": "https://formbricks.com/why-open-source",
+          "text": "What this means for IT"
+        },
+        {
+          "url": "https://formbricks.com/customer/digitalservice",
+          "text": "Public Sector How DigitalService runs user research for German ministries on self-hosted Formbricks 2 weeks From decisio"
+        },
+        {
+          "url": "https://formbricks.com/customer/asia-cup",
+          "text": "Sports & Events How the Asian Cup 2027 organizers hear from fans live in every stadium, with all data stored in Saudi Ar"
+        },
+        {
+          "url": "https://formbricks.com/customer/borderless-access",
+          "text": "Market Research How Borderless Access went from months to minutes, with zero engineering time per survey 15 days Impleme"
+        },
+        {
+          "url": "https://formbricks.com/customer/opinodo",
+          "text": "Market Research How Opinodo gathers millions of responses with a self-hosted instance of Formbricks 38% Cost reduction 8"
+        },
+        {
+          "url": "https://github.com/formbricks/formbricks",
+          "text": "Read the code"
+        },
+        {
+          "url": "https://trust.formbricks.com",
+          "text": "ISO 27001 certificate on request"
+        },
+        {
+          "url": "https://app.formbricks.com/s/w7lxc7szvx6ooyewo20upvuc?request_type=discovery&utm_source=formbricks.com&utm_medium=website&utm_campaign=home&utm_content=home-proof&ref_path=%2F&product=experience-suite",
+          "text": "Talk to us"
+        },
+        {
+          "url": "https://formbricks.com/customers",
+          "text": "More customer stories"
+        },
+        {
+          "url": "https://formbricks.com/feedback-unification",
+          "text": "Ask & Unify"
+        },
+        {
+          "url": "https://formbricks.com/feedback-analytics",
+          "text": "AI & Analysis"
+        },
+        {
+          "url": "https://formbricks.com/workflows",
+          "text": "Act & Automate"
+        },
+        {
+          "url": "https://formbricks.com/industry/government-survey-tool",
+          "text": "Government Citizen feedback that stays on your infrastructure."
+        },
+        {
+          "url": "https://formbricks.com/industry/healthcare-survey-software",
+          "text": "Healthcare Patient feedback, kept where patient data belongs."
+        },
+        {
+          "url": "https://formbricks.com/industry/bank-survey-software",
+          "text": "Financial Services Customer feedback that passes your risk review."
+        },
+        {
+          "url": "https://formbricks.com/industry/market-research-survey-software",
+          "text": "Market Research Field research on infrastructure your clients trust."
+        },
+        {
+          "url": "https://app.formbricks.com/s/w7lxc7szvx6ooyewo20upvuc?request_type=discovery&utm_source=formbricks.com&utm_medium=website&utm_campaign=home&utm_content=home-close&ref_path=%2F&product=experience-suite",
+          "text": "Talk to us"
+        },
+        {
+          "url": "https://formbricks.com/enterprise-license?ref_path=%2F&ref_section=home-close",
+          "text": "Get a trial license"
+        },
+        {
+          "url": "https://formbricks.com/imprint",
+          "text": "Imprint"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-8d645ab6f9e993e5",
+      "kind": "pricing",
+      "title": "Experience Suite pricing | Formbricks",
+      "url": "https://formbricks.com/pricing",
+      "collected_at": "2026-11-21T07:21:33+00:00",
+      "published_at": null,
+      "text": "Experience Suite pricing\nEverything starts open source.\nYou decide what's worth paying for.\nThe Community Edition is free, forever. When you need more, an annual license is priced by the responses you collect and the workspaces you run, with unlimited seats on every plan.\nA globa",
+      "links": [
+        {
+          "url": "https://formbricks.com/",
+          "text": "Experience Suite · For organizations"
+        },
+        {
+          "url": "https://formbricks.com/surveys",
+          "text": "Surveys · For product teams"
+        },
+        {
+          "url": "https://app.formbricks.com",
+          "text": "Go to app"
+        },
+        {
+          "url": "https://formbricks.com/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://formbricks.com/about",
+          "text": "About"
+        },
+        {
+          "url": "https://formbricks.com/enterprise-license?ref_path=%2Fpricing&ref_section=header",
+          "text": "Get a trial license"
+        },
+        {
+          "url": "https://app.formbricks.com/s/w7lxc7szvx6ooyewo20upvuc?request_type=discovery&utm_source=formbricks.com&utm_medium=website&utm_campaign=pricing&utm_content=header&ref_path=%2Fpricing&product=experience-suite",
+          "text": "Talk to us"
+        },
+        {
+          "url": "https://formbricks.com/docs/self-hosting/overview",
+          "text": "Read the self-hosting docs"
+        },
+        {
+          "url": "https://app.formbricks.com/s/w7lxc7szvx6ooyewo20upvuc?request_type=discovery&utm_source=formbricks.com&utm_medium=website&utm_campaign=pricing&utm_content=pricing-plans&ref_path=%2Fpricing&product=experience-suite",
+          "text": "Talk to us"
+        },
+        {
+          "url": "https://formbricks.com/enterprise-license?ref_path=%2Fpricing&ref_section=pricing-plans",
+          "text": "Get a trial license"
+        },
+        {
+          "url": "https://formbricks.com/dpa",
+          "text": "DPA"
+        },
+        {
+          "url": "https://app.formbricks.com/s/w7lxc7szvx6ooyewo20upvuc?request_type=discovery&utm_source=formbricks.com&utm_medium=website&utm_campaign=pricing&utm_content=pricing-close&ref_path=%2Fpricing&product=experience-suite",
+          "text": "Talk to us"
+        },
+        {
+          "url": "https://formbricks.com/enterprise-license?ref_path=%2Fpricing&ref_section=pricing-close",
+          "text": "Get a trial license"
+        },
+        {
+          "url": "https://formbricks.com/imprint",
+          "text": "Imprint"
+        },
+        {
+          "url": "https://formbricks.com/privacy-policy",
+          "text": "Privacy Policy"
+        },
+        {
+          "url": "https://formbricks.com/terms",
+          "text": "Terms"
+        },
+        {
+          "url": "https://formbricks.com/oss-friends",
+          "text": "OSS Friends"
+        },
+        {
+          "url": "https://www.linkedin.com/company/formbricks",
+          "text": "LinkedIn"
+        },
+        {
+          "url": "https://github.com/formbricks/formbricks",
+          "text": "GitHub"
+        },
+        {
+          "url": "https://formbricks.com/security",
+          "text": ""
+        },
+        {
+          "url": "https://formbricks.com/feedback-unification",
+          "text": "Ask & Unify"
+        },
+        {
+          "url": "https://formbricks.com/feedback-analytics",
+          "text": "AI & Analysis"
+        },
+        {
+          "url": "https://formbricks.com/workflows",
+          "text": "Act & Automate"
+        },
+        {
+          "url": "https://formbricks.com/agentic-xm",
+          "text": "Agentic XM"
+        },
+        {
+          "url": "https://formbricks.com/customer-experience",
+          "text": "Customer Experience"
+        },
+        {
+          "url": "https://formbricks.com/industry/market-research-survey-software",
+          "text": "Market Research"
+        },
+        {
+          "url": "https://formbricks.com/privacy",
+          "text": "IT & Security"
+        },
+        {
+          "url": "https://formbricks.com/enterprise-survey-software",
+          "text": "Enterprise"
+        },
+        {
+          "url": "https://formbricks.com/industry/government-survey-tool",
+          "text": "Government"
+        },
+        {
+          "url": "https://formbricks.com/industry/healthcare-survey-software",
+          "text": "Healthcare"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-ed84b9961641b56d",
+      "kind": "content",
+      "title": "Blog | Formbricks Open Source Experience Management",
+      "url": "https://formbricks.com/blog",
+      "collected_at": "2026-11-21T07:21:33+00:00",
+      "published_at": null,
+      "text": "What's\nnew?\nAll\nOpen-source\nChangelog\nProduct\nEngineering\nExperience Management\nOther\nBest Customer Experience Management Software (2026): A Buyer's Guide to Owning Your Data\nNovember 17, 2026\nHow to choose customer experience management software in 2026: the main types, the feat",
+      "links": [
+        {
+          "url": "https://formbricks.com/",
+          "text": "Experience Suite · For organizations"
+        },
+        {
+          "url": "https://formbricks.com/surveys",
+          "text": "Surveys · For product teams"
+        },
+        {
+          "url": "https://app.formbricks.com",
+          "text": "Go to app"
+        },
+        {
+          "url": "https://formbricks.com/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://formbricks.com/about",
+          "text": "About"
+        },
+        {
+          "url": "https://formbricks.com/enterprise-license?ref_path=%2Fblog&ref_section=header",
+          "text": "Get a trial license"
+        },
+        {
+          "url": "https://app.formbricks.com/s/w7lxc7szvx6ooyewo20upvuc?request_type=discovery&utm_source=formbricks.com&utm_medium=website&utm_campaign=blog&utm_content=header&ref_path=%2Fblog&product=experience-suite",
+          "text": "Talk to us"
+        },
+        {
+          "url": "https://formbricks.com/blog",
+          "text": "All"
+        },
+        {
+          "url": "https://formbricks.com/blog/open-source",
+          "text": "Open-source"
+        },
+        {
+          "url": "https://formbricks.com/blog/changelog",
+          "text": "Changelog"
+        },
+        {
+          "url": "https://formbricks.com/blog/product",
+          "text": "Product"
+        },
+        {
+          "url": "https://formbricks.com/blog/engineering",
+          "text": "Engineering"
+        },
+        {
+          "url": "https://formbricks.com/blog/experience-management",
+          "text": "Experience Management"
+        },
+        {
+          "url": "https://formbricks.com/blog/other",
+          "text": "Other"
+        },
+        {
+          "url": "https://formbricks.com/blog/best-customer-experience-management-software",
+          "text": "Best Customer Experience Management Software (2026): A Buyer's Guide to Owning Your Data November 17, 2026 How to choose"
+        },
+        {
+          "url": "https://formbricks.com/blog/best-open-source-survey-software",
+          "text": "5 Open Source Survey and Form Tools maintained in 2026 November 17, 2026 Most open source projects get abandoned after a"
+        },
+        {
+          "url": "https://formbricks.com/blog/concept-testing-survey-questions",
+          "text": "35+ concept testing survey questions for products and marketing (2026) November 17, 2026 35+ concept testing survey ques"
+        },
+        {
+          "url": "https://formbricks.com/blog/customer-experience-in-banking",
+          "text": "Customer Experience in Banking: A Guide Built on Regulator Data November 17, 2026 What customer experience in banking me"
+        },
+        {
+          "url": "https://formbricks.com/blog/customer-experience-management-solution",
+          "text": "Customer Experience Management: What It Is and How a Program Runs November 17, 2026 What customer experience management "
+        },
+        {
+          "url": "https://formbricks.com/blog/customer-experience-platform",
+          "text": "Customer Experience Platform: What It Is and How to Choose One November 17, 2026 What a customer experience platform is,"
+        },
+        {
+          "url": "https://formbricks.com/blog/customer-feedback-management",
+          "text": "Customer Feedback Management: Process, Owners and Maturity November 17, 2026 What customer feedback management is, the s"
+        },
+        {
+          "url": "https://formbricks.com/blog/demographic-survey-questions",
+          "text": "45+ Demographic Survey Questions with Inclusive Wording (2026 Guide) November 17, 2026 45+ demographic survey questions "
+        },
+        {
+          "url": "https://formbricks.com/blog/diversity-and-inclusion-survey-questions",
+          "text": "50+ Diversity and Inclusion Survey Questions (+ Free DEI Template 2026) November 17, 2026 74 diversity and inclusion sur"
+        },
+        {
+          "url": "https://formbricks.com/blog/employee-survey-questions",
+          "text": "100+ Employee Survey Questions That Get Honest Answers (2026) November 17, 2026 100+ employee survey questions on engage"
+        },
+        {
+          "url": "https://formbricks.com/blog/enterprise-feedback-management",
+          "text": "Enterprise Feedback Management: What It Is, What It Must Do, How to Choose November 17, 2026 What enterprise feedback ma"
+        },
+        {
+          "url": "https://formbricks.com/blog/enterprise-survey-software-privacy-first",
+          "text": "Enterprise Survey Software: A Requirements Checklist for IT and CX November 17, 2026 What enterprise survey software is,"
+        },
+        {
+          "url": "https://formbricks.com/blog/experience-management-software",
+          "text": "Customer Experience Software: How to Compare Platforms by Who Owns the Data November 17, 2026 What customer experience s"
+        },
+        {
+          "url": "https://formbricks.com/blog/fun-survey-questions",
+          "text": "200 fun survey questions that actually get answered (2026) November 17, 2026 200 fun survey questions for team meetings,"
+        },
+        {
+          "url": "https://formbricks.com/blog/good-survey-questions",
+          "text": "Good survey questions: principles, types, and 20 examples (2026) November 17, 2026 What makes a survey question good: fi"
+        },
+        {
+          "url": "https://formbricks.com/blog/onboarding-survey-questions",
+          "text": "80 Essential Onboarding Survey Questions for 2026 (Free Template) November 17, 2026 80 onboarding survey questions for n"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-d6cbb658f21703d1",
+      "kind": "docs",
+      "title": "Introduction - Documentation - Formbricks",
+      "url": "https://formbricks.com/docs/platform/introduction",
+      "collected_at": "2026-11-21T07:21:34+00:00",
+      "published_at": null,
+      "text": "Welcome to the Formbricks Documentation!\nFormbricks is a versatile open-source platform for collecting and analyzing feedback from customers, users, and employees through targeted surveys. Whether you need simple forms or complex experience management solutions, Formbricks scales",
+      "links": [
+        {
+          "url": "https://formbricks.com/docs/llms.txt",
+          "text": "/docs/llms.txt"
+        },
+        {
+          "url": "https://formbricks.com/docs/platform/introduction",
+          "text": "Skip to main content"
+        },
+        {
+          "url": "https://formbricks.com/docs",
+          "text": "Documentation - Formbricks home page"
+        },
+        {
+          "url": "https://formbricks.com/docs/platform/changelog",
+          "text": "Release notes"
+        },
+        {
+          "url": "https://github.com/formbricks/formbricks/discussions",
+          "text": "Support"
+        },
+        {
+          "url": "https://app.formbricks.com",
+          "text": "Go to app"
+        },
+        {
+          "url": "https://formbricks.com/docs/surveys/overview",
+          "text": "Surveys (Ask)"
+        },
+        {
+          "url": "https://formbricks.com/docs/unify-feedback/overview",
+          "text": "Unify Feedback (Analyze)"
+        },
+        {
+          "url": "https://formbricks.com/docs/workflows/overview",
+          "text": "Workflows (Act)"
+        },
+        {
+          "url": "https://formbricks.com/docs/self-hosting/overview",
+          "text": "Self Hosting"
+        },
+        {
+          "url": "https://formbricks.com/docs/development/overview",
+          "text": "Development"
+        },
+        {
+          "url": "https://formbricks.com/docs/integrate/overview",
+          "text": "Integrate"
+        },
+        {
+          "url": "https://formbricks.com/docs/api-reference/rest-api",
+          "text": "API v1 Reference"
+        },
+        {
+          "url": "https://formbricks.com/docs/api-v2-reference/introduction",
+          "text": "API v2 Reference (Beta)"
+        },
+        {
+          "url": "https://formbricks.com/docs/platform/what-is-formbricks",
+          "text": "What is Formbricks?"
+        },
+        {
+          "url": "https://formbricks.com/docs/platform/open-source",
+          "text": "Open-Source"
+        },
+        {
+          "url": "https://formbricks.com/docs/platform/accessibility",
+          "text": "Accessibility"
+        },
+        {
+          "url": "https://formbricks.com/docs/platform/features/ai-features",
+          "text": "AI Features"
+        },
+        {
+          "url": "https://formbricks.com/docs/platform/features/contacts",
+          "text": "Contacts"
+        },
+        {
+          "url": "https://formbricks.com/docs/platform/features/styling-theme",
+          "text": "Styling Theme"
+        },
+        {
+          "url": "https://formbricks.com/docs/platform/features/email-customization",
+          "text": "Email Branding"
+        },
+        {
+          "url": "https://github.com/formbricks/formbricks/edit/release/6.2/docs/platform/introduction.mdx",
+          "text": "Suggest edits"
+        },
+        {
+          "url": "https://github.com/formbricks/formbricks/issues/new?title=Issue+on+docs&body=Path%3A+%2Fplatform%2Fintroduction",
+          "text": "Raise issue"
+        },
+        {
+          "url": "https://github.com/formbricks/formbricks",
+          "text": "github"
+        },
+        {
+          "url": "https://linkedin.com/company/formbricks",
+          "text": "linkedin"
+        },
+        {
+          "url": "https://x.com/formbricks",
+          "text": "x"
+        },
+        {
+          "url": "https://www.mintlify.com?utm_campaign=poweredBy&utm_medium=referral&utm_source=formbricks",
+          "text": "Powered by This documentation is built and hosted on Mintlify, a developer documentation platform"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-e6eafe596be3b8a8",
+      "kind": "repository",
+      "title": "formbricks/formbricks",
+      "url": "https://github.com/formbricks/formbricks",
+      "collected_at": "2026-11-21T07:21:35+00:00",
+      "published_at": null,
+      "text": "{\"full_name\": \"formbricks/formbricks\", \"stargazers_count\": 13284, \"forks_count\": 2628, \"open_issues_count\": 140, \"language\": \"TypeScript\", \"license\": {\"key\": \"other\", \"name\": \"Other\", \"spdx_id\": \"NOASSERTION\", \"url\": null, \"node_id\": \"MDc6TGljZW5zZTA=\"}, \"created_at\": \"2022-06-06",
+      "links": [],
+      "metadata": {
+        "full_name": "formbricks/formbricks",
+        "stargazers_count": 13284,
+        "forks_count": 2628,
+        "open_issues_count": 140,
+        "language": "TypeScript",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "created_at": "2022-06-06T04:25:21Z",
+        "pushed_at": "2026-11-20T19:19:09Z",
+        "topics": [
+          "experience-management",
+          "form",
+          "forms",
+          "nextjs",
+          "open-source",
+          "react",
+          "reactjs",
+          "survey",
+          "survey-analysis",
+          "survey-data",
+          "survey-form",
+          "surveys",
+          "tailwindcss",
+          "turborepo",
+          "typeform",
+          "typescript",
+          "xm"
+        ],
+        "description": "The Open Source Qualtrics Alternative",
+        "homepage": "https://formbricks.com",
+        "archived": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-2730e22887df2288",
+      "kind": "readme",
+      "title": "formbricks/formbricks README",
+      "url": "https://github.com/formbricks/formbricks/blob/main/README.md",
+      "collected_at": "2026-11-21T07:21:35+00:00",
+      "published_at": null,
+      "text": "<div id=\"top\"></div>\n\n<p align=\"center\">Help us grow and star us on Github! ⭐️</p>\n\n<p align=\"center\">\n\n<a href=\"https://formbricks.com\">\n\n<img width=\"120\" alt=\"Open Source Privacy First Experience Management Solution Qualtrics Alternative Logo\" src=\"https://github.com/formbricks",
+      "links": [],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-9a1060a4d0090123",
+      "kind": "release",
+      "title": "6.2.2",
+      "url": "https://github.com/formbricks/formbricks/releases/tag/6.2.2",
+      "collected_at": "2026-11-21T07:21:36+00:00",
+      "published_at": "2026-11-20T15:23:37Z",
+      "text": "## Security fixes\n- Bound authentication requests and rate-limit storage to prevent Valkey exhaustion (ENG-6885, ENG-7396, ENG-7399).\n- Require the emailed-link proof and explicit confirmation before SSO recovery links an identity (ENG-7310, ENG-7395).\n- Enforce database certific",
+      "links": [],
+      "metadata": {
+        "tag": "6.2.2",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-84373c13199a6de5",
+      "kind": "release",
+      "title": "6.1.6",
+      "url": "https://github.com/formbricks/formbricks/releases/tag/6.1.6",
+      "collected_at": "2026-11-21T07:21:36+00:00",
+      "published_at": "2026-11-20T15:23:22Z",
+      "text": "## Security fixes\n- Bound authentication requests and rate-limit storage to prevent Valkey exhaustion (ENG-6885, ENG-7396, ENG-7399).\n- Require the emailed-link proof and explicit confirmation before SSO recovery links an identity (ENG-7310, ENG-7395).\n- Enforce database certific",
+      "links": [],
+      "metadata": {
+        "tag": "6.1.6",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-9387edf771027cdc",
+      "kind": "release",
+      "title": "6.0.8",
+      "url": "https://github.com/formbricks/formbricks/releases/tag/6.0.8",
+      "collected_at": "2026-11-21T07:21:36+00:00",
+      "published_at": "2026-11-20T15:23:05Z",
+      "text": "## Security fixes\n- Bound authentication requests and rate-limit storage to prevent Valkey exhaustion (ENG-6885, ENG-7396, ENG-7399).\n- Require the emailed-link proof and explicit confirmation before SSO recovery links an identity (ENG-7310, ENG-7395).\n- Enforce database certific",
+      "links": [],
+      "metadata": {
+        "tag": "6.0.8",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-3ace8f331c894cc6",
+      "kind": "release",
+      "title": "5.4.11",
+      "url": "https://github.com/formbricks/formbricks/releases/tag/5.4.11",
+      "collected_at": "2026-11-21T07:21:36+00:00",
+      "published_at": "2026-11-20T15:22:45Z",
+      "text": "## Security fixes\n- Bound authentication requests and rate-limit storage to prevent Valkey exhaustion (ENG-6885, ENG-7396, ENG-7399).\n- Require the emailed-link proof and explicit confirmation before SSO recovery links an identity (ENG-7310, ENG-7395).\n- Enforce database certific",
+      "links": [],
+      "metadata": {
+        "tag": "5.4.11",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    }
+  ],
+  "actions": [
+    {
+      "id": "a-1",
+      "title": "用公开内容承接用户问题",
+      "channel": "内容营销",
+      "description": "官网提供内容入口。可从文章主题、目标读者和文章内的产品引导，研究内容如何连接产品。",
+      "source_ids": [
+        "s-ed84b9961641b56d"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-2",
+      "title": "提供文档与上手路径",
+      "channel": "使用教育",
+      "description": "公开文档为用户了解功能和开始使用提供入口。可研究教程是否覆盖客户的真实任务。",
+      "source_ids": [
+        "s-d6cbb658f21703d1"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-3",
+      "title": "维护公开代码仓库",
+      "channel": "开发者生态",
+      "description": "公开代码、README 和发布记录让开发者能够评估项目、参与讨论或尝试部署。Stars 与 Forks 表示公开互动规模。",
+      "source_ids": [
+        "s-e6eafe596be3b8a8"
+      ],
+      "date": null,
+      "result": "本次记录了仓库当前的 Stars 与 Forks 快照，收入和付费客户数需要另行核对。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-4",
+      "title": "GitHub 仓库建立",
+      "channel": "项目历史",
+      "description": "GitHub API 记录的仓库创建日期。产品上线日期需要其他来源确认。",
+      "source_ids": [
+        "s-e6eafe596be3b8a8"
+      ],
+      "date": "2022-06-06",
+      "result": "已取得仓库创建时间。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-5",
+      "title": "为自行部署的用户提供路径",
+      "channel": "开发者生态",
+      "description": "README 出现自托管或 Docker 部署说明。可研究免费部署入口与托管服务之间的使用路径。",
+      "source_ids": [
+        "s-2730e22887df2288"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-6",
+      "title": "发布 6.2.2",
+      "channel": "产品更新",
+      "description": "## Security fixes - Bound authentication requests and rate-limit storage to prevent Valkey exhaustion (ENG-6885, ENG-7396, ENG-7399). - Require the emailed-link proof and explicit confirmation before SSO recovery links an identity (ENG-7310, ENG-7395). - Enforce database certificate verification for migrations when the database ",
+      "source_ids": [
+        "s-9a1060a4d0090123"
+      ],
+      "date": "2026-11-20",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-7",
+      "title": "发布 6.1.6",
+      "channel": "产品更新",
+      "description": "## Security fixes - Bound authentication requests and rate-limit storage to prevent Valkey exhaustion (ENG-6885, ENG-7396, ENG-7399). - Require the emailed-link proof and explicit confirmation before SSO recovery links an identity (ENG-7310, ENG-7395). - Enforce database certificate verification for migrations when the database ",
+      "source_ids": [
+        "s-84373c13199a6de5"
+      ],
+      "date": "2026-11-20",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-8",
+      "title": "发布 6.0.8",
+      "channel": "产品更新",
+      "description": "## Security fixes - Bound authentication requests and rate-limit storage to prevent Valkey exhaustion (ENG-6885, ENG-7396, ENG-7399). - Require the emailed-link proof and explicit confirmation before SSO recovery links an identity (ENG-7310, ENG-7395). - Enforce database certificate verification for migrations when the database ",
+      "source_ids": [
+        "s-9387edf771027cdc"
+      ],
+      "date": "2026-11-20",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-9",
+      "title": "发布 5.4.11",
+      "channel": "产品更新",
+      "description": "## Security fixes - Bound authentication requests and rate-limit storage to prevent Valkey exhaustion (ENG-6885, ENG-7396, ENG-7399). - Require the emailed-link proof and explicit confirmation before SSO recovery links an identity (ENG-7310, ENG-7395). - Enforce database certificate verification for migrations when the database ",
+      "source_ids": [
+        "s-3ace8f331c894cc6"
+      ],
+      "date": "2026-11-20",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "产品概览",
+      "intro": "从官网和公开仓库核对产品定位、功能与公开入口。",
+      "facts": [
+        {
+          "text": "Run experience management on your own servers, in your own database. Feedback tied to revenue, unlimited seats, AI on your models.",
+          "source_ids": [
+            "s-7f51d6e7dcf14e90"
+          ]
+        },
+        {
+          "text": "README 内容摘录：Help us grow and star us on Github! ⭐️ Formbricks The Open Source Qualtrics Alternative Website Trusted by ## ✨ About Formbricks Formbricks provides a free and open source surveying platform. Gather feedback at every point in the ",
+          "source_ids": [
+            "s-2730e22887df2288"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "business",
+      "title": "生意与定价",
+      "intro": "定价信息来自产品自己的公开页面。收入指标需要单独的公开披露或授权数据。",
+      "facts": [
+        {
+          "text": "定价页中的原始片段：replaced Qualtrics and saves over €1M a year. Plans AGPLv3 license Community Edition Open Source Free",
+          "source_ids": [
+            "s-8d645ab6f9e993e5"
+          ]
+        },
+        {
+          "text": "公开仓库为 formbricks/formbricks，API 标注许可证为 Other。",
+          "source_ids": [
+            "s-e6eafe596be3b8a8"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "acquisition",
+      "title": "获客入口",
+      "intro": "下面列出已观察到的入口与动作。渠道带来的访问和付费效果仍需转化数据验证。",
+      "facts": [
+        {
+          "text": "内容页可见文本摘录：What's new? All Open-source Changelog Product Engineering Experience Management Other Best Customer Experience Management Software (2026): A Buyer's Guide to Owning Your Data November 17, 2026 How to choose customer expe",
+          "source_ids": [
+            "s-ed84b9961641b56d"
+          ]
+        }
+      ],
+      "action_ids": [
+        "a-1",
+        "a-2",
+        "a-3",
+        "a-5"
+      ]
+    },
+    {
+      "id": "growth",
+      "title": "公开动作拆解",
+      "intro": "每个动作都关联原始资料，适合进一步研究具体做法和执行条件。",
+      "facts": [],
+      "action_ids": [
+        "a-1",
+        "a-2",
+        "a-3",
+        "a-4",
+        "a-5",
+        "a-6",
+        "a-7",
+        "a-8",
+        "a-9"
+      ]
+    },
+    {
+      "id": "social",
+      "title": "社媒与社区",
+      "intro": "本次保留官网引用的社媒与社区链接。账号归属、帖子内容和互动数据需要进一步核对。",
+      "facts": [
+        {
+          "text": "官网引用的社媒与社区链接涉及 linkedin.com。",
+          "source_ids": [
+            "s-7f51d6e7dcf14e90"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "timeline",
+      "title": "事件时间线",
+      "intro": "仅展示来源中明确给出日期的事件，采集时间另列。产品更新可以帮助理解推广内容的背景。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "competitors",
+      "title": "竞品研究线索",
+      "intro": "本轮采集围绕单个产品。可按目标客户、解决的问题和购买方式，再添加相关产品进行研究。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "appendix",
+      "title": "来源与数据缺口",
+      "intro": "报告保留了本次采集的来源快照。缺失指标保持为空，观察到的动作与分析建议分别呈现。",
+      "facts": [],
+      "action_ids": []
+    }
+  ],
+  "metrics": [
+    {
+      "name": "GitHub Stars",
+      "value": 13284,
+      "unit": "stars",
+      "source_id": "s-e6eafe596be3b8a8",
+      "observed_at": "2026-11-21T07:21:35+00:00"
+    },
+    {
+      "name": "Forks",
+      "value": 2628,
+      "unit": "forks",
+      "source_id": "s-e6eafe596be3b8a8",
+      "observed_at": "2026-11-21T07:21:35+00:00"
+    }
+  ],
+  "gaps": [
+    "连续收入序列和已核验 MRR",
+    "真实访问量及渠道占比",
+    "搜索关键词排名与点击数据",
+    "社媒帖子、互动和渠道转化数据",
+    "独立核对过的竞品比较"
+  ],
+  "warnings": [],
+  "discovered_accounts": [
+    {
+      "url": "https://www.linkedin.com/company/formbricks",
+      "platform": "linkedin.com",
+      "label": "linkedin.com"
+    }
+  ],
+  "translations": {
+    "## Security fixes - Bound authentication requests and rate-limit storage to prevent Valkey exhaustion (ENG-6885, ENG-7396, ENG-7399). - Require the emailed-link proof and explicit confirmation before SSO recovery links an identity (ENG-7310, ENG-7395). - Enforce database certificate verification for migrations when the database ": "发布说明摘译：限制认证请求和限流存储，防止 Valkey 资源耗尽（ENG-6885、ENG-7396、ENG-7399）；SSO 恢复关联身份前，要求邮件链接验证及明确确认（ENG-7310、ENG-7395）；为数据库迁移强制执行证书校验，适用条件被截断。",
+    "Blog | Formbricks Open Source Experience Management": "Formbricks 博客与内容",
+    "Experience Suite pricing | Formbricks": "Formbricks 定价与方案",
+    "Formbricks Experience Suite: own your experience data": "Formbricks 官网",
+    "Introduction - Documentation - Formbricks": "Formbricks 文档与更新",
+    "README 内容摘录：Help us grow and star us on Github! ⭐️ Formbricks The Open Source Qualtrics Alternative Website Trusted by ## ✨ About Formbricks Formbricks provides a free and open source surveying platform. Gather feedback at every point in the ": "README 摘录（中文）：请求用户在 GitHub 点星支持项目。Formbricks 定位为 Qualtrics 的开源替代方案，提供免费、开源的调查平台，用于在各个接触点收集反馈；摘录不完整。",
+    "Run experience management on your own servers, in your own database. Feedback tied to revenue, unlimited seats, AI on your models.": "在自己的服务器和数据库中运行体验管理平台，将用户反馈与收入关联，提供不限席位和使用自有模型的 AI 功能。",
+    "formbricks/formbricks": "Formbricks 公开代码仓库",
+    "formbricks/formbricks README": "Formbricks 项目说明（README）",
+    "内容页可见文本摘录：What's new? All Open-source Changelog Product Engineering Experience Management Other Best Customer Experience Management Software (2026): A Buyer's Guide to Owning Your Data November 17, 2026 How to choose customer expe": "内容页摘录（中文）：博客覆盖开源、更新日志、产品、工程和体验管理等主题。2026 年 11 月 17 日的文章介绍客户体验管理软件的选择，强调数据所有权；后续内容被截断。",
+    "定价页中的原始片段：replaced Qualtrics and saves over €1M a year. Plans AGPLv3 license Community Edition Open Source Free": "定价页摘录（中文）：页面称某客户替换 Qualtrics 后每年节省超过 100 万欧元。社区版使用 AGPLv3 许可证，开源免费。这段节省金额属于页面中的客户案例表述。"
+  },
+  "coverage": "website"
+}

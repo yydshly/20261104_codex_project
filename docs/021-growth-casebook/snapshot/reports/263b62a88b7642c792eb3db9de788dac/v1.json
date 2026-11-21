@@ -1,0 +1,663 @@
+{
+  "schema_version": "1.0",
+  "project_id": "263b62a88b7642c792eb3db9de788dac",
+  "version": 1,
+  "generated_at": "2026-11-21T07:30:21+00:00",
+  "mode": "evidence",
+  "summary": "围绕 n8n 核对了 8 份公开资料，整理出 8 条入口与动作。可继续研究的方向包括产品试用、开发者生态。",
+  "summary_source_ids": [],
+  "sources": [
+    {
+      "id": "s-5506ef5e4e0a9e92",
+      "kind": "website",
+      "title": "AI Workflow Automation Platform - n8n",
+      "url": "https://n8n.io/",
+      "collected_at": "2026-11-21T07:30:19+00:00",
+      "published_at": null,
+      "text": "Security + control\nFully on-prem option, SSO SAML, and LDAP, encrypted secret stores, version control, RBAC permissions.",
+      "links": [
+        {
+          "url": "https://nod.n8n.io/?utm_source=site&utm_medium=content&utm_campaign=2026_q4_glob_nod_launch&utm_content=banner",
+          "text": "Learn more →"
+        },
+        {
+          "url": "https://n8n.io/",
+          "text": "n8n.io"
+        },
+        {
+          "url": "https://n8n.io/enterprise/",
+          "text": "Enterprise"
+        },
+        {
+          "url": "https://n8n.io/pricing/",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://app.n8n.cloud/login",
+          "text": "Sign in"
+        },
+        {
+          "url": "https://app.n8n.cloud/register",
+          "text": "Get started"
+        },
+        {
+          "url": "https://n8n.io/llms.txt",
+          "text": "llms.txt"
+        },
+        {
+          "url": "https://n8n-community.typeform.com/to/y9X2YuGa",
+          "text": "Talk to sales"
+        },
+        {
+          "url": "https://n8n.io/case-studies/",
+          "text": "See how Tom did it"
+        },
+        {
+          "url": "http://n8n-community.typeform.com/to/y9X2YuGa",
+          "text": "Talk to Sales"
+        },
+        {
+          "url": "https://n8n.io/case-studies/huel/",
+          "text": "Read Case Study"
+        },
+        {
+          "url": "https://n8n.io/case-studies/vodafone/",
+          "text": "Read Case Study"
+        },
+        {
+          "url": "https://n8n.io/careers/",
+          "text": "Careers"
+        },
+        {
+          "url": "https://n8n.io/contact/",
+          "text": "Contact"
+        },
+        {
+          "url": "https://n8n.io/press/",
+          "text": "Press"
+        },
+        {
+          "url": "https://n8n.io/brandguidelines/",
+          "text": "Brand guidelines"
+        },
+        {
+          "url": "https://status.n8n.cloud/",
+          "text": "Status"
+        },
+        {
+          "url": "https://docs.n8n.io/",
+          "text": "Docs"
+        },
+        {
+          "url": "https://docs.n8n.io/changelog/",
+          "text": "Changelog"
+        },
+        {
+          "url": "https://n8n.io/reports/2026-ai-agent-development-tools/",
+          "text": "AI agent report"
+        },
+        {
+          "url": "https://n8n.io/vs/",
+          "text": "n8n alternatives"
+        },
+        {
+          "url": "https://n8n.io/education/",
+          "text": "Education"
+        },
+        {
+          "url": "https://luma.com/n8n-events",
+          "text": "Events"
+        },
+        {
+          "url": "https://n8n.io/partners/",
+          "text": "Partners"
+        },
+        {
+          "url": "https://n8n.io/sap-partnership/",
+          "text": "n8n on SAP"
+        },
+        {
+          "url": "https://internal.users.n8n.cloud/form/n8n-usability-test-signup",
+          "text": "Join user tests"
+        },
+        {
+          "url": "https://merch.n8n.io",
+          "text": "Merch"
+        },
+        {
+          "url": "https://n8n.io/imprint/",
+          "text": "Imprint"
+        },
+        {
+          "url": "https://n8n.io/legal/security/",
+          "text": "Security"
+        },
+        {
+          "url": "https://n8n.io/legal/privacy/",
+          "text": "Privacy"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-9c31625dedccf56f",
+      "kind": "pricing",
+      "title": "n8n Plans and Pricing - n8n.io",
+      "url": "https://n8n.io/pricing/",
+      "collected_at": "2026-11-21T07:30:19+00:00",
+      "published_at": null,
+      "text": "See\nllms.txt\nfor all machine-readable content.\nMonthly\nAnnually\n(Save 17%)\nStarter\nBuild and run your first workflows and agents.\n20€\n/mo, billed annually\n2.5K\nworkflow executions\nwith unlimited steps\nStart free trial\nNo credit card required\nHosted by n8n\nThis plan includes:\n1 sh",
+      "links": [
+        {
+          "url": "https://n8n.io/",
+          "text": "n8n.io"
+        },
+        {
+          "url": "https://n8n.io/enterprise/",
+          "text": "Enterprise"
+        },
+        {
+          "url": "https://n8n.io/pricing/",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://app.n8n.cloud/login",
+          "text": "Sign in"
+        },
+        {
+          "url": "https://app.n8n.cloud/register",
+          "text": "Get started"
+        },
+        {
+          "url": "https://n8n.io/llms.txt",
+          "text": "llms.txt"
+        },
+        {
+          "url": "https://app.n8n.cloud/register?planId=starter",
+          "text": "Start free trial"
+        },
+        {
+          "url": "https://app.n8n.cloud/register?planId=pro",
+          "text": "Start free trial"
+        },
+        {
+          "url": "https://rev-ops.app.n8n.cloud/form/business-plan-cloud-waitlist",
+          "text": "Hosted by n8n?"
+        },
+        {
+          "url": "https://n8n-community.typeform.com/to/y9X2YuGa?planId=enterprise",
+          "text": "Contact sales"
+        },
+        {
+          "url": "https://n8n-community.typeform.com/to/y9X2YuGa",
+          "text": "Talk to sales"
+        },
+        {
+          "url": "https://n8n.io/pricing/startup-plan/",
+          "text": "Learn more"
+        },
+        {
+          "url": "https://github.com/n8n-io/n8n",
+          "text": "211,534"
+        },
+        {
+          "url": "https://docs.n8n.io/hosting/installation/",
+          "text": "Learn more"
+        },
+        {
+          "url": "https://docs.n8n.io/build/ways-of-building-workflows/n8n-assistant",
+          "text": "More about Assistant and credits"
+        },
+        {
+          "url": "https://docs.n8n.io/insights/",
+          "text": "Insights Dashboard"
+        },
+        {
+          "url": "https://docs.n8n.io/privacy-security/privacy/",
+          "text": "here"
+        },
+        {
+          "url": "https://community.n8n.io/",
+          "text": "community forum"
+        },
+        {
+          "url": "https://docs.n8n.io/license-key/",
+          "text": "here"
+        },
+        {
+          "url": "https://apps.docusign.com/webforms/us/90e525b5a822fceca5dfe7af21a33b98",
+          "text": "Use this form for € payment"
+        },
+        {
+          "url": "https://apps.docusign.com/webforms/us/a4ef3719982334f20cbdcd4cddccc7be",
+          "text": "Use this form for $ payment"
+        },
+        {
+          "url": "https://docs.n8n.io/privacy-security",
+          "text": "here"
+        },
+        {
+          "url": "https://n8n.io/affiliates",
+          "text": "here"
+        },
+        {
+          "url": "https://n8n.io/careers/",
+          "text": "Careers"
+        },
+        {
+          "url": "https://n8n.io/contact/",
+          "text": "Contact"
+        },
+        {
+          "url": "https://n8n.io/press/",
+          "text": "Press"
+        },
+        {
+          "url": "https://n8n.io/brandguidelines/",
+          "text": "Brand guidelines"
+        },
+        {
+          "url": "https://status.n8n.cloud/",
+          "text": "Status"
+        },
+        {
+          "url": "https://docs.n8n.io/",
+          "text": "Docs"
+        },
+        {
+          "url": "https://docs.n8n.io/changelog/",
+          "text": "Changelog"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-c37165a31cd3fc39",
+      "kind": "repository",
+      "title": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "collected_at": "2026-11-21T07:30:20+00:00",
+      "published_at": null,
+      "text": "{\"full_name\": \"n8n-io/n8n\", \"stargazers_count\": 211567, \"forks_count\": 61594, \"open_issues_count\": 1255, \"language\": \"TypeScript\", \"license\": {\"key\": \"other\", \"name\": \"Other\", \"spdx_id\": \"NOASSERTION\", \"url\": null, \"node_id\": \"MDc6TGljZW5zZTA=\"}, \"created_at\": \"2019-06-22T09:24:2",
+      "links": [],
+      "metadata": {
+        "full_name": "n8n-io/n8n",
+        "stargazers_count": 211567,
+        "forks_count": 61594,
+        "open_issues_count": 1255,
+        "language": "TypeScript",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "created_at": "2019-06-22T09:24:21Z",
+        "pushed_at": "2026-11-21T06:38:18Z",
+        "topics": [
+          "ai",
+          "apis",
+          "automation",
+          "cli",
+          "data-flow",
+          "development",
+          "integration-framework",
+          "integrations",
+          "ipaas",
+          "low-code",
+          "low-code-platform",
+          "mcp",
+          "mcp-client",
+          "mcp-server",
+          "n8n",
+          "no-code",
+          "self-hosted",
+          "typescript",
+          "workflow",
+          "workflow-automation"
+        ],
+        "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+        "homepage": "https://n8n.io",
+        "archived": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-445be7ec29951ffd",
+      "kind": "readme",
+      "title": "n8n-io/n8n README",
+      "url": "https://github.com/n8n-io/n8n/blob/master/README.md",
+      "collected_at": "2026-11-21T07:30:21+00:00",
+      "published_at": null,
+      "text": "![Banner image](https://raw.githubusercontent.com/n8n-io/n8n/master/assets/readme-banner.jpg)\n\n# n8n – The Platform for AI Agents and Workflow Automation\n\nFair-code platform to build and deploy AI agents and workflows. Combine a visual canvas with custom code, run it self-hosted ",
+      "links": [],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-0d49fc0091f48635",
+      "kind": "release",
+      "title": "stable",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "collected_at": "2026-11-21T07:30:21+00:00",
+      "published_at": "2026-11-20T08:36:46Z",
+      "text": "## [2.48.7](https://github.com/n8n-io/n8n/compare/n8n@2.48.6...n8n@2.48.7) (2026-11-20)\n\n\n### Bug Fixes\n\n* **core:** End memory guard hold when hold-limit stop frees no memory ([#44463](https://github.com/n8n-io/n8n/issues/44463)) ([22643e1](https://github.com/n8n-io/n8n/commit/2",
+      "links": [],
+      "metadata": {
+        "tag": "stable",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-52e27fdd813e5172",
+      "kind": "release",
+      "title": "n8n@2.48.7",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.48.7",
+      "collected_at": "2026-11-21T07:30:21+00:00",
+      "published_at": "2026-11-20T08:36:44Z",
+      "text": "## [2.48.7](https://github.com/n8n-io/n8n/compare/n8n@2.48.6...n8n@2.48.7) (2026-11-20)\n\n\n### Bug Fixes\n\n* **core:** End memory guard hold when hold-limit stop frees no memory ([#44463](https://github.com/n8n-io/n8n/issues/44463)) ([22643e1](https://github.com/n8n-io/n8n/commit/2",
+      "links": [],
+      "metadata": {
+        "tag": "n8n@2.48.7",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-016cb44123289ef6",
+      "kind": "release",
+      "title": "n8n@1.123.100",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.100",
+      "collected_at": "2026-11-21T07:30:21+00:00",
+      "published_at": "2026-11-20T08:44:06Z",
+      "text": "## [1.123.100](https://github.com/n8n-io/n8n/compare/n8n@1.123.99...n8n@1.123.100) (2026-11-20)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/44590?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image",
+      "links": [],
+      "metadata": {
+        "tag": "n8n@1.123.100",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-383769fc00aa670c",
+      "kind": "release",
+      "title": "n8n@2.49.3",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.49.3",
+      "collected_at": "2026-11-21T07:30:21+00:00",
+      "published_at": "2026-11-20T08:18:04Z",
+      "text": "## [2.49.3](https://github.com/n8n-io/n8n/compare/n8n@2.49.2...n8n@2.49.3) (2026-11-20)\n\n\n### Bug Fixes\n\n* **core, HTTP Request Node:** Handle empty response bodies in pagination ([#44443](https://github.com/n8n-io/n8n/issues/44443)) ([3443f12](https://github.com/n8n-io/n8n/commi",
+      "links": [],
+      "metadata": {
+        "tag": "n8n@2.49.3",
+        "prerelease": true,
+        "public_excerpt": true
+      }
+    }
+  ],
+  "actions": [
+    {
+      "id": "a-1",
+      "title": "提供公开试用入口",
+      "channel": "产品试用",
+      "description": "定价页面公开提供试用入口。可进一步检查试用额度、触达位置和转付费步骤。",
+      "source_ids": [
+        "s-9c31625dedccf56f"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-2",
+      "title": "维护公开代码仓库",
+      "channel": "开发者生态",
+      "description": "公开代码、README 和发布记录让开发者能够评估项目、参与讨论或尝试部署。Stars 与 Forks 表示公开互动规模。",
+      "source_ids": [
+        "s-c37165a31cd3fc39"
+      ],
+      "date": null,
+      "result": "本次记录了仓库当前的 Stars 与 Forks 快照，收入和付费客户数需要另行核对。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-3",
+      "title": "GitHub 仓库建立",
+      "channel": "项目历史",
+      "description": "GitHub API 记录的仓库创建日期。产品上线日期需要其他来源确认。",
+      "source_ids": [
+        "s-c37165a31cd3fc39"
+      ],
+      "date": "2019-06-22",
+      "result": "已取得仓库创建时间。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-4",
+      "title": "为自行部署的用户提供路径",
+      "channel": "开发者生态",
+      "description": "README 出现自托管或 Docker 部署说明。可研究免费部署入口与托管服务之间的使用路径。",
+      "source_ids": [
+        "s-445be7ec29951ffd"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-5",
+      "title": "发布 stable",
+      "channel": "产品更新",
+      "description": "## 2.48.7 (2026-11-20) ### Bug Fixes * **core:** End memory guard hold when hold-limit stop frees no memory (#44463) (22643e1) * **core:** Store plain input data in the error output of scripting nodes (#44530) (c26c923)",
+      "source_ids": [
+        "s-0d49fc0091f48635"
+      ],
+      "date": "2026-11-20",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-6",
+      "title": "发布 n8n@2.48.7",
+      "channel": "产品更新",
+      "description": "## 2.48.7 (2026-11-20) ### Bug Fixes * **core:** End memory guard hold when hold-limit stop frees no memory (#44463) (22643e1) * **core:** Store plain input data in the error output of scripting nodes (#44530) (c26c923)",
+      "source_ids": [
+        "s-52e27fdd813e5172"
+      ],
+      "date": "2026-11-20",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-7",
+      "title": "发布 n8n@1.123.100",
+      "channel": "产品更新",
+      "description": "## 1.123.100 (2026-11-20)",
+      "source_ids": [
+        "s-016cb44123289ef6"
+      ],
+      "date": "2026-11-20",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-8",
+      "title": "发布 n8n@2.49.3",
+      "channel": "产品更新",
+      "description": "## 2.49.3 (2026-11-20) ### Bug Fixes * **core, HTTP Request Node:** Handle empty response bodies in pagination (#44443) (3443f12) * **core:** End memory guard hold when hold-limit stop frees no memory (#44462) (2e2d425) * **core:** Store plain input data in the error output of scripting nodes (#44529) (102c0a9) * **editor:** Kee",
+      "source_ids": [
+        "s-383769fc00aa670c"
+      ],
+      "date": "2026-11-20",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "产品概览",
+      "intro": "从官网和公开仓库核对产品定位、功能与公开入口。",
+      "facts": [
+        {
+          "text": "n8n is a workflow automation platform that uniquely combines AI capabilities with business process automation, giving technical teams the flexibility of code with the speed of no-code.",
+          "source_ids": [
+            "s-5506ef5e4e0a9e92"
+          ]
+        },
+        {
+          "text": "README 内容摘录：# n8n – The Platform for AI Agents and Workflow Automation Fair-code platform to build and deploy AI agents and workflows. Combine a visual canvas with custom code, run it self-hosted or in the cloud, and connect to 1500+ integrat",
+          "source_ids": [
+            "s-445be7ec29951ffd"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "business",
+      "title": "生意与定价",
+      "intro": "定价信息来自产品自己的公开页面。收入指标需要单独的公开披露或授权数据。",
+      "facts": [
+        {
+          "text": "已找到公开定价页。套餐范围和付费周期请以原页面为准。",
+          "source_ids": [
+            "s-9c31625dedccf56f"
+          ]
+        },
+        {
+          "text": "公开仓库为 n8n-io/n8n，API 标注许可证为 Other。",
+          "source_ids": [
+            "s-c37165a31cd3fc39"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "acquisition",
+      "title": "获客入口",
+      "intro": "下面列出已观察到的入口与动作。渠道带来的访问和付费效果仍需转化数据验证。",
+      "facts": [],
+      "action_ids": [
+        "a-1",
+        "a-2",
+        "a-4"
+      ]
+    },
+    {
+      "id": "growth",
+      "title": "公开动作拆解",
+      "intro": "每个动作都关联原始资料，适合进一步研究具体做法和执行条件。",
+      "facts": [],
+      "action_ids": [
+        "a-1",
+        "a-2",
+        "a-3",
+        "a-4",
+        "a-5",
+        "a-6",
+        "a-7",
+        "a-8"
+      ]
+    },
+    {
+      "id": "social",
+      "title": "社媒与社区",
+      "intro": "本次保留官网引用的社媒与社区链接。账号归属、帖子内容和互动数据需要进一步核对。",
+      "facts": [
+        {
+          "text": "官网引用的社媒与社区链接涉及 discord.gg、linkedin.com、x.com、youtube.com。",
+          "source_ids": [
+            "s-5506ef5e4e0a9e92"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "timeline",
+      "title": "事件时间线",
+      "intro": "仅展示来源中明确给出日期的事件，采集时间另列。产品更新可以帮助理解推广内容的背景。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "competitors",
+      "title": "竞品研究线索",
+      "intro": "本轮采集围绕单个产品。可按目标客户、解决的问题和购买方式，再添加相关产品进行研究。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "appendix",
+      "title": "来源与数据缺口",
+      "intro": "报告保留了本次采集的来源快照。缺失指标保持为空，观察到的动作与分析建议分别呈现。",
+      "facts": [],
+      "action_ids": []
+    }
+  ],
+  "metrics": [
+    {
+      "name": "GitHub Stars",
+      "value": 211567,
+      "unit": "stars",
+      "source_id": "s-c37165a31cd3fc39",
+      "observed_at": "2026-11-21T07:30:20+00:00"
+    },
+    {
+      "name": "Forks",
+      "value": 61594,
+      "unit": "forks",
+      "source_id": "s-c37165a31cd3fc39",
+      "observed_at": "2026-11-21T07:30:20+00:00"
+    }
+  ],
+  "gaps": [
+    "连续收入序列和已核验 MRR",
+    "真实访问量及渠道占比",
+    "搜索关键词排名与点击数据",
+    "社媒帖子、互动和渠道转化数据",
+    "独立核对过的竞品比较"
+  ],
+  "warnings": [],
+  "discovered_accounts": [
+    {
+      "url": "https://x.com/n8n_io",
+      "platform": "x.com",
+      "label": "@n8n_io"
+    },
+    {
+      "url": "https://discord.gg/n8n",
+      "platform": "discord.gg",
+      "label": "discord.gg"
+    },
+    {
+      "url": "https://www.linkedin.com/company/n8n/",
+      "platform": "linkedin.com",
+      "label": "linkedin.com"
+    },
+    {
+      "url": "https://www.youtube.com/c/n8n-io",
+      "platform": "youtube.com",
+      "label": "youtube.com"
+    }
+  ],
+  "translations": {
+    "## 2.48.7 (2026-11-20) ### Bug Fixes * **core:** End memory guard hold when hold-limit stop frees no memory (#44463) (22643e1) * **core:** Store plain input data in the error output of scripting nodes (#44530) (c26c923)": "发布说明摘译：2.48.7（2026-11-20）：触发持有限制的停止操作未释放内存时，结束内存保护的保持状态（#44463，22643e1）；在脚本节点错误输出中保存普通输入数据（#44530，c26c923）。",
+    "## 2.49.3 (2026-11-20) ### Bug Fixes * **core, HTTP Request Node:** Handle empty response bodies in pagination (#44443) (3443f12) * **core:** End memory guard hold when hold-limit stop frees no memory (#44462) (2e2d425) * **core:** Store plain input data in the error output of scripting nodes (#44529) (102c0a9) * **editor:** Kee": "发布说明摘译：2.49.3（2026-11-20）：处理 HTTP Request 节点分页中的空响应体（#44443，3443f12）；结束未释放内存的内存保护保持状态（#44462，2e2d425）；在脚本节点错误输出中保存普通输入数据（#44529，102c0a9）。后续编辑器修复被截断。",
+    "AI Workflow Automation Platform - n8n": "n8n 官网",
+    "README 内容摘录：# n8n – The Platform for AI Agents and Workflow Automation Fair-code platform to build and deploy AI agents and workflows. Combine a visual canvas with custom code, run it self-hosted or in the cloud, and connect to 1500+ integrat": "README 摘录（中文）：面向 AI 智能体与工作流自动化的平台，采用 Fair-code 模式。将可视化画布与自定义代码结合，支持自托管和云端部署，可连接 1500 多种集成；摘录在集成说明处被截断。",
+    "n8n Plans and Pricing - n8n.io": "n8n 定价与方案",
+    "n8n is a workflow automation platform that uniquely combines AI capabilities with business process automation, giving technical teams the flexibility of code with the speed of no-code.": "融合 AI 与业务流程自动化的工作流平台，让技术团队兼顾编程的灵活性和无代码工具的搭建速度。",
+    "n8n-io/n8n": "n8n 公开代码仓库",
+    "n8n-io/n8n README": "n8n 项目说明（README）"
+  },
+  "coverage": "website"
+}

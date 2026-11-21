@@ -1,0 +1,401 @@
+{
+  "schema_version": "1.0",
+  "project_id": "4e3a5bfd66a641ada8707703d3103994",
+  "version": 1,
+  "generated_at": "2026-11-21T07:31:20+00:00",
+  "mode": "evidence",
+  "summary": "围绕 Tally 核对了 2 份公开资料，整理出 0 条入口与动作。",
+  "summary_source_ids": [],
+  "sources": [
+    {
+      "id": "s-dda354e774105135",
+      "kind": "website",
+      "title": "Tally - Create Beautiful Forms for Free | Unlimited Forms & Submissions",
+      "url": "https://tally.so/",
+      "collected_at": "2026-11-21T07:31:17+00:00",
+      "published_at": null,
+      "text": "The simplest way to create forms\nSay goodbye to boring forms and surveys. Meet Tally — the free, intuitive form builder you’ve been looking for.\nCreate a free form\nNo signup required\nPowering 2,500,000+ teams at the world’s best companies\nA form builder like no other\nTally makes ",
+      "links": [
+        {
+          "url": "https://tally.so/",
+          "text": ""
+        },
+        {
+          "url": "https://tally.so/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://tally.so/login",
+          "text": "Log in"
+        },
+        {
+          "url": "https://tally.so/signup",
+          "text": "Sign up"
+        },
+        {
+          "url": "https://tally.so/create",
+          "text": "Create form"
+        },
+        {
+          "url": "https://tally.so/help/fair-use-policy",
+          "text": "fair usage guidelines"
+        },
+        {
+          "url": "https://tally.so/help/free-ai-form-builder",
+          "text": "Tally AI"
+        },
+        {
+          "url": "https://tally.so/help/claude-connector",
+          "text": "Claude"
+        },
+        {
+          "url": "https://tally.so/help/chatgpt-integration",
+          "text": "ChatGPT"
+        },
+        {
+          "url": "https://tally.so/help/gdpr",
+          "text": "Learn more about Tally & GDPR"
+        },
+        {
+          "url": "https://tally.so/help/payment-forms",
+          "text": "Accept payments"
+        },
+        {
+          "url": "https://tally.so/help/electronic-signatures",
+          "text": "Signatures"
+        },
+        {
+          "url": "https://tally.so/help/file-uploads",
+          "text": "File uploads"
+        },
+        {
+          "url": "https://tally.so/help/add-custom-styles",
+          "text": "Custom CSS"
+        },
+        {
+          "url": "https://tally.so/help/columns",
+          "text": "Column layout"
+        },
+        {
+          "url": "https://tally.so/help/how-to-create-a-multi-step-form",
+          "text": "Multi-page forms"
+        },
+        {
+          "url": "https://tally.so/help/embed-content-in-tally-forms",
+          "text": "Embed online content"
+        },
+        {
+          "url": "https://tally.so/help/supported-languages",
+          "text": "50+ supported languages"
+        },
+        {
+          "url": "https://tally.so/r/3qDpEY",
+          "text": ""
+        },
+        {
+          "url": "https://tally.so/help/mcp",
+          "text": "MCP server"
+        },
+        {
+          "url": "https://tally.so/help/api",
+          "text": "Tally API"
+        },
+        {
+          "url": "https://tally.so/help/google-sheets-integration",
+          "text": "Google Sheets"
+        },
+        {
+          "url": "https://tally.so/help/notion-integration",
+          "text": "Notion"
+        },
+        {
+          "url": "https://tally.so/help/airtable-integration",
+          "text": "Airtable"
+        },
+        {
+          "url": "https://tally.so/help/webhooks",
+          "text": "Webhooks"
+        },
+        {
+          "url": "https://tally.so/help/slack-integration",
+          "text": "Slack"
+        },
+        {
+          "url": "https://tally.so/help/discord-integration",
+          "text": "Discord"
+        },
+        {
+          "url": "https://tally.so/help/zapier-integration",
+          "text": "Zapier"
+        },
+        {
+          "url": "https://tally.so/help/make-integration",
+          "text": "Make"
+        },
+        {
+          "url": "https://tally.so/help/n8n-integration",
+          "text": "n8n"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-c1c9c119f01a61c0",
+      "kind": "pricing",
+      "title": "Tally Pricing | Free Form Builder with Unlimited Responses",
+      "url": "https://tally.so/pricing",
+      "collected_at": "2026-11-21T07:31:18+00:00",
+      "published_at": null,
+      "text": "Build beautiful forms for free\nPaywalls getting in the way? Not anymore. Tally gives you unlimited forms and submissions, completely free, as long as you stay within our\nfair usage guidelines\n.\nUnlimited forms\nUnlimited submissions\nCollect payments\nCollect signatures\nCollect file",
+      "links": [
+        {
+          "url": "https://tally.so/",
+          "text": ""
+        },
+        {
+          "url": "https://tally.so/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://tally.so/login",
+          "text": "Log in"
+        },
+        {
+          "url": "https://tally.so/signup",
+          "text": "Sign up"
+        },
+        {
+          "url": "https://tally.so/create",
+          "text": "Create form"
+        },
+        {
+          "url": "https://tally.so/help/fair-use-policy",
+          "text": "fair usage guidelines"
+        },
+        {
+          "url": "https://tally.so/features",
+          "text": "And many, many more"
+        },
+        {
+          "url": "https://love.tally.so/reviews",
+          "text": "what our users have to say"
+        },
+        {
+          "url": "https://tally.so/help/conditional-form-logic",
+          "text": "conditional logic"
+        },
+        {
+          "url": "https://tally.so/help/electronic-signatures",
+          "text": "signatures"
+        },
+        {
+          "url": "https://tally.so/help/form-calculator",
+          "text": "calculations"
+        },
+        {
+          "url": "https://tally.so/help/file-uploads",
+          "text": "file uploads"
+        },
+        {
+          "url": "https://tally.so/help/gdpr",
+          "text": "GDPR requirements"
+        },
+        {
+          "url": "https://tally.so/help/tally-business",
+          "text": "Tally Business"
+        },
+        {
+          "url": "https://tally.so/help/submissions-data-retention",
+          "text": "control submissions data retention"
+        },
+        {
+          "url": "https://tally.so/help/tally-a-free-typeform-alternative",
+          "text": "Typeform"
+        },
+        {
+          "url": "https://tally.so/help/tally-a-free-jotform-alternative",
+          "text": "Jotform"
+        },
+        {
+          "url": "https://tally.so/help/tally-a-free-paperform-alternative",
+          "text": "Paperform"
+        },
+        {
+          "url": "https://tally.so/help/compare",
+          "text": "comparison guides"
+        },
+        {
+          "url": "https://tally.so/help/create-a-form",
+          "text": "Get started guide"
+        },
+        {
+          "url": "https://twitter.com/TallyForms",
+          "text": "X"
+        },
+        {
+          "url": "https://reddit.com/r/TallyForms",
+          "text": "Reddit"
+        },
+        {
+          "url": "https://linkedin.com/company/tallyforms",
+          "text": "LinkedIn"
+        },
+        {
+          "url": "https://instagram.com/tallyforms",
+          "text": "Instagram"
+        },
+        {
+          "url": "https://tiktok.com/@tallyforms",
+          "text": "TikTok"
+        },
+        {
+          "url": "https://bsky.app/profile/tally.so",
+          "text": "Bluesky"
+        },
+        {
+          "url": "https://threads.net/@tallyforms",
+          "text": "Threads"
+        },
+        {
+          "url": "https://tally.so/customers",
+          "text": "Customers"
+        },
+        {
+          "url": "https://tally.so/changelog",
+          "text": "What's new"
+        },
+        {
+          "url": "https://tally.so/roadmap",
+          "text": "Roadmap"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    }
+  ],
+  "actions": [],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "产品概览",
+      "intro": "从官网和公开仓库核对产品定位、功能与公开入口。",
+      "facts": [
+        {
+          "text": "The simplest way to create beautiful, professional forms in seconds. Unlimited forms, unlimited submissions, forever free. Just start typing - no coding needed.",
+          "source_ids": [
+            "s-dda354e774105135"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "business",
+      "title": "生意与定价",
+      "intro": "定价信息来自产品自己的公开页面。收入指标需要单独的公开披露或授权数据。",
+      "facts": [
+        {
+          "text": "定价页中的原始片段：onthly Pay yearly 2 months off Pro € 20 per month Get started Remove Tally branding. Hide all branding a；ampaigns with Meta Pixel. Business € 65 per month Get started Everything in Pro. Plus the following feat",
+          "source_ids": [
+            "s-c1c9c119f01a61c0"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "acquisition",
+      "title": "获客入口",
+      "intro": "下面列出已观察到的入口与动作。渠道带来的访问和付费效果仍需转化数据验证。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "growth",
+      "title": "公开动作拆解",
+      "intro": "每个动作都关联原始资料，适合进一步研究具体做法和执行条件。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "social",
+      "title": "社媒与社区",
+      "intro": "本次保留官网引用的社媒与社区链接。账号归属、帖子内容和互动数据需要进一步核对。",
+      "facts": [
+        {
+          "text": "官网引用的社媒与社区链接涉及 linkedin.com、threads.net、tiktok.com、twitter.com。",
+          "source_ids": [
+            "s-dda354e774105135"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "timeline",
+      "title": "事件时间线",
+      "intro": "仅展示来源中明确给出日期的事件，采集时间另列。产品更新可以帮助理解推广内容的背景。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "competitors",
+      "title": "竞品研究线索",
+      "intro": "本轮采集围绕单个产品。可按目标客户、解决的问题和购买方式，再添加相关产品进行研究。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "appendix",
+      "title": "来源与数据缺口",
+      "intro": "报告保留了本次采集的来源快照。缺失指标保持为空，观察到的动作与分析建议分别呈现。",
+      "facts": [],
+      "action_ids": []
+    }
+  ],
+  "metrics": [],
+  "gaps": [
+    "连续收入序列和已核验 MRR",
+    "真实访问量及渠道占比",
+    "搜索关键词排名与点击数据",
+    "社媒帖子、互动和渠道转化数据",
+    "可确认的公开代码仓库",
+    "明确给出发生日期的事件",
+    "独立核对过的竞品比较"
+  ],
+  "warnings": [
+    "https://tally.so/changelog 采集未完成。页面超过 2 MB 的采集上限"
+  ],
+  "discovered_accounts": [
+    {
+      "url": "https://twitter.com/TallyForms",
+      "platform": "twitter.com",
+      "label": "@TallyForms"
+    },
+    {
+      "url": "https://linkedin.com/company/tallyforms",
+      "platform": "linkedin.com",
+      "label": "linkedin.com"
+    },
+    {
+      "url": "https://tiktok.com/@tallyforms",
+      "platform": "tiktok.com",
+      "label": "tiktok.com"
+    },
+    {
+      "url": "https://threads.net/@tallyforms",
+      "platform": "threads.net",
+      "label": "threads.net"
+    }
+  ],
+  "translations": {
+    "Tally - Create Beautiful Forms for Free | Unlimited Forms & Submissions": "Tally 官网",
+    "Tally Pricing | Free Form Builder with Unlimited Responses": "Tally 定价与方案",
+    "The simplest way to create beautiful, professional forms in seconds. Unlimited forms, unlimited submissions, forever free. Just start typing - no coding needed.": "几秒内创建美观、专业的在线表单。表单数量和提交次数不限，永久免费，直接输入即可创建，无需编程。",
+    "定价页中的原始片段：onthly Pay yearly 2 months off Pro € 20 per month Get started Remove Tally branding. Hide all branding a；ampaigns with Meta Pixel. Business € 65 per month Get started Everything in Pro. Plus the following feat": "定价页摘录（中文）：按年付款可减免 2 个月费用。Pro 每月 20 欧元，可移除 Tally 品牌标识；摘录还提到 Meta Pixel。Business 每月 65 欧元，包含 Pro 的全部功能及更多功能，后续内容被截断。"
+  },
+  "coverage": "website"
+}

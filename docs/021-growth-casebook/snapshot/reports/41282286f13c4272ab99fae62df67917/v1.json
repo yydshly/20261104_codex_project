@@ -1,0 +1,1034 @@
+{
+  "schema_version": "1.0",
+  "project_id": "41282286f13c4272ab99fae62df67917",
+  "version": 1,
+  "generated_at": "2026-11-21T07:31:16+00:00",
+  "mode": "evidence",
+  "summary": "围绕 Supabase 核对了 10 份公开资料，整理出 9 条入口与动作。可继续研究的方向包括使用教育、内容营销、开发者生态。",
+  "summary_source_ids": [],
+  "sources": [
+    {
+      "id": "s-41531850c10dc1d1",
+      "kind": "website",
+      "title": "Supabase | The Postgres Development Platform",
+      "url": "https://supabase.com/",
+      "collected_at": "2026-11-21T07:31:12+00:00",
+      "published_at": null,
+      "text": "Postgres Database\nEvery project is\na full Postgres database\n, the world's most trusted relational database.\n100% portable\nBuilt-in Auth with RLS\nEasy to extend\nAuthentication\nAdd user sign ups and logins\n,\nsecuring your data with Row Level Security.\nEdge Functions\nEasily write cu",
+      "links": [
+        {
+          "url": "https://supabase.com/",
+          "text": "Skip to content"
+        },
+        {
+          "url": "https://supabase.com/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://supabase.com/docs",
+          "text": "Docs"
+        },
+        {
+          "url": "https://supabase.com/blog",
+          "text": "Blog"
+        },
+        {
+          "url": "https://github.com/supabase/supabase",
+          "text": "115.2K"
+        },
+        {
+          "url": "https://supabase.com/dashboard",
+          "text": "Sign in"
+        },
+        {
+          "url": "https://supabase.com/dashboard/sign-up",
+          "text": "Start your project"
+        },
+        {
+          "url": "https://supabase.com/database",
+          "text": "Database Fully portable Postgres database"
+        },
+        {
+          "url": "https://supabase.com/auth",
+          "text": "Authentication User Management out of the box"
+        },
+        {
+          "url": "https://supabase.com/storage",
+          "text": "Storage Serverless storage for any media"
+        },
+        {
+          "url": "https://supabase.com/edge-functions",
+          "text": "Edge Functions Deploy code globally on the edge"
+        },
+        {
+          "url": "https://supabase.com/compute",
+          "text": "Compute Private Alpha Sandboxes and backend services"
+        },
+        {
+          "url": "https://supabase.com/realtime",
+          "text": "Realtime Synchronize and broadcast events"
+        },
+        {
+          "url": "https://supabase.com/modules/vector",
+          "text": "Vector AI toolkit to manage embeddings"
+        },
+        {
+          "url": "https://supabase.com/modules/cron",
+          "text": "Cron Schedule and manage recurring Jobs"
+        },
+        {
+          "url": "https://supabase.com/modules/queues",
+          "text": "Queues Durable Message Queues with guaranteed delivery"
+        },
+        {
+          "url": "https://supabase.com/features",
+          "text": "Features Explore everything you can do with Supabase."
+        },
+        {
+          "url": "https://supabase.com/contact/sales",
+          "text": "Request a demo"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/api",
+          "text": "Data APIs Instant ready-to-use REST APIs ."
+        },
+        {
+          "url": "https://supabase.com/docs/guides/getting-started/quickstarts/reactjs",
+          "text": "Read docs for React"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/examples",
+          "text": "View all examples"
+        },
+        {
+          "url": "https://github.com/supabase-community/nextjs-subscription-payments",
+          "text": "Stripe Subscriptions Starter The all-in-one subscription starter kit for high-performance SaaS applications, powered by "
+        },
+        {
+          "url": "https://github.com/vercel/next.js/tree/canary/examples/with-supabase",
+          "text": "Next.js Starter A Next.js App Router template configured with cookie-based auth using Supabase, TypeScript and Tailwind "
+        },
+        {
+          "url": "https://github.com/supabase-community/vercel-ai-chatbot",
+          "text": "AI Chatbot An open-source AI chatbot app template built with Next.js, the Vercel AI SDK, OpenAI, and Supabase."
+        },
+        {
+          "url": "https://github.com/langchain-ai/langchain-nextjs-template",
+          "text": "LangChain + Next.js Starter Starter template and example use-cases for LangChain projects in Next.js, including chat, ag"
+        },
+        {
+          "url": "https://github.com/supabase/supabase/tree/master/examples/user-management/flutter-user-management",
+          "text": "Flutter User Management Get started with Supabase and Flutter by building a user management app with auth, file storage,"
+        },
+        {
+          "url": "https://github.com/supabase-community/create-t3-turbo",
+          "text": "Expo React Native Starter An extended version of create-t3-turbo implementing authentication on both the web and mobile "
+        },
+        {
+          "url": "https://supabase.com/customers",
+          "text": "More customer stories"
+        },
+        {
+          "url": "https://supabase.com/customers/lovable",
+          "text": "Read the story →"
+        },
+        {
+          "url": "https://supabase.com/customers/exprealty",
+          "text": "Read the story →"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-f91e99d7738cc472",
+      "kind": "pricing",
+      "title": "Pricing & Fees | Supabase",
+      "url": "https://supabase.com/pricing",
+      "collected_at": "2026-11-21T07:31:12+00:00",
+      "published_at": null,
+      "text": "Predictable pricing,\ndesigned to scale\nStart building for free, collaborate with your team, then scale to millions of users\nAI tools\nAsk ChatGPT\nAsk Claude\nCopy as Markdown\nFree\nPerfect for passion projects & simple websites.\n$\n0\n/ month\nStart for Free\nFree projects are paused af",
+      "links": [
+        {
+          "url": "https://supabase.com/pricing",
+          "text": "Skip to content"
+        },
+        {
+          "url": "https://supabase.com/",
+          "text": ""
+        },
+        {
+          "url": "https://supabase.com/docs",
+          "text": "Docs"
+        },
+        {
+          "url": "https://supabase.com/blog",
+          "text": "Blog"
+        },
+        {
+          "url": "https://github.com/supabase/supabase",
+          "text": "115.2K"
+        },
+        {
+          "url": "https://supabase.com/dashboard",
+          "text": "Sign in"
+        },
+        {
+          "url": "https://supabase.com/dashboard/sign-up",
+          "text": "Start your project"
+        },
+        {
+          "url": "https://supabase.com/database",
+          "text": "Database Fully portable Postgres database"
+        },
+        {
+          "url": "https://supabase.com/auth",
+          "text": "Authentication User Management out of the box"
+        },
+        {
+          "url": "https://supabase.com/storage",
+          "text": "Storage Serverless storage for any media"
+        },
+        {
+          "url": "https://supabase.com/edge-functions",
+          "text": "Edge Functions Deploy code globally on the edge"
+        },
+        {
+          "url": "https://supabase.com/compute",
+          "text": "Compute Private Alpha Sandboxes and backend services"
+        },
+        {
+          "url": "https://supabase.com/realtime",
+          "text": "Realtime Synchronize and broadcast events"
+        },
+        {
+          "url": "https://supabase.com/modules/vector",
+          "text": "Vector AI toolkit to manage embeddings"
+        },
+        {
+          "url": "https://supabase.com/modules/cron",
+          "text": "Cron Schedule and manage recurring Jobs"
+        },
+        {
+          "url": "https://supabase.com/modules/queues",
+          "text": "Queues Durable Message Queues with guaranteed delivery"
+        },
+        {
+          "url": "https://supabase.com/features",
+          "text": "Features Explore everything you can do with Supabase."
+        },
+        {
+          "url": "https://chatgpt.com/?hint=search&q=Read+from+https%3A%2F%2Fsupabase.com%2Fpricing+so+I+can+ask+questions+about+its+contents",
+          "text": "Ask ChatGPT"
+        },
+        {
+          "url": "https://claude.ai/new?q=Read+from+https%3A%2F%2Fsupabase.com%2Fpricing+so+I+can+ask+questions+about+its+contents",
+          "text": "Ask Claude"
+        },
+        {
+          "url": "https://supabase.com/dashboard/new?plan=free",
+          "text": "Start for Free"
+        },
+        {
+          "url": "https://supabase.com/dashboard/new?plan=pro",
+          "text": "Get Started"
+        },
+        {
+          "url": "https://supabase.com/dashboard/new?plan=team",
+          "text": "Get Started"
+        },
+        {
+          "url": "https://forms.supabase.com/enterprise",
+          "text": "Contact us"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/platform/billing-on-supabase",
+          "text": "Learn how billing works"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/platform/compute-and-disk",
+          "text": "Learn about Compute add-ons"
+        },
+        {
+          "url": "https://supabase.com/dashboard/support/new?category=sales&subject=Enquiry+about+larger+instance+sizes",
+          "text": "Contact Us"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/platform/manage-your-usage/compute",
+          "text": "usage-based billing for compute"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/platform/cost-control",
+          "text": "Learn about Cost Control"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/platform/custom-domains",
+          "text": "Flat fee $10/month Custom Domain Use your own domain for your Supabase project to present a branded experience to your u"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/platform/backups",
+          "text": "Starts from $100/month Point in Time Recovery Roll back to any specific point in time, down to the second."
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-1270ce9f8f3e586e",
+      "kind": "content",
+      "title": "Supabase Blog: the Postgres development platform",
+      "url": "https://supabase.com/blog",
+      "collected_at": "2026-11-21T07:31:13+00:00",
+      "published_at": null,
+      "text": "Supabase Blog\nSet up Supabase for every Expo environment in one command\nSet up a Supabase backend for your Expo app in one EAS CLI command, with a separate database per environment and security findings next to your build logs.\nAuthor:\nGrant Huston, +3 others\nPublished\n10 Novembe",
+      "links": [
+        {
+          "url": "https://supabase.com/blog",
+          "text": "Skip to content"
+        },
+        {
+          "url": "https://supabase.com/",
+          "text": ""
+        },
+        {
+          "url": "https://supabase.com/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://supabase.com/docs",
+          "text": "Docs"
+        },
+        {
+          "url": "https://github.com/supabase/supabase",
+          "text": "115.2K"
+        },
+        {
+          "url": "https://supabase.com/dashboard",
+          "text": "Sign in"
+        },
+        {
+          "url": "https://supabase.com/dashboard/sign-up",
+          "text": "Start your project"
+        },
+        {
+          "url": "https://supabase.com/database",
+          "text": "Database Fully portable Postgres database"
+        },
+        {
+          "url": "https://supabase.com/auth",
+          "text": "Authentication User Management out of the box"
+        },
+        {
+          "url": "https://supabase.com/storage",
+          "text": "Storage Serverless storage for any media"
+        },
+        {
+          "url": "https://supabase.com/edge-functions",
+          "text": "Edge Functions Deploy code globally on the edge"
+        },
+        {
+          "url": "https://supabase.com/compute",
+          "text": "Compute Private Alpha Sandboxes and backend services"
+        },
+        {
+          "url": "https://supabase.com/realtime",
+          "text": "Realtime Synchronize and broadcast events"
+        },
+        {
+          "url": "https://supabase.com/modules/vector",
+          "text": "Vector AI toolkit to manage embeddings"
+        },
+        {
+          "url": "https://supabase.com/modules/cron",
+          "text": "Cron Schedule and manage recurring Jobs"
+        },
+        {
+          "url": "https://supabase.com/modules/queues",
+          "text": "Queues Durable Message Queues with guaranteed delivery"
+        },
+        {
+          "url": "https://supabase.com/features",
+          "text": "Features Explore everything you can do with Supabase."
+        },
+        {
+          "url": "https://supabase.com/blog/set-up-supabase-for-every-expo-environment-in-one-command",
+          "text": "Set up Supabase for every Expo environment in one command Set up a Supabase backend for your Expo app in one EAS CLI com"
+        },
+        {
+          "url": "https://supabase.com/blog/claude-issued-enterprise-managed-auth-for-mcp",
+          "text": "Enterprise-managed auth for MCP: Claude can now issue the identity assertion Published 3 November 2026 Author: Cemal Kıl"
+        },
+        {
+          "url": "https://supabase.com/blog/explorer-and-notebooks-investigations-your-team-can-rerun",
+          "text": "Explorer and Notebooks: investigations your team can rerun Published 30 October 2026 Author: Wen Bo Xie, Joshen Lim, Sax"
+        },
+        {
+          "url": "https://supabase.com/blog/introducing-dbarena",
+          "text": "Introducing DBArena: open, reproducible benchmarks for hosted Postgres product Published 30 Oct 2026"
+        },
+        {
+          "url": "https://supabase.com/blog/multigres-private-alpha",
+          "text": "Multigres private alpha: automatic failover for Supabase Postgres product Published 29 Oct 2026"
+        },
+        {
+          "url": "https://supabase.com/blog/automate-your-supabase-backend-with-make",
+          "text": "Automate your Supabase backend with Make product Published 28 Oct 2026"
+        },
+        {
+          "url": "https://supabase.com/blog/orioledb-public-beta",
+          "text": "OrioleDB public beta: a Postgres storage engine for update-heavy tables product Published 28 Oct 2026"
+        },
+        {
+          "url": "https://supabase.com/blog/supabase-compute-private-alpha",
+          "text": "Supabase Compute: run your agents inside your project product Published 27 Oct 2026"
+        },
+        {
+          "url": "https://supabase.com/blog/scope-your-personal-access-tokens",
+          "text": "Scope your Personal Access Tokens product Published 26 Oct 2026"
+        },
+        {
+          "url": "https://supabase.com/blog/give-your-supabase-app-its-own-mcp-server",
+          "text": "Give your Supabase app its own MCP server product Published 22 Oct 2026"
+        },
+        {
+          "url": "https://supabase.com/blog/getting-started-with-the-supabase-dotnet-sdk",
+          "text": "Getting started with the Supabase .NET SDK developers Published 21 Oct 2026"
+        },
+        {
+          "url": "https://supabase.com/blog/introducing-the-unified-supabase-net-sdk",
+          "text": "Introducing the unified Supabase .NET SDK engineering Published 21 Oct 2026"
+        },
+        {
+          "url": "https://supabase.com/blog/operate-with-confidence-check-production-with-your-coding-agent",
+          "text": "Operate with confidence: check production with your coding agent product Published 20 Oct 2026"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-bce031a97618e1f9",
+      "kind": "docs",
+      "title": "Supabase Docs",
+      "url": "https://supabase.com/docs",
+      "collected_at": "2026-11-21T07:31:13+00:00",
+      "published_at": "2026-11-20T23:39:06.591Z",
+      "text": "Supabase Documentation\nLearn how to get up and running with Supabase through tutorials, APIs and platform resources.\nAgent Prompt\nCLI\nHelp me get set up with Supabase. Do the following:\nInstall the Supabase CLI as a project dev dependency with\nnpm install supabase --save-dev\n, so",
+      "links": [
+        {
+          "url": "https://supabase.com/docs",
+          "text": "Skip to content"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/getting-started",
+          "text": "Start"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/database/overview",
+          "text": "Database"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/auth",
+          "text": "Auth"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/storage",
+          "text": "Storage"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/functions",
+          "text": "Edge Functions"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/realtime",
+          "text": "Realtime"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/api",
+          "text": "Data API (REST)"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/ai",
+          "text": "AI & Vectors"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/cron",
+          "text": "Cron"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/queues",
+          "text": "Queues"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/graphql",
+          "text": "GraphQL API"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/ai-tools",
+          "text": "AI Tools"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/local-development",
+          "text": "Local Development & CLI"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/deployment",
+          "text": "Deployment & Branching"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/self-hosting",
+          "text": "Self-Hosting"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/integrations",
+          "text": "Integrations"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/platform",
+          "text": "Platform Management"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/security",
+          "text": "Security & Compliance"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/observability",
+          "text": "Observability"
+        },
+        {
+          "url": "https://supabase.com/docs/reference/javascript",
+          "text": "JavaScript"
+        },
+        {
+          "url": "https://supabase.com/docs/reference/dart",
+          "text": "Flutter"
+        },
+        {
+          "url": "https://supabase.com/docs/reference/swift",
+          "text": "Swift"
+        },
+        {
+          "url": "https://supabase.com/docs/reference/python",
+          "text": "Python"
+        },
+        {
+          "url": "https://supabase.com/docs/reference/csharp",
+          "text": "C#"
+        },
+        {
+          "url": "https://supabase.com/docs/reference/kotlin",
+          "text": "Kotlin"
+        },
+        {
+          "url": "https://supabase.com/docs/reference/server",
+          "text": "Server SDK"
+        },
+        {
+          "url": "https://supabase.com/docs/reference/middleware",
+          "text": "Middleware SDK"
+        },
+        {
+          "url": "https://supabase.com/docs/reference/tanstack_db",
+          "text": "TanStack DB"
+        },
+        {
+          "url": "https://supabase.com/docs/reference/cli/introduction",
+          "text": "CLI Commands"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-2b5226bf08105545",
+      "kind": "repository",
+      "title": "supabase/supabase",
+      "url": "https://github.com/supabase/supabase",
+      "collected_at": "2026-11-21T07:31:15+00:00",
+      "published_at": null,
+      "text": "{\"full_name\": \"supabase/supabase\", \"stargazers_count\": 115211, \"forks_count\": 15138, \"open_issues_count\": 1275, \"language\": \"TypeScript\", \"license\": {\"key\": \"apache-2.0\", \"name\": \"Apache License 2.0\", \"spdx_id\": \"Apache-2.0\", \"url\": \"https://api.github.com/licenses/apache-2.0\", \"",
+      "links": [],
+      "metadata": {
+        "full_name": "supabase/supabase",
+        "stargazers_count": 115211,
+        "forks_count": 15138,
+        "open_issues_count": 1275,
+        "language": "TypeScript",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "created_at": "2019-10-12T05:56:49Z",
+        "pushed_at": "2026-11-21T05:09:14Z",
+        "topics": [
+          "ai",
+          "alternative",
+          "auth",
+          "database",
+          "deno",
+          "embeddings",
+          "example",
+          "firebase",
+          "nextjs",
+          "oauth2",
+          "pgvector",
+          "postgis",
+          "postgres",
+          "postgresql",
+          "postgrest",
+          "realtime",
+          "supabase",
+          "vectors",
+          "websockets"
+        ],
+        "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+        "homepage": "https://supabase.com",
+        "archived": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-6d4d68a454dc925b",
+      "kind": "readme",
+      "title": "supabase/supabase README",
+      "url": "https://github.com/supabase/supabase/blob/master/README.md",
+      "collected_at": "2026-11-21T07:31:16+00:00",
+      "published_at": null,
+      "text": "<p align=\"center\">\n<img src=\"https://user-images.githubusercontent.com/8291514/213727234-cda046d6-28c6-491a-b284-b86c5cede25d.png#gh-light-mode-only\">\n<img src=\"https://user-images.githubusercontent.com/8291514/213727225-56186826-bee8-43b5-9b15-86e839d89393.png#gh-dark-mode-only\"",
+      "links": [],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-ee65a091974b6606",
+      "kind": "release",
+      "title": "Developer Update - August 2026",
+      "url": "https://github.com/supabase/supabase/releases/tag/v1.26.08",
+      "collected_at": "2026-11-21T07:31:16+00:00",
+      "published_at": "2026-08-07T13:57:57Z",
+      "text": "Here’s everything that happened with Supabase in the last month:\r\n\r\n## Supabase Select SF 2026\r\n\r\n<img width=\"1200\" height=\"486\" alt=\"select\" src=\"https://github.com/user-attachments/assets/45a7d284-e240-424f-ae78-3c5f301be89a\" />\r\n\r\nSupabase Select returns to San Francisco on Oc",
+      "links": [],
+      "metadata": {
+        "tag": "v1.26.08",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-f59753a59d4fe986",
+      "kind": "release",
+      "title": "Developer Update - July 2026",
+      "url": "https://github.com/supabase/supabase/releases/tag/v1.26.07",
+      "collected_at": "2026-11-21T07:31:16+00:00",
+      "published_at": "2026-07-09T21:13:24Z",
+      "text": "Here's everything that happened with Supabase in the last month:\r\n\r\n## OpenCode integrates with Supabase\r\n\r\n<img width=\"1200\" height=\"630\" alt=\"opencode-thumb\" src=\"https://github.com/user-attachments/assets/4649228d-56e6-4d1b-a9bf-c84cbd2b95f2\" />\r\n\r\nOpenCode connects your agent",
+      "links": [],
+      "metadata": {
+        "tag": "v1.26.07",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-c78f190683da2e7e",
+      "kind": "release",
+      "title": "Developer Update - May 2026",
+      "url": "https://github.com/supabase/supabase/releases/tag/v1.26.05",
+      "collected_at": "2026-11-21T07:31:16+00:00",
+      "published_at": "2026-05-07T23:45:42Z",
+      "text": "Here's everything that happened with Supabase in the last month:\r\n\r\n## Custom OAuth/OIDC providers for Supabase Auth\r\n\r\n<img width=\"1200\" height=\"630\" alt=\"customoidcproviders\" src=\"https://github.com/user-attachments/assets/97a1bc92-f8a9-4bf4-894d-ede6a762ab2b\" />\r\n\r\nConnect any",
+      "links": [],
+      "metadata": {
+        "tag": "v1.26.05",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-8ae672b51da85ec2",
+      "kind": "release",
+      "title": "Developer Update - April 2026",
+      "url": "https://github.com/supabase/supabase/releases/tag/v1.26.04",
+      "collected_at": "2026-11-21T07:31:16+00:00",
+      "published_at": "2026-04-09T14:38:08Z",
+      "text": "Here’s everything that happened with Supabase in the last month:\r\n\r\n## Multigres Operator is now open source\r\n\r\n![multigresoperator](https://github.com/user-attachments/assets/a6ef072e-991d-4213-a7ba-ac036a2798d5)\r\n\r\nThe Multigres Kubernetes operator is now open source, with dire",
+      "links": [],
+      "metadata": {
+        "tag": "v1.26.04",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    }
+  ],
+  "actions": [
+    {
+      "id": "a-1",
+      "title": "用公开内容承接用户问题",
+      "channel": "内容营销",
+      "description": "官网提供内容入口。可从文章主题、目标读者和文章内的产品引导，研究内容如何连接产品。",
+      "source_ids": [
+        "s-1270ce9f8f3e586e"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-2",
+      "title": "提供文档与上手路径",
+      "channel": "使用教育",
+      "description": "公开文档为用户了解功能和开始使用提供入口。可研究教程是否覆盖客户的真实任务。",
+      "source_ids": [
+        "s-bce031a97618e1f9"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-3",
+      "title": "维护公开代码仓库",
+      "channel": "开发者生态",
+      "description": "公开代码、README 和发布记录让开发者能够评估项目、参与讨论或尝试部署。Stars 与 Forks 表示公开互动规模。",
+      "source_ids": [
+        "s-2b5226bf08105545"
+      ],
+      "date": null,
+      "result": "本次记录了仓库当前的 Stars 与 Forks 快照，收入和付费客户数需要另行核对。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-4",
+      "title": "GitHub 仓库建立",
+      "channel": "项目历史",
+      "description": "GitHub API 记录的仓库创建日期。产品上线日期需要其他来源确认。",
+      "source_ids": [
+        "s-2b5226bf08105545"
+      ],
+      "date": "2019-10-12",
+      "result": "已取得仓库创建时间。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-5",
+      "title": "为自行部署的用户提供路径",
+      "channel": "开发者生态",
+      "description": "README 出现自托管或 Docker 部署说明。可研究免费部署入口与托管服务之间的使用路径。",
+      "source_ids": [
+        "s-6d4d68a454dc925b"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-6",
+      "title": "发布 Developer Update - August 2026",
+      "channel": "产品更新",
+      "description": "Here’s everything that happened with Supabase in the last month: ## Supabase Select SF 2026 Supabase Select returns to San Francisco on October 2, a curated day of talks, feature deep dives, and more activations. Tickets are now available by application. Get your ticket → ## Supabase Pipelines is now in public alpha Supabase Pip",
+      "source_ids": [
+        "s-ee65a091974b6606"
+      ],
+      "date": "2026-08-07",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-7",
+      "title": "发布 Developer Update - July 2026",
+      "channel": "产品更新",
+      "description": "Here's everything that happened with Supabase in the last month: ## OpenCode integrates with Supabase OpenCode connects your agent to your Supabase database, Edge Functions, and logs. It configures the MCP setup for you. Read the blog → ## TanStack DB syncs with Supabase `@supabase-labs/tanstack-db` syncs TanStack DB collections",
+      "source_ids": [
+        "s-f59753a59d4fe986"
+      ],
+      "date": "2026-07-09",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-8",
+      "title": "发布 Developer Update - May 2026",
+      "channel": "产品更新",
+      "description": "Here's everything that happened with Supabase in the last month: ## Custom OAuth/OIDC providers for Supabase Auth Connect any OAuth2 or OpenID Connect identity provider to your Supabase project, including GitHub Enterprise, regional IdPs, and any standards-compliant provider, with PKCE enabled by default. [Blog] ## New tables in",
+      "source_ids": [
+        "s-c78f190683da2e7e"
+      ],
+      "date": "2026-05-07",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-9",
+      "title": "发布 Developer Update - April 2026",
+      "channel": "产品更新",
+      "description": "Here’s everything that happened with Supabase in the last month: ## Multigres Operator is now open source The Multigres Kubernetes operator is now open source, with direct pod management, zero-downtime rolling upgrades, pgBackRest PITR backups, and OTel tracing. GitHub | Twitter ## GitHub integration on all plans GitHub integrat",
+      "source_ids": [
+        "s-8ae672b51da85ec2"
+      ],
+      "date": "2026-04-09",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "产品概览",
+      "intro": "从官网和公开仓库核对产品定位、功能与公开入口。",
+      "facts": [
+        {
+          "text": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
+          "source_ids": [
+            "s-41531850c10dc1d1"
+          ]
+        },
+        {
+          "text": "README 内容摘录：# Supabase Supabase is the Postgres development platform. We're building the features of Firebase using enterprise-grade open source tools. - [x] Hosted Postgres Database. Docs - [x] Authentication and Authorization. Docs - [x] Au",
+          "source_ids": [
+            "s-6d4d68a454dc925b"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "business",
+      "title": "生意与定价",
+      "intro": "定价信息来自产品自己的公开页面。收入指标需要单独的公开披露或授权数据。",
+      "facts": [
+        {
+          "text": "定价页中的原始片段：assion projects & simple websites. $ 0 / month Start for Free Free projects are paused after 1 week of inact；ions with the power to scale. From $ 25 / month Get Started First project included. Additional from $10/mo. S；project included. Additional from $10/mo. See how pricing scales Everything in the Free Plan, plus: 100,0",
+          "source_ids": [
+            "s-f91e99d7738cc472"
+          ]
+        },
+        {
+          "text": "公开仓库为 supabase/supabase，API 标注许可证为 Apache License 2.0。",
+          "source_ids": [
+            "s-2b5226bf08105545"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "acquisition",
+      "title": "获客入口",
+      "intro": "下面列出已观察到的入口与动作。渠道带来的访问和付费效果仍需转化数据验证。",
+      "facts": [
+        {
+          "text": "内容页可见文本摘录：Supabase Blog Set up Supabase for every Expo environment in one command Set up a Supabase backend for your Expo app in one EAS CLI command, with a separate database per environment and security findings next to your buil",
+          "source_ids": [
+            "s-1270ce9f8f3e586e"
+          ]
+        }
+      ],
+      "action_ids": [
+        "a-1",
+        "a-2",
+        "a-3",
+        "a-5"
+      ]
+    },
+    {
+      "id": "growth",
+      "title": "公开动作拆解",
+      "intro": "每个动作都关联原始资料，适合进一步研究具体做法和执行条件。",
+      "facts": [],
+      "action_ids": [
+        "a-1",
+        "a-2",
+        "a-3",
+        "a-4",
+        "a-5",
+        "a-6",
+        "a-7",
+        "a-8",
+        "a-9"
+      ]
+    },
+    {
+      "id": "social",
+      "title": "社媒与社区",
+      "intro": "本次保留官网引用的社媒与社区链接。账号归属、帖子内容和互动数据需要进一步核对。",
+      "facts": [
+        {
+          "text": "官网引用的社媒与社区链接涉及 tiktok.com、twitter.com、x.com、youtube.com。",
+          "source_ids": [
+            "s-41531850c10dc1d1"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "timeline",
+      "title": "事件时间线",
+      "intro": "仅展示来源中明确给出日期的事件，采集时间另列。产品更新可以帮助理解推广内容的背景。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "competitors",
+      "title": "竞品研究线索",
+      "intro": "本轮采集围绕单个产品。可按目标客户、解决的问题和购买方式，再添加相关产品进行研究。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "appendix",
+      "title": "来源与数据缺口",
+      "intro": "报告保留了本次采集的来源快照。缺失指标保持为空，观察到的动作与分析建议分别呈现。",
+      "facts": [],
+      "action_ids": []
+    }
+  ],
+  "metrics": [
+    {
+      "name": "GitHub Stars",
+      "value": 115211,
+      "unit": "stars",
+      "source_id": "s-2b5226bf08105545",
+      "observed_at": "2026-11-21T07:31:15+00:00"
+    },
+    {
+      "name": "Forks",
+      "value": 15138,
+      "unit": "forks",
+      "source_id": "s-2b5226bf08105545",
+      "observed_at": "2026-11-21T07:31:15+00:00"
+    }
+  ],
+  "gaps": [
+    "连续收入序列和已核验 MRR",
+    "真实访问量及渠道占比",
+    "搜索关键词排名与点击数据",
+    "社媒帖子、互动和渠道转化数据",
+    "独立核对过的竞品比较"
+  ],
+  "warnings": [],
+  "discovered_accounts": [
+    {
+      "url": "https://twitter.com/nerdburn/status/1356857261495214085",
+      "platform": "twitter.com",
+      "label": "@nerdburn · 帖子"
+    },
+    {
+      "url": "https://x.com/adeelibr/status/1981356783818985774",
+      "platform": "x.com",
+      "label": "@adeelibr · 帖子"
+    },
+    {
+      "url": "https://x.com/SteinlageScott/status/1958603243401183701",
+      "platform": "x.com",
+      "label": "@SteinlageScott · 帖子"
+    },
+    {
+      "url": "https://x.com/patrickc/status/1979157875600617913",
+      "platform": "x.com",
+      "label": "@patrickc · 帖子"
+    },
+    {
+      "url": "https://x.com/TyronBache/status/1924425289959928039",
+      "platform": "x.com",
+      "label": "@TyronBache · 帖子"
+    },
+    {
+      "url": "https://x.com/BowTiedQilin/status/1497602628410388480",
+      "platform": "x.com",
+      "label": "@BowTiedQilin · 帖子"
+    },
+    {
+      "url": "https://x.com/shadcn/status/1672913636132790272",
+      "platform": "x.com",
+      "label": "@shadcn · 帖子"
+    },
+    {
+      "url": "https://x.com/MinimEditor/status/1954422981708722372",
+      "platform": "x.com",
+      "label": "@MinimEditor · 帖子"
+    },
+    {
+      "url": "https://x.com/adm_lawson/status/1958216298309066887",
+      "platform": "x.com",
+      "label": "@adm_lawson · 帖子"
+    },
+    {
+      "url": "https://x.com/Aliahsan_sfv/status/1967167095894098210",
+      "platform": "x.com",
+      "label": "@Aliahsan_sfv · 帖子"
+    },
+    {
+      "url": "https://x.com/orlandopedro_/status/1958618806143578336",
+      "platform": "x.com",
+      "label": "@orlandopedro_ · 帖子"
+    },
+    {
+      "url": "https://x.com/gokul_i/status/1958880167889133811",
+      "platform": "x.com",
+      "label": "@gokul_i · 帖子"
+    },
+    {
+      "url": "https://x.com/yatsiv_yuriy/status/1979182362480071162",
+      "platform": "x.com",
+      "label": "@yatsiv_yuriy · 帖子"
+    },
+    {
+      "url": "https://x.com/sdusteric/status/1957703488470921550",
+      "platform": "x.com",
+      "label": "@sdusteric · 帖子"
+    },
+    {
+      "url": "https://x.com/dadooos_/status/1947924753618243663",
+      "platform": "x.com",
+      "label": "@dadooos_ · 帖子"
+    },
+    {
+      "url": "https://twitter.com/supabase",
+      "platform": "twitter.com",
+      "label": "@supabase"
+    },
+    {
+      "url": "https://youtube.com/c/supabase",
+      "platform": "youtube.com",
+      "label": "youtube.com"
+    },
+    {
+      "url": "https://www.tiktok.com/@supabase.com",
+      "platform": "tiktok.com",
+      "label": "tiktok.com"
+    }
+  ],
+  "translations": {
+    "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.": "基于 Postgres 构建可用于生产环境的应用，提供身份认证、即时 API、实时数据、函数、存储和向量嵌入，支持免费起步。",
+    "Developer Update - April 2026": "开发者更新 — 4 月 2026",
+    "Developer Update - August 2026": "开发者更新 — 8 月 2026",
+    "Developer Update - July 2026": "开发者更新 — 7 月 2026",
+    "Developer Update - May 2026": "开发者更新 — 5 月 2026",
+    "Here's everything that happened with Supabase in the last month: ## Custom OAuth/OIDC providers for Supabase Auth Connect any OAuth2 or OpenID Connect identity provider to your Supabase project, including GitHub Enterprise, regional IdPs, and any standards-compliant provider, with PKCE enabled by default. [Blog] ## New tables in": "发布说明摘译：Supabase Auth 支持自定义 OAuth/OIDC 身份提供方，可连接 OAuth2 或 OpenID Connect 服务，包括 GitHub Enterprise 和区域身份提供方，默认启用 PKCE。下一项功能标题不完整。",
+    "Here's everything that happened with Supabase in the last month: ## OpenCode integrates with Supabase OpenCode connects your agent to your Supabase database, Edge Functions, and logs. It configures the MCP setup for you. Read the blog → ## TanStack DB syncs with Supabase `@supabase-labs/tanstack-db` syncs TanStack DB collections": "发布说明摘译：OpenCode 已集成 Supabase，可将智能体连接到数据库、Edge Functions 和日志，并自动配置 MCP。@supabase-labs/tanstack-db 可同步 TanStack DB 集合，后续说明被截断。",
+    "Here’s everything that happened with Supabase in the last month: ## Multigres Operator is now open source The Multigres Kubernetes operator is now open source, with direct pod management, zero-downtime rolling upgrades, pgBackRest PITR backups, and OTel tracing. GitHub | Twitter ## GitHub integration on all plans GitHub integrat": "发布说明摘译：Multigres Kubernetes Operator 开源，支持直接管理 Pod、零停机滚动升级、pgBackRest 时间点恢复备份和 OTel 链路追踪。另提到所有方案的 GitHub 集成，后续说明被截断。",
+    "Here’s everything that happened with Supabase in the last month: ## Supabase Select SF 2026 Supabase Select returns to San Francisco on October 2, a curated day of talks, feature deep dives, and more activations. Tickets are now available by application. Get your ticket → ## Supabase Pipelines is now in public alpha Supabase Pip": "发布说明摘译：Supabase Select SF 2026 将于 10 月 2 日在旧金山举行，包含演讲、功能深度介绍和现场活动，现已开放门票申请。Supabase Pipelines 进入公开 alpha 测试，后续说明被截断。",
+    "Pricing & Fees | Supabase": "Supabase 定价与方案",
+    "Supabase Blog: the Postgres development platform": "Supabase 博客与内容",
+    "Supabase Docs": "Supabase 文档与更新",
+    "Supabase | The Postgres Development Platform": "Supabase 官网",
+    "supabase/supabase": "Supabase 公开代码仓库",
+    "supabase/supabase README": "Supabase 项目说明（README）",
+    "内容页可见文本摘录：Supabase Blog Set up Supabase for every Expo environment in one command Set up a Supabase backend for your Expo app in one EAS CLI command, with a separate database per environment and security findings next to your buil": "内容页摘录（中文）：Supabase 博客介绍如何用一条 EAS CLI 命令为 Expo 应用配置后端，为不同环境建立独立数据库，并在构建流程旁展示安全检查结果；摘录末尾不完整。",
+    "发布 Developer Update - April 2026": "发布 开发者更新 — 4 月 2026",
+    "发布 Developer Update - August 2026": "发布 开发者更新 — 8 月 2026",
+    "发布 Developer Update - July 2026": "发布 开发者更新 — 7 月 2026",
+    "发布 Developer Update - May 2026": "发布 开发者更新 — 5 月 2026",
+    "定价页中的原始片段：assion projects & simple websites. $ 0 / month Start for Free Free projects are paused after 1 week of inact；ions with the power to scale. From $ 25 / month Get Started First project included. Additional from $10/mo. S；project included. Additional from $10/mo. See how pricing scales Everything in the Free Plan, plus: 100,0": "定价页摘录（中文）：免费方案每月 0 美元，适用于个人项目和简单网站；连续 1 周不活跃的免费项目会暂停。付费方案每月 25 美元起，包含首个项目，额外项目每月 10 美元起。功能列表在摘录中被截断。"
+  },
+  "coverage": "website"
+}

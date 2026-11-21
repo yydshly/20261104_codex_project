@@ -1,0 +1,264 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="6120" viewBox="0 0 2400 6120" role="img" aria-labelledby="title desc">
+<title id="title">Growth Casebook 产品研究全景图</title>
+<desc id="desc">完整汇总研究目标、网页与数据入口、处理流程、八章报告、验证结果、价值、当前限制和待验证的扩展方向。</desc>
+<rect width="2400" height="6120" fill="#f4f7f7"/>
+<rect x="0" y="0" width="2400" height="278" rx="0" fill="#142a32" stroke="none" stroke-width="2"/>
+<text x="100" y="40" fill="#9edfc9" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" font-weight="700" dominant-baseline="text-before-edge">GROWTH CASEBOOK  /  产品研究全景</text>
+<text x="100" y="99" fill="#ffffff" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="61" font-weight="700" dominant-baseline="text-before-edge">从公开线索，到可回查的中文产品研究库</text>
+<text x="100" y="202" fill="#d4e2e4" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="30" font-weight="400" dominant-baseline="text-before-edge">固定结构组织证据，让产品定位、公开做法与研究缺口可以被检索、比较和持续更新。</text>
+<rect x="100" y="306" width="209" height="44" rx="22" fill="#e8f4ef" stroke="none" stroke-width="2"/>
+<text x="120" y="313" fill="#166b58" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="700" dominant-baseline="text-before-edge">已实现 / 已观察</text>
+<rect x="380" y="306" width="233" height="44" rx="22" fill="#fff4df" stroke="none" stroke-width="2"/>
+<text x="400" y="313" fill="#95601a" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="700" dominant-baseline="text-before-edge">当前限制 / 待核对</text>
+<rect x="710" y="306" width="233" height="44" rx="22" fill="#edf2fa" stroke="none" stroke-width="2"/>
+<text x="730" y="313" fill="#345f91" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="700" dominant-baseline="text-before-edge">扩展设想 / 待验证</text>
+<text x="1510" y="310" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="400" dominant-baseline="text-before-edge">本机验证快照 · 2026-11-21</text>
+<rect x="100" y="390" width="54" height="54" rx="15" fill="#166b58" stroke="none" stroke-width="2"/>
+<text x="114" y="395" fill="#ffffff" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">1</text>
+<text x="174" y="391" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="38" font-weight="700" dominant-baseline="text-before-edge">我们研究了什么</text>
+<text x="1640" y="400" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">从产品拆解，到免费数据第一版</text>
+<rect x="100" y="474" width="712" height="282" rx="18" fill="#ffffff" stroke="#d6e1e3" stroke-width="2"/>
+<text x="128" y="499" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="33" font-weight="700" dominant-baseline="text-before-edge">研究起点：理解商业研究的结构</text>
+<text x="128" y="561" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">参考把公开收入、获客动作与时间线放进固定报告的</text>
+<text x="128" y="604" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">思路。原始产品未展示的实现细节仍属推测。</text>
+<rect x="844" y="474" width="712" height="282" rx="18" fill="#ffffff" stroke="#d6e1e3" stroke-width="2"/>
+<text x="872" y="499" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="33" font-weight="700" dominant-baseline="text-before-edge">当前目标：先跑通免费研究流程</text>
+<text x="872" y="561" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">验证官网、仓库、目录与社区能提供哪些证据，覆盖</text>
+<text x="872" y="604" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">开源工具和商业产品。</text>
+<text x="872" y="647" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">代表：Plausible、Postiz、n8n、Hollr。</text>
+<rect x="1588" y="474" width="712" height="282" rx="18" fill="#ffffff" stroke="#d6e1e3" stroke-width="2"/>
+<text x="1616" y="499" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="33" font-weight="700" dominant-baseline="text-before-edge">形成能力：自动收集并留下依据</text>
+<text x="1616" y="561" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">发现产品、核对官网、采集资料、整理中文报告，保</text>
+<text x="1616" y="604" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">留原文、引用、缺口、失败原因和历史版本。</text>
+<rect x="100" y="810" width="54" height="54" rx="15" fill="#166b58" stroke="none" stroke-width="2"/>
+<text x="114" y="815" fill="#ffffff" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">2</text>
+<text x="174" y="811" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="38" font-weight="700" dominant-baseline="text-before-edge">哪些入口：使用入口与数据入口要分清</text>
+<text x="1640" y="820" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">产品统一在 8766 内使用</text>
+<rect x="100" y="892" width="610" height="218" rx="18" fill="#e8f4ef" stroke="#d6e1e3" stroke-width="2"/>
+<text x="128" y="917" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="33" font-weight="700" dominant-baseline="text-before-edge">8767 · 研究总库导航</text>
+<text x="128" y="979" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">保留所有研究项目。</text>
+<text x="128" y="1022" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">本项目只保留一个跳转链接。</text>
+<path d="M744 1000 L828 1000" fill="none" stroke="#166b58" stroke-width="4"/>
+<polygon points="828,1000 812.2035138859733,1008.6296596948756 812.2035138859733,991.3703403051244" fill="#166b58"/>
+<rect x="860" y="892" width="1440" height="218" rx="18" fill="#ffffff" stroke="#d6e1e3" stroke-width="2"/>
+<text x="890" y="916" fill="#166b58" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="38" font-weight="700" dominant-baseline="text-before-edge">8766 · 产品研究台（统一使用入口）</text>
+<text x="890" y="987" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="31" font-weight="700" dominant-baseline="text-before-edge">项目总结  /  案例库  /  采集任务  /  自动发现</text>
+<text x="890" y="1046" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">补充入口：新建研究、数据与方法、报告原文与 JSON 下载</text>
+<rect x="100" y="1148" width="2200" height="66" rx="12" fill="#142a32" stroke="none" stroke-width="2"/>
+<text x="124" y="1163" fill="#ffffff" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" font-weight="700" dominant-baseline="text-before-edge">数据入口</text>
+<text x="554" y="1163" fill="#ffffff" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" font-weight="700" dominant-baseline="text-before-edge">发现什么</text>
+<text x="954" y="1163" fill="#ffffff" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" font-weight="700" dominant-baseline="text-before-edge">取得什么</text>
+<text x="1804" y="1163" fill="#ffffff" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" font-weight="700" dominant-baseline="text-before-edge">如何理解边界</text>
+<rect x="100" y="1214" width="2200" height="132" rx="0" fill="#ffffff" stroke="none" stroke-width="2"/>
+<text x="124" y="1233" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" dominant-baseline="text-before-edge">GitHub</text>
+<text x="124" y="1282" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" font-weight="400" dominant-baseline="text-before-edge">api.github.com</text>
+<text x="554" y="1234" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">开源软件、自托管工具</text>
+<text x="954" y="1234" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">简介与官网、Stars/Forks、README、最近四条发布记录</text>
+<text x="1804" y="1234" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">官方公开 API；匿名配额有限，Stars</text>
+<text x="1804" y="1275" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">仅用于初筛</text>
+<rect x="100" y="1346" width="2200" height="132" rx="0" fill="#edf3f3" stroke="none" stroke-width="2"/>
+<text x="124" y="1365" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" dominant-baseline="text-before-edge">BetaList</text>
+<text x="124" y="1414" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" font-weight="400" dominant-baseline="text-before-edge">feeds.feedburner.com/BetaList</text>
+<text x="554" y="1366" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">新上线商业产品</text>
+<text x="954" y="1366" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">产品介绍、公开 Visit 跳转、官网与目录收录日期</text>
+<text x="1804" y="1366" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">公开订阅；每轮最多解析六条，不要求</text>
+<text x="1804" y="1407" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">有仓库</text>
+<rect x="100" y="1478" width="2200" height="132" rx="0" fill="#ffffff" stroke="none" stroke-width="2"/>
+<text x="124" y="1497" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" dominant-baseline="text-before-edge">Show HN</text>
+<text x="124" y="1546" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" font-weight="400" dominant-baseline="text-before-edge">hn.algolia.com/api</text>
+<text x="554" y="1498" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">社区展示的新产品</text>
+<text x="954" y="1498" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">产品链接、公开介绍、帖子日期与社区记录</text>
+<text x="1804" y="1498" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">HN Search 公开 API；提交者与产品方</text>
+<text x="1804" y="1539" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">关系待核对</text>
+<rect x="100" y="1610" width="2200" height="132" rx="0" fill="#edf3f3" stroke="none" stroke-width="2"/>
+<text x="124" y="1629" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" dominant-baseline="text-before-edge">Product Hunt RSS</text>
+<text x="124" y="1678" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" font-weight="400" dominant-baseline="text-before-edge">producthunt.com/feed</text>
+<text x="554" y="1630" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">新发布产品；开源非必需</text>
+<text x="954" y="1630" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">名称、简介、发布日期、原始产品记录，再自动查找官网</text>
+<text x="1804" y="1630" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">免登录订阅；网页跳转可能仍有 403，</text>
+<text x="1804" y="1671" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">未知时保留简报</text>
+<rect x="100" y="1742" width="2200" height="132" rx="0" fill="#ffffff" stroke="none" stroke-width="2"/>
+<text x="124" y="1761" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" dominant-baseline="text-before-edge">手动提交</text>
+<text x="124" y="1810" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" font-weight="400" dominant-baseline="text-before-edge">8766 → 新建研究</text>
+<text x="554" y="1762" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">自己指定的产品</text>
+<text x="954" y="1762" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">提交产品官网或公开 GitHub 仓库，进入同一采集流水线</text>
+<text x="1804" y="1762" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">只采集可访问的公网资料；相同官网或</text>
+<text x="1804" y="1803" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">仓库去重</text>
+<rect x="100" y="1900" width="2200" height="175" rx="18" fill="#e8f4ef" stroke="none" stroke-width="2"/>
+<text x="128" y="1923" fill="#166b58" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="30" font-weight="700" dominant-baseline="text-before-edge">官网匹配辅助：PH 公开跳转 · Hunted.Space · Apple 官方应用搜索（美国区）· HN 链接</text>
+<text x="128" y="1981" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">核对名称、功能与同一产品回链；排除同名误匹配。多个候选冲突或证据不足时保持简报，等待后续核对。</text>
+<rect x="100" y="2130" width="54" height="54" rx="15" fill="#166b58" stroke="none" stroke-width="2"/>
+<text x="114" y="2135" fill="#ffffff" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">3</text>
+<text x="174" y="2131" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="38" font-weight="700" dominant-baseline="text-before-edge">资料如何变成报告</text>
+<text x="1640" y="2140" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">自动发现 → 证据整理 → 展示</text>
+<rect x="100" y="2210" width="514" height="190" rx="18" fill="#ffffff" stroke="#d6e1e3" stroke-width="2"/>
+<text x="128" y="2235" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="33" font-weight="700" dominant-baseline="text-before-edge">01 发现产品</text>
+<text x="128" y="2297" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">订阅、目录、社区或手动输入</text>
+<path d="M623 2296 L651 2296" fill="none" stroke="#166b58" stroke-width="4"/>
+<polygon points="651,2296 635.2035138859733,2304.6296596948755 635.2035138859733,2287.3703403051245" fill="#166b58"/>
+<rect x="662" y="2210" width="514" height="190" rx="18" fill="#ffffff" stroke="#d6e1e3" stroke-width="2"/>
+<text x="690" y="2235" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="33" font-weight="700" dominant-baseline="text-before-edge">02 保存候选与去重</text>
+<text x="690" y="2297" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">官网 / 仓库身份；保留各来源</text>
+<path d="M1185 2296 L1213 2296" fill="none" stroke="#166b58" stroke-width="4"/>
+<polygon points="1213,2296 1197.2035138859733,2304.6296596948755 1197.2035138859733,2287.3703403051245" fill="#166b58"/>
+<rect x="1224" y="2210" width="514" height="190" rx="18" fill="#ffffff" stroke="#d6e1e3" stroke-width="2"/>
+<text x="1252" y="2235" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="33" font-weight="700" dominant-baseline="text-before-edge">03 核对产品官网</text>
+<text x="1252" y="2297" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">名称 + 功能 + 产品关联回链</text>
+<path d="M1747 2296 L1775 2296" fill="none" stroke="#166b58" stroke-width="4"/>
+<polygon points="1775,2296 1759.2035138859733,2304.6296596948755 1759.2035138859733,2287.3703403051245" fill="#166b58"/>
+<rect x="1786" y="2210" width="514" height="190" rx="18" fill="#ffffff" stroke="#d6e1e3" stroke-width="2"/>
+<text x="1814" y="2235" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="33" font-weight="700" dominant-baseline="text-before-edge">04 免费采集</text>
+<text x="1814" y="2297" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">首页、定价、内容、文档；有仓库再</text>
+<text x="1814" y="2338" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">补充</text>
+<rect x="100" y="2586" width="514" height="190" rx="18" fill="#ffffff" stroke="#d6e1e3" stroke-width="2"/>
+<text x="128" y="2611" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="33" font-weight="700" dominant-baseline="text-before-edge">05 整理事实与动作</text>
+<text x="128" y="2673" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">来源引用、日期、指标与缺失项</text>
+<path d="M623 2672 L651 2672" fill="none" stroke="#166b58" stroke-width="4"/>
+<polygon points="651,2672 635.2035138859733,2680.6296596948755 635.2035138859733,2663.3703403051245" fill="#166b58"/>
+<rect x="662" y="2586" width="514" height="190" rx="18" fill="#ffffff" stroke="#d6e1e3" stroke-width="2"/>
+<text x="690" y="2611" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="33" font-weight="700" dominant-baseline="text-before-edge">06 生成中文内容</text>
+<text x="690" y="2673" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">固定规则 + 本地翻译，原文可回查</text>
+<path d="M1185 2672 L1213 2672" fill="none" stroke="#166b58" stroke-width="4"/>
+<polygon points="1213,2672 1197.2035138859733,2680.6296596948755 1197.2035138859733,2663.3703403051245" fill="#166b58"/>
+<rect x="1224" y="2586" width="514" height="190" rx="18" fill="#ffffff" stroke="#d6e1e3" stroke-width="2"/>
+<text x="1252" y="2611" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="33" font-weight="700" dominant-baseline="text-before-edge">07 保存快照与版本</text>
+<text x="1252" y="2673" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">SQLite、后台任务租约、原子发布</text>
+<path d="M1747 2672 L1775 2672" fill="none" stroke="#166b58" stroke-width="4"/>
+<polygon points="1775,2672 1759.2035138859733,2680.6296596948755 1759.2035138859733,2663.3703403051245" fill="#166b58"/>
+<rect x="1786" y="2586" width="514" height="190" rx="18" fill="#ffffff" stroke="#d6e1e3" stroke-width="2"/>
+<text x="1814" y="2611" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="33" font-weight="700" dominant-baseline="text-before-edge">08 网页展示与检索</text>
+<text x="1814" y="2673" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">筛选、阅读、更新、历史版本、JSON</text>
+<rect x="100" y="2412" width="1076" height="142" rx="18" fill="#e8f4ef" stroke="none" stroke-width="2"/>
+<text x="128" y="2433" fill="#166b58" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" dominant-baseline="text-before-edge">官网已核对 → 采集公开正文，发布官网资料版</text>
+<text x="128" y="2487" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="400" dominant-baseline="text-before-edge">单站通常最多四页；可选仓库、README、近四次发布。</text>
+<rect x="1208" y="2412" width="1092" height="142" rx="18" fill="#fff4df" stroke="none" stroke-width="2"/>
+<text x="1236" y="2433" fill="#95601a" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" dominant-baseline="text-before-edge">官网未确认 → 中文简报 → 24 小时后自动重试</text>
+<text x="1236" y="2487" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="400" dominant-baseline="text-before-edge">保留原产品记录、失败原因和已取得的资料。</text>
+<text x="100" y="2803" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">运行条件：每 24 小时发现一批、每批 5 个；本地服务持续运行。采集遵循 robots.txt、接口配额、超时与体积限制。</text>
+<rect x="100" y="2910" width="54" height="54" rx="15" fill="#166b58" stroke="none" stroke-width="2"/>
+<text x="114" y="2915" fill="#ffffff" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">4</text>
+<text x="174" y="2911" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="38" font-weight="700" dominant-baseline="text-before-edge">报告输出什么</text>
+<text x="1640" y="2920" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">八个固定章节 + 可回查的来源</text>
+<rect x="100" y="2991" width="514" height="148" rx="18" fill="#ffffff" stroke="#d6e1e3" stroke-width="2"/>
+<text x="128" y="3016" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="33" font-weight="700" dominant-baseline="text-before-edge">01  产品概览</text>
+<text x="128" y="3078" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400" dominant-baseline="text-before-edge">面向谁、解决什么问题</text>
+<rect x="662" y="2991" width="514" height="148" rx="18" fill="#ffffff" stroke="#d6e1e3" stroke-width="2"/>
+<text x="690" y="3016" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="33" font-weight="700" dominant-baseline="text-before-edge">02  生意与定价</text>
+<text x="690" y="3078" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400" dominant-baseline="text-before-edge">公开套餐与价格片段</text>
+<rect x="1224" y="2991" width="514" height="148" rx="18" fill="#ffffff" stroke="#d6e1e3" stroke-width="2"/>
+<text x="1252" y="3016" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="33" font-weight="700" dominant-baseline="text-before-edge">03  获客入口</text>
+<text x="1252" y="3078" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400" dominant-baseline="text-before-edge">内容、试用、文档与生态</text>
+<rect x="1786" y="2991" width="514" height="148" rx="18" fill="#ffffff" stroke="#d6e1e3" stroke-width="2"/>
+<text x="1814" y="3016" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="33" font-weight="700" dominant-baseline="text-before-edge">04  公开动作拆解</text>
+<text x="1814" y="3078" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400" dominant-baseline="text-before-edge">动作与引用逐条关联</text>
+<rect x="100" y="3145" width="514" height="148" rx="18" fill="#ffffff" stroke="#d6e1e3" stroke-width="2"/>
+<text x="128" y="3170" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="33" font-weight="700" dominant-baseline="text-before-edge">05  社媒与社区</text>
+<text x="128" y="3232" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400" dominant-baseline="text-before-edge">官网账号链接与发布记录</text>
+<rect x="662" y="3145" width="514" height="148" rx="18" fill="#ffffff" stroke="#d6e1e3" stroke-width="2"/>
+<text x="690" y="3170" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="33" font-weight="700" dominant-baseline="text-before-edge">06  事件时间线</text>
+<text x="690" y="3232" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400" dominant-baseline="text-before-edge">仅用来源明确给出的日期</text>
+<rect x="1224" y="3145" width="514" height="148" rx="18" fill="#ffffff" stroke="#d6e1e3" stroke-width="2"/>
+<text x="1252" y="3170" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="33" font-weight="700" dominant-baseline="text-before-edge">07  竞品研究线索</text>
+<text x="1252" y="3232" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400" dominant-baseline="text-before-edge">比较方向；深度拆解待补</text>
+<rect x="1786" y="3145" width="514" height="148" rx="18" fill="#ffffff" stroke="#d6e1e3" stroke-width="2"/>
+<text x="1814" y="3170" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="33" font-weight="700" dominant-baseline="text-before-edge">08  来源与数据缺口</text>
+<text x="1814" y="3232" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400" dominant-baseline="text-before-edge">原文快照、失败原因与未知项</text>
+<text x="100" y="3328" fill="#166b58" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" dominant-baseline="text-before-edge">使用能力：中文阅读与原文对照  ·  来源引用  ·  案例搜索  ·  版本回查  ·  更新研究  ·  JSON 导出</text>
+<rect x="100" y="3434" width="54" height="54" rx="15" fill="#166b58" stroke="none" stroke-width="2"/>
+<text x="114" y="3439" fill="#ffffff" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">5</text>
+<text x="174" y="3435" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="38" font-weight="700" dominant-baseline="text-before-edge">实际做到什么程度</text>
+<text x="1640" y="3444" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">以下是本机记录，非商业成效指标</text>
+<rect x="100" y="3515" width="416" height="154" rx="18" fill="#ffffff" stroke="#d6e1e3" stroke-width="2"/>
+<text x="125" y="3534" fill="#166b58" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="61" font-weight="700" dominant-baseline="text-before-edge">32</text>
+<text x="125" y="3619" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="400" dominant-baseline="text-before-edge">可见产品</text>
+<rect x="546" y="3515" width="416" height="154" rx="18" fill="#ffffff" stroke="#d6e1e3" stroke-width="2"/>
+<text x="571" y="3534" fill="#166b58" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="61" font-weight="700" dominant-baseline="text-before-edge">222</text>
+<text x="571" y="3619" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="400" dominant-baseline="text-before-edge">公开来源记录</text>
+<rect x="992" y="3515" width="416" height="154" rx="18" fill="#ffffff" stroke="#d6e1e3" stroke-width="2"/>
+<text x="1017" y="3534" fill="#166b58" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="61" font-weight="700" dominant-baseline="text-before-edge">202</text>
+<text x="1017" y="3619" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="400" dominant-baseline="text-before-edge">公开入口与动作</text>
+<rect x="1438" y="3515" width="416" height="154" rx="18" fill="#ffffff" stroke="#d6e1e3" stroke-width="2"/>
+<text x="1463" y="3534" fill="#166b58" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="61" font-weight="700" dominant-baseline="text-before-edge">14</text>
+<text x="1463" y="3619" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="400" dominant-baseline="text-before-edge">自动发现已发布</text>
+<rect x="1884" y="3515" width="416" height="154" rx="18" fill="#ffffff" stroke="#d6e1e3" stroke-width="2"/>
+<text x="1909" y="3534" fill="#166b58" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="61" font-weight="700" dominant-baseline="text-before-edge">97</text>
+<text x="1909" y="3619" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="400" dominant-baseline="text-before-edge">待处理候选</text>
+<rect x="100" y="3697" width="245" height="44" rx="22" fill="#e8f4ef" stroke="none" stroke-width="2"/>
+<text x="120" y="3704" fill="#166b58" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="700" dominant-baseline="text-before-edge">29 个取得官网正文</text>
+<rect x="520" y="3697" width="206" height="44" rx="22" fill="#edf2fa" stroke="none" stroke-width="2"/>
+<text x="540" y="3704" fill="#345f91" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="700" dominant-baseline="text-before-edge">1 个以仓库为主</text>
+<rect x="880" y="3697" width="230" height="44" rx="22" fill="#fff4df" stroke="none" stroke-width="2"/>
+<text x="900" y="3704" fill="#95601a" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="700" dominant-baseline="text-before-edge">2 个保留发布简报</text>
+<text x="100" y="3764" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="400" dominant-baseline="text-before-edge">统计口径：按各产品最新报告汇总；来源记录并非去重网站数，入口与动作数量不等于获客效果。</text>
+<rect x="100" y="3836" width="2200" height="220" rx="18" fill="#ffffff" stroke="#d6e1e3" stroke-width="2"/>
+<text x="128" y="3859" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="33" font-weight="700" dominant-baseline="text-before-edge">Product Hunt 首批验证：读取 50 个产品，处理 5 个，其中 3 个自动补齐官网</text>
+<text x="128" y="3923" fill="#166b58" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" dominant-baseline="text-before-edge">已补齐：Alter Contacts · Hollr · Beat Watcher    /    保留简报：Prompt Puncher · Backspin</text>
+<text x="128" y="3985" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="400" dominant-baseline="text-before-edge">32 项流程测试通过，并验证真实网页、匹配依据与旧版简报。3/5 仅代表这批样本，不代表整体成功率。</text>
+<rect x="100" y="4110" width="54" height="54" rx="15" fill="#166b58" stroke="none" stroke-width="2"/>
+<text x="114" y="4115" fill="#ffffff" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">6</text>
+<text x="174" y="4111" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="38" font-weight="700" dominant-baseline="text-before-edge">价值是什么，边界在哪里</text>
+<text x="1640" y="4120" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">能运行的流程，与待验证的收益分开</text>
+<rect x="100" y="4192" width="1076" height="728" rx="18" fill="#e8f4ef" stroke="none" stroke-width="2"/>
+<text x="132" y="4218" fill="#166b58" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="36" font-weight="700" dominant-baseline="text-before-edge">价值主张</text>
+<text x="132" y="4300" fill="#166b58" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="30" font-weight="700" dominant-baseline="text-before-edge">减少重复查找</text>
+<text x="132" y="4350" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">把零散信息放到同一套结构，帮助更快理解产品定位、定价和公开做法。</text>
+<text x="132" y="4445" fill="#166b58" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="30" font-weight="700" dominant-baseline="text-before-edge">支持案例比较</text>
+<text x="132" y="4495" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">按相同章节研究内容、试用、文档、社区和开发者生态，形成可借鉴的线索。</text>
+<text x="132" y="4590" fill="#166b58" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="30" font-weight="700" dominant-baseline="text-before-edge">保存研究依据</text>
+<text x="132" y="4640" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">保留来源、匹配过程、时间与历史版本，方便核对、复盘和继续开发。</text>
+<text x="132" y="4735" fill="#166b58" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="30" font-weight="700" dominant-baseline="text-before-edge">复用整条流程</text>
+<text x="132" y="4785" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">来源适配、身份核对、采集、报告和展示可以逐段改进，为进一步分析提供基础。</text>
+<rect x="1208" y="4192" width="1092" height="728" rx="18" fill="#fff4df" stroke="none" stroke-width="2"/>
+<text x="1240" y="4218" fill="#95601a" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="36" font-weight="700" dominant-baseline="text-before-edge">当前限制</text>
+<text x="1240" y="4300" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">• 数据缺口：收入与 MRR、真实流量、SEO 排名、渠道转化、完整社媒帖子。</text>
+<text x="1240" y="4398" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">• 结论边界：公开展示与时间对齐可形成线索，无法据此证明动作带来客户或收入。</text>
+<text x="1240" y="4496" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">• 来源边界：403、robots、接口配额、证书、动态页面与 2 MB 上限影响覆盖。</text>
+<text x="1240" y="4594" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">• 质量边界：同名核对与本地翻译仍可能出错，价格语境和术语需要结合原文检查。</text>
+<text x="1240" y="4692" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">• 分析边界：固定规则整理；竞品章节仍是研究线索，深度商业分析待补。</text>
+<text x="1240" y="4790" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">• 运行边界：本机单人使用；停服务即暂停，MCP、个性化实验与多用户尚未实现。</text>
+<rect x="100" y="4980" width="54" height="54" rx="15" fill="#345f91" stroke="none" stroke-width="2"/>
+<text x="114" y="4985" fill="#ffffff" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">7</text>
+<text x="174" y="4981" fill="#142a32" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="38" font-weight="700" dominant-baseline="text-before-edge">可扩展方向：从资料库走向研究与行动</text>
+<text x="1640" y="4990" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">以下均为待设计 / 待验证</text>
+<rect x="100" y="5062" width="712" height="672" rx="18" fill="#edf2fa" stroke="none" stroke-width="2"/>
+<text x="128" y="5088" fill="#345f91" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">A 先提高证据覆盖与质量</text>
+<text x="128" y="5158" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">• 更多免费目录、内容与文档来源；保留来源授权和访</text>
+<text x="128" y="5200" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">问规则。</text>
+<text x="128" y="5262" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">• 增强官网实体匹配，加入人工核对队列与证据冲突处</text>
+<text x="128" y="5304" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">理。</text>
+<text x="128" y="5366" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">• 结构化定价、术语校对、失效链接检查和资料新鲜度</text>
+<text x="128" y="5408" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">提醒。</text>
+<text x="128" y="5470" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">• 建立人工标注样本，评估匹配准确性、漏采率、翻译</text>
+<text x="128" y="5512" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">与引用质量。</text>
+<path d="M128 5620 L784 5620" fill="none" stroke="#c6d5e6" stroke-width="2"/>
+<text x="128" y="5642" fill="#345f91" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="700" dominant-baseline="text-before-edge">验证：减少误关联，资料更完整、更容易核对。</text>
+<rect x="844" y="5062" width="712" height="672" rx="18" fill="#edf2fa" stroke="none" stroke-width="2"/>
+<text x="872" y="5088" fill="#345f91" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">B 再让资料支持研究与行动</text>
+<text x="872" y="5158" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">• 语义检索、相似产品推荐、按目标客户和购买方式生</text>
+<text x="872" y="5200" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">成对照表。</text>
+<text x="872" y="5262" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">• MCP 可先提供 search_projects / get_report 两个工</text>
+<text x="872" y="5304" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">具。</text>
+<text x="872" y="5366" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">• 结合自身产品背景，生成小实验卡片、执行清单与反</text>
+<text x="872" y="5408" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">馈记录。</text>
+<text x="872" y="5470" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">• 在取得收入时间序列后对齐公开事件，明确区分相关</text>
+<text x="872" y="5512" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">与因果。</text>
+<path d="M872 5620 L1528 5620" fill="none" stroke="#c6d5e6" stroke-width="2"/>
+<text x="872" y="5642" fill="#345f91" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="700" dominant-baseline="text-before-edge">验证：同任务对照，能否节省时间、改善决策与实验执行。</text>
+<rect x="1588" y="5062" width="712" height="672" rx="18" fill="#edf2fa" stroke="none" stroke-width="2"/>
+<text x="1616" y="5088" fill="#345f91" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">C 按需补数据与交付能力</text>
+<text x="1616" y="5158" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">• 授权收入导入与 MRR 序列；需要数据方许可及清晰</text>
+<text x="1616" y="5200" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">的指标口径。</text>
+<text x="1616" y="5262" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">• 补充流量、SEO、社媒与转化数据，记录成本、时效</text>
+<text x="1616" y="5304" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">和覆盖范围。</text>
+<text x="1616" y="5366" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">• 部署常驻服务，完善用户权限、任务预算、缓存与运</text>
+<text x="1616" y="5408" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">行监控。</text>
+<text x="1616" y="5470" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">• 通过真实用户验证使用频率、价值与付费意愿，再决</text>
+<text x="1616" y="5512" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">定商业化。</text>
+<path d="M1616 5620 L2272 5620" fill="none" stroke="#c6d5e6" stroke-width="2"/>
+<text x="1616" y="5642" fill="#345f91" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="700" dominant-baseline="text-before-edge">验证：可持续运行、数据合规与实际用户收益。</text>
+<rect x="100" y="5784" width="2200" height="150" rx="18" fill="#142a32" stroke="none" stroke-width="2"/>
+<text x="130" y="5805" fill="#ffffff" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">继续开发的判断顺序：证据质量 → 研究效率 → 行动反馈 → 用户与商业验证</text>
+<text x="130" y="5869" fill="#cfdee1" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="400" dominant-baseline="text-before-edge">已验证：发现、采集、中文报告与展示可运行。待验证：实际节省多少时间、是否改善决策、是否有人愿意付费。</text>
+<text x="100" y="5972" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400" dominant-baseline="text-before-edge">实现基础：HTML / CSS / JS · FastAPI · SQLite · Worker · 本地翻译（可选 Ollama 润色摘要）</text>
+<text x="100" y="6020" fill="#596e75" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">图中数据为固定快照。依据：本轮实现、项目回顾文档、8766 当前 API 与已完成的流程验证。</text>
+</svg>

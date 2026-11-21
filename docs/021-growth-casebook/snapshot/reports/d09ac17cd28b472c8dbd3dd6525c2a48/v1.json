@@ -1,0 +1,695 @@
+{
+  "schema_version": "1.0",
+  "project_id": "d09ac17cd28b472c8dbd3dd6525c2a48",
+  "version": 1,
+  "generated_at": "2026-11-21T08:52:16+00:00",
+  "mode": "evidence",
+  "summary": "围绕 ToolJet 核对了 9 份公开资料，整理出 9 条入口与动作。可继续研究的方向包括产品发布、产品试用、开发者生态。",
+  "summary_source_ids": [],
+  "translations": {
+    "## What's Changed * Authorize resource export by @shah21 in https://github.com/ToolJet/ToolJet/pull/18273 * Fix: require a live session to list workspaces by @rudeUltra in https://github.com/ToolJet/ToolJet/pull/18306 * Fix: patch adm-zip DoS vulnerability in plugins by @rudeUltra in https://github.com/ToolJet/ToolJet/pull/18042": "@shah21在https://github.com/ToolJet/ToolJet/pul/18273中更改了资源输出授权 菲克斯:需要一次现场会话来列出工作空间 由@rudeUltra在https://github.com/ToolJet/ToolJet/pul/18306中进行 菲克斯: @rudeUltra在 https://github.com/ToolJet/ToolJet/pul/18042 的插件中的补丁adm-zip DoS脆弱性",
+    "## What's Changed * Auto-start trial for new users by @Siddharthpl in https://github.com/ToolJet/ToolJet/pull/18828 * Fix: Keep manually enabled Public Apps after plan renewal by @Siddharthpl in https://github.com/ToolJet/ToolJet/pull/18935 * Feature: Land new users on the home page prompt after onboarding by @shah21 in https://": "@Siddharthpl在https://github.com/ToolJet/ToolJet/pull/18828中修改了新用户的自动启动试验 菲克斯:在计划续订后,由@Siddharthpl手动保留公共应用程序https://github.com/ToolJet/ToolJet/pull/18935 地物:登机后在主页上由@shah21在https://",
+    "README 内容摘录：ToolJet is an open-source platform for building internal tools: admin panels, dashboards, and operational apps that run on your existing databases, APIs, and SaaS systems. Build them by prompting. ToolJet AI turns a description in": "README 内容摘录：ToolJet是一个用于构建内部工具的开源平台:管理面板,仪表板,以及运行在您现有数据库,API,和SaaS系统中的操作应用程序. 通过提示来构建它们.ToolJet AI 将描述转换为",
+    "ToolJet Pricing | Compare Cloud and Self-Hosted Plans": "ToolJet Pricing \\\\\\ 比较云和自居计划",
+    "ToolJet is the open-source, AI-native low-code platform for internal tools. Build with AI, Visual Builder or React Builder, on ToolJet Cloud or self-hosted.": "ToolJet 是面向内部工具的开源 AI 低代码平台，支持通过 AI、可视化构建器或 React 构建器开发，提供云服务和自托管部署。",
+    "ToolJet | AI App Builder for Internal Tools": "ToolJet QQAI 内部工具的 App 构建器",
+    "ToolJet/ToolJet README": "工具Jet/工具Jet 读取"
+  },
+  "sources": [
+    {
+      "id": "s-24b4e4dd2004faf3",
+      "kind": "website",
+      "title": "ToolJet | AI App Builder for Internal Tools",
+      "url": "https://tooljet.com/",
+      "collected_at": "2026-11-21T08:52:14+00:00",
+      "published_at": null,
+      "text": "Pause logo animation\n“\nImplementing ToolJet has been a massive accelerator for our internal operations. It allows us to rapidly build, deploy, and standardize mission-critical internal data apps and CRUD applications at a fraction of traditional development time.\n”\nZak\nTechnical ",
+      "links": [
+        {
+          "url": "https://tooljet.com/",
+          "text": "Skip to content"
+        },
+        {
+          "url": "https://tooljet.com/ai-app-builder",
+          "text": "App Builder"
+        },
+        {
+          "url": "https://tooljet.com/react-builder",
+          "text": "React Builder"
+        },
+        {
+          "url": "https://tooljet.com/integrations",
+          "text": "Integrations"
+        },
+        {
+          "url": "https://tooljet.com/database",
+          "text": "ToolJet Database"
+        },
+        {
+          "url": "https://tooljet.com/ai-agent-builder",
+          "text": "AI Agents"
+        },
+        {
+          "url": "https://tooljet.com/feature/built-in-security",
+          "text": "Built-in security"
+        },
+        {
+          "url": "https://tooljet.com/feature/enterprise-grade-access-management",
+          "text": "Authentication & authorization"
+        },
+        {
+          "url": "https://tooljet.com/feature/app-development-lifecycle",
+          "text": "Development lifecycle"
+        },
+        {
+          "url": "https://tooljet.com/self-hosted",
+          "text": "Self-hosting"
+        },
+        {
+          "url": "https://tooljet.com/mcp",
+          "text": "ToolJet MCP"
+        },
+        {
+          "url": "https://tooljet.com/schedule-demo",
+          "text": "Book a Demo"
+        },
+        {
+          "url": "https://tooljet.com/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://tooljet.com/about",
+          "text": "About Us"
+        },
+        {
+          "url": "https://wellfound.com/company/tooljet/jobs",
+          "text": "Careers"
+        },
+        {
+          "url": "https://tooljet.com/events",
+          "text": "Events"
+        },
+        {
+          "url": "https://tooljet.com/partners",
+          "text": "Partners"
+        },
+        {
+          "url": "https://tooljet.com/security",
+          "text": "Compliance"
+        },
+        {
+          "url": "https://tooljet.com/professional-service",
+          "text": "Professional service"
+        },
+        {
+          "url": "https://tooljet.com/documents/Strategy-to-Success.pdf",
+          "text": "Download e-book"
+        },
+        {
+          "url": "https://tooljet.com/documents/AI-Ebook.pdf",
+          "text": "Download e-book"
+        },
+        {
+          "url": "https://docs.tooljet.com/docs/",
+          "text": "Documentation"
+        },
+        {
+          "url": "https://tooljet.com/case-study",
+          "text": "Case Studies"
+        },
+        {
+          "url": "https://blog.tooljet.com/",
+          "text": "Blogs"
+        },
+        {
+          "url": "https://join.slack.com/t/tooljet/shared_invite/zt-41s1okcdw-Ck2MBsJbIRRcMZ5T7zm9tQ",
+          "text": "Slack Community"
+        },
+        {
+          "url": "https://trust.tooljet.com/",
+          "text": "Trust Center"
+        },
+        {
+          "url": "https://blog.tooljet.com/forrester-wave-on-low-code-development-platforms/",
+          "text": "Forrester Wave on Low-Code Development Platforms"
+        },
+        {
+          "url": "https://blog.tooljet.com/top-ai-app-builder/",
+          "text": "Top 10 AI App Builders in 2026"
+        },
+        {
+          "url": "https://blog.tooljet.com/introducing-ai-native-development/",
+          "text": "Introducing AI-Native Development"
+        },
+        {
+          "url": "https://app.tooljet.ai/",
+          "text": "Login"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-2b2662db472fc49c",
+      "kind": "pricing",
+      "title": "ToolJet Pricing | Compare Cloud and Self-Hosted Plans",
+      "url": "https://tooljet.com/pricing",
+      "collected_at": "2026-11-21T08:52:14+00:00",
+      "published_at": null,
+      "text": "Cloud plans\nMonthly\nAnnual\nSave 20%\nCompare plans\nFree\n$0\nper builder / month\nGet Started\nBasic\n$23\nper builder / month\nStart free trial\nPro\n$79\nper builder / month\nStart free trial\nTeam\nMost popular\n$199\nper builder / month\nStart free trial\nEnterprise\nCustom\nSchedule a Call\n$0\np",
+      "links": [
+        {
+          "url": "https://tooljet.com/pricing",
+          "text": "Skip to content"
+        },
+        {
+          "url": "https://tooljet.com/",
+          "text": ""
+        },
+        {
+          "url": "https://tooljet.com/ai-app-builder",
+          "text": "App Builder"
+        },
+        {
+          "url": "https://tooljet.com/react-builder",
+          "text": "React Builder"
+        },
+        {
+          "url": "https://tooljet.com/integrations",
+          "text": "Integrations"
+        },
+        {
+          "url": "https://tooljet.com/database",
+          "text": "ToolJet Database"
+        },
+        {
+          "url": "https://tooljet.com/ai-agent-builder",
+          "text": "AI Agents"
+        },
+        {
+          "url": "https://tooljet.com/feature/built-in-security",
+          "text": "Built-in security"
+        },
+        {
+          "url": "https://tooljet.com/feature/enterprise-grade-access-management",
+          "text": "Authentication & authorization"
+        },
+        {
+          "url": "https://tooljet.com/feature/app-development-lifecycle",
+          "text": "Development lifecycle"
+        },
+        {
+          "url": "https://tooljet.com/self-hosted",
+          "text": "Self-hosting"
+        },
+        {
+          "url": "https://tooljet.com/mcp",
+          "text": "ToolJet MCP"
+        },
+        {
+          "url": "https://tooljet.com/schedule-demo",
+          "text": "Book a Demo"
+        },
+        {
+          "url": "https://tooljet.com/about",
+          "text": "About Us"
+        },
+        {
+          "url": "https://wellfound.com/company/tooljet/jobs",
+          "text": "Careers"
+        },
+        {
+          "url": "https://tooljet.com/events",
+          "text": "Events"
+        },
+        {
+          "url": "https://tooljet.com/partners",
+          "text": "Partners"
+        },
+        {
+          "url": "https://tooljet.com/security",
+          "text": "Compliance"
+        },
+        {
+          "url": "https://tooljet.com/professional-service",
+          "text": "Professional service"
+        },
+        {
+          "url": "https://tooljet.com/documents/Strategy-to-Success.pdf",
+          "text": "Download e-book"
+        },
+        {
+          "url": "https://tooljet.com/documents/AI-Ebook.pdf",
+          "text": "Download e-book"
+        },
+        {
+          "url": "https://docs.tooljet.com/docs/",
+          "text": "Documentation"
+        },
+        {
+          "url": "https://tooljet.com/case-study",
+          "text": "Case Studies"
+        },
+        {
+          "url": "https://blog.tooljet.com/",
+          "text": "Blogs"
+        },
+        {
+          "url": "https://join.slack.com/t/tooljet/shared_invite/zt-41s1okcdw-Ck2MBsJbIRRcMZ5T7zm9tQ",
+          "text": "Slack Community"
+        },
+        {
+          "url": "https://trust.tooljet.com/",
+          "text": "Trust Center"
+        },
+        {
+          "url": "https://blog.tooljet.com/forrester-wave-on-low-code-development-platforms/",
+          "text": "Forrester Wave on Low-Code Development Platforms"
+        },
+        {
+          "url": "https://blog.tooljet.com/top-ai-app-builder/",
+          "text": "Top 10 AI App Builders in 2026"
+        },
+        {
+          "url": "https://blog.tooljet.com/introducing-ai-native-development/",
+          "text": "Introducing AI-Native Development"
+        },
+        {
+          "url": "https://app.tooljet.ai/",
+          "text": "Login"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-067f046a6a82cf3a",
+      "kind": "repository",
+      "title": "ToolJet/ToolJet",
+      "url": "https://github.com/ToolJet/ToolJet",
+      "collected_at": "2026-11-21T08:52:15+00:00",
+      "published_at": null,
+      "text": "{\"full_name\": \"ToolJet/ToolJet\", \"stargazers_count\": 41270, \"forks_count\": 5516, \"open_issues_count\": 975, \"language\": \"HTML\", \"license\": {\"key\": \"agpl-3.0\", \"name\": \"GNU Affero General Public License v3.0\", \"spdx_id\": \"AGPL-3.0\", \"url\": \"https://api.github.com/licenses/agpl-3.0\"",
+      "links": [],
+      "metadata": {
+        "full_name": "ToolJet/ToolJet",
+        "stargazers_count": 41270,
+        "forks_count": 5516,
+        "open_issues_count": 975,
+        "language": "HTML",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "created_at": "2021-03-30T08:51:34Z",
+        "pushed_at": "2026-11-20T23:10:15Z",
+        "topics": [
+          "ai-app-builder",
+          "docker",
+          "internal-applications",
+          "internal-project",
+          "internal-tool",
+          "internal-tools",
+          "javascript",
+          "kubernetes",
+          "low-code",
+          "low-code-development-platform",
+          "low-code-framework",
+          "no-code",
+          "nodejs",
+          "reactjs",
+          "self-hosted",
+          "typescript",
+          "web-development-tools",
+          "workflow-automation"
+        ],
+        "description": "Open-source foundation of ToolJet AI - the enterprise app generation platform for internal tools, dashboards, business applications, workflows and AI agents. Build visually, from a prompt, or from Claude Code, Codex and Cursor over MCP 🚀",
+        "homepage": "https://tooljet.com",
+        "archived": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-8ae205abff693fb0",
+      "kind": "readme",
+      "title": "ToolJet/ToolJet README",
+      "url": "https://github.com/ToolJet/ToolJet/blob/main/README.md",
+      "collected_at": "2026-11-21T08:52:16+00:00",
+      "published_at": null,
+      "text": "ToolJet is an open-source platform for building internal tools: admin panels, dashboards, and operational apps that run on your existing databases, APIs, and SaaS systems.\n\nBuild them by prompting. ToolJet AI turns a description into pages, queries, and components, and the coding",
+      "links": [],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-d33380fd1b95d02a",
+      "kind": "release",
+      "title": "v3.21.96-lts",
+      "url": "https://github.com/ToolJet/ToolJet/releases/tag/v3.21.96-lts",
+      "collected_at": "2026-11-21T08:52:16+00:00",
+      "published_at": "2026-11-13T07:47:16Z",
+      "text": "## 🚀 Features\r\n- Added pagination events for next and previous page actions by @manishkushare in [#15595](https://github.com/ToolJet/ToolJet/pull/15595)\r\n- Allowed admins to revoke any personal access token in the workspace by @RndmCodeGuy20 in [#18420](https://github.com/ToolJet",
+      "links": [],
+      "metadata": {
+        "tag": "v3.21.96-lts",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-14382a42d5916b84",
+      "kind": "release",
+      "title": "v3.21.95-beta",
+      "url": "https://github.com/ToolJet/ToolJet/releases/tag/v3.21.95-beta",
+      "collected_at": "2026-11-21T08:52:16+00:00",
+      "published_at": "2026-11-12T02:23:43Z",
+      "text": "## What's Changed\r\n* [Custom Component] Added testing contract, unit test cases by @devanshu052000 in https://github.com/ToolJet/ToolJet/pull/18729\r\n* Feature: Add pagination events for next and previous page actions by @manishkushare in https://github.com/ToolJet/ToolJet/pull/15",
+      "links": [],
+      "metadata": {
+        "tag": "v3.21.95-beta",
+        "prerelease": true,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-1879eaad6d81ef4a",
+      "kind": "release",
+      "title": "v3.20.257-lts",
+      "url": "https://github.com/ToolJet/ToolJet/releases/tag/v3.20.257-lts",
+      "collected_at": "2026-11-21T08:52:16+00:00",
+      "published_at": "2026-11-12T02:20:57Z",
+      "text": "## What's Changed\r\n* Auto-start trial for new users by @Siddharthpl in https://github.com/ToolJet/ToolJet/pull/18828\r\n* Fix: Keep manually enabled Public Apps after plan renewal by @Siddharthpl in https://github.com/ToolJet/ToolJet/pull/18935\r\n* Feature: Land new users on the hom",
+      "links": [],
+      "metadata": {
+        "tag": "v3.20.257-lts",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-46e0d927abcd15ca",
+      "kind": "release",
+      "title": "v3.21.94-beta",
+      "url": "https://github.com/ToolJet/ToolJet/releases/tag/v3.21.94-beta",
+      "collected_at": "2026-11-21T08:52:16+00:00",
+      "published_at": "2026-11-06T15:08:54Z",
+      "text": "## What's Changed\r\n* Authorize resource export by @shah21 in https://github.com/ToolJet/ToolJet/pull/18273\r\n* Fix: require a live session to list workspaces by @rudeUltra in https://github.com/ToolJet/ToolJet/pull/18306\r\n* Fix: patch adm-zip DoS vulnerability in plugins by @rudeU",
+      "links": [],
+      "metadata": {
+        "tag": "v3.21.94-beta",
+        "prerelease": true,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-937db79caec0cf7c",
+      "kind": "listing",
+      "title": "Show HN: ToolJet 4.0 – vibe-code internal tools with governance",
+      "url": "https://news.ycombinator.com/item?id=50560051",
+      "collected_at": "2026-11-21T08:52:16+00:00",
+      "published_at": "2026-11-19T13:46:49Z",
+      "text": "Show HN: ToolJet 4.0 – vibe-code internal tools with governance\nToolJet 4.0 – vibe-code internal tools with governance",
+      "links": [],
+      "metadata": {
+        "source_kind": "hacker_news",
+        "discovered_at": "2026-11-21T08:52:07+00:00",
+        "public_excerpt": true
+      }
+    }
+  ],
+  "actions": [
+    {
+      "id": "a-1",
+      "title": "提供公开试用入口",
+      "channel": "产品试用",
+      "description": "定价页面公开提供试用入口。可进一步检查试用额度、触达位置和转付费步骤。",
+      "source_ids": [
+        "s-2b2662db472fc49c"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-2",
+      "title": "维护公开代码仓库",
+      "channel": "开发者生态",
+      "description": "公开代码、README 和发布记录让开发者能够评估项目、参与讨论或尝试部署。Stars 与 Forks 表示公开互动规模。",
+      "source_ids": [
+        "s-067f046a6a82cf3a"
+      ],
+      "date": null,
+      "result": "本次记录了仓库当前的 Stars 与 Forks 快照，收入和付费客户数需要另行核对。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-3",
+      "title": "GitHub 仓库建立",
+      "channel": "项目历史",
+      "description": "GitHub API 记录的仓库创建日期。产品上线日期需要其他来源确认。",
+      "source_ids": [
+        "s-067f046a6a82cf3a"
+      ],
+      "date": "2021-03-30",
+      "result": "已取得仓库创建时间。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-4",
+      "title": "为自行部署的用户提供路径",
+      "channel": "开发者生态",
+      "description": "README 出现自托管或 Docker 部署说明。可研究免费部署入口与托管服务之间的使用路径。",
+      "source_ids": [
+        "s-8ae205abff693fb0"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-5",
+      "title": "发布 v3.21.96-lts",
+      "channel": "产品更新",
+      "description": "## 🚀 Features - Added pagination events for next and previous page actions by @manishkushare in #15595 - Allowed admins to revoke any personal access token in the workspace by @RndmCodeGuy20 in #18420 ## 🌟 Enhancements - Enhanced progress widgets with dynamic label binding and improved value handling by @manishkushare in #18636 ",
+      "source_ids": [
+        "s-d33380fd1b95d02a"
+      ],
+      "date": "2026-11-13",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-6",
+      "title": "发布 v3.21.95-beta",
+      "channel": "产品更新",
+      "description": "## What's Changed * [Custom Component] Added testing contract, unit test cases by @devanshu052000 in https://github.com/ToolJet/ToolJet/pull/18729 * Feature: Add pagination events for next and previous page actions by @manishkushare in https://github.com/ToolJet/ToolJet/pull/15595 * Fix: PDF and Map QA bug batch by @vjaris42 in ",
+      "source_ids": [
+        "s-14382a42d5916b84"
+      ],
+      "date": "2026-11-12",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-7",
+      "title": "发布 v3.20.257-lts",
+      "channel": "产品更新",
+      "description": "## What's Changed * Auto-start trial for new users by @Siddharthpl in https://github.com/ToolJet/ToolJet/pull/18828 * Fix: Keep manually enabled Public Apps after plan renewal by @Siddharthpl in https://github.com/ToolJet/ToolJet/pull/18935 * Feature: Land new users on the home page prompt after onboarding by @shah21 in https://",
+      "source_ids": [
+        "s-1879eaad6d81ef4a"
+      ],
+      "date": "2026-11-12",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-8",
+      "title": "发布 v3.21.94-beta",
+      "channel": "产品更新",
+      "description": "## What's Changed * Authorize resource export by @shah21 in https://github.com/ToolJet/ToolJet/pull/18273 * Fix: require a live session to list workspaces by @rudeUltra in https://github.com/ToolJet/ToolJet/pull/18306 * Fix: patch adm-zip DoS vulnerability in plugins by @rudeUltra in https://github.com/ToolJet/ToolJet/pull/18042",
+      "source_ids": [
+        "s-46e0d927abcd15ca"
+      ],
+      "date": "2026-11-06",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-9",
+      "title": "在 Show HN 出现产品展示记录",
+      "channel": "产品发布",
+      "description": "公开目录或社区帖子提供了产品介绍入口。记录日期来自该来源，不能直接视为产品首次上线日期；提交者与产品方的关系仍需核对。",
+      "source_ids": [
+        "s-937db79caec0cf7c"
+      ],
+      "date": "2026-11-19",
+      "result": "已保存公开展示记录，尚未验证该渠道带来的访问、注册和收入。",
+      "evidence_type": "公开动作"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "产品概览",
+      "intro": "从官网、公开产品记录及可取得的仓库资料核对产品定位、功能与公开入口。",
+      "facts": [
+        {
+          "text": "ToolJet is the open-source, AI-native low-code platform for internal tools. Build with AI, Visual Builder or React Builder, on ToolJet Cloud or self-hosted.",
+          "source_ids": [
+            "s-24b4e4dd2004faf3"
+          ]
+        },
+        {
+          "text": "README 内容摘录：ToolJet is an open-source platform for building internal tools: admin panels, dashboards, and operational apps that run on your existing databases, APIs, and SaaS systems. Build them by prompting. ToolJet AI turns a description in",
+          "source_ids": [
+            "s-8ae205abff693fb0"
+          ]
+        },
+        {
+          "text": "该产品在 Show HN 中有公开展示记录，已保留原始链接与记录日期。公开展示不代表收入、开源状态或实际转化已核验。",
+          "source_ids": [
+            "s-937db79caec0cf7c"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "business",
+      "title": "生意与定价",
+      "intro": "定价信息来自产品自己的公开页面。收入指标需要单独的公开披露或授权数据。",
+      "facts": [
+        {
+          "text": "定价页中的原始片段：Annual Save 20% Compare plans Free $0 per builder / month Get Started Basic $23 per builder / month St；builder / month Get Started Basic $23 per builder / month Start free trial Pro $79 per builder / month；ilder / month Start free trial Pro $79 per builder / month Start free trial Team Most popular $199 per",
+          "source_ids": [
+            "s-2b2662db472fc49c"
+          ]
+        },
+        {
+          "text": "公开仓库为 ToolJet/ToolJet，API 标注许可证为 GNU Affero General Public License v3.0。",
+          "source_ids": [
+            "s-067f046a6a82cf3a"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "acquisition",
+      "title": "获客入口",
+      "intro": "下面列出已观察到的入口与动作。渠道带来的访问和付费效果仍需转化数据验证。",
+      "facts": [],
+      "action_ids": [
+        "a-1",
+        "a-2",
+        "a-4",
+        "a-9"
+      ]
+    },
+    {
+      "id": "growth",
+      "title": "公开动作拆解",
+      "intro": "每个动作都关联原始资料，适合进一步研究具体做法和执行条件。",
+      "facts": [],
+      "action_ids": [
+        "a-1",
+        "a-2",
+        "a-3",
+        "a-4",
+        "a-5",
+        "a-6",
+        "a-7",
+        "a-8",
+        "a-9"
+      ]
+    },
+    {
+      "id": "social",
+      "title": "社媒与社区",
+      "intro": "本次保留官网引用的社媒与社区链接。账号归属、帖子内容和互动数据需要进一步核对。",
+      "facts": [
+        {
+          "text": "官网引用的社媒与社区链接涉及 linkedin.com、twitter.com、youtu.be、youtube.com。",
+          "source_ids": [
+            "s-24b4e4dd2004faf3"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "timeline",
+      "title": "事件时间线",
+      "intro": "仅展示来源中明确给出日期的事件，采集时间另列。产品更新可以帮助理解推广内容的背景。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "competitors",
+      "title": "竞品研究线索",
+      "intro": "本轮采集围绕单个产品。可按目标客户、解决的问题和购买方式，再添加相关产品进行研究。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "appendix",
+      "title": "来源与数据缺口",
+      "intro": "报告保留了本次采集的来源快照。缺失指标保持为空，观察到的动作与分析建议分别呈现。",
+      "facts": [],
+      "action_ids": []
+    }
+  ],
+  "metrics": [
+    {
+      "name": "GitHub Stars",
+      "value": 41270,
+      "unit": "stars",
+      "source_id": "s-067f046a6a82cf3a",
+      "observed_at": "2026-11-21T08:52:15+00:00"
+    },
+    {
+      "name": "Forks",
+      "value": 5516,
+      "unit": "forks",
+      "source_id": "s-067f046a6a82cf3a",
+      "observed_at": "2026-11-21T08:52:15+00:00"
+    }
+  ],
+  "gaps": [
+    "连续收入序列和已核验 MRR",
+    "真实访问量及渠道占比",
+    "搜索关键词排名与点击数据",
+    "社媒帖子、互动和渠道转化数据",
+    "独立核对过的竞品比较"
+  ],
+  "warnings": [],
+  "discovered_accounts": [
+    {
+      "url": "https://youtu.be/thMT9WvEubA",
+      "platform": "youtu.be",
+      "label": "youtu.be"
+    },
+    {
+      "url": "https://twitter.com/ToolJet",
+      "platform": "twitter.com",
+      "label": "@ToolJet"
+    },
+    {
+      "url": "https://www.linkedin.com/company/tooljet",
+      "platform": "linkedin.com",
+      "label": "linkedin.com"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCf1p2G5Z7fPpvlBPf4l2I1w",
+      "platform": "youtube.com",
+      "label": "youtube.com"
+    }
+  ],
+  "coverage": "website"
+}

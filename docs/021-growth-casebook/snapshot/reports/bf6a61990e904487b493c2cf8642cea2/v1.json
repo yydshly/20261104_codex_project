@@ -1,0 +1,978 @@
+{
+  "schema_version": "1.0",
+  "project_id": "bf6a61990e904487b493c2cf8642cea2",
+  "version": 1,
+  "generated_at": "2026-11-21T07:21:29+00:00",
+  "mode": "evidence",
+  "summary": "围绕 Cal.com 核对了 10 份公开资料，整理出 10 条入口与动作。可继续研究的方向包括产品试用、使用教育、内容营销、开发者生态。",
+  "summary_source_ids": [],
+  "sources": [
+    {
+      "id": "s-cf27f8b946b450f1",
+      "kind": "website",
+      "title": "Cal.com | Scheduling Software for Online Bookings",
+      "url": "https://cal.com/",
+      "collected_at": "2026-11-21T07:21:24+00:00",
+      "published_at": null,
+      "text": "New\nCal.com launches v7\nWhere\npeople\nIntro call\n30m\nBooked\n12:30 AM\n12:30 PM\nfind\nthe time to meet\nMaking time for millions of people every month.\nSign up with Google\nSign up with Microsoft\nSign up with email.\nNo credit card required.\nSafari\nCal.com\nFile\nEdit\nView\nWindow\nHelp\nDes",
+      "links": [
+        {
+          "url": "https://cal.com/",
+          "text": ""
+        },
+        {
+          "url": "https://cal.com/enterprise",
+          "text": "Enterprise"
+        },
+        {
+          "url": "https://cal.com/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://cal.com/talk-to-sales",
+          "text": "Talk to sales"
+        },
+        {
+          "url": "https://go.cal.com/support",
+          "text": "I need help"
+        },
+        {
+          "url": "https://app.cal.com",
+          "text": "Open App"
+        },
+        {
+          "url": "https://app.cal.com/auth/login",
+          "text": "Sign in"
+        },
+        {
+          "url": "https://app.cal.com/signup",
+          "text": "Get started"
+        },
+        {
+          "url": "https://cal.com/blog/calcom-v7-0",
+          "text": "New Cal.com launches v7"
+        },
+        {
+          "url": "https://app.cal.com/auth/sso/google",
+          "text": "Sign up with Google"
+        },
+        {
+          "url": "https://app.cal.com/auth/sso/microsoft",
+          "text": "Sign up with Microsoft"
+        },
+        {
+          "url": "https://cal.com/customers/deel",
+          "text": "Case study"
+        },
+        {
+          "url": "https://cal.com/customers/retell-ai",
+          "text": "Case study"
+        },
+        {
+          "url": "https://cal.com/customers/storyblok",
+          "text": "Case study"
+        },
+        {
+          "url": "https://cal.com/customers/angellist",
+          "text": "Case study"
+        },
+        {
+          "url": "https://cal.com/customers/collective",
+          "text": "Case study"
+        },
+        {
+          "url": "https://cal.com/assistant",
+          "text": "Try Cal.ai"
+        },
+        {
+          "url": "https://cal.com/desktop",
+          "text": "Get Cal Desktop"
+        },
+        {
+          "url": "https://cal.com/apps",
+          "text": "Explore apps"
+        },
+        {
+          "url": "https://cal.com/docs",
+          "text": "Read the API docs"
+        },
+        {
+          "url": "https://cal.com/customers",
+          "text": "Read stories"
+        },
+        {
+          "url": "https://cal.com/customers/kiaora-healthcare",
+          "text": "Read the story"
+        },
+        {
+          "url": "https://www.trustpilot.com/reviews/65b1014c89c01f5de174f12b",
+          "text": "on Trustpilot"
+        },
+        {
+          "url": "https://www.trustpilot.com/reviews/65a6f085d749fb09a556c835",
+          "text": "on Trustpilot"
+        },
+        {
+          "url": "https://www.producthunt.com/posts/cal-com",
+          "text": "on Product Hunt"
+        },
+        {
+          "url": "https://twitter.com/kentcdodds/status/1749916873201008863",
+          "text": "@kentcdodds on X"
+        },
+        {
+          "url": "https://twitter.com/AntWilson/status/1742562512103506350",
+          "text": "@AntWilson on X"
+        },
+        {
+          "url": "https://twitter.com/singh_anuvesh/status/1747985983742922834",
+          "text": "@singh_anuvesh on X"
+        },
+        {
+          "url": "https://twitter.com/rotimi_best/status/1719443453665280325",
+          "text": "@rotimi_best on X"
+        },
+        {
+          "url": "https://cal.com/events",
+          "text": "Host an event"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-0dd2cac8c92a745d",
+      "kind": "pricing",
+      "title": "Pricing | Cal.com",
+      "url": "https://cal.com/pricing",
+      "collected_at": "2026-11-21T07:21:25+00:00",
+      "published_at": null,
+      "text": "Pricing\nChoose your Cal.com subscription\nStart scheduling for free, with no usage limits. For collaborative features, choose one of our premium plans that fits your company size.\nTalk to sales\nSee feature breakdown\nIndividuals\nFree\nEverything you could need for scheduling as an i",
+      "links": [
+        {
+          "url": "https://cal.com/",
+          "text": ""
+        },
+        {
+          "url": "https://cal.com/enterprise",
+          "text": "Enterprise"
+        },
+        {
+          "url": "https://cal.com/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://cal.com/talk-to-sales",
+          "text": "Talk to sales"
+        },
+        {
+          "url": "https://go.cal.com/support",
+          "text": "I need help"
+        },
+        {
+          "url": "https://app.cal.com",
+          "text": "Open App"
+        },
+        {
+          "url": "https://app.cal.com/auth/login",
+          "text": "Sign in"
+        },
+        {
+          "url": "https://app.cal.com/signup",
+          "text": "Get started"
+        },
+        {
+          "url": "https://app.cal.com/signup?redirect=https%3A%2F%2Fapp.cal.com%2Fsettings%2Fteams%2Fnew",
+          "text": "Try for free"
+        },
+        {
+          "url": "https://app.cal.com/signup?redirect=https%3A%2F%2Fapp.cal.com%2Fsettings%2Forganizations%2Fnew",
+          "text": "Try for free"
+        },
+        {
+          "url": "https://cal.com/customers/deel",
+          "text": "Case study"
+        },
+        {
+          "url": "https://cal.com/customers/retell-ai",
+          "text": "Case study"
+        },
+        {
+          "url": "https://cal.com/customers/storyblok",
+          "text": "Case study"
+        },
+        {
+          "url": "https://cal.com/customers/angellist",
+          "text": "Case study"
+        },
+        {
+          "url": "https://cal.com/customers/collective",
+          "text": "Case study"
+        },
+        {
+          "url": "https://coss.com/products/scheduling",
+          "text": "See the scheduling API"
+        },
+        {
+          "url": "https://cal.com/cdn-cgi/l/email-protection",
+          "text": "[email protected]"
+        },
+        {
+          "url": "https://www.trustpilot.com/review/cal.com",
+          "text": "4.5 Trustpilot"
+        },
+        {
+          "url": "https://www.producthunt.com/products/cal-com",
+          "text": "4.8 Product Hunt"
+        },
+        {
+          "url": "https://www.g2.com/products/cal-com/reviews",
+          "text": "4.5 G2"
+        },
+        {
+          "url": "https://cal.com/help",
+          "text": "cal.com/help"
+        },
+        {
+          "url": "https://status.cal.com",
+          "text": "System status"
+        },
+        {
+          "url": "https://x.com/calcom",
+          "text": ""
+        },
+        {
+          "url": "https://www.linkedin.com/company/cal-com",
+          "text": ""
+        },
+        {
+          "url": "https://www.youtube.com/@calcominc",
+          "text": ""
+        },
+        {
+          "url": "https://go.cal.com/ios",
+          "text": ""
+        },
+        {
+          "url": "https://go.cal.com/android",
+          "text": ""
+        },
+        {
+          "url": "https://cal.com/download",
+          "text": ""
+        },
+        {
+          "url": "https://go.cal.com/chrome",
+          "text": ""
+        },
+        {
+          "url": "https://go.cal.com/safari",
+          "text": ""
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-fb52904331885336",
+      "kind": "content",
+      "title": "Blog - Explore Insights, Updates, and Use Cases | Cal.com",
+      "url": "https://cal.com/blog",
+      "collected_at": "2026-11-21T07:21:26+00:00",
+      "published_at": null,
+      "text": "Blog\nInsights on scheduling, productivity, and building scheduling software\nExplore product updates, scheduling strategies, and engineering deep dives from the team building Cal.com, the scheduling infrastructure for booking and automation.\nChangelog\nv7.0\nDiscover\nDesktop app\nCal",
+      "links": [
+        {
+          "url": "https://cal.com/",
+          "text": ""
+        },
+        {
+          "url": "https://cal.com/enterprise",
+          "text": "Enterprise"
+        },
+        {
+          "url": "https://cal.com/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://cal.com/talk-to-sales",
+          "text": "Talk to sales"
+        },
+        {
+          "url": "https://go.cal.com/support",
+          "text": "I need help"
+        },
+        {
+          "url": "https://app.cal.com",
+          "text": "Open App"
+        },
+        {
+          "url": "https://app.cal.com/auth/login",
+          "text": "Sign in"
+        },
+        {
+          "url": "https://app.cal.com/signup",
+          "text": "Get started"
+        },
+        {
+          "url": "https://cal.com/blog",
+          "text": "All categories"
+        },
+        {
+          "url": "https://cal.com/blog/category/product-features",
+          "text": "Product features"
+        },
+        {
+          "url": "https://cal.com/blog/category/use-cases",
+          "text": "Use cases"
+        },
+        {
+          "url": "https://cal.com/blog/category/apps",
+          "text": "Apps"
+        },
+        {
+          "url": "https://cal.com/blog/category/evergreens",
+          "text": "Evergreens"
+        },
+        {
+          "url": "https://cal.com/blog/category/updates",
+          "text": "Updates"
+        },
+        {
+          "url": "https://cal.com/blog/category/ai",
+          "text": "AI"
+        },
+        {
+          "url": "https://cal.com/blog/category/case-studies",
+          "text": "Case studies"
+        },
+        {
+          "url": "https://cal.com/blog/category/engineering",
+          "text": "Engineering"
+        },
+        {
+          "url": "https://cal.com/blog/calcom-v7-0",
+          "text": "Changelog v7.0 Discover Desktop app Cal Video update Updates Changelog: Cal.com v7.0 - Cal.com Events, Discover, Desktop"
+        },
+        {
+          "url": "https://cal.com/blog/time-blocking",
+          "text": "Felix Moreau 30 min meeting 30m Cal Video Europe/London November 2026 Sun Mon Tue Wed Thu Fri Sat 1 2 3 4 5 6 7 8 9 10 1"
+        },
+        {
+          "url": "https://cal.com/blog/out-of-office-message",
+          "text": "From Lena Brandt Subject Out of office until 24 November Automatic reply Thanks for your email. I'm away until Monday 24"
+        },
+        {
+          "url": "https://cal.com/blog/how-to-streamline-business-operations-with-on-premise-calendar-scheduling",
+          "text": "Your servers git clone https://github.com/calcom/cal.com cd cal.com cp .env.example .env docker compose up -d Ready on h"
+        },
+        {
+          "url": "https://cal.com/blog/best-calendar-apps",
+          "text": "Top 9 Calendar apps 1 Cal.com 2 3 4 Use cases 9 Best Calendar Apps in 2026 to Plan Your Day and Book Meetings Faster"
+        },
+        {
+          "url": "https://cal.com/blog/how-ai-voice-agents-fix-sales-scheduling",
+          "text": "Search Northwind N Northwind Channels general sales launch Apps Cal Cal.com Cal Cal.com APP Lena Brandt 9:02 AM How did "
+        },
+        {
+          "url": "https://cal.com/blog/how-to-write-meeting-minutes-(templates-and-examples-included)",
+          "text": "Meeting Design review, 12 November Attendees Lena, Felix, Ida Minutes Decided: ship the new booking page on 18 November."
+        },
+        {
+          "url": "https://cal.com/blog/best-appointment-reminder-software",
+          "text": "Shortlist Appointment reminder software 1 Cal.com 2 3 4 Cédric van Ravesteijn Best Appointment Reminder Software"
+        },
+        {
+          "url": "https://cal.com/blog/best-coworking-booking-software",
+          "text": "Top 5 Coworking booking software 1 Cal.com 2 3 4 Cédric van Ravesteijn Coworking Booking Software: 5 Best Picks"
+        },
+        {
+          "url": "https://cal.com/blog/best-multi-location-scheduling-software",
+          "text": "Top 7 Multi location scheduling software 1 Cal.com 2 3 4 Cédric van Ravesteijn 7 Best Multi Location Scheduling Software"
+        },
+        {
+          "url": "https://cal.com/blog/best-government-scheduling-software",
+          "text": "Top 5 Government scheduling software 1 Cal.com 2 3 4 Cédric van Ravesteijn 5 Best Government Scheduling Software"
+        },
+        {
+          "url": "https://cal.com/blog/calcom-v6-9-5",
+          "text": "Changelog v6.9.5 Workflow delays Message your guests Out of office integrations Updates Changelog: Cal.com v6.9.5 - Work"
+        },
+        {
+          "url": "https://cal.com/blog/parent-teacher-conferences",
+          "text": "Clara Voss Office hours 30m Cal Video Europe/London November 2026 Sun Mon Tue Wed Thu Fri Sat 1 2 3 4 5 6 7 8 9 10 11 12"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-8560e8b025b5bd1c",
+      "kind": "docs",
+      "title": "Introduction to API v2 - Cal.com Docs",
+      "url": "https://cal.com/docs/api-reference/v2/introduction",
+      "collected_at": "2026-11-21T07:21:27+00:00",
+      "published_at": null,
+      "text": "Authentication\nThe Cal.com API has 3 authentication methods:\nOAuth\nAPI key\nPlatform (Deprecated)\n1. Create an OAuth client and “Continue with Cal.com”\nIn order to be listed as an official partner and App in our App Store: cal.com/apps you need to create and get a verified OAuth c",
+      "links": [
+        {
+          "url": "https://cal.com/docs/llms.txt",
+          "text": "/docs/llms.txt"
+        },
+        {
+          "url": "https://cal.com/docs/api-reference/v2/introduction",
+          "text": "Skip to main content"
+        },
+        {
+          "url": "https://cal.com/docs",
+          "text": "Cal.com Docs home page"
+        },
+        {
+          "url": "https://go.cal.com/support",
+          "text": "Support"
+        },
+        {
+          "url": "https://app.cal.com",
+          "text": "Dashboard"
+        },
+        {
+          "url": "https://cal.com/docs/atoms/introduction",
+          "text": "Atoms"
+        },
+        {
+          "url": "https://cal.com/docs/developing/local-development",
+          "text": "Developing"
+        },
+        {
+          "url": "https://cal.com/docs/api-reference/v2/oauth",
+          "text": "OAuth"
+        },
+        {
+          "url": "https://cal.com/docs/api-reference/v2/access-control",
+          "text": "Access Control"
+        },
+        {
+          "url": "https://cal.com/docs/api-reference/v2/v1-v2-differences",
+          "text": "Migrating from API v1 to v2"
+        },
+        {
+          "url": "https://cal.com/docs/mcp-server",
+          "text": "MCP server"
+        },
+        {
+          "url": "https://cal.com/docs/api-reference/v2/user-booking-limits",
+          "text": "User booking limits"
+        },
+        {
+          "url": "https://cal.com/docs/api-reference/v2/calendar-invites",
+          "text": "Calendar invite descriptions"
+        },
+        {
+          "url": "https://cal.com/docs/agents",
+          "text": "AI agents"
+        },
+        {
+          "url": "https://cal.com/docs/agent-quickstart",
+          "text": "Cal.com agent quickstart"
+        },
+        {
+          "url": "https://cal.com/docs/api-reference/v2/deprecated:-platform-managed-users/create-a-managed-user",
+          "text": "API reference"
+        },
+        {
+          "url": "https://cal.com/docs/api-reference/v2/deprecated:-platform-webhooks/create-a-webhook",
+          "text": "API reference"
+        },
+        {
+          "url": "https://cal.com/docs/api-reference/v2/deprecated:-platform-managed-users/refresh-managed-user-tokens",
+          "text": "API reference"
+        },
+        {
+          "url": "https://cal.com/docs/api-reference/v2/orgs-teams/create-a-team",
+          "text": "API reference"
+        },
+        {
+          "url": "https://cal.com/docs/api-reference/v2/orgs-teams-memberships/create-a-membership",
+          "text": "API reference"
+        },
+        {
+          "url": "https://cal.com/docs/api-reference/v2/organization-event-types/create-an-organization-team-event-type",
+          "text": "API reference"
+        },
+        {
+          "url": "https://app.cal.com/settings/platform",
+          "text": "https://app.cal.com/settings/platform"
+        },
+        {
+          "url": "https://cal.com/docs/api-reference/v2/schedules/create-a-schedule",
+          "text": "API reference"
+        },
+        {
+          "url": "https://cal.com/docs/api-reference/v2/event-types/create-an-event-type",
+          "text": "API reference"
+        },
+        {
+          "url": "https://cal.com/docs/api-reference/v2/bookings/get-all-bookings",
+          "text": "API reference"
+        },
+        {
+          "url": "https://cal.com/docs/api-reference/v2/oauth2/exchange-authorization-code-or-refresh-token-for-tokens",
+          "text": "API reference"
+        },
+        {
+          "url": "https://cal.com/docs/api-reference/v2/deprecated:-platform-managed-users/force-refresh-tokens",
+          "text": "API reference"
+        },
+        {
+          "url": "https://x.com/calcom",
+          "text": "x"
+        },
+        {
+          "url": "https://github.com/calcom",
+          "text": "github"
+        },
+        {
+          "url": "https://www.linkedin.com/company/cal-com",
+          "text": "linkedin"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-62dd270bed5d0f57",
+      "kind": "repository",
+      "title": "calcom/cal.diy",
+      "url": "https://github.com/calcom/cal.diy",
+      "collected_at": "2026-11-21T07:21:28+00:00",
+      "published_at": null,
+      "text": "{\"full_name\": \"calcom/cal.diy\", \"stargazers_count\": 50273, \"forks_count\": 15712, \"open_issues_count\": 1643, \"language\": \"TypeScript\", \"license\": {\"key\": \"mit\", \"name\": \"MIT License\", \"spdx_id\": \"MIT\", \"url\": \"https://api.github.com/licenses/mit\", \"node_id\": \"MDc6TGljZW5zZTEz\"}, \"",
+      "links": [],
+      "metadata": {
+        "full_name": "calcom/cal.diy",
+        "stargazers_count": 50273,
+        "forks_count": 15712,
+        "open_issues_count": 1643,
+        "language": "TypeScript",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2021-03-22T13:47:42Z",
+        "pushed_at": "2026-11-13T19:35:07Z",
+        "topics": [
+          "next-auth",
+          "nextjs",
+          "open-source",
+          "postgresql",
+          "prisma",
+          "t3-stack",
+          "tailwindcss",
+          "trpc",
+          "turborepo",
+          "typescript",
+          "zod"
+        ],
+        "description": "Scheduling infrastructure for absolutely everyone.",
+        "homepage": "https://cal.diy",
+        "archived": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-9c83527c677f04ab",
+      "kind": "readme",
+      "title": "calcom/cal.diy README",
+      "url": "https://github.com/calcom/cal.diy/blob/main/README.md",
+      "collected_at": "2026-11-21T07:21:29+00:00",
+      "published_at": null,
+      "text": "> [!WARNING]  \n> Use at your own risk. Cal.diy is the open source community edition of Cal.com and it is intended for users who want to self-host their own Cal.diy instance. It is strictly recommended for personal, non-production use. Please review all installation and configurat",
+      "links": [],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-9cb127396f42ae85",
+      "kind": "release",
+      "title": "v6.2.0",
+      "url": "https://github.com/calcom/cal.diy/releases/tag/v6.2.0",
+      "collected_at": "2026-11-21T07:21:29+00:00",
+      "published_at": "2026-03-01T23:49:01Z",
+      "text": "## What's Changed\r\n* fix: show invite link settings modal when clicking edit invite link in team members view by @anikdhabal in https://github.com/calcom/cal.com/pull/27917\r\n* fix: exclude test files from CODEOWNERS foundation approval by @hariombalhara in https://github.com/calc",
+      "links": [],
+      "metadata": {
+        "tag": "v6.2.0",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-ed0d5cfd9c054048",
+      "kind": "release",
+      "title": "v6.1.16",
+      "url": "https://github.com/calcom/cal.diy/releases/tag/v6.1.16",
+      "collected_at": "2026-11-21T07:21:29+00:00",
+      "published_at": "2026-02-12T23:28:22Z",
+      "text": "## What's Changed\r\n* fix: Booking Drawer - text overlap in footer by @hariombalhara in https://github.com/calcom/cal.com/pull/27897\r\n* refactor: migrate Icon to component icons from @coss/ui/icons by @eunjae-lee in https://github.com/calcom/cal.com/pull/27458\r\n* feat: active user",
+      "links": [],
+      "metadata": {
+        "tag": "v6.1.16",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-c614c4decd4ba5a2",
+      "kind": "release",
+      "title": "v6.1.15",
+      "url": "https://github.com/calcom/cal.diy/releases/tag/v6.1.15",
+      "collected_at": "2026-11-21T07:21:29+00:00",
+      "published_at": "2026-02-12T13:15:00Z",
+      "text": "## What's Changed\r\n* chore: resolve @modelcontextprotocol/sdk to 1.26.0 by @pedroccastro in https://github.com/calcom/cal.com/pull/27640\r\n* fix: update booking page terms text to use APP_NAME instead of \"our\" by @CarinaWolli in https://github.com/calcom/cal.com/pull/27834\r\n* fix:",
+      "links": [],
+      "metadata": {
+        "tag": "v6.1.15",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-fef3d0eb59f54287",
+      "kind": "release",
+      "title": "v6.1.14",
+      "url": "https://github.com/calcom/cal.diy/releases/tag/v6.1.14",
+      "collected_at": "2026-11-21T07:21:29+00:00",
+      "published_at": "2026-02-10T13:23:04Z",
+      "text": "## What's Changed\r\n* fix: (booking-audit) Remove IS_PRODUCTION gate and add feature flag check in producer by @hariombalhara in https://github.com/calcom/cal.com/pull/26524\r\n* fix: allow unmarking host as no-show by @hariombalhara in https://github.com/calcom/cal.com/pull/27694\r\n",
+      "links": [],
+      "metadata": {
+        "tag": "v6.1.14",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    }
+  ],
+  "actions": [
+    {
+      "id": "a-1",
+      "title": "提供公开试用入口",
+      "channel": "产品试用",
+      "description": "定价页面公开提供试用入口。可进一步检查试用额度、触达位置和转付费步骤。",
+      "source_ids": [
+        "s-0dd2cac8c92a745d"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-2",
+      "title": "用公开内容承接用户问题",
+      "channel": "内容营销",
+      "description": "官网提供内容入口。可从文章主题、目标读者和文章内的产品引导，研究内容如何连接产品。",
+      "source_ids": [
+        "s-fb52904331885336"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-3",
+      "title": "提供文档与上手路径",
+      "channel": "使用教育",
+      "description": "公开文档为用户了解功能和开始使用提供入口。可研究教程是否覆盖客户的真实任务。",
+      "source_ids": [
+        "s-8560e8b025b5bd1c"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-4",
+      "title": "维护公开代码仓库",
+      "channel": "开发者生态",
+      "description": "公开代码、README 和发布记录让开发者能够评估项目、参与讨论或尝试部署。Stars 与 Forks 表示公开互动规模。",
+      "source_ids": [
+        "s-62dd270bed5d0f57"
+      ],
+      "date": null,
+      "result": "本次记录了仓库当前的 Stars 与 Forks 快照，收入和付费客户数需要另行核对。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-5",
+      "title": "GitHub 仓库建立",
+      "channel": "项目历史",
+      "description": "GitHub API 记录的仓库创建日期。产品上线日期需要其他来源确认。",
+      "source_ids": [
+        "s-62dd270bed5d0f57"
+      ],
+      "date": "2021-03-22",
+      "result": "已取得仓库创建时间。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-6",
+      "title": "为自行部署的用户提供路径",
+      "channel": "开发者生态",
+      "description": "README 出现自托管或 Docker 部署说明。可研究免费部署入口与托管服务之间的使用路径。",
+      "source_ids": [
+        "s-9c83527c677f04ab"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-7",
+      "title": "发布 v6.2.0",
+      "channel": "产品更新",
+      "description": "## What's Changed * fix: show invite link settings modal when clicking edit invite link in team members view by @anikdhabal in https://github.com/calcom/cal.com/pull/27917 * fix: exclude test files from CODEOWNERS foundation approval by @hariombalhara in https://github.com/calcom/cal.com/pull/27919 * fix(app-store): preserve exi",
+      "source_ids": [
+        "s-9cb127396f42ae85"
+      ],
+      "date": "2026-03-01",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-8",
+      "title": "发布 v6.1.16",
+      "channel": "产品更新",
+      "description": "## What's Changed * fix: Booking Drawer - text overlap in footer by @hariombalhara in https://github.com/calcom/cal.com/pull/27897 * refactor: migrate Icon to component icons from @coss/ui/icons by @eunjae-lee in https://github.com/calcom/cal.com/pull/27458 * feat: active user billing by @sean-brydon in https://github.com/calcom",
+      "source_ids": [
+        "s-ed0d5cfd9c054048"
+      ],
+      "date": "2026-02-12",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-9",
+      "title": "发布 v6.1.15",
+      "channel": "产品更新",
+      "description": "## What's Changed * chore: resolve @modelcontextprotocol/sdk to 1.26.0 by @pedroccastro in https://github.com/calcom/cal.com/pull/27640 * fix: update booking page terms text to use APP_NAME instead of \"our\" by @CarinaWolli in https://github.com/calcom/cal.com/pull/27834 * fix: add i18n + migration for booking history pbac by @se",
+      "source_ids": [
+        "s-c614c4decd4ba5a2"
+      ],
+      "date": "2026-02-12",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-10",
+      "title": "发布 v6.1.14",
+      "channel": "产品更新",
+      "description": "## What's Changed * fix: (booking-audit) Remove IS_PRODUCTION gate and add feature flag check in producer by @hariombalhara in https://github.com/calcom/cal.com/pull/26524 * fix: allow unmarking host as no-show by @hariombalhara in https://github.com/calcom/cal.com/pull/27694 * feat: show routing trace dialog on assignment reaso",
+      "source_ids": [
+        "s-fef3d0eb59f54287"
+      ],
+      "date": "2026-02-10",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "产品概览",
+      "intro": "从官网和公开仓库核对产品定位、功能与公开入口。",
+      "facts": [
+        {
+          "text": "The highest-rated scheduling system that helps you grow your business and better find time.",
+          "source_ids": [
+            "s-cf27f8b946b450f1"
+          ]
+        },
+        {
+          "text": "README 内容摘录：> [!WARNING] > Use at your own risk. Cal.diy is the open source community edition of Cal.com and it is intended for users who want to self-host their own Cal.diy instance. It is strictly recommended for personal, non-production us",
+          "source_ids": [
+            "s-9c83527c677f04ab"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "business",
+      "title": "生意与定价",
+      "intro": "定价信息来自产品自己的公开页面。收入指标需要单独的公开披露或授权数据。",
+      "facts": [
+        {
+          "text": "定价页中的原始片段：mport Calendly events Teams Yearly $12 per user/month Save 25% For small teams & startups with combined；s Custom APIs Organizations Yearly $28 per user/month Save 25% For larger teams looking for more contro；ls Free forever Use for free Teams $12 per month/user Try for free Organizations $28 per month/user Try",
+          "source_ids": [
+            "s-0dd2cac8c92a745d"
+          ]
+        },
+        {
+          "text": "公开仓库为 calcom/cal.diy，API 标注许可证为 MIT License。",
+          "source_ids": [
+            "s-62dd270bed5d0f57"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "acquisition",
+      "title": "获客入口",
+      "intro": "下面列出已观察到的入口与动作。渠道带来的访问和付费效果仍需转化数据验证。",
+      "facts": [
+        {
+          "text": "内容页可见文本摘录：Blog Insights on scheduling, productivity, and building scheduling software Explore product updates, scheduling strategies, and engineering deep dives from the team building Cal.com, the scheduling infrastructure for boo",
+          "source_ids": [
+            "s-fb52904331885336"
+          ]
+        }
+      ],
+      "action_ids": [
+        "a-1",
+        "a-2",
+        "a-3",
+        "a-4",
+        "a-6"
+      ]
+    },
+    {
+      "id": "growth",
+      "title": "公开动作拆解",
+      "intro": "每个动作都关联原始资料，适合进一步研究具体做法和执行条件。",
+      "facts": [],
+      "action_ids": [
+        "a-1",
+        "a-2",
+        "a-3",
+        "a-4",
+        "a-5",
+        "a-6",
+        "a-7",
+        "a-8",
+        "a-9",
+        "a-10"
+      ]
+    },
+    {
+      "id": "social",
+      "title": "社媒与社区",
+      "intro": "本次保留官网引用的社媒与社区链接。账号归属、帖子内容和互动数据需要进一步核对。",
+      "facts": [
+        {
+          "text": "官网引用的社媒与社区链接涉及 linkedin.com、twitter.com、x.com、youtube.com。",
+          "source_ids": [
+            "s-cf27f8b946b450f1"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "timeline",
+      "title": "事件时间线",
+      "intro": "仅展示来源中明确给出日期的事件，采集时间另列。产品更新可以帮助理解推广内容的背景。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "competitors",
+      "title": "竞品研究线索",
+      "intro": "本轮采集围绕单个产品。可按目标客户、解决的问题和购买方式，再添加相关产品进行研究。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "appendix",
+      "title": "来源与数据缺口",
+      "intro": "报告保留了本次采集的来源快照。缺失指标保持为空，观察到的动作与分析建议分别呈现。",
+      "facts": [],
+      "action_ids": []
+    }
+  ],
+  "metrics": [
+    {
+      "name": "GitHub Stars",
+      "value": 50273,
+      "unit": "stars",
+      "source_id": "s-62dd270bed5d0f57",
+      "observed_at": "2026-11-21T07:21:28+00:00"
+    },
+    {
+      "name": "Forks",
+      "value": 15712,
+      "unit": "forks",
+      "source_id": "s-62dd270bed5d0f57",
+      "observed_at": "2026-11-21T07:21:28+00:00"
+    }
+  ],
+  "gaps": [
+    "连续收入序列和已核验 MRR",
+    "真实访问量及渠道占比",
+    "搜索关键词排名与点击数据",
+    "社媒帖子、互动和渠道转化数据",
+    "独立核对过的竞品比较"
+  ],
+  "warnings": [],
+  "discovered_accounts": [
+    {
+      "url": "https://twitter.com/kentcdodds/status/1749916873201008863",
+      "platform": "twitter.com",
+      "label": "@kentcdodds · 帖子"
+    },
+    {
+      "url": "https://twitter.com/AntWilson/status/1742562512103506350",
+      "platform": "twitter.com",
+      "label": "@AntWilson · 帖子"
+    },
+    {
+      "url": "https://twitter.com/singh_anuvesh/status/1747985983742922834",
+      "platform": "twitter.com",
+      "label": "@singh_anuvesh · 帖子"
+    },
+    {
+      "url": "https://twitter.com/rotimi_best/status/1719443453665280325",
+      "platform": "twitter.com",
+      "label": "@rotimi_best · 帖子"
+    },
+    {
+      "url": "https://x.com/calcom",
+      "platform": "x.com",
+      "label": "@calcom"
+    },
+    {
+      "url": "https://www.linkedin.com/company/cal-com",
+      "platform": "linkedin.com",
+      "label": "linkedin.com"
+    },
+    {
+      "url": "https://www.youtube.com/@calcominc",
+      "platform": "youtube.com",
+      "label": "youtube.com"
+    }
+  ],
+  "translations": {
+    "## What's Changed * chore: resolve @modelcontextprotocol/sdk to 1.26.0 by @pedroccastro in https://github.com/calcom/cal.com/pull/27640 * fix: update booking page terms text to use APP_NAME instead of \"our\" by @CarinaWolli in https://github.com/calcom/cal.com/pull/27834 * fix: add i18n + migration for booking history pbac by @se": "发布说明摘译：将 @modelcontextprotocol/sdk 解析至 1.26.0（#27640）；预约页条款改用 APP_NAME 代替 our（#27834）；为预约历史 PBAC 增加国际化和迁移，后续说明被截断。",
+    "## What's Changed * fix: (booking-audit) Remove IS_PRODUCTION gate and add feature flag check in producer by @hariombalhara in https://github.com/calcom/cal.com/pull/26524 * fix: allow unmarking host as no-show by @hariombalhara in https://github.com/calcom/cal.com/pull/27694 * feat: show routing trace dialog on assignment reaso": "发布说明摘译：预约审计移除 IS_PRODUCTION 条件，并在生产者中增加功能开关检查（#26524）；允许取消主持人的未出席标记（#27694）；增加路由追踪对话框，后续说明被截断。",
+    "## What's Changed * fix: Booking Drawer - text overlap in footer by @hariombalhara in https://github.com/calcom/cal.com/pull/27897 * refactor: migrate Icon to component icons from @coss/ui/icons by @eunjae-lee in https://github.com/calcom/cal.com/pull/27458 * feat: active user billing by @sean-brydon in https://github.com/calcom": "发布说明摘译：修复预约抽屉底部文字重叠（#27897）；将图标迁移至 @coss/ui/icons 组件（#27458）；新增按活跃用户计费功能，后续链接被截断。",
+    "## What's Changed * fix: show invite link settings modal when clicking edit invite link in team members view by @anikdhabal in https://github.com/calcom/cal.com/pull/27917 * fix: exclude test files from CODEOWNERS foundation approval by @hariombalhara in https://github.com/calcom/cal.com/pull/27919 * fix(app-store): preserve exi": "发布说明摘译：在团队成员视图点击编辑邀请链接时显示设置弹窗（#27917）；将测试文件排除在 CODEOWNERS 基础审批之外（#27919）。后续应用商店修复被截断。",
+    "Blog - Explore Insights, Updates, and Use Cases | Cal.com": "Cal.com 博客与内容",
+    "Cal.com | Scheduling Software for Online Bookings": "Cal.com 官网",
+    "Introduction to API v2 - Cal.com Docs": "Cal.com 文档与更新",
+    "Pricing | Cal.com": "Cal.com 定价与方案",
+    "README 内容摘录：> [!WARNING] > Use at your own risk. Cal.diy is the open source community edition of Cal.com and it is intended for users who want to self-host their own Cal.diy instance. It is strictly recommended for personal, non-production us": "README 摘录（中文）：警告：请自行承担使用风险。Cal.diy 是 Cal.com 的开源社区版，面向希望自托管实例的用户。原文强烈建议仅用于个人、非生产环境；末尾被截断。",
+    "The highest-rated scheduling system that helps you grow your business and better find time.": "日程预约系统，帮助用户安排时间并发展业务；官网称其拥有很高的用户评价。",
+    "calcom/cal.diy": "公开代码仓库",
+    "calcom/cal.diy README": "项目说明（README）",
+    "内容页可见文本摘录：Blog Insights on scheduling, productivity, and building scheduling software Explore product updates, scheduling strategies, and engineering deep dives from the team building Cal.com, the scheduling infrastructure for boo": "内容页摘录（中文）：博客分享日程预约、生产力和预约软件开发方面的见解，涵盖产品更新、日程安排策略，以及 Cal.com 团队的工程实践。",
+    "定价页中的原始片段：mport Calendly events Teams Yearly $12 per user/month Save 25% For small teams & startups with combined；s Custom APIs Organizations Yearly $28 per user/month Save 25% For larger teams looking for more contro；ls Free forever Use for free Teams $12 per month/user Try for free Organizations $28 per month/user Try": "定价页摘录（中文）：个人方案永久免费。Teams 按年付费时每名用户每月 12 美元，标注节省 25%，适合小团队和初创企业。Organizations 按年付费时每名用户每月 28 美元，标注节省 25%，面向需要更多控制能力的大团队。"
+  },
+  "coverage": "website"
+}

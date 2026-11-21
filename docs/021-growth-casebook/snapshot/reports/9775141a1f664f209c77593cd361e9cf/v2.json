@@ -1,0 +1,558 @@
+{
+  "schema_version": "1.0",
+  "project_id": "9775141a1f664f209c77593cd361e9cf",
+  "version": 2,
+  "generated_at": "2026-11-21T09:42:06+00:00",
+  "mode": "evidence",
+  "coverage": "website",
+  "summary": "围绕 Alter Contacts 核对了 4 份公开资料，整理出 2 条入口与动作。可继续研究的方向包括产品发布、内容营销。",
+  "summary_source_ids": [],
+  "translations": {
+    "A personal AI assistant for people whose business runs on client relationships. Talk to it after a meeting; it files what was said, notices who needs attention, and drafts the next move for you to approve.": "面向依靠客户关系开展业务的人士的个人 AI 助手。会后通过语音记录交流内容，由它整理资料、提示需要跟进的客户，并起草后续行动供用户确认。",
+    "AlterContacts: the AI client relationship assistant for advisors": "AlterContacts：面向顾问的 AI 客户关系助手",
+    "内容页可见文本摘录：Your AI assistant for all client relationships It’s never been easier to track and manage all of your clients. Download for iPhone": "内容页可见文本摘录：您的人工智能助理负责所有客户关系, 跟踪和管理您的所有客户, 为 iPhone 下载"
+  },
+  "sources": [
+    {
+      "id": "s-aac97b3685174d27",
+      "kind": "website",
+      "title": "AlterContacts: the AI client relationship assistant for advisors",
+      "url": "https://altercontacts.ai/",
+      "collected_at": "2026-11-21T09:42:05+00:00",
+      "published_at": null,
+      "text": "Introducing Alter\nAlter\nremembers\nevery\nclient,\nnotices\nwhat\nneeds\ndoing,\nand\ndrafts\nyour\nnext\nmove\nfor\nyou\nto\napprove.\nSo\nthey\nnever\nforget\nyou.\nEasy context\ngathering\nQuick voice notes\nHold to record whenever. Alter picks out the details that matter and files them to the right ",
+      "links": [
+        {
+          "url": "https://altercontacts.ai/",
+          "text": ""
+        },
+        {
+          "url": "https://altercontacts.ai/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://apps.apple.com/app/id6789568902",
+          "text": "Download for iPhone"
+        },
+        {
+          "url": "https://www.producthunt.com/products/alter-contacts-ai-client-relationships?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-alter-contacts",
+          "text": ""
+        },
+        {
+          "url": "https://news.gallup.com/businessjournal/169301/time-insurance-carriers-win-customers.aspx",
+          "text": "Gallup, 2014 · vs actively disengaged customers"
+        },
+        {
+          "url": "https://www.kitces.com/blog/the-latest-in-financial-advisortech-april-2026-wealthbox-ai-agents-tools-jump-rightcapital-wealthstream/",
+          "text": "Kitces Research, 2026 · US advisors"
+        },
+        {
+          "url": "https://altercontacts.ai/blog",
+          "text": "Go to blog"
+        },
+        {
+          "url": "https://altercontacts.ai/blog/altercontacts-product-hunt-launch",
+          "text": "AlterContacts is live on Product Hunt AlterContacts, the AI client relationship assistant for advisors, launches on Prod"
+        },
+        {
+          "url": "https://altercontacts.ai/blog/after-meeting-notes",
+          "text": "After meeting notes After meeting notes recap decisions, owners, and next steps within 24 hours. Alter files advisor-aut"
+        },
+        {
+          "url": "https://altercontacts.ai/blog/clients-agents",
+          "text": "Clients agents Clients agents means a pocket agent that remembers existing clients—not realtor leads, not LinkedIn outbo"
+        },
+        {
+          "url": "https://altercontacts.ai/blog/clients-note",
+          "text": "Clients note A clients note is a record attached to one person after an interaction—not a transcript, not SOAP. Alter fi"
+        },
+        {
+          "url": "https://altercontacts.ai/blog/client-follow-up-tracker",
+          "text": "A follow-up tracker that remembers why now matters. Track client promises, life events, relationship gaps, and next acti"
+        },
+        {
+          "url": "https://altercontacts.ai/blog/client-notes",
+          "text": "Client notes that are still useful before the next conversation. Turn quick post-call voice notes into organized client "
+        },
+        {
+          "url": "https://altercontacts.ai/blog/client-relationship-assistant",
+          "text": "What is a client relationship assistant? A client relationship assistant is the person, or now the AI software, that kee"
+        },
+        {
+          "url": "https://altercontacts.ai/blog/relationship-driven-businesses",
+          "text": "Client management for businesses built on trust. Voice-first client memory and follow-up for financial advisors, insuran"
+        },
+        {
+          "url": "https://altercontacts.ai/blog/voice-notes-after-client-meetings",
+          "text": "Use the thirty seconds after the meeting before the details flatten out. Capture the thirty seconds after a client meeti"
+        },
+        {
+          "url": "https://www.instagram.com/ualtercontacts/",
+          "text": ""
+        },
+        {
+          "url": "https://www.linkedin.com/company/ualtercontacts",
+          "text": ""
+        },
+        {
+          "url": "https://x.com/ualtercontacts",
+          "text": ""
+        },
+        {
+          "url": "https://discord.gg/b6dtvUwrtJ",
+          "text": ""
+        },
+        {
+          "url": "https://chat.whatsapp.com/GjQx8do4D56IxyQxb2avKy",
+          "text": ""
+        },
+        {
+          "url": "https://altercontacts.ai/about",
+          "text": "About"
+        },
+        {
+          "url": "https://altercontacts.ai/branding",
+          "text": "Branding"
+        },
+        {
+          "url": "https://altercontacts.ai/terms",
+          "text": "Terms of Service"
+        },
+        {
+          "url": "https://altercontacts.ai/privacy-policy",
+          "text": "Privacy Policy"
+        },
+        {
+          "url": "https://altercontacts.ai/data-deletion",
+          "text": "Data Deletion"
+        },
+        {
+          "url": "https://chat.whatsapp.com/B6h1dAJiIXUB61VubvS68i?s=cl&p=i&iam=2",
+          "text": "Report a bug"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-b71435795290ee9a",
+      "kind": "pricing",
+      "title": "Pricing · AlterContacts",
+      "url": "https://altercontacts.ai/pricing",
+      "collected_at": "2026-11-21T09:42:05+00:00",
+      "published_at": null,
+      "text": "What uses credits\nRoughly what each thing Alter does for you costs.\nGoogle Workspace\nConnected\nrachel.tan@gmail.com\nMicrosoft Workspace\nConnected\nrachel.tan@harbourpartners.com\nConnecting your inbox\nThe first time Alter reads your email to learn your clients is on us, once for ea",
+      "links": [
+        {
+          "url": "https://altercontacts.ai/",
+          "text": ""
+        },
+        {
+          "url": "https://altercontacts.ai/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://apps.apple.com/app/id6789568902",
+          "text": "Download for iPhone"
+        },
+        {
+          "url": "https://altercontacts.ai/checkout?plan=starter&interval=monthly",
+          "text": "Get Starter"
+        },
+        {
+          "url": "https://altercontacts.ai/checkout?plan=pro&interval=monthly",
+          "text": "Get Pro"
+        },
+        {
+          "url": "https://altercontacts.ai/checkout?plan=power&interval=monthly",
+          "text": "Get Power"
+        },
+        {
+          "url": "https://altercontacts.ai/checkout?plan=power_plus&interval=monthly",
+          "text": "Get Power Plus"
+        },
+        {
+          "url": "https://altercontacts.ai/plan",
+          "text": "Already subscribed? Your plan"
+        },
+        {
+          "url": "https://altercontacts.ai/data-deletion",
+          "text": "How deletion works."
+        },
+        {
+          "url": "https://www.instagram.com/ualtercontacts/",
+          "text": ""
+        },
+        {
+          "url": "https://www.linkedin.com/company/ualtercontacts",
+          "text": ""
+        },
+        {
+          "url": "https://x.com/ualtercontacts",
+          "text": ""
+        },
+        {
+          "url": "https://discord.gg/b6dtvUwrtJ",
+          "text": ""
+        },
+        {
+          "url": "https://chat.whatsapp.com/GjQx8do4D56IxyQxb2avKy",
+          "text": ""
+        },
+        {
+          "url": "https://altercontacts.ai/blog",
+          "text": "Blog"
+        },
+        {
+          "url": "https://altercontacts.ai/about",
+          "text": "About"
+        },
+        {
+          "url": "https://altercontacts.ai/branding",
+          "text": "Branding"
+        },
+        {
+          "url": "https://altercontacts.ai/terms",
+          "text": "Terms of Service"
+        },
+        {
+          "url": "https://altercontacts.ai/privacy-policy",
+          "text": "Privacy Policy"
+        },
+        {
+          "url": "https://chat.whatsapp.com/B6h1dAJiIXUB61VubvS68i?s=cl&p=i&iam=2",
+          "text": "Report a bug"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-525a8532a9176341",
+      "kind": "content",
+      "title": "Blog · AlterContacts",
+      "url": "https://altercontacts.ai/blog",
+      "collected_at": "2026-11-21T09:42:06+00:00",
+      "published_at": null,
+      "text": "Your AI assistant for all client relationships\nIt’s never been easier to track and manage all of your clients.\nDownload for iPhone",
+      "links": [
+        {
+          "url": "https://altercontacts.ai/",
+          "text": ""
+        },
+        {
+          "url": "https://altercontacts.ai/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://apps.apple.com/app/id6789568902",
+          "text": "Download for iPhone"
+        },
+        {
+          "url": "https://altercontacts.ai/blog/after-meeting-notes",
+          "text": "Guide August 25, 2026 After meeting notes"
+        },
+        {
+          "url": "https://altercontacts.ai/blog/clients-agents",
+          "text": "Guide August 25, 2026 Clients agents"
+        },
+        {
+          "url": "https://altercontacts.ai/blog/clients-note",
+          "text": "Guide August 25, 2026 Clients note"
+        },
+        {
+          "url": "https://altercontacts.ai/blog/client-follow-up-tracker",
+          "text": "Guide August 24, 2026 A follow-up tracker that remembers why now matters."
+        },
+        {
+          "url": "https://altercontacts.ai/blog/client-notes",
+          "text": "Guide August 24, 2026 Client notes that are still useful before the next conversation."
+        },
+        {
+          "url": "https://altercontacts.ai/blog/client-relationship-assistant",
+          "text": "Guide August 24, 2026 What is a client relationship assistant?"
+        },
+        {
+          "url": "https://altercontacts.ai/blog/relationship-driven-businesses",
+          "text": "Guide August 24, 2026 Client management for businesses built on trust."
+        },
+        {
+          "url": "https://altercontacts.ai/blog/voice-notes-after-client-meetings",
+          "text": "Guide August 24, 2026 Use the thirty seconds after the meeting before the details flatten out."
+        },
+        {
+          "url": "https://www.instagram.com/ualtercontacts/",
+          "text": ""
+        },
+        {
+          "url": "https://www.linkedin.com/company/ualtercontacts",
+          "text": ""
+        },
+        {
+          "url": "https://x.com/ualtercontacts",
+          "text": ""
+        },
+        {
+          "url": "https://discord.gg/b6dtvUwrtJ",
+          "text": ""
+        },
+        {
+          "url": "https://chat.whatsapp.com/GjQx8do4D56IxyQxb2avKy",
+          "text": ""
+        },
+        {
+          "url": "https://altercontacts.ai/blog",
+          "text": "Blog"
+        },
+        {
+          "url": "https://altercontacts.ai/about",
+          "text": "About"
+        },
+        {
+          "url": "https://altercontacts.ai/branding",
+          "text": "Branding"
+        },
+        {
+          "url": "https://altercontacts.ai/terms",
+          "text": "Terms of Service"
+        },
+        {
+          "url": "https://altercontacts.ai/privacy-policy",
+          "text": "Privacy Policy"
+        },
+        {
+          "url": "https://altercontacts.ai/data-deletion",
+          "text": "Data Deletion"
+        },
+        {
+          "url": "https://chat.whatsapp.com/B6h1dAJiIXUB61VubvS68i?s=cl&p=i&iam=2",
+          "text": "Report a bug"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-1643650d9eddedc5",
+      "kind": "listing",
+      "title": "Alter Contacts",
+      "url": "https://www.producthunt.com/products/alter-contacts-ai-client-relationships",
+      "collected_at": "2026-11-21T09:42:06+00:00",
+      "published_at": "2026-11-17T02:25:12-08:00",
+      "text": "Alter Contacts\nAI client relationship assistant that thinks and does ahead",
+      "links": [],
+      "metadata": {
+        "source_kind": "product_hunt",
+        "discovered_at": "2026-11-21T09:10:58+00:00",
+        "feed_url": "https://www.producthunt.com/feed",
+        "feed_entry_id": "tag:www.producthunt.com,2005:Post/1320128",
+        "outbound_url": "https://www.producthunt.com/r/p/1320128?app_id=339",
+        "website_status": "unconfirmed",
+        "transport": "public_atom",
+        "public_excerpt": true
+      }
+    }
+  ],
+  "actions": [
+    {
+      "id": "a-1",
+      "title": "用公开内容承接用户问题",
+      "channel": "内容营销",
+      "description": "官网提供内容入口。可从文章主题、目标读者和文章内的产品引导，研究内容如何连接产品。",
+      "source_ids": [
+        "s-525a8532a9176341"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-2",
+      "title": "在 Product Hunt 出现产品展示记录",
+      "channel": "产品发布",
+      "description": "公开目录或社区帖子提供了产品介绍入口。记录日期来自该来源，不能直接视为产品首次上线日期；提交者与产品方的关系仍需核对。",
+      "source_ids": [
+        "s-1643650d9eddedc5"
+      ],
+      "date": "2026-11-17",
+      "result": "已保存公开展示记录，尚未验证该渠道带来的访问、注册和收入。",
+      "evidence_type": "公开动作"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "产品概览",
+      "intro": "从官网、公开产品记录及可取得的仓库资料核对产品定位、功能与公开入口。",
+      "facts": [
+        {
+          "text": "A personal AI assistant for people whose business runs on client relationships. Talk to it after a meeting; it files what was said, notices who needs attention, and drafts the next move for you to approve.",
+          "source_ids": [
+            "s-aac97b3685174d27"
+          ]
+        },
+        {
+          "text": "该产品在 Product Hunt 中有公开展示记录，已保留原始链接与记录日期。公开展示不代表收入、开源状态或实际转化已核验。",
+          "source_ids": [
+            "s-1643650d9eddedc5"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "business",
+      "title": "生意与定价",
+      "intro": "定价信息来自产品自己的公开页面。收入指标需要单独的公开披露或授权数据。",
+      "facts": [
+        {
+          "text": "已找到公开定价页。套餐范围和付费周期请以原页面为准。",
+          "source_ids": [
+            "s-b71435795290ee9a"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "acquisition",
+      "title": "获客入口",
+      "intro": "下面列出已观察到的入口与动作。渠道带来的访问和付费效果仍需转化数据验证。",
+      "facts": [
+        {
+          "text": "内容页可见文本摘录：Your AI assistant for all client relationships It’s never been easier to track and manage all of your clients. Download for iPhone",
+          "source_ids": [
+            "s-525a8532a9176341"
+          ]
+        }
+      ],
+      "action_ids": [
+        "a-1",
+        "a-2"
+      ]
+    },
+    {
+      "id": "growth",
+      "title": "公开动作拆解",
+      "intro": "每个动作都关联原始资料，适合进一步研究具体做法和执行条件。",
+      "facts": [],
+      "action_ids": [
+        "a-1",
+        "a-2"
+      ]
+    },
+    {
+      "id": "social",
+      "title": "社媒与社区",
+      "intro": "本次保留官网引用的社媒与社区链接。账号归属、帖子内容和互动数据需要进一步核对。",
+      "facts": [
+        {
+          "text": "官网引用的社媒与社区链接涉及 discord.gg、linkedin.com、x.com。",
+          "source_ids": [
+            "s-aac97b3685174d27"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "timeline",
+      "title": "事件时间线",
+      "intro": "仅展示来源中明确给出日期的事件，采集时间另列。产品更新可以帮助理解推广内容的背景。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "competitors",
+      "title": "竞品研究线索",
+      "intro": "本轮采集围绕单个产品。可按目标客户、解决的问题和购买方式，再添加相关产品进行研究。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "appendix",
+      "title": "来源与数据缺口",
+      "intro": "报告保留了本次采集的来源快照。缺失指标保持为空，观察到的动作与分析建议分别呈现。",
+      "facts": [],
+      "action_ids": []
+    }
+  ],
+  "metrics": [],
+  "gaps": [
+    "连续收入序列和已核验 MRR",
+    "真实访问量及渠道占比",
+    "搜索关键词排名与点击数据",
+    "社媒帖子、互动和渠道转化数据",
+    "开源状态与许可证（本轮未确认公开仓库）",
+    "独立核对过的竞品比较"
+  ],
+  "warnings": [
+    "产品官网已通过公开链接、名称、功能和回链自动核对，依据见官网匹配记录。"
+  ],
+  "discovered_accounts": [
+    {
+      "url": "https://www.linkedin.com/company/ualtercontacts",
+      "platform": "linkedin.com",
+      "label": "linkedin.com"
+    },
+    {
+      "url": "https://x.com/ualtercontacts",
+      "platform": "x.com",
+      "label": "@ualtercontacts"
+    },
+    {
+      "url": "https://discord.gg/b6dtvUwrtJ",
+      "platform": "discord.gg",
+      "label": "discord.gg"
+    }
+  ],
+  "website_resolution": {
+    "status": "confirmed",
+    "checked_at": "2026-11-21T09:41:58+00:00",
+    "website": "https://altercontacts.ai/",
+    "method": "public_directory",
+    "evidence": [
+      {
+        "url": "https://hunted.space/product/alter-contacts-ai-client-relationships",
+        "title": "Alter Contacts · 公开目录",
+        "detail": "同名产品且链接到相同 Product Hunt 记录；第三方线索仅用于官网核对。"
+      },
+      {
+        "url": "https://altercontacts.ai/",
+        "title": "AlterContacts: the AI client relationship assistant for advisors",
+        "detail": "官网产品名称与功能匹配；回链到同一 Product Hunt 产品记录。",
+        "matched_terms": [
+          "about",
+          "advisors",
+          "altercontacts",
+          "approval",
+          "assistant",
+          "brokers",
+          "built",
+          "client",
+          "consultants",
+          "crm",
+          "data",
+          "details"
+        ]
+      }
+    ],
+    "attempts": [
+      {
+        "provider": "Product Hunt 发布链接",
+        "url": "https://www.producthunt.com/r/p/1320128?app_id=339",
+        "message": "来源返回 HTTP 403"
+      },
+      {
+        "provider": "公开产品目录",
+        "url": "https://hunted.space/product/alter-contacts-ai-client-relationships",
+        "message": "已读取同一产品的公开介绍与显式链接"
+      }
+    ],
+    "message": "已自动核对官网名称、功能与产品回链，继续采集公开资料。",
+    "identity": "altercontacts.ai"
+  }
+}

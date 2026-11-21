@@ -26,6 +26,7 @@
 | 018 | [潮光 · 游戏 Skill 能力与价值研究](projects/018-game-skill-product/README.md) | [asset-maker](https://github.com/Be1l-ai/asset-maker) · [threejs-Skills](https://github.com/zafmy/threejs-Skills) · [八项清单来源](harbor-skill-demo/skill-sources/manifest.json) | 研究 game-design-theory 等八项选型与两轮采用，在《潮光》三章动作游戏中实际调用 create-3d-assets、create-vfx、create-sfx 和 3d-ultra-realistic-water，展示低模 CSG/AO、24 帧特效、材质音效与动态海面，保留来源、配方、实录和验证。确认资源与代码复用；新增玩法单独归属，同模型 A/B、开发提速、返工减少与玩家偏好增益尚未证实。 | [已有研究总览图](#game-skill-product-guide) | [在线研究与效果](https://yydshly.github.io/20261104_codex_project/018-game-skill-product/research.html#overview) · [完整游戏](https://yydshly.github.io/20261104_codex_project/018-game-skill-product/) |
 | 019 | [投影打怪玩具：效果、意义与研究判断](projects/019-projection-play-study/README.md) | [noni__z 原帖](https://x.com/noni__z/status/2120168976135209223) · Nex / LUMOplay 官方资料 | 归档可见效果、童趣解释、产品能力与家庭意义，保留城市扩展和偏题纸样。当前新增研究价值有限，停止继续立项与演示；原机、复玩和付费未实测。 | [一图汇总](#projection-play-guide) | [研究归档网页](https://yydshly.github.io/20261104_codex_project/019-projection-play-study/) |
 | 020 | [知识库与客服业务闭环研究](projects/020-knowledge-service/README.md) | 自主架构探索 · [工作流与路由参考](https://www.anthropic.com/research/building-effective-agents) | 研究知识库怎样支撑可信回答、按需分析和客服跟进。以共享证据、模型路由、统一交流、规则确认与人工闭环构成架构，用包裹延迟原型和30项能力对照说明实现边界；双模型与真实收益待试点验证。 | [已有双模型引导图](#knowledge-service-guide) | [在线研究与演示](https://yydshly.github.io/20261104_codex_project/020-knowledge-service/) |
+| 021 | [公开产品信息与获客研究库](projects/021-growth-casebook/README.md) | [研究起点](https://x.com/yihui_indie/status/2119973315745812674) · GitHub、BetaList、Show HN 与 Product Hunt 公开来源 | 研究免费公开资料怎样成为带来源的中文报告与可比较案例。通过官网核对、固定结构与版本保存积累研究资产，为我们的选题、竞品学习和小实验假设提供依据；真实省时、获客成效与付费价值待验证。 | [已有研究全景图](#growth-casebook-guide) | [在线研究与案例快照](https://yydshly.github.io/20261104_codex_project/021-growth-casebook/) |
 
 项目按收录顺序从 `001` 开始编号。新条目按编号追加，已分配的编号保持固定。索引摘要用一两句话写清研究对象和关注点。完成验证后，可补上一条主要发现。
 
@@ -305,3 +306,19 @@ Adam Chernick 个人制作、扩展和组合的网页 3D 实验，部分基于 T
 网页保留两张已有引导图、八步目标场景、9个实施主题与30项可筛选能力（14已实现、4演示、12待开发），每项列负责人、下一步和验收条件。公开版在浏览器内存运行教学规则，刷新清空；服务端机制以Node本地源码为准。35项自动测试通过。真实模型、鉴权、持久化、异步协调、承运商与坐席尚未接入，生产收益未验证。
 
 [研究摘要](https://yydshly.github.io/20261104_codex_project/020-knowledge-service/#research) · [实施全景](https://yydshly.github.io/20261104_codex_project/020-knowledge-service/#guide/overview) · [能力对照](https://yydshly.github.io/20261104_codex_project/020-knowledge-service/#guide/capabilities) · [研究与源码](projects/020-knowledge-service/README.md)
+
+<a id="growth-casebook-guide"></a>
+
+### 021 · 公开产品信息与获客研究库
+
+研究免费公开来源怎样支撑产品与获客研究，从发现产品、核对官网、采集资料，走到固定章节的中文报告、来源回查与案例检索。首版覆盖开源工具与没有公开仓库的商业产品，保留同名核对、未知项、失败记录和历史版本。
+
+![产品研究全景图：研究内容、使用与数据入口、处理流程、报告输出、验证结果、价值与限制及待验证扩展](growth-casebook/static/research-map/research-overview.png)
+
+价值在减少重复查找、支持同结构比较，把零散收藏积累成可复核的研究资产。对我们的意义是为产品选题、竞品学习、小实验假设和后续投入判断提供依据，并复用采集、身份核对与报告的方法。实际省时、决策改善、获客成效和付费价值仍需真实使用验证。
+
+2026 年 11 月 21 日的阶段快照包含 32 个产品、222 条来源记录和 202 条公开入口与动作；Product Hunt 首批处理 5 个产品，3 个自动补齐官网，2 个保留简报。沿用已经生成的原引导图，扩展设想单独标为待设计、待验证。
+
+[在线研究与案例快照](https://yydshly.github.io/20261104_codex_project/021-growth-casebook/) · [研究摘要与意义](projects/021-growth-casebook/README.md) · [本地采集与源码说明](growth-casebook/README.md)
+
+公开版可阅读案例、历史报告和来源摘录；采集与更新仍在本地 8766 运行。连续收入、真实流量、渠道转化与因果归因尚未取得，公开动作不能直接证明商业成效。

@@ -1,0 +1,656 @@
+{
+  "schema_version": "1.0",
+  "project_id": "6390e18a5505408ea8920f1339a6a9ec",
+  "version": 1,
+  "generated_at": "2026-11-21T08:03:56+00:00",
+  "mode": "evidence",
+  "summary": "围绕 open-webui 核对了 8 份公开资料，整理出 8 条入口与动作。可继续研究的方向包括内容营销、开发者生态。",
+  "summary_source_ids": [],
+  "translations": {
+    "### Added - **Bring your own computer with Tether.** Tether turns your own computer into part of Open WebUI: models from Ollama, LM Studio or any OpenAI-compatible server, OpenAPI and MCP tool servers and Open Terminal servers that you add in the Tether app now show up just for you in the model selector, the Tools list of the + ": "添加 - 将自己的电脑带入绳索.绳索将你自己的计算机变成Open WebUI的一部分:来自Ollama,LM Studio或任何OpenAI兼容服务器的模型,OpenAPI和MCP工具服务器以及您在绳索应用中添加的Open Terminal服务器现在都出现了.仅供您在模型选择器中使用 + 的工具列表",
+    "### Added - 🦾 **Agents in automations.** The automation editor now lets you choose a terminal and working folder, then select a coding agent available there. Scheduled runs use that saved terminal and folder, and check that the terminal and agent are still available before starting. Agent automations send their results to a chat": "添加 - 自动化的代理。自动化编辑器现在允许您选择终端和工作文件夹,然后选择那里可用的编码代理.已排定运行使用保存终端和文件夹, 并检查终端和代理在开始前是否仍然可用 。代理自动化将结果传送到聊天室",
+    "### Added - 🦾 **Coding agents as models.** On an Open Terminal that offers agents, coding agents such as Claude Code, Codex and Pi now appear in the model picker. You can chat with them or call them by voice, choose their reasoning effort and service tier, and approve their tool requests in the chat. Each conversation uses one a": "添加 - QQ 编码代理作为模型. 在提供代理商的开放终端上,克劳德代码,Codex和Pi等编码代理商现在出现在模型拾取器中. 你可以和他们聊天或通过语音呼叫他们,选择他们的推理努力和服务层次,并在聊天中批准他们的工具请求. 每次谈话都用一个a",
+    "### Fixed - 🔓 **Chat over plain HTTP.** Opening Open WebUI over plain HTTP at a LAN or Docker address now loads new and existing chats instead of staying on a spinner with \"crypto.randomUUID is not a function\". #33919 - 📝 **Comments and Markdown editing over plain HTTP.** Creating, replying to and editing comments, and editing M": "- 固定 - 聊天过普通的HTTP。 在局域网或Docker地址上打开 Open WebUI 之上的 Plain HTTP 现在加载新的和已有的聊天,而不是停留在带有\"crypto.randomUUID不是函数\"的旋转器上.33919 - QQ评论和Markdown编辑在Plain HTTP上.创建、答复和编辑评论以及编辑 M",
+    "Open WebUI: Self-Hosted AI Platform": "开放 WebUI:自控AI平台",
+    "README 内容摘录：Open WebUI Open WebUI is a home for AI : an extensible, easy-to-use, self-hosted platform built to run entirely offline. Connect local models through Ollama or use OpenAI-compatible APIs for local and cloud models. English | 简体中文 ": "README 内容摘录：Open WebUI Open WebUI是AI的家:一个可扩展,易于使用,自托管的平台,为完全下线运行而建造. 通过 Ollama 连接本地模型,或使用 OpenAI 兼容的 API 用于本地模型和云模型. 英语 | 简体中文",
+    "Run AI on your own terms. Connect any model, extend with code, and protect what matters without compromise.": "按自己的需求运行 AI，可连接任意模型、通过代码扩展，并自主保护重要数据。",
+    "open-webui/open-webui": "打开网/打开网",
+    "open-webui/open-webui README": "打开网/打开网 读取"
+  },
+  "sources": [
+    {
+      "id": "s-438dbf870fc24cbe",
+      "kind": "website",
+      "title": "Open WebUI: Self-Hosted AI Platform",
+      "url": "https://openwebui.com/",
+      "collected_at": "2026-11-21T08:03:51+00:00",
+      "published_at": null,
+      "text": "Product\nResources\nCommunity\nCustomers\nSign In\nOpen WebUI\nThe freedom AI stack.\nRun AI on your own terms. Connect any model, extend with code, and protect what matters\nwithout compromise. Your models, your data, your machine, wherever you open it.\nGet Open WebUI\nJoin the community",
+      "links": [
+        {
+          "url": "https://openwebui.com/",
+          "text": ""
+        },
+        {
+          "url": "https://openwebui.com/sovereign-ai",
+          "text": "Sovereign AI On-premises, in your cloud, or fully air-gapped."
+        },
+        {
+          "url": "https://openwebui.com/open-terminal",
+          "text": "Open Terminal A computer for your AI agents."
+        },
+        {
+          "url": "https://openwebui.com/blog",
+          "text": "Blog News and ideas from the team."
+        },
+        {
+          "url": "https://docs.openwebui.com",
+          "text": "Docs Get started and explore the documentation."
+        },
+        {
+          "url": "https://openwebui.com/switch",
+          "text": "Switch Make the case, run a pilot, and plan your rollout."
+        },
+        {
+          "url": "https://openwebui.com/home",
+          "text": "Community Explore what the community is building."
+        },
+        {
+          "url": "https://openwebui.com/customers",
+          "text": "Customers See how teams use Open WebUI."
+        },
+        {
+          "url": "https://careers.openwebui.com",
+          "text": "Careers Join the Open WebUI team."
+        },
+        {
+          "url": "https://openwebui.com/auth?type=login",
+          "text": "Sign In"
+        },
+        {
+          "url": "https://github.com/open-webui/open-webui",
+          "text": "Get Open WebUI"
+        },
+        {
+          "url": "https://openwebui.com/contact/sales",
+          "text": "Looking for Enterprise? Talk to our team →"
+        },
+        {
+          "url": "https://docs.openwebui.com/",
+          "text": "Learn more"
+        },
+        {
+          "url": "https://openwebui.com/search?type=model",
+          "text": "Models Any persona, any configuration"
+        },
+        {
+          "url": "https://openwebui.com/search?type=skill",
+          "text": "Skills Reusable instructions and supporting files"
+        },
+        {
+          "url": "https://openwebui.com/search?type=tool",
+          "text": "Tools RAG, search, execution"
+        },
+        {
+          "url": "https://openwebui.com/search?type=function",
+          "text": "Functions Python pipelines"
+        },
+        {
+          "url": "https://docs.openwebui.com/enterprise",
+          "text": "Enterprise options"
+        },
+        {
+          "url": "https://openwebui.com/blog/v0-13-4-ai-that-does-the-work-not-just-answers",
+          "text": "November 19, 2026 Open WebUI v0.13.4: AI that does the work, not just answers Ask for a chart and get one you can click,"
+        },
+        {
+          "url": "https://openwebui.com/blog/introducing-terminals",
+          "text": "November 18, 2026 Introducing Terminals: a computer for everyone on your team in Open WebUI Terminals runs a sandboxed c"
+        },
+        {
+          "url": "https://openwebui.com/blog/what-is-open-terminal-in-open-webui",
+          "text": "November 18, 2026 What is Open Terminal, the computer your model works on in Open WebUI Open Terminal gives the model in"
+        },
+        {
+          "url": "https://x.com/openwebui",
+          "text": ""
+        },
+        {
+          "url": "https://discord.gg/open-webui",
+          "text": ""
+        },
+        {
+          "url": "https://openwebui.com/alternatives",
+          "text": "Alternatives"
+        },
+        {
+          "url": "https://github.com/open-webui/open-webui/releases",
+          "text": "Changelog"
+        },
+        {
+          "url": "https://openwebui.com/defense",
+          "text": "Defense"
+        },
+        {
+          "url": "https://openwebui.com/government",
+          "text": "Government"
+        },
+        {
+          "url": "https://openwebui.com/healthcare",
+          "text": "Healthcare"
+        },
+        {
+          "url": "https://openwebui.com/education",
+          "text": "Education"
+        },
+        {
+          "url": "https://openwebui.com/finance",
+          "text": "Finance"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-c6ccecf2e4fe33aa",
+      "kind": "content",
+      "title": "Blog • Open WebUI",
+      "url": "https://openwebui.com/blog",
+      "collected_at": "2026-11-21T08:03:53+00:00",
+      "published_at": null,
+      "text": "Product\nResources\nCommunity\nCustomers\nSign In\nNovember 19, 2026\nOpen WebUI v0.13.4: AI that does the work, not just answers\nAsk for a chart and get one you can click, make a video from a picture, and hand whole jobs to agents like Claude Code and Codex, from any device.\nAll artic",
+      "links": [
+        {
+          "url": "https://openwebui.com/",
+          "text": ""
+        },
+        {
+          "url": "https://openwebui.com/sovereign-ai",
+          "text": "Sovereign AI On-premises, in your cloud, or fully air-gapped."
+        },
+        {
+          "url": "https://openwebui.com/open-terminal",
+          "text": "Open Terminal A computer for your AI agents."
+        },
+        {
+          "url": "https://openwebui.com/blog",
+          "text": "Blog News and ideas from the team."
+        },
+        {
+          "url": "https://docs.openwebui.com",
+          "text": "Docs Get started and explore the documentation."
+        },
+        {
+          "url": "https://openwebui.com/switch",
+          "text": "Switch Make the case, run a pilot, and plan your rollout."
+        },
+        {
+          "url": "https://openwebui.com/home",
+          "text": "Community Explore what the community is building."
+        },
+        {
+          "url": "https://openwebui.com/customers",
+          "text": "Customers See how teams use Open WebUI."
+        },
+        {
+          "url": "https://careers.openwebui.com",
+          "text": "Careers Join the Open WebUI team."
+        },
+        {
+          "url": "https://openwebui.com/auth?type=login",
+          "text": "Sign In"
+        },
+        {
+          "url": "https://openwebui.com/blog/v0-13-4-ai-that-does-the-work-not-just-answers",
+          "text": "November 19, 2026 Open WebUI v0.13.4: AI that does the work, not just answers Ask for a chart and get one you can click,"
+        },
+        {
+          "url": "https://openwebui.com/blog/introducing-terminals",
+          "text": "news / November 18, 2026 Introducing Terminals: a computer for everyone on your team in Open WebUI Terminals runs a sand"
+        },
+        {
+          "url": "https://openwebui.com/blog/what-is-open-terminal-in-open-webui",
+          "text": "Guide / November 18, 2026 What is Open Terminal, the computer your model works on in Open WebUI Open Terminal gives the "
+        },
+        {
+          "url": "https://openwebui.com/blog/put-your-model-to-real-work-in-open-webui",
+          "text": "Guide / November 18, 2026 Put your model to real work in Open WebUI Our team uses Codex and Claude Code in Open WebUI fo"
+        },
+        {
+          "url": "https://openwebui.com/blog/v0-13-0-your-model-gets-a-computer",
+          "text": "news / November 4, 2026 Open WebUI v0.13.0: your model gets a computer Open WebUI v0.13.0 gives your team's models a des"
+        },
+        {
+          "url": "https://openwebui.com/blog/v0-12-4-and-v0-12-5-accessibility-and-shared-notes",
+          "text": "news / November 4, 2026 Open WebUI v0.12.4 and v0.12.5: screen readers, shared notes, and session analytics Open WebUI v"
+        },
+        {
+          "url": "https://openwebui.com/blog/open-webui-and-nvidia-rtx-spark",
+          "text": "news / October 16, 2026 Open WebUI and NVIDIA RTX Spark As an early access partner for NVIDIA RTX Spark, we're exploring"
+        },
+        {
+          "url": "https://openwebui.com/blog/v0-12-1-channel-apps-avatars-in-standard-calls",
+          "text": "news / October 14, 2026 Open WebUI v0.12.1: Channel Apps, Avatars in Standard Calls Open WebUI v0.12.1 lets external app"
+        },
+        {
+          "url": "https://openwebui.com/blog/v0-12-0-a-voice-that-talks-back-and-a-face-to-go-with-it",
+          "text": "news / October 10, 2026 Open WebUI v0.12.0: A Voice That Talks Back, and a Face to Go With It Open WebUI v0.12.0 adds re"
+        },
+        {
+          "url": "https://openwebui.com/blog/do-you-need-a-bigger-model-or-better-retrieval",
+          "text": "Guide / September 7, 2026 Do You Need a Bigger Model, or Better Retrieval? A local model missed a date sitting in six ti"
+        },
+        {
+          "url": "https://openwebui.com/blog/the-feature-youre-waiting-for-might-already-be-a-plugin",
+          "text": "Guide / August 25, 2026 The Feature You're Waiting For Might Already Be a Plugin What Open WebUI's plugin system actuall"
+        },
+        {
+          "url": "https://openwebui.com/blog/community-newsletter-august-25th-2026",
+          "text": "Newsletter / August 25, 2026 Community Newsletter, August 25th 2026 The community newsletter returns with five hands-on-"
+        },
+        {
+          "url": "https://openwebui.com/blog/v0-11-1-the-model-learns-to-stop-and-ask",
+          "text": "news / August 25, 2026 Open WebUI v0.11.1: The Model Learns to Stop and Ask Open WebUI v0.11.1 adds tool-call approvals,"
+        },
+        {
+          "url": "https://openwebui.com/blog/how-your-ai-homelab-scales-into-national-infrastructure",
+          "text": "Sovereign AI / August 5, 2026 How Your AI Homelab Scales Into National Infrastructure The same self-hosted AI pattern ca"
+        },
+        {
+          "url": "https://openwebui.com/blog/v0-11-0-the-interface-reorganized",
+          "text": "news / July 27, 2026 Open WebUI v0.11.0: The Interface, Reorganized A tour of the v0.11.0 interface reorganization: unif"
+        },
+        {
+          "url": "https://openwebui.com/blog/sovereign-ai",
+          "text": "Sovereign AI / July 19, 2026 Sovereign AI: Definition, Stack, Examples, and How to Build It with Open WebUI in 2026 Lear"
+        },
+        {
+          "url": "https://openwebui.com/blog/open-webui-openrouter-interface-and-inference-for-enterprise-ai",
+          "text": "news / May 31, 2026 Open WebUI + OpenRouter: Interface and Inference for Enterprise AI One Interface. Every Model. Open "
+        },
+        {
+          "url": "https://openwebui.com/blog/community-newsletter-march-17th-2026",
+          "text": "newsletter / March 18, 2026 Community Newsletter, March 17th 2026 This week’s picks focused on speed and practicality: q"
+        },
+        {
+          "url": "https://openwebui.com/blog/your-ai-setup-is-missing-a-layer",
+          "text": "local / March 16, 2026 Your AI Setup Is Missing a Layer Why the smartest AI setup runs both local and cloud. Open WebUI "
+        },
+        {
+          "url": "https://openwebui.com/blog/what-would-it-take-for-a-law-firm-to-run-ai-in-house",
+          "text": "guide / March 11, 2026 What Would It Take for a Law Firm to Run AI In-House? For managing partners, CIOs, and legal tech"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-7c94eb734f17ebfc",
+      "kind": "repository",
+      "title": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "collected_at": "2026-11-21T08:03:54+00:00",
+      "published_at": null,
+      "text": "{\"full_name\": \"open-webui/open-webui\", \"stargazers_count\": 159188, \"forks_count\": 23104, \"open_issues_count\": 285, \"language\": \"Svelte\", \"license\": {\"key\": \"other\", \"name\": \"Other\", \"spdx_id\": \"NOASSERTION\", \"url\": null, \"node_id\": \"MDc6TGljZW5zZTA=\"}, \"created_at\": \"2023-10-06T2",
+      "links": [],
+      "metadata": {
+        "full_name": "open-webui/open-webui",
+        "stargazers_count": 159188,
+        "forks_count": 23104,
+        "open_issues_count": 285,
+        "language": "Svelte",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "created_at": "2023-10-06T22:08:27Z",
+        "pushed_at": "2026-11-20T22:14:46Z",
+        "topics": [
+          "ai",
+          "llm",
+          "llm-ui",
+          "llm-webui",
+          "llms",
+          "mcp",
+          "ollama",
+          "ollama-webui",
+          "open-webui",
+          "openai",
+          "openapi",
+          "rag",
+          "self-hosted",
+          "ui",
+          "webui"
+        ],
+        "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+        "homepage": "https://openwebui.com",
+        "archived": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-f36922c1ee602760",
+      "kind": "readme",
+      "title": "open-webui/open-webui README",
+      "url": "https://github.com/open-webui/open-webui/blob/main/README.md",
+      "collected_at": "2026-11-21T08:03:55+00:00",
+      "published_at": null,
+      "text": "<h2>Open WebUI</h2>\n\n<p>Open WebUI is <a href=\"https://docs.openwebui.com/\"><strong>a home for AI</strong></a>: an extensible, easy-to-use, self-hosted platform built to run entirely offline. Connect local models through Ollama or use OpenAI-compatible APIs for local and cloud mo",
+      "links": [],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-984b1b256996788c",
+      "kind": "release",
+      "title": "v0.13.4",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.13.4",
+      "collected_at": "2026-11-21T08:03:56+00:00",
+      "published_at": "2026-11-17T14:46:26Z",
+      "text": "\n### Added\n\n- **Bring your own computer with Tether.** Tether turns your own computer into part of Open WebUI: models from Ollama, LM Studio or any OpenAI-compatible server, OpenAPI and MCP tool servers and Open Terminal servers that you add in the Tether app now show up just for",
+      "links": [],
+      "metadata": {
+        "tag": "v0.13.4",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-39ffeccec83e6a89",
+      "kind": "release",
+      "title": "v0.13.3",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.13.3",
+      "collected_at": "2026-11-21T08:03:56+00:00",
+      "published_at": "2026-11-08T23:48:24Z",
+      "text": "\n### Added\n\n- 🦾 **Agents in automations.** The automation editor now lets you choose a terminal and working folder, then select a coding agent available there. Scheduled runs use that saved terminal and folder, and check that the terminal and agent are still available before star",
+      "links": [],
+      "metadata": {
+        "tag": "v0.13.3",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-1228507ec8203815",
+      "kind": "release",
+      "title": "v0.13.2",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.13.2",
+      "collected_at": "2026-11-21T08:03:56+00:00",
+      "published_at": "2026-11-08T11:53:42Z",
+      "text": "\n### Fixed\n\n- 🔓 **Chat over plain HTTP.** Opening Open WebUI over plain HTTP at a LAN or Docker address now loads new and existing chats instead of staying on a spinner with \"crypto.randomUUID is not a function\". [#33919](https://github.com/open-webui/open-webui/issues/33919)\n- 📝",
+      "links": [],
+      "metadata": {
+        "tag": "v0.13.2",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-8d14df2b9c9c78ee",
+      "kind": "release",
+      "title": "v0.13.1",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.13.1",
+      "collected_at": "2026-11-21T08:03:56+00:00",
+      "published_at": "2026-11-08T11:07:53Z",
+      "text": "\n### Added\n\n- 🦾 **Coding agents as models.** On an Open Terminal that offers agents, coding agents such as Claude Code, Codex and Pi now appear in the model picker. You can chat with them or call them by voice, choose their reasoning effort and service tier, and approve their too",
+      "links": [],
+      "metadata": {
+        "tag": "v0.13.1",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    }
+  ],
+  "actions": [
+    {
+      "id": "a-1",
+      "title": "用公开内容承接用户问题",
+      "channel": "内容营销",
+      "description": "官网提供内容入口。可从文章主题、目标读者和文章内的产品引导，研究内容如何连接产品。",
+      "source_ids": [
+        "s-c6ccecf2e4fe33aa"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-2",
+      "title": "维护公开代码仓库",
+      "channel": "开发者生态",
+      "description": "公开代码、README 和发布记录让开发者能够评估项目、参与讨论或尝试部署。Stars 与 Forks 表示公开互动规模。",
+      "source_ids": [
+        "s-7c94eb734f17ebfc"
+      ],
+      "date": null,
+      "result": "本次记录了仓库当前的 Stars 与 Forks 快照，收入和付费客户数需要另行核对。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-3",
+      "title": "GitHub 仓库建立",
+      "channel": "项目历史",
+      "description": "GitHub API 记录的仓库创建日期。产品上线日期需要其他来源确认。",
+      "source_ids": [
+        "s-7c94eb734f17ebfc"
+      ],
+      "date": "2023-10-06",
+      "result": "已取得仓库创建时间。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-4",
+      "title": "为自行部署的用户提供路径",
+      "channel": "开发者生态",
+      "description": "README 出现自托管或 Docker 部署说明。可研究免费部署入口与托管服务之间的使用路径。",
+      "source_ids": [
+        "s-f36922c1ee602760"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-5",
+      "title": "发布 v0.13.4",
+      "channel": "产品更新",
+      "description": "### Added - **Bring your own computer with Tether.** Tether turns your own computer into part of Open WebUI: models from Ollama, LM Studio or any OpenAI-compatible server, OpenAPI and MCP tool servers and Open Terminal servers that you add in the Tether app now show up just for you in the model selector, the Tools list of the + ",
+      "source_ids": [
+        "s-984b1b256996788c"
+      ],
+      "date": "2026-11-17",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-6",
+      "title": "发布 v0.13.3",
+      "channel": "产品更新",
+      "description": "### Added - 🦾 **Agents in automations.** The automation editor now lets you choose a terminal and working folder, then select a coding agent available there. Scheduled runs use that saved terminal and folder, and check that the terminal and agent are still available before starting. Agent automations send their results to a chat",
+      "source_ids": [
+        "s-39ffeccec83e6a89"
+      ],
+      "date": "2026-11-08",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-7",
+      "title": "发布 v0.13.2",
+      "channel": "产品更新",
+      "description": "### Fixed - 🔓 **Chat over plain HTTP.** Opening Open WebUI over plain HTTP at a LAN or Docker address now loads new and existing chats instead of staying on a spinner with \"crypto.randomUUID is not a function\". #33919 - 📝 **Comments and Markdown editing over plain HTTP.** Creating, replying to and editing comments, and editing M",
+      "source_ids": [
+        "s-1228507ec8203815"
+      ],
+      "date": "2026-11-08",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-8",
+      "title": "发布 v0.13.1",
+      "channel": "产品更新",
+      "description": "### Added - 🦾 **Coding agents as models.** On an Open Terminal that offers agents, coding agents such as Claude Code, Codex and Pi now appear in the model picker. You can chat with them or call them by voice, choose their reasoning effort and service tier, and approve their tool requests in the chat. Each conversation uses one a",
+      "source_ids": [
+        "s-8d14df2b9c9c78ee"
+      ],
+      "date": "2026-11-08",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "产品概览",
+      "intro": "从官网和公开仓库核对产品定位、功能与公开入口。",
+      "facts": [
+        {
+          "text": "Run AI on your own terms. Connect any model, extend with code, and protect what matters without compromise.",
+          "source_ids": [
+            "s-438dbf870fc24cbe"
+          ]
+        },
+        {
+          "text": "README 内容摘录：Open WebUI Open WebUI is a home for AI : an extensible, easy-to-use, self-hosted platform built to run entirely offline. Connect local models through Ollama or use OpenAI-compatible APIs for local and cloud models. English | 简体中文 ",
+          "source_ids": [
+            "s-f36922c1ee602760"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "business",
+      "title": "生意与定价",
+      "intro": "定价信息来自产品自己的公开页面。收入指标需要单独的公开披露或授权数据。 本轮未取得独立定价页。",
+      "facts": [
+        {
+          "text": "公开仓库为 open-webui/open-webui，API 标注许可证为 Other。",
+          "source_ids": [
+            "s-7c94eb734f17ebfc"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "acquisition",
+      "title": "获客入口",
+      "intro": "下面列出已观察到的入口与动作。渠道带来的访问和付费效果仍需转化数据验证。",
+      "facts": [
+        {
+          "text": "内容页可见文本摘录：Product Resources Community Customers Sign In November 19, 2026 Open WebUI v0.13.4: AI that does the work, not just answers Ask for a chart and get one you can click, make a video from a picture, and hand whole jobs to a",
+          "source_ids": [
+            "s-c6ccecf2e4fe33aa"
+          ]
+        }
+      ],
+      "action_ids": [
+        "a-1",
+        "a-2",
+        "a-4"
+      ]
+    },
+    {
+      "id": "growth",
+      "title": "公开动作拆解",
+      "intro": "每个动作都关联原始资料，适合进一步研究具体做法和执行条件。",
+      "facts": [],
+      "action_ids": [
+        "a-1",
+        "a-2",
+        "a-3",
+        "a-4",
+        "a-5",
+        "a-6",
+        "a-7",
+        "a-8"
+      ]
+    },
+    {
+      "id": "social",
+      "title": "社媒与社区",
+      "intro": "本次保留官网引用的社媒与社区链接。账号归属、帖子内容和互动数据需要进一步核对。",
+      "facts": [
+        {
+          "text": "官网引用的社媒与社区链接涉及 discord.gg、x.com。",
+          "source_ids": [
+            "s-438dbf870fc24cbe"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "timeline",
+      "title": "事件时间线",
+      "intro": "仅展示来源中明确给出日期的事件，采集时间另列。产品更新可以帮助理解推广内容的背景。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "competitors",
+      "title": "竞品研究线索",
+      "intro": "本轮采集围绕单个产品。可按目标客户、解决的问题和购买方式，再添加相关产品进行研究。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "appendix",
+      "title": "来源与数据缺口",
+      "intro": "报告保留了本次采集的来源快照。缺失指标保持为空，观察到的动作与分析建议分别呈现。",
+      "facts": [],
+      "action_ids": []
+    }
+  ],
+  "metrics": [
+    {
+      "name": "GitHub Stars",
+      "value": 159188,
+      "unit": "stars",
+      "source_id": "s-7c94eb734f17ebfc",
+      "observed_at": "2026-11-21T08:03:54+00:00"
+    },
+    {
+      "name": "Forks",
+      "value": 23104,
+      "unit": "forks",
+      "source_id": "s-7c94eb734f17ebfc",
+      "observed_at": "2026-11-21T08:03:54+00:00"
+    }
+  ],
+  "gaps": [
+    "连续收入序列和已核验 MRR",
+    "真实访问量及渠道占比",
+    "搜索关键词排名与点击数据",
+    "社媒帖子、互动和渠道转化数据",
+    "可解析的定价页",
+    "独立核对过的竞品比较"
+  ],
+  "warnings": [],
+  "discovered_accounts": [
+    {
+      "url": "https://x.com/openwebui",
+      "platform": "x.com",
+      "label": "@openwebui"
+    },
+    {
+      "url": "https://discord.gg/open-webui",
+      "platform": "discord.gg",
+      "label": "discord.gg"
+    },
+    {
+      "url": "https://discord.gg/5rJgQTnV4s",
+      "platform": "discord.gg",
+      "label": "discord.gg"
+    }
+  ],
+  "coverage": "website"
+}

@@ -1,0 +1,567 @@
+{
+  "schema_version": "1.0",
+  "project_id": "f930f1bc70ff4a9cb2757b1bc1f42748",
+  "version": 1,
+  "generated_at": "2026-11-21T08:52:25+00:00",
+  "mode": "evidence",
+  "summary": "围绕 Triremes 核对了 4 份公开资料，整理出 2 条入口与动作。可继续研究的方向包括产品发布、内容营销。",
+  "summary_source_ids": [],
+  "translations": {
+    "Blog: new and most reported problems · Triremes": "博客:新问题和大多数报告的问题 · Triremes",
+    "Pricing: SEO leads, problem leads and idea reports": "定价:标准评价领导、问题领导和想法报告",
+    "Triremes is a marketplace of SEO and AEO leads: business websites that fail search and AI search checks, sold to agencies and web designers, $1 to $29 each.": "面向营销机构和网站设计师的 SEO/AEO 销售线索市场，提供在搜索与 AI 搜索检查中存在问题的企业网站线索，每条售价 1 至 29 美元。",
+    "Triremes – Discover real software problems and businesses that need your fix": "特里梅斯 — 发现真正的软件问题和需要你解决的企业",
+    "Triremes: SEO and AEO leads for agencies and web designers": "Triremes:机构和网络设计员的高级管理办公室和AEO领导",
+    "内容页可见文本摘录：Blog Each week, the problems new to Triremes; each month, the most reported ones; and most days, one kind of problem, or one SEO / AEO gap websites have and what to do about it. Compiled from Triremes data. RSS feed . 66": "内容页可见文本摘录：每周博客,Triremes的新问题;(a) 每月报告最多的;和大多数的日子, 一种问题, 或者一个SIO/AEO漏洞网站 有和如何做它。由Triremes数据编译.RSS feed . [永久失效連結] (中文(简体) ).66个",
+    "定价页中的原始片段：026 . Websites with poor SEO / AEO $1 to $29 a website , by its lead rank : what you get with it. Each；Websites with poor SEO / AEO $1 to $29 a website , by its lead rank : what you get with it. Each is a b；1 contact person, email and phone $29 Rank 2 email and phone $19 Rank 3 email or phone $9 Rank 4 detai": "定价页中的原始片段：026 (英语).网站的SEO差 / AEO 1到29美元, 按其领先级别划分 : 你拿它得到了什么。 各别网站的SEO差 / AEO 1到29美元, 按其领先级别划分 : 你拿它得到了什么。每一个都是b1名联系人、电子邮件和电话 29名 2名 电子邮件和电话 19名 3名 电子邮件或电话 9名 4名 detai"
+  },
+  "sources": [
+    {
+      "id": "s-9efa9d7fb641e31e",
+      "kind": "website",
+      "title": "Triremes: SEO and AEO leads for agencies and web designers",
+      "url": "https://triremes.com/",
+      "collected_at": "2026-11-21T08:52:24+00:00",
+      "published_at": null,
+      "text": "SEO and AEO leads for agencies and web designers\nFind\n1,097,936\nbusiness websites, each measured by Triremes for gaps in what search engines and AI answer engines can read: businesses that already need your help.\nSee a free sample lead\nHow it works\nStep 1:\nFind the websites\nSearc",
+      "links": [
+        {
+          "url": "https://triremes.com/",
+          "text": "Skip to content"
+        },
+        {
+          "url": "https://triremes.com/problems",
+          "text": "Problems"
+        },
+        {
+          "url": "https://triremes.com/website-gaps",
+          "text": "Poor SEO / AEO"
+        },
+        {
+          "url": "https://triremes.com/how-it-works",
+          "text": "How it works"
+        },
+        {
+          "url": "https://triremes.com/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://triremes.com/lead-quality",
+          "text": "Lead quality"
+        },
+        {
+          "url": "https://triremes.com/hot-markets",
+          "text": "Hot Markets"
+        },
+        {
+          "url": "https://triremes.com/samples",
+          "text": "Samples"
+        },
+        {
+          "url": "https://triremes.com/blog",
+          "text": "Blog"
+        },
+        {
+          "url": "https://triremes.com/search",
+          "text": "Search"
+        },
+        {
+          "url": "https://triremes.com/login",
+          "text": "Log in"
+        },
+        {
+          "url": "https://triremes.com/cart",
+          "text": ""
+        },
+        {
+          "url": "https://triremes.com/sample/website",
+          "text": "See a free sample lead"
+        },
+        {
+          "url": "https://triremes.com/website-gaps?rank=1",
+          "text": "Step 2: Pick a lead Its rank, 1 to 4, says which contact details come with it. Start with rank 1."
+        },
+        {
+          "url": "https://triremes.com/seo-leads",
+          "text": "Step 3: Sell the fix Offer the business the fix for the checks its homepage failed."
+        },
+        {
+          "url": "https://triremes.com/website-gaps?rank=2",
+          "text": "Rank 2 email and phone 38,178 websites"
+        },
+        {
+          "url": "https://triremes.com/website-gaps?rank=3",
+          "text": "Rank 3 email or phone 35,979 websites"
+        },
+        {
+          "url": "https://triremes.com/website-gaps?rank=4",
+          "text": "Rank 4 details missing 1,010,041 websites"
+        },
+        {
+          "url": "https://triremes.com/website-gaps?category=Restaurant&city=New+York&country=US&region=NY",
+          "text": "Restaurant in New York, NY, United States 23 websites"
+        },
+        {
+          "url": "https://triremes.com/website-gaps?category=Offices+of+Lawyers&city=Washington&country=US&region=DC",
+          "text": "Offices of Lawyers in Washington, DC, United States 18 websites"
+        },
+        {
+          "url": "https://triremes.com/website-gaps?category=Restaurant&city=Brooklyn&country=US&region=NY",
+          "text": "Restaurant in Brooklyn, NY, United States 18 websites"
+        },
+        {
+          "url": "https://triremes.com/website-gaps?category=Restaurant&city=Chicago&country=US&region=IL",
+          "text": "Restaurant in Chicago, IL, United States 16 websites"
+        },
+        {
+          "url": "https://triremes.com/website-gaps?category=Restaurant&city=Los+Angeles&country=US&region=CA",
+          "text": "Restaurant in Los Angeles, CA, United States 12 websites"
+        },
+        {
+          "url": "https://triremes.com/website-gaps?category=Restaurant&city=Las+Vegas&country=US&region=NV",
+          "text": "Restaurant in Las Vegas, NV, United States 10 websites"
+        },
+        {
+          "url": "https://triremes.com/promotion-code",
+          "text": "Try one free Agencies with a work email get one website listing or problem lead at no cost. Get your promo code"
+        },
+        {
+          "url": "https://triremes.com/signup",
+          "text": "Register to get free leads"
+        },
+        {
+          "url": "https://triremes.com/website-gaps/chart",
+          "text": "Business websites by score Every website on sale in one chart: overall, by SEO score or by AEO score."
+        },
+        {
+          "url": "https://triremes.com/intro-video",
+          "text": "Watch how Triremes works A short tour: search 1,097,936 measured websites, see their scores free, and what you get when "
+        },
+        {
+          "url": "https://triremes.com/mcp-server",
+          "text": "The MCP server"
+        },
+        {
+          "url": "https://triremes.com/faq",
+          "text": "More questions and answers"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-f4849f04bf52e947",
+      "kind": "pricing",
+      "title": "Pricing: SEO leads, problem leads and idea reports",
+      "url": "https://triremes.com/pricing",
+      "collected_at": "2026-11-21T08:52:24+00:00",
+      "published_at": null,
+      "text": "Pricing\nPrices unchanged since\n19 November 2026\n.\nWebsites with poor SEO / AEO\n$1 to $29 a website\n, by its\nlead rank\n: what you get with it. Each is a\nbusiness website measured by Triremes for gaps in what search engines and AI answer engines can read; its page shows what kind\no",
+      "links": [
+        {
+          "url": "https://triremes.com/pricing",
+          "text": "Skip to content"
+        },
+        {
+          "url": "https://triremes.com/",
+          "text": "Triremes"
+        },
+        {
+          "url": "https://triremes.com/problems",
+          "text": "Problems"
+        },
+        {
+          "url": "https://triremes.com/website-gaps",
+          "text": "Poor SEO / AEO"
+        },
+        {
+          "url": "https://triremes.com/how-it-works",
+          "text": "How it works"
+        },
+        {
+          "url": "https://triremes.com/lead-quality",
+          "text": "Lead quality"
+        },
+        {
+          "url": "https://triremes.com/hot-markets",
+          "text": "Hot Markets"
+        },
+        {
+          "url": "https://triremes.com/samples",
+          "text": "Samples"
+        },
+        {
+          "url": "https://triremes.com/blog",
+          "text": "Blog"
+        },
+        {
+          "url": "https://triremes.com/search",
+          "text": "Search"
+        },
+        {
+          "url": "https://triremes.com/login",
+          "text": "Log in"
+        },
+        {
+          "url": "https://triremes.com/cart",
+          "text": ""
+        },
+        {
+          "url": "https://triremes.com/website-gaps?rank=1",
+          "text": "Rank 1"
+        },
+        {
+          "url": "https://triremes.com/website-gaps?rank=2",
+          "text": "Rank 2"
+        },
+        {
+          "url": "https://triremes.com/website-gaps?rank=3",
+          "text": "Rank 3"
+        },
+        {
+          "url": "https://triremes.com/website-gaps?rank=4",
+          "text": "Rank 4"
+        },
+        {
+          "url": "https://triremes.com/sample/website",
+          "text": "See a sample website"
+        },
+        {
+          "url": "https://triremes.com/find-website-clients",
+          "text": "For AI agencies and website builders"
+        },
+        {
+          "url": "https://triremes.com/signup",
+          "text": "Register to get free leads"
+        },
+        {
+          "url": "https://triremes.com/sample/lead",
+          "text": "See a sample lead"
+        },
+        {
+          "url": "https://triremes.com/sample/idea-report",
+          "text": "See a sample idea report"
+        },
+        {
+          "url": "https://triremes.com/terms",
+          "text": "terms for buyers"
+        },
+        {
+          "url": "https://triremes.com/api",
+          "text": "Triremes API"
+        },
+        {
+          "url": "https://triremes.com/about",
+          "text": "About"
+        },
+        {
+          "url": "https://triremes.com/faq",
+          "text": "FAQ"
+        },
+        {
+          "url": "https://triremes.com/questions-about-seo-aeo",
+          "text": "SEO and AEO questions"
+        },
+        {
+          "url": "https://triremes.com/mcp-server",
+          "text": "MCP server"
+        },
+        {
+          "url": "https://triremes.com/seo-leads",
+          "text": "SEO and AEO leads"
+        },
+        {
+          "url": "https://triremes.com/contact",
+          "text": "Contact"
+        },
+        {
+          "url": "https://triremes.com/jobs/sales",
+          "text": "Jobs"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-93706706c0ebe863",
+      "kind": "content",
+      "title": "Blog: new and most reported problems · Triremes",
+      "url": "https://triremes.com/blog",
+      "collected_at": "2026-11-21T08:52:25+00:00",
+      "published_at": null,
+      "text": "Blog\nEach week, the problems new to Triremes; each month, the most reported ones; and most days, one kind of problem, or\none SEO / AEO gap websites have and what to do about it. Compiled from Triremes data.\nRSS feed\n.\n66 problems businesses report with stock and product syncing\n2",
+      "links": [
+        {
+          "url": "https://triremes.com/blog",
+          "text": "Skip to content"
+        },
+        {
+          "url": "https://triremes.com/",
+          "text": "Triremes"
+        },
+        {
+          "url": "https://triremes.com/problems",
+          "text": "Problems"
+        },
+        {
+          "url": "https://triremes.com/website-gaps",
+          "text": "Poor SEO / AEO"
+        },
+        {
+          "url": "https://triremes.com/how-it-works",
+          "text": "How it works"
+        },
+        {
+          "url": "https://triremes.com/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://triremes.com/lead-quality",
+          "text": "Lead quality"
+        },
+        {
+          "url": "https://triremes.com/hot-markets",
+          "text": "Hot Markets"
+        },
+        {
+          "url": "https://triremes.com/samples",
+          "text": "Samples"
+        },
+        {
+          "url": "https://triremes.com/search",
+          "text": "Search"
+        },
+        {
+          "url": "https://triremes.com/login",
+          "text": "Log in"
+        },
+        {
+          "url": "https://triremes.com/cart",
+          "text": ""
+        },
+        {
+          "url": "https://triremes.com/blog/feed.xml",
+          "text": "RSS feed"
+        },
+        {
+          "url": "https://triremes.com/blog/2026/11/problems-with-stock-and-product-syncing-2026-11-21",
+          "text": "66 problems businesses report with stock and product syncing"
+        },
+        {
+          "url": "https://triremes.com/blog/2026/11/mobile-viewport-2026-11-20",
+          "text": "No viewport tag: websites not set up for phones"
+        },
+        {
+          "url": "https://triremes.com/blog/2026/11/problems-with-checkout-and-payments-2026-11-19",
+          "text": "134 problems businesses report with checkout and payments"
+        },
+        {
+          "url": "https://triremes.com/blog/2026/11/canonical-links-2026-11-18",
+          "text": "Canonical links: websites that leave them out"
+        },
+        {
+          "url": "https://triremes.com/blog/2026/11/problems-with-languages-and-currencies-2026-11-17",
+          "text": "11 problems businesses report with languages and currencies"
+        },
+        {
+          "url": "https://triremes.com/blog/2026/11/new-problems-week-of-2026-11-09",
+          "text": "New this week on Triremes: 67 problems"
+        },
+        {
+          "url": "https://triremes.com/blog/2026/11/h1-headings-2026-11-16",
+          "text": "Homepages without an h1 heading, and why it matters"
+        },
+        {
+          "url": "https://triremes.com/blog/2026/11/problems-with-security-and-fraud-2026-11-15",
+          "text": "19 problems businesses report with security and fraud"
+        },
+        {
+          "url": "https://triremes.com/blog/2026/11/link-previews-2026-11-14",
+          "text": "Link previews: websites without Open Graph tags"
+        },
+        {
+          "url": "https://triremes.com/blog/2026/11/problems-with-orders-and-order-status-2026-11-13",
+          "text": "26 problems businesses report with orders and order status"
+        },
+        {
+          "url": "https://triremes.com/blog/2026/11/https-2026-11-12",
+          "text": "HTTPS gaps: websites not fully secure for visitors"
+        },
+        {
+          "url": "https://triremes.com/blog/2026/11/problems-with-returns-and-refunds-2026-11-11",
+          "text": "22 problems businesses report with returns and refunds"
+        },
+        {
+          "url": "https://triremes.com/blog/2026/11/slow-first-byte-2026-11-10",
+          "text": "Slow first byte: homepages that keep visitors waiting"
+        },
+        {
+          "url": "https://triremes.com/blog/2026/11/problems-with-images-and-media-2026-11-09",
+          "text": "27 problems businesses report with images and media"
+        },
+        {
+          "url": "https://triremes.com/blog/2026/11/meta-descriptions-2026-11-08",
+          "text": "Missing meta descriptions, and how to write one"
+        },
+        {
+          "url": "https://triremes.com/blog/2026/11/what-is-aeo-answer-engine-optimization",
+          "text": "What is AEO? Answer engine optimization explained"
+        },
+        {
+          "url": "https://triremes.com/blog/2026/11/problems-with-forms-and-fields-2026-11-07",
+          "text": "28 problems businesses report with forms and fields"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-a75f377f00af8e6b",
+      "kind": "listing",
+      "title": "Triremes – Discover real software problems and businesses that need your fix",
+      "url": "https://betalist.com/startups/triremes",
+      "collected_at": "2026-11-21T08:52:25+00:00",
+      "published_at": "2026-11-21T05:45:00Z",
+      "text": "Triremes – Discover real software problems and businesses that need your fix\nTriremes helps agencies and builders find real, validated problems and the businesses that have them. It aggregates thousands of user-reported software issues and identifies which companies are affected ",
+      "links": [],
+      "metadata": {
+        "source_kind": "betalist",
+        "discovered_at": "2026-11-21T08:51:56+00:00",
+        "feed_url": "https://feeds.feedburner.com/BetaList",
+        "public_excerpt": true
+      }
+    }
+  ],
+  "actions": [
+    {
+      "id": "a-1",
+      "title": "用公开内容承接用户问题",
+      "channel": "内容营销",
+      "description": "官网提供内容入口。可从文章主题、目标读者和文章内的产品引导，研究内容如何连接产品。",
+      "source_ids": [
+        "s-93706706c0ebe863"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-2",
+      "title": "在 BetaList 出现产品展示记录",
+      "channel": "产品发布",
+      "description": "公开目录或社区帖子提供了产品介绍入口。记录日期来自该来源，不能直接视为产品首次上线日期；提交者与产品方的关系仍需核对。",
+      "source_ids": [
+        "s-a75f377f00af8e6b"
+      ],
+      "date": "2026-11-21",
+      "result": "已保存公开展示记录，尚未验证该渠道带来的访问、注册和收入。",
+      "evidence_type": "公开动作"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "产品概览",
+      "intro": "从官网、公开产品记录及可取得的仓库资料核对产品定位、功能与公开入口。",
+      "facts": [
+        {
+          "text": "Triremes is a marketplace of SEO and AEO leads: business websites that fail search and AI search checks, sold to agencies and web designers, $1 to $29 each.",
+          "source_ids": [
+            "s-9efa9d7fb641e31e"
+          ]
+        },
+        {
+          "text": "该产品在 BetaList 中有公开展示记录，已保留原始链接与记录日期。公开展示不代表收入、开源状态或实际转化已核验。",
+          "source_ids": [
+            "s-a75f377f00af8e6b"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "business",
+      "title": "生意与定价",
+      "intro": "定价信息来自产品自己的公开页面。收入指标需要单独的公开披露或授权数据。",
+      "facts": [
+        {
+          "text": "定价页中的原始片段：026 . Websites with poor SEO / AEO $1 to $29 a website , by its lead rank : what you get with it. Each；Websites with poor SEO / AEO $1 to $29 a website , by its lead rank : what you get with it. Each is a b；1 contact person, email and phone $29 Rank 2 email and phone $19 Rank 3 email or phone $9 Rank 4 detai",
+          "source_ids": [
+            "s-f4849f04bf52e947"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "acquisition",
+      "title": "获客入口",
+      "intro": "下面列出已观察到的入口与动作。渠道带来的访问和付费效果仍需转化数据验证。",
+      "facts": [
+        {
+          "text": "内容页可见文本摘录：Blog Each week, the problems new to Triremes; each month, the most reported ones; and most days, one kind of problem, or one SEO / AEO gap websites have and what to do about it. Compiled from Triremes data. RSS feed . 66",
+          "source_ids": [
+            "s-93706706c0ebe863"
+          ]
+        }
+      ],
+      "action_ids": [
+        "a-1",
+        "a-2"
+      ]
+    },
+    {
+      "id": "growth",
+      "title": "公开动作拆解",
+      "intro": "每个动作都关联原始资料，适合进一步研究具体做法和执行条件。",
+      "facts": [],
+      "action_ids": [
+        "a-1",
+        "a-2"
+      ]
+    },
+    {
+      "id": "social",
+      "title": "社媒与社区",
+      "intro": "本次保留官网引用的社媒与社区链接。账号归属、帖子内容和互动数据需要进一步核对。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "timeline",
+      "title": "事件时间线",
+      "intro": "仅展示来源中明确给出日期的事件，采集时间另列。产品更新可以帮助理解推广内容的背景。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "competitors",
+      "title": "竞品研究线索",
+      "intro": "本轮采集围绕单个产品。可按目标客户、解决的问题和购买方式，再添加相关产品进行研究。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "appendix",
+      "title": "来源与数据缺口",
+      "intro": "报告保留了本次采集的来源快照。缺失指标保持为空，观察到的动作与分析建议分别呈现。",
+      "facts": [],
+      "action_ids": []
+    }
+  ],
+  "metrics": [],
+  "gaps": [
+    "连续收入序列和已核验 MRR",
+    "真实访问量及渠道占比",
+    "搜索关键词排名与点击数据",
+    "社媒帖子、互动和渠道转化数据",
+    "开源状态与许可证（本轮未确认公开仓库）",
+    "独立核对过的竞品比较"
+  ],
+  "warnings": [],
+  "discovered_accounts": [],
+  "coverage": "website"
+}

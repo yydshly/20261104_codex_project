@@ -1,0 +1,281 @@
+{
+  "schema_version": "1.0",
+  "project_id": "eb04023657eb431a85f2f0057fd0e92a",
+  "version": 2,
+  "generated_at": "2026-11-21T09:42:25+00:00",
+  "mode": "evidence",
+  "coverage": "website",
+  "summary": "围绕 Beat Watcher 核对了 2 份公开资料，整理出 1 条入口与动作。可继续研究的方向包括产品发布。",
+  "summary_source_ids": [],
+  "translations": {
+    "Beat Watcher: Heart Rate Alert App for Apple Watch": "Beat Watcher：Apple Watch 心率提醒应用",
+    "Real-time heart rate monitoring with customizable threshold alerts for Apple Watch. Background mode, haptic feedback, and support for POTS, ME/CFS, and stress tracking.": "为 Apple Watch 提供实时心率监测和可自定义阈值的提醒，具备后台模式与触觉反馈。官网列出的使用场景包括 POTS、ME/CFS 和压力跟踪。"
+  },
+  "sources": [
+    {
+      "id": "s-b6b690bbbbbf2e34",
+      "kind": "website",
+      "title": "Beat Watcher: Heart Rate Alert App for Apple Watch",
+      "url": "https://beatwatcher.app/",
+      "collected_at": "2026-11-21T09:42:25+00:00",
+      "published_at": null,
+      "text": "Instant high and low heart rate alerts on Apple Watch\nSet your BPM thresholds and Beat Watcher alerts you immediately with haptic vibration and audio when your heart rate crosses them, even in the background.\n🔒\nNo email account required\n⌚\nContinuous readings stay on device\n❤️\nUse",
+      "links": [
+        {
+          "url": "https://apps.apple.com/app/apple-store/id1546373421?pt=111573815&ct=website&mt=8",
+          "text": ""
+        },
+        {
+          "url": "https://beatwatcher.app/heart-rate-alerts-guide/",
+          "text": "See how to set it up."
+        },
+        {
+          "url": "https://beatwatcher.app/background-mode-guide/",
+          "text": "Learn how it works."
+        },
+        {
+          "url": "https://beatwatcher.app/phone-alerts-guide/",
+          "text": "Set up Phone Alerts."
+        },
+        {
+          "url": "https://beatwatcher.app/can-apple-watch-alert-someone-else-heart-rate/",
+          "text": "Learn about Alert Sharing."
+        },
+        {
+          "url": "https://beatwatcher.app/pots-heart-rate-monitor/",
+          "text": "POTS"
+        },
+        {
+          "url": "https://beatwatcher.app/me-cfs-heart-rate/",
+          "text": "ME/CFS"
+        },
+        {
+          "url": "https://beatwatcher.app/pericarditis-heart-rate/",
+          "text": "pericarditis"
+        },
+        {
+          "url": "https://beatwatcher.app/pots-living-alone/",
+          "text": "living alone with POTS"
+        },
+        {
+          "url": "https://beatwatcher.app/zone-2-training/",
+          "text": "Zone 2"
+        },
+        {
+          "url": "https://beatwatcher.app/sauna-heart-rate/",
+          "text": "sauna sessions"
+        },
+        {
+          "url": "https://beatwatcher.app/pregnancy-heart-rate/",
+          "text": "pregnancy exercise"
+        },
+        {
+          "url": "https://beatwatcher.app/stress-heart-rate-monitor/",
+          "text": "stress in real-time"
+        },
+        {
+          "url": "https://beatwatcher.app/sleep-heart-rate-monitor/",
+          "text": "heart rate while sleeping"
+        },
+        {
+          "url": "https://beatwatcher.app/about/",
+          "text": "About"
+        },
+        {
+          "url": "https://beatwatcher.app/simple-stress-watch/",
+          "text": "Simple Stress Watch"
+        },
+        {
+          "url": "https://beatwatcher.app/terms",
+          "text": "Terms & Privacy"
+        },
+        {
+          "url": "https://beatwatcher.app/cdn-cgi/l/email-protection",
+          "text": "Contact"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-553d4be78cb2e0d1",
+      "kind": "listing",
+      "title": "Beat Watcher",
+      "url": "https://www.producthunt.com/products/beat-watcher",
+      "collected_at": "2026-11-21T09:42:25+00:00",
+      "published_at": "2026-11-14T18:56:43-08:00",
+      "text": "Beat Watcher\nFast Apple Watch heart rate alerts you can share with family",
+      "links": [],
+      "metadata": {
+        "source_kind": "product_hunt",
+        "discovered_at": "2026-11-21T09:10:58+00:00",
+        "feed_url": "https://www.producthunt.com/feed",
+        "feed_entry_id": "tag:www.producthunt.com,2005:Post/1317062",
+        "outbound_url": "https://www.producthunt.com/r/p/1317062?app_id=339",
+        "website_status": "unconfirmed",
+        "transport": "public_atom",
+        "public_excerpt": true
+      }
+    }
+  ],
+  "actions": [
+    {
+      "id": "a-1",
+      "title": "在 Product Hunt 出现产品展示记录",
+      "channel": "产品发布",
+      "description": "公开目录或社区帖子提供了产品介绍入口。记录日期来自该来源，不能直接视为产品首次上线日期；提交者与产品方的关系仍需核对。",
+      "source_ids": [
+        "s-553d4be78cb2e0d1"
+      ],
+      "date": "2026-11-14",
+      "result": "已保存公开展示记录，尚未验证该渠道带来的访问、注册和收入。",
+      "evidence_type": "公开动作"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "产品概览",
+      "intro": "从官网、公开产品记录及可取得的仓库资料核对产品定位、功能与公开入口。",
+      "facts": [
+        {
+          "text": "Real-time heart rate monitoring with customizable threshold alerts for Apple Watch. Background mode, haptic feedback, and support for POTS, ME/CFS, and stress tracking.",
+          "source_ids": [
+            "s-b6b690bbbbbf2e34"
+          ]
+        },
+        {
+          "text": "该产品在 Product Hunt 中有公开展示记录，已保留原始链接与记录日期。公开展示不代表收入、开源状态或实际转化已核验。",
+          "source_ids": [
+            "s-553d4be78cb2e0d1"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "business",
+      "title": "生意与定价",
+      "intro": "定价信息来自产品自己的公开页面。收入指标需要单独的公开披露或授权数据。 本轮未取得独立定价页。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "acquisition",
+      "title": "获客入口",
+      "intro": "下面列出已观察到的入口与动作。渠道带来的访问和付费效果仍需转化数据验证。",
+      "facts": [],
+      "action_ids": [
+        "a-1"
+      ]
+    },
+    {
+      "id": "growth",
+      "title": "公开动作拆解",
+      "intro": "每个动作都关联原始资料，适合进一步研究具体做法和执行条件。",
+      "facts": [],
+      "action_ids": [
+        "a-1"
+      ]
+    },
+    {
+      "id": "social",
+      "title": "社媒与社区",
+      "intro": "本次保留官网引用的社媒与社区链接。账号归属、帖子内容和互动数据需要进一步核对。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "timeline",
+      "title": "事件时间线",
+      "intro": "仅展示来源中明确给出日期的事件，采集时间另列。产品更新可以帮助理解推广内容的背景。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "competitors",
+      "title": "竞品研究线索",
+      "intro": "本轮采集围绕单个产品。可按目标客户、解决的问题和购买方式，再添加相关产品进行研究。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "appendix",
+      "title": "来源与数据缺口",
+      "intro": "报告保留了本次采集的来源快照。缺失指标保持为空，观察到的动作与分析建议分别呈现。",
+      "facts": [],
+      "action_ids": []
+    }
+  ],
+  "metrics": [],
+  "gaps": [
+    "连续收入序列和已核验 MRR",
+    "真实访问量及渠道占比",
+    "搜索关键词排名与点击数据",
+    "社媒帖子、互动和渠道转化数据",
+    "可解析的定价页",
+    "开源状态与许可证（本轮未确认公开仓库）",
+    "独立核对过的竞品比较"
+  ],
+  "warnings": [
+    "产品官网已通过公开链接、名称、功能和回链自动核对，依据见官网匹配记录。"
+  ],
+  "discovered_accounts": [],
+  "website_resolution": {
+    "status": "confirmed",
+    "checked_at": "2026-11-21T09:42:19+00:00",
+    "website": "https://beatwatcher.app/",
+    "method": "apple_developer_website",
+    "evidence": [
+      {
+        "url": "https://itunes.apple.com/search?term=Beat+Watcher&entity=software&country=us&limit=5",
+        "title": "Apple 官方应用搜索",
+        "detail": "名称与功能匹配，返回开发者提交的官网 sellerUrl。"
+      },
+      {
+        "url": "https://apps.apple.com/us/app/id1546373421",
+        "title": "Beat Watcher: Heart Rate Alert",
+        "detail": "匹配应用记录，App ID 1546373421"
+      },
+      {
+        "url": "https://beatwatcher.app/",
+        "title": "Beat Watcher: Heart Rate Alert App for Apple Watch",
+        "detail": "官网产品名称与功能匹配；回链到同一 App Store 应用。",
+        "matched_terms": [
+          "alert",
+          "alerts",
+          "apple",
+          "background",
+          "below",
+          "choose",
+          "critical",
+          "crown",
+          "csv",
+          "digital",
+          "disturb",
+          "down"
+        ]
+      }
+    ],
+    "attempts": [
+      {
+        "provider": "Product Hunt 发布链接",
+        "url": "https://www.producthunt.com/r/p/1317062?app_id=339",
+        "message": "来源返回 HTTP 403"
+      },
+      {
+        "provider": "公开产品目录",
+        "url": "https://hunted.space/product/beat-watcher",
+        "message": "已读取同一产品的公开介绍与显式链接"
+      },
+      {
+        "provider": "Apple 官方应用搜索",
+        "url": "https://itunes.apple.com/search?term=Beat+Watcher&entity=software&country=us&limit=5",
+        "message": "已按产品名称与功能筛选，未采用同名但用途不同的 App"
+      }
+    ],
+    "message": "已自动核对官网名称、功能与产品回链，继续采集公开资料。",
+    "identity": "beatwatcher.app"
+  }
+}

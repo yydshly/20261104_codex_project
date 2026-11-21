@@ -1,0 +1,240 @@
+{
+  "schema_version": "1.0",
+  "project_id": "8e73d5dac16d4e3aa7f50d1ed6bd9bae",
+  "version": 2,
+  "generated_at": "2026-11-21T09:42:19+00:00",
+  "mode": "evidence",
+  "coverage": "website",
+  "summary": "围绕 Hollr 核对了 2 份公开资料，整理出 1 条入口与动作。可继续研究的方向包括产品发布。",
+  "summary_source_ids": [],
+  "translations": {
+    "Hollr: Family Walkie-Talkie for iPhone and Apple Watch": "Hollr：适用于 iPhone 和 Apple Watch 的家庭对讲机",
+    "Push-to-talk for your family on iPhone and Apple Watch, even a kid's watch without an iPhone. Free for two, up to 12 with Hollr Family. No accounts, no ads.": "在 iPhone 和 Apple Watch 上为家人提供按键通话，也支持没有配套 iPhone 的儿童手表。两人使用免费，Hollr Family 最多支持 12 人；无需注册账号，无广告。",
+    "官网中的价格片段（需结合套餐及币种核对）：ds. Free You and one other person. $0 One space A space you start holds two people Unlimited talking R；e Hollr Family Everyone, one plan. $2.99 a month or $19.99 a year Save 44% Up to 12 people in a space Up；eryone, one plan. $2.99 a month or $19.99 a year Save 44% Up to 12 people in a space Up to 6 spaces Talk f": "官网价格片段：免费版为 $0，一个空间支持两人。Hollr Family 为每月 $2.99 或每年 $19.99，页面标注年付节省 44%，每个空间最多 12 人、最多 6 个空间。币种、适用地区及最终价格需以官网和购买页面为准。"
+  },
+  "sources": [
+    {
+      "id": "s-4080afaef023c0b0",
+      "kind": "website",
+      "title": "Hollr: Family Walkie-Talkie for iPhone and Apple Watch",
+      "url": "https://jasoneliphalet.com/hollr",
+      "collected_at": "2026-11-21T09:42:19+00:00",
+      "published_at": null,
+      "text": "K\nRunning ten minutes late.\nK\nCan we get pizza on Friday?\nK\nWe won the match!\nE\nHas anyone seen my blue water bottle?\nA\nCan you grab tomatoes on your way home?\nNA\nWho is coming for Sunday lunch?\n(01) How it works\nT\nh\nr\ne\ne\ns\nt\ne\np\ns\n.\nN\no\ns\ni\ng\nn\n‑\nu\np\n.\nSTEP 01\nStart a space.\nNa",
+      "links": [
+        {
+          "url": "https://jasoneliphalet.com/hollr",
+          "text": "Hollr"
+        },
+        {
+          "url": "https://jasoneliphalet.com/hollr/support",
+          "text": "Support"
+        },
+        {
+          "url": "https://apps.apple.com/sg/app/hollr-family-walkie-talkie/id6831921517",
+          "text": "Download"
+        },
+        {
+          "url": "https://jasoneliphalet.com/hollr/privacy",
+          "text": "Read the privacy policy"
+        },
+        {
+          "url": "https://apps.apple.com/app/id6831921517",
+          "text": "Download on the App Store"
+        },
+        {
+          "url": "https://jasoneliphalet.com/hollr/terms",
+          "text": "Terms of Use"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-ff6862974f406212",
+      "kind": "listing",
+      "title": "Hollr",
+      "url": "https://www.producthunt.com/products/hollr-3",
+      "collected_at": "2026-11-21T09:42:19+00:00",
+      "published_at": "2026-11-17T04:22:18-08:00",
+      "text": "Hollr\nPush-to-talk for your family, on iPhone and Apple Watch",
+      "links": [],
+      "metadata": {
+        "source_kind": "product_hunt",
+        "discovered_at": "2026-11-21T09:10:58+00:00",
+        "feed_url": "https://www.producthunt.com/feed",
+        "feed_entry_id": "tag:www.producthunt.com,2005:Post/1320275",
+        "outbound_url": "https://www.producthunt.com/r/p/1320275?app_id=339",
+        "website_status": "unconfirmed",
+        "transport": "public_atom",
+        "public_excerpt": true
+      }
+    }
+  ],
+  "actions": [
+    {
+      "id": "a-1",
+      "title": "在 Product Hunt 出现产品展示记录",
+      "channel": "产品发布",
+      "description": "公开目录或社区帖子提供了产品介绍入口。记录日期来自该来源，不能直接视为产品首次上线日期；提交者与产品方的关系仍需核对。",
+      "source_ids": [
+        "s-ff6862974f406212"
+      ],
+      "date": "2026-11-17",
+      "result": "已保存公开展示记录，尚未验证该渠道带来的访问、注册和收入。",
+      "evidence_type": "公开动作"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "产品概览",
+      "intro": "从官网、公开产品记录及可取得的仓库资料核对产品定位、功能与公开入口。",
+      "facts": [
+        {
+          "text": "Push-to-talk for your family on iPhone and Apple Watch, even a kid's watch without an iPhone. Free for two, up to 12 with Hollr Family. No accounts, no ads.",
+          "source_ids": [
+            "s-4080afaef023c0b0"
+          ]
+        },
+        {
+          "text": "该产品在 Product Hunt 中有公开展示记录，已保留原始链接与记录日期。公开展示不代表收入、开源状态或实际转化已核验。",
+          "source_ids": [
+            "s-ff6862974f406212"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "business",
+      "title": "生意与定价",
+      "intro": "定价信息来自产品自己的公开页面。收入指标需要单独的公开披露或授权数据。 本轮未取得独立定价页。",
+      "facts": [
+        {
+          "text": "官网中的价格片段（需结合套餐及币种核对）：ds. Free You and one other person. $0 One space A space you start holds two people Unlimited talking R；e Hollr Family Everyone, one plan. $2.99 a month or $19.99 a year Save 44% Up to 12 people in a space Up；eryone, one plan. $2.99 a month or $19.99 a year Save 44% Up to 12 people in a space Up to 6 spaces Talk f",
+          "source_ids": [
+            "s-4080afaef023c0b0"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "acquisition",
+      "title": "获客入口",
+      "intro": "下面列出已观察到的入口与动作。渠道带来的访问和付费效果仍需转化数据验证。",
+      "facts": [],
+      "action_ids": [
+        "a-1"
+      ]
+    },
+    {
+      "id": "growth",
+      "title": "公开动作拆解",
+      "intro": "每个动作都关联原始资料，适合进一步研究具体做法和执行条件。",
+      "facts": [],
+      "action_ids": [
+        "a-1"
+      ]
+    },
+    {
+      "id": "social",
+      "title": "社媒与社区",
+      "intro": "本次保留官网引用的社媒与社区链接。账号归属、帖子内容和互动数据需要进一步核对。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "timeline",
+      "title": "事件时间线",
+      "intro": "仅展示来源中明确给出日期的事件，采集时间另列。产品更新可以帮助理解推广内容的背景。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "competitors",
+      "title": "竞品研究线索",
+      "intro": "本轮采集围绕单个产品。可按目标客户、解决的问题和购买方式，再添加相关产品进行研究。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "appendix",
+      "title": "来源与数据缺口",
+      "intro": "报告保留了本次采集的来源快照。缺失指标保持为空，观察到的动作与分析建议分别呈现。",
+      "facts": [],
+      "action_ids": []
+    }
+  ],
+  "metrics": [],
+  "gaps": [
+    "连续收入序列和已核验 MRR",
+    "真实访问量及渠道占比",
+    "搜索关键词排名与点击数据",
+    "社媒帖子、互动和渠道转化数据",
+    "开源状态与许可证（本轮未确认公开仓库）",
+    "独立核对过的竞品比较"
+  ],
+  "warnings": [
+    "产品官网已通过公开链接、名称、功能和回链自动核对，依据见官网匹配记录。"
+  ],
+  "discovered_accounts": [],
+  "website_resolution": {
+    "status": "confirmed",
+    "checked_at": "2026-11-21T09:42:14+00:00",
+    "website": "https://jasoneliphalet.com/hollr",
+    "method": "apple_developer_website",
+    "evidence": [
+      {
+        "url": "https://itunes.apple.com/search?term=Hollr&entity=software&country=us&limit=5",
+        "title": "Apple 官方应用搜索",
+        "detail": "名称与功能匹配，返回开发者提交的官网 sellerUrl。"
+      },
+      {
+        "url": "https://apps.apple.com/us/app/id6831921517",
+        "title": "Hollr: Family Walkie-Talkie",
+        "detail": "匹配应用记录，App ID 6831921517"
+      },
+      {
+        "url": "https://jasoneliphalet.com/hollr",
+        "title": "Hollr: Family Walkie-Talkie for iPhone and Apple Watch",
+        "detail": "官网产品名称与功能匹配；回链到同一 App Store 应用。",
+        "matched_terms": [
+          "apple",
+          "button",
+          "family",
+          "hold",
+          "including",
+          "iphone",
+          "kids",
+          "let",
+          "listen",
+          "message",
+          "people",
+          "push"
+        ]
+      }
+    ],
+    "attempts": [
+      {
+        "provider": "Product Hunt 发布链接",
+        "url": "https://www.producthunt.com/r/p/1320275?app_id=339",
+        "message": "来源返回 HTTP 403"
+      },
+      {
+        "provider": "公开产品目录",
+        "url": "https://hunted.space/product/hollr-3",
+        "message": "已读取同一产品的公开介绍与显式链接"
+      },
+      {
+        "provider": "Apple 官方应用搜索",
+        "url": "https://itunes.apple.com/search?term=Hollr&entity=software&country=us&limit=5",
+        "message": "已按产品名称与功能筛选，未采用同名但用途不同的 App"
+      }
+    ],
+    "message": "已自动核对官网名称、功能与产品回链，继续采集公开资料。",
+    "identity": "jasoneliphalet.com/hollr"
+  }
+}

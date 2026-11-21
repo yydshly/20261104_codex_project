@@ -1,0 +1,413 @@
+{
+  "schema_version": "1.0",
+  "project_id": "6181b429127c4c3d94388d9d9c6ee2da",
+  "version": 1,
+  "generated_at": "2026-11-21T08:52:19+00:00",
+  "mode": "evidence",
+  "summary": "围绕 Mova 核对了 3 份公开资料，整理出 2 条入口与动作。可继续研究的方向包括产品发布、内容营销。",
+  "summary_source_ids": [],
+  "translations": {
+    "AI Job Search because Job Boards Are a Waste of Time | Mova": "AI 求职, 因为工作板是浪费时间 QQ Mova",
+    "Mova is an AI job search tool. It scans 30+ job boards every day, matches new roles to your profile and writes your application strategy. Free for 7 days.": "Mova 是 AI 求职工具，每天扫描 30 多个招聘网站，将新岗位与个人资料匹配并生成求职申请策略，提供 7 天免费体验。",
+    "Mova – AI job search that finds daily matching roles and tailors applications": "Mova – 找到日常匹配角色和裁缝应用程序的 AI 求职"
+  },
+  "sources": [
+    {
+      "id": "s-1e9609e821bd1ce8",
+      "kind": "website",
+      "title": "AI Job Search because Job Boards Are a Waste of Time | Mova",
+      "url": "https://trymova.app/",
+      "collected_at": "2026-11-21T08:52:19+00:00",
+      "published_at": null,
+      "text": "Job Boards are a Waste of Time\nTry Mova, the AI job search tool that matches\nyou\nwith new roles and builds a tailored application strategy\nSkip the crowds, the hours of scrolling job boards, and the ATS auto-rejections.\nStart My 7-Day Free Trial\nTry our live demo\nWhy job boards d",
+      "links": [
+        {
+          "url": "https://trymova.app/",
+          "text": "Skip to main content"
+        },
+        {
+          "url": "https://trymova.app/signup",
+          "text": "Free Trial"
+        },
+        {
+          "url": "https://trymova.app/demo?from=home-hero",
+          "text": "Try our live demo"
+        },
+        {
+          "url": "https://www.trustpilot.com/review/trymova.app",
+          "text": "★ ★ ★ ★ ★ 4.1 Great on Trustpilot"
+        },
+        {
+          "url": "https://g.page/r/CRgvh6a7t4NoEBM/review",
+          "text": "Prefer Google? Leave a review there instead"
+        },
+        {
+          "url": "https://trymova.app/demo?from=home-pricing",
+          "text": "Try our live demo"
+        },
+        {
+          "url": "https://trymova.app/demo?from=home-tools",
+          "text": "Try our live demo"
+        },
+        {
+          "url": "https://trymova.app/blog/how-to-choose-an-ai-job-search-tool",
+          "text": "how to choose an AI job search tool"
+        },
+        {
+          "url": "https://trymova.app/job-search-assistant",
+          "text": "how a job search assistant compares with ChatGPT and job boards"
+        },
+        {
+          "url": "https://trymova.app/demo?entry=faq",
+          "text": "live demo"
+        },
+        {
+          "url": "https://trymova.app/job-matching",
+          "text": "how Mova matches you with jobs"
+        },
+        {
+          "url": "https://trymova.app/privacy",
+          "text": "Privacy Policy"
+        },
+        {
+          "url": "https://trymova.app/career-change",
+          "text": "Mova for career changers"
+        },
+        {
+          "url": "https://trymova.app/free-ats-checker",
+          "text": "Try our Free ATS Checker here"
+        },
+        {
+          "url": "https://trymova.app/demo?entry=final_cta",
+          "text": "Explore our live demo, no sign-up needed"
+        },
+        {
+          "url": "https://trymova.app/demo?entry=footer",
+          "text": "Live demo"
+        },
+        {
+          "url": "https://trymova.app/guide-to-mova",
+          "text": "Guide to Mova"
+        },
+        {
+          "url": "https://trymova.app/about",
+          "text": "About us"
+        },
+        {
+          "url": "https://trymova.app/careers",
+          "text": "Careers"
+        },
+        {
+          "url": "https://trymova.app/contact",
+          "text": "Contact us"
+        },
+        {
+          "url": "https://trymova.app/blog",
+          "text": "Blog"
+        },
+        {
+          "url": "https://trymova.app/terms",
+          "text": "Terms of Use"
+        },
+        {
+          "url": "https://trymova.app/ai-info",
+          "text": "AI Info"
+        },
+        {
+          "url": "https://instagram.com/trymova.app",
+          "text": "Instagram"
+        },
+        {
+          "url": "https://www.linkedin.com/company/trymova/",
+          "text": "LinkedIn"
+        },
+        {
+          "url": "https://www.youtube.com/@trymova",
+          "text": "YouTube"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-c167032c611ac852",
+      "kind": "content",
+      "title": "Mova - Blog",
+      "url": "https://trymova.app/blog",
+      "collected_at": "2026-11-21T08:52:19+00:00",
+      "published_at": null,
+      "text": "Career insights & job search strategy\nPractical advice for job applications, interviews, and job offers that actually work. Learn how to use AI tools the right way.\n3\nmin read ·\n20 Nov 2026\nIs AI Job Search in 2027 Better Than Manual?\nIs AI job search better than manual? See what",
+      "links": [
+        {
+          "url": "https://trymova.app/blog",
+          "text": "Skip to main content"
+        },
+        {
+          "url": "https://trymova.app/",
+          "text": ""
+        },
+        {
+          "url": "https://trymova.app/signup",
+          "text": "Free Trial"
+        },
+        {
+          "url": "https://trymova.app/blog/is-ai-job-search-better-than-manual",
+          "text": "3 min read · 20 Nov 2026 Is AI Job Search in 2027 Better Than Manual? Is AI job search better than manual? See what AI d"
+        },
+        {
+          "url": "https://trymova.app/blog/how-to-choose-an-ai-job-search-tool",
+          "text": "6 min read · 16 Nov 2026 How to Choose an AI Job Search Tool in 2027 How to choose an AI job search tool: the three type"
+        },
+        {
+          "url": "https://trymova.app/blog/what-are-transferable-skills",
+          "text": "8 min read · 27 Oct 2026 What Are Transferable Skills? Examples and a Full List for a Career Change What are transferabl"
+        },
+        {
+          "url": "https://trymova.app/blog/career-change-at-40",
+          "text": "7 min read · 22 Oct 2026 Career Change at 40: How to Do It Without Starting Over A career change at 40 doesn't mean star"
+        },
+        {
+          "url": "https://trymova.app/blog/from-7-hours-to-1-hour-job-searching-with-mova",
+          "text": "7 min read · 14 Sept 2026 From 7 Hours to 1 Hour: A Month of Job Searching With Mova A look into a real beta tester 30-d"
+        },
+        {
+          "url": "https://trymova.app/blog/does-ai-cv-analysis-improve-interview-rate",
+          "text": "7 min read · 9 Sept 2026 Does AI CV Analysis Actually Improve Your Interview Rate? Keyword stuffing is failing. Learn wh"
+        },
+        {
+          "url": "https://trymova.app/blog/ai-job-search-tools-that-speed-up-hiring",
+          "text": "5 min read · 4 Sept 2026 AI Job Search Tools: What Actually Speeds Up Your Hiring A look at what actually helps you get "
+        },
+        {
+          "url": "https://trymova.app/blog/why-mova-exists",
+          "text": "6 min read · 1 Sept 2026 Why Mova? The Problem With Job Boards and Why We Refuse to Give You \"AI Slop\" Mova started as a"
+        },
+        {
+          "url": "https://www.trustpilot.com/review/trymova.app",
+          "text": "Trustpilot ★★★★ ★ 4.1 · Great"
+        },
+        {
+          "url": "https://trymova.app/demo?entry=footer",
+          "text": "Live demo"
+        },
+        {
+          "url": "https://trymova.app/guide-to-mova",
+          "text": "Guide to Mova"
+        },
+        {
+          "url": "https://trymova.app/job-search-assistant",
+          "text": "Job search assistant"
+        },
+        {
+          "url": "https://trymova.app/job-matching",
+          "text": "Job matching"
+        },
+        {
+          "url": "https://trymova.app/career-change",
+          "text": "For career changers"
+        },
+        {
+          "url": "https://trymova.app/free-ats-checker",
+          "text": "Free ATS Checker"
+        },
+        {
+          "url": "https://trymova.app/about",
+          "text": "About us"
+        },
+        {
+          "url": "https://trymova.app/careers",
+          "text": "Careers"
+        },
+        {
+          "url": "https://trymova.app/contact",
+          "text": "Contact us"
+        },
+        {
+          "url": "https://trymova.app/terms",
+          "text": "Terms of Use"
+        },
+        {
+          "url": "https://trymova.app/privacy",
+          "text": "Privacy Policy"
+        },
+        {
+          "url": "https://trymova.app/ai-info",
+          "text": "AI Info"
+        },
+        {
+          "url": "https://instagram.com/trymova.app",
+          "text": "Instagram"
+        },
+        {
+          "url": "https://www.linkedin.com/company/trymova/",
+          "text": "LinkedIn"
+        },
+        {
+          "url": "https://www.youtube.com/@trymova",
+          "text": "YouTube"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-eea7db8ba336c753",
+      "kind": "listing",
+      "title": "Mova – AI job search that finds daily matching roles and tailors applications",
+      "url": "https://betalist.com/startups/mova",
+      "collected_at": "2026-11-21T08:52:19+00:00",
+      "published_at": "2026-11-21T07:00:00Z",
+      "text": "Mova – AI job search that finds daily matching roles and tailors applications\nMova is an AI job search tool for professionals who want to avoid spending hours scrolling job boards. Every day, it scans over 30 job boards and company career pages, filters roles that fit your profil",
+      "links": [],
+      "metadata": {
+        "source_kind": "betalist",
+        "discovered_at": "2026-11-21T08:51:52+00:00",
+        "feed_url": "https://feeds.feedburner.com/BetaList",
+        "public_excerpt": true
+      }
+    }
+  ],
+  "actions": [
+    {
+      "id": "a-1",
+      "title": "用公开内容承接用户问题",
+      "channel": "内容营销",
+      "description": "官网提供内容入口。可从文章主题、目标读者和文章内的产品引导，研究内容如何连接产品。",
+      "source_ids": [
+        "s-c167032c611ac852"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-2",
+      "title": "在 BetaList 出现产品展示记录",
+      "channel": "产品发布",
+      "description": "公开目录或社区帖子提供了产品介绍入口。记录日期来自该来源，不能直接视为产品首次上线日期；提交者与产品方的关系仍需核对。",
+      "source_ids": [
+        "s-eea7db8ba336c753"
+      ],
+      "date": "2026-11-21",
+      "result": "已保存公开展示记录，尚未验证该渠道带来的访问、注册和收入。",
+      "evidence_type": "公开动作"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "产品概览",
+      "intro": "从官网、公开产品记录及可取得的仓库资料核对产品定位、功能与公开入口。",
+      "facts": [
+        {
+          "text": "Mova is an AI job search tool. It scans 30+ job boards every day, matches new roles to your profile and writes your application strategy. Free for 7 days.",
+          "source_ids": [
+            "s-1e9609e821bd1ce8"
+          ]
+        },
+        {
+          "text": "该产品在 BetaList 中有公开展示记录，已保留原始链接与记录日期。公开展示不代表收入、开源状态或实际转化已核验。",
+          "source_ids": [
+            "s-eea7db8ba336c753"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "business",
+      "title": "生意与定价",
+      "intro": "定价信息来自产品自己的公开页面。收入指标需要单独的公开披露或授权数据。 本轮未取得独立定价页。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "acquisition",
+      "title": "获客入口",
+      "intro": "下面列出已观察到的入口与动作。渠道带来的访问和付费效果仍需转化数据验证。",
+      "facts": [
+        {
+          "text": "内容页可见文本摘录：Career insights & job search strategy Practical advice for job applications, interviews, and job offers that actually work. Learn how to use AI tools the right way. 3 min read · 20 Nov 2026 Is AI Job Search in 2027 Bette",
+          "source_ids": [
+            "s-c167032c611ac852"
+          ]
+        }
+      ],
+      "action_ids": [
+        "a-1",
+        "a-2"
+      ]
+    },
+    {
+      "id": "growth",
+      "title": "公开动作拆解",
+      "intro": "每个动作都关联原始资料，适合进一步研究具体做法和执行条件。",
+      "facts": [],
+      "action_ids": [
+        "a-1",
+        "a-2"
+      ]
+    },
+    {
+      "id": "social",
+      "title": "社媒与社区",
+      "intro": "本次保留官网引用的社媒与社区链接。账号归属、帖子内容和互动数据需要进一步核对。",
+      "facts": [
+        {
+          "text": "官网引用的社媒与社区链接涉及 linkedin.com、youtube.com。",
+          "source_ids": [
+            "s-1e9609e821bd1ce8"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "timeline",
+      "title": "事件时间线",
+      "intro": "仅展示来源中明确给出日期的事件，采集时间另列。产品更新可以帮助理解推广内容的背景。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "competitors",
+      "title": "竞品研究线索",
+      "intro": "本轮采集围绕单个产品。可按目标客户、解决的问题和购买方式，再添加相关产品进行研究。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "appendix",
+      "title": "来源与数据缺口",
+      "intro": "报告保留了本次采集的来源快照。缺失指标保持为空，观察到的动作与分析建议分别呈现。",
+      "facts": [],
+      "action_ids": []
+    }
+  ],
+  "metrics": [],
+  "gaps": [
+    "连续收入序列和已核验 MRR",
+    "真实访问量及渠道占比",
+    "搜索关键词排名与点击数据",
+    "社媒帖子、互动和渠道转化数据",
+    "可解析的定价页",
+    "开源状态与许可证（本轮未确认公开仓库）",
+    "独立核对过的竞品比较"
+  ],
+  "warnings": [],
+  "discovered_accounts": [
+    {
+      "url": "https://www.linkedin.com/company/trymova/",
+      "platform": "linkedin.com",
+      "label": "linkedin.com"
+    },
+    {
+      "url": "https://www.youtube.com/@trymova",
+      "platform": "youtube.com",
+      "label": "youtube.com"
+    }
+  ],
+  "coverage": "website"
+}

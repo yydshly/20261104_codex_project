@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#142a32">
+    <meta name="description" content="从公开官网与 GitHub 资料中研究产品的获客入口、动作与原始证据。">
+    <title>Growth Casebook · 获客研究台</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%23142a32'/%3E%3Cpath d='M11 12h9v17h-9zM23 12h6v17h-6z' fill='%236fdec1'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="/static/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+    <aside class="sidebar" aria-label="主要导航">
+      <a class="brand" href="#/overview" aria-label="Growth Casebook 首页"><span class="brand-mark" aria-hidden="true">c<span>.</span></span><span>casebook<span class="brand-caption">产品获客研究台</span></span></a>
+      <div class="workspace-label">研究空间</div>
+      <nav class="main-nav">
+        <a href="#/overview" data-nav="overview"><span aria-hidden="true">⌂</span>项目总结</a>
+        <a href="#/library" data-nav="library"><span aria-hidden="true">▦</span>案例库</a>
+        <a href="#/tasks" data-nav="tasks"><span aria-hidden="true">◷</span>采集任务<span id="active-count" class="nav-count" hidden>0</span></a>
+        <a href="#/discovery" data-nav="discovery"><span aria-hidden="true">◇</span>自动发现</a>
+        <a href="#/method" data-nav="method"><span aria-hidden="true">◎</span>数据与方法</a>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="source-mode"><span class="mode-symbol" aria-hidden="true">↗</span><strong>从公开证据开始</strong><p>官网、目录与社区资料<br>来源可回查，报告可更新</p></div>
+        <span class="local-label">本地研究空间 <span>v0.1</span></span>
+      </div>
+    </aside>
+    <div class="shell">
+      <header class="topbar"><div><span class="topbar-label">获客研究</span><span class="topbar-divider">/</span><span id="page-label">项目总结</span></div><button class="button primary small" data-new-project><span aria-hidden="true">＋</span>新建研究</button></header>
+      <div id="running-banner" class="running-banner" hidden></div>
+      <main id="main" tabindex="-1"><div class="loading-state">正在读取研究空间…</div></main>
+      <footer class="footer"><span>Growth Casebook</span><span>公开资料 · 原始引用 · 历史版本</span></footer>
+    </div>
+    <dialog id="project-dialog" aria-labelledby="dialog-title">
+      <form id="project-form">
+        <div class="dialog-header"><div><span class="eyebrow">新建研究</span><h2 id="dialog-title">研究一个产品</h2></div><button class="icon-button" type="button" id="close-dialog" aria-label="关闭新建研究">×</button></div>
+        <p class="dialog-intro">提交产品官网或公开 GitHub 仓库，采集资料并生成带来源的报告。</p>
+        <label for="project-url">产品网址 <span class="required">*</span></label>
+        <input id="project-url" name="url" type="text" required maxlength="500" placeholder="https://your-product.com" autocomplete="url">
+        <div class="form-row"><div><label for="project-name">产品名称</label><input id="project-name" name="name" maxlength="100" placeholder="留空时从公开资料识别"></div><div><label for="project-category">产品类型</label><select id="project-category" name="category"><option>软件工具</option><option>开发者工具</option><option>数据分析</option><option>内容与营销</option><option>团队协作</option></select></div></div>
+        <label for="project-github">GitHub 仓库 <span class="optional">可选</span></label>
+        <input id="project-github" name="github" type="text" maxlength="250" placeholder="https://github.com/owner/repository">
+        <p class="field-hint">官网有公开仓库链接时会尝试识别。填写后可以补充 README 与发布记录。</p>
+        <div class="sample-picks"><span>试试公开产品</span><button type="button" class="sample" data-sample="postiz">Postiz</button><button type="button" class="sample" data-sample="plausible">Plausible</button><button type="button" class="sample" data-sample="umami">Umami</button></div>
+        <p id="form-error" class="error-text" role="alert" hidden></p>
+        <div class="dialog-footer"><span>公开数据采集 · 后台生成</span><button class="button primary" id="submit-project" type="submit">开始研究</button></div>
+      </form>
+    </dialog>
+    <dialog id="website-dialog" aria-labelledby="website-dialog-title">
+      <form id="website-form">
+        <div class="dialog-header"><div><span class="eyebrow">继续完善研究</span><h2 id="website-dialog-title">补充产品官网</h2></div><button class="icon-button" type="button" id="close-website-dialog" aria-label="关闭补充官网">×</button></div>
+        <p class="dialog-intro">为 <strong id="website-product-name"></strong> 填写已核对的产品官网。保存后免费采集官网资料并生成新版本，原简报保留。</p>
+        <label for="website-url">产品官网网址</label><input id="website-url" name="url" type="text" maxlength="500" required placeholder="https://your-product.com" autocomplete="url">
+        <p class="field-hint">请根据产品方公开资料核对，不要填写 Product Hunt 页面或猜测的域名。</p>
+        <p id="website-error" class="error-text" role="alert" hidden></p>
+        <div class="dialog-footer"><span>官网资料 · 新报告版本</span><button class="button primary" type="submit">保存并采集</button></div>
+      </form>
+    </dialog>
+    <div id="toast" class="toast" role="status" hidden></div>
+  </body>
+</html>

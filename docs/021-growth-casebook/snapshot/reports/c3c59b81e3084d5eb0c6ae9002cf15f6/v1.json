@@ -1,0 +1,931 @@
+{
+  "schema_version": "1.0",
+  "project_id": "c3c59b81e3084d5eb0c6ae9002cf15f6",
+  "version": 1,
+  "generated_at": "2026-11-21T07:31:11+00:00",
+  "mode": "evidence",
+  "summary": "围绕 Novu 核对了 10 份公开资料，整理出 8 条入口与动作。可继续研究的方向包括使用教育、内容营销、开发者生态。",
+  "summary_source_ids": [],
+  "sources": [
+    {
+      "id": "s-da9f3a50864a7487",
+      "kind": "website",
+      "title": "Novu - Connect your AI agents and products to customers",
+      "url": "https://www.novu.co/",
+      "collected_at": "2026-11-21T07:31:07+00:00",
+      "published_at": null,
+      "text": "1.5b messages delivered last month\nConnect your AI agents and products to customers\nOpen-source infrastructure to notify your users and let your agents talk with them, on the channels they already use.\nGet Started\nVisit Docs\nInbox\nSlack\nMicrosoft Teams\nWhatsApp Business\nTelegram\n",
+      "links": [
+        {
+          "url": "https://www.novu.co/",
+          "text": "Skip to content"
+        },
+        {
+          "url": "https://www.novu.co/integrations/channels/",
+          "text": "Integrations"
+        },
+        {
+          "url": "https://www.novu.co/customers/",
+          "text": "Customers"
+        },
+        {
+          "url": "https://www.novu.co/pricing/",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://github.com/novuhq/novu?utm_campaign=website",
+          "text": "40.4 k"
+        },
+        {
+          "url": "https://dashboard.novu.co",
+          "text": "Sign up now"
+        },
+        {
+          "url": "https://docs.novu.co/",
+          "text": "Visit Docs"
+        },
+        {
+          "url": "https://www.novu.co/inbox/",
+          "text": "Explore Inbox"
+        },
+        {
+          "url": "https://www.novu.co/connect/",
+          "text": "Explore Connect"
+        },
+        {
+          "url": "https://docs.novu.co/platform/quickstart/nextjs?utm_campaign=website",
+          "text": "Read docs"
+        },
+        {
+          "url": "https://www.novu.co/aci/",
+          "text": "What is ACI"
+        },
+        {
+          "url": "https://www.novu.co/customers/unified/",
+          "text": "Read case study"
+        },
+        {
+          "url": "https://www.novu.co/customers/veritext/",
+          "text": "Read case study"
+        },
+        {
+          "url": "https://www.novu.co/customers/deriv/",
+          "text": "Read case study"
+        },
+        {
+          "url": "https://www.novu.co/contact-us/",
+          "text": "Schedule a call"
+        },
+        {
+          "url": "https://docs.novu.co/platform/sdks/react/hooks/use-preferences",
+          "text": "User Preference"
+        },
+        {
+          "url": "https://docs.novu.co/platform/workflow",
+          "text": "Workflows"
+        },
+        {
+          "url": "https://www.novu.co/framework/",
+          "text": "Framework"
+        },
+        {
+          "url": "https://www.novu.co/digest/",
+          "text": "Digest"
+        },
+        {
+          "url": "https://docs.novu.co/platform/workflow/add-notification-content/channels-template-editors",
+          "text": "Content Management"
+        },
+        {
+          "url": "https://docs.novu.co/platform/sdks/react",
+          "text": "Notifications Directory"
+        },
+        {
+          "url": "https://www.novu.co/mcp/",
+          "text": "Novu MCP"
+        },
+        {
+          "url": "https://agentinbox.md?utm_source=novu-website",
+          "text": "Agent Inbox"
+        },
+        {
+          "url": "https://www.novu.co/blog/",
+          "text": "Blog"
+        },
+        {
+          "url": "https://www.novu.co/usecases/",
+          "text": "Use Cases"
+        },
+        {
+          "url": "https://www.novu.co/changelog/",
+          "text": "Changelog"
+        },
+        {
+          "url": "https://roadmap.novu.co",
+          "text": "Roadmap"
+        },
+        {
+          "url": "https://www.novu.co/security/",
+          "text": "Security & Compliance"
+        },
+        {
+          "url": "https://www.novu.co/comparison/courier/",
+          "text": "Novu vs Courier"
+        },
+        {
+          "url": "https://www.novu.co/comparison/knock/",
+          "text": "Novu vs Knock"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-674c77789d5a415d",
+      "kind": "pricing",
+      "title": "Pricing | Novu",
+      "url": "https://www.novu.co/pricing/",
+      "collected_at": "2026-11-21T07:31:08+00:00",
+      "published_at": null,
+      "text": "Flexible pricing for companies and developers\nFree\n$\n0\n/\nmonth\nGet started\nNo credit card required\nA complete starter toolkit for exploring Novu and sending your first notifications.\nIncludes:\n10,000 workflow runs / month\nAll channels: Email, In-app, SMS, Chat, Push\nUS + EU data ",
+      "links": [
+        {
+          "url": "https://www.novu.co/pricing/",
+          "text": "Skip to content"
+        },
+        {
+          "url": "https://www.novu.co/",
+          "text": "Novu"
+        },
+        {
+          "url": "https://www.novu.co/integrations/channels/",
+          "text": "Integrations"
+        },
+        {
+          "url": "https://www.novu.co/customers/",
+          "text": "Customers"
+        },
+        {
+          "url": "https://github.com/novuhq/novu?utm_campaign=website",
+          "text": "40.4 k"
+        },
+        {
+          "url": "https://dashboard.novu.co",
+          "text": "Sign up now"
+        },
+        {
+          "url": "https://www.novu.co/contact-us/?utm_campaign=ws_pricing",
+          "text": "Contact us"
+        },
+        {
+          "url": "https://go.novu.co/intro-call?utm_campaign=pricing-widget-self-host",
+          "text": "Book a Meeting"
+        },
+        {
+          "url": "https://www.novu.co/contact-us/",
+          "text": "Contact us"
+        },
+        {
+          "url": "https://www.novu.co/inbox/",
+          "text": "Inbox Component"
+        },
+        {
+          "url": "https://docs.novu.co/platform/sdks/react/hooks/use-preferences",
+          "text": "User Preference"
+        },
+        {
+          "url": "https://docs.novu.co/platform/workflow",
+          "text": "Workflows"
+        },
+        {
+          "url": "https://www.novu.co/framework/",
+          "text": "Framework"
+        },
+        {
+          "url": "https://www.novu.co/digest/",
+          "text": "Digest"
+        },
+        {
+          "url": "https://docs.novu.co/platform/workflow/add-notification-content/channels-template-editors",
+          "text": "Content Management"
+        },
+        {
+          "url": "https://docs.novu.co/platform/sdks/react",
+          "text": "Notifications Directory"
+        },
+        {
+          "url": "https://www.novu.co/copilot/",
+          "text": "Novu Copilot"
+        },
+        {
+          "url": "https://www.novu.co/mcp/",
+          "text": "Novu MCP"
+        },
+        {
+          "url": "https://www.novu.co/aci/",
+          "text": "Novu ACI"
+        },
+        {
+          "url": "https://agentinbox.md?utm_source=novu-website",
+          "text": "Agent Inbox"
+        },
+        {
+          "url": "https://docs.novu.co/",
+          "text": "Documentation"
+        },
+        {
+          "url": "https://www.novu.co/blog/",
+          "text": "Blog"
+        },
+        {
+          "url": "https://www.novu.co/usecases/",
+          "text": "Use Cases"
+        },
+        {
+          "url": "https://www.novu.co/changelog/",
+          "text": "Changelog"
+        },
+        {
+          "url": "https://roadmap.novu.co",
+          "text": "Roadmap"
+        },
+        {
+          "url": "https://www.novu.co/security/",
+          "text": "Security & Compliance"
+        },
+        {
+          "url": "https://www.novu.co/comparison/courier/",
+          "text": "Novu vs Courier"
+        },
+        {
+          "url": "https://www.novu.co/comparison/knock/",
+          "text": "Novu vs Knock"
+        },
+        {
+          "url": "https://www.novu.co/comparison/magicbell/",
+          "text": "Novu vs MagicBell"
+        },
+        {
+          "url": "https://www.novu.co/comparison/suprsend/",
+          "text": "Novu vs SuprSend"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-caab58841b9a1e34",
+      "kind": "content",
+      "title": "Blog | Novu",
+      "url": "https://www.novu.co/blog/",
+      "collected_at": "2026-11-21T07:31:08+00:00",
+      "published_at": null,
+      "text": "Built with Novu\nDiscover ideas, updates, and breakthroughs from the Novu team.\nCategories\nRSS\nSearch...\n⌘\nK\nFeatured posts\nAgent Inbox\nNov 2, 2026\nAnnouncing Agent Inbox: give your agent a way to reach you\nAuthor\n:\nVictor Yakubu\nProduct updates\nOct 6, 2026\nProduct updates\nOct 6, ",
+      "links": [
+        {
+          "url": "https://www.novu.co/blog/",
+          "text": "Skip to content"
+        },
+        {
+          "url": "https://www.novu.co/",
+          "text": "Novu"
+        },
+        {
+          "url": "https://www.novu.co/integrations/channels/",
+          "text": "Integrations"
+        },
+        {
+          "url": "https://www.novu.co/customers/",
+          "text": "Customers"
+        },
+        {
+          "url": "https://www.novu.co/pricing/",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://github.com/novuhq/novu?utm_campaign=website",
+          "text": "40.4 k"
+        },
+        {
+          "url": "https://dashboard.novu.co",
+          "text": "Sign up now"
+        },
+        {
+          "url": "https://www.novu.co/blog/category/agent-inbox/",
+          "text": "Agent Inbox"
+        },
+        {
+          "url": "https://www.novu.co/blog/category/announcement/",
+          "text": "Announcement"
+        },
+        {
+          "url": "https://www.novu.co/blog/category/case-study/",
+          "text": "Case study"
+        },
+        {
+          "url": "https://www.novu.co/blog/category/chat/",
+          "text": "Chat"
+        },
+        {
+          "url": "https://www.novu.co/blog/category/community/",
+          "text": "Community"
+        },
+        {
+          "url": "https://www.novu.co/blog/category/email/",
+          "text": "Email"
+        },
+        {
+          "url": "https://www.novu.co/blog/category/how-to/",
+          "text": "How to"
+        },
+        {
+          "url": "https://www.novu.co/blog/category/in-app/",
+          "text": "In-App"
+        },
+        {
+          "url": "https://www.novu.co/blog/category/marketing/",
+          "text": "Marketing"
+        },
+        {
+          "url": "https://www.novu.co/blog/category/product-updates/",
+          "text": "Product updates"
+        },
+        {
+          "url": "https://www.novu.co/blog/category/push/",
+          "text": "Push"
+        },
+        {
+          "url": "https://www.novu.co/blog/category/sms/",
+          "text": "SMS"
+        },
+        {
+          "url": "https://www.novu.co/blog/category/uncategorized/",
+          "text": "Uncategorized"
+        },
+        {
+          "url": "https://www.novu.co/blog/rss.xml",
+          "text": "RSS"
+        },
+        {
+          "url": "https://www.novu.co/blog/agent-inbox/",
+          "text": ""
+        },
+        {
+          "url": "https://www.novu.co/blog/add-your-existing-agent-to-your-react-app-with-novu-web-chat/",
+          "text": "Add your existing agent to your React app with Novu Web Chat"
+        },
+        {
+          "url": "https://www.novu.co/blog/whats-new-in-novu-august-2026/",
+          "text": "What’s new in Novu: August 2026"
+        },
+        {
+          "url": "https://www.novu.co/blog/how-to-run-one-vercel-ai-sdk-agent-across-multiple-channels/",
+          "text": "How to run one Vercel AI SDK agent across multiple channels"
+        },
+        {
+          "url": "https://www.novu.co/blog/agent-inbox-vs-resend-inboxes/",
+          "text": "Agent Inbox vs Resend Inboxes"
+        },
+        {
+          "url": "https://www.novu.co/blog/claude-code-remote-control-vs-agent-inbox/",
+          "text": "Claude Code Remote Control vs Agent Inbox"
+        },
+        {
+          "url": "https://www.novu.co/blog/stop-using-dangerously-skip-permissions-approve-claude-code-actions-from-your-phone/",
+          "text": "Stop using --dangerously-skip-permissions: approve Claude Code actions from your phone"
+        },
+        {
+          "url": "https://www.novu.co/blog/agent-inbox-vs-agentmail/",
+          "text": "Agent Inbox vs AgentMail"
+        },
+        {
+          "url": "https://www.novu.co/blog/novu-vs-knock-vs-courier/",
+          "text": "Novu vs Knock vs Courier: I built the same agentic customer engagement system three times"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-78100fe4e702f1f3",
+      "kind": "docs",
+      "title": "Changelog | Novu",
+      "url": "https://www.novu.co/changelog/",
+      "collected_at": "2026-11-21T07:31:09+00:00",
+      "published_at": null,
+      "text": "Changelog\nProduct updates, improvements, and fixes\nFollow us on X\nAll changelog posts\nNov 16, 2026\nReview changes before publishing to Production\nNovu’s new publish dialog shows every change between Development and Production, flags breaking changes and lets you choose exactly wh",
+      "links": [
+        {
+          "url": "https://www.novu.co/changelog/",
+          "text": "Skip to content"
+        },
+        {
+          "url": "https://www.novu.co/",
+          "text": "Novu"
+        },
+        {
+          "url": "https://www.novu.co/integrations/channels/",
+          "text": "Integrations"
+        },
+        {
+          "url": "https://www.novu.co/customers/",
+          "text": "Customers"
+        },
+        {
+          "url": "https://www.novu.co/pricing/",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://github.com/novuhq/novu?utm_campaign=website",
+          "text": "40.4 k"
+        },
+        {
+          "url": "https://dashboard.novu.co",
+          "text": "Sign up now"
+        },
+        {
+          "url": "https://twitter.com/novuhq?utm_campaign=website",
+          "text": "Follow us on X"
+        },
+        {
+          "url": "https://www.novu.co/changelog/review-changes-before-publishing-to-production/",
+          "text": "Review changes before publishing to Production"
+        },
+        {
+          "url": "https://www.novu.co/changelog/category/improvement/",
+          "text": "Improvement"
+        },
+        {
+          "url": "https://www.novu.co/changelog/category/dashboard/",
+          "text": "Dashboard"
+        },
+        {
+          "url": "https://www.novu.co/changelog/agent-inbox-give-your-ai-agent-a-way-to-reach-you/",
+          "text": "Agent Inbox: give your AI agent a way to reach you"
+        },
+        {
+          "url": "https://www.novu.co/changelog/web-chat-for-in-app-agent-conversations/",
+          "text": "Web Chat for in-app agent conversations"
+        },
+        {
+          "url": "https://www.novu.co/changelog/category/new-feature/",
+          "text": "New Feature"
+        },
+        {
+          "url": "https://www.novu.co/changelog/category/agent-communication/",
+          "text": "Agent Communication"
+        },
+        {
+          "url": "https://www.novu.co/changelog/manage-agents-and-conversations-through-the-novu-mcp-server/",
+          "text": "Manage agents and conversations through the Novu MCP server"
+        },
+        {
+          "url": "https://www.novu.co/changelog/agent-assigned-workflows/",
+          "text": "Agent-Assigned Workflows"
+        },
+        {
+          "url": "https://www.novu.co/changelog/provider-content-overrides-in-the-dashboard/",
+          "text": "Provider content overrides in the Dashboard"
+        },
+        {
+          "url": "https://www.novu.co/changelog/category/chat/",
+          "text": "Chat"
+        },
+        {
+          "url": "https://www.novu.co/inbox/",
+          "text": "Inbox Component"
+        },
+        {
+          "url": "https://docs.novu.co/platform/sdks/react/hooks/use-preferences",
+          "text": "User Preference"
+        },
+        {
+          "url": "https://docs.novu.co/platform/workflow",
+          "text": "Workflows"
+        },
+        {
+          "url": "https://www.novu.co/framework/",
+          "text": "Framework"
+        },
+        {
+          "url": "https://www.novu.co/digest/",
+          "text": "Digest"
+        },
+        {
+          "url": "https://docs.novu.co/platform/workflow/add-notification-content/channels-template-editors",
+          "text": "Content Management"
+        },
+        {
+          "url": "https://docs.novu.co/platform/sdks/react",
+          "text": "Notifications Directory"
+        },
+        {
+          "url": "https://www.novu.co/copilot/",
+          "text": "Novu Copilot"
+        },
+        {
+          "url": "https://www.novu.co/mcp/",
+          "text": "Novu MCP"
+        },
+        {
+          "url": "https://www.novu.co/aci/",
+          "text": "Novu ACI"
+        },
+        {
+          "url": "https://agentinbox.md?utm_source=novu-website",
+          "text": "Agent Inbox"
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-b43721e695aec821",
+      "kind": "repository",
+      "title": "novuhq/novu",
+      "url": "https://github.com/novuhq/novu",
+      "collected_at": "2026-11-21T07:31:10+00:00",
+      "published_at": null,
+      "text": "{\"full_name\": \"novuhq/novu\", \"stargazers_count\": 40397, \"forks_count\": 4566, \"open_issues_count\": 103, \"language\": \"TypeScript\", \"license\": {\"key\": \"other\", \"name\": \"Other\", \"spdx_id\": \"NOASSERTION\", \"url\": null, \"node_id\": \"MDc6TGljZW5zZTA=\"}, \"created_at\": \"2021-08-26T15:22:44Z",
+      "links": [],
+      "metadata": {
+        "full_name": "novuhq/novu",
+        "stargazers_count": 40397,
+        "forks_count": 4566,
+        "open_issues_count": 103,
+        "language": "TypeScript",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "created_at": "2021-08-26T15:22:44Z",
+        "pushed_at": "2026-11-21T06:11:26Z",
+        "topics": [
+          "agents",
+          "communication",
+          "email",
+          "inbox",
+          "infrastructure",
+          "nodejs",
+          "notification-center",
+          "notifications",
+          "novu",
+          "push-notifications",
+          "react",
+          "reactjs",
+          "sms",
+          "transactional",
+          "typescript"
+        ],
+        "description": "The open-source communication infrastructure for agents and products",
+        "homepage": "https://go.novu.co/github",
+        "archived": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-3862ccba49b6b6be",
+      "kind": "readme",
+      "title": "novuhq/novu README",
+      "url": "https://github.com/novuhq/novu/blob/next/README.md",
+      "collected_at": "2026-11-21T07:31:10+00:00",
+      "published_at": null,
+      "text": "<a href=\"https://go.novu.co/github?utm_campaign=readme-logo\" target=\"_blank\" rel=\"noopener noreferrer\">\n  <img alt=\"Novu Logo\" src=\".github/assets/novu-logo.svg\" width=\"100%\"/>\n</a>\n\n<br/>\n<br/>\n<p align=\"center\">\n  <a href=\"https://www.producthunt.com/products/novu\" target=\"_bla",
+      "links": [],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-58909c5a7e08120c",
+      "kind": "release",
+      "title": "3.20.0",
+      "url": "https://github.com/novuhq/novu/releases/tag/v3.20.0",
+      "collected_at": "2026-11-21T07:31:11+00:00",
+      "published_at": "2026-11-16T14:59:05Z",
+      "text": "## API\r\n\r\n### 🚀 Features\r\n\r\n- **api-service:** record subscriber session auth method and SDK per environment fixes NV-9419 ([#13309](https://github.com/novuhq/novu/pull/13309))\r\n- **api-service,@agentinbox/cli,agent-inbox-mcp:** pick a new agent's look in setup fixes NV-9450 ([#1",
+      "links": [],
+      "metadata": {
+        "tag": "v3.20.0",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-9bc13e7ce425830e",
+      "kind": "release",
+      "title": "@novu/react@v3.20.0",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/react%40v3.20.0",
+      "collected_at": "2026-11-21T07:31:11+00:00",
+      "published_at": "2026-11-16T14:57:17Z",
+      "text": "### 🚀 Features\n- **dashboard:** run the workflow editor Copilot on the agent web-chat channel fixes NV-9137 ([#13010](https://github.com/novuhq/novu/pull/13010))\n- **js,react:** inbox micro-interactions and motion fixes NV-8847 ([#12712](https://github.com/novuhq/novu/pull/12712)",
+      "links": [],
+      "metadata": {
+        "tag": "@novu/react@v3.20.0",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-9dc91c466a4fee87",
+      "kind": "release",
+      "title": "@novu/react-native@v3.20.0",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/react-native%40v3.20.0",
+      "collected_at": "2026-11-21T07:31:11+00:00",
+      "published_at": "2026-11-16T14:57:19Z",
+      "text": "This was a version bump only for @novu/react-native to align it with other projects, there were no code changes.",
+      "links": [],
+      "metadata": {
+        "tag": "@novu/react-native@v3.20.0",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-0c9ff285321d5f1f",
+      "kind": "release",
+      "title": "@novu/nextjs@v3.20.0",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/nextjs%40v3.20.0",
+      "collected_at": "2026-11-21T07:31:11+00:00",
+      "published_at": "2026-11-16T14:57:18Z",
+      "text": "### 🚀 Features\n- **js,react,nextjs:** improved rendering architecture fixes NV-8839 ([#12591](https://github.com/novuhq/novu/pull/12591))\n### ❤️ Thank You\n- Claude Fable 5.1\n- Paweł Tymczuk @LetItRock",
+      "links": [],
+      "metadata": {
+        "tag": "@novu/nextjs@v3.20.0",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    }
+  ],
+  "actions": [
+    {
+      "id": "a-1",
+      "title": "用公开内容承接用户问题",
+      "channel": "内容营销",
+      "description": "官网提供内容入口。可从文章主题、目标读者和文章内的产品引导，研究内容如何连接产品。",
+      "source_ids": [
+        "s-caab58841b9a1e34"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-2",
+      "title": "提供文档与上手路径",
+      "channel": "使用教育",
+      "description": "公开文档为用户了解功能和开始使用提供入口。可研究教程是否覆盖客户的真实任务。",
+      "source_ids": [
+        "s-78100fe4e702f1f3"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-3",
+      "title": "维护公开代码仓库",
+      "channel": "开发者生态",
+      "description": "公开代码、README 和发布记录让开发者能够评估项目、参与讨论或尝试部署。Stars 与 Forks 表示公开互动规模。",
+      "source_ids": [
+        "s-b43721e695aec821"
+      ],
+      "date": null,
+      "result": "本次记录了仓库当前的 Stars 与 Forks 快照，收入和付费客户数需要另行核对。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-4",
+      "title": "GitHub 仓库建立",
+      "channel": "项目历史",
+      "description": "GitHub API 记录的仓库创建日期。产品上线日期需要其他来源确认。",
+      "source_ids": [
+        "s-b43721e695aec821"
+      ],
+      "date": "2021-08-26",
+      "result": "已取得仓库创建时间。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-5",
+      "title": "发布 3.20.0",
+      "channel": "产品更新",
+      "description": "## API ### 🚀 Features - **api-service:** record subscriber session auth method and SDK per environment fixes NV-9419 (#13309) - **api-service,@agentinbox/cli,agent-inbox-mcp:** pick a new agent's look in setup fixes NV-9450 (#13300) - **api-service,human-dashboard,@agentinbox/cli:** an agent's look shows on every one of its masc",
+      "source_ids": [
+        "s-58909c5a7e08120c"
+      ],
+      "date": "2026-11-16",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-6",
+      "title": "发布 @novu/react@v3.20.0",
+      "channel": "产品更新",
+      "description": "### 🚀 Features - **dashboard:** run the workflow editor Copilot on the agent web-chat channel fixes NV-9137 (#13010) - **js,react:** inbox micro-interactions and motion fixes NV-8847 (#12712) - **js,react,nextjs:** improved rendering architecture fixes NV-8839 (#12591) ### 🩹 Fixes - **react:** host outlets under the component th",
+      "source_ids": [
+        "s-9bc13e7ce425830e"
+      ],
+      "date": "2026-11-16",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-7",
+      "title": "发布 @novu/react-native@v3.20.0",
+      "channel": "产品更新",
+      "description": "This was a version bump only for @novu/react-native to align it with other projects, there were no code changes.",
+      "source_ids": [
+        "s-9dc91c466a4fee87"
+      ],
+      "date": "2026-11-16",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-8",
+      "title": "发布 @novu/nextjs@v3.20.0",
+      "channel": "产品更新",
+      "description": "### 🚀 Features - **js,react,nextjs:** improved rendering architecture fixes NV-8839 (#12591) ### ❤️ Thank You - Claude Fable 5.1 - Paweł Tymczuk @LetItRock",
+      "source_ids": [
+        "s-0c9ff285321d5f1f"
+      ],
+      "date": "2026-11-16",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "产品概览",
+      "intro": "从官网和公开仓库核对产品定位、功能与公开入口。",
+      "facts": [
+        {
+          "text": "Novu is the open-source notification and agent communication infrastructure. Connect AI agents and products to customers across in-app, email, SMS, push, WhatsApp, Slack, Microsoft Teams, and Telegram with one API. Start with npx novu connect.",
+          "source_ids": [
+            "s-da9f3a50864a7487"
+          ]
+        },
+        {
+          "text": "README 内容摘录：The open-source communication infrastructure for agents and products One API and one unified conversation model to connect your products and your agents to every channel your users live on — Inbox, Email, SMS, Push, Chat, Slack, M",
+          "source_ids": [
+            "s-3862ccba49b6b6be"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "business",
+      "title": "生意与定价",
+      "intro": "定价信息来自产品自己的公开页面。收入指标需要单独的公开披露或授权数据。",
+      "facts": [
+        {
+          "text": "定价页中的原始片段：for companies and developers Free $ 0 / month Get started No credit card required A complete starter toolki；o 3 team members Pro Starting from $ 30 / month Get started More scale and flexibility - ideal for teams movi；ster processing Team Starting from $ 250 / month Get started Built for growing engineering teams sending meani",
+          "source_ids": [
+            "s-674c77789d5a415d"
+          ]
+        },
+        {
+          "text": "公开仓库为 novuhq/novu，API 标注许可证为 Other。",
+          "source_ids": [
+            "s-b43721e695aec821"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "acquisition",
+      "title": "获客入口",
+      "intro": "下面列出已观察到的入口与动作。渠道带来的访问和付费效果仍需转化数据验证。",
+      "facts": [
+        {
+          "text": "内容页可见文本摘录：Built with Novu Discover ideas, updates, and breakthroughs from the Novu team. Categories RSS Search... ⌘ K Featured posts Agent Inbox Nov 2, 2026 Announcing Agent Inbox: give your agent a way to reach you Author : Victo",
+          "source_ids": [
+            "s-caab58841b9a1e34"
+          ]
+        }
+      ],
+      "action_ids": [
+        "a-1",
+        "a-2",
+        "a-3"
+      ]
+    },
+    {
+      "id": "growth",
+      "title": "公开动作拆解",
+      "intro": "每个动作都关联原始资料，适合进一步研究具体做法和执行条件。",
+      "facts": [],
+      "action_ids": [
+        "a-1",
+        "a-2",
+        "a-3",
+        "a-4",
+        "a-5",
+        "a-6",
+        "a-7",
+        "a-8"
+      ]
+    },
+    {
+      "id": "social",
+      "title": "社媒与社区",
+      "intro": "本次保留官网引用的社媒与社区链接。账号归属、帖子内容和互动数据需要进一步核对。",
+      "facts": [
+        {
+          "text": "官网引用的社媒与社区链接涉及 discord.gg、twitter.com。",
+          "source_ids": [
+            "s-da9f3a50864a7487"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "timeline",
+      "title": "事件时间线",
+      "intro": "仅展示来源中明确给出日期的事件，采集时间另列。产品更新可以帮助理解推广内容的背景。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "competitors",
+      "title": "竞品研究线索",
+      "intro": "本轮采集围绕单个产品。可按目标客户、解决的问题和购买方式，再添加相关产品进行研究。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "appendix",
+      "title": "来源与数据缺口",
+      "intro": "报告保留了本次采集的来源快照。缺失指标保持为空，观察到的动作与分析建议分别呈现。",
+      "facts": [],
+      "action_ids": []
+    }
+  ],
+  "metrics": [
+    {
+      "name": "GitHub Stars",
+      "value": 40397,
+      "unit": "stars",
+      "source_id": "s-b43721e695aec821",
+      "observed_at": "2026-11-21T07:31:10+00:00"
+    },
+    {
+      "name": "Forks",
+      "value": 4566,
+      "unit": "forks",
+      "source_id": "s-b43721e695aec821",
+      "observed_at": "2026-11-21T07:31:10+00:00"
+    }
+  ],
+  "gaps": [
+    "连续收入序列和已核验 MRR",
+    "真实访问量及渠道占比",
+    "搜索关键词排名与点击数据",
+    "社媒帖子、互动和渠道转化数据",
+    "独立核对过的竞品比较"
+  ],
+  "warnings": [],
+  "discovered_accounts": [
+    {
+      "url": "https://twitter.com/novuhq?utm_campaign=website",
+      "platform": "twitter.com",
+      "label": "@novuhq"
+    },
+    {
+      "url": "https://discord.gg/novu?utm_campaign=website",
+      "platform": "discord.gg",
+      "label": "discord.gg"
+    }
+  ],
+  "translations": {
+    "## API ### 🚀 Features - **api-service:** record subscriber session auth method and SDK per environment fixes NV-9419 (#13309) - **api-service,@agentinbox/cli,agent-inbox-mcp:** pick a new agent's look in setup fixes NV-9450 (#13300) - **api-service,human-dashboard,@agentinbox/cli:** an agent's look shows on every one of its masc": "发布说明摘译：按环境记录订阅者会话的认证方式和 SDK（NV-9419，#13309）；设置新智能体的外观（NV-9450，#13300），并在相关位置展示；后续说明被截断。",
+    "### 🚀 Features - **dashboard:** run the workflow editor Copilot on the agent web-chat channel fixes NV-9137 (#13010) - **js,react:** inbox micro-interactions and motion fixes NV-8847 (#12712) - **js,react,nextjs:** improved rendering architecture fixes NV-8839 (#12591) ### 🩹 Fixes - **react:** host outlets under the component th": "发布说明摘译：在智能体网页聊天渠道运行工作流编辑器 Copilot（NV-9137，#13010）；改进收件箱微交互和动效（NV-8847，#12712）；改进渲染架构（NV-8839，#12591）。后续修复列表被截断。",
+    "### 🚀 Features - **js,react,nextjs:** improved rendering architecture fixes NV-8839 (#12591) ### ❤️ Thank You - Claude Fable 5.1 - Paweł Tymczuk @LetItRock": "发布说明摘译：改进 js、react、nextjs 的渲染架构（NV-8839，#12591）。致谢部分提到 Claude Fable 5.1 和 Paweł Tymczuk（@LetItRock）。",
+    "@novu/react-native@v3.20.0": "@novu/ react-native@v3.20.0 (英语).",
+    "Blog | Novu": "Novu 博客与内容",
+    "Changelog | Novu": "Novu 文档与更新",
+    "Novu - Connect your AI agents and products to customers": "Novu 官网",
+    "Novu is the open-source notification and agent communication infrastructure. Connect AI agents and products to customers across in-app, email, SMS, push, WhatsApp, Slack, Microsoft Teams, and Telegram with one API. Start with npx novu connect.": "面向产品和 AI 智能体的开源通知与通信基础设施。通过统一 API 连接应用内通知、邮件、短信、推送、WhatsApp、Slack、Microsoft Teams 和 Telegram 等渠道。",
+    "Pricing | Novu": "Novu 定价与方案",
+    "README 内容摘录：The open-source communication infrastructure for agents and products One API and one unified conversation model to connect your products and your agents to every channel your users live on — Inbox, Email, SMS, Push, Chat, Slack, M": "README 摘录（中文）：面向智能体和产品的开源通信基础设施，通过一个 API 和统一的会话模型，将产品及智能体连接到用户所在的渠道，包括收件箱、邮件、短信、推送、聊天和 Slack；后续列表被截断。",
+    "This was a version bump only for @novu/react-native to align it with other projects, there were no code changes.": "发布说明摘译：此次仅提升 @novu/react-native 的版本号，使其与其他项目对齐，没有代码变更。",
+    "novuhq/novu": "Novu 公开代码仓库",
+    "novuhq/novu README": "Novu 项目说明（README）",
+    "内容页可见文本摘录：Built with Novu Discover ideas, updates, and breakthroughs from the Novu team. Categories RSS Search... ⌘ K Featured posts Agent Inbox Nov 2, 2026 Announcing Agent Inbox: give your agent a way to reach you Author : Victo": "内容页摘录（中文）：Novu 团队分享想法、更新和新进展。精选文章《发布 Agent Inbox：让你的智能体能够联系到你》日期为 2026 年 11 月 2 日，作者信息在摘录中被截断。",
+    "发布 @novu/react-native@v3.20.0": "发布 @novu/ react-native@v3.20.0 (英语).",
+    "定价页中的原始片段：for companies and developers Free $ 0 / month Get started No credit card required A complete starter toolki；o 3 team members Pro Starting from $ 30 / month Get started More scale and flexibility - ideal for teams movi；ster processing Team Starting from $ 250 / month Get started Built for growing engineering teams sending meani": "定价页摘录（中文）：Free 每月 0 美元，无需信用卡，提供入门工具包，摘录提及 3 名团队成员。Pro 每月 30 美元起，提供更大规模和灵活性。Team 每月 250 美元起，面向成长中的工程团队。"
+  },
+  "coverage": "website"
+}

@@ -1,0 +1,617 @@
+{
+  "schema_version": "1.0",
+  "project_id": "f708fd20b6df4597a1957b7971989d3d",
+  "version": 1,
+  "generated_at": "2026-11-21T07:30:40+00:00",
+  "mode": "evidence",
+  "summary": "围绕 Twenty 核对了 8 份公开资料，整理出 8 条入口与动作。可继续研究的方向包括产品试用、开发者生态。",
+  "summary_source_ids": [],
+  "sources": [
+    {
+      "id": "s-2ef97ffe0b869e2e",
+      "kind": "website",
+      "title": "Twenty | #1 Open Source CRM",
+      "url": "https://twenty.com/",
+      "collected_at": "2026-11-21T07:30:38+00:00",
+      "published_at": null,
+      "text": "Build your Enterprise CRM\nat AI Speed\nTwenty gives technical teams the building blocks for a custom CRM that meets complex business needs and quickly adapts as the business evolves.\nGet started\nTalk to us\nTwenty\nApple\nHome\nFavorites\nS\nSales Dashboard\n·\nDashboard\nWorkspace\nCompani",
+      "links": [
+        {
+          "url": "https://twenty.com/",
+          "text": ""
+        },
+        {
+          "url": "https://twenty.com/product",
+          "text": "Product"
+        },
+        {
+          "url": "https://twenty.com/customers",
+          "text": "Customers"
+        },
+        {
+          "url": "https://twenty.com/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://github.com/twentyhq/twenty",
+          "text": "61.2K"
+        },
+        {
+          "url": "https://discord.gg/cx5n4Jzs57",
+          "text": "7.5K"
+        },
+        {
+          "url": "https://app.twenty.com/welcome",
+          "text": "Log in"
+        },
+        {
+          "url": "https://twenty.com/customers/w3villa",
+          "text": ""
+        },
+        {
+          "url": "https://twenty.com/customers/alternative-partners",
+          "text": ""
+        },
+        {
+          "url": "https://twenty.com/customers/act-education",
+          "text": ""
+        },
+        {
+          "url": "https://twenty.com/customers/netzero",
+          "text": "Read the case"
+        },
+        {
+          "url": "https://twenty.com/partners",
+          "text": "Partners"
+        },
+        {
+          "url": "https://twenty.com/partners/integrators",
+          "text": "Become an integrator"
+        },
+        {
+          "url": "https://twenty.com/partners/creators",
+          "text": "Become a creator"
+        },
+        {
+          "url": "https://twenty.com/why-twenty",
+          "text": "Why Twenty"
+        },
+        {
+          "url": "https://docs.twenty.com/developers/introduction",
+          "text": "Developers"
+        },
+        {
+          "url": "https://docs.twenty.com/getting-started/introduction",
+          "text": "User Guide"
+        },
+        {
+          "url": "https://twenty.com/releases",
+          "text": "Release Notes"
+        },
+        {
+          "url": "https://twenty.com/halftone",
+          "text": "Halftone generator"
+        },
+        {
+          "url": "https://twenty.com/privacy-policy",
+          "text": "Privacy Policy"
+        },
+        {
+          "url": "https://twenty.com/terms",
+          "text": "Terms and Conditions"
+        },
+        {
+          "url": "https://trust.twenty.com",
+          "text": "Trust Center"
+        },
+        {
+          "url": "https://www.linkedin.com/company/twenty",
+          "text": "LinkedIn"
+        },
+        {
+          "url": "https://x.com/twentycrm",
+          "text": ""
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-30be008e8ed302ab",
+      "kind": "pricing",
+      "title": "Twenty CRM Pricing — Plans from $9 per User per Month",
+      "url": "https://twenty.com/pricing",
+      "collected_at": "2026-11-21T07:30:38+00:00",
+      "published_at": null,
+      "text": "Simple\nPricing\nStart your free trial today\nwithout credit card.\nMonthly\nYearly\n-25%\nSelf-hosting\nPro\nA custom agentic CRM for one team.\n$9\n/user/month\nIncludes\nEmails and meetings log themselves\nGoogle and Microsoft email and calendar sync\nCalls recorded, leads enriched\nAnd more ",
+      "links": [
+        {
+          "url": "https://twenty.com/",
+          "text": ""
+        },
+        {
+          "url": "https://twenty.com/product",
+          "text": "Product"
+        },
+        {
+          "url": "https://twenty.com/customers",
+          "text": "Customers"
+        },
+        {
+          "url": "https://twenty.com/pricing",
+          "text": "Pricing"
+        },
+        {
+          "url": "https://github.com/twentyhq/twenty",
+          "text": "61.2K"
+        },
+        {
+          "url": "https://discord.gg/cx5n4Jzs57",
+          "text": "7.5K"
+        },
+        {
+          "url": "https://app.twenty.com/welcome",
+          "text": "Log in"
+        },
+        {
+          "url": "https://twenty.com/partners",
+          "text": "Browse partners"
+        },
+        {
+          "url": "https://twenty.com/compare-pricing/hubspot",
+          "text": "Twenty vs HubSpot"
+        },
+        {
+          "url": "https://twenty.com/compare-pricing/salesforce",
+          "text": "Twenty vs Salesforce"
+        },
+        {
+          "url": "https://twenty.com/compare-pricing/sap-sales-cloud",
+          "text": "Twenty vs SAP Sales Cloud"
+        },
+        {
+          "url": "https://twenty.com/compare-pricing/pipedrive",
+          "text": "Twenty vs Pipedrive"
+        },
+        {
+          "url": "https://twenty.com/compare-pricing/microsoft-dynamics",
+          "text": "Twenty vs Microsoft Dynamics"
+        },
+        {
+          "url": "https://www.salesforce.com/en-us/wp-content/uploads/sites/4/documents/pricing/all-add-ons.pdf",
+          "text": "Check more add-ons"
+        },
+        {
+          "url": "https://twenty.com/partners/integrators",
+          "text": "Become an integrator"
+        },
+        {
+          "url": "https://twenty.com/partners/creators",
+          "text": "Become a creator"
+        },
+        {
+          "url": "https://twenty.com/why-twenty",
+          "text": "Why Twenty"
+        },
+        {
+          "url": "https://docs.twenty.com/developers/introduction",
+          "text": "Developers"
+        },
+        {
+          "url": "https://docs.twenty.com/getting-started/introduction",
+          "text": "User Guide"
+        },
+        {
+          "url": "https://twenty.com/releases",
+          "text": "Release Notes"
+        },
+        {
+          "url": "https://twenty.com/halftone",
+          "text": "Halftone generator"
+        },
+        {
+          "url": "https://twenty.com/privacy-policy",
+          "text": "Privacy Policy"
+        },
+        {
+          "url": "https://twenty.com/terms",
+          "text": "Terms and Conditions"
+        },
+        {
+          "url": "https://trust.twenty.com",
+          "text": "Trust Center"
+        },
+        {
+          "url": "https://www.linkedin.com/company/twenty",
+          "text": "LinkedIn"
+        },
+        {
+          "url": "https://x.com/twentycrm",
+          "text": ""
+        }
+      ],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-a20220596b25af30",
+      "kind": "repository",
+      "title": "twentyhq/twenty",
+      "url": "https://github.com/twentyhq/twenty",
+      "collected_at": "2026-11-21T07:30:39+00:00",
+      "published_at": null,
+      "text": "{\"full_name\": \"twentyhq/twenty\", \"stargazers_count\": 61274, \"forks_count\": 10138, \"open_issues_count\": 179, \"language\": \"TypeScript\", \"license\": {\"key\": \"other\", \"name\": \"Other\", \"spdx_id\": \"NOASSERTION\", \"url\": null, \"node_id\": \"MDc6TGljZW5zZTA=\"}, \"created_at\": \"2022-12-01T13:0",
+      "links": [],
+      "metadata": {
+        "full_name": "twentyhq/twenty",
+        "stargazers_count": 61274,
+        "forks_count": 10138,
+        "open_issues_count": 179,
+        "language": "TypeScript",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "created_at": "2022-12-01T13:04:40Z",
+        "pushed_at": "2026-11-21T07:30:35Z",
+        "topics": [
+          "crm",
+          "crm-system",
+          "customer",
+          "good-first-issue",
+          "graphql",
+          "hacktoberfest",
+          "javascript",
+          "marketing",
+          "monorepo",
+          "nestjs",
+          "open-source",
+          "postgresql",
+          "react",
+          "reactjs",
+          "sales",
+          "typescript",
+          "web"
+        ],
+        "description": "The open alternative to Salesforce, designed for AI.",
+        "homepage": "https://twenty.com",
+        "archived": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-527a9e81fc147127",
+      "kind": "readme",
+      "title": "twentyhq/twenty README",
+      "url": "https://github.com/twentyhq/twenty/blob/main/README.md",
+      "collected_at": "2026-11-21T07:30:40+00:00",
+      "published_at": null,
+      "text": "<p align=\"center\">\n  <a href=\"https://www.twenty.com\">\n    <img src=\"./packages/twenty-website/public/images/core/logo.svg\" width=\"100px\" alt=\"Twenty logo\" />\n  </a>\n</p>\n\n<h2 align=\"center\">The #1 Open-Source CRM</h2>\n\n<p align=\"center\"><a href=\"https://twenty.com\"><img src=\"./p",
+      "links": [],
+      "metadata": {
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-8bbe1ebc798b6703",
+      "kind": "release",
+      "title": "twenty/v2.59.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.59.0",
+      "collected_at": "2026-11-21T07:30:40+00:00",
+      "published_at": "2026-11-16T15:43:25Z",
+      "text": "<!-- generated-release-notes v1 -->\r\n\r\n## ✨ New features\r\n\r\n- feat(billing): record admin usage limit overrides as arrangements ([#29469](https://github.com/twentyhq/twenty/pull/29469)) by @etiennejouan\r\n- feat(inbox): preview chat images inline, browse them, and share attachment",
+      "links": [],
+      "metadata": {
+        "tag": "twenty/v2.59.0",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-b2d2600171c322ce",
+      "kind": "release",
+      "title": "sdk/v2.59.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/sdk/v2.59.0",
+      "collected_at": "2026-11-21T07:30:40+00:00",
+      "published_at": "2026-11-16T16:16:36Z",
+      "text": "<!-- generated-release-notes v1 -->\r\n\r\n## ✨ New features\r\n\r\n- feat(cli): pull public application assets ([#30275](https://github.com/twentyhq/twenty/pull/30275)) by @Weiko\r\n- feat(cli): export workspace records to CSV ([#30279](https://github.com/twentyhq/twenty/pull/30279)) by @",
+      "links": [],
+      "metadata": {
+        "tag": "sdk/v2.59.0",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-3dc6b53e4a025d82",
+      "kind": "release",
+      "title": "twenty/v2.58.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.58.0",
+      "collected_at": "2026-11-21T07:30:40+00:00",
+      "published_at": "2026-11-13T15:31:27Z",
+      "text": "<!-- generated-release-notes v1 -->\r\n\r\n## ⚠️ Breaking changes\r\n\r\n- [BREAKING_CHANGE] Drop the legacy workspace workflow object ([#30036](https://github.com/twentyhq/twenty/pull/30036)) by @charlesBochet\r\n- [BREAKING_CHANGE] Read row level permission rules in the permission compil",
+      "links": [],
+      "metadata": {
+        "tag": "twenty/v2.58.0",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    },
+    {
+      "id": "s-378f896512ab8039",
+      "kind": "release",
+      "title": "sdk/v2.58.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/sdk/v2.58.0",
+      "collected_at": "2026-11-21T07:30:40+00:00",
+      "published_at": "2026-11-13T15:31:45Z",
+      "text": "<!-- generated-release-notes v1 -->\r\n\r\n## ⚠️ Breaking changes\r\n\r\n- [BREAKING_CHANGE] Drop the legacy workspace workflow object ([#30036](https://github.com/twentyhq/twenty/pull/30036)) by @charlesBochet\r\n- [BREAKING_CHANGE] Read row level permission rules in the permission compil",
+      "links": [],
+      "metadata": {
+        "tag": "sdk/v2.58.0",
+        "prerelease": false,
+        "public_excerpt": true
+      }
+    }
+  ],
+  "actions": [
+    {
+      "id": "a-1",
+      "title": "提供公开试用入口",
+      "channel": "产品试用",
+      "description": "定价页面公开提供试用入口。可进一步检查试用额度、触达位置和转付费步骤。",
+      "source_ids": [
+        "s-30be008e8ed302ab"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-2",
+      "title": "维护公开代码仓库",
+      "channel": "开发者生态",
+      "description": "公开代码、README 和发布记录让开发者能够评估项目、参与讨论或尝试部署。Stars 与 Forks 表示公开互动规模。",
+      "source_ids": [
+        "s-a20220596b25af30"
+      ],
+      "date": null,
+      "result": "本次记录了仓库当前的 Stars 与 Forks 快照，收入和付费客户数需要另行核对。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-3",
+      "title": "GitHub 仓库建立",
+      "channel": "项目历史",
+      "description": "GitHub API 记录的仓库创建日期。产品上线日期需要其他来源确认。",
+      "source_ids": [
+        "s-a20220596b25af30"
+      ],
+      "date": "2022-12-01",
+      "result": "已取得仓库创建时间。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-4",
+      "title": "为自行部署的用户提供路径",
+      "channel": "开发者生态",
+      "description": "README 出现自托管或 Docker 部署说明。可研究免费部署入口与托管服务之间的使用路径。",
+      "source_ids": [
+        "s-527a9e81fc147127"
+      ],
+      "date": null,
+      "result": "已核对公开入口；来源未提供该入口带来的访问、注册和付费数据。",
+      "evidence_type": "公开入口"
+    },
+    {
+      "id": "a-5",
+      "title": "发布 twenty/v2.59.0",
+      "channel": "产品更新",
+      "description": "## ✨ New features - feat(billing): record admin usage limit overrides as arrangements (#29469) by @etiennejouan - feat(inbox): preview chat images inline, browse them, and share attachments with Messages (#30127) by @etiennejouan - feat(teams): manually link Teams users to workspace members (#30156) by @abdulrahmancodes - feat(i",
+      "source_ids": [
+        "s-8bbe1ebc798b6703"
+      ],
+      "date": "2026-11-16",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-6",
+      "title": "发布 sdk/v2.59.0",
+      "channel": "产品更新",
+      "description": "## ✨ New features - feat(cli): pull public application assets (#30275) by @Weiko - feat(cli): export workspace records to CSV (#30279) by @Weiko - feat(cli): preserve imported application sources in builds (#30281) by @Weiko - feat(cli): send proxy headers to servers behind authenticating proxies (#30310) by @FelixMalfait ## 💅 I",
+      "source_ids": [
+        "s-b2d2600171c322ce"
+      ],
+      "date": "2026-11-16",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-7",
+      "title": "发布 twenty/v2.58.0",
+      "channel": "产品更新",
+      "description": "## ⚠️ Breaking changes - [BREAKING_CHANGE] Drop the legacy workspace workflow object (#30036) by @charlesBochet - [BREAKING_CHANGE] Read row level permission rules in the permission compiler (#30132) by @charlesBochet - [BREAKING_CHANGE] Mask record grants with limiting roles and drop legacy current user permissions (#30145) by ",
+      "source_ids": [
+        "s-3dc6b53e4a025d82"
+      ],
+      "date": "2026-11-13",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    },
+    {
+      "id": "a-8",
+      "title": "发布 sdk/v2.58.0",
+      "channel": "产品更新",
+      "description": "## ⚠️ Breaking changes - [BREAKING_CHANGE] Drop the legacy workspace workflow object (#30036) by @charlesBochet - [BREAKING_CHANGE] Read row level permission rules in the permission compiler (#30132) by @charlesBochet - [BREAKING_CHANGE] Mask record grants with limiting roles and drop legacy current user permissions (#30145) by ",
+      "source_ids": [
+        "s-378f896512ab8039"
+      ],
+      "date": "2026-11-13",
+      "result": "已核对发布记录和发布时间，推广与转化效果需其他证据补充。",
+      "evidence_type": "公开动作"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "产品概览",
+      "intro": "从官网和公开仓库核对产品定位、功能与公开入口。",
+      "facts": [
+        {
+          "text": "The #1 Open Source CRM for modern teams. Modular, scalable, and built to fit your business.",
+          "source_ids": [
+            "s-2ef97ffe0b869e2e"
+          ]
+        },
+        {
+          "text": "README 内容摘录：The #1 Open-Source CRM Website · Documentation · Roadmap · Discord · Figma # Why Twenty Twenty gives technical teams the building blocks for a custom CRM that meets complex business needs and quickly adapts as the business evolves",
+          "source_ids": [
+            "s-527a9e81fc147127"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "business",
+      "title": "生意与定价",
+      "intro": "定价信息来自产品自己的公开页面。收入指标需要单独的公开披露或授权数据。",
+      "facts": [
+        {
+          "text": "定价页中的原始片段：A custom agentic CRM for one team. $9 /user/month Includes Emails and meetings log themselves Google a；AI and control for several teams. $39 /user/month Everything in Pro, plus Control who does what Custom；ed scale for large companies. from $50k /year Everything in Organization, plus Room to grow, at any sca",
+          "source_ids": [
+            "s-30be008e8ed302ab"
+          ]
+        },
+        {
+          "text": "公开仓库为 twentyhq/twenty，API 标注许可证为 Other。",
+          "source_ids": [
+            "s-a20220596b25af30"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "acquisition",
+      "title": "获客入口",
+      "intro": "下面列出已观察到的入口与动作。渠道带来的访问和付费效果仍需转化数据验证。",
+      "facts": [],
+      "action_ids": [
+        "a-1",
+        "a-2",
+        "a-4"
+      ]
+    },
+    {
+      "id": "growth",
+      "title": "公开动作拆解",
+      "intro": "每个动作都关联原始资料，适合进一步研究具体做法和执行条件。",
+      "facts": [],
+      "action_ids": [
+        "a-1",
+        "a-2",
+        "a-3",
+        "a-4",
+        "a-5",
+        "a-6",
+        "a-7",
+        "a-8"
+      ]
+    },
+    {
+      "id": "social",
+      "title": "社媒与社区",
+      "intro": "本次保留官网引用的社媒与社区链接。账号归属、帖子内容和互动数据需要进一步核对。",
+      "facts": [
+        {
+          "text": "官网引用的社媒与社区链接涉及 discord.gg、linkedin.com、x.com。",
+          "source_ids": [
+            "s-2ef97ffe0b869e2e"
+          ]
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "timeline",
+      "title": "事件时间线",
+      "intro": "仅展示来源中明确给出日期的事件，采集时间另列。产品更新可以帮助理解推广内容的背景。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "competitors",
+      "title": "竞品研究线索",
+      "intro": "本轮采集围绕单个产品。可按目标客户、解决的问题和购买方式，再添加相关产品进行研究。",
+      "facts": [],
+      "action_ids": []
+    },
+    {
+      "id": "appendix",
+      "title": "来源与数据缺口",
+      "intro": "报告保留了本次采集的来源快照。缺失指标保持为空，观察到的动作与分析建议分别呈现。",
+      "facts": [],
+      "action_ids": []
+    }
+  ],
+  "metrics": [
+    {
+      "name": "GitHub Stars",
+      "value": 61274,
+      "unit": "stars",
+      "source_id": "s-a20220596b25af30",
+      "observed_at": "2026-11-21T07:30:39+00:00"
+    },
+    {
+      "name": "Forks",
+      "value": 10138,
+      "unit": "forks",
+      "source_id": "s-a20220596b25af30",
+      "observed_at": "2026-11-21T07:30:39+00:00"
+    }
+  ],
+  "gaps": [
+    "连续收入序列和已核验 MRR",
+    "真实访问量及渠道占比",
+    "搜索关键词排名与点击数据",
+    "社媒帖子、互动和渠道转化数据",
+    "独立核对过的竞品比较"
+  ],
+  "warnings": [],
+  "discovered_accounts": [
+    {
+      "url": "https://discord.gg/cx5n4Jzs57",
+      "platform": "discord.gg",
+      "label": "discord.gg"
+    },
+    {
+      "url": "https://www.linkedin.com/company/twenty",
+      "platform": "linkedin.com",
+      "label": "linkedin.com"
+    },
+    {
+      "url": "https://x.com/twentycrm",
+      "platform": "x.com",
+      "label": "@twentycrm"
+    }
+  ],
+  "translations": {
+    "## ⚠️ Breaking changes - [BREAKING_CHANGE] Drop the legacy workspace workflow object (#30036) by @charlesBochet - [BREAKING_CHANGE] Read row level permission rules in the permission compiler (#30132) by @charlesBochet - [BREAKING_CHANGE] Mask record grants with limiting roles and drop legacy current user permissions (#30145) by ": "发布说明摘译：不兼容变更：移除旧版工作空间工作流对象（#30036）；在权限编译器读取行级权限规则（#30132）；按限制性角色约束记录授权，并移除旧版当前用户权限逻辑（#30145）。",
+    "## ✨ New features - feat(billing): record admin usage limit overrides as arrangements (#29469) by @etiennejouan - feat(inbox): preview chat images inline, browse them, and share attachments with Messages (#30127) by @etiennejouan - feat(teams): manually link Teams users to workspace members (#30156) by @abdulrahmancodes - feat(i": "发布说明摘译：将管理员覆盖的使用额度记录为 arrangements（#29469）；聊天图片支持内嵌预览、浏览和通过 Messages 分享附件（#30127）；可手动将 Teams 用户关联到工作空间成员（#30156）。后续功能被截断。",
+    "## ✨ New features - feat(cli): pull public application assets (#30275) by @Weiko - feat(cli): export workspace records to CSV (#30279) by @Weiko - feat(cli): preserve imported application sources in builds (#30281) by @Weiko - feat(cli): send proxy headers to servers behind authenticating proxies (#30310) by @FelixMalfait ## 💅 I": "发布说明摘译：命令行支持拉取公共应用资源（#30275）、将工作空间记录导出为 CSV（#30279）、在构建中保留导入应用源码（#30281），并向位于认证代理后的服务器发送代理请求头（#30310）。",
+    "README 内容摘录：The #1 Open-Source CRM Website · Documentation · Roadmap · Discord · Figma # Why Twenty Twenty gives technical teams the building blocks for a custom CRM that meets complex business needs and quickly adapts as the business evolves": "README 摘录（中文）：开源 CRM，提供官网、文档、路线图、Discord 和 Figma 入口。Twenty 为技术团队提供构建定制 CRM 的基础模块，以满足复杂业务需求并随业务变化快速调整。",
+    "The #1 Open Source CRM for modern teams. Modular, scalable, and built to fit your business.": "面向现代团队的开源客户关系管理系统（CRM），支持模块化配置和扩展，可按业务需要定制。官网自称排名第一。",
+    "Twenty CRM Pricing — Plans from $9 per User per Month": "Twenty 定价与方案",
+    "Twenty | #1 Open Source CRM": "Twenty 官网",
+    "twentyhq/twenty": "Twenty 公开代码仓库",
+    "twentyhq/twenty README": "Twenty 项目说明（README）",
+    "定价页中的原始片段：A custom agentic CRM for one team. $9 /user/month Includes Emails and meetings log themselves Google a；AI and control for several teams. $39 /user/month Everything in Pro, plus Control who does what Custom；ed scale for large companies. from $50k /year Everything in Organization, plus Room to grow, at any sca": "定价页摘录（中文）：Pro 面向单个团队，每名用户每月 9 美元，支持邮件和会议自动记录。Organization 每名用户每月 39 美元，在 Pro 基础上增加多团队 AI 与权限控制。大型企业方案每年 5 万美元起，在 Organization 基础上提供更多扩展能力。摘录不完整。"
+  },
+  "coverage": "website"
+}
