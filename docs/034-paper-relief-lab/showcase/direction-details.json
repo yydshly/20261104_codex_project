@@ -1,0 +1,62 @@
+{
+  "poetry": {
+    "intro": "从一个孩子的目光，看见诗句里的劳作。",
+    "takeaway": "读完能把“锄作、流汗、一餐饭”连在一起，再回到诗句。",
+    "stages": [
+      {"title":"田埂边的等待","story":"孩子捧着水站在田边。父亲还在忙，他没有急着走过去。","look":"看孩子的双手和脚下的田埂：距离让等待有了分寸。","connection":"先看见两个人的关系，再进入一句诗。","image":"assets/minnong-story/native-frames/01-masters/frame-000.png","focus":[29,62,2.2]},
+      {"title":"举锄之前","story":"父亲把锄头提起，孩子的目光也跟着抬起来。","look":"沿着手、锄柄和肩膀，观察力量怎样连到一起。","connection":"把抽象的“辛苦”放回一次具体劳作。","image":"assets/minnong-story/native-frames/01-masters/frame-005.png","focus":[58,49,1.8]},
+      {"title":"锄刃触土","story":"锄头落向田里。身体微微前倾，脚下稳稳承住这一落。","look":"看锄刃与泥土的接触，再看腰、腿与脚的支撑。","connection":"动作的重量，让诗意不只停在朗读里。","image":"assets/minnong-story/native-frames/01-masters/frame-009.png","focus":[54,66,1.9]},
+      {"title":"停下的一眼","story":"一轮锄作后，父亲抬眼看向孩子。递水的故事从这里继续。","look":"看两个人目光的方向，以及孩子始终捧稳的碗。","connection":"用一个回应，把劳作接回亲子关系。","image":"assets/minnong-story/native-frames/01-masters/frame-016.png","focus":[47,54,1.7]}
+    ]
+  },
+  "museum": {
+    "intro": "一次只看一个地方，让器物从陈列品变成可以观察的日常。",
+    "takeaway": "带走一种观察顺序：整体比例 → 口沿 → 纹样 → 落在桌面的足圈。",
+    "stages": [
+      {"title":"先看一只完整的碗","story":"它安放在木托上，旁边留着茶筅与一角布。先从一个用茶的场景看起。","look":"比较碗口、碗腹与足圈的大小，留意器物和托盘之间的关系。","connection":"生活中的位置，是进入文化讲述的第一步。","image":"assets/directions/02-museum.png","focus":[52,62,1.25]},
+      {"title":"沿着口沿走一圈","story":"视线从近处的口沿，绕到内壁，再回到杯中留白。","look":"口沿是一个连续的椭圆；内侧曲线和外侧轮廓共同说明碗的厚薄。","connection":"先教人看哪里，再补充真实馆藏的形制资料。","image":"assets/directions/02-museum.png","focus":[55,48,2]},
+      {"title":"枝叶留在碗腹","story":"绿叶和小花沿着碗身展开，弯曲的枝条也顺着器形转过去。","look":"看叶片的疏密、花朵的位置，以及纹样如何贴合弧面。","connection":"真实导览可由这一细节继续讲材料、装饰与生活背景。","image":"assets/directions/02-museum.png","focus":[58,65,2.1]},
+      {"title":"落在桌面的一圈","story":"把目光移到最下方。小小足圈让碗腹离开托盘，也让整个器形有了落点。","look":"看碗足与木托之间窄窄的接触，以及足圈外侧的弧线。","connection":"把细节和用途联系起来，比一次堆满说明更容易记住。","image":"assets/directions/02-museum.png","focus":[55,79,2.3]}
+    ]
+  },
+  "brand": {
+    "intro": "让人记住这一盏茶，是因为看见它经过了谁的手。",
+    "takeaway": "从一片叶到一杯茶，留下的是一个有来处、有手艺、有照料的过程。",
+    "stages": [
+      {"title":"从一枚新芽开始","story":"清早，做茶人走进茶垄。指尖拈住新芽，另一只手轻轻拨开身旁的叶子。","look":"拈叶的两根手指、袖口到手腕的衔接，以及背篓口沿细密的竹编。","connection":"用具体的人和手上的动作，让“产地”有可记住的模样。","image":"assets/directions/brand-v2/00.png","focus":[38,67,1.8]},
+      {"title":"守着一锅叶子","story":"走进作坊，叶子来到浅浅的铁锅里。手掌收拢、摊开，注意力始终留在叶子上。","look":"双手与茶叶的接触、铁锅连续的椭圆边沿、炉口里的小火。","connection":"工艺的价值需要看见过程；这幅画不提供操作教程或工艺参数。","image":"assets/directions/brand-v2/01.png","focus":[55,56,1.9]},
+      {"title":"把认真系在细节里","story":"茶叶收好，纸袋折齐。手指牵过细绳，稳稳地收住最后一个结。","look":"手指压住纸袋的位置、袋口的折线，以及细绳从指间到结扣的连续路径。","connection":"包装里的照料感，比一句“匠心”更容易被看见。","image":"assets/directions/brand-v2/02.png","focus":[54,58,1.65]},
+      {"title":"山间的一天，来到杯中","story":"热水入杯，茶汤静下来。窗外还是那片茶垄，近处多了可以停留的一盏茶。","look":"杯口的细红线、茶汤的椭圆水面，以及暗窗边能看见的浅浅水汽。","connection":"以使用时刻收尾，把产地和读者眼前的一杯连接起来。","image":"assets/directions/brand-v2/03.png","focus":[34,64,1.75]}
+    ]
+  },
+  "software": {
+    "intro": "把问题、材料和适用条件摆在一起，亲手走完一次判断。",
+    "takeaway": "读者记住的应是“结论要对上材料和条件”，再决定是否进入产品了解更多。",
+    "stages": [
+      {"title":"一个看似明确的回答","story":"我们问普通周日几点闭馆，助手给出十八点。时间很明确，依据却还没摆出来。","look":"回答旁标注着“依据尚未核查”。明确的语气，不等于条件已经对齐。","connection":"先从读者熟悉的困惑进入，再介绍产品能帮上什么忙。","image":"assets/directions/04-software-preview.png","focus":[68,29,1.7]},
+      {"title":"把通知打开","story":"现行通知列出两种安排：周一至周五十八点，普通周日十六点。","look":"同一份材料里有两个时间，必须连着各自的适用条件一起看。","connection":"让证据可见，读者才能参与比较。","image":"assets/directions/04-software-preview.png","focus":[68,58,1.65]},
+      {"title":"对齐这一次的问题","story":"选择“普通周日”，对应十六点；改成工作日，结论也随之改变。","look":"试着切换上方的适用条件，观察高亮行与判断文字一起变化。","connection":"产品价值通过一次可操作的比较呈现。","image":"assets/directions/04-software-preview.png","focus":[69,69,1.7]},
+      {"title":"留下有条件的结论","story":"这个虚构案例里，普通周日支持十六点。判断应连着日期条件与来源一起留下。","look":"十八点的初始回答仍保留在上方，方便对照，不把修正过程抹掉。","connection":"这说明核查的步骤，不能据此推断真实模型内部的错误原因。","image":"assets/directions/04-software-preview.png","focus":[69,80,1.45]}
+    ]
+  },
+  "nature": {
+    "intro": "看一处小小的变化，给注意力一个可以停下来的地方。",
+    "takeaway": "带走一段安静的观看：从余火，到水汽，再停在没有催促的结尾。",
+    "stages": [
+      {"title":"雨后的余火","story":"茶棚安静下来，湿石板上留着雨后的光。壶还在炉上，火只是小小一团。","look":"先看瓦檐、壶与炉之间的空间，再找炉口里最暗处的一点暖色。","connection":"先给安静一个起点，变化才有被注意到的余地。","image":"assets/directions/nature-frames/00.png","focus":[51,69,1.7]},
+      {"title":"添一块柴","story":"一点照料让炉膛亮起来。画面仍是同一处茶棚，注意力只移向炉口。","look":"比较前后两幕的炉火，壶、屋檐和柴垛的位置仍然保留。","connection":"小动作应得到清楚、克制的反馈。","image":"assets/directions/nature-frames/01.png","focus":[51,78,2.4]},
+      {"title":"第一缕水汽","story":"壶边出现浅浅水汽。视线从低处炉火，慢慢移到壶嘴上方。","look":"水汽要借暗处的衬托才能看见；留意它与壶身之间的距离。","connection":"让前后变化可比较，才能形成观察的乐趣。","image":"assets/directions/nature-frames/02.png","focus":[51,56,2.1]},
+      {"title":"在这一刻停留","story":"水汽升起来，故事没有催促下一步。可以重听，也可以就停在这里。","look":"再看一眼完整茶棚，让近处的壶和远处的留白重新连在一起。","connection":"结尾允许停留，才符合这类内容的安静氛围。","image":"assets/directions/nature-frames/03.png","focus":[51,59,1.5]}
+    ]
+  },
+  "memory": {
+    "intro": "重要的不是发生了多大的事，而是谁在一个小瞬间照顾了谁。",
+    "takeaway": "留下具体的动作和自己的话；纪念卡可以下载，成为故事以外的一件小物。",
+    "stages": [
+      {"title":"出门前，停了一下","story":"女儿背上包站在门前，母亲还在门里。离开之前，两个人之间留着一点距离。","look":"看母亲手里的伞，以及女儿身体朝外、目光仍留在门边的姿态。","connection":"让关系先成立，递伞才会成为有分量的动作。","image":"assets/directions/memory-frames/00.png","focus":[55,53,1.6]},
+      {"title":"伞从门里递过来","story":"母亲把伞送向女儿。关心没有说很多，藏在递过来的这一下。","look":"看递出一方的手腕和接住一方的手，伞柄是两个人共同注意的地方。","connection":"用一个具体动作代替泛泛的煽情文案。","image":"assets/directions/memory-frames/01.png","focus":[52,58,2]},
+      {"title":"等她接稳，再松手","story":"有一瞬间，两个人都握着伞。接稳之后，母亲才把手收回。","look":"看两只手在伞上的位置，以及人物目光是否回应彼此。","connection":"照料感来自接触和回应，四格样片只呈现关键时刻。","image":"assets/directions/memory-frames/02.png","focus":[51,56,2]},
+      {"title":"回头时，她还在门口","story":"女儿拿着伞回头，母亲仍站在门边。许多年后，留下来的也许正是这个样子。","look":"看两个人的神情和距离。然后写一句你想留在纪念卡上的话。","connection":"让观看有一个自己的出口：写下关心，保存这张卡。","image":"assets/directions/memory-frames/03.png","focus":[51,44,1.6]}
+    ]
+  }
+}

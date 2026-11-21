@@ -1,0 +1,331 @@
+{
+  "version": "1.2-first-gif-refined",
+  "status": "noon-gif-produced-other-scenes-design-only",
+  "title": "悯农 · 让一笔墨有了动作",
+  "coordinateSpace": {
+    "width": 1536,
+    "height": 1024
+  },
+  "playback": {
+    "mode": "click-one-shot-hold",
+    "renderer": "planned-decoded-gif-to-canvas",
+    "frameDelayMs": 80,
+    "background": "fixed-png",
+    "inactiveScene": "pause-and-resume-exact-frame",
+    "busyInput": "ignore",
+    "reducedMotion": "explicit-action-shows-result-still",
+    "commit": "after-last-frame-delay",
+    "missingAsset": "keep-current-still-offer-retry"
+  },
+  "scenes": [
+    {
+      "id": "noon",
+      "number": "01",
+      "line": "锄禾日当午",
+      "name": "一锄，有重量",
+      "actionLabel": "看他锄一下",
+      "image": "assets/minnong-four/01-noon-refined.png",
+      "durationMs": 3200,
+      "frameCount": 64,
+      "clipCount": 1,
+      "intent": "让人看见顶着日头劳作的吃力：手先蓄力，锄才落地，身体随后慢慢松下来。",
+      "crop": [
+        590,
+        300,
+        540,
+        640
+      ],
+      "fixed": "树、太阳、田埂与幼禾固定；双脚落点保持稳定。",
+      "redraw": "农人上半身、两手、袖褶和整把锄头；把起势抬高到能读出挥锄的幅度。",
+      "contact": "两手一直握住同一根锄柄，柄长不变；锄刃先接触土，再出现土屑。",
+      "result": "锄刃停在土里，肩背略低；脚边留下小块新土，树和田埂不变。",
+      "path": "M 680 850 Q 585 650 760 560 M 760 560 Q 650 660 680 850",
+      "anchors": [
+        [
+          942,
+          851
+        ],
+        [
+          1041,
+          851
+        ]
+      ],
+      "beats": [
+        {
+          "startMs": 0,
+          "endMs": 640,
+          "title": "稳住脚，提一口气",
+          "detail": "支撑腿站稳，肩先上提，双手带起锄柄。"
+        },
+        {
+          "startMs": 640,
+          "endMs": 1280,
+          "title": "抬锄，稍稍停一下",
+          "detail": "肘部打开，锄刃离土；抬到顶点时留两帧停顿。"
+        },
+        {
+          "startMs": 1280,
+          "endMs": 1840,
+          "title": "落锄，土才松开",
+          "detail": "身体带动手和锄；接触后两帧内出现少量土屑。"
+        },
+        {
+          "startMs": 1840,
+          "endMs": 3200,
+          "title": "肩背下沉，留住余力",
+          "detail": "袖褶最后落定，锄刃留土；末段静置，交给观众看。"
+        }
+      ],
+      "frameDelayMs": 50,
+      "production": {
+        "status": "produced",
+        "manifest": "assets/minnong-gif/noon-v2/manifest.json",
+        "page": "minnong.html?verse=1&play=1",
+        "note": "其他三景仍为原有静帧加代码局部动效",
+        "revision": "continuous-shoulders-cuffs-grip-and-weight-transfer"
+      }
+    },
+    {
+      "id": "sweat",
+      "number": "02",
+      "line": "汗滴禾下土",
+      "name": "一滴，落到根边",
+      "actionLabel": "看汗落土",
+      "image": "assets/minnong-four/02-sweat.png",
+      "durationMs": 2400,
+      "frameCount": 30,
+      "clipCount": 1,
+      "intent": "把第一景的劳作收进一滴汗里；观众的目光从帽檐慢慢落到禾根。",
+      "crop": [
+        650,
+        60,
+        886,
+        930
+      ],
+      "fixed": "红衣轮廓、持锄的手和禾根位置固定；只允许极轻的低头响应。",
+      "redraw": "帽檐内侧与额角补一小段汗迹，汗从皮肤形成并脱离；局部帽檐随头微动。",
+      "contact": "落点位于禾根旁的土面，湿痕在汗滴接触后出现；禾苗不突然长大。",
+      "result": "一滴汗消失在土里，留一小片深墨湿痕；人仍俯身劳动。",
+      "path": "M 752 473 Q 758 650 789 928",
+      "anchors": [
+        [
+          789,
+          928
+        ]
+      ],
+      "beats": [
+        {
+          "startMs": 0,
+          "endMs": 480,
+          "title": "额角聚起一滴汗",
+          "detail": "帽檐下出现小汗珠，先黏附额角，头轻轻低下。"
+        },
+        {
+          "startMs": 480,
+          "endMs": 1040,
+          "title": "离开额角，向下落",
+          "detail": "汗滴从慢到快；不做漂浮、弹跳和装饰性闪光。"
+        },
+        {
+          "startMs": 1040,
+          "endMs": 1440,
+          "title": "碰到土，墨色润开",
+          "detail": "汗珠落在根旁，微小湿痕沿纸纤维方向扩开。"
+        },
+        {
+          "startMs": 1440,
+          "endMs": 2400,
+          "title": "禾叶轻应，归于安静",
+          "detail": "邻近一片叶子微动后停止，把余味留给湿痕。"
+        }
+      ]
+    },
+    {
+      "id": "meal",
+      "number": "03",
+      "line": "谁知盘中餐",
+      "name": "一餐，停在筷尖",
+      "actionLabel": "夹起一粒米",
+      "image": "assets/minnong-four/03-meal.png",
+      "durationMs": 3200,
+      "frameCount": 40,
+      "clipCount": 1,
+      "intent": "从劳作切到一餐：手在落筷前停一下，才把注意力真正交给一粒米。",
+      "crop": [
+        450,
+        330,
+        1086,
+        610
+      ],
+      "fixed": "饭碗、桌沿、布巾的形与位置固定，镜头不推近。",
+      "redraw": "补画右侧入画的黑墨手和红色袖口；现有桌上筷子需从底图移除，并交由手持动作接管。",
+      "contact": "拇指、食指与筷子有持续握持；两筷尖合住米粒后一起移动，落到布上才松开。",
+      "result": "一粒米放在布巾上；手退出，筷子回到桌边，碗中米只减少对应的一粒。",
+      "path": "M 1320 660 Q 1100 480 730 550 M 730 550 Q 870 540 738 846",
+      "anchors": [
+        [
+          708,
+          726
+        ]
+      ],
+      "beats": [
+        {
+          "startMs": 0,
+          "endMs": 720,
+          "title": "手入画，拿稳筷子",
+          "detail": "从右边缓缓伸手，握住桌上的筷子；碗保持不动。"
+        },
+        {
+          "startMs": 720,
+          "endMs": 1360,
+          "title": "筷尖合住一粒米",
+          "detail": "两根筷子的夹角小幅改变，只夹起一粒。"
+        },
+        {
+          "startMs": 1360,
+          "endMs": 2160,
+          "title": "提起来，留一次停顿",
+          "detail": "提到碗沿上方，停约三帧，让人注意到米粒。"
+        },
+        {
+          "startMs": 2160,
+          "endMs": 3200,
+          "title": "放在布上，轻轻收手",
+          "detail": "筷尖先触近布面，松米、放回筷子、手退出；成品定格。"
+        }
+      ]
+    },
+    {
+      "id": "grains",
+      "number": "04",
+      "line": "粒粒皆辛苦",
+      "name": "一粒一粒，认真收好",
+      "actionLabel": "拈起下一粒",
+      "image": "assets/minnong-four/04-grains.png",
+      "durationMs": 1600,
+      "frameCount": 20,
+      "clipCount": 5,
+      "intent": "把懂得变成珍惜：第二只手逐粒拈米，原来的掌心接住，最后留一小段静默。",
+      "crop": [
+        360,
+        480,
+        1176,
+        530
+      ],
+      "fixed": "接米的掌心、原有红袖与左侧谷穗固定；只允许掌指轻微承接。",
+      "redraw": "补画从上方入画的拈米手；补齐五粒散米和六个累计结果状态，不能只移动米粒。",
+      "contact": "拇指与食指先夹住米，再带走；接近掌心后松手，米粒留在掌纹之间。",
+      "result": "散米逐粒减少，掌心依次增加；第 5 段结束后，五粒都在掌中。",
+      "path": "M 500 500 Q 480 680 454 829 M 454 829 Q 700 580 884 748",
+      "anchors": [
+        [
+          884,
+          748
+        ],
+        [
+          1044,
+          820
+        ]
+      ],
+      "interaction": "ordered-next-grain",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "loosePositions": [
+        [
+          454,
+          829
+        ],
+        [
+          512,
+          904
+        ],
+        [
+          566,
+          771
+        ],
+        [
+          621,
+          860
+        ],
+        [
+          678,
+          926
+        ]
+      ],
+      "palmPositions": [
+        [
+          884,
+          748
+        ],
+        [
+          969,
+          774
+        ],
+        [
+          1040,
+          753
+        ],
+        [
+          932,
+          814
+        ],
+        [
+          1044,
+          820
+        ]
+      ],
+      "beats": [
+        {
+          "startMs": 0,
+          "endMs": 400,
+          "title": "手靠近，指尖夹合",
+          "detail": "拈米手从上方进入，拇指食指在下一粒米两侧夹合。"
+        },
+        {
+          "startMs": 400,
+          "endMs": 800,
+          "title": "手带着米移向掌心",
+          "detail": "米粒夹在指尖之间，手腕沿短弧移动。"
+        },
+        {
+          "startMs": 800,
+          "endMs": 1120,
+          "title": "接住，再松开",
+          "detail": "米落在掌纹上，接米手轻轻承接；已收米粒不变位。"
+        },
+        {
+          "startMs": 1120,
+          "endMs": 1600,
+          "title": "拈米手退出，留住结果",
+          "detail": "显示累计结果；前四次可继续收，第五次安静停住。"
+        }
+      ]
+    }
+  ],
+  "assetContract": {
+    "root": "assets/minnong-gif/{sceneId}/",
+    "allPathsArePlanned": false,
+    "base": "base.png",
+    "still": "state-{count}.png",
+    "clip": "action-{from}-{to}.gif",
+    "mask": "mask.png",
+    "master": "masters/frame-{index}.png",
+    "clipFirstLastMustMatchState": true,
+    "gifEncoding": "opaque-crop-stable-palette-no-infinite-loop",
+    "runtimeCompositing": "base-plus-crop-through-static-soft-mask",
+    "paletteAndMaskNeedVisualValidation": true,
+    "producedScenes": [
+      "noon"
+    ],
+    "remainingScenes": [
+      "sweat",
+      "meal",
+      "grains"
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "id": "autumn",
+  "title": "留半篮秋天。",
+  "subtitle": "父亲在老桥边等返乡的女儿。\n一片落叶，让他想起他们从前一起做的小事。",
+  "audience": "阅读一段重逢故事的人",
+  "theme": "paper",
+  "label": "纸上生境 / 原创故事",
+  "category": "重逢 · 四幕静态故事",
+  "note": "从独自等候，到一起回家。",
+  "ending": "篮子没有装满，也不必装满。",
+  "credit": "原创故事与图稿 · 纸上生境",
+  "coverBeat": "recognition",
+  "beats": [
+    {
+      "id": "waiting",
+      "title": "傍晚，老桥见。",
+      "narration": "女儿说，傍晚在老桥见。\n\n父亲从集市回来，把空篮放在桥头。他来早了。",
+      "dialogue": "",
+      "caption": "桥上还没有人，他来早了。",
+      "alt": "父亲站在右岸，头和视线朝向空桥，藤篮放在脚边。",
+      "purpose": "通过空桥与望向来路的人表现等待。",
+      "visual": {
+        "src": "../assets/story/still-01.png",
+        "width": 1000,
+        "height": 630,
+        "name": "still-01.png"
+      }
+    },
+    {
+      "id": "finding",
+      "title": "留一点地方。",
+      "narration": "溪边落下一片红叶。他弯下腰，拾了起来。\n\n小时候，女儿总爱在这里捡叶子。每次篮子快满，她又要腾出一点地方。\n\n父亲把那片叶子放进篮里，没有再往里添。",
+      "dialogue": "“等一等，前面还有更红的。”",
+      "caption": "一片红叶，让他停了一停。",
+      "alt": "父亲屈膝弯身，低头看着红叶，另一只手支撑在膝边。",
+      "purpose": "用拾叶和停手唤起两人过去的习惯。",
+      "visual": {
+        "src": "../assets/story/still-02.png",
+        "width": 1000,
+        "height": 630,
+        "name": "still-02.png"
+      }
+    },
+    {
+      "id": "recognition",
+      "title": "脚步停了一下。",
+      "narration": "桥上响起脚步，又停住了。\n\n他抬头，女儿站在桥上，手里举着一片叶子。",
+      "dialogue": "“还给我留着地方吗？”",
+      "caption": "桥上那个人，也记得。",
+      "alt": "女儿站在桥上举起秋叶，父亲抬头转向她，抬起手回应。",
+      "purpose": "让相认通过熟悉的物件和相互回应发生。",
+      "visual": {
+        "src": "../assets/story/still-03.png",
+        "width": 1000,
+        "height": 630,
+        "name": "still-03.png"
+      }
+    },
+    {
+      "id": "offering",
+      "title": "留着呢。",
+      "narration": "父亲把篮子转向她。\n\n她把叶子放进去。他们并肩往家走。",
+      "dialogue": "“留着呢。”",
+      "caption": "留着的位置，终于等到了她。",
+      "alt": "父亲一手握住篮柄、一手托篮底；女儿低头将叶子放入篮中。",
+      "purpose": "篮子从独自一人的身旁来到两人之间。",
+      "visual": {
+        "src": "../assets/story/still-04.png",
+        "width": 1000,
+        "height": 630,
+        "name": "still-04.png"
+      }
+    }
+  ],
+  "presentation": {
+    "type": "scene",
+    "adapter": "creek-reunion-v1",
+    "duration": 20
+  }
+}

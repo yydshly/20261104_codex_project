@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-21",
+  "tool": "built-in image_gen.imagegen",
+  "modelVersion": "not-returned",
+  "seed": "not-returned",
+  "purpose": "add whole-pose in-betweens to the hand-to-shoulder and shoulder-to-basket transitions",
+  "references": [
+    {
+      "path": "assets/directions/picking/04-pass.png",
+      "role": "identity and handover endpoint continuity"
+    },
+    {
+      "path": "assets/directions/picking/05-store-v2.png",
+      "role": "same left-hand deposit start and end poses"
+    }
+  ],
+  "prompts": [
+    {
+      "id": "06-to-shoulder",
+      "prompt": "Use case: illustration-story. Create ONE transparent PNG animation atlas, exactly two columns by two rows, equal 768x512 cells, 1536x1024 total. Each cell is a COMPLETE painted upper-body pose, not separated pieces. Input 1 is our existing handover atlas; input 2 is our existing basket-deposit atlas. Match the exact same fictional Chinese tea artisan, ochre woven conical hat, short black hair, moustache/goatee, vermilion rolled-sleeve work shirt, charcoal trousers, bamboo back basket, delicate carved ivory hatching and fine matte ink illustration. Maintain face, clothes, palette, line weight, figure scale and whole-body registration. In each 768x512 cell, hat apex around(350,10), face around(390,160), hips around(470,495), back basket mouth around(635,185); keep the entire hat, both arms and hands and basket inside the cell. Background fully transparent, no fog/gradient/shadow, no scenery or ground, no labels, no borders, no numbering. The tiny harvested sprig ALWAYS stays in the LEFT hand (the arm on the RIGHT side of the image), never switches back to the right hand. The RIGHT hand is EMPTY and rests low on screen-left near(250,420). Do NOT add a tea branch at lower-left: figure and carried basket only. Fingers and wrist continuous, full natural elbow/shoulder anatomy, small gradual increments. Bridge the bottom-right pose of INPUT 1 to the top-left pose of INPUT 2. The left hand holds a single small sprig in front of the face near(315,210), then gradually carries it across toward its own left shoulder, ending near(500,175). FOUR successive intermediate poses: hand centres approximately(350,200),(390,185),(435,175),(475,175). Each pose keeps sprig visibly held at stem between thumb/index, other fingers gently curved. The left elbow opens outward slightly as the forearm travels, the right hand remains empty low. Head starts turned down-left and only begins a very small gaze shift right; no sudden torso twist. This is a slow preparation, no basket contact and no leaf release."
+    },
+    {
+      "id": "07-over-rim",
+      "prompt": "Use case: illustration-story. Create ONE transparent PNG animation atlas, exactly two columns by two rows, equal 768x512 cells, 1536x1024 total. Each cell is a COMPLETE painted upper-body pose, not separated pieces. Input 1 is our existing handover atlas; input 2 is our existing basket-deposit atlas. Match the exact same fictional Chinese tea artisan, ochre woven conical hat, short black hair, moustache/goatee, vermilion rolled-sleeve work shirt, charcoal trousers, bamboo back basket, delicate carved ivory hatching and fine matte ink illustration. Maintain face, clothes, palette, line weight, figure scale and whole-body registration. In each 768x512 cell, hat apex around(350,10), face around(390,160), hips around(470,495), back basket mouth around(635,185); keep the entire hat, both arms and hands and basket inside the cell. Background fully transparent, no fog/gradient/shadow, no scenery or ground, no labels, no borders, no numbering. The tiny harvested sprig ALWAYS stays in the LEFT hand (the arm on the RIGHT side of the image), never switches back to the right hand. The RIGHT hand is EMPTY and rests low on screen-left near(250,420). Do NOT add a tea branch at lower-left: figure and carried basket only. Fingers and wrist continuous, full natural elbow/shoulder anatomy, small gradual increments. Bridge the top-left pose of INPUT 2 to its top-right pose, continuing the SAME LEFT hand and the SAME small sprig. The left hand starts near its shoulder at(500,175), raises naturally above the back-basket rim, ending near(650,85). FOUR intermediate poses: hand centres approximately(525,155),(555,130),(590,105),(625,90). The left upper arm lifts and elbow bends in a smooth anatomically plausible arc, no forearm crossing the face, no detached sleeve. The head and eyes gradually turn right to follow the sprig. Basket remains behind shoulder, right hand stays empty near waist. No leaf release yet. Show enough separation between wrist, basket rim and sprig to read the gesture clearly."
+    }
+  ]
+}

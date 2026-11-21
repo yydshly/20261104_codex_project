@@ -1,0 +1,32 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f8f6ef"><title>纸墨故事的六种去处</title><link rel="stylesheet" href="showcase/directions.css"><script src="vendor/gifuct/decoder.js" defer></script><script src="minnong/story-gif.js" defer></script><script src="showcase/direction-details.js" defer></script><script src="showcase/directions.js" defer></script></head>
+<body><header><a class="brand" href="directions.html"><span class="seal">纸</span><span>纸上生境<small>风格相同，讲法不同</small></span></a><a href="#overview">看六个方向的区别 ↘</a></header>
+<main><section class="intro"><div><p class="eyebrow">六个场景 · 六个可体验的小样</p><h1>纸墨故事的六种去处</h1></div><p>先看效果，再看它能成为怎样的产品。</p></section>
+<nav id="case-tabs" class="case-tabs" role="tablist" aria-label="选择产品方向"></nav>
+<section id="experience" class="experience" role="tabpanel" aria-labelledby="case-tab-0">
+ <div class="stage-column"><div id="picking-embed" class="picking-embed" hidden><iframe id="picking-frame" title="采一枚新芽：可逐步操作的采叶故事" allow="autoplay" scrolling="no"></iframe><p><a href="picking.html" target="_blank" rel="noopener">单独打开采叶故事 ↗</a><a href="directions.html?case=brand&amp;mode=board">查看原四幕工序画稿 ↗</a></p></div><div class="stage-top"><span id="context">亲子共读 / 课堂开场</span><span id="status">已有完整案例 · 此处为节选</span></div>
+  <div class="picture" id="picture"><img id="poster" alt="样片画稿"><canvas id="demo-canvas" width="1536" height="1024" hidden role="img" tabindex="0" aria-label="当前方向样片"></canvas>
+   <div id="hotspots" hidden><button class="hotspot" style="left:57%;top:47%" data-spot="1" aria-label="观察碗口">1</button><button class="hotspot" style="left:63%;top:63%" data-spot="2" aria-label="观察纹样">2</button><button class="hotspot" style="left:55%;top:82%" data-spot="3" aria-label="观察碗足">3</button></div>
+   <div id="evidence-ui" hidden><article class="answer-card"><span>助手的回答</span><strong>18:00</strong><small>依据尚未核查</small></article><article id="notice-card" class="notice-card" hidden><span>现行通知 · 教学虚构</span><p id="weekday-row">周一至周五 <b>18:00</b></p><p id="sunday-row">普通周日 <b>16:00</b></p></article><p id="evidence-result" class="evidence-result" hidden></p></div>
+  </div>
+  <div class="caption-band"><p id="caption">点击播放，听一小段故事。</p><span aria-hidden="true">·</span></div>
+  <div class="transport"><button id="play" class="primary" disabled>准备样片…</button><button id="replay" disabled>重看 ↺</button><label class="progress"><span class="sr-only">播放进度</span><input id="progress" type="range" min="0" max="10" step="0.01" value="0" disabled><span class="times"><span id="elapsed">0:00</span><span id="duration">0:10</span></span></label><button id="mute" aria-pressed="true">声音 开</button></div>
+  <div id="steps" class="steps" aria-label="样片的四个时刻"></div>
+  <div id="observation" class="observation" hidden aria-live="polite"></div>
+  <div id="software-tools" class="case-tools" hidden><label for="condition">试着换一个适用条件</label><select id="condition"><option value="sunday">普通周日</option><option value="weekday">周一至周五</option></select><button id="open-notice">打开现行通知</button><p>切换条件会暂停旁白，便于自己对照。这个例子尚未证明实际模型为什么答错。</p></div>
+  <div id="nature-tools" class="case-tools" hidden><button id="zoom-nature" aria-pressed="false">看炉边细节</button><span>点“添柴，等水开”观察火与汽的变化。</span></div>
+  <div id="memory-tools" class="case-tools memory-tools" hidden><label for="memory-message">给纪念卡写一句话</label><textarea id="memory-message" maxlength="60" rows="2">有些关心，过了很多年还记得。</textarea><button id="save-memory">保存纪念卡 ↓</button><p id="memory-save-status" role="status">文字只在本页使用，不会发送给模型。</p></div>
+  <p id="media-error" role="alert" hidden></p><p id="sample-note" class="sample-note"></p>
+ </div>
+ <aside class="case-reading"><p id="category" class="eyebrow"></p><h2 id="case-title"></h2><p id="subtitle" class="subtitle"></p><dl><dt>谁会用</dt><dd id="audience"></dd><dt>为什么需要</dt><dd id="problem"></dd><dt>带来的价值</dt><dd id="value"></dd><dt>能交付什么</dt><dd id="deliverable"></dd></dl><p id="interaction" class="interaction"></p><a id="full-link" class="full-link" hidden>看已有完整案例 ↗</a></aside>
+</section>
+<section id="detail-desk" class="detail-desk" aria-labelledby="detail-heading">
+ <div class="detail-heading"><div><p class="eyebrow">停一下 · 看见细节</p><h2 id="detail-heading">这一幕，值得慢慢看。</h2><p id="detail-intro"></p></div><button id="inspect-open" type="button" disabled>放大看画稿 ↗</button></div>
+ <div class="detail-layout"><button id="detail-crop" class="detail-crop" type="button" disabled><img id="detail-image" alt="当前画稿的局部"><span>局部细览 ↗</span></button>
+ <article class="detail-copy"><p id="detail-count" class="eyebrow">01 / 04</p><h3 id="detail-title"></h3><p id="detail-story" class="detail-story"></p><dl><dt>看哪里</dt><dd id="detail-look"></dd><dt>为什么留下这一幕</dt><dd id="detail-connection"></dd></dl></article></div>
+ <div class="detail-takeaway"><span>读完，留下什么</span><p id="detail-takeaway"></p></div>
+</section>
+<dialog id="art-inspector" aria-labelledby="inspect-title"><div class="inspect-header"><div><p class="eyebrow">画稿细览 · 可缩放和滚动查看</p><h2 id="inspect-title"></h2></div><button id="inspect-close" type="button" autofocus>关闭 ×</button></div><div id="inspect-viewport" class="inspect-viewport"><img id="inspect-image" alt="完整画稿"></div><p id="inspect-story"></p><div class="inspect-controls"><button id="inspect-prev" type="button">← 上一幕</button><label for="inspect-scale">缩放 <output id="inspect-scale-value">100%</output></label><input id="inspect-scale" type="range" min="100" max="220" step="10" value="100"><button id="inspect-next" type="button">下一幕 →</button></div></dialog>
+<audio id="narration" preload="auto"></audio><p id="load-error" role="alert" hidden>演示暂未载入，请刷新后再试。</p>
+<section id="overview" class="overview"><div class="section-title"><p class="eyebrow">从表达效果，到实际用途</p><h2>同一种风格，六种不同的工作。</h2><p>这些样片用来比较表达方式。新的五个方向仍是概念示例，尚未验证市场需求。</p></div><div id="case-grid" class="case-grid"></div>
+<div class="shared"><h3>可以复用的，是这套讲述方式。</h3><p>一段内容 → 几个关键时刻 → 画面与旁白 → 可回看的故事入口。<br>纸墨是视觉模板，真正要变化的是用户的问题、操作和最后留下的感受。</p></div></section>
+</main><footer><span>原创纸墨样片 · AI辅助画稿 · MiniMax合成旁白</span><a href="docs/six-directions.md">样片范围与制作记录 ↗</a></footer></body></html>

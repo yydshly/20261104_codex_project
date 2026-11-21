@@ -1,0 +1,239 @@
+{
+  "updated": "2026-11-22",
+  "experiments": [
+    {
+      "id": "material",
+      "group": "visual",
+      "label": "风格与材质",
+      "title": "纸墨材质与原创小景",
+      "image": "reports/motion-v2/frame-0.png",
+      "status": "早期实现 · 可操作",
+      "question": "纸、墨、光和局部回应，怎样一起构成这种观感？",
+      "result": "做了原创溪桥、田间与花园，尝试纸纹、浅压印、墨色缺损和分层观察。",
+      "lesson": "只调材质不能解决人物、构图和动作的粗糙；早期程序画面的精致度不足。",
+      "href": "research.html#experience",
+      "doc": "docs/research.md",
+      "extra": {
+        "label": "查看材质层拆解",
+        "href": "research.html#principle"
+      }
+    },
+    {
+      "id": "creek",
+      "group": "story",
+      "label": "关系与故事",
+      "title": "溪桥 · 留半篮秋天",
+      "image": "assets/story/still-04.png",
+      "status": "四幕画稿与程序动作",
+      "question": "能否从一个场景，讲清等待、发现、相认和递篮？",
+      "result": "先整理人物关系与动机，再做四幕构图、表情、目光、手与篮子的接触关系。",
+      "lesson": "故事需要可见的变化；关节拼接与物件接触不自然，会直接破坏感染力。",
+      "href": "stage.html",
+      "doc": "docs/creek-story.md",
+      "extra": {
+        "label": "只看四幕静帧",
+        "href": "story.html?story=autumn&mode=static"
+      }
+    },
+    {
+      "id": "tea",
+      "group": "visual",
+      "label": "器物与局部交互",
+      "title": "雨后茶棚 · 炉边煮水",
+      "image": "reports/tea/actual-boiling.png",
+      "status": "程序小景 · 可操作",
+      "question": "少讲一点，能否用添柴、炉火和水汽让小景成立？",
+      "result": "围绕一只铁壶与一个炉子细化器物，做了添柴、升温、出汽的状态反馈。",
+      "lesson": "器物结构与前后变化要清楚；宁静来自节奏与停留，不能只靠背景纸纹。",
+      "href": "tea.html",
+      "doc": "docs/tea-scene.md"
+    },
+    {
+      "id": "poem-art",
+      "group": "visual",
+      "label": "诗意与人物动作",
+      "title": "《悯农》· 四句四景与 GIF",
+      "image": "reports/minnong-story/four-scenes.png",
+      "status": "四幕实际 GIF · 仍有切帧",
+      "question": "四句诗能否各有自己的画面，并连成劳作与珍惜粮食的故事？",
+      "result": "从单景尝试改为四景，以完整人物姿态制作锄作、递水、接饭和拾米的 GIF。",
+      "lesson": "整体画面成立之后，才谈动作；肩肘、袖口、握持、承重比增加帧数更重要。",
+      "href": "minnong-gif.html",
+      "doc": "docs/minnong-story.md",
+      "extra": {
+        "label": "旧动作方案与失败尝试",
+        "href": "gif-design.html"
+      }
+    },
+    {
+      "id": "poem-voice",
+      "group": "story",
+      "label": "旁白、字幕与画面",
+      "title": "《一粒米的来处》有声故事",
+      "image": "assets/minnong-story/01-noon.png",
+      "status": "约25秒有声原型 · 有离线试看包",
+      "question": "语音怎样带着人看动作，而不是盖过画面？",
+      "result": "接入缓存的 MiniMax 旁白，让词级字幕与四幕 GIF 共用音频时钟，支持暂停、续播与重听。",
+      "lesson": "语音多、动作少会退化为配图朗读；工程检查通过不等于故事有感染力。",
+      "href": "minnong.html?verse=1&revision=sweat-contact-v3",
+      "doc": "docs/minnong-sweat-v3.md",
+      "extra": {
+        "label": "离线试看与反馈入口",
+        "href": "deliverables/minnong-review/index.html"
+      }
+    },
+    {
+      "id": "picking",
+      "group": "story",
+      "label": "从展示到参与",
+      "title": "品牌故事 · 采一枚新芽",
+      "image": "assets/directions/picking/v2/frames/000.png",
+      "status": "第一段32姿态 GIF · 体验打磨中",
+      "question": "怎样摆脱“一张图一句话”，让人真的看见并推进一次采叶？",
+      "result": "展开发现、拈住、摘下、交手和收叶，加入连看、逐步操作与阶段回看；后续工序保留画稿。",
+      "lesson": "输入要对应动作，动作要留下结果；目前仍有姿态跳变，不能把采叶一段称为完整品牌产品。",
+      "href": "picking.html",
+      "doc": "docs/picking-polish-v2.md",
+      "extra": {
+        "label": "查看四幕工序画稿",
+        "href": "directions.html?case=brand&mode=board"
+      }
+    },
+    {
+      "id": "studio",
+      "group": "product",
+      "label": "内容配置与导出",
+      "title": "故事介绍页制作台 · 两个案例",
+      "image": "reports/studio/jianquan-clean-cover.png",
+      "status": "本地工具原型 · 静态导出",
+      "question": "换一个故事或介绍一个产品，能否复用同一套制作流程？",
+      "result": "《留半篮秋天》与“见全”共用编辑与导出流程，支持单幕文字、图稿、草稿、网页包、封面和长图。",
+      "lesson": "内容配置、编辑器和观看页可以沉淀；上传图片不会自动生成动作，静态导出不包含完整有声动画链路。",
+      "href": "studio.html",
+      "doc": "docs/studio-guide.md",
+      "extra": {
+        "label": "查看“见全”产品介绍",
+        "href": "story.html?story=jianquan"
+      }
+    },
+    {
+      "id": "directions",
+      "group": "product",
+      "label": "产品场景探索",
+      "title": "同一种纸墨语言 · 六个方向",
+      "image": "reports/directions/six-directions.png",
+      "status": "方向样片 · 完成度不同",
+      "question": "这种表达除了古诗，还能承担什么具体工作？",
+      "result": "做了古诗、文物、品牌、产品介绍、节气和家庭纪念的短样片与交互。",
+      "lesson": "风格迁移不等于产品成立；每个方向需要真实内容、明确用户任务和单独验收。",
+      "href": "directions.html#overview",
+      "doc": "docs/six-directions.md"
+    }
+  ],
+  "directions": [
+    {
+      "id": "poetry",
+      "title": "有声古诗与寓言绘本",
+      "image": "assets/minnong-story/01-noon.png",
+      "task": "把文字里的动作、关系和诗意讲明白。",
+      "available": "已有《悯农》四幕有声故事与试看包。",
+      "next": "验证孩子或共读者能否复述情节，而非只觉得画面好看。",
+      "product": "一诗一页、亲子共读、课堂开场"
+    },
+    {
+      "id": "museum",
+      "title": "文物与传统文化微导览",
+      "image": "assets/directions/02-museum.png",
+      "task": "引导观众知道看哪里、如何联系用途。",
+      "available": "虚构茶碗与三个细节观察入口。",
+      "next": "选真实器物，补可核查资料与讲解审校。",
+      "product": "一器一页、展柜扫码、文化课堂"
+    },
+    {
+      "id": "brand",
+      "title": "品牌与产地故事",
+      "image": "assets/directions/picking/v2/frames/000.png",
+      "task": "让人记住产品经过了谁的手、怎样来到眼前。",
+      "available": "茶叶四幕画稿与第一段采叶互动。",
+      "next": "用真实品牌内容验证可信度，并完善必要工序。",
+      "product": "包装故事页、门店展示、品牌首页"
+    },
+    {
+      "id": "software",
+      "title": "产品介绍与使用引导",
+      "image": "assets/directions/04-software-preview.png",
+      "task": "跟着一个问题，理解产品为什么值得使用。",
+      "available": "“见全”第二案例与条件对照的虚构示意。",
+      "next": "接上真实产品流程，验证用户能否独立完成第一项任务。",
+      "product": "案例式介绍、首次引导、功能解释"
+    },
+    {
+      "id": "nature",
+      "title": "节气与自然观察",
+      "image": "assets/directions/nature-frames/03.png",
+      "task": "让一次小动作带来可观察、可停留的变化。",
+      "available": "炉边煮水程序小景与四帧氛围样片。",
+      "next": "把观察内容做准确，确认受众是否愿意停留和回访。",
+      "product": "节气栏目、每日一景、睡前听看"
+    },
+    {
+      "id": "memory",
+      "title": "家庭与个人纪念故事",
+      "image": "assets/directions/memory-frames/03.png",
+      "task": "保存一段具体关系、一个照顾彼此的瞬间。",
+      "available": "虚构递伞故事、留言与纪念卡导出。",
+      "next": "在授权的真实回忆中验证表达是否贴切、交付是否有意义。",
+      "product": "家庭故事册、有声纪念页、故事卡"
+    }
+  ],
+  "previews": [
+    {
+      "id": "poem",
+      "label": "有声《悯农》",
+      "title": "一粒米的来处",
+      "poster": "assets/minnong-story/01-noon.png",
+      "media": "assets/minnong-story/sweat-v3/complete-story.gif",
+      "type": "gif",
+      "description": "四幕人物动作的画面预览。完整故事另有约25秒 MiniMax 旁白、同步字幕、暂停与重听。",
+      "scope": "实际四幕 GIF · 此处画面预览无声",
+      "href": "minnong.html?verse=1&revision=sweat-contact-v3",
+      "action": "打开完整有声故事"
+    },
+    {
+      "id": "picking",
+      "label": "采叶互动",
+      "title": "采一枚新芽",
+      "poster": "assets/directions/picking/v2/frames/000.png",
+      "media": "assets/directions/picking/v2/story.gif",
+      "type": "gif",
+      "description": "把一次采叶展开为32幅完整人物姿态。可连看，也可逐步操作；后续工序仍是画稿。",
+      "scope": "约14秒 · 第一段样片，仍有逐帧跳变",
+      "href": "picking.html",
+      "action": "打开采叶互动"
+    },
+    {
+      "id": "creek",
+      "label": "溪桥故事",
+      "title": "留半篮秋天",
+      "poster": "reports/motion-v2/frame-0.png",
+      "media": "reports/motion-v2/story-preview.mp4",
+      "type": "video",
+      "description": "原创溪桥中的等待、拾叶、相认与递篮。这里是程序动作舞台的实际页面录制。",
+      "scope": "页面录制 · 程序人物动作版本",
+      "href": "stage.html",
+      "action": "打开溪桥动作舞台"
+    },
+    {
+      "id": "tea",
+      "label": "炉边煮水",
+      "title": "雨后茶棚",
+      "poster": "reports/tea/actual-boiling.png",
+      "media": "reports/tea/tea-preview.mp4",
+      "type": "video",
+      "description": "通过添柴、炉火和水汽表现状态变化。这里是程序小景的实际页面录制。",
+      "scope": "页面录制 · 器物与局部交互版本",
+      "href": "tea.html",
+      "action": "打开炉边煮水"
+    }
+  ]
+}

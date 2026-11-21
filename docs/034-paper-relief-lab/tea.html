@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f8f6ef">
+  <title>炉边煮水 · 雨后茶棚</title>
+  <link rel="stylesheet" href="tea/tea.css">
+  <script src="renderer.js" defer></script>
+  <script src="woodcut.js" defer></script>
+  <script src="tea/scene.js" defer></script>
+  <script src="tea/app.js" defer></script>
+</head>
+<body>
+  <header>
+    <a class="brand" href="tea.html"><span class="seal" aria-hidden="true">茶</span>雨后茶棚<span class="edition">A LITTLE WORLD ON PAPER</span></a>
+    <nav aria-label="其他作品"><a href="stage.html">溪桥旧作</a><a href="research.html#showcase">参考与研究</a></nav>
+  </header>
+  <main>
+    <section class="scene" aria-label="炉边煮水互动小景">
+      <canvas id="tea-canvas" width="1000" height="630" role="img" aria-label="雨后的茶棚，铁壶坐在陶炉上，炉中还有余火，左下角放着干柴。"></canvas>
+      <p id="loading" role="status">正在铺开这张纸…</p>
+      <p id="scene-error" role="alert" hidden></p>
+    </section>
+    <div class="story">
+      <span class="chapter">雨后茶棚 <i>／</i> 第一景</span>
+      <h1>炉边煮水</h1>
+      <p class="narration" id="narration">雨刚停。炉里留着一点火，第一壶茶还不必着急。</p>
+      <p class="hint" id="hint">点一下左下角的干柴，给这壶水添一点火。</p>
+    </div>
+    <div class="controls" aria-label="小景操作">
+      <button class="feed" id="feed" disabled><span aria-hidden="true">＋</span>添一块柴</button>
+      <span class="divider" aria-hidden="true"></span>
+      <button class="quiet" id="pause" aria-pressed="false">暂停</button>
+      <button class="quiet" id="reset">重新煮水</button>
+    </div>
+    <div class="stages" aria-label="煮水状态"><span data-stage="0" aria-current="step">余火</span><i></i><span data-stage="1">添柴</span><i></i><span data-stage="2">火稳</span><i></i><span data-stage="3">将沸</span><i></i><span data-stage="4">水开</span></div>
+    <p id="announcement" class="sr-only" role="status" aria-live="polite"></p>
+  </main>
+  <footer><span>檐下的雨停了，炉边的日子慢下来。</span><a href="studio.html">故事制作台 ↗</a></footer>
+</body>
+</html>

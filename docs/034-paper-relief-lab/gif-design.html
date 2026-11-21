@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f2e9"><title>悯农 · GIF 动作设计</title>
+  <link rel="stylesheet" href="minnong/gif-design.css"><script src="minnong/gif-design.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="minnong.html"><span class="seal">禾</span><span>纸上生境<small>悯农 · 动作设计册 / 01</small></span></a><nav aria-label="设计册导航"><a href="minnong.html">现有四景 ↗</a><a href="docs/gif-motion-design.md">完整制作说明 ↗</a></nav></header>
+  <main>
+    <section class="intro"><div><p class="eyebrow">MOTION DIRECTION · GIF</p><h1>让一笔墨，<br>有了动作。</h1></div><div class="opening"><span class="status">第一景 GIF 已接入 · 其余待制作</span><p>一锄的重量，一滴汗的去处，<br>一餐的来处，一粒米的珍惜。</p><p class="muted">四句诗，四段短动作。点一下，发生一件事，然后把安静留在纸上。</p><p class="muted"><a href="minnong.html?verse=1&amp;play=1">观看第一景实际 GIF →</a></p></div></section>
+    <nav id="scene-tabs" class="scene-tabs" role="tablist" aria-label="四景动作设计"></nav>
+    <section id="design-panel" role="tabpanel" aria-labelledby="design-tab-0">
+      <div class="scene-heading"><div><p class="eyebrow" id="scene-kicker"></p><h2 id="scene-title"></h2></div><span id="scene-duration" class="duration"></span></div>
+      <div class="scene-layout">
+        <figure class="plate"><div class="art"><img id="scene-image" width="1536" height="1024" alt=""><svg id="annotations" viewBox="0 0 1536 1024" aria-label="计划动作范围与运动路径示意" role="img"></svg><span class="plate-label">现有静帧 + 动作范围示意</span></div><figcaption><span><i class="legend-box"></i>计划重绘范围</span><span><i class="legend-path"></i>运动路径</span><span><i class="legend-anchor"></i>固定／接触点</span><label><input type="checkbox" id="show-annotations" checked> 显示标注</label></figcaption></figure>
+        <aside class="direction"><p class="eyebrow">这一幕，为什么要动</p><h3 id="scene-name"></h3><p id="scene-intent"></p><dl><dt>需要补画</dt><dd id="scene-redraw"></dd><dt>让动作可信</dt><dd id="scene-contact"></dd><dt>动完停在哪里</dt><dd id="scene-result"></dd></dl></aside>
+      </div>
+      <section class="storyboard" aria-label="动作分镜"><div class="section-label"><h3>动作的四个拍点</h3><p>以下为分镜设计，不是 GIF 播放预览</p></div><ol id="beats"></ol></section>
+      <div class="quiet-rule"><span>始终留住</span><p id="scene-fixed"></p></div>
+      <div id="grain-states" class="grain-states" hidden><div><h3>五次拈米，六个结果状态</h3><p>按顺序收下一粒。每一段都接着上一段的结果，收好的米不会消失。</p></div><div class="state-counts" aria-label="掌心从零粒增加到五粒"><span>0 粒</span><b>→</b><span>1 粒</span><b>→</b><span>2 粒</span><b>→</b><span>3 粒</span><b>→</b><span>4 粒</span><b>→</b><span>5 粒</span></div></div>
+    </section>
+    <section class="playback"><div><p class="eyebrow">HOW IT PLAYS</p><h2>像翻看一幅会回应的画。</h2><p>进入时静止。点击后完整演一次，结果留下来。<br>切换诗句保留进度；返回时，接着刚才那一帧。</p></div><div class="state-flow"><div><span>01</span><h3>静帧</h3><p>先看画，再触发</p></div><b aria-hidden="true">→</b><div><span>02</span><h3>动作 GIF</h3><p>演一次，可以暂停</p></div><b aria-hidden="true">→</b><div><span>03</span><h3>结果停帧</h3><p>留住变化，按需重看</p></div></div></section>
+    <section class="craft"><div><p class="eyebrow">CRAFT BEFORE EFFECT</p><h2>先把“一锄”做好。</h2><p>第一段先检查抬锄、落锄和身体承重。双手握得住，锄头有重量，落地才起土，才进入后三景制作。</p></div><ol><li><span>01 / 表演</span><p>先画关键姿势，再补中间帧。手、工具与接触点一起设计。</p></li><li><span>02 / 质感</span><p>保留黑墨剪影、朱红、赭黄、橄榄绿与纸白刻线。背景纸纹固定，动作边缘不冒白边。</p></li><li><span>03 / 交付</span><p>网页接收短 GIF 与起止静帧。保留原始 PNG 帧，另导出可直接分享的整幅 GIF。</p></li></ol></section>
+    <p class="scope-note">本页为四景动作设计册。第一景“一次锄作”已制作真实 GIF 并接入主页面；本页范围标注仍是分镜示意，其余三景尚未制作主体 GIF。</p>
+    <p id="load-error" role="alert" hidden>设计配置暂时未加载，请刷新或打开完整制作说明。</p>
+  </main>
+  <footer><span>一寸土 → 一滴汗 → 一餐饭 → 一粒米</span><a href="minnong/gif-motion-plan.json">查看动作配置 ↗</a></footer>
+</body>
+</html>

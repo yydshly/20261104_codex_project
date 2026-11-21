@@ -1,0 +1,52 @@
+{
+  "version": "picking-refined-20261121",
+  "gif": "assets/directions/picking/v2/story.gif",
+  "poster": "assets/directions/picking/v2/frames/000.png",
+  "paintedPoses": 32,
+  "frameStates": [
+    "branch",
+    "branch",
+    "branch",
+    "branch",
+    "branch",
+    "branch",
+    "branch",
+    "branch",
+    "branch",
+    "branch",
+    "branch",
+    "branch",
+    "branch",
+    "hand",
+    "hand",
+    "hand",
+    "hand",
+    "hand",
+    "hand",
+    "hand",
+    "hand",
+    "hand",
+    "hand",
+    "hand",
+    "hand",
+    "hand",
+    "hand",
+    "hand",
+    "hand",
+    "hand",
+    "hand",
+    "basket",
+    "basket"
+  ],
+  "hotspots": {
+    "bud": [
+      28,
+      68
+    ],
+    "basket": [
+      85,
+      35
+    ]
+  },
+  "record": "reports/picking-v2/gif.json"
+}

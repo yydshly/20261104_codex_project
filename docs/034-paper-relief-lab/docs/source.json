@@ -1,0 +1,108 @@
+{
+  "retrieved_at": "2026-11-15",
+  "source_type": "public-post-metadata-via-fxtwitter",
+  "canonical_url": "https://x.com/ann_nnng/status/2120156122133004665",
+  "author": "Ann Nguyen / @ann_nnng",
+  "author_text": "fishing and farming in an embossed paper drawing by Claude Fable 5.2",
+  "posted_at": "Tue Nov 10 14:06:24 +0000 2026",
+  "media": [
+    {
+      "id": "2120156030256721920",
+      "url": "https://video.twimg.com/amplify_video/2120156030256721920/vid/avc1/1936x1516/ftFNbEH_aEXYJ2pH.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120156030256721920/img/o7QNTQPi7z66EoF9.jpg",
+      "duration": 29.45,
+      "width": 1936,
+      "height": 1516,
+      "format": "video/mp4",
+      "type": "video",
+      "formats": [
+        {
+          "url": "https://video.twimg.com/amplify_video/2120156030256721920/pl/jkA0tHBp0XL0-K1O.m3u8?tag=29",
+          "container": "m3u8"
+        },
+        {
+          "url": "https://video.twimg.com/amplify_video/2120156030256721920/vid/avc1/344x270/Q43dwAf07bjyvdzn.mp4?tag=29",
+          "bitrate": 256000,
+          "container": "mp4",
+          "codec": "h264"
+        },
+        {
+          "url": "https://video.twimg.com/amplify_video/2120156030256721920/vid/avc1/458x360/NOMOjtMtECBt288a.mp4?tag=29",
+          "bitrate": 832000,
+          "container": "mp4",
+          "codec": "h264"
+        },
+        {
+          "url": "https://video.twimg.com/amplify_video/2120156030256721920/vid/avc1/918x720/bzBOG84qYcSMeS7Z.mp4?tag=29",
+          "bitrate": 2176000,
+          "container": "mp4",
+          "codec": "h264"
+        },
+        {
+          "url": "https://video.twimg.com/amplify_video/2120156030256721920/vid/avc1/1378x1080/tTeuIZvC-69D0Qmz.mp4?tag=29",
+          "bitrate": 10368000,
+          "container": "mp4",
+          "codec": "h264"
+        },
+        {
+          "url": "https://video.twimg.com/amplify_video/2120156030256721920/vid/avc1/1936x1516/ftFNbEH_aEXYJ2pH.mp4?tag=29",
+          "bitrate": 25128000,
+          "container": "mp4",
+          "codec": "h264"
+        }
+      ],
+      "publisher": null,
+      "variants": [
+        {
+          "url": "https://video.twimg.com/amplify_video/2120156030256721920/pl/jkA0tHBp0XL0-K1O.m3u8?tag=29",
+          "bitrate": 0,
+          "content_type": "application/x-mpegURL"
+        },
+        {
+          "url": "https://video.twimg.com/amplify_video/2120156030256721920/vid/avc1/344x270/Q43dwAf07bjyvdzn.mp4?tag=29",
+          "bitrate": 256000,
+          "content_type": "video/mp4"
+        },
+        {
+          "url": "https://video.twimg.com/amplify_video/2120156030256721920/vid/avc1/458x360/NOMOjtMtECBt288a.mp4?tag=29",
+          "bitrate": 832000,
+          "content_type": "video/mp4"
+        },
+        {
+          "url": "https://video.twimg.com/amplify_video/2120156030256721920/vid/avc1/918x720/bzBOG84qYcSMeS7Z.mp4?tag=29",
+          "bitrate": 2176000,
+          "content_type": "video/mp4"
+        },
+        {
+          "url": "https://video.twimg.com/amplify_video/2120156030256721920/vid/avc1/1378x1080/tTeuIZvC-69D0Qmz.mp4?tag=29",
+          "bitrate": 10368000,
+          "content_type": "video/mp4"
+        },
+        {
+          "url": "https://video.twimg.com/amplify_video/2120156030256721920/vid/avc1/1936x1516/ftFNbEH_aEXYJ2pH.mp4?tag=29",
+          "bitrate": 25128000,
+          "content_type": "video/mp4"
+        }
+      ]
+    }
+  ],
+  "license": "未见开源许可；原作仅作有署名的本地研究引用",
+  "repository": "未在帖文中提供",
+  "author_follow_up": {
+    "checked_at": "2026-11-22",
+    "finding": "公开索引显示作者在后续回复中附上 Paper River 体验地址。作者站已核对标题、四场景介绍及采莲提示。",
+    "experience_url": "https://www.bubbbly.com/paper-river",
+    "access": "HTTP 200",
+    "unverified": "完整回复语料、点击率、转化率、开源许可"
+  },
+  "retained_media": {
+    "local": "assets/reference-720p.mp4",
+    "url": "https://video.twimg.com/amplify_video/2120156030256721920/vid/avc1/918x720/bzBOG84qYcSMeS7Z.mp4?tag=29",
+    "width": 918,
+    "height": 720,
+    "bytes": 3394398,
+    "transform": "none; public source 720p version saved without transcoding",
+    "duration_seconds": 29.45
+  },
+  "observation_scope": "Cover, ten contact-sheet frames at 0/3/6/9/12/15/18/21/24/27 seconds, plus scene thumbnails at 1/8/16/24 seconds; audio not reviewed; original app not operated."
+}

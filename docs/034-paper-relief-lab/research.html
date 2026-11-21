@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="从一幅会回应的纸上版画，理解材质、状态和交互的关系。原作展示、可操作实验、原理拆解与项目迁移。">
+  <title>纸上生境 · Paper Relief Lab</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='7' fill='%23f1ecdf'/%3E%3Cpath d='M11 29V11h18v18zM16 11v18M11 21h18' fill='none' stroke='%23834736' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script src="renderer.js" defer></script>
+  <script src="woodcut.js" defer></script>
+  <script src="creek-art.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#experience">跳到互动展台</a>
+<header class="site-header">
+  <a class="brand" href="#top"><span class="seal" aria-hidden="true">田</span><span>纸上生境<small>PAPER RELIEF LAB</small></span></a>
+  <nav aria-label="页面导航"><a href="studio.html">制作台</a><a href="#showcase">看参考</a><a href="#principle">懂原理</a><a href="#value">找价值</a></nav>
+  <span class="header-note">独立研究子项目 <i></i></span>
+</header>
+<main id="top">
+  <section class="hero section-wrap" id="showcase">
+    <div class="hero-copy">
+      <p class="eyebrow">A SMALL WORLD, PRESSED INTO PAPER</p>
+      <h1>一张纸，<br>也可以有<span>生机。</span></h1>
+      <p class="hero-description">借纸墨的语言，画自己的小世界。<br>从表面触感，到一次细小的回应。</p>
+      <div class="hero-actions"><a class="button primary" href="minnong.html">悯农 · 纸上诗境 <span>↗</span></a><a class="text-link" href="studio.html">进入故事制作台 ↗</a><a class="text-link" href="#experience">查看现有画稿与材质研究 ↘</a></div>
+      <div class="hero-source"><span class="tiny-label">参考作品</span><p>Ann Nguyen <a href="https://x.com/ann_nnng/status/2120156122133004665" target="_blank" rel="noopener noreferrer">@ann_nnng ↗</a></p><small>作者标注 Claude Fable 5.2 · 2026.11.10</small></div>
+    </div>
+    <figure class="original-frame">
+      <div class="frame-heading"><span><i class="status-dot"></i> 原作录屏</span><span>00:29 · 四个小世界</span></div>
+      <video id="reference-video" controls playsinline preload="metadata" poster="assets/reference-poster.jpg" aria-label="Ann Nguyen 原作录屏：采莲、稻田、抬网与晨捕鱼"><source src="https://video.twimg.com/amplify_video/2120156030256721920/vid/avc1/918x720/bzBOG84qYcSMeS7Z.mp4?tag=29" type="video/mp4">浏览器无法播放视频，请使用下方原帖链接。</video>
+      <figcaption><span>有颜色的版画，带凹凸感的纸，细小而具体的回应。</span><a href="https://x.com/ann_nnng/status/2120156122133004665" target="_blank" rel="noopener noreferrer">查看原帖 ↗</a></figcaption>
+    </figure>
+  </section>
+
+  <section class="reference-strip section-wrap" aria-label="原片四个场景">
+    <p class="strip-intro"><span class="tiny-label">原片索引</span><strong>四个场景，<br>同一套表达。</strong><small>点击跳转原片时间点</small></p>
+    <button class="reference-scene" data-time="0"><img src="assets/scene-lilies.jpg" alt="原作采莲场景" loading="lazy"><span><b>01 采莲</b><small>花与船的状态联动</small></span></button>
+    <button class="reference-scene" data-time="7"><img src="assets/scene-rice.jpg" alt="原作稻田场景" loading="lazy"><span><b>02 稻田</b><small>农具动作与秧苗变化</small></span></button>
+    <button class="reference-scene" data-time="16"><img src="assets/scene-net.jpg" alt="原作抬网场景" loading="lazy"><span><b>03 抬网</b><small>网的形态随状态改变</small></span></button>
+    <button class="reference-scene" data-time="24"><img src="assets/scene-fishing.jpg" alt="原作晨捕鱼场景" loading="lazy"><span><b>04 晨捕鱼</b><small>小船、水纹与局部回应</small></span></button>
+  </section>
+
+  <section class="section-wrap experience" id="experience">
+    <div class="section-heading"><div><p class="eyebrow">01 / OUR OWN SMALL WORLDS</p><h2>借一种氛围，画自己的生活。</h2></div><p>溪桥、麦田、雨后的花园。<br>原创图形与交互，由代码实时画出。</p></div>
+    <div class="experience-shell">
+      <div class="scene-panel">
+        <div class="scene-toolbar"><div class="segmented" role="group" aria-label="演示场景"><button data-scene="pond" aria-pressed="true">溪桥拾秋</button><button data-scene="field" aria-pressed="false">田间晚风</button><button data-scene="garden" aria-pressed="false">雨后花园</button></div><button id="pause" class="icon-button" aria-pressed="false">暂停微动 Ⅱ</button></div>
+        <div class="canvas-wrap"><canvas id="relief-canvas" width="1000" height="630" role="img" aria-label="溪桥拾秋，点击溪水上的秋叶放入篮中，也可使用下方操作按钮"></canvas><span class="canvas-caption">ORIGINAL WOODCUT / <span id="canvas-number">001</span></span><span id="render-mode">纸墨版画</span></div>
+        <div class="scene-caption"><div><p id="scene-kicker">风落下一片秋，轻轻收进篮子。</p><h3 id="scene-title">溪桥拾秋</h3></div><div class="counter"><strong id="progress-number">0</strong><span id="progress-label">/ 6 片已拾</span></div></div>
+        <div class="scene-action-row"><p id="scene-instruction">点一片秋叶，看它顺着风落进篮中。</p><button id="action" class="button small">拾起一片秋叶 ↗</button></div>
+        <p id="scene-status" role="status" class="live-status">溪水慢慢流，桥下有六片秋叶。</p>
+      </div>
+      <aside class="controls-panel" aria-label="材质和显示参数">
+        <p class="eyebrow">THE MATERIAL DESK</p><h3>把感觉拆成参数</h3><p class="control-intro">同一幅画，改变材质和光，就能看见差别。</p>
+        <div class="control-group"><label for="relief">压印起伏 <output id="relief-value" for="relief">28</output></label><input id="relief" type="range" min="0" max="100" value="28"><p>克制的浅压印，让图形留在纸面上。</p></div>
+        <div class="control-group"><label for="grain">纸张纤维 <output id="grain-value" for="grain">68</output></label><input id="grain" type="range" min="0" max="100" value="68"><p>短纤维产生起伏，也让彩墨出现缺损。</p></div>
+        <div class="control-group"><label for="light">光线方向 <output id="light-value" for="light">315°</output></label><input id="light" type="range" min="0" max="360" value="315"><p>改变明暗所在的一侧，观察压纹起伏。</p></div>
+        <fieldset class="view-field"><legend>观察哪一层</legend><div class="view-options"><button data-view="final" aria-pressed="true">合成</button><button data-view="ink" aria-pressed="false">墨色</button><button data-view="height" aria-pressed="false">高度</button><button data-view="normal" aria-pressed="false">法线</button></div></fieldset>
+        <fieldset class="material-field"><legend>同一场景，比较表面</legend><div class="material-options"><button data-material="woodcut" aria-pressed="true">纸墨版画</button><button data-material="relief" aria-pressed="false">初版浮雕</button></div><p id="material-note">细纤维、墨色缺损与浅压印，共同形成纸墨触感。</p></fieldset>
+        <div class="control-footer"><button id="reset" class="text-link">重置当前场景 ↻</button><button id="export" class="text-link">导出画面 PNG ↓</button><button id="export-recipe" class="text-link">保存参数 JSON ↓</button></div>
+        <p class="implementation-note">Canvas 2D 原创场景 · 程序纸纹与彩墨<br>参考风格与氛围，图形和交互独立实现</p>
+      </aside>
+    </div>
+    <div id="export-preview" class="export-preview" hidden><p><strong>最近生成的画面</strong><a id="export-image-download" download="paper-relief.png">保存 PNG ↓</a><button id="close-export" class="text-link">收起预览</button></p><img id="export-image" alt="刚刚生成的本地版画 PNG 预览"></div>
+    <div id="recipe-preview" class="recipe-preview" hidden><p><strong>最近生成的参数</strong><a id="recipe-download" download="paper-relief-recipe.json">保存 JSON ↓</a></p><details><summary>查看导出内容</summary><pre id="recipe-text"></pre></details></div>
+  </section>
+
+  <section class="principle section-wrap" id="principle">
+    <div class="section-heading"><div><p class="eyebrow">02 / UNDER THE SURFACE</p><h2>纸面之下，有两套系统。</h2></div><p>要把“像纸”做成“能玩”，<br>需要两条互相配合的管线。</p></div>
+    <div class="pipeline" aria-label="从内容到交互的实现流程">
+      <button data-step="0" aria-pressed="true"><span>01</span><b>画什么</b><small>场景与几何</small><i>→</i></button><button data-step="1" aria-pressed="false"><span>02</span><b>印在什么上</b><small>墨色与高度</small><i>→</i></button><button data-step="2" aria-pressed="false"><span>03</span><b>光从哪里来</b><small>法线与明暗</small><i>→</i></button><button data-step="3" aria-pressed="false"><span>04</span><b>怎样回应人</b><small>状态与时间</small></button>
+    </div>
+    <div class="principle-detail"><div class="principle-number" id="step-number">01</div><div><p class="tiny-label" id="step-label">SCENE GRAPH</p><h3 id="step-title">先让物体可以被单独操作</h3><p id="step-copy">桥、人物、秋叶和篮子分别绘制。秋叶有自己的位置和状态，拾取后通过一段缓慢的弧线进入篮子。背景与大部分物体保留在原位。</p><code id="step-code">scene = { items: [...], completed: Set(), effect: gather | grow }</code><p id="step-proof" class="proof">验证：拾一片秋叶，观察它的路径、篮子与数量同步变化。</p></div></div>
+    <div class="mechanism-columns"><article><span class="tiny-label">视觉管线</span><h3>让纸和墨拥有连续的触感</h3><p>程序生成的短纤维形成纸面高度，浅压印提供图形边缘的微小起伏。两者共同参与法线与漫反射。线条带有细微的粗细变化，墨色边缘轻轻渗入同一张纸；刻痕由图形内部的留白构成。</p><div class="formula">纤维 + 浅压印 → 表面法线 → 纸与墨的微小明暗</div><p class="muted">这是 2.5D 纸面渲染。画面中的人物、桥、植物与材质均由本项目代码绘制；原作媒体只出现在有署名的参考区。</p></article><article><span class="tiny-label">交互管线</span><h3>让回应慢下来，让结果看得见</h3><p>拾叶时手腕接应、停顿，再把秋叶收进篮中；栽苗时人物与农具一起轻动。花枝按茎、叶、花瓣依次舒展。计数与完成项共用一份状态，局部姿态缓慢过渡，纸面始终保持静止。</p><div class="formula">输入 → 状态 → 局部姿态 → 安静停留</div><p class="muted">减少动态效果或手动暂停时，操作直接显示完成状态。切换场景仍保留当前标签页内各自的进度。</p></article></div>
+    <details class="evidence-details"><summary>原作者究竟用了什么？<span>证据与推断 ↗</span></summary><div class="evidence-grid"><article><span class="tag verified">已观察</span><p>原帖文案、约 29.45 秒录屏和全片十个时间点的抽帧，可回查四个场景与局部变化。后续回复补得 <a href="https://www.bubbbly.com/paper-river" target="_blank" rel="noopener">Paper River 体验页</a>。</p></article><article><span class="tag inferred">合理推断</span><p>这种效果可以用分层矢量、材质滤镜和状态驱动实现。仅凭录屏无法判断原作者使用 Canvas、SVG、Three.js，还是其他方案。</p></article><article><span class="tag unknown">尚未证实</span><p>对应开源仓库、许可、生成参数与具体渲染方式仍待核实。“Claude Fable 5.2”是作者标注。</p></article></div></details>
+  </section>
+
+  <section class="value-section" id="value"><div class="section-wrap">
+    <div class="section-heading"><div><p class="eyebrow">03 / WHAT IT GIVES US</p><h2>留下来的，应该是能力。</h2></div><p>版画是一个入口。<br>可迁移的是表达、反馈和生产方式。</p></div>
+    <div class="value-thesis"><span>我们的判断</span><p>把抽象的进展，变成一个<br><em>看得见、碰得到、会累积</em>的小世界。</p></div>
+    <div class="value-list"><article><span class="value-index">01</span><div><h3>让风格成为可复用的系统</h3><p>把纸、墨、光照与动静比例定义成参数。换内容时保持材质关系，系列感不必依靠反复模仿同一张图。</p></div><span class="value-meta">视觉表达</span></article><article><span class="value-index">02</span><div><h3>让进度有可感知的结果</h3><p>“又完成一项”可以对应新长出一株植物。关键是状态变化清楚、反馈可预测，具体是否提高坚持度仍需用户验证。</p></div><span class="value-meta">产品体验</span></article><article><span class="value-index">03</span><div><h3>让 AI 的产出进入工程循环</h3><p>AI 帮助快速提出场景和代码，人负责拆模块、核对状态、验证性能和可访问性。录屏好看只是起点，能复用和维护才成为资产。</p></div><span class="value-meta">创作流程</span></article></div>
+    <h3 class="subsection-title">落到我们已有的项目里</h3>
+    <div class="project-mapping"><article><span class="tiny-label">青白造境 → 材质引擎</span><h3>同一内容，多种材料</h3><p>青白瓷与压纹纸可以共用图形分层、光照控制和局部微动接口。更换表面模型，不重复搭建全部交互。</p><p class="mapping-action">下一步：抽出 <code>surface</code> 接口，比较同一朵花的两种材质。</p><span class="path-note">对应 blue-white-relief-lab</span></article><article><span class="tiny-label">交互效果实验室 → 状态反馈</span><h3>让一项效果讲清一个动作</h3><p>把采集、增长、揭示等规则整理成可操作案例。为每种交互写清“输入、状态、反馈、恢复”。</p><p class="mapping-action">下一步：增加版画式进度反馈案例，比较直接文字与场景反馈。</p><span class="path-note">对应 interaction-effects-lab</span></article><article><span class="tiny-label">Cozy Emotion Lab → 情绪表达</span><h3>从看风景，到参与风景</h3><p>用克制的光、节奏和回应设计放松片刻。用户每次操作都有小结果，同时保留停止动画与直接操作入口。</p><p class="mapping-action">下一步：将“看图”和“可参与场景”做定性体验对照。</p><span class="path-note">对应 cozy-emotion-lab</span></article></div>
+    <div class="reflectflow-note"><span class="tiny-label">日常信息库的远期可能</span><p><strong>日常复盘工具 的复盘，可以有一座只读花园。</strong>以用户明确选择、已经脱敏的统计数据驱动画面。当前“雨后花园”使用独立的照料示例状态，可用于讨论这种迁移；真实接入先明确数据口径与授权，展示层独立于日记写入。</p></div>
+  </div></section>
+
+  <section class="extension section-wrap" id="extension"><div class="section-heading"><div><p class="eyebrow">BEYOND THE REFERENCE</p><h2>再往外想一步。</h2></div><p>从一个效果，走向一组可检验的假设。</p></div><div class="extension-layout"><div class="extension-tabs" role="group" aria-label="可扩展理解"><button data-extension="0" aria-pressed="true"><span>01</span> 材质是一种界面语言 <i>↗</i></button><button data-extension="1" aria-pressed="false"><span>02</span> 动画是一种状态解释 <i>↗</i></button><button data-extension="2" aria-pressed="false"><span>03</span> 数据可以成为景观 <i>↗</i></button><button data-extension="3" aria-pressed="false"><span>04</span> 小世界可以成为内容产品 <i>↗</i></button></div><article class="extension-detail"><span id="extension-label" class="tiny-label">MATERIAL AS LANGUAGE</span><h3 id="extension-title">用材质，建立人与内容的关系。</h3><p id="extension-copy">纸和有限墨色容易让人联想到手作、出版与被珍惜的记录。这是艺术方向假设，需要用实际画面和受众反馈确认。它更适合阅读、纪念、文化展示；高频操作台仍需先保证信息密度和识别速度。</p><div class="extension-test"><span>如何验证</span><p id="extension-test">用同一份内容分别做中性平面版和纸面版，让使用者描述感受，并完成同一项查找任务。</p></div><button id="extension-try" class="text-link">去展台比较材质 ↗</button></article></div></section>
+
+  <section class="sources section-wrap" id="sources"><div><p class="eyebrow">RESEARCH NOTES</p><h2>有出处，也有边界。</h2><p>检索日期 2026.11.15。原作录屏从作者帖文的媒体地址加载。<br>来源与开源许可见研究记录。</p></div><ol><li><a href="https://x.com/ann_nnng/status/2120156122133004665" target="_blank" rel="noopener noreferrer">Ann Nguyen 原帖与录屏 ↗</a><span>作品事实与四场景观察</span></li><li><a href="https://www.w3.org/TR/filter-effects-1/#feDiffuseLightingElement" target="_blank" rel="noopener noreferrer">W3C · Filter Effects / Diffuse Lighting ↗</a><span>高度表面、法线与光照的技术依据</span></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/requestAnimationFrame" target="_blank" rel="noopener noreferrer">MDN · requestAnimationFrame ↗</a><span>浏览器时间驱动的帧更新</span></li><li><a href="docs/research.md">完整研究记录与实施路线 ↗</a><span>证据、原理、价值、优先级与验收标准</span></li></ol></section>
+</main>
+<footer class="section-wrap"><span class="brand-footer">纸上生境 <small>Paper Relief Lab</small></span><span>先体验，再理解，最后带走可复用的关系。</span><a href="#top">回到纸上 ↑</a></footer>
+<div class="toast" id="toast" role="status" hidden></div>
+</body>
+</html>

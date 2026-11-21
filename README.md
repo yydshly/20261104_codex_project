@@ -39,6 +39,7 @@
 | 031 | [海景、人物与可复用场景研究](projects/031-ocean-light-atlas/README.md) | [PEBIT海面参考](https://x.com/_pebit_/status/2121174301319831916) · [Three.js](https://github.com/mrdoob/three.js) · [Rocketbox](https://github.com/microsoft/Microsoft-Rocketbox) | 从20项海面视觉参考与80份扩展方案出发，以实拍对照理解光照、海况、观看角度与镜头处理，再用海边玻璃屋验证可进入、可停留的观海体验。海面碎光、近岸浪、水光、0597自主走动坐起与环境声已形成4.3基线，另保留成品角色、旧版换装及静态候选。价值在效果依据、场景模块、人物适配流程和可回看版本；自然度、跨角色通用性与产品需求仍待验证。 | [已有研究引导图](#ocean-light-atlas-guide) | [在线研究与四类人物效果](https://yydshly.github.io/20261104_codex_project/031-ocean-light-atlas/) |
 | 032 | [同一空间的美术风格转场](projects/032-spatial-style-transition/README.md) | [Bihe Xi 原帖](https://x.com/xbh_artist/status/2122661449554428020) | 用四帧说明如何在同一段运镜中，点击触发不同光线、色彩与材质的空间版本切换。 | [四帧引导图](#spatial-style-transition-guide) | — |
 | 033 | [栖境 · 环境、情绪与沉浸体验研究](projects/033-environment-emotion-lab/README.md) | [Daniil / Quack](https://x.com/daniildesigns/status/2120195320768303141) · [Three.js](https://github.com/mrdoob/three.js) · [Rocketbox](https://github.com/microsoft/Microsoft-Rocketbox) | 研究数字环境怎样通过空间、光影、声音、自然变化与人的活动，构造温暖、放松、愿意停留的体验。以实时池塘和房间—庭院—池塘连通小屋，验证双视角、连续阅读动作、物件与座椅接触、自然录音及MiniMax位置朗读，沉淀资产、状态协调、动作与声场的复用方法；稳定情绪效果、长期使用和产品价值仍待验证。 | [既有研究总结图](#environment-emotion-guide) | [在线研究与实际体验](https://yydshly.github.io/20261104_codex_project/033-environment-emotion-lab/) |
+| 034 | [纸墨小世界 · 从纸墨小景到故事产品](projects/034-paper-relief-lab/README.md) | [Ann Nguyen 原帖](https://x.com/ann_nnng/status/2120156122133004665) · [Paper River](https://www.bubbbly.com/paper-river) | 沿原帖、录屏和后续回复取证，逐帧观察纸墨、构图和局部互动。用溪桥、煮水、采叶与有声《悯农》检验分镜、动作和音画同步，沉淀两案例制作台、六类应用及评论和试看分析方法。 | [既有研究总图](#paper-relief-guide) | [在线研究与样片](https://yydshly.github.io/20261104_codex_project/034-paper-relief-lab/) |
 
 项目按收录顺序从 `001` 开始编号。新条目按编号追加，已分配的编号保持固定。索引摘要用一两句话写清研究对象和关注点。完成验证后，可补上一条主要发现。
 
@@ -519,3 +520,15 @@ Adam Chernick 个人制作、扩展和组合的网页 3D 实验，部分基于 T
 价值分为三层：使用者进入阅读与休息的体验目标；阅读、专注、日常整理、自然陪伴及共同在场的产品方向；已经沉淀的资产账本、共享状态、风雨水面、动作链、双视角与位置声场。新场景仍需适配尺度、握点、支撑、镜头和声源。真实内容、进度与可靠保存、跨设备性能、长期留存、省时和商业收益均继续验证。
 
 [在线研究与价值](https://yydshly.github.io/20261104_codex_project/033-environment-emotion-lab/) · [亲自进入小屋](https://yydshly.github.io/20261104_codex_project/033-environment-emotion-lab/demo/reading.html) · [池塘观察入口](https://yydshly.github.io/20261104_codex_project/033-environment-emotion-lab/demo/) · [完整方法与素材账本](https://yydshly.github.io/20261104_codex_project/033-environment-emotion-lab/demo/reading-notes.html) · [完整研究摘要与源码](projects/033-environment-emotion-lab/README.md)
+
+<a id="paper-relief-guide"></a>
+
+### 034 · 纸墨小世界 · 从纸墨小景到故事产品
+
+从《Paper River》的纸白、有限彩墨和局部回应出发，研究怎样用原创分镜、动作、旁白与字幕把一段过程讲清楚。我们记录原帖与作者后续回复中的体验入口，对约 29 秒录屏逐帧读取，再用可操作样片验证自己的解释。溪桥、雨后茶棚、采叶和《悯农》保留可体验版本。
+
+![原样沿用已生成的纸墨小世界研究总图，含原作、样片、研究判断、复用价值和六种应用。](docs/034-paper-relief-lab/summary/research-map.png)
+
+可以复用逐幕审稿方法、音画同步原型及两案例共享的故事制作台。网页结尾整理原作回复从录屏引向体验的路径，并提供评论问题和复盘方法。读者能否复述故事、独立指出卡点或描述具体用途，仍待真实反馈。
+
+[在线研究](https://yydshly.github.io/20261104_codex_project/034-paper-relief-lab/) · [信息获取与分析](https://yydshly.github.io/20261104_codex_project/034-paper-relief-lab/#method) · [评论引导与效果分析](https://yydshly.github.io/20261104_codex_project/034-paper-relief-lab/#comments) · [完整研究摘要](projects/034-paper-relief-lab/README.md)

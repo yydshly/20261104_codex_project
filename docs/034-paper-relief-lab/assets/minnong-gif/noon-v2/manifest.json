@@ -1,0 +1,27 @@
+{
+  "version": "noon-hoeing-v2-continuous",
+  "status": "produced",
+  "method": "continuous-painted-jacket-and-grip-with-pelvis-led-weight-transfer-encoded-to-gif",
+  "base": "base.png",
+  "clip": "action-0-1.gif",
+  "share": "once-hoeing.gif",
+  "video": "once-hoeing.mp4",
+  "coordinateSpace": [
+    1536,
+    1024
+  ],
+  "crop": [
+    570,
+    380,
+    580,
+    540
+  ],
+  "featherPx": 28,
+  "durationMs": 3200,
+  "frameCount": 64,
+  "delayMs": 50,
+  "loop": false,
+  "soilContactMs": 1800,
+  "firstStill": "state-0.png",
+  "lastStill": "state-1.png"
+}

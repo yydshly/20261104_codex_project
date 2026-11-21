@@ -1,0 +1,42 @@
+{
+  "provider": "MiniMax",
+  "request": {
+    "model": "speech-2.8-hd",
+    "text": "指尖轻拈，新芽落进背篓。<#0.5#>叶子入锅，一双手专心翻制。<#0.5#>折好纸袋，细绳系住这份认真。<#0.5#>热水入杯，山间的一天，来到眼前。",
+    "stream": false,
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": true,
+    "subtitle_type": "word",
+    "voice_setting": {
+      "voice_id": "Chinese (Mandarin)_Gentle_Senior",
+      "speed": 1,
+      "vol": 1,
+      "pitch": 0,
+      "emotion": "calm"
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "bitrate": 128000,
+      "format": "mp3",
+      "channel": 1
+    }
+  },
+  "requestSha256": "3e68a31b0f60448d34510e3a0006941ee25f675c13f36288243a8a4a766ee17d",
+  "requestedAt": "2026-11-16T11:54:06.583Z",
+  "status": "complete",
+  "completedAt": "2026-11-16T11:54:09.108Z",
+  "extraInfo": {
+    "audio_length": 15264,
+    "audio_sample_rate": 32000,
+    "audio_size": 245940,
+    "bitrate": 128000,
+    "word_count": 76,
+    "invisible_character_ratio": 0,
+    "usage_characters": 122,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "traceId": "074a21dfc7aa3a6c20aedc679fc43999",
+  "sha256": "1cc5e4a63f5136bd480e48cdf7e68e2241b354c97128f151ff26bccc2d1ffad2"
+}

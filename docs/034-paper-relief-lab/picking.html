@@ -1,0 +1,13 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>采一枚新芽 · 山间的一盏茶</title><link rel="stylesheet" href="picking/story.css"><link rel="stylesheet" href="picking/experience-v2.css"><script src="vendor/gifuct/decoder.js" defer></script><script src="minnong/story-gif.js" defer></script><script src="picking/story-v2.js" defer></script></head><body>
+<main><header><p>山间的一盏茶 · 第一段</p><h1>采一枚新芽</h1><span>从枝头，到背篓，看见一盏茶的开头。</span></header>
+<div class="reading-modes" role="group" aria-label="选择观看方式"><button data-mode="watch" aria-pressed="true" disabled>听看故事</button><button data-mode="guided" aria-pressed="false" disabled>亲手采叶</button><span id="mode-note">听看故事 · 约 14 秒</span></div>
+<div id="scene" class="scene"><img id="still" src="assets/directions/picking/v2/frames/000.png" alt="茶田里，做茶人看向枝头的嫩芽"><canvas id="motion" width="1000" height="667" hidden aria-label="采叶动作画面" role="img"></canvas><button id="scene-action" class="scene-action" hidden disabled><span class="point"></span><span id="scene-hint">寻找嫩芽</span></button><span id="leaf-state" class="leaf-state">嫩芽还在枝头</span></div>
+<div id="caption" class="caption">从一枚新芽，走近一盏茶的来处。</div>
+<p id="load-status" class="load-status" role="status">正在展开画面与旁白…</p>
+<div class="controls"><button id="action" class="primary" disabled>准备故事…</button><button id="restart" disabled>重新开始</button><button id="mute" aria-pressed="true" disabled>声音 开</button></div>
+<label class="timeline"><span class="sr-only">动作进度</span><input id="seek" type="range" value="0" min="0" max="14" step="0.01" disabled><span id="time">0:00 / 0:14</span></label>
+<nav id="chapters" aria-label="采叶动作的四个阶段"><button data-phase="0" disabled>01 发现嫩芽</button><button data-phase="1" disabled>02 伸手拈住</button><button data-phase="2" disabled>03 摘下嫩芽</button><button data-phase="3" disabled>04 放进背篓</button></nav>
+<p id="chapter-hint" class="chapter-hint">点选四个时刻，可以单独听看这一段。</p>
+<p id="prompt" class="prompt" role="status">先听看一个完整的小故事；也可以选择“亲手采叶”。</p>
+<div id="ending" class="ending" hidden><span>一片叶，已经收好了。</span><a href="directions.html?case=brand&amp;mode=board" target="_top">看看它接下来的路：炒制、分装、入杯 ↗</a></div>
+<p id="error" role="alert" hidden></p><button id="retry" type="button" hidden>重新载入</button><p class="scope">原创纸墨故事 · MiniMax 旁白 · 可暂停、回看与重听</p></main><audio id="voice" preload="auto"></audio></body></html>

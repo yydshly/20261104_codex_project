@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "id": "jianquan",
+  "title": "AI 为什么会答错？",
+  "subtitle": "从一个闭馆时间的疑问出发，\n在「见全」里走完一次有依据的判断。",
+  "audience": "第一次了解见全的使用者",
+  "theme": "editorial",
+  "label": "见全 / 产品故事",
+  "category": "一个问题 · 一条学习路线",
+  "note": "星桥图书馆、通知与助手回答均为教学虚构，不是实际模型运行记录。",
+  "ending": "从一句答案，走到能说明依据的判断。",
+  "credit": "产品介绍基于本地见全项目与认知电梯的内容；图稿为原创教学示意，非产品截图。",
+  "coverBeat": "sources",
+  "beats": [
+    {
+      "id": "question",
+      "title": "一个时间，为什么对不上？",
+      "narration": "你问：“这个普通周日，图书馆几点闭馆？”\n\n助手回答 18:00，现行通知却写着周日 16:00。答案很顺畅，但你还不知道它依据什么。",
+      "dialogue": "先把问题与回答放在一起看。",
+      "caption": "先发现差异，不急着替错误寻找一个确定原因。",
+      "alt": "图书馆时间问题旁并排出现助手回答18:00和现行周日安排16:00。",
+      "purpose": "从具体疑问进入产品，让读者看见需要解释的差异。",
+      "visual": {
+        "src": "../assets/jianquan/01.svg",
+        "width": 1000,
+        "height": 630,
+        "name": "01.svg"
+      },
+      "action": {
+        "label": "从案例起点进入见全",
+        "href": "https://yydshly.github.io/20261104_codex_project/005-jianquan-cognition/#roam/ai-errors"
+      }
+    },
+    {
+      "id": "mechanism",
+      "title": "先看回答是怎样形成的。",
+      "narration": "在见全的大语言模型地图里，沿“逐步生成”查看机制。\n\n生成一句通顺的回答，并不等于刚刚核验了对应的馆方通知。仅凭答案，仍不能确定错误发生在哪一环。",
+      "dialogue": "",
+      "caption": "机制讲解帮助提出问题，不能代替对当前材料的核查。",
+      "alt": "问题、上下文、逐步生成、回答四步相连，旁边提示来源是否被核查仍需另看。",
+      "purpose": "解释产品如何带读者从表面回答进入机制。",
+      "visual": {
+        "src": "../assets/jianquan/02.svg",
+        "width": 1000,
+        "height": 630,
+        "name": "02.svg"
+      },
+      "action": {
+        "label": "查看逐步生成的机制",
+        "href": "https://yydshly.github.io/20261104_codex_project/005-jianquan-cognition/#map/llm?node=generation&depth=mechanism"
+      }
+    },
+    {
+      "id": "sources",
+      "title": "把版本和适用条件对上。",
+      "narration": "对照旧版完整通知、现行完整通知和转述摘录。\n\n现行通知的周一至周五是 18:00，周日是 16:00。日期、星期与适用范围，都要和问题对应。",
+      "dialogue": "有出处，还要看出处是否适用。",
+      "caption": "这个案例限定为现行通知生效后的普通周日，排除临时调整。",
+      "alt": "旧通知与现行通知并排，现行通知中普通周日16:00被标出。",
+      "purpose": "把产品里的资料对照能力变成一次具体查证。",
+      "visual": {
+        "src": "../assets/jianquan/03.svg",
+        "width": 1000,
+        "height": 630,
+        "name": "03.svg"
+      },
+      "action": {
+        "label": "进入资料对照站",
+        "href": "https://yydshly.github.io/20261104_codex_project/005-jianquan-cognition/#roam/ai-errors/sources?material=current"
+      }
+    },
+    {
+      "id": "judgment",
+      "title": "带着依据回答，再继续探索。",
+      "narration": "在本例既定条件下，可以采用现行通知支持的 16:00，并指出原回答与适用材料不符。\n\n这解释了本例该怎样判断，还没有证明实际模型为什么答错。条件变化时，需要重新核查材料。",
+      "dialogue": "观察、解释、判断，分别说清楚。",
+      "caption": "你可以回到案例，也可以沿资料来源与版本继续跨领域阅读。",
+      "alt": "观察、可能的解释、有条件的判断三张卡片，最后指向继续阅读。",
+      "purpose": "给出有边界的结果，并指向产品里的真实下一步。",
+      "visual": {
+        "src": "../assets/jianquan/04.svg",
+        "width": 1000,
+        "height": 630,
+        "name": "04.svg"
+      },
+      "action": {
+        "label": "在见全继续探索",
+        "href": "https://yydshly.github.io/20261104_codex_project/005-jianquan-cognition/#domain/information"
+      }
+    }
+  ]
+}
