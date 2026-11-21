@@ -1,0 +1,36 @@
+{
+  "result": "passed",
+  "checkedOn": "2026-11-22",
+  "assets": [
+    {
+      "file": "glasshouse/assets/rocket-guide/manifest.json",
+      "status": 200,
+      "cors": "*"
+    },
+    {
+      "file": "glasshouse/assets/rocket-guide/rocket-guide.glb",
+      "status": 200,
+      "cors": "*"
+    },
+    {
+      "file": "glasshouse/assets/guide/guide-hoodie.glb",
+      "status": 200,
+      "cors": "*"
+    },
+    {
+      "file": "glasshouse/assets/guide/guide-linen.glb",
+      "status": 200,
+      "cors": "*"
+    },
+    {
+      "file": "glasshouse/assets/guide/guide-knit.glb",
+      "status": 200,
+      "cors": "*"
+    },
+    {
+      "file": "glasshouse/assets/hero-candidates/male_adult_17.glb",
+      "status": 200,
+      "cors": "*"
+    }
+  ]
+}

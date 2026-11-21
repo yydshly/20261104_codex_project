@@ -1,0 +1,41 @@
+{
+  "mode": "online",
+  "base": "https://yydshly.github.io/20261104_codex_project/031-ocean-light-atlas/",
+  "errors": [],
+  "checks": [
+    "complete research direction, result, reuse and limits; unchanged original guide; 23 local links resolve",
+    "actual four portraits, outfit preview and enlarged image work; real historical sea recording plays",
+    "390px guide, research brief and reuse cards fit without horizontal overflow",
+    "all four published runtime links load their actual assets; legacy three outfit buttons work; frozen 0597 asset hash matches"
+  ],
+  "models": [
+    {
+      "id": "personal0597",
+      "outfit": "personal0597",
+      "asset": "personal-guide-hands43.glb",
+      "hash": "bee62731b932e907f66eca8e58dc42daf8565f2501f77ab9e71cd20c3a0336f1"
+    },
+    {
+      "id": "rocket10",
+      "outfit": "rocket10",
+      "asset": "rocket-guide.glb",
+      "hash": "03a215c373c12f4c9cc7e3e417cb2cc42cd3415b77b85588cdf13cc2a5d935e6"
+    },
+    {
+      "id": "legacy-outfits",
+      "outfit": "hoodie",
+      "asset": "undefined",
+      "hash": "undefined"
+    },
+    {
+      "id": "static-comparisons",
+      "static": "true",
+      "candidate": "rocket17"
+    }
+  ],
+  "result": "passed",
+  "checkedOn": "2026-11-22",
+  "verifiedAt": "2026-11-21T16:20:18.903888+00:00",
+  "deployedCommit": "e6c280f04c6cdc628997fb3be8e9d0e18dda18b0",
+  "pagesRun": "https://github.com/yydshly/20261104_codex_project/actions/runs/44923445501"
+}
