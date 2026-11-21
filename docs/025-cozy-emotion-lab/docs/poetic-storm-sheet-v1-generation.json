@@ -1,0 +1,29 @@
+{
+  "createdAt": "2026-11-12",
+  "title": "将离",
+  "status": "not_selected_by_user",
+  "userFeedback": "The sheet has tension but feels deliberate and staged. Next image should use an original subject with natural, striking relationships that do not depend on a written explanation.",
+  "tool": "image_gen.imagegen",
+  "model": "not exposed by tool",
+  "seed": "not exposed by tool",
+  "promptFile": "docs/poetic-storm-sheet-v1-prompt.txt",
+  "inputImages": [],
+  "referenceBoundary": "Independent subject, event and composition. Only photographic techniques and emotional intent were retained as textual principles; no source images were supplied.",
+  "responseToFeedback": "Replace the ordinary, small dandelion scene with an immediately readable event, stronger scale and tonal contrasts, and visible physical tension.",
+  "concept": "A wind-filled bedsheet is almost freed from a rooftop clothesline, with one corner still attached to a wooden peg.",
+  "artDirection": "The bright, weighty, wind-twisted textile fills the diagonal foreground against an immense dark storm. The vulnerable point of attachment and the hem touching wet masonry give the image its unresolved relationship.",
+  "visualReview": {
+    "observed": "Strong ivory-versus-charcoal tonal contrast, diagonal cloth tension converging at the peg, detailed cloth weave and seams, damp masonry and distant rain. No marine animal, celestial disc, enclosing arc or axial cupping composition.",
+    "limitations": "A generated artistic photograph rather than a documented real event. The exact moment of slipping cannot be established by one still image. The strength of the emotional response remains subject to user review.",
+    "independentReview": "The bright sail-like fabric, force-bearing folds and dark low clouds read with stronger scale and motion tension than the dandelion. Source subject and composition are distinct. The upper-left rope appears to end at the clothespin, leaving the rope-cloth connection less physically convincing; retain as a direction preview pending user feedback rather than claiming documentary fidelity."
+  },
+  "output": {
+    "path": "assets/generated/poetic-storm-sheet-v1.png",
+    "bytes": 2266222,
+    "sha256": "3b19df04ce7912ef4280c971cf1d182a453120820ec35d659aed416bc5a41299",
+    "size": [
+      1122,
+      1402
+    ]
+  }
+}

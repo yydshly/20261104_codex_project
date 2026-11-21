@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#34483e">
+  <meta name="description" content="湖边、窗边、一个没有被催促的午后。从情绪图像出发，在光影里停留一会儿。">
+  <title>效果工作台 · 早期交互实验</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="gallery.css">
+  <link rel="stylesheet" href="pinned-study.css">
+  <link rel="stylesheet" href="workbench.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+  <script src="gallery.js" defer></script>
+</head>
+<body class="workbench-page">
+  <a class="skip" href="#main">跳到正文</a>
+  <header class="site-header gallery-header" id="gallery-header">
+    <a href="index.html" class="gallery-brand" aria-label="返回项目总览">效果工作台<span>EARLY EXPERIMENTS</span></a>
+    <nav aria-label="主导航"><a href="index.html">项目总览</a><a href="collection.html">完整图集</a><button type="button" data-open-research>作品背后</button></nav>
+    <div class="gallery-header-tools"><button id="ambient-toggle" type="button" aria-pressed="false">声音关闭</button><button id="view-only" type="button" aria-pressed="false">只看画面</button></div>
+  </header>
+  <main id="main">
+    <aside class="workbench-notice"><b>早期交互实验</b><p>调色、天气、海报与镜头工具使用最初的三张示范图，未代表已获用户认可。<a href="index.html">查看最新研究总览与全部29幅图像</a>。</p></aside>
+    <section id="gallery" class="hero-gallery" data-scene="lake" aria-label="三个适合停留的片刻" tabindex="0">
+      <div class="gallery-images" id="gallery-images"><img id="gallery-image-a" class="gallery-image is-visible" src="assets/generated/willow-lake.png" alt="暮色里低垂的柳枝、安静的湖面和一只小小的白天鹅" fetchpriority="high"><img id="gallery-image-b" class="gallery-image" src="assets/generated/afternoon-window.png" alt="" aria-hidden="true"></div>
+      <div class="gallery-scrim" aria-hidden="true"></div>
+      <div class="gallery-copy" id="gallery-copy"><p class="gallery-overline" id="gallery-overline">01 / SOMEWHERE, BY THE WATER</p><h1 id="gallery-title">有些时刻，<br>适合什么都不做。</h1><p class="gallery-line" id="gallery-line">风经过柳树。你可以再坐一会儿。</p></div>
+      <div class="gallery-side-note" aria-hidden="true">A FEW MOMENTS, SLOWLY.</div>
+      <div class="gallery-bottom"><div class="gallery-scene-nav" role="group" aria-label="切换观看的片刻"><button type="button" data-gallery-scene="lake" class="is-current" aria-pressed="true"><span>01</span> 湖边</button><button type="button" data-gallery-scene="rain" aria-pressed="false"><span>02</span> 窗边</button><button type="button" data-gallery-scene="afternoon" aria-pressed="false"><span>03</span> 午后</button></div><a href="#moments" class="continue-walking">慢慢往下看<span class="scroll-thread" aria-hidden="true"></span></a><a id="take-art" class="take-art" href="assets/generated/willow-lake.png" download="quiet-place-lake.png">留住这一幅</a></div>
+      <p id="gallery-status" class="sr-only" aria-live="polite"></p>
+    </section>
+
+    <section id="pinned-study" class="pinned-study" aria-labelledby="pinned-title">
+      <div class="pinned-intro"><p>THE CORE REFERENCE / A UNIQUE SHOT</p><h2 id="pinned-title">海与天之间，一次相逢。</h2><span>你指出最有感觉的两张图，放在一起完整观看。</span></div>
+      <div class="pinned-pair">
+        <figure><img src="assets/references/pinned-dolphin-sun.webp" alt="置顶原帖第一张：跃起的海豚与橙色弯月状光弧互相呼应，水花与倒影连接海面" loading="lazy"><figcaption><span>01 / 海豚与光弧</span><span>曲线相扣，瞬间悬停</span></figcaption></figure>
+        <figure><img src="assets/references/pinned-whale-moon.webp" alt="置顶原帖第二张：满月悬在水平展开的鲸尾上方，金色水流垂落海面，月亮与尾鳍之间仍有空隙" loading="lazy"><figcaption><span>02 / 鲸尾与满月</span><span>上下承接，安静而庄重</span></figcaption></figure>
+      </div>
+      <p class="pinned-source">原帖图像研究引用 · rosa / @cozyycabin · <a href="https://x.com/cozyycabin/status/2084009202192949678" target="_blank" rel="noopener noreferrer">A Unique Shot · 查看原帖</a></p>
+      <p class="pinned-source"><a href="collection.html">打开本轮完整图集 · 原帖、参考与历次试作 →</a></p>
+      <div class="pinned-thesis"><span>我们这次重新确定的方向</span><p>让生命的姿态，与宏大的自然发生精确而含蓄的呼应。</p><small>惊叹里有安静，孤寂里有联系；情绪由这段关系产生。</small></div>
+      <div class="pinned-readings">
+        <details open><summary><span>01</span> 两张图分别怎样成立 <b>展开 / 收起</b></summary><div class="pinned-two-columns"><article><h3>海豚：把一瞬间，组织成一个圆。</h3><p>海豚弓起的身体与橙色光弧互相回应，右侧水花又把曲线接回海面。橙色倒影向下延伸，让天空中的亮点在水里留下对应。</p><p>姿态带着速度，画面却把它定住了。我读到的是轻盈、奔赴与短暂相遇：这个关系稍纵即逝，因此值得多看一眼。</p><small>可见依据：弧形身体、橙色光弧、水花和倒影。第一张的光体呈弯月状，不能据此确认是实际日食。</small></article><article><h3>鲸尾：让两者之间的空隙，产生联想。</h3><p>满月、尾鳍中央与尾柄基本落在同一中轴上。尾鳍向两侧展开，水流像帘幕一样垂下，金色亮边把上方的光与海面联系起来。</p><p>月亮没有接触尾鳍，观者却容易把这段上下关系读成承托、接住或回应。对称与下落的水流，让这张更沉静，也更有庄重感。</p><small>可见依据：中轴、展开的尾鳍、月尾间隙与金色落水。“托月”是艺术联想，并非画面中的实际接触。</small></article></div></details>
+        <details><summary><span>02</span> 并置之后，多了什么情绪 <b>展开 / 收起</b></summary><div class="pinned-two-columns"><article><h3>共享一个世界，出现两种节奏。</h3><p>两张都保留海面、深色的生命形体、暖色光体和被照亮的水。统一的元素建立系列气质；弧线与中轴、跃起与停驻，又给它们不同的节奏。</p><p>左图更像“发生的一瞬”，右图更像“可以凝视的形象”。不完整的光弧与完整圆月并置，也形成形状上的变化。</p></article><article><h3>观看，从发现巧合走向完成隐喻。</h3><p>第一眼会被亮点和动物姿态吸引；继续看，才发现光弧、身体、水和留白之间的安排。观者在脑中完成“相遇”与“承托”，因此有了第二层观看内容。</p><p>这里可以容纳惊叹、敬畏、孤寂与柔情。作品没有指定唯一解释，留下了自己代入的空间。</p></article></div></details>
+        <details><summary><span>03</span> 对我们的价值，怎样进入创作 <b>展开 / 收起</b></summary><div class="pinned-value-grid"><article><h3>审美锚点</h3><p>把研究方向明确为诗意、带奇观感的自然关系。后续选图时，观察主体有没有与环境建立一段值得凝视的联系。</p></article><article><h3>创作方法</h3><p>先写关系：两条曲线怎样相扣，一个形体如何回应另一个形体。再决定主体、机位、光色与水的细节。</p></article><article><h3>系列与产品</h3><p>可探索原创图像展、壁纸系列、诗意短片的关键画面。保留少量共同规则，每一幅重新设计姿态与空间关系。这些是我们的应用方向。</p></article><article><h3>复核标准</h3><p>隐藏文案后还能否读到关系？裁切是否破坏圆弧或中轴？增加的细节有没有遮住核心姿态？把检查落在可见的画面依据上。</p></article></div><div class="pinned-principle"><b>可以带走的一条创作规则</b><p>一个有表现力的生命姿态 ＋ 一个与它呼应的自然形状 ＋ 连接二者的光或材质 ＋ 足够的安静空间。</p><small>这是从两张图中提炼的创作假设，仍需用自己的新作品检验。</small></div></details>
+      </div>
+      <p class="pinned-limits">分析依据为帖内可公开查看的图片。情绪名称与象征关系是本项目的解读；作者意图、素材原创身份，以及实拍、合成或 AI 制作方式均未核实。</p>
+    </section>
+
+    <section id="moments" class="moments-section" aria-labelledby="moments-title">
+      <div class="moments-prologue"><span>THE ART OF LINGERING</span><h2 id="moments-title">先让目光停下来。</h2><p>一扇窗。一点光。<br>一个不必急着离开的地方。</p></div>
+      <div class="afternoon-composition"><figure class="afternoon-art"><img src="assets/generated/afternoon-window.png" alt="柔软的亚麻帘被风轻轻吹起，空椅留在午后光里，窗外是绿色花园" loading="lazy"><figcaption><span>03 / 午后</span><a href="assets/generated/afternoon-window.png" download="quiet-place-afternoon.png">把这束光带走</a></figcaption></figure><div class="afternoon-verse"><span>THE AFTERNOON STAYS</span><h3>风替你<br>把时间放慢。</h3><p>椅子还空着。<br>没有下一件必须做的事。</p><button type="button" data-revisit="afternoon">去窗边坐坐</button></div></div>
+    </section>
+
+    <section class="rain-passage" aria-labelledby="rain-title"><img src="assets/generated/comfort.png" alt="雨落在山间木屋的玻璃上，桌边的暖灯照着热饮与一本打开的手记" loading="lazy"><div class="rain-scrim" aria-hidden="true"></div><div class="rain-words"><span>02 / WHEN THE WORLD GETS QUIET</span><h2 id="rain-title">雨还没有停。<br>这里的灯，也还亮着。</h2><p>有时候，温柔只是给自己留一个位置。</p><button type="button" data-revisit="rain">再停留片刻</button></div></section>
+
+    <section class="afterword"><span>BEFORE WE TALK ABOUT IT</span><p>一张图，先让人有了感受。<br>然后，才值得问它为什么。</p><small>前台作品为本项目 AI 原创示范。研究起点：<a href="https://x.com/cozyycabin" target="_blank" rel="noopener noreferrer">@cozyycabin 的公开图像</a>。</small></section>
+
+    <details id="research" class="research-details">
+      <summary><span class="research-small">BEHIND THE MOMENTS</span><span class="research-title">作品背后，以及我们的创作。</span><span class="research-action">展开观察与创作工作台</span></summary>
+      <div class="research-content"><nav class="research-nav wrap" aria-label="研究与创作导航"><a href="#product">账号与产品</a><a href="#cases">情绪拆解</a><a href="#lab">交互实验</a><a href="#value">对我们的价值</a><a href="#create">创作与导出</a></nav>
+      <div class="curatorial-note wrap"><p class="eyebrow">本轮的两次原创尝试</p><h2>把观看本身，作为一次体验。</h2><div><p><b>湖边</b>垂柳围出一个安静的观看位置，大片水面给视线留出空间。小小的天鹅与远处的一点灯光，让自然里仍有生命与人的痕迹。</p><p><b>午后</b>帘子的柔软曲线与窗框的直线相遇，空椅留下可以代入的位置。旧木、透光的布料与轻微颗粒，让场景带一点时间感。</p></div><small>以上是本次艺术意图与画面依据。是否让人愿意停留，仍由实际观看来判断。</small></div>
+
+    <section id="product" class="section wrap">
+      <div class="section-top"><p class="eyebrow">01 / ACCOUNT & PRODUCT</p><span class="section-index">先认识它在提供什么</span></div>
+      <div class="section-heading"><h2>看见的是图片，<br>向往的是一种日常。</h2><p>把公开内容、我们的分析，以及可发展的产品方向分别说清楚。</p></div>
+      <div class="product-layout">
+        <aside class="profile-card"><img class="profile-banner" src="assets/references/banner.jpg" alt="账号原始封面：树林、池塘与天鹅" loading="lazy"><div class="profile-body"><img class="avatar" src="assets/references/avatar.jpg" alt="rosa 的公开头像" loading="lazy"><div><h3>rosa <span class="verified" title="主页显示认证标识">✓</span></h3><a href="https://x.com/cozyycabin" target="_blank" rel="noopener noreferrer">@cozyycabin ↗</a></div><p>where the forest feels like home 🌿</p><div class="profile-stats"><span><strong>约 1.3 万</strong>关注者</span><span><strong>图片 / 短视频</strong>可见内容形式</span></div><small>主页观察于 2026-11-12 · 数据随时间变化</small></div></aside>
+        <div class="product-analysis"><div class="segmented" role="group" aria-label="产品分析层次"><button class="active" data-product="0" aria-pressed="true">内容产品</button><button data-product="1" aria-pressed="false">情绪体验</button><button data-product="2" aria-pressed="false">延展方向</button></div><div id="product-content" class="product-content" aria-live="polite"></div></div>
+      </div>
+      <div class="distinction"><span class="check-dot">✓</span><p><b>已经看到：</b>公开内容及可见画面。<b>仍待核实：</b>素材原创身份、制作工具、付费产品与收入。后文的工作台与演示是我们自己做的。</p></div>
+    </section>
+
+    <section id="cases" class="section cases-section">
+      <div class="wrap"><div class="section-top"><p class="eyebrow">02 / THE EMOTIONAL GRAMMAR</p><span class="section-index">点击案例，展开画面里的关系</span></div><div class="section-heading"><h2>情绪，发生在关系里。</h2><p>三个公开样本，三种可迁移的表达。<br>以下情绪名称是我们的解读。</p></div>
+        <div id="case-grid" class="case-grid"></div>
+        <div id="case-detail" class="case-detail" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section id="lab" class="section wrap lab-section">
+      <div class="section-top"><p class="eyebrow">03 / FEEL IT YOURSELF</p><span class="section-index">实验一 · 调整与盲看</span></div><div class="section-heading"><h2>动一处，感受有什么变化？</h2><p>用我们的新图像做小样。调整画面线索，<br>再隐藏解释，记录自己的第一感受。</p></div>
+      <div class="lab-layout">
+        <div class="visual-column">
+          <div id="lab-stage" class="lab-stage" data-emotion="comfort">
+            <img id="lab-base" class="scene-image" src="assets/generated/comfort.png" alt="素材原图：雨夜书桌">
+            <div id="treatment" class="treatment"><img id="lab-image" class="scene-image treated-image" src="assets/generated/comfort.png" alt=""><div class="light-layer"></div><div class="shade-layer"></div><canvas id="weather" aria-hidden="true"></canvas></div>
+            <span class="stage-label original-label">素材原图</span><span class="stage-label treated-label">当前预演</span><div id="split-line" class="split-line"><span>↔</span></div>
+            <div id="hotspots" class="hotspots"></div>
+            <div class="scene-caption" id="scene-caption"><span class="tiny-label" id="scene-en">A PLACE TO PAUSE</span><p id="scene-title">外面下着雨，里面可以慢下来。</p></div>
+          </div>
+          <label class="comparison-control"><span>拖动比较</span><input id="compare" type="range" min="0" max="100" value="24" aria-label="前后对比位置"><span>原图 <b id="compare-value">24%</b> / 预演</span></label>
+          <p class="fine-print">素材为本项目 AI 生成。调色、裁切与雨幕为浏览器预演；参数表示视觉调整量。</p>
+        </div>
+        <aside class="lab-controls">
+          <div id="emotion-tabs" class="emotion-tabs" role="group" aria-label="选择演示情绪"></div>
+          <div id="control-list"></div>
+          <div class="lab-buttons"><button id="reset-controls" class="button subtle">恢复初始</button><button id="blind-toggle" class="button outline" aria-pressed="false">隐藏提示盲看 <span aria-hidden="true">◉</span></button></div>
+          <div class="perception"><p class="tiny-label">此刻，你读到了什么？</p><div class="feeling-options" role="group" aria-label="记录你的第一感受"><button data-feeling="安心" aria-pressed="false">安心</button><button data-feeling="希望" aria-pressed="false">希望</button><button data-feeling="童趣" aria-pressed="false">童趣</button><button data-feeling="其他" aria-pressed="false">其他</button></div><p id="perception-status" aria-live="polite">先感受，再选择。这里记录你的观察。</p></div>
+        </aside>
+      </div>
+      <div class="lab-insight"><span class="small-star" aria-hidden="true">✳</span><p id="lab-insight">暖光、热饮和空椅共同支持“可以停下来”。调整颜色后，也要检查这个关系是否仍然清楚。</p></div>
+    </section>
+
+    <section id="value" class="section value-section"><div class="wrap"><div class="section-top"><p class="eyebrow">04 / WHAT WE TAKE WITH US</p><span class="section-index">对我们的具体价值</span></div><div class="section-heading"><h2>让参考，真正进入工作。</h2><p>从审美共识到可交付的作品，<br>每一种价值都对应一个可以检验的产物。</p></div><div id="value-list" class="value-list"></div></div></section>
+
+    <section id="create" class="section wrap create-section">
+      <div class="section-top"><p class="eyebrow">05 / MAKE IT OURS</p><span class="section-index">实验二 · 作品预览　实验三 · 创作简报</span></div><div class="section-heading"><h2>下一张，开始有自己的表达。</h2><p>原帖给我们关系，本项目做了三张新图。<br>试着把它们变成海报、短片计划与可带走的简报。</p></div>
+      <div class="creation-layout">
+        <div class="output-preview"><div class="preview-toolbar"><span><i class="live-dot"></i> OUR ORIGINAL STUDY</span><span id="preview-format">16:9</span></div><div class="poster-space"><div id="poster" class="poster" data-ratio="wide"><img id="poster-image" src="assets/generated/comfort.png" alt="我们自己的情绪海报预览"><div class="poster-shade"></div><span class="poster-kicker">SMALL MOMENTS / 001</span><p id="poster-caption">把世界留在窗外一会儿。</p><span class="poster-footer">COZY EMOTION LAB · ORIGINAL AI STUDY</span></div></div><div id="motion-player" class="motion-player" hidden><div><button id="play-motion" class="button small">播放预演 ▷</button><span id="motion-time">0.0 / 8.0 秒</span></div><label><span class="sr-only">八秒镜头预演进度</span><input id="timeline" type="range" min="0" max="8" step="0.1" value="0"></label><p id="shot-now">0–2 秒 · 看见外面的雨</p><small>浏览器对静态图做镜头移动，尚未生成 AI 视频，也未制作音轨。</small></div></div>
+        <div class="creation-controls"><div class="segmented output-tabs" role="group" aria-label="选择产出类型"><button class="active" data-output="poster" aria-pressed="true">静态海报</button><button data-output="motion" aria-pressed="false">8 秒镜头</button><button data-output="brief" aria-pressed="false">创作简报</button></div>
+          <label class="field">选择我们的新题材<select id="create-scene"><option value="comfort">01 / 雨夜书桌 · 安心</option><option value="hope">02 / 旧阶新芽 · 希望</option><option value="delight">03 / 用心早餐 · 童趣</option></select></label>
+          <div id="poster-options"><label class="field">这一张想说的话<input id="caption-input" type="text" maxlength="64" value="把世界留在窗外一会儿。"></label><div class="field"><span>尝试不同画幅</span><div class="ratio-buttons" role="group" aria-label="海报画幅"><button data-ratio="wide" class="active" aria-pressed="true">16:9 横版</button><button data-ratio="portrait" aria-pressed="false">9:16 竖版</button><button data-ratio="square" aria-pressed="false">1:1 方形</button></div></div><button id="download-poster" class="button primary full">下载当前海报 PNG <span aria-hidden="true">↓</span></button></div>
+          <div id="storyboard" class="storyboard" hidden></div>
+          <div id="brief-options" hidden><label class="field">我们希望观众感受到什么？<textarea id="brief-target" rows="3" maxlength="240">让忙碌了一天的人，感到此刻可以放心停下来。</textarea></label><label class="field">你看到的依据 / 下轮想改的地方<textarea id="observation" rows="3" maxlength="600" placeholder="例如：热饮的温度读到了，但窗外环境被裁切得太多。"></textarea></label></div>
+          <div class="export-actions"><button id="download-brief" class="button outline full">导出当前创作简报 .md <span aria-hidden="true">↓</span></button><button id="copy-prompt" class="text-link">复制图片提示词 ↗</button></div>
+          <p id="creation-note" class="fine-print">三张示范图由本项目通过内置 Image Gen 生成，生成记录随项目保留。</p>
+        </div>
+      </div>
+      <details class="prompt-details"><summary>展开当前完整提示词与复核清单 <span aria-hidden="true">＋</span></summary><div id="prompt-content"></div></details>
+    </section>
+
+    <section id="library" class="library-section"><div class="wrap library-inner"><div><p class="eyebrow">A SMALL, USEFUL LIBRARY</p><h2>把打动你的，留下依据。</h2><p>在案例卡上点“收藏参考”，连同你的主观感受和当前方案一起带走。</p></div><div class="library-actions"><p><b id="saved-count">0</b> / 3 条已收藏</p><div id="saved-items" class="saved-items">还没有收藏，回到案例区挑选一条。</div><button id="download-library" class="button primary">导出研究记录 JSON <span aria-hidden="true">↓</span></button><button id="reset-session" class="text-link reset-session">重新开始体验</button></div></div></section>
+
+    <section id="sources" class="section wrap sources-section"><div class="section-top"><p class="eyebrow">SOURCES & SCOPE</p><span class="section-index">资料与适用边界</span></div><div class="sources-grid"><div><h3>每个判断，都能找到出处。</h3><p>研究基于内置浏览器实际查看的公开主页与少量帖子。缩略图仅作为本地研究引用，保留原帖链接；原作权利属于各自权利人。未验证每条素材的原创身份。</p><p>互动预演帮助我们讨论表达选择；盲看记录是个人观察，不能据此推出受众心理效果、稳定传播表现或商业收益。</p></div><ol id="sources-list"></ol></div></section>
+      <div class="gallery-colophon wrap"><p>展览新增两张图像使用内置 Image Gen 生成；原始指令与原件随项目保留。轻微移视由浏览器实现，声音为用户点击后播放的合成风声或雨声。</p><a href="docs/atmosphere-generation-prompts.json">查看本轮实际生成指令</a></div>
+      </div>
+    </details>
+  </main>
+  <footer class="gallery-footer wrap"><a href="#main">留一会儿</a><p>A QUIET PLACE / AN INDEPENDENT CREATIVE STUDY</p><button type="button" data-open-research>读作品背后的故事</button></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

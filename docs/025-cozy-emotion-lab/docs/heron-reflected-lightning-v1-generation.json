@@ -1,0 +1,38 @@
+{
+  "createdAt": "2026-11-12",
+  "status": "recalibrated_original_concept_pending_user_review",
+  "tool": "image_gen.imagegen",
+  "mode": "new subject and composition generated with style-only image references",
+  "taxonomy": "photorealistic-natural",
+  "model": "not exposed by tool",
+  "seed": "not exposed by tool",
+  "actualPromptFile": "docs/heron-reflected-lightning-v1-prompt.txt",
+  "inputImages": [
+    {
+      "path": "assets/references/pinned-dolphin-sun.webp",
+      "role": "style and technique only: concentrated luminosity, silhouette, wet detail; no subject or composition reuse"
+    },
+    {
+      "path": "assets/references/pinned-whale-moon.webp",
+      "role": "style and technique only: light hierarchy, restrained background, fine wet materials; no moon, whale, cupping layout or falling-water curtain"
+    }
+  ],
+  "latestCalibration": "User explicitly said none of the five researched photographs evokes the desired response; only the original two pinned images do.",
+  "workingHypothesis": "A concentrated luminous shape tightly related to a dark living gesture may matter more than general scenic beauty. This is an assistant hypothesis, not an independently confirmed user preference.",
+  "newScene": "A heron flies laterally above dark water, its downward wingtip touching the surface where an angular silver reflected flash is interrupted.",
+  "originalityBoundary": "New bird subject, downward lateral action, angular water-light shape and horizontal asymmetric frame. No marine mammal, celestial disc, embracing arc, supported moon, axial layout or gold dripping curtain.",
+  "visualReview": {
+    "observed": "A dark long-necked bird spans the left half. One near wing sweeps down to a small splash at the lake surface; a silver zigzag reflection crosses the right and foreground. Negative space and dark water surround the interaction.",
+    "limitations": "The reflected flash can be read as an unusually continuous luminous trace. This is a generated poetic photographic artwork, not a claimed documentary lightning capture. Emotional impact is pending user response."
+  },
+  "output": {
+    "path": "assets/generated/heron-reflected-lightning-v1.png",
+    "bytes": 1817392,
+    "sha256": "5f9e0ba39d1632e33fd03e043a958d2657e0b19e8e55fa01680351df1724647e",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB"
+  }
+}

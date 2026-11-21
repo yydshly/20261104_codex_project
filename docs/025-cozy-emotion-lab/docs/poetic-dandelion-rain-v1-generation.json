@@ -1,0 +1,30 @@
+{
+  "createdAt": "2026-11-12",
+  "title": "借光",
+  "status": "not_selected_by_user",
+  "userFeedback": "The dandelion feels ordinary and does not create the desire to linger. Next image should have stronger poetic relation and visual tension while retaining independent subjects and composition.",
+  "tool": "image_gen.imagegen",
+  "model": "not exposed by tool",
+  "seed": "not exposed by tool",
+  "promptFile": "docs/poetic-dandelion-rain-v1-prompt.txt",
+  "inputImages": [],
+  "referenceBoundary": "Use style and technique only. No reference image was supplied to this generation call.",
+  "borrowedTechniques": [
+    "controlled warm and cool lighting",
+    "photographic material rendering",
+    "a suspended fleeting moment",
+    "negative space"
+  ],
+  "newConcept": "A departing dandelion seed briefly enters an oblique patch of streetlamp light after rain.",
+  "newComposition": "Asymmetric close-focus scene: plant at lower left, a sparse airborne seed at right, dark stone and blue-gray negative space.",
+  "visualReview": "No marine animal, celestial disc, cupping composition or enclosing light arc. Damp stone and fine seed fibers have photographic texture. The poetic relation is small and restrained; emotional impact remains subject to user review.",
+  "output": {
+    "path": "assets/generated/poetic-dandelion-rain-v1.png",
+    "bytes": 1908293,
+    "sha256": "69354fb8318a2f7b6ca566b399e15fc5a805aef5620441eb7c60f86956fcec97",
+    "size": [
+      1122,
+      1402
+    ]
+  }
+}

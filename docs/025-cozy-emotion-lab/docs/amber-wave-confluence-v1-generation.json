@@ -1,0 +1,35 @@
+{
+  "createdAt": "2026-11-12",
+  "status": "original_wave_variation_pending_user_review",
+  "tool": "image_gen.imagegen",
+  "mode": "new generation",
+  "taxonomy": "photorealistic-natural",
+  "model": "not exposed by tool",
+  "seed": "not exposed by tool",
+  "actualPromptFile": "docs/amber-wave-confluence-v1-prompt.txt",
+  "inputImages": [],
+  "userAuthorization": "Continue after the prior warm-wave image. Continuation is not recorded as explicit approval of the earlier image.",
+  "userPrioritiesInOrder": [
+    "Warm palette",
+    "Rich detail and HDR-like tonal treatment",
+    "Emotion visible in the image"
+  ],
+  "referenceResearchFile": "docs/photography-reference-selection-20261112.json",
+  "independentVariation": "Landscape composition with unequal crossing swells and an off-center brief fan of lifted water, rather than the prior square diagonal wave blade or a source photograph's circular barrel.",
+  "referenceBoundary": "Only text-level principles of water-level viewpoint, transmitted warm light, tonal hierarchy and fluid detail. No photographer images or prior generated images supplied.",
+  "visualReview": {
+    "observed": "A larger dark swell enters from the right, with an amber-lit short folding sheet at left-center and a lower incoming ridge at left. Fine irregular openings, droplets and foam beads surround the contact fold. Broad near and far water falls softly out of focus.",
+    "limitations": "The translucent thin sheet retains a slightly glass-like visual quality. This is a generated photographic artwork; emotional success is pending user feedback.",
+    "technicalScope": "HDR-like tonal depth is a visual target; the saved RGB PNG is not claimed to be a calibrated HDR format or exposure-bracket merge."
+  },
+  "output": {
+    "path": "assets/generated/amber-wave-confluence-v1.png",
+    "bytes": 2137245,
+    "sha256": "851d8dffd08edea1e0def8f3829bb91d3506778841fe6c07b8edb975a047c69a",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB"
+  }
+}

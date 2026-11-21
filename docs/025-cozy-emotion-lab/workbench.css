@@ -1,0 +1,6 @@
+.workbench-page .site-header.gallery-header{background:#17241f;color:#f1efe8}
+.workbench-page.viewing-only .site-header.gallery-header{background:transparent}
+.workbench-notice{padding:108px 6vw 24px;background:#e7e9e1;color:#314238;font-size:14px;line-height:1.8}
+.workbench-notice b{font-size:16px;font-weight:600}
+.workbench-notice p{margin:8px 0 0;max-width:850px}
+.workbench-notice a{text-decoration:underline;text-underline-offset:3px}

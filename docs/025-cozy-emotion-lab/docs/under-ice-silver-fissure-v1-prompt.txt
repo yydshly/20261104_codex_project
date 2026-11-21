@@ -1,0 +1,18 @@
+Use case: photorealistic-natural.
+Create ONE original fine-art underwater waterscape photograph, landscape 3:2, no lettering or border. No input images.
+
+The viewpoint is beneath a frozen freshwater lake, looking obliquely upward through clear deep blue water at a low, heavy ceiling of ice. A narrow irregular fracture in the ice lets silver-white daylight enter. The image should make the overhead weight and the small luminous opening physically palpable, without a person, prop or explanatory story.
+
+Composition:
+The near underside of the ice hangs large across the upper-left and upper portion, with its real thickness exposed at the fracture. The fracture runs obliquely away toward the upper-right, uneven in width and branching briefly in two places; one end passes outside the frame. It is not a complete circular hole, architectural doorway, perfect lightning bolt or symmetrical portal. The ice on either side is the same continuous frozen lake, with a natural opening rather than a sculpted tunnel. Below it, generous deep navy water opens into darkness, occupying roughly the lower third and parts of the right. Give the near ice thickness and the far receding crack distinct scales so the space feels tangible rather than flat abstract texture.
+
+Material detail:
+Snow above the thicker ice makes it chalky and opaque. Near the fractured edge, the ice becomes translucent cold blue, with believable layered density, feathered ice crystals, small uneven fractures, sealed bubble trails and a few flattened silver air pockets on the underside. The exposed edge has irregular softened chips and dark wet areas, never polished glass bevels. Some texture close to the lens is crisp and tactile; texture farther away gradually softens. Preserve large quiet surfaces between the small details. The water column is very clear, with only a few faint suspended specks, not a decorative particle field.
+
+Light and atmosphere:
+Silver daylight comes through the fracture and gently scatters into the near blue ice and water. A little reflected light reveals the nearby frozen edge, while the thicker ceiling and deeper water retain open, dark blue-gray shadows. The palette is unrestricted by warmth: use deep navy, natural glacial blue, slate and pearl-white, with restrained saturation. Light should be locally bright and optically soft, not neon cyan, a glowing outline or theatrical god rays. No visible sun disc, no bright sky panorama. The sense is of a vast still water body beneath something dense and close, with one delicate breach of daylight.
+
+Photography:
+A credible wide-angle underwater fine-art photograph with natural perspective, refractive depth and slight peripheral optical softness. Render genuine layered ice, liquid water and trapped air as different materials. Restrained tonal control preserves the brightest ice structure and dark water gradients. Fine photographic grain, subtle backscatter only where actual light catches it. No aggressive HDR, crunchy sharpening, CGI cavern, painted fog or fantasy bloom. Let the strongest contrast and fine detail gather near one part of the fractured edge, while darkness and stillness remain spacious.
+
+The image itself should feel hushed, enclosing and quietly arresting. No symbols or staged narrative. No diver, hands, animal, fish, boat, wooden walkway, steps, building, window, storm-water crown, golden wave, celestial object, artificial lights, magic particles, text, logos, watermarks or montage. One finished photograph.

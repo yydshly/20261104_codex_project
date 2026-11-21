@@ -1,0 +1,35 @@
+{
+  "createdAt": "2026-11-12",
+  "status": "not_selected_by_user",
+  "userFeedback": "The subject itself evokes no feeling; warm color and detail cannot rescue it.",
+  "nextStep": "Clarify whether the main issue is product-ad composition, unconvincing texture, or the subject itself before generating again. Do not infer a detailed user preference from this short rejection.",
+  "tool": "image_gen.imagegen",
+  "mode": "new generation",
+  "taxonomy": "photorealistic-natural",
+  "model": "not exposed by tool",
+  "seed": "not exposed by tool",
+  "actualPromptFile": "docs/rain-boot-broken-gold-v1-prompt.txt",
+  "inputImages": [],
+  "userAuthorization": "User confirmed the recommended rain-boot and broken-gold window reflection direction and requested continuation.",
+  "userPrioritiesInOrder": [
+    "Warm palette",
+    "Rich detail and HDR-like tonal treatment",
+    "Visible emotion"
+  ],
+  "referenceBoundary": "Entirely new boot, puddle, window-reflection subject and composition. No account images or prior generated images supplied.",
+  "visualReview": {
+    "observed": "Deep red rain boot presses its forefoot into shallow water with heel lifted; a modest forward-directed transparent splash and suspended droplets interrupt a bright amber window reflection. The calm far window image remains readable, with rippled mullions in the foreground. Rubber texture, wet brick and water detail are visible.",
+    "technicalScope": "HDR-like appearance refers to artistic tonal control. This PNG is not claimed to be a calibrated HDR format or bracketed photographic capture.",
+    "limitations": "AI-generated photographic artwork. Emotional impact and the desire to linger remain subject to user feedback."
+  },
+  "output": {
+    "path": "assets/generated/rain-boot-broken-gold-v1.png",
+    "bytes": 2250452,
+    "sha256": "2f01c0592a9bb8626a55e41a58c941b801ee760d8cf12a6996bc1830544aec2e",
+    "size": [
+      1122,
+      1402
+    ],
+    "mode": "RGB"
+  }
+}

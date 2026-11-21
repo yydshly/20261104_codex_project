@@ -1,0 +1,10 @@
+{
+  "name": "cozy-emotion-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A local interactive study of emotional imagery, grounded in public cozyycabin posts.",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check app.js && node --check data.js && node --check gallery.js && node --check collection.js && node --check overview.js && node --check art-direction-map.js && node --check scripts/build-art-emotion-map.mjs && node --check server.mjs"
+  }
+}

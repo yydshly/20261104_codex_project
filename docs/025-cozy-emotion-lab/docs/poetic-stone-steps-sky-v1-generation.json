@@ -1,0 +1,29 @@
+{
+  "createdAt": "2026-11-12",
+  "status": "direction_trial_revised_for_early_water_legibility",
+  "tool": "image_gen.imagegen",
+  "model": "not exposed by tool",
+  "seed": "not exposed by tool",
+  "promptFile": "docs/poetic-stone-steps-sky-v1-prompt.txt",
+  "inputImages": [],
+  "referenceBoundary": "Independent masonry, inland-water and reflected-cloud subject with a diagonal spatial inversion; no marine mammals, celestial discs, enclosing arcs or cupping relation. No reference image supplied.",
+  "userConstraint": "Analyze why earlier images lack the reference pair's art and emotion, then change the relational visual grammar rather than merely substitute a subject.",
+  "diagnosisFile": "docs/poetic-direction-diagnosis-20261112.md",
+  "concept": "Heavy worn steps descend into still water reflecting luminous clouds, inviting a brief competing reading of steps into sky.",
+  "visualReview": {
+    "observed": "Realistically wet granite occupies the lower left. Progressively submerged treads meet a fine ripple. Reflected trees along the upper-left edge and luminous clouds fill the horizontal water plane. No person, symbolic props or writing.",
+    "remainingGap": "The cloud pattern is diffuse and the water is readily identified. The intended spatial double-reading is restrained, with weaker graphic concentration than the pinned references. This is a direction trial, not a claimed emotional match.",
+    "independentReview": "Clearly visible underwater treads resolve the image as pond-side steps before the intended spatial ambiguity has time to arise.",
+    "targetedRevision": "Retain the staircase and photographic materials; make the water surface more specular, conceal most submerged tread detail, and simplify reflected sky while preserving subtle waterline evidence.",
+    "provenance": "Generated fine-art photographic image, not a record of a real photographed location."
+  },
+  "output": {
+    "path": "assets/generated/poetic-stone-steps-sky-v1.png",
+    "bytes": 2275108,
+    "sha256": "005e0c41beb23d2a47ad5136a090040b10ba4ef6053c71238de02265f261dd7b",
+    "size": [
+      1122,
+      1402
+    ]
+  }
+}

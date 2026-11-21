@@ -1,0 +1,42 @@
+{
+  "createdAt": "2026-11-12",
+  "status": "original_variation_pending_user_review",
+  "tool": "image_gen.imagegen",
+  "mode": "new subject and composition with style-only references",
+  "taxonomy": "photorealistic-natural",
+  "model": "not exposed by tool",
+  "seed": "not exposed by tool",
+  "actualPromptFile": "docs/egret-departing-reflection-v1-prompt.txt",
+  "inputImages": [
+    {
+      "path": "assets/references/pinned-dolphin-sun.webp",
+      "role": "light and wet-material reference only; no subject, shape arrangement or narrative reuse"
+    },
+    {
+      "path": "assets/references/pinned-whale-moon.webp",
+      "role": "light hierarchy and fine material reference only; no celestial disc, central support layout or falling-water curtain"
+    }
+  ],
+  "userAuthorization": "Continue generating; not treated as explicit approval of the previous sample.",
+  "currentPriorities": [
+    "Photographic texture",
+    "Emotion carried by a readable visual relationship",
+    "Independent subject and composition; color temperature unrestricted"
+  ],
+  "newScene": "An off-center white egret lifts from still dark water; its last toe drops and expanding disturbance leave a softer, fragmented reflection below.",
+  "originalityBoundary": "No whale, dolphin, moon, orange arc, supported light source, symmetric tail pose or golden water curtain. New asymmetric portrait frame and rising bright bird versus disrupted water-image.",
+  "visualReview": {
+    "observed": "White egret occupies the left and upper portion with a high near wing and lower receding wing. Droplets fall from the feet toward a disturbance extending right. A softer, incomplete bird reflection fills part of the lower frame, surrounded by dark blue water.",
+    "limitations": "The scene retains a wildlife-photography reading. AI-generated photographic artwork, not documentary capture; emotional success remains subject to user feedback."
+  },
+  "output": {
+    "path": "assets/generated/egret-departing-reflection-v1.png",
+    "bytes": 1813015,
+    "sha256": "d13f06347a54ae4c63ead1f70b61d73ffd4d59ce25088462c4639c2d406d8014",
+    "size": [
+      1122,
+      1402
+    ],
+    "mode": "RGB"
+  }
+}

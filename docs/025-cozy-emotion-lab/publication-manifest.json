@@ -1,0 +1,664 @@
+{
+  "published": "2026-11-21",
+  "slug": "025-cozy-emotion-lab",
+  "site": "https://yydshly.github.io/20261104_codex_project/025-cozy-emotion-lab/",
+  "summary": "研究以艺术与情绪进入图像，从形体呼应、瞬间与留白提炼观看关系。29幅图、三图对照、实时调色、八秒静态镜头与导出，积累审美判断、原创简报和系列表达方法；原创迁移与体验产品价值继续验证。",
+  "guide": {
+    "path": "assets/diagrams/art-emotion-value-map.png",
+    "width": 2400,
+    "height": 1700,
+    "sourceSha256": "2898d178d7680d7d9b20a916eee6b05ae101465a31be0f423a558ec0e8453627",
+    "publishedSha256": "2898d178d7680d7d9b20a916eee6b05ae101465a31be0f423a558ec0e8453627",
+    "unchanged": true
+  },
+  "imageStatus": {
+    "pinned": 2,
+    "generated": 22,
+    "external": 5,
+    "pendingGenerated": 10,
+    "notSelectedGenerated": 11,
+    "withdrawnGenerated": 1,
+    "selectedGenerated": 0
+  },
+  "scope": "Art and emotion entry, representative guide, full image archive, feedback, browser effects, export tools, source and generation records.",
+  "publicCopyChanges": [
+    "Added concise research, effects, value and current result summary.",
+    "Added canonical and social metadata using the existing guide.",
+    "Replaced public README with the research summary.",
+    "Omitted machine absolute paths inside JSON records; original images and prompts retained."
+  ],
+  "limits": [
+    "Egret remains pending; no generated work is marked selected.",
+    "Static camera motion is not AI video.",
+    "External photographs depend on original remote image URLs.",
+    "Product use and commercial outcomes are unvalidated.",
+    "Local browser notes do not automatically sync to the public origin."
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 82,
+      "sha256": "21f79f939faa7a7a9d376ad8340446ab2324d38f594f68f7eb924e3222ba22c7"
+    },
+    {
+      "path": "app.js",
+      "bytes": 28454,
+      "sha256": "90a49111b3d9f71cc3bba8e2dd57ea51cf9e4cad338d325c28c8f9a384291d96"
+    },
+    {
+      "path": "art-direction-map.css",
+      "bytes": 1043,
+      "sha256": "36efaf1bac369c5d563d8ee9587efe620b27db3dc0ea9a6611c7e270f7241eb5"
+    },
+    {
+      "path": "art-direction-map.html",
+      "bytes": 1067,
+      "sha256": "930d8558eaf0d0a15d87f696aae401947e89eec289d2d70505e2ca4107ff9911"
+    },
+    {
+      "path": "art-direction-map.js",
+      "bytes": 1367,
+      "sha256": "4f76680105f6610454b4f7779ee9428e77448fc46425b75218680107c9c17b78"
+    },
+    {
+      "path": "assets/diagrams/art-emotion-value-map.png",
+      "bytes": 1358472,
+      "sha256": "2898d178d7680d7d9b20a916eee6b05ae101465a31be0f423a558ec0e8453627"
+    },
+    {
+      "path": "assets/diagrams/art-emotion-value-map.svg",
+      "bytes": 2515757,
+      "sha256": "4123c6abcad38d9309b6239b15647ffd0b4982bdaa7107d38e4f79825c1b54ef"
+    },
+    {
+      "path": "assets/generated/afternoon-window.png",
+      "bytes": 2424950,
+      "sha256": "ee6f6ee8275242fa292499cf01e8b9224b58365d1ec069def29e122efb84729e"
+    },
+    {
+      "path": "assets/generated/amber-wave-blade-v1.png",
+      "bytes": 2259820,
+      "sha256": "3f8c481f4144652e4edf1675b79802fb07e737dc144b44b04daa129a46d06dc4"
+    },
+    {
+      "path": "assets/generated/amber-wave-confluence-v1.png",
+      "bytes": 2137245,
+      "sha256": "851d8dffd08edea1e0def8f3829bb91d3506778841fe6c07b8edb975a047c69a"
+    },
+    {
+      "path": "assets/generated/comfort.png",
+      "bytes": 3003986,
+      "sha256": "53a686a297fe08479ef7b6d5bf013124e7c6180cb7d73e4d4adb2e4e36e79823"
+    },
+    {
+      "path": "assets/generated/delight.png",
+      "bytes": 2500081,
+      "sha256": "5ca8ad8a645ae435cea2f270a325f3569eb49015f7e1bfe94c692d8041be45d9"
+    },
+    {
+      "path": "assets/generated/egret-departing-reflection-v1.png",
+      "bytes": 1813015,
+      "sha256": "d13f06347a54ae4c63ead1f70b61d73ffd4d59ce25088462c4639c2d406d8014"
+    },
+    {
+      "path": "assets/generated/heron-reflected-lightning-v1.png",
+      "bytes": 1817392,
+      "sha256": "5f9e0ba39d1632e33fd03e043a958d2657e0b19e8e55fa01680351df1724647e"
+    },
+    {
+      "path": "assets/generated/hope.png",
+      "bytes": 2092772,
+      "sha256": "a59255d206863bf3fb71c0b14b46ff44e8cf0a5fff6559d655b0979665818def"
+    },
+    {
+      "path": "assets/generated/night-boat-window-light-v1.png",
+      "bytes": 1982671,
+      "sha256": "8344febe603b2026182808a6a3ba56b92a7e8411fd1d74294fc19b845cb257cd"
+    },
+    {
+      "path": "assets/generated/poetic-autumn-gust-v1.png",
+      "bytes": 2659676,
+      "sha256": "f41eda6ad0fdaea00c44739c016cb963f45326f756b351b622d6f3fe84191bb0"
+    },
+    {
+      "path": "assets/generated/poetic-dandelion-rain-v1.png",
+      "bytes": 1908293,
+      "sha256": "69354fb8318a2f7b6ca566b399e15fc5a805aef5620441eb7c60f86956fcec97"
+    },
+    {
+      "path": "assets/generated/poetic-kingfisher-reflection-v1.png",
+      "bytes": 1757381,
+      "sha256": "7154befeed9d7e0090cf584c92f99497e310dc1bfd4f0edb499f43a80e160986"
+    },
+    {
+      "path": "assets/generated/poetic-stone-steps-sky-v1.png",
+      "bytes": 2275108,
+      "sha256": "005e0c41beb23d2a47ad5136a090040b10ba4ef6053c71238de02265f261dd7b"
+    },
+    {
+      "path": "assets/generated/poetic-stone-steps-sky-v2.png",
+      "bytes": 2130662,
+      "sha256": "052995a41eeb17377b9ec8dee33e323f54fe2f30eb71cacb3c42939ffd298e9a"
+    },
+    {
+      "path": "assets/generated/poetic-stone-steps-sky-v3.png",
+      "bytes": 2047339,
+      "sha256": "172ca0e38f1f671745569e439c2f9e6ced2a201050553ecee6b41e0a4851875a"
+    },
+    {
+      "path": "assets/generated/poetic-storm-sheet-v1.png",
+      "bytes": 2266222,
+      "sha256": "3b19df04ce7912ef4280c971cf1d182a453120820ec35d659aed416bc5a41299"
+    },
+    {
+      "path": "assets/generated/poetic-whale-moon-v1.png",
+      "bytes": 1993287,
+      "sha256": "a682fb91f850240555860a3a58be65a7831a3859cf02fa65475be271fe15f6e1"
+    },
+    {
+      "path": "assets/generated/rain-boot-broken-gold-v1.png",
+      "bytes": 2250452,
+      "sha256": "2f01c0592a9bb8626a55e41a58c941b801ee760d8cf12a6996bc1830544aec2e"
+    },
+    {
+      "path": "assets/generated/rain-front-silver-lake-v1.png",
+      "bytes": 2066717,
+      "sha256": "ce1591ad943933ef24e5e41d7ae1dd102a7216a7880e806f0bb678a51aae9794"
+    },
+    {
+      "path": "assets/generated/under-ice-silver-fissure-v1.png",
+      "bytes": 2172308,
+      "sha256": "8dc857b9a0f5928fcf0efe8b4fc8df27f89a78e2b430a906cfd0d18c51d93f84"
+    },
+    {
+      "path": "assets/generated/warm-cat-tonal-detail-v1.png",
+      "bytes": 2912847,
+      "sha256": "48d63f9a24492735ad5e1d2f22fb188b1d05567710d5db475521d43f46ea2a5b"
+    },
+    {
+      "path": "assets/generated/willow-lake.png",
+      "bytes": 2527298,
+      "sha256": "39e0fb822f75570fb54cc9ec96eee6677df7d2808d9af243995ddac3d4f5b753"
+    },
+    {
+      "path": "assets/mark.svg",
+      "bytes": 324,
+      "sha256": "f100149228b3fda7d8bb672f6086ebac84f2409b875d26f881bd451a75121446"
+    },
+    {
+      "path": "assets/references/avatar.jpg",
+      "bytes": 15018,
+      "sha256": "3e1aaa1785ce5c7ce78b73ce041303c00ff032868e6e8b1c7debc78b0dd731cd"
+    },
+    {
+      "path": "assets/references/baking.webp",
+      "bytes": 87340,
+      "sha256": "d069b5dc11799efc10d75b64a391ff7a680a086bb25eb415ec84a046d1bb339d"
+    },
+    {
+      "path": "assets/references/banner.jpg",
+      "bytes": 42259,
+      "sha256": "b55744ec3e1e5fa21257e8340a1d4cfa54953e9a747137b6a0c9374e9607813e"
+    },
+    {
+      "path": "assets/references/flowers.webp",
+      "bytes": 54214,
+      "sha256": "34ce7648656210bba03d3bdbb47f9c16f1429c9cc307366c1b22923b34bd0257"
+    },
+    {
+      "path": "assets/references/pinned-dolphin-sun.webp",
+      "bytes": 20828,
+      "sha256": "f91f8006385ed76263951d8844e0d3b373ad2f7f1a28c5b869f6364a90d5af18"
+    },
+    {
+      "path": "assets/references/pinned-whale-moon.webp",
+      "bytes": 46324,
+      "sha256": "e24d101c04f2e5a6c142414ff840f0ddd3910330a581ab1408565205fe1e15c5"
+    },
+    {
+      "path": "assets/references/rain-cat.webp",
+      "bytes": 115450,
+      "sha256": "b4bb6dc534285d3169677ad569d622e2a698f63e0c7fdd7cbdad1b326301a0a4"
+    },
+    {
+      "path": "collection-data.json",
+      "bytes": 24614,
+      "sha256": "fc51b1d08bd603e09bcb6bf577ea06fe45735617977eaffc89468c995958fe0e"
+    },
+    {
+      "path": "collection.css",
+      "bytes": 17743,
+      "sha256": "90d4af8c12ec14541bdd989aa026ff787618b49fcdb72547b3d08dec078e9af3"
+    },
+    {
+      "path": "collection.html",
+      "bytes": 5707,
+      "sha256": "ab8bb20a320caaafe4ce9321e19cca4da36b91debc0be09419b9aab79d7d41de"
+    },
+    {
+      "path": "collection.js",
+      "bytes": 16257,
+      "sha256": "b52c48d48881a7dfd8ea167da98a500c89e0cc5920f8056f2e07713883854fa9"
+    },
+    {
+      "path": "data.js",
+      "bytes": 12165,
+      "sha256": "28b7bbe770b420d22f0fe74d8908a1ac28772391eb166e869b5a5da25ce5e4cb"
+    },
+    {
+      "path": "docs/amber-wave-blade-v1-generation.json",
+      "bytes": 2015,
+      "sha256": "43cd3cc2fbc2c7ef4bcfc5ef9415cc39878a2418d3ede2d653c7c4417a089c96"
+    },
+    {
+      "path": "docs/amber-wave-blade-v1-prompt.txt",
+      "bytes": 3357,
+      "sha256": "f392e73440283cb28aa7bac62880278ea5c4ebe0a8a7b799a8c80fe095299723"
+    },
+    {
+      "path": "docs/amber-wave-confluence-v1-generation.json",
+      "bytes": 2001,
+      "sha256": "06c236a83fac0748c1484a4a2ad3c43e70b7c264569a169c1b86dc4d9fe05e5e"
+    },
+    {
+      "path": "docs/amber-wave-confluence-v1-prompt.txt",
+      "bytes": 3430,
+      "sha256": "106073a2ae74004476d4beb2aed80ea8023bcbaeae3826f277d38bd8fec32321"
+    },
+    {
+      "path": "docs/art-emotion-entry-20261121.jpg",
+      "bytes": 56689,
+      "sha256": "2c100a4c16901d289b6bd3d44a4b826fdadca197ded40f3fc843137d812603ec"
+    },
+    {
+      "path": "docs/art-emotion-entry-20261121.md",
+      "bytes": 2479,
+      "sha256": "b4c8364dc3adf8a92a6b934c2319e15ec33c45441dbeaf05333785ff3926bda3"
+    },
+    {
+      "path": "docs/art-emotion-map-page-20261121.jpg",
+      "bytes": 70809,
+      "sha256": "05b13c4ed53cc340d6a9743158bad706addd727745b1c68e3e4eb102d53e2a91"
+    },
+    {
+      "path": "docs/art-emotion-map-verification-20261121.json",
+      "bytes": 1261,
+      "sha256": "0b08258460e346bb7cdf921c82ee00372dc699fb61c68b0a163d8547d0d48462"
+    },
+    {
+      "path": "docs/asset-manifest.json",
+      "bytes": 7044,
+      "sha256": "1e607be9782d8f8961e6c9030cce2faab152fee4fb0b64e458c3297bc1ae2ec7"
+    },
+    {
+      "path": "docs/atmosphere-generation-prompts.json",
+      "bytes": 4896,
+      "sha256": "be006c516cb5e0ba70e303994d93e3197908d3a0f9a57944567d135ded2838ff"
+    },
+    {
+      "path": "docs/collection-compare-20261115.jpg",
+      "bytes": 20464,
+      "sha256": "25dce33bd7d3fa911d4dbd5930e127e7da8507d0cb112c4ef1fb88f554c72a60"
+    },
+    {
+      "path": "docs/collection-gallery-20261115.jpg",
+      "bytes": 72834,
+      "sha256": "33659bef652b2eeb7be53db66746cff17e9b78b3629a80c7adf0b69415e1ff6d"
+    },
+    {
+      "path": "docs/collection-verification-20261115.json",
+      "bytes": 1969,
+      "sha256": "b54048e0cddec075cc9b667c766e32ff5c50da349681f919efc7904709148357"
+    },
+    {
+      "path": "docs/egret-departing-reflection-v1-generation.json",
+      "bytes": 2177,
+      "sha256": "80c23810e1b2cd3dd3eaa30ceedd7f83ad8c4835a4cd23dd39c45ffbe5acdd71"
+    },
+    {
+      "path": "docs/egret-departing-reflection-v1-prompt.txt",
+      "bytes": 3603,
+      "sha256": "936128642b2a0157ac25f24e2213fbd483a29e2fa81ef641bface7ee73813706"
+    },
+    {
+      "path": "docs/examples/hope-brief.md",
+      "bytes": 3272,
+      "sha256": "8aa87a91020974a96ec110bd71085631c1b151711b452479c47de94b6dbc7a75"
+    },
+    {
+      "path": "docs/examples/hope-poster-9x16.png",
+      "bytes": 3119521,
+      "sha256": "c7585b19f40d7636a549460df1eabba8091172bcb05c82a0259ff8a3ff63d6de"
+    },
+    {
+      "path": "docs/examples/README.md",
+      "bytes": 569,
+      "sha256": "0ba0741cc6c2fb633d8cfd5eb21ce5ef98b7478855234c7ca110e0f3d1a7baca"
+    },
+    {
+      "path": "docs/examples/study-record.json",
+      "bytes": 5901,
+      "sha256": "429308f275534ebe8a7f3ad25134abb8f8e7baee94d7d6075a91272900e0a9f5"
+    },
+    {
+      "path": "docs/generation-prompts.json",
+      "bytes": 6007,
+      "sha256": "7747da58dcbeaeeee34c57df1210e3503a8aeb9367f436089c5ca12f6b7dc715"
+    },
+    {
+      "path": "docs/heron-reflected-lightning-v1-generation.json",
+      "bytes": 2360,
+      "sha256": "2a592a297693684cf88df1c533a2f0e424f5976cb41eefde9213645f05c86966"
+    },
+    {
+      "path": "docs/heron-reflected-lightning-v1-prompt.txt",
+      "bytes": 3987,
+      "sha256": "dbf09442b81a0462f13f36184612a3d5dbf338ba0cd40e41683bc3a5a29f66c6"
+    },
+    {
+      "path": "docs/night-boat-window-light-v1-generation.json",
+      "bytes": 1845,
+      "sha256": "b7b64ef6e3e2bdf06334446b5bf95253774a3fd01484019639c6efc083c291ab"
+    },
+    {
+      "path": "docs/night-boat-window-light-v1-prompt.txt",
+      "bytes": 3915,
+      "sha256": "cbf46d383d8a3fc171073413824f913190591ee8587069260d6672c1cdc91784"
+    },
+    {
+      "path": "docs/overview-effects-20261121.jpg",
+      "bytes": 54277,
+      "sha256": "886aeef22193526bdcd74a9ef40e1e73b0eb80df2bf1313050080bcba491b0d9"
+    },
+    {
+      "path": "docs/overview-home-20261121.jpg",
+      "bytes": 81926,
+      "sha256": "e8b493d5fcdb65cbf1765dd60c0e03b7504142253fbee4f7c76b63ed6256d2af"
+    },
+    {
+      "path": "docs/overview-mobile-20261121.jpg",
+      "bytes": 42411,
+      "sha256": "87c7130ccc6dc8b82f3d5aca883e93247222d4e37d88390796934dbafc13bd0c"
+    },
+    {
+      "path": "docs/overview-verification-20261121.json",
+      "bytes": 2488,
+      "sha256": "283ccf1dd84255648bc284ad93d5584d66b759dc2a1add153342a3414963b3b5"
+    },
+    {
+      "path": "docs/photography-reference-selection-20261112.json",
+      "bytes": 5099,
+      "sha256": "66fe74240b0dc107572cd469ad2777796a2c4221f30993894abd50150ad7dbc8"
+    },
+    {
+      "path": "docs/pinned-study.jpg",
+      "bytes": 55899,
+      "sha256": "da7374d51e30497e169876185e4ca22f993598d921f1e4745783be04e626dd79"
+    },
+    {
+      "path": "docs/poetic-autumn-gust-v1-generation.json",
+      "bytes": 1715,
+      "sha256": "bce41eaf5cddd01da405909cc153825d70563c7a2bd2cb3dec635abfb2d2ccfd"
+    },
+    {
+      "path": "docs/poetic-autumn-gust-v1-prompt.txt",
+      "bytes": 3788,
+      "sha256": "c85b5dd6808bdc040e5bf10556a0117a283cc9a480b578f4b3d37042819f66be"
+    },
+    {
+      "path": "docs/poetic-dandelion-rain-v1-generation.json",
+      "bytes": 1499,
+      "sha256": "d80a758251b059edbc16ca0f4b21dbd4f347ae0ef38038bea33fc53d705a7e7f"
+    },
+    {
+      "path": "docs/poetic-dandelion-rain-v1-prompt.txt",
+      "bytes": 2669,
+      "sha256": "f652594e5f31d7ed44d06690795d8d247f211357fe4220a839d23e9be302f87a"
+    },
+    {
+      "path": "docs/poetic-direction-diagnosis-20261112.md",
+      "bytes": 2747,
+      "sha256": "56b94f919e4d79da59445d651069bc3c48d03463e837b14220e677103da5817e"
+    },
+    {
+      "path": "docs/poetic-kingfisher-reflection-v1-generation.json",
+      "bytes": 1638,
+      "sha256": "a0710c62aaeb7a06e9f6c4a3697b4b4ff0f6e991f475bf167c732e9364d48e04"
+    },
+    {
+      "path": "docs/poetic-kingfisher-reflection-v1-prompt.txt",
+      "bytes": 3223,
+      "sha256": "7f710fc1bf2a7f9f3e938ec0541535e40d57d9c810ec92edfe25f07ca8cca171"
+    },
+    {
+      "path": "docs/poetic-stone-steps-sky-v1-generation.json",
+      "bytes": 2135,
+      "sha256": "308d6f02d8892c2790c81fd03ba0b19a0f685f2ea4ed7f27e037792abb7086d7"
+    },
+    {
+      "path": "docs/poetic-stone-steps-sky-v1-prompt.txt",
+      "bytes": 3818,
+      "sha256": "2981abe0da84611b0528efba95100b48751390e7cddc38ea854464fd9668f096"
+    },
+    {
+      "path": "docs/poetic-stone-steps-sky-v2-edit-prompt.txt",
+      "bytes": 2448,
+      "sha256": "4dabc2c18534f1af3583e2f5c7c0c4fae4bb9bfa124296800bfc4801242a60fd"
+    },
+    {
+      "path": "docs/poetic-stone-steps-sky-v2-generation.json",
+      "bytes": 2065,
+      "sha256": "d294c9f940b49b3d8308154df3d2d171bc15d3d70f13a67b46e6f7bf6592798b"
+    },
+    {
+      "path": "docs/poetic-stone-steps-sky-v3-edit-prompt.txt",
+      "bytes": 2980,
+      "sha256": "4a21918900fc546cd80478bd431116a33f26c97a29adf747ffa5ba212226e949"
+    },
+    {
+      "path": "docs/poetic-stone-steps-sky-v3-generation.json",
+      "bytes": 1958,
+      "sha256": "5954da4b50503f0dad69882b8a382f5686335ce565213af9799ebcc995402f4b"
+    },
+    {
+      "path": "docs/poetic-storm-sheet-v1-generation.json",
+      "bytes": 2344,
+      "sha256": "20b5659509206a38baedcfd66caa81ec6ffbb1dc929637bae4b4c4c7e667ede9"
+    },
+    {
+      "path": "docs/poetic-storm-sheet-v1-prompt.txt",
+      "bytes": 3221,
+      "sha256": "2f1989485afdf3f79020571d7634be5b186e6620947387519ba07afffddfafe8"
+    },
+    {
+      "path": "docs/poetic-whale-moon-v1-generation.json",
+      "bytes": 5378,
+      "sha256": "6f1f46cb61be7a071be00d15e55c8930f32999ae5499f0402c75b696513dbc09"
+    },
+    {
+      "path": "docs/poetic-whale-moon-v1-prompt.txt",
+      "bytes": 3142,
+      "sha256": "e3883ab5cec4c95d6cf5fbf7f1dcda6542136e0d1501f0b6ea7cc851e392f0e3"
+    },
+    {
+      "path": "docs/preview-desktop.jpg",
+      "bytes": 84977,
+      "sha256": "c7446f8509b58d8a66137b9127669653c379f9c7988e04fadda8be7df965df87"
+    },
+    {
+      "path": "docs/preview-lab.jpg",
+      "bytes": 85212,
+      "sha256": "fe13409a93557553bc3db1db91c2b2b20e76547ef77f49e49c74c5b5804f53e4"
+    },
+    {
+      "path": "docs/preview-mobile.jpg",
+      "bytes": 46117,
+      "sha256": "490c5fc0b41e86bcba3b92835c6c6814d81e749297d74af5f253ea67a1d2568d"
+    },
+    {
+      "path": "docs/rain-boot-broken-gold-v1-generation.json",
+      "bytes": 1964,
+      "sha256": "df1c5a68775a6bbe2e5acd6e25ff4894febf153fd5c18f22fa49b45557edf78c"
+    },
+    {
+      "path": "docs/rain-boot-broken-gold-v1-prompt.txt",
+      "bytes": 3664,
+      "sha256": "330b9051806dee06c83fff36d07e758e99de1b77dcefb479b84d47b1e224ea03"
+    },
+    {
+      "path": "docs/rain-front-silver-lake-v1-generation.json",
+      "bytes": 1788,
+      "sha256": "41a31e980d6bef152f0fd974e1a5e91d274ca54e741fb7071f9a75ea5d70e6f9"
+    },
+    {
+      "path": "docs/rain-front-silver-lake-v1-prompt.txt",
+      "bytes": 3678,
+      "sha256": "19a8ea9c1998517bfcddbb1c363330ec5675cb36ac8749058f9c5381698a170f"
+    },
+    {
+      "path": "docs/revision-atmosphere/01-before-home.jpg",
+      "bytes": 75806,
+      "sha256": "aa174b85b8ec261fe71ab413cb616472ae46fc57a6d26bc1f5531d0aa1a0d495"
+    },
+    {
+      "path": "docs/revision-atmosphere/02-before-workbench.jpg",
+      "bytes": 82732,
+      "sha256": "6cb513fe62a3287a7cb891244be6357fc1562124bc3da97a5e6c16e50c758029"
+    },
+    {
+      "path": "docs/revision-atmosphere/03-after-home.jpg",
+      "bytes": 91548,
+      "sha256": "b69d89745de423b6bf5098e9b949f17f2828f667fdfcd829e0588a48c3149886"
+    },
+    {
+      "path": "docs/revision-atmosphere/04-after-mobile.jpg",
+      "bytes": 33961,
+      "sha256": "2f4186db6575fa32313256ce38a05a93319f768e9514ba010f761086ab85c8df"
+    },
+    {
+      "path": "docs/revision-atmosphere/review.md",
+      "bytes": 4545,
+      "sha256": "aada00d54122555817dea0575eff577b1e39f2afd06025cba2472543d05a3f2b"
+    },
+    {
+      "path": "docs/revision-atmosphere/v1-app.js",
+      "bytes": 28454,
+      "sha256": "90a49111b3d9f71cc3bba8e2dd57ea51cf9e4cad338d325c28c8f9a384291d96"
+    },
+    {
+      "path": "docs/revision-atmosphere/v1-index.html",
+      "bytes": 14616,
+      "sha256": "ef22b361680b02de3186cfe5c8c05d53be322a9a88c12e2e9ac1448b963290fb"
+    },
+    {
+      "path": "docs/revision-atmosphere/v1-style.css",
+      "bytes": 32423,
+      "sha256": "a631fbe61c258f4ac383e0a3dbd17450b6a24562d03435125d8a3c43e4c75e4d"
+    },
+    {
+      "path": "docs/sources.json",
+      "bytes": 3689,
+      "sha256": "4182607fd353f4b924f8d3a3514faafaa72cd5b7477837e6da98da1391a88922"
+    },
+    {
+      "path": "docs/under-ice-silver-fissure-v1-generation.json",
+      "bytes": 2097,
+      "sha256": "69afa35542092ffe746adeddbb81dbf5f107cf2067e34257e2243b59d5666351"
+    },
+    {
+      "path": "docs/under-ice-silver-fissure-v1-prompt.txt",
+      "bytes": 3498,
+      "sha256": "633044baa2d998a365bb62eb5eeacdc031d8e69a07338238cfdba78722cb0718"
+    },
+    {
+      "path": "docs/verification.md",
+      "bytes": 3659,
+      "sha256": "a5e8c741bab5c6cc06e3db2eb2e76e1a83b6c7ec89ee73d81de4cd641ce77a36"
+    },
+    {
+      "path": "docs/warm-cat-tonal-detail-v1-generation.json",
+      "bytes": 1422,
+      "sha256": "cb97601529b958846b29f4e298655b453b1fdc73489391b6e74130bcecdf291e"
+    },
+    {
+      "path": "docs/warm-cat-tonal-detail-v1-prompt.txt",
+      "bytes": 2960,
+      "sha256": "b4173f047a2e2ebfc011a4b5c9c6b0d17a52ea0004e358700772f30a8910d10c"
+    },
+    {
+      "path": "gallery.css",
+      "bytes": 13916,
+      "sha256": "464643b71bbc4ac49469766bf319cd64bd1aa93b3f23c7af7fc33655c4eeff88"
+    },
+    {
+      "path": "gallery.js",
+      "bytes": 8063,
+      "sha256": "fbd03c1ee7d38c16a427775a7622a26a6f1ec6e2f70a0acec11eb10ee51a2453"
+    },
+    {
+      "path": "index.html",
+      "bytes": 21125,
+      "sha256": "cd120bf3bfa8fd0a511dd0135fa89d204282a5684298c2cabbcea3c0f9507ec7"
+    },
+    {
+      "path": "overview-content.json",
+      "bytes": 12261,
+      "sha256": "8955275e9d68cb1498c4e4b9ebd5a7461b8d4522f2cc9b65442070d60432dccf"
+    },
+    {
+      "path": "overview.css",
+      "bytes": 24029,
+      "sha256": "90ad46376306322d567f31f65eb2d5d552520d2cf57c7a6aecb11397e7e7f129"
+    },
+    {
+      "path": "overview.js",
+      "bytes": 12401,
+      "sha256": "494ead728ae7eea7e6734e3b238dd0ae6adf5a01d3b00aff0a46d63ae0053470"
+    },
+    {
+      "path": "package.json",
+      "bytes": 489,
+      "sha256": "6b503566ba9da6f080c9993bb03fc934ce57f32d6f450428d1fd8f896922bdd3"
+    },
+    {
+      "path": "pinned-study.css",
+      "bytes": 4379,
+      "sha256": "69302d44f9a246dc177accfdd564a1243bc88c2382ca8d37517540aa01c00a5d"
+    },
+    {
+      "path": "preview.ps1",
+      "bytes": 182,
+      "sha256": "628f167ae7eba6654fc646d000feefd2bd2e0386adb64028514c6cdc03e0259c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5990,
+      "sha256": "7b231abf5e4f0e0df20c6891885650b3ee777c42593bc344f686634fb3c5a7d3"
+    },
+    {
+      "path": "scripts/build-art-emotion-map.mjs",
+      "bytes": 5246,
+      "sha256": "1fb708dc1ac05a931f7baff89ef8c8665c1eea2290c4f819d616637c62a9ca48"
+    },
+    {
+      "path": "server.mjs",
+      "bytes": 1579,
+      "sha256": "ebe04597572d933d67daef42367bbe082832277cb63bfcde665ddf562028d0a2"
+    },
+    {
+      "path": "style.css",
+      "bytes": 32423,
+      "sha256": "a631fbe61c258f4ac383e0a3dbd17450b6a24562d03435125d8a3c43e4c75e4d"
+    },
+    {
+      "path": "workbench.css",
+      "bytes": 442,
+      "sha256": "0ce545217488e2ed1935f5f026a23b3113a94178cd2fd15ba5d903396acfaea3"
+    },
+    {
+      "path": "workbench.html",
+      "bytes": 23761,
+      "sha256": "276390b47d36899ba022ecd007b8a9dc8d0e89f6a66eef66e65d5649be7b0d51"
+    }
+  ]
+}

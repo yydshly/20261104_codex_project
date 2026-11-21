@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-21",
+  "phase": "pre-publication",
+  "result": "passed",
+  "static": {"checks": 1058, "files": 125, "guideUnchanged": true, "images": 29, "generatedSelected": 0},
+  "browser": {
+    "researchSummaryRows": 4,
+    "guideNaturalDimensions": [2400, 1700],
+    "effectImageChoices": 21,
+    "pinnedImageViewer": "置顶原帖 · 鲸尾与满月",
+    "saturationAdjustmentObserved": "saturate(0)",
+    "resetApplied": true,
+    "consoleErrors": [],
+    "mobileViewportWidth": 390,
+    "mobileDocumentWidth": 375,
+    "mobileSummaryColumns": 1,
+    "mobileMainOverflowElements": 0,
+    "temporaryViewportReset": true
+  },
+  "publication": {
+    "target": "https://yydshly.github.io/20261104_codex_project/025-cozy-emotion-lab/",
+    "method": "Existing GitHub Pages main /docs; deployment checked separately after push.",
+    "origin": "e7ff5df69f85ca2241702bd928eb7ee4123fbef1"
+  },
+  "limits": "These checks cover behavior and publication files, not artistic success, original-image authorship or business results."
+}

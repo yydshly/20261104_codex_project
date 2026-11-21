@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-21",
+  "page": "http://127.0.0.1:5198/",
+  "result": "passed",
+  "checks": {
+    "javascriptSyntax": "npm run check passed",
+    "summary": {
+      "images": 29,
+      "pinned": 2,
+      "generated": 22,
+      "external": 5,
+      "feedbackStages": 11,
+      "findings": 5
+    },
+    "feedbackCounts": {
+      "pendingGenerated": 10,
+      "notSelectedGenerated": 11,
+      "withdrawnGenerated": 1,
+      "selectedGenerated": 0
+    },
+    "collection": {
+      "initialPreview": 6,
+      "expandedCount": 29,
+      "notSelectedGeneratedFilter": 11,
+      "maximumComparePanelsObserved": 3,
+      "quietMode": true,
+      "referenceOpensWhileGeneratedFilterActive": true,
+      "feedbackThumbnailOpensCorrectRecord": true,
+      "standaloneCollectionCount": 29
+    },
+    "effects": {
+      "selectableGeneratedImages": 21,
+      "withdrawnImageExcluded": true,
+      "filterObserved": "brightness(1) contrast(1.3) saturate(0) sepia(0)",
+      "comparisonClipObserved": "inset(0px 0px 0px 49%)",
+      "playbackObservedSeconds": 1.2,
+      "scrubbedToSeconds": 8,
+      "labelToggle": true,
+      "imageSelection": true,
+      "resetRestoresOriginalFilter": true,
+      "scope": "Browser treatment and static-image pan/zoom; not AI video or calibrated HDR."
+    },
+    "downloads": {
+      "adjustedPng": {
+        "width": 1122,
+        "height": 1402,
+        "matchesSourceDimensions": true,
+        "bytes": 1416676
+      },
+      "summaryJson": {
+        "images": 29,
+        "feedbackStages": 11,
+        "containsCurrentEffect": true
+      }
+    },
+    "responsive": {
+      "desktopViewport": 1280,
+      "desktopDocumentWidth": 1265,
+      "mobileViewport": 390,
+      "mobileDocumentWidth": 375,
+      "mobileOverflowingMainElements": 0,
+      "temporaryViewportReset": true
+    },
+    "workbench": {
+      "deepLink": "workbench.html#lab",
+      "researchExpanded": true,
+      "labVisible": true,
+      "existingStorageCodeUnchanged": true
+    },
+    "consoleErrorsObserved": [],
+    "failedLocalImagesObserved": []
+  },
+  "screenshots": [
+    "overview-home-20261121.jpg",
+    "overview-effects-20261121.jpg",
+    "overview-mobile-20261121.jpg"
+  ],
+  "limits": [
+    "These checks verify page behavior, not artistic success or emotional response.",
+    "Five external photographs retain original remote image URLs and may depend on source availability.",
+    "Original image files and the existing cozy-emotion-lab:v1 storage key were not reset."
+  ]
+}

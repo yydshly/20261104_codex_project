@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11171c">
+  <meta name="description" content="本轮原帖双图、生成试作与外部摄影参考的完整图集，支持原比例放大和并排对照。">
+  <title>本轮图集 · 留一会儿</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="collection.css">
+  <script src="collection.js" defer></script>
+</head>
+<body class="collection-page">
+  <a class="skip-link" href="#browse">跳到图集</a>
+  <header class="collection-header">
+    <a class="collection-brand" href="collection.html">留一会儿 <span>IMAGE STUDIES</span></a>
+    <nav class="header-links" aria-label="页面导航"><a href="index.html">项目总览</a><a href="workbench.html#lab">效果工作台</a><button type="button" id="view-mode" class="button-text" aria-pressed="false">只看画面</button></nav>
+  </header>
+  <main class="collection-main">
+    <section class="collection-intro" aria-labelledby="collection-title">
+      <p class="eyebrow">A COLLECTION IN PROGRESS / 本轮图像档案</p>
+      <h1 id="collection-title">把画面，放在一起看。</h1>
+      <p class="intro-description">原帖双图、历次生成试作，以及找到的摄影参考。完整保留比例，点击放大，最多选三张并排对照。</p>
+      <div class="collection-counts" id="collection-counts"><span>正在整理图像…</span></div>
+      <details class="collection-note"><summary>来源与反馈如何标记</summary><p>目前只有原帖置顶双图得到明确正向反馈。“继续生成”不记作认可；未逐图评定的试作标为“待评定”。五张外部摄影参考均未触发你想要的停留感，保留用于对照。曾因沿用原作主体与构图而被否定的鲸尾版本，标记为停用历史。</p><p>外部作品通过原站图片在线展示，并保留作者与来源；本项目生成图可以下载，生成提示词与记录也一并保留。</p></details>
+    </section>
+    <section id="browse" class="collection-toolbar" aria-label="筛选图像">
+      <div class="category-tabs" role="group" aria-label="按来源筛选">
+        <button type="button" data-category="all" aria-pressed="true">全部 <span data-count="all">—</span></button>
+        <button type="button" data-category="pinned" aria-pressed="false">原帖双图 <span data-count="pinned">—</span></button>
+        <button type="button" data-category="generated" aria-pressed="false">生成试作 <span data-count="generated">—</span></button>
+        <button type="button" data-category="external" aria-pressed="false">外部摄影 <span data-count="external">—</span></button>
+      </div>
+      <div class="search-sort">
+        <label class="search-field"><span class="sr-only">搜索题材、作者或反馈</span><input id="image-search" type="search" placeholder="搜索题材、作者或反馈" autocomplete="off"></label>
+        <label><span class="sr-only">反馈状态</span><select id="status-filter"><option value="all">全部状态</option><option value="reference">核心参照</option><option value="pending">待评定</option><option value="not-selected">用户未选</option><option value="withdrawn">停用历史</option></select></label>
+        <label><span class="sr-only">图像排序</span><select id="image-sort"><option value="recent">最近试作在前</option><option value="oldest">按探索顺序</option></select></label>
+      </div>
+    </section>
+    <p id="result-summary" class="result-summary" aria-live="polite">正在加载图集…</p>
+    <div id="image-grid" class="image-grid" aria-label="图像列表"></div>
+    <div id="empty-state" class="empty-state" hidden><p>没有符合筛选的画面。</p><button type="button" id="reset-filters" class="button-text">清除筛选</button></div>
+    <div id="load-error" class="empty-state" hidden><p>图集数据暂未载入。</p><button type="button" id="retry-load" class="button-text">重新载入</button></div>
+    <footer class="collection-footer"><p>图像保持原比例与原始色彩。反馈是本次探索记录，未构成独立受众测试。</p><a href="index.html#pinned-study">回到置顶双图分析 ↗</a></footer>
+  </main>
+  <div id="collection-announcement" class="collection-announcement" role="status" aria-live="polite"></div>
+  <section id="compare-dock" class="compare-dock" aria-label="已选对照图像" hidden><div class="compare-dock-label">并排对照 <span id="compare-count">0 / 3</span></div><div id="compare-slots" class="compare-slots"></div><div class="compare-dock-actions"><button type="button" id="clear-compare" class="button-text">清空</button><button type="button" id="open-compare" class="button-primary" disabled>开始对照</button></div></section>
+  <dialog id="image-viewer" class="viewer" aria-labelledby="viewer-heading">
+    <header class="viewer-header"><div><p id="viewer-counter" class="viewer-counter"></p><h2 id="viewer-heading">查看图像</h2></div><div class="viewer-tools"><button type="button" id="viewer-prev" aria-label="上一张">←</button><button type="button" id="viewer-next" aria-label="下一张">→</button><button type="button" id="viewer-quiet" aria-pressed="false">只看画面</button><button type="button" id="viewer-close" aria-label="关闭查看">关闭 ×</button></div></header>
+    <div class="viewer-layout"><div class="viewer-canvas"><div id="viewer-panels" class="viewer-panels"></div></div><aside id="viewer-details" class="viewer-details"></aside></div>
+  </dialog>
+</body>
+</html>

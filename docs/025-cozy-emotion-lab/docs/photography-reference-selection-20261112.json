@@ -1,0 +1,88 @@
+{
+  "selectedAt": "2026-11-12",
+  "userReviewStatus": "none_of_these_five_evokes_the_desired_response",
+  "userFeedback": "None of these five makes the user linger. Only the original account's two pinned images do.",
+  "currentRole": "Research examples only, not user-endorsed aesthetic targets. Do not treat awards, technical quality, or assistant preference as evidence of the user's positive response.",
+  "purpose": "External reference research after repeated generated images were judged too flat.",
+  "userPriorities": [
+    "warm color",
+    "rich detail and HDR-like tonal depth",
+    "emotion visible without explanatory text",
+    "original subjects and composition"
+  ],
+  "scope": "Publicly available photographer and competition source pages. All five images visually inspected in the in-app browser; metadata verified through primary sources. No original media files downloaded.",
+  "referenceBoundary": "Use only techniques, optical effects, light hierarchy and general artistic principles; do not reproduce these subject combinations, framing or arrangements in later original images.",
+  "technicalUncertainty": "A photographic appearance or rich tonal range is not evidence of HDR merging. Specific editing or compositing workflows are not claimed where the source does not disclose them.",
+  "references": [
+    {
+      "title": "Aureus",
+      "creator": "Ray Collins",
+      "sourceUrl": "https://raycollinsphoto.com/products/aureus",
+      "imageUrl": "https://raycollinsphoto.com/cdn/shop/products/aureus_900x.jpg?v=1571732305",
+      "visuallyVerified": true,
+      "observed": "Close view of a curled wave, pale-gold light across long tactile ridges, deep near-black upper shadows and a small opening at the left.",
+      "techniqueReferences": [
+        "warm light used to sculpt volume",
+        "a large coherent curve with smaller surface details",
+        "close framing that makes water the primary form"
+      ]
+    },
+    {
+      "title": "Golden Arch",
+      "creator": "Ray Collins",
+      "sourceUrl": "https://raycollinsphoto.com/products/golden-arch",
+      "imageUrl": "https://raycollinsphoto.com/cdn/shop/products/golden_arch.jpg?v=1571729676",
+      "visuallyVerified": true,
+      "observed": "A hollow breaking wave occupies most of the frame; light penetrates the thin crest and suspended spray, with a dark wave base and blue background.",
+      "techniqueReferences": [
+        "very low immersive viewpoint",
+        "hollow volume and looming foreground mass",
+        "transmitted light and arrested spray"
+      ],
+      "note": "Selected for form and spatial force rather than as a warm-palette example."
+    },
+    {
+      "title": "Ignis",
+      "creator": "Rachael Talibart",
+      "sourceUrl": "https://rachaeltalibart.com/portfolio1/ocean/",
+      "imageUrl": "https://rachaeltalibart.com/wp-content/uploads/2020/04/Ignis.jpg",
+      "visuallyVerified": true,
+      "observed": "Elongated orange-gold reflection strokes run through deep dark water; selective softness and unequal spacing make the surface resemble moving flame.",
+      "techniqueReferences": [
+        "selective warm reflected light",
+        "abstract form emerging from water motion",
+        "uneven density of light against dark negative space"
+      ]
+    },
+    {
+      "title": "The World is Going Upside Down",
+      "creator": "Thomas Vijayan",
+      "sourceUrl": "https://www.naturettl.com/winners-of-the-nature-ttl-photographer-of-the-year-2021-competition/",
+      "imageUrl": "https://cdn.naturettl.com/wp-content/uploads/2021/06/02115920/1st-Thomas-Vijayan-800x534.jpg",
+      "visuallyVerified": true,
+      "award": "Nature TTL Photographer of the Year 2021 overall winner",
+      "observed": "An orangutan and converging tree trunks occupy the center of an apparently skyward view; reflected sky and forest in water create a second spatial reading.",
+      "techniqueReferences": [
+        "reflection as spatial reorientation",
+        "strong converging lines with a readable living focal point",
+        "scale and close perspective"
+      ],
+      "note": "Selected for a compelling reflection relationship, not a uniformly warm palette."
+    },
+    {
+      "title": "The Embrace",
+      "creator": "Sergey Gorshkov",
+      "sourceUrl": "https://www.nhm.ac.uk/wpy/gallery/2020-the-embrace",
+      "imageUrl": "https://www.nhm.ac.uk/resources/visit/wpy/2020/medium/2653f0ac-8921-40e2-96b3-a8333dd971df.jpg",
+      "visuallyVerified": true,
+      "award": "Wildlife Photographer of the Year 2020 Adult Grand Title Winner",
+      "observed": "An Amur tiger stands against and grips a large trunk, face turned into the bark; its warm body is set within a dark forest.",
+      "techniqueReferences": [
+        "emotion readable through an observed physical gesture",
+        "warm subject against a quieter dark environment",
+        "tactile fur and bark supporting the relationship"
+      ],
+      "behaviorContext": "Official description explains scent-marking; an embrace is a visual reading rather than a claim about the animal's emotion."
+    }
+  ]
+}

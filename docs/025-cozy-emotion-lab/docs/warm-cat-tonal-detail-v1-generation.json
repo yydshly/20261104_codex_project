@@ -1,0 +1,32 @@
+{
+  "createdAt": "2026-11-12",
+  "status": "warmth_first_preview_pending_user_review",
+  "tool": "image_gen.imagegen",
+  "mode": "new generation",
+  "taxonomy": "photorealistic-natural",
+  "model": "not exposed by tool",
+  "seed": "not exposed by tool",
+  "actualPromptFile": "docs/warm-cat-tonal-detail-v1-prompt.txt",
+  "inputImages": [],
+  "latestUserPrioritiesInOrder": [
+    "Warm palette first",
+    "Rich fine detail and HDR-like tonal treatment",
+    "Visible emotion; no specific emotion required"
+  ],
+  "referenceBoundary": "No account images or prior generated images supplied. New domestic subject and intimate close composition.",
+  "visualReview": {
+    "observed": "Sleeping ginger cat with a loose front paw, honey-amber transmitted ear light, distinct fur strands, detailed wool loops, dark warm shadows, wood grain and restrained golden window droplets.",
+    "technicalScope": "HDR refers to a visual tonal-treatment target, not a claim that the returned PNG is a calibrated HDR deliverable or the result of bracketed photography.",
+    "limitations": "AI-generated photographic image. Emotional impact remains subjective and pending user feedback."
+  },
+  "output": {
+    "path": "assets/generated/warm-cat-tonal-detail-v1.png",
+    "bytes": 2912847,
+    "sha256": "48d63f9a24492735ad5e1d2f22fb188b1d05567710d5db475521d43f46ea2a5b",
+    "size": [
+      1122,
+      1402
+    ],
+    "mode": "RGB"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "createdAt": "2026-11-12",
+  "status": "reference_informed_original_preview_pending_user_review",
+  "tool": "image_gen.imagegen",
+  "mode": "new generation",
+  "taxonomy": "photorealistic-natural",
+  "model": "not exposed by tool",
+  "seed": "not exposed by tool",
+  "actualPromptFile": "docs/amber-wave-blade-v1-prompt.txt",
+  "inputImages": [],
+  "userAuthorization": "Continue after viewing and discussing selected photography references.",
+  "userPrioritiesInOrder": [
+    "Warm palette",
+    "Rich detail and HDR-like tonal treatment",
+    "Emotion visible in the picture"
+  ],
+  "referenceResearchFile": "docs/photography-reference-selection-20261112.json",
+  "borrowedTechnicalPrinciples": [
+    "immersive water-level viewpoint",
+    "transmitted warm light revealing water thickness",
+    "a coherent large form with subordinate fine detail",
+    "concentrated highlights and spacious darker masses"
+  ],
+  "referenceBoundary": "Only text-level technical principles were supplied. New diagonal open crest, no circular barrel or tunnel composition; no source photographs or prior generated images were provided to the tool.",
+  "visualReview": {
+    "observed": "A thick diagonal swell occupies the right and foreground; an amber-lit thin crest with irregular openings and droplets breaks across its upper edge. A narrow copper horizon appears at left. Darker brown-green water and fine foam support the volume.",
+    "limitations": "A generated photographic artwork, not a record of a real wave. Emotional impact is pending user feedback; no claim of equivalence to the referenced works.",
+    "technicalScope": "HDR-like tonal depth is a visual target. The saved RGB PNG is not claimed to be a calibrated HDR image format or a bracketed exposure merge."
+  },
+  "output": {
+    "path": "assets/generated/amber-wave-blade-v1.png",
+    "bytes": 2259820,
+    "sha256": "3f8c481f4144652e4edf1675b79802fb07e737dc144b44b04daa129a46d06dc4",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB"
+  }
+}

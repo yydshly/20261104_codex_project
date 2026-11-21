@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-11-12",
+  "purpose": "New original images used for the local interactive demonstration. No source-account image was submitted to image_gen.",
+  "images": [
+    {
+      "key": "comfort",
+      "prompt": "Use case: photorealistic-natural. Asset type: original landscape photograph for an interactive emotional-art research website. Create one cinematic 3:2 landscape image with fine natural photographic detail. View from inside a small mountain cabin at blue hour in heavy rain. Right two-thirds: a large old wooden window showing wet dark pine trees, a distant misty blue mountain, water beads on glass. Left and lower area: a simple amber shaded table lamp, a ceramic cream mug with subtle steam, a well-used wood table and a blank open paper journal with absolutely no lettering. A single empty upholstered chair feels inviting. The interior is softly sheltered and realistically warm; the exterior has credible cool dusk and rain, no neon. Meaning: a person is allowed to pause while weather continues outside. Human eye level, intimate wide shot, tactile wood and wool, refined editorial photography, sophisticated restrained palette of amber brown and deep desaturated blue green. The window frame visually separates weather and refuge. Rich softly lit shadows, no excessively dark black region. No people, no cats, no brand, no text, no watermark. This is a new original demonstration, not a copy of any existing post.",
+      "tool": "built-in image_gen",
+      "inputImages": [],
+      "output": "assets/generated/comfort.png",
+      "outputRecord": "Generated images are saved to D:\\codex\\home\\generated_images\\01a1c9a8-4750-7541-a6b6-7d65bf7da700 as D:\\codex\\home\\generated_images\\01a1c9a8-4750-7541-a6b6-7d65bf7da700\\exec-c50815d9-cd2f-4ec5-b683-6e062c90f511.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "model": "not returned",
+      "seed": "not returned"
+    },
+    {
+      "key": "hope",
+      "prompt": "Use case: photorealistic-natural. Asset type: original landscape photograph for an interactive emotional-art research website. One exquisitely detailed 3:2 landscape editorial macro photograph of a tiny fresh pale yellow wildflower and several delicate green leaves that are growing upright from a narrow crevice between old weathered gray sandstone steps. Rough stone takes up most of the image, imperfect edges, moss and small water drops; a very fine warm morning shaft of sunlight comes from upper left and catches just the new leaves and flower. Frame the small flower in the right half so there is substantial subdued gray green stone on the left. Dark forest background out of focus at upper edge, believable natural botany, true photographic materials, shallow depth of field but keep the crevice and stem readable. Meaning: fragile life persists even in a constrained environment. Restrained, quiet, deeply hopeful, no oversaturation, no fantasy particles, no dramatic destroyed buildings, no text, no watermark. New original image, not any existing post.",
+      "tool": "built-in image_gen",
+      "inputImages": [],
+      "output": "assets/generated/hope.png",
+      "outputRecord": "Generated images are saved to D:\\codex\\home\\generated_images\\01a1c9a8-4750-7541-a6b6-7d65bf7da700 as D:\\codex\\home\\generated_images\\01a1c9a8-4750-7541-a6b6-7d65bf7da700\\exec-1c865431-aa54-4e28-afa2-d958c9f42bba.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "model": "not returned",
+      "seed": "not returned"
+    },
+    {
+      "key": "delight",
+      "prompt": "Use case: photorealistic-natural. Asset type: original landscape photograph for an interactive emotional-art research website. A 3:2 landscape photograph of a small handmade breakfast on a real sunlit old wooden kitchen table. A handmade cream ceramic plate contains three original gently rounded bread rolls: one vaguely rabbit-shaped with two short dough ears, one round bird-shaped, one small bear-shaped, tiny dark sesame dots for eyes, no commercial or copyrighted character. A bowl of fresh strawberries, a folded small cream and terracotta gingham cloth and a glass of milk accompany the plate. Composition feels spontaneous and caring rather than a professional advertisement; a few real crumbs and honest baking imperfections. Warm indirect early morning sunlight, soft oat colors, rich baked crust texture, restrained botanical green in distant out-of-focus kitchen. Plate in right-center and calm empty wood at upper left for website overlays. Meaning: somebody paid extra attention to a small ordinary morning. Beautiful intimate editorial still life, tender playful detail, realistic appetizing bread rather than toys. No people, no logos, no writing, no watermark. Completely new original demonstration image.",
+      "tool": "built-in image_gen",
+      "inputImages": [],
+      "output": "assets/generated/delight.png",
+      "outputRecord": "Generated images are saved to D:\\codex\\home\\generated_images\\01a1c9a8-4750-7541-a6b6-7d65bf7da700 as D:\\codex\\home\\generated_images\\01a1c9a8-4750-7541-a6b6-7d65bf7da700\\exec-2604dcf7-3cef-441b-acdf-c5adc966e288.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "model": "not returned",
+      "seed": "not returned"
+    }
+  ]
+}

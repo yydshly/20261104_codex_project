@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-21",
+  "result": "passed",
+  "artifact": {
+    "path": "assets/diagrams/art-emotion-value-map.png",
+    "width": 2400,
+    "height": 1700,
+    "bytes": 1358472,
+    "method": "Existing project images and exact text composed as SVG, exported by browser Canvas.",
+    "newAiPhotographyGenerated": false
+  },
+  "browserChecks": {
+    "pngExportPage": true,
+    "pngDownloadFromHomepage": true,
+    "downloadMatchesProjectFileSha256": true,
+    "homepageImageNaturalSize": [
+      2400,
+      1700
+    ],
+    "textTranscriptExpands": true,
+    "researchProgressExpandsAndCountsUnchanged": true,
+    "defaultViewportWidth": 794,
+    "defaultDocumentWidth": 779,
+    "singleColumnPicturesPrecedeText": true,
+    "mobileViewportWidth": 390,
+    "mobileDocumentWidth": 375,
+    "mobileOverflowingMainElements": 0,
+    "viewportOverrideReset": true,
+    "consoleErrors": []
+  },
+  "syntaxCheck": "npm run check passed",
+  "localResourceLinksMissing": [],
+  "evidenceState": "Original pinned pair remain positive references. Egret remains pending. Product directions are proposals.",
+  "screenshots": [
+    "art-emotion-entry-20261121.jpg",
+    "art-emotion-map-page-20261121.jpg"
+  ],
+  "finalPage": "http://127.0.0.1:5198/index.html#art-emotion"
+}

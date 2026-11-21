@@ -1,0 +1,47 @@
+{
+  "verifiedAt": "2026-11-15",
+  "url": "http://127.0.0.1:5198/collection.html#browse",
+  "counts": {
+    "generated": 22,
+    "pinned": 2,
+    "external": 5
+  },
+  "generatedStatusCounts": {
+    "pending": 10,
+    "withdrawn": 1,
+    "not-selected": 11
+  },
+  "sourceFiles": "Every generated PNG in assets/generated is represented once. Local source, prompt and record paths exist.",
+  "http": {
+    "checkedUniqueLocalResources": 67,
+    "failures": [],
+    "promptContentType": "text/plain; charset=utf-8"
+  },
+  "browser": {
+    "allItems": 29,
+    "generatedCategory": 22,
+    "externalCategory": 5,
+    "externalImageLoad": "All five original-site images loaded with nonzero naturalWidth.",
+    "search": "Ignis returns one result.",
+    "withdrawn": "One historical whale/moon initial draft; its specific rejection and source records are visible.",
+    "viewer": "Single image, next image, pure-image mode and Escape close verified; original/prompt/record links present.",
+    "compare": "Three source images loaded together with contain fitting. A fourth selection is rejected with the three-image limit.",
+    "mobile": {
+      "viewport": 390,
+      "documentScrollWidth": 375,
+      "compareColumns": 1,
+      "horizontalOverflow": false
+    },
+    "finalState": "Default desktop viewport restored. Dialog closed and test selection cleared. All 29 images visible; gallery anchor opened and tab marked as deliverable."
+  },
+  "proof": {
+    "path": "docs/collection-gallery-20261115.jpg",
+    "size": [
+      1265,
+      712
+    ]
+  },
+  "checks": "npm run check passed; server.mjs rechecked after adding plain-text MIME support.",
+  "storage": "The collection stores no browser data. Compare choices are memory-only; existing research storage untouched.",
+  "network": "The existing static server was restarted outside sandbox isolation so the user browser can reach it; bound only to 127.0.0.1:5198. External photography remains online, not downloaded."
+}

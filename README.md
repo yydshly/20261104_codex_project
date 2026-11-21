@@ -30,6 +30,7 @@
 | 022 | [角色、情绪与多载体产品化研究](projects/022-visual-business-atlas/README.md) | [AYi 原帖](https://x.com/AYi_AInotes/status/2120089714749263956) · 自主角色与交付实践 | 研究专属特征、情绪与故事怎样转成表情、头像、壁纸、漫画和桌宠。真实文件与模拟需求对照呈现角色一致性、场景适配和人的设计判断，延伸个人定制、小店经营及角色资产复用；桌宠实机稳定性与真实商业结果待验证。 | [已有研究引导图](#visual-business-atlas-guide) | [在线研究与成品](https://yydshly.github.io/20261104_codex_project/022-visual-business-atlas/) |
 | 023 | [角色素材与游戏质感研究](projects/023-character-forge-lab/README.md) | [Lucca Cerf原帖](https://x.com/luccacerf/status/2120305718939021566) · [Quaternius](https://quaternius.com/packs/universalbasecharacters.html) | 制作原创重戟战士赤霄、13段动作与Three.js／Godot战斗原型，公开13.9秒实录、提示词和实现记录。研究人物资产与游戏系统的独立制作和验收，复用接入流程；现有美术仍未达到商业英雄水准，三条素材升级路线待验证。 | [已有研究引导图](#character-forge-guide) | [在线研究与实际战斗](https://yydshly.github.io/20261104_codex_project/023-character-forge-lab/) |
 | 024 | [日常元素与沉浸式循环研究](projects/024-immersive-loop-research/README.md) | [JenPanepinto](https://x.com/JenPanepinto) · 本轮独立实验 | 研究怎样从自己的日常素材形成统一情绪、个人风格与整体循环，以十八轮实验比较花朵接续、全幅水光、秋林事件及光影。保留三个代表、反馈与方法，积累原创系列和有依据的返修能力；舒适、真实感、原生 GIF 与后续用途仍待验证。 | [已有理解总览图](#immersive-loop-guide) | [在线研究与代表效果](https://yydshly.github.io/20261104_codex_project/024-immersive-loop-research/) |
+| 025 | [留一会儿 · 艺术与情绪图像研究](projects/025-cozy-emotion-lab/README.md) | [@cozyycabin](https://x.com/cozyycabin) · [置顶双图](https://x.com/cozyycabin/status/2084009202192949678) | 以艺术与情绪作为图像入口，从形体呼应、瞬间与留白理解停留感。29幅图、三图对照、实时调色、八秒静态镜头及导出，沉淀审美判断、原创简报和系列表达方法；当前仅原帖双图获明确正向反馈，原创迁移与体验产品价值待验证。 | [沿用本轮引导图](#cozy-emotion-guide) | [在线艺术入口与效果](https://yydshly.github.io/20261104_codex_project/025-cozy-emotion-lab/) |
 
 项目按收录顺序从 `001` 开始编号。新条目按编号追加，已分配的编号保持固定。索引摘要用一两句话写清研究对象和关注点。完成验证后，可补上一条主要发现。
 
@@ -368,3 +369,18 @@ Adam Chernick 个人制作、扩展和组合的网页 3D 实验，部分基于 T
 研究价值在于形成个人创作语言、让返修改得有依据、积累可复用的实际素材和方法；可继续验证动态日记、氛围网页、动态插画与系列视觉。网页默认只选花朵接续、全幅水光、秋林事件与光影三个不同代表，相近版本保留在完整实验档案中。技术衔接不代表观看体验通过，目前没有用户认可的最终成片或验证成功的模型原生 GIF。
 
 引导图逐字节沿用原图，公开版保留十八轮阶段、实际动态与反馈，省去账号截图和私有执行草稿。[在线研究与效果](https://yydshly.github.io/20261104_codex_project/024-immersive-loop-research/) · [完整方向、价值与边界](projects/024-immersive-loop-research/README.md)
+
+
+<a id="cozy-emotion-guide"></a>
+
+### 025 · 留一会儿：艺术与情绪图像研究
+
+以艺术与情绪作为图像入口，从形体呼应、瞬间与留白理解停留感。29幅图、三图对照、实时调色、八秒静态镜头及导出，沉淀审美判断、原创简报和系列表达方法；当前仅原帖双图获明确正向反馈，原创迁移与体验产品价值待验证。
+
+![沿用本轮生成的艺术与情绪价值图：三个代表画面、画面关系、摄影语言，以及审美判断、原创创作与体验产品方向](docs/025-cozy-emotion-lab/assets/diagrams/art-emotion-value-map.png)
+
+我们的理解是，艺术与情绪决定入口，主体与环境的关系构成表达，光色、材质、反射和瞬间为表达服务。原帖海豚与光弧说明弧线相扣的张力，鲸尾与满月说明空隙引出的承托联想；白鹭是摄影语言的待评试作。后续借鉴风格和技术，重新设计主体、动作、场景与构图。
+
+**实际效果**：原比例图像展厅、来源与反馈筛选、纯看图和最多三图并排；21张未停用试作可调明暗、对比、饱和度与暖度，下载全幅调整PNG，播放或拖动八秒静态镜头。早期工作台保留天气分层、海报、简报和记录导出。**对我们的价值**：形成可讨论的审美基准与选片依据，将观察写成原创简报与系列规则，再探索情绪图像展、壁纸与短片。
+
+引导图直接沿用已生成的2400 × 1700原PNG，未重做。22张生成图中10张待评、11张未选、1张停用，尚无明确获选图；5张外参只作调研。预演不是AI视频，技术功能通过不代表艺术迁移、持续使用或商业成效已经验证。[在线艺术与情绪入口](https://yydshly.github.io/20261104_codex_project/025-cozy-emotion-lab/) · [理解与价值图](https://yydshly.github.io/20261104_codex_project/025-cozy-emotion-lab/#art-emotion) · [研究摘要](https://yydshly.github.io/20261104_codex_project/025-cozy-emotion-lab/#summary) · [动手体验效果](https://yydshly.github.io/20261104_codex_project/025-cozy-emotion-lab/#effects) · [完整研究摘要](projects/025-cozy-emotion-lab/README.md)

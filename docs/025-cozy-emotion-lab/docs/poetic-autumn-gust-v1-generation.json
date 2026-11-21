@@ -1,0 +1,28 @@
+{
+  "createdAt": "2026-11-12",
+  "status": "not_selected_by_user",
+  "userFeedback": "This image evokes no feeling for the user.",
+  "nextStep": "Pause further image generation and clarify the desired emotional quality of the pinned references before choosing another direction.",
+  "tool": "image_gen.imagegen",
+  "mode": "new generation",
+  "model": "not exposed by tool",
+  "seed": "not exposed by tool",
+  "actualPromptFile": "docs/poetic-autumn-gust-v1-prompt.txt",
+  "inputImages": [],
+  "userConstraint": "Abandon the stone steps and try a completely new original direction. Emotion and poetry should be visible without a written explanation.",
+  "referenceBoundary": "Independent human subject, physical event and composition. No source photographs or earlier generated images supplied as inputs.",
+  "newDirection": "A candid-style unguarded moment of laughter when wind catches a schoolboy and autumn leaves in a large quiet playground.",
+  "visualReview": {
+    "observed": "A schoolboy off center at right looks toward windblown leaves with a visible smile, turning his body and catching his balance. The gray playground remains quiet and open. The airborne leaves are irregular with local motion softness.",
+    "limitations": "AI-generated photographic image, not documentary capture. It is a human-emotion direction trial; no claim that it matches the original pinned pair's artistic impact. Fine-art quality and the desire to linger remain subject to viewer response."
+  },
+  "output": {
+    "path": "assets/generated/poetic-autumn-gust-v1.png",
+    "bytes": 2659676,
+    "sha256": "f41eda6ad0fdaea00c44739c016cb963f45326f756b351b622d6f3fe84191bb0",
+    "size": [
+      1122,
+      1402
+    ]
+  }
+}

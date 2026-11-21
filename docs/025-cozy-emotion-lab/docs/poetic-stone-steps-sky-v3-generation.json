@@ -1,0 +1,33 @@
+{
+  "createdAt": "2026-11-12",
+  "status": "direction_abandoned_at_user_request",
+  "userFeedback": "Cleaner, but still lacks the feeling that makes people linger. Stop revising the stone steps and try a completely new original direction whose emotion and poetry are carried by the image itself, without a written explanation.",
+  "constraintForNextWork": "Do not revise this stone-step direction again unless the user explicitly returns to it.",
+  "tool": "image_gen.imagegen",
+  "mode": "edit of our independently generated v2 image",
+  "model": "not exposed by tool",
+  "seed": "not exposed by tool",
+  "actualEditPromptFile": "docs/poetic-stone-steps-sky-v3-edit-prompt.txt",
+  "inputImages": [
+    {
+      "path": "assets/generated/poetic-stone-steps-sky-v2.png",
+      "role": "complete edit target, generated in this project"
+    }
+  ],
+  "referenceBoundary": "No original account photographs supplied; only our own previous image used as edit target.",
+  "userFeedbackAddressed": "The reflected clouds look dirty; there is atmosphere but little feeling.",
+  "targetedCorrection": "Remove mottled gray-yellow cloud texture, simplify into a broad pale cloud against smooth blue-slate reflected sky, and quiet the stone microcontrast while retaining geometry and water contact.",
+  "visualReview": {
+    "observed": "The surface now has a large uninterrupted blue-slate field with one pale elongated cloud reflection. The prior cellular cloud pattern is absent. Stairs, diagonal crop and local waterline remain.",
+    "limitations": "The stone surface remains strongly textured and has stylized fine relief. Cleaner reflection does not by itself establish the intended emotional effect; user review remains necessary."
+  },
+  "output": {
+    "path": "assets/generated/poetic-stone-steps-sky-v3.png",
+    "bytes": 2047339,
+    "sha256": "172ca0e38f1f671745569e439c2f9e6ced2a201050553ecee6b41e0a4851875a",
+    "size": [
+      1122,
+      1402
+    ]
+  }
+}

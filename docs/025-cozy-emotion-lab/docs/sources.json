@@ -1,0 +1,75 @@
+{
+  "reviewedAt": "2026-11-12",
+  "method": "Directly viewed public profile and posts in the in-app browser. Exported observed image assets through the browser pageAssets capability.",
+  "scope": "Small sample; not a full-account audit. Video covers were inspected; full video motion and sound were not analyzed.",
+  "profile": {
+    "url": "https://x.com/cozyycabin",
+    "name": "rosa",
+    "bio": "where the forest feels like home 🌿",
+    "visibleFollowers": "1.3万",
+    "banner": {
+      "local": "assets/references/banner.jpg",
+      "url": "https://pbs.twimg.com/profile_banners/2019012986019393538/1780230043/600x200"
+    },
+    "avatar": {
+      "local": "assets/references/avatar.jpg",
+      "url": "https://pbs.twimg.com/profile_images/2061059674871324675/Pq21VNdG_200x200.jpg"
+    }
+  },
+  "posts": [
+    {
+      "case": "comfort",
+      "url": "https://x.com/cozyycabin/status/2120387790386987415",
+      "visibleCaption": "I love watching the rain",
+      "assetType": "video poster only",
+      "local": "assets/references/rain-cat.webp",
+      "assetUrl": "https://pbs.twimg.com/amplify_video_thumb/2120387747063947264/img/3fg4XtsPkf_xCmS6?format=webp&name=medium"
+    },
+    {
+      "case": "hope",
+      "url": "https://x.com/cozyycabin/status/2120539539194171611",
+      "visibleCaption": "nature always finds a way",
+      "assetType": "video poster only",
+      "local": "assets/references/flowers.webp",
+      "assetUrl": "https://pbs.twimg.com/amplify_video_thumb/2120539482503921666/img/vgnQqn8JUvbi6SXO?format=webp&name=medium"
+    },
+    {
+      "case": "delight",
+      "url": "https://x.com/cozyycabin/status/2120599787984842883",
+      "visibleCaption": null,
+      "assetType": "image thumbnail",
+      "local": "assets/references/baking.webp",
+      "assetUrl": "https://pbs.twimg.com/media/HW3iQvkX0AAHEK4?format=webp&name=small"
+    }
+  ],
+  "interpretation": "安心 / 希望 / 童趣 are this project's visual readings, not verified statements of author intent or measured audience responses.",
+  "projectOutputs": "The reference library, poster editor and brief builder are local demonstrations created for this project. They are not asserted to be products sold by the source account.",
+  "unverified": [
+    "original authorship of every source asset",
+    "source account production tools",
+    "existing paid products, courses or software",
+    "revenue",
+    "repeatable audience emotion or performance"
+  ],
+  "rights": "Reference thumbnails are retained for local attributed study. Rights remain with their respective rights holders. No redistribution license is asserted.",
+  "pinnedStudy": {
+    "url": "https://x.com/cozyycabin/status/2084009202192949678",
+    "caption": "A Unique Shot",
+    "reviewedAt": "2026-11-12",
+    "selectedByUser": true,
+    "images": [
+      {
+        "local": "assets/references/pinned-dolphin-sun.webp",
+        "visibleSubject": "Dolphin, orange crescent-shaped light arc, splash, reflection",
+        "assetUrl": "https://pbs.twimg.com/media/HOvjTs5WEAAR1uS?format=webp&name=small"
+      },
+      {
+        "local": "assets/references/pinned-whale-moon.webp",
+        "visibleSubject": "Whale tail, full moon, falling illuminated water",
+        "assetUrl": "https://pbs.twimg.com/media/HOvjUQ3W4AAcij4?format=webp&name=small"
+      }
+    ],
+    "analysisScope": "Analysis of publicly visible post images. Full-resolution media viewer requires login. The solar-eclipse interpretation, production technique and original authorship are unverified.",
+    "interpretation": "Poetic correspondence between living gestures and celestial forms; artistic reading, not a verified statement of author intent."
+  }
+}

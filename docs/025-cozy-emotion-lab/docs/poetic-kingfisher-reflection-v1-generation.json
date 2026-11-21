@@ -1,0 +1,26 @@
+{
+  "createdAt": "2026-11-12",
+  "status": "not_selected_by_user",
+  "userFeedback": "More natural, but still ordinary wildlife photography and lacking the reference pair's art and emotion. Analyze the underlying gap before generating a new original subject; changing only the subject is insufficient.",
+  "tool": "image_gen.imagegen",
+  "model": "not exposed by tool",
+  "seed": "not exposed by tool",
+  "promptFile": "docs/poetic-kingfisher-reflection-v1-prompt.txt",
+  "inputImages": [],
+  "referenceBoundary": "No source photographs supplied. Independent bird subject and diagonal landscape composition; no marine mammals, celestial objects or cupping/encircling composition.",
+  "userConstraint": "A fresh original subject, naturally striking rather than staged; let the visible relationship carry the image without a written explanation.",
+  "scene": "A kingfisher dives toward its imperfect reflection, just before reaching a quiet river surface.",
+  "visualReview": {
+    "observed": "An off-center blue-orange bird descends diagonally toward subdued woodland water. The bill remains above the surface, with a softer and irregular reflection beneath. No decorative props or visible text.",
+    "limitations": "AI-generated artistic image, not documentation of an actual wildlife event. The emotional result remains subject to user review; not claimed to match the pinned images in impact."
+  },
+  "output": {
+    "path": "assets/generated/poetic-kingfisher-reflection-v1.png",
+    "bytes": 1757381,
+    "sha256": "7154befeed9d7e0090cf584c92f99497e310dc1bfd4f0edb499f43a80e160986",
+    "size": [
+      1536,
+      1024
+    ]
+  }
+}

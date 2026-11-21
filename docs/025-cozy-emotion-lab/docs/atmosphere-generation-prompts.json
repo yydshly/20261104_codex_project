@@ -1,0 +1,24 @@
+{
+  "createdAt": "2026-11-12",
+  "tool": "built-in image_gen",
+  "inputImages": [],
+  "purpose": "Atmospheric exhibition revision following user feedback: prioritize contemplative art imagery over explanations and controls.",
+  "images": [
+    {
+      "key": "willow-lake",
+      "prompt": "Use case: stylized-concept. Asset: an actual atmospheric fine-art image, never a website mockup. Create one exquisite wide landscape composition, approximately 16:10, to fill an immersive digital art exhibition screen. A deeply quiet willow-lined lake at the last soft light of a misty summer evening. The sweeping branches of an old willow descend from the top and left foreground in a delicate soft-focus veil; still water occupies the lower half. One very small ivory swan rests near the right-middle water with a fragile reflection and wide surrounding breathing space. Far across the lake, only a tiny almost hidden old boathouse has a single dim amber window. Mist makes the forest dissolve into dusty blue green, celadon and soft gray. An extremely restrained trace of pale peach dusk touches the water. Emotional intention: a beautiful pause, solitude with gentleness, a place one almost remembers but has never visited. Visually like a poetic analog color photograph with painterly atmospheric depth, soft halation, subtle real film grain, muted natural colors, delicate highlight rolloff, tactile organic detail that dissolves toward edges; no oversharpened HDR. The eye should wander slowly through branches, open water and the small living presence. Frame for both desktop and mobile: keep the swan and reflection near 60 percent width and the main atmospheric lake in the central 60 percent; preserve foreground leaves even after moderate horizontal crop. Let the bottom-left dark lake be quiet enough for a small editable white caption, but do not draw any text. No lettering, no UI, no panels, no artificial particles, no neon, no fantasy castle, no watermark. This image is a new original art study.",
+      "output": "assets/generated/willow-lake.png",
+      "resultRecord": "Generated images are saved to D:\\codex\\home\\generated_images\\01a1c9a8-4750-7541-a6b6-7d65bf7da700 as D:\\codex\\home\\generated_images\\01a1c9a8-4750-7541-a6b6-7d65bf7da700\\exec-b346a4e9-0af3-4975-bcb6-f7fa0e51d3cf.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "model": "not returned",
+      "seed": "not returned"
+    },
+    {
+      "key": "afternoon-window",
+      "prompt": "Use case: photorealistic-natural. Asset: original fine-art image for a contemplative digital exhibition, not a website mockup. A wide 16:10 poetic analog photograph of an old open French countryside window in late afternoon. Soft ivory linen curtain drifts inward in a light breeze, its translucent weave catches a honey-colored shaft of light. A simple worn empty wooden chair sits in the right-center, partly touched by light. Beyond the opening is a slightly out-of-focus overgrown green garden, a few delicate white wildflowers and summer air. No neatly staged product props, no coffee mugs, no books, no text. Emotional intention: the trace of someone's presence, time passing gently, an ordinary room that feels quietly remembered. The curtain is the moving visual center; its folds create an organic curved rhythm, subtly balanced with the chair and the straight old window frame. Use a restrained palette of linen cream, old wood, moss green and pale warm light, believable airy shadows, very soft lens halation, fine film grain, lowered microcontrast and a sensitive tactile painterly quality. This must feel like an arresting personal art photograph rather than a commercial interior photo. Large soft areas let the eye rest, no clutter, no exaggerated god rays. Maintain key curtain and chair details in the middle 60 percent so moderate portrait cropping still tells the story. Frame fully as an image without borders, letters, logo, UI or watermark. New original art study.",
+      "output": "assets/generated/afternoon-window.png",
+      "resultRecord": "Generated images are saved to D:\\codex\\home\\generated_images\\01a1c9a8-4750-7541-a6b6-7d65bf7da700 as D:\\codex\\home\\generated_images\\01a1c9a8-4750-7541-a6b6-7d65bf7da700\\exec-1abdc4a1-9a2b-46d3-b3dd-49ffa190275b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "model": "not returned",
+      "seed": "not returned"
+    }
+  ]
+}

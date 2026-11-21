@@ -1,0 +1,279 @@
+{
+  "updatedAt": "2026-11-21",
+  "status": {
+    "headline": "仍在校准，尚无明确选中的生成图",
+    "summary": "共29张资料：2张原帖基准、22张生成试作、5张外部摄影。生成图中10张待评、11张未选、1张停用历史。",
+    "counts": {
+      "total": 29,
+      "generated": 22,
+      "pending": 10,
+      "notSelected": 11,
+      "withdrawn": 1,
+      "pinned": 2,
+      "external": 5,
+      "selectedGenerated": 0,
+      "positiveExternal": 0
+    },
+    "currentDirection": "摄影质感、由画面自身承载的情绪与原创水景；具体方法仍待实图验证。",
+    "colorPolicy": "暖色曾被优先强调，后来明确不再必需；当前色温自由。",
+    "reviewPolicy": "只按逐图明确反馈更新状态。“继续”表示继续尝试，不代表认可；未评定不等于成功。"
+  },
+  "findings": [
+    {
+      "title": "只有置顶双图获得明确正向反馈",
+      "evidence": "用户明确：仍只有海豚与橙色光弧、鲸尾与满月这两张原帖图，能让自己停留。",
+      "meaning": "这是当前审美基准；22张生成试作尚未形成获选结果。"
+    },
+    {
+      "title": "自然、干净、精细都不足以命中",
+      "evidence": "翠鸟被评为自然但像普通生态摄影；石阶改干净后仍无感觉；雨靴的暖色与细节也未能弥补题材。",
+      "meaning": "工作判断：不能把物理可信度、清洁画面或材质精度当作情绪效果的替代指标。"
+    },
+    {
+      "title": "五张摄影参考未成为审美目标",
+      "evidence": "用户看过Aureus、Golden Arch、Ignis、猩猩倒影与老虎贴树后，明确表示都不能让自己停留。",
+      "meaning": "保留为调研记录；作品质量、奖项与助手偏好都不能替代用户反应。"
+    },
+    {
+      "title": "暖色是阶段要求，现已解除",
+      "evidence": "用户先强调暖色、细节与HDR类层次，后来明确“不必关注暖色”，转向摄影质感与情绪。",
+      "meaning": "后续创作按最新要求选色，不再固定为金黄或冷灰。"
+    },
+    {
+      "title": "清晰的视觉关系仍是工作假设",
+      "evidence": "可见事实：原帖双图都有暗轮廓、集中的亮形、简洁背景，以及主体姿态与落水细节之间的关系。",
+      "meaning": "工作判断：可尝试紧密的轮廓关系、亮度集中与冻结瞬间；这尚不是已验证的成功公式。"
+    }
+  ],
+  "feedbackTimeline": [
+    {
+      "stage": "初期示范与氛围展厅",
+      "ids": [
+        "comfort",
+        "hope",
+        "delight",
+        "willow-lake",
+        "afternoon-window"
+      ],
+      "feedback": "这五张属于早期网页示范，现有记录没有逐图明确评价或选中。",
+      "lesson": "保留待评；网页采用它们，不代表用户认可其情绪效果。",
+      "certainty": "记录事实 · 未逐图评定"
+    },
+    {
+      "stage": "鲸尾初稿越过参考边界",
+      "ids": [
+        "poetic-whale-moon-v1"
+      ],
+      "feedback": "用户否定沿用鲸尾与月亮的主体组合及空间构图，要求只借风格和技术。",
+      "lesson": "该稿停用，仅保留图片与记录供追溯。",
+      "certainty": "用户明确否定"
+    },
+    {
+      "stage": "诗意关系的三次试验",
+      "ids": [
+        "poetic-dandelion-rain-v1",
+        "poetic-storm-sheet-v1",
+        "poetic-kingfisher-reflection-v1"
+      ],
+      "feedback": "蒲公英普通；床单有张力但刻意；翠鸟自然，却仍像普通生态摄影。",
+      "lesson": "工作判断：只换主体、强化动作或提高真实感，都不足以解决差距。",
+      "certainty": "反馈已确认 · 成因待验证"
+    },
+    {
+      "stage": "石阶空间反转及两次修订",
+      "ids": [
+        "poetic-stone-steps-sky-v1",
+        "poetic-stone-steps-sky-v2",
+        "poetic-stone-steps-sky-v3"
+      ],
+      "feedback": "第二版有点意境但没有感觉，云倒影显脏；第三版更干净，仍不能让人停留。用户明确放弃方向。",
+      "lesson": "不再围绕石阶返修；修净局部不等于建立吸引力。",
+      "certainty": "用户明确反馈与终止方向"
+    },
+    {
+      "stage": "转向直接的人物情绪",
+      "ids": [
+        "poetic-autumn-gust-v1"
+      ],
+      "feedback": "用户看男孩与秋叶后表示“看了没感觉”。",
+      "lesson": "工作判断：画面里出现笑容，也不能证明观看者产生了情绪。",
+      "certainty": "用户明确反馈"
+    },
+    {
+      "stage": "阶段要求：暖色与细节优先",
+      "ids": [
+        "warm-cat-tonal-detail-v1"
+      ],
+      "feedback": "用户曾明确排序：先暖色，再细节与HDR一类处理，最后情绪；橘猫图没有逐图明确认可或否定。",
+      "lesson": "记录该阶段要求，橘猫保留待评，不倒推为永久色彩偏好。",
+      "certainty": "要求已确认 · 本图待评"
+    },
+    {
+      "stage": "水与倒影：雨靴、夜航",
+      "ids": [
+        "rain-boot-broken-gold-v1",
+        "night-boat-window-light-v1"
+      ],
+      "feedback": "雨靴题材本身没有感觉，暖色细节也救不了；夜航后用户总评图都太平，要求找优秀摄影参考。",
+      "lesson": "工作判断：继续强化表面效果，不能替代题材与画面关系的校准。",
+      "certainty": "用户明确反馈"
+    },
+    {
+      "stage": "外部摄影调研与后续回看",
+      "ids": [
+        "external-aureus",
+        "external-golden-arch",
+        "external-ignis",
+        "external-world-upside-down",
+        "external-the-embrace"
+      ],
+      "feedback": "五张外部摄影均已展示；后续用户明确确认，它们都没有触发愿意停留的感觉。",
+      "lesson": "保留出处与技法观察，不把它们标为用户偏好或创作目标。",
+      "certainty": "用户明确反馈"
+    },
+    {
+      "stage": "暖光浪峰的两张变体",
+      "ids": [
+        "amber-wave-blade-v1",
+        "amber-wave-confluence-v1"
+      ],
+      "feedback": "用户继续要求出新图，没有对这两张作明确逐图认可或否定。",
+      "lesson": "两张均待评；“继续”不转换为选中。",
+      "certainty": "待评 · 无认可结论"
+    },
+    {
+      "stage": "解除暖色限制，转向冷调水景",
+      "ids": [
+        "rain-front-silver-lake-v1",
+        "under-ice-silver-fissure-v1"
+      ],
+      "feedback": "用户明确不必关注暖色；雨湖与冰下裂隙随后都被评价为仍没有愿意停留的感觉。",
+      "lesson": "当前色温自由；两图未选，不能把冷调或水下空间当作新的命中答案。",
+      "certainty": "要求与未选反馈均已确认"
+    },
+    {
+      "stage": "回到原帖双图，再试鹭与倒影",
+      "ids": [
+        "pinned-dolphin-sun",
+        "pinned-whale-moon",
+        "heron-reflected-lightning-v1",
+        "egret-departing-reflection-v1"
+      ],
+      "feedback": "用户再次明确只有原帖双图能让其停留；鹭翼与折光、白鹭离水尚无明确选中记录。",
+      "lesson": "只借风格和技术，重新设计主体及关系；两个新试作继续待评。",
+      "certainty": "参考偏好已确认 · 新图待评"
+    }
+  ],
+  "values": [
+    {
+      "title": "把审美依据留清楚",
+      "description": "让正向参考、明确未选与尚未评定各自有位置，减少反复猜测。",
+      "deliverable": "2张原帖基准、5张外参调研与逐图反馈。",
+      "verification": "对照用户明确反馈；不以页面展示顺序或“继续”代替认可。"
+    },
+    {
+      "title": "让每次试验可以回查",
+      "description": "保留试作、实际提示词与生成记录，也保留停用原因。",
+      "deliverable": "22张生成图、尺寸与提示词/记录入口。",
+      "verification": "图集记录已核对全部22张本地PNG；鲸尾初稿单列停用历史。"
+    },
+    {
+      "title": "先看画面，再作比较",
+      "description": "提供原比例放大、纯看图和有限并排对照，支持具体讨论差异。",
+      "deliverable": "完整图集、来源与状态筛选、最多3张对照。",
+      "verification": "2026-11-15已留存浏览器功能核验；功能可用不等于情绪达标。"
+    },
+    {
+      "title": "把观察变成可修改的方案",
+      "description": "旧工作台继续保留创作目标、个人观察、裁切与导出工具。",
+      "deliverable": "PNG海报、Markdown简报、JSON记录与静态镜头预演。",
+      "verification": "既有导出样本与核验记录可查；开发测试观察不是用户研究结果。"
+    }
+  ],
+  "rules": [
+    "仅原帖置顶两图获得明确正向反馈；未选与待评图都不是成功案例。",
+    "以逐图明确反馈更新状态；“继续”不视为认可，不把泛泛总评套到未评定的单图。",
+    "当前色温自由；暖色与HDR式处理是阶段选择，不是固定审美规则。",
+    "只参考风格与技术，重新设计主体、场景、瞬间和构图。",
+    "禁止照搬海豚与光弧相扣、鲸尾托月及对应水帘组合；只换动物仍可能沿用具体构图。",
+    "让情绪由画面承担；标题和长说明不能代替用户看图后的感受。",
+    "轮廓关系、集中亮区与冻结瞬间属于待验证方法，不预先宣告命中。"
+  ],
+  "boundaries": [
+    "原帖作者与制作方式未核实：可能为真实拍摄、合成或AI生成，不能凭摄影外观作结论。",
+    "22张试作明确为Image Gen生成，不是实际拍摄事件；未返回的模型版本与种子保持未知。",
+    "HDR在本项目指视觉层次目标；保存的RGB PNG不是已验证的原生HDR交付，也不证明多曝光合成。",
+    "8秒镜头只是浏览器对静态图的平移缩放预演，不是AI生成视频或已制作音轨。",
+    "图集与工具的功能核验不能证明审美命中、普遍观众情绪、传播效果或商业价值。",
+    "没有核实来源账号的付费产品、课程、软件与收入，不据此虚构商业成果。",
+    "外部摄影保持原站在线引用，权利属于各自权利人；未声称获得再分发许可。",
+    "停用与未选作品保留作追溯，不作为新的原创推荐；浏览器里的个人观察也不等于受众实验。"
+  ],
+  "resources": [
+    {
+      "title": "艺术与情绪：一图理解与价值",
+      "url": "art-direction-map.html",
+      "kind": "视觉总览与PNG导出"
+    },
+    {
+      "title": "艺术入口与价值设计依据",
+      "url": "docs/art-emotion-entry-20261121.md",
+      "kind": "设计记录"
+    },
+    {
+      "title": "完整图片图集",
+      "url": "collection.html#browse",
+      "kind": "页面"
+    },
+    {
+      "title": "逐图状态与反馈",
+      "url": "collection-data.json",
+      "kind": "数据"
+    },
+    {
+      "title": "原帖置顶双图",
+      "url": "https://x.com/cozyycabin/status/2084009202192949678",
+      "kind": "原帖"
+    },
+    {
+      "title": "来源与未核实事项",
+      "url": "docs/sources.json",
+      "kind": "来源记录"
+    },
+    {
+      "title": "五张外部摄影调研",
+      "url": "docs/photography-reference-selection-20261112.json",
+      "kind": "调研记录"
+    },
+    {
+      "title": "创作方向诊断与要求变更",
+      "url": "docs/poetic-direction-diagnosis-20261112.md",
+      "kind": "分析记录"
+    },
+    {
+      "title": "首批示范图实际提示词",
+      "url": "docs/generation-prompts.json",
+      "kind": "提示词"
+    },
+    {
+      "title": "氛围展厅实际提示词",
+      "url": "docs/atmosphere-generation-prompts.json",
+      "kind": "提示词"
+    },
+    {
+      "title": "图片尺寸与校验清单",
+      "url": "docs/asset-manifest.json",
+      "kind": "资产记录"
+    },
+    {
+      "title": "图集功能核验",
+      "url": "docs/collection-verification-20261115.json",
+      "kind": "验证记录"
+    },
+    {
+      "title": "工作台导出与预演核验",
+      "url": "docs/verification.md",
+      "kind": "验证记录"
+    }
+  ]
+}

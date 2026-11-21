@@ -1,0 +1,281 @@
+{
+  "generatedAt": "2026-11-12",
+  "assets": [
+    {
+      "path": "assets/generated/afternoon-window.png",
+      "bytes": 2424950,
+      "sha256": "ee6f6ee8275242fa292499cf01e8b9224b58365d1ec069def29e122efb84729e",
+      "size": [
+        1586,
+        992
+      ]
+    },
+    {
+      "path": "assets/generated/comfort.png",
+      "bytes": 3003986,
+      "sha256": "53a686a297fe08479ef7b6d5bf013124e7c6180cb7d73e4d4adb2e4e36e79823",
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "assets/generated/delight.png",
+      "bytes": 2500081,
+      "sha256": "5ca8ad8a645ae435cea2f270a325f3569eb49015f7e1bfe94c692d8041be45d9",
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "assets/generated/hope.png",
+      "bytes": 2092772,
+      "sha256": "a59255d206863bf3fb71c0b14b46ff44e8cf0a5fff6559d655b0979665818def",
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "assets/generated/willow-lake.png",
+      "bytes": 2527298,
+      "sha256": "39e0fb822f75570fb54cc9ec96eee6677df7d2808d9af243995ddac3d4f5b753",
+      "size": [
+        1586,
+        992
+      ]
+    },
+    {
+      "path": "assets/mark.svg",
+      "bytes": 324,
+      "sha256": "f100149228b3fda7d8bb672f6086ebac84f2409b875d26f881bd451a75121446",
+      "size": null
+    },
+    {
+      "path": "assets/references/avatar.jpg",
+      "bytes": 15018,
+      "sha256": "3e1aaa1785ce5c7ce78b73ce041303c00ff032868e6e8b1c7debc78b0dd731cd",
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "path": "assets/references/baking.webp",
+      "bytes": 87340,
+      "sha256": "d069b5dc11799efc10d75b64a391ff7a680a086bb25eb415ec84a046d1bb339d",
+      "size": [
+        509,
+        680
+      ]
+    },
+    {
+      "path": "assets/references/banner.jpg",
+      "bytes": 42259,
+      "sha256": "b55744ec3e1e5fa21257e8340a1d4cfa54953e9a747137b6a0c9374e9607813e",
+      "size": [
+        600,
+        200
+      ]
+    },
+    {
+      "path": "assets/references/flowers.webp",
+      "bytes": 54214,
+      "sha256": "34ce7648656210bba03d3bdbb47f9c16f1429c9cc307366c1b22923b34bd0257",
+      "size": [
+        684,
+        512
+      ]
+    },
+    {
+      "path": "assets/references/pinned-dolphin-sun.webp",
+      "bytes": 20828,
+      "sha256": "f91f8006385ed76263951d8844e0d3b373ad2f7f1a28c5b869f6364a90d5af18",
+      "size": [
+        510,
+        680
+      ]
+    },
+    {
+      "path": "assets/references/pinned-whale-moon.webp",
+      "bytes": 46324,
+      "sha256": "e24d101c04f2e5a6c142414ff840f0ddd3910330a581ab1408565205fe1e15c5",
+      "size": [
+        680,
+        680
+      ]
+    },
+    {
+      "path": "assets/references/rain-cat.webp",
+      "bytes": 115450,
+      "sha256": "b4bb6dc534285d3169677ad569d622e2a698f63e0c7fdd7cbdad1b326301a0a4",
+      "size": [
+        1200,
+        675
+      ]
+    },
+    {
+      "path": "assets/generated/poetic-whale-moon-v1.png",
+      "bytes": 1993287,
+      "sha256": "a682fb91f850240555860a3a58be65a7831a3859cf02fa65475be271fe15f6e1",
+      "size": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "path": "assets/generated/poetic-dandelion-rain-v1.png",
+      "bytes": 1908293,
+      "sha256": "69354fb8318a2f7b6ca566b399e15fc5a805aef5620441eb7c60f86956fcec97",
+      "size": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "path": "assets/generated/poetic-storm-sheet-v1.png",
+      "bytes": 2266222,
+      "sha256": "3b19df04ce7912ef4280c971cf1d182a453120820ec35d659aed416bc5a41299",
+      "size": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "path": "assets/generated/poetic-kingfisher-reflection-v1.png",
+      "bytes": 1757381,
+      "sha256": "7154befeed9d7e0090cf584c92f99497e310dc1bfd4f0edb499f43a80e160986",
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "assets/generated/poetic-stone-steps-sky-v1.png",
+      "bytes": 2275108,
+      "sha256": "005e0c41beb23d2a47ad5136a090040b10ba4ef6053c71238de02265f261dd7b",
+      "size": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "path": "assets/generated/poetic-stone-steps-sky-v2.png",
+      "bytes": 2130662,
+      "sha256": "052995a41eeb17377b9ec8dee33e323f54fe2f30eb71cacb3c42939ffd298e9a",
+      "size": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "path": "assets/generated/poetic-stone-steps-sky-v3.png",
+      "bytes": 2047339,
+      "sha256": "172ca0e38f1f671745569e439c2f9e6ced2a201050553ecee6b41e0a4851875a",
+      "size": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "path": "assets/generated/poetic-autumn-gust-v1.png",
+      "bytes": 2659676,
+      "sha256": "f41eda6ad0fdaea00c44739c016cb963f45326f756b351b622d6f3fe84191bb0",
+      "size": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "path": "assets/generated/warm-cat-tonal-detail-v1.png",
+      "bytes": 2912847,
+      "sha256": "48d63f9a24492735ad5e1d2f22fb188b1d05567710d5db475521d43f46ea2a5b",
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/generated/rain-boot-broken-gold-v1.png",
+      "bytes": 2250452,
+      "sha256": "2f01c0592a9bb8626a55e41a58c941b801ee760d8cf12a6996bc1830544aec2e",
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/generated/night-boat-window-light-v1.png",
+      "bytes": 1982671,
+      "sha256": "8344febe603b2026182808a6a3ba56b92a7e8411fd1d74294fc19b845cb257cd",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/generated/amber-wave-blade-v1.png",
+      "bytes": 2259820,
+      "sha256": "3f8c481f4144652e4edf1675b79802fb07e737dc144b44b04daa129a46d06dc4",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/generated/amber-wave-confluence-v1.png",
+      "bytes": 2137245,
+      "sha256": "851d8dffd08edea1e0def8f3829bb91d3506778841fe6c07b8edb975a047c69a",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/generated/rain-front-silver-lake-v1.png",
+      "bytes": 2066717,
+      "sha256": "ce1591ad943933ef24e5e41d7ae1dd102a7216a7880e806f0bb678a51aae9794",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/generated/under-ice-silver-fissure-v1.png",
+      "bytes": 2172308,
+      "sha256": "8dc857b9a0f5928fcf0efe8b4fc8df27f89a78e2b430a906cfd0d18c51d93f84",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/generated/heron-reflected-lightning-v1.png",
+      "bytes": 1817392,
+      "sha256": "5f9e0ba39d1632e33fd03e043a958d2657e0b19e8e55fa01680351df1724647e",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/generated/egret-departing-reflection-v1.png",
+      "bytes": 1813015,
+      "sha256": "d13f06347a54ae4c63ead1f70b61d73ffd4d59ce25088462c4639c2d406d8014",
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB"
+    }
+  ]
+}

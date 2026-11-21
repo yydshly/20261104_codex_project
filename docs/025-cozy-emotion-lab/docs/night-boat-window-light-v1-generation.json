@@ -1,0 +1,35 @@
+{
+  "createdAt": "2026-11-12",
+  "status": "not_selected_by_user",
+  "userFeedback": "The images are all too flat. Find excellent existing images or photography to study as references.",
+  "followupResearch": "docs/photography-reference-selection-20261112.json",
+  "tool": "image_gen.imagegen",
+  "mode": "new generation",
+  "taxonomy": "photorealistic-natural",
+  "model": "not exposed by tool",
+  "seed": "not exposed by tool",
+  "actualPromptFile": "docs/night-boat-window-light-v1-prompt.txt",
+  "inputImages": [],
+  "responseToUserFeedback": "User rejected the boot subject itself. Do not revise the boot image. A new human journey scene replaces the product-like close-up.",
+  "userPrioritiesInOrder": [
+    "Warm palette",
+    "Rich detail and HDR-like tonal treatment",
+    "Visible emotion"
+  ],
+  "referenceBoundary": "Independent skiff, paddler and inland river window-light subject. No account photographs or prior generated images supplied.",
+  "visualReview": {
+    "observed": "A lone paddler in a weathered skiff sits at the boundary between quiet dark water and large amber window reflections. Wet wood, wool clothing, a dipped paddle and narrow disturbed water remain readable. Open dark space fills the left side.",
+    "limitations": "The scene retains a recognizable night-river photographic genre; no claim that the subject or emotional effect satisfies the user before feedback. AI-generated image, not documentary capture.",
+    "technicalScope": "HDR-like tonal appearance is an artistic target; the saved RGB PNG is not claimed to be a calibrated HDR deliverable."
+  },
+  "output": {
+    "path": "assets/generated/night-boat-window-light-v1.png",
+    "bytes": 1982671,
+    "sha256": "8344febe603b2026182808a6a3ba56b92a7e8411fd1d74294fc19b845cb257cd",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB"
+  }
+}
