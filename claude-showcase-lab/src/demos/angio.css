@@ -1,0 +1,185 @@
+.angio-demo {
+  --angio-bg: #152130;
+  --angio-rule: #8cb9ca40;
+  --angio-text: #e9f1f5;
+  --angio-muted: #bacbd9;
+  --angio-accent: #9cddde;
+  background: var(--angio-bg);
+  color: var(--angio-text);
+  border: 1px solid var(--angio-rule);
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.angio-demo .angio-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 18px;
+}
+
+.angio-demo .angio-eyebrow {
+  margin: 0;
+  color: var(--angio-muted);
+  font: 650 10px ui-monospace, monospace;
+  letter-spacing: 0.14em;
+}
+
+.angio-demo .angio-heading h3 {
+  margin: 3px 0 0;
+  font-size: clamp(18px, 3vw, 24px);
+  color: var(--angio-text);
+}
+
+.angio-demo .angio-badge {
+  flex-shrink: 0;
+  border: 1px solid #9cddde68;
+  color: var(--angio-accent);
+  background: #9cddde10;
+  border-radius: 999px;
+  padding: 5px 9px;
+  font-size: 11px;
+}
+
+.angio-demo .angio-views {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--angio-rule);
+  border-block: 1px solid var(--angio-rule);
+}
+
+.angio-demo .angio-figure {
+  min-width: 0;
+  margin: 0;
+  background: #101c2a;
+}
+
+.angio-demo .angio-figure figcaption {
+  padding: 8px 12px;
+  font-size: clamp(10px, 1.8vw, 13px);
+  letter-spacing: 0.03em;
+  background: #1c2b3b;
+}
+
+.angio-demo .angio-figure figcaption span {
+  padding-right: 4px;
+  color: var(--angio-accent);
+  font: 600 10px ui-monospace, monospace;
+}
+
+.angio-demo .angio-figure svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.angio-demo [data-model-vessels] text {
+  fill: #fff6ec;
+  stroke: #1b2b38;
+  stroke-width: 2px;
+  paint-order: stroke;
+  font: 650 10px ui-monospace, monospace;
+}
+
+.angio-demo .angio-controls {
+  display: grid;
+  gap: 13px;
+  padding: 14px 18px 16px;
+  font-size: 12px;
+}
+
+.angio-demo .angio-ranges {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.angio-demo .angio-ranges label {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.angio-demo .angio-ranges output {
+  color: var(--angio-accent);
+  font: 650 12px ui-monospace, monospace;
+}
+
+.angio-demo input {
+  accent-color: var(--angio-accent);
+  cursor: pointer;
+}
+
+.angio-demo input[type="range"] {
+  display: block;
+  width: 100%;
+  margin: 6px 0 0;
+}
+
+.angio-demo .angio-presets,
+.angio-demo .angio-choice {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.angio-demo .angio-presets button {
+  border: 1px solid var(--angio-rule);
+  background: #8bcfd00c;
+  color: var(--angio-text);
+  border-radius: 5px;
+  padding: 5px 8px;
+  font: 600 11px ui-monospace, monospace;
+  cursor: pointer;
+}
+
+.angio-demo .angio-presets button:hover,
+.angio-demo .angio-presets button[aria-pressed="true"] {
+  border-color: var(--angio-accent);
+  background: #8bcfd026;
+}
+
+.angio-demo .angio-choice {
+  border: 1px solid var(--angio-rule);
+  border-radius: 6px;
+  margin: 0;
+  min-width: 0;
+  padding: 5px 10px 7px;
+  gap: 13px;
+}
+
+.angio-demo .angio-choice legend {
+  padding-inline: 4px;
+  color: var(--angio-muted);
+}
+
+.angio-demo .angio-choice label {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  cursor: pointer;
+}
+
+.angio-demo :focus-visible {
+  outline: 2px solid var(--angio-accent);
+  outline-offset: 3px;
+}
+
+@media (max-width: 440px) {
+  .angio-demo .angio-heading,
+  .angio-demo .angio-controls {
+    padding-inline: 10px;
+  }
+
+  .angio-demo .angio-ranges {
+    gap: 10px;
+  }
+
+  .angio-demo .angio-figure figcaption {
+    padding-inline: 7px;
+  }
+}

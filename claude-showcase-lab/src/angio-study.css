@@ -1,0 +1,179 @@
+.lab-angio-study {
+  margin-bottom: 12px;
+  border: 1px solid #454b3a;
+  border-radius: 9px;
+  background: #22251d;
+}
+
+.lab-angio-study summary {
+  padding: 12px 15px;
+  color: #d3e595;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+.lab-angio-study-body {
+  padding: 0 15px 13px;
+  color: #e2e4d8;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.lab-angio-study-body p { margin: 4px 0 10px; }
+.lab-angio-study-body ol { padding-inline-start: 23px; }
+.lab-angio-study-body li + li { margin-top: 6px; }
+.lab-angio-study fieldset { min-width: 0; margin: 10px 0; padding: 6px 10px 9px; border: 1px solid #4f5641; }
+.lab-angio-study legend { padding: 0 4px; font-weight: 600; }
+.lab-angio-study label { display: block; padding-block: 3px; }
+.lab-angio-study input { accent-color: #b7d46f; }
+.lab-angio-study button {
+  padding: 5px 11px;
+  border: 1px solid #586347;
+  border-radius: 5px;
+  color: #dbe9ba;
+  background: #30372a;
+  font: inherit;
+  cursor: pointer;
+}
+
+.lab-angio-study [role="status"] { margin-top: 9px; color: #d3e595; }
+.lab-angio-study p.lab-angio-study-note { margin-top: 10px; color: #b8bead; font-size: 12px; }
+
+.lab-angio-films {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  max-width: 680px;
+  margin-block: 12px;
+}
+
+.lab-angio-films figure { margin: 0; }
+.lab-angio-films figcaption { margin-bottom: 6px; }
+.lab-angio-films figcaption span { margin-inline-end: 5px; color: #b8cb81; font-family: ui-monospace, monospace; }
+.lab-angio-preview { position: relative; aspect-ratio: 280 / 246; }
+.lab-angio-preview p {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  margin: 0;
+  padding: 10px;
+  border: 1px dashed #586347;
+  border-radius: 6px;
+  color: #c0c8b2;
+  text-align: center;
+}
+
+.lab-angio-film,
+.lab-angio-replay svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #727569;
+  border-radius: 6px;
+  background: radial-gradient(ellipse at 53% 47%, #e4e5dc 18%, #b8bcb2 76%, #9b9f95);
+}
+
+.lab-angio-angle [hidden] { display: none; }
+.lab-angio-context,
+.lab-angio-branch,
+.lab-angio-ray,
+.lab-angio-target {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.lab-angio-context { stroke: #5c625b; opacity: .7; }
+.lab-angio-branch { stroke-width: 4; }
+.lab-angio-target { stroke: #5d6045; stroke-dasharray: 3 3; }
+.lab-angio-ray { stroke-width: 1.4; stroke-dasharray: 5 3; }
+.lab-angio-detector { fill: #6b8a8a33; stroke: #758d87; stroke-dasharray: 3 2; }
+.lab-angio-angle-choices { display: flex; flex-wrap: wrap; gap: 4px 20px; }
+
+.lab-angio-replay {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 280px);
+  align-items: start;
+  gap: 14px;
+  margin-top: 14px;
+  padding: 12px;
+  border: 1px solid #4f5641;
+  border-radius: 7px;
+}
+
+.lab-angio-replay h4 { margin: 0 0 6px; font-size: 15px; }
+.lab-angio-replay svg { background: #deded2; }
+.lab-angio-gap output { color: #e2efaa; font: 650 1.1em ui-monospace, monospace; }
+.lab-angio-replay-controls label { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 4px; }
+
+.lab-angio-orange { color: #ffb98f; }
+.lab-angio-match {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  max-width: none;
+}
+
+.lab-angio-match figure[data-active] .lab-angio-match-image { outline: 2px solid #c2d88b; outline-offset: 2px; }
+.lab-angio-match figcaption small { display: block; color: #b8bead; }
+.lab-angio-match-image { position: relative; aspect-ratio: 280 / 246; border-radius: 6px; }
+.lab-angio-match-image [data-match-targets] { position: absolute; inset: 0; pointer-events: none; }
+.lab-angio-match-image [data-match-locked] {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  padding: 10px;
+  border: 1px dashed #586347;
+  border-radius: 6px;
+  color: #c0c8b2;
+  text-align: center;
+}
+
+.lab-angio-match-image [data-match-locked][hidden] { display: none; }
+.lab-angio-match-image button {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: 2px solid #e2e4d8;
+  border-radius: 50%;
+  color: #f4f7eb;
+  background: #384130e8;
+  font-weight: 650;
+  pointer-events: auto;
+}
+
+.lab-angio-match-image button:hover,
+.lab-angio-match-image button:focus-visible,
+.lab-angio-match-controls button[aria-pressed="true"] { color: #1b2515; background: #d3e595; }
+.lab-angio-match-controls { display: flex; flex-wrap: wrap; gap: 5px; margin-block: 8px; }
+.lab-angio-match-review { grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr); }
+.lab-angio-match-replay { margin-block: 0; }
+.lab-angio-match-review + button { margin-top: 12px; }
+
+.lab-angio-directions dl {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 12px 0 0;
+}
+
+.lab-angio-directions dl > div { border: 1px solid var(--line); border-radius: 6px; padding: 10px; }
+.lab-angio-directions dt { font-weight: 650; }
+.lab-angio-directions dd { margin: 4px 0 0; }
+.lab-angio-directions p.lab-angio-audience { color: #d3e595; }
+.lab-angio-directions dd a { display: inline-block; margin-top: 5px; color: #d3e595; font-size: 12px; }
+
+@media (max-width: 850px) {
+  .lab-angio-match { grid-template-columns: minmax(0, 1fr); max-width: 390px; }
+  .lab-angio-match-review { grid-template-columns: minmax(0, 1fr); }
+}
+
+@media (max-width: 600px) {
+  .lab-angio-replay { grid-template-columns: minmax(0, 1fr); }
+  .lab-angio-replay svg { max-width: 280px; }
+  .lab-angio-films { gap: 7px; }
+  .lab-angio-directions dl { grid-template-columns: minmax(0, 1fr); }
+}

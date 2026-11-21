@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="922" viewBox="0 0 1120 922" role="img" aria-labelledby="roadmap-title roadmap-description">
+  <title id="roadmap-title">FireTrace 山火回放路线</title>
+  <desc id="roadmap-description">当前演练把程序生成的地形和预设火势抵达时间接入同一时间轴，联动火线、无人机热像和消防资源。风线仅用于展示。后续可选历史案例，准备地形、逐小时风、燃料与含水率、历史火场边界和起火记录，再用 FARSITE 计算抵达时间栅格及模拟边界，与观测边界一起回放。验证时只改变风场进行对照，并按同一时刻检查边界与过火面积误差。</desc>
+  <defs>
+    <pattern id="roadmap-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#62705a" stroke-opacity=".18"/>
+    </pattern>
+    <marker id="roadmap-arrow-warm" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="m1 1 5 3-5 3" fill="none" stroke="#f4ac75" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="roadmap-arrow-cool" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="m1 1 5 3-5 3" fill="none" stroke="#daef8a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <style>
+    .type { font-family: "Microsoft YaHei UI", "PingFang SC", "Noto Sans CJK SC", system-ui, sans-serif; }
+    .title { fill: #f0f3e8; font-size: 42px; font-weight: 750; }
+    .eyebrow { fill: #daef8a; font-size: 17px; font-weight: 650; letter-spacing: 3px; }
+    .heading { fill: #f0f3e8; font-size: 25px; font-weight: 700; }
+    .label { fill: #ecf1e3; font-size: 22px; font-weight: 650; }
+    .body { fill: #bec9b7; font-size: 21px; }
+    .minor { fill: #b9c6b3; font-size: 19px; }
+    .warm { fill: #f4ac75; }
+    .cool { fill: #daef8a; }
+    .warm-arrow { fill: none; stroke: #f4ac75; stroke-width: 2; marker-end: url(#roadmap-arrow-warm); }
+    .cool-arrow { fill: none; stroke: #daef8a; stroke-width: 2; marker-end: url(#roadmap-arrow-cool); }
+  </style>
+
+  <rect x="1" y="1" width="1118" height="920" rx="23" fill="#161b16" stroke="#404b3b" stroke-width="2"/>
+  <path d="M800 21h279a20 20 0 0 1 20 20v90H800Z" fill="url(#roadmap-grid)"/>
+  <g fill="none" stroke="#9aaf75" stroke-opacity=".35" stroke-width="1.5">
+    <path d="M859 119 918 65l32 15 42-36 54 34 39-15"/>
+    <path d="m885 125 43-35 30 17 36-36 58 30 34-12"/>
+    <path d="m919 128 22-14 19 8 41-27 50 24 36-11"/>
+  </g>
+
+  <g class="type">
+    <text x="36" y="43" class="eyebrow">FIRETRACE / 实施路径</text>
+    <text x="36" y="91" class="title">山火回放路线</text>
+    <text x="37" y="122" class="body">从演练场景到真实案例的模拟与验证</text>
+
+    <rect x="35" y="148" width="1050" height="201" rx="13" fill="#231e19" stroke="#74513a"/>
+    <circle cx="60" cy="175" r="5" fill="#f4ac75"/>
+    <text x="77" y="183" class="heading">当前 · 演练场景</text>
+    <rect x="57" y="199" width="286" height="98" rx="8" fill="#2d251e" stroke="#74513a"/>
+    <rect x="385" y="199" width="209" height="98" rx="8" fill="#32271f" stroke="#b87950"/>
+    <rect x="637" y="199" width="426" height="98" rx="8" fill="#2d251e" stroke="#74513a"/>
+    <path d="M350 248h26" class="warm-arrow"/>
+    <path d="M602 248h26" class="warm-arrow"/>
+    <text x="74" y="236" class="label">程序生成地形</text>
+    <text x="74" y="269" class="body">预设火势抵达时间</text>
+    <text x="403" y="236" class="label warm">共享时间轴</text>
+    <text x="403" y="269" class="body">播放和拖动</text>
+    <text x="655" y="236" class="label">联动回放</text>
+    <text x="655" y="269" class="body">火线 · 无人机热像 · 消防资源</text>
+    <path d="M58 324h17" stroke="#f4ac75" stroke-width="2" stroke-dasharray="3 3"/>
+    <text x="84" y="331" class="minor">风线仅用于展示</text>
+
+    <rect x="35" y="367" width="1050" height="384" rx="13" fill="#1d251b" stroke="#556543"/>
+    <circle cx="60" cy="394" r="5" fill="#daef8a"/>
+    <text x="77" y="402" class="heading">后续按需</text>
+    <rect x="57" y="421" width="470" height="307" rx="9" fill="#242d20" stroke="#556543"/>
+    <rect x="588" y="421" width="475" height="307" rx="9" fill="#242d20" stroke="#556543"/>
+    <path d="M535 573h44" class="cool-arrow"/>
+
+    <circle cx="82" cy="451" r="15" fill="#daef8a"/>
+    <text x="82" y="458" text-anchor="middle" fill="#242d20" font-size="19" font-weight="750">1</text>
+    <text x="107" y="460" class="label">选历史案例，准备数据</text>
+    <path d="M72 479h440m-440 52h440m-440 52h440m-440 52h440" stroke="#54614b" stroke-width="1"/>
+    <text x="74" y="514" class="label cool">USGS 3DEP</text>
+    <text x="252" y="514" class="body">地形高程</text>
+    <text x="74" y="566" class="label cool">NOAA HRRR</text>
+    <text x="252" y="566" class="body">逐小时风场</text>
+    <text x="74" y="618" class="label cool">LANDFIRE</text>
+    <text x="252" y="618" class="body">燃料类型，另备含水率</text>
+    <text x="74" y="670" class="label cool">NIFC / FEDS</text>
+    <text x="252" y="670" class="body">历史火场边界</text>
+    <text x="252" y="700" class="minor">核对起火位置和时间</text>
+
+    <circle cx="613" cy="451" r="15" fill="#daef8a"/>
+    <text x="613" y="458" text-anchor="middle" fill="#242d20" font-size="19" font-weight="750">2</text>
+    <text x="638" y="460" class="label">模型计算，网页回放</text>
+    <rect x="608" y="480" width="434" height="45" rx="6" fill="#303c24" stroke="#61764a"/>
+    <text x="825" y="510" text-anchor="middle" class="label cool">FARSITE 模拟蔓延</text>
+    <path d="M825 530v15" class="cool-arrow"/>
+    <rect x="608" y="553" width="434" height="45" rx="6" fill="#293423" stroke="#61764a"/>
+    <text x="825" y="583" text-anchor="middle" class="label">抵达时间栅格 + 模拟边界</text>
+    <path d="M825 603v15" class="cool-arrow"/>
+    <rect x="608" y="626" width="434" height="82" rx="6" fill="#293423" stroke="#61764a"/>
+    <text x="825" y="658" text-anchor="middle" class="label">联动地形、时间轴与过火面积</text>
+    <text x="825" y="687" text-anchor="middle" class="minor">叠加观测边界与模型估计边界</text>
+
+    <rect x="35" y="770" width="1050" height="124" rx="13" fill="#1b231c" stroke="#475644"/>
+    <circle cx="60" cy="797" r="5" fill="#daef8a"/>
+    <text x="77" y="805" class="heading">再扩展 · 对照与验证</text>
+    <path d="M554 826v48" stroke="#54614b"/>
+    <text x="57" y="842" class="label cool">风场 A/B</text>
+    <text x="57" y="873" class="body">只替换风场，固定其他输入</text>
+    <text x="581" y="842" class="label cool">误差验证</text>
+    <text x="581" y="873" class="body">按同一时刻对比边界与过火面积</text>
+  </g>
+</svg>

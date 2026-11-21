@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'Harshpreet Hand';
+  src: url('/fonts/HarshpreetHand-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Harshpreet Hand';
+  src: url('/fonts/HarshpreetHand-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+.hand-lab {
+  --hand-ink: #192a73;
+  --hand-muted: #515d81;
+  color-scheme: light;
+  color: var(--hand-ink);
+  background: #eef0fa;
+  border: 1px solid #c3cae5;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.hand-lab__heading,
+.hand-lab__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 18px 22px;
+}
+
+.hand-lab__heading h3 {
+  margin: 2px 0 4px;
+  color: inherit;
+  font: 700 clamp(27px, 6vw, 46px)/1.12 'Harshpreet Hand', cursive;
+}
+
+.hand-lab__heading p {
+  margin: 0;
+  color: var(--hand-muted);
+  font-size: 13px;
+}
+
+.hand-lab__kicker {
+  color: var(--hand-muted);
+  font: 600 10px/1.2 ui-monospace, monospace;
+  letter-spacing: .16em;
+}
+
+.hand-lab__stamp {
+  display: grid;
+  place-items: center;
+  flex: 0 0 58px;
+  height: 58px;
+  border: 1px solid #a8b2d4;
+  border-radius: 50%;
+  font: 700 30px/1 'Harshpreet Hand', cursive;
+  transform: rotate(-9deg);
+}
+
+.hand-lab__controls {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  padding: 12px 22px;
+  color: #344166;
+  background: #e5e9f7;
+  border-block: 1px solid #c3cae5;
+  font-size: 13px;
+}
+
+.hand-lab__size,
+.hand-lab__toggle,
+.hand-lab__weight {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.hand-lab__size input { width: clamp(64px, 18vw, 128px); }
+.hand-lab__size output { min-width: 38px; font-variant-numeric: tabular-nums; }
+.hand-lab input { margin: 0; accent-color: #284ab8; }
+
+.hand-lab button {
+  min-height: 30px;
+  padding: 3px 9px;
+  border: 1px solid #aeb8d9;
+  border-radius: 7px;
+  color: var(--hand-ink);
+  background: #f8f8ff;
+  font: inherit;
+  cursor: pointer;
+}
+
+.hand-lab button[aria-pressed='true'] { color: white; background: #3248a2; border-color: #3248a2; }
+.hand-lab button:focus-visible,
+.hand-lab input:focus-visible { outline: 2px solid #1d45c1; outline-offset: 3px; }
+
+.hand-lab__sheet {
+  --hand-gutter: clamp(32px, 8vw, 76px);
+  padding: 14px 18px 0 var(--hand-gutter);
+  background: linear-gradient(to right, transparent calc(var(--hand-gutter) - 11px), #da898d calc(var(--hand-gutter) - 11px), #da898d calc(var(--hand-gutter) - 10px), transparent calc(var(--hand-gutter) - 10px)), #fcfaff;
+}
+
+.hand-lab__sheet-caption {
+  display: flex;
+  gap: 8px 16px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #515d81;
+  font-size: 11px;
+  cursor: text;
+}
+
+.hand-lab__sheet textarea {
+  --hand-size: 46px;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: clamp(210px, 39vw, 300px);
+  min-height: 165px;
+  margin-top: 6px;
+  padding: 0 4px;
+  resize: vertical;
+  border: 0;
+  outline: none;
+  color: var(--hand-ink);
+  caret-color: #93363b;
+  background: repeating-linear-gradient(to bottom, transparent 0 calc(1.11em - 1px), #d8def0 calc(1.11em - 1px) 1.11em, transparent 1.11em 1.45em);
+  font: 400 var(--hand-size)/1.45 'Harshpreet Hand', 'Segoe Print', cursive;
+  font-feature-settings: 'calt' 1, 'ss01' 0, 'kern' 1;
+  background-attachment: local;
+}
+
+.hand-lab__sheet textarea:focus-visible { outline: 2px solid #8194d3; outline-offset: -2px; }
+.hand-lab__footer { padding-block: 10px; border-top: 1px solid #c3cae5; color: var(--hand-muted); font-size: 11px; }
+
+@media (max-width: 520px) {
+  .hand-lab__heading, .hand-lab__controls, .hand-lab__footer { padding-inline: 13px; }
+  .hand-lab__stamp { display: none; }
+}

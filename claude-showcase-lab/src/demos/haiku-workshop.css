@@ -1,0 +1,143 @@
+.haiku-workshop {
+  --paper: #f0e7d4;
+  --ink: #263f4b;
+  --edge: #b1ac98;
+  overflow: hidden;
+  border: 1px solid var(--edge);
+  border-radius: 12px;
+  color: var(--ink);
+  background: var(--paper);
+  color-scheme: light;
+}
+
+.haiku-workshop__header {
+  padding: 20px clamp(14px, 3vw, 26px) 16px;
+  border-bottom: 1px solid var(--edge);
+}
+
+.haiku-workshop__header p {
+  margin: 0;
+  color: #745c4c;
+  font: 650 11px/1.3 ui-monospace, monospace;
+  letter-spacing: .13em;
+}
+
+.haiku-workshop__header h3 {
+  margin: 4px 0 3px;
+  font-family: KaiTi, "Songti SC", serif;
+  font-size: clamp(23px, 4vw, 34px);
+}
+
+.haiku-workshop__header span { color: #4d5f65; font-size: 14px; }
+.haiku-workshop__save { margin: 7px 0 0; color: #4d5f65; font-size: 12px; }
+
+.haiku-workshop__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.75fr) minmax(200px, 1fr);
+  align-items: start;
+  gap: 18px;
+  padding: clamp(12px, 2.5vw, 20px);
+}
+
+.haiku-workshop canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--edge);
+  border-radius: 3px;
+  box-shadow: 0 4px 14px #3b2b251e;
+}
+
+.haiku-workshop__timeline {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7px 10px;
+  margin-top: 9px;
+  font-size: 12px;
+}
+
+.haiku-workshop__timeline label { display: flex; flex: 1; align-items: center; gap: 7px; min-width: 120px; white-space: nowrap; }
+.haiku-workshop__timeline input { width: 100%; min-width: 45px; accent-color: #30576a; }
+.haiku-workshop__timeline output { font-variant-numeric: tabular-nums; }
+.haiku-workshop__frame-label { margin: 6px 0 0; color: #4d5f65; font-size: 12px; }
+
+.haiku-workshop__generator {
+  grid-column: 1 / -1;
+  display: grid;
+  gap: 6px;
+  padding: 12px;
+  border: 1px solid var(--edge);
+  border-radius: 6px;
+  background: #f7efdc;
+}
+.haiku-workshop__generator label { font-size: 13px; font-weight: 650; }
+.haiku-workshop__generator div { display: flex; flex-wrap: wrap; gap: 7px; }
+.haiku-workshop__generator input { flex: 1 1 190px; min-width: 0; }
+.haiku-workshop__generator button[type="submit"] { border-color: #30576a; color: #fcf8ec; background: #30576a; }
+.haiku-workshop__generator p { margin: 0; font-size: 12px; color: #4d5f65; }
+.haiku-workshop__storyboard { grid-column: 1 / -1; }
+.haiku-workshop__storyboard-label { display: flex; align-items: center; flex-wrap: wrap; gap: 7px 12px; margin-bottom: 6px; }
+.haiku-workshop__storyboard-label h4 { margin: 0; font-size: 13px; }
+.haiku-workshop__storyboard-label button { width: auto; min-height: 30px; }
+.haiku-workshop [hidden] { display: none; }
+.haiku-workshop__storyboard ol {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(96px, 1fr));
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.haiku-workshop__storyboard button {
+  display: flex;
+  width: 100%;
+  min-height: 38px;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 3px 6px;
+  text-align: left;
+}
+.haiku-workshop__storyboard button span,
+.haiku-workshop__storyboard button small { color: #4d5f65; font-variant-numeric: tabular-nums; }
+.haiku-workshop__storyboard button small { margin-inline-start: auto; }
+.haiku-workshop__storyboard button[aria-pressed="true"] {
+  border-color: #365768;
+  background: #dfe6de;
+}
+
+.haiku-workshop fieldset { min-width: 0; display: grid; gap: 8px; margin: 0; padding: 10px; border: 1px solid var(--edge); border-radius: 6px; }
+.haiku-workshop legend,
+.haiku-workshop__beats h4 { font-size: 14px; font-weight: 650; }
+.haiku-workshop fieldset label { display: grid; grid-template-columns: 64px minmax(0, 1fr); align-items: center; gap: 5px; font-size: 13px; }
+
+.haiku-workshop :is(button, select, input:not([type="range"], [type="checkbox"])) {
+  min-height: 34px;
+  padding: 4px 8px;
+  border: 1px solid #9caa9e;
+  border-radius: 4px;
+  color: var(--ink);
+  background: #fcf8ec;
+  font: inherit;
+  font-size: 13px;
+}
+
+.haiku-workshop :is(button, select) { cursor: pointer; }
+.haiku-workshop button:disabled { opacity: .55; cursor: default; }
+.haiku-workshop [data-poem-example] { justify-self: start; }
+.haiku-workshop__sound { display: inline-flex; align-items: center; gap: 5px; }
+.haiku-workshop__sound input { accent-color: #30576a; }
+.haiku-workshop [data-poem-export] { border-color: #30576a; color: #fcf8ec; background: #30576a; }
+.haiku-workshop :focus-visible { outline: 2px solid #30576a; outline-offset: 3px; }
+
+.haiku-workshop__beats h4 { margin: 12px 0 5px; }
+.haiku-workshop__beats ol { display: grid; gap: 4px; padding-inline-start: 18px; margin: 0 0 12px; font-size: 13px; }
+.haiku-workshop__beats li span { display: inline-block; min-width: 43px; color: #765947; font-variant-numeric: tabular-nums; }
+.haiku-workshop__export { display: flex; align-items: center; flex-wrap: wrap; gap: 9px; font-size: 13px; }
+.haiku-workshop__export label:first-child { display: flex; align-items: center; gap: 6px; }
+.haiku-workshop__export a { text-decoration: underline; }
+.haiku-workshop__status { margin: 5px 0 0; color: #4d5f65; font-size: 12px; }
+
+@media (max-width: 680px) {
+  .haiku-workshop__grid { grid-template-columns: minmax(0, 1fr); }
+}
