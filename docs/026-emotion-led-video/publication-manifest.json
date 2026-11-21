@@ -1,0 +1,339 @@
+{
+  "project": "026-emotion-led-video",
+  "date": "2026-11-21",
+  "site": "https://yydshly.github.io/20261104_codex_project/026-emotion-led-video/",
+  "guide": {
+    "path": "assets/emotion-led-research-overview-v1.png",
+    "sha256": "dadffe42005099b52557c1e63f199cd0ab2b0e634df2a3f88d83dc4dda0d8e4f",
+    "originalBytesPreserved": true
+  },
+  "scope": "Curated static research, concept images, two completed video samples and creative prompts.",
+  "webMedia": {
+    "episodes/cave-welcome-8s/renders/cave-welcome-8s-v1.mp4": {
+      "productionSha256": "6e41b96311eb4f22d6a9396a94d2b5e5b94939c792d36dc032202516ef766881",
+      "productionBytes": 6270639,
+      "webSha256": "909222647c89409e20bceb850a560a481915af37dc413a1acb5384a2accc55e1",
+      "webBytes": 1356702,
+      "transcode": "H264 CRF24 max1400k; original audio stream copied; dimensions, timing and frame rate retained"
+    },
+    "episodes/cave-birthday-15s/renders/cave-birthday-15s-v1.mp4": {
+      "productionSha256": "d9ca2d3ee9ba4e70a0eef71a02cce9208f4abde5442d109ce037f2a00a005f9a",
+      "productionBytes": 16268431,
+      "webSha256": "bf27c586390d9c9fb0eaecfbba5022f50bb57f5c0044b92e78c86e1503c3fff6",
+      "webBytes": 2802708,
+      "transcode": "H264 CRF24 max1400k; original audio stream copied; dimensions, timing and frame rate retained"
+    }
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 55,
+      "sha256": "482df65eb5ddd37a620ac63b81ae0e7ad76bae4e92c492c8fa90470041a16868"
+    },
+    {
+      "path": "archive.html",
+      "bytes": 14465,
+      "sha256": "eece12a238b7f253ce098f09ae21d924279b25b21267941f54041a4b664264b8"
+    },
+    {
+      "path": "assets/emotion-led-research-overview-v1.png",
+      "bytes": 2395096,
+      "sha256": "dadffe42005099b52557c1e63f199cd0ab2b0e634df2a3f88d83dc4dda0d8e4f"
+    },
+    {
+      "path": "assets/reference-frame-01.jpg",
+      "bytes": 84256,
+      "sha256": "60c92afdaf537d3c52be550dcf19c37c5d5bfcccfad7594ae4568a25a55e0bbe"
+    },
+    {
+      "path": "assets/reference-frame-02.jpg",
+      "bytes": 71256,
+      "sha256": "5bb291f0f7986f8b5f60877fe0e299c1afd53c480bbbe655a2f92da576301adf"
+    },
+    {
+      "path": "assets/reference-frame-03.jpg",
+      "bytes": 90430,
+      "sha256": "709e9169011423358d14de65007b398b93288495119090376ee3d5367c4c1490"
+    },
+    {
+      "path": "assets/reference-frame-04.jpg",
+      "bytes": 86235,
+      "sha256": "698978411ee41a1fde47ea6f314d16654dd8ebe025b8a22fe9cc35d6a756d107"
+    },
+    {
+      "path": "assets/reference-original-contact-sheet.jpg",
+      "bytes": 332386,
+      "sha256": "04a26bad83544cbf2027404cde3eb1e6816cc801a93cd42a857ce27a3685bb63"
+    },
+    {
+      "path": "assets/story-01-atmosphere-v1.png",
+      "bytes": 2810668,
+      "sha256": "cc32968da352d73604633f99be69456516bccf4f567dba6a830c9b8597c4661f"
+    },
+    {
+      "path": "assets/story-02-atmosphere-v1.png",
+      "bytes": 2632583,
+      "sha256": "533749466275c6a43d50f0bc43375c08cc6774d13d70f519dea88569e9c51da9"
+    },
+    {
+      "path": "assets/story-03-atmosphere-v1.png",
+      "bytes": 2469252,
+      "sha256": "b669ba1beeabb23bc3111aa50a08a8ebbe1a1863e9dbb750e39bf2f53fa22fc3"
+    },
+    {
+      "path": "assets/story-04-atmosphere-v1.png",
+      "bytes": 2377645,
+      "sha256": "8133360ad4e6977627f9f87a10a4399455879b73d41a22587e599aa39a2a8878"
+    },
+    {
+      "path": "assets/story-05-atmosphere-alt-v1.png",
+      "bytes": 2725958,
+      "sha256": "3481c11bf9d31a8a340a1355555772c878cd8ec93ece72470dcb1f10be603dfb"
+    },
+    {
+      "path": "assets/story-06-atmosphere-v1.png",
+      "bytes": 2383517,
+      "sha256": "f18944247b4ca8bbaf23d5edd45676ece99096561f8f609a49ea3c987c1351c8"
+    },
+    {
+      "path": "data.js",
+      "bytes": 44714,
+      "sha256": "6196d1bd69aed32e166b2380f1a3cf2f58e58bdba8309c486719ca0e0119797b"
+    },
+    {
+      "path": "docs/01-creative-understanding.md",
+      "bytes": 5502,
+      "sha256": "39ecc9b91a94390c9411681399ac4cefc5fd0e14405345b13c853af6dc0e8f45"
+    },
+    {
+      "path": "docs/02-six-stories.md",
+      "bytes": 41214,
+      "sha256": "0e526ad9244536d8091fdd3ea3bc1b8bc0247ebd234723284cbf091a1c549e8c"
+    },
+    {
+      "path": "docs/03-development-and-review.md",
+      "bytes": 10347,
+      "sha256": "a643e7e53b61a4fe52d498561d703272fd07d212e7632412fefcf9c2cca75099"
+    },
+    {
+      "path": "docs/04-sources-and-scope.md",
+      "bytes": 8600,
+      "sha256": "0068dd3736d5a912c84600493dc9157a1a772db88ce376aec74f7167406bd21f"
+    },
+    {
+      "path": "docs/05-viewing-feedback.md",
+      "bytes": 2795,
+      "sha256": "9e90aff9eb3ef50c93b13c0b10a1aaa02967bef21088180c0e08ce50d7d413ae"
+    },
+    {
+      "path": "docs/06-idea-card-and-viewpoints.md",
+      "bytes": 3799,
+      "sha256": "c3f94a90f27e30ebbf59223e4818604a59c1de3601d5c91d778359641299bf82"
+    },
+    {
+      "path": "docs/07-first-dynamic-test.md",
+      "bytes": 4800,
+      "sha256": "cdf76f4e35d67615188dbcbf7e2416a95fac187d369608d2ebeceebc19734a40"
+    },
+    {
+      "path": "docs/08-cave-story-revision.md",
+      "bytes": 4359,
+      "sha256": "5dd892e052df8e4b4dff286b31be586dab7a2c8fc997da8436cda4145f4f69ab"
+    },
+    {
+      "path": "docs/10-emotion-led-research.md",
+      "bytes": 3719,
+      "sha256": "77bf888c3b8e864695ec4b9e34d7d1b019e0741763703429b1b0ec1280f32ee4"
+    },
+    {
+      "path": "episodes/cave-birthday-15s/audio/captions-v1.json",
+      "bytes": 131,
+      "sha256": "09295247c04b415b5d6c08df657a8e528d67ab57498adb0261c9e2155b1d632f"
+    },
+    {
+      "path": "episodes/cave-birthday-15s/audio/captions-v1.srt",
+      "bytes": 106,
+      "sha256": "f7665d5f608c0f53788b8e0122757a935b0430f1feaa3dd3871e981c2038af63"
+    },
+    {
+      "path": "episodes/cave-birthday-15s/demo-data.js",
+      "bytes": 930,
+      "sha256": "876b3e9e015c49f02cf03a889f980ad5c323c1252787f55b2f7fce9fd4d30f9e"
+    },
+    {
+      "path": "episodes/cave-birthday-15s/index.html",
+      "bytes": 3446,
+      "sha256": "91f86ad14cf409870c7d2036d1ccf3e673ba1f70f3ac36dbdfcf0ff5a6a7777b"
+    },
+    {
+      "path": "episodes/cave-birthday-15s/player.css",
+      "bytes": 4716,
+      "sha256": "9a249a449275077ff162e4c3c69f652ec5ab56fed8155ec02395f11fa48850c4"
+    },
+    {
+      "path": "episodes/cave-birthday-15s/player.js",
+      "bytes": 4112,
+      "sha256": "8505b0c3ddca9ae1135b1368499d18e22a3945102ef1e2ff35bedfa5142ee647"
+    },
+    {
+      "path": "episodes/cave-birthday-15s/prompts/video-execution-v1.txt",
+      "bytes": 4159,
+      "sha256": "d580dfd1187fe6b173c8f83f44b40c9fe64ea84731e58045b4e0028afc712684"
+    },
+    {
+      "path": "episodes/cave-birthday-15s/README.md",
+      "bytes": 443,
+      "sha256": "37a219f1c88879e39e797f75e35f201515b1ecdf00b7cfd894c9a2089faa58df"
+    },
+    {
+      "path": "episodes/cave-birthday-15s/references/poster-v1.jpg",
+      "bytes": 66723,
+      "sha256": "9f553abeba777599f2343fd2036d98848f6c1005cc8d533b71062a72fa736d8d"
+    },
+    {
+      "path": "episodes/cave-birthday-15s/renders/cave-birthday-15s-v1.mp4",
+      "bytes": 2802708,
+      "sha256": "bf27c586390d9c9fb0eaecfbba5022f50bb57f5c0044b92e78c86e1503c3fff6"
+    },
+    {
+      "path": "episodes/cave-birthday-15s/reports/delivery-record-v1.json",
+      "bytes": 618,
+      "sha256": "16c08939c90f0976e3fa334a536e4a669b0c3a06000ac5b794f991b34b4bdeaf"
+    },
+    {
+      "path": "episodes/cave-birthday-15s/reports/story-review-v1.json",
+      "bytes": 1852,
+      "sha256": "943b28e6ecb8a64fbc3ca3c348c64e9661ee04fa9e1d2b2225a3fc0acdaf154f"
+    },
+    {
+      "path": "episodes/cave-welcome-8s/demo-data.js",
+      "bytes": 703,
+      "sha256": "eb2b7c1251989f541a759445394fb3684fcd41a428af0dacc3d2b8f89512e9ca"
+    },
+    {
+      "path": "episodes/cave-welcome-8s/index.html",
+      "bytes": 4519,
+      "sha256": "da7c3e107391a34c55e327c12e1f9377c2008c41318b12920eb1552832229f97"
+    },
+    {
+      "path": "episodes/cave-welcome-8s/player.css",
+      "bytes": 8141,
+      "sha256": "4a97f8b9c699a1562d2c13b1d0fcfc6004a8102ef5d76922025547f647299007"
+    },
+    {
+      "path": "episodes/cave-welcome-8s/player.js",
+      "bytes": 5378,
+      "sha256": "c410cf625c54fa91171e63f10ad6b87356aa64c5c0b0407a81c5e4446c8009ff"
+    },
+    {
+      "path": "episodes/cave-welcome-8s/README.md",
+      "bytes": 442,
+      "sha256": "969ad2e20a07f9da86d3e198b39d76173ca033cdf23c119e2039864c9ffaa768"
+    },
+    {
+      "path": "episodes/cave-welcome-8s/references/start-frame-v1.png",
+      "bytes": 2901309,
+      "sha256": "a8e720cf12fc3849b976d9727a5654fd38f18e76e3c28eab21abbdbd6f45b2d3"
+    },
+    {
+      "path": "episodes/cave-welcome-8s/renders/cave-welcome-8s-v1.mp4",
+      "bytes": 1356702,
+      "sha256": "909222647c89409e20bceb850a560a481915af37dc413a1acb5384a2accc55e1"
+    },
+    {
+      "path": "index.html",
+      "bytes": 12724,
+      "sha256": "1c3c071fe335846c7c775fc82f1cb3cca625b0ea02b85e6018b5b111dc5a7bbf"
+    },
+    {
+      "path": "prompts/index.html",
+      "bytes": 1385,
+      "sha256": "b8c73d476e1a9b809b11048702e00450d4b28c02499ee04b3a02e5d5d44b8df4"
+    },
+    {
+      "path": "prompts/research-board/emotion-led-overview-v1.txt",
+      "bytes": 6453,
+      "sha256": "cc52f2d3c775c900cbd0f2eae33e08aeeaeb3a1d79ad55597f63b4c62ea8d1ba"
+    },
+    {
+      "path": "prompts/story-01-atmosphere-v1.txt",
+      "bytes": 2388,
+      "sha256": "585a15e0a729ef05b607aae9fed3e271291219d8a08a676ab91356e2a2526858"
+    },
+    {
+      "path": "prompts/story-02-atmosphere-v1.txt",
+      "bytes": 2541,
+      "sha256": "61a716fbaf531817d88cf509fcf6a94598100db687deb2a133de46d89ec567f6"
+    },
+    {
+      "path": "prompts/story-03-atmosphere-v1.txt",
+      "bytes": 2532,
+      "sha256": "b9e38f29632508fede26debb4a1630124c8fef5db854ebcec866fa265cfeb163"
+    },
+    {
+      "path": "prompts/story-04-atmosphere-v1.txt",
+      "bytes": 2598,
+      "sha256": "08009bc8df157db88dfb75051b410b0187808461b9acbe7625a6e3c98e33e5b3"
+    },
+    {
+      "path": "prompts/story-05-atmosphere-v1.txt",
+      "bytes": 2700,
+      "sha256": "ce0d39b8326de2fab0dca34742fd3819a7df74a60ed5aea5383b53c236a84e1a"
+    },
+    {
+      "path": "prompts/story-05-atmosphere-v2.txt",
+      "bytes": 1338,
+      "sha256": "9eef7806b1916c07d326965d20e9e1ef93e46adace7d3f85921c4279337908a7"
+    },
+    {
+      "path": "prompts/story-05-atmosphere-v3.txt",
+      "bytes": 1163,
+      "sha256": "54a79b87563ba1ec28fdf0d752ec25aaa6fc3ad50c6da75fb78b700b93411095"
+    },
+    {
+      "path": "prompts/story-06-atmosphere-v1.txt",
+      "bytes": 2678,
+      "sha256": "cece26383fda53a6baecda4f148444224f9db4b4151bb0aca90c0c08f13755e1"
+    },
+    {
+      "path": "prompts/video-test-02-welcome-draft-v1.txt",
+      "bytes": 2175,
+      "sha256": "ccde2b2b24b65e0925a78981958207dc6168f939260adafbd86ef75445c9e10d"
+    },
+    {
+      "path": "reader.css",
+      "bytes": 22827,
+      "sha256": "bbcc6893c24cccd9c4f2c035eaac756e0bc2844bb1a4cc8962e3dbb8906da441"
+    },
+    {
+      "path": "reader.js",
+      "bytes": 16564,
+      "sha256": "81d0126e8669dc6eb335cb7f387c407090ca08ba518fec5c606543a8a25019cd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5045,
+      "sha256": "7d80ff582b8b58898a84434587b3edc1cd25104bacdbb11aa08c1754b59fea26"
+    },
+    {
+      "path": "reports/emotion-led-research-overview-v1.json",
+      "bytes": 1126,
+      "sha256": "df3750582e607dec9764d6fabce6c2b707ad40df94899bc4d9d19940a6633b6d"
+    },
+    {
+      "path": "reports/image-review.md",
+      "bytes": 9584,
+      "sha256": "cec8b3c14f0f432055c2e8b1ae9f0ad15e089bf321944a9e234a6f6ddb6e1e73"
+    },
+    {
+      "path": "site.css",
+      "bytes": 8038,
+      "sha256": "bd3b1ecfb3a093659b41c0279cfd86260ee7d5eb06fb325da1f3397b936369fd"
+    },
+    {
+      "path": "stories.json",
+      "bytes": 44691,
+      "sha256": "01cd998bc4d61d97a8bf65a287d58d11f03cc84ce4b04fc1d1c145296e6aa087"
+    }
+  ]
+}

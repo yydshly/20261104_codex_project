@@ -1,0 +1,16 @@
+[
+  {
+    "file": "episodes/cave-welcome-8s/renders/cave-welcome-8s-v1.mp4",
+    "sourceBytes": 6270639,
+    "webBytes": 1356702,
+    "decodePassed": true,
+    "originalAudioPacketHashMatched": true
+  },
+  {
+    "file": "episodes/cave-birthday-15s/renders/cave-birthday-15s-v1.mp4",
+    "sourceBytes": 16268431,
+    "webBytes": 2802708,
+    "decodePassed": true,
+    "originalAudioPacketHashMatched": true
+  }
+]

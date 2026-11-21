@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-21",
+  "scope": "Local public-build browser review before publication",
+  "desktop": {"viewportWidth": 1440, "viewportHeight": 1000, "documentWidth": 1425, "guideLoaded": true, "horizontalOverflow": false},
+  "mobile": {"viewportWidth": 390, "viewportHeight": 844, "documentWidth": 375, "guideLoaded": true, "horizontalOverflow": false},
+  "archive": {"storiesLoaded": 6, "intimacyFilterAndCaveSearchVisibleResults": 1, "visibleResult": "海洞里的空座位", "visibleImagesLoaded": true, "imageDialogOpenedAndClosed": true},
+  "storyPlayer": {"durationSeconds": 15, "videoWidth": 720, "videoHeight": 1280, "mediaError": null, "backLinkTargetsArchive": true},
+  "browserConsoleErrorsObserved": [],
+  "screenshots": ["desktop.jpg", "mobile.jpg"],
+  "fullHumanAudioReviewPerformed": false
+}

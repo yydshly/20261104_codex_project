@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="海洞里的邀请：从抬眼、微笑到拉开空椅，观看一段8秒动态小样。">
+  <title>海洞里的邀请 · 8秒动态小样</title>
+  <link rel="stylesheet" href="player.css">
+  <script src="demo-data.js" defer></script>
+  <script src="player.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#player-heading">跳到播放器</a>
+  <header class="page-width topbar">
+    <a class="back-link" href="../../index.html"><span aria-hidden="true">↖</span> 回到现实边缘</a>
+    <span class="edition">STORY 02 / MOTION STUDY</span>
+    <a class="record-link" href="README.md">作品记录 <span aria-hidden="true">↗</span></a>
+  </header>
+  <main class="page-width">
+    <div class="page-heading">
+      <p class="eyebrow">海洞里的空座位 / 动态小样</p>
+      <h1 id="page-title">海洞里的邀请</h1>
+      <p class="lead">看她抬眼、微笑，再把空椅留给镜头前的人。</p>
+    </div>
+    <div class="viewing-layout">
+      <section class="player-section" aria-labelledby="player-heading">
+        <div class="player-topline"><h2 id="player-heading">一段邀请发生的时间</h2><span id="stage-status" class="stage-status" role="status" aria-live="polite">正在读取作品状态</span></div>
+        <div class="video-stage" id="video-stage">
+          <img id="start-frame" class="start-frame" alt="海洞餐厅的首帧参考" hidden>
+          <video id="demo-video" controls playsinline preload="metadata" hidden aria-label="海洞里的邀请，动态小样"></video>
+          <div class="stage-empty" id="stage-empty"><span aria-hidden="true">↗</span><p>正在读取作品状态</p></div>
+          <div class="stage-message" id="stage-message" hidden><span class="message-dot" aria-hidden="true"></span><p id="stage-message-text"></p></div>
+        </div>
+        <p class="stage-caption" id="stage-caption">首帧参考与动态成片分开呈现。</p>
+        <div class="media-actions" id="media-actions" hidden><a id="download-video" class="primary-action" download>保存这段视频 <span aria-hidden="true">↓</span></a><a id="open-video" target="_blank" rel="noopener">打开视频 <span aria-hidden="true">↗</span></a><a id="open-raw" target="_blank" rel="noopener" hidden>查看源片 <span aria-hidden="true">↗</span></a></div>
+        <div class="pending-actions" id="pending-actions" hidden><button type="button" id="refresh-status">刷新作品状态 <span aria-hidden="true">↻</span></button><span>保留首帧，等待动态小样。</span></div>
+        <p class="playback-error" id="playback-error" role="alert" hidden></p>
+        <section class="review-section" aria-labelledby="review-heading"><div class="small-heading"><h3 id="review-heading">实际验看笔记</h3><span class="small-note" id="review-stage">等待成片</span></div><ul id="review-notes" class="review-list" hidden></ul><p class="review-empty" id="review-empty">片子就绪并完成验看后，这里会记录人物动作、空间和声音的实际表现。</p></section>
+        <dl class="production-meta" id="production-meta" aria-label="小样信息"></dl>
+        <p class="scope-note">这是原创剧情的动态小样，用于讨论人物关系、观看视角和动作表现。</p>
+      </section>
+      <aside class="viewing-notes" aria-labelledby="notes-heading">
+        <p class="eyebrow">WATCH THE GESTURE</p>
+        <h2 id="notes-heading">让“被等待”<br>从一个动作里出现</h2>
+        <p class="viewing-intro">注意她是否先看见你，再向你微笑；拉开椅子之后，是否给镜头前的人留下一点回应的时间。</p>
+        <div class="gesture-sequence" aria-label="观看重点"><span><i>01</i> 抬眼</span><span aria-hidden="true">→</span><span><i>02</i> 微笑</span><span aria-hidden="true">→</span><span><i>03</i> 拉椅邀请</span></div>
+      </aside>
+    </div>
+    <noscript><p class="noscript-note">此播放页需要 JavaScript 读取本地作品状态。也可打开 <a href="README.md">作品记录</a> 查看材料位置。</p></noscript>
+  </main>
+  <footer class="page-width footer"><span>现实边缘 · 影像笔记</span><a href="../../archive.html#story-02">回看故事与氛围图 <span aria-hidden="true">↗</span></a></footer>
+</body>
+</html>

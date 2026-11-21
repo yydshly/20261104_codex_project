@@ -1,0 +1,54 @@
+Use case: infographic-diagram with photorealistic-natural concept film stills.
+Asset type: ONE finished Chinese visual research board for an ongoing original AI short-video project. Generate a beautiful, coherent, high-resolution landscape editorial board, approximately 3:2, ideally 3000px wide or greater. This must contain four substantial photorealistic effect scenes, not just a text diagram. All typography is clean, accurate Simplified Chinese, large enough to read. Warm off-white paper, charcoal type, restrained amber accents, generous margins, precise grid. Sophisticated cinema research editorial, no generic app dashboard, no stock icons, no decorative clutter.
+
+Art intention: Help a viewer understand this working creative hypothesis: familiar human feelings are the entry point; attractive people, meaningful actions, a creative plausible camera position, and a believable rare experience can intensify those feelings. Believability supports immersion. The film is evaluated through what the viewer feels and why they keep looking. We made a technically complete sea-cave birthday film that the user found uninteresting; the lesson is to sharpen emotional attraction, not merely add plot. Do not present hypothetical psychological effects as measured findings.
+
+Layout:
+Top 18%: small research label, large headline, short subtitle and a simple horizontal five-step line with arrows. Below that, two rows of two LARGE image-led panels occupying about 65% of canvas. Each panel contains one large cinematic candid photo-style scene plus its text outside the photo on the paper underneath. Bottom 17%: one short research correction and one question for the next viewing; tiny provenance footer. No excessive paragraphs.
+
+Header exact text:
+"现实边缘 · 研究整理"
+"用人的日常情绪，驱动画面"
+"让观众认出自己的渴望，再进入一个可信又罕见的瞬间。"
+Flow exact text:
+"日常情绪 → 内心渴望 → 人物行动 → 视角揭示 → 情绪变化"
+
+Four effect panels, visually different real-world environments. Each image should feel like a convincing frame from a casually captured first-person video, human eye/chest height, subtle imperfect composition, grounded physical contact, natural skin and clothing, no excessive beauty retouching. No character posing for a fashion shoot. Adults only, different adult people across panels. No text, logos or screens inside the photos.
+
+Panel 01 upper-left, warm night market:
+A tired worker's first-person seated eye level at an ordinary Chinese street-food stall after closing. Worn work jacket sleeve and hand at lower edge. An appealing, kindly adult male cook about 35, sleeves rolled up, real apron, gently pushes the last steaming bowl of soup toward the viewer and briefly meets their gaze. Wet pavement, nearly empty neighboring stalls, partly lowered shutters, one pool of warm light in a cool tired city. Specific act of care, not luxury, not a crowded party. The photo must show the bowl being offered, emotionally immediate.
+Exact panel text:
+"01  疲惫 → 被惦记"
+"收摊之后，他把最后一碗热汤推给你。"
+"夜宵摊 · 下班人的座位"
+
+Panel 02 upper-right, freedom after work:
+First-person at the open rear threshold of a real mountain ski-area coffee shop just after closing, warm modest interior edge and an apron hung on a hook provide everyday-work context. Outside there is a continuous safe snow-covered path connected to an ordinary ski slope, glorious cold clear late afternoon light, real mountains. An attractive adult woman about 30 in practical ski clothing with an unzipped work fleece, windswept hair and a spontaneous lively grin holds out an extra pair of ski goggles toward the viewer; her own skis and boots make her ready to join the slope. This is a plausible mountain cafe next to a ski area, no floating chalet, no impossible door into another world, no cliff jumping. Strong sense of movement and release.
+Exact panel text:
+"02  压抑 → 自由"
+"后门打开，她递来雪镜，身后就是雪道。"
+"雪场咖啡店 · 跟她一起收工"
+
+Panel 03 lower-left, small romantic initiative:
+First-person from the edge of an ordinary rainy late-night bus stop, a backpack strap visible at bottom. An attractive adult woman about 30 in natural everyday commuting clothes, slightly rain-damp hair, moves her umbrella toward the viewer, leaving her own outer shoulder exposed to rain. Tender slightly hesitant eye contact, a close ordinary human distance. The tilt of the umbrella, protective canopy above the camera, warm bus headlights and rain on asphalt must tell the story. A memorable private gesture amid a banal commute. No kiss or glamorous evening dress.
+Exact panel text:
+"03  疏离 → 心动"
+"雨夜末班车站，她把伞先偏向你。"
+"通勤站台 · 被她注意到的你"
+
+Panel 04 lower-right, curiosity and wonder:
+Plausible first-person recreational scuba camera looking toward an adult female dive buddy in a practical wetsuit and clear mask in real ocean water. She makes a small clear pointing gesture just past the viewer's shoulder while holding calm eye contact, not a panic gesture. A large manta ray is beginning to emerge at the upper side of the image beyond her, with realistic scale and light rays from surface, blue-green water. The composition implies a camera blind spot and an imminent turn to discover it; not a monster attack, no giant fantasy creature, no mermaid, no surreal bubbles. Diver and manta remain physically separate and readable. Quiet scale, awe and anticipation.
+Exact panel text:
+"04  好奇 → 惊叹"
+"她示意你回头，巨大的蝠鲼安静掠过。"
+"潜水观察 · 有盲区的第一人称"
+
+Bottom exact text:
+"本轮修正"
+"海洞小样补齐了情节，情绪吸引力仍未成立。"
+"下一步看什么"
+"哪一秒开始有感觉？为什么还想继续看？"
+Footer exact text:
+"创作工作模型 · AI效果设想 · 实际情绪效果待观看验证"
+
+Render only the stated Chinese text, with no misspellings or duplicated captions. Each still must make the proposed human relationship visible without needing the label. The four stills are original concept effects, not reconstructions of an existing generated video. Prioritize photo scenes, human response, precise readable typography and clear conceptual relationships. No fake statistics, no scientific hormone diagrams, no tool/model names, no watermarks.

@@ -31,6 +31,7 @@
 | 023 | [角色素材与游戏质感研究](projects/023-character-forge-lab/README.md) | [Lucca Cerf原帖](https://x.com/luccacerf/status/2120305718939021566) · [Quaternius](https://quaternius.com/packs/universalbasecharacters.html) | 制作原创重戟战士赤霄、13段动作与Three.js／Godot战斗原型，公开13.9秒实录、提示词和实现记录。研究人物资产与游戏系统的独立制作和验收，复用接入流程；现有美术仍未达到商业英雄水准，三条素材升级路线待验证。 | [已有研究引导图](#character-forge-guide) | [在线研究与实际战斗](https://yydshly.github.io/20261104_codex_project/023-character-forge-lab/) |
 | 024 | [日常元素与沉浸式循环研究](projects/024-immersive-loop-research/README.md) | [JenPanepinto](https://x.com/JenPanepinto) · 本轮独立实验 | 研究怎样从自己的日常素材形成统一情绪、个人风格与整体循环，以十八轮实验比较花朵接续、全幅水光、秋林事件及光影。保留三个代表、反馈与方法，积累原创系列和有依据的返修能力；舒适、真实感、原生 GIF 与后续用途仍待验证。 | [已有理解总览图](#immersive-loop-guide) | [在线研究与代表效果](https://yydshly.github.io/20261104_codex_project/024-immersive-loop-research/) |
 | 025 | [留一会儿 · 艺术与情绪图像研究](projects/025-cozy-emotion-lab/README.md) | [@cozyycabin](https://x.com/cozyycabin) · [置顶双图](https://x.com/cozyycabin/status/2084009202192949678) | 以艺术与情绪作为图像入口，从形体呼应、瞬间与留白理解停留感。29幅图、三图对照、实时调色、八秒静态镜头及导出，沉淀审美判断、原创简报和系列表达方法；当前仅原帖双图获明确正向反馈，原创迁移与体验产品价值待验证。 | [沿用本轮引导图](#cozy-emotion-guide) | [在线艺术入口与效果](https://yydshly.github.io/20261104_codex_project/025-cozy-emotion-lab/) |
+| 026 | [日常情绪与 AI 短视频效果研究](projects/026-emotion-led-video/README.md) | [用户分享帖](https://x.com/billtheinvestor/status/2120217438533066946) · [TechHalla原帖](https://x.com/techhalla/status/2110686996049883550) | 从人的日常情绪出发，把渴望变成一个想亲历的瞬间。用四种情绪效果图、六个故事和两轮海洞小样，研究人物回应、创意视角与真实质感怎样承载欲望、代入和观看期待；沉淀选题、镜头与反馈方法，情绪效果仍待验证。 | [本次生成的引导图](#emotion-led-video-guide) | [在线研究与效果](https://yydshly.github.io/20261104_codex_project/026-emotion-led-video/) |
 
 项目按收录顺序从 `001` 开始编号。新条目按编号追加，已分配的编号保持固定。索引摘要用一两句话写清研究对象和关注点。完成验证后，可补上一条主要发现。
 
@@ -384,3 +385,17 @@ Adam Chernick 个人制作、扩展和组合的网页 3D 实验，部分基于 T
 **实际效果**：原比例图像展厅、来源与反馈筛选、纯看图和最多三图并排；21张未停用试作可调明暗、对比、饱和度与暖度，下载全幅调整PNG，播放或拖动八秒静态镜头。早期工作台保留天气分层、海报、简报和记录导出。**对我们的价值**：形成可讨论的审美基准与选片依据，将观察写成原创简报与系列规则，再探索情绪图像展、壁纸与短片。
 
 引导图直接沿用已生成的2400 × 1700原PNG，未重做。22张生成图中10张待评、11张未选、1张停用，尚无明确获选图；5张外参只作调研。预演不是AI视频，技术功能通过不代表艺术迁移、持续使用或商业成效已经验证。[在线艺术与情绪入口](https://yydshly.github.io/20261104_codex_project/025-cozy-emotion-lab/) · [理解与价值图](https://yydshly.github.io/20261104_codex_project/025-cozy-emotion-lab/#art-emotion) · [研究摘要](https://yydshly.github.io/20261104_codex_project/025-cozy-emotion-lab/#summary) · [动手体验效果](https://yydshly.github.io/20261104_codex_project/025-cozy-emotion-lab/#effects) · [完整研究摘要](projects/025-cozy-emotion-lab/README.md)
+
+<a id="emotion-led-video-guide"></a>
+
+### 026 · 日常情绪与 AI 短视频效果研究
+
+**从人的日常情绪出发，把渴望变成一个想亲历的瞬间。**
+
+从人的日常情绪出发，把渴望变成一个想亲历的瞬间。用四种情绪效果图、六个故事和两轮海洞小样，研究人物回应、创意视角与真实质感怎样承载欲望、代入和观看期待；沉淀选题、镜头与反馈方法，情绪效果仍待验证。
+
+![本次生成的情绪研究引导图，展示被惦记、自由、心动与惊叹四种效果设想](docs/026-emotion-led-video/assets/emotion-led-research-overview-v1.png)
+
+研究积累了情绪选题、人物动作、拍摄者身份与盲区设计，以及根据观看反馈继续修改的方法。海洞两轮小样说明：把动作与情节做出来，尚未满足本轮观看者对吸引力的要求；后续先验证哪一秒让人在意。四种新效果是静态设想，尚未制作成新视频。
+
+引导图原样使用本次生成文件。[在线研究](https://yydshly.github.io/20261104_codex_project/026-emotion-led-video/) · [实际小样](https://yydshly.github.io/20261104_codex_project/026-emotion-led-video/#experiments) · [六个故事](https://yydshly.github.io/20261104_codex_project/026-emotion-led-video/archive.html#stories) · [完整摘要](projects/026-emotion-led-video/README.md)

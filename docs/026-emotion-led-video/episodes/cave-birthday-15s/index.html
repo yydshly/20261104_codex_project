@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="《最后一单，收件人是你》：海洞里的空座位，15秒原创剧情短片。">
+  <title>最后一单，收件人是你 · 15秒故事版</title>
+  <link rel="stylesheet" href="player.css">
+  <script src="demo-data.js" defer></script>
+  <script src="player.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#player-heading">跳到播放器</a>
+  <header class="page-width topbar">
+    <a href="../../index.html">↖ 回到现实边缘</a>
+    <span>海洞里的空座位 / 故事版</span>
+  </header>
+  <main class="page-width">
+    <div class="page-heading">
+      <p class="eyebrow">现实边缘 · 原创 AI 剧情</p>
+      <h1 id="page-title">最后一单，收件人是你</h1>
+      <p class="lead">一单蛋糕，一段意外的抵达。</p>
+    </div>
+    <section class="player-section" aria-labelledby="player-heading">
+      <div class="player-topline">
+        <h2 id="player-heading">15秒故事版</h2>
+        <span id="stage-status" class="stage-status" role="status" aria-live="polite">15秒首版已完成</span>
+      </div>
+      <div class="video-stage" id="video-stage">
+        <img id="start-frame" class="start-frame" alt="《最后一单，收件人是你》场景参考图" hidden>
+        <video id="demo-video" controls playsinline preload="metadata" hidden aria-label="最后一单，收件人是你，15秒故事版"></video>
+        <div class="stage-empty" id="stage-empty"><p>15秒首版已完成</p></div>
+        <div class="stage-message" id="stage-message" hidden><p id="stage-message-text"></p></div>
+      </div>
+      <p class="stage-caption" id="stage-caption">原创 AI 剧情 · 15秒故事首版</p>
+      <div class="media-actions" id="media-actions" hidden>
+        <a id="download-video" class="primary-action" download>保存视频 ↓</a>
+        <a id="open-video" target="_blank" rel="noopener">打开视频 ↗</a>
+      </div>
+      <div class="pending-actions" id="pending-actions" hidden><button type="button" id="refresh-status">刷新作品状态 ↻</button></div>
+      <p class="playback-error" id="playback-error" role="alert" hidden></p>
+    </section>
+    <details class="story-details">
+      <summary>看完再读：故事与创作信息</summary>
+      <div class="details-content">
+        <p>配送员把最后一单蛋糕送进海洞餐厅。蛋糕放下、手撤回时，女人牵住他的手，说出“生日快乐”，示意他坐进空着的座位。</p>
+        <p class="scope-note">海洞餐厅有现实场景原型，人物与事件均为原创虚构。</p>
+        <dl class="production-meta" id="production-meta"></dl>
+        <section class="review-section" id="review-section" hidden aria-labelledby="review-heading">
+          <h2 id="review-heading">实际验看笔记</h2>
+          <ul id="review-notes"></ul>
+        </section>
+      </div>
+    </details>
+    <noscript><p class="noscript-note">可直接<a href="renders/cave-birthday-15s-v1.mp4">播放15秒视频</a>，或查看<a href="README.md">作品记录</a>。</p></noscript>
+  </main>
+  <footer class="page-width footer"><span>现实边缘 · 影像笔记</span><a href="../../archive.html#story-02">回看氛围图 ↗</a></footer>
+</body>
+</html>

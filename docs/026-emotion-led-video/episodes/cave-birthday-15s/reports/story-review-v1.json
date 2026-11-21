@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-21",
+  "result": "reviewable_first_story_sample",
+  "visualEvidence": "0.5-second sampled visual review; critical hand-hold, seated and subtitle frames checked during local production.",
+  "timeline": [
+    {
+      "range": [
+        0,
+        2.5
+      ],
+      "observed": "黄色工作衣袖托着蛋糕沿窄石阶下行，逐步看见女人与餐桌。"
+    },
+    {
+      "range": [
+        2.5,
+        6.8
+      ],
+      "observed": "洞外海面打开，靠近同一酒红裙成年人物，蛋糕放到桌边。"
+    },
+    {
+      "range": [
+        6.8,
+        9.5
+      ],
+      "observed": "手从托盘撤回，女人握住配送员的手，随后松开；离开方向变化不够明确。"
+    },
+    {
+      "range": [
+        9.5,
+        12
+      ],
+      "observed": "人物朝拍摄者说话，并指向空椅；对应生日台词的转写时间约9.94–11.64秒。"
+    },
+    {
+      "range": [
+        12,
+        15
+      ],
+      "observed": "短暂等待后两人坐低，结尾出现配送员膝部、桌上蛋糕和她的笑。"
+    }
+  ],
+  "criteria": {
+    "deliveryIdentity": "visible",
+    "cakePlaced": "visible",
+    "departureIntention": "weak",
+    "sleeveHold": "changed_to_hand_hold",
+    "birthdayReveal": "supported_by_context_script_and_partial_asr",
+    "enterEmptySeat": "visible"
+  },
+  "issues": [
+    "约7–9秒由撤回手转为牵手；明确转身离开的动作较弱，未完全实现原稿的袖口挽留。",
+    "约4.5秒蜡烛在没有点火动作时亮起，仍有明显的AI连续性问题。"
+  ],
+  "audio": {
+    "nativeTrackRetained": true,
+    "fullHumanListeningPerformed": false,
+    "asrCaution": "生日首字被tiny模型低置信度识别为香；字幕按剧本标注生日快乐，不以字幕证明发音。"
+  },
+  "automaticPaidRegeneration": false
+}

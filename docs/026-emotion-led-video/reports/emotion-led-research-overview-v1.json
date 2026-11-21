@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-21",
+  "asset": "assets/emotion-led-research-overview-v1.png",
+  "tool": "built-in image_gen.imagegen",
+  "mode": "new_image_from_text",
+  "modelVersion": null,
+  "promptFile": "prompts/research-board/emotion-led-overview-v1.txt",
+  "promptSha256": "cc52f2d3c775c900cbd0f2eae33e08aeeaeb3a1d79ad55597f63b4c62ea8d1ba",
+  "assetSha256": "dadffe42005099b52557c1e63f199cd0ab2b0e634df2a3f88d83dc4dda0d8e4f",
+  "width": 1536,
+  "height": 1024,
+  "imageReferenceInputs": [],
+  "visualReviewPerformed": true,
+  "reviewNotes": [
+    "All four proposed settings and intended visible human actions are present.",
+    "Chinese headings, flow and captions inspected; no visible text error noted.",
+    "Generated text labels describe proposed feelings, not measured viewer outcomes.",
+    "Static stills do not establish video continuity or camera-turn execution."
+  ],
+  "status": "concept_effects_generated_and_visually_reviewed",
+  "userAcceptance": null,
+  "dynamicEffectsVerified": false,
+  "chatArtCalled": false,
+  "newPaidVideoTaskCreated": false,
+  "understandingDocument": "docs/10-emotion-led-research.md"
+}

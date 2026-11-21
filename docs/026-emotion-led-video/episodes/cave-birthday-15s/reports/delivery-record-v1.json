@@ -1,0 +1,18 @@
+{
+  "video": "renders\\cave-birthday-15s-v1.mp4",
+  "durationSeconds": 15.0,
+  "width": 720,
+  "height": 1280,
+  "fps": 24,
+  "frames": 360,
+  "nativeAudioPreserved": true,
+  "captionsBurned": true,
+  "speedChanged": false,
+  "frozenPaddingAdded": false,
+  "decodePassed": true,
+  "sha256": "bf27c586390d9c9fb0eaecfbba5022f50bb57f5c0044b92e78c86e1503c3fff6",
+  "actualCredits": 225.0,
+  "productionSourceSha256": "d9ca2d3ee9ba4e70a0eef71a02cce9208f4abde5442d109ce037f2a00a005f9a",
+  "webTranscode": true,
+  "transcode": "H264 CRF24 max1400k; original audio stream copied; dimensions, timing and frame rate retained"
+}

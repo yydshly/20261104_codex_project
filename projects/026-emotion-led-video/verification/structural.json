@@ -1,0 +1,25 @@
+{
+  "project": "026-emotion-led-video",
+  "status": "passed",
+  "publicFiles": 62,
+  "linksChecked": 144,
+  "guideOriginalHashMatched": true,
+  "privateProductionMaterialExcluded": true,
+  "metadataIncludesCoreValue": true,
+  "media": [
+    {
+      "episode": "cave-welcome-8s",
+      "durationSeconds": 8.0,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "episode": "cave-birthday-15s",
+      "durationSeconds": 15.0,
+      "width": 720,
+      "height": 1280
+    }
+  ],
+  "browserReview": "recorded separately",
+  "fullHumanAudioReview": false
+}
