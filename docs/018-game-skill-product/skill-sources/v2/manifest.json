@@ -1,0 +1,63 @@
+[
+  {
+    "name": "create-3d-assets",
+    "repository": "https://github.com/Be1l-ai/asset-maker",
+    "commit": "d095bc28e9a8e4cfe58996cbaf3a0ee9cbe4e46e",
+    "source": "https://github.com/Be1l-ai/asset-maker/blob/d095bc28e9a8e4cfe58996cbaf3a0ee9cbe4e46e/skills/create-3d-assets/SKILL.md",
+    "snapshot": "skill-sources/v2/create-3d-assets.md",
+    "sha256": "58d48eaa71921c9faf2f4632105fea96752a35fa996fc461058ab1dd2773afa2",
+    "applied": [
+      "MeshBuilder",
+      "SolidMesh",
+      "bake_ground_ao",
+      "AssetValidator"
+    ],
+    "license": "NOASSERTION: no repository license located; local evaluation; redistribution rights unresolved"
+  },
+  {
+    "name": "create-vfx",
+    "repository": "https://github.com/Be1l-ai/asset-maker",
+    "commit": "d095bc28e9a8e4cfe58996cbaf3a0ee9cbe4e46e",
+    "source": "https://github.com/Be1l-ai/asset-maker/blob/d095bc28e9a8e4cfe58996cbaf3a0ee9cbe4e46e/skills/create-vfx/SKILL.md",
+    "snapshot": "skill-sources/v2/create-vfx.md",
+    "sha256": "14127bb2b43f80f5a4c636cd9e34219d2dd89fe7a3385990b7c7007e7cb1a135",
+    "applied": [
+      "EmitterStack",
+      "Flipbook",
+      "Easing",
+      "AssetValidator"
+    ],
+    "license": "NOASSERTION: no repository license located; local evaluation; redistribution rights unresolved"
+  },
+  {
+    "name": "create-sfx",
+    "repository": "https://github.com/Be1l-ai/asset-maker",
+    "commit": "d095bc28e9a8e4cfe58996cbaf3a0ee9cbe4e46e",
+    "source": "https://github.com/Be1l-ai/asset-maker/blob/d095bc28e9a8e4cfe58996cbaf3a0ee9cbe4e46e/skills/create-sfx/SKILL.md",
+    "snapshot": "skill-sources/v2/create-sfx.md",
+    "sha256": "e298c264d79543ac3c33edb068e36242055e53ad7777c9af33dd8f75ca13730c",
+    "applied": [
+      "SoundSynthesizer.modal_resonator",
+      "spatial_stereo_pan",
+      "AssetValidator"
+    ],
+    "license": "NOASSERTION: no repository license located; local evaluation; redistribution rights unresolved"
+  },
+  {
+    "name": "3d-ultra-realistic-water",
+    "repository": "https://github.com/zafmy/threejs-Skills",
+    "commit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+    "source": "https://github.com/zafmy/threejs-Skills/blob/5ea1661a0e05d82b054553daaa6baf6d0233c33c/agent-skills/3d/3d-ultra-realistic-water/SKILL.md",
+    "snapshot": "skill-sources/v2/3d-ultra-realistic-water.md",
+    "sha256": "54e31ca705a4fbac10a93f1a4b9297be35e8eec798bb64eedb6f38ef65246a30",
+    "applied": [
+      "createWaves",
+      "bakeOceanDetail",
+      "createOceanGeometry",
+      "createOcean"
+    ],
+    "module": "vendor/ocean.mjs",
+    "moduleSha256": "45f3f57dd224bd4f97e8b0e20370a9860e2355bcda9d0b71993f1440e19cdf62",
+    "license": "NOASSERTION: redistribution rights not established in this evaluation"
+  }
+]

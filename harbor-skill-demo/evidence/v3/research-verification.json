@@ -1,0 +1,74 @@
+{
+  "scope": "research review v3 only; historical game checks retained as v2 evidence",
+  "method": "CUA interactions and read-only DOM observations in existing in-app browser",
+  "checks": [
+    {
+      "name": "overview PNG loads at its actual 2240×4480 dimensions",
+      "passed": true
+    },
+    {
+      "name": "four pinned implementation source cards render",
+      "passed": true
+    },
+    {
+      "name": "eight original source rows render",
+      "passed": true
+    },
+    {
+      "name": "pending independent A/B and unknown authoring time are explicit",
+      "passed": true
+    },
+    {
+      "name": "existing 716px browser viewport fits without horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "overview action opens the native modal",
+      "passed": true
+    },
+    {
+      "name": "original-size control shows a 2240px image with internal scrolling",
+      "passed": true
+    },
+    {
+      "name": "zoom-in changes image width to 2800px",
+      "passed": true
+    },
+    {
+      "name": "closing the modal restores trigger focus and page scrolling",
+      "passed": true
+    },
+    {
+      "name": "version-comparison slider updates its divider to 72%",
+      "passed": true
+    },
+    {
+      "name": "390px phone layout fits without page overflow",
+      "passed": true
+    },
+    {
+      "name": "phone modal and close control remain within the viewport",
+      "passed": true
+    },
+    {
+      "name": "1280px desktop layout fits and uses two hero columns",
+      "passed": true
+    },
+    {
+      "name": "no frontend errors in the browser console during these checks",
+      "passed": true
+    }
+  ],
+  "browserWidths": [
+    716,
+    390,
+    1280
+  ],
+  "frontendErrors": [],
+  "interactionNotes": [
+    "A navigation locator with the mobile accessible name did not match after switching to desktop. Inspected the new accessible name and used the current navigation link. This was a test locator correction, not a game or Skill rework event."
+  ],
+  "gameplayChanges": false,
+  "sameModelComparison": "not run; protocol only",
+  "artifact": "assets/research/research-overview-v3.png"
+}

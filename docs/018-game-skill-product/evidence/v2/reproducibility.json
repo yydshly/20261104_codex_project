@@ -1,0 +1,6 @@
+{
+  "sameSeedRepeated": true,
+  "comparedFiles": 23,
+  "changed": [],
+  "scope": "GLB, WAV, PNG byte hashes; manifests include build metadata and are excluded"
+}

@@ -1,0 +1,15 @@
+{
+  "checks": [
+    "all evidence loads; 56 game checks displayed",
+    "comparison slider updates clip and divider",
+    "audio example decodes and plays",
+    "game video decodes and plays",
+    "four actual GLBs render and report geometry counts",
+    "VFX atlas selection and frame scrub work",
+    "sound selection changes actual WAV",
+    "research fits 390px phone",
+    "gallery fits 390px phone"
+  ],
+  "errors": [],
+  "failedResponses": []
+}

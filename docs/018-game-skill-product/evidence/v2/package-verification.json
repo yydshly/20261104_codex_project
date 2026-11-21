@@ -1,0 +1,19 @@
+{
+  "entryLinksMissing": [],
+  "comparedRuntimeFiles": 12,
+  "differentFromWorkingFiles": [],
+  "build": {
+    "source": "harbor-skill-demo",
+    "version": 2,
+    "unitTests": 22,
+    "browserChecks": 34,
+    "presentationChecks": 9,
+    "completed": true,
+    "entry": "research.html",
+    "game": "index.html",
+    "published": false,
+    "localEvaluation": true,
+    "upstreamRedistributionRights": "unresolved; confirm before publishing",
+    "generatorToolkit": "local tools/asset-maker is not included in the static package"
+  }
+}

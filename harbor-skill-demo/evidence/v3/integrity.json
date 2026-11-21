@@ -1,0 +1,40 @@
+{
+  "localReferencesChecked": 152,
+  "missingLocalFiles": [],
+  "duplicateIDs": [],
+  "brokenSamePageAnchors": [],
+  "sourceOrOutputHashFailures": [],
+  "sharedGameplayFilesChanged": [],
+  "packageDifferences": [],
+  "http": [
+    {
+      "path": "research.html",
+      "status": 200
+    },
+    {
+      "path": "research-review.css",
+      "status": 200
+    },
+    {
+      "path": "assets/research/research-overview-v3.png",
+      "status": 200
+    },
+    {
+      "path": "assets/research/research-overview-v3.svg",
+      "status": 200
+    },
+    {
+      "path": "evidence/v3/research-verification.json",
+      "status": 200
+    },
+    {
+      "path": "ab-experiment/PROTOCOL.md",
+      "status": 200
+    }
+  ],
+  "summaryImage": [
+    2240,
+    4480
+  ],
+  "comparisonStatus": "not run; protocol only"
+}

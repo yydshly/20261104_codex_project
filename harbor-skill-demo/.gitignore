@@ -1,0 +1,12 @@
+# Local upstream research copies; no declared redistribution grant for the SDK.
+tools/
+skill-sources/*.md
+skill-sources/v2/*.md
+asset-recipes/models/
+asset-recipes/vfx/
+asset-recipes/sfx/
+asset-recipes/models-sentinel/
+evidence/recordings/
+.runtime/
+__pycache__/
+*.py[cod]

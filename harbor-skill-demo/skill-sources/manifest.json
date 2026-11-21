@@ -1,0 +1,88 @@
+[
+  {
+    "name": "game-design-theory",
+    "repository": "https://github.com/pluginagentmarketplace/custom-plugin-game-developer",
+    "source": "https://github.com/pluginagentmarketplace/custom-plugin-game-developer/blob/main/skills/game-design-theory/SKILL.md",
+    "snapshot": "skill-sources/game-design-theory.md",
+    "sha256": "548e01881f6509daddbb89fddfddbd5293ab92764d8067c9d9bc259afa32ff65",
+    "usage": "used",
+    "date": "2026-11-21",
+    "license": "NOASSERTION",
+    "licenseSnapshot": "skill-sources/game-design-theory-LICENSE.txt"
+  },
+  {
+    "name": "game-engine",
+    "repository": "https://github.com/github/awesome-copilot",
+    "source": "https://github.com/github/awesome-copilot/blob/main/skills/game-engine/SKILL.md",
+    "snapshot": "skill-sources/game-engine.md",
+    "sha256": "af6d0628e806be430903743ca1795f715937e65ef81d4c3f0544fb326d23dce2",
+    "usage": "used",
+    "date": "2026-11-21",
+    "license": "MIT",
+    "licenseSnapshot": "skill-sources/game-engine-LICENSE.txt"
+  },
+  {
+    "name": "game-developer",
+    "repository": "https://github.com/Jeffallan/claude-skills",
+    "source": "https://github.com/Jeffallan/claude-skills/blob/main/skills/game-developer/SKILL.md",
+    "snapshot": "skill-sources/game-developer.md",
+    "sha256": "de7140309b8cc2fbd6aaa7550744f7a26e05b4e45ac0bd714a80d27408e47091",
+    "usage": "catalog",
+    "date": "2026-11-21",
+    "license": "MIT",
+    "licenseSnapshot": "skill-sources/game-developer-LICENSE.txt"
+  },
+  {
+    "name": "game-ui-design",
+    "repository": "https://github.com/guiguiyan930-source/Game-UI-Extension",
+    "source": "https://github.com/guiguiyan930-source/Game-UI-Extension/blob/main/game-ui-design/SKILL.md",
+    "snapshot": "skill-sources/game-ui-design.md",
+    "sha256": "a6a66e577339ec0b6ae3a61eafc629c01b7a0407e44bfde43f30c0d4521c92f9",
+    "usage": "used",
+    "date": "2026-11-21",
+    "license": "No repository license resolved"
+  },
+  {
+    "name": "game-ui-ux",
+    "repository": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
+    "source": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/blob/main/skills/disciplines/game-ui-ux/SKILL.md",
+    "snapshot": "skill-sources/game-ui-ux.md",
+    "sha256": "69140650cd9a28dc208bd1540358f47829aabb3f0834311c3d39b7a451e8b163",
+    "usage": "used",
+    "date": "2026-11-21",
+    "license": "Apache-2.0",
+    "licenseSnapshot": "skill-sources/game-ui-ux-LICENSE.txt"
+  },
+  {
+    "name": "threejs-game-ui-designer",
+    "repository": "https://github.com/majidmanzarpour/threejs-game-skills",
+    "source": "https://github.com/majidmanzarpour/threejs-game-skills/blob/main/skills/threejs-game-ui-designer/SKILL.md",
+    "snapshot": "skill-sources/threejs-game-ui-designer.md",
+    "sha256": "f68b6a0ad4347ed30fb416d3e5d9ee21e63af6c43dc05a3784f3e333f21e4f85",
+    "usage": "used",
+    "date": "2026-11-21",
+    "license": "MIT",
+    "licenseSnapshot": "skill-sources/threejs-game-ui-designer-LICENSE.txt"
+  },
+  {
+    "name": "game-feel",
+    "repository": "https://github.com/jarrodmedrano/jarrod-claude-skills",
+    "source": "https://github.com/jarrodmedrano/jarrod-claude-skills/blob/main/.claude/skills/game-feel/SKILL.md",
+    "snapshot": "skill-sources/game-feel.md",
+    "sha256": "e5509ab6c7cca2ebcdea0d85040f206880b27967e4bf688e8bc2eb1f5de01e9e",
+    "usage": "used",
+    "date": "2026-11-21",
+    "license": "No repository license resolved"
+  },
+  {
+    "name": "higgsfield-websites",
+    "repository": "https://github.com/higgsfield-ai/skills",
+    "source": "https://github.com/higgsfield-ai/skills/blob/main/higgsfield-websites/SKILL.md",
+    "snapshot": "skill-sources/higgsfield-websites.md",
+    "sha256": "6de160a62a0c0195c51174a97abf878d68404c354a19a411b441273a68aad19b",
+    "usage": "catalog",
+    "date": "2026-11-21",
+    "license": "MIT",
+    "licenseSnapshot": "skill-sources/higgsfield-websites-LICENSE.txt"
+  }
+]

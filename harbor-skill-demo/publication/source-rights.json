@@ -1,0 +1,22 @@
+{
+  "researchAsOf": "2026-11-21",
+  "guide": "assets/research/research-overview-v3.png",
+  "guideSha256": "f58dd53d329e57e09e081f09563b2012bd1bd62e3aa41fe7ec4e1fea3a7e3051",
+  "guidePolicy": "existing generated overview retained byte-for-byte; its local-evaluation footer records the research stage",
+  "water": {
+    "repository": "https://github.com/zafmy/threejs-Skills",
+    "commit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+    "license": "MIT",
+    "licenseSource": "https://raw.githubusercontent.com/zafmy/threejs-Skills/5ea1661a0e05d82b054553daaa6baf6d0233c33c/LICENSE",
+    "licenseFile": "vendor/ocean-LICENSE.txt",
+    "licenseSha256": "b2a071ba22fefd803f4e9d1f5c777dd79c62d191695586a1a73fd4d0ebd051c6"
+  },
+  "assetMaker": {
+    "repository": "https://github.com/Be1l-ai/asset-maker",
+    "commit": "d095bc28e9a8e4cfe58996cbaf3a0ee9cbe4e46e",
+    "license": "No repository license declaration located at the pinned commit",
+    "distribution": "toolkit implementation, copied templates and upstream full-text Skill snapshots excluded; retain source links, fingerprints, project-authored recipes and outputs"
+  },
+  "runtime": "project game code, generated assets, MIT Three.js and MIT ocean module",
+  "comparison": "same-model independent A/B has not run; no claimed speedup or reduced rework"
+}

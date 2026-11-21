@@ -1,0 +1,287 @@
+{
+  "completed": true,
+  "mode": "real keyboard inputs and menu clicks from a fresh start; snapshot read only",
+  "retries": 0,
+  "wallSeconds": 31.92,
+  "trace": [
+    {
+      "chapter": 0,
+      "phase": "briefing",
+      "wallSeconds": 0.05,
+      "score": 0,
+      "hp": 6,
+      "upgrades": []
+    },
+    {
+      "chapter": 0,
+      "phase": "playing",
+      "wallSeconds": 0.45,
+      "score": 0,
+      "hp": 6,
+      "upgrades": []
+    },
+    {
+      "chapter": 0,
+      "phase": "upgrade",
+      "wallSeconds": 6.17,
+      "score": 930,
+      "hp": 6,
+      "upgrades": []
+    },
+    {
+      "chapter": 1,
+      "phase": "briefing",
+      "wallSeconds": 6.56,
+      "score": 930,
+      "hp": 6,
+      "upgrades": [
+        "edge"
+      ]
+    },
+    {
+      "chapter": 1,
+      "phase": "playing",
+      "wallSeconds": 6.89,
+      "score": 930,
+      "hp": 6,
+      "upgrades": [
+        "edge"
+      ]
+    },
+    {
+      "chapter": 1,
+      "phase": "upgrade",
+      "wallSeconds": 14.7,
+      "score": 2095,
+      "hp": 6,
+      "upgrades": [
+        "edge"
+      ]
+    },
+    {
+      "chapter": 2,
+      "phase": "briefing",
+      "wallSeconds": 15.11,
+      "score": 2095,
+      "hp": 8,
+      "upgrades": [
+        "edge",
+        "heart"
+      ]
+    },
+    {
+      "chapter": 2,
+      "phase": "playing",
+      "wallSeconds": 15.42,
+      "score": 2095,
+      "hp": 8,
+      "upgrades": [
+        "edge",
+        "heart"
+      ]
+    },
+    {
+      "chapter": 2,
+      "phase": "won",
+      "wallSeconds": 31.23,
+      "score": 3825,
+      "hp": 6,
+      "upgrades": [
+        "edge",
+        "heart"
+      ]
+    }
+  ],
+  "final": {
+    "phase": "won",
+    "chapter": 2,
+    "time": 135.55000000001314,
+    "elapsed": 14.44999999999982,
+    "cores": 1,
+    "score": 3825,
+    "upgrades": [
+      "edge",
+      "heart"
+    ],
+    "history": [
+      {
+        "name": "暮港",
+        "elapsed": 4.991666666666704,
+        "damage": 0
+      },
+      {
+        "name": "雾礁",
+        "elapsed": 7.066666666666808,
+        "damage": 0
+      },
+      {
+        "name": "风暴灯塔",
+        "elapsed": 14.44999999999982,
+        "damage": 2
+      }
+    ],
+    "totals": {
+      "hits": 32,
+      "damage": 2,
+      "dashes": 2,
+      "elapsed": 26.50833333333247
+    },
+    "player": {
+      "x": 0.7135861144093266,
+      "z": -2.9303511961783437,
+      "vx": -2.8127999999999997,
+      "vz": -3.888,
+      "angle": -2.5152967296648807,
+      "hp": 6,
+      "attack": 0.0966666666666667,
+      "cooldown": 0.24666666666666628,
+      "dash": 0,
+      "dashCooldown": 0,
+      "invulnerable": 0
+    },
+    "enemies": [
+      {
+        "type": "boss",
+        "x": 4.399176714334842,
+        "z": 0.1195942701431437,
+        "hp": 0,
+        "id": 0,
+        "maxHp": 30,
+        "mode": "recover",
+        "timer": 0.041666666666669044,
+        "angle": -2.1210455433204283,
+        "vx": 6.03125355700613,
+        "vz": -6.130577503881744,
+        "flash": 0.15,
+        "knock": 0,
+        "phase": 2,
+        "move": 4,
+        "chains": 0
+      }
+    ],
+    "pickups": [
+      {
+        "id": 0,
+        "x": 4.399176714334842,
+        "z": 0.1195942701431437,
+        "collected": true
+      }
+    ],
+    "projectiles": [
+      {
+        "id": 8,
+        "x": 10.553309138946343,
+        "z": 9.115064692979507,
+        "vx": 2.3150341409196447,
+        "vz": 3.383876021129681,
+        "life": 0.741666666666676
+      },
+      {
+        "id": 9,
+        "x": 14.226546943719978,
+        "z": 4.832833963005339,
+        "vx": 3.6968163872295365,
+        "vz": 1.7730055270954892,
+        "life": 0.741666666666676
+      },
+      {
+        "id": 10,
+        "x": 15.266548831808427,
+        "z": -0.7123055364056403,
+        "vx": 4.088039668015134,
+        "vz": -0.31294036609985504,
+        "life": 0.741666666666676
+      },
+      {
+        "id": 11,
+        "x": 13.39464713717128,
+        "z": -6.034538154468241,
+        "vx": 3.383876021129681,
+        "vz": -2.3150341409196447,
+        "life": 0.741666666666676
+      },
+      {
+        "id": 12,
+        "x": 9.112416407196976,
+        "z": -9.707775959242005,
+        "vx": 1.7730055270954894,
+        "vz": -3.6968163872295365,
+        "life": 0.741666666666676
+      },
+      {
+        "id": 13,
+        "x": 3.567276907786048,
+        "z": -10.747777847330438,
+        "vx": -0.3129403660998566,
+        "vz": -4.088039668015133,
+        "life": 0.741666666666676
+      },
+      {
+        "id": 16,
+        "x": -6.468195403138739,
+        "z": 0.9514940766919131,
+        "vx": -4.088039668015134,
+        "vz": 0.3129403660998527,
+        "life": 0.741666666666676
+      },
+      {
+        "id": 17,
+        "x": -4.596293708501551,
+        "z": 6.273726694754528,
+        "vx": -3.383876021129682,
+        "vz": 2.315034140919643,
+        "life": 0.741666666666676
+      },
+      {
+        "id": 18,
+        "x": -0.31406297852735265,
+        "z": 9.94696449952829,
+        "vx": -1.7730055270954899,
+        "vz": 3.696816387229536,
+        "life": 0.741666666666676
+      },
+      {
+        "id": 19,
+        "x": 5.231076520883709,
+        "z": 10.986966387616727,
+        "vx": 0.3129403660998525,
+        "vz": 4.088039668015134,
+        "life": 0.741666666666676
+      }
+    ],
+    "nextProjectile": 20,
+    "events": [
+      {
+        "type": "won",
+        "x": 0,
+        "z": -4.7
+      }
+    ],
+    "failure": null,
+    "fps": 31,
+    "drawCalls": 89,
+    "triangles": 8239,
+    "geometries": 63,
+    "pixelRatio": 0.6,
+    "settings": {
+      "sound": true,
+      "reduced": false,
+      "quality": "auto",
+      "feel": "full"
+    },
+    "saveAvailable": true,
+    "touch": {
+      "x": 0,
+      "y": 0,
+      "attack": false
+    },
+    "renderSubmissionSamples": [
+      10.700000047683716,
+      3.3000000715255737,
+      4.400000095367432
+    ],
+    "audioState": "running",
+    "voices": 4
+  },
+  "runtimeErrors": []
+}

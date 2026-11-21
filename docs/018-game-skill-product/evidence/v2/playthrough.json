@@ -1,0 +1,229 @@
+{
+  "completed": true,
+  "mode": "real keyboard inputs and menu clicks from a fresh start; snapshot read only",
+  "retries": 0,
+  "wallSeconds": 21.48,
+  "trace": [
+    {
+      "chapter": 0,
+      "phase": "briefing",
+      "wallSeconds": 0.03,
+      "score": 0,
+      "hp": 6,
+      "upgrades": []
+    },
+    {
+      "chapter": 0,
+      "phase": "playing",
+      "wallSeconds": 0.36,
+      "score": 0,
+      "hp": 6,
+      "upgrades": []
+    },
+    {
+      "chapter": 0,
+      "phase": "upgrade",
+      "wallSeconds": 4.67,
+      "score": 935,
+      "hp": 6,
+      "upgrades": []
+    },
+    {
+      "chapter": 1,
+      "phase": "briefing",
+      "wallSeconds": 5.05,
+      "score": 935,
+      "hp": 6,
+      "upgrades": [
+        "edge"
+      ]
+    },
+    {
+      "chapter": 1,
+      "phase": "playing",
+      "wallSeconds": 5.39,
+      "score": 935,
+      "hp": 6,
+      "upgrades": [
+        "edge"
+      ]
+    },
+    {
+      "chapter": 1,
+      "phase": "upgrade",
+      "wallSeconds": 12.81,
+      "score": 2105,
+      "hp": 6,
+      "upgrades": [
+        "edge"
+      ]
+    },
+    {
+      "chapter": 2,
+      "phase": "briefing",
+      "wallSeconds": 13.22,
+      "score": 2105,
+      "hp": 8,
+      "upgrades": [
+        "edge",
+        "heart"
+      ]
+    },
+    {
+      "chapter": 2,
+      "phase": "playing",
+      "wallSeconds": 13.5,
+      "score": 2105,
+      "hp": 8,
+      "upgrades": [
+        "edge",
+        "heart"
+      ]
+    },
+    {
+      "chapter": 2,
+      "phase": "won",
+      "wallSeconds": 20.72,
+      "score": 3880,
+      "hp": 8,
+      "upgrades": [
+        "edge",
+        "heart"
+      ]
+    }
+  ],
+  "final": {
+    "phase": "won",
+    "chapter": 2,
+    "time": 144.15833333333865,
+    "elapsed": 5.841666666666747,
+    "cores": 1,
+    "score": 3880,
+    "upgrades": [
+      "edge",
+      "heart"
+    ],
+    "history": [
+      {
+        "name": "暮港",
+        "elapsed": 3.741666666666656,
+        "damage": 0
+      },
+      {
+        "name": "雾礁",
+        "elapsed": 6.866666666666798,
+        "damage": 0
+      },
+      {
+        "name": "风暴灯塔",
+        "elapsed": 5.841666666666747,
+        "damage": 0
+      }
+    ],
+    "totals": {
+      "hits": 30,
+      "damage": 0,
+      "dashes": 0,
+      "elapsed": 16.449999999999708,
+      "pulses": 7,
+      "clearedProjectiles": 0
+    },
+    "player": {
+      "x": 0.39735141298707316,
+      "z": -2.7436704259633458,
+      "vx": 0.7602812111317762,
+      "vz": -4.738181119374817,
+      "angle": 2.9824904141172577,
+      "hp": 8,
+      "attack": 0,
+      "cooldown": 0.013333333333333001,
+      "dash": 0,
+      "dashCooldown": 0,
+      "invulnerable": 0,
+      "energy": 44,
+      "pulse": 0
+    },
+    "enemies": [
+      {
+        "type": "boss",
+        "x": 0,
+        "z": -0.8,
+        "hp": 0,
+        "id": 0,
+        "maxHp": 30,
+        "mode": "recover",
+        "timer": 0.8416666666666692,
+        "angle": 0.4110374852881752,
+        "vx": 0,
+        "vz": 0,
+        "flash": 0.15,
+        "knock": 0,
+        "stagger": 0.6416666666666693,
+        "phase": 2,
+        "move": 1,
+        "chains": 0
+      }
+    ],
+    "pickups": [
+      {
+        "id": 0,
+        "x": 0,
+        "z": -0.8,
+        "collected": true
+      }
+    ],
+    "projectiles": [],
+    "nextProjectile": 0,
+    "events": [
+      {
+        "type": "won",
+        "x": 0,
+        "z": -4.7
+      }
+    ],
+    "failure": null,
+    "fps": 20,
+    "drawCalls": 78,
+    "triangles": 7043,
+    "geometries": 68,
+    "pixelRatio": 0.6,
+    "assets": {
+      "modelsLoaded": 4,
+      "atlasesLoaded": 2,
+      "activeFlipbooks": 1,
+      "waterEnabled": true,
+      "waterTriangles": 8880,
+      "waterResolutionScale": 0.45,
+      "waterMaxHz": 24,
+      "waterDrawCallsPerUpdate": 1
+    },
+    "settings": {
+      "sound": true,
+      "reduced": false,
+      "quality": "auto",
+      "feel": "full"
+    },
+    "saveAvailable": true,
+    "touch": {
+      "x": 0,
+      "y": 0,
+      "attack": false
+    },
+    "renderSubmissionSamples": [
+      6.900000095367432,
+      2.5,
+      2.700000047683716
+    ],
+    "audioState": "running",
+    "voices": 2,
+    "soundBank": {
+      "decodedSounds": 10,
+      "assetSoundEvents": 99,
+      "voices": 1,
+      "error": null
+    }
+  },
+  "runtimeErrors": [],
+  "audioOffsetSeconds": 3.422,
+  "audio": "captured from the game Web Audio output; aligned to browser video by wall-clock offset"
+}

@@ -1,0 +1,18 @@
+import { createRequire } from 'node:module';
+import { fileURLToPath } from 'node:url';
+import path from 'node:path';
+import { readFile, writeFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
+const require = createRequire(import.meta.url);
+const modules = process.argv[2] || 'C:/Program Files/WindowsApps/OpenAI.CodexPrimaryRuntime.v26-1119-907-0_26.1119.907.0_x64__3k8sg7r9htsxt/dependencies/node/node_modules';
+const sharp = require(path.join(modules, 'sharp'));
+const root = fileURLToPath(new URL('../', import.meta.url));
+const input = path.join(root,'assets/research/research-overview-v3.svg');
+const output = path.join(root,'assets/research/research-overview-v3.png');
+await sharp(input,{limitInputPixels:false}).png().toFile(output);
+const manifestFile=path.join(root,'assets/research/overview-manifest.json');
+const manifest=JSON.parse(await readFile(manifestFile,'utf8'));
+manifest.outputHashes={};
+for(const file of [input,output]) manifest.outputHashes[path.basename(file)]=createHash('sha256').update(await readFile(file)).digest('hex');
+await writeFile(manifestFile,JSON.stringify(manifest,null,2));
+console.log(JSON.stringify({output,...await sharp(output).metadata()}));

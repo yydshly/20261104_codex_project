@@ -1,0 +1,8 @@
+{
+  "frames": 76,
+  "averageMs": 46.24078947431162,
+  "p95Ms": 100.09999999999991,
+  "drawCalls": 611,
+  "triangles": 17198,
+  "renderer": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/147.0.7727.15 Safari/537.36"
+}

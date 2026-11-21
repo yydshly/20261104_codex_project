@@ -1,0 +1,14 @@
+{
+  "exportHashes": 9,
+  "sourceHashes": 8,
+  "localDocumentationLinks": "passed",
+  "build": {
+    "source": "harbor-skill-demo",
+    "unitTests": 18,
+    "browserChecks": 28,
+    "completed": true,
+    "entry": "research.html",
+    "game": "index.html",
+    "published": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source": "harbor-skill-demo",
+  "project": "018-game-skill-product",
+  "version": 4,
+  "unitTests": 22,
+  "browserChecks": 34,
+  "historicalPresentationChecks": 9,
+  "reviewChecks": 14,
+  "sameModelComparison": "not run; protocol only",
+  "overview": "assets/research/research-overview-v3.png",
+  "completed": true,
+  "entry": "research.html",
+  "game": "index.html",
+  "hosting": "GitHub Pages, main/docs",
+  "redistribution": "MIT runtime modules with notices; upstream toolkit, copied templates and full-text Skill snapshots excluded",
+  "sourceRights": "publication/source-rights.json",
+  "generatorToolkit": "obtain asset-maker separately from upstream for local regeneration"
+}

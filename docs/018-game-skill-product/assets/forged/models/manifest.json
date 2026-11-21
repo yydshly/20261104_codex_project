@@ -1,0 +1,145 @@
+{
+  "asset": "models-sentinel.glb",
+  "parameters": {
+    "seed": 27,
+    "trianglesPerAsset": 3000,
+    "sourceAxis": "Z",
+    "runtimeAxis": "Y"
+  },
+  "versions": {
+    "numpy": "2.5.1",
+    "scipy": "1.18.0",
+    "Pillow": "12.3.0",
+    "aggdraw": "1.4.1",
+    "trimesh": "5.2.0",
+    "manifold3d": "3.5.4"
+  },
+  "sha256": {
+    "generate.py": "87258930f61156bc73d02c886b261ff24729a588d35991d3ecf0a1a8235dc898",
+    "models-beacon.glb": "de52fdca64da3ec71b9bfbf475075c9b2b6a0ae6323e5c8c2c5b9284417daad2",
+    "models-beacon.png": "8c8893a39e1d0e4795859f5086597f1aa2efba2ffcb46c9a1aeb4dae195c6570",
+    "models-cannon.glb": "f09e6a64f3f614361fab41a06b668192b55b63363fd697ba1f8570decf541067",
+    "models-cannon.png": "4a0fb23ddd76a4b46960c97ea6de68992172c0223606ec46898e89b044a4036b",
+    "models-guardian.glb": "c5130bd78f22f2d4ea9c77d0eaf700b743da2327cda9c9e927c22251bc26f739",
+    "models-guardian.png": "4386495776388a8e86080f7ac91c27646cfe615b5679f230dda5c83b29afd17d",
+    "models-sentinel.glb": "76231779f6ed04cb8361a65c0a9b7bb7480fd82aca3dc8727edac6487d2e18dd",
+    "models-sentinel.png": "5ebefb5533c5c6e4c014798b1c00a2f10018bef322946a2a8b5bd49478218ac7"
+  },
+  "recipe": "generate.py",
+  "vault_refs": {
+    "techniques/art_styles/vertex_color_gradient_baking.md": [
+      "bake_ground_ao"
+    ],
+    "techniques/art_styles/bevels_and_edge_weight.md": [
+      "lathe"
+    ]
+  },
+  "models": {
+    "sentinel": {
+      "vertices": 545,
+      "triangles": 974,
+      "bounds": [
+        [
+          -0.9800000190734863,
+          -2.265596578020887e-17,
+          -0.6000000238418579
+        ],
+        [
+          0.9800000190734863,
+          1.3200000524520874,
+          0.8500000238418579
+        ]
+      ],
+      "extents": [
+        1.9600000381469727,
+        1.3200000524520874,
+        1.4500000476837158
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "shading": {
+        "ground_darkening": 0.39966901525619286
+      }
+    },
+    "guardian": {
+      "vertices": 619,
+      "triangles": 1094,
+      "bounds": [
+        [
+          -0.9800000190734863,
+          -2.265596578020887e-17,
+          -0.6000000238418579
+        ],
+        [
+          0.9800000190734863,
+          1.3899999856948853,
+          0.8500000238418579
+        ]
+      ],
+      "extents": [
+        1.9600000381469727,
+        1.3899999856948853,
+        1.4500000476837158
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "shading": {
+        "ground_darkening": 0.41259460591082975
+      }
+    },
+    "cannon": {
+      "vertices": 262,
+      "triangles": 496,
+      "bounds": [
+        [
+          -0.6899999976158142,
+          -3.612708016602898e-17,
+          -0.6899999976158142
+        ],
+        [
+          0.6899999976158142,
+          1.0499999523162842,
+          0.9750000238418579
+        ]
+      ],
+      "extents": [
+        1.3799999952316284,
+        1.0499999523162842,
+        1.6650000214576721
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "shading": {
+        "ground_darkening": 0.13807630224920853
+      }
+    },
+    "beacon": {
+      "vertices": 609,
+      "triangles": 1198,
+      "bounds": [
+        [
+          -1.0700000524520874,
+          -6.24569868348656e-17,
+          -1.0700000524520874
+        ],
+        [
+          1.0700000524520874,
+          5.739999771118164,
+          1.0700000524520874
+        ]
+      ],
+      "extents": [
+        2.140000104904175,
+        5.739999771118164,
+        2.140000104904175
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "shading": {
+        "ground_darkening": 0.4663759475805867
+      }
+    }
+  },
+  "vertexColorSpace": "linear RGB, converted from source sRGB palette",
+  "provenance": "Original harbor designs constructed with asset-maker MeshBuilder, SolidMesh and Manifold CSG; no skeletal animation."
+}

@@ -1,0 +1,20 @@
+{
+  "scope": "public-package preflight for project 018",
+  "localReferencesChecked": 160,
+  "missingReferences": [],
+  "guideUnchanged": true,
+  "unitTestsPassed": 22,
+  "localBrowserChecks": [
+    "research publication note, four implementation sources and eight original sources render",
+    "original guide loads at 2240px width",
+    "no local full-text snapshot links on research page",
+    "new campaign enters first-chapter briefing and gameplay",
+    "keyboard Q releases pulse, displays notice and consumes energy",
+    "no fatal overlay or frontend errors during game check",
+    "gallery renders the actual 974-triangle sentinel, VFX frame and sound source"
+  ],
+  "waterLicense": "MIT; full notice included",
+  "upstreamSdkCopiedTemplatesAndFullTextSnapshotsIncluded": false,
+  "sameModelIndependentAB": "not run; protocol only",
+  "historicalAuthoringTimeAndReworkCount": "unknown"
+}

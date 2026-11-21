@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102c36">
+  <title>潮光采用复盘 · Skill 增益尚未证实</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23102c36'/%3E%3Cpath d='M13 35l4-22h6l4 22M14 13h12M18 6h4v7' stroke='%23ffd28b' fill='none' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="research-v1.css">
+</head>
+<body>
+<header class="nav"><a class="wordmark" href="#top">TIDELIGHT <span>制作记录</span></a><nav aria-label="页面导航"><a href="#product">游戏</a><a href="#contribution">Skill 的作用</a><a href="#proof">验证</a><a href="#sources">来源</a><a class="nav-play" href="index.html">开始航程</a></nav></header>
+<main id="top"><aside class="publication-note"><strong>公开研究版</strong><p>引导图沿用原研究图，图中“本机评估”是当时状态。发布核验已确认海面模块为 MIT；无许可证声明的 asset-maker 工具包、复制模板与 Skill 全文不随包分发。游戏使用现有生成资源，<a href="THIRD-PARTY-NOTICES.md">发布范围与许可说明</a>可核对。</p></aside>
+  <section class="hero">
+    <div class="hero-copy"><span class="eyebrow">海港守灯人 · Skill 采用效果复盘</span><h1>游戏已完成，<br>Skill 的增益<br><em>尚未证实。</em></h1><p>本轮采用的内容主要是玩法、状态、界面与反馈的一般建议。模型结合明确需求也能完成这些工作，现有结果没有显示出必须采用这些 Skill 的理由。</p><div class="actions"><a class="button primary" href="index.html">查看游戏产物</a><a class="button" href="#assessment">查看本轮判断</a></div><p class="scope">本轮结论 · 增益未证实，采用必要性低</p></div>
+    <figure class="hero-image"><img src="evidence/product-title.png" alt="海港守灯人的标题界面与三维海港" width="1440" height="900"><figcaption>实际游戏画面 · 三座信标串起一段归途</figcaption></figure>
+  </section>
+  <section class="facts" aria-label="本轮产物"><div><strong>3 章</strong><span>近战、火线与首领</span></div><div><strong>6 项</strong><span>有采用记录的 Skill</span></div><div><strong id="test-count">读取中</strong><span>规则与浏览器检查</span></div><div><strong id="completion">读取中</strong><span>键盘实玩通关记录</span></div></section>
+
+  <section id="product" class="section"><div class="section-intro"><div><span class="eyebrow">产品目标</span><h2>从开场，到成长，再到结局</h2></div><p>目标是一款有完整玩家旅程的短篇动作游戏。每章增加一种需要观察的威胁，修复信标后选择影响后续战斗的装备。</p></div>
+    <div class="chapters"><article><a href="index.html?preview=1&chapter=0"><img src="evidence/playthrough-chapter-1.png" alt="暮港近战机械蟹实玩" loading="lazy"></a><div><span class="tag">近战与操作教学</span><h3>暮港</h3><p>观察机械蟹蓄力，冲刺避开，再近身反击。拾取三枚灯芯，修复第一座信标。</p><a href="index.html?preview=1&chapter=0">体验本章场景</a></div></article><article><a href="index.html?preview=1&chapter=1"><img src="evidence/playthrough-chapter-2.png" alt="雾礁炮台与掩体实玩" loading="lazy"></a><div><span class="tag">远近组合与走位</span><h3>雾礁</h3><p>炮台提前给出瞄准线，石柱可以截住弹丸。穿过交错火线，夺回四枚灯芯。</p><a href="index.html?preview=1&chapter=1">体验本章场景</a></div></article><article><a href="index.html?preview=1&chapter=2"><img src="evidence/playthrough-chapter-3.png" alt="风暴灯塔守潮巨蟹实玩" loading="lazy"></a><div><span class="tag">双阶段首领</span><h3>风暴灯塔</h3><p>蓄力与突进时甲壳坚硬，收招后才能有效反击。半血后连续突进，弹幕也更密。</p><a href="index.html?preview=1&chapter=2">挑战首领场景</a></div></article></div>
+    <p class="caption">场景预览用于快速查看效果，使用预设装备。完整航程从“开启新航程”进入，关间选择与检查点由正常游戏流程产生。</p>
+    <div class="journey" aria-label="玩家流程"><span>标题 / 续玩</span><i>·</i><span>章节说明</span><i>·</i><span>战斗与拾取</span><i>·</i><span>信标修复</span><i>·</i><span>装备三选一</span><i>·</i><span>下一章 / 结局</span></div>
+  </section>
+
+  <section id="contribution" class="section"><div class="section-intro"><div><span class="eyebrow">采用记录</span><h2>六项建议与产物的对应</h2></div><p>下面保留阅读与采用过程。这些对应关系只能说明实施了哪些建议，尚不能证明相较于直接开发带来了额外收益。</p></div><div id="skill-tabs" class="skill-tabs" role="tablist" aria-label="查看六个 Skill 的采用记录"></div><article id="skill-detail" class="skill-detail" role="tabpanel" tabindex="0"></article>
+    <div class="finding"><span class="finding-mark">实际修正</span><div><h3>“等收招反击”需要写进判定</h3><p>第一次实玩中，首领蓄力与突进时也能被持续削血，文字提示与规则不一致。按明确因果与反制窗口的要求复查后，补上甲壳保护、格挡音效和提示，并增加针对保护期与收招期的测试。</p><a href="campaign.js">查看判定实现</a> · <a href="campaign.test.js">查看对应测试</a></div></div>
+  </section>
+
+  <section class="section"><div class="section-intro"><div><span class="eyebrow">原型与产品</span><h2>这次实际增加了哪些能力</h2></div><p>保留上一版原型作为参照。这份对照记录产品变化，尚未进行模型直接实现与采用 Skill 的独立对照实验。</p></div><div class="table-wrap"><table><thead><tr><th>查看的方面</th><th>上一版单场原型</th><th>本轮三章产品</th></tr></thead><tbody><tr><td>玩家目标</td><td>一座岛，三只机械蟹，点亮一次灯塔</td><td>修复三座信标，完成成长与最终结局</td></tr><tr><td>战斗决策</td><td>同类敌人，近身挥击与冲刺</td><td>近战、瞄准弹丸、掩体、甲壳窗口、双阶段首领</td></tr><tr><td>成长</td><td>本局分数</td><td>两次装备选择，改变伤害、生命或机动能力</td></tr><tr><td>连续游玩</td><td>本场重开</td><td>本关重试、检查点续玩、装备与最佳纪录保存</td></tr><tr><td>操作舒适度</td><td>基本触控与暂停</td><td>多指取消、失焦复位、弹窗焦点、安全区与画质设置</td></tr><tr><td>验收依据</td><td>初步运行与两张截图</td><td>规则测试、浏览器检查、整段实玩视频与原始报告</td></tr></tbody></table></div><a class="text-link" href="baseline/">打开保留的上一版原型</a></section>
+
+  <section id="proof" class="section"><div class="section-intro"><div><span class="eyebrow">真实运行记录</span><h2>结果可以回看，也可以复查</h2></div><p>规则测试检查状态边界，浏览器检查覆盖界面与输入，整段通关使用正常键盘与菜单操作。测试场景与完整通关分别记录。</p></div><div class="proof-grid"><div class="proof-copy"><h3>本轮验证</h3><div id="proof-summary"></div><div class="report-links"><a href="evidence/browser-verification.json">浏览器检查原始记录</a><a href="evidence/playthrough.json">完整通关原始记录</a><a href="campaign.test.js">规则测试源码</a></div><p class="caption">手机检查使用触控浏览器模拟，手柄输入路径已实现。真机手感、实际手柄、普通玩家理解与长期可玩性仍需试玩。</p></div><div class="proof-images"><figure><a href="evidence/upgrade.png"><img src="evidence/upgrade.png" alt="三选一升级界面" loading="lazy"></a><figcaption>升级选择有属性变化，并随检查点恢复</figcaption></figure><figure><a href="evidence/mobile-play.png"><img src="evidence/mobile-play.png" alt="手机竖屏触控游戏界面" loading="lazy"></a><figcaption>触控移动与挥击可同时按住，取消后复位</figcaption></figure></div></div>
+    <div class="performance"><div><span class="eyebrow">性能检查</span><h3>先测量，再调整渲染开销</h3><p>相同 CSS 视口与场景状态下，静态物件使用实例化，阴影按关卡缓存。材质改为适合低多边形画风的 Lambert，自动模式会在持续低帧率时降低三维画布分辨率。</p><a href="evidence/performance.json">查看视口、画质与渲染器原始数据</a></div><div id="performance-data"></div></div>
+    <p class="caption">输入采样记录从按键事件处理到动作帧渲染提交的间隔，未测量外设、浏览器合成与显示器延迟。帧时间是当前 Headless Chromium / SwiftShader 环境的短样本。</p>
+  </section>
+
+  <section id="playthrough" class="section"><div class="section-intro"><div><span class="eyebrow">实际效果</span><h2>从新航程到海港亮起</h2></div><p id="video-caption">正常键盘输入完成战斗、拾取、升级与信标修复。视频保留了这一轮操作过程。</p></div><video controls preload="metadata" poster="evidence/ending-playthrough.png" playsinline><source src="evidence/full-playthrough.mp4" type="video/mp4"><source src="evidence/full-playthrough.webm" type="video/webm">浏览器未能播放视频，可打开<a href="evidence/full-playthrough.mp4">完整通关录像</a>。</video><p class="caption">录像记录的是自动操作程序走正常游戏入口的结果。完整通关脚本只读取状态快照，未调用修改血量、传送或跳关接口。</p></section>
+
+  <section id="sources" class="section"><div class="section-intro"><div><span class="eyebrow">按问题选 Skill</span><h2>原清单的八项，各自放在哪里</h2></div><p>原帖的 GitHub 链接尚未提供。本轮检索同名开源版本，保存下载快照与 SHA-256，明确区分实际采用和目录收录。</p></div><div class="table-wrap"><table id="source-table"><thead><tr><th>Skill</th><th>遇到的问题</th><th>本轮范围</th><th>可复查资料</th></tr></thead><tbody></tbody></table></div><div class="source-footer"><a href="skill-sources/manifest.json">八项来源与快照指纹</a><a href="DESIGN.md">产品范围与采用记录</a><a href="README.md">运行与验证说明</a></div></section>
+  <section id="assessment" class="section limits"><span class="eyebrow">本轮判断</span><h2>增益未证实，采用必要性低</h2><p>这次实际采用的部分主要是核心循环、状态管理、界面流程和动作反馈等通用建议。制作过程中没有实际接入这些 Skill 提供的可执行工具、实现模板、专业资产或特定引擎服务，现有产物未呈现可辨认的额外能力。</p><p>三章游戏、46 项功能检查和通关录像证明完成了本轮功能范围。首领规则修正、存档校验与性能改善来自具体的设计和代码工作，这些结果尚不能单独归因于 Skill。阅读并采用说明的记录也不足以证明效率提升。</p><p>因此，对本次 Three.js 小游戏的判断是采用必要性低。相同需求与预算下的时间、质量和返工差异尚未实测。普通玩家理解、真机触控、实体手柄及长期可玩性仍缺少测试。</p></section>
+</main>
+<footer class="footer"><span>潮光 · 海港守灯人</span><div><a href="index.html">完整游戏</a><a href="https://github.com/yydshly/20261104_codex_project">研究总库</a><a href="#sources">来源与记录</a></div></footer>
+<script type="module" src="research-v1.js"></script>
+</body>
+</html>

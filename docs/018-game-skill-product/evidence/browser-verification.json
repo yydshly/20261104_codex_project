@@ -1,0 +1,172 @@
+{
+  "checks": [
+    {
+      "name": "title opens with a focused primary action",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "new campaign enters authored first-chapter briefing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "first gesture unlocks browser audio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard movement updates the visible player",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "dash uses its cooldown and records a player action",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pause freezes simulation clock",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "native settings modal keeps keyboard focus inside",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "settings persist and return to paused screen",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pause resumes to gameplay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "normal keyboard attacks defeat a real enemy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "defeated enemy creates one stable pickup",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "accepted attack inputs reach a submitted action frame",
+      "passed": true,
+      "detail": {
+        "samplesMs": [
+          5.799999952316284,
+          3.8000000715255737,
+          2.3000000715255737
+        ],
+        "scope": "keydown handler to render() return, excludes hardware input/display latency"
+      }
+    },
+    {
+      "name": "one upgrade moves to the second chapter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "life upgrade affects gameplay stats",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reload continues from checkpoint with equipment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "loss retries a fresh chapter with cleared transient state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "time expiry produces the timeout explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "boss phase change is visible in the real HUD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ending writes a local best record",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unsupported save is rejected with a usable new-game entry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "portrait page fits viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "critical touch buttons are at least 44 CSS pixels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "multitouch accepts movement and held attack together",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch cancellation clears every held input",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "orientation change preserves the campaign",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "focus loss pauses safely",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unavailable storage leaves the game playable and reports failure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "browser has no unhandled runtime errors",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "screenshots": [
+    "product-title.png",
+    "chapter1.png",
+    "combat-feedback.png",
+    "upgrade.png",
+    "chapter2.png",
+    "failure.png",
+    "chapter3.png",
+    "ending-fixture.png",
+    "mobile-title.png",
+    "mobile-play.png",
+    "mobile-landscape.png"
+  ],
+  "runtimeErrors": [],
+  "browserWarnings": [
+    "[.WebGL-0x1cb4001b4e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x1cb4001b4e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x1cb4001b4e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x1cb4001b4e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+  ],
+  "passed": 28
+}

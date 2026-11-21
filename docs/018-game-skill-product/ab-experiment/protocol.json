@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "status": "protocol fixed; isolated-task method awaiting user selection",
+  "question": "Do the four Skills add measurable value beyond a same-model, same-requirement implementation?",
+  "treatments": {
+    "skill": "read the four fixed Skill documents and use their implementation toolkits",
+    "direct": "no Skill documents, toolkit code, prior recipes, generated assets or ocean module"
+  },
+  "shared": "same three-chapter host, gameplay rules, Q ability, input, UI, loaders and event bindings; common infrastructure is excluded from Skill benefits",
+  "model": "same currently selected model, inherited unchanged; backend identity only reported if exposed",
+  "context": "fresh tasks must not inherit this conversation; current-chat rewrite would be labelled contaminated and exploratory",
+  "deliverables": [
+    "4 low-poly GLB assets: sentinel, guardian, cannon, beacon",
+    "2 transparent 24-frame VFX atlases: tide and impact",
+    "10 distinct 48kHz stereo PCM16 sounds",
+    "animated harbor water with wave-driven boat buoyancy",
+    "build recipes, manifests and validation records"
+  ],
+  "outOfScope": [
+    "new levels",
+    "Q damage, armor breaking, interruption and projectile clearing",
+    "UI completeness",
+    "saves and checkpoints",
+    "general game quality improvements shared between arms"
+  ],
+  "timePolicy": {
+    "historicalSkillAuthoring": "unknown; no retroactive estimate",
+    "freshRuns": "wall clock begins when the fixed task is dispatched; environment preparation and shared harness reported separately",
+    "rebuild": "same machine, warmed environment, sequential repeated runs; keep raw samples; no mixing rebuild time with AI authoring time"
+  },
+  "reworkPolicy": {
+    "definition": "a correction after an executable candidate or generated output fails a predeclared check; separate runtime/API failures from visual or audible revisions",
+    "evidence": "retain candidate hashes, command exit status, failed check and changed files; do not infer counts from final code"
+  },
+  "evaluation": [
+    "same frozen technical rubric for both arms",
+    "same camera, lighting, viewport and timing for screenshots/video",
+    "same peak/headroom reporting and event-volume controls for audio",
+    "same hardware and rendering quality for performance",
+    "visual/audio preference remains unmeasured until user review; no invented preference scores"
+  ],
+  "limits": [
+    "one case cannot establish general superiority",
+    "same model is not identical stochastic output",
+    "prior existing Skill run lacks reliable total time and rework counts",
+    "if context isolation is declined, prior exposure must remain a stated limitation"
+  ],
+  "baseHashes": {
+    "index.html": "8c855b7987e9cd21a5d1dfec6a0448bf4964a245db7ef05d5a1718b2460b8fd5",
+    "style.css": "52fbf1d8952c3317d56d6a60645fe09b0a374912060710d366aeb3ad259d035b",
+    "game.js": "08a3bb1e96bbe7cb78896491bd5d2e646fef01435e3ce9b45fa87a75c12ad6e8",
+    "scene.js": "c9a61ffa87e1d97b7e08f58c70af9235c61555b5d4d3f4bbb56571eb0e40f693",
+    "campaign.js": "0eb46541bd668a48c315a5b32bbbec54ca86e79123a2aee7cde6309b7d5f4ea8",
+    "content.js": "e7157ee1da4b4f785e824458d4078d916b4b10b4ca53433aa161088547d86399",
+    "audio-bank.js": "a6aecbb968d976d6b6b2fff1dff4c36d3e4b86743e96afdd26d4f0c26191ecab"
+  }
+}

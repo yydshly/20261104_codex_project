@@ -22,6 +22,7 @@
 | 014 | [五款游戏的玩法、美术与设计取舍](projects/014-game-design-lab/README.md) | [五款原作与官方资料](https://yydshly.github.io/20261104_codex_project/014-game-design-lab/#sources) | 对照五款原作的玩法、美术与持续动机，整理五条设计方向。结合样片反馈，沉淀核心体验选型、美术投入取舍与先验证乐趣再扩系统的方法，供后续设计回查；扩展提案尚未验证。 | [已有设计总览图](#game-design-lab-guide) | [在线研究与我们的理解](https://yydshly.github.io/20261104_codex_project/014-game-design-lab/) |
 | 015 | [《蜀道难》第一人称诗境研究](projects/015-shu-road/README.md) | [李白《蜀道难》](https://zh.wikisource.org/zh-hans/蜀道难_(李白)) · 自主 WebGL 实践 | 实现一条可走的九幕 3D 蜀道，用双音色语音和镜头把诗句对准景物。探索怎样用旅人站位表达高险，并在模型上标明史料与推测，为古诗教学展示和文化导览提供可复用原型。 | [已有九幕引导图](#shu-road-guide) | [研究与解读](https://yydshly.github.io/20261104_codex_project/015-shu-road/research.html) · [在线演示](https://yydshly.github.io/20261104_codex_project/015-shu-road/) |
 | 016 | [小工具商业机制与个人 AI 协作研究](projects/016-solo-business-study/README.md) | [Feng_YQ](https://x.com/Feng_YQ) · [闷声发大财](https://msfdcszhd.com/) · 逐项官网与用户原帖 | 拆解 10 个工具的能力、获客和收费，保留 20 种扩展设想、15 家企业岗位抽样及 AI 替代核对。价值在理解持续监测、流程承接与结果交付，帮助个人减少误投，并通过样例和反馈形成 AI 协作目标；当前无立项推荐。 | [已有研究引导图](#solo-business-study-guide) | [在线研究与当前理解](https://yydshly.github.io/20261104_codex_project/016-solo-business-study/) |
+| 018 | [潮光 · 游戏 Skill 能力与价值研究](projects/018-game-skill-product/README.md) | [asset-maker](https://github.com/Be1l-ai/asset-maker) · [threejs-Skills](https://github.com/zafmy/threejs-Skills) · [八项清单来源](harbor-skill-demo/skill-sources/manifest.json) | 研究 game-design-theory 等八项选型与两轮采用，在《潮光》三章动作游戏中实际调用 create-3d-assets、create-vfx、create-sfx 和 3d-ultra-realistic-water，展示低模 CSG/AO、24 帧特效、材质音效与动态海面，保留来源、配方、实录和验证。确认资源与代码复用；新增玩法单独归属，同模型 A/B、开发提速、返工减少与玩家偏好增益尚未证实。 | [已有研究总览图](#game-skill-product-guide) | [在线研究与效果](https://yydshly.github.io/20261104_codex_project/018-game-skill-product/research.html#overview) · [完整游戏](https://yydshly.github.io/20261104_codex_project/018-game-skill-product/) |
 | 019 | [投影打怪玩具：效果、意义与研究判断](projects/019-projection-play-study/README.md) | [noni__z 原帖](https://x.com/noni__z/status/2120168976135209223) · Nex / LUMOplay 官方资料 | 归档可见效果、童趣解释、产品能力与家庭意义，保留城市扩展和偏题纸样。当前新增研究价值有限，停止继续立项与演示；原机、复玩和付费未实测。 | [一图汇总](#projection-play-guide) | [研究归档网页](https://yydshly.github.io/20261104_codex_project/019-projection-play-study/) |
 
 项目按收录顺序从 `001` 开始编号。新条目按编号追加，已分配的编号保持固定。索引摘要用一两句话写清研究对象和关注点。完成验证后，可补上一条主要发现。
@@ -257,3 +258,19 @@ Adam Chernick 个人制作、扩展和组合的网页 3D 实验，部分基于 T
 当前没有太多新增研究价值，归档参考，停止继续立项与演示。已有产品提供基础能力，尚未识别独特需求或改进；原机、跨日复玩和真实付费未实测。该判断针对本方向的继续投入，不全面否定游戏软件价值。城市文化扩展与11页苏州纸样作为历史讨论保留，未验证的价格、成本与转化假设不作为结果。
 
 [研究与完整讨论](https://yydshly.github.io/20261104_codex_project/019-projection-play-study/) · [一图汇总](projects/019-projection-play-study/assets/projection-play-overview.png) · [本地离线版](projects/019-projection-play-study/offline.html) · [来源与范围](projects/019-projection-play-study/README.md)
+
+<a id="game-skill-product-guide"></a>
+
+### 018 · 潮光：游戏 Skill 的能力、效果与价值研究
+
+研究从“按问题选 Skill”的八项清单出发，第一轮采用玩法、引擎、界面、输入、HUD 与反馈六项通用建议，未证明额外增益。第二轮在完整三章动作游戏中实际调用 create-3d-assets、create-vfx、create-sfx 与 3d-ultra-realistic-water，核对工具和实现如何进入可运行产品。
+
+![游戏 Skill 研究总览：两轮实践、真实效果、四项能力、贡献归属、证据与待验证项](harbor-skill-demo/assets/research/research-overview-v3.png)
+
+三维管线提供 MeshBuilder、SolidMesh、CSG、AO、GLB 导出与网格检查，产出 4 个模型；特效管线提供分层发射与图集，产出 2 套各 24 帧的效果；音效管线提供材质模态、瞬态与立体声，产出 10 个游戏声音和 1 个对照；海面直接复用波场、法线、反射与泡沫模块。网页提供三章实玩、同机位版本滑块、可旋转模型、逐帧特效、音效试听、通关录像、来源与配方。
+
+22 项规则测试、34 项游戏浏览器检查、9 项资源接入阶段展示检查与 14 项研究回顾页面检查有记录，23 个生成文件重复构建哈希一致。自动画质软件渲染短样本由旧版 21.49ms 变为新版 23.23ms / 帧，保留运行成本。Q 的伤害、破甲、打断、消弹、回充及三章产品流程为项目新增，不计为四项 Skill 的独有收益。
+
+当前确认具体工具与代码复用、视听资源交付与本次可重建性。没有运行同模型、同需求的独立 A/B，首次开发耗时和完整返工次数未知；尚不能证明更快、更少缺陷、更少返工或玩家更喜欢，也未证明 Skill 文档包装比直接使用同一 SDK 更有价值。引导图沿用已生成的原图，图内发布状态为研究阶段记录；公开包保留 MIT 运行时许可，不分发未声明许可的工具包、复制模板或上游 Skill 全文。
+
+[在线研究与一图总览](https://yydshly.github.io/20261104_codex_project/018-game-skill-product/research.html#overview) · [完整三章游戏](https://yydshly.github.io/20261104_codex_project/018-game-skill-product/) · [资源展台](https://yydshly.github.io/20261104_codex_project/018-game-skill-product/gallery.html) · [完整研究摘要](projects/018-game-skill-product/README.md) · [来源与发布范围](harbor-skill-demo/THIRD-PARTY-NOTICES.md)

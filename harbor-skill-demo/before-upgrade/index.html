@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#082c37">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect rx='14' width='64' height='64' fill='%230b3943'/%3E%3Cpath d='M21 55l5-33h12l5 33M22 22h20M27 13h10v9M24 13l8-8 8 8' fill='none' stroke='%23ffd380' stroke-width='5'/%3E%3C/svg%3E">
+  <title>潮光 · 海港守灯人</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="game" aria-label="潮光，海港守灯人小游戏">
+  <canvas id="world" aria-label="三维海港。方向键移动，J 挥击，空格冲刺，E 点灯，P 暂停" tabindex="0"></canvas>
+  <div class="vignette" aria-hidden="true"></div>
+  <header class="topbar">
+    <div class="brand"><svg viewBox="0 0 30 40" aria-hidden="true"><path d="M8 36l3-22h8l3 22M8 14h14M11 7h8v7M9 7l6-5 6 5M4 21H0m26 0h4"/></svg><div><span class="brand-en">TIDELIGHT</span><span class="brand-cn">潮光 · 海港守灯人</span></div></div>
+    <div class="tools">
+      <button id="audio" class="tool" aria-label="开启声音" aria-pressed="false" title="声音">♪<span>声音关</span></button>
+      <button id="pause" class="tool" aria-label="暂停游戏" disabled>Ⅱ<span>暂停</span></button>
+      <button id="settings-open" class="tool" aria-label="打开设置">⚙<span>设置</span></button>
+      <button id="restart" class="tool" aria-label="从本关检查点重试">↻<span>重试</span></button>
+    </div>
+  </header>
+  <section class="hud" aria-label="本局状态">
+    <div class="status-left"><span class="micro" id="chapter-label">暮港 · 第一章</span><div id="hearts" aria-label="生命值"></div><div class="time"><span id="clock">100</span><span>秒 · 潮汐将至</span></div></div>
+    <div class="objective"><span class="micro">信标能源 · <span id="score">0</span> 分</span><div class="shards" id="shards"></div><span id="objective-text">击退机械蟹，收集灯芯</span></div>
+  </section>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <section id="boss-hud" hidden aria-label="首领状态"><div><span>守潮巨蟹</span><span id="boss-phase">蓄势</span></div><div class="boss-track"><div id="boss-health"></div></div><span id="boss-hint">突进结束后反击</span></section>
+  <div id="interact" hidden><button id="ignite">E · 点亮灯塔</button></div>
+  <div id="overlay" class="overlay">
+    <section class="menu" aria-labelledby="menu-title">
+      <span class="eyebrow" id="menu-eyebrow">三座信标，一段归途</span>
+      <h1 id="menu-title">海港<span>守灯人</span></h1>
+      <p id="menu-copy">穿过暮港与雾礁，挑战风暴中的守潮巨蟹。<br>用你带回的灯芯，点亮回家的路。</p>
+      <div class="mission" id="mission"><span><b>3</b> 章旅程</span><span><b>3</b> 种敌人</span><span><b>2</b> 次成长</span></div>
+      <div id="route" aria-label="三章航程"><span class="current">暮港</span><i></i><span>雾礁</span><i></i><span>风暴灯塔</span></div>
+      <div id="upgrade-options" hidden></div>
+      <div id="results" hidden></div>
+      <button id="primary" class="primary">开启新航程</button>
+      <button id="continue" class="secondary" hidden>继续航程</button>
+      <button id="secondary" class="secondary" hidden>重新开始</button>
+      <p class="menu-hint" id="menu-hint">近身按 J 挥击，空格冲刺。完成每章后自动保存检查点。</p>
+      <div class="menu-links"><button id="menu-settings">航程设置</button><a href="../research.html">制作与 Skill 价值记录</a></div>
+    </section>
+  </div>
+  <aside class="gear-hud" aria-label="装备与冲刺"><div id="gear-list">航程装备将在信标修复后获得</div><div class="dash-meter"><span>冲刺</span><div><i id="dash-fill"></i></div><b id="dash-ready">就绪</b></div></aside>
+  <footer class="controls"><span><kbd>W A S D</kbd> 移动</span><span><kbd>J</kbd> / 点击 挥击</span><span><kbd>空格</kbd> 冲刺</span><span><kbd>E</kbd> 点灯</span><span><kbd>P</kbd> 暂停</span></footer>
+  <div class="touch-controls" aria-label="触屏操作">
+    <div id="joystick" role="group" aria-label="拖动圆盘移动"><div id="stick"></div><span>移动</span></div>
+    <div class="touch-actions"><button id="dash" aria-label="冲刺">冲刺<span>SPACE</span></button><button id="attack" aria-label="挥击">挥击<span>J</span></button></div>
+  </div>
+  <div id="fatal" hidden role="alert"><h2>场景加载遇到问题</h2><p>请使用支持 WebGL 的浏览器重新打开。</p></div>
+  <dialog id="settings" aria-labelledby="settings-title"><h2 id="settings-title">航程设置</h2><p>随时调整，关闭后回到当前画面。</p><label><span>声音</span><input id="sound-setting" type="checkbox"></label><label><span>减少动态效果</span><input id="motion-setting" type="checkbox"></label><label><span>画面质量</span><select id="quality-setting"><option value="auto">自动</option><option value="standard">标准</option><option value="low">轻量</option></select></label><label><span>动作反馈</span><select id="feel-setting"><option value="full">完整</option><option value="basic">简洁</option></select></label><p class="settings-note">简洁模式保留攻击预警、命中判定与生命提示。键盘操作可用 Tab 切换，Enter 确认。</p><button id="settings-close" class="primary">保存并返回</button></dialog>
+</main>
+<script type="module" src="game.js"></script>
+</body>
+</html>

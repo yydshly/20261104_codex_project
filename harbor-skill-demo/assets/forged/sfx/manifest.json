@@ -1,0 +1,176 @@
+{
+  "asset": "sfx-hit.wav",
+  "parameters": {
+    "seed": 27,
+    "rate": 48000,
+    "headroomDb": -3,
+    "channels": 2,
+    "haasMs": 3.5,
+    "bellPrimeHz": 330
+  },
+  "versions": {
+    "numpy": "2.5.1",
+    "scipy": "1.18.0",
+    "Pillow": "12.3.0",
+    "aggdraw": "1.4.1",
+    "trimesh": "5.2.0",
+    "manifold3d": "3.5.4"
+  },
+  "sha256": {
+    "generate.py": "72d608887ea4a86ff864f358bdb66efab1a75bb06843df26045f2f6594507381",
+    "sfx-beacon.wav": "76b3e3ac42a17e97bc252c3d7ba0ad172f4d834ceb57e2e6e0c47c65f5362259",
+    "sfx-before-hit.wav": "bc09ca3537f72555505b1c15d2e8638277ea0ce5e84b44a8a3876f9a08bd07aa",
+    "sfx-damage.wav": "63f336aac3f548acbb10053fd7d14ea323d13ecec64f2be69ca642a6a2d0768a",
+    "sfx-dash.wav": "5221167ef2580a0912609c5635cd8c729adf60e8e87d3a1aaed1d8caaf8a97c6",
+    "sfx-defeat.wav": "597c6e96798714ca696fe8ead83aa7017a9d46ec7190c6112bbfea46536f8cfa",
+    "sfx-guard.wav": "374826505d3babc488afd26f23993bc8860b9b53999db0073ebd12a3b6de570d",
+    "sfx-hit.wav": "2e0084de2320f8ac42f5f657f127d63ad94c1147b7c1cd002ce11e6669049342",
+    "sfx-pickup.wav": "77e238e43e92ec771f0fd1218a0ddd32a5995e37ee8e2cc425163d960e4dccf9",
+    "sfx-pulse.wav": "e498ee07ba68102d3f60166a6fe2b8a126e821636084aa37cd79de8f136cfd3d",
+    "sfx-swing.wav": "bebe51d36912f547cabfba662afabaa9003e1af1dfb1d4cb1f8b1d6e3c13bd40",
+    "sfx-warning.wav": "2094b90d8426dfdd8615233d2ecb4d1f0cc10876c6714c0173c1ab41aebb5d66"
+  },
+  "recipe": "generate.py",
+  "vault_refs": {
+    "mathematics/acoustics/church_bells_bronze.md": [
+      "bell_resonator"
+    ],
+    "mathematics/acoustics/spatial_haas_and_transients.md": [
+      "spatial_stereo_pan"
+    ]
+  },
+  "sounds": {
+    "hit": {
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 0.35,
+      "peak_dbfs": -3.0003622493859567,
+      "rms_dbfs": -17.85514181372189,
+      "dc_offset": [
+        -4.335675920758929e-05,
+        -0.0004230063302176339
+      ],
+      "endpoint_delta": 0.0
+    },
+    "guard": {
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 0.6,
+      "peak_dbfs": -3.0003622493859567,
+      "rms_dbfs": -16.477981551080248,
+      "dc_offset": [
+        2.4668375651041665e-06,
+        1.029650370279948e-05
+      ],
+      "endpoint_delta": 0.0
+    },
+    "pickup": {
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 1.1,
+      "peak_dbfs": -3.0003622493859567,
+      "rms_dbfs": -18.78923906170934,
+      "dc_offset": [
+        9.866194291548294e-07,
+        1.2709877707741478e-06
+      ],
+      "endpoint_delta": 0.0
+    },
+    "beacon": {
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 2.6,
+      "peak_dbfs": -3.0003622493859567,
+      "rms_dbfs": -22.73244938506646,
+      "dc_offset": [
+        -4.768127050155248e-06,
+        -1.1065067389072517e-06
+      ],
+      "endpoint_delta": 0.0
+    },
+    "defeat": {
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 0.7,
+      "peak_dbfs": -3.0003622493859567,
+      "rms_dbfs": -18.019408451875695,
+      "dc_offset": [
+        -0.00017336255028134302,
+        0.00016714368547712054
+      ],
+      "endpoint_delta": 0.0
+    },
+    "damage": {
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 0.35,
+      "peak_dbfs": -3.0003622493859567,
+      "rms_dbfs": -19.719372771400586,
+      "dc_offset": [
+        -5.39216541108631e-05,
+        -7.036844889322916e-05
+      ],
+      "endpoint_delta": 0.0
+    },
+    "warning": {
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 0.25,
+      "peak_dbfs": -3.0003622493859567,
+      "rms_dbfs": -13.224003970275465,
+      "dc_offset": [
+        -1.7972310384114583e-05,
+        -3.5947163899739585e-05
+      ],
+      "endpoint_delta": 0.0
+    },
+    "swing": {
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 0.2,
+      "peak_dbfs": -3.0003622493859567,
+      "rms_dbfs": -17.441734255764224,
+      "dc_offset": [
+        -9.012222290039062e-06,
+        -6.313323974609375e-06
+      ],
+      "endpoint_delta": 0.0
+    },
+    "dash": {
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 0.3,
+      "peak_dbfs": -3.0003622493859567,
+      "rms_dbfs": -15.835559215770278,
+      "dc_offset": [
+        -5.950927734375e-06,
+        -4.319085015190972e-06
+      ],
+      "endpoint_delta": 0.0
+    },
+    "pulse": {
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 1.1499791666666668,
+      "peak_dbfs": -3.0003622493859567,
+      "rms_dbfs": -17.27534224603367,
+      "dc_offset": [
+        -4.887323875885433e-07,
+        -1.1333726182765993e-07
+      ],
+      "endpoint_delta": 0.0
+    },
+    "before-hit": {
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 0.12,
+      "peak_dbfs": -3.0003622493859567,
+      "rms_dbfs": -10.401811684866079,
+      "dc_offset": [
+        0.0005766285790337457,
+        0.0005606068505181206
+      ],
+      "endpoint_delta": 0.0
+    }
+  }
+}

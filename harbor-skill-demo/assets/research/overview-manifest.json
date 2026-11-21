@@ -1,0 +1,26 @@
+{
+  "title": "游戏 Skill 的效果、价值与证据",
+  "asOf": "2026-11-21",
+  "dimensions": [
+    2240,
+    4480
+  ],
+  "method": "code-native SVG diagram with original game screenshots; rasterized with Sharp",
+  "status": "independent same-model comparison not run",
+  "sources": {
+    "evidence/v2/browser-verification.json": "1203fc3a6cacdfdaefcc4890696873d5d0c4a682d7761e59d4786f8fc615e236",
+    "evidence/v2/playthrough.json": "8918fc2fc441e6d80cef68156760b7b7bb90bfaa6e7e8971c5b5597dc641d4db",
+    "evidence/v2/performance.json": "9c79b79fd3ec071953b6ebcbbf5724a68dba5a4010e45a8f5277109455c1dff1",
+    "evidence/v2/reproducibility.json": "83b75613a7e5f9255bfcbad17c0bce7231e41922e375784a97d128b58dd824f9",
+    "evidence/v2/presentation-verification.json": "d74b30208c85d291a29745980629ae421148c6f1729de573774c326029f88391",
+    "ab-experiment/protocol.json": "57292ac5afca2d2fbad2a4ccb2f2250b59280af1699528adaa7fd4e6eb795b48",
+    "skill-sources/v2/manifest.json": "77f9c109c78b83c7f98697e63425a4b5128cd50b512df4413a85f2f395977f2e"
+  },
+  "generator": "scripts/build-research-map.py",
+  "svg": "assets/research/research-overview-v3.svg",
+  "png": "assets/research/research-overview-v3.png",
+  "outputHashes": {
+    "research-overview-v3.svg": "54a9a1728ee6e0a727c9aa49103e2b87be48da9f253768f0c2710fff93746f38",
+    "research-overview-v3.png": "f58dd53d329e57e09e081f09563b2012bd1bd62e3aa41fe7ec4e1fea3a7e3051"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "46 checks and real completion load from evidence",
+    "all six skill tabs expose requirements, code and evidence",
+    "skill tabs support keyboard navigation",
+    "all eight source entries are present",
+    "actual MP4 plays in the showcase",
+    "showcase fits phone and tablet widths",
+    "all visible local source and evidence links resolve",
+    "ordinary game entry exposes no QA state API"
+  ],
+  "errors": [],
+  "failedRequests": []
+}
