@@ -1,0 +1,58 @@
+.sphere-demo { position: relative; isolation: isolate; height: 100%; overflow: hidden; background: #050505; color: #f4f2ef; font-family: Georgia, 'Times New Roman', serif; }
+.sphere-demo.sphere-product { background: #070b11; color: #e7eef4; }
+.sphere-demo button, .sphere-demo a { color: inherit; }
+.sphere-demo button { cursor: pointer; font: inherit; }
+.sphere-demo :is(button,a,.sphere-stage,.sphere-grid):focus-visible { outline: 2px solid #d9ece7; outline-offset: 3px; }
+.sphere-interactive { position: absolute; inset: 0; }
+.sphere-brand, .sphere-footer { position: absolute; z-index: 2; left: 18px; right: 18px; display: flex; justify-content: space-between; align-items: center; gap: 10px; pointer-events: none; }
+.sphere-brand { top: 14px; }
+.sphere-brand > div:first-child { display: grid; gap: 2px; }
+.sphere-brand strong { font-size: clamp(14px, 2.05vw, 22px); font-weight: 400; }
+.sphere-brand span, .sphere-footer { color: #b9b7b3; font: 600 clamp(8px, 1.15vw, 11px) / 1.35 system-ui, sans-serif; letter-spacing: .03em; }
+.sphere-views { display: flex; gap: 3px; pointer-events: auto; padding: 3px; border: 1px solid #ffffff38; border-radius: 999px; background: #151515df; }
+.sphere-views button { border: 0; border-radius: 999px; background: transparent; padding: 6px 11px; color: #ddd; font: 600 11px / 1.2 system-ui, sans-serif; }
+.sphere-views button[aria-pressed='true'] { background: #e7e3df; color: #111; }
+.sphere-footer { bottom: 14px; }
+.sphere-footer a { pointer-events: auto; text-decoration-color: #ffffff70; text-underline-offset: 3px; }
+.sphere-stage { position: absolute; inset: 0; outline-offset: -3px; perspective: var(--sphere-perspective, 850px); touch-action: none; cursor: grab; user-select: none; }
+.sphere-stage[data-dragging] { cursor: grabbing; }
+.sphere-world { position: absolute; left: 50%; top: 50%; width: 0; height: 0; transform-style: preserve-3d; }
+.sphere-card { position: absolute; top: 0; left: 0; width: var(--sphere-card-width, 76px); aspect-ratio: 1.5; margin: 0; padding: 0; border: 0; background: transparent; translate: -50% -50%; backface-visibility: hidden; }
+.sphere-card.sphere-portrait { aspect-ratio: .76; }
+.sphere-card > span, .sphere-card img { position: absolute; inset: 0; width: 100%; height: 100%; border-radius: 3px; }
+.sphere-card > span { display: block; overflow: hidden; background: #292927; transition: scale .24s ease; }
+.sphere-card img { object-fit: cover; }
+.sphere-card > span::after { position: absolute; content: ''; inset: 0; background: rgb(0 0 0 / var(--sphere-shade, .25)); border: 1px solid #ffffff2b; border-radius: inherit; pointer-events: none; }
+.sphere-card:hover > span { scale: 1.08; }
+.sphere-title { position: absolute; inset: 0; margin: 0; width: 0; height: 0; pointer-events: none; }
+.sphere-title span { display: block; position: absolute; width: min(74vw, 520px); left: 0; top: 0; transform: translate(-50%, -50%); text-align: center; color: #f7f3ef; font-size: clamp(25px, 4.4vw, 49px); font-weight: 400; line-height: 1.05; text-wrap: balance; text-shadow: 0 2px 14px #000, 0 0 36px #000; }
+.sphere-product .sphere-title span { font-size: clamp(22px, 3.8vw, 43px); letter-spacing: .06em; }
+.sphere-grid { position: absolute; inset: 62px 18px 44px; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); align-content: start; gap: 10px; overflow: auto; overscroll-behavior: contain; scrollbar-width: thin; padding: 3px 4px 5px; }
+.sphere-grid button { min-width: 0; padding: 0; background: #151515; text-align: left; border: 1px solid #ffffff24; border-radius: 4px; overflow: hidden; }
+.sphere-grid button:hover { border-color: #ffffff8c; }
+.sphere-grid img { width: 100%; aspect-ratio: 1.5; display: block; object-fit: cover; }
+.sphere-grid button span { display: block; padding: 7px; color: #f4f2ef; font: 600 11px / 1.25 system-ui, sans-serif; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sphere-modal { position: absolute; z-index: 4; inset: 0; display: grid; grid-template-rows: minmax(0, 1fr) auto; justify-items: center; align-items: center; gap: 5px; padding: 16px 34px 10px; background: #080809f0; }
+.sphere-modal figure { min-width: 0; width: min(100%, 510px); height: 100%; margin: 0; display: grid; grid-template-rows: minmax(0, 1fr) auto; gap: 8px; }
+.sphere-modal figure img { width: 100%; height: 100%; min-height: 0; object-fit: contain; }
+.sphere-modal figcaption { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.sphere-modal figcaption strong { font-size: clamp(13px, 2vw, 19px); font-weight: 400; }
+.sphere-modal figcaption span, .sphere-photo-nav { color: #b9b7b3; font: 600 11px / 1.2 system-ui, sans-serif; }
+.sphere-close, .sphere-photo-nav button { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; border: 1px solid #ffffff5c; background: #171717; }
+.sphere-close { position: absolute; top: 12px; right: 12px; font-size: 23px !important; }
+.sphere-photo-nav { display: flex; align-items: center; gap: 12px; }
+
+@media (max-width: 640px) {
+  .sphere-brand, .sphere-footer { left: 10px; right: 10px; }
+  .sphere-grid { inset-inline: 9px; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+  .sphere-footer { bottom: 9px; }
+}
+
+@media (max-width: 390px) {
+  .sphere-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .sphere-modal { padding-inline: 18px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sphere-card > span { transition: none; }
+}

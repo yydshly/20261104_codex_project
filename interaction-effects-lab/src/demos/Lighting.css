@@ -1,0 +1,236 @@
+.lighting-demo {
+  --night: 1;
+  --reading: 0;
+  --dark: 1;
+  --text-dark: 1;
+  --sink: 0%;
+  --surge: 0;
+  --dip: 0;
+  --mode-morning: 0;
+  --mode-night: 1;
+  --ink: color-mix(in srgb, #182635, #fff calc(var(--dark) * 100%));
+  --soft: color-mix(in srgb, #5c6774, #f5f4ef calc(var(--text-dark) * 100%));
+  --fog-tone: color-mix(in srgb, #eee6d2, #354058 calc(var(--night) * 100%));
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 310px;
+  isolation: isolate;
+  overflow: hidden;
+  color: var(--ink);
+  background: #172238;
+  font: 500 12px/1.35 system-ui, sans-serif;
+  container-type: inline-size;
+}
+.lighting-product {
+  --night: 0;
+  --dark: 0;
+  --text-dark: 0;
+  --mode-daylight: 1;
+  --mode-reading: 0;
+  --mode-night: 0;
+  --ink: color-mix(in srgb, #382b22, #fff1de calc(var(--dark) * 100%));
+  --soft: color-mix(in srgb, #675345, #f5e1c9 calc(var(--text-dark) * 100%));
+  background: #b59a80;
+}
+.lighting-backdrop, .lighting-subject, .lighting-house, .lighting-room-view,
+.lighting-foreground, .lighting-fog-css, .lighting-fog, .lighting-ui {
+  position: absolute;
+  inset: 0;
+}
+.lighting-backdrop img, .lighting-house img, .lighting-room-view img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 62%;
+  pointer-events: none;
+}
+.lighting-backdrop > img { transform: scale(1.055); filter: blur(5px); }
+.lighting-night { opacity: var(--night); }
+.lighting-subject { transform: translate3d(0, var(--sink), 0); }
+.lighting-demo[data-phase]:not([data-phase="idle"]) .lighting-subject { will-change: transform; }
+.lighting-house[data-current="false"] { visibility: hidden; }
+.lighting-ground { mask-image: linear-gradient(transparent 54%, #000 67%); }
+.lighting-foreground {
+  backdrop-filter: blur(5px);
+  mask-image: linear-gradient(transparent 72%, #000 99%);
+  pointer-events: none;
+}
+.lighting-room-view img { object-position: 50% 78%; }
+.lighting-room-view::after { content: ""; position: absolute; inset: 0; }
+.lighting-room-view.lighting-daylight::after { background: linear-gradient(180deg, #f0e0c133, transparent 60%); }
+.lighting-room-view.lighting-reading { opacity: var(--reading); }
+.lighting-room-view.lighting-reading img { filter: brightness(.48) contrast(.91) saturate(.86); }
+.lighting-room-view.lighting-reading::after {
+  background:
+    radial-gradient(ellipse 37% 62% at 57% 63%, #efb76c80, #d18e432d 62%, transparent 94%),
+    linear-gradient(108deg, #170e0872, #5b311b29 59%, #160d0a58);
+}
+.lighting-room-view.lighting-night img { filter: brightness(.30) contrast(.92) saturate(.57); }
+.lighting-room-view.lighting-night::after {
+  background:
+    radial-gradient(ellipse 34% 57% at 62% 67%, #8d594c61, transparent 78%),
+    linear-gradient(112deg, #1c285e9c, #27305251 54%, #15172594);
+}
+.lighting-room-subject { pointer-events: none; }
+.lighting-chair-shadow {
+  position: absolute;
+  bottom: 18%;
+  left: 46%;
+  width: 28%;
+  height: 10%;
+  transform: translate(-25%, 25%);
+  background: radial-gradient(ellipse, #38271c75, transparent 67%);
+  filter: blur(4px);
+}
+.lighting-chair {
+  position: absolute;
+  left: 54%;
+  bottom: 16%;
+  height: 58%;
+  width: min(39%, 280px);
+  object-fit: contain;
+  transform: translateX(-50%) scale(var(--chair-width, 1), var(--chair-height, 1));
+  transform-origin: center 88%;
+  filter: brightness(1.02);
+}
+.lighting-room-subject[data-room="reading"] .lighting-chair { filter: brightness(.76) sepia(.19) saturate(1.18); }
+.lighting-room-subject[data-room="night"] .lighting-chair { filter: brightness(.40) saturate(.62) drop-shadow(0 0 22px #b5845520); }
+.lighting-fog { width: 100%; height: 100%; pointer-events: none; }
+.lighting-fog-css {
+  pointer-events: none;
+  opacity: var(--surge);
+  background: linear-gradient(180deg, transparent 5%, color-mix(in srgb, var(--fog-tone) 50%, transparent) 42%, var(--fog-tone) 83%);
+}
+.lighting-demo[data-fog="css"] .lighting-fog-css {
+  opacity: calc(.13 + var(--surge) * .87);
+  background: linear-gradient(180deg, transparent 4%, var(--fog-tone) 54%);
+}
+.lighting-product[data-fog="css"] .lighting-fog-css { opacity: var(--surge); }
+.lighting-ui {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  pointer-events: none;
+}
+.lighting-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: clamp(9px, 1.7cqw, 17px) clamp(12px, 3.2cqw, 28px) 0;
+}
+.lighting-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: clamp(14px, 2.2cqw, 23px);
+  letter-spacing: -.04em;
+  line-height: 1;
+  white-space: nowrap;
+}
+.lighting-brand svg {
+  width: 1.35em;
+  height: 1.35em;
+  fill: color-mix(in srgb, #53752b, #d8ee8e calc(var(--night) * 100%));
+}
+.lighting-nav {
+  display: flex;
+  gap: clamp(10px, 2cqw, 22px);
+  font-size: clamp(8px, 1.2cqw, 13px);
+  opacity: calc(1 - var(--dip) * .81);
+}
+.lighting-product .lighting-nav { font: 700 10px ui-monospace, monospace; letter-spacing: .13em; }
+.lighting-badge {
+  padding: 5px 11px;
+  border: 1px solid currentColor;
+  border-radius: 100px;
+  white-space: nowrap;
+  font-size: clamp(7px, 1cqw, 10px);
+  opacity: calc(1 - var(--dip) * .65);
+}
+.lighting-heading { align-self: start; margin-top: clamp(10px, 2.2cqw, 27px); text-align: center; }
+.lighting-heading h3 {
+  margin: 0;
+  color: var(--ink);
+  font: 500 clamp(23px, 4.65cqw, 52px)/1.06 system-ui, sans-serif;
+  letter-spacing: -.05em;
+  text-wrap: balance;
+}
+.lighting-heading h3 span { display: block; }
+.lighting-heading h3 em { color: var(--soft); font-style: normal; }
+.lighting-heading h3 b { font-weight: inherit; }
+.lighting-heading h3 > span:first-child, .lighting-heading h3 b { opacity: calc(1 - var(--dip) * .81); }
+.lighting-product .lighting-heading { margin-top: clamp(15px, 2.6cqw, 34px); }
+.lighting-product .lighting-heading h3 {
+  font: 600 clamp(23px, 4.6cqw, 49px)/1.12 Georgia, "Songti SC", serif;
+  letter-spacing: -.045em;
+  opacity: calc(1 - var(--dip) * .42);
+}
+.lighting-heading p {
+  margin: 0 0 4px;
+  color: var(--soft);
+  font: 700 clamp(7px, 1.08cqw, 10px)/1.3 ui-monospace, monospace;
+  letter-spacing: .18em;
+}
+.lighting-dock {
+  display: grid;
+  justify-items: center;
+  gap: 6px;
+  margin-bottom: clamp(9px, 2cqw, 20px);
+  text-align: center;
+}
+.lighting-modes {
+  display: flex;
+  width: min(80%, 340px);
+  padding: 2px;
+  border: 1px solid #ffffff5c;
+  border-radius: 12px;
+  background: #5d687787;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 6px 16px #0002;
+  pointer-events: auto;
+}
+.lighting-product .lighting-modes { background: #3b2c2293; }
+.lighting-modes button {
+  flex: 1 1 0;
+  min-width: 0;
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  gap: 2px;
+  border: 0;
+  border-radius: 9px;
+  padding: clamp(5px, 1.05cqw, 10px) 5px;
+  background: transparent;
+  color: color-mix(in srgb, #fff, #1c2316 calc(var(--mode-weight, 0) * 100%));
+  font: 600 clamp(11px, 1.5cqw, 16px)/1.15 system-ui, sans-serif;
+  cursor: pointer;
+}
+.lighting-modes button::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(152deg, #f8f8dd, #e3efa4 90%);
+  opacity: var(--mode-weight, 0);
+}
+.lighting-product .lighting-modes button::before { background: linear-gradient(150deg, #f8e8cc, #e4c49b); }
+.lighting-modes button:focus-visible { outline: 2px solid #fff; outline-offset: -3px; }
+.lighting-modes small { font-size: clamp(7px, .95cqw, 10px); font-weight: 500; opacity: .8; }
+.lighting-dock p {
+  margin: 0;
+  color: var(--ink);
+  font-size: clamp(8px, 1.15cqw, 12px);
+  text-shadow: 0 1px 5px color-mix(in srgb, white 75%, black calc(var(--dark) * 100%));
+}
+@container (max-width: 510px) {
+  .lighting-nav { display: none; }
+  .lighting-backdrop img, .lighting-house img { object-position: 65% 62%; }
+  .lighting-room-view img { object-position: 52% 75%; }
+  .lighting-chair { width: 66%; height: 49%; bottom: 22%; }
+  .lighting-dock { margin-bottom: 10px; }
+  .lighting-modes { width: min(93%, 320px); }
+}

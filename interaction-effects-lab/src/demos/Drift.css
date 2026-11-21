@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Drift Anton';
+  src: url('/demo-assets/drift/anton.woff2') format('woff2');
+  font-display: swap;
+}
+
+.drift-demo { height: 100%; min-height: 0; color: #111119; background: #e4ddf4; }
+.drift-scroll { height: 100%; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: none; }
+.drift-scroll:focus-visible { outline: 2px solid #785ab2; outline-offset: -2px; }
+.drift-scroll::-webkit-scrollbar { display: none; }
+.drift-track { height: 650%; }
+.drift-stage { position: sticky; top: 0; height: calc(100% / 6.5); overflow: hidden; isolation: isolate; --drift-intro: 1; --drift-middle: 0; --drift-panel-a: 0; --drift-panel-b: 0; --drift-progress: 0; }
+.drift-sky, .drift-ribbon, .drift-particles { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.drift-sky { background-size: cover; background-position: center; transform: translateX(calc(var(--drift-progress) * -2.5%)) scale(1.09); }
+.drift-particles i { position: absolute; width: 5px; height: 5px; border-radius: 50%; background: #fff9; box-shadow: 0 0 6px #fff; animation: drift-float 11s ease-in-out infinite alternate; }
+.drift-particles .drift-particle-dark { width: 4px; height: 4px; border-radius: 1px; background: #17131e; box-shadow: none; }
+@keyframes drift-float { to { transform: translate(12px, -15px) rotate(45deg); } }
+.drift-still .drift-particles i { animation: none; }
+.drift-subject { position: absolute; pointer-events: none; left: 50%; top: 47%; height: 99%; aspect-ratio: 9 / 16; transform: translate(calc(-50% + var(--drift-x, 0%) * 3), calc(-50% + var(--drift-y, 0%))) scale(var(--drift-scale, 1)) rotate(var(--drift-tilt, 0deg)); }
+.drift-subject > * { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: fill; }
+.drift-subject canvas { opacity: 0; }
+.drift-subject .drift-film-ready { opacity: 1; }
+.drift-subject:has(.drift-film-ready) img { opacity: 0; }
+.drift-brand { position: absolute; inset: 14px 20px auto; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.drift-brand strong { font-size: clamp(14px, 2vw, 22px); letter-spacing: -.07em; }
+.drift-brand strong span { margin-left: .2em; font-weight: 500; }
+.drift-brand > div { display: flex; gap: 12px; }
+.drift-stage button { color: inherit; cursor: pointer; border: 0; background: transparent; font: inherit; }
+.drift-brand button, .drift-chapters button, .drift-footer { font-family: 'Courier New', monospace; font-size: clamp(9px, 1.1vw, 13px); }
+.drift-stage button:focus-visible { outline: 2px solid #704f97; outline-offset: 3px; }
+.drift-chapters { position: absolute; display: grid; gap: 6px; align-content: center; top: 50%; left: 14px; transform: translateY(-50%); }
+.drift-chapters button { opacity: .46; padding: 3px; }
+.drift-chapters button[aria-current] { opacity: 1; font-weight: 700; }
+.drift-rail { position: absolute; top: 24%; bottom: 24%; right: 11px; background: #0b0b1033; width: 1px; }
+.drift-rail i { position: absolute; top: calc(var(--drift-progress) * 91%); left: -1px; width: 3px; height: 9%; background: #111119; }
+.drift-caption, .drift-panel { position: absolute; z-index: 2; margin: 0; pointer-events: none; text-transform: uppercase; font-family: 'Drift Anton', Impact, sans-serif; font-size: clamp(9px, 1.3vw, 16px); font-weight: 400; line-height: 1.18; }
+.drift-caption { bottom: 13%; left: 50%; transform: translateX(-50%); text-align: center; max-width: min(40%, 300px); }
+.drift-intro { opacity: var(--drift-intro); }
+.drift-middle { opacity: var(--drift-middle); }
+.drift-panel { top: 45%; width: min(24%, 175px); white-space: pre-line; }
+.drift-panel-a { left: 8%; opacity: var(--drift-panel-a); transform: translateY(calc((1 - var(--drift-panel-a)) * 16px)); }
+.drift-panel-b { right: 8%; text-align: right; opacity: var(--drift-panel-b); transform: translateY(calc((1 - var(--drift-panel-b)) * 16px)); }
+.drift-footer { position: absolute; bottom: 12px; left: 16px; right: 16px; display: flex; justify-content: space-between; align-items: center; gap: 6px; }
+.drift-footer button { background: #111119; color: #fff; border-radius: 999px; padding: 5px 8px; }
+.drift-footer span { position: absolute; left: 50%; transform: translateX(-50%); white-space: nowrap; }
+
+@media (max-width: 590px) {
+  .drift-brand { inset: 12px 11px auto; }
+  .drift-brand > div { gap: 3px; }
+  .drift-chapters { left: 5px; gap: 3px; }
+  .drift-rail { right: 6px; }
+  .drift-subject { height: 90%; max-width: 75%; }
+  .drift-caption { max-width: 54%; }
+}

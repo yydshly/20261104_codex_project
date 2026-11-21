@@ -6,7 +6,7 @@
 
 | 编号 | 子项目 | 研究摘要 | 图片导览 | Web 演示 |
 | --- | --- | --- | --- | --- |
-| — | 暂无收录 | — | — | — |
+| 001 | [交互效果实验室](projects/001-interaction-effects-lab/README.md) | 汇总 16 个源参考、可操作复现与产品扩展，覆盖内容浏览、商品展示、材质反馈和业务交互。以共享款式与面料串联五步家具体验，沉淀原理、提示词与可继续组合的模块。 | [原理引导图](interaction-effects-lab/public/demo-assets/overview/principles-poster.jpg) | [在线总览与演示](https://yydshly.github.io/20261104_codex_project/001-interaction-effects-lab/) |
 
 项目按收录顺序从 `001` 开始编号。新条目按编号追加，已分配的编号保持固定。索引摘要用一两句话写清研究对象和关注点。完成验证后，可补上一条主要发现。
 

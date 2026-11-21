@@ -1,0 +1,23 @@
+{
+  "name": "interaction-effects-lab",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node scripts/prepare-sites-build.mjs",
+    "build:pages": "vite build --base=/20261104_codex_project/001-interaction-effects-lab/ --outDir=../docs/001-interaction-effects-lab",
+    "preview": "vite preview",
+    "test:sites": "node --test tests/sites-worker.test.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "5.0.4",
+    "@xyflow/react": "12.12.1",
+    "echarts": "6.1.0",
+    "maplibre-gl": "6.16.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "three": "0.187.0",
+    "vite": "6.4.2"
+  }
+}

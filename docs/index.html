@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="GitHub 项目研究总库。首个条目为交互效果实验室，汇总 16 个交互案例、原理引导图和五步家具产品体验。" />
+    <title>GitHub 项目研究总库</title>
+    <style>
+      :root { color-scheme: dark; font-family: system-ui, "Microsoft YaHei", sans-serif; background: #111412; color: #f2f4ed; }
+      * { box-sizing: border-box; }
+      body { max-width: 1120px; margin: auto; padding: 40px 22px; }
+      h1 { margin: 0 0 12px; font-size: clamp(28px, 4vw, 42px); }
+      p { color: #b3c1ae; line-height: 1.8; }
+      a { color: #ccf789; text-underline-offset: 4px; }
+      article { margin-top: 30px; display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: 26px; padding: 24px; border: 1px solid #38453a; border-radius: 12px; background: #161c17; }
+      h2 { margin: 8px 0 0; }
+      .cover { display: block; text-align: center; background: #111412; border-radius: 6px; }
+      img { display: block; width: 100%; max-height: 500px; object-fit: contain; }
+      .number { color: #ccf789; font-size: 14px; }
+      .links { display: flex; flex-wrap: wrap; gap: 14px; }
+      @media(max-width: 620px) { article { grid-template-columns: 1fr; padding: 18px; } }
+    </style>
+  </head>
+  <body>
+    <h1>GitHub 项目研究总库</h1>
+    <p>从源项目理解机制，记录可操作的复现与发现，再按需求迁移到自己的产品。</p>
+    <a href="https://github.com/yydshly/20261104_codex_project">查看仓库与研究索引</a>
+    <article>
+      <a class="cover" href="001-interaction-effects-lab/"><img src="001-interaction-effects-lab/demo-assets/overview/principles-poster.jpg" alt="交互效果实验室引导图，展示 16 个案例及五步家具流程" /></a>
+      <div>
+        <span class="number">001 / 交互效果实验室</span>
+        <h2>从一个效果，走到一条产品链路</h2>
+        <p>16 个源参考与产品扩展，覆盖内容浏览、商品展示、材质反馈，以及报价、地图、图表和流程编辑。每个案例保留演示、交互规则、实现提示词和来源。</p>
+        <p>用共享款式与面料串联选椅子、360°、灯光、报价和展厅查询。后续可接入真实商品和库存，组合独立的面料、帮助、报价分析与审批模块。</p>
+        <p class="links"><a href="001-interaction-effects-lab/">在线总览与演示</a><a href="https://github.com/yydshly/20261104_codex_project/tree/main/projects/001-interaction-effects-lab">研究摘要与扩展方向</a></p>
+      </div>
+    </article>
+  </body>
+</html>

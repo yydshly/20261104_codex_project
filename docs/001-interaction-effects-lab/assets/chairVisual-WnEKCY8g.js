@@ -1,0 +1,1 @@
+import{f as o}from"./index-CigObTlX.js";const e={siena:[1,1,1],alba:[.94,1.09,.88],cove:[1.14,.88,1.13],nola:[.88,.96,.95],arco:[.93,1.15,1.04],lune:[1.13,.96,.91]};function c(i){return e[i.id]}function f(i,a){const r=o.find(n=>n.defaultFinish===a.id);return(r==null?void 0:r.image)??i.image}export{f as a,c};
