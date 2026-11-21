@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="GitHub 项目研究总库。收录交互效果、电梯叙事、风吹信封、Tesseract、见全、六个优秀产品与个人网页 3D 效果研究，提供摘要、引导图、在线演示和扩展范围。" />
+    <meta name="description" content="GitHub 项目研究总库。收录交互效果、电梯叙事、风吹信封、Tesseract、见全、六个优秀产品与个人网页 3D 与 16 个链接能力解析，提供摘要、引导图、在线演示和扩展范围。" />
     <title>GitHub 项目研究总库</title>
     <style>
       :root { color-scheme: dark; font-family: system-ui, "Microsoft YaHei", sans-serif; background: #111412; color: #f2f4ed; }
@@ -19,12 +19,33 @@
       .number { color: #ccf789; font-size: 14px; }
       .links { display: flex; flex-wrap: wrap; gap: 14px; }
       @media(max-width: 620px) { article { grid-template-columns: 1fr; padding: 18px; } }
+
+      .project-index { margin: 24px 0 34px; }
+      .project-index h2 { margin-bottom: 12px; }
+      .index-scroll { overflow-x: auto; border: 1px solid #38453a; border-radius: 10px; }
+      table { width: 100%; border-collapse: collapse; text-align: left; font-size: .88rem; }
+      caption { padding: 13px 16px; text-align: left; color: #b3c1ae; }
+      th, td { padding: 13px 14px; border-top: 1px solid #38453a; vertical-align: top; line-height: 1.65; overflow-wrap: anywhere; }
+      th { color: #e7efd9; font-weight: 650; background: #1c271d; }
+      td:first-child, th:first-child { width: 56px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+      td:nth-child(2) { width: 24%; min-width: 145px; }
+      td:last-child, th:last-child { width: 75px; white-space: nowrap; }
+      @media(max-width:620px) { body { padding-inline: 14px; } th,td { padding: 10px; } table { min-width: 560px; } }
     </style>
   </head>
   <body>
     <h1>GitHub 项目研究总库</h1>
     <p>从源项目与真实问题理解机制，记录研究目标、可操作的复现与发现，再按需求迁移到自己的产品。</p>
     <a href="https://github.com/yydshly/20261104_codex_project">查看仓库与研究索引</a>
+    <section class="project-index" id="research-index"><h2>研究索引</h2><div class="index-scroll"><table><caption>按编号查看研究对象、核心能力与在线效果。移动端可横向查看表格。</caption><thead><tr><th scope="col">编号</th><th scope="col">研究项目</th><th scope="col">能力与价值摘要</th><th scope="col">演示</th></tr></thead><tbody><tr><td>001</td><td><a href="001-interaction-effects-lab/">交互效果实验室</a></td><td>16 个交互参考与五步家具体验，研究材质、展示和业务交互的组合。</td><td><a href="001-interaction-effects-lab/">进入 ↗</a></td></tr>
+<tr><td>002</td><td><a href="002-capability-elevator/">电梯叙事与工具能力</a></td><td>角色乘电梯逐层导览，连接共享时间轴、互动与短片输出。</td><td><a href="002-capability-elevator/">进入 ↗</a></td></tr>
+<tr><td>003</td><td><a href="003-eian-seedance-workflow/">风吹信封与付费前检查</a></td><td>三组原片比较提示与首尾帧，提炼付费前叠帧检查和局部合成。</td><td><a href="003-eian-seedance-workflow/">进入 ↗</a></td></tr>
+<tr><td>004</td><td><a href="004-tesseract-capabilities/">Tesseract 的能力与价值</a></td><td>用可编辑工程组织剪辑、二维图层、三维场景与讲解成片。</td><td><a href="004-tesseract-capabilities/">进入 ↗</a></td></tr>
+<tr><td>005</td><td><a href="005-jianquan-cognition/">见全 · 跨领域认知导航</a></td><td>从全景与问题进入行业、基础与学习路线，连接图解和练习。</td><td><a href="005-jianquan-cognition/">进入 ↗</a></td></tr>
+<tr><td>006</td><td><a href="006-claude-showcase/">六个优秀产品研究</a></td><td>从六个产品效果理解规则、数据与风格，保留演示与复用边界。</td><td><a href="006-claude-showcase/">进入 ↗</a></td></tr>
+<tr><td>007</td><td><a href="007-creative-webgpu-showcase/">个人网页 3D 效果合集</a></td><td>37 项网页 3D 效果，服务选型、共享引擎和动态人物重打光研究。</td><td><a href="007-creative-webgpu-showcase/">进入 ↗</a></td></tr>
+<tr><td>008</td><td><a href="008-link-capability-atlas/">16 个链接的能力与价值</a></td><td>15 条原帖加 1 个有声剪辑补充，解析生图、短片、3D、Agent 与知识库，展示实测产物。</td><td><a href="008-link-capability-atlas/">进入 ↗</a></td></tr>
+</tbody></table></div></section>
     <article>
       <a class="cover" href="001-interaction-effects-lab/"><img src="001-interaction-effects-lab/demo-assets/overview/principles-poster.jpg" alt="交互效果实验室引导图，展示 16 个案例及五步家具流程" /></a>
       <div>
@@ -93,6 +114,17 @@
         <p>整理 Adam Chernick 个人制作并基于开源示例扩展的 37 项网页实验，覆盖折叠、液态金属、布料、产品拆解、反射、3DGS / 4DGS 和交互科普。</p>
         <p>沿用已有引导图，保留逐项原版入口、原理与应用参考。价值在效果选型、共享引擎与动态人物重打光，源码改造、产品化、多设备评估和后续作品继续按需求扩展。</p>
         <p class="links"><a href="007-creative-webgpu-showcase/">在线研究与原版效果</a><a href="007-creative-webgpu-showcase/#extensions">尚未扩展的方向</a><a href="https://github.com/yydshly/20261104_codex_project/tree/main/projects/007-creative-webgpu-showcase">完整效果清单与研究摘要</a></p>
+      </div>
+    </article>
+
+    <article>
+      <a class="cover" href="008-link-capability-atlas/#guide-image"><img src="008-link-capability-atlas/assets/atlas-understanding-20261121.png" loading="lazy" width="3600" height="4356" alt="已经生成的能力理解总览图，展示十五条原始线索的原理、个人价值、实测范围与两条可复用链路" /></a>
+      <div>
+        <span class="number">008 / 16 个链接的能力与价值解析</span>
+        <h2>从链接里的能力，走到自己的实际作品</h2>
+        <p>15 条 X 原帖加 Gitruck 有声剪辑补充，整理生图与 GIF、镜头剪辑、共享 3D、Agent 工作流和知识库。重点看这些能力能为数字伴偶、短片、课件与研究记录带来什么。</p>
+        <p>沿用本轮生成的引导图，提供原作、成片、交互、导出与逐项验收。温室镜头到口播字幕、审阅报告到持久笔记两条链路已走通，源库完整接入与产品使用收益保留验证范围。</p>
+        <p class="links"><a href="008-link-capability-atlas/">在线解析与实际效果</a><a href="008-link-capability-atlas/#guide-image">理解引导图</a><a href="008-link-capability-atlas/acceptance.html">逐项验收</a><a href="https://github.com/yydshly/20261104_codex_project/tree/main/projects/008-link-capability-atlas">摘要与十六项来源</a></p>
       </div>
     </article>
   </body>

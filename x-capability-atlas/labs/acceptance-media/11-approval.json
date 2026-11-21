@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "asset": "同一像素，三束光 · 课程摘要",
+  "current": {
+    "asset": "同一像素，三束光 · 课程摘要",
+    "revision": 2,
+    "previousRevision": 1,
+    "summary": "先预测相加结果，再用通道值验证判断。",
+    "approval": {
+      "request": 1,
+      "baseRevision": 1,
+      "before": "拖动光强，观察取样点的 RGB 数值。",
+      "after": "先预测相加结果，再用通道值验证判断。",
+      "reason": "验收课程的预测、调光与取样三个步骤。",
+      "submittedAt": "2026-11-21T02:37:22.251Z",
+      "role": "图鉴维护者",
+      "decision": "approved",
+      "comment": "已完成 RGB=255,255,0 的实际练习。",
+      "decidedAt": "2026-11-21T02:37:22.537Z",
+      "action": "页面手动批准",
+      "status": "published"
+    },
+    "scope": "当前页面的模拟审批"
+  },
+  "decisions": [
+    {
+      "request": 1,
+      "baseRevision": 1,
+      "before": "拖动光强，观察取样点的 RGB 数值。",
+      "after": "先预测相加结果，再用通道值验证判断。",
+      "reason": "验收课程的预测、调光与取样三个步骤。",
+      "submittedAt": "2026-11-21T02:37:22.251Z",
+      "role": "图鉴维护者",
+      "decision": "approved",
+      "comment": "已完成 RGB=255,255,0 的实际练习。",
+      "decidedAt": "2026-11-21T02:37:22.537Z"
+    }
+  ]
+}

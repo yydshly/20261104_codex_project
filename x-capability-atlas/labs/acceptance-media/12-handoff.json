@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "template": {
+    "name": "图鉴案例审阅",
+    "version": 1,
+    "stages": [
+      {
+        "role": "采集员",
+        "task": "collect"
+      },
+      {
+        "role": "分析员",
+        "task": "analyze"
+      },
+      {
+        "role": "复核员",
+        "task": "verify"
+      }
+    ]
+  },
+  "delivery": {
+    "topic": "galaxy",
+    "title": "银河旋臂与镜头",
+    "use": "分开控制结构参数和镜头路线，验证哪一种改变了画面。"
+  },
+  "evidence": {
+    "source": "https://x.com/0xAIlabs/status/2118379258607251490",
+    "sourceKind": "图鉴来源",
+    "localExcerpt": "Lyren 公开了四条对数旋臂、分层粒子和镜头路线的制作提示词。",
+    "checkedQuote": "Lyren 公开了四条对数旋臂、分层粒子和镜头路线的制作提示词。"
+  },
+  "verification": {
+    "reviewer": "复核员",
+    "sourceMatch": true,
+    "quoteMatch": true,
+    "scope": "在所提交的摘录中定位引文，并登记来源地址。"
+  }
+}

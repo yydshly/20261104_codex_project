@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>制作工作台 · 能力图鉴</title>
+  <link rel="stylesheet" href="workflow-cases.css?v=6">
+  <script src="collage-media/edit-captions.js" defer></script>
+  <script src="workflow-radio/issue.js?v=2" defer></script>
+  <script src="workflow-cases.js?v=6" defer></script>
+</head>
+<body>
+  <main class="workbench">
+    <header class="workbench-head">
+      <a id="back-link" class="back" href="../#case-07" target="_top">↖ 返回原理与原作</a>
+      <p id="case-kicker" class="kicker">07 / 剪辑交付</p>
+      <h1 id="case-title">字幕制作台</h1>
+      <p id="case-intro" class="intro"></p>
+    </header>
+
+    <section id="case-07" aria-labelledby="case-title" hidden>
+      <div class="caption-project panel">
+        <div><label for="caption-project">字幕项目</label><select id="caption-project"><option value="greenhouse">温室巡检宣传片</option><option value="collage">巡检口播 · 拼贴版</option><option value="galaxy">旋臂张角 · 8 秒草稿</option><option value="local">我的本地素材</option></select></div>
+        <a id="caption-source-download" class="download" download>下载原片 MP4</a>
+      </div>
+      <section class="panel caption-local" id="caption-local" aria-labelledby="caption-local-title" hidden>
+        <div class="panel-head"><h2 id="caption-local-title">载入本地素材</h2><span class="tag">仅当前页面</span></div>
+        <p class="micro">载入视频后可边看边打点，也可单独导入 UTF-8 WebVTT（最多 300 句、1 MB）。导出保留文字、换行和时间码。文件只在浏览器中读取。</p>
+        <div class="caption-local-fields">
+          <div><label for="caption-local-video">选择视频</label><input id="caption-local-video" type="file" accept="video/*,.mp4,.m4v,.webm,.mov,.ogv" aria-describedby="caption-video-status"><p id="caption-video-status" class="micro" role="status">可使用浏览器支持的视频格式。</p></div>
+          <div><label for="caption-local-vtt">导入 WebVTT</label><input id="caption-local-vtt" type="file" accept=".vtt,text/vtt" aria-describedby="caption-vtt-status"><p id="caption-vtt-status" class="micro" role="status">也可以直接在下方编写字幕。</p></div>
+        </div>
+      </section>
+      <div class="bench-grid caption-bench">
+        <section class="panel caption-preview" aria-labelledby="caption-monitor-title">
+          <div class="panel-head"><h2 id="caption-monitor-title">成片预览</h2><span id="caption-preview-tag" class="tag"></span></div>
+          <div class="caption-format-choice" id="caption-format-choice" hidden><label for="caption-format">预览画幅</label><select id="caption-format"><option value="landscape">横屏 16:9</option><option value="portrait">竖屏 9:16</option></select><span class="micro">共用同一份字幕稿</span></div>
+          <div class="preview-screen" id="caption-monitor" data-media="draft">
+            <video id="caption-film" playsinline preload="metadata" aria-label="温室巡检宣传片" hidden></video>
+            <p id="preview-caption" class="screen-caption"></p>
+            <p id="caption-media-error" class="screen-message" role="status" hidden>原片无法播放。仍可在下方校对字幕时间。</p>
+          </div>
+          <div class="preview-controls">
+            <button id="preview-play" type="button">播放</button>
+            <span id="preview-time" class="clock"></span>
+            <button id="preview-mute" type="button" aria-pressed="false" hidden>静音</button>
+            <button id="preview-subtitles" type="button" aria-pressed="true">字幕</button>
+          </div>
+          <input id="preview-seek" aria-label="字幕预览进度" type="range" min="0" max="16" step="0.001" value="0">
+          <div id="caption-timeline" class="caption-timeline" aria-label="字幕片段"></div>
+          <p class="micro" id="caption-preview-state" role="status"></p>
+        </section>
+        <section class="panel editor caption-editor">
+          <div class="panel-head"><h2>字幕稿</h2><span id="caption-cue-count" class="tag"></span></div>
+          <label for="caption-title">交付标题</label>
+          <input id="caption-title" type="text" maxlength="60">
+          <ol id="caption-cues" class="cue-inputs"></ol>
+          <div class="buttons">
+            <button id="caption-add-cue" type="button" hidden>在播放位置加一句</button>
+            <button id="retry-pipeline" type="button" class="primary" disabled>校验改动</button>
+            <button id="run-pipeline" type="button">完整校验</button>
+            <button id="fix-timing" type="button" hidden>把第二句对齐第一句结尾</button>
+          </div>
+          <p class="micro editor-note"><span id="caption-storage">草稿保存在当前浏览器。</span> <button id="load-overlap" class="text-button" type="button">套用重叠入点</button></p>
+        </section>
+        <section class="panel results caption-results">
+          <div class="panel-head"><h2>发布检查</h2><a id="download-vtt" class="download" aria-disabled="true" download>下载 VTT</a></div>
+          <p id="pipeline-status" class="feedback" role="status"></p>
+          <ol id="pipeline-stages" class="stage-list"></ol>
+          <details id="caption-artifact" class="artifact" hidden>
+            <summary>查看 WebVTT 文件内容</summary>
+            <p id="artifact-title" class="micro"></p>
+            <pre id="artifact-vtt"></pre>
+          </details>
+        </section>
+      </div>
+      <aside class="method"><h2>工作流原理</h2><p>Autoresearch 先测量，再决定是否保留改动，并记录每轮结果。字幕工作台给文件名、文案和时间各自缓存检查结果。改完时间后只复查时间，再重新编译 VTT。<a href="https://github.com/karpathy/autoresearch/blob/master/program.md" target="_blank" rel="noopener noreferrer">Autoresearch 实验协议 ↗</a></p></aside>
+    </section>
+
+    <section id="case-08" aria-labelledby="case-title" hidden>
+      <div class="bench-grid harness-grid">
+        <section class="panel editor">
+          <div class="panel-head"><h2>审核规则</h2><span class="tag" id="harness-sample-count">7 条图鉴短简报</span></div>
+          <p class="micro">两组读取同一份候选稿。基线检查引用是否存在，方案 B 可增加护栏。预期结果由样本编写人标注。</p>
+          <fieldset class="policies">
+            <legend>方案 B 的护栏</legend>
+            <label><input type="checkbox" id="guard-authority" checked><span><b>要求可发布来源</b><small>未经确认的群聊记录只作线索。</small></span></label>
+            <label><input type="checkbox" id="guard-evidence" checked><span><b>逐句核对证据</b><small>核对声明能否在引用的结构化摘记中匹配。</small></span></label>
+            <label><input type="checkbox" id="guard-freshness" checked><span><b>核对资料版本</b><small>上一版操作入口不可直接发布。</small></span></label>
+          </fieldset>
+          <div class="buttons"><button id="run-harness" type="button" class="primary">用同一批样本对照</button><button id="reset-harness" type="button">恢复三道护栏</button></div>
+          <div class="buttons"><button id="search-harness" type="button">试跑全部 8 种配置</button></div>
+          <p class="micro">固定样本逐个运行所有规则组合。先减少误放，再比较正确数和检查次数。</p>
+        </section>
+        <section class="panel results">
+          <h2>对照结果</h2>
+          <p id="harness-status" class="feedback" role="status"></p>
+          <div id="harness-scores" class="scores"></div>
+          <p class="micro">预期值提前按资料设定。严格逐字匹配能拦下无证据的说法，也可能误拦合理的转述。</p>
+          <div class="report-export">
+            <a id="download-harness-report" class="download" download="atlas-brief-review.json" aria-disabled="true">下载可重开的报告 JSON</a>
+            <a id="download-harness-csv" class="download" download="atlas-brief-review.csv" aria-disabled="true">下载逐条核对 CSV</a>
+          </div>
+        </section>
+      </div>
+      <section class="panel harness-search" id="harness-search" aria-labelledby="harness-search-title" hidden>
+        <h2 id="harness-search-title">八种配置的实际结果</h2>
+        <p class="micro">结果只反映当前标注样本。仍需人工阅读被误拦的合理转述。</p>
+        <div class="harness-search-scroll"><table><thead><tr><th scope="col">规则组合</th><th scope="col">正确</th><th scope="col">误放</th><th scope="col">误拦</th><th scope="col">检查次数</th></tr></thead><tbody id="harness-search-rows"></tbody></table></div>
+      </section>
+      <details class="panel harness-dataset" id="harness-dataset">
+        <summary>重开报告或编辑审核样本</summary>
+        <p class="micro">导入本页导出的 v2 报告会恢复样本和方案 B 的规则，并重新计算两组结果。也可导入仅含候选稿和来源的数据集，沿用当前规则。文件在本页读取。</p>
+        <div class="buttons"><label class="dataset-file">载入本地 JSON<input id="harness-import" type="file" accept=".json,application/json" aria-describedby="harness-data-status"></label><button id="restore-harness-samples" type="button">恢复图鉴样本</button></div>
+        <p id="harness-data-status" class="micro" role="status"></p>
+        <label for="harness-json">数据集 JSON</label>
+        <textarea id="harness-json" rows="10" spellcheck="false" maxlength="131072"></textarea>
+        <p class="micro">每条候选稿填入来源编号和布尔值 <code>expected</code>。证据规则逐字匹配来源 <code>lines</code> 中的一条完整摘记。</p>
+      </details>
+      <section class="panel harness-table" aria-labelledby="review-title">
+        <div class="panel-head"><h2 id="review-title">逐条核对</h2><label class="filter-label"><input id="harness-mismatches" type="checkbox"> 只看方案 B 的误判</label></div>
+        <p id="harness-row-count" class="micro"></p>
+        <ol id="harness-rows" class="review-list"></ol>
+      </section>
+      <aside class="method"><h2>从论文到我们的场景</h2><p>Harness² 在同一任务上试跑多个配置，根据运行结果筛选提示、护栏或工具改动。本实验固定候选文本和审核程序，切换证据要求，再看误放、误拦和实际检查次数。<a href="https://arxiv.org/html/2610.14224v1" target="_blank" rel="noopener noreferrer">Harness² 论文 ↗</a> · <a href="https://github.com/google-research/harness2" target="_blank" rel="noopener noreferrer">实现仓库 ↗</a></p></aside>
+    </section>
+
+    <section id="case-09" aria-labelledby="case-title" hidden>
+      <div class="bench-grid radio-grid">
+        <div id="radio-display" class="radio-display" data-scene="collage">
+          <div class="broadcast-line"><span id="radio-program-label">图鉴电台</span><span id="radio-time">00:00 / 00:00</span></div>
+          <div class="radio-art">
+            <img id="radio-scene-image" alt="" hidden>
+            <svg class="scene scene-collage" viewBox="0 0 420 210" fill="none"><rect width="420" height="210" rx="20" fill="#ead9b9"/><path d="M34 164h352M52 49h316" stroke="#b88e5c" stroke-dasharray="4 8"/><rect x="69" y="68" width="88" height="78" rx="7" transform="rotate(-10 69 68)" fill="#cf694d"/><rect x="165" y="63" width="92" height="84" rx="7" fill="#f5eee1"/><rect x="270" y="61" width="88" height="81" rx="7" transform="rotate(9 270 61)" fill="#3a6662"/><path d="M185 91h49M185 109h41M185 126h26" stroke="#21293a" stroke-width="4" stroke-linecap="round"/></svg>
+            <svg class="scene scene-galaxy" viewBox="0 0 420 210" fill="none"><rect width="420" height="210" rx="20" fill="#12243c"/><ellipse cx="210" cy="105" rx="161" ry="58" transform="rotate(-22 210 105)" stroke="#689dae" stroke-dasharray="4 7"/><ellipse cx="210" cy="105" rx="128" ry="42" transform="rotate(26 210 105)" stroke="#9fb8ed" stroke-dasharray="2 6"/><path d="M112 141c-1-48 49-77 102-56 36 14 34 58-9 67-50 10-107-26-105-74m222-7c1 48-49 77-102 56-36-14-34-58 9-67 50-10 107 26 105 74" stroke="#b4cae2" stroke-width="2" stroke-dasharray="1 5"/><circle cx="208" cy="105" r="14" fill="#f1d9a8"/><circle cx="286" cy="64" r="5" fill="#fba06a"/></svg>
+            <svg class="scene scene-rgb" viewBox="0 0 420 210" fill="none"><rect width="420" height="210" rx="20" fill="#151d30"/><g style="isolation:isolate"><circle cx="174" cy="92" r="61" fill="#ff4549" style="mix-blend-mode:screen"/><circle cx="245" cy="92" r="61" fill="#41dd7c" style="mix-blend-mode:screen"/><circle cx="210" cy="143" r="61" fill="#4f70fd" style="mix-blend-mode:screen"/></g><circle cx="210" cy="109" r="10" stroke="white" stroke-width="2" stroke-dasharray="2 2"/></svg>
+          </div>
+          <div class="caption-block"><span id="radio-chapter" class="kicker"></span><p id="radio-caption" aria-live="polite"></p><a id="radio-scene-link" href="../#explore-04" target="_top">打开这站的成品 ↗</a></div>
+        </div>
+        <section class="panel editor radio-controls">
+          <div class="panel-head"><h2>播放与跳转</h2><span class="tag" id="radio-runtime"></span></div>
+          <div class="episode-picker"><img id="radio-episode-cover" alt="图鉴电台节目封面" width="66" height="66" hidden><div><label class="episode-label" for="radio-episode">选择节目</label><select id="radio-episode"></select></div></div>
+          <audio id="tour-audio" controls preload="metadata"></audio>
+          <p id="tour-media-error" class="feedback" role="status" hidden>音轨暂时无法播放。可以阅读下方文字稿，或尝试下载音轨。</p>
+          <ol id="radio-chapters" class="radio-chapters"></ol>
+          <details class="tour-transcript">
+            <summary>文字稿 · 可点击任一句跳转</summary>
+            <ol id="tour-transcript" class="radio-chapters"></ol>
+          </details>
+          <p class="micro" id="radio-credits"></p>
+          <div class="radio-exports" aria-label="复用播报素材">
+            <h3>下载同一套播报素材</h3>
+            <div class="export-links">
+              <a id="download-tour-audio" class="download" href="workflow-tour.mp3" download="workflow-tour.mp3">音轨 MP3</a>
+              <a id="download-tour-captions" class="download" download="workflow-tour.captions.vtt">字幕 VTT</a>
+              <a id="download-tour-chapters" class="download" download="workflow-tour.chapters.vtt">章节 VTT</a>
+              <a id="download-tour-cover" class="download" download hidden>节目封面</a>
+              <a id="download-tour-offline" class="download" download hidden>离线播放器 HTML</a>
+              <a id="download-tour-package" class="download" download hidden>整期播报包 ZIP</a>
+            </div>
+            <p class="micro" id="radio-package-info"></p>
+          </div>
+        </section>
+      </div>
+      <aside class="method"><h2>从播放器到我们的场景</h2><p>Mono Radio 读取音频当前时间来确定正在播哪一段，点章节时跳到该段起点。我们给图鉴的三站导览配置同一套时间码，让章节、字幕和画面共享音频时钟。<a href="https://github.com/monoradio102/myradio/blob/main/index.html" target="_blank" rel="noopener noreferrer">Mono Radio 播放器源码 ↗</a> · <a href="https://github.com/monoradio102/myradio/blob/main/docs/formats.md" target="_blank" rel="noopener noreferrer">时间码格式 ↗</a></p></aside>
+    </section>
+  </main>
+</body>
+</html>

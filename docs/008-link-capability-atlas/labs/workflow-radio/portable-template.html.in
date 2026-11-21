@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>$title · 图鉴电台</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, "Microsoft YaHei", sans-serif; color: #14252b; background: #f1f5f3; line-height: 1.6; }
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: clamp(14px, 4vw, 40px); }
+    main { max-width: 900px; margin: auto; }
+    [hidden] { display: none !important; }
+    .masthead { display: grid; grid-template-columns: minmax(130px, .55fr) minmax(0, 1fr); gap: clamp(14px, 3vw, 28px); align-items: center; background: #15252d; color: #f5fbf8; padding: clamp(14px, 3vw, 26px); border-radius: 17px; }
+    .cover { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 9px; }
+    h1 { margin: .15em 0; font-size: clamp(1.5rem, 4vw, 2.8rem); line-height: 1.22; }
+    .kicker { margin: 0; color: #9ddcca; font-size: .8rem; font-weight: 760; letter-spacing: .09em; }
+    .intro { margin: .35rem 0 .9rem; color: #c4d9d5; }
+    audio { display: block; width: 100%; height: 42px; }
+    .media-error { color: #f4d28c; margin: .6rem 0 0; }
+    .columns { display: grid; grid-template-columns: minmax(0, 1.17fr) minmax(0, .83fr); gap: 12px; margin-top: 12px; align-items: start; }
+    .panel { background: #fff; border: 1px solid #d1deda; border-radius: 13px; padding: 14px; min-width: 0; }
+    h2 { margin: 0 0 8px; font-size: 1.1rem; }
+    figure, figcaption, .caption { margin: 0; }
+    figure img { width: 100%; aspect-ratio: 16/9; display: block; object-fit: contain; border-radius: 7px; background: #15252d; }
+    figcaption { margin: .4rem 0; font-weight: 720; font-size: .9rem; }
+    .caption { padding: .6rem .7rem; border-radius: 7px; background: #ecf4f0; min-height: 3.8em; }
+    .clock { color: #405f5a; font: 650 .75rem/1.4 ui-monospace, monospace; margin: 0 0 .4rem; }
+    ol { list-style: none; margin: 0; padding: 0; }
+    li + li { margin-top: 5px; }
+    button { cursor: pointer; width: 100%; font: inherit; font-size: .87rem; text-align: left; color: inherit; display: grid; grid-template-columns: 3.1rem minmax(0, 1fr); align-items: baseline; gap: 6px; padding: 7px 8px; background: #f6faf8; border: 1px solid #d7e2df; border-radius: 7px; }
+    button:hover { border-color: #82a99b; }
+    button[aria-current="true"] { background: #dcefe7; border-color: #91bcb0; }
+    button:focus-visible { outline: 2px solid #26716a; outline-offset: 2px; }
+    button time { color: #355c56; font: 700 .78rem/1.4 ui-monospace, monospace; }
+    .transcript { margin-top: 12px; }
+    .credits { margin: .6rem 0; color: #425c57; font-size: .8rem; }
+    @media (max-width: 580px) { .masthead, .columns { grid-template-columns: minmax(0, 1fr); } .cover { max-width: 270px; } }
+  </style>
+</head>
+<body>
+<main>
+  <header class="masthead">
+    <img class="cover" src="$cover" alt="本期图鉴电台封面">
+    <div>
+      <p class="kicker">图鉴电台 · $label</p>
+      <h1>$title</h1>
+      <p class="intro">$chapters_count 章 · 可离线收听</p>
+      <audio id="audio" controls preload="metadata" src="$audio" aria-label="节目音轨"></audio>
+      <p class="media-error" id="media-error" role="status" hidden>音轨无法播放。下方保留完整文字稿。</p>
+    </div>
+  </header>
+  <div class="columns">
+    <section class="panel" aria-labelledby="on-air-title">
+      <h2 id="on-air-title">当前画面</h2>
+      <p id="clock" class="clock">00:00 / $duration</p>
+      <figure id="scene">
+        $chapter_art
+        <figcaption id="chapter-name">$first_chapter</figcaption>
+      </figure>
+      <p class="caption" id="caption">$title</p>
+    </section>
+    <section class="panel" aria-labelledby="chapters-title">
+      <h2 id="chapters-title">节目章节</h2>
+      <ol id="chapters">
+        $chapters
+      </ol>
+    </section>
+  </div>
+  <section class="panel transcript" aria-labelledby="transcript-title">
+    <h2 id="transcript-title">逐句文字稿</h2>
+    <ol id="transcript">
+      $transcript
+    </ol>
+  </section>
+  <p class="credits">图鉴电台原创台本、合成旁白与提示音。章节配图取自对应成品。</p>
+  <noscript><p>请用播放器的进度条定位时间。启用 JavaScript 后，章节、画面和文字会随音轨同步。</p></noscript>
+</main>
+<script>
+  (() => {
+    const audio = document.querySelector('#audio');
+    const chapterButtons = [...document.querySelectorAll('#chapters button')];
+    const cueButtons = [...document.querySelectorAll('#transcript button')];
+    const images = [...document.querySelectorAll('#scene img')];
+    const chapterName = document.querySelector('#chapter-name');
+    const caption = document.querySelector('#caption');
+    const clock = document.querySelector('#clock');
+    const initialCaption = caption.textContent;
+    const label = button => button.querySelector('span').textContent;
+    let previousChapter;
+    let previousCue;
+
+    function activeAt(buttons, now) {
+      let active = -1;
+      for (const [index, button] of buttons.entries()) {
+        if (Number(button.dataset.time) > now) break;
+        active = index;
+      }
+      return active;
+    }
+    function mark(buttons, active) {
+      buttons.forEach((button, index) => button.setAttribute('aria-current', String(index === active)));
+    }
+    function sync() {
+      const now = audio.currentTime;
+      const chapter = Math.max(0, activeAt(chapterButtons, now));
+      const cue = activeAt(cueButtons, now);
+      if (chapter !== previousChapter) {
+        mark(chapterButtons, chapter);
+        images.forEach((image, index) => { image.hidden = index !== chapter; });
+        chapterName.textContent = label(chapterButtons[chapter]);
+        previousChapter = chapter;
+      }
+      if (cue !== previousCue) {
+        mark(cueButtons, cue);
+        caption.textContent = cue < 0 ? initialCaption : label(cueButtons[cue]);
+        previousCue = cue;
+      }
+      const minutes = String(Math.floor(now / 60)).padStart(2, '0');
+      const seconds = String(Math.floor(now % 60)).padStart(2, '0');
+      clock.textContent = minutes + ':' + seconds + ' / $duration';
+    }
+    for (const button of [...chapterButtons, ...cueButtons]) {
+      button.addEventListener('click', () => {
+        if (audio.error) return;
+        audio.currentTime = Number(button.dataset.time);
+        sync();
+      });
+    }
+    for (const event of ['loadedmetadata', 'seeking', 'seeked', 'timeupdate']) audio.addEventListener(event, sync);
+    audio.addEventListener('error', () => { document.querySelector('#media-error').hidden = false; });
+    sync();
+  })();
+</script>
+</body>
+</html>

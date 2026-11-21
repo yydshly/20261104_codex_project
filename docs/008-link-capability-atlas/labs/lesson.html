@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>同一像素，三束光 · 互动微课</title>
+  <link id="lesson-styles" rel="stylesheet" href="lesson.css?v=2">
+  <script id="lesson-runtime" src="lesson.js?v=2" defer></script>
+</head>
+<body>
+  <main class="lesson">
+    <header class="lesson-header">
+      <!-- ONLINE-ONLY:BEGIN -->
+      <a class="back" href="../#case-10" target="_top">← 返回原作与案例</a>
+      <!-- ONLINE-ONLY:END -->
+      <p class="kicker">10 / 互动微课</p>
+      <h1>同一像素，三束光</h1>
+      <p class="intro">跟着中文旁白观察红、绿、蓝三束光如何叠加。最后亲手把取样点调到纯黄，用取色值核对。</p>
+    </header>
+
+    <section class="lab" aria-label="RGB 加色实验">
+      <div class="display">
+        <div class="display-header"><span>加色混合观察台</span><span id="scene-label">01 / 单束光</span></div>
+        <svg class="stage" viewBox="0 0 500 360" role="img" aria-label="三束圆形光在中心重叠，旁边显示实时 RGB 值">
+          <defs>
+            <pattern id="dots" width="25" height="25" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#435168" opacity=".75"/></pattern>
+          </defs>
+          <rect width="500" height="360" fill="#0a111e"/>
+          <rect width="500" height="360" fill="url(#dots)"/>
+          <g class="lights">
+            <rect x="72" y="22" width="356" height="310" fill="#000" rx="30"/>
+            <circle id="beam-r" cx="250" cy="135" r="87" fill="#640000"/>
+            <circle id="beam-g" cx="188" cy="217" r="87" fill="#000"/>
+            <circle id="beam-b" cx="312" cy="217" r="87" fill="#000"/>
+          </g>
+          <g fill="none" stroke="#b3c1d8" stroke-opacity=".45" stroke-width="1.1" stroke-dasharray="3 6">
+            <circle cx="250" cy="135" r="87"/><circle cx="188" cy="217" r="87"/><circle cx="312" cy="217" r="87"/>
+          </g>
+          <g fill="#c7d4eb" text-anchor="middle" font-size="15" font-weight="700">
+            <text x="250" y="36">R</text><text x="95" y="315">G</text><text x="405" y="315">B</text>
+          </g>
+          <circle cx="250" cy="181" r="12" fill="none" stroke="#fff" stroke-width="2"/>
+          <circle cx="250" cy="181" r="14" fill="none" stroke="#101a2a" stroke-width="1.5"/>
+          <path d="M 263 181 H 451" fill="none" stroke="#adbed8" stroke-width="1" stroke-dasharray="5 5"/>
+          <rect x="446" y="177" width="8" height="8" fill="#bdeeff" rx="2"/>
+        </svg>
+        <div class="sample">
+          <div class="swatch" id="swatch" aria-hidden="true"></div>
+          <div><span>取样点 · 三束光重叠处</span><output id="rgb-value">RGB(100, 0, 0)</output></div>
+          <output id="hex-value" class="hex">#640000</output>
+        </div>
+      </div>
+
+      <div class="controller">
+        <div class="lesson-progress"><strong>学习路线</strong><output id="lesson-progress">第 1 / 3 步</output></div>
+        <nav class="steps" aria-label="课程步骤">
+          <button type="button" class="step" data-time="0" aria-pressed="true"><span>01</span> 单束光</button>
+          <button type="button" class="step" data-time="7" aria-pressed="false"><span>02</span> 叠加光</button>
+          <button type="button" class="step" data-time="22" aria-pressed="false"><span>03</span> 做预测</button>
+        </nav>
+        <audio id="lesson-narration" src="lesson-media/rgb-narration.mp3" preload="metadata"></audio>
+        <div class="timeline">
+          <button id="play" type="button">▶ 播放讲解</button>
+          <label class="scrub"><span class="sr-only">讲解时间轴</span><input id="seek" type="range" min="0" max="32" value="0" step="0.05"></label>
+          <output id="time" for="seek">0.0 / 32 秒</output>
+        </div>
+        <div class="lesson-audio-settings"><button id="lesson-mute" class="plain" type="button" aria-pressed="false">静音</button><span>中文旁白 · 文字同步</span></div>
+        <p id="lesson-audio-status" class="feedback" role="status"></p>
+        <div class="cue" aria-live="polite">
+          <p class="cue-id" id="cue-id">节拍 01</p>
+          <h2 id="cue-title">亮度由通道数值控制</h2>
+          <p id="cue-copy">先只开红光。红通道从 100 升到 255，画面的红色随之变亮。</p>
+        </div>
+        <button class="primary" id="lesson-next" type="button">下一步 · 叠加光</button>
+        <section id="challenge" class="challenge" aria-labelledby="challenge-title" hidden>
+          <h3 id="challenge-title">把取样点调成纯黄 <code>#FFFF00</code></h3>
+          <form id="prediction">
+            <fieldset id="answers"><legend>先预测哪两束光需要保留</legend>
+              <label><input type="radio" name="answer" value="rg" required>红 + 绿</label>
+              <label><input type="radio" name="answer" value="rb">红 + 蓝</label>
+              <label><input type="radio" name="answer" value="gb">绿 + 蓝</label>
+            </fieldset>
+            <button class="primary" id="check" type="submit">提交预测，解锁调光</button>
+          </form>
+          <p id="prediction-result" class="feedback" role="status"></p>
+          <fieldset id="adjust" class="adjust" disabled>
+            <legend>验证你的预测</legend>
+            <label><span>红 R</span><input id="adjust-r" type="range" min="0" max="255" value="255"><output for="adjust-r">255</output></label>
+            <label><span>绿 G</span><input id="adjust-g" type="range" min="0" max="255" value="255"><output for="adjust-g">255</output></label>
+            <label><span>蓝 B</span><input id="adjust-b" type="range" min="0" max="255" value="255"><output for="adjust-b">255</output></label>
+          </fieldset>
+          <p id="mix-result" class="feedback" role="status"></p>
+          <div class="exercise-actions">
+            <button id="reset" class="plain" type="button" hidden>重新练习</button>
+            <button id="lesson-result" class="plain" type="button" hidden>下载练习记录</button>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- ONLINE-ONLY:BEGIN -->
+    <section class="delivery" id="lesson-delivery" aria-labelledby="lesson-delivery-title">
+      <div><h2 id="lesson-delivery-title">带走这节课</h2><p>保存一个 HTML 文件即可上课。32 秒中文旁白、加色图解和练习都在文件里。</p></div>
+      <div>
+        <div class="lesson-delivery-links"><a href="lesson-media/rgb-micro-lesson.html" class="primary" download>下载课件 HTML ↓</a><a href="lesson-media/rgb-micro-lesson.html" target="_blank" rel="noopener">打开独立课堂 ↗</a></div>
+        <div class="lesson-media-downloads"><a href="lesson-media/rgb-narration.mp3" download>旁白 MP3 ↓</a><a href="lesson-media/rgb-narration.vtt" download>讲稿 VTT ↓</a></div>
+        <details class="lesson-regenerate">
+          <summary>从当前版本生成离线课件</summary>
+          <button id="lesson-offline" class="primary" type="button">生成离线课件</button>
+          <a id="lesson-file" download="rgb-micro-lesson.html" hidden>下载 HTML ↓</a>
+          <p id="lesson-export-status" class="feedback" role="status"></p>
+        </details>
+      </div>
+    </section>
+    <!-- ONLINE-ONLY:END -->
+
+    <section class="principles" aria-label="来源与改编">
+      <article>
+        <p class="kicker">01 / 源码机制</p>
+        <h2>Papermorph 怎么把讲解变成互动课</h2>
+        <p>第 12 章在 <code>BEATS</code> 里声明每段的绘制函数和可选问答。播放器将音频进度映射到节拍时钟，按时间运行动画。跳转时重放前面的节拍来恢复场景。练习段调用 <code>ask</code>，等待作答后继续。</p>
+        <p class="sources"><a href="https://github.com/DozenTwelve/Papermorph/blob/342e272648e06a6163224a6177bccc83517d7fea/site/linear-algebra/ch12/index.html#L99" target="_blank" rel="noreferrer">第 12 章节拍定义 ↗</a><a href="https://github.com/DozenTwelve/Papermorph/blob/342e272648e06a6163224a6177bccc83517d7fea/site/linear-algebra/lib/engine.js#L1666-L1810" target="_blank" rel="noreferrer">播放器与节拍时钟 ↗</a></p>
+      </article>
+      <article>
+        <p class="kicker">02 / 我们的改编</p>
+        <h2>从看颜色到验证颜色</h2>
+        <p>这节小课以中文旁白的播放位置作为时钟。跳到某句时，图解直接恢复到同一时刻的光强。最后交给学习者预测、拖动和验证，取样点的十六进制值由三条通道实时计算。</p>
+        <p>实验采用简化的 sRGB 屏幕模型。RGB 滑块表示通道编码值，适合对照屏幕取色器。</p>
+      </article>
+    </section>
+  </main>
+  <script id="lesson-cues" type="application/json">
+    [
+      {"start":0.25,"end":6.7,"step":0,"title":"红通道的数值越高，红光越亮","copy":"先看红光。红色通道从一百升到二百五十五，取样点随之变亮。"},
+      {"start":7,"end":14.2,"step":1,"title":"红光加绿光得到黄色","copy":"保持红光最亮，把绿光也拉到最亮。红光和绿光重叠的地方，变成了黄光。"},
+      {"start":14.6,"end":21.7,"step":1,"title":"再加入蓝光，取样点变白","copy":"现在再加蓝光。三个通道都达到二百五十五时，重叠处变成白色。"},
+      {"start":22,"end":31.5,"step":2,"title":"现在换你调出黄色","copy":"轮到你了。先猜哪两束光能调出纯黄，再用滑块验证。把取样点调到目标，记录你的答案。"}
+    ]
+  </script>
+</body>
+</html>

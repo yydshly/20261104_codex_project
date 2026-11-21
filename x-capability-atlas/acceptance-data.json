@@ -1,0 +1,419 @@
+{
+  "reviewedOn": "2026-11-21",
+  "scope": "15 条原帖与 Gitruck 有声剪辑补充，共 16 个链接。逐项核对实际效果、操作与交付范围。",
+  "cases": [
+    {
+      "id": "01",
+      "title": "口播拼贴 B-roll",
+      "kind": "media",
+      "status": "本轮补齐",
+      "path": "labs/collage.html",
+      "implementation": "ChatGPT Images 原生 GIF 与本地分层动画",
+      "checked": "定位 6.04 秒并切换单版。新增原生配画，与现有版共用中文旁白做成五秒同屏对照。",
+      "limit": "原生 GIF 为 267 × 478、12 帧。三张任务卡接近同时入场，逐步展开以分层版更清楚。",
+      "preview": {
+        "type": "video",
+        "file": "labs/collage-media/collage-native-compare.mp4",
+        "poster": "labs/collage-media/collage-native-compare.jpg"
+      },
+      "outputs": [
+        {
+          "label": "生成配画有声对照 MP4",
+          "file": "labs/collage-media/collage-native-compare.mp4"
+        },
+        {
+          "label": "原生配画 GIF",
+          "file": "labs/collage-media/collage-native.gif"
+        },
+        {
+          "label": "11 秒完整口播对照 MP4",
+          "file": "labs/collage-media/compare-ab.mp4"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "小镜表情与头像",
+      "kind": "media",
+      "status": "本轮补包",
+      "path": "labs/visual-cases.html?case=02&review=1",
+      "implementation": "同一参考图的模型编辑与头像导出",
+      "checked": "四张头像正常加载且可同步放大。实际导出 512 像素 PNG。完整角色包补入三张表情、原生 GIF 和分镜素材。",
+      "limit": "微笑和担忧较接近原图，惊讶版的下巴略长。",
+      "preview": {
+        "type": "portraits",
+        "files": [
+          "labs/character-media/xiaojing.png",
+          "labs/character-media/xiaojing-expression-smile.png",
+          "labs/character-media/xiaojing-expression-surprise.png",
+          "labs/character-media/xiaojing-expression-concern.png"
+        ],
+        "labels": [
+          "同一参考图",
+          "微笑",
+          "惊讶",
+          "担忧"
+        ]
+      },
+      "outputs": [
+        {
+          "label": "完整角色包 V2 · ZIP",
+          "file": "labs/character-media/xiaojing-kit-v2.zip"
+        },
+        {
+          "label": "微笑 PNG",
+          "file": "labs/character-media/xiaojing-expression-smile.png"
+        },
+        {
+          "label": "惊讶 PNG",
+          "file": "labs/character-media/xiaojing-expression-surprise.png"
+        },
+        {
+          "label": "担忧 PNG",
+          "file": "labs/character-media/xiaojing-expression-concern.png"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "小镜眨眼与点头",
+      "kind": "media",
+      "status": "已复核",
+      "path": "labs/visual-cases.html?case=03&review=3",
+      "implementation": "ChatGPT Images 原生 GIF、本地版、分镜版三种对照",
+      "checked": "原生眨眼 12 帧、2.04 秒，点头 12 帧、2.52 秒。原速、逐帧、版本切换和四幅首尾对照正常。",
+      "limit": "原生眨眼接缝有轻跳，点头抬回有一步偏快。现有两支本地 GIF 的首尾帧分别完全一致。",
+      "preview": {
+        "type": "portraits",
+        "files": [
+          "labs/character-media/xiaojing-blink-native.gif",
+          "labs/character-media/xiaojing-nod-native.gif"
+        ],
+        "labels": [
+          "原生眨眼",
+          "原生点头"
+        ]
+      },
+      "outputs": [
+        {
+          "label": "原生眨眼 GIF",
+          "file": "labs/character-media/xiaojing-blink-native.gif"
+        },
+        {
+          "label": "原生点头 GIF",
+          "file": "labs/character-media/xiaojing-nod-native.gif"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "温室宣传片与五种运镜",
+      "kind": "media",
+      "status": "已复核",
+      "path": "labs/visual-cases.html?case=04",
+      "implementation": "Flow 镜头语言的 Blender 场景适配",
+      "checked": "横版定位到 6.417 秒，切换竖版后保留相同位置。两支 16 秒成片、十支单镜头及交付 ZIP 齐备。",
+      "limit": "场景与机位由 Blender 渲染，Flow 云端生成模型未在本站调用。",
+      "preview": {
+        "type": "video",
+        "file": "labs/camera-media/film.mp4",
+        "poster": "labs/camera-media/film.jpg"
+      },
+      "outputs": [
+        {
+          "label": "横版宣传片 MP4",
+          "file": "labs/camera-media/film.mp4"
+        },
+        {
+          "label": "竖版宣传片 MP4",
+          "file": "labs/camera-media/film-vertical.mp4"
+        },
+        {
+          "label": "温室交付包 ZIP",
+          "file": "labs/camera-media/verdant-r04-release.zip"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "同一模型的气孔课件",
+      "kind": "media",
+      "status": "已复核",
+      "path": "labs/stoma-3d/viewer/",
+      "implementation": "真实 R3F、Remotion 与 Blender MCP 资产链路",
+      "checked": "网页能开合并切换 V1/V2，全开宽度分别为 0.662 与 1.082。讲解片可从 4.3 秒播放，已有 MCP 记录与两版 GLB 的校验值相符。",
+      "limit": "本轮复核现有 MCP 修改记录。资产更新后仍需导出模型、构建网页并重渲影片。",
+      "preview": {
+        "type": "video",
+        "file": "labs/stoma-media/stoma-lesson.mp4",
+        "poster": "labs/stoma-media/stoma-lesson.jpg"
+      },
+      "outputs": [
+        {
+          "label": "讲解成片 MP4",
+          "file": "labs/stoma-media/stoma-lesson.mp4"
+        },
+        {
+          "label": "V2 模型 GLB",
+          "file": "labs/stoma-3d/public/assets/stoma-v2.glb"
+        },
+        {
+          "label": "MCP 核验记录 JSON",
+          "file": "labs/stoma-3d/public/assets/mcp-verification.json"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "银河参数与飞越",
+      "kind": "media",
+      "status": "已复核",
+      "path": "labs/galaxy.html",
+      "implementation": "固定种子的粒子投影、镜头路线与影片输出",
+      "checked": "切换 28° 后实际生成 1600 × 900 的双栏对照 PNG。已有 12°/28° 成片与 18° 飞越片可播放。",
+      "limit": "构图和粒子分布用于示意，参数未由真实星表拟合。",
+      "preview": {
+        "type": "video",
+        "file": "labs/galaxy-media/galaxy-pitch-compare.mp4",
+        "poster": "labs/galaxy-media/galaxy-pitch-compare.jpg"
+      },
+      "outputs": [
+        {
+          "label": "同航线双栏 MP4",
+          "file": "labs/galaxy-media/galaxy-pitch-compare.mp4"
+        },
+        {
+          "label": "银河飞越 MP4",
+          "file": "labs/galaxy-media/galaxy-flight.mp4"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "字幕验收循环",
+      "kind": "tool",
+      "status": "已复核",
+      "path": "labs/workflow-cases.html?case=07",
+      "implementation": "Autoresearch 验收思路的字幕流程适配",
+      "checked": "套用重叠入点后成功阻止下载。修复后仅重跑时间检查与 VTT 编译，并实际导出五句字幕。",
+      "limit": "执行的是字幕检查和修复，Autoresearch 的训练优化程序未在此运行。",
+      "preview": {
+        "type": "record",
+        "file": "labs/acceptance-media/07-captions.vtt"
+      },
+      "outputs": [
+        {
+          "label": "本轮验收字幕 VTT",
+          "file": "labs/acceptance-media/07-captions.vtt"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "审核配置的八种取舍",
+      "kind": "tool",
+      "status": "本轮补齐",
+      "path": "labs/workflow-cases.html?case=08",
+      "implementation": "Harness² 配置比较思路的规则搜索适配",
+      "checked": "实际试跑三道护栏的全部八种组合。七条样本中，选中配置正确六条，误放零条，误拦一条，报告保存全部试跑结果。",
+      "limit": "规则按标注样本比较，合理转述仍会被逐字规则误拦。此页未运行模型自改配置的 Agent。",
+      "preview": {
+        "type": "record",
+        "file": "labs/acceptance-media/08-review.json"
+      },
+      "outputs": [
+        {
+          "label": "八种配置与逐条结果 JSON",
+          "file": "labs/acceptance-media/08-review.json"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "图鉴电台",
+      "kind": "media",
+      "status": "已复核",
+      "path": "labs/workflow-cases.html?case=09",
+      "implementation": "Mono Radio 播放时钟与章节结构的节目适配",
+      "checked": "实际音轨 62.64 秒。点击第三章跳到约 42.39 秒，配图、文字和成品入口随章节更新。",
+      "limit": "已制作固定一期图鉴节目，自动抓取当天新闻的上游采集未接入。",
+      "preview": {
+        "type": "audio",
+        "file": "labs/workflow-radio/atlas-radio-01.mp3",
+        "poster": "labs/workflow-radio/atlas-radio-01.webp"
+      },
+      "outputs": [
+        {
+          "label": "离线节目 HTML",
+          "file": "labs/workflow-radio/atlas-radio-01-offline.html"
+        },
+        {
+          "label": "整期素材 ZIP",
+          "file": "labs/workflow-radio/atlas-radio-01.zip"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "可听、可操作的加色微课",
+      "kind": "media",
+      "status": "已复核",
+      "path": "labs/lesson.html",
+      "implementation": "Papermorph 讲解节拍与练习结构的 RGB 课程适配",
+      "checked": "32 秒旁白实际播放。选择红加绿后将蓝光归零，取样得到 #FFFF00，已下载练习记录。",
+      "limit": "课程针对 RGB 加色制作，任意 PDF 自动转课的上游生成未接入。",
+      "preview": {
+        "type": "image",
+        "file": "labs/lesson-media/rgb-lesson-cover.webp",
+        "alt": "三束光互动微课的实际画面"
+      },
+      "outputs": [
+        {
+          "label": "离线课件 HTML",
+          "file": "labs/lesson-media/rgb-micro-lesson.html"
+        },
+        {
+          "label": "本轮练习记录 Markdown",
+          "file": "labs/acceptance-media/10-exercise.md"
+        },
+        {
+          "label": "中文旁白 MP3",
+          "file": "labs/lesson-media/rgb-narration.mp3"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "角色权限与摘要审批",
+      "kind": "tool",
+      "status": "已复核",
+      "path": "labs/systems-cases.html?case=11",
+      "implementation": "OpenMausBot 权限与审批机制的页面适配",
+      "checked": "学习者的改稿被拒绝。维护者提交、填写理由与审批意见后，摘要从版本一更新为版本二，已导出审批记录。",
+      "limit": "角色由页面选择，写入对象是页面内的课程摘要。外部通讯渠道、沙箱与生产权限未接入。",
+      "preview": {
+        "type": "record",
+        "file": "labs/acceptance-media/11-approval.json"
+      },
+      "outputs": [
+        {
+          "label": "本轮审批记录 JSON",
+          "file": "labs/acceptance-media/11-approval.json"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "模板交接与证据验收",
+      "kind": "tool",
+      "status": "已复核",
+      "path": "labs/systems-cases.html?case=12",
+      "implementation": "Grok Bot 模板与 Foreman 证据交接的协议适配",
+      "checked": "错误引文被驳回。正常材料走完采集、分析和复核三个环节，实际导出的报告已载入第 14 条定位原文。",
+      "limit": "角色任务由本地程序执行，Grok Bot 平台和自主多 Agent 未接入。",
+      "preview": {
+        "type": "record",
+        "file": "labs/acceptance-media/12-handoff.json"
+      },
+      "outputs": [
+        {
+          "label": "本轮交接验收报告 JSON",
+          "file": "labs/acceptance-media/12-handoff.json"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "可恢复的笔记索引",
+      "kind": "tool",
+      "status": "本轮修复",
+      "path": "labs/systems-cases.html?case=13",
+      "implementation": "四个知识库项目分工的笔记与检索适配",
+      "checked": "第 14 条核查笔记已实际写入。刷新、重开第二窗口和两窗同时新增都保留记录。当前验收索引有三条，核查依据也可检索。",
+      "limit": "保存在当前浏览器，可用 JSON 迁移。Obsidian 应用和 Claude 检索服务未接入。",
+      "preview": {
+        "type": "record",
+        "file": "labs/acceptance-media/13-index.json"
+      },
+      "outputs": [
+        {
+          "label": "三条实际笔记索引 JSON",
+          "file": "labs/acceptance-media/13-index.json"
+        },
+        {
+          "label": "本轮跨会话回查 Markdown",
+          "file": "labs/acceptance-media/13-lookup.md"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "引文定位与上下文复核",
+      "kind": "tool",
+      "status": "已复核",
+      "path": "labs/systems-cases.html?case=14",
+      "implementation": "原文匹配、行号与人工支持度判断",
+      "checked": "虚构引文找不到原文。第 12 条交接报告的真实引文定位到摘录第一行，登记支持范围后导出，并已由第 13 条接收。",
+      "limit": "匹配范围是提供的原文或报告摘录。结论支持度由人工登记。",
+      "preview": {
+        "type": "record",
+        "file": "labs/acceptance-media/14-citation.json"
+      },
+      "outputs": [
+        {
+          "label": "本轮引文核查报告 JSON",
+          "file": "labs/acceptance-media/14-citation.json"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "同一起点的排期仿真",
+      "kind": "tool",
+      "status": "已复核",
+      "path": "labs/systems-cases.html?case=15",
+      "implementation": "随机仿真思路的剪辑排期适配",
+      "checked": "固定种子 42 重算 240 条轨迹。返工概率从 15% 改为 5%，超时从 70 条变为 22 条，两套参数和轨迹均保留在报告中。",
+      "limit": "这是排期假设模型，参数尚未经实际项目校准。原帖的细胞仿真源码未公开。",
+      "preview": {
+        "type": "record",
+        "file": "labs/acceptance-media/15-simulation.json"
+      },
+      "outputs": [
+        {
+          "label": "240 条轨迹与基准对照 JSON",
+          "file": "labs/acceptance-media/15-simulation.json"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Gitruck 有声口播剪辑补充",
+      "kind": "media",
+      "status": "补充解析",
+      "path": "index.html#case-16",
+      "implementation": "原作有声前后对照与独立的本地剪辑适配",
+      "checked": "可在原作展台播放钓鱼器材口播的原始与剪后两版，并对照本站同旁白的巡检剪辑，观察图解和特写怎样承接语义。",
+      "limit": "此项单独解析此前已收录的补充案例。Gitruck CLI、客户端与云端处理未在本站执行。",
+      "preview": {
+        "type": "video",
+        "file": "assets/originals/media/oralcut-after.webm",
+        "poster": "assets/previews/oralcut-after.jpg"
+      },
+      "outputs": [
+        {
+          "label": "原作剪后视频 WEBM",
+          "file": "assets/originals/media/oralcut-after.webm"
+        },
+        {
+          "label": "原作原始口播 WEBM",
+          "file": "assets/originals/media/oralcut-before.webm"
+        },
+        {
+          "label": "自制同旁白对照 MP4",
+          "file": "labs/collage-media/compare-ab.mp4"
+        }
+      ]
+    }
+  ]
+}

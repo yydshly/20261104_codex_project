@@ -1,0 +1,443 @@
+{
+  "schemaVersion": 2,
+  "scenario": "审核图鉴短简报",
+  "expectedSourceVersion": "v2",
+  "dataset": {
+    "title": "审核图鉴短简报",
+    "expectedSourceVersion": "v2",
+    "sources": [
+      {
+        "id": "galaxy",
+        "name": "银河实验说明 v2",
+        "version": "v2",
+        "approved": true,
+        "lines": [
+          "可固定随机种子",
+          "可单独调整旋臂张角"
+        ]
+      },
+      {
+        "id": "meeting",
+        "name": "内部聊天摘记 v2",
+        "version": "v2",
+        "approved": false,
+        "lines": [
+          "上线日期已经确认"
+        ]
+      },
+      {
+        "id": "archive",
+        "name": "页面归档 v1",
+        "version": "v1",
+        "approved": true,
+        "lines": [
+          "旧入口仍然可用"
+        ]
+      },
+      {
+        "id": "lesson",
+        "name": "微课说明 v2",
+        "version": "v2",
+        "approved": true,
+        "lines": [
+          "预测后可以调光",
+          "进度条可以跳到练习"
+        ]
+      }
+    ],
+    "samples": [
+      {
+        "claim": "可固定随机种子",
+        "reference": "galaxy",
+        "expected": true
+      },
+      {
+        "claim": "模型已匹配真实星表",
+        "reference": "galaxy",
+        "expected": false
+      },
+      {
+        "claim": "上线日期已经确认",
+        "reference": "meeting",
+        "expected": false
+      },
+      {
+        "claim": "旧入口仍然可用",
+        "reference": "archive",
+        "expected": false
+      },
+      {
+        "claim": "预测后可以调光",
+        "reference": "lesson",
+        "expected": true
+      },
+      {
+        "claim": "提交预测后就能调整光强",
+        "reference": "lesson",
+        "expected": true
+      },
+      {
+        "claim": "获得一张新的发布许可",
+        "reference": "missing",
+        "expected": false
+      }
+    ]
+  },
+  "baseline": {
+    "rules": [
+      {
+        "id": "source-exists",
+        "name": "引用资料存在"
+      }
+    ],
+    "totals": {
+      "samples": 7,
+      "correct": 4,
+      "falseAccept": 3,
+      "falseReject": 0,
+      "checks": 7
+    }
+  },
+  "candidate": {
+    "rules": [
+      {
+        "id": "source-exists",
+        "name": "引用资料存在"
+      },
+      {
+        "id": "guard-authority",
+        "name": "来源权限"
+      },
+      {
+        "id": "guard-evidence",
+        "name": "逐句证据"
+      },
+      {
+        "id": "guard-freshness",
+        "name": "版本"
+      }
+    ],
+    "totals": {
+      "samples": 7,
+      "correct": 6,
+      "falseAccept": 0,
+      "falseReject": 1,
+      "checks": 21
+    }
+  },
+  "items": [
+    {
+      "claim": "可固定随机种子",
+      "reference": "galaxy",
+      "source": {
+        "id": "galaxy",
+        "name": "银河实验说明 v2",
+        "version": "v2",
+        "approved": true,
+        "lines": [
+          "可固定随机种子",
+          "可单独调整旋臂张角"
+        ]
+      },
+      "expectedAllow": true,
+      "baseline": {
+        "allow": true,
+        "checks": 1,
+        "reason": "找到引用资料"
+      },
+      "candidate": {
+        "allow": true,
+        "checks": 4,
+        "reason": "通过所选规则"
+      }
+    },
+    {
+      "claim": "模型已匹配真实星表",
+      "reference": "galaxy",
+      "source": {
+        "id": "galaxy",
+        "name": "银河实验说明 v2",
+        "version": "v2",
+        "approved": true,
+        "lines": [
+          "可固定随机种子",
+          "可单独调整旋臂张角"
+        ]
+      },
+      "expectedAllow": false,
+      "baseline": {
+        "allow": true,
+        "checks": 1,
+        "reason": "找到引用资料"
+      },
+      "candidate": {
+        "allow": false,
+        "checks": 3,
+        "reason": "摘记中未找到逐字匹配"
+      }
+    },
+    {
+      "claim": "上线日期已经确认",
+      "reference": "meeting",
+      "source": {
+        "id": "meeting",
+        "name": "内部聊天摘记 v2",
+        "version": "v2",
+        "approved": false,
+        "lines": [
+          "上线日期已经确认"
+        ]
+      },
+      "expectedAllow": false,
+      "baseline": {
+        "allow": true,
+        "checks": 1,
+        "reason": "找到引用资料"
+      },
+      "candidate": {
+        "allow": false,
+        "checks": 2,
+        "reason": "来源仅供内部参考"
+      }
+    },
+    {
+      "claim": "旧入口仍然可用",
+      "reference": "archive",
+      "source": {
+        "id": "archive",
+        "name": "页面归档 v1",
+        "version": "v1",
+        "approved": true,
+        "lines": [
+          "旧入口仍然可用"
+        ]
+      },
+      "expectedAllow": false,
+      "baseline": {
+        "allow": true,
+        "checks": 1,
+        "reason": "找到引用资料"
+      },
+      "candidate": {
+        "allow": false,
+        "checks": 4,
+        "reason": "来源版本与目标版本不一致"
+      }
+    },
+    {
+      "claim": "预测后可以调光",
+      "reference": "lesson",
+      "source": {
+        "id": "lesson",
+        "name": "微课说明 v2",
+        "version": "v2",
+        "approved": true,
+        "lines": [
+          "预测后可以调光",
+          "进度条可以跳到练习"
+        ]
+      },
+      "expectedAllow": true,
+      "baseline": {
+        "allow": true,
+        "checks": 1,
+        "reason": "找到引用资料"
+      },
+      "candidate": {
+        "allow": true,
+        "checks": 4,
+        "reason": "通过所选规则"
+      }
+    },
+    {
+      "claim": "提交预测后就能调整光强",
+      "reference": "lesson",
+      "source": {
+        "id": "lesson",
+        "name": "微课说明 v2",
+        "version": "v2",
+        "approved": true,
+        "lines": [
+          "预测后可以调光",
+          "进度条可以跳到练习"
+        ]
+      },
+      "expectedAllow": true,
+      "baseline": {
+        "allow": true,
+        "checks": 1,
+        "reason": "找到引用资料"
+      },
+      "candidate": {
+        "allow": false,
+        "checks": 3,
+        "reason": "摘记中未找到逐字匹配"
+      }
+    },
+    {
+      "claim": "获得一张新的发布许可",
+      "reference": "missing",
+      "source": null,
+      "expectedAllow": false,
+      "baseline": {
+        "allow": false,
+        "checks": 1,
+        "reason": "找不到引用资料"
+      },
+      "candidate": {
+        "allow": false,
+        "checks": 1,
+        "reason": "找不到引用资料"
+      }
+    }
+  ],
+  "search": {
+    "selection": "fewest false accepts, most correct, fewest checks, fewest rules",
+    "selectedMask": 7,
+    "runs": [
+      {
+        "mask": 0,
+        "rules": [],
+        "totals": {
+          "samples": 7,
+          "correct": 4,
+          "falseAccept": 3,
+          "falseReject": 0,
+          "checks": 7
+        }
+      },
+      {
+        "mask": 1,
+        "rules": [
+          {
+            "id": "guard-authority",
+            "name": "来源权限"
+          }
+        ],
+        "totals": {
+          "samples": 7,
+          "correct": 5,
+          "falseAccept": 2,
+          "falseReject": 0,
+          "checks": 13
+        }
+      },
+      {
+        "mask": 2,
+        "rules": [
+          {
+            "id": "guard-evidence",
+            "name": "逐句证据"
+          }
+        ],
+        "totals": {
+          "samples": 7,
+          "correct": 4,
+          "falseAccept": 2,
+          "falseReject": 1,
+          "checks": 13
+        }
+      },
+      {
+        "mask": 3,
+        "rules": [
+          {
+            "id": "guard-authority",
+            "name": "来源权限"
+          },
+          {
+            "id": "guard-evidence",
+            "name": "逐句证据"
+          }
+        ],
+        "totals": {
+          "samples": 7,
+          "correct": 5,
+          "falseAccept": 1,
+          "falseReject": 1,
+          "checks": 18
+        }
+      },
+      {
+        "mask": 4,
+        "rules": [
+          {
+            "id": "guard-freshness",
+            "name": "版本"
+          }
+        ],
+        "totals": {
+          "samples": 7,
+          "correct": 5,
+          "falseAccept": 2,
+          "falseReject": 0,
+          "checks": 13
+        }
+      },
+      {
+        "mask": 5,
+        "rules": [
+          {
+            "id": "guard-authority",
+            "name": "来源权限"
+          },
+          {
+            "id": "guard-freshness",
+            "name": "版本"
+          }
+        ],
+        "totals": {
+          "samples": 7,
+          "correct": 6,
+          "falseAccept": 1,
+          "falseReject": 0,
+          "checks": 18
+        }
+      },
+      {
+        "mask": 6,
+        "rules": [
+          {
+            "id": "guard-evidence",
+            "name": "逐句证据"
+          },
+          {
+            "id": "guard-freshness",
+            "name": "版本"
+          }
+        ],
+        "totals": {
+          "samples": 7,
+          "correct": 5,
+          "falseAccept": 1,
+          "falseReject": 1,
+          "checks": 17
+        }
+      },
+      {
+        "mask": 7,
+        "rules": [
+          {
+            "id": "guard-authority",
+            "name": "来源权限"
+          },
+          {
+            "id": "guard-evidence",
+            "name": "逐句证据"
+          },
+          {
+            "id": "guard-freshness",
+            "name": "版本"
+          }
+        ],
+        "totals": {
+          "samples": 7,
+          "correct": 6,
+          "falseAccept": 0,
+          "falseReject": 1,
+          "checks": 21
+        }
+      }
+    ]
+  }
+}

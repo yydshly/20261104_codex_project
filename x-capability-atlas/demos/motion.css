@@ -1,0 +1,26 @@
+:root { color-scheme: dark; font: 15px/1.55 'Segoe UI', 'Microsoft YaHei', sans-serif; background: #202037; color: #f8f5ff; }
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; }
+.motion { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: clamp(16px, 3vw, 34px); align-items: start; padding: clamp(16px, 3vw, 32px); }
+video { display: block; width: 100%; aspect-ratio: 16/9; border: 1px solid #696184; border-radius: 12px; background: #17152b; }
+.time-track { position: relative; margin: 12px 3px 6px; height: 5px; border-radius: 8px; background: #55516d; }
+.time-track span, .time-track i { position: absolute; display: block; }
+.time-track span { top: 0; height: 5px; border-radius: 8px; background: #bca9f9; opacity: .6; }
+.time-track i { left: 0; top: -3px; height: 11px; width: 2px; background: #e1f493; }
+.status, .note { margin: 6px 0 0; color: #c3bddb; font-size: .8rem; }
+.controls h1 { margin: 0 0 9px; font-size: clamp(1.33rem, 3vw, 2.22rem); line-height: 1.12; letter-spacing: -.035em; }
+.controls p { margin: 0 0 13px; color: #d3cee2; }
+.versions { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 8px; }
+button { color: #f5f1ff; background: #39334f; border: 1px solid #685f85; border-radius: 7px; padding: 7px 10px; font: inherit; cursor: pointer; }
+.versions button[aria-pressed='true'] { background: #def18d; color: #222535; border-color: #def18d; }
+.versions b { margin-right: 3px; }
+.jump { background: transparent; font-size: .85rem; margin-bottom: 13px; }
+.jump span { color: #ded0ff; margin-left: 3px; }
+details { color: #d5c8fb; font-size: .85rem; }
+summary { cursor: pointer; }
+blockquote { margin: 7px 0; padding-left: 9px; border-left: 2px solid #bca9f9; color: #f5f1ff; }
+.assets { display: flex; flex-wrap: wrap; gap: 9px; padding-bottom: 9px; }
+.assets a { color: #e5f6a8; }
+.controls .note { margin: 10px 0 0; font-size: .76rem; }
+:focus-visible { outline: 2px solid #e4f398; outline-offset: 3px; }
+@media (max-width: 620px) { .motion { grid-template-columns: 1fr; } .controls h1 br { display: none; } }

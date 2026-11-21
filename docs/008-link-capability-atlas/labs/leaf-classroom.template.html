@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>看见叶片气孔的开合 · 离线课堂</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, "Microsoft YaHei", "PingFang SC", sans-serif; color: #16362b; background: #eef2e8; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    button { font: inherit; cursor: pointer; }
+    button:focus-visible, a:focus-visible { outline: 3px solid #237553; outline-offset: 3px; }
+    [hidden] { display: none !important; }
+    .leaf-definitions { position: absolute; overflow: hidden; }
+    .classroom { width: min(1380px, 100%); margin: auto; padding: clamp(18px, 3vw, 46px); }
+    .masthead { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; border-bottom: 1px solid #bccbbf; padding-bottom: 12px; }
+    .eyebrow { margin: 0; color: #3d6251; font-size: .78rem; font-weight: 800; letter-spacing: .13em; }
+    .tag { color: #3d6251; font-size: .84rem; }
+    h1 { margin: 13px 0 5px; font-size: clamp(2rem, 4.8vw, 4.3rem); line-height: 1.13; letter-spacing: -.055em; }
+    .lead { margin: 0 0 17px; font-size: clamp(1rem, 1.65vw, 1.25rem); color: #355849; }
+    .question { display: flex; justify-content: space-between; gap: 10px 18px; align-items: center; flex-wrap: wrap; margin: 0 0 12px; padding: 12px 16px; color: #f4f8e8; background: #183d30; border-radius: 10px; }
+    .question h2 { margin: 3px 0 0; font-size: clamp(1.14rem, 2.2vw, 1.7rem); line-height: 1.3; }
+    .question .eyebrow { color: #d9eaab; }
+    .controls { display: flex; gap: 6px; flex-wrap: wrap; }
+    .controls button { border: 1px solid #7f9f89; border-radius: 7px; padding: 7px 12px; background: #244c3b; color: #f3f8e8; font-weight: 700; }
+    .controls button:hover { background: #37634e; }
+    .controls button:focus-visible, .pin:focus-visible { outline-color: #e5f5aa; }
+    .controls .reveal { border-color: #d9ebaa; background: #d9ebaa; color: #193327; }
+    .controls .reveal:hover { background: #f0f7ca; }
+    .fields { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 11px; }
+    .field { margin: 0; min-width: 0; overflow: hidden; border: 1px solid #bdcdbf; border-radius: 10px; background: #f9fbf5; }
+    .sample { position: relative; background: #122e26; }
+    .sample svg { display: block; width: 100%; aspect-ratio: 480 / 316; }
+    .pin { position: absolute; top: var(--y); left: var(--x); transform: translate(-50%, -50%); display: grid; place-items: center; width: max(32px, 10%); aspect-ratio: 1; border: 2px solid #f0f6cf; border-radius: 50%; background: #142e23; color: #f3f7d8; font-weight: 800; font-size: clamp(.9rem, 1.55vw, 1.1rem); }
+    .pin:hover, .pin[aria-pressed="true"] { background: #deeda9; color: #1a3a2b; }
+    figcaption { padding: 9px 12px 11px; }
+    figcaption strong { display: block; font-size: clamp(1rem, 1.6vw, 1.24rem); }
+    figcaption span { color: #486252; font-size: .91rem; }
+    .selection { min-height: 1.6em; margin: 9px 0 7px; color: #365a47; font-weight: 650; }
+    .answer { padding: 12px 15px; border: 1px solid #a8bea3; border-left: 5px solid #467d4b; border-radius: 8px; background: #f8fbe9; }
+    .answer h2 { margin: 0 0 4px; font-size: 1.15rem; }
+    .answer p { margin: 0; line-height: 1.6; }
+    .evidence { display: flex; justify-content: space-between; gap: 4px 12px; flex-wrap: wrap; margin: 14px 0 0; padding-top: 10px; border-top: 1px solid #bccbbf; color: #415d50; font-size: .82rem; }
+    .evidence a { color: #285640; text-underline-offset: .19em; }
+    @media (max-width: 640px) { .fields { grid-template-columns: 1fr; } .classroom { padding: 15px; } }
+  </style>
+</head>
+<body>
+  @@ARTWORK@@
+  <main class="classroom">
+    <header class="masthead"><p class="eyebrow">叶片观察 / 05</p><span class="tag">三幅同示意比例 · 离线课堂</span></header>
+    <h1>看见叶片气孔的开合</h1>
+    <p class="lead">沿三幅图的同一条标线，比较两侧保卫细胞之间的开口。</p>
+    <section class="question" aria-labelledby="question-title">
+      <div><p class="eyebrow">先观察，再核对</p><h2 id="question-title">第 03 幅中，气体从 A 还是 B 处进出？</h2></div>
+      <div class="controls">
+        <button type="button" id="measure-toggle" aria-pressed="true" aria-controls="fields">测量标线</button>
+        <button type="button" id="reveal-toggle" class="reveal" aria-expanded="false" aria-controls="answer">揭晓答案</button>
+      </div>
+    </section>
+    <div class="fields" id="fields">
+      <figure class="field">
+        <div class="sample"><svg viewBox="@@VIEWBOX@@" role="img" aria-label="闭合状态，两个保卫细胞几乎相接"><use href="#leaf-closed-field"/><use class="measurement" href="#leaf-closed-measure"/></svg></div>
+        <figcaption><strong>01 · 闭合</strong><span>几乎看不到缝隙</span></figcaption>
+      </figure>
+      <figure class="field">
+        <div class="sample"><svg viewBox="@@VIEWBOX@@" role="img" aria-label="开始开启状态，两侧保卫细胞之间出现窄缝"><use href="#leaf-middle-field"/><use class="measurement" href="#leaf-middle-measure"/></svg></div>
+        <figcaption><strong>02 · 开始开启</strong><span>中间出现窄缝</span></figcaption>
+      </figure>
+      <figure class="field">
+        <div class="sample">
+          <svg viewBox="@@VIEWBOX@@" role="img" aria-label="进一步开启状态，中间孔隙明显变宽"><use href="#leaf-open-field"/><use class="measurement" href="#leaf-open-measure"/><use id="annotations" href="#leaf-open-annotations" hidden/></svg>
+          <button type="button" class="pin" style="@@PIN_A@@" data-option="A" aria-label="A，左侧绿色结构" aria-pressed="false">A</button>
+          <button type="button" class="pin" style="@@PIN_B@@" data-option="B" aria-label="B，中央深色结构" aria-pressed="false">B</button>
+        </div>
+        <figcaption><strong>03 · 进一步开启</strong><span>孔隙明显变宽</span></figcaption>
+      </figure>
+    </div>
+    <p class="selection" id="selection" role="status">请先在第 03 幅图上选择 A 或 B。</p>
+    <section class="answer" id="answer" aria-labelledby="answer-title" hidden>
+      <h2 id="answer-title">B · 两侧保卫细胞之间的气孔孔隙</h2>
+      <p>沿同一条标线从左往右比较。第 01 幅几乎看不到缝隙，第 02 幅出现窄缝，第 03 幅的深色开口更宽。气体经由中间孔隙进出。</p>
+    </section>
+    <footer class="evidence"><span>原创结构示意，未按真实尺度绘制。标线用于比较孔隙宽度。</span><a href="https://doi.org/10.1038/s41598-023-34273-x">原理参考 · Scientific Reports · DOI 10.1038/s41598-023-34273-x</a></footer>
+  </main>
+  <script>
+    const pins = [...document.querySelectorAll('.pin')];
+    const answer = document.getElementById('answer');
+    const annotations = document.getElementById('annotations');
+    const selection = document.getElementById('selection');
+    const reveal = document.getElementById('reveal-toggle');
+    const measure = document.getElementById('measure-toggle');
+    let choice = '';
+
+    for (const pin of pins) pin.addEventListener('click', () => {
+      choice = pin.dataset.option;
+      for (const item of pins) item.setAttribute('aria-pressed', String(item === pin));
+      selection.textContent = `已选择 ${choice}。揭晓后对照图中标注。`;
+    });
+    reveal.addEventListener('click', () => {
+      const showing = answer.hidden;
+      answer.hidden = !showing;
+      annotations.toggleAttribute('hidden', !showing);
+      reveal.setAttribute('aria-expanded', String(showing));
+      reveal.textContent = showing ? '再做一次' : '揭晓答案';
+      for (const pin of pins) {
+        pin.hidden = showing;
+        if (!showing) pin.setAttribute('aria-pressed', 'false');
+      }
+      if (!showing) choice = '';
+      const feedback = { A: 'A 指向保卫细胞。请再找它们之间的深色孔隙。', B: '选对了。B 指向两侧保卫细胞之间的孔隙。' };
+      selection.textContent = showing ? feedback[choice] || '已显示气孔位置与对照说明。' : '请先在第 03 幅图上选择 A 或 B。';
+    });
+    measure.addEventListener('click', () => {
+      const showing = measure.getAttribute('aria-pressed') !== 'true';
+      measure.setAttribute('aria-pressed', String(showing));
+      for (const line of document.querySelectorAll('.measurement')) line.toggleAttribute('hidden', !showing);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "topic": "collage",
+      "title": "口播的拼贴配画",
+      "source": "https://github.com/pyang5166/gbro-collage-broll",
+      "excerpt": "旧版公开 Skill 用同底色的空场首帧和确认后的拼贴尾帧约束生成。",
+      "value": "把同一句话的两种入场顺序放在同一时间点比较。",
+      "author": "会话 B",
+      "file": "atlas-note-collage.md"
+    },
+    {
+      "topic": "custom-1",
+      "title": "银河旋臂与镜头",
+      "source": "https://x.com/0xAIlabs/status/2118379258607251490",
+      "excerpt": "Lyren 公开了四条对数旋臂、分层粒子和镜头路线的制作提示词。",
+      "value": "",
+      "review": {
+        "status": "supported",
+        "sourceName": "银河旋臂与镜头",
+        "startLine": 1,
+        "endLine": 1,
+        "quote": "Lyren 公开了四条对数旋臂、分层粒子和镜头路线的制作提示词。",
+        "claim": "分开控制结构参数和镜头路线，验证哪一种改变了画面。",
+        "note": "可分开控制旋臂结构和镜头参数，本次已实际生成双栏图。",
+        "scope": "在第 12 条报告附带的摘录中匹配连续字串，统一 Unicode NFKC 和连续空白，行号按摘录编号。来源身份和结论支持度由使用者判断。"
+      },
+      "author": "会话 A",
+      "file": "atlas-note-custom-1.md"
+    },
+    {
+      "topic": "lesson",
+      "title": "Papermorph 互动课",
+      "source": "https://github.com/DozenTwelve/Papermorph",
+      "excerpt": "第 12 章的案例将平面方程、立体图与可操作的练习排在同一个课程内。",
+      "value": "把可操作的验证安排进讲解，不必让读者跳到其他页面。",
+      "author": "会话 A",
+      "file": "atlas-note-lesson.md"
+    }
+  ]
+}

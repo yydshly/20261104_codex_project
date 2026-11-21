@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>两张平面怎样相交 · 3D 互动课</title>
+  <link rel="stylesheet" href="course.css">
+  <script src="course.js" defer></script>
+</head>
+<body>
+  <main class="lesson">
+    <header class="lesson-head">
+      <div>
+        <p class="eyebrow">互动课 / 01</p>
+        <h1>两张平面怎样相交？</h1>
+      </div>
+      <p class="tech">实时几何<br>JavaScript + SVG 投影</p>
+    </header>
+
+    <div class="lesson-layout">
+      <section class="stage" aria-label="三维场景">
+        <div class="legend"><span><i></i> 平面 A：z = 0</span><span><i></i> 平面 B：z = mx + h</span></div>
+        <div id="viewport" class="viewport" tabindex="0" aria-label="拖动或按方向键旋转三维场景，按 Home 重置视角">
+          <svg id="geometry" viewBox="0 0 420 284" role="img" aria-label="两张可调整的空间平面"></svg>
+        </div>
+        <p class="stage-help">拖动旋转视角 <span>·</span> 键盘支持方向键</p>
+        <div class="player">
+          <button id="play" type="button">▶ 播放讲解</button>
+          <div class="chapters" role="group" aria-label="切换讲解章节">
+            <button type="button" data-chapter="0" aria-pressed="true">01</button>
+            <button type="button" data-chapter="1" aria-pressed="false">02</button>
+            <button type="button" data-chapter="2" aria-pressed="false">03</button>
+          </div>
+        </div>
+        <p id="narration" class="narration" aria-live="polite">先从两张倾角不同的平面开始。试着旋转视角，看重叠的区域是否其实只是一条线。</p>
+      </section>
+
+      <section class="workbench" aria-label="预测和验证">
+        <div class="control-block">
+          <p class="eyebrow">01 / 调整参数</p>
+          <label for="slope">B 的斜率 m <output id="slope-value" for="slope">0.6</output></label>
+          <input id="slope" type="range" min="-1" max="1" step="0.1" value="0.6">
+          <label for="offset">B 的高度偏移 h <output id="offset-value" for="offset">0.6</output></label>
+          <input id="offset" type="range" min="-0.9" max="0.9" step="0.1" value="0.6">
+        </div>
+
+        <form id="prediction" class="prediction">
+          <fieldset>
+            <legend class="eyebrow">02 / 先猜，再验证</legend>
+            <p>当前两张平面是什么关系？</p>
+            <label><input type="radio" name="relation" value="line" required> 交于一条直线</label>
+            <label><input type="radio" name="relation" value="parallel"> 平行且分离</label>
+            <label><input type="radio" name="relation" value="coincident"> 完全重合</label>
+          </fieldset>
+          <button class="check" type="submit">核对并标出结果 ↘</button>
+        </form>
+        <p id="feedback" class="feedback" role="status"></p>
+      </section>
+    </div>
+    <p class="footnote">本页实际计算平面与交线，再投影到 SVG。平面边框只标记显示范围，数学上的平面可以无限延伸。</p>
+  </main>
+  <script src="frame-size.js"></script>
+</body>
+</html>

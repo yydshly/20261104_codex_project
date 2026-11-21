@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 608 415" fill="none">
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0v24" stroke="#ada8cb" stroke-opacity=".12"/></pattern>
+    <linearGradient id="bg" x1="90" y1="350" x2="520" y2="12" gradientUnits="userSpaceOnUse"><stop stop-color="#19192f"/><stop offset="1" stop-color="#2d2750"/></linearGradient>
+    <linearGradient id="clip" x1="8" y1="8" x2="263" y2="185" gradientUnits="userSpaceOnUse"><stop stop-color="#d9ccff"/><stop offset="1" stop-color="#9584f2"/></linearGradient>
+  </defs>
+  <rect width="608" height="415" rx="20" fill="url(#bg)"/>
+  <rect width="608" height="415" rx="20" fill="url(#grid)"/>
+  <path d="M25 49V25h24m510 0h24v24M25 365v24h24m510 0h24v-24" stroke="#bcb4e5" stroke-opacity=".55"/>
+  <path d="M27 342h554M27 67h554" stroke="#bcb4e5" stroke-opacity=".22" stroke-dasharray="4 6"/>
+  <g transform="translate(295 76) rotate(9 121 111)">
+    <rect x="6" y="10" width="242" height="225" rx="11" fill="#121124" opacity=".55"/>
+    <rect width="242" height="225" rx="11" fill="#212039" stroke="#877cbb"/>
+    <path d="M0 32h242" stroke="#625980"/>
+    <circle cx="17" cy="16" r="3" fill="#dbef88"/>
+    <text x="28" y="20" fill="#dad5ed" font-size="10" font-family="monospace" letter-spacing="1.4">03 / SCENE</text>
+    <path d="m39 150 78-45 80 45-80 46zM58 139l79 46m-59-57 79 45m-58-56 79 45m-60-56 79 45m-139 11 80-45m-60 57 80-46m-60 57 80-46" stroke="#9185d3" stroke-opacity=".38"/>
+    <path d="m90 89 37-22 40 22v46l-39 23-38-22z" fill="#6957d6" fill-opacity=".33" stroke="#b7a9ff" stroke-width="1.5"/>
+    <path d="m90 89 38 22 39-22m-39 22v47" stroke="#b7a9ff" stroke-width="1.5"/>
+    <ellipse cx="127" cy="118" rx="72" ry="34" transform="rotate(-29 127 118)" stroke="#dcef89" stroke-dasharray="4 5"/>
+    <circle cx="178" cy="93" r="4" fill="#dcef89"/>
+    <path d="M192 185h24m-12-12v24" stroke="#a49bd4" stroke-opacity=".75"/>
+  </g>
+  <g transform="translate(69 81) rotate(-8 133 93)">
+    <rect x="4" y="11" width="266" height="199" rx="11" fill="#121124" opacity=".55"/>
+    <rect width="266" height="199" rx="11" fill="url(#clip)" stroke="#e8e0ff"/>
+    <path d="M0 33h266" stroke="#52468e" stroke-opacity=".46"/>
+    <circle cx="17" cy="16" r="3" fill="#292344"/>
+    <text x="28" y="20" fill="#25203d" font-size="10" font-family="monospace" letter-spacing="1.4">01 / MOTION</text>
+    <path d="M17 62V49h13m219 13V49h-13M17 144v13h13m219-13v13h-13" stroke="#423767" stroke-opacity=".54"/>
+    <rect x="44" y="66" width="80" height="69" rx="7" fill="#eeebf9" transform="rotate(-8 44 66)"/>
+    <rect x="145" y="60" width="70" height="81" rx="7" fill="#322b53" transform="rotate(11 145 60)"/>
+    <path d="m128 65 42 43-42 36-43-36z" fill="#dcef89"/>
+    <circle cx="127" cy="108" r="20" fill="#282244"/>
+    <path d="m123 99 13 9-13 9z" fill="#fff"/>
+    <path d="M20 175h226" stroke="#4d417c" stroke-opacity=".56"/>
+    <path d="M20 175h93" stroke="#2e264c" stroke-width="2"/>
+    <circle cx="113" cy="175" r="4" fill="#2e264c"/>
+  </g>
+  <g transform="translate(214 254) rotate(-3 109 44)">
+    <rect x="4" y="7" width="219" height="89" rx="9" fill="#111023" opacity=".5"/>
+    <rect width="219" height="89" rx="9" fill="#dcef89"/>
+    <text x="16" y="21" fill="#303a1e" font-size="10" font-family="monospace" letter-spacing="1.2">02 / WORKFLOW</text>
+    <path d="M61 55h27m40 0h28m-73-4 5 4-5 4m68-8 5 4-5 4" stroke="#383f26" stroke-width="1.5"/>
+    <rect x="18" y="40" width="43" height="30" rx="4" fill="#f1f7cf" stroke="#566139"/>
+    <rect x="88" y="40" width="40" height="30" rx="4" fill="#f1f7cf" stroke="#566139"/>
+    <rect x="156" y="40" width="45" height="30" rx="4" fill="#313b22"/>
+    <path d="M30 51h19m-19 7h13m58-3 5 5 9-10m54 5h18m-5-4 5 4-5 4" stroke="#5a6540" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M169 55h18m-5-4 5 4-5 4" stroke="#e7f49e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="37" y="52" fill="#bfb7e2" font-size="10" font-family="monospace" letter-spacing="1.4">FIELD NOTES</text>
+  <text x="570" y="372" fill="#bfb7e2" font-size="10" text-anchor="end" font-family="monospace" letter-spacing="1.4">15 CASES / 03 THEMES</text>
+</svg>

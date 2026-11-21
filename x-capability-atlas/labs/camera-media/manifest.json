@@ -1,0 +1,109 @@
+{
+  "shots": [
+    {
+      "id": "fly",
+      "landscape": "fly.mp4",
+      "portrait": "fly-vertical.mp4",
+      "poster": {
+        "landscape": "fly.jpg",
+        "portrait": "fly-vertical.jpg"
+      },
+      "storyboard": {
+        "landscape": "fly-storyboard.jpg",
+        "portrait": "fly-vertical-storyboard.jpg"
+      }
+    },
+    {
+      "id": "track",
+      "landscape": "track.mp4",
+      "portrait": "track-vertical.mp4",
+      "poster": {
+        "landscape": "track.jpg",
+        "portrait": "track-vertical.jpg"
+      },
+      "storyboard": {
+        "landscape": "track-storyboard.jpg",
+        "portrait": "track-vertical-storyboard.jpg"
+      }
+    },
+    {
+      "id": "zoom",
+      "landscape": "zoom.mp4",
+      "portrait": "zoom-vertical.mp4",
+      "poster": {
+        "landscape": "zoom.jpg",
+        "portrait": "zoom-vertical.jpg"
+      },
+      "storyboard": {
+        "landscape": "zoom-storyboard.jpg",
+        "portrait": "zoom-vertical-storyboard.jpg"
+      }
+    },
+    {
+      "id": "bullet",
+      "landscape": "bullet.mp4",
+      "portrait": "bullet-vertical.mp4",
+      "poster": {
+        "landscape": "bullet.jpg",
+        "portrait": "bullet-vertical.jpg"
+      },
+      "storyboard": {
+        "landscape": "bullet-storyboard.jpg",
+        "portrait": "bullet-vertical-storyboard.jpg"
+      }
+    },
+    {
+      "id": "time",
+      "landscape": "time.mp4",
+      "portrait": "time-vertical.mp4",
+      "poster": {
+        "landscape": "time.jpg",
+        "portrait": "time-vertical.jpg"
+      },
+      "storyboard": {
+        "landscape": "time-storyboard.jpg",
+        "portrait": "time-vertical-storyboard.jpg"
+      }
+    }
+  ],
+  "film": {
+    "file": "film.mp4",
+    "poster": "film.jpg",
+    "width": 1280,
+    "height": 720,
+    "duration": 16,
+    "portrait": {
+      "file": "film-vertical.mp4",
+      "poster": "film-vertical.jpg",
+      "width": 720,
+      "height": 1280
+    },
+    "chapters": [
+      {
+        "id": "fly",
+        "title": "空间建立",
+        "time": 0.0
+      },
+      {
+        "id": "track",
+        "title": "低机位跟拍",
+        "time": 3.2083333333333335
+      },
+      {
+        "id": "zoom",
+        "title": "传感器推近",
+        "time": 6.416666666666667
+      },
+      {
+        "id": "bullet",
+        "title": "定格绕拍",
+        "time": 9.583333333333334
+      },
+      {
+        "id": "time",
+        "title": "巡检行进",
+        "time": 12.791666666666666
+      }
+    ]
+  }
+}

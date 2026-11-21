@@ -12,8 +12,8 @@
 | 004 | [Tesseract 的能力与价值](projects/004-tesseract-capabilities/README.md) | [Tesseract 官方库](https://github.com/mirage-hq/Tesseract) · [功能目录](https://mirage.app/tesseract/features) | 核心研究 Tesseract 如何以可编辑工程组织剪辑、二维动画、三维场景和音轨，以及对讲解制作和后续修改的价值。四部成片验证本机制作、路径追踪与 MiniMax 配音交付，保留能力边界，复用省时与教学收益仍待验证。 | [本轮研究引导图](#tesseract-guide) | [在线能力研究与实测作品](https://yydshly.github.io/20261104_codex_project/004-tesseract-capabilities/) |
 | 005 | [见全 · 跨领域认知导航](projects/005-jianquan-cognition/README.md) | 自主产品探索 · [资料来源与覆盖](https://yydshly.github.io/20261104_codex_project/005-jianquan-cognition/#study/sources) | 研究大众怎样从社会全景进入陌生行业，发现认知盲区，找到所需基础和逐层深入的道路。用行业、技能与思维地图连接图解、案例和练习，保留 AI 深入样板；学习效果与多模型事实、覆盖互补审核仍待验证。 | [已有研究引导图](#jianquan-guide) | [在线探索与研究共识](https://yydshly.github.io/20261104_codex_project/005-jianquan-cognition/) |
 | 006 | [六个优秀产品的效果与复用研究](projects/006-claude-showcase/README.md) | [Claude 原始作品串](https://x.com/claudeai/status/2111177834127601902) · [字体源码](https://github.com/harshpreet931/harshpreet-hand) · [电磁实验源码](https://github.com/thebuggeddev/electromagnetism) | 研究山火分析、Ballpoint Gambit、Harshpreet Hand、Induction Bench、AngioView 与 Twenty Haiku 六个优秀产品，从实际效果理解规则、数据与风格的配合。六个演示、绘画与短片提炼回放、主题化、字形资产、实验联动、空间教学和程序叙事的复用价值，并标明扩展范围。 | [已有研究引导图](#claude-showcase-guide) | [在线研究与六个演示](https://yydshly.github.io/20261104_codex_project/006-claude-showcase/) |
-
 | 007 | [一个人的网页 3D 效果合集](projects/007-creative-webgpu-showcase/README.md) | [Codevember](https://github.com/acher249/codevember-2026) · [作者实验目录](https://adamwebsite.com/experiments/) · [4DGS 示例](https://github.com/acher249/4dgs-world-foundation-model-demo) | 整理 Adam Chernick 个人制作并基于开源示例扩展的 37 项网页 3D 实验，覆盖折叠、液态金属、布料、产品拆解、反射与高斯场景。以效果选型为主，保留共享引擎和 4DGS 的研究价值，说明源码二次开发、产品化、多设备验证与后续作品尚未扩展。 | [已有研究引导图](#creative-webgpu-guide) | [在线研究与原版效果](https://yydshly.github.io/20261104_codex_project/007-creative-webgpu-showcase/) |
+| 008 | [16 个链接的能力与价值解析](projects/008-link-capability-atlas/README.md) | [15 条原帖与 Gitruck 补充](projects/008-link-capability-atlas/README.md#十六个链接的范围) | 解析 16 个链接，覆盖生图与 GIF、镜头剪辑、共享 3D、Agent 流程和知识库。用成片、交互与实际验收说明能力、个人应用价值与未接入边界，沉淀短片交付和证据记忆两条可复用链路。 | [本轮理解引导图](#link-capability-atlas-guide) | [在线解析与实际效果](https://yydshly.github.io/20261104_codex_project/008-link-capability-atlas/) |
 
 项目按收录顺序从 `001` 开始编号。新条目按编号追加，已分配的编号保持固定。索引摘要用一两句话写清研究对象和关注点。完成验证后，可补上一条主要发现。
 
@@ -106,6 +106,20 @@ Adam Chernick 个人制作、扩展和组合的网页 3D 实验，部分基于 T
 沿用本轮已生成的引导图和 2026 年 11 月 6 日的收录范围。网页将原版效果放进对应模块，集中展示每项操作、原理、用途设想和已知源码入口。[完整效果清单](projects/007-creative-webgpu-showcase/README.md#已收录的效果) · [在线研究与原版效果](https://yydshly.github.io/20261104_codex_project/007-creative-webgpu-showcase/)
 
 主要价值是作为效果索引和参考实现，按项目需求挑选研究。共享引擎可参考系列场景的公共能力组织，4DGS 可专题研究动态人物与环境重打光。源码二次开发、真实业务样板、独立组件、多设备性能评估及作者后续新增作品保留为扩展方向。公开页对两项需要隔离环境的 4DGS 提供原站播放入口。[详细研究与当前范围](projects/007-creative-webgpu-showcase/README.md)
+
+<a id="link-capability-atlas-guide"></a>
+
+### 008 · 16 个链接的能力与价值解析
+
+这组研究解析 **15 条 X 原帖与 1 个 Gitruck 有声剪辑补充案例，共 16 个链接**。能力覆盖生图与角色一致性、GIF 状态动作、镜头与口播配画、共享 3D 教学、Agent 工作流、引文核查与持久知识索引，用实际作品判断怎样迁移到自己的项目。
+
+![本轮生成的能力理解引导图，汇总十五条原始线索的原理、价值、实测边界和两条跨项链路](x-capability-atlas/assets/atlas-understanding-20261121.png)
+
+引导图沿用已经生成的版本，十五条原始编号保持不变。第 16 条将此前已展示的 Gitruck 有声口播前后对照单独解析，补充语义配画、图解特写和可继续精修的视频工程。[在线解析与效果](https://yydshly.github.io/20261104_codex_project/008-link-capability-atlas/) · [完整研究摘要与十六项来源](projects/008-link-capability-atlas/README.md)
+
+原生拼贴、三种表情、眨眼点头、温室横竖片、气孔 3D 与讲解片、银河对照、电台和微课均有可查看产物。字幕、八种配置比较、审批、模板交接、引文核查、跨窗口笔记与排期仿真提供可操作入口。已走通温室镜头到口播字幕、审阅报告到核查笔记两条链路。
+
+第 07–08、11–14 条保留原理适配范围，原库训练、自改 Agent、外部服务和上游采集继续按需求接入。原生 GIF 接缝、局部身份变化、规则语义误拦和真实使用收益仍需继续验证。[逐项验收与下载](https://yydshly.github.io/20261104_codex_project/008-link-capability-atlas/acceptance.html)
 
 ## 收录新项目
 

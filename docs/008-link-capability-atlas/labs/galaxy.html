@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="把星点生成与相机路线拆开的银河旋臂交互实验。">
+  <title>银河旋臂与镜头实验 · 能力图鉴</title>
+  <link rel="stylesheet" href="galaxy.css?v=4">
+  <script src="galaxy.js?v=4" defer></script>
+</head>
+<body>
+  <main class="lab-shell">
+    <header class="lab-header">
+      <div>
+        <p class="eyebrow">06 / 视觉素材</p>
+        <h1>银河构图工作台</h1>
+        <p>用同一批星点试出两种旋臂构图，沿镜头路线选帧，再把画面和参数带走。</p>
+      </div>
+      <a class="back" href="../#case-06" target="_top">返回原作与拆解 ↗</a>
+    </header>
+
+    <section class="film" aria-labelledby="film-title">
+      <figure class="film-preview">
+        <video id="galaxy-film" controls playsinline preload="metadata" width="1920" height="1080"
+          poster="galaxy-media/galaxy-pitch-compare.jpg" aria-label="银河旋臂张角对照片，无声，带片内章节文字">
+          <source src="galaxy-media/galaxy-pitch-compare.mp4" type="video/mp4">
+        </video>
+      </figure>
+      <div class="film-details">
+        <p class="film-kicker">06 / 渲染成片</p>
+        <div class="film-versions" role="group" aria-label="选择银河成片">
+          <button type="button" data-film="comparison" aria-pressed="true">12° / 28° 对照</button>
+          <button type="button" data-film="flight" aria-pressed="false">18° 飞越</button>
+        </div>
+        <h2 id="film-title">银河旋臂张角对照</h2>
+        <p id="film-description">左边 12° 紧卷，右边 28° 舒展。两边共用随机种子和镜头路线。</p>
+        <div class="film-chapters" id="film-chapters" aria-label="成片章节"></div>
+        <a class="film-download" id="film-download" href="galaxy-media/galaxy-pitch-compare.mp4" download>下载对照片 MP4 ↓</a>
+        <p class="film-spec" id="film-spec">8 秒 · 1920 × 1080 · 24 fps · 无声</p>
+        <p class="film-note">成片以高密度星点和尘埃渲染。下方可用轻量模型换参数，导出同一帧的对照图。</p>
+      </div>
+    </section>
+
+    <div class="workbench-heading"><h2>构图实验</h2><p>固定种子和镜头，把自己选的张角做成对照图。</p></div>
+    <section class="experiment" aria-label="银河实验">
+      <div class="view">
+        <figure class="sky">
+          <canvas id="galaxy" width="800" height="560" role="img" aria-label="根据旋臂张角、图层和镜头设置绘制的银河示意图">
+            四条示意旋臂围绕银心，太阳标记位于银盘中。
+          </canvas>
+          <figcaption class="sky-caption">
+            <span class="scene-label"><i aria-hidden="true"></i><span id="scene">俯视</span></span>
+            <span>银河结构示意</span>
+          </figcaption>
+        </figure>
+        <div class="timeline">
+          <div class="timeline-heading">
+            <button type="button" id="play">播放飞越</button>
+            <label for="time">镜头时间 <output id="time-value" for="time">0.0 s</output></label>
+          </div>
+          <input id="time" type="range" min="0" max="10" step="0.05" value="0">
+          <nav class="keyframes" aria-label="镜头关键帧">
+            <button type="button" data-time="0" aria-pressed="true">俯视</button>
+            <button type="button" data-time="2" aria-pressed="false">银心</button>
+            <button type="button" data-time="4.5" aria-pressed="false">旋臂</button>
+            <button type="button" data-time="6.6" aria-pressed="false">太阳</button>
+            <button type="button" data-time="8.5" aria-pressed="false">侧视</button>
+          </nav>
+          <div class="exports" aria-label="下载实验结果">
+            <button type="button" id="galaxy-png">下载当前帧 PNG</button>
+            <button type="button" id="galaxy-compare-png">生成双栏对照图</button>
+            <a class="comparison-jump" id="galaxy-comparison-jump" href="#galaxy-comparison-output" hidden>查看生成图 ↓</a>
+            <button type="button" id="galaxy-settings">下载实验参数 JSON</button>
+            <label class="import-settings">载入参数 JSON<input id="galaxy-import" type="file" accept=".json,application/json"></label>
+            <p id="galaxy-export-status" class="hint" role="status">双栏图对照当前张角与 12°。当前为 12° 时，以 28° 作对照。载入参数文件可恢复构图与选帧时间。</p>
+          </div>
+        </div>
+      </div>
+
+      <aside class="controls" aria-label="模型参数">
+        <h2>模型与图层</h2>
+        <div class="control">
+          <label for="pitch">旋臂张角 <output id="pitch-value" for="pitch">18°</output></label>
+          <input id="pitch" type="range" min="8" max="34" step="1" value="18">
+          <div class="presets">
+            <button type="button" data-pitch="12">紧卷 12°</button>
+            <button type="button" data-pitch="28">舒展 28°</button>
+          </div>
+        </div>
+        <div class="control">
+          <label for="count">生成点数 <output id="count-value" for="count">11,000</output></label>
+          <input id="count" type="range" min="3000" max="18000" step="1000" value="11000">
+        </div>
+        <fieldset>
+          <legend>显示图层</legend>
+          <label><input id="arms" type="checkbox" checked><span class="swatch arms"></span>旋臂星点</label>
+          <label><input id="disk" type="checkbox" checked><span class="swatch disk"></span>银盘与晕</label>
+          <label><input id="core" type="checkbox" checked><span class="swatch core"></span>中心棒与核球</label>
+          <label><input id="guides" type="checkbox" checked><span class="swatch guide"></span>旋臂参考线</label>
+        </fieldset>
+        <div class="seed-control">
+          <label for="seed">随机种子</label>
+          <input type="number" id="seed" min="1" max="9999" step="1" value="6">
+          <button type="button" id="reset">恢复初始值</button>
+        </div>
+        <p class="hint">保持种子不变，比较 12° 与 28°。暂停飞越时，参数仍可调整。</p>
+      </aside>
+    </section>
+
+    <section class="comparison-output" id="galaxy-comparison-output" aria-labelledby="comparison-title" hidden>
+      <div class="workbench-heading"><h2 id="comparison-title">双栏对照图</h2><a class="film-download" id="galaxy-comparison-download" download>下载 PNG ↓</a></div>
+      <figure><img id="galaxy-comparison-image" width="1600" height="900" alt=""><figcaption id="galaxy-comparison-caption"></figcaption></figure>
+    </section>
+
+    <section class="principles" aria-labelledby="principles-title">
+      <h2 id="principles-title">从原作到本页实现</h2>
+      <div class="principle-grid">
+        <article>
+          <h3>公开提示词</h3>
+          <p>Lyren 公开了四条对数旋臂、分层粒子和镜头路线的制作提示词，指定用 NumPy 计算、Pillow 绘帧、FFmpeg 输出视频。原帖展示成片与提示词，未附可审查的渲染源码。</p>
+          <p><a href="https://x.com/0xAIlabs/status/2118379258607251490" target="_blank" rel="noopener">Lyren 原帖</a> · <a href="https://numpy.org/doc/stable/reference/random/generator.html" target="_blank" rel="noopener">NumPy 随机采样</a> · <a href="https://pillow.readthedocs.io/en/stable/reference/ImageDraw.html" target="_blank" rel="noopener">Pillow 绘图</a></p>
+        </article>
+        <article>
+          <h3>相关库的实现</h3>
+          <p>Three.js 的 <code>Points</code> 把点云几何与材质组合为场景对象。R3F 在每次渲染前把场景状态和帧间隔传给 <code>useFrame</code> 回调，镜头控制可在这里更新相机。</p>
+          <p><a href="https://github.com/mrdoob/three.js/blob/dev/src/objects/Points.js" target="_blank" rel="noopener">Three.js 点云源码</a> · <a href="https://github.com/pmndrs/react-three-fiber/blob/master/packages/fiber/src/core/loop.ts" target="_blank" rel="noopener">R3F 渲染循环源码</a></p>
+        </article>
+        <article>
+          <h3>我们的验证</h3>
+          <p>两套渲染都用 <code>θ = ln(r/r₀) / tan(p) + φ</code> 摆出四条旋臂。成片固定种子，分别计算 12° 和 28° 的尘带与星点，再用同一镜头逐帧投影。工作台对照图用同一套轻量采样，也会锁住两边的图层和选帧时间。两种输出均为程序化示意。</p>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>同一段口播的 A/B 成片</title>
+  <link rel="stylesheet" href="motion.css">
+</head>
+<body>
+  <main class="motion">
+    <div class="player">
+      <video controls playsinline preload="metadata" poster="media/talk-poster.webp" src="media/talk-a.mp4" aria-label="A 版，只有口播主画面"></video>
+      <div class="time-track" aria-hidden="true"><span></span><i></i></div>
+      <p class="status" role="status">A 版 · 只播主画面</p>
+    </div>
+    <div class="controls">
+      <h1>同一段口播，<br>两种剪法</h1>
+      <p>两版共用同一条配音和字幕。切换时保留播放位置，方便直接对照。</p>
+      <div class="versions" role="group" aria-label="成片版本">
+        <button type="button" data-version="a" aria-pressed="true"><b>A</b> 主画面</button>
+        <button type="button" data-version="b" aria-pressed="false"><b>B</b> 插入 B-roll</button>
+      </div>
+      <button type="button" class="jump">跳到 B-roll 切入点 <span></span></button>
+      <details>
+        <summary>台本和素材</summary>
+        <blockquote>每次弹出一条通知，你的注意力就被切走一点。等你回到手头的事，刚才的思路已经断了。</blockquote>
+        <p>图形逐帧绘制，Windows 中文语音合成配音，FFmpeg 输出两支 MP4。独立拼贴素材另存为 GIF。</p>
+        <div class="assets"><a href="media/cutaway.gif" target="_blank" rel="noopener">看独立 GIF ↗</a><a href="media/talk-a.mp4" download>下载 A</a><a href="media/talk-b.mp4" download>下载 B</a></div>
+      </details>
+      <p class="note">本页制作的对照样例。原帖里的 Image 2.6 样片见第 01 条。</p>
+    </div>
+  </main>
+  <script src="media/motion-data.js"></script>
+  <script src="motion.js"></script>
+  <script src="frame-size.js"></script>
+</body>
+</html>

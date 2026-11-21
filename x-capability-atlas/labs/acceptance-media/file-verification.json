@@ -1,0 +1,1316 @@
+{
+  "reviewedOn": "2026-11-21",
+  "cases": 16,
+  "checkedFiles": 107,
+  "errors": [],
+  "files": [
+    {
+      "file": "acceptance.html",
+      "bytes": 1957,
+      "sha256": "12d892ce64ef2861583598c9b1cda7a65d2b96c2f68cd8ed680d606028ce75d9"
+    },
+    {
+      "file": "assets/originals/media/01-01.mp4",
+      "bytes": 92730,
+      "sha256": "7717191e184078d7d9ba38bed744fc94550aea3ef445672200f31658dcffb61e",
+      "seconds": 5.11,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 360,
+          "height": 640,
+          "nb_frames": "68"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/media/01-02.mp4",
+      "bytes": 127807,
+      "sha256": "6ad86cd4725d4925d24c3f8bad421832ae2926c7085beaf4853c71a819258384",
+      "seconds": 5.11,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 360,
+          "height": 640,
+          "nb_frames": "68"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/media/01-03.mp4",
+      "bytes": 120055,
+      "sha256": "2c1cd7b68d2ef34e3b49e980bcb9137868312ea257687d4b6f5860815fa509aa",
+      "seconds": 5.11,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 360,
+          "height": 640,
+          "nb_frames": "68"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/media/01-04.mp4",
+      "bytes": 65811,
+      "sha256": "598b461287774342fa7b90d11ac2922277710221bb238ec103816f6953ee29b6",
+      "seconds": 5.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 450,
+          "height": 800,
+          "nb_frames": "55"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/media/03-01.mp4",
+      "bytes": 506872,
+      "sha256": "c7698c2530b4df26348b3333a4405df18f3f7378cc14b0e5bd09986c0639a78a",
+      "seconds": 9.733333,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 512,
+          "height": 360,
+          "nb_frames": "292"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/media/04-01.mp4",
+      "bytes": 6842592,
+      "sha256": "1c0a9d0080be1cf7a144be6e2fd083bd054b26e2587078a7f400ef173d4fc0f2",
+      "seconds": 83.392,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 480,
+          "height": 852,
+          "nb_frames": "2501"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "nb_frames": "3911"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/media/05-01.mp4",
+      "bytes": 2689656,
+      "sha256": "2ce2fb12415b10c52492049172bc814b47c7b1b787c0a97c8b6553753492200b",
+      "seconds": 25.077551,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 480,
+          "height": 600,
+          "nb_frames": "901"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "nb_frames": "1080"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/media/06-01.mp4",
+      "bytes": 1313041,
+      "sha256": "6f9a80331121af815ea063eafde33aa87157312fd9d7e8eff38b15ed7828c50e",
+      "seconds": 26.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 480,
+          "height": 600,
+          "nb_frames": "780"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "nb_frames": "1122"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/media/09-01.mp4",
+      "bytes": 1297515,
+      "sha256": "1f0c85cbcfc2aaa1ed0713cec11c4b3a4a0c45addabfa1d57f8f7918bb88a734",
+      "seconds": 30.533333,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 610,
+          "height": 360,
+          "nb_frames": "1832"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "nb_frames": "1434"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/media/12-01.mp4",
+      "bytes": 25680226,
+      "sha256": "9d311f9acaa4727240580fa63963054bd7b88a6da64e6a0dee6801ea44fd21ef",
+      "seconds": 447.425306,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720,
+          "nb_frames": "13421"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "nb_frames": "19269"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/media/15-01.mp4",
+      "bytes": 2510182,
+      "sha256": "1b8264c06036bac80251ad9b47736e4649b639a9857faaad941236419fc6cf57",
+      "seconds": 31.300499,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 480,
+          "height": 520,
+          "nb_frames": "1871"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "nb_frames": "1348"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/media/oralcut-after.webm",
+      "bytes": 11189617,
+      "sha256": "3a2d32d3ccd3bd7dfbab032c7d0d8805eaf8457ec4686ffde4016228e89b9254",
+      "seconds": 48.003,
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "opus",
+          "codec_type": "audio"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/media/oralcut-before.webm",
+      "bytes": 16703000,
+      "sha256": "77699b222a8ee9759a0f4ab30b511531ea6b254c3d0f48082bcc90a573cd5955",
+      "seconds": 63.88,
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "opus",
+          "codec_type": "audio"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/mono-radio/audio/2026-11-06-ja.mp3",
+      "bytes": 1076300,
+      "sha256": "7544eee4ea022659586caa84c09bf65e0d8c0aea013366618c85ee9719e6acc3",
+      "seconds": 89.664,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/papermorph/linear-algebra/ch12/audio/en/check.mp3",
+      "bytes": 163440,
+      "sha256": "7fcdf304a2d0414c4c471ad84c29c7d5a0b998c33a8b70e226b370d6e42675ed",
+      "seconds": 27.24,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/papermorph/linear-algebra/ch12/audio/en/corner.mp3",
+      "bytes": 162000,
+      "sha256": "a39cdb13af3d60883cf3e965c4124fa9195f5835fd59964b32549ae6d887f42b",
+      "seconds": 27.0,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/papermorph/linear-algebra/ch12/audio/en/final1.mp3",
+      "bytes": 21456,
+      "sha256": "be0ad3f3e79016f6ea90462e0bfd5eb71048637d728d8b48a02a7f0dfdfcff2f",
+      "seconds": 3.576,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/papermorph/linear-algebra/ch12/audio/en/final2.mp3",
+      "bytes": 11520,
+      "sha256": "fe439c0915adbc09ad6ed7e9f6d7ee0799eca30851b4a6c42d0872e4cdf7e4de",
+      "seconds": 1.92,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/papermorph/linear-algebra/ch12/audio/en/final3.mp3",
+      "bytes": 14688,
+      "sha256": "4e5137c4cff7630c2b6b79ac25e56ebb60f3cfc6c71ef8d27fc08bbffc89d091",
+      "seconds": 2.448,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/papermorph/linear-algebra/ch12/audio/en/final4.mp3",
+      "bytes": 19440,
+      "sha256": "9eb58323eaeb34963054a24ec119808593b631772ed575edf44987d141831303",
+      "seconds": 3.24,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/papermorph/linear-algebra/ch12/audio/en/finish.mp3",
+      "bytes": 75168,
+      "sha256": "94569043106a837f8c44266f51c6363429ff154e16f045cc15b902202c97227c",
+      "seconds": 12.528,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/papermorph/linear-algebra/ch12/audio/en/intro.mp3",
+      "bytes": 75168,
+      "sha256": "b953480a741b567a8c9780d8acf050c0f97748212bd74945ed8a60d30c395acd",
+      "seconds": 12.528,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/papermorph/linear-algebra/ch12/audio/en/line.mp3",
+      "bytes": 189216,
+      "sha256": "ebd98e616a01c65295f261f683d21ef90887f583e8126c5ad7164cf9eb921c4a",
+      "seconds": 31.536,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/papermorph/linear-algebra/ch12/audio/en/move.mp3",
+      "bytes": 190800,
+      "sha256": "120f4db941518bde29aba965df9c786176f07dfa95f19ba9f9cbd7b32dcc3210",
+      "seconds": 31.8,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/papermorph/linear-algebra/ch12/audio/en/none.mp3",
+      "bytes": 290304,
+      "sha256": "3b0d6d80df6673f4fd646cc66ec331b7b1715c2f6c0b74fead5361946be8cb5a",
+      "seconds": 48.384,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/papermorph/linear-algebra/ch12/audio/en/p1.mp3",
+      "bytes": 179712,
+      "sha256": "a4d2334947b97969353d97c6853674e374d2d7d45a9ac583ba702a5ec249fc64",
+      "seconds": 29.952,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/papermorph/linear-algebra/ch12/audio/en/p2.mp3",
+      "bytes": 267984,
+      "sha256": "dae4d99258211137661ad3e9a6f8587c4aba4317ac9328f4fe2a7e33f2635946",
+      "seconds": 44.664,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/papermorph/linear-algebra/ch12/audio/en/p3.mp3",
+      "bytes": 209088,
+      "sha256": "922ff4cb68fc67b13742df273ba6ef46481b6048da8a7dfb93c838e12e07b786",
+      "seconds": 34.848,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/papermorph/linear-algebra/ch12/audio/en/play.mp3",
+      "bytes": 74304,
+      "sha256": "e56f9a08ff2c825b50e82b3c1f85713cceb6d75fdb330d7e2036c1f09c7d7107",
+      "seconds": 12.384,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/papermorph/linear-algebra/ch12/audio/en/q1.mp3",
+      "bytes": 25200,
+      "sha256": "80b83ae9fe7e507c6d9f0774e35638aceaced296e06204775b08410728a57c85",
+      "seconds": 4.2,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/papermorph/linear-algebra/ch12/audio/en/q2.mp3",
+      "bytes": 38448,
+      "sha256": "18c30c895d374521c68360548f73f607595609ec9752b8d908686c7f18833b00",
+      "seconds": 6.408,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/papermorph/linear-algebra/ch12/audio/en/q3.mp3",
+      "bytes": 22752,
+      "sha256": "3a3c7b031091a59c83a1159649206829280b8420f2139154b132144e5853c54e",
+      "seconds": 3.792,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/papermorph/linear-algebra/ch12/audio/en/solve.mp3",
+      "bytes": 305280,
+      "sha256": "3effa9061406524716b90f4ac5c73743244ed2b446aa8aa2c124d9e430fe69af",
+      "seconds": 50.88,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/papermorph/linear-algebra/ch12/audio/en/system.mp3",
+      "bytes": 489888,
+      "sha256": "cf07650719680b39c39ad7d30148de37683e367a825a58d50632f9ca2c6cae1e",
+      "seconds": 81.648,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/originals/papermorph/linear-algebra/ch12/audio/en/wrap.mp3",
+      "bytes": 149760,
+      "sha256": "f2b6569a32281ddf3f7835c6b7fc6e069cb037d7efb7d1a31b254ad4b02266e5",
+      "seconds": 24.96,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "assets/previews/oralcut-after.jpg",
+      "bytes": 102317,
+      "sha256": "f1208cb506330c179d5e15d6c3952f7fec5e190804a4a80a63c1630a2fdfa138",
+      "width": 1280,
+      "height": 720,
+      "frames": 1
+    },
+    {
+      "file": "index.html",
+      "bytes": 17678,
+      "sha256": "b9d614ac7ed1330096a6cd72912955c483f47d647413c0f0d2a34ce954c4483f"
+    },
+    {
+      "file": "labs/acceptance-media/07-captions.vtt",
+      "bytes": 374,
+      "sha256": "9b0a578c0064f2c0708f9501ecad5b40e5c737b611c491af4c31aa935380073d"
+    },
+    {
+      "file": "labs/acceptance-media/08-review.json",
+      "bytes": 9602,
+      "sha256": "34a10e66c57289cb21e8cc9c1cccda19eb047ca81f9adba456b1a1db7ae510a3"
+    },
+    {
+      "file": "labs/acceptance-media/10-exercise.md",
+      "bytes": 189,
+      "sha256": "5c67b290b4e4e6a896d3353bc5cdabc3d01fefcaedc5c7741ce0b61c86b170e1"
+    },
+    {
+      "file": "labs/acceptance-media/11-approval.json",
+      "bytes": 1399,
+      "sha256": "ec8180cc30260e40cb5a787b56735922927a00aa0364da385f97068bd22c3b44"
+    },
+    {
+      "file": "labs/acceptance-media/12-handoff.json",
+      "bytes": 1018,
+      "sha256": "85e0f38052bcc3c7d1488f93eb8a33f9ab127403cde122482a28049ce6926861"
+    },
+    {
+      "file": "labs/acceptance-media/13-index.json",
+      "bytes": 1837,
+      "sha256": "746687863c70b4767019680ed8f443486971f65ad435a193f0f29bc836fd4a22"
+    },
+    {
+      "file": "labs/acceptance-media/13-lookup.md",
+      "bytes": 225,
+      "sha256": "d1c6faaf5540a16b763b9930f41fa1b3849d4f71994768291d3faacc5876fd71"
+    },
+    {
+      "file": "labs/acceptance-media/14-citation.json",
+      "bytes": 1418,
+      "sha256": "ce0a36f871798943d8444bb642793c95185aa8e20bc5427d432a4a414f174baa"
+    },
+    {
+      "file": "labs/acceptance-media/15-simulation.json",
+      "bytes": 90763,
+      "sha256": "b824b042aeaa14fad3705e562ecebf8db33f2630e6462bb7cdc67ae1f63f3752"
+    },
+    {
+      "file": "labs/camera-media/bullet-vertical.mp4",
+      "bytes": 2926610,
+      "sha256": "3d7316983415dadc8d546b4e558f90c31e2aef825d06732f34699fc19003588f",
+      "seconds": 4.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 720,
+          "height": 1280,
+          "nb_frames": "96"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/camera-media/bullet.mp4",
+      "bytes": 3878723,
+      "sha256": "2b9bb82fc76e3ed4f22cea035f0a02b0a54e88a2942b9f68a3ec9495300dd308",
+      "seconds": 4.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720,
+          "nb_frames": "96"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/camera-media/film-vertical.mp4",
+      "bytes": 12134962,
+      "sha256": "70af7b3eccb7407fd03d10521c3d536e852f8ac8c6ef421fc94899d25740e21e",
+      "seconds": 16.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 720,
+          "height": 1280,
+          "nb_frames": "384"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "nb_frames": "751"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/camera-media/film.jpg",
+      "bytes": 163604,
+      "sha256": "54344159c22682cabc8d5333ac0e6c5419eb4add9130ad08b275ff55841e2a85",
+      "width": 1280,
+      "height": 720,
+      "frames": 1
+    },
+    {
+      "file": "labs/camera-media/film.mp4",
+      "bytes": 18691451,
+      "sha256": "2e742798b707a1ca896eefe4d907371581729b47173d5a4c94689efebc1e507a",
+      "seconds": 16.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720,
+          "nb_frames": "384"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "nb_frames": "751"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/camera-media/fly-vertical.mp4",
+      "bytes": 6300618,
+      "sha256": "ab1c0a65610f7bfacdf856e92e14092e397233e0e8f1ca7ede249e88b0bfa8d8",
+      "seconds": 4.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 720,
+          "height": 1280,
+          "nb_frames": "96"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/camera-media/fly.mp4",
+      "bytes": 7294434,
+      "sha256": "66c9d8859cc229fe77f10424c310be172b3b3fcc1c3ecdf81b58d46f20d2725e",
+      "seconds": 4.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720,
+          "nb_frames": "96"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/camera-media/time-vertical.mp4",
+      "bytes": 3963671,
+      "sha256": "d9bdefc0382e9acfb9fec4b43b472edc353826e497aa639c7c7ca774c27a3f7d",
+      "seconds": 4.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 720,
+          "height": 1280,
+          "nb_frames": "96"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/camera-media/time.mp4",
+      "bytes": 5876722,
+      "sha256": "3909e63628c43fae59804662497cffcf9aec669ad47d5ce9fdd6f368c26a6d4b",
+      "seconds": 4.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720,
+          "nb_frames": "96"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/camera-media/track-vertical.mp4",
+      "bytes": 2340208,
+      "sha256": "c27518c6ab90eaea14dbfcff12faa858b50831787774e0e6d8c0b112c51b5c7d",
+      "seconds": 4.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 720,
+          "height": 1280,
+          "nb_frames": "96"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/camera-media/track.mp4",
+      "bytes": 3670782,
+      "sha256": "d8f9d24eac01f7854a0148dc49ddaff648699e864cbe2fb049597b349a409f90",
+      "seconds": 4.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720,
+          "nb_frames": "96"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/camera-media/verdant-r04-release.zip",
+      "bytes": 45522803,
+      "sha256": "851a97d1fabde8206ef5b0d9e82c1106c9a0059eb528dff7248be6e1b029eae0",
+      "archiveFiles": 8
+    },
+    {
+      "file": "labs/camera-media/zoom-vertical.mp4",
+      "bytes": 1643263,
+      "sha256": "42fb6bc7a276ce5c3c5781873e434d0c5df3ff44e9f7adff70a659d45445353d",
+      "seconds": 4.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 720,
+          "height": 1280,
+          "nb_frames": "96"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/camera-media/zoom.mp4",
+      "bytes": 2004229,
+      "sha256": "77e77586e0d970f3fd7cede4359ce7f2cde0da5e737388be16d0aa69bcca778c",
+      "seconds": 4.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720,
+          "nb_frames": "96"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/character-media/xiaojing-blink-generated.gif",
+      "bytes": 599111,
+      "sha256": "db19446738838bb8f8f6782d1215f903701fc169c4579ce3ac8d57c4e1a46910",
+      "width": 512,
+      "height": 512,
+      "frames": 6,
+      "seconds": 1.84
+    },
+    {
+      "file": "labs/character-media/xiaojing-blink-native.gif",
+      "bytes": 537025,
+      "sha256": "05154edeba5f2b53a1d34095879494fc390a4e96b597c4e87cb694a256b59162",
+      "width": 357,
+      "height": 357,
+      "frames": 12,
+      "seconds": 2.04
+    },
+    {
+      "file": "labs/character-media/xiaojing-expression-concern.png",
+      "bytes": 1817473,
+      "sha256": "dd7c685e9d2f3deafb758c3090e9090c92de303296fb98fdaf0413776775abc8",
+      "width": 1254,
+      "height": 1254,
+      "frames": 1
+    },
+    {
+      "file": "labs/character-media/xiaojing-expression-smile.png",
+      "bytes": 1785760,
+      "sha256": "4083fe71b57a58d044b73deed709e647b8e07922dc29bbf9c814a2658174e58d",
+      "width": 1254,
+      "height": 1254,
+      "frames": 1
+    },
+    {
+      "file": "labs/character-media/xiaojing-expression-surprise.png",
+      "bytes": 1825724,
+      "sha256": "5bd0a5ebcaf4d1e348a9f482c3cfc9c91d69de284c491ce20741c628a419ce6e",
+      "width": 1254,
+      "height": 1254,
+      "frames": 1
+    },
+    {
+      "file": "labs/character-media/xiaojing-idle.gif",
+      "bytes": 102785,
+      "sha256": "f1029ec3cb28c76ffa31d822747f2c2f1124b8d06c295d8b3028ce5d887a5240",
+      "width": 360,
+      "height": 360,
+      "frames": 80,
+      "seconds": 4.0
+    },
+    {
+      "file": "labs/character-media/xiaojing-idle.mp4",
+      "bytes": 120836,
+      "sha256": "38082637c65a1ed5756467aa437f81977eef5b533cb54a97d6890b80aca96f4e",
+      "seconds": 4.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 600,
+          "height": 600,
+          "nb_frames": "96"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/character-media/xiaojing-kit-v2.zip",
+      "bytes": 16908886,
+      "sha256": "e02955ac6cfd081ce722e6359d04874dcf5b3a5bf9fe55814066f59c3d5b3a37",
+      "archiveFiles": 18
+    },
+    {
+      "file": "labs/character-media/xiaojing-kit.zip",
+      "bytes": 2901074,
+      "sha256": "c538d624cf85893b2b5c3af249c7caabcfcb52854f24b43d071bc8a3e217ae00",
+      "archiveFiles": 7
+    },
+    {
+      "file": "labs/character-media/xiaojing-nod-generated.gif",
+      "bytes": 627033,
+      "sha256": "caf6d2003f813209ceeb18fad04e9593c8e7db98921b49fcfb8e169340591cde",
+      "width": 512,
+      "height": 512,
+      "frames": 6,
+      "seconds": 2.08
+    },
+    {
+      "file": "labs/character-media/xiaojing-nod-native.gif",
+      "bytes": 549446,
+      "sha256": "36a422e63aae9aeb278f3f7997f4186f65ad88b7a11c0f8bd01563f24053c30f",
+      "width": 356,
+      "height": 358,
+      "frames": 12,
+      "seconds": 2.52
+    },
+    {
+      "file": "labs/character-media/xiaojing-nod.gif",
+      "bytes": 964598,
+      "sha256": "7702dfcc8dbd67e638551247c3e835e48669a9ece8c77cbc9764620cec9e2918",
+      "width": 360,
+      "height": 360,
+      "frames": 50,
+      "seconds": 2.5
+    },
+    {
+      "file": "labs/character-media/xiaojing-nod.mp4",
+      "bytes": 210765,
+      "sha256": "4bd2540af84d55270d09661b37de71a2c917f334d6b75181144da658a6667cef",
+      "seconds": 2.5,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 600,
+          "height": 600,
+          "nb_frames": "60"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/character-media/xiaojing.png",
+      "bytes": 1865780,
+      "sha256": "6e0e49bcb26161b7fcac0db8bceb53ed57b7b84debf82e6e73f867cb77a3f4f7",
+      "width": 1254,
+      "height": 1254,
+      "frames": 1
+    },
+    {
+      "file": "labs/collage-media/collage-clean.mp4",
+      "bytes": 353174,
+      "sha256": "7796dea113005fc14710f6f16e4fa5044d8cb9981e860ac61cfc61776278b77c",
+      "seconds": 5.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 720,
+          "height": 1280,
+          "nb_frames": "120"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/collage-media/collage-narrated.mp4",
+      "bytes": 395304,
+      "sha256": "f40edfbe5a88c453cc18150df547c2451613ea05711acfba3fa298b5093e7f92",
+      "seconds": 5.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 720,
+          "height": 1280,
+          "nb_frames": "120"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "nb_frames": "109"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/collage-media/collage-native-compare.jpg",
+      "bytes": 59295,
+      "sha256": "e19b547abf2e47c22b4ad46fbd6906d9d20e63df84c1c1998f9e795862e03633",
+      "width": 1080,
+      "height": 960,
+      "frames": 1
+    },
+    {
+      "file": "labs/collage-media/collage-native-compare.mp4",
+      "bytes": 1180337,
+      "sha256": "842109c9c21d47b7305a5ff9faae81824a0a72d51285d71366268ce51986bab3",
+      "seconds": 5.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 960,
+          "nb_frames": "120"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "nb_frames": "109"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/collage-media/collage-native-narrated.mp4",
+      "bytes": 1368723,
+      "sha256": "27ee5984745e81170985f95b8045d982da462e2e0a01540b57acf1d612d361ae",
+      "seconds": 5.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 720,
+          "height": 1280,
+          "nb_frames": "120"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "nb_frames": "109"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/collage-media/collage-native.gif",
+      "bytes": 699628,
+      "sha256": "a50e27f8fe0d9bf2641fe20ce4d71def9ded4fbc3b105920c804bb01d020712a",
+      "width": 267,
+      "height": 478,
+      "frames": 12,
+      "seconds": 3.96
+    },
+    {
+      "file": "labs/collage-media/compare-ab.mp4",
+      "bytes": 6814910,
+      "sha256": "f1158d7371872882484340e82289da119b0a811209c2fa40363bd5216dec8402",
+      "seconds": 11.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1440,
+          "height": 1080,
+          "nb_frames": "264"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "nb_frames": "517"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/collage-media/compare-ar.mp4",
+      "bytes": 8134848,
+      "sha256": "52f37d5bd69dd5ecad432d5854ac31e2d81d4c6087092bc5874cc6f4e922ef3e",
+      "seconds": 11.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 720,
+          "height": 1280,
+          "nb_frames": "264"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "nb_frames": "517"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/collage-media/compare-br-clean.mp4",
+      "bytes": 6435754,
+      "sha256": "3fcabb5409569502db86b289597b7707b8b6a738dd9dfa02ea325475bc728342",
+      "seconds": 11.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 720,
+          "height": 1280,
+          "nb_frames": "264"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "nb_frames": "517"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/collage-media/compare-br.mp4",
+      "bytes": 6266236,
+      "sha256": "79d84d5ae3b44fc6547b163693b6537fd8ee30c3465fc497768e1e1c50379f7d",
+      "seconds": 11.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 720,
+          "height": 1280,
+          "nb_frames": "264"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "nb_frames": "517"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/collage-media/compare-voice.m4a",
+      "bytes": 126986,
+      "sha256": "ffb3c81bd62ae6426169d2348ea3f10994f0c71efaa3ebb5b0c6146408b2a357",
+      "seconds": 11.0,
+      "streams": [
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "nb_frames": "517"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/collage.html",
+      "bytes": 27634,
+      "sha256": "1d4f6e0ba1f39ceda7f9cbed2b459c76d444c9794ad07ba08663b986d8f13c22"
+    },
+    {
+      "file": "labs/galaxy-media/galaxy-flight.mp4",
+      "bytes": 13901701,
+      "sha256": "e05ca8e8995fd0c0ca1f00bb3764354be56df1810ab067f911a2439adc430ec7",
+      "seconds": 12.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "nb_frames": "288"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/galaxy-media/galaxy-pitch-compare.jpg",
+      "bytes": 435256,
+      "sha256": "589e74956ce2f9f2ea11043423c378dbd23e8b418543357cfcbfc1a1ec51e229",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1
+    },
+    {
+      "file": "labs/galaxy-media/galaxy-pitch-compare.mp4",
+      "bytes": 10659186,
+      "sha256": "74e659b4548a99826376b8dc39897cfec898a4b0cbda012841993fe16645581b",
+      "seconds": 8.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "nb_frames": "192"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/galaxy.html",
+      "bytes": 8718,
+      "sha256": "f30c26f76cc1f54c6d594d1827977d8de7305edc8a9d5b0b7fc5861ce625142e"
+    },
+    {
+      "file": "labs/lesson-media/rgb-lesson-cover.webp",
+      "bytes": 13814,
+      "sha256": "2488fe5ba32c85da4c0ac299401223d3a5e2bb79f7a3cba1ada72f4e2c0e499b",
+      "width": 960,
+      "height": 540,
+      "frames": 1
+    },
+    {
+      "file": "labs/lesson-media/rgb-micro-lesson.html",
+      "bytes": 538922,
+      "sha256": "8816227565698a5cf8d780bb2d6a4386156d9f4ea3c9d05d23fbd5cff3273762"
+    },
+    {
+      "file": "labs/lesson-media/rgb-narration.mp3",
+      "bytes": 385101,
+      "sha256": "1444ebd51018762324426975f1052b1351cfba25c1892e19011b17f938fa70b8",
+      "seconds": 32.064,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/lesson.html",
+      "bytes": 9706,
+      "sha256": "416dbf4ba44a50a332232dd018c4d74dc555903d45d126b35d2b7b3adbbae83d"
+    },
+    {
+      "file": "labs/stoma-3d/public/assets/mcp-verification.json",
+      "bytes": 524,
+      "sha256": "fd90c69e9f9b88cf5d5128aea286a5d3c072ba70073eeef5d2a00a0ebe580414"
+    },
+    {
+      "file": "labs/stoma-3d/public/assets/stoma-v2.glb",
+      "bytes": 408112,
+      "sha256": "75005c3b19ace3e17a82636fa3b2e65fb912ac050e9a27c8edd78a95dbf85750"
+    },
+    {
+      "file": "labs/stoma-3d/viewer/index.html",
+      "bytes": 448,
+      "sha256": "8c6499d73637f56c0d0c8741ad7b94930e4abede9a6f0a520c20253054b893bc"
+    },
+    {
+      "file": "labs/stoma-media/stoma-lesson.jpg",
+      "bytes": 67517,
+      "sha256": "d7bf97eec6f7df726aeb91c5cd5db2eacb3c7252d88501ea4f4102f3e09cdef7",
+      "width": 1280,
+      "height": 720,
+      "frames": 1
+    },
+    {
+      "file": "labs/stoma-media/stoma-lesson.mp4",
+      "bytes": 3006433,
+      "sha256": "3d7045491672e056e83f3414bc92055d1cc55d7f787ef14e7a3dcb9643bb3ee4",
+      "seconds": 16.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720,
+          "nb_frames": "384",
+          "side_data_list": [
+            {}
+          ]
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "nb_frames": "752"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/systems-cases.html",
+      "bytes": 1259,
+      "sha256": "71f8bef491f3a6c934a704e4e30a065c7bb459d554ad1e8afe722715be9ecd07"
+    },
+    {
+      "file": "labs/visual-cases.html",
+      "bytes": 1373,
+      "sha256": "ae77b82e2163cd8e9ba00d98e1619a9c47d1648953e6a74fee23b4f316926c00"
+    },
+    {
+      "file": "labs/workflow-cases.html",
+      "bytes": 15857,
+      "sha256": "a8a0525208108feaa09a7577fc7c60ddc637f1efefce086b4acf7b70695c6a6c"
+    },
+    {
+      "file": "labs/workflow-radio/atlas-radio-01-offline.html",
+      "bytes": 1655030,
+      "sha256": "f03adf24e4c616b30f8445d1cc8b682659bb46f37afb90c9610205e64adcb956"
+    },
+    {
+      "file": "labs/workflow-radio/atlas-radio-01.mp3",
+      "bytes": 752367,
+      "sha256": "d048d3663a3380cb859058f179158abc83a5d69f274ca3b770ca61dbcf14bec3",
+      "seconds": 62.664,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ],
+      "decodeSample": "passed"
+    },
+    {
+      "file": "labs/workflow-radio/atlas-radio-01.webp",
+      "bytes": 123702,
+      "sha256": "45cefb35df32711f49bb1b47d91c06d239ba1fa6b5fba28e714a7ff1fa913e2f",
+      "width": 1200,
+      "height": 1200,
+      "frames": 1
+    },
+    {
+      "file": "labs/workflow-radio/atlas-radio-01.zip",
+      "bytes": 759259,
+      "sha256": "bf66947045df3dc5a672b734c0d22d34e03ab59df9c99af00ed77a6efb4043bd",
+      "archiveFiles": 5
+    }
+  ]
+}

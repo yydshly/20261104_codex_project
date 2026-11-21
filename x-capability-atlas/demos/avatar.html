@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>从参考照到角色头像</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f4f0fa; color: #232036; font: 15px/1.55 'Segoe UI', 'Microsoft YaHei', sans-serif; }
+    main { max-width: 1000px; margin: auto; display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: clamp(14px, 3vw, 28px); padding: clamp(14px, 3vw, 28px); }
+    .comparison { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; align-self: start; }
+    figure { margin: 0; min-width: 0; }
+    .portrait { display: grid; place-items: center; width: 100%; aspect-ratio: 1; border-radius: 8px; border: 1px solid #d8cce8; background: #ebe3f4; overflow: hidden; }
+    img { display: block; width: 100%; height: auto; }
+    [data-size='small'] img { width: 48px; height: 48px; border: 1px solid #c8b4dc; border-radius: 50%; }
+    figcaption { margin-top: 5px; font-size: .78rem; color: #5a516c; }
+    h1 { margin: 0 0 8px; font-size: clamp(1.3rem, 3.6vw, 2rem); line-height: 1.16; }
+    p { margin: 0 0 9px; }
+    .sizes { display: flex; gap: 5px; flex-wrap: wrap; margin: 12px 0; }
+    button { background: #fff; color: #332a44; border: 1px solid #cbbadf; border-radius: 6px; padding: 5px 9px; font: inherit; cursor: pointer; }
+    button[aria-pressed='true'] { background: #dfef9c; border-color: #adc45e; }
+    button:focus-visible { outline: 2px solid #6751aa; outline-offset: 3px; }
+    .note { font-size: .78rem; color: #5a516c; }
+    details { margin-top: 10px; font-size: .83rem; }
+    summary { color: #574292; font-weight: 700; cursor: pointer; }
+    details p { margin-top: 5px; }
+    @media(max-width: 600px) { main { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="comparison" data-size="large">
+      <figure><div class="portrait"><img src="media/portrait-reference.png" alt="虚构人物参考照：齐下巴侧分短发、深色圆眼镜、墨绿色上衣"></div><figcaption>输入 · ImageGen 生成的虚构人物参考照</figcaption></figure>
+      <figure><div class="portrait"><img src="media/portrait-avatar.png" alt="使用左侧参考照生成的 3D 卡通风头像"></div><figcaption>输出 · 使用参考照做风格转换</figcaption></figure>
+    </div>
+    <div>
+      <h1>从参考照到角色头像</h1>
+      <p>用左图作输入，要求保留人物特征，改成白底、头肩居中的 3D 动画风头像。</p>
+      <div class="sizes" role="group" aria-label="头像查看尺寸">
+        <button type="button" data-size="large" aria-pressed="true">看原尺寸构图</button>
+        <button type="button" data-size="small" aria-pressed="false">缩成 48px 头像</button>
+      </div>
+      <p>对照短发轮廓、圆眼镜和墨绿领口。缩小后再看哪些线索还能辨认。</p>
+      <p class="note">这组用内置 ImageGen 实际生成，人物为虚构。原帖作者发布的 GPT Image 2.5 样片另见第 02 条。</p>
+      <details><summary>生成约束</summary><p>固定身份、肤色、发型、眼镜、衣着和表情。改动三维卡通质感、主体比例与白底留白。正面头肩，1:1，柔光，微弱投影。</p></details>
+    </div>
+  </main>
+  <script>
+    const sizeButtons = [...document.querySelectorAll('button[data-size]')];
+    const comparison = document.querySelector('.comparison');
+    for (const button of sizeButtons) button.addEventListener('click', () => {
+      comparison.dataset.size = button.dataset.size;
+      for (const option of sizeButtons) option.setAttribute('aria-pressed', String(option === button));
+    });
+  </script>
+  <script src="frame-size.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="运行一组带来源的摘要检查，修正并重跑失败项，生成可回查的本地简报。">
+  <title>三条素材怎样变成可听简报</title>
+  <link rel="stylesheet" href="workflow.css">
+  <script src="workflow.js" defer></script>
+</head>
+<body>
+  <main class="lab">
+    <header class="lab-head">
+      <p class="overline">WORKFLOW LAB <span>·</span> 浏览器实作</p>
+      <h1>三条素材怎样变成可听简报</h1>
+      <p>用本页的真实来源链接与人工整理的摘记，跑一遍核验流程。先观察哪条被拦下，再修复失败项。代码在浏览器里逐项执行，不调用模型或外部服务。</p>
+    </header>
+
+    <ol class="pipeline" aria-label="简报制作流程">
+      <li><span>01</span> 来源与样稿</li>
+      <li><span>02</span> 校验与重跑</li>
+      <li><span>03</span> 简报与朗读</li>
+    </ol>
+
+    <section class="workbench" aria-labelledby="workbench-title">
+      <div class="bench-head">
+        <div>
+          <h2 id="workbench-title">核验工作台</h2>
+          <p>三条样稿里预置了一条故意写错的自动化描述。</p>
+        </div>
+        <label class="policy">校验规则
+          <select id="policy">
+            <option value="strict">检查链接和来源摘记</option>
+            <option value="links">仅检查链接格式</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="records" id="records"></div>
+
+      <div class="bench-actions">
+        <button type="button" class="primary" id="check-all">检查全部</button>
+        <button type="button" id="fix" disabled>修正错误样稿</button>
+        <button type="button" id="retry" disabled>仅重跑失败项</button>
+        <button type="button" id="reset" class="plain">重置实验</button>
+      </div>
+      <p class="bench-status" id="status" role="status">待运行。每次检查会单独记录每条素材的次数。</p>
+    </section>
+
+    <section class="brief" aria-labelledby="brief-title">
+      <div class="brief-head">
+        <div>
+          <h2 id="brief-title">本地简报</h2>
+          <p>三条通过完整检查后，才能组装阅读版和朗读章节。</p>
+        </div>
+        <button type="button" id="assemble" class="primary" disabled>组装简报</button>
+      </div>
+      <div id="brief-body" hidden>
+        <div class="chapters" id="chapters" role="group" aria-label="选择简报章节"></div>
+        <div id="chapter"></div>
+        <div class="audio-tools">
+          <button type="button" id="speak">朗读本章</button>
+          <button type="button" id="stop" disabled>停止朗读</button>
+          <audio id="chapter-audio" preload="none"></audio>
+          <p id="audio-status" role="status">已附对应章节的中文朗读音频。</p>
+        </div>
+      </div>
+    </section>
+
+    <details class="method">
+      <summary>这个实验实际运行了什么？</summary>
+      <p>脚本先检查是否为 HTTPS 来源，再把样稿中的证据句和本地来源摘记做一致性匹配。改成「仅检查链接格式」时，错误描述也会放行，因此这种结果不能组装简报。修复后只重跑上一轮未通过的记录，成功项检查次数保持不变。原网页需要联网访问，本页不发请求校验在线内容。</p>
+    </details>
+    <noscript><p>启用 JavaScript 后可运行校验与简报实验。</p></noscript>
+  </main>
+
+  <template id="record-template">
+    <article class="record">
+      <div class="record-heading">
+        <span class="record-number"></span>
+        <h3></h3>
+        <span class="record-state"></span>
+      </div>
+      <p class="draft"></p>
+      <div class="record-meta"><span class="checks"></span><a class="record-source" target="_blank" rel="noopener noreferrer"></a></div>
+      <details class="trace">
+        <summary>查看校验依据</summary>
+        <p><strong>待核对的证据句</strong><span class="evidence"></span></p>
+        <p><strong>本地来源摘记</strong><span class="note"></span></p>
+        <p class="reason"></p>
+      </details>
+    </article>
+  </template>
+  <script src="frame-size.js"></script>
+</body>
+</html>

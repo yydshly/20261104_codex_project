@@ -1,0 +1,24 @@
+{
+  "name": "atlas-stoma-3d",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build --base=./ --outDir viewer",
+    "render": "remotion render src/film.jsx StomaLesson ../stoma-media/stoma-lesson.mp4 --gl=swangle --concurrency=2",
+    "still": "remotion still src/film.jsx StomaLesson ../stoma-media/stoma-lesson.jpg --frame=160 --gl=swangle",
+    "still:before": "remotion still src/film.jsx StomaBaseline ../stoma-media/stoma-v1-frame.jpg --frame=160 --gl=swangle"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.4.0",
+    "@remotion/three": "4.0.541",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.541",
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "@remotion/cli": "4.0.541",
+    "vite": "7.1.2"
+  }
+}

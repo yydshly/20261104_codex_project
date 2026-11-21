@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "source": {
+    "name": "银河旋臂与镜头",
+    "kind": "handoff-report",
+    "url": "https://x.com/0xAIlabs/status/2118379258607251490"
+  },
+  "literalMatch": true,
+  "location": {
+    "startLine": 1,
+    "endLine": 1,
+    "sourceExcerpt": "Lyren 公开了四条对数旋臂、分层粒子和镜头路线的制作提示词。"
+  },
+  "matches": [
+    {
+      "startLine": 1,
+      "endLine": 1,
+      "sourceExcerpt": "Lyren 公开了四条对数旋臂、分层粒子和镜头路线的制作提示词。"
+    }
+  ],
+  "selectedLocation": {
+    "startLine": 1,
+    "endLine": 1,
+    "sourceExcerpt": "Lyren 公开了四条对数旋臂、分层粒子和镜头路线的制作提示词。"
+  },
+  "context": [
+    {
+      "line": 1,
+      "text": "Lyren 公开了四条对数旋臂、分层粒子和镜头路线的制作提示词。"
+    }
+  ],
+  "claim": "分开控制结构参数和镜头路线，验证哪一种改变了画面。",
+  "quote": "Lyren 公开了四条对数旋臂、分层粒子和镜头路线的制作提示词。",
+  "manualReview": "已登记为支持结论",
+  "reviewStatus": "supported",
+  "reviewNote": "可分开控制旋臂结构和镜头参数，本次已实际生成双栏图。",
+  "scope": "在第 12 条报告附带的摘录中匹配连续字串，统一 Unicode NFKC 和连续空白，行号按摘录编号。来源身份和结论支持度由使用者判断。"
+}

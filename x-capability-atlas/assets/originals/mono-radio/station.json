@@ -1,0 +1,32 @@
+{
+  "format": "myradio/station-1",
+  "name": "ものラジオ",
+  "description": "電子工作・3Dプリンター・AI の、きのうの気になるニュースを、毎朝 90 秒で。",
+  "tagline": "AI・3D 朝のニュース",
+  "url": "https://monoradio102.github.io/myradio/",
+  "repo": "https://github.com/monoradio102/myradio",
+  "language": "ja",
+  "languages": [
+    "ja"
+  ],
+  "schedule": {
+    "every": "day",
+    "time": "06:10",
+    "timezone": "Asia/Tokyo"
+  },
+  "episodes": "episodes.json",
+  "character": {
+    "pack": "character/character.json",
+    "thumbnail": "character/base.png",
+    "note": "AIで生成したキャラクターです"
+  },
+  "credits": [
+    "声：COEIROINK:リリンちゃん",
+    "原番組：ものラジオ／monoradio102"
+  ],
+  "caster": "声：COEIROINK:リリンちゃん",
+  "audio": {
+    "dir": "audio",
+    "keep_days": 30
+  }
+}

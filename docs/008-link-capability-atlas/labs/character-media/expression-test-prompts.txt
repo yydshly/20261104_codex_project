@@ -1,0 +1,45 @@
+小镜 · 同一参考图的表情与动作
+参考素材：xiaojing.png（小镜原图，1254 × 1254）。
+测试方法：每个请求独立附上同一原图，不把前一个生成结果作为后一个请求的输入。
+
+静态表情 · 共用约束
+Edit the attached portrait of Xiaojing. Keep the same character identity, face shape and proportions, skin tone, brown eyes, exact purple round glasses, asymmetrical deep teal bob, lime rectangular hair clip on the viewer's right, teal high collar and lime ring. Keep the square framing, camera, lighting, illustration style and transparent background. Change only the face muscles needed for the expression. Do not add other props or symbols.
+
+微笑：A small natural closed-mouth smile. Lift the corners of the mouth and cheeks gently. Let the eyes soften; keep the glasses, head position and framing unchanged.
+惊讶：A friendly, moderately surprised expression. Raise the eyebrows, open the eyes slightly wider, and part the lips into a small round O. Avoid exaggerating or lengthening the jaw.
+担忧：A quiet, empathetic look of concern. Raise the inner eyebrows a little, soften the eyes and turn the corners of the closed lips slightly down. Keep the gaze steady.
+
+动作 · 共用约束
+Animate the attached original portrait as a native multi-frame GIF. Preserve Xiaojing's face, exact glasses, pupils, hair clip, collar, framing, color, lighting, and the attached image's background. Fixed camera and shoulders. Use consistent drawing across frames. Use the same neutral open-eyed pose at both endpoints; blend smoothly back into the start. No subtitles, borders, contact sheet, or unrelated movement.
+
+眨眼：One natural blink. Hold the starting pose, close both eyelids gently and together, briefly pause, open them again and return to the starting pose. Move the eyelids only; the frames of the glasses, jaw, hair and collar should remain stationary.
+点头：One subtle listening nod. Ease the head slightly down and back to the original pose. The eyes, glasses and hair clip travel together with the head. Keep the shoulders and collar fixed, and avoid deformation or change in expression.
+
+备选 API 参数（本次未调用）
+建议使用 gpt-image-2.6-sunburst、output_format=gif、frame_count=16。
+眨眼：frame_duration_ms=120。点头：frame_duration_ms=150。
+文档：https://developers.openai.com/api/docs/guides/image-generation#generate-animated-gif-output
+
+分镜版 · 模型分镜 + GIF 编码
+在每个动作提示中附同一张 xiaojing.png。要求模型绘制严格 3 列 × 2 行、每格同机位同构图的六格分镜，从左到右、从上到下。保持镜框、发夹、眼睛、斜刘海、衣领和角色比例，不加文字、格线或外边框。
+眨眼顺序：睁眼 → 约三分之一合眼 → 约四分之三合眼 → 闭眼 → 半开 → 接近睁眼。
+点头顺序：中性 → 开始低头 → 一半 → 最低 → 回正中 → 接近中性。
+实际交付文件为 xiaojing-blink-generated.gif、xiaojing-nod-generated.gif；对应分镜文件保留原始生成像素。
+encode-xiaojing-sheet.ps1 用 FFmpeg 按格裁出六帧、设置每帧时长和 GIF 调色板。没有重画、补帧、配准或强制让末帧复制首帧。该入口未提供生成模型的具体 API 型号。
+
+首尾核对
+将每支 GIF 解码成完整画面，比较末帧和首帧。现有两个本地版本的首尾分别像素完全一致。
+模型分镜版：眨眼 6 帧、1.84 秒；点头 6 帧、2.08 秒；均为 512 × 512、无限循环。首尾都不完全一致；点头的变化范围更大。这个核对描述接缝，不代表角色相似度分数。
+
+原生 GIF 实测 · 2026-11-09
+在 ChatGPT Images 即时模式中分别上传同一张 xiaojing.png，从 GIF 查看器下载文件。馆内文件与下载原件的 SHA-256 一致。界面未显示具体 API 子型号。
+
+眨眼提示
+用 ChatGPT Images 的「创建 GIF」功能，把这张小镜原图做成约两秒的循环眨眼 GIF。只有双眼的眼睑运动一次，双眼合上再自然打开，首尾姿态一致。镜头、脸型、紫色圆框眼镜、青色斜刘海、右侧绿色发夹、肩颈和光线保持原样。请直接生成可下载的多帧 GIF。如果此对话没有原生 GIF 工具，告诉我即可，不用静态图片或程序合成。
+
+点头提示
+用 ChatGPT Images 的「创建 GIF」功能，把这张小镜原图做成约两秒半的循环点头 GIF。像听懂了对方说话一样，先保持原姿势，平缓低头一次，稍停，然后平缓抬回原姿势，首尾完全一致。固定机位和构图，肩颈和衣领留在原位。紫色圆框眼镜、右侧绿色发夹、青色斜刘海和五官随头部自然一起动，保持脸型、角色比例、光线和底色。不要眨眼、说话或左右晃。请直接生成可下载的多帧 GIF。如果此对话没有原生 GIF 工具，告诉我即可，不用静态图片或程序合成。
+
+原生眨眼：xiaojing-blink-native.gif，357 × 357，12 帧，2.04 秒。首尾 RGB 通道的绝对差平均为 9.49（每通道 0–255）。帧间最大差异出现在循环接缝。
+原生点头：xiaojing-nod-native.gif，356 × 358，12 帧，2.52 秒。选首尾平均 RGB 差为 5.41 的第 2 个候选，第 1 个候选为 15.40。选中版的最大帧间差异出现在抬回时。
+两个原生 GIF 均为无限循环且有 12 个不同画面。首尾差比较包含背景、构图和颜色变化，只用于定位跳变。

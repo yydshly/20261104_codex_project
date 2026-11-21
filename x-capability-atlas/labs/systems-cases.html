@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>工作系统实验 · 能力图鉴</title>
+  <link rel="stylesheet" href="systems-cases.css?v=4">
+  <script src="systems-cases.js?v=6" defer></script>
+</head>
+<body>
+  <main class="page">
+    <header class="workspace-bar">
+      <div class="workspace-id"><span aria-hidden="true" class="workspace-mark">A</span><strong>图鉴工作台</strong></div>
+      <a class="back" id="back" target="_top">返回案例资料 ↗</a>
+    </header>
+    <section class="workspace-heading" aria-labelledby="title">
+      <div>
+        <p class="kicker" id="kicker"></p>
+        <h1 id="title"></h1>
+        <p class="intro" id="intro"></p>
+      </div>
+      <dl class="workspace-meta">
+        <div><dt>可交付文件</dt><dd id="deliverable"></dd></div>
+        <div><dt>数据位置</dt><dd id="data-location">当前浏览器页面</dd></div>
+      </dl>
+    </section>
+    <div id="experiment"></div>
+    <details class="sources">
+      <summary>实现原理与参考来源</summary>
+      <p id="principle"></p>
+      <p id="adaptation"></p>
+      <div id="source-links"></div>
+    </details>
+  </main>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "server": "mcp-for-blender",
+  "serverVersion": "2.2.7",
+  "tool": "execute_blender_code",
+  "blender": "4.5.14 LTS",
+  "measurement": "Inner edge separation at the midpoint, in model coordinates.",
+  "before": {
+    "name": "stoma-v1.glb",
+    "sha256": "1a507125a12d5b4cd79b5cf9c5288da1d74609472cae0c26605e8113e7785303",
+    "openWidth": 0.662
+  },
+  "after": {
+    "name": "stoma-v2.glb",
+    "sha256": "75005c3b19ace3e17a82636fa3b2e65fb912ac050e9a27c8edd78a95dbf85750",
+    "openWidth": 1.082
+  }
+}

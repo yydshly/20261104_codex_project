@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f6ef">
+  <title>拼贴 B-roll 剪辑台 · 能力图鉴</title>
+  <link rel="icon" href="../assets/mark.svg" type="image/svg+xml">
+  <style>
+    :root { color-scheme: light; font-family: system-ui, "Microsoft YaHei", sans-serif; color: #231e32; background: #f7f6ef; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main { width: min(100% - 32px, 1080px); margin: 0 auto; padding: 24px 0 52px; }
+    a { color: #4b3781; text-underline-offset: 4px; }
+    h1 { margin: 7px 0 10px; font-size: clamp(2rem, 4.7vw, 3.4rem); line-height: 1.12; letter-spacing: -.045em; }
+    h2 { font-size: 1.25rem; margin: 0 0 12px; }
+    p { line-height: 1.65; margin: 0; }
+    .kicker { margin-top: 20px; color: #614c8d; font-size: .8rem; letter-spacing: .08em; font-weight: 800; }
+    .intro { max-width: 780px; margin-bottom: 20px; color: #50485c; }
+    .workspace { display: grid; grid-template-columns: minmax(230px, 1fr) minmax(0, 1.16fr); gap: 16px; align-items: start; }
+    .preview { margin: 0; border-radius: 18px; background: #241d36; color: #f9f4ff; padding: 15px; }
+    .preview svg { width: min(100%, 275px); height: auto; display: block; margin: 0 auto; border-radius: 10px; }
+    .preview figcaption { margin-top: 12px; font-size: .82rem; line-height: 1.5; }
+    .controls, .source { border: 1px solid #d9d2e6; background: #fdfbf8; border-radius: 18px; padding: 16px 20px; }
+    .controls p, .source p { color: #4f455f; }
+    .mode { border: 0; padding: 0; margin: 14px 0 10px; }
+    .mode legend, .time-head { font-size: .88rem; font-weight: 800; margin-bottom: 6px; }
+    .row { display: flex; flex-wrap: wrap; gap: 6px; }
+    button { background: #f6f2fc; color: #2c2041; border: 1px solid #c7bdd9; border-radius: 7px; padding: 7px 10px; font: inherit; cursor: pointer; }
+    button:hover { border-color: #6d568d; }
+    button[aria-pressed="true"], #play { background: #dbeaa2; border-color: #a0ac68; }
+    button:focus-visible, input:focus-visible, a:focus-visible { outline: 2px solid #6e4aad; outline-offset: 3px; }
+    .time-head { display: flex; justify-content: space-between; gap: 5px; margin: 12px 0 4px; }
+    output { color: #60428b; font-variant-numeric: tabular-nums; }
+    #timeline { width: 100%; height: 26px; accent-color: #6f53a0; }
+    .transport { margin: 6px 0 14px; }
+    .layers { list-style: none; display: grid; gap: 4px; padding: 0; margin: 9px 0 0; }
+    .layer { display: grid; grid-template-columns: 12px minmax(0, 1fr) auto; gap: 8px; align-items: center; padding: 6px 8px; background: #f3eef7; border-radius: 7px; font-size: .84rem; }
+    .layer[data-phase="active"] { background: #eae2fa; }
+    .layer[data-phase="done"] { background: #eef0dc; }
+    .layer span:first-child { border-radius: 50%; width: 9px; height: 9px; background: var(--dot); border: 1px solid #534661; }
+    .layer span:last-child { font-size: .78rem; color: #514563; }
+    .source { margin-top: 16px; }
+    .source p + p { margin-top: 8px; }
+    .delivery { margin: 0 0 16px; display: grid; grid-template-columns: minmax(210px, 292px) minmax(0, 1fr); gap: 22px; align-items: start; }
+    .cut-player { min-width: 0; display: grid; gap: 10px; padding: 11px; border-radius: 13px; background: #241d36; color: #f9f4ff; }
+    .cut-player video { display: block; width: min(100%, 218px); aspect-ratio: 9 / 16; background: #2d467b; border-radius: 8px; margin: 0 auto; }
+    .cut-player .row { gap: 5px; }
+    .cut-player button { flex: 1; padding-inline: 6px; font-size: .82rem; font-weight: 700; white-space: nowrap; }
+    .cut-player p { color: #e5d9f4; font-size: .76rem; }
+    .delivery h2 { margin-bottom: 4px; }
+    .delivery .row.downloads { margin-top: 12px; }
+    .delivery a { display: inline-block; padding: 7px 10px; border: 1px solid #d8cae5; border-radius: 7px; background: #f3eef7; font-size: .86rem; font-weight: 700; text-decoration: none; }
+    .delivery a:hover { text-decoration: underline; }
+    .delivery .spec { font-size: .78rem; margin-top: 6px; }
+    .cuts { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 5px; }
+    .cuts button { display: grid; grid-template-columns: 2.1rem minmax(0, 1fr); text-align: left; align-items: baseline; column-gap: 6px; width: 100%; padding: 7px 9px; font-size: .84rem; background: #faf7fc; }
+    .cuts button[aria-current="true"] { border-color: #7660a1; background: #efe8fa; }
+    .cuts time { color: #60428b; font: 740 .77rem ui-monospace, monospace; }
+    .cut-copy { min-width: 0; }
+    .cut-copy small { display: block; color: #514563; font-size: .75rem; margin-top: 2px; }
+    .edit-showcase { grid-template-columns: minmax(0, 1.42fr) minmax(245px, 1fr); background: #f1f4e8; border-color: #ccd7bf; }
+    .edit-showcase .cut-player { background: #192926; }
+    .edit-showcase .cut-player video { width: min(100%, 236px); }
+    .edit-showcase .cut-player video[data-version="ab"] { width: 100%; aspect-ratio: 4 / 3; background: #132521; }
+    .edit-showcase .cut-player p { color: #dfe8da; }
+    .edit-overline { margin-bottom: 4px; color: #536a4b !important; font: 740 .72rem/1.4 ui-monospace, monospace; letter-spacing: .07em; }
+    .edit-showcase .cuts button { background: #f8f9f3; border-color: #d2d7c7; }
+    .edit-showcase .cuts button[aria-current="true"] { background: #e2ebd4; border-color: #80986b; }
+    .edit-showcase .cuts time { color: #4b6642; }
+    .edit-showcase .downloads a { background: #e7efdc; border-color: #c7d4bb; color: #324d31; }
+    .edit-showcase .downloads a:first-child { background: #d8e9b8; border-color: #afc68a; }
+    .edit-notes { margin: 11px 0 0; padding: 8px 10px; border-left: 3px solid #819c74; background: #e8efdc; font-size: .82rem; }
+    .delivery h3 { margin: 15px 0 4px; font-size: .92rem; }
+    .delivery h3 + .row.downloads { margin-top: 6px; }
+    .native-compare { display: block; width: 100%; aspect-ratio: 9 / 8; border-radius: 9px; background: #263e72; }
+    .workspace-title { margin-top: 22px; }
+    @media (max-width: 660px) { main { width: min(100% - 22px, 1080px); padding-top: 14px; } .workspace { grid-template-columns: 1fr; } .preview svg { width: min(100%, 210px); } .controls, .source { padding: 13px; } .delivery { gap: 14px; } }
+    @media (max-width: 580px) { .delivery { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+<main>
+  <a href="../index.html#case-01">← 返回能力图鉴 01</a>
+  <p class="kicker">镜头素材 01 / 拼贴 B-roll</p>
+  <h1>把巡检异常拆成三步</h1>
+  <p class="intro">沿用第 04 条的温室巡检车，剪出一条竖屏口播。旁白说到处理步骤时，让拼贴接过画面。</p>
+  <section class="controls delivery edit-showcase" aria-labelledby="edit-heading">
+    <div class="cut-player">
+      <video id="collage-edit" data-version="ab" controls playsinline preload="metadata" poster="collage-media/compare-ab.jpg" src="collage-media/compare-ab.mp4" aria-label="口播剪辑同屏对照，带中文旁白">也可以用下载链接打开视频。</video>
+      <div class="row" role="group" aria-label="剪辑版本">
+        <button type="button" data-edit-version="ab" aria-controls="collage-edit" aria-pressed="true">同屏对照</button>
+        <button type="button" data-edit-version="ar" aria-controls="collage-edit" aria-pressed="false">只看主画面</button>
+        <button type="button" data-edit-version="br" aria-controls="collage-edit" aria-pressed="false">只看拼贴版</button>
+      </div>
+      <p id="collage-edit-status" role="status">左边是巡检车跟拍，右边在第 3–8 秒插入拼贴。两边共用一条旁白。</p>
+    </div>
+    <div>
+      <p class="edit-overline">成片 / 11 秒 · 有声</p>
+      <h2 id="edit-heading">同一句口播，两种剪法</h2>
+      <p>播放同屏版，听同一句旁白如何落在不同画面上。也可以保持当前时间，切到单支竖屏成片看细节。</p>
+      <p class="edit-notes">在第 6.04 秒，左边延续巡检现场，右边用三张纸卡把“拆成三步”变成能辨认的画面。</p>
+      <ol class="cuts" aria-label="成片的三个剪辑点">
+        <li><button type="button" data-edit-seek="0" aria-controls="collage-edit"><time datetime="PT0S">0.00</time><span class="cut-copy"><strong>发现异常</strong><small>飞越温室，交代巡检场景。</small></span></button></li>
+        <li><button type="button" data-edit-seek="6.04" data-start="3" aria-controls="collage-edit"><time datetime="PT3S">3.00</time><span class="cut-copy"><strong>拆解处理步骤</strong><small>配画从 3 秒入场。点此跳到 6.04 秒对照。</small></span></button></li>
+        <li><button type="button" data-edit-seek="8" aria-controls="collage-edit"><time datetime="PT8S">8.00</time><span class="cut-copy"><strong>留证与复核</strong><small>回到巡检车，收住这段口播。</small></span></button></li>
+      </ol>
+      <div class="row downloads">
+        <a href="collage-media/compare-ab.mp4" download>下载同屏版 MP4</a>
+        <a href="collage-media/compare-br.mp4" download>下载拼贴剪辑版 MP4</a>
+        <a href="collage-media/compare-ar.mp4" download>下载主画面版 MP4</a>
+      </div>
+      <p class="spec">同屏 1440 × 1080 · 单版 720 × 1280 · 24 fps · 原创画面与合成中文旁白</p>
+      <h3>继续剪辑或校对</h3>
+      <div class="row downloads">
+        <a href="workflow-cases.html?case=07&amp;project=collage" target="_blank" rel="noopener">在字幕台继续 ↗</a>
+        <a href="collage-media/compare-br-clean.mp4" download>无内嵌字幕 MP4</a>
+        <a href="collage-media/compare.zh.vtt" download>时间码 VTT</a>
+        <a href="collage-media/compare-voice.m4a" download>旁白 M4A</a>
+      </div>
+    </div>
+  </section>
+  <section class="controls delivery edit-showcase" aria-labelledby="native-heading">
+    <div>
+      <video class="native-compare" controls playsinline preload="metadata" src="collage-media/collage-native-compare.mp4" poster="collage-media/collage-native-compare.jpg" aria-label="同一句旁白的分层版与模型生成版配画对照"></video>
+      <p class="spec">左侧分层动画，右侧 ChatGPT Images 原生生成。共用一条旁白。</p>
+    </div>
+    <div>
+      <p class="edit-overline">补充实测 / 同一句旁白 · 5 秒</p>
+      <h2 id="native-heading">让模型画出纸片入场</h2>
+      <p>把本站的完成构图作为参考，让模型从空纸面开始生成。问号先出现，三张任务卡随后落位，最后盖章。</p>
+      <p class="edit-notes">模型版保住了配色与构图，纸片有回弹。三张卡实际接近同时入场，步骤顺序以左侧更清楚。原始 GIF 为 267 × 478、12 帧，放大后能看到细节与运动的精度限制。</p>
+      <div class="row downloads"><a href="collage-media/collage-native-compare.mp4" download>下载有声对照 MP4</a><a href="collage-media/collage-native-narrated.mp4" download>下载生成配画口播 MP4</a><a href="collage-media/collage-native.gif" download>下载原生 GIF</a></div>
+      <p class="spec">GIF 原件 3.96 秒。配音版将结尾停留延长到 5 秒，与已有旁白对齐。</p>
+    </div>
+  </section>
+  <section class="controls delivery" aria-labelledby="delivery-heading">
+    <div class="cut-player">
+      <video id="collage-cut" controls playsinline preload="auto" poster="collage-media/cover.jpg" src="collage-media/collage-narrated.mp4" aria-label="口播成片">也可以用下方的 MP4 链接打开视频。</video>
+      <div class="row" role="group" aria-label="播放版本">
+        <button type="button" data-cut-version="narrated" aria-controls="collage-cut" aria-pressed="true">口播成片</button>
+        <button type="button" data-cut-version="clean" aria-controls="collage-cut" aria-pressed="false">无声配画</button>
+      </div>
+      <p id="collage-media-status" role="status">中文旁白与字幕已合入视频。</p>
+    </div>
+    <div>
+      <h2 id="delivery-heading">五秒配画原件</h2>
+      <p>点任一段定位画面。两版构图与时长相同，无声配画可放到自己的口播音轨上。</p>
+      <ol class="cuts" aria-label="镜头段落">
+        <li><button type="button" data-cut-seek="0" aria-controls="collage-cut"><time datetime="PT0S">0.00</time><span class="cut-copy"><strong>先找出问题</strong><small>旁白 0.30–1.55 秒。问号纸片先落位，分支接在后面。</small></span></button></li>
+        <li><button type="button" data-cut-seek="1.66" aria-controls="collage-cut"><time datetime="PT1.66S">1.66</time><span class="cut-copy"><strong>再拆成三步</strong><small>旁白 1.66–3.10 秒。放大镜、清单、图表依次落位。</small></span></button></li>
+        <li><button type="button" data-cut-seek="3.26" aria-controls="collage-cut"><time datetime="PT3.26S">3.26</time><span class="cut-copy"><strong>逐项完成</strong><small>旁白 3.26–4.80 秒。印章约 3.75 秒落稳，画面留到片尾。</small></span></button></li>
+      </ol>
+      <div class="row downloads">
+        <a href="collage-media/collage-narrated.mp4" download>下载口播成片 MP4</a>
+        <a href="collage-media/collage-clean.mp4" download>下载无声配画 MP4</a>
+      </div>
+      <p class="spec">5 秒 · 720 × 1280 · 24 fps · 原创拼贴与合成中文旁白</p>
+    </div>
+  </section>
+  <h2 class="workspace-title">拆开成片看</h2>
+  <div class="workspace">
+    <figure class="preview">
+      <svg id="board" viewBox="0 0 360 640" role="img" aria-labelledby="board-title">
+        <title id="board-title">深蓝纸面上的问题、分支、三张任务卡和完成印章</title>
+        <defs>
+          <pattern id="grain" width="7" height="7" patternUnits="userSpaceOnUse">
+            <circle cx="1.1" cy="1.4" r=".65" fill="#fff4d7" opacity=".19"/>
+            <circle cx="5.4" cy="4.3" r=".45" fill="#15182e" opacity=".48"/>
+          </pattern>
+          <pattern id="halftone" width="5" height="5" patternUnits="userSpaceOnUse">
+            <circle cx="2.5" cy="2.5" r="1.3" fill="#eee6d1" opacity=".58"/>
+          </pattern>
+          <filter id="paper-shadow" x="-20%" y="-20%" width="140%" height="150%">
+            <feDropShadow dx="2" dy="5" stdDeviation="2" flood-color="#15182e" flood-opacity=".55"/>
+          </filter>
+        </defs>
+        <rect width="360" height="640" fill="#2d467b"/>
+        <rect width="360" height="640" fill="url(#grain)"/>
+        <g id="problem" filter="url(#paper-shadow)">
+          <path d="M103 105 218 90 235 185 119 201Z" fill="#b9ceef" stroke="#f8edce" stroke-width="3"/>
+          <path d="M118 95 240 106 227 201 107 187Z" fill="#e1a67e" stroke="#f8edce" stroke-width="3"/>
+          <path d="M116 115 235 111 239 201 111 206 108 191 114 175 109 152Z" fill="#242634" stroke="#f8edce" stroke-width="4"/>
+          <path d="M119 122 229 117 231 194 119 199Z" fill="url(#halftone)"/>
+          <path d="M156 147c4-19 42-22 47-1 5 21-23 17-22 36" stroke="#fff4d9" stroke-width="11" stroke-linecap="round" fill="none"/>
+          <circle cx="181" cy="190" r="5.3" fill="#fff4d9"/>
+          <path d="m91 119-13-17m183 36 15-10m-20 42 19 3" fill="none" stroke="#e9c58d" stroke-width="3" stroke-linecap="round"/>
+        </g>
+        <g id="branches" filter="url(#paper-shadow)">
+          <path d="M176 207h13v36l65 30 19 36-10 7-17-34-57-25v55h-13v-54l-66 29-14 29-12-6 18-34 74-33Z" fill="#fbefce"/>
+          <circle cx="182" cy="250" r="7" fill="#e5b880"/>
+        </g>
+        <g id="task-a" filter="url(#paper-shadow)">
+          <path d="M43 326 112 316 122 410 47 415 41 402Z" fill="#f3cd83" stroke="#fff0cc" stroke-width="3"/>
+          <path d="M43 326 112 316 122 410 47 415 41 402Z" fill="url(#grain)"/>
+          <circle cx="80" cy="359" r="14" fill="none" stroke="#49383b" stroke-width="4"/>
+          <path d="m90 370 11 12m-37 13 31-4" fill="none" stroke="#49383b" stroke-width="4" stroke-linecap="round"/>
+        </g>
+        <g id="task-b" filter="url(#paper-shadow)">
+          <path d="m143 318 72 2 1 93-75-3-3-17 4-21Z" fill="#b4c99c" stroke="#fff0cc" stroke-width="3"/>
+          <path d="m143 318 72 2 1 93-75-3-3-17 4-21Z" fill="url(#grain)"/>
+          <path d="M159 349h40m-40 14h40m-40 14h29m-29 14h34" fill="none" stroke="#33443d" stroke-width="4" stroke-linecap="round"/>
+        </g>
+        <g id="task-c" filter="url(#paper-shadow)">
+          <path d="m243 318 76 9-9 89-75-8 4-17-2-15Z" fill="#d69278" stroke="#fff0cc" stroke-width="3"/>
+          <path d="m243 318 76 9-9 89-75-8 4-17-2-15Z" fill="url(#grain)"/>
+          <path d="M257 384v-21m14 21v-32m14 32v-15m14 15v-39m-43 47h44" fill="none" stroke="#533637" stroke-width="4" stroke-linecap="round"/>
+        </g>
+        <g id="seal" filter="url(#paper-shadow)">
+          <path d="m180 447 11 8 14-1 5 12 12 7-2 13 6 12-9 10-1 14-14 3-10 9-12-4-12 4-10-9-14-3-1-14-9-10 6-12-2-13 12-7 5-12 14 1Z" fill="#a7c5ec" stroke="#fff0cc" stroke-width="4"/>
+          <circle cx="180" cy="491" r="29" fill="url(#halftone)" stroke="#3e5682" stroke-width="2"/>
+          <path d="m163 492 11 11 22-24" fill="none" stroke="#26394f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="m130 469-14-11m115 11 13-10m-94 79-8 11m68-11 8 11" fill="none" stroke="#e9c58d" stroke-width="3" stroke-linecap="round"/>
+        </g>
+      </svg>
+      <figcaption>原创 9∶16 矢量画面 · 深蓝纸面、暖白裁边、网点和阴影分层制作。</figcaption>
+    </figure>
+    <section class="controls" aria-labelledby="explore-heading">
+      <h2 id="explore-heading">观察入场顺序</h2>
+      <p>先看完成构图。播放时回到空场，同一批纸片可依次落位，也可同时进入。拖到 1.5 秒对照两种顺序，看看此时是否读得出「先发现问题，再拆成三步」。</p>
+      <fieldset class="mode">
+        <legend>入场方式</legend>
+        <div class="row">
+          <button type="button" data-mode="sequence" aria-pressed="true">依次落位</button>
+          <button type="button" data-mode="together" aria-pressed="false">同时入场</button>
+        </div>
+      </fieldset>
+      <div class="time-head"><label for="timeline">时间轴</label><output id="time" for="timeline">5.00 / 5.00 秒</output></div>
+      <input type="range" id="timeline" min="0" max="5" step="0.01" value="5">
+      <div class="row transport">
+        <button type="button" id="play">从头播放</button>
+        <button type="button" data-seek="0">空场</button>
+        <button type="button" data-seek="1.5">组装中</button>
+        <button type="button" data-seek="5">完成帧</button>
+      </div>
+      <h2>画面分层</h2>
+      <ol class="layers">
+        <li class="layer" data-layer="paper" style="--dot:#2d467b"><span aria-hidden="true"></span><strong>底纸 · 保持构图</strong><span>固定</span></li>
+        <li class="layer" data-layer="problem" style="--dot:#242634"><span aria-hidden="true"></span><strong>问号纸片 · 提出问题</strong><span></span></li>
+        <li class="layer" data-layer="branches" style="--dot:#fbefce"><span aria-hidden="true"></span><strong>分支纸条 · 拆出路径</strong><span></span></li>
+        <li class="layer" data-layer="task-a" style="--dot:#f3cd83"><span aria-hidden="true"></span><strong>放大镜 · 查证据</strong><span></span></li>
+        <li class="layer" data-layer="task-b" style="--dot:#b4c99c"><span aria-hidden="true"></span><strong>清单 · 列步骤</strong><span></span></li>
+        <li class="layer" data-layer="task-c" style="--dot:#d69278"><span aria-hidden="true"></span><strong>图表 · 看结果</strong><span></span></li>
+        <li class="layer" data-layer="seal" style="--dot:#a7c5ec"><span aria-hidden="true"></span><strong>印章 · 完成落位</strong><span></span></li>
+      </ol>
+    </section>
+  </div>
+  <section class="source" aria-labelledby="source-heading">
+    <h2 id="source-heading">参考实现与本页适配</h2>
+    <p>公开 Skill 先确认一句口播的视觉隐喻，再用 image_gen 生成尾帧。首帧是同底色的空纸面。Python 将两张图和动作提示交给 Gemini Omni Flash 生成中间画面，随后用 FFmpeg 去音轨、抽帧和核对最终落位。<a href="https://github.com/pyang5166/gbro-collage-broll/blob/main/SKILL.md#L236-L274" target="_blank" rel="noreferrer">首尾帧规范</a> · <a href="https://github.com/pyang5166/gbro-collage-broll/blob/main/scripts/generate_video.py#L164-L227" target="_blank" rel="noreferrer">模型调用</a> · <a href="https://github.com/pyang5166/gbro-collage-broll/blob/main/SKILL.md#L314-L349" target="_blank" rel="noreferrer">去音轨与质检</a></p>
+    <p>第 01 条原帖另称四支样片由 Codex 直接调用 Image 2.6 生成。OpenAI 公开说明该版本支持 GIF，帖文未披露具体生成参数。<a href="https://x.com/gbroai/status/2118360718554894395" target="_blank" rel="noreferrer">作者原帖</a> · <a href="https://openai.com/index/introducing-images-2-6/#animate-your-ideas-with-gifs" target="_blank" rel="noreferrer">Images 2.6 发布说明</a></p>
+    <p>本页用 SVG 分层，按 12 帧/秒计算平移和旋转。无声版和口播版沿用「依次落位」的时间轴；口播版再加三段旁白和对应字幕。切换到「同时入场」，可以对照同一构图怎样改变阅读顺序。</p>
+  </section>
+</main>
+<script src="collage-motion.js"></script>
+<script>
+  function initCutPlayer({ videoId, statusId, group, filename, initial, descriptions }) {
+    const video = document.getElementById(videoId);
+    const status = document.getElementById(statusId);
+    const versions = [...document.querySelectorAll(`[data-${group}-version]`)];
+    const cues = [...document.querySelectorAll(`[data-${group}-seek]`)];
+    const source = version => new URL(`collage-media/${filename}-${version}.mp4`, location.href).href;
+    const cueTime = cue => Number(cue.getAttribute(`data-${group}-seek`));
+    let version = initial;
+    let pending = null;
+
+    function updateCue() {
+      const time = pending?.time ?? video.currentTime;
+      const current = cues.findLast(cue => Number(cue.dataset.start ?? cueTime(cue)) <= time);
+      for (const cue of cues) cue.setAttribute('aria-current', String(cue === current));
+    }
+
+    for (const choice of versions) choice.addEventListener('click', () => {
+      const next = choice.getAttribute(`data-${group}-version`);
+      if (next === version) return;
+      pending = { time: pending?.time ?? video.currentTime, resume: pending?.resume ?? !video.paused };
+      version = next;
+      for (const option of versions) option.setAttribute('aria-pressed', String(option === choice));
+      video.setAttribute('aria-label', choice.textContent);
+      video.dataset.version = next;
+      if (group === 'edit') video.poster = `collage-media/compare-${next}.jpg`;
+      status.textContent = '正在载入所选版本。';
+      video.src = source(version);
+    });
+
+    video.addEventListener('loadedmetadata', () => {
+      if (video.currentSrc !== source(version)) return;
+      const target = pending;
+      pending = null;
+      status.textContent = descriptions[version];
+      if (target) {
+        const time = Math.min(target.time, video.duration);
+        if (Math.abs(video.currentTime - time) > .001) video.currentTime = time;
+        if (target.resume) {
+          const resumedVersion = version;
+          video.play().catch(() => {
+            if (!pending && version === resumedVersion && video.paused && !video.error) {
+              status.textContent = '已保留播放位置。可点播放继续。';
+            }
+          });
+        }
+      }
+      updateCue();
+    });
+
+    function showMediaError() {
+      if (video.error) status.textContent = '本版暂时无法播放。可切换版本，或通过下方链接下载。';
+    }
+    video.addEventListener('error', showMediaError);
+    video.addEventListener('timeupdate', updateCue);
+    video.addEventListener('seeked', updateCue);
+    for (const cue of cues) cue.addEventListener('click', () => {
+      const time = cueTime(cue);
+      if (pending) pending.time = time;
+      else if (!video.error) video.currentTime = time;
+      updateCue();
+    });
+    showMediaError();
+    updateCue();
+  }
+
+  initCutPlayer({
+    videoId: 'collage-edit', statusId: 'collage-edit-status', group: 'edit', filename: 'compare', initial: 'ab',
+    descriptions: { ab: '左边是巡检车跟拍，右边在第 3–8 秒插入拼贴。两边共用一条旁白。', br: '第 3–8 秒插入拼贴，旁白持续。', ar: '第 3–8 秒延续巡检车镜头，旁白相同。' },
+  });
+  initCutPlayer({
+    videoId: 'collage-cut', statusId: 'collage-media-status', group: 'cut', filename: 'collage', initial: 'narrated',
+    descriptions: { narrated: '中文旁白与字幕已合入视频。', clean: '纯画面，无音轨或内嵌字幕。' },
+  });
+
+  const { duration, pose } = collageMotion;
+  const layers = collageMotion.layers.map(layer => ({
+    ...layer,
+    node: document.getElementById(layer.id),
+    marker: document.querySelector(`[data-layer="${layer.id}"]`),
+  }));
+  const timeline = document.getElementById('timeline');
+  const timeOutput = document.getElementById('time');
+  const play = document.getElementById('play');
+  let mode = 'sequence';
+  let position = duration;
+  let frame = null;
+  let startedAt = 0;
+  let offset = 0;
+
+  function render(time) {
+    position = Math.max(0, Math.min(duration, time));
+    timeline.value = position;
+    timeOutput.textContent = `${position.toFixed(2)} / ${duration.toFixed(2)} 秒`;
+    for (const layer of layers) {
+      const { visible, transform, phase } = pose(layer, position, mode);
+      layer.node.style.visibility = visible ? 'visible' : 'hidden';
+      layer.node.setAttribute('transform', transform);
+      if (phase !== layer.marker.dataset.phase) {
+        layer.marker.dataset.phase = phase;
+        layer.marker.lastElementChild.textContent = { waiting: '待入场', active: '移动中', done: '已落位' }[phase];
+      }
+    }
+  }
+
+  function updatePlayLabel() {
+    play.textContent = frame !== null ? '暂停' : position === duration ? '从头播放' : '播放';
+  }
+
+  function stop() {
+    if (frame !== null) cancelAnimationFrame(frame);
+    frame = null;
+    updatePlayLabel();
+  }
+
+  function tick(now) {
+    render(offset + (now - startedAt) / 1000);
+    if (position < duration) frame = requestAnimationFrame(tick);
+    else stop();
+  }
+
+  play.addEventListener('click', () => {
+    if (frame !== null) { stop(); return; }
+    if (position === duration) render(0);
+    offset = position;
+    startedAt = performance.now();
+    frame = requestAnimationFrame(tick);
+    updatePlayLabel();
+  });
+
+  function seek(time) {
+    stop();
+    render(time);
+    updatePlayLabel();
+  }
+
+  timeline.addEventListener('input', () => seek(Number(timeline.value)));
+  document.querySelectorAll('[data-seek]').forEach(button => {
+    button.addEventListener('click', () => seek(Number(button.dataset.seek)));
+  });
+  const modeButtons = document.querySelectorAll('[data-mode]');
+  modeButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      stop();
+      mode = button.dataset.mode;
+      modeButtons.forEach(choice => choice.setAttribute('aria-pressed', String(choice === button)));
+      render(position);
+    });
+  });
+  render(position);
+</script>
+</body>
+</html>

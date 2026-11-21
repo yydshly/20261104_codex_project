@@ -1,0 +1,250 @@
+[
+  {
+    "id": 1,
+    "role": "poster",
+    "url": "https://pbs.twimg.com/tweet_video_thumb/HWXtylSbkAABo9L.jpg",
+    "file": "01-01-poster.jpg",
+    "bytes": 8610,
+    "sha256": "80d97408c9fda4350aaf776b95a6401e737d0c498c36dae6c356db670866fcb0"
+  },
+  {
+    "id": 1,
+    "role": "media",
+    "url": "https://video.twimg.com/tweet_video/HWXtylSbkAABo9L.mp4",
+    "file": "01-01.mp4",
+    "bytes": 92730,
+    "sha256": "7717191e184078d7d9ba38bed744fc94550aea3ef445672200f31658dcffb61e"
+  },
+  {
+    "id": 1,
+    "role": "poster",
+    "url": "https://pbs.twimg.com/tweet_video_thumb/HWXtylWbsAAK359.jpg",
+    "file": "01-02-poster.jpg",
+    "bytes": 7652,
+    "sha256": "19e595e9c8b753c2c53c2d92704700531589928a33fe1d31ecad7278a787b202"
+  },
+  {
+    "id": 1,
+    "role": "media",
+    "url": "https://video.twimg.com/tweet_video/HWXtylWbsAAK359.mp4",
+    "file": "01-02.mp4",
+    "bytes": 127807,
+    "sha256": "6ad86cd4725d4925d24c3f8bad421832ae2926c7085beaf4853c71a819258384"
+  },
+  {
+    "id": 1,
+    "role": "poster",
+    "url": "https://pbs.twimg.com/tweet_video_thumb/HWXtylUaUAAPHpX.jpg",
+    "file": "01-03-poster.jpg",
+    "bytes": 8785,
+    "sha256": "a8196e063da1a4d239120278a500a2b20927406cd8ab51305d30dbe7617448aa"
+  },
+  {
+    "id": 1,
+    "role": "media",
+    "url": "https://video.twimg.com/tweet_video/HWXtylUaUAAPHpX.mp4",
+    "file": "01-03.mp4",
+    "bytes": 120055,
+    "sha256": "2c1cd7b68d2ef34e3b49e980bcb9137868312ea257687d4b6f5860815fa509aa"
+  },
+  {
+    "id": 1,
+    "role": "poster",
+    "url": "https://pbs.twimg.com/tweet_video_thumb/HWXtylSawAAl85x.jpg",
+    "file": "01-04-poster.jpg",
+    "bytes": 28521,
+    "sha256": "a82e9356b88c09524011a205bb03c6f6dfa773e373d80beeac848a2cabdafcf5"
+  },
+  {
+    "id": 1,
+    "role": "media",
+    "url": "https://video.twimg.com/tweet_video/HWXtylSawAAl85x.mp4",
+    "file": "01-04.mp4",
+    "bytes": 65811,
+    "sha256": "598b461287774342fa7b90d11ac2922277710221bb238ec103816f6953ee29b6"
+  },
+  {
+    "id": 2,
+    "role": "media",
+    "url": "https://pbs.twimg.com/media/HWVq2WgbIAAtYK6.jpg?name=orig",
+    "file": "02-01.jpg",
+    "bytes": 66720,
+    "sha256": "c05e7c8777113db5d913964c07243bc673de6cd7604b3d1cb4c30c0c3db53564"
+  },
+  {
+    "id": 2,
+    "role": "media",
+    "url": "https://pbs.twimg.com/media/HWVq235aoAAiYmD.jpg?name=orig",
+    "file": "02-02.jpg",
+    "bytes": 55651,
+    "sha256": "40d042d8e30952a504ad5ebb263a3524a1074f0a2f1cef5aac2bc31cafa51f93"
+  },
+  {
+    "id": 2,
+    "role": "media",
+    "url": "https://pbs.twimg.com/media/HWVq3SCaIAEEVyy.jpg?name=orig",
+    "file": "02-03.jpg",
+    "bytes": 59692,
+    "sha256": "8e65a311d2f8f4c02e063e1ba6536948097d9f3abfe1c2d2f53be4c9d2d7b4ae"
+  },
+  {
+    "id": 3,
+    "role": "poster",
+    "url": "https://pbs.twimg.com/amplify_video_thumb/2118176791231959040/img/AfLL4UNFFIpKmxDg.jpg",
+    "file": "03-01-poster.jpg",
+    "bytes": 211878,
+    "sha256": "5198a33ca66831242ef8c8a9fa7ee98f0aeac49ad18e0a82efb34db4854c67c3"
+  },
+  {
+    "id": 3,
+    "role": "media",
+    "url": "https://video.twimg.com/amplify_video/2118176791231959040/vid/avc1/512x360/A6pA26stuacosICk.mp4?tag=29",
+    "file": "03-01.mp4",
+    "bytes": 506872,
+    "sha256": "c7698c2530b4df26348b3333a4405df18f3f7378cc14b0e5bd09986c0639a78a"
+  },
+  {
+    "id": 4,
+    "role": "poster",
+    "url": "https://pbs.twimg.com/amplify_video_thumb/2118082098447978496/img/kiLMYBcr85hKKAdV.jpg",
+    "file": "04-01-poster.jpg",
+    "bytes": 48523,
+    "sha256": "5030636866e3aa1e04da6fef149caa4e39734ed77e108a316840191bad0fd06d"
+  },
+  {
+    "id": 4,
+    "role": "media",
+    "url": "https://video.twimg.com/amplify_video/2118082098447978496/vid/avc1/480x852/ZsC9pQ5qSismFRQK.mp4?tag=29",
+    "file": "04-01.mp4",
+    "bytes": 6842592,
+    "sha256": "1c0a9d0080be1cf7a144be6e2fd083bd054b26e2587078a7f400ef173d4fc0f2"
+  },
+  {
+    "id": 5,
+    "role": "poster",
+    "url": "https://pbs.twimg.com/amplify_video_thumb/2118374023000186881/img/c2VzUaV_2o0N4Smo.jpg",
+    "file": "05-01-poster.jpg",
+    "bytes": 183378,
+    "sha256": "82e1666043dad40376136ca9b33e4f28b18ce0a0cca886a675c41d11a000721c"
+  },
+  {
+    "id": 5,
+    "role": "media",
+    "url": "https://video.twimg.com/amplify_video/2118374023000186881/vid/avc1/480x600/s_HGJ51M-FKJcPPM.mp4?tag=29",
+    "file": "05-01.mp4",
+    "bytes": 2689656,
+    "sha256": "2ce2fb12415b10c52492049172bc814b47c7b1b787c0a97c8b6553753492200b"
+  },
+  {
+    "id": 6,
+    "role": "poster",
+    "url": "https://pbs.twimg.com/amplify_video_thumb/2118378422732783616/img/8EYKgPlTRfECxOkS.jpg",
+    "file": "06-01-poster.jpg",
+    "bytes": 166424,
+    "sha256": "a46499c4fbf221aead971f4f2a8e1c9ff556a7c19ebc7b5a8fd6be0a7d56f779"
+  },
+  {
+    "id": 6,
+    "role": "media",
+    "url": "https://video.twimg.com/amplify_video/2118378422732783616/vid/avc1/480x600/_x97-Nfafqafnxpc.mp4?tag=29",
+    "file": "06-01.mp4",
+    "bytes": 1313041,
+    "sha256": "6f9a80331121af815ea063eafde33aa87157312fd9d7e8eff38b15ed7828c50e"
+  },
+  {
+    "id": 7,
+    "role": "media",
+    "url": "https://raw.githubusercontent.com/karpathy/autoresearch/master/progress.png",
+    "file": "07-01.png",
+    "bytes": 252961,
+    "sha256": "a6be2ad8dece12be1907356b1254f3ba133035d264d73634dbed442887a69d8d"
+  },
+  {
+    "id": 9,
+    "role": "poster",
+    "url": "https://pbs.twimg.com/amplify_video_thumb/2118286446092337152/img/22X8pgDUf2hG0LsP.jpg",
+    "file": "09-01-poster.jpg",
+    "bytes": 79235,
+    "sha256": "6a05f25704076145d058e14babcd42b6d639d4321cc2d8cd19f5ef58dd4cb5d7"
+  },
+  {
+    "id": 9,
+    "role": "media",
+    "url": "https://video.twimg.com/amplify_video/2118286446092337152/vid/avc1/610x360/sQZHIN1NpfCasPuW.mp4?tag=29",
+    "file": "09-01.mp4",
+    "bytes": 1297515,
+    "sha256": "1f0c85cbcfc2aaa1ed0713cec11c4b3a4a0c45addabfa1d57f8f7918bb88a734"
+  },
+  {
+    "id": 10,
+    "role": "media",
+    "url": "https://pbs.twimg.com/media/HWXkN7vboAIN-Uq.jpg?name=orig",
+    "file": "10-01.jpg",
+    "bytes": 308165,
+    "sha256": "fb15d2e77376b662e90412f604395a5ac9c7d869643b761a607a4282776544e9"
+  },
+  {
+    "id": 10,
+    "role": "media",
+    "url": "https://pbs.twimg.com/media/HWXkN7vboAEmohy.jpg?name=orig",
+    "file": "10-02.jpg",
+    "bytes": 327852,
+    "sha256": "b05e0f5bb2bdcf72adfdd92ef580973c0b290f298fbf40ea25390dfa2bf5d280"
+  },
+  {
+    "id": 11,
+    "role": "media",
+    "url": "https://raw.githubusercontent.com/milind-soni/OpenMausBot/main/docs/screenshots/approval-card.png",
+    "file": "11-01.png",
+    "bytes": 179467,
+    "sha256": "22698859ac78586be8d3690cbc3f1ed660df0a2a98450adafbe61cf394284092"
+  },
+  {
+    "id": 12,
+    "role": "poster",
+    "url": "https://pbs.twimg.com/media/HQw5MMKawAARQtu.jpg",
+    "file": "12-01-poster.jpg",
+    "bytes": 37867,
+    "sha256": "e6fa5b86abc06d6324c59b0ff55ebb0d1e7ba97d9995eb67cb58113028a68001"
+  },
+  {
+    "id": 12,
+    "role": "media",
+    "url": "https://video.twimg.com/amplify_video/2093109230580703232/vid/avc1/1280x720/fyOGh3T2gN-Tlz_4.mp4?tag=29",
+    "file": "12-01.mp4",
+    "bytes": 25680226,
+    "sha256": "9d311f9acaa4727240580fa63963054bd7b88a6da64e6a0dee6801ea44fd21ef"
+  },
+  {
+    "id": 15,
+    "role": "poster",
+    "url": "https://pbs.twimg.com/amplify_video_thumb/2118289048712237056/img/RB407-dDh9Np6h_W.jpg",
+    "file": "15-01-poster.jpg",
+    "bytes": 233697,
+    "sha256": "a6f3abdd0c343dba0c5a8ccf4bda50306eb813396b33925a27a3b1c740eb1dff"
+  },
+  {
+    "id": 15,
+    "role": "media",
+    "url": "https://video.twimg.com/amplify_video/2118289048712237056/vid/avc1/480x520/xOwNPXkOC2o8kHHP.mp4?tag=29",
+    "file": "15-01.mp4",
+    "bytes": 2510182,
+    "sha256": "1b8264c06036bac80251ad9b47736e4649b639a9857faaad941236419fc6cf57"
+  },
+  {
+    "id": 1,
+    "role": "reference",
+    "url": "https://api.ai-mcn.tv:9000/cloud/static/assets/oralcut/webm/fishing_after.webm",
+    "file": "oralcut-after.webm",
+    "bytes": 11189617,
+    "sha256": "3a2d32d3ccd3bd7dfbab032c7d0d8805eaf8457ec4686ffde4016228e89b9254"
+  },
+  {
+    "id": 1,
+    "role": "reference",
+    "url": "https://api.ai-mcn.tv:9000/cloud/static/assets/oralcut/webm/fishing_before.webm",
+    "file": "oralcut-before.webm",
+    "bytes": 16703000,
+    "sha256": "77699b222a8ee9759a0f4ab30b511531ea6b254c3d0f48082bcc90a573cd5955"
+  }
+]

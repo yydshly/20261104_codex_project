@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>看见叶片气孔的开合 · 离线课堂</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, "Microsoft YaHei", "PingFang SC", sans-serif; color: #16362b; background: #eef2e8; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    button { font: inherit; cursor: pointer; }
+    button:focus-visible, a:focus-visible { outline: 3px solid #237553; outline-offset: 3px; }
+    [hidden] { display: none !important; }
+    .leaf-definitions { position: absolute; overflow: hidden; }
+    .classroom { width: min(1380px, 100%); margin: auto; padding: clamp(18px, 3vw, 46px); }
+    .masthead { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; border-bottom: 1px solid #bccbbf; padding-bottom: 12px; }
+    .eyebrow { margin: 0; color: #3d6251; font-size: .78rem; font-weight: 800; letter-spacing: .13em; }
+    .tag { color: #3d6251; font-size: .84rem; }
+    h1 { margin: 13px 0 5px; font-size: clamp(2rem, 4.8vw, 4.3rem); line-height: 1.13; letter-spacing: -.055em; }
+    .lead { margin: 0 0 17px; font-size: clamp(1rem, 1.65vw, 1.25rem); color: #355849; }
+    .question { display: flex; justify-content: space-between; gap: 10px 18px; align-items: center; flex-wrap: wrap; margin: 0 0 12px; padding: 12px 16px; color: #f4f8e8; background: #183d30; border-radius: 10px; }
+    .question h2 { margin: 3px 0 0; font-size: clamp(1.14rem, 2.2vw, 1.7rem); line-height: 1.3; }
+    .question .eyebrow { color: #d9eaab; }
+    .controls { display: flex; gap: 6px; flex-wrap: wrap; }
+    .controls button { border: 1px solid #7f9f89; border-radius: 7px; padding: 7px 12px; background: #244c3b; color: #f3f8e8; font-weight: 700; }
+    .controls button:hover { background: #37634e; }
+    .controls button:focus-visible, .pin:focus-visible { outline-color: #e5f5aa; }
+    .controls .reveal { border-color: #d9ebaa; background: #d9ebaa; color: #193327; }
+    .controls .reveal:hover { background: #f0f7ca; }
+    .fields { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 11px; }
+    .field { margin: 0; min-width: 0; overflow: hidden; border: 1px solid #bdcdbf; border-radius: 10px; background: #f9fbf5; }
+    .sample { position: relative; background: #122e26; }
+    .sample svg { display: block; width: 100%; aspect-ratio: 480 / 316; }
+    .pin { position: absolute; top: var(--y); left: var(--x); transform: translate(-50%, -50%); display: grid; place-items: center; width: max(32px, 10%); aspect-ratio: 1; border: 2px solid #f0f6cf; border-radius: 50%; background: #142e23; color: #f3f7d8; font-weight: 800; font-size: clamp(.9rem, 1.55vw, 1.1rem); }
+    .pin:hover, .pin[aria-pressed="true"] { background: #deeda9; color: #1a3a2b; }
+    figcaption { padding: 9px 12px 11px; }
+    figcaption strong { display: block; font-size: clamp(1rem, 1.6vw, 1.24rem); }
+    figcaption span { color: #486252; font-size: .91rem; }
+    .selection { min-height: 1.6em; margin: 9px 0 7px; color: #365a47; font-weight: 650; }
+    .answer { padding: 12px 15px; border: 1px solid #a8bea3; border-left: 5px solid #467d4b; border-radius: 8px; background: #f8fbe9; }
+    .answer h2 { margin: 0 0 4px; font-size: 1.15rem; }
+    .answer p { margin: 0; line-height: 1.6; }
+    .evidence { display: flex; justify-content: space-between; gap: 4px 12px; flex-wrap: wrap; margin: 14px 0 0; padding-top: 10px; border-top: 1px solid #bccbbf; color: #415d50; font-size: .82rem; }
+    .evidence a { color: #285640; text-underline-offset: .19em; }
+    @media (max-width: 640px) { .fields { grid-template-columns: 1fr; } .classroom { padding: 15px; } }
+  </style>
+</head>
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" class="leaf-definitions"><defs>
+    <linearGradient id="page" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#f8f8ec" /><stop offset="1" stop-color="#e8eddd" />
+    </linearGradient>
+    <radialGradient id="field" cx="51%" cy="49%" r="72%">
+      <stop stop-color="#294e3b" /><stop offset=".61" stop-color="#193a30" /><stop offset="1" stop-color="#0c231e" />
+    </radialGradient>
+    <radialGradient id="cell" cx="37%" cy="29%" r="76%">
+      <stop stop-color="#a3c66e" /><stop offset=".32" stop-color="#76ab5e" /><stop offset=".72" stop-color="#4e8955" /><stop offset="1" stop-color="#245d44" />
+    </radialGradient>
+    <linearGradient id="rim" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#e3eaa4" /><stop offset=".45" stop-color="#a8ce81" /><stop offset="1" stop-color="#467a5c" />
+    </linearGradient>
+    <linearGradient id="pore" x1="0" x2="1" y1="0" y2="0">
+      <stop stop-color="#1a4d38" /><stop offset=".28" stop-color="#071b16" /><stop offset=".67" stop-color="#061511" /><stop offset="1" stop-color="#286044" />
+    </linearGradient>
+    <radialGradient id="vignette" cx="52%" cy="45%" r="70%">
+      <stop offset=".42" stop-color="#071814" stop-opacity="0" /><stop offset="1" stop-color="#071814" stop-opacity=".64" />
+    </radialGradient>
+    <pattern id="grain" width="67" height="59" patternUnits="userSpaceOnUse">
+      <g fill="#def3a9" opacity=".37">
+        <circle cx="2" cy="18" r=".8" /><circle cx="9" cy="39" r="1.25" /><circle cx="12" cy="5" r=".7" />
+        <circle cx="21" cy="55" r=".8" /><circle cx="27" cy="26" r="1.15" /><circle cx="35" cy="2" r=".9" />
+        <circle cx="39" cy="44" r=".65" /><circle cx="48" cy="12" r="1.1" /><circle cx="56" cy="33" r=".65" />
+        <circle cx="60" cy="55" r="1.1" /><circle cx="64" cy="6" r=".6" />
+      </g>
+      <g fill="#0a2a20" opacity=".37"><circle cx="15" cy="15" r="1.1" /><circle cx="31" cy="36" r=".9" /><circle cx="53" cy="50" r="1.15" /><circle cx="63" cy="22" r="1.1" /></g>
+    </pattern>
+    <clipPath id="glass"><rect width="480" height="316" rx="13" /></clipPath>
+    <filter id="depth" x="-40%" y="-35%" width="180%" height="190%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="9" stdDeviation="9" flood-color="#040f0d" flood-opacity=".73" />
+    </filter>
+    <g id="field-view">
+      <rect width="480" height="316" fill="url(#field)" />
+      <g stroke="#0b2a21" stroke-width="5" stroke-linejoin="round">
+        <path fill="#244d39" d="M-15-10H109C117 25 86 22 86 42S59 76 26 69L-15 87Z" />
+        <path fill="#285844" d="M109-10h100c15 41 22 51 3 70-13 14-44 0-58 13-14 12-45 11-65 0 5-18-13-20-4-35 17-15 20-32 24-48Z" />
+        <path fill="#214738" d="M209-10h106c8 14-18 28-17 52 0 18-15 27-31 32s-37-1-55-13c17-20 2-45-3-71Z" />
+        <path fill="#26503d" d="M315-10h99c8 23-1 55-21 71s-53 4-72 20l-55-7c24-5 35-19 31-33-4-14 17-40 18-51Z" />
+        <path fill="#2d543f" d="M415-10h80v106c-19-3-29-8-48-10s-44 5-54-25c20-19 28-42 22-71Z" />
+        <path fill="#2a5340" d="M-15 87 26 69c21 1 41-5 60-25 3 14 11 23 4 31-6 9-28 15-26 39 1 15 15 35 1 44s-44 11-79 2Z" />
+        <path fill="#34624a" d="M90 75c24 10 48 12 65-3 12-11 39 2 57-11 28 19 36 43 12 60-17 12-38 13-48 29s-40 9-55 14-38 7-56-6c12-18-9-40 0-57 6-14 17-16 25-26Z" />
+        <path fill="#345d43" d="M212 61c27 18 80 18 109 20 27 18 14 38 34 56 6 12-4 26-16 34-21 14-37 0-57 2-23 5-40 15-61 6-11-4-26-26-45-29 14-20 40-16 51-34 12-22-4-35-15-55Z" />
+        <path fill="#2d5b44" d="M321 81c23-18 55-8 72-20 8 25 37 23 54 25 8 15 16 49-3 59-19 9-43-4-57 12-9 9-22 9-35-6-6-17-20-17-20-36 0-12-4-24-11-34Z" />
+        <path fill="#244d3a" d="M447 86c13 2 31 3 48 10v85c-22 3-47-2-53-16l-11-17c30-6 26-42 16-62Z" />
+        <path fill="#244c3b" d="M-15 160c34 10 69 7 80-2 22 13 40 11 51 8 15 24 11 46 1 55-13 11-19 17-20 33-22 5-31 27-50 25-18-3-35-16-62-9Z" />
+        <path fill="#2f5b42" d="M116 166c18-9 49 4 60-16 21 8 32 20 45 29s40-1 57-4c21 24 15 54-6 67-20 12-44 1-67 7-22 6-50 29-68 13-14-12-29-8-40-8 1-14 9-22 20-33 13-15 9-36-1-55Z" />
+        <path fill="#2a5742" d="M278 175c23-4 40 10 61-4 12-10 19-18 13-20 13 15 25 15 35 6 17 16 35 27 42 48 6 22-23 27-31 47-20 3-36-13-52-9-24 6-53 21-74-1 22-16 26-40 6-67Z" />
+        <path fill="#254b38" d="M387 157c15-15 34-5 44-9 20 17 11 30 64 33v89c-29-9-43 3-64 1-16-1-27-10-33-19 8-20 37-25 31-47-7-21-25-32-42-48Z" />
+        <path fill="#254f3b" d="M-15 270c23-6 43 6 62 9s32-19 50-25c9 16 20 29 16 50l-3 26H-15Z" />
+        <path fill="#28523e" d="M97 254c17-3 31-4 40 8 16 18 43-6 68-13 24 24 33 57 21 81H110c15-40-3-53-13-76Z" />
+        <path fill="#305b45" d="M205 249c24-7 44 7 67-7 20 21 52 8 72 2 3 24-11 41-3 86H226c14-23 3-56-21-81Z" />
+        <path fill="#2b5540" d="M344 244c16-7 33 11 54 8 10 14 21 17 33 19 22 2 38-10 64-1v60H341c-9-38 7-63 3-86Z" />
+      </g>
+      <g fill="none" stroke="#8cac75" stroke-opacity=".26" stroke-width="1.4">
+        <path d="M28 68C60 77 83 56 86 43M94 78c27 10 43 9 60-4 21-10 43-1 57-11M268 77c26-8 34-15 33-33M325 83c21-14 44-8 62-18M14 164c21 2 33 0 48-5M67 160c18 13 38 11 51 7 25-7 42 3 57-14M279 178c25-3 43 8 60-5M389 159c19-14 35-6 46-8M47 279c20 4 37-23 51-24 14-3 29-4 38 8M209 250c22-5 45 6 63-5M345 247c20-8 34 9 52 8" />
+      </g>
+      <rect width="480" height="316" fill="url(#grain)" opacity=".8" />
+      <rect width="480" height="316" fill="url(#vignette)" />
+    </g>
+    <path id="closed-cell" d="M240 75 C194 74 158 96 147 135 C134 178 157 223 190 242 C208 252 226 254 240 249 C237 233 236 220 237 205 C239 188 239 150 237 135 C236 114 237 91 240 75Z" />
+    <path id="middle-cell" d="M240 75 C190 72 150 97 140 135 C127 178 150 225 186 244 C207 255 225 254 240 249 C224 239 213 223 211 203 C208 179 209 153 214 131 C218 107 228 88 240 75Z" />
+    <path id="open-cell" d="M240 75 C181 70 137 95 125 135 C111 181 136 228 177 246 C201 257 223 253 240 249 C213 237 198 219 192 196 C186 174 186 153 193 130 C200 107 219 86 240 75Z" />
+    <path id="closed-pore" d="M240 76 C238 102 237 138 238 163 C237 187 238 220 240 249 C242 221 243 188 242 163 C243 139 242 101 240 76Z" />
+    <path id="middle-pore" d="M240 75 C222 93 210 126 210 163 C209 206 220 234 240 249 C261 234 272 206 270 163 C270 127 258 93 240 75Z" />
+    <path id="open-pore" d="M240 75 C208 92 188 124 188 163 C188 200 204 234 240 249 C276 233 292 199 292 163 C292 123 273 92 240 75Z" />
+    <g id="chloroplasts" fill="#d3e58c" fill-opacity=".67" stroke="#f6efae" stroke-opacity=".36" stroke-width=".6">
+      <ellipse cx="171" cy="126" rx="6.5" ry="3.4" transform="rotate(-51 171 126)" /><ellipse cx="186" cy="115" rx="5.6" ry="3.3" transform="rotate(-30 186 115)" />
+      <ellipse cx="198" cy="101" rx="5.2" ry="2.5" transform="rotate(-24 198 101)" /><ellipse cx="161" cy="145" rx="5.2" ry="3" transform="rotate(-63 161 145)" />
+      <ellipse cx="160" cy="176" rx="5.5" ry="2.9" transform="rotate(60 160 176)" /><ellipse cx="167" cy="198" rx="4.5" ry="2.7" transform="rotate(53 167 198)" />
+      <ellipse cx="181" cy="220" rx="6.0" ry="3" transform="rotate(37 181 220)" /><ellipse cx="196" cy="225" rx="4.8" ry="2.5" transform="rotate(42 196 225)" />
+      <ellipse cx="174" cy="153" rx="4.2" ry="2.5" transform="rotate(-44 174 153)" /><ellipse cx="174" cy="182" rx="3.9" ry="2.2" transform="rotate(26 174 182)" />
+    </g>
+    <g id="wall-glints" fill="none" stroke-linecap="round">
+      <path d="M219 88c-34 7-62 31-67 59M154 177c6 29 25 51 50 63" stroke="#d4eba4" stroke-opacity=".62" stroke-width="2" />
+      <path d="M218 95c-28 9-54 28-62 52M160 187c5 19 17 33 34 45" stroke="#d4eba4" stroke-opacity=".24" stroke-width="1.2" />
+    </g>
+    <g id="dot-ruler" stroke="#e9f7c8" fill="none">
+      <path d="M58 163H421" stroke-opacity=".35" stroke-dasharray="4 6" />
+      <path d="M58 157v12m363-12v12" stroke-opacity=".61" />
+    </g>
+  <symbol id="leaf-closed-field" viewBox="0 0 480 316"><g clip-path="url(#glass)"><use href="#field-view" />
+        <g filter="url(#depth)">
+          <use href="#closed-pore" fill="url(#pore)" />
+          <use href="#closed-cell" fill="url(#cell)" stroke="url(#rim)" stroke-width="3.5" />
+          <use href="#closed-cell" transform="translate(480) scale(-1 1)" fill="url(#cell)" stroke="url(#rim)" stroke-width="3.5" />
+        </g>
+        <use href="#chloroplasts" /><use href="#chloroplasts" transform="translate(480) scale(-1 1)" opacity=".83" />
+        <use href="#wall-glints" /><use href="#wall-glints" transform="translate(480) scale(-1 1)" opacity=".69" />
+        </g></symbol><symbol id="leaf-closed-measure" viewBox="0 0 480 316"><g clip-path="url(#glass)"><use href="#dot-ruler" />
+        <path d="M238.5 146v34m3-34v34" stroke="#eff4b4" stroke-width="1.8" />
+      </g></symbol><symbol id="leaf-middle-field" viewBox="0 0 480 316"><g clip-path="url(#glass)"><use href="#field-view" />
+        <g filter="url(#depth)">
+          <use href="#middle-pore" fill="url(#pore)" />
+          <use href="#middle-cell" fill="url(#cell)" stroke="url(#rim)" stroke-width="3.5" />
+          <use href="#middle-cell" transform="translate(480) scale(-1 1)" fill="url(#cell)" stroke="url(#rim)" stroke-width="3.5" />
+        </g>
+        <use href="#chloroplasts" transform="translate(-7)" /><use href="#chloroplasts" transform="translate(487) scale(-1 1)" opacity=".83" />
+        <use href="#wall-glints" transform="translate(-7)" /><use href="#wall-glints" transform="translate(487) scale(-1 1)" opacity=".69" />
+        </g></symbol><symbol id="leaf-middle-measure" viewBox="0 0 480 316"><g clip-path="url(#glass)"><use href="#dot-ruler" />
+        <path d="M211 154v18m0-9h58m0-9v18" stroke="#f4f2af" stroke-width="2.5" fill="none" />
+      </g></symbol><symbol id="leaf-open-field" viewBox="0 0 480 316"><g clip-path="url(#glass)"><use href="#field-view" />
+        <g filter="url(#depth)">
+          <use href="#open-pore" fill="url(#pore)" />
+          <use href="#open-cell" fill="url(#cell)" stroke="url(#rim)" stroke-width="3.5" />
+          <use href="#open-cell" transform="translate(480) scale(-1 1)" fill="url(#cell)" stroke="url(#rim)" stroke-width="3.5" />
+        </g>
+        <use href="#chloroplasts" transform="translate(-23)" /><use href="#chloroplasts" transform="translate(503) scale(-1 1)" opacity=".83" />
+        <use href="#wall-glints" transform="translate(-23)" /><use href="#wall-glints" transform="translate(503) scale(-1 1)" opacity=".69" />
+        </g></symbol><symbol id="leaf-open-measure" viewBox="0 0 480 316"><g clip-path="url(#glass)"><use href="#dot-ruler" />
+        <path d="M189 154v18m0-9h102m0-9v18" stroke="#f4f2af" stroke-width="2.5" fill="none" />
+        </g></symbol><symbol id="leaf-open-annotations" viewBox="0 0 480 316"><g fill="none" stroke="#dfe9b0" stroke-width="1.3" stroke-opacity=".88">
+          <path d="M139 214l-22 44H55" /><path d="M240 213l39 60h88" />
+        </g>
+        <circle cx="139" cy="214" r="3" fill="#eff3bd" /><circle cx="240" cy="213" r="3" fill="#eff3bd" />
+        <rect x="24" y="253" width="111" height="34" rx="4" fill="#0e261e" />
+        <rect x="349" y="267" width="107" height="34" rx="4" fill="#0e261e" />
+        <text x="35" y="277" fill="#f2f4ce" font-size="19">保卫细胞</text>
+        <text x="360" y="291" fill="#f2f4ce" font-size="19">气孔孔隙</text>
+      </symbol></defs>
+
+  </svg>
+  <main class="classroom">
+    <header class="masthead"><p class="eyebrow">叶片观察 / 05</p><span class="tag">三幅同示意比例 · 离线课堂</span></header>
+    <h1>看见叶片气孔的开合</h1>
+    <p class="lead">沿三幅图的同一条标线，比较两侧保卫细胞之间的开口。</p>
+    <section class="question" aria-labelledby="question-title">
+      <div><p class="eyebrow">先观察，再核对</p><h2 id="question-title">第 03 幅中，气体从 A 还是 B 处进出？</h2></div>
+      <div class="controls">
+        <button type="button" id="measure-toggle" aria-pressed="true" aria-controls="fields">测量标线</button>
+        <button type="button" id="reveal-toggle" class="reveal" aria-expanded="false" aria-controls="answer">揭晓答案</button>
+      </div>
+    </section>
+    <div class="fields" id="fields">
+      <figure class="field">
+        <div class="sample"><svg viewBox="0 0 480 316" role="img" aria-label="闭合状态，两个保卫细胞几乎相接"><use href="#leaf-closed-field"/><use class="measurement" href="#leaf-closed-measure"/></svg></div>
+        <figcaption><strong>01 · 闭合</strong><span>几乎看不到缝隙</span></figcaption>
+      </figure>
+      <figure class="field">
+        <div class="sample"><svg viewBox="0 0 480 316" role="img" aria-label="开始开启状态，两侧保卫细胞之间出现窄缝"><use href="#leaf-middle-field"/><use class="measurement" href="#leaf-middle-measure"/></svg></div>
+        <figcaption><strong>02 · 开始开启</strong><span>中间出现窄缝</span></figcaption>
+      </figure>
+      <figure class="field">
+        <div class="sample">
+          <svg viewBox="0 0 480 316" role="img" aria-label="进一步开启状态，中间孔隙明显变宽"><use href="#leaf-open-field"/><use class="measurement" href="#leaf-open-measure"/><use id="annotations" href="#leaf-open-annotations" hidden/></svg>
+          <button type="button" class="pin" style="--x:28.9583%;--y:67.7215%" data-option="A" aria-label="A，左侧绿色结构" aria-pressed="false">A</button>
+          <button type="button" class="pin" style="--x:50.0000%;--y:67.4051%" data-option="B" aria-label="B，中央深色结构" aria-pressed="false">B</button>
+        </div>
+        <figcaption><strong>03 · 进一步开启</strong><span>孔隙明显变宽</span></figcaption>
+      </figure>
+    </div>
+    <p class="selection" id="selection" role="status">请先在第 03 幅图上选择 A 或 B。</p>
+    <section class="answer" id="answer" aria-labelledby="answer-title" hidden>
+      <h2 id="answer-title">B · 两侧保卫细胞之间的气孔孔隙</h2>
+      <p>沿同一条标线从左往右比较。第 01 幅几乎看不到缝隙，第 02 幅出现窄缝，第 03 幅的深色开口更宽。气体经由中间孔隙进出。</p>
+    </section>
+    <footer class="evidence"><span>原创结构示意，未按真实尺度绘制。标线用于比较孔隙宽度。</span><a href="https://doi.org/10.1038/s41598-023-34273-x">原理参考 · Scientific Reports · DOI 10.1038/s41598-023-34273-x</a></footer>
+  </main>
+  <script>
+    const pins = [...document.querySelectorAll('.pin')];
+    const answer = document.getElementById('answer');
+    const annotations = document.getElementById('annotations');
+    const selection = document.getElementById('selection');
+    const reveal = document.getElementById('reveal-toggle');
+    const measure = document.getElementById('measure-toggle');
+    let choice = '';
+
+    for (const pin of pins) pin.addEventListener('click', () => {
+      choice = pin.dataset.option;
+      for (const item of pins) item.setAttribute('aria-pressed', String(item === pin));
+      selection.textContent = `已选择 ${choice}。揭晓后对照图中标注。`;
+    });
+    reveal.addEventListener('click', () => {
+      const showing = answer.hidden;
+      answer.hidden = !showing;
+      annotations.toggleAttribute('hidden', !showing);
+      reveal.setAttribute('aria-expanded', String(showing));
+      reveal.textContent = showing ? '再做一次' : '揭晓答案';
+      for (const pin of pins) {
+        pin.hidden = showing;
+        if (!showing) pin.setAttribute('aria-pressed', 'false');
+      }
+      if (!showing) choice = '';
+      const feedback = { A: 'A 指向保卫细胞。请再找它们之间的深色孔隙。', B: '选对了。B 指向两侧保卫细胞之间的孔隙。' };
+      selection.textContent = showing ? feedback[choice] || '已显示气孔位置与对照说明。' : '请先在第 03 幅图上选择 A 或 B。';
+    });
+    measure.addEventListener('click', () => {
+      const showing = measure.getAttribute('aria-pressed') !== 'true';
+      measure.setAttribute('aria-pressed', String(showing));
+      for (const line of document.querySelectorAll('.measurement')) line.toggleAttribute('hidden', !showing);
+    });
+  </script>
+</body>
+</html>
