@@ -1,0 +1,9 @@
+Use case: precise-object-edit / architecture diagram.
+This image already correctly explains the two model roles, optional escalation, shared reply coordinator and conversation timeline. Preserve ALL current Chinese wording, fonts, colors, model boxes, routing arrows, optional escalation arrow, reply gate, conversation timeline and canvas. Make ONE architectural wiring clarification only:
+The two source arrows from the left, labeled “知识依据” and “实时事实”, currently visually enter only the “轻量交互模型” box. BOTH model branches must have equal access to these evidence sources, including complex requests routed directly to “高能力分析模型”.
+To correct this cleanly without tangled new arrows:
+- Add a very subtle pale blue enclosing SHARED EVIDENCE CONTAINER around the TWO model boxes together (lightweight and high-capability). This container must include BOTH entire model boxes and their optional escalation connector. Keep the task router ABOVE and the reply coordinator BELOW outside this shared container.
+- Give this shared container a readable short title: “两种模型共享知识与业务证据”.
+- Re-route the existing two left source arrows to terminate on the LEFT OUTER BOUNDARY OF THIS SHARED CONTAINER, rather than ending on the lightweight model box specifically. The source tags retain their current text and blue/teal colors.
+- Keep the two model branch entry arrows from the task router intact and clearly entering each model separately. Keep both model outputs going to the same reply coordinator. Do not remove or alter any of these original model-processing arrows.
+Use a little extra vertical room if necessary to make the shared-container title readable, but keep the overall infographic composition and all text intact. Do not add any other content. The resulting reader must unambiguously understand that the high-capability model can directly consult the knowledge base and business APIs, not merely receive the lightweight model's guesses. No other changes.

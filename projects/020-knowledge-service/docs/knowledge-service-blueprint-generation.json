@@ -1,0 +1,17 @@
+{
+  "title": "让组织知识，成为用户感受到的服务",
+  "tool": "built-in image_gen",
+  "modelVersion": "not returned",
+  "width": 1672,
+  "height": 941,
+  "finalImage": "docs/knowledge-service-blueprint.png",
+  "initialPrompt": "docs/knowledge-service-blueprint-prompt.txt",
+  "targetedEditPrompt": "docs/knowledge-service-blueprint-edit-prompt.txt",
+  "initialImage": "docs/knowledge-service-blueprint-v1.png",
+  "review": {
+    "text": "已检查简体中文内容与层级",
+    "sources": "政策依据来自知识库；实时事实来自业务接口",
+    "paths": "快慢路径并行分流后汇合；人工接管为可选分支",
+    "meaning": "团队价值与经审核的知识更新闭环"
+  }
+}

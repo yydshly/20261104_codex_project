@@ -1,0 +1,86 @@
+Use case: infographic-diagram.
+Create ONE polished Chinese enterprise architecture infographic explaining the value of a knowledge base and the user-friendly customer service built on top of it. This is a target architecture and shared understanding, not a screenshot and not a claim that a production service is already deployed.
+Output: high resolution landscape 16:9 raster image, ideally 3840x2160. Make every Chinese character sharp, readable, accurate and large enough. Sophisticated editorial information design, clean vector-like rendering with slight dimensional accents, generous whitespace, strong reading hierarchy. White / very pale blue background, dark navy typography, muted cobalt for knowledge and fast path, violet for deep path, teal for verified outcomes, restrained warm amber for necessary confirmations. Match the calm professional clarity of a modern service architecture workbench. Use simple precise line icons for documents, knowledge library, routing, conversation, shield and human headset. No photographs, decorative robots, glowing sci-fi circuits, stock illustrations or background visual noise. Avoid low-contrast tiny type. The viewer should feel confident, oriented and reassured.
+
+The single most prominent title at top:
+“让组织知识，成为用户感受到的服务”
+Subtitle:
+“可信知识底座 → 可控客服业务 → 友好用户体验”
+Small top-right label:
+“目标架构 · 团队共识图”
+
+Under the title, three carefully aligned main areas. Left about 27% width, center about 43%, right about 25%, with clear gutters. Clear arrows connect them; avoid crossing or tangled connectors. Lower part is a full-width organizational-value strip.
+
+LEFT AREA exact heading:
+“01 知识与事实底座”
+Show a knowledge-building mini workflow:
+“知识库建设”
+“产品资料 · 业务政策 · 操作手册 · 历史案例”
+down arrow to
+“整理去重 → 审核发布 → 检索索引”
+down arrow to a visually prominent library/database node
+“可信知识库”
+“可检索 · 可追溯 · 可更新”
+“来源、版本与权限管理”
+Beneath this, show a SEPARATE sibling block, outside the knowledge-library boundary:
+“业务接口”
+“订单 · 账号 · 服务状态”
+Clearly show the library supplying “政策依据” and the separate business interfaces supplying “实时事实” into the evidence retrieval stage in the central architecture. These are distinct sources, not data all imagined by the model.
+
+CENTER AREA exact heading:
+“02 基于知识的客服业务”
+Show a readable top-to-bottom workflow:
+small input node “用户提问”
+down arrow
+“理解诉求 · 会话上下文 · 流程路由”
+down arrow
+“检索知识 + 查询业务接口”
+This stage receives the two labeled source arrows from the left.
+Then fork into two parallel adjacent nodes:
+Blue node: “快速路径”
+“常见咨询 · 事实查询 · 信息补齐”
+Purple node: “深入路径”
+“复杂排障 · 多条件分析 · 综合判断”
+Both paths MERGE, rather than one following the other, into:
+“核对证据与业务规则”
+“办理业务时，必要确认”
+Then the flow leads to:
+“统一答复 / 确认办理”
+Also include a clearly connected branch leading to:
+“人工接管”
+“携带处理记录 · 暂停自动办理”
+The human branch is available when needed, not a mandatory step for every request. Keep important flow arrows correct and legible. Label the choice near the two model-path nodes with a concise annotation:
+“按任务分流，共用业务边界”
+Do not show the fast model giving a conclusion and the deep model correcting it later. The final output is coordinated and consistent. Do not imply strong models can override authorization or refund rules.
+
+RIGHT AREA exact heading:
+“03 用户感受到的体验”
+Use four clean icon-led stacked experience statements with short readable descriptions:
+“及时反馈”
+“收到有回应，处理中有真实进度”
+“清晰可信”
+“回答有依据，下一步说清楚”
+“连贯省心”
+“保留上下文，减少重复说明”
+“复杂可接管”
+“需要人工时，带着记录交接”
+Connect the central service output toward this right area with a confident directional arrow.
+
+Add a restrained dashed feedback loop from resolved service feedback back toward knowledge governance, labeled:
+“服务反馈 → 人工审核 → 知识更新”
+Never imply raw chat messages automatically become approved knowledge.
+
+BOTTOM full-width value strip exact heading:
+“对我们的价值”
+Four balanced columns with exact title + subtitle:
+“知识沉淀” / “让个人经验成为可复用的组织资产”
+“服务一致” / “统一依据，回答与办理更易检查”
+“团队提效” / “减少重复劳动，支持新人上手”
+“持续改进” / “用服务反馈推动知识与流程迭代”
+
+One final concise footer takeaway, visible and readable:
+“快慢是处理路径，双模型是可选实现。”
+Supporting footer line:
+“友好体验来自及时反馈、可靠答案与顺畅交接。”
+
+Text rendering constraints: Use exactly the quoted simplified Chinese copy above; no fake numbers, no statistics, no performance promises, no extra dense paragraphs. Chinese typography must be professionally typeset with consistent weights. Hierarchical structure and readable content matter more than ornament. Preserve meaningful whitespace. Deliver a finished explanatory infographic suitable for sharing with a team.

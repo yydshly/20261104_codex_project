@@ -1,0 +1,15 @@
+{
+  "project": "020-knowledge-service",
+  "researchDate": "2026-11-21",
+  "runtime": "browser-demo",
+  "state": "page-memory-only",
+  "capabilities": {
+    "implemented": 14,
+    "demo": 4,
+    "planned": 12
+  },
+  "guide": {
+    "mechanism": "b55f80a5e2c0565e86413228003da2d79baf3dc972dff0696e437367782f7162",
+    "value": "8e0972548e4a5e3b20e84163e85d955599f9ec2c6dc477a5dc7e1fbf21c80729"
+  }
+}

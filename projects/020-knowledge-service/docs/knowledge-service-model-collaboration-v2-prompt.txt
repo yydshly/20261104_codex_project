@@ -1,0 +1,129 @@
+Use case: infographic-diagram / substantive infographic revision.
+Edit the provided image into a NEW, more explanatory mechanism-detail version. The prior image is an edit target and visual-language reference. Its blue/navy/teal/purple enterprise infographic style is approved, but the vague central fast/deep boxes need a substantial redesign. Preserve the calm professional visual family; freely reorganize the layout and replace the old copy with the exact new Chinese copy specified below. Do not retain the large organization-value strip if it crowds the real explanation. The priority is to clearly explain WHAT the two models do, HOW routing and escalation work, and WHAT the user sees during the wait.
+ONE landscape 16:10 finished infographic, high resolution with exceptionally crisp large readable simplified Chinese text. White background, dark navy text, restrained blue for lightweight model, purple for high-capability model, teal for grounded outputs, warm amber for business gates. Clean orthogonal arrows, aligned grid, generous whitespace, no ornamental robots or science-fiction motifs. A mechanism diagram and conversation timeline, not a marketing poster. Keep text legible and avoid miniature paragraphs.
+
+TITLE:
+“一位客服，两种模型，连续的交流体验”
+SUBTITLE:
+“轻量模型处理日常交互，高能力模型按需深入；用户始终面对同一个客服。”
+Small badge:
+“双模型协作 · 目标架构”
+
+UPPER TWO-THIRDS: BACKEND MECHANISM.
+Use a well-composed left / center / right organization, approximately 20% / 54% / 23% width.
+
+LEFT panel heading:
+“共同使用的事实底座”
+Two SEPARATE source blocks:
+“知识库”
+“政策、产品说明、历史案例”
+“提供可追溯的知识依据”
+and
+“业务 API”
+“订单、账号、服务状态”
+“提供已授权的实时事实”
+Each source clearly supplies evidence to BOTH model branches in the center through a shared evidence rail. Never draw the API as part of the knowledge database. Use legible labels “知识依据” and “实时事实”.
+Small note at the bottom of this left panel:
+“缺数据先补齐，换强模型不能补出事实。”
+
+CENTER main heading:
+“后台：先选任务，再选模型”
+Top input:
+“用户消息 + 当前上下文”
+down to a routing box:
+“会话状态机 / 任务路由”
+small copy inside:
+“维护上下文、任务状态和处理归属”
+From this routing box draw TWO direct branches. The SIMPLE branch arrow is labeled “常见问题 / 信息待补齐”. The COMPLEX branch arrow is labeled “复杂问题 / 多步分析”. Complex requests can go straight to the high-capability model without a mandatory first answer from the lightweight model.
+
+BLUE branch box:
+“轻量交互模型”
+“低成本，优先低延迟”
+“常见咨询 · 信息补齐 · 已知事实整理”
+“有充分依据时，直接形成答案”
+PURPLE branch box:
+“高能力分析模型”
+“较强推理，按需调用”
+“复杂排障 · 多条件规则 · 综合分析”
+“输出：结论 + 证据 + 下一步”
+Between these model boxes, include a small optional one-way escalation arrow BLUE to PURPLE, clearly labeled:
+“检查未通过，可升级”
+This arrow must be visually distinguished from the two direct entry branches. It does NOT mean every simple query must call the high-capability model.
+
+Both branches converge into ONE shared output gate:
+“统一回复协调器”
+with concise internal rows:
+“证据核对 · 业务规则 · 必要确认”
+“会话 / 轮次 / 上下文版本校验”
+“共享回复队列，只发当前有效结果”
+Small nearby annotation:
+“高能力模型结果可直接回复，无需强制由轻量模型重写。”
+Then one output arrow to:
+“同一个客服窗口”
+Include a small conditional handoff branch from the shared gate:
+“失败 / 超时 / 超出权限 → 说明情况，转人工”
+Keep all source, model and gate arrows logically clear with no line crossing text.
+
+RIGHT explanatory panel heading:
+“交流体感如何保证”
+Four distinct concise items, each with a precise icon:
+“先回应诉求”
+“确认问题或补齐信息，结论有依据再给”
+“等待有反馈”
+“由真实任务事件显示进度，避免反复催等”
+“上下文连续”
+“新信息更新任务，丢弃受影响的旧结果”
+“输出一个声音”
+“统一身份与出口，人工接管后停止自动办理”
+Also make an annotation visible:
+“快反馈 ≠ 先猜一个答案”
+This must be a caution, not a replacement for substantive useful communication.
+
+LOWER THIRD: THE USER EXPERIENCE, visually separated with a pale background, real dialogue-style bubbles and a readable timeline.
+Heading:
+“前台：用户实际经历的是一段连续对话”
+Small label:
+“示例交流顺序，不代表实测耗时或真实订单”
+
+First short row with blue marker:
+“简单问题”
+“用户：多久发货？”
+arrow to
+“轻量模型查知识”
+arrow to
+“客服：现货通常 48 小时内发出。”
+Caption:
+“答案明确时，直接回答，不额外调用高能力模型。”
+
+Second longer row with purple marker:
+“复杂问题”
+Four numbered stages, using two short lines per bubble to keep the text large:
+“1 接住问题”
+“客服：我先核对订单和配送记录。”
+arrow to
+“2 必要追问”
+“客服：这次要查询哪笔订单？”
+arrow to
+“3 真实进度”
+“状态：正在查询物流并核对规则。”
+arrow to
+“4 统一结果”
+“客服：说明查证结果，给出下一步或完整转人工。”
+Below this complex timeline show one simple small cycle:
+“用户中途补充 → 更新上下文 → 校验结果版本 → 继续当前对话”
+This is not two models taking turns inventing answers. The lightweight model can collect missing input while the deeper task is pending; a changed critical fact invalidates affected older results.
+
+BOTTOM implementation ribbon:
+“实现关键：会话状态机 + 异步分析任务 + 事件流反馈（SSE）+ 结果版本校验”
+Smaller footer:
+“模型能力与响应速度需实测；所有模型共用权限、业务规则和确认边界。”
+
+Accuracy constraints:
+- The term high-capability refers to reasoning capability, not an automatic guarantee of truth or guaranteed latency.
+- A quick acknowledgment / state update is different from a quick factual answer. Simple model answers only when evidence supports them.
+- Do not draw the lightweight model and high-capability model both independently replying to the user.
+- Never make the lightweight model a mandatory rewriter of high-capability results.
+- Complex can route directly to the high model; optional escalation is separate.
+- Knowledge sources provide facts; rules in the service enforce permissions, confirmation and idempotency.
+- Progress labels describe actual task events; do not claim completed checks before they happened.
+- Every quoted Chinese label must be rendered accurately. No fake statistics, no guaranteed response times, no watermarks.

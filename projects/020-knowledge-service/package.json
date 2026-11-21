@@ -1,0 +1,15 @@
+{
+  "name": "support-flow-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "可观察的 AI 客服架构与流程实验室",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "node --watch server.mjs",
+    "start": "node server.mjs",
+    "check": "node scripts/check.mjs",
+    "build": "node scripts/build-pages.mjs",
+    "test": "node --test test/*.test.mjs"
+  }
+}

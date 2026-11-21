@@ -1,0 +1,23 @@
+{
+  "title": "一位客服，两种模型，连续的交流体验",
+  "tool": "built-in image_gen",
+  "modelVersion": "not returned",
+  "width": 1585,
+  "height": 992,
+  "finalImage": "docs/knowledge-service-model-collaboration-v2.png",
+  "initialPrompt": "docs/knowledge-service-model-collaboration-v2-prompt.txt",
+  "targetedEditPrompt": "docs/knowledge-service-model-collaboration-v2-edit-prompt.txt",
+  "referenceImage": "docs/knowledge-service-blueprint.png",
+  "draftImage": "docs/knowledge-service-model-collaboration-v2-draft.png",
+  "sources": [
+    "https://www.anthropic.com/research/building-effective-agents",
+    "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-latency"
+  ],
+  "review": {
+    "modelRoles": "轻量交互与高能力分析明确区分，复杂可直接路由，升级为可选",
+    "evidence": "两模型共享已授权知识与业务事实",
+    "coordination": "单一输出出口，上下文版本校验，必要确认与人工接管",
+    "userExperience": "反馈与结论分离，真实进度、必要追问和连续上下文",
+    "scope": "目标方案与示例，不代表接入真实模型或实测时延"
+  }
+}

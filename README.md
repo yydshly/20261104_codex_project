@@ -24,6 +24,7 @@
 | 016 | [小工具商业机制与个人 AI 协作研究](projects/016-solo-business-study/README.md) | [Feng_YQ](https://x.com/Feng_YQ) · [闷声发大财](https://msfdcszhd.com/) · 逐项官网与用户原帖 | 拆解 10 个工具的能力、获客和收费，保留 20 种扩展设想、15 家企业岗位抽样及 AI 替代核对。价值在理解持续监测、流程承接与结果交付，帮助个人减少误投，并通过样例和反馈形成 AI 协作目标；当前无立项推荐。 | [已有研究引导图](#solo-business-study-guide) | [在线研究与当前理解](https://yydshly.github.io/20261104_codex_project/016-solo-business-study/) |
 | 018 | [潮光 · 游戏 Skill 能力与价值研究](projects/018-game-skill-product/README.md) | [asset-maker](https://github.com/Be1l-ai/asset-maker) · [threejs-Skills](https://github.com/zafmy/threejs-Skills) · [八项清单来源](harbor-skill-demo/skill-sources/manifest.json) | 研究 game-design-theory 等八项选型与两轮采用，在《潮光》三章动作游戏中实际调用 create-3d-assets、create-vfx、create-sfx 和 3d-ultra-realistic-water，展示低模 CSG/AO、24 帧特效、材质音效与动态海面，保留来源、配方、实录和验证。确认资源与代码复用；新增玩法单独归属，同模型 A/B、开发提速、返工减少与玩家偏好增益尚未证实。 | [已有研究总览图](#game-skill-product-guide) | [在线研究与效果](https://yydshly.github.io/20261104_codex_project/018-game-skill-product/research.html#overview) · [完整游戏](https://yydshly.github.io/20261104_codex_project/018-game-skill-product/) |
 | 019 | [投影打怪玩具：效果、意义与研究判断](projects/019-projection-play-study/README.md) | [noni__z 原帖](https://x.com/noni__z/status/2120168976135209223) · Nex / LUMOplay 官方资料 | 归档可见效果、童趣解释、产品能力与家庭意义，保留城市扩展和偏题纸样。当前新增研究价值有限，停止继续立项与演示；原机、复玩和付费未实测。 | [一图汇总](#projection-play-guide) | [研究归档网页](https://yydshly.github.io/20261104_codex_project/019-projection-play-study/) |
+| 020 | [知识库与客服业务闭环研究](projects/020-knowledge-service/README.md) | 自主架构探索 · [工作流与路由参考](https://www.anthropic.com/research/building-effective-agents) | 研究知识库怎样支撑可信回答、按需分析和客服跟进。以共享证据、模型路由、统一交流、规则确认与人工闭环构成架构，用包裹延迟原型和30项能力对照说明实现边界；双模型与真实收益待试点验证。 | [已有双模型引导图](#knowledge-service-guide) | [在线研究与演示](https://yydshly.github.io/20261104_codex_project/020-knowledge-service/) |
 
 项目按收录顺序从 `001` 开始编号。新条目按编号追加，已分配的编号保持固定。索引摘要用一两句话写清研究对象和关注点。完成验证后，可补上一条主要发现。
 
@@ -274,3 +275,18 @@ Adam Chernick 个人制作、扩展和组合的网页 3D 实验，部分基于 T
 当前确认具体工具与代码复用、视听资源交付与本次可重建性。没有运行同模型、同需求的独立 A/B，首次开发耗时和完整返工次数未知；尚不能证明更快、更少缺陷、更少返工或玩家更喜欢，也未证明 Skill 文档包装比直接使用同一 SDK 更有价值。引导图沿用已生成的原图，图内发布状态为研究阶段记录；公开包保留 MIT 运行时许可，不分发未声明许可的工具包、复制模板或上游 Skill 全文。
 
 [在线研究与一图总览](https://yydshly.github.io/20261104_codex_project/018-game-skill-product/research.html#overview) · [完整三章游戏](https://yydshly.github.io/20261104_codex_project/018-game-skill-product/) · [资源展台](https://yydshly.github.io/20261104_codex_project/018-game-skill-product/gallery.html) · [完整研究摘要](projects/018-game-skill-product/README.md) · [来源与发布范围](harbor-skill-demo/THIRD-PARTY-NOTICES.md)
+
+
+<a id="knowledge-service-guide"></a>
+
+### 020 · 知识库与客服业务闭环研究
+
+研究知识库怎样支撑可信回答、按需分析和客服跟进。以共享证据、模型路由、统一交流、规则确认与人工闭环构成架构，用包裹延迟原型和30项能力对照说明实现边界；双模型与真实收益待试点验证。
+
+![本轮已生成的双模型协作引导图：轻量交互、高能力分析、共享证据、统一回复与用户交流时间线](projects/020-knowledge-service/public/assets/knowledge-service-mechanism.png)
+
+知识建设由资料盘点、解析切分、业务审核、索引发布走向更新撤回；在线客服通过会话与鉴权、知识和实时工具、快慢处理、统一回复、确认写入及人工工单完成服务。快慢是处理路径，一个模型也可采用不同配置；高能力模型按需分析，规则控制权限和办理。
+
+网页保留两张已有引导图、八步目标场景、9个实施主题与30项可筛选能力（14已实现、4演示、12待开发），每项列负责人、下一步和验收条件。公开版在浏览器内存运行教学规则，刷新清空；服务端机制以Node本地源码为准。35项自动测试通过。真实模型、鉴权、持久化、异步协调、承运商与坐席尚未接入，生产收益未验证。
+
+[研究摘要](https://yydshly.github.io/20261104_codex_project/020-knowledge-service/#research) · [实施全景](https://yydshly.github.io/20261104_codex_project/020-knowledge-service/#guide/overview) · [能力对照](https://yydshly.github.io/20261104_codex_project/020-knowledge-service/#guide/capabilities) · [研究与源码](projects/020-knowledge-service/README.md)
