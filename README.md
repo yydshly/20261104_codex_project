@@ -17,6 +17,7 @@
 | 009 | [GPT-6.2 的 3D 生成能力探索](projects/009-gpt62-3d-capability/README.md) | 自主实践 · [Three.js](https://github.com/mrdoob/three.js) · [Blender](https://www.blender.org/) | 研究 GPT-6.2 如何把自然语言需求转成可编辑的 3D 角色、动作、特效与故事场景，并通过实机观察和反馈继续修改。16 个角色、三类场景与 Blender 造型对照展示原型制作、视觉讲解和跨场景复用价值，玩家决策与长期游戏循环继续验证。 | [本轮生成的引导图](#gpt62-3d-guide) | [在线研究与能力价值](https://yydshly.github.io/20261104_codex_project/009-gpt62-3d-capability/journey.html) |
 | 010 | [未来社会叙事与 AI 价值研究](projects/010-future-society-study/README.md) | 自主实践 · [Three.js](https://github.com/mrdoob/three.js) · [MiniMax](https://www.minimax.io/) | 研究怎样从人物的小事呈现五年、十年后的社会，比较 AI 在协调负担、资源调度和劳动记录中的作用。五个可操作 3D 原型、三年代同幕对照与 MiniMax 配音形成可复用的讲解方式，世界规则、年代差异和观众理解仍待深化。 | [已有研究引导图](#future-society-guide) | [在线研究与五个原型](https://yydshly.github.io/20261104_codex_project/010-future-society-study/) |
 | 011 | [云隙行 · 3D 骑行世界研究](projects/011-yunxi-ride/README.md) | 自主实践 · 浏览器 WebGL 原型 | 研究怎样把 3D 鹈鹕骑车做成可游历的修仙世界。程序化天路、轮脚同步与承载、自游避障、三处秘境、双曲目跟拍和完整界面实录，沉淀可复用的关卡原型、状态驱动动画、导览与验收方法。 | [本轮生成的引导图](#yunxi-ride-guide) | [在线研究与试玩](https://yydshly.github.io/20261104_codex_project/011-yunxi-ride/) |
+| 012 | [暮色之堡与知识世界探索](projects/012-castle-knowledge-world/README.md) | 自主实践 · [Three.js](https://github.com/mrdoob/three.js) · [从零造物](https://github.com/bluesky-rgb/cong-ling-zao-wu) | 用 Three.js + HTML 实现第一人称从渔屋码头渡湖、入堡与螺旋登塔，研究怎样把科普、历史、音乐和农业融入可漫游世界。沉淀可复用的场景、通行与操作基础，并提出器物学习与生活联动方案，知识模型和学习成效继续验证。 | [已有研究全景图](#castle-knowledge-world-guide) | [在线研究与原型试玩](https://yydshly.github.io/20261104_codex_project/012-castle-knowledge-world/) |
 
 项目按收录顺序从 `001` 开始编号。新条目按编号追加，已分配的编号保持固定。索引摘要用一两句话写清研究对象和关注点。完成验证后，可补上一条主要发现。
 
@@ -159,6 +160,20 @@ Adam Chernick 个人制作、扩展和组合的网页 3D 实验，部分基于 T
 可复用价值在于把空间生成、动作状态、目的地引导和可见反馈组合成可试玩的 3D 原型，也能用实时读数和连续实录发现步频、碰撞或引路问题。网页保留完整界面实录、能力与证据、12 条整理版提示词和 X 发布草稿。碰撞与承载属于游戏化近似，跟拍基于预设曲目，复杂路径及设备性能仍可继续测量。
 
 [在线研究与能力价值](https://yydshly.github.io/20261104_codex_project/011-yunxi-ride/#capabilities) · [直接试玩](https://yydshly.github.io/20261104_codex_project/011-yunxi-ride/play.html) · [完整研究摘要](projects/011-yunxi-ride/README.md)
+
+<a id="castle-knowledge-world-guide"></a>
+
+### 012 · 暮色之堡与知识世界探索
+
+从 Three.js 城堡画面出发，完成可以渡湖、入堡和登塔的连续 3D 原型。场景覆盖城堡、湖岸、林地、渔屋和旧塔遗迹；第一人称从渔屋码头登船，靠岸后经石阶、吊桥、城门和大厅，沿 60 级螺旋石阶抵达塔顶。对闪烁、起点和登船位置的反馈，推动我们核对视觉、路线与操作逻辑。
+
+![沿用本轮已有的暮色之堡研究全景图，展示原型实帧、思考演变、知识入口、学习机制、复用价值与下一步验证](docs/012-castle-knowledge-world/research-overview.png)
+
+已经获得的价值是可编辑的程序化场景、连续通行和水陆切换基础，可用于探索关卡、互动展示与知识章节原型。进一步的方向是连接《从零造物》的选题、原理与资料出处，让玩家在同一个生活世界中发现科学、历史、音乐和农业的兴趣。网页用“暮湖秋集”的六处候选地点，说明从好奇、操作与反馈走向解释和迁移的设想。
+
+引导图沿用本轮已经生成的版本。网页提供研究摘要、可点击地点提案、实景截图和原型试玩，区分已实现能力、讨论提案与待验证成效。载重、水车、作物等学习模型尚待制作，时代地域与首批体验者仍需确定，真实学习收益需要观察验证。
+
+[在线研究与价值](https://yydshly.github.io/20261104_codex_project/012-castle-knowledge-world/#summary) · [直接试玩](https://yydshly.github.io/20261104_codex_project/012-castle-knowledge-world/play.html) · [已有研究引导图](https://yydshly.github.io/20261104_codex_project/012-castle-knowledge-world/#guide-image) · [完整研究摘要](projects/012-castle-knowledge-world/README.md)
 
 ## 收录新项目
 

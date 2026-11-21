@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1800">
+  <title>暮色之堡 × 从零造物 · 研究全景图</title>
+  <style>
+    :root{color-scheme:dark;--bg:#171e21;--panel:#202a2d;--ink:#eee9dd;--muted:#b6c1be;--gold:#e6c183;--green:#a8cbb6;--blue:#adbed7;--line:#a7b8b62e}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:'Microsoft YaHei','PingFang SC',sans-serif;font-size:23px;line-height:1.65}.poster{width:1800px;margin:auto;padding:68px 76px 46px;background:radial-gradient(ellipse at 10% 0%,#5749392b,transparent 28%),radial-gradient(ellipse at 95% 35%,#4a686024,transparent 27%),var(--bg)}h1,h2,h3,p{margin:0}h1,h2{font-family:'Noto Serif CJK SC','Songti SC',SimSun,serif;font-weight:500}h1{font-size:71px;line-height:1.27;letter-spacing:.025em}h1 em{font-style:normal;color:var(--gold)}h2{font-size:36px;line-height:1.45}h3{font-size:26px;font-weight:500;line-height:1.5}p{color:var(--muted)}strong{font-weight:600;color:var(--ink)}small{font-size:18px}.kicker{font-size:18px;letter-spacing:.17em;color:var(--gold)}.masthead{display:flex;align-items:center;justify-content:space-between;border-top:2px solid var(--gold);padding-top:16px;margin-bottom:27px}.edition{font-size:18px;color:#9caaa8;letter-spacing:.08em}.title-row{display:grid;grid-template-columns:1fr 400px;gap:50px;align-items:center}.subtitle{font-size:24px;line-height:1.9;max-width:1120px;margin-top:17px}.thesis{padding:18px 0 18px 26px;border-left:2px solid #d3b67c88;font-size:24px;color:var(--ink);line-height:1.8}.thesis span{display:block;color:var(--gold);font-size:18px;margin-top:11px}.legend{display:flex;gap:23px;margin:22px 0 32px;font-size:18px;color:var(--muted)}.legend span:before{content:'';display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:9px;background:currentColor}.done{color:var(--green)!important}.idea{color:var(--gold)!important}.pending{color:var(--blue)!important}.section{padding-top:27px;margin-top:30px;border-top:1px solid var(--line)}.section-title{display:flex;align-items:center;justify-content:space-between;margin-bottom:21px;gap:20px}.heading{display:flex;align-items:baseline;gap:18px}.num{color:var(--gold);font-family:Georgia,serif;font-size:22px;letter-spacing:.06em}.badge{display:inline-block;font-size:17px;line-height:1.5;padding:5px 12px;border:1px solid currentColor;border-radius:3px;color:var(--gold);white-space:nowrap}.section-note{font-size:19px;color:var(--muted)}.line{height:1px;background:var(--line)}.row{display:flex;gap:15px}.panel{background:var(--panel);border:1px solid var(--line);border-radius:4px}.evidence{display:grid;grid-template-columns:minmax(0,1.9fr) minmax(0,1fr);gap:20px}.hero-shot{margin:0}.hero-shot img{display:block;width:100%;border-radius:4px;border:1px solid #ced5c52b}.hero-shot figcaption{font-size:19px;margin-top:9px;color:var(--muted)}.minor-shots{display:grid;gap:17px;grid-template-rows:1fr 1fr}.minor-shots figure{margin:0;display:grid;grid-template-rows:1fr auto;min-height:0}.minor-shots img{width:100%;height:100%;object-fit:cover;min-height:0;border:1px solid var(--line);border-radius:3px}.minor-shots figcaption{font-size:19px;color:var(--muted);padding-top:7px}.route{display:flex;align-items:center;flex-wrap:wrap;gap:9px 13px;margin:21px 0 14px;padding:16px 20px;background:#24312f;border-left:3px solid var(--green);font-size:21px}.route span{color:var(--green)}.route b{font-weight:400;color:#71978c}.proof-lines{display:grid;grid-template-columns:1.2fr 1fr;gap:22px;font-size:20px;line-height:1.8}.proof-lines p{padding:3px 0}.proof-lines strong{color:var(--green);font-weight:400;margin-right:11px}.research{display:grid;grid-template-columns:repeat(5,1fr);gap:13px}.research article{padding:18px 18px 17px;background:#20292b;border-top:2px solid #c3a06c70}.research .step{font-size:17px;color:#8fa79f;letter-spacing:.05em}.research h3{font-size:25px;margin:6px 0 9px}.research p{font-size:20px;line-height:1.75}.research small{display:block;color:var(--gold);margin-top:10px}.understanding{display:grid;grid-template-columns:1fr 1fr;gap:18px 28px}.understanding article{display:grid;grid-template-columns:38px 1fr;gap:13px;padding:16px 0;border-top:1px solid var(--line)}.understanding .mark{font-family:Georgia,serif;color:var(--gold);font-size:25px}.understanding p{font-size:21px;margin-top:7px;line-height:1.85}.shared-understanding{margin-top:19px;padding:16px 23px;border-left:3px solid var(--gold);background:#8b74451b;font-size:22px}.shared-understanding strong{color:var(--gold);font-weight:400}.world-layout{display:grid;grid-template-columns:660px 1fr;gap:26px}.map{position:relative;background:#202d2d;border:1px solid var(--line);border-radius:4px;overflow:hidden;min-height:664px}.map svg{width:100%;height:100%;position:absolute;inset:0}.map-title{position:absolute;top:23px;left:26px;font-size:17px;color:var(--gold);letter-spacing:.12em}.map-label{position:absolute;transform:translate(-50%,-50%);padding:6px 11px;border:1px solid #b9cfac72;border-radius:3px;background:#233632e8;font-size:20px;white-space:nowrap;color:#d6e2cf}.map-label.center{font:27px SimSun,serif;color:#dfc69d;background:transparent;border:0;letter-spacing:.1em}.map-foot{position:absolute;bottom:23px;left:26px;right:24px;color:#99b1a5;font-size:17px;line-height:1.7}.interest-list{display:grid;grid-template-columns:1fr 1fr;gap:16px}.interest-list article{padding:17px 20px;background:#232b2c;border-top:1px solid #bba37577}.interest-list h3{font-size:23px;color:var(--gold);margin-bottom:8px}.interest-list p{font-size:20px;line-height:1.8}.interest-list small{display:block;font-size:18px;color:#91ac9e;margin-top:10px}.world-caption{margin-top:17px;font-size:23px;color:var(--ink);text-align:center;padding:14px 20px;border-block:1px solid var(--line)}.world-caption span{color:var(--gold)}.learning-loop{display:grid;grid-template-columns:repeat(5,1fr);gap:18px}.learning-loop article{position:relative;padding:17px;background:#202e2d;border-top:2px solid var(--green)}.learning-loop article:not(:last-child):after{content:'→';position:absolute;top:23px;right:-18px;color:var(--green);font-size:24px}.learning-loop h3{font-size:24px;margin-bottom:8px}.learning-loop p{font-size:20px;line-height:1.8}.example{margin-top:18px;padding:20px 24px;background:#25322f;border-left:3px solid var(--green)}.example h3{color:var(--green);font-size:23px;margin-bottom:7px}.example p{font-size:21px;line-height:1.85}.layers{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:17px;font-size:20px}.layers div{border:1px solid var(--line);padding:13px 17px}.layers strong{color:var(--gold);font-weight:400;margin-right:12px}.connection{display:grid;grid-template-columns:1fr 70px 1fr;align-items:stretch;gap:15px}.connection article{padding:22px 25px;border:1px solid var(--line);background:#202a2b}.connection h3{color:var(--gold);margin-bottom:9px}.connection p{font-size:21px;line-height:1.85}.connection .arrow{display:flex;align-items:center;justify-content:center;font-size:40px;color:var(--gold)}.connection-flow{margin-top:17px;padding:17px 23px;background:#dfbb7c0d;border:1px solid #dabb7c40;text-align:center;font-size:22px}.connection-foot{display:flex;justify-content:space-between;gap:24px;font-size:19px;margin-top:13px}.connection-foot p{max-width:55%}.value-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.value-grid article{padding:18px 20px;border-top:1px solid #9cbeaa77;background:#20292b}.value-grid h3{font-size:24px;margin-bottom:8px}.value-grid p{font-size:20px;line-height:1.8}.value-grid small{color:var(--green);display:block;line-height:1.7;margin-top:10px}.validation{margin-top:19px;padding:16px 23px;border:1px solid #adbed747;background:#adbed709;font-size:21px;color:var(--blue)}.validation span{color:var(--ink)}.next-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.next-grid article{padding:19px 22px;background:#262c2b;border-left:2px solid var(--gold)}.next-grid .step{color:var(--gold);font-size:17px}.next-grid h3{font-size:25px;margin:7px 0}.next-grid p{font-size:20px;line-height:1.8}.boundaries{display:grid;grid-template-columns:1fr 1fr;gap:14px 25px;margin-top:22px;padding:20px 22px;border:1px solid var(--line);font-size:20px;line-height:1.8}.boundaries strong{color:var(--blue);font-weight:400;margin-right:9px}.foot{border-top:2px solid #c6a36b77;margin-top:30px;padding-top:21px;display:flex;justify-content:space-between;gap:40px;font-size:18px;line-height:1.85}.foot p:first-child{max-width:1100px}.foot .date{white-space:nowrap;color:var(--gold);text-align:right}.foot .url{color:#b8c9c0;font-family:Arial,sans-serif;font-size:18px}.plain-note{font-size:19px;color:#a7b7b1;margin-top:14px}.evidence-title{display:flex;gap:20px;align-items:center}
+  </style>
+</head>
+<body>
+<main class="poster" id="poster">
+  <header>
+    <div class="masthead"><p class="kicker">暮色之堡 × 从零造物 / 研究全景图</p><p class="edition">RESEARCH ATLAS 01 · 2026.11.21</p></div>
+    <div class="title-row"><div><h1>从暮色之堡，<br>到<em>可漫游的知识世界</em></h1><p class="subtitle">让科普、历史、音乐与农业，发生在同一个可以亲手参与的世界里。</p></div><p class="thesis">世界先让人想留下来，<br>好奇再把人带向知识。<span>我们的理解与探索方向</span></p></div>
+    <div class="legend"><span class="done">已有原型</span><span class="idea">候选提案</span><span class="pending">学习效果待验证</span></div>
+  </header>
+
+  <section>
+    <div class="section-title"><div class="heading"><span class="num">01</span><h2>已有原型与效果展示</h2></div><span class="badge done">三张现有原型实帧</span></div>
+    <div class="evidence">
+      <figure class="hero-shot"><img src="preview.jpg" alt="城堡与湖区原型实帧"><figcaption>Three.js + HTML · 城堡、湖岸、松林与遗迹 · 暮色及月夜切换</figcaption></figure>
+      <div class="minor-shots"><figure><img src="boat-preview.jpg" alt="第一人称划船原型实帧"><figcaption>第一人称划船 · 可见双桨、浮灯航标、靠岸下船</figcaption></figure><figure><img src="tower-preview.jpg" alt="登塔俯瞰原型实帧"><figcaption>塔顶俯瞰 · 60 级螺旋石阶连接大厅与观景台</figcaption></figure></div>
+    </div>
+    <div class="route"><span>渔屋码头</span><b>→</b>登船渡湖<b>→</b>城堡栈台<b>→</b>山崖石阶<b>→</b>吊桥城门<b>→</b>大厅<b>→</b>螺旋楼梯<b>→</b><span>塔顶</span></div>
+    <div class="proof-lines"><p><strong>已实现</strong>桌面与触屏操作、本地离线运行、城内探索、岸上步道与往返。</p><p><strong>已修正</strong>起点改到渔屋码头，船与路线对应，消除门框重叠闪烁。</p></div>
+    <p class="plain-note">这些实帧展示空间与操作原型。下文的秋集、水车、农业与音乐学习交互属于探索提案。</p>
+  </section>
+
+  <section class="section">
+    <div class="section-title"><div class="heading"><span class="num">02</span><h2>我们研究了什么，想法如何演变</h2></div><span class="section-note">画面 → 空间 → 操作 → 玩法 → 兴趣</span></div>
+    <div class="research">
+      <article><span class="step">1 / 空间氛围</span><h3>想进去看看</h3><p>丰富的城堡、黄昏光影与湖面倒影，建立一个想去的地方。</p><small>基础画面已有原型</small></article>
+      <article><span class="step">2 / 路线体验</span><h3>真的走进去</h3><p>步行、登船、靠岸、上山与登塔，形成连续的到访过程。</p><small>关注起点、方向与通行</small></article>
+      <article><span class="step">3 / 操作体感</span><h3>操作有回应</h3><p>追问速度、惯性、重心、阻力和反馈，寻找愿意反复玩的动作。</p><small>更深的操控模型待建</small></article>
+      <article><span class="step">4 / 游戏方向</span><h3>怎样值得玩</h3><p>讨论闯关、副本、修仙、能力成长和任务推进等候选机制。</p><small>具体游戏类型仍开放</small></article>
+      <article><span class="step">5 / 当前愿景</span><h3>在生活中发现兴趣</h3><p>把科普、历史、音乐和农业融入同一个世界，允许各自深入。</p><small>形成可验证的方向提案</small></article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-title"><div class="heading"><span class="num">03</span><h2>我们形成的理解</h2></div><span class="badge idea">愿景与工作解释</span></div>
+    <div class="understanding">
+      <article><span class="mark">01</span><div><h3>生活把各个领域连接起来</h3><p>水车灌溉，谷物磨粮，粮船进城，集市称重，院落奏乐。一件事自然牵出多个领域。</p></div></article>
+      <article><span class="mark">02</span><div><h3>兴趣决定探索顺序</h3><p>可以循声去听，也可以停在水轮旁追问。玩家的驻足、尝试和问题，决定深入的路径。</p></div></article>
+      <article><span class="mark">03</span><div><h3>操作带来可观察的结果</h3><p>先改变一个条件，看见差异，再查看剖面、原理与出处。解释随好奇逐层展开。</p></div></article>
+      <article><span class="mark">04</span><div><h3>知识能够在新情形里使用</h3><p>从“我看到了”走向“我能预测、能解释、能再次尝试”，并与现实观察和实验相连。</p></div></article>
+    </div>
+    <p class="shared-understanding"><strong>“真实”的工作解释</strong>　生活关系合理，原理有依据，史实可回查，画面可以采用风格化建模。时代、地域与复刻精度需要另行确定。</p>
+  </section>
+
+  <section class="section">
+    <div class="section-title"><div class="heading"><span class="num">04</span><h2>一场秋集，六个兴趣入口</h2></div><span class="badge idea">候选章节 · 暮湖秋集</span></div>
+    <div class="world-layout">
+      <div class="map">
+        <svg viewBox="0 0 660 670" preserveAspectRatio="none" aria-hidden="true">
+          <defs><linearGradient id="water" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3c6665"/><stop offset="1" stop-color="#293e4a"/></linearGradient></defs>
+          <path d="m0 178 84-15 65-74 61 34 101-34 67 44 75-33 93 63 114-25V0H0Z" fill="#394b40"/>
+          <path d="m0 539 81-59 83 17 73-50 73 40 77-25 47 21 91-65 45 37 90-11v226H0Z" fill="#39483b"/>
+          <path d="m0 214 93-6 83 73 42-61 72-11 64-63 42 73 52-9 66 63 146-37v160l-91-12-62 45-68-16-68 36-77-30-81 27-51-42-78 9L0 365Z" fill="url(#water)" stroke="#9eb3a459"/>
+          <path d="M112 492Q95 411 189 245T348 130Q518 158 529 343T390 560Q318 594 271 549" fill="none" stroke="#e2c18a9c" stroke-width="3" stroke-dasharray="6 8"/>
+          <g fill="none" stroke="#86a69c66" stroke-width="2"><path d="M30 327q69-26 121 4m37 74q87-20 140-6m26-104q57-14 105 11m-52 83q53-8 88 5M93 373q39-19 82-6"/></g>
+          <g fill="#b6a17c99" stroke="#e1c59b88"><path d="m268 345 12-16h43l13 18 13-8 12 15v51h-93Z"/><path d="M278 329v-52l13-28 14 28v50m17 2v-68l16-41 16 41v82m-49-17v-43l9-18 10 18v48"/></g>
+          <g fill="#58765a" stroke="#7a987466" stroke-width="2"><path d="m66 161 15-36 16 36H87v15H75v-15Zm37 30 14-33 15 33h-9v13h-13v-13Zm450 310 13-34 16 34h-10v14h-11v-14ZM478 125l13-29 14 29h-10v12h-10v-12ZM98 565l13-30 14 30h-8v12h-12v-12Z"/></g>
+          <path d="m301 66 81 14-20 43-79-11Z" fill="#6d7b4f" stroke="#a4aa6d"/><path d="m306 73 60 10m-65 1 59 11m-64 0 58 11" fill="none" stroke="#b9b27688" stroke-width="2"/>
+          <g transform="translate(147 192)" stroke="#bc9c6b" fill="none" stroke-width="3"><circle r="21"/><circle r="6"/><path d="M0-20V20M-20 0h40m-35-15 29 29m-29 0 29-29"/></g>
+          <g transform="translate(512 248)" fill="#a99470" stroke="#c4ac83"><path d="M-23 3V-24h43V3Zm-7-28 29-22 28 22Z"/><circle cy="-10" r="6" fill="#5b5144"/></g>
+          <g transform="translate(472 456)" fill="none" stroke="#bca77e" stroke-width="3"><path d="M-28 22h57M0 22v-48m-34 8 66-5m-54 7v18m42-21v18m-55 0h24m18 0h24"/></g>
+        </svg>
+        <span class="map-title">CHAPTER SKETCH / 生活关系示意</span>
+        <span class="map-label" style="left:20%;top:70%">码头 · 小船</span>
+        <span class="map-label" style="left:25%;top:33%">水渠 · 水车</span>
+        <span class="map-label" style="left:51%;top:18%">田地 · 谷物</span>
+        <span class="map-label" style="left:78%;top:42%">磨坊 · 石磨</span>
+        <span class="map-label" style="left:75%;top:73%">集市 · 杆秤</span>
+        <span class="map-label" style="left:43%;top:84%">庭院 · 乐声</span>
+        <span class="map-label center" style="left:47%;top:58%">暮湖城</span>
+        <span class="map-foot">秋集名称、地图布局与以下学习交互均为讨论提案。</span>
+      </div>
+      <div class="interest-list">
+        <article><h3>码头 · 小船</h3><p>装一袋粮，观察吃水与偏载，再比较怎样摆放。</p><small>牵出浮力、重心与运输方式</small></article>
+        <article><h3>水渠 · 水车</h3><p>调节水闸，观察水斗怎样取水、抬水与倒水。</p><small>牵出水流、能量与灌溉工程</small></article>
+        <article><h3>田地 · 谷物</h3><p>改变灌溉条件，保留对照田，加速观察生长。</p><small>牵出土壤、季节与农业经验</small></article>
+        <article><h3>磨坊 · 石磨</h3><p>推动磨盘，比较进料，打开剖视查看磨齿。</p><small>牵出摩擦、加工与机械传动</small></article>
+        <article><h3>集市 · 杆秤</h3><p>移动秤砣，看秤杆平衡，尝试称不同的货物。</p><small>牵出力矩、计量制度与交易</small></article>
+        <article><h3>庭院 · 乐声</h3><p>循声跟奏，尝试指孔组合，比较结构与音高。</p><small>牵出发声、共鸣与乐器文化</small></article>
+      </div>
+    </div>
+    <p class="world-caption"><span>一袋谷物从田里到集市的旅程</span>　把农业、技术、运输、历史与音乐串起来。</p>
+  </section>
+
+  <section class="section">
+    <div class="section-title"><div class="heading"><span class="num">05</span><h2>让好奇转化为主动学习</h2></div><span class="section-note">操作、反馈、解释与迁移</span></div>
+    <div class="learning-loop">
+      <article><h3>看见现象</h3><p>水轮停了，田边的水还在流。</p></article>
+      <article><h3>预测结果</h3><p>把闸门再开一点，会怎样？</p></article>
+      <article><h3>动手改变量</h3><p>只改一个条件，保留对照。</p></article>
+      <article><h3>比较反馈</h3><p>看流量、转速和提水量。</p></article>
+      <article><h3>换个情形再用</h3><p>换了水位，试着让田渠得到水。</p></article>
+    </div>
+    <div class="example"><h3>水车提水的一段体验</h3><p>先猜开闸后的变化，再观察水斗把水抬进高处田渠。打开剖视看清结构，最后面对不同水位或提水高度，调整装置并解释依据。</p></div>
+    <div class="layers"><div><strong>体感层</strong>动作、阻力、惯性、声音</div><div><strong>理解层</strong>变量、剖面、因果、历史出处</div><div><strong>迁移层</strong>遇到新情况，能预测并解释</div></div>
+  </section>
+
+  <section class="section">
+    <div class="section-title"><div class="heading"><span class="num">06</span><h2>与《从零造物》连接起来</h2></div><span class="badge idea">内容连接提案</span></div>
+    <div class="connection">
+      <article><h3>从零造物 · 内容基础</h3><p>科技树、拍摄本、原理说明、资料来源、待核事项，为器物和生活提供可追查的内容起点。</p></article>
+      <div class="arrow">↔</div>
+      <article><h3>暮色之堡 · 空间基础</h3><p>地点、路线、器物与操作反馈，让玩家能走近、绕看和尝试，再决定要不要继续深入。</p></article>
+    </div>
+    <p class="connection-flow">在场景中遇见器物 → 亲手尝试 → 查看原理 → 深入视频与实验记录</p>
+    <div class="connection-foot"><p>可对接的已有选题　<strong>水车提水 · 石磨 · 杆秤 · 陶埙</strong></p><p>仓库将游戏化列为探索方向，具体方案需要小原型验证。</p></div>
+  </section>
+
+  <section class="section">
+    <div class="section-title"><div class="heading"><span class="num">07</span><h2>对我们的价值，以及如何验证</h2></div><span class="badge pending">预期价值 · 待使用者验证</span></div>
+    <div class="value-grid">
+      <article><h3>发现兴趣</h3><p>偶然遇见一件器物，找到原先不知道自己感兴趣的领域。</p><small>看自发停留、追问与重访</small></article>
+      <article><h3>建立联系</h3><p>把零散知识接成生活过程，理解不同地点如何相互影响。</p><small>看能否解释两个环节的联系</small></article>
+      <article><h3>理解空间与变化</h3><p>靠近、绕看、剖视、加速时间，使结构和因果能被观察。</p><small>看新条件下的预测和判断</small></article>
+      <article><h3>复用内容资产</h3><p>已有脚本、实验方案与知识条目，可以衍生出可操作的场景。</p><small>看制作维护成本与复用程度</small></article>
+      <article><h3>形成共同探索</h3><p>家庭一起尝试，老师组织讨论，创作者继续回答新问题。</p><small>看讨论、分享和继续探索意愿</small></article>
+      <article><h3>服务真实场景</h3><p>亲子共探、青少年自主学习、课堂器物讨论、文化场馆体验。</p><small>先选一类使用者验证需求</small></article>
+    </div>
+    <p class="validation"><span>验证依据</span>　主动停留、愿意重试、提出新问题、能解释原因、能把规律用到新情形。学习成效与使用意愿需要真实体验者验证。</p>
+  </section>
+
+  <section class="section">
+    <div class="section-title"><div class="heading"><span class="num">08</span><h2>下一步怎样做，哪些仍要研究</h2></div><span class="section-note">从一件器物开始</span></div>
+    <div class="next-grid">
+      <article><span class="step">第一步 / 完整一次尝试</span><h3>一处地点，一件器物</h3><p>候选为水车或小船载重，做通预测、操作、比较与解释。</p></article>
+      <article><span class="step">第二步 / 连接生活</span><h3>让变化影响另一处</h3><p>水车提水进入田渠，谷物运到磨坊，看玩家能否发现联系。</p></article>
+      <article><span class="step">第三步 / 容纳不同兴趣</span><h3>逐步扩成一场秋集</h3><p>加入秤、乐器与历史线索，根据真实停留和追问调整设计。</p></article>
+    </div>
+    <div class="boundaries">
+      <p><strong>待定</strong>首批体验者、时代地域、自由探索与任务推进的配合。</p>
+      <p><strong>待建</strong>载重、水车、作物等学习模型，标出公式、单位和简化条件。</p>
+      <p><strong>待核</strong>哥特式幻想城堡与北宋内容如何衔接，器物和文化组合需查证。</p>
+      <p><strong>分别记录</strong>模型演示、史料依据和真实实验，明确每种结论的依据。</p>
+    </div>
+  </section>
+
+  <footer class="foot"><p>整理自我们的讨论与《暮色之堡》现有原型。秋集名称、布局、学习交互与验证顺序属于探索提案。<br>内容参考　<span class="url">github.com/bluesky-rgb/cong-ling-zao-wu</span><br>详细整理　<span class="url">castle-at-dusk/world-notes.html</span></p><p class="date">2026.11.21<br>原型实帧 × 研究归纳<br>网页排版导出</p></footer>
+</main>
+</body>
+</html>

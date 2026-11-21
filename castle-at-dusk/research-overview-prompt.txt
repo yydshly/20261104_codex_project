@@ -1,0 +1,97 @@
+制作记录：内置图像生成服务两次因网络错误未返回结果。最终成品由 research-overview.html 原生排版并使用现有原型截图导出，2700 × 8297 像素。下文保留最初用于图像生成的制作提示词。
+
+Use case: infographic-diagram.
+Create ONE very detailed, professionally designed Chinese research synthesis infographic. Intended for reading at full resolution and sharing as one tall image. Portrait 2160 × 3840, or the highest available portrait resolution near that aspect ratio. Prioritize complete, legible Chinese text and strong hierarchy. This is an informative research atlas, not an advertising poster.
+
+Supporting input images:
+1. preview.jpg is the EXISTING castle and lake overview screenshot. Use as the large hero image panel, preserving this actual stylized 3D castle silhouette, lake and sunset.
+2. boat-preview.jpg is the EXISTING first-person rowing screenshot. Insert as one smaller evidence panel with the label 第一人称划船.
+3. tower-preview.jpg is the EXISTING first-person tower lookout screenshot. Insert as the second smaller evidence panel with the label 塔顶俯瞰.
+Treat these images as supporting inserts, not as images to redesign. Preserve their scene identity and visual details. Text labels around them should be newly typeset cleanly. Any illustrated farms/waterwheel/mill/music must explicitly belong to the proposed section, never the existing-feature section.
+
+Art direction:
+Elegant editorial atlas, dusk castle atmosphere, midnight teal background #171c1f, warm ivory Chinese text, muted gold section headings, sage-green existing-status labels, blue-gray validation labels. Crisp typography resembling Noto Sans CJK and Noto Serif CJK. Thin gold rules, tasteful cartographic lines and tiny icons. Balanced information-dense grid with wide margins and clear reading order from top to bottom. Use pale inset panels selectively to separate analysis from imagery. Keep secondary Chinese body text large enough to read when zoomed. Organize the text as eight distinct sections with numbered headings. Many meaningful captions, real content over decorative space. No meaningless filler text or duplicate paragraphs. Avoid excess decorative flourishes.
+
+All Chinese text below should be rendered accurately and should fit completely on the single canvas. You may wrap text within its logical block. Place the source/date strip at bottom. No colon or semicolon in prose. Use these exact contents:
+
+MAIN TITLE
+从暮色之堡，到可漫游的知识世界
+SUBTITLE
+让科普、历史、音乐与农业，发生在同一个可以亲手参与的世界里。
+SMALL KICKER
+我们的理解 · 研究过程 · 效果展示 · 探索方向与价值
+STATUS LEGEND
+已有原型  |  候选提案  |  学习效果待验证
+
+01 我们研究了什么
+唯美的 3D 场景 → 第一人称漫游 → 划船与登塔 → 有体感的玩法 → 在生活中发现兴趣
+空间研究　让人看懂自己在哪里、要去哪里
+交互研究　步行、转向、划桨、靠岸与登高形成连续体验
+方向讨论　闯关、副本、修仙仍是玩法候选
+当前愿景　知识融入世界，让玩家从自己的兴趣出发
+
+02 已有原型与效果
+[Use large castle overview plus two smaller screenshots here, with green status badge 已有原型.]
+Three.js + HTML · 桌面与触屏 · 本地离线运行
+渔屋码头 → 登船渡湖 → 城堡栈台 → 山崖石阶 → 吊桥城门 → 大厅 → 螺旋楼梯 → 塔顶
+已实现　暮色与月夜、第一人称漫游、划船靠岸、城内探索、登塔和返程
+已有修正　起点改到渔屋码头，船与路线相对应，消除门框重叠引起的闪烁
+NOTE BELOW EVIDENCE
+这些画面展示空间与操作原型。知识交互属于下一步提案。
+
+03 我们形成的理解
+生活把领域连接起来　水车灌溉，谷物磨粮，粮船进城，集市称重，院落奏乐
+兴趣决定探索顺序　可以循声去听，也可以停在水轮旁追问
+操作带来可见反馈　改变一个条件，看见变化，再决定要不要深入
+“真实”的工作解释　生活关系合理，原理有依据，史实可回查，画面可以风格化
+
+04 一场秋集，六个兴趣入口
+[Gold badge 候选章节 · 暮湖秋集. Make a compact illustrated map with a lake, castle, fields, waterwheel, mill, market and music courtyard. Connect the six labels below with fine arrows, and associate all six explanatory lines with their location. Clear separation from existing screenshot evidence.]
+码头 · 小船　装一袋粮，观察吃水与偏载，追问浮力和重心
+水渠 · 水车　调节水闸，观察提水过程，追问水流和能量
+田地 · 谷物　改变灌溉条件，对照生长，追问土壤与季节
+磨坊 · 石磨　推动磨盘，打开剖视，追问加工与传动
+集市 · 杆秤　移动秤砣，看秤杆平衡，追问力矩与计量史
+庭院 · 乐声　循声跟奏，比较音高，追问发声与乐器文化
+一袋谷物从田里到集市的旅程，把农业、技术、运输、历史与音乐串起来。
+秋集名称、布局与交互为讨论提案。
+
+05 学习怎样发生
+看见现象 → 预测结果 → 动手改变量 → 比较反馈 → 换个情形再用
+水车示例　先猜开闸后的变化，再看水斗如何取水、提水、倒进田渠，最后尝试不同水位。
+体感层　动作、阻力、惯性、声音
+理解层　变量、剖面、因果、历史出处
+迁移层　遇到新情况，能预测并解释依据
+
+06 与《从零造物》的关系
+内容基础　科技树、拍摄本、原理说明、资料来源、待核事项
+空间基础　暮色之堡的地点、路线、器物与操作反馈
+连接方式　场景中遇见器物 → 亲手尝试 → 查看原理 → 深入视频与实验记录
+可对接内容　水车提水 · 石磨 · 杆秤 · 陶埙
+当前仍处于游戏化探索，具体路线需要小原型验证。
+
+07 对我们的价值
+兴趣入口　让人发现原先不知道自己感兴趣的领域
+联系思考　把分散知识接成一段可亲历的生活过程
+空间理解　通过靠近、绕看、剖视和时间变化观察结构
+内容复用　让视频、实验材料和交互场景互相连接
+使用方向　家庭共探、青少年自主探索、课堂器物讨论、文化场馆体验
+验证依据　主动停留、主动追问、愿意重试、能在新情形下做判断
+这些是预期价值，学习成效与使用意愿需要真实使用者验证。
+
+08 下一步与边界
+第一步　一处地点、一件器物，做完整的操作与反馈
+第二步　连接两个地点，让一个操作影响另一处生活
+第三步　扩为秋集，观察不同兴趣的人怎样选择和深入
+待定　首批体验者、时代与地域、自由探索和任务的配合
+待建　载重、水车、作物等学习模型，分别说明公式与简化条件
+待核　哥特式幻想城堡与北宋内容如何衔接，器物和文化需具体查证
+事实记录　模型演示、史料依据、真实实验分别标明
+
+BOTTOM SOURCE STRIP
+整理自我们的讨论与《暮色之堡》现有原型
+内容参考　github.com/bluesky-rgb/cong-ling-zao-wu
+详细整理　world-notes.html
+2026.11.21 · 原型已实现，秋集与学习交互为探索提案
+
+Ensure complete eight sections, readable Chinese, visible evidence screenshots, rich but disciplined information design. Do not add invented usage statistics, learning achievement claims, actual new gameplay screenshots or unverified historical dates.

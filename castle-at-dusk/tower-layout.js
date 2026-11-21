@@ -1,0 +1,22 @@
+// Dimensions shared by the masonry and the first-person walk surface.
+export const TOWER = Object.freeze({
+  x: 4.75,
+  z: -4.23,
+  wallRadius: 1.74,
+  innerRadius: 1.52,
+  walkRadius: 1.04,
+  pillarRadius: .34,
+  baseY: .122,
+  deckY: 14.642,
+  startAngle: Math.PI,
+  stepCount: 60,
+  stepAngle: Math.PI / 6,
+  deckRadius: 2.37,
+  apertureRadius: 1.57,
+  solidDeckAngle: 1.82,
+  entranceZ: -3.83,
+  entranceHalfWidth: .64,
+  entranceSpring: 2.17,
+  entranceControl: 2.52,
+  entranceCrest: 2.89,
+});
