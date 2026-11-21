@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "mode": "DOM and events; visual checks recorded separately",
+  "checks": [
+    "four original-evidence cases",
+    "case switch and citations Site Audit Pro",
+    "case switch and citations iAEON-イオンペイも使える！「アイイオン」",
+    "case switch and citations Reco Social",
+    "case switch and citations PicoPDF",
+    "keyboard wrap and selected state",
+    "real snapshot statistics",
+    "sample composition proportions",
+    "sanitized report deep link and all research products",
+    "published report product filter",
+    "no JavaScript runtime errors"
+  ],
+  "errors": []
+}

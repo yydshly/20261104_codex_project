@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2800" height="3210" viewBox="0 0 2800 3210">
+<title>App 增长与机会雷达：商店趋势、评论研究与产品切入总览</title>
+<desc>上层为商店趋势底座，下层为新增评论研究；从需求、差评和功能请求中形成有证据的切入假设，并区分已实现能力与后续验证。</desc>
+<rect width="2800" height="3210" fill="#F4F6F2"/>
+<text x="80" y="55" fill="#227B61" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" dominant-baseline="text-before-edge">APP GROWTH RADAR / PRODUCT OPPORTUNITY RESEARCH</text>
+<text x="80" y="110" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="78" font-weight="700" dominant-baseline="text-before-edge">App 增长与机会雷达</text>
+<text x="1050" y="145" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="36" font-weight="400" dominant-baseline="text-before-edge">架构 · 评论分析原理 · 实际效果 · 研究价值</text>
+<rect x="80" y="238" width="2640" height="82" rx="15" fill="#E1EEE5" stroke="none" stroke-width="2"/>
+<text x="108" y="260" fill="#227B61" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">核心目标</text>
+<text x="290" y="260" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="400" dominant-baseline="text-before-edge">先发现增长产品，再用评论证据识别需求、未满足痛点与可验证的切入点。</text>
+<rect x="80" y="370" width="496" height="765" rx="24" fill="#FFFFFF" stroke="#D3E0D8" stroke-width="2"/>
+<rect x="108" y="398" width="68" height="48" rx="10" fill="#3975A4" stroke="none" stroke-width="2"/>
+<text x="122" y="404" fill="#FFFFFF" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" dominant-baseline="text-before-edge">01</text>
+<text x="108" y="472" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="41" font-weight="700" dominant-baseline="text-before-edge">公开数据来源</text>
+<line x1="108" y1="539" x2="548" y2="539" stroke="#D3E0D8" stroke-width="2"/>
+<line x1="580" y1="738" x2="601" y2="738" stroke="#227B61" stroke-width="4"/>
+<polygon points="596,728 610,738 596,748" fill="#227B61"/>
+<rect x="616" y="370" width="496" height="765" rx="24" fill="#FFFFFF" stroke="#D3E0D8" stroke-width="2"/>
+<rect x="644" y="398" width="68" height="48" rx="10" fill="#3975A4" stroke="none" stroke-width="2"/>
+<text x="658" y="404" fill="#FFFFFF" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" dominant-baseline="text-before-edge">02</text>
+<text x="644" y="472" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="41" font-weight="700" dominant-baseline="text-before-edge">自动采集与留档</text>
+<line x1="644" y1="539" x2="1084" y2="539" stroke="#D3E0D8" stroke-width="2"/>
+<line x1="1116" y1="738" x2="1137" y2="738" stroke="#227B61" stroke-width="4"/>
+<polygon points="1132,728 1146,738 1132,748" fill="#227B61"/>
+<rect x="1152" y="370" width="496" height="765" rx="24" fill="#FFFFFF" stroke="#D3E0D8" stroke-width="2"/>
+<rect x="1180" y="398" width="68" height="48" rx="10" fill="#227B61" stroke="none" stroke-width="2"/>
+<text x="1194" y="404" fill="#FFFFFF" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" dominant-baseline="text-before-edge">03</text>
+<text x="1180" y="472" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="41" font-weight="700" dominant-baseline="text-before-edge">理解产品用途</text>
+<line x1="1180" y1="539" x2="1620" y2="539" stroke="#D3E0D8" stroke-width="2"/>
+<line x1="1652" y1="738" x2="1673" y2="738" stroke="#227B61" stroke-width="4"/>
+<polygon points="1668,728 1682,738 1668,748" fill="#227B61"/>
+<rect x="1688" y="370" width="496" height="765" rx="24" fill="#FFFFFF" stroke="#D3E0D8" stroke-width="2"/>
+<rect x="1716" y="398" width="68" height="48" rx="10" fill="#A67027" stroke="none" stroke-width="2"/>
+<text x="1730" y="404" fill="#FFFFFF" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" dominant-baseline="text-before-edge">04</text>
+<text x="1716" y="472" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="41" font-weight="700" dominant-baseline="text-before-edge">比较增长信号</text>
+<line x1="1716" y1="539" x2="2156" y2="539" stroke="#D3E0D8" stroke-width="2"/>
+<line x1="2188" y1="738" x2="2209" y2="738" stroke="#227B61" stroke-width="4"/>
+<polygon points="2204,728 2218,738 2204,748" fill="#227B61"/>
+<rect x="2224" y="370" width="496" height="765" rx="24" fill="#FFFFFF" stroke="#D3E0D8" stroke-width="2"/>
+<rect x="2252" y="398" width="68" height="48" rx="10" fill="#227B61" stroke="none" stroke-width="2"/>
+<text x="2266" y="404" fill="#FFFFFF" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" dominant-baseline="text-before-edge">05</text>
+<text x="2252" y="472" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="41" font-weight="700" dominant-baseline="text-before-edge">趋势报告与研究名单</text>
+<line x1="2252" y1="539" x2="2692" y2="539" stroke="#D3E0D8" stroke-width="2"/>
+<text x="110" y="578" fill="#3975A4" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">iOS / App Store</text>
+<text x="110" y="632" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">中、美、日、英区 · 免费 / 付费</text>
+<text x="110" y="679" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">Apple 公开榜单与查询接口</text>
+<text x="110" y="755" fill="#3975A4" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">Android / Google Play</text>
+<text x="110" y="809" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">美、日、英区 · 免费 / 付费</text>
+<text x="110" y="856" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">解析公开榜单和产品页面</text>
+<rect x="106" y="954" width="444" height="150" rx="14" fill="#EFF4F8" stroke="none" stroke-width="2"/>
+<text x="110" y="976" fill="#3975A4" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="700" dominant-baseline="text-before-edge">观测字段</text>
+<text x="110" y="1022" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">排名、评分总数、名称</text>
+<text x="110" y="1066" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">开发者、商店分类等</text>
+<text x="646" y="578" fill="#3975A4" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">每天 09:00 自动执行</text>
+<text x="646" y="632" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">Codex 触发，Python + Node.js</text>
+<text x="646" y="679" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">有限重试，失败保留有效数据</text>
+<text x="646" y="755" fill="#3975A4" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">SQLite 每日快照</text>
+<text x="646" y="809" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">保存榜单、产品与采集状态</text>
+<text x="646" y="856" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">平台独立 ID；离榜继续跟踪</text>
+<rect x="642" y="954" width="444" height="150" rx="14" fill="#EFF4F8" stroke="none" stroke-width="2"/>
+<text x="646" y="976" fill="#3975A4" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="700" dominant-baseline="text-before-edge">原始响应 + 证据链</text>
+<text x="646" y="1022" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">来源链接、时间、SHA-256</text>
+<text x="646" y="1066" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">可回查、可复算</text>
+<text x="1182" y="578" fill="#227B61" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">领域 → 场景 → 能力</text>
+<text x="1182" y="632" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">在哪个领域？何时需要？</text>
+<text x="1182" y="679" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">具体帮用户完成什么？</text>
+<text x="1182" y="755" fill="#227B61" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">可编辑的多标签规则</text>
+<text x="1182" y="809" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">优先核对商店功能说明</text>
+<text x="1182" y="856" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">名称规则识别，标记待复核</text>
+<rect x="1178" y="954" width="444" height="150" rx="14" fill="#EAF3ED" stroke="none" stroke-width="2"/>
+<text x="1182" y="976" fill="#227B61" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="700" dominant-baseline="text-before-edge">分类依据透明</text>
+<text x="1182" y="1022" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">保留来源、规则版本和说明</text>
+<text x="1182" y="1066" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">资料不足保留「待补充」</text>
+<text x="1718" y="578" fill="#A67027" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">同平台 × 同市场 × 同榜</text>
+<text x="1718" y="632" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">排名对比昨日；新入榜单列</text>
+<text x="1718" y="679" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">评分新增：连续两日求差</text>
+<text x="1718" y="755" fill="#A67027" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">按场景 / 能力聚合</text>
+<text x="1718" y="809" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">按 App ID 去重，列出可比数</text>
+<text x="1718" y="856" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">上升率 = 上升数 ÷ 排名可比数</text>
+<rect x="1714" y="954" width="444" height="150" rx="14" fill="#F8F0DF" stroke="none" stroke-width="2"/>
+<text x="1718" y="976" fill="#A67027" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="700" dominant-baseline="text-before-edge">增长判断保持约束</text>
+<text x="1718" y="1022" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">评分暴涨需 9 个连续日期</text>
+<text x="1718" y="1066" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">小样本标注；缺失不补零</text>
+<text x="2254" y="578" fill="#227B61" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">HTML / JSON / Markdown</text>
+<text x="2254" y="632" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">产品变化 + 标签方向汇总</text>
+<text x="2254" y="679" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">同时展示采集质量与口径</text>
+<text x="2254" y="755" fill="#227B61" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">筛选、搜索与标签下钻</text>
+<text x="2254" y="809" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">按平台、市场、场景、能力筛选</text>
+<text x="2254" y="856" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">点击标签查看成员 App</text>
+<rect x="2250" y="954" width="444" height="150" rx="14" fill="#EAF3ED" stroke="none" stroke-width="2"/>
+<text x="2254" y="976" fill="#227B61" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="700" dominant-baseline="text-before-edge">把变化转成研究线索</text>
+<text x="2254" y="1022" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">发现增长产品与共同需求</text>
+<text x="2254" y="1066" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">决定下一步研究和验证对象</text>
+<line x1="2472" y1="1138" x2="2472" y2="1156" stroke="#227B61" stroke-width="3"/>
+<line x1="2472" y1="1156" x2="2760" y2="1156" stroke="#227B61" stroke-width="3"/>
+<line x1="2760" y1="1156" x2="2760" y2="1244" stroke="#227B61" stroke-width="3"/>
+<line x1="2760" y1="1244" x2="328" y2="1244" stroke="#227B61" stroke-width="3"/>
+<line x1="328" y1="1244" x2="328" y2="1268" stroke="#227B61" stroke-width="3"/>
+<polygon points="318,1267 328,1280 338,1267" fill="#227B61"/>
+<text x="80" y="1182" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="35" font-weight="700" dominant-baseline="text-before-edge">新增评论研究层 / 增长信号帮助决定研究谁，用户反馈帮助理解需求与切入点</text>
+<rect x="80" y="1285" width="496" height="655" rx="24" fill="#FFFFFF" stroke="#D3E0D8" stroke-width="2"/>
+<rect x="108" y="1313" width="68" height="48" rx="10" fill="#3975A4" stroke="none" stroke-width="2"/>
+<text x="122" y="1319" fill="#FFFFFF" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" dominant-baseline="text-before-edge">06</text>
+<text x="108" y="1385" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="41" font-weight="700" dominant-baseline="text-before-edge">选择研究对象</text>
+<line x1="108" y1="1452" x2="548" y2="1452" stroke="#D3E0D8" stroke-width="2"/>
+<line x1="580" y1="1633" x2="601" y2="1633" stroke="#227B61" stroke-width="4"/>
+<polygon points="596,1623 610,1633 596,1643" fill="#227B61"/>
+<rect x="616" y="1285" width="496" height="655" rx="24" fill="#FFFFFF" stroke="#D3E0D8" stroke-width="2"/>
+<rect x="644" y="1313" width="68" height="48" rx="10" fill="#3975A4" stroke="none" stroke-width="2"/>
+<text x="658" y="1319" fill="#FFFFFF" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" dominant-baseline="text-before-edge">07</text>
+<text x="644" y="1385" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="41" font-weight="700" dominant-baseline="text-before-edge">采集用户评论</text>
+<line x1="644" y1="1452" x2="1084" y2="1452" stroke="#D3E0D8" stroke-width="2"/>
+<line x1="1116" y1="1633" x2="1137" y2="1633" stroke="#227B61" stroke-width="4"/>
+<polygon points="1132,1623 1146,1633 1132,1643" fill="#227B61"/>
+<rect x="1152" y="1285" width="496" height="655" rx="24" fill="#FFFFFF" stroke="#D3E0D8" stroke-width="2"/>
+<rect x="1180" y="1313" width="68" height="48" rx="10" fill="#227B61" stroke="none" stroke-width="2"/>
+<text x="1194" y="1319" fill="#FFFFFF" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" dominant-baseline="text-before-edge">08</text>
+<text x="1180" y="1385" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="41" font-weight="700" dominant-baseline="text-before-edge">分析需求与痛点</text>
+<line x1="1180" y1="1452" x2="1620" y2="1452" stroke="#D3E0D8" stroke-width="2"/>
+<line x1="1652" y1="1633" x2="1673" y2="1633" stroke="#227B61" stroke-width="4"/>
+<polygon points="1668,1623 1682,1633 1668,1643" fill="#227B61"/>
+<rect x="1688" y="1285" width="496" height="655" rx="24" fill="#FFFFFF" stroke="#D3E0D8" stroke-width="2"/>
+<rect x="1716" y="1313" width="68" height="48" rx="10" fill="#A67027" stroke="none" stroke-width="2"/>
+<text x="1730" y="1319" fill="#FFFFFF" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" dominant-baseline="text-before-edge">09</text>
+<text x="1716" y="1385" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="41" font-weight="700" dominant-baseline="text-before-edge">形成切入假设</text>
+<line x1="1716" y1="1452" x2="2156" y2="1452" stroke="#D3E0D8" stroke-width="2"/>
+<line x1="2188" y1="1633" x2="2209" y2="1633" stroke="#227B61" stroke-width="4"/>
+<polygon points="2204,1623 2218,1633 2204,1643" fill="#227B61"/>
+<rect x="2224" y="1285" width="496" height="655" rx="24" fill="#FFFFFF" stroke="#D3E0D8" stroke-width="2"/>
+<rect x="2252" y="1313" width="68" height="48" rx="10" fill="#227B61" stroke="none" stroke-width="2"/>
+<text x="2266" y="1319" fill="#FFFFFF" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" dominant-baseline="text-before-edge">10</text>
+<text x="2252" y="1385" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="41" font-weight="700" dominant-baseline="text-before-edge">输出研究与验证计划</text>
+<line x1="2252" y1="1452" x2="2692" y2="1452" stroke="#D3E0D8" stroke-width="2"/>
+<text x="110" y="1484" fill="#3975A4" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">增长产品 + 持续跟踪</text>
+<text x="110" y="1538" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">每平台最多 6 款 App</text>
+<text x="110" y="1585" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">每个平台 App 选择一个市场</text>
+<text x="110" y="1657" fill="#3975A4" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">选择依据可回查</text>
+<text x="110" y="1711" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">记录排名、评分与场景标签</text>
+<text x="110" y="1758" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">展示本次选择原因</text>
+<rect x="106" y="1820" width="444" height="94" rx="14" fill="#EFF4F8" stroke="none" stroke-width="2"/>
+<text x="110" y="1834" fill="#3975A4" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" dominant-baseline="text-before-edge">基于上方已积累的增长数据</text>
+<text x="110" y="1877" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">本轮 12 款，保留空结果</text>
+<text x="646" y="1484" fill="#3975A4" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">Apple RSS / Google Play</text>
+<text x="646" y="1538" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">每款最多 100 条近期评论</text>
+<text x="646" y="1585" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">页面地区与语言分别记录</text>
+<text x="646" y="1657" fill="#3975A4" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">证据留档与去重</text>
+<text x="646" y="1711" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">评论 ID、正文、日期、版本</text>
+<text x="646" y="1758" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">分析近 90 天，区分采集失败</text>
+<rect x="642" y="1820" width="444" height="94" rx="14" fill="#EFF4F8" stroke="none" stroke-width="2"/>
+<text x="646" y="1834" fill="#3975A4" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" dominant-baseline="text-before-edge">881 条记录 → 728 条有效</text>
+<text x="646" y="1877" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">评论样本非随机、非全量</text>
+<text x="1182" y="1484" fill="#227B61" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">分开看三类反馈</text>
+<text x="1182" y="1538" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">4—5 星：需求与正面体验</text>
+<text x="1182" y="1585" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">1—2 星：痛点与问题线索</text>
+<text x="1182" y="1657" fill="#227B61" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">功能请求不限星级</text>
+<text x="1182" y="1711" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">高星评论也有未满足需求</text>
+<text x="1182" y="1758" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">中英日规则提取 + 原文复核</text>
+<rect x="1178" y="1820" width="444" height="94" rx="14" fill="#EAF3ED" stroke="none" stroke-width="2"/>
+<text x="1182" y="1834" fill="#227B61" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" dominant-baseline="text-before-edge">主题、短摘录与来源可核对</text>
+<text x="1182" y="1877" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">未匹配评论仍可人工查看</text>
+<text x="1718" y="1484" fill="#A67027" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">事实 → 线索 → 假设</text>
+<text x="1718" y="1538" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">具体需求与未解决痛点</text>
+<text x="1718" y="1585" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">最小原型、验证动作与约束</text>
+<text x="1718" y="1657" fill="#A67027" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">区分研究判断层级</text>
+<text x="1718" y="1711" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">规则候选 / 结合原文的判断</text>
+<text x="1718" y="1758" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">优先验证 / 合作受限 / 不足</text>
+<rect x="1714" y="1820" width="444" height="94" rx="14" fill="#F8F0DF" stroke="none" stroke-width="2"/>
+<text x="1718" y="1834" fill="#A67027" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" dominant-baseline="text-before-edge">用户指控不当成已证实事实</text>
+<text x="1718" y="1877" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">机会假设尚未验证可盈利</text>
+<text x="2254" y="1484" fill="#227B61" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">需求与机会报告（已实现）</text>
+<text x="2254" y="1538" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">按产品、市场和星级筛选</text>
+<text x="2254" y="1585" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">查看短摘录、版本与原文来源</text>
+<text x="2254" y="1657" fill="#227B61" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" dominant-baseline="text-before-edge">后续验证（待开展）</text>
+<text x="2254" y="1711" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">复现问题 → 用户访谈</text>
+<text x="2254" y="1758" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" dominant-baseline="text-before-edge">真实任务原型 → 付费意愿</text>
+<rect x="2250" y="1820" width="444" height="94" rx="14" fill="#EAF3ED" stroke="none" stroke-width="2"/>
+<text x="2254" y="1834" fill="#227B61" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" dominant-baseline="text-before-edge">每天 09:00 更新采集与研究</text>
+<text x="2254" y="1877" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">帮助决定先验证哪一个想法</text>
+<text x="80" y="2001" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="35" font-weight="700" dominant-baseline="text-before-edge">实际分析效果 / Site Audit Pro：从评论理解任务，再形成可验证的切入方案</text>
+<rect x="80" y="2072" width="600" height="271" rx="18" fill="#E8F0EB" stroke="none" stroke-width="2"/>
+<text x="104" y="2096" fill="#227B61" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" dominant-baseline="text-before-edge">好评支持的需求线索</text>
+<text x="104" y="2151" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="34" font-weight="700" dominant-baseline="text-before-edge">交付专业巡检报告</text>
+<text x="104" y="2218" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">好评肯定报告价值</text>
+<text x="104" y="2267" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">本轮 55 条近期有效评论</text>
+<line x1="694" y1="2214" x2="732" y2="2214" stroke="#227B61" stroke-width="4"/>
+<polygon points="727,2204 741,2214 727,2224" fill="#227B61"/>
+<rect x="760" y="2072" width="600" height="271" rx="18" fill="#E8F0EB" stroke="none" stroke-width="2"/>
+<text x="784" y="2096" fill="#227B61" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" dominant-baseline="text-before-edge">评论中的未满足需求</text>
+<text x="784" y="2151" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="34" font-weight="700" dominant-baseline="text-before-edge">多图记录与批量分享</text>
+<text x="784" y="2218" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">希望同一问题附多张照片</text>
+<text x="784" y="2267" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">需要清楚的保存、导出路径</text>
+<line x1="1374" y1="2214" x2="1412" y2="2214" stroke="#227B61" stroke-width="4"/>
+<polygon points="1407,2204 1421,2214 1407,2224" fill="#227B61"/>
+<rect x="1440" y="2072" width="600" height="271" rx="18" fill="#E8F0EB" stroke="none" stroke-width="2"/>
+<text x="1464" y="2096" fill="#227B61" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" dominant-baseline="text-before-edge">切入假设</text>
+<text x="1464" y="2151" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="34" font-weight="700" dominant-baseline="text-before-edge">服务一类巡检从业者</text>
+<text x="1464" y="2218" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">现场照片 → 问题项 → PDF</text>
+<text x="1464" y="2267" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">支持前后对照与批量交付</text>
+<line x1="2054" y1="2214" x2="2092" y2="2214" stroke="#227B61" stroke-width="4"/>
+<polygon points="2087,2204 2101,2214 2087,2224" fill="#227B61"/>
+<rect x="2120" y="2072" width="600" height="271" rx="18" fill="#E8F0EB" stroke="none" stroke-width="2"/>
+<text x="2144" y="2096" fill="#227B61" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" dominant-baseline="text-before-edge">下一步验证 · 未开展</text>
+<text x="2144" y="2151" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="34" font-weight="700" dominant-baseline="text-before-edge">复现问题 + 5 位用户访谈</text>
+<text x="2144" y="2218" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">用真实任务测试原型与迁移</text>
+<text x="2144" y="2267" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">再确认付费意愿和实施成本</text>
+<rect x="80" y="2408" width="844" height="322" rx="24" fill="#FFFFFF" stroke="#D3E0D8" stroke-width="2"/>
+<text x="110" y="2440" fill="#227B61" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="39" font-weight="700" dominant-baseline="text-before-edge">观察效果</text>
+<text x="110" y="2512" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" font-weight="400" dominant-baseline="text-before-edge">连接「增长变化」与「用户描述的任务」</text>
+<text x="110" y="2573" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" font-weight="400" dominant-baseline="text-before-edge">区分好评需求、差评痛点和功能请求</text>
+<text x="110" y="2634" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" font-weight="400" dominant-baseline="text-before-edge">每项判断保留来源、日期与版本依据</text>
+<rect x="978" y="2408" width="844" height="322" rx="24" fill="#FFFFFF" stroke="#D3E0D8" stroke-width="2"/>
+<text x="1008" y="2440" fill="#3975A4" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="39" font-weight="700" dominant-baseline="text-before-edge">研究价值</text>
+<text x="1008" y="2512" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" font-weight="400" dominant-baseline="text-before-edge">缩小值得研究的产品与需求范围</text>
+<text x="1008" y="2573" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" font-weight="400" dominant-baseline="text-before-edge">把宽泛赛道拆成可尝试的具体切入点</text>
+<text x="1008" y="2634" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" font-weight="400" dominant-baseline="text-before-edge">用证据安排复现、访谈和原型优先级</text>
+<rect x="1876" y="2408" width="844" height="322" rx="24" fill="#FFFFFF" stroke="#D3E0D8" stroke-width="2"/>
+<text x="1906" y="2440" fill="#A67027" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="39" font-weight="700" dominant-baseline="text-before-edge">判断边界</text>
+<text x="1906" y="2512" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" font-weight="400" dominant-baseline="text-before-edge">评论样本不代表总体，也不证明增长原因</text>
+<text x="1906" y="2573" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" font-weight="400" dominant-baseline="text-before-edge">旧版本差评与高星评分都需结合正文</text>
+<text x="1906" y="2634" fill="#173B34" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" font-weight="400" dominant-baseline="text-before-edge">排名上涨与机会假设不等于商业已验证</text>
+<rect x="80" y="2790" width="2640" height="288" rx="18" fill="#173B34" stroke="none" stroke-width="2"/>
+<text x="110" y="2814" fill="#B8DACB" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" font-weight="700" dominant-baseline="text-before-edge">当前运行效果 / 2026-11-22</text>
+<text x="110" y="2866" fill="#FFFFFF" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="34" font-weight="700" dominant-baseline="text-before-edge">趋势底座：14 张榜单 · 1,787 条市场观测 · 8 天历史</text>
+<text x="110" y="2920" fill="#FFFFFF" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="34" font-weight="700" dominant-baseline="text-before-edge">评论研究：12 款 App 入选 · 881 条原始记录 → 728 条近 90 天去重有效评论</text>
+<text x="110" y="2975" fill="#D1E6DD" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">反馈构成：322 条一、二星 · 345 条四、五星；高星评论的功能请求单独保留。</text>
+<text x="110" y="3025" fill="#D1E6DD" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">覆盖说明：3 款 App 无近期有效样本；研究规则候选与本轮原文复核判断分开呈现。</text>
+<text x="80" y="3132" fill="#55736A" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">系统原理：增长观测筛选对象，评论证据组织需求，切入假设指导验证；每一步保留依据与不确定性。</text>
+</svg>

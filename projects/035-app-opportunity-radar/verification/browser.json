@@ -1,0 +1,25 @@
+{
+  "case_switch": true,
+  "guide_modal_open_close": true,
+  "mobile_width": 390,
+  "desktop_width": 1280,
+  "horizontal_overflow": false,
+  "guide_natural_size": [
+    2800,
+    3210
+  ],
+  "published_report_deep_link": true,
+  "site_audit_low_star_filter": {
+    "products": 1,
+    "reviews": 36,
+    "low_only": true
+  },
+  "screenshots": [
+    "mobile-local.jpg",
+    "desktop-local.jpg"
+  ],
+  "limitations": [
+    "local preview; production verified separately",
+    "initial exact-label selector did not resolve; observed element IDs used successfully"
+  ]
+}

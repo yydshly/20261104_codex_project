@@ -1,0 +1,41 @@
+{
+  "countries": [
+    "cn",
+    "us",
+    "jp",
+    "gb"
+  ],
+  "charts": [
+    "top-free",
+    "top-paid"
+  ],
+  "chart_limit": 100,
+  "lookup_batch_size": 100,
+  "request_interval_seconds": 3.2,
+  "track_off_chart_days": 30,
+  "max_tracked_per_country": 1000,
+  "database": "data/radar.sqlite3",
+  "raw_directory": "data/raw",
+  "reports_directory": "reports",
+  "directions_file": "directions.json",
+  "google_play": {
+    "enabled": true,
+    "countries": [
+      "us",
+      "jp",
+      "gb"
+    ]
+  },
+  "reviews": {
+    "enabled": true,
+    "max_per_platform": 6,
+    "reviews_per_app": 100,
+    "lookback_days": 90,
+    "watchlist": [
+      "6742024490",
+      "6767013763",
+      "play:com.veamstudios.siteauditpro",
+      "play:com.aurafile.reader"
+    ]
+  }
+}

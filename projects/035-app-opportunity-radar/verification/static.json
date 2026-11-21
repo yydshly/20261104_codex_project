@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "publication manifest byte sizes and SHA-256",
+    "original guide preserved byte-for-byte",
+    "local asset links, anchors and duplicate IDs",
+    "public snapshot excludes full review bodies, local paths and raw data",
+    "full research scope and two catalog entries"
+  ],
+  "snapshot_date": "2026-11-22",
+  "files": 9,
+  "guide_sha256": "41b07d0259335c76876e5138268ae71a7fc1f92df80aa5327fb7256c652bca62"
+}

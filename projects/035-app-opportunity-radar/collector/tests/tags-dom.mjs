@@ -1,0 +1,35 @@
+import {JSDOM,VirtualConsole} from 'jsdom';
+import {readFileSync,writeFileSync} from 'node:fs';
+import assert from 'node:assert/strict';
+const source=JSON.parse(readFileSync(new URL('../reports/latest.json',import.meta.url),'utf8'));
+const errors=[],checks=[];
+const log=new VirtualConsole();log.on('jsdomError',e=>errors.push(String(e)));
+const dom=new JSDOM(readFileSync(new URL('../reports/latest.html',import.meta.url),'utf8'),{runScripts:'dangerously',url:'http://127.0.0.1:5227/',virtualConsole:log});
+const d=dom.window.document;
+function set(id,value){const element=d.getElementById(id);element.value=value;element.dispatchEvent(new dom.window.Event(element.type==='search'?'input':'change',{bubbles:true}));}
+function count(expected,label){assert.ok(d.getElementById('result-count').textContent.startsWith(expected+' 个市场样本'),label);checks.push(label);}
+const scene=source.products.find(p=>p.scenes?.length).scenes[0];
+set('scene',scene);count(source.products.filter(p=>p.scenes.includes(scene)).length,'场景筛选');
+set('scene','');set('capability','扫描成 PDF');count(source.products.filter(p=>p.capabilities.includes('扫描成 PDF')).length,'能力筛选');
+set('capability','');set('search','扫描成 PDF');count(source.products.filter(p=>[p.name,p.developer,p.direction,p.app_id,...p.scenes,...p.capabilities].join(' ').toLowerCase().includes('扫描成 pdf')).length,'能力全文搜索');
+set('search','');set('scene','__untagged__');count(source.products.filter(p=>!p.scenes.length).length,'待补充筛选');
+set('scene','');set('platform','android');set('country','jp');set('scene','移动文档阅读');set('capability','文档阅读');
+count(source.products.filter(p=>p.platform==='android'&&p.country==='jp'&&p.scenes.includes('移动文档阅读')&&p.capabilities.includes('文档阅读')).length,'平台市场场景能力交集');
+set('scene','');set('capability','');set('country','');set('platform','');
+d.getElementById('tab-tags').click();assert.equal(d.getElementById('tags').hidden,false);
+set('tag-platform','android');set('tag-country','jp');set('tag-kind','scenes');set('tag-min','5');
+const expected=source.tag_growth.filter(g=>g.platform==='android'&&g.country==='jp'&&g.kind==='scenes'&&g.sample_count>=5);
+assert.equal(d.querySelectorAll('#tag-rows tr').length,expected.length);checks.push('标签聚合筛选');
+for(const row of d.querySelectorAll('#tag-rows tr'))assert.equal(row.cells[0].textContent,'Android / 日本');
+const button=[...d.querySelectorAll('#tag-rows button')].find(b=>b.textContent==='移动文档阅读');assert.ok(button);button.click();
+assert.equal(d.getElementById('products').hidden,false);assert.equal(d.getElementById('scene').value,'移动文档阅读');
+count(source.products.filter(p=>p.platform==='android'&&p.country==='jp'&&p.scenes.includes('移动文档阅读')).length,'点击标签下钻产品');
+set('tag-min','1');set('tag-kind','capabilities');set('tag-query','扫描成 PDF');assert.ok(d.querySelectorAll('#tag-rows tr').length>0);checks.push('能力标签与单产品线索');
+set('tag-query','不存在的标签');assert.equal(d.querySelectorAll('#tag-rows tr').length,0);assert.equal(d.getElementById('empty-tags').hidden,false);checks.push('空标签结果');
+set('tag-query','');set('tag-sort','rate');assert.ok(d.querySelectorAll('#tag-rows tr').length>0);checks.push('上升率排序');
+assert.ok(d.getElementById('tag-coverage').textContent.includes(String(source.tag_coverage.tagged)));
+set('platform','');set('country','');set('scene','');set('capability','');set('search','Reco Social');
+assert.ok(d.getElementById('product-rows').textContent.includes('尚未验证'));checks.push('分类依据与不确定性');
+assert.deepEqual(errors,[]);
+writeFileSync(new URL('../reports/tags-dom-verification.json',import.meta.url),JSON.stringify({mode:'jsdom DOM/events; not visual browser verification',passed:true,checks,errors,as_of:source.as_of},null,2));
+console.log(JSON.stringify({passed:true,checks:checks.length,errors}));dom.window.close();

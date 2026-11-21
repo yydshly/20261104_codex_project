@@ -1,0 +1,1379 @@
+{
+  "overrides": {},
+  "rules": [
+    {
+      "label": "短剧",
+      "pattern": "short.?drama|short.?reels?|reelshort|dramabox|短剧|红果|紅果|pinedrama|flickreels"
+    },
+    {
+      "label": "VPN 与代理",
+      "pattern": "\\bvpn\\b|shadowrocket|quantumult|surge|网络代理|網絡代理"
+    },
+    {
+      "label": "PDF 阅读编辑",
+      "pattern": "\\bpdf\\b|pdfexpert|pdfelement"
+    },
+    {
+      "label": "手机清理",
+      "pattern": "cleaner|clean.?up|手机清理|手機清理|空间清理|空間清理|storage.?clean"
+    },
+    {
+      "label": "AI 聊天助手",
+      "pattern": "chatgpt|claude|gemini|deepseek|grok|豆包|千问|千問|通义|通義|元宝|元寶|poe.?[–: -]|perplexity|copilot|\\bchat\\b.*\\bai\\b|\\bai\\b.*\\bchat\\b"
+    },
+    {
+      "label": "AI 图片视频",
+      "pattern": "ai.?photo|ai.?video|midjourney|runway|sora|即梦|即夢|可灵|可靈|faceapp|remini"
+    },
+    {
+      "label": "记账与预算",
+      "pattern": "expense|budget|money.?manager|spending|记账|記帳|随手记|隨手記|鲨鱼记账|鯊魚記帳"
+    },
+    {
+      "label": "圣经与灵修",
+      "pattern": "bible|圣经|聖經|祷告|禱告|devotional"
+    },
+    {
+      "label": "背单词与语言学习",
+      "pattern": "duolingo|ankimobile|ankiapp|vocabulary|flashcard|背单词|背單詞|百词斩|百詞斬|扇贝|扇貝|多邻国|多鄰國|speak.*english|language.*learn"
+    },
+    {
+      "label": "天气",
+      "pattern": "weather|天气|天氣|windy|carrot.?weather"
+    },
+    {
+      "label": "主题与小组件",
+      "pattern": "widget|wallpaper|小组件|小組件|壁纸|壁紙|主题美化|主題美化"
+    },
+    {
+      "label": "习惯与专注",
+      "pattern": "habit|pomodoro|forest.*focus|习惯|習慣|番茄钟|番茄鐘|专注|專注"
+    },
+    {
+      "label": "热量与饮食记录",
+      "pattern": "calorie|myfitnesspal|yazio|food.?log|热量|熱量|薄荷健康"
+    }
+  ],
+  "genre_labels": {
+    "6000": "商务",
+    "6001": "天气",
+    "6002": "工具",
+    "6003": "旅游",
+    "6004": "体育",
+    "6005": "社交",
+    "6006": "参考",
+    "6007": "效率",
+    "6008": "摄影与录像",
+    "6009": "新闻",
+    "6010": "导航",
+    "6011": "音乐",
+    "6012": "生活",
+    "6013": "健康健美",
+    "6014": "游戏",
+    "6015": "财务",
+    "6016": "娱乐",
+    "6017": "教育",
+    "6018": "图书",
+    "6020": "医疗",
+    "6021": "报刊杂志",
+    "6023": "美食佳饮",
+    "6024": "购物",
+    "6026": "开发者工具",
+    "6027": "图形与设计",
+    "TOOLS": "工具",
+    "PRODUCTIVITY": "效率",
+    "SOCIAL": "社交",
+    "COMMUNICATION": "社交通讯",
+    "ENTERTAINMENT": "娱乐",
+    "FINANCE": "财务",
+    "HEALTH_AND_FITNESS": "健康健美",
+    "EDUCATION": "教育",
+    "PHOTOGRAPHY": "摄影与录像",
+    "VIDEO_PLAYERS": "视频播放与编辑",
+    "WEATHER": "天气",
+    "BOOKS_AND_REFERENCE": "图书与参考",
+    "SHOPPING": "购物",
+    "LIFESTYLE": "生活",
+    "MUSIC_AND_AUDIO": "音乐",
+    "BUSINESS": "商务",
+    "TRAVEL_AND_LOCAL": "旅游",
+    "PERSONALIZATION": "个性化",
+    "SPORTS": "体育",
+    "NEWS_AND_MAGAZINES": "新闻",
+    "MEDICAL": "医疗",
+    "MAPS_AND_NAVIGATION": "导航"
+  },
+  "taxonomy_version": "2026-11-20.v1",
+  "tag_overrides": {
+    "6742024490": {
+      "scenes": [
+        "内容推荐与收藏"
+      ],
+      "capabilities": [
+        "推荐信息提取",
+        "收藏整理",
+        "创作者问答"
+      ],
+      "source_url": "https://apps.apple.com/us/app/reco-social/id6742024490",
+      "reviewed_at": "2026-11-20",
+      "note": "商店介绍宣称以 AI 提取推荐；评论另有试玩返现反馈，尚未验证奖励与排名上涨的关系。"
+    },
+    "6767013763": {
+      "scenes": [
+        "城市轨道交通探索"
+      ],
+      "capabilities": [
+        "AR 地铁可视化",
+        "到站信息查询"
+      ],
+      "source_url": "https://apps.apple.com/gb/app/subwhere-ar/id6767013763",
+      "reviewed_at": "2026-11-20",
+      "note": "部分线路使用时刻表推算；并非全部为实时列车位置。"
+    },
+    "1631584032": {
+      "scenes": [
+        "奖励任务与返利"
+      ],
+      "capabilities": [
+        "问卷任务",
+        "小票上传",
+        "游戏试玩奖励",
+        "奖励兑换"
+      ],
+      "source_url": "https://apps.apple.com/gb/app/playful-rewards-earn-rewards/id1631584032",
+      "reviewed_at": "2026-11-20",
+      "note": "奖励功能来自开发者说明，未实测兑现或收益。"
+    },
+    "949490225": {
+      "scenes": [
+        "精确图片打印"
+      ],
+      "capabilities": [
+        "尺寸裁切",
+        "多图排版",
+        "打印输出"
+      ],
+      "source_url": "https://apps.apple.com/us/app/print-to-size/id949490225",
+      "reviewed_at": "2026-11-20",
+      "note": ""
+    },
+    "play:com.whfplus.location.ker": {
+      "scenes": [
+        "家庭位置共享"
+      ],
+      "capabilities": [
+        "位置共享",
+        "历史轨迹",
+        "地理围栏提醒"
+      ],
+      "source_url": "https://play.google.com/store/apps/details?id=com.whfplus.location.ker",
+      "reviewed_at": "2026-11-20",
+      "note": "位置共享需双方授权。"
+    },
+    "play:com.veamstudios.siteauditpro": {
+      "scenes": [
+        "现场巡检与验收"
+      ],
+      "capabilities": [
+        "拍照记录",
+        "图片标注",
+        "问题指派",
+        "PDF 报告生成"
+      ],
+      "source_url": "https://play.google.com/store/apps/details?id=com.veamstudios.siteauditpro",
+      "reviewed_at": "2026-11-20",
+      "note": ""
+    },
+    "play:com.aurafile.reader": {
+      "scenes": [
+        "纸质文档数字化",
+        "移动文档阅读"
+      ],
+      "capabilities": [
+        "扫描成 PDF",
+        "文档阅读",
+        "文件搜索",
+        "文件整理"
+      ],
+      "source_url": "https://play.google.com/store/apps/details?id=com.aurafile.reader",
+      "reviewed_at": "2026-11-20",
+      "note": "依据今日已归档商店详情核对。"
+    },
+    "play:com.appslab.liquidglass.widgets": {
+      "scenes": [
+        "桌面个性化"
+      ],
+      "capabilities": [
+        "桌面小组件",
+        "玻璃效果定制"
+      ],
+      "source_url": "https://play.google.com/store/apps/details?id=com.appslab.liquidglass.widgets",
+      "reviewed_at": "2026-11-20",
+      "note": "依据今日已归档商店详情核对。"
+    },
+    "play:com.grill.xbxplay": {
+      "scenes": [
+        "主机远程游玩"
+      ],
+      "capabilities": [
+        "游戏串流",
+        "手柄映射",
+        "自定义触控"
+      ],
+      "source_url": "https://play.google.com/store/apps/details?id=com.grill.xbxplay",
+      "reviewed_at": "2026-11-20",
+      "note": ""
+    }
+  },
+  "tag_rules": [
+    {
+      "id": "ai-chat",
+      "pattern": "chatgpt|claude|deepseek|豆包|千问|千問|通义|通義|腾讯元宝|騰訊元寶|\\bgrok\\b|\\bgemini\\b|microsoft copilot|元宝.*AI|元寶.*AI|AI chat|chat AI|Private LLM",
+      "scenes": [
+        "AI 对话与问答"
+      ],
+      "capabilities": [
+        "对话问答"
+      ]
+    },
+    {
+      "id": "ai-search",
+      "pattern": "perplexity",
+      "scenes": [
+        "信息检索与研究"
+      ],
+      "capabilities": [
+        "AI 搜索"
+      ]
+    },
+    {
+      "id": "pdf",
+      "pattern": "pdf|文档阅读|文檔閱讀",
+      "scenes": [
+        "移动文档阅读"
+      ],
+      "capabilities": [
+        "文档阅读"
+      ]
+    },
+    {
+      "id": "scanner",
+      "pattern": "camscanner|adobe scan|扫描全能王|掃描全能王|扫描宝|掃描寶|scanner",
+      "scenes": [
+        "纸质文档数字化"
+      ],
+      "capabilities": [
+        "扫描成 PDF"
+      ],
+      "exclude": "qr|barcode|条码|條碼|二维码|二維碼|radio|police"
+    },
+    {
+      "id": "vpn",
+      "pattern": "\\bvpn\\b|shadowrocket|quantumult|网络代理|網絡代理",
+      "scenes": [
+        "网络连接与代理"
+      ],
+      "capabilities": [
+        "网络代理"
+      ]
+    },
+    {
+      "id": "clean",
+      "pattern": "cleaner|clean.?up|手机清理|手機清理|空间清理|空間清理",
+      "scenes": [
+        "手机空间管理"
+      ],
+      "capabilities": [
+        "空间清理"
+      ]
+    },
+    {
+      "id": "language",
+      "pattern": "duolingo|多邻国|多鄰國|百词斩|百詞斬|扇贝|扇貝|vocabulary|背单词|背單詞",
+      "scenes": [
+        "语言学习与记忆"
+      ],
+      "capabilities": [
+        "词汇练习"
+      ]
+    },
+    {
+      "id": "flashcards",
+      "pattern": "(?<![a-z])anki(?:mobile|app|pro|droid)?(?![a-z])|flashcards?",
+      "scenes": [
+        "卡片记忆学习"
+      ],
+      "capabilities": [
+        "记忆卡片"
+      ]
+    },
+    {
+      "id": "accounting",
+      "pattern": "expense|budget|money.?manager|记账|記帳|随手记|隨手記",
+      "scenes": [
+        "个人记账与预算"
+      ],
+      "capabilities": [
+        "收支记录"
+      ]
+    },
+    {
+      "id": "bible",
+      "pattern": "bible|圣经|聖經|祷告|禱告|devotional",
+      "scenes": [
+        "圣经阅读与灵修"
+      ],
+      "capabilities": [
+        "经文阅读"
+      ]
+    },
+    {
+      "id": "weather",
+      "pattern": "weather|天气|天氣|windy",
+      "scenes": [
+        "天气与出行准备"
+      ],
+      "capabilities": [
+        "天气查询"
+      ]
+    },
+    {
+      "id": "widget",
+      "pattern": "widgets?|小组件|小組件",
+      "scenes": [
+        "桌面个性化"
+      ],
+      "capabilities": [
+        "桌面小组件"
+      ]
+    },
+    {
+      "id": "wallpaper",
+      "pattern": "wallpapers?|壁纸|壁紙",
+      "scenes": [
+        "桌面个性化"
+      ],
+      "capabilities": [
+        "壁纸设置"
+      ]
+    },
+    {
+      "id": "habit",
+      "pattern": "habits?|习惯|習慣",
+      "scenes": [
+        "习惯养成"
+      ],
+      "capabilities": [
+        "习惯记录"
+      ]
+    },
+    {
+      "id": "focus",
+      "pattern": "pomodoro|forest.*focus|番茄钟|番茄鐘|专注|專注",
+      "scenes": [
+        "专注与时间管理"
+      ],
+      "capabilities": [
+        "专注计时"
+      ]
+    },
+    {
+      "id": "calorie",
+      "pattern": "calorie|myfitnesspal|yazio|热量|熱量|薄荷健康",
+      "scenes": [
+        "饮食与体重管理"
+      ],
+      "capabilities": [
+        "饮食记录"
+      ]
+    },
+    {
+      "id": "short-drama",
+      "pattern": "short.?drama|reelshort|dramabox|短剧|红果|紅果|pinedrama|flickreels",
+      "scenes": [
+        "短剧观看"
+      ],
+      "capabilities": [
+        "短剧播放"
+      ]
+    },
+    {
+      "id": "meetings",
+      "pattern": "microsoft teams|zoom workplace|腾讯会议|騰訊會議|google meet",
+      "scenes": [
+        "远程会议与协作"
+      ],
+      "capabilities": [
+        "视频会议"
+      ]
+    },
+    {
+      "id": "authenticator",
+      "pattern": "authenticator|okta verify|身份验证|身份驗證",
+      "scenes": [
+        "账号登录保护"
+      ],
+      "capabilities": [
+        "多因素认证"
+      ]
+    },
+    {
+      "id": "passwords",
+      "pattern": "1password|bitwarden|lastpass|password manager",
+      "scenes": [
+        "密码管理"
+      ],
+      "capabilities": [
+        "密码保管"
+      ]
+    },
+    {
+      "id": "messaging",
+      "pattern": "whatsapp|微信|wechat|telegram|signal.*messenger|\\bline\\b.*(call|message)|messenger",
+      "scenes": [
+        "即时通讯"
+      ],
+      "capabilities": [
+        "消息沟通"
+      ]
+    },
+    {
+      "id": "short-video",
+      "pattern": "^(抖音|tiktok|快手|youtube shorts)",
+      "scenes": [
+        "短视频观看与分享"
+      ],
+      "capabilities": [
+        "短视频浏览"
+      ],
+      "exclude": "剪映|capcut|editor|剪辑|剪輯"
+    },
+    {
+      "id": "snapchat",
+      "pattern": "snapchat",
+      "scenes": [
+        "影像社交"
+      ],
+      "capabilities": [
+        "照片消息",
+        "影像分享"
+      ]
+    },
+    {
+      "id": "retail",
+      "pattern": "\\bGU\\b|ジーユー|uniqlo|优衣库|優衣庫|zara|h&m|shein|ユニクロ",
+      "scenes": [
+        "服饰购物"
+      ],
+      "capabilities": [
+        "商品选购"
+      ]
+    },
+    {
+      "id": "shopping",
+      "pattern": "amazon.*shop|temu|aliexpress|vinted|ebay|淘宝|淘寶|京东|京東|拼多多",
+      "scenes": [
+        "综合购物"
+      ],
+      "capabilities": [
+        "商品选购"
+      ],
+      "exclude": "金融|finance|bank|銀行|银行"
+    },
+    {
+      "id": "food",
+      "pattern": "just eat|uber eats|doordash|deliveroo|美团外卖|美團外賣|饿了么|餓了麼",
+      "scenes": [
+        "外卖点餐"
+      ],
+      "capabilities": [
+        "餐饮下单"
+      ]
+    },
+    {
+      "id": "mcdonalds",
+      "pattern": "mcdonald|麦当劳|麥當勞|マクドナルド",
+      "scenes": [
+        "品牌餐饮点单"
+      ],
+      "capabilities": [
+        "餐饮下单"
+      ]
+    },
+    {
+      "id": "restaurant",
+      "pattern": "hot pepper gourmet|ホットペッパーグルメ",
+      "scenes": [
+        "餐厅发现与预约"
+      ],
+      "capabilities": [
+        "餐厅搜索",
+        "餐厅预约"
+      ]
+    },
+    {
+      "id": "browser",
+      "pattern": "google chrome|firefox|microsoft edge|brave.*browser|浏览器|瀏覽器",
+      "scenes": [
+        "网页浏览"
+      ],
+      "capabilities": [
+        "网页访问"
+      ]
+    },
+    {
+      "id": "tickets",
+      "pattern": "イープラス|ticketmaster|eventbrite|大麦|大麥",
+      "scenes": [
+        "演出票务"
+      ],
+      "capabilities": [
+        "活动查询",
+        "票务购买"
+      ]
+    },
+    {
+      "id": "navigation",
+      "pattern": "google maps|高德地图|高德地圖|百度地图|百度地圖|\\bwaze\\b",
+      "scenes": [
+        "路线导航"
+      ],
+      "capabilities": [
+        "路线规划",
+        "地图导航"
+      ]
+    },
+    {
+      "id": "rides",
+      "pattern": "\\buber\\b(?! eats)|\\blyft\\b|滴滴|grab.*ride",
+      "scenes": [
+        "叫车出行"
+      ],
+      "capabilities": [
+        "叫车服务"
+      ]
+    },
+    {
+      "id": "music",
+      "pattern": "spotify|apple music|网易云音乐|網易雲音樂|qq音乐|qq音樂|酷狗音乐|酷狗音樂",
+      "scenes": [
+        "音乐收听"
+      ],
+      "capabilities": [
+        "音乐播放"
+      ]
+    },
+    {
+      "id": "video-edit",
+      "pattern": "capcut|剪映|inshot|vn video",
+      "scenes": [
+        "视频创作"
+      ],
+      "capabilities": [
+        "视频剪辑"
+      ]
+    },
+    {
+      "id": "photo-edit",
+      "pattern": "lightroom|snapseed|美图秀秀|美圖秀秀|picsart",
+      "scenes": [
+        "照片处理"
+      ],
+      "capabilities": [
+        "图片编辑"
+      ]
+    },
+    {
+      "id": "notes",
+      "pattern": "goodnotes|notability|notion|obsidian|笔记|筆記",
+      "scenes": [
+        "笔记与知识整理"
+      ],
+      "capabilities": [
+        "笔记记录"
+      ]
+    },
+    {
+      "id": "remote-play",
+      "pattern": "xbxplay|psplay|pxplay|remote play",
+      "scenes": [
+        "主机远程游玩"
+      ],
+      "capabilities": [
+        "游戏串流"
+      ]
+    },
+    {
+      "id": "rewards",
+      "pattern": "playful rewards|rewarded play|mistplay",
+      "scenes": [
+        "奖励任务与返利"
+      ],
+      "capabilities": [
+        "游戏试玩奖励"
+      ]
+    },
+    {
+      "id": "barcode",
+      "pattern": "QR.*(scan|reader)|barcode|条码|條碼|二维码|二維碼",
+      "scenes": [
+        "扫码识别"
+      ],
+      "capabilities": [
+        "二维码与条码识别"
+      ]
+    },
+    {
+      "id": "exam",
+      "pattern": "test prep|theory test|driving theory|hazard perception|DVSA|CPC.*test|HS&E|CITB|试题|試題|题库|題庫|過去問|試験対策|対策.*言語|考试|考試",
+      "scenes": [
+        "考试备考"
+      ],
+      "capabilities": [
+        "题目练习"
+      ]
+    },
+    {
+      "id": "lang-extra",
+      "pattern": "learn (japanese|english|spanish|language)|英语|英語|新概念|learn.*language|spelling",
+      "scenes": [
+        "语言学习与记忆"
+      ],
+      "capabilities": [
+        "语言练习"
+      ]
+    },
+    {
+      "id": "bank",
+      "pattern": "銀行|银行|銀行|通帳|banking|capital one|barclays|lloyds|natwest|santander|hsbc|chase mobile|revolut|zable",
+      "scenes": [
+        "银行账户管理"
+      ],
+      "capabilities": [
+        "账户查询"
+      ]
+    },
+    {
+      "id": "payment",
+      "pattern": "paypal|venmo|cash app|paypay|楽天ペイ|AEON Pay|支付宝|支付寶|google wallet|apple wallet",
+      "scenes": [
+        "移动支付与转账"
+      ],
+      "capabilities": [
+        "支付与转账"
+      ],
+      "exclude": "ショッピング|通販|shopping"
+    },
+    {
+      "id": "tax",
+      "pattern": "\\bHMRC\\b|个人所得税|個人所得稅",
+      "scenes": [
+        "个人税务办理"
+      ],
+      "capabilities": [
+        "税务查询"
+      ]
+    },
+    {
+      "id": "stocks",
+      "pattern": "东方财富|東方財富|股票|stock.*trading|robinhood|trading 212|webull",
+      "scenes": [
+        "证券投资"
+      ],
+      "capabilities": [
+        "行情与交易"
+      ]
+    },
+    {
+      "id": "parcel",
+      "pattern": "\\bDPD\\b|royal mail|郵便局|parcel|快递|快遞",
+      "scenes": [
+        "包裹配送管理"
+      ],
+      "capabilities": [
+        "物流查询"
+      ]
+    },
+    {
+      "id": "family-gps",
+      "pattern": "life360|family.*(GPS|location)|GPS.*location tracker|location tracker|位置共享",
+      "scenes": [
+        "家庭位置共享"
+      ],
+      "capabilities": [
+        "位置共享"
+      ]
+    },
+    {
+      "id": "smart-home",
+      "pattern": "smartthings|ring.*always home|tapo|eufy|google home|amazon alexa",
+      "scenes": [
+        "智能家居控制"
+      ],
+      "capabilities": [
+        "设备控制"
+      ]
+    },
+    {
+      "id": "shopping-extra",
+      "pattern": "qoo10|joybuy|楽天市場|amazon.*ショッピング|\\bshop:|ka uche|kauche|微店|argos|target:|best buy|debenhams|唯品会|唯品會|ニトリ|john lewis|yahoo!ショッピング",
+      "scenes": [
+        "综合购物"
+      ],
+      "capabilities": [
+        "商品选购"
+      ]
+    },
+    {
+      "id": "used",
+      "pattern": "闲鱼|閒魚|mercari|メルカリ|vinted",
+      "scenes": [
+        "二手交易"
+      ],
+      "capabilities": [
+        "闲置买卖"
+      ]
+    },
+    {
+      "id": "coupon",
+      "pattern": "coupon|vouchers|discounts|blue light card|lidl plus|more card|point club|d point|clubcard|优惠券|優惠券|ポイント",
+      "scenes": [
+        "优惠与会员权益"
+      ],
+      "capabilities": [
+        "优惠查询"
+      ]
+    },
+    {
+      "id": "groceries",
+      "pattern": "grocery|grocery shopping|山姆|盒马|盒馬|小象超市|tesco|sainsbury|morrisons",
+      "scenes": [
+        "商超生鲜采购"
+      ],
+      "capabilities": [
+        "商品选购"
+      ]
+    },
+    {
+      "id": "food-extra",
+      "pattern": "7NOW|rocket now|フードデリバリー|出前",
+      "scenes": [
+        "外卖点餐"
+      ],
+      "capabilities": [
+        "餐饮下单"
+      ]
+    },
+    {
+      "id": "food-brand",
+      "pattern": "burger king|chick-fil-a|chipotle|starbucks|スターバックス|costa coffee|greggs|コメダ|松屋|はま寿司|ケンタッキー|7 brew",
+      "scenes": [
+        "品牌餐饮点单"
+      ],
+      "capabilities": [
+        "餐饮下单"
+      ]
+    },
+    {
+      "id": "recipes",
+      "pattern": "recime|recipe|菜谱|菜譜|下厨房|下廚房",
+      "scenes": [
+        "家庭烹饪"
+      ],
+      "capabilities": [
+        "食谱管理"
+      ]
+    },
+    {
+      "id": "beauty",
+      "pattern": "ホットペッパービューティー|サロン予約",
+      "scenes": [
+        "美容服务预约"
+      ],
+      "capabilities": [
+        "门店预约"
+      ]
+    },
+    {
+      "id": "hotels",
+      "pattern": "booking.com|trip.com|携程|攜程|去哪儿|去哪兒|じゃらん|airbnb|agoda",
+      "scenes": [
+        "旅行住宿预订"
+      ],
+      "capabilities": [
+        "住宿预订"
+      ]
+    },
+    {
+      "id": "trains",
+      "pattern": "trainline|trainpal|train.*tickets|乗換|换乘|換乘",
+      "scenes": [
+        "铁路出行"
+      ],
+      "capabilities": [
+        "车次与票务查询"
+      ]
+    },
+    {
+      "id": "flights",
+      "pattern": "flightradar|航旅纵横|航旅縱橫|飞常准|飛常準|flight tracker",
+      "scenes": [
+        "航班动态追踪"
+      ],
+      "capabilities": [
+        "航班查询"
+      ]
+    },
+    {
+      "id": "parking",
+      "pattern": "ringgo|justpark|paybyphone|apcoa|parking app",
+      "scenes": [
+        "停车缴费"
+      ],
+      "capabilities": [
+        "停车支付"
+      ]
+    },
+    {
+      "id": "taxi",
+      "pattern": "bolt.*ride|waymo|GO.*taxi|タクシー|配車",
+      "scenes": [
+        "叫车出行"
+      ],
+      "capabilities": [
+        "叫车服务"
+      ]
+    },
+    {
+      "id": "maps-extra",
+      "pattern": "google マップ|land nav|milgps|topo50|道の駅ナビ",
+      "scenes": [
+        "路线导航"
+      ],
+      "capabilities": [
+        "地图导航"
+      ]
+    },
+    {
+      "id": "speed-camera",
+      "pattern": "blitzer|オービス|速度取締",
+      "scenes": [
+        "驾驶路况提醒"
+      ],
+      "capabilities": [
+        "道路提醒"
+      ]
+    },
+    {
+      "id": "social-feed",
+      "pattern": "^facebook$|^threads|小红书|小紅書|^reddit$|^X$|^X（",
+      "scenes": [
+        "社区内容交流"
+      ],
+      "capabilities": [
+        "内容发布与互动"
+      ]
+    },
+    {
+      "id": "instagram",
+      "pattern": "^instagram|instants.*instagram",
+      "scenes": [
+        "影像社交"
+      ],
+      "capabilities": [
+        "影像分享"
+      ]
+    },
+    {
+      "id": "discord",
+      "pattern": "discord|\\bQQ\\b|imo video|textnow|rakuten link",
+      "scenes": [
+        "即时通讯"
+      ],
+      "capabilities": [
+        "消息沟通"
+      ]
+    },
+    {
+      "id": "livestream",
+      "pattern": "twitch|bigo live|live streaming|ライブ配信|生配信",
+      "scenes": [
+        "直播观看与互动"
+      ],
+      "capabilities": [
+        "直播播放"
+      ]
+    },
+    {
+      "id": "long-video",
+      "pattern": "^youtube$|netflix|disney\\+|nhk.*(one|plus)|abema|爱奇艺|愛奇藝|优酷|優酷|腾讯视频|騰訊視頻|哔哩哔哩|嗶哩嗶哩",
+      "scenes": [
+        "影视视频观看"
+      ],
+      "capabilities": [
+        "视频播放"
+      ]
+    },
+    {
+      "id": "media-player",
+      "pattern": "nplayer|vlc|usb audio player|ripple player|deck-man|音楽プレーヤー|music player",
+      "scenes": [
+        "本地媒体播放"
+      ],
+      "capabilities": [
+        "媒体播放"
+      ]
+    },
+    {
+      "id": "music-extra",
+      "pattern": "汽水音乐|汽水音樂|radiko",
+      "scenes": [
+        "音乐收听"
+      ],
+      "capabilities": [
+        "音乐播放"
+      ]
+    },
+    {
+      "id": "ebook",
+      "pattern": "readera|moon\\+ reader|ebook reader|电子书|電子書|小说|小說|i文庫|漫画|漫畫|comic.*(reader|glass|share)|lineマンガ|CDisplayEx",
+      "scenes": [
+        "电子书与漫画阅读"
+      ],
+      "capabilities": [
+        "电子阅读"
+      ]
+    },
+    {
+      "id": "photo-camera",
+      "pattern": "camera|カメラ|相机|相機|\\bcam\\b|ProCam|StageCamera",
+      "scenes": [
+        "手机摄影"
+      ],
+      "capabilities": [
+        "相机拍摄"
+      ],
+      "exclude": "traffic|radar|scanner|parking|speed|camera.*(detect|find)|camera.*roll"
+    },
+    {
+      "id": "teleprompter",
+      "pattern": "teleprompter|提词器|提詞器",
+      "scenes": [
+        "口播拍摄"
+      ],
+      "capabilities": [
+        "提词显示"
+      ]
+    },
+    {
+      "id": "motion-video",
+      "pattern": "stop motion|stick nodes|animator",
+      "scenes": [
+        "动画制作"
+      ],
+      "capabilities": [
+        "动画编辑"
+      ]
+    },
+    {
+      "id": "video-extra",
+      "pattern": "video editor|lumafusion|adobe premiere",
+      "scenes": [
+        "视频创作"
+      ],
+      "capabilities": [
+        "视频剪辑"
+      ]
+    },
+    {
+      "id": "photo-extra",
+      "pattern": "photo editor|photoshop|photo studio|GIMP",
+      "scenes": [
+        "照片处理"
+      ],
+      "capabilities": [
+        "图片编辑"
+      ]
+    },
+    {
+      "id": "photo-library",
+      "pattern": "google photos|写真整理|照片整理",
+      "scenes": [
+        "照片管理"
+      ],
+      "capabilities": [
+        "照片整理"
+      ]
+    },
+    {
+      "id": "ai-media",
+      "pattern": "suno|AI.*music|AI.*songs|AI.*音乐|AI.*音樂",
+      "scenes": [
+        "AI 音乐创作"
+      ],
+      "capabilities": [
+        "音乐生成"
+      ]
+    },
+    {
+      "id": "ai-visual",
+      "pattern": "AI.*(photo|video).*(generator|maker)|可灵|可靈|即梦|即夢|sora.*AI|AI.*sora",
+      "scenes": [
+        "AI 视觉创作"
+      ],
+      "capabilities": [
+        "图像与视频生成"
+      ]
+    },
+    {
+      "id": "drawing",
+      "pattern": "procreate|ibis paint|アイビスペイント|altopaint|drawing|油画|油畫",
+      "scenes": [
+        "数字绘画"
+      ],
+      "capabilities": [
+        "绘画创作"
+      ]
+    },
+    {
+      "id": "3d",
+      "pattern": "nomad sculpt|3D.*(model|sculpt)|CAD Studio",
+      "scenes": [
+        "三维设计"
+      ],
+      "capabilities": [
+        "三维建模"
+      ]
+    },
+    {
+      "id": "music-tools",
+      "pattern": "tuner|チューナー|metronome|メトロノーム|调音|調音|节拍器|節拍器|drumtune",
+      "scenes": [
+        "乐器练习"
+      ],
+      "capabilities": [
+        "调音与节拍"
+      ]
+    },
+    {
+      "id": "scores",
+      "pattern": "forscore|mobilesheets|ireal pro|tenuto|music theory",
+      "scenes": [
+        "乐谱与乐理学习"
+      ],
+      "capabilities": [
+        "乐谱练习"
+      ]
+    },
+    {
+      "id": "music-production",
+      "pattern": "fl studio|garageband|cubasis|4-track|music studio",
+      "scenes": [
+        "音乐制作"
+      ],
+      "capabilities": [
+        "音频制作"
+      ]
+    },
+    {
+      "id": "voice",
+      "pattern": "voice recorder|dictaphone|音声レコーダー|录音|錄音",
+      "scenes": [
+        "语音记录"
+      ],
+      "capabilities": [
+        "录音"
+      ]
+    },
+    {
+      "id": "transcription",
+      "pattern": "speech to text|whisper notes|语音转文字|語音轉文字",
+      "scenes": [
+        "语音转文字"
+      ],
+      "capabilities": [
+        "语音转写"
+      ]
+    },
+    {
+      "id": "email",
+      "pattern": "gmail|microsoft outlook|ドコモメール|email client|邮件|郵件",
+      "scenes": [
+        "电子邮件处理"
+      ],
+      "capabilities": [
+        "邮件收发"
+      ]
+    },
+    {
+      "id": "word",
+      "pattern": "microsoft word|word.*documents",
+      "scenes": [
+        "文档编辑"
+      ],
+      "capabilities": [
+        "文字文档编辑"
+      ]
+    },
+    {
+      "id": "sheets",
+      "pattern": "microsoft excel|spreadsheets|表格",
+      "scenes": [
+        "表格办公"
+      ],
+      "capabilities": [
+        "表格编辑"
+      ]
+    },
+    {
+      "id": "todo",
+      "pattern": "things 3|todoist|ticktick|to-do|待办|待辦",
+      "scenes": [
+        "任务与日程管理"
+      ],
+      "capabilities": [
+        "待办管理"
+      ]
+    },
+    {
+      "id": "countdown",
+      "pattern": "days matter|倒数日|倒數日|countdown",
+      "scenes": [
+        "重要日期提醒"
+      ],
+      "capabilities": [
+        "倒计时"
+      ]
+    },
+    {
+      "id": "cloud",
+      "pattern": "google drive|dropbox|onedrive|online backup|网盘|網盤",
+      "scenes": [
+        "云端文件管理"
+      ],
+      "capabilities": [
+        "文件同步"
+      ]
+    },
+    {
+      "id": "notes-extra",
+      "pattern": "digital planner.*notes|scrivener",
+      "scenes": [
+        "笔记与知识整理"
+      ],
+      "capabilities": [
+        "笔记记录"
+      ]
+    },
+    {
+      "id": "filemanager",
+      "pattern": "file explorer|file manager|文件管理",
+      "scenes": [
+        "本地文件管理"
+      ],
+      "capabilities": [
+        "文件整理"
+      ]
+    },
+    {
+      "id": "remote-desktop",
+      "pattern": "jump desktop|anydesk|teamviewer|remote desktop",
+      "scenes": [
+        "远程电脑操作"
+      ],
+      "capabilities": [
+        "远程桌面"
+      ]
+    },
+    {
+      "id": "business-chat",
+      "pattern": "钉钉|釘釘|飞书|飛書",
+      "scenes": [
+        "团队沟通协作"
+      ],
+      "capabilities": [
+        "团队沟通"
+      ]
+    },
+    {
+      "id": "recruiting",
+      "pattern": "indeed|job search|求人|BOSS直聘|招聘|転職|仕事探し",
+      "scenes": [
+        "求职招聘"
+      ],
+      "capabilities": [
+        "职位搜索"
+      ]
+    },
+    {
+      "id": "hr",
+      "pattern": "SmartHR|ADP mobile|hotschedules",
+      "scenes": [
+        "员工事务办理"
+      ],
+      "capabilities": [
+        "人事信息管理"
+      ]
+    },
+    {
+      "id": "inspection",
+      "pattern": "site audit pro",
+      "scenes": [
+        "现场巡检与验收"
+      ],
+      "capabilities": [
+        "巡检记录"
+      ]
+    },
+    {
+      "id": "watch-face",
+      "pattern": "watch face|watchface|wear OS face|hybrid.*LCD|digital.*watch|analog watch",
+      "scenes": [
+        "手表个性化"
+      ],
+      "capabilities": [
+        "表盘定制"
+      ]
+    },
+    {
+      "id": "launcher",
+      "pattern": "launcher|icons|icon pack|oneui|one ui",
+      "scenes": [
+        "桌面个性化"
+      ],
+      "capabilities": [
+        "启动器与图标定制"
+      ]
+    },
+    {
+      "id": "sleep",
+      "pattern": "autosleep|sleep meister|sleeptown|睡眠|snor(e|ing)|sleep track",
+      "scenes": [
+        "睡眠管理"
+      ],
+      "capabilities": [
+        "睡眠记录"
+      ]
+    },
+    {
+      "id": "meditation",
+      "pattern": "white noise|buddhify|meditation|冥想|瞑想",
+      "scenes": [
+        "放松与冥想"
+      ],
+      "capabilities": [
+        "放松引导"
+      ]
+    },
+    {
+      "id": "fitness",
+      "pattern": "workout|fitness|フィットネス|couch to 5|watch to 5|healthfit",
+      "scenes": [
+        "运动训练"
+      ],
+      "capabilities": [
+        "训练辅助"
+      ]
+    },
+    {
+      "id": "steps",
+      "pattern": "step counter|pedometer|歩数|计步|計步",
+      "scenes": [
+        "步行活动记录"
+      ],
+      "capabilities": [
+        "步数记录"
+      ]
+    },
+    {
+      "id": "anatomy",
+      "pattern": "anatomy|anatomical|アナトミー|キネシオロジー|解剖",
+      "scenes": [
+        "人体解剖学习"
+      ],
+      "capabilities": [
+        "解剖知识查询"
+      ]
+    },
+    {
+      "id": "healthcare",
+      "pattern": "nhs app|mychart|医保服务|醫保服務|診察券",
+      "scenes": [
+        "就医服务"
+      ],
+      "capabilities": [
+        "医疗服务查询"
+      ]
+    },
+    {
+      "id": "obd",
+      "pattern": "OBD|forscan|car diagnostics|torque pro",
+      "scenes": [
+        "车辆故障诊断"
+      ],
+      "capabilities": [
+        "车辆诊断"
+      ]
+    },
+    {
+      "id": "device-shell",
+      "pattern": "ADB shell|aShell|terminal|termux",
+      "scenes": [
+        "设备开发调试"
+      ],
+      "capabilities": [
+        "命令行操作"
+      ]
+    },
+    {
+      "id": "notification",
+      "pattern": "notification manager|buzzkill|短信|詐欺対策",
+      "scenes": [
+        "消息与通知管理"
+      ],
+      "capabilities": [
+        "通知管理"
+      ]
+    },
+    {
+      "id": "browser-extra",
+      "pattern": "duckduckgo",
+      "scenes": [
+        "网页浏览"
+      ],
+      "capabilities": [
+        "网页访问"
+      ]
+    },
+    {
+      "id": "search",
+      "pattern": "^google -|百度.*搜索|百度.*搜尋",
+      "scenes": [
+        "信息检索与研究"
+      ],
+      "capabilities": [
+        "信息搜索"
+      ]
+    },
+    {
+      "id": "ticket-extra",
+      "pattern": "電子チケット|チケプラ",
+      "scenes": [
+        "演出票务"
+      ],
+      "capabilities": [
+        "电子票管理"
+      ]
+    },
+    {
+      "id": "alarm",
+      "pattern": "アラーム|alarm clock|闹钟|鬧鐘",
+      "scenes": [
+        "起床与定时提醒"
+      ],
+      "capabilities": [
+        "闹钟提醒"
+      ]
+    }
+  ]
+}

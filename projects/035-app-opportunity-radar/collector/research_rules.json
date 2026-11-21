@@ -1,0 +1,256 @@
+{
+  "version": "2026-11-22.v3",
+  "needs": [
+    {
+      "id": "save-time",
+      "label": "减少操作与节省时间",
+      "pattern": "save[sd]? (?:me |us )?time|easy to use|simple to use|convenient|使いやす|便利|時短|节省时间|方便|好用|简单|簡單"
+    },
+    {
+      "id": "documents",
+      "label": "移动处理文档",
+      "pattern": "pdf|document|scan|report|文档|文件|扫描|报告|書類|スキャン|レポート"
+    },
+    {
+      "id": "family",
+      "label": "了解家人位置与安全",
+      "pattern": "family|children|daughter|\\bson\\b|location|家族|子供|位置|定位|家人",
+      "scene_any": [
+        "家庭位置共享"
+      ]
+    },
+    {
+      "id": "creative",
+      "label": "完成摄影与创作",
+      "pattern": "photo|camera|music|creative|写真|撮影|作曲|照片|相机|创作|音乐",
+      "scene_any": [
+        "手机摄影",
+        "照片处理",
+        "视频创作",
+        "AI 视觉创作",
+        "音乐制作",
+        "音乐收听",
+        "主机远程游玩"
+      ]
+    },
+    {
+      "id": "shopping",
+      "label": "便利购物与使用优惠",
+      "pattern": "shop|shopping|discount|coupon|order|買い物|クーポン|购物|优惠|下单"
+    },
+    {
+      "id": "learning",
+      "label": "学习与练习",
+      "pattern": "learn|study|exam|vocabulary|勉強|学習|試験|学习|考试|背单词"
+    },
+    {
+      "id": "rewards",
+      "label": "获取奖励或会员积分",
+      "pattern": "reward|cash.?back|cash.?out|earn.*money|ポイント|報酬|返现|奖励|提现"
+    },
+    {
+      "id": "personalize",
+      "label": "表达个人风格",
+      "pattern": "watch.?face|widget|customi[sz]|beautiful|文字盤|ウィジェット|表盘|小组件|好看",
+      "scene_any": [
+        "桌面个性化",
+        "手表个性化"
+      ]
+    },
+    {
+      "id": "connect",
+      "label": "沟通、发现内容与信息",
+      "pattern": "chat|message|recommend|discover|community|聊天|交流|推荐|メッセージ|コミュニケーション",
+      "exclude": "highly recommend|recommend (?:this|it)|おすすめ.*アプリ|推荐.*软件"
+    }
+  ],
+  "pains": [
+    {
+      "id": "reliability",
+      "label": "稳定性与功能失效",
+      "pattern": "crash|freez|\\bbugs?\\b|not working|doesn.t work|won.t (?:open|load)|落ちる|不具合|動かない|闪退|卡死|打不开|无法打开",
+      "exclude": "never crash|no crashes|no bugs|bug.free|落ちない",
+      "hypothesis": "围绕关键任务提供更稳定的轻量工具",
+      "mvp": "先选一个高频任务，做异常恢复、诊断信息和清晰错误提示",
+      "validation": "在受影响版本与设备复现；访谈3—5位用户确认替代成本",
+      "constraint": "先区分应用、系统与网络故障；稳定性抱怨本身不证明用户愿意迁移"
+    },
+    {
+      "id": "pricing",
+      "label": "价格、订阅与付费门槛",
+      "pattern": "subscript|paywall|expensive|overcharg|charged|paid.*(?:again|twice)|課金|有料|高すぎ|サブスク|订阅|付费|收费|扣费|太贵",
+      "exclude": "no subscription|without subscription|無料で使える",
+      "hypothesis": "验证价格透明、范围清楚的单任务版本是否有需求",
+      "mvp": "明确免费范围、收费时机和费用；用一次性或用量方案做小规模测试",
+      "validation": "访谈当前付费与流失用户，测试真实付款或预约意愿",
+      "constraint": "需要核算服务成本；用户不满价格不等于低价方案可盈利"
+    },
+    {
+      "id": "ads",
+      "label": "广告与操作打断",
+      "pattern": "\\bads?\\b|advertis|広告|广告|廣告",
+      "exclude": "no ads|without ads|ad.free|広告なし|広告がない|没有广告|无广告",
+      "hypothesis": "验证任务不中断、广告边界清楚的工具体验",
+      "mvp": "优先保证一个任务完整完成，再展示可跳过的商业信息",
+      "validation": "比较任务完成率，测试用户对无广告版本的付费选择",
+      "constraint": "广告收入与获客成本需要同时验证，不能假定去广告就能增长"
+    },
+    {
+      "id": "login",
+      "label": "登录、账户与权限流程",
+      "pattern": "log.?in|sign.?in|account.*(?:lock|ban)|register|ログイン|アカウント|登录|登陆|注册|封号|账号",
+      "exclude": "login works|easy to log",
+      "hypothesis": "验证低摩擦使用与可恢复账户流程",
+      "mvp": "能离线完成的任务先免登录；提供清楚的登录失败恢复路径",
+      "validation": "复现登录障碍，观察用户完成首次任务所需步骤",
+      "constraint": "身份、支付或多人协作场景可能必须登录，不能直接去掉认证"
+    },
+    {
+      "id": "performance",
+      "label": "速度、延迟与耗电",
+      "pattern": "\\bslow\\b|lagg|battery.*drain|drains.*battery|動作.*重い|遅すぎ|バッテリー|耗电|卡顿|很慢|延迟",
+      "exclude": "delivery|shipping|配送|never slow|no lag",
+      "hypothesis": "验证针对低配置设备或高频任务的轻量版本",
+      "mvp": "围绕单一任务优化启动、离线缓存、后台耗电",
+      "validation": "在目标设备记录启动耗时和耗电，对照现有产品测试",
+      "constraint": "性能问题可能因设备和系统版本而异，需先测量"
+    },
+    {
+      "id": "data",
+      "label": "数据丢失、同步与恢复",
+      "pattern": "lost.*(?:data|files|notes)|deleted.*(?:files|data)|sync.*(?:fail|not|broken|issue)|データ.*(?:消え|失)|同期.*(?:できない|不具合)|数据.*(?:丢|没|消失)|文件.*(?:丢|消失)|同步.*(?:失败|不了)",
+      "hypothesis": "验证可靠保存、可导出与可恢复的任务工具",
+      "mvp": "优先自动保存、备份恢复和常见格式导出",
+      "validation": "用实际任务测试断网、重启与多设备恢复，确认迁移意愿",
+      "constraint": "备份与跨设备服务会增加维护成本，需验证真实使用频次"
+    },
+    {
+      "id": "export",
+      "label": "报告、导出与格式兼容",
+      "pattern": "can.t export|unable to export|export.*(?:fail|error|not work)|report.*(?:error|broken|missing)|PDF.*(?:error|can.t)|导出.*(?:失败|不了|无法)|报告.*(?:无法|错误)|出力.*(?:できない|不具合)|エクスポート.*(?:できない|エラー)",
+      "hypothesis": "验证从现场记录到交付报告的窄场景工具",
+      "mvp": "只做一种明确报告模板，支持常用文件格式与可靠导出",
+      "validation": "找5位实际交付报告的用户，测试是否能替代一次真实工作",
+      "constraint": "需要理解具体行业模板和工作流；泛用导出未必构成独立产品"
+    },
+    {
+      "id": "accuracy",
+      "label": "定位、识别或信息准确性",
+      "pattern": "(?:location|GPS).{0,55}(?:wrong|inaccurate|not updat|lag)|(?:wrong|inaccurate).{0,30}(?:location|GPS)|定位.*(?:不准|错误|延迟)|位置.*(?:ずれ|更新されない|不正確)",
+      "hypothesis": "验证位置新鲜度与可信状态展示是否能减少误解",
+      "mvp": "显示最后更新时间、精度范围、失联状态与授权状态",
+      "validation": "在真实移动场景比较定位误差，测试用户是否更容易判断状态",
+      "constraint": "定位精度依赖系统与硬件；涉及他人位置时需明确授权"
+    },
+    {
+      "id": "support",
+      "label": "客服响应与问题处理",
+      "pattern": "customer (?:support|service)|no response|サポート|客服|售后|售後|不回复|返信.*ない",
+      "hypothesis": "验证可自助定位与解决问题的服务流程",
+      "mvp": "提供清楚的故障诊断、处理进度和可到达的人工渠道",
+      "validation": "抽取真实工单复盘，测试首次解决率与用户继续使用意愿",
+      "constraint": "客服抱怨可能源于运营能力；需要确认能否用产品流程降低成本"
+    },
+    {
+      "id": "rewards",
+      "label": "奖励兑现与提现障碍",
+      "pattern": "(?:cash.?out|withdraw|payout).{0,60}(?:can.t|unable|pending|never|not|fail|wait)|(?:can.t|unable|never).{0,40}(?:cash.?out|withdraw|payout)|提现.*(?:失败|不了|不到账)|報酬.*(?:もらえない|付与されない)",
+      "hypothesis": "研究奖励到账透明度与任务可追踪性",
+      "mvp": "显示任务条件、追踪状态、预计到账时间与申诉证据",
+      "validation": "核对真实任务记录与兑现规则，访谈用户对透明度的要求",
+      "constraint": "兑现依赖合作方和资金，不能承诺单靠界面解决或复制补贴模式"
+    },
+    {
+      "id": "compatibility",
+      "label": "设备连接与版本兼容",
+      "pattern": "not compatible|incompatible|won.t connect|can.t connect|not support.*(?:device|watch|controller)|接続できない|非対応|连接不上|不兼容|无法连接",
+      "hypothesis": "验证特定设备组合上的兼容性增强工具",
+      "mvp": "限定设备型号和系统版本，做好连接诊断与兼容矩阵",
+      "validation": "在用户真实设备组合测试连接成功率与付费意愿",
+      "constraint": "依赖设备协议和系统接口变化，需要持续维护"
+    },
+    {
+      "id": "delivery",
+      "label": "订单与配送体验",
+      "pattern": "deliver.*(?:late|not|never|wrong)|never arrived|order.*(?:cancel|missing|wrong)|配送.*(?:遅|届か)|注文.*(?:できない|キャンセル)|订单.*(?:取消|错误)|配送.*(?:慢|延迟)|没收到货",
+      "hypothesis": "研究订单状态透明与异常处理辅助",
+      "mvp": "先围绕订单状态整理、异常提醒与证据留存做辅助原型",
+      "validation": "确认问题来自软件还是履约，访谈用户处理异常的时间成本",
+      "constraint": "库存、物流和商家履约依赖外部资源，软件无法独立解决全部问题"
+    },
+    {
+      "id": "localization",
+      "label": "语言支持与本地化",
+      "pattern": "no english|only.*(?:japanese|chinese)|translation.*(?:wrong|bad)|日本語.*(?:非対応|対応して|ない)|中文.*(?:没有|不支持)|希望.*中文",
+      "hypothesis": "验证针对特定语言人群的本地化任务工具",
+      "mvp": "选择一个窄任务，提供清楚本地语言流程与术语",
+      "validation": "让目标语言用户完成真实任务，测试理解与完成率",
+      "constraint": "先确认目标用户数量与获客渠道，语言支持本身不证明市场规模"
+    },
+    {
+      "id": "workflow",
+      "label": "界面改动与工作流程",
+      "pattern": "(?<![A-Za-z])UI(?![A-Za-z])|interface|navigat|clunky|inefficient|no button|button.*(?:gone|missing)|layout|使いにく|わかりにく|わかりずら|分かりにく|面倒|手間|界面|操作.*(?:复杂|麻烦)|找不到",
+      "hypothesis": "优先验证一条高频任务的稳定、少步骤流程",
+      "mvp": "限定一个用户群和交付结果，围绕记录、检索、交付做三步原型",
+      "validation": "观察5位目标用户完成真实任务，记录失败点、耗时与迁移意愿",
+      "constraint": "先复现现有版本；旧习惯变化与真正效率损失要区分"
+    },
+    {
+      "id": "regression",
+      "label": "更新后的体验退化",
+      "pattern": "after.{0,30}update|since.{0,30}update|new version|new UI|last update|更新.*(?:後|してから|改悪)|アップデート.*(?:から|後|改悪)|新版|更新后|更新後",
+      "hypothesis": "验证保留关键工作流、渐进更新的轻量替代工具",
+      "mvp": "先复原一项用户依赖的高频流程，保持数据和导出格式可迁移",
+      "validation": "对照新旧流程复现问题，确认用户是否愿意试用替代方案",
+      "constraint": "用户可能只是暂不适应；原产品后续修复会改变机会窗口"
+    },
+    {
+      "id": "payments",
+      "label": "结账与支付失败",
+      "pattern": "決済.*(?:失敗|エラー)|支払い.*(?:できない|失敗|もたつ)|payment.*(?:fail|declin)|支付.*(?:失败|不了)|扣款.*(?:失败|错误)",
+      "hypothesis": "研究支付前准备、状态解释与失败恢复的辅助需求",
+      "mvp": "先做不接管资金的状态解释和异常处理原型",
+      "validation": "在受影响设备和终端组合复现，并确认官方接入条件",
+      "constraint": "依赖支付网络、系统和合作方；独立开发者无法直接替换整条支付链"
+    },
+    {
+      "id": "trust",
+      "label": "评价可信度与内容筛选",
+      "pattern": "控评|控評|假评价|虚假.*评价|真实.*评价|fake reviews|review.*(?:removed|deleted|fake)|評価.*(?:削除|信用)",
+      "hypothesis": "研究可追溯、聚焦特定场景的信息筛选工具",
+      "mvp": "围绕一个窄场景展示来源、日期和筛选依据，先验证决策帮助",
+      "validation": "对照真实决策任务访谈用户，核实评论指控并检查信息来源覆盖",
+      "constraint": "用户指控需核实；商户覆盖、数据授权和信息更新成本可能很高"
+    },
+    {
+      "id": "notifications",
+      "label": "通知频率与提醒体验",
+      "pattern": "notifications?|通知|推送",
+      "hypothesis": "验证按用户意图控制提醒频率与优先级的体验",
+      "mvp": "只保留任务必要提醒，提供频率上限和易理解的开关",
+      "validation": "用真实提醒场景测试打开率、关闭率和用户主观负担",
+      "constraint": "通知过多可能是运营策略，单独做管理工具仍受系统能力约束"
+    },
+    {
+      "id": "discounts",
+      "label": "优惠条件与领取流程",
+      "pattern": "(?:coupon|discount|bonus).{0,45}(?:not|no|didn|only|can.t|work)|(?:didn.t|no|not).{0,35}(?:bonus|discount|coupon)|クーポン.*(?:選|適用|使え|わから)|优惠.*(?:不能|无法|用不了)",
+      "hypothesis": "验证清楚解释优惠条件和减少领取步骤的辅助需求",
+      "mvp": "先做一个场景的条件解释、到期提醒或选择辅助原型",
+      "validation": "让用户完成真实领取和使用任务，比较节省步骤与实际成功率",
+      "constraint": "优惠规则、领取权限与资金由平台控制，不能承诺自动兑现"
+    }
+  ],
+  "requests": [
+    {
+      "id": "features",
+      "label": "明确功能与工作流改进请求",
+      "pattern": "please add|wish.{0,20}(?:could|had)|missing feature|lack of|追加して|対応してほしい|機能.*欲しい|希望.*(?:增加|添加|支持)|缺少.*功能|不支持.*(?:导出|格式|离线)|would love|would be a good idea|good idea to allow|need option|no option to export|wish I could|欲しい|選択できると|改善.*いただけ|もっと.*ほしい",
+      "hypothesis": "从明确请求中选择可独立交付的单一功能",
+      "mvp": "先复核评论原意，围绕一个请求做可用原型",
+      "validation": "邀请提出请求的目标人群完成真实任务并测试付费",
+      "constraint": "功能请求未必高频；需要检查现有版本与竞品是否已经实现"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "project": "035-app-opportunity-radar",
+  "snapshot_date": "2026-11-22",
+  "publication": "static snapshot; local collection does not automatically republish",
+  "guide_source": "app-growth-radar/docs/architecture/app-growth-radar-overview-20261122-research-v2.png",
+  "guide_sha256": "41b07d0259335c76876e5138268ae71a7fc1f92df80aa5327fb7256c652bca62",
+  "statistics": {
+    "reviews": 728,
+    "selected": 12,
+    "charts": 14,
+    "products": 1787,
+    "raw": 881,
+    "empty": 3,
+    "low": 322,
+    "positive": 345,
+    "neutral": 61
+  },
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 28286,
+      "sha256": "ba5663bb9e149195acab9d4a93c7b0abdacf6ca71b310da47f37f92e84c0a383"
+    },
+    {
+      "path": "research.css",
+      "bytes": 8451,
+      "sha256": "5f42f4f6eb2f73798ddeadfca4f793d61241ed7e20eb0ff7f01642c247d2141d"
+    },
+    {
+      "path": "research.js",
+      "bytes": 3173,
+      "sha256": "b316b620c6c4cd7296ba84f88c4d6671c7401a4524f1e005795cbbf8fa202c16"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12726,
+      "sha256": "41a950188de933890afbca40c5f9a0edd0cf496d5f384185ffb681ba3f27f39f"
+    },
+    {
+      "path": "media/app-growth-radar-overview-20261122-research-v2.png",
+      "bytes": 1105135,
+      "sha256": "41b07d0259335c76876e5138268ae71a7fc1f92df80aa5327fb7256c652bca62"
+    },
+    {
+      "path": "media/app-growth-radar-overview-20261122-research-v2.svg",
+      "bytes": 38060,
+      "sha256": "4ed4fdd363dd8612248ce8ddba1a93d9185d4a51f9c46e77c7526de93ea00aee"
+    },
+    {
+      "path": "report/index.html",
+      "bytes": 2872357,
+      "sha256": "db9294d302978c4da318752cfd7bd2f791e22dea36c72e1e53df912b76238da4"
+    },
+    {
+      "path": "report/snapshot.json",
+      "bytes": 4085892,
+      "sha256": "2680ed33b58ffee30f11c1f9a35bc77a324179e6276c22a3547814533060c030"
+    },
+    {
+      "path": "report/snapshot.md",
+      "bytes": 50331,
+      "sha256": "3e4c8a576eba4fb1b58e113757e71c7f6267b6ab4102b2987f3d117ef11d799e"
+    }
+  ],
+  "source_allowlist": [
+    "README.md",
+    ".gitignore",
+    "config.json",
+    "directions.json",
+    "research_rules.json",
+    "package.json",
+    "package-lock.json",
+    "play_bridge.mjs",
+    "run.py",
+    "preview.py",
+    "app_radar/analysis.py",
+    "app_radar/classify.py",
+    "app_radar/cli.py",
+    "app_radar/google_play.py",
+    "app_radar/report.py",
+    "app_radar/research.py",
+    "app_radar/research_store.py",
+    "app_radar/review_sources.py",
+    "app_radar/sources.py",
+    "app_radar/store.py",
+    "app_radar/tags.py",
+    "app_radar/__init__.py",
+    "app_radar/__main__.py",
+    "tests/report-dom.mjs",
+    "tests/research-dom.mjs",
+    "tests/tags-dom.mjs",
+    "tests/test_analysis.py",
+    "tests/test_android.py",
+    "tests/test_classify.py",
+    "tests/test_collection.py",
+    "tests/test_report.py",
+    "tests/test_research.py",
+    "tests/test_sources.py",
+    "tests/test_tags.py"
+  ],
+  "excluded": [
+    "database",
+    "raw responses",
+    "full review bodies",
+    "reviewer avatars",
+    "credentials",
+    "local absolute paths",
+    "node_modules"
+  ]
+}

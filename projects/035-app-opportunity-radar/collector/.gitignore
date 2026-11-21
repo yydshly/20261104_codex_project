@@ -1,0 +1,7 @@
+__pycache__/
+data/*.sqlite3*
+data/raw/
+data/collection.lock
+reports/
+
+node_modules/
