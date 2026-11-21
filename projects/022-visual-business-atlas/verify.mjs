@@ -1,0 +1,9 @@
+import fs from 'node:fs/promises';import path from 'node:path';import vm from 'node:vm';import crypto from 'node:crypto';import{fileURLToPath}from'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../../docs/022-visual-business-atlas'),html=await fs.readFile(path.join(root,'index.html'),'utf8'),manifest=JSON.parse(await fs.readFile(path.join(root,'publication-manifest.json'),'utf8'));
+let checked=0;for(const f of manifest.files){const b=await fs.readFile(path.join(root,f.path));if(crypto.createHash('sha256').update(b).digest('hex')!==f.sha256)throw Error('Hash mismatch '+f.path);checked++;}
+for(const match of html.matchAll(/(?:src|href)="([^"#?]+)(?:[?#][^"]*)?"/g)){const p=match[1];if(/^(https?:|data:|mailto:)/.test(p))continue;await fs.access(path.join(root,p));}
+const context={window:{}};for(const file of ['data.js','carriers.js','cases.js','samples.js','pet-data.js','pet-release.js'])vm.runInNewContext(await fs.readFile(path.join(root,file),'utf8'),context,{filename:file});
+const refs=new Set();function walk(v){if(typeof v==='string'&&/^assets\/[^\s]+\.(png|jpg|gif|zip|json|webp)$/.test(v))refs.add(v);else if(v&&typeof v==='object')Object.values(v).forEach(walk);}walk(context.window);for(const p of refs)await fs.access(path.join(root,p));
+const pet=await fs.readFile(path.join(root,'pet-ui.js'),'utf8');if(pet.includes('native-happy.png')||pet.includes('native-sleep.png'))throw Error('Unverified native screenshot reference');
+if(!html.includes('assets/overview/character-products-overview.png')||!html.includes('id="research"'))throw Error('Missing research guide or summary');
+console.log(JSON.stringify({filesAndHashesChecked:checked,dataAssetReferencesChecked:refs.size,guideUnchanged:manifest.guide.unchanged,staticLinks:'PASS',missingNativeProofs:'NONE',summary:'PASS'}));

@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-12",
+  "note": "Four original reference-conditioned illustrations. All characters and stories are fictional. No CLI/API fallback used.",
+  "artworks": [
+    {
+      "id": "avatar",
+      "prompt": "Use case: stylized-concept. Asset type: FINAL downloadable square profile avatar, not a mockup. Input image 1 is CHARACTER IDENTITY AND ILLUSTRATION STYLE REFERENCE ONLY, not a compositing target. Create entirely new artwork and poses, do not reuse/copy/paste the existing sitting cat, bowl, or Chinese caption. Consistent original fictional cat: creamy white fur, single dark chocolate ear on viewer's right, other ear pale pink inside, amber half-lidded eyes, slightly aloof warm personality, teal collar with round brass bell. Gentle warm outlined storybook illustration, subtle paper and colored-pencil texture, clean refined edges. Preserve identity. No watermark, no branding, no random glyphs. Create a fresh close-up head-and-shoulders portrait of this cat looking directly at viewer, head tilted a little, one small white paw raised in a restrained greeting. Confident affectionate half-smile. Fill central 70% with clearly readable face and ears; keep ears, whiskers and paw fully inside a central circular safe region. Flat muted sage green background, warm ivory fur, dark ear provides strong tiny-size silhouette. Square 1:1 composition, 1024 x 1024 or higher. No words, no bowl, no room, no border, no UI. Finished artwork with opaque background.",
+      "reference": "assets/case-studies/pet-after.png",
+      "savedSource": "assets/carrier-sources/avatar-source.png",
+      "tool": "image_gen.imagegen",
+      "mode": "built-in",
+      "status": "generated and visually inspected"
+    },
+    {
+      "id": "wallpaper-mobile",
+      "prompt": "Use case: illustration-story. Asset type: FINAL downloadable tall portrait phone wallpaper, no phone frame/UI. Input image 1 is CHARACTER IDENTITY AND ILLUSTRATION STYLE REFERENCE ONLY, not a compositing target. Create entirely new artwork and poses, do not reuse/copy/paste the existing sitting cat, bowl, or Chinese caption. Consistent original fictional cat: creamy white fur, single dark chocolate ear on viewer's right, other ear pale pink inside, amber half-lidded eyes, slightly aloof warm personality, teal collar with round brass bell. Gentle warm outlined storybook illustration, subtle paper and colored-pencil texture, clean refined edges. Preserve identity. No watermark, no branding, no random glyphs. Fresh narrative landscape: this cat lies curled sideways and peacefully dozes on a broad warm wooden window ledge near the bottom quarter, tail tucked and face visible, no bowl. Late afternoon light through a real window, distant soft sage hills and a small potted plant at bottom edge. Quiet ivory and sage atmosphere. Tall portrait 9:20 composition requested, ideally 1080x2400 or larger. Upper 55% must remain very calm pale warm wall with subtle light gradient and no objects, suitable for lockscreen clock/notifications. Bottom edge and upper edge have generous crop safety. The cat occupies lower-middle 20% of frame, not a closeup. No lettering, no clock, no icons, no typography, no device, no screenshots. This is the actual wallpaper image.",
+      "reference": "assets/case-studies/pet-after.png",
+      "savedSource": "assets/carrier-sources/wallpaper-mobile-source.png",
+      "tool": "image_gen.imagegen",
+      "mode": "built-in",
+      "status": "generated and visually inspected"
+    },
+    {
+      "id": "wallpaper-desktop",
+      "prompt": "Use case: illustration-story. Asset type: FINAL downloadable wide desktop wallpaper, no monitor frame/UI. Input image 1 is CHARACTER IDENTITY AND ILLUSTRATION STYLE REFERENCE ONLY, not a compositing target. Create entirely new artwork and poses, do not reuse/copy/paste the existing sitting cat, bowl, or Chinese caption. Consistent original fictional cat: creamy white fur, single dark chocolate ear on viewer's right, other ear pale pink inside, amber half-lidded eyes, slightly aloof warm personality, teal collar with round brass bell. Gentle warm outlined storybook illustration, subtle paper and colored-pencil texture, clean refined edges. Preserve identity. No watermark, no branding, no random glyphs. New independent wide illustration of this cat stretching its front paws, back gently arched, beside a sunlit room window on the RIGHT lower third. Green garden visible beyond right-side window, small plant at right edge, warm wooden floor only along bottom. Peaceful cream wall and soft diagonal sunlight across remaining space. Horizontal 16:9 composition requested, ideally 1920x1080 or larger. LEFT 58% must be calm pale low-contrast blank wall for desktop icons, no furnishings or characters there. Cat clearly recognizable but only 20% of canvas width on right. No bowl, no text, no clock, no icons, no operating system, no monitor frame. Opaque completed artwork.",
+      "reference": "assets/case-studies/pet-after.png",
+      "savedSource": "assets/carrier-sources/wallpaper-desktop-source.png",
+      "tool": "image_gen.imagegen",
+      "mode": "built-in",
+      "status": "generated and visually inspected"
+    },
+    {
+      "id": "comic",
+      "prompt": "Use case: illustration-story. Asset type: FINAL four-panel comic illustration sheet; we will add Chinese captions precisely in code underneath each frame. Input image 1 is CHARACTER IDENTITY AND ILLUSTRATION STYLE REFERENCE ONLY, not a compositing target. Create entirely new artwork and poses, do not reuse/copy/paste the existing sitting cat, bowl, or Chinese caption. Consistent original fictional cat: creamy white fur, single dark chocolate ear on viewer's right, other ear pale pink inside, amber half-lidded eyes, slightly aloof warm personality, teal collar with round brass bell. Gentle warm outlined storybook illustration, subtle paper and colored-pencil texture, clean refined edges. Preserve identity. No watermark, no branding, no random glyphs. Render exactly FOUR DISTINCT equal rectangular narrative panels arranged in a precise 2x2 grid, read left to right then top to bottom. Each cell fills one quadrant, thin straight white gutter at x=50% and y=50%, no outside borders. All four panels show successive NEW drawings of the same cat in the same cozy apartment home office at dusk, warm amber desk light and muted sage/cream palette. Same human throughout: only visible hands/forearms and neutral beige long sleeve, no face required. Story titled later '休息一下，也算正事'. Panel 1 top-left: side view of cat standing at doorway, looking from an empty food bowl toward person typing at desk, both objects clear. Panel 2 top-right: cat on floor pushing empty bowl with extended front paw toward desk, mouth closed, half-lidded patient insistence; hand still typing visible above. Panel 3 bottom-left: dynamic new action, cat places a paw gently on person's typing hand beside laptop keyboard, cat face looking up at human with calm direct eye contact, empty bowl below. Panel 4 bottom-right: resolution, person has stepped away and sits near cat on floor, only lower body/hand in beige sleeve visible, hand places a filled food bowl before seated cat; steaming tea mug and closed laptop on desk in background show person also taking a break. Cat relaxed, small satisfied expression. Clearly different staging, pose and camera angle in all four panels, correct anatomy and physical interactions. NO speech bubbles, NO text, NO digits, NO labels, NO time stamps; all illustration area. Square overall canvas 1536x1536 or higher, equal 2x2 panel grid. Finished coherent story art, not a repeated icon sheet.",
+      "reference": "assets/case-studies/pet-after.png",
+      "savedSource": "assets/carrier-sources/comic-source.png",
+      "tool": "image_gen.imagegen",
+      "mode": "built-in",
+      "status": "generated and visually inspected"
+    }
+  ]
+}

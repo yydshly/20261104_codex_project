@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-12",
+  "tool": "image_gen.imagegen",
+  "mode": "built-in",
+  "role": "Decorative header only; product samples in final image are original local files, composited separately.",
+  "reference": "assets/carrier-products/avatar-1024.png",
+  "prompt": "Use case: infographic-diagram. Asset type: illustrated header artwork for a Chinese project summary infographic, NOT a full poster and NO TEXT. Input image 1 is original fictional white cat identity and warm illustration style reference. Create a refined wide horizontal editorial illustration, 3:1 aspect ratio. On the RIGHT third is this same creamy-white cat with one dark chocolate ear on viewer's right, tiny black spot next to nose, amber eyes, teal collar and brass bell, sitting calmly with one paw resting on a stack of small blank cards. A subtle arc of five tiny objects around it represents a chat sticker, circular profile portrait, phone wallpaper, four-panel comic booklet and small desktop companion window; simplified blank symbolic objects with NO lettering, NO digits, no visible OS brand. The LEFT two thirds should be very pale warm cream empty negative space for precise typesetting added later. Warm ivory and soft sage palette, small muted ochre accent, gentle pencil texture, confident dark-green outlines, quiet premium magazine infographic style. Flat warm ivory background #f5f1e7, no dramatic lights, no gradient halo, no shadows that dominate, no watermark. Keep illustration only on right, 60% left is empty. This is a decorative header scene; final infographic will display actual completed assets separately.",
+  "savedSource": "assets/overview/header-source.png"
+}

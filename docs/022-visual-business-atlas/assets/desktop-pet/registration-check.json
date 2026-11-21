@@ -1,0 +1,38 @@
+[
+  {
+    "state": "idle",
+    "medianBodyDriftPx": 0,
+    "groundY": [
+      236,
+      236
+    ],
+    "distinctFrames": true
+  },
+  {
+    "state": "happy",
+    "medianBodyDriftPx": 1,
+    "groundY": [
+      236,
+      236
+    ],
+    "distinctFrames": true
+  },
+  {
+    "state": "hungry",
+    "medianBodyDriftPx": 0,
+    "groundY": [
+      236,
+      236
+    ],
+    "distinctFrames": true
+  },
+  {
+    "state": "sleep",
+    "medianBodyDriftPx": -2,
+    "groundY": [
+      236,
+      236
+    ],
+    "distinctFrames": true
+  }
+]

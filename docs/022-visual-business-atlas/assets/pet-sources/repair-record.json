@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-12",
+  "tool": "image_gen.imagegen",
+  "mode": "built-in",
+  "input": "assets/pet-sources/states-source.png",
+  "promptSummary": "Correct transparency and registration only; preserve eight cats and poses, remove all background and halos, shrink/recenter within equal 2x4 cells and prevent the hungry bowl from leaking into the sleep row. Genuine transparent alpha, no text or shadows.",
+  "savedSource": "assets/pet-sources/states-source-v2.png",
+  "status": "Selected repair; original source retained. Transparent perimeter and frame separation rechecked."
+}

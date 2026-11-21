@@ -1,0 +1,144 @@
+{
+  "date": "2026-11-12",
+  "source": "assets/pet-sources/states-source-v2.png",
+  "sourceSha256": "9978cb72b9802887765525c2e322541ef89e40bdec7204f6d77a86e1c5c1dca3",
+  "sourceWidth": 1024,
+  "sourceHeight": 1536,
+  "processing": "Uniform crop/scale across all 8 cells; alpha <=24 dust removed, alpha >=245 normalized; no new poses drawn in code. Body silhouettes registered within each pair; a shared 236px ground line prevents sideways jitter and floating between states.",
+  "crop": {
+    "left": 86,
+    "top": 36,
+    "width": 333,
+    "height": 334
+  },
+  "frames": [
+    {
+      "id": "idle",
+      "frame": 0,
+      "file": "idle-0.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 63928,
+      "registration": {
+        "x": -16,
+        "y": -6,
+        "relativeX": 0,
+        "bodySimilarity": 1,
+        "groundY": 236
+      },
+      "sha256": "3b8736ad4c0aef8dbefb41a8f0c36d231e30e14c205bd4162851084b86ef7367"
+    },
+    {
+      "id": "idle",
+      "frame": 1,
+      "file": "idle-1.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 63295,
+      "registration": {
+        "x": 17,
+        "y": -7,
+        "relativeX": 33,
+        "bodySimilarity": 0.9813210090506451,
+        "groundY": 236
+      },
+      "sha256": "34a263e2dd3b84f8f881d2a03236fda1dad2051f55cae965a8062d8851549cef"
+    },
+    {
+      "id": "happy",
+      "frame": 0,
+      "file": "happy-0.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 66489,
+      "registration": {
+        "x": -15,
+        "y": 7,
+        "relativeX": 0,
+        "bodySimilarity": 1,
+        "groundY": 236
+      },
+      "sha256": "62e8fe095ec0c37a99f7485b5461632fc66a0d9cde2a7e621a0a69826f190173"
+    },
+    {
+      "id": "happy",
+      "frame": 1,
+      "file": "happy-1.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 65731,
+      "registration": {
+        "x": 17,
+        "y": 8,
+        "relativeX": 32,
+        "bodySimilarity": 0.9444143656379714,
+        "groundY": 236
+      },
+      "sha256": "e4af0535519f3c80480b50fc50561809f6be61523e84fe4e1fee16c0359fe31f"
+    },
+    {
+      "id": "hungry",
+      "frame": 0,
+      "file": "hungry-0.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 71641,
+      "registration": {
+        "x": -13,
+        "y": 6,
+        "relativeX": 0,
+        "bodySimilarity": 1,
+        "groundY": 236
+      },
+      "sha256": "e5e7ed6cb697436b828fe1c2c8c6168b0ed3b6ab6d55bae1ff9b41500ce66db6"
+    },
+    {
+      "id": "hungry",
+      "frame": 1,
+      "file": "hungry-1.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 73986,
+      "registration": {
+        "x": 19,
+        "y": 6,
+        "relativeX": 32,
+        "bodySimilarity": 0.9216207240119562,
+        "groundY": 236
+      },
+      "sha256": "99bb0c42e33646af3597bc3fcdbe0ee8a68c81353899ca40f7938414a59c3b35"
+    },
+    {
+      "id": "sleep",
+      "frame": 0,
+      "file": "sleep-0.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 55976,
+      "registration": {
+        "x": -16,
+        "y": 64,
+        "relativeX": 0,
+        "bodySimilarity": 1,
+        "groundY": 236
+      },
+      "sha256": "4d7230179f2e5b751e06a274be057b47959cc12539870a4911beb6c3a6750268"
+    },
+    {
+      "id": "sleep",
+      "frame": 1,
+      "file": "sleep-1.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 56925,
+      "registration": {
+        "x": 15,
+        "y": 63,
+        "relativeX": 31,
+        "bodySimilarity": 0.9642567018683996,
+        "groundY": 236
+      },
+      "sha256": "c074a62d5f9375bcbf4f7429a12a3a1bffce6930e81b9130c9d31a2d02b1380f"
+    }
+  ]
+}

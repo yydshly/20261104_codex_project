@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-11-12",
+  "scope": "simulated reference-conditioned design studies",
+  "sourceStatus": "All reference photographs and customer briefs are simulated. No real client approval, feedback or sales are claimed.",
+  "cases": [
+    {
+      "id": "pet",
+      "reference": "assets/case-studies/pet-reference.jpg",
+      "referenceSha256": "60590403bf408ea1b73fb7d88f0e76e2f21647119468cc06002f9b5856756ba0",
+      "referenceSource": "assets/case-sources/pet-reference-source.png",
+      "baseline": "assets/stickers/pet/meal.png",
+      "baselineSha256": "a8c017beefea4577f8b053dfd170493eaa6b1c373172b1536542a45ceae925ff",
+      "after": "assets/case-studies/pet-after.png",
+      "afterSha256": "31a0b86cba9b1cd49c0fd1f1811b294f10977c68515028d502fd9c711f2e8f59",
+      "afterSource": "assets/case-sources/pet-after-source.png",
+      "width": 480,
+      "height": 480,
+      "transparent": true,
+      "format": "static PNG",
+      "caption": "碗空了"
+    },
+    {
+      "id": "couple",
+      "reference": "assets/case-studies/couple-reference.jpg",
+      "referenceSha256": "7c06329b160e731bd048d175a68cd7c4c2bab33caab589502c4aec64fb21ec83",
+      "referenceSource": "assets/case-sources/couple-reference-source.png",
+      "baseline": "assets/stickers/couple/hug.png",
+      "baselineSha256": "25b35fb56c14ba2aeb979bb89ca3314c12416d9960dfac7262b0c122929f4815",
+      "after": "assets/case-studies/couple-after.png",
+      "afterSha256": "3f479aba179bd875ee67c8efbc0170fab81643fd65b66c1ae0a485f596f2a1f4",
+      "afterSource": "assets/case-sources/couple-after-source.png",
+      "width": 480,
+      "height": 480,
+      "transparent": true,
+      "format": "static PNG",
+      "caption": "我陪着你"
+    },
+    {
+      "id": "shop",
+      "reference": "assets/case-studies/shop-reference.jpg",
+      "referenceSha256": "478f1814251edbc3e50d6ce2eda2b0d11359056e604a8ee58b5c41067d5eb390",
+      "referenceSource": "assets/case-sources/shop-reference-source.png",
+      "baseline": "assets/stickers/shop/confirm.png",
+      "baselineSha256": "26d1258c8d74bd5d4892a3313ef4b1ab415a057d22054254f69c0d14c4f7bf66",
+      "after": "assets/case-studies/shop-after.png",
+      "afterSha256": "1474c0402751aab38892e477cfec8b6043c0459fc5968d01c5bccad0365d3949",
+      "afterSource": "assets/case-sources/shop-after-source.png",
+      "width": 480,
+      "height": 480,
+      "transparent": true,
+      "format": "static PNG",
+      "caption": "我确认一下"
+    }
+  ]
+}

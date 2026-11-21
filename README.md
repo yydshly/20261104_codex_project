@@ -27,6 +27,7 @@
 | 019 | [投影打怪玩具：效果、意义与研究判断](projects/019-projection-play-study/README.md) | [noni__z 原帖](https://x.com/noni__z/status/2120168976135209223) · Nex / LUMOplay 官方资料 | 归档可见效果、童趣解释、产品能力与家庭意义，保留城市扩展和偏题纸样。当前新增研究价值有限，停止继续立项与演示；原机、复玩和付费未实测。 | [一图汇总](#projection-play-guide) | [研究归档网页](https://yydshly.github.io/20261104_codex_project/019-projection-play-study/) |
 | 020 | [知识库与客服业务闭环研究](projects/020-knowledge-service/README.md) | 自主架构探索 · [工作流与路由参考](https://www.anthropic.com/research/building-effective-agents) | 研究知识库怎样支撑可信回答、按需分析和客服跟进。以共享证据、模型路由、统一交流、规则确认与人工闭环构成架构，用包裹延迟原型和30项能力对照说明实现边界；双模型与真实收益待试点验证。 | [已有双模型引导图](#knowledge-service-guide) | [在线研究与演示](https://yydshly.github.io/20261104_codex_project/020-knowledge-service/) |
 | 021 | [公开产品信息与获客研究库](projects/021-growth-casebook/README.md) | [研究起点](https://x.com/yihui_indie/status/2119973315745812674) · GitHub、BetaList、Show HN 与 Product Hunt 公开来源 | 研究免费公开资料怎样成为带来源的中文报告与可比较案例。通过官网核对、固定结构与版本保存积累研究资产，为我们的选题、竞品学习和小实验假设提供依据；真实省时、获客成效与付费价值待验证。 | [已有研究全景图](#growth-casebook-guide) | [在线研究与案例快照](https://yydshly.github.io/20261104_codex_project/021-growth-casebook/) |
+| 022 | [角色、情绪与多载体产品化研究](projects/022-visual-business-atlas/README.md) | [AYi 原帖](https://x.com/AYi_AInotes/status/2120089714749263956) · 自主角色与交付实践 | 研究专属特征、情绪与故事怎样转成表情、头像、壁纸、漫画和桌宠。真实文件与模拟需求对照呈现角色一致性、场景适配和人的设计判断，延伸个人定制、小店经营及角色资产复用；桌宠实机稳定性与真实商业结果待验证。 | [已有研究引导图](#visual-business-atlas-guide) | [在线研究与成品](https://yydshly.github.io/20261104_codex_project/022-visual-business-atlas/) |
 
 项目按收录顺序从 `001` 开始编号。新条目按编号追加，已分配的编号保持固定。索引摘要用一两句话写清研究对象和关注点。完成验证后，可补上一条主要发现。
 
@@ -322,3 +323,18 @@ Adam Chernick 个人制作、扩展和组合的网页 3D 实验，部分基于 T
 [在线研究与案例快照](https://yydshly.github.io/20261104_codex_project/021-growth-casebook/) · [研究摘要与意义](projects/021-growth-casebook/README.md) · [本地采集与源码说明](growth-casebook/README.md)
 
 公开版可阅读案例、历史报告和来源摘录；采集与更新仍在本地 8766 运行。连续收入、真实流量、渠道转化与因果归因尚未取得，公开动作不能直接证明商业成效。
+
+
+<a id="visual-business-atlas-guide"></a>
+
+### 022 · 角色、情绪与多载体产品化研究
+
+研究如何把宠物、情侣和小店的专属特征、情绪与故事，转成表情图／GIF、头像、壁纸、漫画和桌宠五类可使用成品。以真实文件、模拟需求对照和交互演示说明场景适配与人的设计判断，沉淀个人定制、小店经营和角色资产复用的方法；桌宠实机稳定性、真实付费和复购仍待验证。
+
+![沿用已生成的角色产品总览图：五类成品、核心能力、人的判断、用户价值与扩展路径](docs/022-visual-business-atlas/assets/overview/character-products-overview.png)
+
+我们的理解是需求确定方向、能力提供手段、具体载体承载结果。情绪版本是贯穿多种作品的表达变化，价值还包括表达、身份、氛围、记忆和陪伴。人的作用在于从参考中选特征、确定表达分寸、按场景做取舍，并把确认交回本人或客户。
+
+已有三套12张GIF、透明PNG、独立头像、手机和桌面壁纸、四格新漫画及Windows桌宠试用包。网页保留模拟参考前后对照、九类载体、18个方向、成本试算与验证清单。桌宠横移已用帧配准修正，实机交互与长期稳定性仍待验收；没有成交、复购或稳定盈利证据，实体周边等为待验证延伸。
+
+引导图沿用本轮生成的原图，记录2026-11-12阶段理解；公开整理日期为2026-11-21。[在线研究与成品](https://yydshly.github.io/20261104_codex_project/022-visual-business-atlas/) · [完整研究摘要](projects/022-visual-business-atlas/README.md)

@@ -1,0 +1,63 @@
+{
+  "createdAt": "2026-11-12",
+  "tool": "image_gen.imagegen (built-in)",
+  "evidenceStatus": "All references, briefs and design decisions are simulated examples. No real customer's identity, approval, satisfaction, use or payment is claimed.",
+  "decisionStatus": "The design choices are demonstration proposals awaiting real-person confirmation. The phrase 'Human-approved design intent' in two prompts is scenario framing, not evidence of real client approval.",
+  "references": [
+    {
+      "id": "pet",
+      "prompt": "Use case: photorealistic-natural. Asset type: fictional reference photo for an explicitly labeled AI-generated design exercise. One realistic domestic shorthaired cat on a simple light wooden kitchen floor beside a small EMPTY cream ceramic food bowl. The cat has predominantly white short fur, one entirely black ear on the viewer's right (cat's left), a small black patch beside its nose, amber eyes, and a sage-teal fabric collar with a round brass tag. Neutral natural daylight, clear full body and distinctive markings, three-quarter frontal angle, cat looking slightly sideways with an understated mildly aloof expression, one front paw near the empty bowl. No human hands. Square photograph, restrained candid pet photography, neutral uncluttered setting, accurate anatomy and no costume. No text, no logos, no watermarks. This is a fictional cat, not an actual customer's pet.",
+      "transparent_background": false,
+      "savedSource": "assets/case-sources/pet-reference-source.png"
+    },
+    {
+      "id": "couple",
+      "prompt": "Use case: photorealistic-natural. Asset type: fictional adult couple identity reference photo for an explicitly labeled AI-generated design exercise. Two fictional East Asian adults about 28-32, seated next to each other on a simple gray sofa in warm natural window light. Woman: short softly curly chin-length dark brown bob, thin round black glasses, mustard-yellow knit cardigan over an ivory shirt. Man: short straight black hair, no glasses, navy-blue overshirt over an ivory tee. Both have natural ordinary friendly faces and a calm, slightly tired but relaxed expression, fully clothed, hands resting naturally. Crop from mid thigh to comfortably above heads, both faces clearly visible, straightforward candid portrait, realistic skin and garment textures. Square photo, plain apartment background with very little decor. No touching faces, no theatrical poses, no text, logos or watermark. These are fictional adults, not real customers.",
+      "transparent_background": false,
+      "savedSource": "assets/case-sources/couple-reference-source.png"
+    },
+    {
+      "id": "shop",
+      "prompt": "Use case: product-mockup. Asset type: fictional physical bakery product and packaging reference photograph for an explicitly labeled AI-generated design exercise. A single thick square slice of milk toast bread with a rich golden caramel crust and soft cream crumb, one small recognizable diagonal cut/notch at the upper-right crust corner. It stands propped on a small unbranded white ceramic plate. Beside it is a simple sage-green kraft bakery takeaway bag with a cream circular blank seal and folded top. Soft natural daylight on a pale wooden bakery counter, accurate handmade bread texture, clean honest food photography, toast and packaging clearly separate and both fully visible, square image. No face on the bread, no mascot, no arms, no invented written claims, no words, logos, watermark, price tags or other products. This is a fictional bakery product, not a photograph of a real shop.",
+      "transparent_background": false,
+      "savedSource": "assets/case-sources/shop-reference-source.png"
+    }
+  ],
+  "after": [
+    {
+      "id": "pet",
+      "prompt": "Use case: identity-preserve / stylized-concept. Asset type: one finished messaging sticker illustration for an explicitly labeled design comparison.\nImage 1 is the primary physical / identity REFERENCE. Image 2 is an existing generic sticker used ONLY as the illustration STYLE reference and before-comparison. Preserve the differentiating physical details from Image 1. Match the professional soft-gouache chibi style, warm dark outlines, subtle shading and white die-cut outer edge of Image 2. Produce ONE single new isolated vignette on a genuinely transparent background, square composition, full subject comfortably inside the canvas with 10% padding. No grid, no duplicate pose, no panels. No text, no lettering, no captions, no speech bubble, no watermark. Chinese wording will be typeset separately. Keep the lower 12% clear for caption. This task is a real reference-conditioned redesign, not a UI mockup. Human-approved design intent for this fictional demonstration: this cat is mildly aloof and nudges an EMPTY bowl at mealtimes; communicate a restrained, familiar \"the bowl is empty\" instead of an exuberant meal announcement.\nRetain the WHITE shorthaired cat from Image 1, with its ONE black ear on the VIEWER'S RIGHT, small black patch on the viewer-right side of the nose, amber eyes and muted teal fabric collar with round brass tag. NO orange coat or triangular bandanna from Image 2. Show the white cat seated, one front paw deliberately nudging a small cream bowl forward; the inside of the bowl is clearly EMPTY, no kibble. Half-lidded sideways amber eyes, slightly pursed small mouth, a subtle raised brow: dry, gently demanding, familiar rather than angry or sad. Keep all paws anatomically coherent. No dramatic anger symbols, no hearts, no stars, no large grin. This should feel like this particular cat quietly reminding its owner.",
+      "transparent_background": true,
+      "referenced_image_paths": [
+        "assets/case-sources/pet-reference-source.png",
+        "assets/stickers/pet/meal.png"
+      ],
+      "savedSource": "assets/case-sources/pet-after-source.png"
+    },
+    {
+      "id": "couple",
+      "prompt": "Use case: identity-preserve / stylized-concept. Asset type: one finished messaging sticker illustration for an explicitly labeled design comparison.\nImage 1 is the primary physical / identity REFERENCE. Image 2 is an existing generic sticker used ONLY as the illustration STYLE reference and before-comparison. Preserve the differentiating physical details from Image 1. Match the professional soft-gouache chibi style, warm dark outlines, subtle shading and white die-cut outer edge of Image 2. Produce ONE single new isolated vignette on a genuinely transparent background, square composition, full subject comfortably inside the canvas with 10% padding. No grid, no duplicate pose, no panels. No text, no lettering, no captions, no speech bubble, no watermark. Chinese wording will be typeset separately. Keep the lower 12% clear for caption. This task is a real reference-conditioned redesign, not a UI mockup. Human-approved design intent for this fictional demonstration: when one partner is exhausted and does not want to talk, offer quiet company rather than an exuberant embrace.\nTranslate the TWO ADULT PEOPLE from Image 1 into the soft chibi illustration style of Image 2. Woman must keep short softly curly dark brown bob, thin round black glasses, mustard-yellow cardigan and ivory shirt. Man must keep SHORT STRAIGHT BLACK hair, NAVY BLUE overshirt and ivory shirt. Do not use Image 2's chestnut wavy male hair, teal sweater, peach female jacket or long straight female bob. Draw the adult couple seated close on a very small simple neutral bench with NO scenery: the woman lightly rests her head on his shoulder, eyes softly half closed and shoulders relaxed; the man sits calmly alongside and gently offers one small plain warm mug at waist level, attentive and quiet. One mug only, clearly held. Small natural calm mouths, no forced toothy smiles, no sparkles, no hearts, no celebration, no intrusive cheerleading. Full figures or clear seated-body vignette, no body cropped at the image edge. Communicate grounded, gentle companionship.",
+      "transparent_background": true,
+      "referenced_image_paths": [
+        "assets/case-sources/couple-reference-source.png",
+        "assets/stickers/couple/hug.png"
+      ],
+      "savedSource": "assets/case-sources/couple-after-source.png"
+    },
+    {
+      "id": "shop",
+      "prompt": "Use case: identity-preserve / stylized-concept. Asset type: one finished original bakery customer-service sticker for an explicitly labeled simulated design comparison.\nImage 1 is the PRIMARY real-object and packaging REFERENCE (an AI-generated fictional photo): a thick square milk-toast slice with a golden caramel crust, one distinctive small diagonal cut/notch at the upper-right crust corner, creamy bread interior, and sage-green paper bag with a cream round seal. Image 2 is an existing generic mascot sticker, used as the illustration STYLE reference and before comparison only.\nExplicit design intent: the customer has asked whether stock is available, and the shop owner has not yet checked; communicate \"I will check/confirm\" without implying an order has been reserved or completed.\nCreate ONE isolated adorable anthropomorphic toast mascot, full body, based on the SQUARE milk-toast shape and caramel crust of Image 1, with the small upper-right corner notch clearly visible. Sage-green apron matching the paper bag, one small cream circular apron badge echoing the seal, stubby little bread arms and feet. Preserve the same warm dark outline, soft gouache shading, tactile cream bread texture and professional chibi style as Image 2, with a clean white die-cut border.\nThe mascot is looking thoughtfully down at one small blank cream inventory sheet in one hand; the other hand lightly touches its chin. Soft attentive eyes and a modest thoughtful mouth. Clearly an in-progress checking pose, not cheerful approval. No checkmark, no thumbs-up, no packed box, no completion sparkle, no clock with a promised time. No paper bag in the finished sticker, no shop scenery. No text, letters, numbers, captions, speech bubbles or watermarks anywhere; the Chinese wording will be typeset separately.\nGenuinely transparent background, square image, full character inside canvas with at least 10% padding, lower 12% clear for the later caption. One single vignette, not a grid.",
+      "transparent_background": true,
+      "referenced_image_paths": [
+        "assets/case-sources/shop-reference-source.png",
+        "assets/stickers/shop/confirm.png"
+      ],
+      "savedSource": "assets/case-sources/shop-after-source.png"
+    }
+  ],
+  "baselinePolicy": "Baseline PNGs are original unchanged files from the existing sticker library. This is a design fit comparison, not a single-variable model benchmark.",
+  "assembly": "Only resizing, caption typesetting and format export after image generation; no new AI calls during build.",
+  "notes": [
+    "The first shop-reference request failed due to a connection error. It succeeded when retried with the same built-in tool."
+  ]
+}

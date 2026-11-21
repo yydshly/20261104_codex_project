@@ -1,0 +1,853 @@
+{
+  "published": "2026-11-21",
+  "slug": "022-visual-business-atlas",
+  "scope": "Static research, simulated cases, actual assets and Windows trial downloads. Native GUI acceptance and commercial outcomes remain unverified.",
+  "guide": {
+    "path": "assets/overview/character-products-overview.png",
+    "sourceSha256": "49e1a390acbe35abe3acb800f9f840c6b070610ea6abe7e78adb135f370a4d30",
+    "publishedSha256": "49e1a390acbe35abe3acb800f9f840c6b070610ea6abe7e78adb135f370a4d30",
+    "unchanged": true
+  },
+  "files": [
+    {
+      "path": "app.js",
+      "bytes": 26046,
+      "sha256": "7c961f100473d277424a8ce1282f31b34fc52b1ec60150cb3a752607f5d83379"
+    },
+    {
+      "path": "CARRIER-VERIFICATION.md",
+      "bytes": 3366,
+      "sha256": "93df86aaa37071d8e75210f8458f1e49155481ce5656bcbcf7cfd5613c390bb2"
+    },
+    {
+      "path": "carriers-ui.js",
+      "bytes": 10114,
+      "sha256": "b28a919ac6c34db688cc3f4420d5c03ca6c0c5cd2c21ea6e1f7cc73d23916697"
+    },
+    {
+      "path": "carriers.css",
+      "bytes": 20069,
+      "sha256": "c849b3f7d4e2f41467b7ccd51b5169bb02f448770b6ede968c63edc0fa5658c8"
+    },
+    {
+      "path": "carriers.js",
+      "bytes": 10432,
+      "sha256": "3b5ba456dce604e327d035caeace11916c3b913ad91f63cb95c92fb457867157"
+    },
+    {
+      "path": "cases-ui.js",
+      "bytes": 8906,
+      "sha256": "905ae55c52e209a39f5167470a950b9e116b6206ec7d4b40aeae76a8dc021049"
+    },
+    {
+      "path": "cases.css",
+      "bytes": 12615,
+      "sha256": "c51f9682956588d4a614b9f4734cbb7ce7726928e4f6a411cd887387fdf9d165"
+    },
+    {
+      "path": "cases.js",
+      "bytes": 7558,
+      "sha256": "e6774ee6067e319df6851f93fe3ee21de48f025326ed033f0ecf2ebf7c8696d2"
+    },
+    {
+      "path": "data.js",
+      "bytes": 36403,
+      "sha256": "91aad1856f810f5ec7985f9774304b454e57530972b386657264c4fc753eba43"
+    },
+    {
+      "path": "effects.css",
+      "bytes": 12924,
+      "sha256": "c823878db8391a19fc807fbeb1d28b0e2986d7eef64c3744a26cf821ff36c734"
+    },
+    {
+      "path": "effects.js",
+      "bytes": 8017,
+      "sha256": "5d58c0cb5604ec807205155ab2e4acfea817a5c3bd4f3df088c6c6a8b7cb017a"
+    },
+    {
+      "path": "HUMAN-VALUE-VERIFICATION.md",
+      "bytes": 2850,
+      "sha256": "f538c066e3b6fa8757c84de2ca75e7254d89a78d3770b9e4315a2e1e14f318cd"
+    },
+    {
+      "path": "index.html",
+      "bytes": 29331,
+      "sha256": "fd5f5667ba1f4385d35a2027a6d7c1985766fc5878fde95a0ada2b025799f6dc"
+    },
+    {
+      "path": "pet-data.js",
+      "bytes": 902,
+      "sha256": "f07c6b516c215fc71c3f8c713ee6ec14ae1d70af3d2bee575f141ebb7d05b476"
+    },
+    {
+      "path": "pet-release.js",
+      "bytes": 478,
+      "sha256": "8380e664af516684ea07257d488e45d346a3e237fdbb4dd7d56882f577c830b8"
+    },
+    {
+      "path": "pet-ui.js",
+      "bytes": 6322,
+      "sha256": "711f7102eda9d05546e5130d375333574dda65469599da37aae9947039cecf87"
+    },
+    {
+      "path": "pet.css",
+      "bytes": 5579,
+      "sha256": "9643f9d16362ffe2ba811b3cc1b1f2d0970fb484bc37a7bc7533224c3cf2813b"
+    },
+    {
+      "path": "PRODUCTS-VERIFICATION.md",
+      "bytes": 3287,
+      "sha256": "5946953d66afe54d35a9e8df2c22277b76d6959bbe5137b73a5e26da4944390e"
+    },
+    {
+      "path": "products.css",
+      "bytes": 9059,
+      "sha256": "f71a9a54a41ec8db63535e9b51bd7d2bd6a7b66867b251bf20b27671e2adc846"
+    },
+    {
+      "path": "products.js",
+      "bytes": 9316,
+      "sha256": "96ad6ad63aad8d4a36f63f1715d35329a4af55342eb80d723dfc40e6bb47121e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10636,
+      "sha256": "b434dc699e764d30c90320f258af264f8795f3de7d376d6f367faf6664169f19"
+    },
+    {
+      "path": "research.css",
+      "bytes": 2186,
+      "sha256": "fdf234ad6e487486eac25160e5bdd7f01f3a8d9b05221a56b8a7c36d439b7529"
+    },
+    {
+      "path": "samples.js",
+      "bytes": 4828,
+      "sha256": "130276e6c99f3a3929de970ce7d2b0da3a981a8d0fc5a7fb8e1019d3e112e79e"
+    },
+    {
+      "path": "STICKER-VERIFICATION.md",
+      "bytes": 2907,
+      "sha256": "b3b9b942d09f1344034948078d5cc3b70b32214cdbac789ef59402a7469ab43e"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 38638,
+      "sha256": "9c76807467410d9991100994782c53dbffb41fc1e4459012b32c36d8e73bc86a"
+    },
+    {
+      "path": "VERIFICATION.md",
+      "bytes": 2982,
+      "sha256": "89bb809688e937bb63d8992c19127467ecf653af9ed4129e696922d26d6ba3f5"
+    },
+    {
+      "path": "assets/carrier-products/all-products.zip",
+      "bytes": 16086956,
+      "sha256": "9d87c02b32790e5c67aac83ffe8b2b2a7465661ce8092559d5a29f0f27578f2f"
+    },
+    {
+      "path": "assets/carrier-products/avatar-1024.png",
+      "bytes": 1711299,
+      "sha256": "b477e4d3ddef11a8bdb2013f8a03d5a0564c17c815a70a79655dd9560aebe85e"
+    },
+    {
+      "path": "assets/carrier-products/avatar-512.png",
+      "bytes": 410533,
+      "sha256": "aab10f3dc1f13b10a48bc4fd1c8b1db283ec48a8b388348f49959d498b525998"
+    },
+    {
+      "path": "assets/carrier-products/avatar-pack.zip",
+      "bytes": 2123168,
+      "sha256": "88eb6c258d854dd8720595124bbd86e60f0a0ca614af26bbc85953eed1b35f27"
+    },
+    {
+      "path": "assets/carrier-products/avatar-preview.webp",
+      "bytes": 35840,
+      "sha256": "f290bd0a884e4092db54c820053f801002b1c3e5734097eb218fa5da7e83b0bd"
+    },
+    {
+      "path": "assets/carrier-products/comic-pack.zip",
+      "bytes": 13062136,
+      "sha256": "81236c1eba413fe9a43305678b639c8eae31fb8f9c759752e886e2409b17bc59"
+    },
+    {
+      "path": "assets/carrier-products/comic-page.png",
+      "bytes": 3711468,
+      "sha256": "de61e3e7925168acc0f7e1584b779ed397e510df50f95440e16c9d299cdea710"
+    },
+    {
+      "path": "assets/carrier-products/comic-panel-1.png",
+      "bytes": 851226,
+      "sha256": "9999b46c9783294f314149def94b5c1fed1f9e6fa37d6c4d8a4c526c08eb83fb"
+    },
+    {
+      "path": "assets/carrier-products/comic-panel-2.png",
+      "bytes": 831039,
+      "sha256": "e546d49b1d4ee2868a92aa55d0db07292ecfa1b14ab5929e206e6e5407e62915"
+    },
+    {
+      "path": "assets/carrier-products/comic-panel-3.png",
+      "bytes": 833278,
+      "sha256": "9d049fb48309e6f5bf93eb0262d9128bc167498c975ef0fdaffb6ed2e691778f"
+    },
+    {
+      "path": "assets/carrier-products/comic-panel-4.png",
+      "bytes": 841790,
+      "sha256": "157232a158297952eafc99c15b40137c2888d784f06baac8cf01c8ec10c5fcfa"
+    },
+    {
+      "path": "assets/carrier-products/comic-preview.webp",
+      "bytes": 104818,
+      "sha256": "4ee7e2ab0332c1d4d4f0ce23dbd8f8b80855ba769741a7c7ebc67b52f417da5a"
+    },
+    {
+      "path": "assets/carrier-products/comic-scroll.png",
+      "bytes": 5991557,
+      "sha256": "f023bcc64a960d11f44ee34d5773580ff308b8dc61523c8cf8acda9469185eb0"
+    },
+    {
+      "path": "assets/carrier-products/manifest.json",
+      "bytes": 3367,
+      "sha256": "24e545317db317f4c9293455a7381fbd2a1675cd13aa58c838365c889fd45728"
+    },
+    {
+      "path": "assets/carrier-products/wallpaper-desktop-1920x1080.jpg",
+      "bytes": 480267,
+      "sha256": "80419e38469beb02d08a3659ad6f7c92e72b9b51511a85206f20e77bfe2c72eb"
+    },
+    {
+      "path": "assets/carrier-products/wallpaper-pack.zip",
+      "bytes": 903904,
+      "sha256": "cf62bdf604d8c505819c087971852669f402e53c290b89f785f787f4449b9f7a"
+    },
+    {
+      "path": "assets/carrier-products/wallpaper-phone-1080x2400.jpg",
+      "bytes": 422239,
+      "sha256": "80d1545e61a489769a96d108c3f9b1758d6cc34293ba0a25ccff40160573f6a3"
+    },
+    {
+      "path": "assets/carrier-products/使用说明.txt",
+      "bytes": 996,
+      "sha256": "e63771ccca9fbac747ceeda1b188443a85e9f2db09454b3ac0d79314ffd3e2c7"
+    },
+    {
+      "path": "assets/carrier-sources/avatar-source.png",
+      "bytes": 2156172,
+      "sha256": "45776e4691d258705c7377737506e1eff5825a57146184c58322a778c702cba2"
+    },
+    {
+      "path": "assets/carrier-sources/comic-source.png",
+      "bytes": 3189381,
+      "sha256": "df9e4cae0a98990c61ecf1b6c0036310d757f9e780608a12c19e0b5085acd89c"
+    },
+    {
+      "path": "assets/carrier-sources/generation-record.json",
+      "bytes": 7913,
+      "sha256": "aa6351b79f1134187ed01c73e9a457945e25c5aff30ab84ccb582cce23d99ab4"
+    },
+    {
+      "path": "assets/carrier-sources/wallpaper-desktop-source.png",
+      "bytes": 2476341,
+      "sha256": "94c77414caec88da5f49c8e8b3fa1830e607e0fbaeb39f0696f252642eaa7d38"
+    },
+    {
+      "path": "assets/carrier-sources/wallpaper-mobile-source.png",
+      "bytes": 2280668,
+      "sha256": "fc7f3301a22f9568931a6232329af8a4eb99727e17060046b09699c8f9e17936"
+    },
+    {
+      "path": "assets/case-sources/couple-after-source.png",
+      "bytes": 1440189,
+      "sha256": "3e8ea0c73cf43409655b96519d1faf6b7099648ea413164a113f10abb68a144f"
+    },
+    {
+      "path": "assets/case-sources/couple-reference-source.png",
+      "bytes": 2584275,
+      "sha256": "7c06329b160e731bd048d175a68cd7c4c2bab33caab589502c4aec64fb21ec83"
+    },
+    {
+      "path": "assets/case-sources/generation-record.json",
+      "bytes": 10962,
+      "sha256": "6bf221c846776311196027da0eec2d6b8ba520e05e086fc97bf2e9ba1e045e8e"
+    },
+    {
+      "path": "assets/case-sources/pet-after-source.png",
+      "bytes": 1176038,
+      "sha256": "8cbcdb3e69ff635a33a7941ce57ccd0aae6490693f891acd0dcc5d17acec0657"
+    },
+    {
+      "path": "assets/case-sources/pet-reference-source.png",
+      "bytes": 2317796,
+      "sha256": "60590403bf408ea1b73fb7d88f0e76e2f21647119468cc06002f9b5856756ba0"
+    },
+    {
+      "path": "assets/case-sources/shop-after-source.png",
+      "bytes": 1134406,
+      "sha256": "72525525d0ffaabd0d9bd6bedc23f1feac7ffcfdfba41264807c83554f99a0d7"
+    },
+    {
+      "path": "assets/case-sources/shop-reference-source.png",
+      "bytes": 2314206,
+      "sha256": "478f1814251edbc3e50d6ce2eda2b0d11359056e604a8ee58b5c41067d5eb390"
+    },
+    {
+      "path": "assets/case-studies/couple-after.png",
+      "bytes": 219800,
+      "sha256": "3f479aba179bd875ee67c8efbc0170fab81643fd65b66c1ae0a485f596f2a1f4"
+    },
+    {
+      "path": "assets/case-studies/couple-reference.jpg",
+      "bytes": 104756,
+      "sha256": "f94ebd1356c7792fb8a493b8406ddac89c96ad2f3b603792c40d616c9e4bbae7"
+    },
+    {
+      "path": "assets/case-studies/design-comparisons.png",
+      "bytes": 1667034,
+      "sha256": "8d842fe6095bbdb784e69e3703aff0102897715180c5f653b3020c3dba2d6498"
+    },
+    {
+      "path": "assets/case-studies/manifest.json",
+      "bytes": 2484,
+      "sha256": "97180bffa9bdb2a91fc6220c9e810db43fae4c8299b079dffed48a570dd7aa15"
+    },
+    {
+      "path": "assets/case-studies/pet-after.png",
+      "bytes": 158267,
+      "sha256": "31a0b86cba9b1cd49c0fd1f1811b294f10977c68515028d502fd9c711f2e8f59"
+    },
+    {
+      "path": "assets/case-studies/pet-reference.jpg",
+      "bytes": 66446,
+      "sha256": "da5425a2e74959daa76ad8a151f59d03d4c4708fe1864281e57c8dd482133bad"
+    },
+    {
+      "path": "assets/case-studies/shop-after.png",
+      "bytes": 253255,
+      "sha256": "1474c0402751aab38892e477cfec8b6043c0459fc5968d01c5bccad0365d3949"
+    },
+    {
+      "path": "assets/case-studies/shop-reference.jpg",
+      "bytes": 85348,
+      "sha256": "5afb4073bfca5da17f1bf16ecc4946b18c1641ae3475f9f8a7e56d4fa69d6dc0"
+    },
+    {
+      "path": "assets/desktop-pet/happy-0.png",
+      "bytes": 66489,
+      "sha256": "62e8fe095ec0c37a99f7485b5461632fc66a0d9cde2a7e621a0a69826f190173"
+    },
+    {
+      "path": "assets/desktop-pet/happy-1.png",
+      "bytes": 65731,
+      "sha256": "e4af0535519f3c80480b50fc50561809f6be61523e84fe4e1fee16c0359fe31f"
+    },
+    {
+      "path": "assets/desktop-pet/hungry-0.png",
+      "bytes": 71641,
+      "sha256": "e5e7ed6cb697436b828fe1c2c8c6168b0ed3b6ab6d55bae1ff9b41500ce66db6"
+    },
+    {
+      "path": "assets/desktop-pet/hungry-1.png",
+      "bytes": 73986,
+      "sha256": "99bb0c42e33646af3597bc3fcdbe0ee8a68c81353899ca40f7938414a59c3b35"
+    },
+    {
+      "path": "assets/desktop-pet/idle-0.png",
+      "bytes": 63928,
+      "sha256": "3b8736ad4c0aef8dbefb41a8f0c36d231e30e14c205bd4162851084b86ef7367"
+    },
+    {
+      "path": "assets/desktop-pet/idle-1.png",
+      "bytes": 63295,
+      "sha256": "34a263e2dd3b84f8f881d2a03236fda1dad2051f55cae965a8062d8851549cef"
+    },
+    {
+      "path": "assets/desktop-pet/manifest.json",
+      "bytes": 3611,
+      "sha256": "026b25d21c47b84069f140d33ff3d9a6ed79a804f5d3059486a2f2d68b7cb2b3"
+    },
+    {
+      "path": "assets/desktop-pet/registration-check.json",
+      "bytes": 528,
+      "sha256": "fcf07cdccc543659c6d3e3af37311b19be1e2ebadc3ab9a785c3a89731836231"
+    },
+    {
+      "path": "assets/desktop-pet/sleep-0.png",
+      "bytes": 55976,
+      "sha256": "4d7230179f2e5b751e06a274be057b47959cc12539870a4911beb6c3a6750268"
+    },
+    {
+      "path": "assets/desktop-pet/sleep-1.png",
+      "bytes": 56925,
+      "sha256": "c074a62d5f9375bcbf4f7429a12a3a1bffce6930e81b9130c9d31a2d02b1380f"
+    },
+    {
+      "path": "assets/desktop-pet/states-preview.png",
+      "bytes": 506783,
+      "sha256": "5ba1ba9689ea2a1300008cde5f8d3f6e936f04f0c16bb6fb2b3afce611ee6638"
+    },
+    {
+      "path": "assets/overview/character-products-overview.png",
+      "bytes": 2733010,
+      "sha256": "49e1a390acbe35abe3acb800f9f840c6b070610ea6abe7e78adb135f370a4d30"
+    },
+    {
+      "path": "assets/overview/generation-record.json",
+      "bytes": 1667,
+      "sha256": "79491a455e0a5e1aa976d943c3ebf4b8ec9c9f8676c7c73418b658668d0120bc"
+    },
+    {
+      "path": "assets/overview/header-source.png",
+      "bytes": 1393009,
+      "sha256": "94a62a46f014e7e350de923e038b0b3446c1b0c8c5429157c48b8950fba7f59d"
+    },
+    {
+      "path": "assets/overview/overview-preview.png",
+      "bytes": 1226836,
+      "sha256": "c68fa7206eda5691fbc53fd43124561701baabc4bb246bbdbfdba29a2d767c58"
+    },
+    {
+      "path": "assets/pet-sources/generation-record.json",
+      "bytes": 2271,
+      "sha256": "f002bf3d5dac28fe7e81ba1e8eedd4ba271dfad090063b0cd03f45ad17ff1388"
+    },
+    {
+      "path": "assets/pet-sources/repair-record.json",
+      "bytes": 581,
+      "sha256": "0c2265e0b094fea231c43697e0e97330cbb96b2f1a3ae7a0bb5615c21859ec85"
+    },
+    {
+      "path": "assets/pet-sources/states-source-v2.png",
+      "bytes": 1795472,
+      "sha256": "9978cb72b9802887765525c2e322541ef89e40bdec7204f6d77a86e1c5c1dca3"
+    },
+    {
+      "path": "assets/pet-sources/states-source.png",
+      "bytes": 2234568,
+      "sha256": "7f938ff3cdc20986aa3ad40240ce8ec1efc2a93acb3016ad588408b7a971e121"
+    },
+    {
+      "path": "assets/sticker-sources/couple-source.png",
+      "bytes": 2167143,
+      "sha256": "090c7f9ef078d8c576c3235c575d542b8de15d04b898a7f7f2271157eb664bd0"
+    },
+    {
+      "path": "assets/sticker-sources/pet-source.png",
+      "bytes": 2249703,
+      "sha256": "06ebb5f9726f9efbc4ffe07eb4c613ad8ce87fe52a5f074ec483becb7da253d7"
+    },
+    {
+      "path": "assets/sticker-sources/prompts.json",
+      "bytes": 8834,
+      "sha256": "7bc43f212d47dd5a56beb13c95226536b5fd2b5bea8fc08e6a802a4660716b3e"
+    },
+    {
+      "path": "assets/sticker-sources/shop-source.png",
+      "bytes": 1925537,
+      "sha256": "cd80d4f680d948ea3fbb1748ac155ff6cf202a324f1446a56242f82a7ff2cbd8"
+    },
+    {
+      "path": "assets/stickers/contact-sheet.png",
+      "bytes": 785959,
+      "sha256": "65a3aa8f5059bd8906ac01505b68e253c35e4f73f509f376d918dc415428dbaa"
+    },
+    {
+      "path": "assets/stickers/couple/frames/home-1.png",
+      "bytes": 246281,
+      "sha256": "a41c691410b6f7b78e8ccdd25c6ae759c96c1a669c24d43a3a40b476c51206e5"
+    },
+    {
+      "path": "assets/stickers/couple/frames/home-2.png",
+      "bytes": 250337,
+      "sha256": "9b59cb5ee07a95aedeb3026852d08069e0e957599a66a53138a13186776025c3"
+    },
+    {
+      "path": "assets/stickers/couple/frames/home-3.png",
+      "bytes": 250738,
+      "sha256": "1dd21e5abe41a158348f325d48f07004c1e40aa11833c46b8d071ea96b0c9072"
+    },
+    {
+      "path": "assets/stickers/couple/frames/home-4.png",
+      "bytes": 246604,
+      "sha256": "5448f616f8ab703787b5377532019ce1f95393f9f0c382ae555efeacfa87b9e4"
+    },
+    {
+      "path": "assets/stickers/couple/frames/hug-1.png",
+      "bytes": 210757,
+      "sha256": "25b35fb56c14ba2aeb979bb89ca3314c12416d9960dfac7262b0c122929f4815"
+    },
+    {
+      "path": "assets/stickers/couple/frames/hug-2.png",
+      "bytes": 207926,
+      "sha256": "354a9652bcd6c355d82b4daab4080858191d834016c50b5c2c6765449abad561"
+    },
+    {
+      "path": "assets/stickers/couple/frames/hug-3.png",
+      "bytes": 212568,
+      "sha256": "e311e645e923ef3fdc3fb573f476ac371f3531545ce4c5303bde02fe8dc75a05"
+    },
+    {
+      "path": "assets/stickers/couple/frames/hug-4.png",
+      "bytes": 210862,
+      "sha256": "98026fbb23fc27eb66e99c1b8457eb44cc19850719f8fb967de87531b025319e"
+    },
+    {
+      "path": "assets/stickers/couple/frames/love-1.png",
+      "bytes": 243405,
+      "sha256": "c8a883df5333f27e7ff0d16bf31addfe1cb3da804cedb11c87a7b85da594cd3c"
+    },
+    {
+      "path": "assets/stickers/couple/frames/love-2.png",
+      "bytes": 236813,
+      "sha256": "454d43981be0bc471aca6ef8b85d02faa9f9f9b43c56121ffecf656e1bd2dff7"
+    },
+    {
+      "path": "assets/stickers/couple/frames/love-3.png",
+      "bytes": 244585,
+      "sha256": "5d8bf982d25f1acf07d4c3edb25fc57f93a547e91a233d3671df1ea9ed7efa06"
+    },
+    {
+      "path": "assets/stickers/couple/frames/love-4.png",
+      "bytes": 239575,
+      "sha256": "38a1219a9e0691ad8afa7b7494436d57c568c21979416bf6f0c959608700e1cd"
+    },
+    {
+      "path": "assets/stickers/couple/frames/miss-1.png",
+      "bytes": 224249,
+      "sha256": "b334c7b0866fe9be5494f3e2a73094878ad3ef57358454bcc7b665863cb2cca6"
+    },
+    {
+      "path": "assets/stickers/couple/frames/miss-2.png",
+      "bytes": 224904,
+      "sha256": "45d76eb3405c81baff6cb1f0b6b31009fee40ce43d176be149d74ed36f9140d8"
+    },
+    {
+      "path": "assets/stickers/couple/frames/miss-3.png",
+      "bytes": 224755,
+      "sha256": "5f4042f2e2a76bb24f8293c1aa168adecd7388fe762ef4dc642900b46cac2e59"
+    },
+    {
+      "path": "assets/stickers/couple/frames/miss-4.png",
+      "bytes": 224604,
+      "sha256": "a70ff426086766d1846dcad3dc91eee705b4de9eaedc59b6c4fdbd60222860b5"
+    },
+    {
+      "path": "assets/stickers/couple/home.gif",
+      "bytes": 59956,
+      "sha256": "43238bbbc4bdadaaadcee66eede5d0bec95f8b49e6acd07a1e829f37e50e0a38"
+    },
+    {
+      "path": "assets/stickers/couple/home.png",
+      "bytes": 246281,
+      "sha256": "a41c691410b6f7b78e8ccdd25c6ae759c96c1a669c24d43a3a40b476c51206e5"
+    },
+    {
+      "path": "assets/stickers/couple/hug.gif",
+      "bytes": 54345,
+      "sha256": "dd6d7aa429a461375d15e05cb0164ebea27b2601a96c58a0b3ce1dc4ccde67e4"
+    },
+    {
+      "path": "assets/stickers/couple/hug.png",
+      "bytes": 210757,
+      "sha256": "25b35fb56c14ba2aeb979bb89ca3314c12416d9960dfac7262b0c122929f4815"
+    },
+    {
+      "path": "assets/stickers/couple/love.gif",
+      "bytes": 64140,
+      "sha256": "086e38ebdc2accb474bf7b90255636445bbc93951dbf12ace6b1e7dcb1099693"
+    },
+    {
+      "path": "assets/stickers/couple/love.png",
+      "bytes": 243405,
+      "sha256": "c8a883df5333f27e7ff0d16bf31addfe1cb3da804cedb11c87a7b85da594cd3c"
+    },
+    {
+      "path": "assets/stickers/couple/miss.gif",
+      "bytes": 61525,
+      "sha256": "35baa152633ca05a858edeafc7d88d7e25c51ec2080813518e7580a92aad4081"
+    },
+    {
+      "path": "assets/stickers/couple/miss.png",
+      "bytes": 224249,
+      "sha256": "b334c7b0866fe9be5494f3e2a73094878ad3ef57358454bcc7b665863cb2cca6"
+    },
+    {
+      "path": "assets/stickers/couple-stickers.zip",
+      "bytes": 1168963,
+      "sha256": "59c41fc10674a7b09b190941700fd057abff6a2d2634553479191d848f190aab"
+    },
+    {
+      "path": "assets/stickers/manifest.js",
+      "bytes": 8013,
+      "sha256": "bb719e1eac7bdbeda94ef9de1b991a40ff7786a16edd4c2fc1bc2f2197b1a07e"
+    },
+    {
+      "path": "assets/stickers/manifest.json",
+      "bytes": 7989,
+      "sha256": "8b0fbf304323d28ebc86e79b6689f97ab76a514406a6dc7631b1a7315a2f094a"
+    },
+    {
+      "path": "assets/stickers/pet/frames/hug-1.png",
+      "bytes": 255489,
+      "sha256": "c36a79c3f514f659338328fd8de0734ff9cd15288ead8075fdfbb699349d307c"
+    },
+    {
+      "path": "assets/stickers/pet/frames/hug-2.png",
+      "bytes": 258090,
+      "sha256": "68ab339995dece47ae73a70a6a1d2921773e7ca716d5999049434f11b4076107"
+    },
+    {
+      "path": "assets/stickers/pet/frames/hug-3.png",
+      "bytes": 264186,
+      "sha256": "97a6ac8273d82101288d8204ee9d10c10930370131a6bfa25ff5afd046917b46"
+    },
+    {
+      "path": "assets/stickers/pet/frames/hug-4.png",
+      "bytes": 256156,
+      "sha256": "74a82d37d4180e4fe76c129487a6986253db943a666e21671d7040ff23fba8ab"
+    },
+    {
+      "path": "assets/stickers/pet/frames/meal-1.png",
+      "bytes": 235969,
+      "sha256": "a8c017beefea4577f8b053dfd170493eaa6b1c373172b1536542a45ceae925ff"
+    },
+    {
+      "path": "assets/stickers/pet/frames/meal-2.png",
+      "bytes": 251715,
+      "sha256": "fcf607e5f65fd522311ee1f88f3ec015d9f962ddfb306237bb2f2630d3b79e0c"
+    },
+    {
+      "path": "assets/stickers/pet/frames/meal-3.png",
+      "bytes": 245242,
+      "sha256": "363ff4cf9872ddd82391a81f3c714bff7b0479a9e0e0e6147316eeb8dea80ced"
+    },
+    {
+      "path": "assets/stickers/pet/frames/meal-4.png",
+      "bytes": 236014,
+      "sha256": "4be213d7865ad54aa39fc7ecce1ebbee2c3abaf897fb15931e042371a16cc74a"
+    },
+    {
+      "path": "assets/stickers/pet/frames/night-1.png",
+      "bytes": 245451,
+      "sha256": "20a79679bb08a732c7a91aba3572bb1825f00150a13b86f534188e2c3d663375"
+    },
+    {
+      "path": "assets/stickers/pet/frames/night-2.png",
+      "bytes": 245063,
+      "sha256": "96d63a37887feeffe5c069166114d4316a3e335d66ce0a178408f6455d59df3b"
+    },
+    {
+      "path": "assets/stickers/pet/frames/night-3.png",
+      "bytes": 247314,
+      "sha256": "2545866d63c1738dcde1d2ef37c82bb4b4b0cb6ad7a647e8c6f5b49136c4acc9"
+    },
+    {
+      "path": "assets/stickers/pet/frames/night-4.png",
+      "bytes": 243772,
+      "sha256": "7dfe4b0766beb173f2a9e1df3be8c7b4852966cbfd2a419fdff0b8f0df1d9a59"
+    },
+    {
+      "path": "assets/stickers/pet/frames/received-1.png",
+      "bytes": 256584,
+      "sha256": "d90128edda9c258b1b7e69b1e347407e8e4d5f57a323e835b8e4d18df85c73e7"
+    },
+    {
+      "path": "assets/stickers/pet/frames/received-2.png",
+      "bytes": 246605,
+      "sha256": "d5dbeb7ca56ab06698a528304698343c353f3fc73d5fd0faaf923d65a544fb86"
+    },
+    {
+      "path": "assets/stickers/pet/frames/received-3.png",
+      "bytes": 236343,
+      "sha256": "09d8b7c19f4d496a882d7be26c4ea234528f042a07b537fc1e733085269496b3"
+    },
+    {
+      "path": "assets/stickers/pet/frames/received-4.png",
+      "bytes": 256041,
+      "sha256": "be4fe1feed1c760f03c5fa1514e796dc18f9f80eafb77b971aadb913dc1809c9"
+    },
+    {
+      "path": "assets/stickers/pet/hug.gif",
+      "bytes": 61852,
+      "sha256": "26dc06960b6db49e443c704601f4985b921379aa8186911071ef34de2e9486e1"
+    },
+    {
+      "path": "assets/stickers/pet/hug.png",
+      "bytes": 255489,
+      "sha256": "c36a79c3f514f659338328fd8de0734ff9cd15288ead8075fdfbb699349d307c"
+    },
+    {
+      "path": "assets/stickers/pet/meal.gif",
+      "bytes": 58846,
+      "sha256": "636c7562bef90fbd3e9cc2a0555a1761cf8cee0d91d85d8d8227b3326b6196dc"
+    },
+    {
+      "path": "assets/stickers/pet/meal.png",
+      "bytes": 235969,
+      "sha256": "a8c017beefea4577f8b053dfd170493eaa6b1c373172b1536542a45ceae925ff"
+    },
+    {
+      "path": "assets/stickers/pet/night.gif",
+      "bytes": 56368,
+      "sha256": "04d482552b114924e86b05ddc5e6fb373f490d7a9806d3e374aa7e762dd6b0b9"
+    },
+    {
+      "path": "assets/stickers/pet/night.png",
+      "bytes": 245451,
+      "sha256": "20a79679bb08a732c7a91aba3572bb1825f00150a13b86f534188e2c3d663375"
+    },
+    {
+      "path": "assets/stickers/pet/received.gif",
+      "bytes": 60096,
+      "sha256": "45968f08c6a1bbc62bd4b6c0ba5dee941975f0f956bf06d4c226a14587105dd0"
+    },
+    {
+      "path": "assets/stickers/pet/received.png",
+      "bytes": 256584,
+      "sha256": "d90128edda9c258b1b7e69b1e347407e8e4d5f57a323e835b8e4d18df85c73e7"
+    },
+    {
+      "path": "assets/stickers/pet-stickers.zip",
+      "bytes": 1234916,
+      "sha256": "adeb94cd8ac3f4eddfdecf32dd0151cad4275057f231ab76f6e382adfb463e32"
+    },
+    {
+      "path": "assets/stickers/shop/closed.gif",
+      "bytes": 57219,
+      "sha256": "0e42e6ce52f069c8efae80a5e1a67e198bbbddfed5a63dccc32a785e0f93d02c"
+    },
+    {
+      "path": "assets/stickers/shop/closed.png",
+      "bytes": 254378,
+      "sha256": "6fcd58bf09908c821fc56f6f4f6bb0ee0011c0b3ac410a1395fc1b14d8b726d3"
+    },
+    {
+      "path": "assets/stickers/shop/confirm.gif",
+      "bytes": 58703,
+      "sha256": "1afd0ae14ecfbdba89f19750326c39b46b7236220fc1b7842ca050e49b6fb572"
+    },
+    {
+      "path": "assets/stickers/shop/confirm.png",
+      "bytes": 250082,
+      "sha256": "26d1258c8d74bd5d4892a3313ef4b1ab415a057d22054254f69c0d14c4f7bf66"
+    },
+    {
+      "path": "assets/stickers/shop/frames/closed-1.png",
+      "bytes": 254378,
+      "sha256": "6fcd58bf09908c821fc56f6f4f6bb0ee0011c0b3ac410a1395fc1b14d8b726d3"
+    },
+    {
+      "path": "assets/stickers/shop/frames/closed-2.png",
+      "bytes": 250051,
+      "sha256": "27f83fd31f3f3973b8da7917862e0a25660d917cbc5049ce515d56a16678c5ae"
+    },
+    {
+      "path": "assets/stickers/shop/frames/closed-3.png",
+      "bytes": 256836,
+      "sha256": "2e549ded57f112fb0409a28190e6f4ad3db2cebc36e680e9ad8be4b04fb3b0d5"
+    },
+    {
+      "path": "assets/stickers/shop/frames/closed-4.png",
+      "bytes": 245146,
+      "sha256": "c2e7bd73311cd8ff64c9c922dd0d4090dd4817c82f2efd984762e6f048d9be13"
+    },
+    {
+      "path": "assets/stickers/shop/frames/confirm-1.png",
+      "bytes": 250082,
+      "sha256": "26d1258c8d74bd5d4892a3313ef4b1ab415a057d22054254f69c0d14c4f7bf66"
+    },
+    {
+      "path": "assets/stickers/shop/frames/confirm-2.png",
+      "bytes": 250848,
+      "sha256": "ff0295ce3bd2209f27e9a093d26670fe5e8b3ab25e167396625ab65e6a7513c3"
+    },
+    {
+      "path": "assets/stickers/shop/frames/confirm-3.png",
+      "bytes": 266495,
+      "sha256": "133c6ab1b047bb47472d1e67d86d971c3c998d0158340c3f13907223d43ef111"
+    },
+    {
+      "path": "assets/stickers/shop/frames/confirm-4.png",
+      "bytes": 249684,
+      "sha256": "d7a5fa06f48169b57954fa50d6005f32cdbe34f9726e6cbb9afb32aad4449e87"
+    },
+    {
+      "path": "assets/stickers/shop/frames/packing-1.png",
+      "bytes": 245592,
+      "sha256": "cad7795fab89a769c9ea35093b973ef4974fbe7b269e7a98fc1e6ba6c07fffa2"
+    },
+    {
+      "path": "assets/stickers/shop/frames/packing-2.png",
+      "bytes": 254105,
+      "sha256": "b7ad895f48034fa754e4701e554548e227e2d4551bcec1b2dc117f564385e8f9"
+    },
+    {
+      "path": "assets/stickers/shop/frames/packing-3.png",
+      "bytes": 258407,
+      "sha256": "bdff05c6931cca90a654b5c12e469c54f53d413171ac9a155228536583d2bdff"
+    },
+    {
+      "path": "assets/stickers/shop/frames/packing-4.png",
+      "bytes": 244548,
+      "sha256": "7e947ad2660041d4575914528b5516fe888b6df93e314e6aa0f8df84f18feba8"
+    },
+    {
+      "path": "assets/stickers/shop/frames/thanks-1.png",
+      "bytes": 248866,
+      "sha256": "fcec668828b3d20dbd04cabb5c033c0e986cabea55c46d6bfe4845140ed04f8e"
+    },
+    {
+      "path": "assets/stickers/shop/frames/thanks-2.png",
+      "bytes": 245912,
+      "sha256": "680b6e3c959bf15ae5f460bc354865d597661ea17320bdd94d8d4587b312c546"
+    },
+    {
+      "path": "assets/stickers/shop/frames/thanks-3.png",
+      "bytes": 246090,
+      "sha256": "34bcf9a4e01d6d7825c2d56745ebda24f527ff95a7ec7bbdc245093f514a6f42"
+    },
+    {
+      "path": "assets/stickers/shop/frames/thanks-4.png",
+      "bytes": 248927,
+      "sha256": "cefd3f1f705f1c9887124a99256b706355e9d21076d8ebdf50b4dda6123dc30e"
+    },
+    {
+      "path": "assets/stickers/shop/packing.gif",
+      "bytes": 55893,
+      "sha256": "8f99a3de8ba3e61c221b67309b775a9894bb80d13042238756f12f3246051ac0"
+    },
+    {
+      "path": "assets/stickers/shop/packing.png",
+      "bytes": 245592,
+      "sha256": "cad7795fab89a769c9ea35093b973ef4974fbe7b269e7a98fc1e6ba6c07fffa2"
+    },
+    {
+      "path": "assets/stickers/shop/thanks.gif",
+      "bytes": 58067,
+      "sha256": "6d43c0e14482bc17971178d23951aeb68d4cc2f0b0156e3ae58440741f745489"
+    },
+    {
+      "path": "assets/stickers/shop/thanks.png",
+      "bytes": 248866,
+      "sha256": "fcec668828b3d20dbd04cabb5c033c0e986cabea55c46d6bfe4845140ed04f8e"
+    },
+    {
+      "path": "assets/stickers/shop-stickers.zip",
+      "bytes": 1233211,
+      "sha256": "d646a50dad841733680b59eb91e28ac050c412bcc58cc4c0089f2bbc5eeee635"
+    },
+    {
+      "path": "assets/downloads/WhiteCatPet-Windows-v1.0.1.zip",
+      "bytes": 595917,
+      "sha256": "b6a1bc9082a126fc2e405a562383a206452c4705e41af50c01313ad0e309f3d3"
+    },
+    {
+      "path": "assets/downloads/WhiteCatPet-Source-v1.0.1.zip",
+      "bytes": 1094548,
+      "sha256": "97f72b2b4831a56b292938eaed397b5330e398cd6c3327b39c00edcf7e530a8a"
+    },
+    {
+      "path": "assets/downloads/pet-release.json",
+      "bytes": 449,
+      "sha256": "59c16a1423867da082e8df1950e3ace9a8dce5af3dda63d646225a5656b7ddcc"
+    }
+  ]
+}

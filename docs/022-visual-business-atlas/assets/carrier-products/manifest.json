@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-12",
+  "method": "Built-in image_gen; four independently generated reference-conditioned illustrations. Local resize, panel extraction and Chinese typography only.",
+  "files": [
+    {
+      "name": "avatar-1024.png",
+      "group": "avatar",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 1711299,
+      "sha256": "b477e4d3ddef11a8bdb2013f8a03d5a0564c17c815a70a79655dd9560aebe85e"
+    },
+    {
+      "name": "avatar-512.png",
+      "group": "avatar",
+      "width": 512,
+      "height": 512,
+      "bytes": 410533,
+      "sha256": "aab10f3dc1f13b10a48bc4fd1c8b1db283ec48a8b388348f49959d498b525998"
+    },
+    {
+      "name": "wallpaper-phone-1080x2400.jpg",
+      "group": "wallpaper",
+      "width": 1080,
+      "height": 2400,
+      "bytes": 422239,
+      "sha256": "80d1545e61a489769a96d108c3f9b1758d6cc34293ba0a25ccff40160573f6a3"
+    },
+    {
+      "name": "wallpaper-desktop-1920x1080.jpg",
+      "group": "wallpaper",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 480267,
+      "sha256": "80419e38469beb02d08a3659ad6f7c92e72b9b51511a85206f20e77bfe2c72eb"
+    },
+    {
+      "name": "comic-panel-1.png",
+      "group": "comic",
+      "width": 550,
+      "height": 550,
+      "bytes": 851226,
+      "sha256": "9999b46c9783294f314149def94b5c1fed1f9e6fa37d6c4d8a4c526c08eb83fb"
+    },
+    {
+      "name": "comic-panel-2.png",
+      "group": "comic",
+      "width": 550,
+      "height": 550,
+      "bytes": 831039,
+      "sha256": "e546d49b1d4ee2868a92aa55d0db07292ecfa1b14ab5929e206e6e5407e62915"
+    },
+    {
+      "name": "comic-panel-3.png",
+      "group": "comic",
+      "width": 550,
+      "height": 550,
+      "bytes": 833278,
+      "sha256": "9d049fb48309e6f5bf93eb0262d9128bc167498c975ef0fdaffb6ed2e691778f"
+    },
+    {
+      "name": "comic-panel-4.png",
+      "group": "comic",
+      "width": 550,
+      "height": 550,
+      "bytes": 841790,
+      "sha256": "157232a158297952eafc99c15b40137c2888d784f06baac8cf01c8ec10c5fcfa"
+    },
+    {
+      "name": "comic-page.png",
+      "group": "comic",
+      "width": 1200,
+      "height": 1560,
+      "bytes": 3711468,
+      "sha256": "de61e3e7925168acc0f7e1584b779ed397e510df50f95440e16c9d299cdea710"
+    },
+    {
+      "name": "comic-scroll.png",
+      "group": "comic",
+      "width": 800,
+      "height": 3510,
+      "bytes": 5991557,
+      "sha256": "f023bcc64a960d11f44ee34d5773580ff308b8dc61523c8cf8acda9469185eb0"
+    }
+  ],
+  "sources": [
+    {
+      "id": "avatar",
+      "path": "assets/carrier-sources/avatar-source.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "45776e4691d258705c7377737506e1eff5825a57146184c58322a778c702cba2"
+    },
+    {
+      "id": "wallpaper-mobile",
+      "path": "assets/carrier-sources/wallpaper-mobile-source.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "fc7f3301a22f9568931a6232329af8a4eb99727e17060046b09699c8f9e17936"
+    },
+    {
+      "id": "wallpaper-desktop",
+      "path": "assets/carrier-sources/wallpaper-desktop-source.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "94c77414caec88da5f49c8e8b3fa1830e607e0fbaeb39f0696f252642eaa7d38"
+    },
+    {
+      "id": "comic",
+      "path": "assets/carrier-sources/comic-source.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "df9e4cae0a98990c61ecf1b6c0036310d757f9e780608a12c19e0b5085acd89c"
+    }
+  ]
+}
