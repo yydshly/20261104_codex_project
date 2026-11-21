@@ -19,6 +19,7 @@
 | 011 | [云隙行 · 3D 骑行世界研究](projects/011-yunxi-ride/README.md) | 自主实践 · 浏览器 WebGL 原型 | 研究怎样把 3D 鹈鹕骑车做成可游历的修仙世界。程序化天路、轮脚同步与承载、自游避障、三处秘境、双曲目跟拍和完整界面实录，沉淀可复用的关卡原型、状态驱动动画、导览与验收方法。 | [本轮生成的引导图](#yunxi-ride-guide) | [在线研究与试玩](https://yydshly.github.io/20261104_codex_project/011-yunxi-ride/) |
 | 012 | [暮色之堡与知识世界探索](projects/012-castle-knowledge-world/README.md) | 自主实践 · [Three.js](https://github.com/mrdoob/three.js) · [从零造物](https://github.com/bluesky-rgb/cong-ling-zao-wu) | 用 Three.js + HTML 实现第一人称从渔屋码头渡湖、入堡与螺旋登塔，研究怎样把科普、历史、音乐和农业融入可漫游世界。沉淀可复用的场景、通行与操作基础，并提出器物学习与生活联动方案，知识模型和学习成效继续验证。 | [已有研究全景图](#castle-knowledge-world-guide) | [在线研究与原型试玩](https://yydshly.github.io/20261104_codex_project/012-castle-knowledge-world/) |
 | 013 | [视差窗口与微缩交互研究](projects/013-spatial-window/README.md) | [Doui Lab 原帖](https://x.com/DouiLabApps/status/2119414517126107169) · [Parapeek Clock](https://www.doui-lab.com/en/apps/parapeek-clock/) · [Three.js](https://github.com/mrdoob/three.js) | 研究普通摄像头与观看位置如何驱动屏幕内的空间，用 11 个场景实现视差出框、嵌套桌面、日常信息、双机位列车与齿轮修复。沉淀可复用的投影、场景状态和操作反馈，服务互动展示、氛围桌面与修复原型，实机稳定性和长期收益继续验证。 | [已有三栏引导图](#spatial-window-guide) | [在线研究与交互效果](https://yydshly.github.io/20261104_codex_project/013-spatial-window/) |
+| 014 | [五款游戏的玩法、美术与设计取舍](projects/014-game-design-lab/README.md) | [五款原作与官方资料](https://yydshly.github.io/20261104_codex_project/014-game-design-lab/#sources) | 对照五款原作的玩法、美术与持续动机，整理五条设计方向。结合样片反馈，沉淀核心体验选型、美术投入取舍与先验证乐趣再扩系统的方法，供后续设计回查；扩展提案尚未验证。 | [已有设计总览图](#game-design-lab-guide) | [在线研究与我们的理解](https://yydshly.github.io/20261104_codex_project/014-game-design-lab/) |
 | 015 | [《蜀道难》第一人称诗境研究](projects/015-shu-road/README.md) | [李白《蜀道难》](https://zh.wikisource.org/zh-hans/蜀道难_(李白)) · 自主 WebGL 实践 | 实现一条可走的九幕 3D 蜀道，用双音色语音和镜头把诗句对准景物。探索怎样用旅人站位表达高险，并在模型上标明史料与推测，为古诗教学展示和文化导览提供可复用原型。 | [已有九幕引导图](#shu-road-guide) | [研究与解读](https://yydshly.github.io/20261104_codex_project/015-shu-road/research.html) · [在线演示](https://yydshly.github.io/20261104_codex_project/015-shu-road/) |
 | 016 | [小工具商业机制与个人 AI 协作研究](projects/016-solo-business-study/README.md) | [Feng_YQ](https://x.com/Feng_YQ) · [闷声发大财](https://msfdcszhd.com/) · 逐项官网与用户原帖 | 拆解 10 个工具的能力、获客和收费，保留 20 种扩展设想、15 家企业岗位抽样及 AI 替代核对。价值在理解持续监测、流程承接与结果交付，帮助个人减少误投，并通过样例和反馈形成 AI 协作目标；当前无立项推荐。 | [已有研究引导图](#solo-business-study-guide) | [在线研究与当前理解](https://yydshly.github.io/20261104_codex_project/016-solo-business-study/) |
 | 019 | [投影打怪玩具：效果、意义与研究判断](projects/019-projection-play-study/README.md) | [noni__z 原帖](https://x.com/noni__z/status/2120168976135209223) · Nex / LUMOplay 官方资料 | 归档可见效果、童趣解释、产品能力与家庭意义，保留城市扩展和偏题纸样。当前新增研究价值有限，停止继续立项与演示；原机、复玩和付费未实测。 | [一图汇总](#projection-play-guide) | [研究归档网页](https://yydshly.github.io/20261104_codex_project/019-projection-play-study/) |
@@ -192,6 +193,20 @@ Adam Chernick 个人制作、扩展和组合的网页 3D 实验，部分基于 T
 引导图沿用本轮已生成的三栏版本，公开网页提供 15 个研究主题、场景直达、交互原理、来源与 8 个扩展方向。公开演示使用已有 VRoid 样例作为举钟人物，引导图与历史截图记录的是本机 MMD 版本。天气湿度为室外数据，车站为有限编排，机芯为演示性运动，网页逐项说明范围。
 
 [在线研究与价值](https://yydshly.github.io/20261104_codex_project/013-spatial-window/#summary) · [直接体验工坊](https://yydshly.github.io/20261104_codex_project/013-spatial-window/play.html?scene=workshop) · [已有引导图](https://yydshly.github.io/20261104_codex_project/013-spatial-window/#guide-image) · [完整研究摘要](projects/013-spatial-window/README.md)
+
+<a id="game-design-lab-guide"></a>
+
+### 014 · 五款游戏的玩法、美术与设计取舍
+
+对照《杀戮尖塔1》《星露谷物语》《暗黑地牢》《异星工厂》《战场兄弟》，研究核心选择、美术表达、持续投入理由与制作重点，归纳临场构筑、生活积累、承压远征、系统优化和队伍经营五条方向。
+
+![沿用已生成的五款游戏设计参考总览图，包含玩法、美术、意义、扩展提案与验证问题](projects/014-game-design-lab/assets/design-summary/design-map.png)
+
+网页用原作官方实机画面、循环节点和横向比较解释规则如何产生体验；每款保留一份扩展提案与验证问题。先前的五个简化实验和佣兵任务作为复盘资料保留，同时记录卖点、画面反馈和持续投入理由不足。
+
+对我们的意义是建立下一次设计的判断依据：先选清核心体验，按辨识、情绪和反馈安排美术投入，再用短体验检验玩家是否愿意继续，之后才扩充系统与内容。当前价值在参考选型、制作取舍与验证顺序；经典的成功与运行流程不能替代新项目的乐趣或市场验证。
+
+[在线研究与意义](https://yydshly.github.io/20261104_codex_project/014-game-design-lab/#value) · [五款逐项拆解](https://yydshly.github.io/20261104_codex_project/014-game-design-lab/#directions) · [已有研究引导图](https://yydshly.github.io/20261104_codex_project/014-game-design-lab/#overview) · [完整研究记录](projects/014-game-design-lab/README.md)
 
 <a id="shu-road-guide"></a>
 

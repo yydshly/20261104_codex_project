@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-21",
+  "kind": "local design summary",
+  "verifiedFiles": {
+    "index.html": "8d01cad6761b254b7006a85571b16369aecd651e49c3633be1b861b70303a9eb",
+    "offline.html": "2d80d888e260ec035d3e9fd0c63844f44839b8bb6c66e62759e7188dd36912d7",
+    "summary/app.js": "c5d4ce8051afbae3dfd920921c39bf95f0f6db2a23f4c1b7690220853e3b366a",
+    "summary/summary.css": "739dad3b087d0269ff1c5a8b4168b9612c6a54430bfdae5366b5e5ba61733997",
+    "summary/content.json": "bb18b5018c4b7c94f59ae6722ee148b5a64d9596237efd799a38685feb09c45a",
+    "assets/design-map.png": "fbaf7ff4de06a1aabf023748f60afe7d5b54a550b95e2baa147feb0462d2bd0e",
+    "assets/design-map.svg": "4ae0f09eba699a16c3adb624b3e16b7069a8085888caf805488065b7ea6c628d"
+  },
+  "checks": [
+    "Built web entry, standalone offline bundle and SVG/PNG overview",
+    "Parsed bundled offline JavaScript with node:vm",
+    "Reviewed desktop layout at 1440 × 1000",
+    "Switched all five games, art and reference analysis, and loop nodes through the actual UI",
+    "Downloaded the overview PNG through the browser",
+    "Switched all five original screenshots in the embedded offline page",
+    "Verified no external scripts or styles and nine embedded image elements in the offline page",
+    "Reviewed mobile layout at 390 × 844; no document overflow; table scroll remains local",
+    "Verified keyboard Home navigation for the game tabs",
+    "Verified the original-size image reader renders at exactly 2400 pixels",
+    "Preserved research archive and independent mercenary experiment"
+  ],
+  "publication": "Local files and static copies only; no push or deployment"
+}

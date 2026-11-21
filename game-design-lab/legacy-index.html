@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10191f">
+  <meta name="description" content="拆解五款独立游戏的核心选择、美术语言与制作取舍，通过五个可操作实验，把理解变成自己的游戏设计草案。">
+  <title>历史研究与机制实验归档 · PLAY / FORM</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./play.css">
+  <link rel="stylesheet" href="./chapter.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <div style="padding:14px 24px;background:#283640;color:#f0e7d7;text-align:center;font-size:16px">历史研究与机制实验归档 · 当前以设计总结为主。<a href="./offline.html" style="text-decoration:underline;margin-left:16px">返回五款游戏设计总览</a></div>
+  <a class="skip-link" href="#main">跳至正文</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="PLAY FORM 游戏设计实验室首页"><span class="brand-mark" aria-hidden="true"></span><span>PLAY <i>/</i> FORM<small>游戏设计实验室</small></span></a>
+    <nav aria-label="页面导航"><a href="#games">拆解游戏</a><a href="#lab">动手实验</a><a href="#workbench">设计工作台</a></nav>
+    <button id="motion-toggle" class="quiet-button" type="button" aria-pressed="false">暂停动态</button>
+  </header>
+  <main id="main">
+    <section class="hero section-wrap" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span>从五款好游戏，开始自己的设计</p>
+        <h1>好游戏，<br>由<span class="title-underline">选择</span>发生。</h1>
+        <p class="hero-intro">拆开玩法，读懂美术。<br>再亲手试一试，规则如何变成体验。</p>
+        <div class="hero-actions"><a class="button primary" href="./iron-company/offline.html"><span class="button-play">▷</span>进入灰旗佣兵团</a><a class="text-link" href="#games">先看五款游戏的研究</a></div>
+        <div class="hero-facts"><span><strong>5</strong>种核心选择</span><span><strong>5</strong>个机制实验</span><span><strong>1</strong>份设计草案</span></div>
+      </div>
+      <div class="hero-world" id="hero-world">
+        <div class="world-grid" aria-hidden="true"></div>
+        <div class="world-orbit" aria-hidden="true"></div>
+        <div id="hero-art" class="hero-art"></div>
+        <div class="world-label"><span class="tiny-label">正在观察的世界</span><strong id="hero-game-name">杀戮尖塔 1</strong><span id="hero-feeling"></span></div>
+        <button id="light-toggle" class="light-toggle" aria-label="切换插画光照" aria-pressed="false" type="button"></button>
+        <span class="art-caption">原创概念插画 · 移动指针观察空间</span>
+      </div>
+      <div class="world-rail" id="world-rail" role="group" aria-label="选择研究的游戏"></div>
+    </section>
+
+    <section class="section-wrap study-section" id="games">
+      <div class="section-heading"><div><p class="eyebrow">UNDERSTAND THE CHOICE</p><h2>从一个决定，<br class="mobile-only">看懂一整套系统。</h2></div><p>玩家做什么，为什么继续，<br>画面又如何让这些选择成立。</p></div>
+      <div class="game-navigation" id="game-navigation" role="group" aria-label="切换游戏拆解"></div>
+      <div class="study-board">
+        <aside class="study-aside"><div class="study-art" id="study-art"></div><p class="tiny-label" id="study-genre"></p><h3 id="study-name"></h3><p class="core-question" id="study-question"></p><a class="source-link" id="study-source" target="_blank" rel="noopener noreferrer">查看原作官方介绍</a></aside>
+        <div class="study-main">
+          <div class="inspector-tabs" role="tablist" aria-label="拆解角度"><button id="tab-mechanics" role="tab" aria-controls="inspector-panel" aria-selected="true" data-tab="mechanics">核心玩法</button><button id="tab-art" role="tab" aria-controls="inspector-panel" aria-selected="false" tabindex="-1" data-tab="art">美术语言</button><button id="tab-borrow" role="tab" aria-controls="inspector-panel" aria-selected="false" tabindex="-1" data-tab="borrow">如何借鉴</button></div>
+          <div id="inspector-panel" role="tabpanel" aria-labelledby="tab-mechanics" tabindex="0"></div>
+        </div>
+      </div>
+      <details class="comparison"><summary>把五款放在一起比较<span>成长、代价与制作投入</span></summary><div class="table-scroll"><table><caption>以下为设计分析，方便选取参考方向，不是游戏评分。</caption><thead><tr><th scope="col">游戏</th><th scope="col">体验的核心</th><th scope="col">留下什么</th><th scope="col">主要制作投入</th></tr></thead><tbody id="comparison-body"></tbody></table></div></details>
+    </section>
+
+    <section class="lab-section" id="lab">
+      <div class="section-wrap">
+        <div class="section-heading"><div><p class="eyebrow">EARLIER MECHANISM STUDIES</p><h2>历史机制实验，供对照回查。</h2></div><p>保留五款的早期简化实验。<br>用于研究规则，不代表完整游戏品质。</p></div>
+        <div class="lab-toolbar"><div class="lab-picker"><label for="lab-game">切换实验</label><select id="lab-game"></select></div><p id="lab-purpose"></p><button id="lab-reset" class="quiet-button" type="button"></button></div>
+        <div id="lab-content" class="lab-content"></div>
+        <div class="lab-bottom"><div class="lab-notice" role="status" aria-live="polite" aria-atomic="true" id="lab-notice"></div><details class="scope-details"><summary>这个实验实现了什么</summary><p id="lab-scope"></p></details></div>
+        <div class="learning-note"><span id="learning-icon"></span><div><strong>试完以后，带走一个问题</strong><p id="learning-question"></p></div><button id="use-in-brief" class="text-link" type="button">用它开始草案</button></div>
+      </div>
+    </section>
+
+    <section class="section-wrap workbench-section" id="workbench">
+      <div class="section-heading"><div><p class="eyebrow">MAKE SOMETHING YOURS</p><h2>借鉴之后，<br class="mobile-only">长出自己的游戏。</h2></div><p>选一个主循环，再引入一个辅助机制。<br>先处理体验之间的关系，再扩展内容。</p></div>
+      <div class="workbench-grid">
+        <form id="brief-form" class="brief-form">
+          <label for="project-title">给这个想法起个名字</label><input id="project-title" name="title" maxlength="60" placeholder="例如：雾岛旅团" autocomplete="off">
+          <label for="primary-game">主玩法参考</label><select id="primary-game" name="primary"></select>
+          <label for="secondary-game">辅助机制参考</label><select id="secondary-game" name="secondary"></select>
+          <fieldset><legend>希望玩家主要感受到</legend><div id="intent-options" class="intent-options"></div></fieldset>
+          <p class="save-status" id="save-status">草案选择自动保存在当前浏览器。</p>
+        </form>
+        <article class="brief-paper" id="brief-paper"><div class="paper-header"><span>DESIGN NOTE</span><span>可继续修改的起点</span></div><div id="brief-output"></div><div class="export-actions"><button class="button primary" id="export-md" type="button"></button><button class="button secondary" id="export-json" type="button">导出 JSON</button></div></article>
+      </div>
+    </section>
+
+    <section class="section-wrap sources-section" id="sources"><div><p class="eyebrow">KEEP THE REFERENCES CLOSE</p><h2>理解有出处，<br>创作有自己的判断。</h2><p>原作机制与美术资料来自官方页面和开发者说明。<br>借鉴建议与组合草案，是我们的设计分析。</p></div><div class="sources-list" id="sources-list"></div></section>
+  </main>
+  <footer class="site-footer section-wrap"><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true"></span><span>PLAY <i>/</i> FORM</span></a><p>五款作品的设计研究 · 2026.11<br>原作截图用于对照；试玩美术重新制作，规则范围见说明。</p><a href="./offline.html" download>下载离线网页版</a><a href="../" id="index-link">返回研究总库</a></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">这个实验室需要 JavaScript 才能运行互动。请启用后重新打开。</p></noscript>
+</body>
+</html>

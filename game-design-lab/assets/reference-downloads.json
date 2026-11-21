@@ -1,0 +1,14 @@
+[
+  {
+    "game": "factory",
+    "page": "https://store.steampowered.com/app/427520/",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_2533e54b0bd90a29adbedb60108ed277536ad445.1920x1080.jpg?t=1792752343",
+    "file": "reference-factory.jpg"
+  },
+  {
+    "game": "valley",
+    "page": "https://store.steampowered.com/app/413150/",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_b887651a93b0525739049eb4194f633de2df75be.1920x1080.jpg?t=1786554168",
+    "file": "reference-valley.jpg"
+  }
+]

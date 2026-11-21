@@ -1,0 +1,50 @@
+{
+  "files": [
+    {
+      "file": "index.html",
+      "sha256": "089220764a26b466912e84e16790901882226c189aef64373537e7a7b54d806b"
+    },
+    {
+      "file": "style.css",
+      "sha256": "6f96293eb3fa26ace195d6cb68dafa640ae7ae7628adef6212114707950e5e03"
+    },
+    {
+      "file": "model.js",
+      "sha256": "62fbc3d48f09467c01785a67d8f1d97273e3d6a7deae6b42fe0f04aee5c6d0ce"
+    },
+    {
+      "file": "render.js",
+      "sha256": "32ca039acd620ca81adab796ab6ba00cd9ac6c1fcbcf762708ddbec6b496fb22"
+    },
+    {
+      "file": "icons.js",
+      "sha256": "7b3af3122e27b88554af97f2f58dd2f8342be65752cac2c2b9fdf812b41ea357"
+    },
+    {
+      "file": "app.js",
+      "sha256": "9691e687aecaaa9bfd85abe82add0991b5aaad25064e6590e6d4d977115d43f8"
+    },
+    {
+      "file": "offline.html",
+      "sha256": "a6071c8cedde58f6079b92edebf2d4404bdb8ff7f864b537d3c8d33b4343910d"
+    },
+    {
+      "file": "assets/warband.png",
+      "sha256": "879f878ab584eda20aa98f907aceb065410975fe110e1a7e8f6f27895b530807"
+    },
+    {
+      "file": "assets/alternates.png",
+      "sha256": "0f330901d33c4e42d4a5f24b8386d93b658caaa67da1e5d00990fc9d16664522"
+    },
+    {
+      "file": "assets/terrain.png",
+      "sha256": "253915249d202051e2c8ca9f2b51248dd3d1712693151e1f8d99b614d45b5f17"
+    },
+    {
+      "file": "assets/props.png",
+      "sha256": "84616bbff87321d25c75b844905112c8a5b59b423c62bf04e6fb7d604ba15bb0"
+    }
+  ],
+  "bytes": 15563666,
+  "published": false
+}

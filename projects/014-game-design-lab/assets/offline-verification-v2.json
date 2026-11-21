@@ -1,0 +1,18 @@
+{
+  "checks": [
+    "single-file game room opens directly from disk",
+    "valley: controls and embedded reference image load offline",
+    "spire: controls and embedded reference image load offline",
+    "dungeon: controls and embedded reference image load offline",
+    "factory: controls and embedded reference image load offline",
+    "brothers: controls and embedded reference image load offline",
+    "offline card battle initializes a real five-card hand",
+    "embedded machine assets and factory simulation work without a server",
+    "offline game save and paused simulation restore after refresh",
+    "offline game save can be exported as a usable JSON file",
+    "no offline JavaScript exceptions",
+    "no required network requests"
+  ],
+  "errors": [],
+  "network_requests": []
+}

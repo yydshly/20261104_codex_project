@@ -1,0 +1,18 @@
+{
+  "checks": [
+    "standalone artifact embeds all modules, styles and images",
+    "bundled chapter runs with every network asset request blocked",
+    "bundled attack, initiative and v3 save actually operate",
+    "chapter refresh preserves new progress and leaves the old save untouched",
+    "standalone save exports as ordinary JSON",
+    "spire: bundled scene and controls initialize",
+    "valley: bundled scene and controls initialize",
+    "factory: bundled scene and controls initialize",
+    "brothers: bundled scene and controls initialize",
+    "dungeon: bundled scene and controls initialize",
+    "no runtime asset dependencies",
+    "no bundled JavaScript exceptions"
+  ],
+  "errors": [],
+  "blocked_asset_requests": []
+}

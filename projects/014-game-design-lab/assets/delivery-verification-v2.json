@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "all 22 distributed files match the editable source",
+    "project documentation, source links, generated assets and screenshots exist",
+    "offline document embeds artwork, references and favicon"
+  ],
+  "rule_tests": 24,
+  "browser_checks": 34,
+  "offline_checks": 12,
+  "offline_size_bytes": 17893580
+}

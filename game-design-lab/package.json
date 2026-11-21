@@ -1,0 +1,16 @@
+{
+  "name": "playform-game-design-lab",
+  "version": "5.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "dev:game": "node iron-company/server.mjs",
+    "dev:research": "node server.mjs",
+    "build": "node build.mjs",
+    "test": "node --test tests/*.test.js iron-company/tests/*.test.js",
+    "test:browser": "python iron-company/tests/browser.py",
+    "test:offline": "python iron-company/tests/offline.py",
+    "test:research": "python tests/browser_v3.py && python tests/regression_v3.py"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "single-file entry opens directly from disk",
+    "all five game selectors work under file protocol",
+    "offline simulation updates real state",
+    "offline browser draft restores after refresh",
+    "offline JSON download contains the user draft",
+    "no network assets or service calls required",
+    "no offline JavaScript exceptions"
+  ],
+  "errors": [],
+  "network_requests": []
+}

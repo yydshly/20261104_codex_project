@@ -1,0 +1,24 @@
+{
+  "checks": [
+    "module page returns 200",
+    "farm character really walks with keyboard input",
+    "canvas tools till, seed and water the same world tile",
+    "four nights of growth really mature the planted crop",
+    "harvest, walk to shipping bin and sleep settle 35g",
+    "actual farm progress survives a page reload",
+    "card battle starts with five real hand cards",
+    "three-node card journey can be won through the actual card and target controls",
+    "canvas placement fills the actual missing belt cell",
+    "items actually pass through mining, smelting, assembly and chest",
+    "production can be paused without background progress",
+    "R rotates the actual placement direction",
+    "tactical initiative starts with the fastest archer",
+    "tactical actors really move across hexes and perform attacks",
+    "the tactical contract is settled only after winning the battle",
+    "surviving mercenaries return to the persistent camp",
+    "no JavaScript errors",
+    "no failed resource requests"
+  ],
+  "errors": [],
+  "failed_requests": []
+}

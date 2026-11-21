@@ -1,0 +1,32 @@
+{
+  "checks": [
+    "new slice opens with contract, deployment and four functional loadouts",
+    "alternate gear changes the actual preparation and portrait",
+    "shared preparation budget prevents over-equipping",
+    "deployment choice is recorded in the actual run",
+    "battle begins with real initiative, AP and tactical actions",
+    "rules and keyboard help open and close without losing the battle",
+    "normal canvas movement and attacks resolve the tactical contract",
+    "battle creates morale changes and a real result ledger",
+    "a finished contract survives refresh with the same survivors",
+    "save export contains terrain, loadouts, units and settlement",
+    "replay begins with a clean preparation and archives the prior result",
+    "1280px preparation has no page-width overflow",
+    "390px preparation has no page-width overflow",
+    "1280px #battlefield fits the gameplay viewport",
+    "1280px #commands fits the gameplay viewport",
+    "1280px .combat-footer fits the gameplay viewport",
+    "390px #battlefield fits the gameplay viewport",
+    "390px #commands fits the gameplay viewport",
+    "390px .combat-footer fits the gameplay viewport",
+    "phone can open the full tactical inspector",
+    "phone can close the inspector without losing control",
+    "zoomed phone map still targets the correct hex",
+    "panned phone map preserves movement coordinates and AP",
+    "no uncaught game exceptions",
+    "all shipped visual assets loaded"
+  ],
+  "errors": [],
+  "failed_requests": [],
+  "player_actions": 59
+}

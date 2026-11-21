@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "phone inspector opens and closes with reachable controls",
+    "zoomed map preserves exact target coordinates and AP cost",
+    "drag-panned map preserves exact target coordinates and AP cost",
+    "no script exceptions in real mobile input flow"
+  ],
+  "errors": []
+}

@@ -1,0 +1,114 @@
+{
+  "version": 3,
+  "matched_files": [
+    {
+      "file": "index.html",
+      "sha256": "47cb8cebea9e20a7dcb424ce873719be04762dd457b72dac6babeaa67570799c"
+    },
+    {
+      "file": "style.css",
+      "sha256": "932464e75ae9d0169bb08fc5adde787e81ea213aa73de0438bf6fff2ab8461e5"
+    },
+    {
+      "file": "play.css",
+      "sha256": "9799855d2e06d42bca1146a403a4e21ae362dd1fb211bf89dc337d7554e389e6"
+    },
+    {
+      "file": "chapter.css",
+      "sha256": "a3f7528afede5e9b7d950ea8b28d5509e8686733bb42b16525f80cb07a867e8d"
+    },
+    {
+      "file": "data.js",
+      "sha256": "504d61899bd7e83ffd7b30cb0bcaee063c03f6566ea45e8f0fc33bb64eb3008e"
+    },
+    {
+      "file": "art.js",
+      "sha256": "8d01c4dff1b3c5f2b441d69ad5b901e0cda93a3c2e6707e7e5db0529830e3d3d"
+    },
+    {
+      "file": "engine.js",
+      "sha256": "5d29b9d1ecb86e43d92646e8f369664964b6892aa2ef22cc627428faac66a580"
+    },
+    {
+      "file": "reference.js",
+      "sha256": "13bbba9e14abcedc7dde9cfa9bbb377eacf092da36fd088bb0b6c07ff719d335"
+    },
+    {
+      "file": "play-engine.js",
+      "sha256": "7460007783aea017fb0f7105a23c957f63158734660ffe6cf07004bee0696771"
+    },
+    {
+      "file": "play-renderer.js",
+      "sha256": "d25cc906fe561ab3a3400811c02bc22dacf449344e0f01a4c7df6ceebdf3f63b"
+    },
+    {
+      "file": "dungeon-view.js",
+      "sha256": "5acccd1ff92a9e027c606624252e429626cb8c2d3cfe0087dc581ebfa2636cad"
+    },
+    {
+      "file": "card-art.js",
+      "sha256": "ab9f429b4998644a8c16ba5f0e877952d0c375116dcca8d07f0129542ab4fa1c"
+    },
+    {
+      "file": "game-room.js",
+      "sha256": "e1bfb0284d79dadf0eec2ad61ae31c8dfd3e7560fafb7bc2b0ce5fbd88b1d67b"
+    },
+    {
+      "file": "app.js",
+      "sha256": "2249fce544798db9dc4cf1e09438a3a413d381b8328658a1a1f31ce4d207552e"
+    },
+    {
+      "file": "favicon.svg",
+      "sha256": "d476e536d8f42b9bdcfe5e3e80f4972a1bd7ed713f3d26328072bb83067fa530"
+    },
+    {
+      "file": "offline.html",
+      "sha256": "9e5638ee063c772bf19f4c7233f52d5b146e51e5f009ccf57fd9c7d2b1d3cf73"
+    },
+    {
+      "file": "assets/characters-v2.png",
+      "sha256": "64aefb6ca332e306a5d0283b7d1c5f71f30457be12b40b2ff033f73ba3911734"
+    },
+    {
+      "file": "assets/environments-v2.png",
+      "sha256": "7f05b2fceff3dff759093476b45e61c0bf9624bc92d7861e9c06b088490fa0b5"
+    },
+    {
+      "file": "assets/machines-v2.png",
+      "sha256": "9c7cd8d1650e1d1d47059986f03cbddeaab03e1ce076c0b55ed78848b09c8e2e"
+    },
+    {
+      "file": "assets/farm-v2.png",
+      "sha256": "cb2e8b767e374ed03bd1123301b23c6c1f9633fe2d0c8c572ffcac79f0a2b201"
+    },
+    {
+      "file": "assets/reference-spire.jpg",
+      "sha256": "e5785292e967eabbdb9a1b1bee1e426c9cb0e806f328868584e6da0e61a7d323"
+    },
+    {
+      "file": "assets/reference-valley.jpg",
+      "sha256": "4c4b746d325141a0612a040c4ab2cde1f5b76162a47465e72ca8bcb2b086a486"
+    },
+    {
+      "file": "assets/reference-dungeon.jpg",
+      "sha256": "18dde006b5335f6f6f66691296f89962ee89e45f568b46203581aa787c9d0da5"
+    },
+    {
+      "file": "assets/reference-factory.jpg",
+      "sha256": "3ce24c08bcd2d6e78214318e97a588fc67517567630d59cb326b8c83048e5756"
+    },
+    {
+      "file": "assets/reference-brothers.jpg",
+      "sha256": "9818ee141010b66cc5a096b03e239a07d45e048082f0bf944fad629e7b1c91e7"
+    }
+  ],
+  "offline_bytes": 17939743,
+  "tests": {
+    "rules": 29,
+    "chapter_and_layout": 31,
+    "other_game_regression": 18,
+    "standalone": 12
+  },
+  "published": false,
+  "notes": "Five playable mechanism studies; dungeon has a five-stage authored chapter. Automated completion is not a claim of original-game fidelity or player enjoyment."
+}

@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "all four painted atlases, modules and CSS are embedded",
+    "existing primary offline entry contains the new self-contained game",
+    "standalone preparation initializes with network assets blocked",
+    "bundled canvas movement consumes real AP",
+    "standalone battle resumes after a refresh",
+    "standalone progress exports as complete JSON",
+    "no bundled JavaScript exceptions",
+    "no runtime network dependencies"
+  ],
+  "errors": [],
+  "blocked": []
+}

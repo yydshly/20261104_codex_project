@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "static project root starts the new game with its base path",
+    "all four real loadouts are present in the packaged entry",
+    "packaged game opens the preserved five-game research page",
+    "research page returns to the dedicated standalone game",
+    "packaged game starts a real battle",
+    "no packaged JavaScript exceptions",
+    "no broken packaged resource requests"
+  ],
+  "errors": [],
+  "failed_requests": []
+}

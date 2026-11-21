@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "all eight publication files match source hashes",
+    "new documentation relative links and screenshots exist",
+    "rendered SVG and interface IDs remain unique",
+    "pointer position changes the scene perspective",
+    "scene lighting toggle changes its state",
+    "motion can be paused manually",
+    "320px layout fits its viewport",
+    "390px layout fits its viewport",
+    "768px layout fits its viewport"
+  ],
+  "passed": 9
+}
