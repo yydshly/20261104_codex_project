@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0e1112">
+  <meta name="description" content="异种竞技场。观察英雄与异种生物的三维形态和动作，任选两位安排一场自动对决。">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'%3E%3Cpath fill='%23121617' stroke='%23d4f981' stroke-width='2' d='M2 18 11 3h14l9 15-9 15H11L2 18Z'/%3E%3Cpath fill='none' stroke='%23d4f981' stroke-width='2' d='m8 22 6-12 4 8 4-8 6 12M12 27h12'/%3E%3C/svg%3E">
+  <title>异种竞技场 · MORPH ARENA</title>
+  <script type="module" crossorigin src="./assets/arena-DZtAUqwo.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="modulepreload" crossorigin href="./assets/preload-helper-Dp1pzeXC.js">
+  <link rel="modulepreload" crossorigin href="./assets/magnet-hero-DnjeChN4.js">
+  <link rel="modulepreload" crossorigin href="./assets/hero-models-BHLOHfx8.js">
+  <link rel="stylesheet" crossorigin href="./assets/arena-VFx5bv1r.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a id="brand-link" class="brand" href="./" aria-label="英雄总览">
+        <svg class="brand-mark" viewBox="0 0 36 36" aria-hidden="true">
+          <path d="M2 18 11 3h14l9 15-9 15H11L2 18Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <path d="m8 22 6-12 4 8 4-8 6 12M12 27h12" fill="none" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        <span>MORPH<span class="brand-slash">/</span>LAB</span>
+      </a>
+      <span class="header-category">形态研究所 <span> / </span> MORPHOLOGY LAB</span>
+      <span class="header-status"><span class="status-light"></span> SYSTEM ONLINE</span>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="intro" aria-labelledby="page-title">
+      <div>
+        <p class="intro-kicker"><span>01</span> FIELD SIMULATION</p>
+        <h1 id="page-title">MORPH<span class="title-gap"> </span>ARENA<span class="title-period">.</span></h1>
+        <p class="intro-summary">异种竞技场 <span>／</span> 自选角色，自动对决</p>
+        <nav class="scene-links" aria-label="场景导航">
+          <a id="library-link" class="scene-link" href="./"><span aria-hidden="true">←</span> 英雄总览</a>
+          <a id="rescue-link" class="scene-link" href="./rescue.html">超能现场 <span aria-hidden="true">↗</span></a>
+          <a id="arena-magnet-orbit-link" class="scene-link" href="./orbit.html?hero=magnet&amp;model=blender" hidden>轨道拦截 <span aria-hidden="true">↗</span></a>
+          <a id="arena-magnet-lab-link" class="scene-link" href="./magnet-lab.html" hidden>磁极外观对照 <span aria-hidden="true">↗</span></a>
+        </nav>
+        <p id="arena-magnet-appearance" class="intro-summary" role="status" hidden>磁极已选用 Blender 外观。</p>
+      </div>
+      <div class="round-index">
+        <span class="round-caption">模拟进程 / SESSION</span>
+        <span id="round-label">01</span>
+      </div>
+    </section>
+
+    <section class="arena-grid" aria-label="竞技场">
+      <div class="stage">
+        <div id="viewport" aria-label="实时三维竞技场"></div>
+        <div class="stage-overlay" aria-hidden="true">
+          <div class="stage-reticle reticle-nw"></div>
+          <div class="stage-reticle reticle-ne"></div>
+          <div class="stage-reticle reticle-sw"></div>
+          <div class="stage-reticle reticle-se"></div>
+        </div>
+        <div class="stage-top">
+          <p class="mode-chip"><span class="mode-indicator"></span><span id="mode-label">形态观察 / INSPECT</span></p>
+          <button id="inspect-toggle" class="inspect-button" type="button" hidden>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+            返回观察
+          </button>
+        </div>
+        <div id="battle-hud" hidden></div>
+        <div class="stage-bottom">
+          <div class="stage-caption">
+            <p id="stage-title">形态观察舱</p>
+            <p id="stage-subtitle">实时 3D 模拟</p>
+          </div>
+          <p id="camera-note">拖动旋转 · 滚轮缩放</p>
+        </div>
+      </div>
+
+      <aside class="dossier" aria-label="角色资料">
+        <div class="dossier-head"><span>形态档案</span><span>SPECIMEN FILE</span></div>
+        <div id="stats"></div>
+        <div class="dossier-footer">
+          <label class="rival-picker" for="rival-select">
+            <span>对手</span>
+            <select id="rival-select" name="rival"></select>
+          </label>
+          <p id="selection-note" aria-live="polite">从下方选择一个形态开始。</p>
+          <button id="action-button" type="button">开始对决</button>
+        </div>
+      </aside>
+
+      <section class="roster-section" aria-labelledby="roster-title">
+        <div class="roster-head">
+          <h2 id="roster-title">角色名录 <span>／ ROSTER</span></h2>
+          <p id="roster-count"></p>
+        </div>
+        <div id="roster"></div>
+      </section>
+    </section>
+
+    <footer class="site-footer">
+      <span>MORPH LAB <span class="footer-slash">/</span> SIMULATION SERIES</span>
+      <span>REAL-TIME 3D <span class="footer-slash">•</span> PROCEDURAL SPECIMENS</span>
+    </footer>
+  </main>
+
+</body>
+</html>

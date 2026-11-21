@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10151c">
+  <meta name="description" content="GPT-6.2 3D 生成能力探索的可操作演示。观察 16 个角色、体验救援与自动对决、对比轨道方案和 Blender 重设计，研究程序建模、动画特效及共享角色对原型与讲解的价值。">
+  <link rel="canonical" href="https://yydshly.github.io/20261104_codex_project/009-gpt62-3d-capability/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="GPT-6.2 3D 生成能力探索 · 英雄与实时场景">
+  <meta property="og:description" content="从自然语言需求到可编辑角色、动画特效、故事场景与 Blender 资产。用 16 个角色和 3 类现场查看本轮探索的能力与价值。">
+  <meta property="og:url" content="https://yydshly.github.io/20261104_codex_project/009-gpt62-3d-capability/">
+  <meta property="og:image" content="https://yydshly.github.io/20261104_codex_project/009-gpt62-3d-capability/journey/gpt62-3d-exploration.png">
+  <meta property="og:image:alt" content="GPT-6.2 3D 生成能力探索引导图，展示救援、对决、轨道接力与造型实验">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://yydshly.github.io/20261104_codex_project/009-gpt62-3d-capability/journey/gpt62-3d-exploration.png">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'%3E%3Cpath fill='%23141c26' stroke='%23ffd48a' stroke-width='2' d='M2 18 11 3h14l9 15-9 15H11L2 18Z'/%3E%3Cpath fill='none' stroke='%23ffd48a' stroke-width='2' d='M7 19h6l4-9 4 15 3-6h5'/%3E%3C/svg%3E">
+  <title>英雄档案 · GPT-6.2 3D 生成能力探索</title>
+</head>
+<body>
+  <header class="hub-header">
+    <div class="hub-width header-inner">
+      <a class="hub-brand" href="./" aria-label="英雄档案首页">
+        <svg viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M2 18 11 3h14l9 15-9 15H11L2 18Z"/><path d="M7 19h6l4-9 4 15 3-6h5"/></svg>
+        <span>FIELD<span class="brand-slash">/</span>REPORT</span>
+      </a>
+      <nav class="hub-nav" aria-label="页面章节">
+        <a href="#heroes"><span>01</span> 角色名册</a>
+        <a href="#scenes"><span>02</span> 场景入口</a>
+        <a href="./journey.html"><span>03</span> 项目回顾</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="hub-width">
+    <div class="hub-intro">
+      <div>
+        <p class="kicker"><span class="signal"></span> CHARACTER ARCHIVE</p>
+        <h1>英雄档案<span>.</span></h1>
+        <p class="hub-summary">先观察角色，再到竞技场、港湾街或近地轨道看他们出场。</p>
+        <p class="hub-research-summary">这组实时演示用于探索 GPT-6.2 的程序建模、动作特效和场景协作能力，整理可编辑原型、互动讲解与角色复用的价值。<a href="./journey.html">阅读研究与价值 ↗</a></p>
+      </div>
+      <div class="hub-totals" aria-label="档案概况">
+        <div><strong id="total-heroes"></strong><span>收录角色</span></div>
+        <div><strong id="total-scenes"></strong><span>实战场景</span></div>
+      </div>
+    </div>
+
+    <section class="hero-section" id="heroes" aria-labelledby="heroes-title">
+      <div class="section-heading">
+        <span class="section-number">01</span>
+        <h2 id="heroes-title">角色名册</h2>
+        <span class="section-caption">SELECT A HERO</span>
+      </div>
+
+      <div class="hero-layout">
+        <div class="preview-panel" id="hero-preview" tabindex="-1">
+          <div class="preview-stage" id="preview-stage">
+            <div id="hub-viewport" aria-label="所选角色的 3D 观察区"></div>
+            <div class="preview-top" aria-hidden="true">
+              <span class="preview-tag"><span class="signal"></span> 实时 3D</span>
+              <span class="preview-ref" id="hero-ref"></span>
+            </div>
+            <span class="reticle reticle-left" aria-hidden="true"></span>
+            <span class="reticle reticle-right" aria-hidden="true"></span>
+            <div class="preview-fallback" id="preview-fallback" hidden>
+              <div id="fallback-glyph" aria-hidden="true"></div>
+              <p>当前设备无法载入 3D 观察区</p>
+            </div>
+            <div class="preview-bottom">
+              <span class="preview-hint" id="preview-hint">
+                <span class="hint-mouse">拖动旋转 <span>·</span> 滚轮缩放</span>
+                <span class="hint-touch">滑动旋转 <span>·</span> 双指缩放</span>
+              </span>
+              <div class="preview-actions">
+                <button type="button" id="preview-ability" disabled><span aria-hidden="true">▷</span> 能力预览</button>
+                <button type="button" id="reset-camera" disabled><span aria-hidden="true">↺</span> 重置视角</button>
+              </div>
+            </div>
+          </div>
+          <div class="hero-profile" aria-live="polite">
+            <div class="profile-icon" id="hero-icon" aria-hidden="true"></div>
+            <div class="profile-main">
+              <p class="profile-meta"><span id="hero-group"></span><span id="hero-type"></span></p>
+              <h3 id="hero-name"></h3>
+              <p id="hero-description"></p>
+              <nav class="profile-scenes" aria-label="当前角色可进入的场景">
+                <a id="quick-arena" href="./arena.html">竞技场 ↗</a>
+                <a id="quick-rescue" href="./rescue.html" hidden>缆车救援 ↗</a>
+                <a id="quick-orbit" href="./orbit.html" hidden>轨道拦截 ↗</a>
+                <a id="quick-magnet-lab" class="profile-lab-link" href="./magnet-lab.html" hidden>磁极双版本对照 ↗</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+        <div class="roster" id="hero-roster">
+          <div class="roster-toolbar">
+            <div class="roster-filters" role="group" aria-label="按类别或场景筛选角色">
+              <button type="button" data-filter="all" aria-controls="roster-grid" aria-pressed="true">全部</button>
+              <button type="button" data-filter="powered" aria-controls="roster-grid" aria-pressed="false">超能英雄</button>
+              <button type="button" data-filter="species" aria-controls="roster-grid" aria-pressed="false">竞技异种</button>
+              <button type="button" data-filter="rescue" aria-controls="roster-grid" aria-pressed="false">缆车救援</button>
+              <button type="button" data-filter="orbit" aria-controls="roster-grid" aria-pressed="false">轨道拦截</button>
+            </div>
+            <span class="roster-count" id="roster-count" role="status"></span>
+            <a class="roster-preview" href="#hero-preview">查看模型 ↑</a>
+          </div>
+          <div class="roster-grid" id="roster-grid" aria-label="选择要观察的角色"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene-section" id="scenes" aria-labelledby="scenes-title">
+      <div class="section-heading">
+        <span class="section-number">02</span>
+        <h2 id="scenes-title">选择场景</h2>
+        <span class="section-caption">ENTER A SCENE</span>
+      </div>
+
+      <div class="scene-grid">
+        <article class="scene-card scene-arena">
+          <div class="scene-art" aria-hidden="true">
+            <svg viewBox="0 0 640 150" preserveAspectRatio="xMidYMid slice" fill="none">
+              <defs><linearGradient id="arena-streak"><stop stop-color="#69ccef" stop-opacity="0"/><stop offset="1" stop-color="#97e9ff"/></linearGradient></defs>
+              <path d="M-55 145 145 48h307l239 97M15 146 171 65h247l181 81M91 146l111-64h185l117 64M170 148l74-51h106l74 51" stroke="currentColor" opacity=".28"/>
+              <path d="M102 98h438M26 126h600M312 49v101" stroke="currentColor" opacity=".17"/>
+              <path d="m384 73 32 20-25 25 28 32m-36-78 18-16 38 3 9 21m12 62 26-26-38-36m-37-11 13 10-4 23 18 12" stroke="currentColor" stroke-width="2" opacity=".56"/>
+              <path d="m429 57 17-21 22 6 6 18-18 14-13-7" stroke="currentColor" stroke-width="2" opacity=".78"/>
+              <path d="m185 135 174-69m-123 85L416 48m-59 90 151-94" stroke="url(#arena-streak)" stroke-width="2" opacity=".76"/>
+              <circle cx="423" cy="82" r="49" stroke="currentColor" stroke-dasharray="3 9" opacity=".24"/>
+            </svg>
+            <span class="scene-code">01 / COMBAT SIM</span>
+          </div>
+          <div class="scene-content">
+            <h3>异种竞技场</h3>
+            <p>选定对手，观看不同体型与能力的角色自动对决。</p>
+            <div class="scene-footer">
+              <span class="scene-status" id="arena-status"></span>
+              <a class="scene-link" id="enter-arena" href="./arena.html">进入竞技场 <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="scene-card scene-rescue">
+          <div class="scene-art" aria-hidden="true">
+            <svg viewBox="0 0 640 150" preserveAspectRatio="xMidYMid slice" fill="none">
+              <path d="M-14 132h82v-25h28v25h28V76h37v57h18v-25h20v25h31V94h31v39h36V72h31v60h42v-26h29v26h30v-36h50v36h20v-66h43v66h22v-23h36v23h53" stroke="currentColor" opacity=".29"/>
+              <path d="M4 118 632 17M18 130 640 29" stroke="currentColor" opacity=".56"/>
+              <path d="M344 143V58m-13 85V65m-11 0h35m-34-12h33M567 146V20m-14 126V26m-18 7h48m-46 12h45" stroke="currentColor" opacity=".43"/>
+              <g transform="translate(438 83) rotate(-13)">
+                <path d="M-17-27-23-36h29L2-26m-9-10v-11" stroke="currentColor" stroke-width="2"/>
+                <rect x="-42" y="-27" width="84" height="52" rx="8" fill="#201b1b" stroke="currentColor" stroke-width="2"/>
+                <path d="M-33-18h65v21h-65zM-12-17V3m23-20V3m-42 11h64" stroke="currentColor" stroke-width="1.5" opacity=".78"/>
+              </g>
+              <path d="m524 54 7-8m-19-2 6-8m-16 0 3-8m8 42 10-3" stroke="currentColor" opacity=".6"/>
+            </svg>
+            <span class="scene-code">02 / INCIDENT 01</span>
+          </div>
+          <div class="scene-content">
+            <h3>超能现场</h3>
+            <p>重返缆车事故，观察所选英雄如何使用能力救人。</p>
+            <button class="scene-cast-link" type="button" aria-controls="roster-grid" data-scene-filter="rescue">查看缆车救援名单 ↑</button>
+            <div class="scene-footer">
+              <span class="scene-status" id="rescue-status"></span>
+              <a class="scene-link" id="enter-rescue" href="./rescue.html">进入救援 <span aria-hidden="true">↗</span></a>
+              <a class="scene-link scene-link-secondary" id="browse-rescue" href="./rescue.html" hidden>浏览救援现场 <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="scene-card scene-orbit">
+          <div class="scene-art" aria-hidden="true">
+            <svg viewBox="0 0 640 150" preserveAspectRatio="xMidYMid slice" fill="none">
+              <path d="M-15 151Q174 38 452 131T681 152" fill="#142f43" stroke="currentColor" opacity=".48"/>
+              <path d="M-10 128C165 31 368 39 645 101M126 139C337 137 554 18 630 11" stroke="currentColor" stroke-dasharray="2 7" opacity=".44"/>
+              <circle cx="487" cy="39" r="2" fill="currentColor" opacity=".75"/>
+              <circle cx="277" cy="55" r="1.5" fill="currentColor" opacity=".6"/>
+              <circle cx="104" cy="70" r="1.5" fill="currentColor" opacity=".65"/>
+              <path d="M194 86 349 82m-151 9 145-10m-139 14 139-14" stroke="currentColor" opacity=".46"/>
+              <g transform="translate(410 73) rotate(-19)">
+                <path d="M-78 0H78" stroke="currentColor" stroke-width="2"/>
+                <rect x="-15" y="-15" width="30" height="30" rx="4" fill="#12343d" stroke="currentColor" stroke-width="2"/>
+                <path d="M-74-13h48v26h-48zM26-13h48v26H26zM-60-13v26m17-26v26m84-26v26m17-26v26" fill="#184651" fill-opacity=".6" stroke="currentColor"/>
+                <ellipse cx="0" cy="0" rx="110" ry="32" stroke="currentColor" opacity=".28"/>
+              </g>
+            </svg>
+            <span class="scene-code">03 / INCIDENT 02</span>
+          </div>
+          <div class="scene-content">
+            <h3>轨道拦截</h3>
+            <p>失控卫星逼近空间站。比较不同的拦截方案，或观看两位英雄接力。</p>
+            <div class="scene-tools">
+              <button class="scene-cast-link" type="button" aria-controls="roster-grid" data-scene-filter="orbit">查看轨道拦截名单 ↑</button>
+              <a class="scene-cast-link" id="enter-orbit-comparison" href="./orbit.html?hero=rewind&amp;compare=portal&amp;t=6.6">并排对照 ↗</a>
+              <a class="scene-cast-link" id="enter-orbit-relay" href="./orbit.html?hero=rewind&amp;mission=relay&amp;t=7.35">联合拦截 ↗</a>
+            </div>
+            <div class="scene-footer">
+              <span class="scene-status" id="orbit-status"></span>
+              <a class="scene-link" id="enter-orbit" href="./orbit.html"><span id="orbit-link-label">进入轨道</span><span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <aside class="journey-teaser" aria-labelledby="journey-teaser-title">
+      <div>
+        <p class="kicker">PROJECT JOURNAL</p>
+        <h2 id="journey-teaser-title">从角色到现场，我们试过什么</h2>
+        <p class="journey-teaser-description">从 GPT-6.2 生成代码与建模脚本出发，用救援、对决和 Blender 重设计理解相关能力，以及它们对原型、讲解与演示制作的价值。</p>
+      </div>
+      <a href="./journey.html">阅读实验回顾 <span aria-hidden="true">↗</span></a>
+    </aside>
+  </main>
+
+  <footer class="hub-width hub-footer">
+    <span>FIELD / REPORT</span>
+    <nav class="hub-footer-links" aria-label="页脚导航">
+      <a href="./journey.html">项目回顾 ↗</a>
+      <a href="#heroes">返回角色名册 ↑</a>
+    </nav>
+  </footer>
+  <script type="module" src="/src/hub.js"></script>
+</body>
+</html>

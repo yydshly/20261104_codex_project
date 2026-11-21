@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eeeae1">
+  <meta name="description" content="探索 GPT-6.2 将自然语言需求转化为可编辑实时 3D 原型的能力。用 16 个角色、救援与对决、轨道接力和 Blender 重设计，理解程序建模、动画特效、场景协作的实现路径及其原型、讲解和演示价值。">
+  <link rel="canonical" href="https://yydshly.github.io/20261104_codex_project/009-gpt62-3d-capability/journey.html">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:title" content="GPT-6.2 3D 生成能力探索 · 从角色到可运行现场">
+  <meta property="og:description" content="16 个角色、3 类场景、2 条建模路径。以实际效果研究程序建模、动画特效、多角色协作和 Blender 资产生成，并整理快速原型、互动讲解、视觉演示与角色复用的价值。">
+  <meta property="og:url" content="https://yydshly.github.io/20261104_codex_project/009-gpt62-3d-capability/journey.html">
+  <meta property="og:image" content="https://yydshly.github.io/20261104_codex_project/009-gpt62-3d-capability/journey/gpt62-3d-exploration.png">
+  <meta property="og:image:width" content="1122">
+  <meta property="og:image:height" content="1402">
+  <meta property="og:image:alt" content="GPT-6.2 3D 生成能力探索引导图，汇总蛛丝救援、分身对决、轨道接力和 Blender 造型实验">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="GPT-6.2 3D 生成能力探索">
+  <meta name="twitter:description" content="从角色造型、能力动画到故事场景、同步对照和迭代设计，查看本项目的实际效果与复用价值。">
+  <meta name="twitter:image" content="https://yydshly.github.io/20261104_codex_project/009-gpt62-3d-capability/journey/gpt62-3d-exploration.png">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='6' fill='%23182f2d'/%3E%3Cpath d='M11 10h18v20H11zM15 15h10m-10 5h10m-10 5h6' fill='none' stroke='%23eeeae1' stroke-width='2'/%3E%3C/svg%3E">
+  <title>GPT-6.2 3D 生成能力探索 · 研究与价值</title>
+  <link rel="stylesheet" href="/src/journey.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="journal-header">
+    <div class="journal-width masthead">
+      <a class="journal-brand" href="./"><span class="brand-mark" aria-hidden="true">F<span>/</span>R</span><span>FIELD REPORT <small>实验手记</small></span></a>
+      <div class="masthead-right"><span class="edition">PROJECT JOURNAL · 01</span><a href="./">返回英雄档案 <span aria-hidden="true">↗</span></a></div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="journal-width opening" aria-labelledby="page-title">
+      <div class="opening-copy">
+        <p class="eyebrow"><span class="small-dot"></span> 009 / 模型能力与应用价值研究</p>
+        <h1 id="page-title">GPT-6.2<br>3D 生成能力探索<span class="title-dot">.</span></h1>
+        <p class="opening-lead">让角色、动作与故事成为可检查的原型。</p>
+        <p class="opening-description">探索 GPT-6.2 如何把自然语言需求转化为可编辑的三维角色、动作特效与场景代码，并通过实际运行检验。我们用 16 个角色、3 类场景与 Blender 造型实验，整理快速原型、互动讲解、视觉演示和角色复用的实现路径与价值。</p>
+        <div class="opening-actions"><a href="./">进入实时演示 ↗</a><a href="#capabilities">查看能力与价值 ↓</a></div>
+        <div class="opening-meta"><span>实践回顾与可操作证据</span><time datetime="2026-11-21">整理于 2026.11.21</time></div>
+      </div>
+      <figure class="opening-figure research-guide" id="guide-image">
+        <a href="./journey/gpt62-3d-exploration.png" aria-label="打开完整的 GPT-6.2 3D 生成能力探索引导图">
+          <img src="./journey/gpt62-3d-exploration.png" alt="已生成的 GPT-6.2 3D 生成能力探索引导图，汇总缆车救援、分身对决、轨道接力、Blender 重设计与实践路径" width="1122" height="1402" fetchpriority="high">
+        </a>
+        <figcaption><span>沿用本轮生成的引导图</span><a href="./journey/gpt62-3d-exploration.png">查看完整图片 ↗</a></figcaption>
+      </figure>
+    </section>
+
+    <div class="journal-width project-facts" aria-label="当前实现概况">
+      <div><strong>16</strong><p>角色身份<span>12 位超能英雄 + 4 个竞技异种</span></p></div>
+      <div><strong>03</strong><p>实战场景<span>竞技场 · 港湾街 · 近地轨道</span></p></div>
+      <div><strong>02</strong><p>建模流程<span>Three.js 程序构建 / Blender 导出</span></p></div>
+    </div>
+
+    <div class="journal-width reading-layout">
+      <aside class="reading-rail" aria-label="回顾目录">
+        <p class="rail-label">这轮实践</p>
+        <nav>
+          <a href="#intent"><span>01</span> 最初想看什么</a>
+          <a href="#capabilities"><span>02</span> 能力与应用价值</a>
+          <a href="#experiments"><span>03</span> 我们做过的尝试</a>
+          <a href="#modeling"><span>04</span> 精修与重设计</a>
+          <a href="#learnings"><span>05</span> 形成的认识</a>
+          <a href="#next"><span>06</span> 还要验证什么</a>
+        </nav>
+        <a class="rail-demo" href="./">回到可运行的项目 <span aria-hidden="true">↗</span></a>
+      </aside>
+
+      <div class="journal-body">
+        <section class="chapter" id="intent" aria-labelledby="intent-title">
+          <p class="section-index">01 / 出发点</p>
+          <h2 id="intent-title">让 3D 能力有具体的观看对象</h2>
+          <p>一开始，我们在考虑一款与 AI 有关的 3D 游戏。讨论逐渐收敛到一个更具体的目标：看看模型能否通过代码做出足够多样的角色，让它们在场景里使用能力，并把整段过程实时运行起来。</p>
+          <p>这里研究的“生成”包含编写和迭代程序几何、动作、特效与场景逻辑，以及用 Blender 脚本生成资产。观众可以旋转模型、暂停回放、对比方案，再回到源码继续修改。</p>
+          <p>你提出的“先录角色形象，然后才是对应故事”，也成为后来组织项目的依据。角色需要能独立观察，能力需要有清楚的动作，场景要让观众看见能力改变了什么。</p>
+          <div class="intent-notes">
+            <div><span>角色</span><p>体型、材质和轮廓能被辨认，鼠标可以旋转和缩放。</p></div>
+            <div><span>能力</span><p>蛛丝承重、极速转移、回溯轨迹等，各有自己的处理方式。</p></div>
+            <div><span>现场</span><p>把角色放进同一个问题里，比较它们如何行动和接手。</p></div>
+          </div>
+        </section>
+
+        <section class="chapter" id="capabilities" aria-labelledby="capabilities-title">
+          <p class="section-index">02 / 能力与价值</p>
+          <h2 id="capabilities-title">这些效果能帮助我们做什么</h2>
+          <p>每项能力都对应一个当前可打开的效果。应用价值从这些可运行的结果出发，指向概念验证、内容讲解和演示制作等具体工作。</p>
+          <div class="capability-table-wrap">
+            <table class="capability-table">
+              <caption>相关能力 → 当前证据 → 可用价值</caption>
+              <thead><tr><th scope="col">相关能力</th><th scope="col">当前可操作的证据</th><th scope="col">可用价值</th></tr></thead>
+              <tbody>
+                <tr><th scope="row">程序化 3D 建模<span>形体 · 材质 · 结构</span></th><td>16 个角色拥有不同体型、材质与关节层级，可旋转、缩放和观察。<a href="./#heroes">查看角色名录 ↗</a></td><td>把文字构想变成可检查、可修改的视觉原型，辅助造型沟通与方案选择。</td></tr>
+                <tr><th scope="row">动作与特效编排<span>姿态 · 时序 · 反馈</span></th><td>16 套竞技场招式显示蓄力、施放与冷却；映阵的分身与本体实际打出三段伤害。<a href="./arena.html?hero=mirror">看分身合击 ↗</a></td><td>将交互规则、角色动作和可见反馈对应起来，为技能设计、产品状态演示提供原型。</td></tr>
+                <tr><th scope="row">多角色与现场协调<span>空间 · 时间 · 接力</span></th><td>同一缆车事故有 11 条单人路线；轨道有 5 条方案，时缝与折径可同场接手。<a href="./orbit.html?hero=rewind&amp;mission=relay&amp;t=7.35">看联合拦截 ↗</a></td><td>用三维场景解释先后顺序、受力关系与协作过程，可迁移到互动讲解和流程叙事。</td></tr>
+                <tr><th scope="row">同步对照与回放<span>共享镜头 · 可控时间</span></th><td>在同一秒并排比较两位英雄，拖动进度、打开只看画面，并用链接恢复暂停位置。<a href="./orbit.html?hero=rewind&amp;compare=portal&amp;t=6.6">打开双画面对照 ↗</a></td><td>让设计评审有共同的观察条件，便于演示、录屏与复查具体时刻。</td></tr>
+                <tr><th scope="row">Blender 资产生成<span>精修 · 重设计 · 导出</span></th><td>脚本实际导出两款磁极 GLB，比较原型精修和六片磁翼重设计，复用原关节驱动。<a href="./magnet-lab.html">对比三种造型 ↗</a></td><td>探索从快速代码原型到独立三维资产的制作路径，并区分表面细化与造型设计的投入。</td></tr>
+                <tr><th scope="row">工程复用与迭代<span>共享模型 · 跨场景加载</span></th><td>英雄名录共用角色工厂，磁极的两款外观可以带进竞技场和轨道回放。<a href="./orbit.html?hero=magnet&amp;model=blender-wing&amp;t=7.2">看磁翼型进场 ↗</a></td><td>为新增场景沿用角色与动作提供基础，也让反馈能落到具体资产、参数和代码上继续修改。</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="value-boundary">本轮检查了效果能否运行、选择是否保留、动作是否可读及手机布局。具体能节省多少制作时间、是否提升讲解效果和游戏体验，仍需放进真实任务测量。</p>
+        </section>
+
+        <section class="chapter" id="experiments" aria-labelledby="experiments-title">
+          <p class="section-index">03 / 实践过程</p>
+          <h2 id="experiments-title">从造型，走到动作与故事</h2>
+          <p class="section-intro">下面按尝试的先后整理。每一步都有可打开的结果，方便把当时的理解和实际画面对上。</p>
+          <ol class="experiment-list">
+            <li>
+              <div class="experiment-number">01</div>
+              <div class="experiment-copy">
+                <div class="experiment-heading"><h3>先做出不同类型的角色</h3><span class="status implemented">已实现</span></div>
+                <p>用 Three.js 的几何体、材质和层级关节构建角色。从双足卫士、四足岩兽、六足机械到浮游生物，再扩展到各类超能英雄。</p>
+                <p class="experiment-note"><strong>得到的认识</strong> 体型和动作结构一起变化，才能让名录里的差异更明显。</p>
+                <a class="text-link" href="./#heroes">看 16 个角色的实时模型 ↗</a>
+              </div>
+            </li>
+            <li>
+              <div class="experiment-number">02</div>
+              <div class="experiment-copy">
+                <div class="experiment-heading"><h3>把不同能力放进同一场事故</h3><span class="status implemented">已实现</span></div>
+                <p>围绕同一场缆车事故，做出 11 条单人救援路线。牵星绷紧蛛丝，疾弧在慢动作中逐个转移乘客，根珀则让藤架弯曲卸力。之后增加牵星与疾弧的联合救援，提供街头和极速两种视角。</p>
+                <p class="experiment-note"><strong>得到的认识</strong> 固定事故与环境后，更容易看出英雄之间的能力差异。</p>
+                <a class="text-link" href="./rescue.html?hero=web">进入缆车现场 ↗</a>
+              </div>
+            </li>
+            <li>
+              <div class="experiment-number">03</div>
+              <div class="experiment-copy">
+                <div class="experiment-heading"><h3>把角色名录和场景入口接起来</h3><span class="status implemented">已实现</span></div>
+                <p>把异种竞技场与超能现场的角色放进共用档案。前面看形象、预演动作，后面选场景；进入和返回时携带角色选择。随着轨道场景加入，名录也支持按任务筛选。</p>
+                <p class="experiment-note"><strong>得到的认识</strong> 一位英雄可以服务于多个场景，新的外观也应复用已有动作。</p>
+                <a class="text-link" href="./?hero=magnet">从磁极档案开始 ↗</a>
+              </div>
+            </li>
+            <li>
+              <div class="experiment-number">04</div>
+              <div class="experiment-copy">
+                <div class="experiment-heading"><h3>换一个环境，检查能力能否继续成立</h3><span class="status implemented">已实现</span></div>
+                <p>轨道拦截把危机换成逼近空间站的失控卫星，已有 5 条单人路线。双画面让两种方法停在同一秒比较，联合模式则让时缝回拨卫星、折径接力开门送离。</p>
+                <p class="experiment-note"><strong>得到的认识</strong> 并排对照适合观察差别，同场接力适合观察角色之间的关系。</p>
+                <div class="experiment-links">
+                  <a class="text-link" href="./orbit.html?hero=rewind&amp;compare=portal&amp;t=6.6">同一秒并排对照 ↗</a>
+                  <a class="text-link" href="./orbit.html?hero=rewind&amp;mission=relay&amp;t=7.35">两位英雄同场接力 ↗</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="experiment-number">05</div>
+              <div class="experiment-copy">
+                <div class="experiment-heading"><h3>修正“明明在扣血，却看不到技能”</h3><span class="status revised">发现问题后修正</span></div>
+                <p>最初对决已有技能伤害，但许多招式只显示通用命中闪光。后来补上 16 套招式表现与蓄力、施放、冷却提示。映阵的两道分身与本体交错出击，实际分三段扣血。</p>
+                <p class="experiment-note"><strong>得到的认识</strong> 规则已经执行，还需要动作、特效和状态提示把过程传达出来。</p>
+                <a class="text-link" href="./arena.html?hero=mirror">选个对手，看映阵出招 ↗</a>
+              </div>
+            </li>
+            <li>
+              <div class="experiment-number">06</div>
+              <div class="experiment-copy">
+                <div class="experiment-heading"><h3>从 Blender 精修，继续做到造型重设计</h3><span class="status revised">对照后继续迭代</span></div>
+                <p>先保留磁极轮廓，比较程序版与 Blender 精修版。你指出主要差别只是精细度，于是又做了深色装甲、非对称面罩与六片独立磁翼，把轮廓和展开机制也纳入设计。</p>
+                <p>原演示只有 2.2 秒，展开后很快收回，还出现过第 0 秒卡住的问题。现在可从头播放 5.2 秒，保持展开并查看背面，右侧可切回原型精修。</p>
+                <a class="text-link" href="./magnet-lab.html">打开三种造型的对照实验 ↗</a>
+              </div>
+            </li>
+          </ol>
+
+          <div class="scene-gallery" aria-label="项目实机画面">
+            <figure>
+              <a href="./rescue.html?hero=web"><img src="./journey/rescue.jpg" alt="牵星在港湾街拉住坠落缆车，蛛丝连接英雄与车厢" width="1202" height="528" loading="lazy"></a>
+              <figcaption><span>缆车救援</span><a href="./rescue.html?hero=web">看能力如何承重 ↗</a></figcaption>
+            </figure>
+            <figure>
+              <a href="./arena.html?hero=mirror"><img src="./journey/mirror.jpg" alt="竞技场里的映阵本体与两道发光分身从不同位置准备出击" width="1280" height="720" loading="lazy"></a>
+              <figcaption><span>自动对决</span><a href="./arena.html?hero=mirror">看招式如何被读懂 ↗</a></figcaption>
+            </figure>
+          </div>
+          <p class="image-note">效果截图取自项目实时渲染，点击可进入演示；页首引导图沿用已生成的截图汇总。</p>
+        </section>
+
+        <section class="chapter" id="modeling" aria-labelledby="modeling-title">
+          <p class="section-index">04 / 建模实验</p>
+          <h2 id="modeling-title">同一位磁极，三种造型版本</h2>
+          <p>程序版是最初的形体和关节设计；原型精修把相近轮廓做得更细；磁翼重设计进一步改变装甲语言、背部结构与展开轮廓。它们属于同一个角色身份。</p>
+          <figure class="model-figure">
+            <a href="./magnet-lab.html"><img src="./journey/magnet.jpg" alt="磁极程序版与 Blender 磁翼重设计在相同镜头中保持展开，圆环与六片磁翼呈现不同轮廓" width="1206" height="547" loading="lazy"></a>
+            <figcaption><span>相同灯光与镜头 · 动作进度同步</span><a href="./magnet-lab.html">旋转、暂停、看背面 ↗</a></figcaption>
+          </figure>
+          <div class="model-table-wrap">
+            <table class="model-table">
+              <caption>三种版本分别试了什么</caption>
+              <thead><tr><th scope="col">版本</th><th scope="col">构建方式</th><th scope="col">重点观察</th></tr></thead>
+              <tbody>
+                <tr><th scope="row">程序原型<span>A / Three.js</span></th><td>JavaScript 直接构建几何体、材质与层级关节。</td><td>快速搭起形体，让动作和能力在浏览器里跑起来。</td></tr>
+                <tr><th scope="row"><a href="./magnet-lab.html?model=blender">原型精修 ↗</a><span>B1 / Blender</span></th><td>Blender 脚本生成部件，导出 GLB，再装到原有关节上。</td><td>护甲倒角、接缝和材质细节带来的差异。</td></tr>
+                <tr><th scope="row"><a href="./magnet-lab.html?model=blender-wing">磁翼重设计 ↗</a><span>B2 / Blender</span></th><td>新增独立造型资产，六片磁翼采用不同的展开编排。</td><td>整体轮廓、装甲风格和能力形态是否足够鲜明。</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="pipeline-note">
+            <p class="note-heading">这里的 AI、Blender 和浏览器分别做了什么</p>
+            <div class="pipeline" aria-label="资产生成与运行流程"><span>AI 编写代码与建模脚本</span><i aria-hidden="true">→</i><span>Blender 生成并导出 GLB</span><i aria-hidden="true">→</i><span>Three.js 加载、驱动和渲染</span></div>
+            <p>程序版直接由 Three.js 构建。两款 Blender 外观由 Blender 4.5.3 实际导出，每款对应 21 个部件挂点与 9 种材质；动作继续由 JavaScript 关节系统驱动。运行这些演示时，浏览器执行已经生成的代码与资产。</p>
+          </div>
+        </section>
+
+        <section class="chapter" id="learnings" aria-labelledby="learnings-title">
+          <p class="section-index">05 / 当前理解</p>
+          <h2 id="learnings-title">这轮实践改变了哪些判断</h2>
+          <div class="learning-list">
+            <article><span>01</span><div><h3>3D 展示需要连续的证据</h3><p>模型可以旋转观察，能力可以暂停查看，故事可以重放。造型、动作与现场反馈连起来，才便于判断生成结果是否可用。</p></div></article>
+            <article><span>02</span><div><h3>能力的辨识度来自它改变了什么</h3><p>把同一辆缆车托住、拉住、转移，或者倒转它的下坠轨迹，比单独换一种光效更能体现英雄差异。</p></div></article>
+            <article><span>03</span><div><h3>工具与设计意图要一起看</h3><p>Blender 可以把原轮廓做得更细，也可以生成新的造型。两次磁极实验说明，想验证精细度还是设计变化，需要先说清楚。</p></div></article>
+            <article><span>04</span><div><h3>控制展示节奏，本身也是产品的一部分</h3><p>同步镜头、任务节点、保持展开、回放链接和只看画面，都来自实际观看时遇到的问题。它们让细节有机会被看见，也方便录制。</p></div></article>
+          </div>
+          <details class="scope-note">
+            <summary>查看当前实现与待验证范围<span aria-hidden="true">+</span></summary>
+            <div>
+              <p>已经完成角色观察、能力预演、自动对决与可交互回放。救援、回溯和传送路线由代码编排；对决根据距离、冷却和命中规则结算。</p>
+              <p>我们最初感受到的生成速度、额度和效果变化属于试用体感。这轮项目展示了可运行的结果，尚未进行同条件的模型性能横向评测。玩家选择如何改变任务结果、长期游戏循环和通用物理交互，还需要后续实现与验证。</p>
+            </div>
+          </details>
+        </section>
+
+        <section class="chapter next-chapter" id="next" aria-labelledby="next-title">
+          <p class="section-index">06 / 后续方向</p>
+          <div class="next-heading"><h2 id="next-title">从能观看，继续到能参与</h2><span class="status planned">待验证</span></div>
+          <p>下一步的价值在于让玩家选择真正改变过程。下面是讨论中延伸出的方向，目前仍是待验证的工作。</p>
+          <ol class="next-list">
+            <li><span>任务</span><div><h3>让接力顺序影响结果</h3><p>从轨道危机开始，选择两位英雄和出手时机，观察任务结果如何变化。</p></div></li>
+            <li><span>交互</span><div><h3>补上失败、恢复与再试</h3><p>需要清晰目标、反馈、可挽回的失误与重试，才能检验任务是否有可玩的决策。</p></div></li>
+            <li><span>设计</span><div><h3>先把少量英雄做完整</h3><p>围绕明确的造型语言、招式节奏和跨场景表现，继续判断哪些细节值得投入。</p></div></li>
+          </ol>
+          <a class="return-button" href="./">回到英雄档案，继续看现场 <span aria-hidden="true">↗</span></a>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="journal-width journal-footer"><span>FIELD REPORT / GPT-6.2 3D EXPLORATION</span><p>基于本轮讨论与当前项目实现整理</p><a href="https://github.com/yydshly/20261104_codex_project/tree/main/projects/009-gpt62-3d-capability">研究摘要与源码 ↗</a><a href="../">研究总库 ↗</a><a href="#page-title">回到顶部 ↑</a></footer>
+  <script type="module" src="/src/journey.js"></script>
+</body>
+</html>

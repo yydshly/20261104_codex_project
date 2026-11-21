@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090e19">
+  <meta name="description" content="一颗失控卫星掠向空间站。比较不同英雄的拦截方式，或观看时缝与折径联手改道。">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'%3E%3Ccircle cx='18' cy='18' r='8' fill='none' stroke='%23a6eeef' stroke-width='2'/%3E%3Cellipse cx='18' cy='18' rx='17' ry='5' transform='rotate(-36 18 18)' fill='none' stroke='%23a6eeef' stroke-width='2'/%3E%3C/svg%3E">
+  <title>轨道拦截 · FIELD REPORT</title>
+  <script type="module" crossorigin src="./assets/orbit-Bw4ocIRw.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="modulepreload" crossorigin href="./assets/preload-helper-Dp1pzeXC.js">
+  <link rel="modulepreload" crossorigin href="./assets/magnet-hero-DnjeChN4.js">
+  <link rel="modulepreload" crossorigin href="./assets/hero-models-BHLOHfx8.js">
+  <link rel="modulepreload" crossorigin href="./assets/orbit-bookmark-C81HamvO.js">
+  <link rel="stylesheet" crossorigin href="./assets/orbit-B38EUYBL.css">
+</head>
+<body>
+  <header class="orbit-header">
+    <div class="orbit-width header-inner">
+      <a class="orbit-brand" id="orbit-brand-link" href="./" aria-label="英雄档案首页">
+        <svg viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="18" cy="18" r="8"/><ellipse cx="18" cy="18" rx="17" ry="5" transform="rotate(-36 18 18)"/></svg>
+        <span>FIELD<span class="brand-slash">/</span>REPORT</span>
+      </a>
+      <nav class="header-links" aria-label="场景导航">
+        <a id="orbit-hub-link" href="./"><span aria-hidden="true">↖</span> 英雄总览</a>
+        <a id="orbit-arena-link" href="./arena.html">异种竞技场</a>
+        <a id="orbit-rescue-link" href="./rescue.html">超能现场</a>
+        <a id="orbit-magnet-lab-link" href="./magnet-lab.html" hidden>磁极外观对照 <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="orbit-width">
+    <section class="orbit-intro" aria-labelledby="orbit-title">
+      <div>
+        <p class="orbit-eyebrow"><span>03</span> ORBITAL INTERCEPT</p>
+        <h1 id="orbit-title">轨道拦截<span>.</span></h1>
+        <p class="orbit-summary" id="orbit-summary">失控卫星正在接近空间站。切换英雄，比较他们的拦截方式。</p>
+        <p class="orbit-summary" id="orbit-magnet-appearance" role="status" hidden>磁极已选用 Blender 外观。</p>
+      </div>
+      <dl class="mission-data">
+        <div><dt>任务区域</dt><dd>近地轨道</dd></div>
+        <div><dt>可选英雄</dt><dd id="orbit-hero-count">–</dd></div>
+        <div><dt>回放时长</dt><dd>13 秒</dd></div>
+      </dl>
+    </section>
+
+    <div class="orbit-layout" id="orbit-layout">
+      <section class="viewer" id="orbit-viewer" aria-label="三维轨道拦截回放">
+        <div class="viewer-toolbar">
+          <div class="hero-switch" id="orbit-roster" role="group" aria-label="出场英雄"></div>
+          <div class="viewer-actions">
+            <div class="view-modes" role="group" aria-label="回放模式">
+              <button type="button" id="orbit-relay-toggle" aria-pressed="false" aria-controls="orbit-relay-context" disabled>联合拦截</button>
+              <button type="button" id="orbit-compare-toggle" aria-pressed="false" aria-controls="orbit-compare-pane" disabled>并排对照</button>
+              <button type="button" id="orbit-presentation-toggle" disabled>只看画面</button>
+            </div>
+            <div class="camera-controls" role="group" aria-label="镜头控制">
+              <button type="button" data-camera="follow" aria-pressed="true" disabled>跟拍</button>
+              <button type="button" data-camera="free" aria-pressed="false" disabled>自由视角</button>
+              <button type="button" id="orbit-reset-camera" disabled>复位</button>
+            </div>
+          </div>
+        </div>
+        <div class="relay-context" id="orbit-relay-context" aria-label="联合拦截阵容" hidden>
+          <span class="relay-label">接力阵容</span>
+          <span class="relay-cast relay-cast-rewind"><strong>时缝</strong> 回拨争取时间</span>
+          <span class="relay-join" aria-hidden="true">→</span>
+          <span class="relay-cast relay-cast-portal"><strong>折径</strong> 开门送离卫星</span>
+        </div>
+        <div class="comparison-tools" id="orbit-compare-tools" hidden>
+          <label for="orbit-compare-hero">对照英雄</label>
+          <select id="orbit-compare-hero"></select>
+          <span>两侧同步回放</span>
+        </div>
+        <p class="compare-status" id="orbit-compare-status" role="status" hidden></p>
+        <div class="orbit-panes" id="orbit-panes">
+          <div class="orbit-pane" id="orbit-primary-pane">
+            <h2 class="pane-name" id="orbit-primary-pane-name" hidden></h2>
+            <div class="orbit-screen" id="orbit-screen">
+              <div class="orbit-viewport" id="orbit-viewport"></div>
+              <div class="viewfinder" aria-hidden="true"></div>
+              <div class="stage-label" aria-hidden="true"><i></i> 实时 3D <span>/ ORBIT</span></div>
+              <p class="camera-hint" id="orbit-camera-hint" hidden>拖动旋转 · 滚轮或双指缩放</p>
+              <p class="orbit-error" id="orbit-error" hidden>当前浏览器无法显示三维回放。可使用支持 WebGL 2 的浏览器打开。</p>
+            </div>
+          </div>
+          <section class="orbit-pane" id="orbit-compare-pane" aria-labelledby="orbit-compare-pane-name" hidden>
+            <h2 class="pane-name" id="orbit-compare-pane-name"></h2>
+            <div class="orbit-screen" id="orbit-compare-screen">
+              <div class="orbit-viewport" id="orbit-compare-viewport"></div>
+              <div class="viewfinder" aria-hidden="true"></div>
+              <p class="camera-hint" id="orbit-compare-camera-hint" hidden>拖动旋转 · 滚轮或双指缩放</p>
+            </div>
+            <div class="brief-phase compare-phase" aria-live="polite">
+              <p class="brief-kicker" id="orbit-compare-phase-code"></p>
+              <h3 id="orbit-compare-phase-title"></h3>
+              <p class="phase-detail" id="orbit-compare-phase-detail"></p>
+            </div>
+          </section>
+        </div>
+        <div class="playback" id="orbit-playback" role="group" aria-label="回放控制">
+          <button type="button" id="orbit-play" disabled><span id="orbit-play-icon" aria-hidden="true">▶</span><span id="orbit-play-label">播放回放</span></button>
+          <input id="orbit-progress" aria-label="拦截回放进度" type="range" min="0" max="13" step="0.01" value="0" disabled>
+          <output id="orbit-time" for="orbit-progress" aria-live="off">00.00 / 13.00</output>
+        </div>
+        <div class="share-tools" id="orbit-share-tools">
+          <button type="button" id="orbit-copy-link" disabled>复制回放链接</button>
+          <p id="orbit-share-status" role="status"></p>
+          <input type="url" id="orbit-share-url" aria-label="回放链接" readonly hidden>
+        </div>
+      </section>
+
+      <aside class="orbit-brief" id="orbit-brief" aria-label="任务进程">
+        <div class="brief-phase" id="orbit-primary-phase" aria-live="polite">
+          <p class="brief-kicker" id="orbit-phase-code">01 / APPROACH</p>
+          <h2 id="orbit-phase-title">失控卫星逼近</h2>
+          <p class="phase-detail" id="orbit-phase-detail">姿态控制失灵，卫星在翻滚中滑向空间站。</p>
+        </div>
+        <div class="brief-hero">
+          <div id="orbit-hero-glyph" aria-hidden="true"></div>
+          <div>
+            <p class="brief-kicker">拦截方案</p>
+            <p id="orbit-hero-name"></p>
+            <p id="orbit-hero-detail"></p>
+          </div>
+        </div>
+        <section class="chapters" aria-labelledby="chapters-title">
+          <h2 id="chapters-title">任务节点 <span>/ SEQUENCE</span></h2>
+          <div id="orbit-chapters"></div>
+        </section>
+      </aside>
+    </div>
+  </main>
+</body>
+</html>

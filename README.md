@@ -14,6 +14,7 @@
 | 006 | [六个优秀产品的效果与复用研究](projects/006-claude-showcase/README.md) | [Claude 原始作品串](https://x.com/claudeai/status/2111177834127601902) · [字体源码](https://github.com/harshpreet931/harshpreet-hand) · [电磁实验源码](https://github.com/thebuggeddev/electromagnetism) | 研究山火分析、Ballpoint Gambit、Harshpreet Hand、Induction Bench、AngioView 与 Twenty Haiku 六个优秀产品，从实际效果理解规则、数据与风格的配合。六个演示、绘画与短片提炼回放、主题化、字形资产、实验联动、空间教学和程序叙事的复用价值，并标明扩展范围。 | [已有研究引导图](#claude-showcase-guide) | [在线研究与六个演示](https://yydshly.github.io/20261104_codex_project/006-claude-showcase/) |
 | 007 | [一个人的网页 3D 效果合集](projects/007-creative-webgpu-showcase/README.md) | [Codevember](https://github.com/acher249/codevember-2026) · [作者实验目录](https://adamwebsite.com/experiments/) · [4DGS 示例](https://github.com/acher249/4dgs-world-foundation-model-demo) | 整理 Adam Chernick 个人制作并基于开源示例扩展的 37 项网页 3D 实验，覆盖折叠、液态金属、布料、产品拆解、反射与高斯场景。以效果选型为主，保留共享引擎和 4DGS 的研究价值，说明源码二次开发、产品化、多设备验证与后续作品尚未扩展。 | [已有研究引导图](#creative-webgpu-guide) | [在线研究与原版效果](https://yydshly.github.io/20261104_codex_project/007-creative-webgpu-showcase/) |
 | 008 | [16 个链接的能力与价值解析](projects/008-link-capability-atlas/README.md) | [15 条原帖与 Gitruck 补充](projects/008-link-capability-atlas/README.md#十六个链接的范围) | 解析 16 个链接，覆盖生图与 GIF、镜头剪辑、共享 3D、Agent 流程和知识库。用成片、交互与实际验收说明能力、个人应用价值与未接入边界，沉淀短片交付和证据记忆两条可复用链路。 | [本轮理解引导图](#link-capability-atlas-guide) | [在线解析与实际效果](https://yydshly.github.io/20261104_codex_project/008-link-capability-atlas/) |
+| 009 | [GPT-6.2 的 3D 生成能力探索](projects/009-gpt62-3d-capability/README.md) | 自主实践 · [Three.js](https://github.com/mrdoob/three.js) · [Blender](https://www.blender.org/) | 研究 GPT-6.2 如何把自然语言需求转成可编辑的 3D 角色、动作、特效与故事场景，并通过实机观察和反馈继续修改。16 个角色、三类场景与 Blender 造型对照展示原型制作、视觉讲解和跨场景复用价值，玩家决策与长期游戏循环继续验证。 | [本轮生成的引导图](#gpt62-3d-guide) | [在线研究与能力价值](https://yydshly.github.io/20261104_codex_project/009-gpt62-3d-capability/journey.html) |
 
 项目按收录顺序从 `001` 开始编号。新条目按编号追加，已分配的编号保持固定。索引摘要用一两句话写清研究对象和关注点。完成验证后，可补上一条主要发现。
 
@@ -120,6 +121,18 @@ Adam Chernick 个人制作、扩展和组合的网页 3D 实验，部分基于 T
 原生拼贴、三种表情、眨眼点头、温室横竖片、气孔 3D 与讲解片、银河对照、电台和微课均有可查看产物。字幕、八种配置比较、审批、模板交接、引文核查、跨窗口笔记与排期仿真提供可操作入口。已走通温室镜头到口播字幕、审阅报告到核查笔记两条链路。
 
 第 07–08、11–14 条保留原理适配范围，原库训练、自改 Agent、外部服务和上游采集继续按需求接入。原生 GIF 接缝、局部身份变化、规则语义误拦和真实使用收益仍需继续验证。[逐项验收与下载](https://yydshly.github.io/20261104_codex_project/008-link-capability-atlas/acceptance.html)
+
+<a id="gpt62-3d-guide"></a>
+
+### 009 · GPT-6.2 的 3D 生成能力探索
+
+本轮以 GPT-6.2 的 3D 代码生成与迭代能力为研究对象，观察自然语言需求怎样变成可编辑、可运行的角色与现场。覆盖几何与材质构建、层级关节动画、可辨认的技能特效、时间轴叙事、多角色接力，以及 Blender 脚本生成和 GLB 资产复用。
+
+![已经生成的 GPT-6.2 3D 生成能力探索引导图，汇总蛛丝救援、分身合击、轨道接力、程序原型与 Blender 磁翼重设计](species-arena-3d/public/journey/gpt62-3d-exploration.png)
+
+沿用已经生成的这张引导图。项目包含 16 个角色身份、异种竞技场、缆车救援与轨道拦截三类场景。磁极对照把程序原型、Blender 原型精修和磁翼重设计放在同一镜头与动作进度下，便于区分表面细化与轮廓、结构、展开方式的变化。[在线研究与能力价值](https://yydshly.github.io/20261104_codex_project/009-gpt62-3d-capability/journey.html) · [进入英雄档案与演示](https://yydshly.github.io/20261104_codex_project/009-gpt62-3d-capability/) · [完整研究摘要](projects/009-gpt62-3d-capability/README.md)
+
+可保留的价值是让原型能被旋转检查、让能力在同一问题中比较、让动作与反馈可暂停核对，以及把角色与动作复用到多个现场。对决的三段伤害、回放链接、纯画面模式和 5.2 秒造型演示都来自观看反馈后的修正。当前浏览器执行已生成的代码与资产，救援和轨道路径由代码编排。真实玩家决策、通用物理交互、长期游戏循环，以及实际节省工时和学习收益仍需继续验证。
 
 ## 收录新项目
 

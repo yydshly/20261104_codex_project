@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1017">
+  <meta name="description" content="同一场缆车事故，十一种单人救援与一场联合救援。观察角色，观看实时 3D 演出。">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'%3E%3Cpath fill='%23141c26' stroke='%23ffd48a' stroke-width='2' d='M2 18 11 3h14l9 15-9 15H11L2 18Z'/%3E%3Cpath fill='none' stroke='%23ffd48a' stroke-width='2' d='M7 19h6l4-9 4 15 3-6h5'/%3E%3C/svg%3E">
+  <title>超能现场 · FIELD REPORT</title>
+  <script type="module" crossorigin src="./assets/rescue-v9lwA62a.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="modulepreload" crossorigin href="./assets/magnet-hero-DnjeChN4.js">
+  <link rel="modulepreload" crossorigin href="./assets/hero-models-BHLOHfx8.js">
+  <link rel="modulepreload" crossorigin href="./assets/rescue-observe-CtlOMvBn.js">
+  <link rel="stylesheet" crossorigin href="./assets/rescue-Bxm0kqq7.css">
+</head>
+<body>
+  <header class="field-header">
+    <div class="field-width field-header-inner">
+      <a class="field-brand" href="./rescue.html" aria-label="超能现场首页">
+        <svg viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 18 11 3h14l9 15-9 15H11L2 18Z"/><path d="M7 19h6l4-9 4 15 3-6h5"/></svg>
+        FIELD<span>/</span>REPORT
+      </a>
+      <nav class="scene-nav" aria-label="场景导航">
+        <a class="arena-link" id="rescue-hub-link" href="./"><span aria-hidden="true">↖</span> 英雄总览</a>
+        <a class="arena-link" id="rescue-arena-link" href="./arena.html">异种竞技场</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="field-width">
+    <section class="field-intro" aria-labelledby="field-title">
+      <div>
+        <p class="field-eyebrow"><span>01</span> INCIDENT REPLAY</p>
+        <h1 id="field-title">超能现场<span>.</span></h1>
+        <p class="field-summary">同一场缆车事故，十一种单人救援与一场联合救援。</p>
+      </div>
+      <div class="incident-data"><span>事件 01 / 港湾街</span><strong>高架缆车坠落</strong></div>
+    </section>
+
+    <div class="field-views" role="group" aria-label="展示模式">
+      <button type="button" id="view-rescue" aria-pressed="true">救援回放</button>
+      <button type="button" id="view-observe" aria-pressed="false">角色观察</button>
+      <button type="button" id="view-joint" aria-pressed="false">联合救援</button>
+    </div>
+    <div class="joint-context" id="joint-context" hidden>
+      <div class="joint-cast" aria-label="联合救援阵容">
+        <span class="joint-cast-label">协作组</span>
+        <span class="joint-cast-web"><strong>牵星</strong> 稳住车厢</span>
+        <span class="joint-cast-cross" aria-hidden="true">×</span>
+        <span class="joint-cast-speed"><strong>疾弧</strong> 转移乘客</span>
+      </div>
+      <div class="joint-views">
+        <div class="perspective-switch" role="group" aria-label="联合救援视角">
+          <button type="button" id="perspective-street" aria-pressed="true">街头视角</button>
+          <button type="button" id="perspective-speed" aria-pressed="false">疾弧视角</button>
+        </div>
+        <p id="perspective-note">从街边观察救援全程。</p>
+      </div>
+    </div>
+    <section class="field-screen" id="field-screen" aria-label="三维救援现场">
+      <div id="rescue-viewport"></div>
+      <div class="field-mask" aria-hidden="true"></div>
+      <div class="field-overlay">
+        <div class="field-camera"><span></span><span id="camera-caption">镜头 01 / 跟拍</span></div>
+        <div class="camera-switch" id="camera-switch" role="group" aria-label="镜头模式">
+          <button type="button" id="camera-follow" aria-pressed="true">跟拍</button>
+          <button type="button" id="camera-locked" aria-pressed="false">固定机位</button>
+          <button type="button" id="camera-free" aria-pressed="false">自由视角</button>
+        </div>
+      </div>
+      <div id="speed-status" hidden><span id="speed-clock"></span><span id="speed-count"></span></div>
+      <div class="phase-card">
+        <p class="phase-code" id="phase-code">01 / INCIDENT</p>
+        <p id="phase-title">缆车驶入港湾街</p>
+        <p id="phase-detail">救援即将开始</p>
+      </div>
+      <p id="camera-help" hidden>拖动旋转 · 滚轮或双指缩放</p>
+    </section>
+
+    <section class="playback" id="playback" aria-label="回放控制">
+      <button id="play-rescue" type="button"><span id="play-symbol" aria-hidden="true">▶</span><span id="play-label">播放救援</span></button>
+      <input id="rescue-progress" aria-label="救援回放进度" type="range" min="0" max="11.6" step="0.01" value="0">
+      <output id="rescue-time" for="rescue-progress" aria-live="off">00.0 / 11.6</output>
+    </section>
+    <section class="observation-tools" id="observation-tools" aria-label="角色观察控制" hidden>
+      <button type="button" id="show-ability">演示招牌动作</button>
+      <button type="button" id="reset-camera">复位镜头</button>
+      <p id="observation-note"></p>
+    </section>
+
+    <section class="responders" aria-labelledby="responders-title">
+      <div class="responders-heading">
+        <h2 id="responders-title">救援人员 <span>/ RESPONDERS</span></h2>
+        <p id="roster-note">切换角色，从同一时刻重放</p>
+      </div>
+      <div id="rescue-roster"></div>
+    </section>
+    <p id="rescue-announcement" class="screen-reader" aria-live="polite"></p>
+  </main>
+
+</body>
+</html>
