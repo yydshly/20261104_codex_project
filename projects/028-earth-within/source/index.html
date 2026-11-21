@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101a18">
+  <meta name="description" content="从乌云到蚁穴，从蜂巢到深海，一座可以动手探索的地球场景实验室。">
+  <title>地球里的小世界 · 场景实验室</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='9' fill='%23e3d49c'/%3E%3Cpath d='M4 14l16-4M12 3c-6 8-3 14 0 18 6-8 3-14 0-18Z' fill='none' stroke='%23101a18'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./src/style.css">
+  <script type="module" src="./src/main.js"></script>
+</head>
+<body>
+  <header class="masthead wrap">
+    <div class="brand"><svg viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="15"/><ellipse cx="18" cy="18" rx="7" ry="15" transform="rotate(29 18 18)"/><path d="M4 23 32 13M7 29l26-9M3 16l26-9"/></svg><span>地球场景实验室 <small>FIELD STUDIES / 001</small></span></div>
+    <a class="catalog-link" href="#catalog">场景总目录 <span aria-hidden="true">↘</span></a>
+  </header>
+
+  <main class="wrap">
+    <div class="intro">
+      <div><p class="eyebrow"><span></span> THE EARTH WITHIN</p><h1>地球里的<span>小世界</span></h1></div>
+      <p class="intro-copy">一场雨能穿过四个世界。一朵花、一把泥土、一块浮冰，也各自藏着一张地图。</p>
+    </div>
+
+    <section class="lab" aria-label="场景实验">
+      <aside class="route" aria-label="探索路线">
+        <div class="route-heading"><h2>探索路线</h2><span id="scene-count"></span></div>
+        <div id="scene-list"></div>
+      </aside>
+
+      <div class="view">
+        <div class="stage" id="stage">
+          <canvas id="scene-canvas" role="img" aria-labelledby="scene-name" aria-describedby="scene-description">地球场景插画</canvas>
+          <div class="stage-top"><span id="scene-id"></span><button type="button" class="motion" id="motion" aria-pressed="false">暂停动画</button></div>
+          <div class="stage-label"><p id="scene-en"></p><h2 id="scene-name"></h2></div>
+        </div>
+        <div class="control-panel">
+          <div class="control-copy"><label for="scene-value" id="control-name"></label><p id="scene-description" aria-live="polite"></p></div>
+          <div class="control-slider"><div class="range-ends"><span id="range-start"></span><span id="range-end"></span></div><input type="range" id="scene-value" min="0" max="100" step="1" value="0"></div>
+        </div>
+        <div class="paging"><button id="previous" type="button">← 上一幕</button><span id="route-note"></span><button id="next" type="button">下一幕 →</button></div>
+      </div>
+    </section>
+
+    <section id="catalog" class="catalog" aria-labelledby="catalog-title">
+      <div class="catalog-heading"><div><p class="eyebrow"><span></span> FIELD INDEX</p><h2 id="catalog-title">场景总目录</h2></div><p>同一个地方可以容纳几个世界。这里按主题整理，点场景名可直接进入。</p></div>
+      <div id="catalog-groups" class="catalog-groups"></div>
+    </section>
+  </main>
+  <footer class="wrap footer"><span>地球里的小世界</span><span>本地互动场景 · 插画为观察示意</span></footer>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-21",
+  "scope": "Local nested-path browser QA, not physical-device or long-duration acceptance",
+  "entry": "/20261104_codex_project/028-earth-within/",
+  "researchDefaultWidth": 779,
+  "mobileContentWidth": 375,
+  "mobileScrollWidth": 375,
+  "mobileHorizontalOverflow": false,
+  "guideNaturalSize": [
+    4000,
+    7200
+  ],
+  "guideLoaded": true,
+  "researchToPlayable": "passed via visible link",
+  "worldRendered": "snow cabin and character visible",
+  "narrationUI": "MiniMax 语音 · 预生成录音",
+  "worldConsoleErrors": [],
+  "worldConsoleWarnings": [],
+  "screenshots": [
+    "desktop.jpg",
+    "mobile.jpg",
+    "guide-mobile.jpg",
+    "world-guide.jpg"
+  ]
+}

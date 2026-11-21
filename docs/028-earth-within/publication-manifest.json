@@ -1,0 +1,508 @@
+{
+  "published": "2026-11-21",
+  "slug": "028-earth-within",
+  "title": "地球里的小世界 · 连续生态世界与痕迹记忆研究",
+  "summary": "研究怎样以小岚为中心，把雪山、河谷、森林、河口与海底接成可自由行走的世界，让天气、水流、动物、声音和足迹共同回应人的行动。15个观察点、27幕图鉴、雨洪潮汐、游泳跃水、干湿脚印与MiniMax导览构成可操作原型；沉淀共享状态、触地事件、环境记忆和连续导览的复用方法，服务自然科普、数字展陈与探索体验。流体和生态为简化模型，动作真实度、长时性能与学习/商业收益仍需验证。",
+  "entry": "index.html",
+  "playable": "play.html",
+  "atlas": "atlas.html",
+  "guide": {
+    "path": "assets/research/earth-within-research-summary.png",
+    "width": 4000,
+    "height": 7200,
+    "sha256": "1b18700c91af506a8b204c15bcd2a36589b5d78d357d57bf6e758410716ef152",
+    "unchanged": true
+  },
+  "audio": {
+    "narrationClips": 15,
+    "provider": "MiniMax",
+    "mode": "existing cache exported offline",
+    "newSynthesis": 0,
+    "fieldRecordings": 4
+  },
+  "privateFilesExcluded": [
+    ".env",
+    "API credentials",
+    "raw cache containers",
+    "browser saves",
+    "temporary recordings",
+    "node_modules"
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 51,
+      "sha256": "63198ae2f3d2512c0af3bc9ba9f9cc369ef90fd5646792174c6bfecbbf9ee851"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12198,
+      "sha256": "03e109c9acf70307aaf509f0adf5c82517a6bcced3808322eb36ef3482229669"
+    },
+    {
+      "path": "assets/audio/SOURCES.md",
+      "bytes": 2009,
+      "sha256": "bdc498f0d27e9471255b269f55448ba1f95b67e970030125c644baa31e6643b3"
+    },
+    {
+      "path": "assets/audio/manifest.json",
+      "bytes": 2841,
+      "sha256": "1703cd4edc7d3e0a694b86c83f3e72558fc516f14255c8df5d33396f7403c2d1"
+    },
+    {
+      "path": "assets/audio/ocean-surf.ogg",
+      "bytes": 1008044,
+      "sha256": "4f749fa3382b86de5d3967b9c8824c3d6155a7428d74f401686994ae74a1620b"
+    },
+    {
+      "path": "assets/audio/river-calm.ogg",
+      "bytes": 687365,
+      "sha256": "a6c0a3e6b7f2b47a0f587fa834384b40c5dafa8e68c22cb829c9f733438a8d13"
+    },
+    {
+      "path": "assets/audio/river-rapids.ogg",
+      "bytes": 389731,
+      "sha256": "e930011cd7dd4b02cbf1fd9eead6c223e8313ca0bae3396e1a64edb5bb3fe299"
+    },
+    {
+      "path": "assets/audio/wind.ogg",
+      "bytes": 374905,
+      "sha256": "5563b42caa0fabbcbf0c7b5e208d5f6fed9ab1992bac77a69f4c532639bd6ba4"
+    },
+    {
+      "path": "assets/narration/ant.mp3",
+      "bytes": 168756,
+      "sha256": "a7bf2d13d91dcc77e938e2aa41c50a4db3a466e7457befd4be47d5ad546812ff"
+    },
+    {
+      "path": "assets/narration/bee.mp3",
+      "bytes": 160692,
+      "sha256": "a3c06e86b7b275e04536012985093ab620a81a1e503d0fc0b70757d4687f5064"
+    },
+    {
+      "path": "assets/narration/cabin.mp3",
+      "bytes": 165876,
+      "sha256": "2dc12878308c52cd7cb208f9ebb7c0556c5c14ff80679e4a4fa80353d8458243"
+    },
+    {
+      "path": "assets/narration/dive.mp3",
+      "bytes": 181428,
+      "sha256": "a176d4de18e184c9fa5db6a89c5e5e8fe1deeffd2323e71e813cf91e784faa43"
+    },
+    {
+      "path": "assets/narration/dunes.mp3",
+      "bytes": 158388,
+      "sha256": "c717efb8c36c8867ec111b2c5cbcac7923c695ba5735d143b61aad67b09b357d"
+    },
+    {
+      "path": "assets/narration/gorge.mp3",
+      "bytes": 160116,
+      "sha256": "addbe6f7430eb2d05cd25bed105cc12d52b911176d414b8cc703b7b735f37707"
+    },
+    {
+      "path": "assets/narration/kelp.mp3",
+      "bytes": 164724,
+      "sha256": "a33809e42530de82e38a69908fb5eed8816268cf1bd22312a32ffa26b054d73d"
+    },
+    {
+      "path": "assets/narration/manifest.json",
+      "bytes": 3811,
+      "sha256": "b1bb810c784a9a38296f6484f39687fb733125695fb4cdc55ce41d0534b39ca0"
+    },
+    {
+      "path": "assets/narration/ocean.mp3",
+      "bytes": 166452,
+      "sha256": "82bb8a918adabb1a1ba07862b47a59eddb894f35f4aaf0adf3ad02b156ba4f12"
+    },
+    {
+      "path": "assets/narration/ranch.mp3",
+      "bytes": 199860,
+      "sha256": "4e2cbacebde30ae40152b54d0a82d71e26d4d2ea9b905e267a03d476d61bfbc0"
+    },
+    {
+      "path": "assets/narration/reef-deep.mp3",
+      "bytes": 207348,
+      "sha256": "f7472dc927fbeb45f7a7e135c672e96b1a736ed879f5eaa3e439f0e12763ac46"
+    },
+    {
+      "path": "assets/narration/river.mp3",
+      "bytes": 170484,
+      "sha256": "b7b02d204e8babbec1de354fd733fa5fc74c967efd288deebc12d58b24710748"
+    },
+    {
+      "path": "assets/narration/snow.mp3",
+      "bytes": 172212,
+      "sha256": "e180eb167c911784f7d6794509df17066bb0cec37c1fc4095ddcae8de086feb0"
+    },
+    {
+      "path": "assets/narration/tide.mp3",
+      "bytes": 150900,
+      "sha256": "35e8de741e8e4b8fe85bc4ae406737e094ec06aa849ffd247b939379ce15e257"
+    },
+    {
+      "path": "assets/narration/tropics.mp3",
+      "bytes": 202740,
+      "sha256": "d34f3fc1c9d599fba69b58b17f1da88d566c828a4f41719d206e18269fa9a7ee"
+    },
+    {
+      "path": "assets/narration/wetland.mp3",
+      "bytes": 124404,
+      "sha256": "fc6ab0f575bb35baf4a6fabd360113ad8c10d5c22728b81fa720ab0f0a389b5f"
+    },
+    {
+      "path": "assets/research/earth-within-research-summary.png",
+      "bytes": 3392032,
+      "sha256": "1b18700c91af506a8b204c15bcd2a36589b5d78d357d57bf6e758410716ef152"
+    },
+    {
+      "path": "assets/research/earth-within-research-summary.svg",
+      "bytes": 467128,
+      "sha256": "4d0c3a61d885778b61ea5b04d05d7c6ab6022d27c078aa163a6744650b7da486"
+    },
+    {
+      "path": "assets/screenshots/crab-tracking-preview.jpg",
+      "bytes": 63624,
+      "sha256": "6b9c54f32f1b2a1155a945f4738fe8cd865a20b12f8d0db51dd0c1af5ee1aaf5"
+    },
+    {
+      "path": "assets/screenshots/estuary-wildlife-preview.jpg",
+      "bytes": 87167,
+      "sha256": "b28fca61d254a8400b84c4e534baf5c5b4a7b15fc5a159b633b72eb1ddc1b8cb"
+    },
+    {
+      "path": "assets/screenshots/footprints-dry-shore.jpg",
+      "bytes": 74679,
+      "sha256": "81879bd3ef943270c4735e1de24ae4d46fb69851ed76f273c6a80293b7b949ba"
+    },
+    {
+      "path": "assets/screenshots/footprints-wet-shore.jpg",
+      "bytes": 76103,
+      "sha256": "974ac5ef655efb5103c8b2bac66cf9f48730ad2b98ae2ef6753ee8f0a2437368"
+    },
+    {
+      "path": "assets/screenshots/rain-world-preview.jpg",
+      "bytes": 81914,
+      "sha256": "6959a0bc9dacf53046013eb174ae27a6e2a45532ac084fa6702ac20fb91ebacd"
+    },
+    {
+      "path": "assets/screenshots/tide-current-preview.jpg",
+      "bytes": 89835,
+      "sha256": "5ffa8e0a31f32b5d485432444ddca344dd81ec68db4b8e9c8eb797205d0ba23f"
+    },
+    {
+      "path": "assets/screenshots/underwater-play-preview.jpg",
+      "bytes": 71064,
+      "sha256": "b64ad30d6de6281e1b63636f7f227eb141c0dd331febb2491cad28a67c120d4b"
+    },
+    {
+      "path": "assets/screenshots/water-entry-preview.jpg",
+      "bytes": 79467,
+      "sha256": "5929c253b9ec574a0901aa41ef63e2dbf7698f35a6ef15213f9b0679b914bf15"
+    },
+    {
+      "path": "assets/screenshots/water-play-preview.jpg",
+      "bytes": 69505,
+      "sha256": "4f34c5833b0e0fe9edc04d521dc71fc4c4506efa81dd0f1a63a67f4b05944376"
+    },
+    {
+      "path": "assets/screenshots/world-motion-refinement-preview.jpg",
+      "bytes": 87525,
+      "sha256": "dbc333913f9255e7fa6cf91fb345d05fc6d61ac189c9a79629a6f99ec1ea262c"
+    },
+    {
+      "path": "atlas.html",
+      "bytes": 3382,
+      "sha256": "9fdab115fa2fe522015644fd94e0ad6f2d622d514abeb35f0252a2a78d2f2202"
+    },
+    {
+      "path": "index.html",
+      "bytes": 26073,
+      "sha256": "b2107ffb47a36b306340e379d32f0d95a545b9b09b590a726d36ff07edfa794e"
+    },
+    {
+      "path": "play.html",
+      "bytes": 10018,
+      "sha256": "be6e544885b9f9b2078c21fefe15173f1d0d0ceb238f63ce13d3e936b8fac66a"
+    },
+    {
+      "path": "research.css",
+      "bytes": 11621,
+      "sha256": "1359678b235944285b20a14fa4d1511a329b0636c650d27fdd87936531751c58"
+    },
+    {
+      "path": "research.json",
+      "bytes": 10052,
+      "sha256": "7a49b135903c7c46494cd5761680aae24201e2f48c075b2e60ac6297ab93a5a3"
+    },
+    {
+      "path": "src/catalog.js",
+      "bytes": 9359,
+      "sha256": "ad5ba67c3d278d3d7983999da78e54c7b2b9e480f79995fa8ff1339f8c9d89c5"
+    },
+    {
+      "path": "src/field-land.js",
+      "bytes": 11922,
+      "sha256": "deefa1a177ee45834a6f5967bc6704c3e276b8b2fdbdb1946028ab25d979c7ef"
+    },
+    {
+      "path": "src/field-life.js",
+      "bytes": 13376,
+      "sha256": "d32154ce442c30b336a384a477b7c59f541bf00e13a599d01f6d33eadf7ae982"
+    },
+    {
+      "path": "src/habitats.js",
+      "bytes": 9747,
+      "sha256": "43dee6ebcd3bc93ba80bb58264c60b98d57f4e71b90f0d3c57127c4e0155e15b"
+    },
+    {
+      "path": "src/main.js",
+      "bytes": 7261,
+      "sha256": "af60702394125331295838f0bd7a2d4e64aeab1ce2ebbd5505d8f5d5b0518a43"
+    },
+    {
+      "path": "src/paint.js",
+      "bytes": 2968,
+      "sha256": "c2e785d5b2c428df1cd77389dc6ae0556acac57ca722fcb4f632383e249df375"
+    },
+    {
+      "path": "src/rain.js",
+      "bytes": 11303,
+      "sha256": "1a1bcbc7ce3f2d3947bfdb2dc2849cb99786c69863f2383f3b0fc36bd6601b85"
+    },
+    {
+      "path": "src/style.css",
+      "bytes": 8651,
+      "sha256": "ccfc248614646dae87e4b7bb686d23de54cc0ef2deaa7ec2f51cbbb908913e50"
+    },
+    {
+      "path": "src/world-ambience.js",
+      "bytes": 6535,
+      "sha256": "39f2cf33784f42df2d8924443b3825802ca657ea2892ac5038dbcafd77fa4884"
+    },
+    {
+      "path": "src/world-audio.js",
+      "bytes": 23608,
+      "sha256": "cdaead0314a68e86b3809fba0c2f03728c1bfeb764eafec8145ad51470389b90"
+    },
+    {
+      "path": "src/world-biomes.js",
+      "bytes": 38730,
+      "sha256": "59d96e593b2efe5cd525a54eef49b67c1524d92293e7b9e61bf8d78207066a54"
+    },
+    {
+      "path": "src/world-character.js",
+      "bytes": 8197,
+      "sha256": "5fad341c37f7623dd627423403aebf3b6e65e449e7dea3f057f305b489017421"
+    },
+    {
+      "path": "src/world-collision.js",
+      "bytes": 8874,
+      "sha256": "097ead1b31b6eeb32581fceadde139276ca8236abfd508bdb05b72c50aa7b3e1"
+    },
+    {
+      "path": "src/world-drainage.js",
+      "bytes": 9679,
+      "sha256": "d219ccd6c845e5af13622aa3aadef9a10a05d1d5e71b96b91fa4254e54372c92"
+    },
+    {
+      "path": "src/world-ecology.js",
+      "bytes": 35757,
+      "sha256": "094a53c419062332079f865f5dfe378079cb4110f852e01ba0603514e151e9a9"
+    },
+    {
+      "path": "src/world-extras.js",
+      "bytes": 10288,
+      "sha256": "2a203814e8ed11e520520cd22b9a6d80890a7b3d735dbbe3aa21cef724739b8b"
+    },
+    {
+      "path": "src/world-flow.js",
+      "bytes": 7174,
+      "sha256": "b1746b30d048fa42c72a50b07864e9147a8f4f36ec032366b2d02a9e0dd25dc9"
+    },
+    {
+      "path": "src/world-footprint-aging.js",
+      "bytes": 3775,
+      "sha256": "dd3dc047adbbd2d102527fed0d66bd408a4515cac08ece8180d655c0e2faba82"
+    },
+    {
+      "path": "src/world-footprints.js",
+      "bytes": 22826,
+      "sha256": "379169dcc1b0fdcbf52c67f731b8f76be069f786fec5c54fe0b3342ca13180f0"
+    },
+    {
+      "path": "src/world-ground-memory.js",
+      "bytes": 11297,
+      "sha256": "714fbe90828490dcb109655f27687c3c2e488b3cf8cd5931aa04b18249dc19a3"
+    },
+    {
+      "path": "src/world-guide.js",
+      "bytes": 8276,
+      "sha256": "4231a9d12c031d26be61db9007fa1ce83a1ebf1155b00c9008f2739fdde00810"
+    },
+    {
+      "path": "src/world-hero.js",
+      "bytes": 31664,
+      "sha256": "ad428503371c104e9b4f30f3ce2e99ee90b4694b70aee654480c8c2b0bcd6f05"
+    },
+    {
+      "path": "src/world-hud.js",
+      "bytes": 9870,
+      "sha256": "2e3be7020267f24a993dcb15b8030b44c753eceb6756332fdb60724f4343e10b"
+    },
+    {
+      "path": "src/world-itinerary.js",
+      "bytes": 6454,
+      "sha256": "092baada6d49ef9bc3b956755f9241e0ade4156c3a718a3c2f163ab73aaede8f"
+    },
+    {
+      "path": "src/world-journey.js",
+      "bytes": 5694,
+      "sha256": "f1a15c706c92fe0e9e6f2d88a748ead53411e9f3abb1c889a84d1f7e9a9812de"
+    },
+    {
+      "path": "src/world-narration.js",
+      "bytes": 2471,
+      "sha256": "512a43eb585c85c5cdd9e565dca6cccf1bf406ff909c3193d86860563730dac6"
+    },
+    {
+      "path": "src/world-observe.js",
+      "bytes": 6961,
+      "sha256": "58114beb2680c582fb502910fa4dbaa62510c5c1aeb4af4a4e89da6b2000eda9"
+    },
+    {
+      "path": "src/world-puddles.js",
+      "bytes": 8221,
+      "sha256": "b17099adc13666ab38cec641607e029f4a4b6ab248810017b782da77ca9b1654"
+    },
+    {
+      "path": "src/world-rain-environment.js",
+      "bytes": 9190,
+      "sha256": "877181874858f7c6e41a286805d6cc7ab41bff03e43643e64b589da06fbbcff9"
+    },
+    {
+      "path": "src/world-session.js",
+      "bytes": 3236,
+      "sha256": "23dec319f891a82da6cae752629f6aa949c764cd86185b827108c7f4d056f167"
+    },
+    {
+      "path": "src/world-station.js",
+      "bytes": 7251,
+      "sha256": "a007083a5694885bcef2b1503d338b686349de3a5509675b12c4c30d3c29e7b7"
+    },
+    {
+      "path": "src/world-terrain.js",
+      "bytes": 29287,
+      "sha256": "ea28c77936719d04d16fcb8708feec18fdec85aa0cb80d776c583c8007dc99e9"
+    },
+    {
+      "path": "src/world-tides.js",
+      "bytes": 1900,
+      "sha256": "a2a0b4e8acd47377d1198845a3ef11ddb4fed1f2584e7d80c39282322a5c0a3a"
+    },
+    {
+      "path": "src/world-trail.js",
+      "bytes": 12726,
+      "sha256": "bd547851434c340338b1cf11afbd902c698a3cbda01a27b7df7342a1e21064bf"
+    },
+    {
+      "path": "src/world-underwater.js",
+      "bytes": 30529,
+      "sha256": "c8bb28a007fd489b03bbe113cf583ab9a64d84464db25d5c6049db449ab5aac9"
+    },
+    {
+      "path": "src/world-walk.js",
+      "bytes": 24338,
+      "sha256": "5670af9b230db222c240f029e76c37b53c9bef7a5f0b654c5efa134685924030"
+    },
+    {
+      "path": "src/world-water-actions.js",
+      "bytes": 11048,
+      "sha256": "56e7cd79510e6627042bf88df0efc57e8ed60b8b2f7c851ef595f179f707ef07"
+    },
+    {
+      "path": "src/world-water.js",
+      "bytes": 51711,
+      "sha256": "0983319c911257efca19bbea66f2cdb881aaa9d27f13e4e79e82241d6869240c"
+    },
+    {
+      "path": "src/world-weather.js",
+      "bytes": 2196,
+      "sha256": "9cac865bc7d86233e4817fe8c34fc14e3f6044430477d7c2b95a818ab75c4fc2"
+    },
+    {
+      "path": "src/world-wetness.js",
+      "bytes": 4598,
+      "sha256": "8c75ae19931eb9bc275c3fdb82aafebbca90734341ae7c55a1029ff83426d4bb"
+    },
+    {
+      "path": "src/world-wildlife.js",
+      "bytes": 10839,
+      "sha256": "43b335bb524527ccd70709a3603ceb29bdf3b5885287d7261e3ae4bf9264f596"
+    },
+    {
+      "path": "src/world.css",
+      "bytes": 19617,
+      "sha256": "ce8d2ff4a5e4e7ff4ff5d24cf80b10a9997f3655442b6eadc4899be491363cbb"
+    },
+    {
+      "path": "src/world.js",
+      "bytes": 60999,
+      "sha256": "ca094121bd3a5a0d8f2b07a436cc19d31975d769424288bea05a999750bcb3fa"
+    },
+    {
+      "path": "vendor/OrbitControls.js",
+      "bytes": 40918,
+      "sha256": "e7fca2fe9e7670a828af9b28084669a5909445b7f36f1f26cee9bf8f2961c32c"
+    },
+    {
+      "path": "vendor/THREE-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "path": "vendor/three.core.js",
+      "bytes": 1474799,
+      "sha256": "613e370f76638fdef83926642bf256dc9615684922de1ce1f63a8583e5d78578"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "bytes": 658900,
+      "sha256": "104f56145899722094556490d787aae0617cc2fc3382f31df02d724ea1aee341"
+    },
+    {
+      "path": "verification/browser.json",
+      "bytes": 696,
+      "sha256": "0e35612268963ef0c7b34ef351ec957c5dd101a0e00711cd8250a2242da7e8ab"
+    },
+    {
+      "path": "verification/desktop.jpg",
+      "bytes": 64511,
+      "sha256": "e28bd87c6525645ed63f32f75e9e9698544482c3994b7b0c48f71f5fccdaa589"
+    },
+    {
+      "path": "verification/guide-mobile.jpg",
+      "bytes": 43387,
+      "sha256": "5222055782f04becf1fb97194c1b9ca01a6e31fe654adc436b4921be5fa2d378"
+    },
+    {
+      "path": "verification/historical-stability.json",
+      "bytes": 329,
+      "sha256": "cdeea0402c9775d47489f281ec2d637569aeaed78d17e61ee4a71a24c2cdb85a"
+    },
+    {
+      "path": "verification/mobile.jpg",
+      "bytes": 45098,
+      "sha256": "9b142255b313d8e1443b0538336d4af418b14c94b9b1fcc62f6c2c1f0d5fee2c"
+    },
+    {
+      "path": "verification/world-guide.jpg",
+      "bytes": 68297,
+      "sha256": "dd74bcba367090f0031f05fe9684e57805e3e2e82684f81b88eff9efd0f833fb"
+    },
+    {
+      "path": "verification/world-tests.json",
+      "bytes": 364,
+      "sha256": "02c7e7bd4fb29d5045271ff57d6d1998dd78ddf15412675b0d528965c0dcec4f"
+    }
+  ]
+}

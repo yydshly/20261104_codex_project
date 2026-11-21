@@ -33,6 +33,7 @@
 | 025 | [留一会儿 · 艺术与情绪图像研究](projects/025-cozy-emotion-lab/README.md) | [@cozyycabin](https://x.com/cozyycabin) · [置顶双图](https://x.com/cozyycabin/status/2084009202192949678) | 以艺术与情绪作为图像入口，从形体呼应、瞬间与留白理解停留感。29幅图、三图对照、实时调色、八秒静态镜头及导出，沉淀审美判断、原创简报和系列表达方法；当前仅原帖双图获明确正向反馈，原创迁移与体验产品价值待验证。 | [沿用本轮引导图](#cozy-emotion-guide) | [在线艺术入口与效果](https://yydshly.github.io/20261104_codex_project/025-cozy-emotion-lab/) |
 | 026 | [日常情绪与 AI 短视频效果研究](projects/026-emotion-led-video/README.md) | [用户分享帖](https://x.com/billtheinvestor/status/2120217438533066946) · [TechHalla原帖](https://x.com/techhalla/status/2110686996049883550) | 从人的日常情绪出发，把渴望变成一个想亲历的瞬间。用四种情绪效果图、六个故事和两轮海洞小样，研究人物回应、创意视角与真实质感怎样承载欲望、代入和观看期待；沉淀选题、镜头与反馈方法，情绪效果仍待验证。 | [本次生成的引导图](#emotion-led-video-guide) | [在线研究与效果](https://yydshly.github.io/20261104_codex_project/026-emotion-led-video/) |
 | 027 | [奇幻影像与世界构造研究](projects/027-surreal-motion-study/README.md) | [@hi_personality原帖](https://x.com/hi_personality/status/2115567493565825244) · [巨构参考](https://x.com/EiiKwesiKay/status/2120958808789029021) | 从奇幻骑行原片提炼光色、反向规则、空间构图、主体情绪、相机、音乐节律和世界一致性七条主轴。以原创关键帧、十种效果、局部预演、一条用户通过的AI舞步和三个世界候选，沉淀关系、参数、提示词与验收方法；区分HDR与高曝光，连续3D、稳定生成与产品价值仍待验证。 | [已有研究总图](#surreal-motion-guide) | [在线研究与效果](https://yydshly.github.io/20261104_codex_project/027-surreal-motion-study/) |
+| 028 | [地球里的小世界：连续生态世界与痕迹记忆](projects/028-earth-within/README.md) | 自主实践 · [Three.js](https://github.com/mrdoob/three.js) · [MiniMax](https://www.minimax.io/) | 研究怎样以小岚为中心，把雪山、河谷、森林、河口与海底接成可自由行走的世界，让天气、水流、动物、声音和足迹共同回应人的行动。15个观察点、27幕图鉴、雨洪潮汐、游泳跃水、干湿脚印与MiniMax导览构成可操作原型；沉淀共享状态、触地事件、环境记忆和连续导览的复用方法，服务自然科普、数字展陈与探索体验。流体和生态为简化模型，动作真实度、长时性能与学习/商业收益仍需验证。 | [本轮全景引导图](#earth-within-guide) | [在线研究与自由探索](https://yydshly.github.io/20261104_codex_project/028-earth-within/) |
 
 项目按收录顺序从 `001` 开始编号。新条目按编号追加，已分配的编号保持固定。索引摘要用一两句话写清研究对象和关注点。完成验证后，可补上一条主要发现。
 
@@ -414,3 +415,19 @@ Adam Chernick 个人制作、扩展和组合的网页 3D 实验，部分基于 T
 可复用的是关系词典、可变参数、执行材料、验收方法、证据分层和失败边界。曝光改变亮暗，饱和度改变颜色强度，HDR给适配显示链路更多亮度余量；同帧教学图与整张引导图均为SDR。
 
 网页保留12张早期关键帧、36阶段、40项研究手法、10效果图、局部预演、舞步和4母图/16地点。三个世界候选仍待核对地理与连接，40项不等于40个实现，一条成片通过也不等于稳定生成。[在线研究](https://yydshly.github.io/20261104_codex_project/027-surreal-motion-study/) · [HDR与高曝光](https://yydshly.github.io/20261104_codex_project/027-surreal-motion-study/#color) · [效果与世界](https://yydshly.github.io/20261104_codex_project/027-surreal-motion-study/#directions) · [完整研究摘要](projects/027-surreal-motion-study/README.md)
+
+<a id="earth-within-guide"></a>
+
+### 028 · 地球里的小世界：连续生态世界与痕迹记忆
+
+研究怎样以小岚为中心，把雪山、河谷、森林、河口与海底接成可自由行走的世界，让天气、水流、动物、声音和足迹共同回应人的行动。15个观察点、27幕图鉴、雨洪潮汐、游泳跃水、干湿脚印与MiniMax导览构成可操作原型；沉淀共享状态、触地事件、环境记忆和连续导览的复用方法，服务自然科普、数字展陈与探索体验。流体和生态为简化模型，动作真实度、长时性能与学习/商业收益仍需验证。
+
+![原样复用本轮生成的研究全景图：连续流域、实机效果、实现机制、研究价值、扩展路线与完成边界](docs/028-earth-within/assets/research/earth-within-research-summary.png)
+
+**方向**：以小岚建立体验中心，让雪线、河谷、森林、河口与水下连成可自由走动、可近看、可讲解的世界。研究从“有哪些场景元素”走向“人的行动怎样得到环境回应”。
+
+**效果与实现**：15站连续导览与27幕图鉴，支持走跑蹲跳、涉水游泳、跃水戏水、碰撞与镜头避障。共享地形、水深、流速、遮蔽和湿度，联动雨洪涨退水、河口潮汐、动物避让避雨、衣物湿润、脚印干燥与风雨潮水侵蚀。真实落脚同时驱动脚印、水花和脚步声；4层CC0实录与15段已缓存MiniMax旁白随静态网页发布，访问不重新合成。
+
+**价值与扩展**：让自然因果、时间与“我来过”的痕迹被观察，服务科普、展陈、探索与陪伴体验；沉淀共享状态、触地事件、近看镜头、音频缓存和环境记忆的复用方法。下一步先做长时稳定、动作真实度与全路线验收，再扩生态细节、昼夜季节、水沙演化和观测工具。现有75项检查与10分钟离屏模拟不等于商业画质或实机恒定帧率；完整流体、食物网、长期情绪/学习效果与商业收益未验证。
+
+引导图沿用本轮4000×7200原始PNG并保留SVG及哈希。研究与公开整理截至2026-11-21。[在线研究](https://yydshly.github.io/20261104_codex_project/028-earth-within/) · [自由探索](https://yydshly.github.io/20261104_codex_project/028-earth-within/play.html#walk) · [观察脚印](https://yydshly.github.io/20261104_codex_project/028-earth-within/play.html?shore=footprints&tide=ebb#walk) · [完整研究摘要](projects/028-earth-within/README.md)

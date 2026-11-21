@@ -1,0 +1,99 @@
+{
+  "provider": "MiniMax",
+  "model": "speech-2.8-hd",
+  "voice": "male-qn-jingying",
+  "mode": "published-recordings",
+  "exported": "2026-11-21",
+  "clips": {
+    "cabin": {
+      "file": "cabin.mp3",
+      "textSha256": "c8c8cc0206e9fd8f8ed5347eade89e2f2a3ae829ddafdae1439ad8fb6b77c0af",
+      "sha256": "2dc12878308c52cd7cb208f9ebb7c0556c5c14ff80679e4a4fa80353d8458243",
+      "bytes": 165876
+    },
+    "snow": {
+      "file": "snow.mp3",
+      "textSha256": "44a9cda3dcb7eae965ca63c9969d09f9aee2c9c4419c2c1bf0fd4e3802f78281",
+      "sha256": "e180eb167c911784f7d6794509df17066bb0cec37c1fc4095ddcae8de086feb0",
+      "bytes": 172212
+    },
+    "gorge": {
+      "file": "gorge.mp3",
+      "textSha256": "e65ea2185548b9f4d3439c2344f9a9ba6f108be0d4f2aaba5e63d602209c96ab",
+      "sha256": "addbe6f7430eb2d05cd25bed105cc12d52b911176d414b8cc703b7b735f37707",
+      "bytes": 160116
+    },
+    "river": {
+      "file": "river.mp3",
+      "textSha256": "c3baf74cb856629dfb8bce8655c565b7ffcfb735a4c1e5d2de4c5b934f9843a4",
+      "sha256": "b7b02d204e8babbec1de354fd733fa5fc74c967efd288deebc12d58b24710748",
+      "bytes": 170484
+    },
+    "bee": {
+      "file": "bee.mp3",
+      "textSha256": "0429e33bac791372d2861e70dbe605450d8c45612f8c8ed890e56a6aac3130a8",
+      "sha256": "a3c06e86b7b275e04536012985093ab620a81a1e503d0fc0b70757d4687f5064",
+      "bytes": 160692
+    },
+    "ant": {
+      "file": "ant.mp3",
+      "textSha256": "669d41d53a572772e6477990cceb41aa9dcc9a1bc43c02fe354c3349ddea9f62",
+      "sha256": "a7bf2d13d91dcc77e938e2aa41c50a4db3a466e7457befd4be47d5ad546812ff",
+      "bytes": 168756
+    },
+    "ranch": {
+      "file": "ranch.mp3",
+      "textSha256": "78dc90b7954633c55bba2cb0baf556cb5ce872ff28ab0ffc5bcb40fcc7f8fb6a",
+      "sha256": "4e2cbacebde30ae40152b54d0a82d71e26d4d2ea9b905e267a03d476d61bfbc0",
+      "bytes": 199860
+    },
+    "tropics": {
+      "file": "tropics.mp3",
+      "textSha256": "34272f7e842eb0c190b5f301ca1d15fe32187bce5a5249407cfdd04101ae2dfd",
+      "sha256": "d34f3fc1c9d599fba69b58b17f1da88d566c828a4f41719d206e18269fa9a7ee",
+      "bytes": 202740
+    },
+    "wetland": {
+      "file": "wetland.mp3",
+      "textSha256": "fe299abe05a6fb2b9fc308512cc7f6e88040649b76e9123295425ff36260fca1",
+      "sha256": "fc6ab0f575bb35baf4a6fabd360113ad8c10d5c22728b81fa720ab0f0a389b5f",
+      "bytes": 124404
+    },
+    "dunes": {
+      "file": "dunes.mp3",
+      "textSha256": "7a9b8374a7f99db389cd33b0621ad63c805c382bb218a739ad06b53c40cc4b2e",
+      "sha256": "c717efb8c36c8867ec111b2c5cbcac7923c695ba5735d143b61aad67b09b357d",
+      "bytes": 158388
+    },
+    "tide": {
+      "file": "tide.mp3",
+      "textSha256": "809c904addc1ed55e772ab816b6f74b188bb1887b2a483caed166b6a3f8a496b",
+      "sha256": "35e8de741e8e4b8fe85bc4ae406737e094ec06aa849ffd247b939379ce15e257",
+      "bytes": 150900
+    },
+    "ocean": {
+      "file": "ocean.mp3",
+      "textSha256": "a7530dec061e34ccb2f9e06608b5732261eeae3e5a0754cc63ffbc52067f05d8",
+      "sha256": "82bb8a918adabb1a1ba07862b47a59eddb894f35f4aaf0adf3ad02b156ba4f12",
+      "bytes": 166452
+    },
+    "dive": {
+      "file": "dive.mp3",
+      "textSha256": "a303a0ad7c2efc3463935bdd263eca9b9913281b8447ad69d220215de33a20c7",
+      "sha256": "a176d4de18e184c9fa5db6a89c5e5e8fe1deeffd2323e71e813cf91e784faa43",
+      "bytes": 181428
+    },
+    "kelp": {
+      "file": "kelp.mp3",
+      "textSha256": "b2d636a799b39384e62e67394b908951c48a2ebabf8fd3a3b686ab49324b0a5b",
+      "sha256": "a33809e42530de82e38a69908fb5eed8816268cf1bd22312a32ffa26b054d73d",
+      "bytes": 164724
+    },
+    "reef-deep": {
+      "file": "reef-deep.mp3",
+      "textSha256": "a0445bef3887677856cbf5627e0f7e13901471dbd3f645170b09eb451194a5c8",
+      "sha256": "f7472dc927fbeb45f7a7e135c672e96b1a736ed879f5eaa3e439f0e12763ac46",
+      "bytes": 207348
+    }
+  }
+}

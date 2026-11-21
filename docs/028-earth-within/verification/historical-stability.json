@@ -1,0 +1,16 @@
+{
+  "simulatedMinutes": 10,
+  "frames": 6000,
+  "wallSeconds": 22.5333525,
+  "sceneObjectsBefore": 1000,
+  "sceneObjectsAfter": 1000,
+  "fish": 81,
+  "flowObstacles": 131,
+  "maximumFlow": 2.2473800654211344,
+  "dripCapacity": 64,
+  "maxDrops": 6,
+  "traceCapacity": 112,
+  "saves": 60,
+  "memoryCache": 0,
+  "status": "passed"
+}

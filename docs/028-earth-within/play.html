@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111e1c">
+  <meta name="description" content="沿着同一条河，从雪线走到海岸，观察这个 3D 世界里的地形、水流和生物。">
+  <title>探索地球里的小世界 · 雪线到海底</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23bdd0a4' d='M0 0h24v24H0z'/%3E%3Cpath fill='none' stroke='%23152727' stroke-width='1.7' d='M2 17l7-10 4 7 3-5 6 8M3 20h18'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./src/world.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js","three/addons/controls/OrbitControls.js":"./vendor/OrbitControls.js"}}</script>
+  <script type="module" src="./src/world.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a href="#overview" class="identity"><svg viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="16"/><path d="m6 23 8-13 5 8 4-5 7 10M8 26h20M12 29h12"/></svg><span>地球里的小世界<small>EARTH WITHIN</small></span></a>
+    <a class="topbar-caption" href="./">研究与引导图</a>
+    <a class="archive" href="atlas.html">2D 场景图鉴 <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="world" aria-label="雪山到海岸的三维世界">
+      <div id="viewport" class="viewport"></div>
+      <div class="shade" aria-hidden="true"></div>
+      <div class="world-intro" id="world-intro">
+        <p id="region-label" class="eyebrow">世界总览</p>
+        <h1 id="place-name">从雪线到海岸</h1>
+        <p id="place-description" class="place-description">从雪原小屋沿河走到牧场、雨林和海湾。可以自己走，也可以让导览带你逐站探索。</p>
+      </div>
+
+      <div class="world-actions" aria-label="世界控制">
+        <button class="tool" id="overview" type="button"><span aria-hidden="true">⌖</span> 总览</button>
+        <button class="tool" id="weather" type="button" aria-pressed="false" aria-controls="rain-settings"><span class="weather-dot" aria-hidden="true"></span><span id="weather-label">开始下雨</span></button>
+        <div class="sound-control">
+          <button class="tool" id="environment-sound" type="button" aria-pressed="false"><span id="environment-sound-label">开启环境声</span></button>
+          <label class="sound-volume" title="环境声音量">
+            <span>音量</span>
+            <input id="environment-volume" type="range" min="0" max="100" value="50" aria-label="环境声音量">
+          </label>
+          <a class="sound-credit" href="./assets/audio/SOURCES.md" target="_blank" rel="noopener" aria-label="现场录音来源与授权" title="现场录音来源与授权">ⓘ</a>
+        </div>
+        <button class="tool walk-button" id="walk" type="button" aria-pressed="false"><span id="walk-label">从雪线出发</span><span aria-hidden="true">↗</span></button>
+        <button class="tool tour-button" id="tour" type="button" aria-pressed="false"><span id="tour-icon" aria-hidden="true">▷</span> <span id="tour-label">一键导览</span></button>
+        <details class="explore-settings" id="explore-settings">
+          <summary class="tool">探索设置</summary>
+          <div class="explore-settings-panel">
+            <label for="quality">画质 <select id="quality"><option value="auto">自动</option><option value="high">高清</option><option value="balanced">均衡</option><option value="low">流畅</option></select></label>
+            <p id="quality-state">自动调节画质</p>
+            <label for="wind-strength" class="wind-setting">风力 <select id="wind-strength"><option value="0">静风</option><option value="0.35" selected>微风</option><option value="0.65">和风</option><option value="1">强风</option></select></label>
+            <button type="button" id="resume-exploration" disabled>继续上次探索</button>
+            <p id="save-state" role="status">行走时自动保存进度</p>
+          </div>
+        </details>
+      </div>
+      <div class="rain-settings" id="rain-settings" hidden>
+        <label for="rain-strength">雨量 <output id="rain-strength-label">大雨</output></label>
+        <input id="rain-strength" type="range" min="0" max="100" value="100" step="5" aria-label="雨量">
+        <p id="rain-state" role="status">降雨逐渐增强</p>
+      </div>
+      <aside class="tide-settings" aria-label="潮汐与河口水流">
+        <div class="tide-heading"><span>潮汐</span><span id="tide-phase">涨潮</span></div>
+        <p id="tide-state" role="status">海水正向河口推进</p>
+        <div class="tide-footer"><span>演示周期 4 分钟</span><button id="tide-reverse" type="button">转为退潮</button></div>
+      </aside>
+
+      <div id="pins" class="pins" aria-label="地图上的观察点"></div>
+      <span id="hero-tag" class="hero-tag" aria-hidden="true" hidden>小岚</span>
+      <aside class="map-panel" aria-label="流域示意地图">
+        <div class="map-heading"><span>流域地图</span><span aria-hidden="true">N ↑</span></div>
+        <svg id="map" viewBox="-122 -57 240 115" aria-hidden="true">
+          <path class="map-coast" d="M-122-57H58L62-35 53-21 66 1 62 23 47 38 54 58H-122Z"/>
+          <path class="map-contour" d="M-117 47C-108 0-121-40-91-52S-48-50-46-28s-20 47-8 73M-111 28c7-30-6-61 15-73 19-8 37 4 32 23-4 15-18 30-13 56M-103 8c3-13 0-32 9-40 14-12 21 0 15 13-4 11-9 17-10 31M-31-49c23 9 36 26 27 43M-26 51c15-16 31-18 48-22M42-47c-12 17-5 28 9 43"/>
+          <path class="map-river" id="map-river"/>
+          <path class="map-trail" id="map-trail"/>
+          <path class="map-journey" id="map-journey"/>
+          <g id="map-stops"></g>
+          <path class="map-sight" id="map-sight"/>
+          <circle class="map-camera" id="map-camera" r="2.8"/>
+        </svg>
+      </aside>
+
+      <div class="world-hint" aria-label="操作方式"><span class="desktop-hint">拖动转动视角 · 滚轮缩放 · 右键拖动平移</span><span class="touch-hint">单指转动视角 · 双指缩放或平移</span></div>
+      <section id="guide-panel" class="guide-panel" aria-label="语音导览" hidden>
+        <div class="guide-kicker"><span id="guide-step"></span><span id="guide-depth" hidden></span><span id="guide-source" role="status"></span></div>
+        <h2 id="guide-title"></h2>
+        <p id="guide-caption" aria-live="polite"></p>
+        <div class="guide-controls">
+          <button type="button" id="guide-back">上一站</button>
+          <button type="button" id="guide-pause">暂停</button>
+          <button type="button" id="guide-next">下一站</button>
+          <button type="button" id="guide-mute" aria-pressed="false">旁白静音</button>
+          <button type="button" id="guide-takeover" aria-pressed="false">接管小岚</button>
+        </div>
+        <p class="guide-camera-hint"><span class="guide-auto-hint"><span class="desktop-hint">拖动看四周 · WASD 接管人物</span><span class="touch-hint">拖动画面看四周</span></span><span class="guide-manual-hint"><span class="desktop-hint">WASD 移动 · 拖动转向 · Shift 冲刺 · C 下蹲 / 下潜 · 空格跳跃 / 上浮</span><span class="touch-hint">左侧圆盘移动 · 拖动转向</span></span><button type="button" id="guide-recenter" hidden>回到小岚</button></p>
+      </section>
+      <div class="walk-hud" id="walk-hud" hidden>
+        <div class="water-veil" aria-hidden="true"></div>
+        <div class="reticle" aria-hidden="true"></div>
+        <div class="walk-status"><span class="walk-mode" id="walk-mode">徒步</span><span id="walk-altitude"></span><span id="walk-bearing" aria-label="朝向"></span><button id="view-mode" type="button" aria-pressed="false">跟随小岚</button><button id="water-action" type="button" hidden>F 跃水</button></div>
+        <div class="walk-hint"><span class="desktop-hint"><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> 移动 · 拖动画面转身</span><span class="touch-hint">拖动圆盘移动 · 拖动画面转身</span><span id="land-hint"><span class="desktop-hint"><kbd>Shift</kbd> 冲刺 · <kbd>C</kbd> 下蹲 · <kbd>空格</kbd> 跳跃</span></span><span id="swim-hint" hidden><span class="desktop-hint"><kbd>C</kbd> 下潜 · <kbd>空格</kbd> 上浮</span><span class="touch-hint">用右边按钮下潜或上浮</span></span></div>
+        <div id="move-pad" class="move-pad" aria-hidden="true"><span class="move-stick"></span></div>
+        <p id="water-action-note" class="water-action-note" role="status" hidden></p>
+        <div class="movement-controls" id="land-controls" aria-label="陆地动作" hidden>
+          <button type="button" class="tool" id="land-jump">跳跃</button>
+          <button type="button" class="tool" id="land-crouch">下蹲</button>
+          <button type="button" class="tool" id="land-sprint">冲刺</button>
+        </div>
+        <div class="movement-controls" id="swim-controls" aria-label="游泳控制" hidden>
+          <button type="button" class="tool" id="swim-up">↑ 上浮</button>
+          <button type="button" class="tool" id="swim-down">↓ 下潜</button>
+        </div>
+      </div>
+      <div id="loading" class="loading" role="status">正在构建流域…</div>
+      <div id="world-error" class="loading world-error" hidden><p id="error-text"></p><a href="atlas.html">打开 2D 场景图鉴</a></div>
+      <noscript><p class="loading">启用 JavaScript 后可以进入这个 3D 世界。</p></noscript>
+    </section>
+
+    <section class="route" aria-labelledby="route-heading">
+      <div class="route-title"><h2 id="route-heading">沿水而下</h2><p id="route-description">在同一片地形里切换观察位置</p></div>
+      <nav id="route" class="route-stops" aria-label="观察位置"></nav>
+    </section>
+  </main>
+</body>
+</html>

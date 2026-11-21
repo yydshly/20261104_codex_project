@@ -1,0 +1,14 @@
+{
+  "name": "earth-within",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test:world": "node --test",
+    "test:stability": "node scripts/world-stability.mjs",
+    "test:weather": "node --test test/rain-world.test.mjs test/flood-world.test.mjs test/flood-walker.test.mjs test/ground-memory.test.mjs test/footprints.test.mjs test/hero-contacts.test.mjs test/foot-contact-audio.test.mjs test/muddy-walk.test.mjs"
+  },
+  "dependencies": {
+    "three": "0.187.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "earth-within-research-publication",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "publish": "node publish.mjs",
+    "verify": "node verify.mjs",
+    "preview": "node serve.mjs"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-21",
+  "command": "npm run test:world",
+  "tests": 75,
+  "passed": 75,
+  "failed": 0,
+  "skipped": 0,
+  "durationMs": 29191.2574,
+  "sourceSnapshotFilesCompared": 80,
+  "sourceSnapshotIdentical": true,
+  "scope": "Original world source regression; published static narration and paths are additionally checked by verify.mjs and browser QA."
+}
