@@ -1,0 +1,101 @@
+未来社会观察总览图
+生成方式：内置 image_gen
+依据：本轮讨论与既有原型截图
+整理日期：2026-11-21
+
+初次生成提示词
+
+Use case: infographic-diagram
+Create ONE polished, highly legible Chinese editorial research infographic, portrait 2:3, at high resolution (ideally 2048 × 3072 or larger). The output is one standalone finished image that summarizes our actual project. This is a research overview for understanding and sharing, not an advertisement. Every main Chinese character must be clean, correct, crisp and comfortably readable. Use sophisticated typesetting and restrained shapes, not a wall of tiny prose.
+
+Visual direction: warm white paper, deep forest green and charcoal type, muted teal, small warm copper highlights. Clean editorial grid, generous outer margins, clear hierarchy, connected progression, only a few subtle dividers. Large headline. Mix real prototype screen inserts with short annotations. Use natural Chinese typography (modern sans serif and a slightly expressive heavy title). No fake logos, no English filler, no watermarks, no invented statistics, no QR codes.
+
+Input images are SUPPORTING INSERTS of real local prototype screenshots, not edit targets. Preserve their characteristic actual scenes and UI, use faithful cropped photographic inserts with enough detail rather than inventing new futuristic renders.
+Image 1 = real three-era care-station comparison (2026/2031/2036). Use this as the primary large evidence strip in the middle, with three era labels beneath.
+Image 2 = real interactive city heatwave model screenshot. Use one clear cropped isometric city insert.
+Image 3 = real father/daughter dinner scene. Use its warm narrative moment beside research objective or the story section.
+Image 4 = real clinic-trip replan screenshot. Use a compact map insert.
+White browser margins of input screenshots may be cropped out. Do not render tiny screenshot text as main explanatory copy. Main explanatory Chinese text is given below.
+
+Lay out as a coherent single-page overview, about 6 sections:
+TOP about 15%: large title, subtitle, concise research objective.
+SECOND about 12%: a five-stage exploration ribbon, left to right or in a gently connected two-line path. Stages one/two may have tiny simple diagram symbols, stages three/four/five connect to their real inserts.
+MIDDLE about 33%: the most prominent actual 2026/2031/2036 screenshot strip; short era labels make the differences readable. Real city and clinic map insets nearby in an editorial evidence collage.
+NEXT about 16%: concrete value and expression method, with short easy-to-scan phrases. A quiet link visually connects individual action to organizations and to social rules.
+BOTTOM about 20%: clearly differentiated '运行验证', '仍有不足', '下一步' and a small honest scope note. Keep future speculation separate from verified UI functionality. No claim that the user accepted the prototype or that real city systems have been connected.
+FOOTER small date.
+
+Use this EXACT Chinese copy, reorganized for strong hierarchy, without adding more claims:
+
+TITLE
+未来社会观察
+SUBTITLE
+研究目标 · 效果试验 · 价值与边界
+
+研究目标
+从一个人的小事，看见五年、十年后的社会。
+观察 AI 怎样改变工作、公共服务、家庭照护，以及人与机构的关系。
+
+五次效果试验
+停电调度
+封路与故障重算
+现场接入
+设备发现、编排、批准执行
+复诊行程
+取消后重排预约与回程
+城市热浪
+配电、储能与优先级对照
+晚一点到家
+照护、空座、工时进入日常
+
+同一条街，三个年代
+2026 · 个人逐个协调
+2031 · AI 办妥机构内部流程
+2036 · 获得授权后，跨机构共同确认
+以上是情景设定，具体出现时间仍待研究。
+
+要看见的价值
+少几次沟通
+用好已有资源
+避免连锁失效
+让额外劳动有记录
+每项收益都要说明前提、成本与承担者。
+
+呈现方式
+先构建世界，再跟随人物
+人物动作呈现规则
+可操作 3D + 同幕对照 + MiniMax 配音
+
+运行验证
+分幕、年份切换、模型重算、窄屏与语音能够工作。
+
+仍有不足
+世界规则不完整，年代差别偏弱，解释仍依赖文字。
+用户尚未认可价值表达。
+
+下一步
+补足职业、收入、授权、拒绝与公共保底。
+检验观众能否从人物动作看懂社会。
+
+SCOPE NOTE
+本图汇总讨论与本地原型。年份、制度为情景假设，模型结果来自程序模拟。
+
+FOOTER
+整理于 2026.11.21
+
+Final image must feel like a professional authored project map. Let real images carry emotional and concrete evidence. Avoid making every section a separate identical rounded card. A reader should understand the goal, what exists, what value we seek, and what is still unresolved in one glance.
+
+定向修订提示词
+
+Edit the supplied finished Chinese infographic with ONE targeted correction. Preserve the entire title, all body copy, actual screenshot inserts, three-era comparison, value section, method section, verification/caveat/footer sections, typography, palette, and overall composition exactly as they are.
+
+Only correct the horizontal progression immediately beneath the green heading “五次效果试验”. It currently accidentally has SIX stages because the description of the first stage became its own warning-icon stage. Replace ONLY that progression ribbon with EXACTLY FIVE equally spaced stages. Keep its height roughly the same and keep the next heading “同一条街，三个年代” in the same position.
+
+The five stages, left to right, must be:
+1 lightning icon, bold title “停电调度”, smaller two-line description “封路与故障重算”.
+2 plug icon, bold title “现场接入”, smaller two-line description “设备发现、编排、批准执行”.
+3 calendar icon, bold title “复诊行程”, smaller two-line description “取消后重排预约与回程”.
+4 three heat lines icon, bold title “城市热浪”, smaller two-line description “配电、储能与优先级对照”.
+5 house icon, bold title “晚一点到家”, smaller two-line description “照护、空座、工时进入日常”.
+
+Use clear small connectors between stages. DO NOT put “封路与故障重算” in a separate stage, and DO NOT add a warning icon stage. Make five stage titles unambiguous, clean Chinese, and same visual weight. No numbered digits in the actual stage ribbon. All content elsewhere must stay unchanged. Output one finished portrait image of the same dimensions and quality.
