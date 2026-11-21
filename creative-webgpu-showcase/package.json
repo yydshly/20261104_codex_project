@@ -1,0 +1,12 @@
+{
+  "name": "creative-webgpu-showcase",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node serve.mjs",
+    "build:pages": "node scripts/build-pages.mjs"
+  }
+}
