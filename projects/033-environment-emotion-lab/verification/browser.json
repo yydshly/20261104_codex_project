@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-22",
+  "site": "https://yydshly.github.io/20261104_codex_project/033-environment-emotion-lab/",
+  "deployedCommit": "4cc92e2793f035423630d60f2d7a5a451792ac10",
+  "checks": {
+    "audioReady": "true",
+    "holdingBook": "true",
+    "narrating": "true",
+    "narrationProvider": "MiniMax",
+    "ready": "reading-3d",
+    "shaderErrors": "0",
+    "viewMode": "third"
+  },
+  "errors": [],
+  "subjectiveAudioAssessment": false,
+  "scope": "Actual production browser loading, perspective change, hold-book and natural-audio/MiniMax playback-state checks; no new subjective listening claim."
+}

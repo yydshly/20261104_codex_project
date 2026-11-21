@@ -1,0 +1,138 @@
+{
+  "date": "2026-11-22",
+  "site": "https://yydshly.github.io/20261104_codex_project/033-environment-emotion-lab/",
+  "checks": [
+    {
+      "name": "research",
+      "url": "https://yydshly.github.io/20261104_codex_project/033-environment-emotion-lab/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": "16301",
+      "cors": "*",
+      "bytesRead": 16301
+    },
+    {
+      "name": "guide",
+      "url": "https://yydshly.github.io/20261104_codex_project/033-environment-emotion-lab/media/environment-emotion-summary.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "contentLength": "595784",
+      "cors": "*",
+      "bytesRead": 595784,
+      "sha256": "eec14470de2b1fb43e63eb5a4f38e6e5f9aad1c305d5318703f81fca945ed24c"
+    },
+    {
+      "name": "css",
+      "url": "https://yydshly.github.io/20261104_codex_project/033-environment-emotion-lab/research.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "contentLength": "9334",
+      "cors": "*",
+      "bytesRead": 4096
+    },
+    {
+      "name": "reading",
+      "url": "https://yydshly.github.io/20261104_codex_project/033-environment-emotion-lab/demo/reading.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": "8210",
+      "cors": "*",
+      "bytesRead": 4096
+    },
+    {
+      "name": "notes",
+      "url": "https://yydshly.github.io/20261104_codex_project/033-environment-emotion-lab/demo/reading-notes.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": "63760",
+      "cors": "*",
+      "bytesRead": 4096
+    },
+    {
+      "name": "pond",
+      "url": "https://yydshly.github.io/20261104_codex_project/033-environment-emotion-lab/demo/index.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": "18630",
+      "cors": "*",
+      "bytesRead": 4096
+    },
+    {
+      "name": "character GLB",
+      "url": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/companion/companion.glb",
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "contentLength": "21879456",
+      "cors": "*",
+      "bytesRead": 4096
+    },
+    {
+      "name": "motions GLB",
+      "url": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/motions/reading-mocap.glb",
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "contentLength": "2737048",
+      "cors": "*",
+      "bytesRead": 4096
+    },
+    {
+      "name": "tree GLB",
+      "url": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/garden/island-tree-complete.glb",
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "contentLength": "32008792",
+      "cors": "*",
+      "bytesRead": 4096
+    },
+    {
+      "name": "duck GLB",
+      "url": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/models/duck-v5/mallard-preview.glb",
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "contentLength": "2551640",
+      "cors": "*",
+      "bytesRead": 4096
+    },
+    {
+      "name": "chair glTF",
+      "url": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/mid_century_lounge_chair/mid_century_lounge_chair_2k.gltf",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8",
+      "contentLength": "2884",
+      "cors": "*",
+      "bytesRead": 2884
+    },
+    {
+      "name": "rain recording",
+      "url": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/audio/rain-leaves.ogg",
+      "status": 200,
+      "contentType": "audio/ogg",
+      "contentLength": "980414",
+      "cors": "*",
+      "bytesRead": 4096
+    },
+    {
+      "name": "MiniMax narration",
+      "url": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/assets/reading/audio/reading-1.mp3",
+      "status": 200,
+      "contentType": "audio/mpeg",
+      "contentLength": "231540",
+      "cors": "*",
+      "bytesRead": 4096
+    },
+    {
+      "name": "historical video",
+      "url": "https://raw.githubusercontent.com/yydshly/20261104_codex_project/main/projects/033-environment-emotion-lab/runtime/docs/seat-contact-review/experience.mp4",
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "contentLength": "15279785",
+      "cors": "*",
+      "bytesRead": 4096
+    }
+  ],
+  "guideUnchanged": true,
+  "scope": "HTTP, MIME/header, asset signature and guide hash checks; browser rendering recorded separately.",
+  "deployedCommit": "4cc92e2793f035423630d60f2d7a5a451792ac10",
+  "workflow": "https://github.com/yydshly/20261104_codex_project/actions/runs/44926276271",
+  "deploymentSucceeded": true
+}

@@ -115,3 +115,12 @@ npm run test:connected
 ```
 
 发布沿用仓库已有 GitHub Pages 的 `main /docs`，没有新增账户、付费服务或在线生成。`publication-manifest.json` 与 `guide-provenance.json` 保存公开清单、原图一致性和交付方式。研究页、总库首页和根 README 共同说明研究方向、效果、价值、复用与边界；线上检查单独保留，历史验收不冒充本次新测量。
+
+
+## 本次公开发布验收 · 2026-11-22
+
+GitHub Pages 的首次公开版本为 `4cc92e2793f035423630d60f2d7a5a451792ac10`，[构建与部署任务](https://github.com/yydshly/20261104_codex_project/actions/runs/44926276271)已成功。14 项关键页面、引导图、样式、模型、动作、自然录音、MiniMax MP3 与实录资源均返回 200，原图 SHA-256 与公开版本一致。
+
+实际生产网页中，三维场景加载完成，第一到第三人称切换和拿书操作成功；自然声音进入就绪状态，MiniMax 朗读进入播放状态，着色器错误为 0，未记录页面错误。检查结束后已关闭验收播放。这次没有新增主观听感结论，跨设备与长期验证边界保持不变。
+
+[资源与原图校验](https://github.com/yydshly/20261104_codex_project/blob/main/projects/033-environment-emotion-lab/verification-online.json) · [生产浏览器检查](https://github.com/yydshly/20261104_codex_project/blob/main/projects/033-environment-emotion-lab/verification/browser.json) · [已部署研究页截图](https://github.com/yydshly/20261104_codex_project/blob/main/projects/033-environment-emotion-lab/verification/research.jpg)
