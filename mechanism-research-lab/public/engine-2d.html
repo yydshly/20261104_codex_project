@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>单缸发动机 · 四冲程二维示意</title>
+<style>
+:root{color-scheme:dark;--background:#111916;--foreground:#edf1e9;--muted:#28362e;--muted-foreground:#aab9ad;--viz-series-1:#baf390;--viz-series-2:#ffbd74;--viz-series-3:#ea9a85;--font-size-base:14px}
+body{margin:0 auto;padding:28px 14px;max-width:640px;background:var(--background);color:var(--foreground);font:15px "Segoe UI","Microsoft YaHei",sans-serif}
+h1{font-size:clamp(25px,6vw,42px);margin:24px 0}
+a{color:var(--viz-series-1)}
+.viz-row{display:flex;flex-wrap:wrap;gap:6px}
+.btn{color:inherit;background:var(--muted);border:1px solid #4a6253;border-radius:4px;padding:9px 13px;min-height:42px;cursor:pointer;font:inherit}
+.btn[aria-pressed=true]{background:var(--viz-series-1);color:var(--background)}
+</style>
+</head>
+<body><a href="./">← 返回机构研究所</a><main><h1>单缸发动机 · 四冲程</h1><section id="four-stroke-engine">
+  <style>
+    #four-stroke-engine { display: grid; gap: calc(var(--font-size-base) * .65); }
+    #four-stroke-engine svg { display: block; width: 100%; height: 308px; overflow: hidden; }
+    #four-stroke-engine .diagram-label { fill: var(--foreground); }
+    #four-stroke-engine .metal { fill: var(--muted); stroke: var(--foreground); stroke-width: 1.25; }
+    #four-stroke-engine .edge { fill: none; stroke: var(--muted-foreground); stroke-width: 1.25; }
+    #four-stroke-engine .guide { fill: none; stroke: var(--muted-foreground); stroke-width: 1; }
+    #four-stroke-engine .joint { fill: var(--background); stroke: var(--foreground); stroke-width: 1.5; }
+    #four-stroke-engine .flow { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    #four-stroke-engine [data-valve] { fill: var(--foreground); }
+  </style>
+  <div class="viz-row" role="group" aria-label="选择发动机冲程">
+    <button type="button" class="btn" data-step="0" aria-pressed="true">进气</button>
+    <button type="button" class="btn" data-step="1" aria-pressed="false">压缩</button>
+    <button type="button" class="btn" data-step="2" aria-pressed="false">做功</button>
+    <button type="button" class="btn" data-step="3" aria-pressed="false">排气</button>
+  </div>
+  <svg viewBox="0 0 312 308" role="img" aria-labelledby="eng-sketch-title">
+    <title id="eng-sketch-title">单缸四冲程发动机示意剖面。顶部是两个气门和火花塞，活塞通过连杆连接到曲轴的偏心销。</title>
+    <defs>
+      <marker id="eng-flow-tip" orient="auto" refX="7" refY="4" markerWidth="8" markerHeight="8" markerUnits="userSpaceOnUse">
+        <path d="M1 1L7 4 1 7" fill="none" stroke="context-stroke" stroke-width="1.5"/>
+      </marker>
+    </defs>
+    <g data-layout>
+      <path class="edge" d="M98 200V81H56V63H98V35H214V63H256V81H214V200"/>
+      <path class="edge" d="M88 200V91H56M224 200V91H256"/>
+      <rect data-gas x="99" y="82" width="114" height="65" fill="var(--viz-series-1)" opacity=".16"/>
+      <g data-valve="in"><rect x="120" y="54" width="4" height="24"/><rect x="111" y="77" width="22" height="5" rx="1"/></g>
+      <g data-valve="out"><rect x="188" y="54" width="4" height="24"/><rect x="179" y="77" width="22" height="5" rx="1"/></g>
+      <path class="metal" d="M152 37H160V70L158 74H154L152 70Z"/>
+      <path data-spark d="M156 75V81M150 77L153 82M162 77L159 82" stroke="var(--viz-series-2)" stroke-width="2" fill="none" visibility="hidden"/>
+      <path class="flow" data-intake d="M60 71H105Q124 71 124 91V106" marker-end="url(#eng-flow-tip)" color="var(--viz-series-1)"/>
+      <path class="flow" data-exhaust d="M190 107V91Q190 71 210 71H250" marker-end="url(#eng-flow-tip)" color="var(--viz-series-3)" visibility="hidden"/>
+      <circle class="edge" cx="156" cy="242" r="47"/>
+      <g data-crank>
+        <path class="edge" d="M113 242H199M156 199V285"/>
+        <path d="M156 242V208" stroke="var(--foreground)" stroke-width="13" stroke-linecap="round"/>
+      </g>
+      <path data-rod stroke="var(--foreground)" stroke-width="9" stroke-linecap="round" fill="none"/>
+      <circle class="joint" cx="156" cy="242" r="7"/>
+      <circle data-pin class="joint" r="6"/>
+      <g data-piston>
+        <rect class="metal" x="100" y="-15" width="112" height="30" rx="3"/>
+        <path class="edge" d="M102 -9H210M102 -5H210"/>
+        <circle class="joint" cx="156" cy="0" r="6"/>
+      </g>
+      <path class="flow" data-motion marker-end="url(#eng-flow-tip)" color="var(--foreground)"/>
+      <path class="guide" d="M122 51V48H85M190 51V48H226M156 33V22M201 253H229"/>
+      <path class="guide" data-piston-guide/>
+      <path class="guide" data-rod-guide/>
+      <text class="diagram-label" x="80" y="52" text-anchor="end">进气门</text>
+      <text class="diagram-label" x="230" y="52">排气门</text>
+      <text class="diagram-label" x="156" y="17" text-anchor="middle">火花塞</text>
+      <text class="diagram-label" x="233" y="258">曲轴</text>
+      <text class="diagram-label" x="77" data-piston-label text-anchor="end">活塞</text>
+      <text class="diagram-label" x="236" data-rod-label>连杆</text>
+    </g>
+  </svg>
+  <p data-status aria-live="polite">进气门开，排气门关。活塞下行。</p>
+  <script>
+    (() => {
+      const root = document.getElementById('four-stroke-engine');
+      const svg = root.querySelector('svg');
+      const get = (name) => svg.querySelector('[data-' + name + ']');
+      const buttons = [...root.querySelectorAll('[data-step]')];
+      const status = root.querySelector('[data-status]');
+      const crank = get('crank');
+      const rod = get('rod');
+      const pin = get('pin');
+      const piston = get('piston');
+      const gas = get('gas');
+      const spark = get('spark');
+      const intake = get('intake');
+      const exhaust = get('exhaust');
+      const motion = get('motion');
+      const pistonGuide = get('piston-guide');
+      const rodGuide = get('rod-guide');
+      const pistonLabel = get('piston-label');
+      const rodLabel = get('rod-label');
+      const inlet = svg.querySelector('[data-valve="in"]');
+      const outlet = svg.querySelector('[data-valve="out"]');
+      const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
+      const saved = window.openai?.widgetState?.modelContent?.stroke;
+      let step = Number.isInteger(saved) && saved >= 0 && saved <= 3 ? saved : 0;
+      let frame = 0;
+
+      function draw(progress) {
+        const angle = (step + progress) * Math.PI;
+        const crankX = 156 + 34 * Math.sin(angle);
+        const crankY = 242 - 34 * Math.cos(angle);
+        const pistonY = crankY - Math.sqrt(96 ** 2 - (crankX - 156) ** 2);
+        const rodX = (156 + crankX) / 2;
+        const rodY = (pistonY + crankY) / 2;
+        const down = step % 2 === 0;
+        crank.setAttribute('transform', 'rotate(' + angle * 180 / Math.PI + ' 156 242)');
+        rod.setAttribute('d', 'M156 ' + pistonY + 'L' + crankX + ' ' + crankY);
+        pin.setAttribute('cx', crankX);
+        pin.setAttribute('cy', crankY);
+        piston.setAttribute('transform', 'translate(0 ' + pistonY + ')');
+        gas.setAttribute('height', pistonY - 97);
+        gas.setAttribute('fill', 'var(--viz-series-' + (step === 2 ? 2 : step === 3 ? 3 : 1) + ')');
+        inlet.setAttribute('transform', 'translate(0 ' + (step === 0 ? 8 : 0) + ')');
+        outlet.setAttribute('transform', 'translate(0 ' + (step === 3 ? 8 : 0) + ')');
+        intake.setAttribute('visibility', step === 0 ? 'visible' : 'hidden');
+        exhaust.setAttribute('visibility', step === 3 ? 'visible' : 'hidden');
+        spark.setAttribute('visibility', step === 2 && progress < .15 ? 'visible' : 'hidden');
+        motion.setAttribute('d', 'M199 ' + (pistonY + (down ? 22 : 45)) + 'V' + (pistonY + (down ? 45 : 22)));
+        pistonGuide.setAttribute('d', 'M82 ' + pistonY + 'H99');
+        pistonLabel.setAttribute('y', pistonY + 5);
+        rodGuide.setAttribute('d', 'M' + rodX + ' ' + rodY + 'H231');
+        rodLabel.setAttribute('y', rodY + 5);
+      }
+
+      function show(next, animate) {
+        step = next;
+        cancelAnimationFrame(frame);
+        buttons.forEach((button, index) => button.setAttribute('aria-pressed', index === step));
+        status.textContent = [
+          '进气门开，排气门关。活塞下行。',
+          '两门关闭。活塞上行，压缩混合气。',
+          '两门关闭。点火后，膨胀的气体推动活塞下行。',
+          '排气门开，进气门关。活塞上行。'
+        ][step];
+        if (!animate || reduceMotion.matches) {
+          draw(.52);
+          return;
+        }
+        const start = performance.now();
+        function advance(now) {
+          const elapsed = Math.min(1, (now - start) / 1050);
+          draw(elapsed * .84);
+          if (elapsed < 1) frame = requestAnimationFrame(advance);
+        }
+        draw(0);
+        frame = requestAnimationFrame(advance);
+      }
+
+      buttons.forEach((button, index) => button.addEventListener('click', () => {
+        show(index, true);
+        window.openai?.setWidgetState?.({ modelContent: { stroke: index }, privateContent: null })?.catch(() => {});
+      }));
+      addEventListener('openai:set_globals', (event) => {
+        const value = event.detail?.globals?.widgetState?.modelContent?.stroke;
+        if (Number.isInteger(value) && value >= 0 && value <= 3 && value !== step) show(value, false);
+      });
+      const layout = get('layout');
+      new ResizeObserver(() => {
+        const width = svg.clientWidth;
+        if (!width) return;
+        svg.setAttribute('viewBox', '0 0 ' + width + ' 308');
+        layout.setAttribute('transform', 'translate(' + (width - 312) / 2 + ' 0)');
+      }).observe(svg);
+      show(step, false);
+    })();
+  </script>
+</section>
+</main></body></html>
