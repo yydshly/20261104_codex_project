@@ -52,6 +52,12 @@ DEST.mkdir(parents=True, exist_ok=True)
 for file in (HERE / 'web').iterdir():
     if file.is_file():
         copy(file, file.name)
+# New styles/scripts must also reach visitors who opened an earlier deployment.
+research_html = (HERE / 'web' / 'index.html').read_text(encoding='utf-8')
+for bundle in ['research.css', 'research.js']:
+    normalized = (HERE / 'web' / bundle).read_bytes().replace(b'\r\n', b'\n').rstrip(b'\n') + b'\n'
+    research_html = research_html.replace('"' + bundle + '"', '"' + bundle + '?v=' + digest(normalized)[:12] + '"')
+write('index.html', research_html.encode())
 copy(HERE / 'README.md', 'README.md')
 
 media = {
