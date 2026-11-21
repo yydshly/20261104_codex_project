@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f7f3">
+  <meta name="description" content="从社会全景走到生活细节。沿着资源、生产、治理、知识、照护、文化与全球连接，理解社会如何运转，以及 AI 可能改变什么。">
+  <title>见全 · 从整体理解社会</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./data.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">跳到主要内容</a>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="社会地图导航">
+      <a class="brand" href="#overview" aria-label="见全，返回社会全景">
+        <span class="brand-mark" aria-hidden="true">见</span>
+        <span class="brand-copy"><span class="brand-name">见全</span><span class="brand-en">SOCIETY ATLAS</span></span>
+      </a>
+      <p class="sidebar-intro">让零散的知识，<br>找到它在世界中的位置。</p>
+      <div class="nav-heading">社会的七个入口</div>
+      <nav class="system-nav" id="system-nav" aria-label="社会系统"></nav>
+      <div class="sidebar-bottom">
+        <div class="sidebar-note"><span aria-hidden="true">↗</span> 从整体，到机制，再到生活</div>
+        <p>一张可以不断展开的理解地图。<br>探索记录保存在当前浏览器。</p>
+      </div>
+    </aside>
+    <div class="workspace">
+      <header class="topbar">
+        <a class="mobile-brand" href="#overview">见全</a>
+        <nav class="breadcrumbs" id="breadcrumbs" aria-label="当前位置"></nav>
+        <div class="header-tools">
+          <div class="search-wrap">
+            <label class="sr-only" for="atlas-search">搜索社会系统、机制或生活问题</label>
+            <input class="search-input" id="atlas-search" type="search" placeholder="搜索一个概念或问题" autocomplete="off" aria-controls="search-results" aria-expanded="false">
+            <div class="search-results" id="search-results" hidden></div>
+          </div>
+          <button class="ai-toggle" id="ai-toggle" type="button" aria-pressed="false"><span aria-hidden="true">✳</span> AI 变化视角</button>
+        </div>
+      </header>
+      <nav class="view-tabs" id="view-tabs" aria-label="地图视角">
+        <a class="view-tab" href="./index.html#home">AI 认知全景</a>
+        <a class="view-tab active" href="#overview">结构全景</a>
+        <a class="view-tab" href="#history">历史视角</a>
+        <a class="view-tab" href="#explorations">我的探索</a>
+      </nav>
+      <main class="main-content" id="main-content" tabindex="-1">
+        <div class="empty-state">正在展开社会地图……</div>
+      </main>
+      <footer class="site-footer"><span>见全 · 理解世界，也理解自己身处其中</span><span>这是一种阅读框架，欢迎保留疑问与不同解释。</span></footer>
+    </div>
+  </div>
+  <div class="toast" id="atlas-toast" role="status" aria-live="polite" hidden></div>
+  <noscript><p>请启用 JavaScript，以浏览可逐层展开的社会地图。内容与搜索均在浏览器内运行。</p></noscript>
+</body>
+</html>

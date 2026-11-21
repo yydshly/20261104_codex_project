@@ -1,0 +1,12 @@
+{
+  "name": "society-atlas",
+  "version": "0.13.0",
+  "private": true,
+  "description": "见全：从行业、技能和思维方法进入跨领域科普",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "build:pages": "node scripts/publish-pages.mjs",
+    "check": "node --check dist/industry-data.js && node --check dist/industry-paths.js && node --check dist/industry-directions.js && node --check dist/industry-foundations.js && node --check dist/learning-data.js && node --check dist/learning.js && node --check dist/explore.js && node --check dist/research.js && node --check dist/assistant-case.js && node --check dist/assistant-eval-data.js && node --check dist/assistant-eval.js && node --check dist/assistant-ops-data.js && node --check dist/assistant-ops.js && node --check dist/assistant-project.js && node --check dist/context-data.js && node --check dist/context.js && node --check dist/context-articles.js && node --check dist/context-foundations.js && node --check dist/rag-data.js && node --check dist/rag.js && node --check dist/rag-articles.js && node --check dist/rag-foundations.js && node --check dist/agent-data.js && node --check dist/agent.js && node --check dist/agent-articles.js && node --check dist/agent-foundations.js && node --check dist/llm-data.js && node --check dist/llm.js && node --check dist/llm-articles.js && node --check dist/llm-foundations.js && node --check dist/navigation.js && node --check dist/navigation-data.js && node --check dist/roam-data.js && node --check dist/roam.js && node --check dist/journey.js && node --check dist/journey-catalog.js && node --check dist/journey-data.js && node --check dist/ai-expansion.js && node --check dist/computing-data.js && node --check dist/education-data.js && node --check dist/ai.js && node --check dist/ai-core.js && node --check dist/ai-data.js && node --check dist/ai-guide.js && node --check dist/ai-reading.js && node --check dist/app.js && node --check dist/data.js && node --test tests/*.test.mjs"
+  }
+}

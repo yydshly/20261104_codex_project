@@ -1,0 +1,218 @@
+/* Evaluation stations share the project palette and card layout. */
+.assistant-eval .project-stops {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.assistant-eval .eval-builder,
+.assistant-eval .eval-review-card {
+  min-width: 0;
+  margin: 16px 0 22px;
+  padding: clamp(15px, 2vw, 24px);
+  border: 1px solid var(--project-border);
+  border-radius: 12px;
+  background: var(--surface);
+}
+
+.assistant-eval .eval-builder-fields,
+.assistant-eval .eval-criteria,
+.assistant-eval .eval-metrics {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.assistant-eval .eval-builder fieldset,
+.assistant-eval .eval-case-picker fieldset {
+  min-width: 0;
+  margin: 0;
+  padding: 12px 14px;
+  border: 1px solid var(--project-border);
+  border-radius: 8px;
+}
+
+.assistant-eval .eval-builder > fieldset + fieldset {
+  margin-top: 12px;
+}
+
+.assistant-eval .eval-builder legend,
+.assistant-eval .eval-case-picker legend {
+  padding-inline: 4px;
+  color: var(--green-dark);
+  font-weight: 650;
+  line-height: 1.6;
+}
+
+.assistant-eval .eval-builder label,
+.assistant-eval .eval-case-picker label {
+  display: block;
+  min-width: 0;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.assistant-eval .eval-builder :is(select, textarea, input[type="text"]),
+.assistant-eval .eval-case-picker select {
+  max-width: 100%;
+  margin-top: 5px;
+}
+
+.assistant-eval .eval-builder textarea {
+  resize: vertical;
+}
+
+.assistant-eval .eval-builder :is(input[type="radio"], input[type="checkbox"]) {
+  flex: none;
+  width: 17px;
+  height: 17px;
+  margin: 0;
+}
+
+.assistant-eval .eval-builder label:has(input:is([type="radio"], [type="checkbox"])) {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 44px;
+}
+
+.assistant-eval .eval-criteria label {
+  padding: 7px 11px;
+  border: 1px solid var(--project-border);
+  border-radius: 8px;
+  background: #f5f7f0;
+  cursor: pointer;
+}
+
+.assistant-eval .eval-criteria label:has(input:checked) {
+  border-color: #9ab090;
+  background: var(--project-wash);
+}
+
+.assistant-eval .eval-builder .button {
+  min-height: 44px;
+  margin-top: 14px;
+}
+
+.assistant-eval .eval-status {
+  display: inline-block;
+  max-width: 100%;
+  padding: 2px 8px;
+  border-radius: 5px;
+  background: #e8eee3;
+  color: #465f40;
+  font-size: 13px;
+  font-weight: 650;
+  line-height: 1.7;
+}
+
+.assistant-eval .eval-status[data-status="warn"] {
+  background: #f5e8cf;
+  color: #734c1b;
+}
+
+.assistant-eval .eval-status[data-status="unknown"] {
+  background: #eeeee8;
+  color: #55584e;
+}
+
+.assistant-eval .eval-report,
+.assistant-eval .eval-case-picker {
+  min-width: 0;
+  margin-block: 16px 22px;
+}
+
+.assistant-eval .eval-report h3,
+.assistant-eval .eval-review-card h3 {
+  margin: 4px 0 7px;
+}
+
+.assistant-eval .eval-report p,
+.assistant-eval .eval-review-card p {
+  line-height: 1.8;
+}
+
+.assistant-eval .eval-table-wrap {
+  max-width: 100%;
+  min-width: 0;
+  margin-block: 14px 20px;
+  overflow-x: auto;
+  border: 1px solid var(--project-border);
+  border-radius: 10px;
+  background: var(--surface);
+}
+
+.assistant-eval .eval-table-wrap:focus-visible {
+  outline: 3px solid #6f9875;
+  outline-offset: 3px;
+}
+
+.assistant-eval .eval-table-wrap table {
+  width: 100%;
+  min-width: 34rem;
+  border-collapse: collapse;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.assistant-eval .eval-table-wrap caption {
+  padding: 11px 13px;
+  color: var(--green-dark);
+  font-weight: 650;
+  text-align: start;
+}
+
+.assistant-eval .eval-table-wrap :is(th, td) {
+  padding: 10px 13px;
+  border-block-end: 1px solid var(--project-border);
+  text-align: start;
+  vertical-align: top;
+}
+
+.assistant-eval .eval-table-wrap thead th {
+  background: var(--project-wash);
+  color: var(--green-dark);
+}
+
+.assistant-eval .eval-table-wrap tbody th { color: var(--ink); }
+.assistant-eval .eval-table-wrap tbody tr:nth-child(even) { background: #f5f7f0; }
+.assistant-eval .eval-table-wrap tbody tr:last-child > * { border-block-end: 0; }
+
+.assistant-eval .eval-metrics {
+  margin-block: 14px 18px;
+}
+
+.assistant-eval .eval-metrics > * {
+  min-width: 0;
+  padding: 13px 16px;
+  border: 1px solid var(--project-border);
+  border-radius: 9px;
+  background: var(--project-wash);
+}
+
+.assistant-eval .eval-metrics strong {
+  color: var(--green-dark);
+  font-variant-numeric: tabular-nums;
+}
+
+.assistant-eval .eval-handoff {
+  display: grid;
+  grid-template-columns: minmax(6rem, max-content) minmax(0, 1fr);
+  gap: 8px 14px;
+  margin-block: 12px 18px;
+  padding: 14px;
+  border: 1px solid var(--project-border);
+  border-radius: 8px;
+  background: #f5f7f0;
+  line-height: 1.75;
+}
+
+.assistant-eval .eval-handoff dt { color: var(--green-dark); font-weight: 650; }
+.assistant-eval .eval-handoff dd { min-width: 0; margin: 0; }
+
+@media (max-width: 760px) {
+  .assistant-eval .project-stops { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .assistant-eval .eval-builder-fields,
+  .assistant-eval .eval-criteria { grid-template-columns: minmax(0, 1fr); }
+  .assistant-eval .eval-table-wrap :is(th, td) { padding: 8px 10px; }
+  .assistant-eval .eval-handoff { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+  .assistant-eval .eval-handoff dd + dt { margin-top: 7px; }
+}

@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f6f0">
+  <meta name="description" content="见全：面向大众的跨领域认知导航。从社会全景进入行业、技能与思维方法，发现认知盲区，找到基础与深入路线，用图解和练习检查理解。">
+  <title>见全 · 从整体到细节</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./ai.css">
+  <link rel="stylesheet" href="./ai-reading.css">
+  <link rel="stylesheet" href="./journey.css">
+  <link rel="stylesheet" href="./roam.css">
+  <link rel="stylesheet" href="./navigation.css">
+  <link rel="stylesheet" href="./llm.css">
+  <link rel="stylesheet" href="./agent.css">
+  <link rel="stylesheet" href="./rag.css">
+  <link rel="stylesheet" href="./context.css">
+  <link rel="stylesheet" href="./assistant-project.css">
+  <link rel="stylesheet" href="./assistant-eval.css">
+  <link rel="stylesheet" href="./assistant-ops.css">
+  <link rel="stylesheet" href="./explore.css">
+  <link rel="stylesheet" href="./project-overview.css">
+  <link rel="stylesheet" href="./research.css">
+  <script src="./vendor/feather.min.js" defer></script>
+  <script src="./ai-data.js" defer></script>
+  <script src="./ai-guide.js" defer></script>
+  <script src="./ai-reading.js" defer></script>
+  <script src="./ai-core.js" defer></script>
+  <script src="./data.js" defer></script>
+  <script src="./journey-data.js" defer></script>
+  <script src="./ai-expansion.js" defer></script>
+  <script src="./computing-data.js" defer></script>
+  <script src="./education-data.js" defer></script>
+  <script src="./llm-articles.js" defer></script>
+  <script src="./llm-foundations.js" defer></script>
+  <script src="./agent-articles.js" defer></script>
+  <script src="./agent-foundations.js" defer></script>
+  <script src="./rag-articles.js" defer></script>
+  <script src="./rag-foundations.js" defer></script>
+  <script src="./context-articles.js" defer></script>
+  <script src="./context-foundations.js" defer></script>
+  <script src="./journey-catalog.js" defer></script>
+  <script src="./roam-data.js" defer></script>
+  <script src="./roam.js" defer></script>
+  <script src="./navigation-data.js" defer></script>
+  <script src="./navigation.js" defer></script>
+  <script src="./llm-data.js" defer></script>
+  <script src="./llm.js" defer></script>
+  <script src="./agent-data.js" defer></script>
+  <script src="./agent.js" defer></script>
+  <script src="./rag-data.js" defer></script>
+  <script src="./rag.js" defer></script>
+  <script src="./context-data.js" defer></script>
+  <script src="./context.js" defer></script>
+  <script src="./assistant-case.js" defer></script>
+  <script src="./assistant-eval-data.js" defer></script>
+  <script src="./assistant-eval.js" defer></script>
+  <script src="./assistant-ops-data.js" defer></script>
+  <script src="./assistant-ops.js" defer></script>
+  <script src="./assistant-project.js" defer></script>
+  <script src="./industry-data.js" defer></script>
+  <script src="./industry-paths.js" defer></script>
+  <script src="./industry-directions.js" defer></script>
+  <script src="./industry-foundations.js" defer></script>
+  <script src="./learning-data.js" defer></script>
+  <script src="./learning.js" defer></script>
+  <script src="./explore.js" defer></script>
+  <script src="./research.js" defer></script>
+  <script src="./journey.js" defer></script>
+  <script src="./ai.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">跳到主要内容</a>
+  <div class="ai-app">
+    <header class="app-header">
+      <a class="brand" href="#home" aria-label="见全，返回探索首页">见全</a>
+      <nav class="main-nav" aria-label="主要导航">
+        <a href="#home" data-nav="explore">探索首页</a>
+        <a href="#learn/industries" data-nav="directions">行业全景</a>
+        <a href="#search" data-nav="search">科普专题</a>
+        <a href="#project-overview" data-nav="project-overview">项目总览</a>
+      </nav>
+      <form id="global-search" class="header-search" role="search"><label class="sr-only" for="global-query">搜索行业、技能或问题</label><button type="submit" aria-label="搜索"><span data-header-icon="search"></span></button><input id="global-query" name="query" type="search" placeholder="搜索行业、技能或问题" maxlength="100"></form>
+      <details class="origin-control"><summary>我的起点：<strong id="origin-label">程序员</strong><span>更换</span></summary><div class="origin-options"><p>选择熟悉的起点，所有领域仍可浏览。</p><button type="button" data-origin="programmer">程序员 · 从工作出发</button><button type="button" data-origin="">自由浏览 · 不设起点</button></div></details>
+    </header>
+    <nav id="breadcrumb" class="breadcrumb" aria-label="当前位置"></nav>
+    <div id="storage-notice" class="notice" hidden role="status"></div>
+    <div class="app-layout">
+      <aside id="context-rail" class="context-rail" aria-label="全景与当前位置"></aside>
+      <main id="main-content" tabindex="-1"><p class="empty-state">正在打开探索首页……</p></main>
+    </div>
+    <footer class="app-footer"><span>见全 · 行业、技能和思维普及</span><a href="#home">探索首页</a><a href="#search">全部科普</a><a href="#research">研究与共识</a><a href="./society.html#overview">社会专题</a><a href="#study/records">我的学习记录</a><a href="#study/sources">内容来源与覆盖</a><a href="#records">已有理解记录</a></footer>
+  </div>
+  <template id="project-overview-template">
+    <article class="project-overview" id="jianquan-overview" aria-labelledby="project-overview-title">
+      <header class="overview-hero">
+        <div class="overview-hero-meta"><span>见全 · 跨领域认知启蒙</span><span>个人探索与小范围试用</span></div>
+        <h1 id="project-overview-title">从看见盲区到用证据解释</h1>
+        <p>发现自己还没想到的问题，知道下一步学什么，再用新情境检验自己能否说清判断依据。</p>
+        <dl class="overview-metrics" aria-label="当前覆盖">
+          <div><dt>社会板块</dt><dd>7</dd></div>
+          <div><dt>行业门类</dt><dd>20</dd></div>
+          <div><dt>代表性工作方向</dt><dd>60</dd></div>
+          <div><dt>通用基础概念</dt><dd>14</dd></div>
+        </dl>
+      </header>
+
+      <details class="overview-guide">
+        <summary>查看研究引导长图 · 目标、能力、范围与多模型审核</summary>
+        <figure>
+          <a href="./assets/jianquan-overview.png" target="_blank" rel="noopener"><img src="./assets/jianquan-overview.png" width="2950" height="4590" loading="lazy" alt="见全研究引导图：三种认知状态、两种入口、学习路线、当前范围、内容依据与待试点的多模型审核"></a>
+          <figcaption>沿用本次研究生成的 2950 × 4590 长图。点击图片查看高清原图，下面的交互总览可直接进入相关路线。</figcaption>
+        </figure>
+      </details>
+
+      <section class="overview-section" aria-labelledby="overview-goal">
+        <h2 id="overview-goal"><span>01</span> 我们的理解与目标</h2>
+        <ol class="overview-chain overview-goals">
+          <li><h3>不知道自己不知道</h3><p>从熟悉的现象入手，发现判断中漏看的线索。</p></li>
+          <li><h3>知道自己不知道</h3><p>说出缺的是概念、适用条件，还是能核对的证据。</p></li>
+          <li><h3>知道自己知道</h3><p>换个场景，仍能解释判断、证据和结论的边界。</p></li>
+        </ol>
+      </section>
+
+      <section class="overview-section" aria-labelledby="overview-method">
+        <h2 id="overview-method"><span>02</span> 能力与学习原理</h2>
+        <div class="overview-pair overview-entry">
+          <div><h3>还没想好学什么</h3><p>逛<a href="#home">世界全景</a>，从社会板块和行业进入，或<a href="#study">先试一个身边的问题</a>。</p></div>
+          <div><h3>已经有具体问题</h3><p><a href="#search">搜索现象、行业或概念</a>，找到工作方向和需要补的基础。</p></div>
+        </div>
+        <p class="overview-join">两种入口汇入同一条学习路线</p>
+        <ol class="overview-chain overview-steps">
+          <li><h3>先判断</h3><p>从直觉出发</p></li>
+          <li><h3>看反馈</h3><p>找到漏看的条件</p></li>
+          <li><h3>补基础</h3><p>读图解与参考成果</p></li>
+          <li><h3>换场景再试</h3><p>用新证据重新判断</p></li>
+          <li><h3>留下解释</h3><p>记录依据与待补内容</p></li>
+        </ol>
+      </section>
+
+      <div class="overview-pair overview-scope-and-effects">
+        <section class="overview-section" aria-labelledby="overview-scope">
+          <h2 id="overview-scope"><span>03</span> 当前范围</h2>
+          <p class="overview-bands">社会板块 → 行业门类 → 工作方向 → 技能与思维方式</p>
+          <p>七个板块涵盖生存与资源、生产与交换、治理与协作、人口与照护、全球连接、文化与表达、知识与技术。</p>
+          <p>20 个行业各有代表性案例。可深入 AI、信息组织、软件与计算、教育与传播四个专题领域。</p>
+          <p>AI 展开大语言模型、智能体、RAG 与上下文工程。公司知识库助手串起检索、核验、评估与运行监控。</p>
+          <p class="overview-note">子行业、岗位变体和专业知识仍按方向扩展。</p>
+        </section>
+
+        <section class="overview-section" aria-labelledby="overview-effects">
+          <h2 id="overview-effects"><span>04</span> 三条已走通的学习路线</h2>
+          <dl class="overview-cases">
+            <div><dt><a href="#study/testing">软件测试</a></dt><dd>同样显示空列表，能用请求记录区分空结果与认证失败。</dd></div>
+            <div><dt><a href="#study/quality">制造质检</a></dt><dd>抽查量和产品规格变化后，能重算比例并说出复查条件。</dd></div>
+            <div><dt><a href="#study/assessment">教育反馈</a></dt><dd>同样选对答案，能用新作答区分谁讲清了理由。</dd></div>
+          </dl>
+          <p class="overview-note"><a href="#study/records">学习记录</a>保存在当前浏览器，可回看判断、反馈和自己的解释。</p>
+        </section>
+      </div>
+
+      <section class="overview-section" aria-labelledby="overview-sources">
+        <h2 id="overview-sources"><span>05</span> 内容依据与覆盖边界</h2>
+        <dl class="overview-evidence">
+          <div><dt>原始资料</dt><dd>行业门类采用国家统计局 A–T 分类。三条样板标明规范或专业资料支持的具体说法。</dd></div>
+          <div><dt>教学归纳</dt><dd>社会板块、工作方向、学习顺序和知识关联由本站整理。</dd></div>
+          <div><dt>虚构练习</dt><dd>案例记录、数据和示范答案为解释判断过程而编写。</dd></div>
+        </dl>
+        <p class="overview-note"><a href="#study/sources">查看内容出处与覆盖</a>。方向知识图待试点，按节点标出已有讲练、已有导览和出处待核。</p>
+      </section>
+
+      <section class="overview-section overview-review" aria-labelledby="overview-models">
+        <div class="overview-review-heading"><h2 id="overview-models"><span>06</span> 多模型审核与互补</h2><span class="overview-badge">待试点</span></div>
+        <p>把同一份路线草稿、关键说法和学习目标交给不同模型独立审稿。</p>
+        <div class="overview-pair overview-review-roles">
+          <div><h3>模型 A · 核对事实</h3><p>定位原文章节，检查说法、证据和适用条件。</p></div>
+          <div><h3>模型 B · 查找缺口</h3><p>对照学习目标，找漏掉的基础、例外和换例练习。</p></div>
+        </div>
+        <p class="overview-review-flow">合并意见 → 对照原文与覆盖清单 → 修订并复核</p>
+        <p>每条意见附位置、依据和改法，有分歧时标记为待复核。在三条路线的测试副本里加入已知事实错误、引用错位和内容缺口，记录各模型发现了什么、共同漏掉了什么，以及哪些是误报。</p>
+      </section>
+    </article>
+    <nav class="overview-actions" aria-label="总览图操作">
+      <a class="button secondary" href="#home">返回世界全景</a>
+      <a class="button secondary" href="#research">阅读研究与共识</a>
+      <a class="button primary" href="./assets/jianquan-overview.png" download>下载高清总览图</a>
+    </nav>
+  </template>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <noscript><p>请启用 JavaScript 浏览地图与实验。内容、计算和记录均在本地运行。</p></noscript>
+</body>
+</html>

@@ -1,0 +1,91 @@
+/* Agent maps share the LLM reading structure; these diagrams explain the system around it. */
+.agent-entry { background: #edf2e3; border-color: #c7d4b6; }
+.cog-submaps { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 18px; align-items: stretch; }
+.cog-submaps > .llm-entry { min-width: 0; display: flex; flex-direction: column; align-items: flex-start; }
+.cog-submaps > .llm-entry .button { margin-top: auto; }
+.cog-submaps > .llm-entry > p:last-of-type { margin-bottom: 15px; }
+.agent-relationship { position: relative; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); grid-template-areas: '. hub .' 'model information tools'; gap: 30px 18px; margin: 22px 0 29px; isolation: isolate; }
+.agent-relationship::before { content: ''; grid-column: 1 / -1; grid-row: 2; align-self: start; position: relative; top: -16px; height: 1px; margin-inline: 16.667%; background: #b7c9a8; z-index: -1; }
+.agent-relationship > :nth-child(1) { grid-area: model; }
+.agent-relationship > :nth-child(3) { grid-area: information; }
+.agent-relationship > :nth-child(4) { grid-area: tools; }
+.agent-relationship > a, .agent-relationship > article, .agent-relationship > div { position: relative; min-width: 0; display: flex; flex-direction: column; gap: 8px; padding: 20px 18px; border: 1px solid #d3ddc6; border-radius: 13px; background: #f5f7ed; }
+.agent-relationship > a:hover { background: #e8efdc; border-color: #9db58b; }
+.agent-relationship > :not(.agent-hub)::before { content: ''; position: absolute; top: -16px; left: 50%; width: 1px; height: 15px; background: #b7c9a8; }
+.agent-relationship .agent-hub { grid-area: hub; background: #e4edd7; border-color: #afc29b; }
+.agent-relationship .agent-hub::after { content: ''; position: absolute; bottom: -16px; left: 50%; width: 1px; height: 15px; background: #b7c9a8; }
+.agent-relationship small, .agent-relationship .eyebrow { color: var(--ochre); font-size: 11px; letter-spacing: .02em; line-height: 1.7; }
+.agent-relationship h2, .agent-relationship h3, .agent-relationship strong { color: var(--green-dark); font-size: 20px; line-height: 1.55; margin: 0; }
+.agent-relationship p, .agent-relationship span { font-size: 13px; line-height: 1.85; color: #627357; }
+.agent-relationship svg { width: 19px; height: 19px; flex: 0 0 auto; vertical-align: middle; }
+.agent-relationship > a > span:last-child { margin-top: auto; padding-top: 5px; color: var(--green); font-size: 12px; }
+.agent-cycle { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 17px; list-style: none; padding: 0; margin: 22px 0; }
+.agent-cycle > li, .agent-cycle > a, .agent-cycle > div { position: relative; display: flex; flex-direction: column; gap: 7px; min-width: 0; margin: 0; padding: 17px 15px; border: 1px solid #d5dfc9; border-radius: 11px; background: #fffef9; }
+.agent-cycle > :not(:first-child)::before { content: '→'; position: absolute; left: -18px; top: 45%; color: #8ca17d; width: 17px; text-align: center; font-size: 16px; }
+.agent-cycle small { color: #7f8d72; font-size: 11px; line-height: 1.6; font-variant-numeric: tabular-nums; }
+.agent-cycle strong, .agent-cycle h3 { font-size: 17px; line-height: 1.6; color: var(--green-dark); margin: 0; }
+.agent-cycle p, .agent-cycle span { font-size: 13px; line-height: 1.85; color: #64755b; }
+.agent-cycle [aria-current]:not([aria-current="false"]), .agent-cycle .is-active, .agent-cycle [data-state="active"] { background: var(--green); border-color: var(--green); }
+.agent-cycle [aria-current]:not([aria-current="false"]) strong, .agent-cycle .is-active strong, .agent-cycle [data-state="active"] strong { color: #fffef9; }
+.agent-cycle [aria-current]:not([aria-current="false"]) p, .agent-cycle [aria-current]:not([aria-current="false"]) small, .agent-cycle [aria-current]:not([aria-current="false"]) span,
+.agent-cycle .is-active p, .agent-cycle .is-active small, .agent-cycle [data-state="active"] p, .agent-cycle [data-state="active"] small { color: #e3ecda; }
+.agent-cycle .is-done, .agent-cycle [data-state="done"] { background: #eaf1df; border-color: #b5caa3; }
+.agent-cycle .is-blocked, .agent-cycle [data-state="blocked"] { background: #fbf2e2; border-color: #d5b578; }
+.agent-cycle .is-blocked strong, .agent-cycle [data-state="blocked"] strong { color: #856127; }
+.agent-run-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin: 18px 0; }
+.agent-run-actions button { min-height: 44px; max-width: 100%; white-space: normal; line-height: 1.7; }
+.agent-run-actions .quiet { padding: 8px 12px; border: 1px solid #c8d5bb; border-radius: 9px; }
+.agent-run-actions button:disabled { cursor: not-allowed; opacity: .55; }
+.agent-demo .llm-flow:has(> li:nth-child(4)) { grid-template-columns: repeat(4,minmax(0,1fr)); }
+.agent-observation { padding: 20px; margin: 19px 0; background: #fffef9; border: 1px solid #cad9bb; border-radius: 12px; min-width: 0; }
+.agent-observation h3 { margin: 0 0 8px; font-size: 19px; color: var(--green-dark); }
+.agent-observation p, .agent-observation li { font-size: 14px; line-height: 1.9; color: #5f7056; }
+.agent-observation p + p { margin-top: 9px; }
+.agent-observation ul, .agent-observation ol { padding-left: 21px; margin: 10px 0; }
+.agent-observation dl { display: grid; grid-template-columns: minmax(70px,auto) minmax(0,1fr); gap: 8px 15px; margin: 13px 0; font-size: 13px; line-height: 1.85; }
+.agent-observation dt { font-weight: 650; color: var(--green-dark); }
+.agent-observation dd { margin: 0; color: #617357; overflow-wrap: anywhere; }
+.agent-observation code, .agent-observation pre { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 12px; max-width: 100%; }
+.agent-observation .agent-status { margin-bottom: 9px; }
+.agent-status { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 6px; max-width: 100%; padding: 5px 10px; border: 1px solid #c8d5b7; border-radius: 7px; background: #e9f0dc; color: #486b3b; font-size: 12px; font-weight: 600; line-height: 1.7; }
+.agent-status[data-status="blocked"], .agent-status[data-status="stopped"], .agent-status[data-status="failure"], .agent-status.is-warning { background: #f7ecd7; color: #815d25; border-color: #d7bd85; }
+.agent-status[data-status="complete"], .agent-status[data-status="completed"], .agent-status[data-status="success"] { background: #e4efda; color: #395b31; border-color: #abc495; }
+.agent-note { color: #6e7c61; font-size: 12px; line-height: 1.85; }
+body.agent-mode .knowledge-head .qualifier { line-height: 1.85; }
+
+@media (max-width: 1000px) {
+  body.journey-mode.agent-mode .context-rail { display: none; }
+  body.journey-mode.agent-mode .app-layout { grid-template-columns: minmax(0,1fr); }
+  .agent-cycle { gap: 16px; }
+}
+@media (max-width: 640px) {
+  .cog-submaps { grid-template-columns: minmax(0,1fr); gap: 0; }
+  .agent-relationship { grid-template-columns: minmax(0,1fr); grid-template-areas: 'hub' 'model' 'information' 'tools'; gap: 12px; margin: 18px 0 24px; padding-left: 16px; }
+  .agent-relationship::before { position: absolute; left: 0; top: 20px; bottom: 20px; width: 1px; height: auto; margin: 0; }
+  .agent-relationship > a, .agent-relationship > article, .agent-relationship > div { padding: 15px 12px; border-radius: 11px; gap: 6px; }
+  .agent-relationship > :not(.agent-hub)::before { top: 20px; left: -17px; width: 16px; height: 1px; }
+  .agent-relationship .agent-hub::after { top: 20px; bottom: auto; left: -17px; width: 16px; height: 1px; }
+  .agent-relationship h2, .agent-relationship h3, .agent-relationship strong { font-size: 17px; }
+  .agent-relationship p, .agent-relationship span { font-size: 12px; }
+  .agent-relationship small, .agent-relationship .eyebrow { font-size: 10px; }
+  .agent-cycle { grid-template-columns: minmax(0,1fr); gap: 18px; margin: 19px 0; }
+  .agent-demo .llm-flow:has(> li:nth-child(4)) { grid-template-columns: minmax(0,1fr); }
+  .agent-cycle > li, .agent-cycle > a, .agent-cycle > div { padding: 15px; gap: 5px; }
+  .agent-cycle > :not(:first-child)::before { content: '↓'; left: 50%; top: -20px; width: 18px; transform: translateX(-50%); font-size: 16px; color: #8ca17d; }
+  .agent-cycle strong, .agent-cycle h3 { font-size: 16px; }
+  .agent-cycle p, .agent-cycle span { font-size: 12px; }
+  .agent-run-actions { gap: 9px; }
+  .agent-run-actions button { flex: 1 1 130px; font-size: 13px; justify-content: center; }
+  .agent-observation { padding: 16px 14px; margin: 16px 0; }
+  .agent-observation h3 { font-size: 17px; }
+  .agent-observation p, .agent-observation li { font-size: 13px; }
+  .agent-observation dl { grid-template-columns: minmax(0,1fr); gap: 3px; }
+  .agent-observation dd + dt { margin-top: 8px; }
+  .agent-status { font-size: 11px; padding: 5px 8px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .agent-cycle *, .agent-relationship * { transition: none; }
+}
+
+.agent-map-shortcut { margin: 16px 0 0 18px; }
+@media (max-width: 640px) { .agent-map-shortcut { display: flex; margin-left: 0; } }
