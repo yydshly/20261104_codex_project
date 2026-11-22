@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-22",
+  "original_text": "sources/18.json mirror2026-11-12; live X403",
+  "sources": [
+    {
+      "url": "https://www.adobe.com/in/creativecloud/video/production/cinematography/camera-shots-and-angles.html",
+      "status": "official_body_read",
+      "scope": "shot, angle and movement vocabulary"
+    },
+    {
+      "url": "https://threejs.org/manual/pages/cameras.html",
+      "status": "official_body_read",
+      "scope": "projection, framing and clipping concepts"
+    },
+    {
+      "url": "https://docs.blender.org/manual/en/5.4/editors/graph_editor/fcurves/properties.html",
+      "status": "official_search_excerpt_read_body402",
+      "scope": "interpolation concepts only"
+    }
+  ],
+  "authored_notes": {
+    "file": "references/18-camera/official-notes.md",
+    "sha256": "12ff2dd9aad22ce17cd5f96b708b1fb7e5951954cf6bb94ceb306c5783d726c3"
+  },
+  "scope": "No model identification, author tool invocation, source-project reproduction, audio audit or XiaoYou generation."
+}

@@ -1,0 +1,52 @@
+{
+  "case_id": "07",
+  "review_date": "2026-11-21",
+  "source": "https://video.twimg.com/amplify_video/2118736033118654464/vid/avc1/1664x1248/kW7Ud_TMLT4cLgxu.mp4?tag=29",
+  "metadata_duration_seconds": 11.65,
+  "browser_duration_seconds": 11.702857,
+  "samples": [
+    {
+      "file": "experiments/07-original-start.jpg",
+      "seconds": 0,
+      "ready_state": 4,
+      "paused": true,
+      "observation": "黄绿色服装人物抬起双手；未展示采集设备"
+    },
+    {
+      "file": "experiments/07-original-early.jpg",
+      "seconds": 2.912938,
+      "ready_state": 4,
+      "paused": true,
+      "observation": "闭眼露齿笑与手势；缺少原表演对照"
+    },
+    {
+      "file": "experiments/07-original-middle.jpg",
+      "seconds": 5.851428,
+      "ready_state": 4,
+      "paused": true,
+      "observation": "背身和腿部构图；不据此推断采集覆盖"
+    },
+    {
+      "file": "experiments/07-original-later.jpg",
+      "seconds": 8.789918,
+      "ready_state": 4,
+      "paused": true,
+      "observation": "张嘴、挤眼与脸部近景；未做保真测量"
+    },
+    {
+      "file": "experiments/07-original-end.jpg",
+      "seconds": 11.702857,
+      "ready_state": 4,
+      "paused": true,
+      "observation": "鼓腮/噘嘴；作者成片，不是小柚样片"
+    }
+  ],
+  "decode_note": "2.912938和5.851428秒首次定位readyState=1，等待完成后按readyState=4重截，交付不用首次截图。",
+  "capture_method": "浏览器原生时间轴；未下载、转码或重绘视频。截图画面1280×720，原视频1664×1248。",
+  "scope": "取样5处画面；未逐帧/逐音素量测，没有原表演、重建和生成对照。",
+  "actor_original_available": false,
+  "reconstruction_available": false,
+  "seedance_job_available": false,
+  "xiaoyou_tested": false
+}
+

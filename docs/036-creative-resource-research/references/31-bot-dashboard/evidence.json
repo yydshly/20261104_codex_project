@@ -1,0 +1,135 @@
+{
+  "case_id": "31",
+  "checked_date": "2026-11-22",
+  "source_snapshot": "sources/31.json",
+  "video": {
+    "id": "2118920881229709312",
+    "stored_duration_seconds": 34.62,
+    "stored_dimensions": [
+      2234,
+      1286
+    ],
+    "reviewed_cdn_variant": {
+      "duration_seconds": 34.667392,
+      "width": 1250,
+      "height": 720
+    },
+    "frames": [
+      {
+        "file": "experiments/31-bot-dashboard/video-00.jpg",
+        "seconds": 0,
+        "caption": "Content 楼层，左侧两条 Waiting on me，顶部有 View 与 Approve"
+      },
+      {
+        "file": "experiments/31-bot-dashboard/video-05.jpg",
+        "seconds": 4.800542,
+        "caption": "待处理计数降至 0，角色上方显示批准后的发布状态"
+      },
+      {
+        "file": "experiments/31-bot-dashboard/video-10.jpg",
+        "seconds": 10.061017,
+        "caption": "Research 楼层，右侧列出研究、竞品监测、导入与摘要任务"
+      },
+      {
+        "file": "experiments/31-bot-dashboard/video-15.jpg",
+        "seconds": 15.465221,
+        "caption": "Sales 楼层，上方状态计数、右侧岗位、下方周额度并排"
+      },
+      {
+        "file": "experiments/31-bot-dashboard/video-19.jpg",
+        "seconds": 19.144679,
+        "caption": "Ops 楼层，Inbox Zero 显示正在拟回复，左下事件流保留摘要"
+      },
+      {
+        "file": "experiments/31-bot-dashboard/video-22.jpg",
+        "seconds": 22.220475,
+        "caption": "回到 Content，完成数与活动摘要独立于当前楼层"
+      },
+      {
+        "file": "experiments/31-bot-dashboard/video-28.jpg",
+        "seconds": 28.170849,
+        "caption": "QT Scout 再出现在待我处理和顶部提示中，画面显示周用量 32%"
+      },
+      {
+        "file": "experiments/31-bot-dashboard/video-35.jpg",
+        "seconds": 34.667392,
+        "caption": "片尾显示 1 项 errors，活动区有工具超时并重试"
+      }
+    ]
+  },
+  "earlier_posts": [
+    {
+      "author": "@0x_rody",
+      "url": "https://x.com/0x_rody/status/2117711857314398559",
+      "video_id": "2117708298044735488",
+      "duration_seconds": 28.5,
+      "connection": "措辞高度相近，媒体不同"
+    },
+    {
+      "author": "@0xCodila",
+      "url": "https://x.com/0xCodila/status/2116960213206966317",
+      "video_id": "2116956847051603968",
+      "duration_seconds": 32.647,
+      "connection": "相关实现说明，媒体与界面不同"
+    }
+  ],
+  "source_limit": "未核实中文帖逐字提示词和复现工程。Codila 早期公开 Pages 地址在本轮访问所得 404，其说明仅用于机制对照。",
+  "claims": {
+    "setup_usage": "中文帖自述约2%，未见实际账号的用量差分；录像计数约31%到32%是界面中另一个指标。",
+    "private_channel": "中文帖宣称只有自己可读，原案未实测。较早相关方案曾使用 ntfy 随机主题，访问边界需看实际身份校验。"
+  },
+  "sources": [
+    {
+      "label": "第31条中文原帖",
+      "url": "https://x.com/0xSilver_Time/status/2118920944479871280"
+    },
+    {
+      "label": "rody 较早英文帖",
+      "url": "https://x.com/0x_rody/status/2117711857314398559"
+    },
+    {
+      "label": "Codila 相关方案",
+      "url": "https://x.com/0xCodila/status/2116960213206966317"
+    },
+    {
+      "label": "Grok Bot 用量说明",
+      "url": "https://docs.x.ai/grok-bot/settings-and-notifications#usage-and-billing"
+    },
+    {
+      "label": "Grok Bot 定时任务",
+      "url": "https://docs.x.ai/grok-bot/skills-routines-and-automations"
+    },
+    {
+      "label": "Grok Pages 分享范围",
+      "url": "https://docs.x.ai/grok-bot/files-and-results"
+    },
+    {
+      "label": "ntfy 公共主题说明",
+      "url": "https://docs.ntfy.sh/publish/#public-topics"
+    },
+    {
+      "label": "ntfy 访问控制",
+      "url": "https://docs.ntfy.sh/config/#access-control"
+    },
+    {
+      "label": "Codila 方案公开存档",
+      "url": "https://xitter.cf/0xCodila/status/2116960213206966317"
+    },
+    {
+      "label": "原帖文字与媒体快照",
+      "url": "sources/31.json"
+    },
+    {
+      "label": "第22条 Paper Worlds",
+      "url": "#22"
+    },
+    {
+      "label": "第15条分阶段确认",
+      "url": "#15"
+    },
+    {
+      "label": "rody 英文帖公开存档",
+      "url": "https://teapawt.net/0x_rody/status/2117711857314398559"
+    }
+  ]
+}

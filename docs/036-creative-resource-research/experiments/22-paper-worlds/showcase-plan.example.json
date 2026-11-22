@@ -1,0 +1,60 @@
+{
+  "status": "候选规格，未执行",
+  "case_id": "22",
+  "purpose": "把已有小柚作品的来源、方法和成品连起来",
+  "display_label": "流程演示",
+  "duration_seconds_candidate": 9,
+  "stages": [
+    {
+      "range_seconds": [
+        0,
+        3
+      ],
+      "title": "角色基准",
+      "input": "获准参考图",
+      "output": "基准图与一句话来源"
+    },
+    {
+      "range_seconds": [
+        3,
+        6
+      ],
+      "title": "场景与镜头",
+      "input": "已完成场景图/镜头",
+      "output": "一项选择及理由"
+    },
+    {
+      "range_seconds": [
+        6,
+        9
+      ],
+      "title": "最终作品",
+      "input": "已完成视频",
+      "output": "可播放作品与入口"
+    }
+  ],
+  "max_active_labels_candidate": 3,
+  "fallbacks": [
+    "首屏直接查看作品",
+    "跳过到完整态",
+    "减弱动态静态态",
+    "无脚本静态态",
+    "错误仍保留内容"
+  ],
+  "comparison": {
+    "A": "同内容静态页",
+    "B": "短动画页",
+    "record": [
+      "三项理解问题答对数",
+      "到达作品入口时间",
+      "跳过与错误记录",
+      "加载与帧率观察"
+    ]
+  },
+  "out_of_scope": [
+    "新素材生成",
+    "付费调用",
+    "原作复制",
+    "多agent生产部署"
+  ]
+}

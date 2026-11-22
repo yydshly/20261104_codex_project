@@ -1,0 +1,95 @@
+{
+  "retrieved_date": "2026-11-22",
+  "repository": "https://github.com/sarpstar/cinecode",
+  "commit": "c8a3e7552699360a2b0142c9620882af2069eedb",
+  "commit_date": "2026-11-12T21:40:33Z",
+  "method": "Public GitHub connector pinned text snapshots; documents and selected rendering/audio/caption interfaces reviewed, not a full line-by-line audit. Source files not executed.",
+  "files": [
+    {
+      "file": "references/16-cinecode/LICENSE",
+      "path": "LICENSE",
+      "url": "https://github.com/sarpstar/cinecode/blob/c8a3e7552699360a2b0142c9620882af2069eedb/LICENSE",
+      "sha256": "a27dda60518acb8211ccc3181914539556117cd00930d1adbae504ef63b793c9"
+    },
+    {
+      "file": "references/16-cinecode/README.zh-CN.md",
+      "path": "README.zh-CN.md",
+      "url": "https://github.com/sarpstar/cinecode/blob/c8a3e7552699360a2b0142c9620882af2069eedb/README.zh-CN.md",
+      "sha256": "9fe89a84ff42160a909e30d07c05e8cddb0e203be7c6ab4af2156d90fa92a3fa"
+    },
+    {
+      "file": "references/16-cinecode/references--footage-edit.md",
+      "path": "references/footage-edit.md",
+      "url": "https://github.com/sarpstar/cinecode/blob/c8a3e7552699360a2b0142c9620882af2069eedb/references/footage-edit.md",
+      "sha256": "2fdb5c15542827487f0de2f5001263abe1f3029494d0eb2042d350c580e66d08"
+    },
+    {
+      "file": "references/16-cinecode/references--quick-mode.md",
+      "path": "references/quick-mode.md",
+      "url": "https://github.com/sarpstar/cinecode/blob/c8a3e7552699360a2b0142c9620882af2069eedb/references/quick-mode.md",
+      "sha256": "1c80d9a78533b769ab7ec4e396b96d80f7008357d91fb806a17bb20a87db9ace"
+    },
+    {
+      "file": "references/16-cinecode/scripts--captions.py",
+      "path": "scripts/captions.py",
+      "url": "https://github.com/sarpstar/cinecode/blob/c8a3e7552699360a2b0142c9620882af2069eedb/scripts/captions.py",
+      "sha256": "3b0813d395cead77280088344e1a53490a45a6421e7a909ccfb7e79aaa2e0065"
+    },
+    {
+      "file": "references/16-cinecode/scripts--capture.mjs",
+      "path": "scripts/capture.mjs",
+      "url": "https://github.com/sarpstar/cinecode/blob/c8a3e7552699360a2b0142c9620882af2069eedb/scripts/capture.mjs",
+      "sha256": "fb3afa093db8a855e8f79deabe7bf5011994a235dd39084b019f4d8b2e6540dc"
+    },
+    {
+      "file": "references/16-cinecode/scripts--formats.py",
+      "path": "scripts/formats.py",
+      "url": "https://github.com/sarpstar/cinecode/blob/c8a3e7552699360a2b0142c9620882af2069eedb/scripts/formats.py",
+      "sha256": "13477844895d0efb5c9d44f6837cb45105152ffc8bb6c536e69393316e1d4bb6"
+    },
+    {
+      "file": "references/16-cinecode/scripts--make.py",
+      "path": "scripts/make.py",
+      "url": "https://github.com/sarpstar/cinecode/blob/c8a3e7552699360a2b0142c9620882af2069eedb/scripts/make.py",
+      "sha256": "3efb416dac2513a08f774e3629c44a842052686570c463fdf4b3d8bd6080bfe7"
+    },
+    {
+      "file": "references/16-cinecode/scripts--qc.py",
+      "path": "scripts/qc.py",
+      "url": "https://github.com/sarpstar/cinecode/blob/c8a3e7552699360a2b0142c9620882af2069eedb/scripts/qc.py",
+      "sha256": "7bd6dd2fc9f28e149f723e93fbd5848a970d1c412ff247622c6029d46493bfde"
+    },
+    {
+      "file": "references/16-cinecode/scripts--tts.py",
+      "path": "scripts/tts.py",
+      "url": "https://github.com/sarpstar/cinecode/blob/c8a3e7552699360a2b0142c9620882af2069eedb/scripts/tts.py",
+      "sha256": "f7440b51e64988b8aa5128696b6cd932916efecb77d29f6b1876d664b0218990"
+    },
+    {
+      "file": "references/16-cinecode/SKILL.md",
+      "path": "SKILL.md",
+      "url": "https://github.com/sarpstar/cinecode/blob/c8a3e7552699360a2b0142c9620882af2069eedb/SKILL.md",
+      "sha256": "55d3e01fcce0fc5943cea850c1680cbe99bfc5eb45876b511a7d695fd89b6cae"
+    },
+    {
+      "file": "references/16-cinecode/templates--quick--film.html",
+      "path": "templates/quick/film.html",
+      "url": "https://github.com/sarpstar/cinecode/blob/c8a3e7552699360a2b0142c9620882af2069eedb/templates/quick/film.html",
+      "sha256": "7e358932ae86a90255ebb92b6ea075428893c75788d47494c1879fe9d1f8b8d1"
+    },
+    {
+      "file": "references/16-cinecode/templates--quick--REVIEWER.md",
+      "path": "templates/quick/REVIEWER.md",
+      "url": "https://github.com/sarpstar/cinecode/blob/c8a3e7552699360a2b0142c9620882af2069eedb/templates/quick/REVIEWER.md",
+      "sha256": "c0fefc91f1a8aaf60d13928456fbb8f33e066992934c66ec00dcd193963f86fb"
+    }
+  ],
+  "source_posts": "sources/16.json public mirror 2026-11-12; both live X403 this round",
+  "original_video": "experiments/16-cinecode/original-video-review.json",
+  "local_versions": "experiments/16-cinecode/environment-readonly.json",
+  "limitations": [
+    "No original author project or task logs.",
+    "Current commit is later than original post.",
+    "No install, generation, source-code execution, upload, key access, audio audit or XiaoYou output."
+  ]
+}

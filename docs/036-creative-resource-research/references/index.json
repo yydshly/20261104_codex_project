@@ -1,0 +1,182 @@
+[
+  {
+    "id": "rgbmocap",
+    "url": "https://github.com/toyxyz/toyxyz_RGBMocap",
+    "fetch_url": "https://raw.githubusercontent.com/toyxyz/toyxyz_RGBMocap/main/README.md",
+    "file": "references/rgbmocap.txt",
+    "sha256": "18f29de72fdc12fa7af516e1f29fc50beefa752b01846b52c23681c2281c866b",
+    "retrieved_at": "2026-11-12T12:24:35.844579+08:00",
+    "status": "readable"
+  },
+  {
+    "id": "character-swap",
+    "url": "https://huggingface.co/akatz-ai/MiniMax-H3-Character-Swap-LoRA",
+    "fetch_url": "https://huggingface.co/akatz-ai/MiniMax-H3-Character-Swap-LoRA/raw/main/README.md",
+    "file": "references/character-swap.txt",
+    "sha256": "a4f57b0b819d696040b7c5ff2e48f44add06518db00c3937fa6f395688a9727c",
+    "retrieved_at": "2026-11-12T12:24:36.576898+08:00",
+    "status": "readable"
+  },
+  {
+    "id": "rea-video",
+    "url": "https://github.com/JuneYaooo/rea-video",
+    "fetch_url": "https://raw.githubusercontent.com/JuneYaooo/rea-video/main/README.md",
+    "file": "references/rea-video.txt",
+    "sha256": "209679d4e9a23b2214d52c27c01a7b771f0027503efdceede95644a737701e7a",
+    "retrieved_at": "2026-11-12T12:24:37.167320+08:00",
+    "status": "readable"
+  },
+  {
+    "id": "livliv",
+    "url": "https://github.com/livliv-dev/player",
+    "fetch_url": "https://raw.githubusercontent.com/livliv-dev/player/main/README.md",
+    "file": "references/livliv.txt",
+    "sha256": "4abb7aa9be9b69e976d1a14ef9973a27929c386c0dd7d0ccf04f944a872492d2",
+    "retrieved_at": "2026-11-12T12:24:37.899375+08:00",
+    "status": "readable"
+  },
+  {
+    "id": "collage-broll",
+    "url": "https://github.com/pyang5166/gbro-collage-broll",
+    "fetch_url": "https://raw.githubusercontent.com/pyang5166/gbro-collage-broll/main/README.md",
+    "file": "references/collage-broll.txt",
+    "sha256": "49f3f238469d796304d46652e13bbcb8ad78c63f51550282ef922a669c96294c",
+    "retrieved_at": "2026-11-12T12:24:38.526156+08:00",
+    "status": "readable"
+  },
+  {
+    "id": "cinecode",
+    "url": "https://github.com/sarpstar/cinecode",
+    "fetch_url": "https://raw.githubusercontent.com/sarpstar/cinecode/main/README.md",
+    "file": "references/cinecode.txt",
+    "sha256": "eb9f6ca4e8f125855a9c47563c122d476359806fa997a0911153f81064c1a212",
+    "retrieved_at": "2026-11-12T12:24:39.432609+08:00",
+    "status": "readable"
+  },
+  {
+    "id": "sand3d",
+    "url": "https://github.com/Sandflow-ai/sand3d",
+    "fetch_url": "https://raw.githubusercontent.com/Sandflow-ai/sand3d/main/README.md",
+    "file": "references/sand3d.txt",
+    "sha256": "6fa5be62a49897762e67e618de60f621a329450385266b5a67f04e22f69a9da9",
+    "retrieved_at": "2026-11-12T12:24:40.115966+08:00",
+    "status": "readable"
+  },
+  {
+    "id": "sprite-gen",
+    "url": "https://github.com/aldegad/sprite-gen",
+    "fetch_url": "https://raw.githubusercontent.com/aldegad/sprite-gen/main/README.md",
+    "file": "references/sprite-gen.txt",
+    "sha256": "41f51775b66faf64aee9ee1885ae42268f0e87f07fb8d799fb3791288558d323",
+    "retrieved_at": "2026-11-12T12:24:40.745114+08:00",
+    "status": "readable"
+  },
+  {
+    "id": "h3-control",
+    "url": "https://huggingface.co/alibaba-pai/MiniMax-H3-Fun-Controlnet-Union-2.0",
+    "fetch_url": "https://huggingface.co/alibaba-pai/MiniMax-H3-Fun-Controlnet-Union-2.0/raw/main/README.md",
+    "file": "references/h3-control.txt",
+    "sha256": "438ec5a845ae0471bbb5427adcca5d6c22bdf6fd219f7dcebe4dbc3968fb58b4",
+    "retrieved_at": "2026-11-12T12:24:41.390261+08:00",
+    "status": "readable"
+  },
+  {
+    "id": "h3-base",
+    "url": "https://github.com/MiniMax-AI/MiniMax-H3",
+    "fetch_url": "https://raw.githubusercontent.com/MiniMax-AI/MiniMax-H3/main/README.md",
+    "file": "references/h3-base.txt",
+    "sha256": "c2110b3754d927b1eaf7cfe7decb522b187a0bc44e659080bc65fc23260bd0c9",
+    "retrieved_at": "2026-11-12T12:24:42.571266+08:00",
+    "status": "readable"
+  },
+  {
+    "id": "livliv-20261121",
+    "url": "https://github.com/livliv-dev/player/blob/e3f6b640a338a22f8ac7e829821267a9a48b4a12/README.md",
+    "fetch_url": "https://raw.githubusercontent.com/livliv-dev/player/e3f6b640a338a22f8ac7e829821267a9a48b4a12/README.md",
+    "file": "references/06-livliv/README.md",
+    "sha256": "530dbf304abc4c100ca86a4a12b5aafaf63e852f97ba2d9439b1bcaac8772262",
+    "retrieved_date": "2026-11-21",
+    "commit": "e3f6b640a338a22f8ac7e829821267a9a48b4a12",
+    "status": "readable"
+  },
+  {
+    "id": "rgbmocap-20261121",
+    "url": "https://github.com/toyxyz/toyxyz_RGBMocap/blob/44c9bcfa5a5dda9e6718bb471d17dbb3165f1310/README.md",
+    "fetch_url": "https://raw.githubusercontent.com/toyxyz/toyxyz_RGBMocap/44c9bcfa5a5dda9e6718bb471d17dbb3165f1310/README.md",
+    "file": "references/08-rgbmocap/README.md",
+    "sha256": "073c3203ac680b8edd77f4537ad04b5b38c09bb6d7d9b3917a96f55ccf580b36",
+    "retrieved_date": "2026-11-21",
+    "commit": "44c9bcfa5a5dda9e6718bb471d17dbb3165f1310",
+    "status": "readable"
+  },
+  {
+    "id": "dollstudio-20261121",
+    "url": "https://github.com/link-ding/doll-studio/blob/127968436dca6d564b6075de94259679e4f17c43/README.md",
+    "fetch_url": "https://raw.githubusercontent.com/link-ding/doll-studio/127968436dca6d564b6075de94259679e4f17c43/README.md",
+    "file": "references/09-doll-studio/README.md",
+    "sha256": "197b5365302974d0ef8859c37610361a1bc6256c6d5973bc858cf21438ad276d",
+    "retrieved_date": "2026-11-21",
+    "commit": "127968436dca6d564b6075de94259679e4f17c43",
+    "status": "readable"
+  },
+  {
+    "id": "rea-video-20261121",
+    "url": "https://github.com/JuneYaooo/rea-video/blob/612b3ef523c868d4c7cd5741ce29ba159f7582cb/README.md",
+    "fetch_url": "https://raw.githubusercontent.com/JuneYaooo/rea-video/612b3ef523c868d4c7cd5741ce29ba159f7582cb/README.md",
+    "file": "references/10-rea-video/README.md",
+    "sha256": "6c65c83c4fd8de2fd5a9d584942cefb846202342628021368f1a3361be7427ae",
+    "retrieved_date": "2026-11-21",
+    "commit": "612b3ef523c868d4c7cd5741ce29ba159f7582cb",
+    "status": "readable"
+  },
+  {
+    "id": "collage-broll-20261122",
+    "url": "https://github.com/pyang5166/gbro-collage-broll/blob/a1a4ee2e2abf7d44e460026b706d0c72c2cf8a91/README.md",
+    "fetch_url": "https://raw.githubusercontent.com/pyang5166/gbro-collage-broll/a1a4ee2e2abf7d44e460026b706d0c72c2cf8a91/README.md",
+    "file": "references/14-collage-broll/README.md",
+    "sha256": "a9a9ef7aefb058b51126d6a92ab9b2d70ddebd3f221062cf1efa6675975f2f85",
+    "retrieved_date": "2026-11-22",
+    "commit": "a1a4ee2e2abf7d44e460026b706d0c72c2cf8a91",
+    "status": "readable"
+  },
+  {
+    "id": "cinecode-20261122",
+    "url": "https://github.com/sarpstar/cinecode/blob/c8a3e7552699360a2b0142c9620882af2069eedb/README.zh-CN.md",
+    "fetch_url": "https://raw.githubusercontent.com/sarpstar/cinecode/c8a3e7552699360a2b0142c9620882af2069eedb/README.zh-CN.md",
+    "file": "references/16-cinecode/README.zh-CN.md",
+    "sha256": "9fe89a84ff42160a909e30d07c05e8cddb0e203be7c6ab4af2156d90fa92a3fa",
+    "retrieved_date": "2026-11-22",
+    "commit": "c8a3e7552699360a2b0142c9620882af2069eedb",
+    "status": "readable"
+  },
+  {
+    "id": "sprite-gen-20261122",
+    "url": "https://github.com/aldegad/sprite-gen/blob/bb3be7b127d46de237e0b4e03f026be4fd207da6/README.zh-Hans.md",
+    "fetch_url": "https://raw.githubusercontent.com/aldegad/sprite-gen/bb3be7b127d46de237e0b4e03f026be4fd207da6/README.zh-Hans.md",
+    "file": "references/19-sprite-gen/README.zh-Hans.md",
+    "sha256": "91326139b6ae5a481fb967cbf26c7e2a2f329f3fc5118005534fae86cce38360",
+    "retrieved_date": "2026-11-22",
+    "commit": "bb3be7b127d46de237e0b4e03f026be4fd207da6",
+    "status": "readable"
+  },
+  {
+    "id": "swarm-build-animation",
+    "url": "https://github.com/harnoorDev/swarm-build",
+    "fetch_url": "https://raw.githubusercontent.com/harnoorDev/swarm-build/ab77869ca766da7396e1dbeb8c42b7f3d4c6e629/README.md",
+    "file": "references/22-paper-worlds/README.md.txt",
+    "sha256": "0ab026d68b0b1e734b01eca9b7051caad26574473d81727ca7845b221ab81075",
+    "retrieved_at": "2026-11-22",
+    "status": "readable",
+    "note": "相关动画机制示例，未证明是Sean原工程；固定ab77869c，未运行。"
+  },
+  {
+    "id": "sand3d-v163-review",
+    "url": "https://github.com/Sandflow-ai/sand3d",
+    "fetch_url": "https://raw.githubusercontent.com/Sandflow-ai/sand3d/f840420fe9996dca4728d7a5eb8bfb87135d91ce/README.md",
+    "file": "references/23-sand3d/README.md.txt",
+    "sha256": "0a94b3a78c16fd112a3f6b9ef57d5621e7e08a2213e9e94d1e0e0b883249cc95",
+    "retrieved_at": "2026-11-22",
+    "status": "readable",
+    "note": "固定f840420f/1.6.3，13份资料＋5数据卡；官网两个控件通过，本机建模未运行。"
+  }
+]

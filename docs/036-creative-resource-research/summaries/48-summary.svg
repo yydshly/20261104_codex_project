@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="2160" viewBox="0 0 1440 2160" role="img" aria-labelledby="title desc"><title id="title">48 用漏斗拆解 CrazyGames 首发测试 · 研究总结图</title><desc id="desc">研究源、内容方法、原作效果、对小柚的价值、待验证项和下一步。未生成小柚样片。</desc>
+<style>text{font-family:"Microsoft YaHei","Microsoft YaHei UI",sans-serif}a:hover text{text-decoration:underline}</style>
+<rect x="0" y="0" width="1440" height="2160" rx="0" fill="#f2f3ec" stroke="none"/>
+<rect x="0" y="0" width="1440" height="290" rx="0" fill="#183e35" stroke="none"/>
+<text x="72" y="66" font-size="23" fill="#bdd4c5" font-weight="400">小柚创作研究  /  单条总结</text>
+<text x="1260" y="102" font-size="82" fill="#729783" font-weight="700">48</text>
+<text x="72" y="143" font-size="58" fill="#ffffff" font-weight="700">用漏斗拆解 CrazyGames 首发测试</text>
+<text x="72" y="193" font-size="25" fill="#c9dbd1" font-weight="400">CrazyGames 上线阶段与玩家表现</text>
+<text x="72" y="252" font-size="32" fill="#f4dfaa" font-weight="600">先找出玩家在哪一步退出，再决定该改封面、加载还是玩法。</text>
+<rect x="64" y="318" width="1312" height="184" rx="22" fill="#ffffff" stroke="#d8e1d5"/>
+<text x="88" y="364" font-size="24" fill="#2c6655" font-weight="700">01</text><text x="140" y="364" font-size="32" fill="#183e35" font-weight="700">研究源</text>
+<text x="88" y="412" font-size="30" fill="#183e35" font-weight="600">@CryY666666 原帖 ＋ CrazyGames Basic Launch 指南</text>
+<text x="88" y="454" font-size="25" fill="#61756d" font-weight="400">原帖只有文字。模块展示原文入口和摘要。</text>
+<rect x="64" y="526" width="1312" height="300" rx="22" fill="#ffffff" stroke="#d8e1d5"/>
+<text x="88" y="574" font-size="24" fill="#2c6655" font-weight="700">02</text><text x="140" y="574" font-size="32" fill="#183e35" font-weight="700">研究内容与方法</text>
+<text x="88" y="619" font-size="26" fill="#61756d" font-weight="400">先跑 Basic Launch，拆开看封面、首次加载、首分钟行为及次日回访。</text>
+<rect x="88" y="644" width="392" height="112" rx="22" fill="#eaf1e5" stroke="none"/>
+<text x="106" y="681" font-size="29" fill="#2c6655" font-weight="700">测点击和启动</text>
+<text x="106" y="714" font-size="24" fill="#183e35" font-weight="400">封面、首帧、输入</text><text x="106" y="744" font-size="24" fill="#183e35" font-weight="400">广告先留到后面</text>
+<text x="490" y="706" font-size="30" fill="#2c6655" font-weight="700">→</text>
+<rect x="524" y="644" width="392" height="112" rx="22" fill="#eaf1e5" stroke="none"/>
+<text x="542" y="681" font-size="29" fill="#2c6655" font-weight="700">测一局</text>
+<text x="542" y="714" font-size="24" fill="#183e35" font-weight="400">玩满 1 分钟比率</text><text x="542" y="744" font-size="24" fill="#183e35" font-weight="400">平均游玩时间</text>
+<text x="926" y="706" font-size="30" fill="#2c6655" font-weight="700">→</text>
+<rect x="960" y="644" width="392" height="112" rx="22" fill="#eaf1e5" stroke="none"/>
+<text x="978" y="681" font-size="29" fill="#2c6655" font-weight="700">测回来</text>
+<text x="978" y="714" font-size="24" fill="#183e35" font-weight="400">次日是否主动再玩</text><text x="978" y="744" font-size="24" fill="#183e35" font-weight="400">晋级后按要求接 SDK</text>
+<text x="88" y="796" font-size="23" fill="#61756d" font-weight="400">小柚的验证方案依据原作观察与公开资料整理。</text>
+<rect x="64" y="850" width="1312" height="560" rx="22" fill="#ffffff" stroke="#d8e1d5"/>
+<text x="88" y="900" font-size="24" fill="#2c6655" font-weight="700">03</text><text x="140" y="900" font-size="32" fill="#183e35" font-weight="700">原作展示的效果</text>
+<rect x="88" y="924" width="580" height="420" rx="14" fill="#eaf1e5" stroke="none"/>
+<text x="124" y="999" font-size="36" fill="#2c6655" font-weight="700">原帖要点</text>
+<text x="124" y="1076" font-size="25" fill="#183e35" font-weight="400">先 Basic Launch 看玩家表现</text><text x="124" y="1125" font-size="25" fill="#183e35" font-weight="400">平均时长与次日留存</text><text x="124" y="1174" font-size="25" fill="#183e35" font-weight="400">转化需达到平台口径</text><text x="124" y="1223" font-size="25" fill="#183e35" font-weight="400">Full Launch 再正式变现</text>
+<text x="708" y="962" font-size="30" fill="#2c6655" font-weight="700">可核对的原作表现</text>
+<text x="708" y="1069" font-size="22" fill="#7a967b" font-weight="700">01</text>
+<text x="756" y="1069" font-size="25" fill="#183e35" font-weight="400">Basic 测试期为 7–21 天。</text>
+<text x="708" y="1163" font-size="22" fill="#7a967b" font-weight="700">02</text>
+<text x="756" y="1163" font-size="25" fill="#183e35" font-weight="400">转化看开局后是否玩满 1 分钟。</text>
+<text x="708" y="1257" font-size="22" fill="#7a967b" font-weight="700">03</text>
+<text x="756" y="1257" font-size="25" fill="#183e35" font-weight="400">11月23日起新开／重启加 CTR。</text>
+<text x="88" y="1381" font-size="21" fill="#61756d" font-weight="400">文字原帖 · 无图片或视频附件</text>
+<text x="708" y="1342" font-size="20" fill="#61756d" font-weight="400">以下小柚用法需要用自己的素材验证。</text>
+<rect x="64" y="1434" width="1312" height="264" rx="22" fill="#deebdc" stroke="none"/>
+<text x="88" y="1484" font-size="24" fill="#2c6655" font-weight="700">04</text><text x="140" y="1484" font-size="32" fill="#183e35" font-weight="700">对小柚的价值</text>
+<text x="1230" y="1484" font-size="22" fill="#61756d" font-weight="400">待实测兑现</text>
+<text x="88" y="1541" font-size="29" fill="#2c6655" font-weight="700">查出漏在哪一段</text>
+<text x="88" y="1590" font-size="25" fill="#183e35" font-weight="400">封面、启动、首分钟分开</text><text x="88" y="1630" font-size="25" fill="#183e35" font-weight="400">用对应方式改善</text>
+<text x="524" y="1541" font-size="29" fill="#2c6655" font-weight="700">先把游戏做顺</text>
+<text x="524" y="1590" font-size="25" fill="#183e35" font-weight="400">失败能重来，进度明确</text><text x="524" y="1630" font-size="25" fill="#183e35" font-weight="400">缩短首屏等待</text>
+<text x="960" y="1541" font-size="29" fill="#2c6655" font-weight="700">再考虑分发变现</text>
+<text x="960" y="1590" font-size="25" fill="#183e35" font-weight="400">记每轮改动与样本</text><text x="960" y="1630" font-size="25" fill="#183e35" font-weight="400">过平台最终检查</text>
+<rect x="64" y="1722" width="1312" height="172" rx="22" fill="#f6ecd8" stroke="#e7d7b6"/>
+<text x="88" y="1768" font-size="29" fill="#805c2c" font-weight="700">待验证 · 当前交付边界</text>
+<text x="88" y="1816" font-size="26" fill="#715d41" font-weight="400">所列规则核对于 2026-11-22。未提交游戏或测得真实 CrazyGames 指标。</text>
+<rect x="64" y="1918" width="1312" height="144" rx="22" fill="#183e35" stroke="none"/>
+<text x="88" y="1965" font-size="30" fill="#f4dfaa" font-weight="700">小柚试验</text>
+<text x="88" y="2007" font-size="26" fill="#eff5ec" font-weight="400">用同一小柚玩法做两次试玩，先记录封面意愿、可操作时间、首分钟和结束。</text>
+<text x="72" y="2107" font-size="22" fill="#61756d" font-weight="400">资料核对 2026.11.22  ·  总结图 2026.11.22  ·  状态：首轮研究完成，实作待验证</text>
+<a href="https://x.com/CryY666666/status/2118937818064126317" target="_blank"><text x="72" y="2141" font-size="18" fill="#2c6655" font-weight="400">[1] @CryY666666 </text></a>
+<a href="https://docs.crazygames.com/resources/basic-launch-metrics/" target="_blank"><text x="328" y="2141" font-size="18" fill="#2c6655" font-weight="400">[2] CrazyGames B</text></a>
+<a href="https://docs.crazygames.com/requirements/intro/" target="_blank"><text x="584" y="2141" font-size="18" fill="#2c6655" font-weight="400">[3] CrazyGames 两</text></a>
+<a href="https://docs.crazygames.com/requirements/technical/" target="_blank"><text x="840" y="2141" font-size="18" fill="#2c6655" font-weight="400">[4] CrazyGames 技</text></a>
+</svg>

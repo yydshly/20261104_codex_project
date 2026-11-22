@@ -1,0 +1,221 @@
+{
+  "case_id": "29",
+  "checked_date": "2026-11-22",
+  "source_post": "https://x.com/tanglele0318/status/2119078444268982627",
+  "quoted_post": "https://x.com/bei351009016/status/2119022818570723340",
+  "video_post": "https://x.com/anxuanng/status/2118780114913927353",
+  "video_origin_check": "公开原发布帖镜像视频 ID 与第29条引用附件一致",
+  "release": {
+    "url": "https://huggingface.co/datasets/codepawl/plateau-city-glb",
+    "commit": "881710936a18413a4070e618abbb0b813d1fc30a",
+    "updated_at": "2026-11-14T19:11:28Z",
+    "source_year": 2020,
+    "license": "CC BY 4.0",
+    "counts": {
+      "tokyo": 671,
+      "osaka": 36,
+      "yokohama": 23,
+      "nagoya": 35,
+      "sapporo": 32
+    },
+    "total": 797
+  },
+  "candidate_tiles": [
+    {
+      "label": "东京站附近",
+      "city": "tokyo",
+      "reference_latlon_approx": [
+        35.68124,
+        139.76713
+      ],
+      "id": "tokyo-53394611",
+      "crs": "EPSG:6677",
+      "bounds_latlon": [
+        35.675,
+        139.7625,
+        35.6833333,
+        139.775
+      ],
+      "offset_m": [
+        1487.02,
+        0,
+        -3708.09
+      ],
+      "engine_mb_display": 11.6,
+      "asset": "https://huggingface.co/datasets/codepawl/plateau-city-glb/blob/881710936a18413a4070e618abbb0b813d1fc30a/engine/tokyo-53394611/tokyo-53394611.glb"
+    },
+    {
+      "label": "大阪城附近",
+      "city": "osaka",
+      "reference_latlon_approx": [
+        34.6873,
+        135.5262
+      ],
+      "id": "osaka-52350422",
+      "crs": "EPSG:6674",
+      "bounds_latlon": [
+        34.6833333,
+        135.525,
+        34.6916667,
+        135.5375
+      ],
+      "offset_m": [
+        1893.75,
+        0,
+        3090.26
+      ],
+      "engine_mb_display": 2.49,
+      "asset": "https://huggingface.co/datasets/codepawl/plateau-city-glb/blob/881710936a18413a4070e618abbb0b813d1fc30a/engine/osaka-52350422/osaka-52350422.glb"
+    }
+  ],
+  "video": {
+    "id": "2118779954242719744",
+    "width": 1920,
+    "height": 1080,
+    "duration_seconds": 30,
+    "frame_evidence": [
+      {
+        "file": "experiments/29-plateau/video-00.jpg",
+        "seconds": 0,
+        "caption": "开头 · 局部楼群、地面和远处的网格边缘"
+      },
+      {
+        "file": "experiments/29-plateau/video-05.jpg",
+        "seconds": 5.048543,
+        "caption": "压低视角看天际线，细纹理楼群与白模同时出现"
+      },
+      {
+        "file": "experiments/29-plateau/video-10.jpg",
+        "seconds": 10,
+        "caption": "拉至高位全景，城市块边缘和开放区域更容易看见"
+      },
+      {
+        "file": "experiments/29-plateau/video-15.jpg",
+        "seconds": 15,
+        "caption": "镜头靠近高楼，近处立面纹理随运动显得较软"
+      },
+      {
+        "file": "experiments/29-plateau/video-20.jpg",
+        "seconds": 20.048543,
+        "caption": "楼群与道路、空地同框，部分立面带纹理"
+      },
+      {
+        "file": "experiments/29-plateau/video-25.jpg",
+        "seconds": 25.072815,
+        "caption": "接近俯视，街道走向和建筑高低易辨"
+      },
+      {
+        "file": "experiments/29-plateau/video-29.jpg",
+        "seconds": 29.635922,
+        "caption": "片尾重新拉远，可见街区、河道轮廓与数据边缘"
+      }
+    ]
+  },
+  "viewer": {
+    "tested": [
+      "东京 Free camera 选中并加载楼群",
+      "切到大阪并加载楼群",
+      "两个独立 engine GLB 在 Hugging Face 文件页加载三维预览"
+    ],
+    "screenshots": [
+      {
+        "file": "experiments/29-plateau/viewer-tokyo.jpg",
+        "caption": "CodePawl 查看器 · 东京自由相机，截图时加载 13/671 块，白模与贴图建筑混合"
+      },
+      {
+        "file": "experiments/29-plateau/viewer-osaka.jpg",
+        "caption": "切换到大阪 · 截图时加载 6/36 块，街区和道路可辨"
+      },
+      {
+        "file": "experiments/29-plateau/tile-tokyo-engine.jpg",
+        "caption": "固定版东京站周边 engine GLB · 53394611，单块 11.6 MB，在线预览"
+      },
+      {
+        "file": "experiments/29-plateau/tile-osaka-engine.jpg",
+        "caption": "固定版大阪城周边 engine GLB · 52350422，单块 2.49 MB，在线预览"
+      }
+    ]
+  },
+  "limits": [
+    "目标坐标仅用于分块选型，不能证明某栋地标的 LOD、贴图或第20条作者使用同一包。",
+    "核对在公开查看器完成。本机 Blender 导入、渲染与小柚合成未实作。"
+  ],
+  "sources": [
+    {
+      "label": "@tanglele0318 原帖",
+      "url": "https://x.com/tanglele0318/status/2119078444268982627"
+    },
+    {
+      "label": "@bei351009016 引用帖",
+      "url": "https://x.com/bei351009016/status/2119022818570723340"
+    },
+    {
+      "label": "An Xuan 原始视频帖",
+      "url": "https://x.com/anxuanng/status/2118780114913927353"
+    },
+    {
+      "label": "CodePawl 数据卡",
+      "url": "https://huggingface.co/datasets/codepawl/plateau-city-glb"
+    },
+    {
+      "label": "MLIT 官方开放目录",
+      "url": "https://www.mlit.go.jp/plateau/open-data/"
+    },
+    {
+      "label": "第20条航拍研究",
+      "url": "#20"
+    },
+    {
+      "label": "固定版分块索引",
+      "url": "https://huggingface.co/datasets/codepawl/plateau-city-glb/raw/881710936a18413a4070e618abbb0b813d1fc30a/tiles.json"
+    },
+    {
+      "label": "CodePawl 在线查看器",
+      "url": "https://huggingface.co/spaces/codepawl/plateau-city-glb-viewer"
+    },
+    {
+      "label": "东京站候选块",
+      "url": "https://huggingface.co/datasets/codepawl/plateau-city-glb/blob/881710936a18413a4070e618abbb0b813d1fc30a/engine/tokyo-53394611/tokyo-53394611.glb"
+    },
+    {
+      "label": "大阪城候选块",
+      "url": "https://huggingface.co/datasets/codepawl/plateau-city-glb/blob/881710936a18413a4070e618abbb0b813d1fc30a/engine/osaka-52350422/osaka-52350422.glb"
+    },
+    {
+      "label": "京都市2025年数据入口",
+      "url": "https://www.geospatial.jp/ckan/dataset/plateau-26100-kyoto-shi-2025"
+    },
+    {
+      "label": "官方 LOD 说明",
+      "url": "https://www.mlit.go.jp/plateau/learning/tpc03-3/"
+    },
+    {
+      "label": "官方 Blender 导入",
+      "url": "https://www.mlit.go.jp/plateau/learning/tpc08-1/"
+    },
+    {
+      "label": "官方航拍相机与渲染",
+      "url": "https://www.mlit.go.jp/plateau/learning/tpc26-2/"
+    },
+    {
+      "label": "官方 3D Tiles 服务",
+      "url": "https://docs.plateauview.mlit.go.jp/datasets/3d-tiles/"
+    },
+    {
+      "label": "官方来源与加工标注",
+      "url": "https://www.mlit.go.jp/plateau/site-policy/"
+    },
+    {
+      "label": "Zimo 东京站过程文",
+      "url": "https://note.com/zimo/n/n31d8d20c0b69"
+    },
+    {
+      "label": "大阪城案例原帖",
+      "url": "https://x.com/noel_ai_lab/status/2118672880980611565"
+    },
+    {
+      "label": "第29条帖文与媒体快照",
+      "url": "sources/29.json"
+    }
+  ]
+}

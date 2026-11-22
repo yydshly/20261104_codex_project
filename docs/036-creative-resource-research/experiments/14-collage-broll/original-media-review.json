@@ -1,0 +1,235 @@
+{
+  "review_date": "2026-11-22",
+  "source_capture": "sources/14.json",
+  "article_url": "https://x.com/i/article/2118584998299414528",
+  "method": "7张原图自然尺寸加载；两段原始MP4各5处原生时间条暂停，截图前readyState=4。未下载原媒体，仅保存显示截图。",
+  "images_count": 7,
+  "video_sample_count": 10,
+  "full_continuous_review": false,
+  "audio_reviewed": false,
+  "pixel_comparison": false,
+  "original_gif_obtained": false,
+  "videos": [
+    {
+      "id": "quad",
+      "url": "https://video.twimg.com/amplify_video/2118585531336642560/vid/avc1/1520x672/CEqWeki0nr1XPubu.mp4?tag=29",
+      "browser_duration_seconds": 5,
+      "dimensions": [
+        1520,
+        672
+      ],
+      "probe": "24fps/120frames/no audio; CDN MP4 only"
+    },
+    {
+      "id": "loop",
+      "url": "https://video.twimg.com/tweet_video/HWa7YDHagAAx3m7.mp4",
+      "browser_duration_seconds": 5,
+      "dimensions": [
+        450,
+        800
+      ],
+      "probe": "CLI TLS failed; browser readyState4 passed; source GIF unknown"
+    }
+  ],
+  "frames": [
+    {
+      "file": "experiments/14-static-cover.jpg",
+      "source_url": "https://pbs.twimg.com/media/HWa7hGxbcAAPQhT.jpg?name=orig",
+      "complete": true,
+      "height": 800,
+      "width": 2000,
+      "caption": "长文封面：四种拼贴画面与作者成本主张",
+      "screenshot_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "file": "experiments/14-static-02.jpg",
+      "source_url": "https://pbs.twimg.com/media/HWa6i6na4AAlcQI.jpg?name=orig",
+      "complete": true,
+      "height": 900,
+      "width": 1600,
+      "caption": "新旧路线说明：视频模型与原生GIF两条方法",
+      "screenshot_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "file": "experiments/14-static-03.jpg",
+      "source_url": "https://pbs.twimg.com/media/HWa6oiZaEAAInlV.jpg?name=orig",
+      "complete": true,
+      "height": 800,
+      "width": 1600,
+      "caption": "四步法：隐喻、静帧、GIF、MP4",
+      "screenshot_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "file": "experiments/14-static-04.jpg",
+      "source_url": "https://pbs.twimg.com/media/HWa6tCCbQAAdeIm.jpg?name=orig",
+      "complete": true,
+      "height": 900,
+      "width": 1600,
+      "caption": "经验消耗的隐喻卡：句子、物件与动作对应",
+      "screenshot_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "file": "experiments/14-static-05.jpg",
+      "source_url": "https://pbs.twimg.com/media/HWa67KvboAAw4CE.jpg?name=orig",
+      "complete": true,
+      "height": 1000,
+      "width": 1600,
+      "caption": "剪月亮示例与六项纸片材质规则",
+      "screenshot_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "file": "experiments/14-static-06.jpg",
+      "source_url": "https://pbs.twimg.com/media/HWa7BSSbMAAWhkR.jpg?name=orig",
+      "complete": true,
+      "height": 800,
+      "width": 1600,
+      "caption": "作者的五色语义系统，并非普适规律",
+      "screenshot_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "file": "experiments/14-static-07.jpg",
+      "source_url": "https://pbs.twimg.com/media/HWa7PilaoAA0rbc.jpg?name=orig",
+      "complete": true,
+      "height": 1000,
+      "width": 1600,
+      "caption": "剪月亮动作时间表与固定镜头等约束",
+      "screenshot_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "group": "loop",
+      "file": "experiments/14-loop-start.jpg",
+      "seconds": 0,
+      "ready_state": 4,
+      "caption": "竖版0秒：蓝色空场",
+      "screenshot_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "group": "loop",
+      "file": "experiments/14-loop-early.jpg",
+      "seconds": 1.253462,
+      "ready_state": 4,
+      "caption": "竖版1.25秒：黄圆进入，右边缘出现小物件",
+      "screenshot_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "group": "loop",
+      "file": "experiments/14-loop-middle.jpg",
+      "seconds": 2.5,
+      "ready_state": 4,
+      "caption": "竖版2.50秒：手、剪刀与月牙形成主动作",
+      "screenshot_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "group": "loop",
+      "file": "experiments/14-loop-later.jpg",
+      "seconds": 3.746537,
+      "ready_state": 4,
+      "caption": "竖版3.75秒：完成态停留，蓝色余料更淡",
+      "screenshot_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "group": "loop",
+      "file": "experiments/14-loop-end.jpg",
+      "seconds": 5,
+      "ready_state": 4,
+      "caption": "竖版5秒：回到蓝色空场，接缝未作像素测量",
+      "screenshot_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "group": "quad",
+      "file": "experiments/14-quad-start.jpg",
+      "seconds": 0,
+      "ready_state": 4,
+      "caption": "四格0秒：绿色面板左边缘可见小纸边，非严格全空场",
+      "screenshot_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "group": "quad",
+      "file": "experiments/14-quad-early.jpg",
+      "seconds": 1.237853,
+      "ready_state": 4,
+      "caption": "四格1.24秒：多组物件开始进入与组装",
+      "screenshot_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "group": "quad",
+      "file": "experiments/14-quad-middle.jpg",
+      "seconds": 2.500021,
+      "ready_state": 4,
+      "caption": "四格2.50秒：不同概念共用纸片与网点材质",
+      "screenshot_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "group": "quad",
+      "file": "experiments/14-quad-later.jpg",
+      "seconds": 3.762188,
+      "ready_state": 4,
+      "caption": "四格3.76秒：完成构图停留，局部余料变淡",
+      "screenshot_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "group": "quad",
+      "file": "experiments/14-quad-end.jpg",
+      "seconds": 5,
+      "ready_state": 4,
+      "caption": "四格5秒：多格仍有残留，非严格全清场",
+      "screenshot_dimensions": [
+        1280,
+        720
+      ]
+    }
+  ],
+  "limits": [
+    "取样暂停不是逐帧、像素级、连续听审或无缝循环验收。",
+    "图片为说明图，图中文字主张不自动算独立实测。",
+    "没有小柚样片、原始GIF、任务日志或成本记录。"
+  ]
+}

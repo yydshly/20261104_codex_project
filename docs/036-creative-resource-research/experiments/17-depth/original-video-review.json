@@ -1,0 +1,208 @@
+{
+  "date": "2026-11-22",
+  "source_url": "https://x.com/leaf_sanren/status/2119029598310830094",
+  "media_url": "https://video.twimg.com/amplify_video/2118661937286569984/vid/avc1/1920x1080/tHHeTjB2sPMMjv9i.mp4?tag=29",
+  "source_dimensions": [
+    1920,
+    1080
+  ],
+  "snapshot_duration": 39.833,
+  "browser_duration": 39.893333,
+  "method": "Native timeline sampled at9 points; screenshot only at readyState4. Screenshots include empty player-page areas outside the video. No original media saved/transcoded.",
+  "frames": [
+    {
+      "file": "experiments/17-depth/original-000.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "screenshot_dimensions": [
+        794,
+        881
+      ],
+      "seconds": 0,
+      "video_rect": {
+        "bottom": 663.9791717529297,
+        "height": 446.625,
+        "left": 0,
+        "right": 794,
+        "top": 217.3541717529297,
+        "width": 794,
+        "x": 0,
+        "y": 217.3541717529297
+      },
+      "caption": "雾中山体，环境开场"
+    },
+    {
+      "file": "experiments/17-depth/original-005.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "screenshot_dimensions": [
+        794,
+        881
+      ],
+      "seconds": 4.999964,
+      "video_rect": {
+        "bottom": 663.9791717529297,
+        "height": 446.625,
+        "left": 0,
+        "right": 794,
+        "top": 217.3541717529297,
+        "width": 794,
+        "x": 0,
+        "y": 217.3541717529297
+      },
+      "caption": "封闭门面与SEALED大字"
+    },
+    {
+      "file": "experiments/17-depth/original-010.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "screenshot_dimensions": [
+        794,
+        881
+      ],
+      "seconds": 9.999928,
+      "video_rect": {
+        "bottom": 663.9791717529297,
+        "height": 446.625,
+        "left": 0,
+        "right": 794,
+        "top": 217.3541717529297,
+        "width": 794,
+        "x": 0,
+        "y": 217.3541717529297
+      },
+      "caption": "暖色模糊过渡与中文字幕，未判定整段质量"
+    },
+    {
+      "file": "experiments/17-depth/original-015.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "screenshot_dimensions": [
+        794,
+        881
+      ],
+      "seconds": 14.999893,
+      "video_rect": {
+        "bottom": 663.9791717529297,
+        "height": 446.625,
+        "left": 0,
+        "right": 794,
+        "top": 217.3541717529297,
+        "width": 794,
+        "x": 0,
+        "y": 217.3541717529297
+      },
+      "caption": "室内空间与反光，史实和材质来源未验证"
+    },
+    {
+      "file": "experiments/17-depth/original-020.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "screenshot_dimensions": [
+        794,
+        881
+      ],
+      "seconds": 19.999857,
+      "video_rect": {
+        "bottom": 663.9791717529297,
+        "height": 446.625,
+        "left": 0,
+        "right": 794,
+        "top": 217.3541717529297,
+        "width": 794,
+        "x": 0,
+        "y": 217.3541717529297
+      },
+      "caption": "地下剖面与红色区域，不能当考古测量图"
+    },
+    {
+      "file": "experiments/17-depth/original-025.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "screenshot_dimensions": [
+        794,
+        881
+      ],
+      "seconds": 24.999822,
+      "video_rect": {
+        "bottom": 663.9791717529297,
+        "height": 446.625,
+        "left": 0,
+        "right": 794,
+        "top": 217.3541717529297,
+        "width": 794,
+        "x": 0,
+        "y": 217.3541717529297
+      },
+      "caption": "彩色兵俑头像与VIVID COLOR"
+    },
+    {
+      "file": "experiments/17-depth/original-030.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "screenshot_dimensions": [
+        794,
+        881
+      ],
+      "seconds": 29.999786,
+      "video_rect": {
+        "bottom": 663.9791717529297,
+        "height": 446.625,
+        "left": 0,
+        "right": 794,
+        "top": 217.3541717529297,
+        "width": 794,
+        "x": 0,
+        "y": 217.3541717529297
+      },
+      "caption": "灰色头像与GONE，形成状态对照"
+    },
+    {
+      "file": "experiments/17-depth/original-035.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "screenshot_dimensions": [
+        794,
+        881
+      ],
+      "seconds": 34.99975,
+      "video_rect": {
+        "bottom": 663.9791717529297,
+        "height": 446.625,
+        "left": 0,
+        "right": 794,
+        "top": 217.3541717529297,
+        "width": 794,
+        "x": 0,
+        "y": 217.3541717529297
+      },
+      "caption": "暮色山体与结尾大字"
+    },
+    {
+      "file": "experiments/17-depth/original-end.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "screenshot_dimensions": [
+        794,
+        881
+      ],
+      "seconds": 39.893333,
+      "video_rect": {
+        "bottom": 663.9791717529297,
+        "height": 446.625,
+        "left": 0,
+        "right": 794,
+        "top": 217.3541717529297,
+        "width": 794,
+        "x": 0,
+        "y": 217.3541717529297
+      },
+      "caption": "英语问句、中文小字与账号收尾"
+    }
+  ],
+  "full_frame_review": false,
+  "audio_reviewed": false,
+  "historical_claims_verified": false,
+  "source_layers_or_depth_obtained": false,
+  "prior_version_obtained": false
+}

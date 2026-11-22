@@ -1,0 +1,86 @@
+{
+  "case_id": "22",
+  "reviewed_date": "2026-11-22",
+  "source": "https://x.com/seanaiux/status/2118436186565845426",
+  "video": "https://video.twimg.com/amplify_video/2118419015991451648/vid/avc1/1920x1080/9QixEsv24Zpjsd8v.mp4?tag=29",
+  "duration_seconds": 18.048,
+  "source_metadata_size": [
+    1920,
+    1080
+  ],
+  "screenshot_size": [
+    1280,
+    720
+  ],
+  "samples": [
+    {
+      "file": "experiments/22-paper-worlds/00.jpg",
+      "seconds": 0.029203,
+      "paused": true,
+      "ready": 4,
+      "caption": "开场：蓝天、草丘与窗口淡入"
+    },
+    {
+      "file": "experiments/22-paper-worlds/02.jpg",
+      "seconds": 2.000465,
+      "paused": true,
+      "ready": 4,
+      "caption": "桌面、纸飞机、草地与密集框线"
+    },
+    {
+      "file": "experiments/22-paper-worlds/04.jpg",
+      "seconds": 4.000931,
+      "paused": true,
+      "ready": 4,
+      "caption": "第一章草甸：标题出现，框线减少"
+    },
+    {
+      "file": "experiments/22-paper-worlds/06.jpg",
+      "seconds": 6.001398,
+      "paused": true,
+      "ready": 4,
+      "caption": "纸飞机引导镜头进入林间"
+    },
+    {
+      "file": "experiments/22-paper-worlds/08.jpg",
+      "seconds": 8.001863,
+      "paused": true,
+      "ready": 4,
+      "caption": "第二章森林：标题、树木与标注框"
+    },
+    {
+      "file": "experiments/22-paper-worlds/10.jpg",
+      "seconds": 10.00233,
+      "paused": true,
+      "ready": 4,
+      "caption": "纸飞机穿向洞口，形成转场"
+    },
+    {
+      "file": "experiments/22-paper-worlds/12.jpg",
+      "seconds": 12.002796,
+      "paused": true,
+      "ready": 4,
+      "caption": "第三章浮岛：线框与实物共同出现"
+    },
+    {
+      "file": "experiments/22-paper-worlds/15.jpg",
+      "seconds": 14.996194,
+      "paused": true,
+      "ready": 4,
+      "caption": "浮岛完成态与云层遮挡"
+    },
+    {
+      "file": "experiments/22-paper-worlds/17.jpg",
+      "seconds": 17.201087,
+      "paused": true,
+      "ready": 4,
+      "caption": "白底结尾、标题和Start my journey入口"
+    }
+  ],
+  "method": "浏览器原生播放器暂停并点击时间线，currentTime近似定位；全部readyState4；非逐帧标定。未下载/转码原片，未听审。",
+  "not_verified": [
+    "源站交互、移动端与浏览器性能",
+    "原作者工程、模型、提示词、任务日志和制作时间",
+    "真实多agent并行、调用、成本、失败恢复或质量提升"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "status": "proposed_not_generated",
+  "purpose": "小柚片头/短配画",
+  "duration_seconds": 5,
+  "parameter_origin": "本项目试验目标，不是原片反推参数",
+  "inputs": {
+    "character_reference": null,
+    "scene": null,
+    "outfit": null,
+    "action_baseline": "正面、轻微自然动作，不额外增加转身或大手势",
+    "source_audio": null
+  },
+  "camera_intent": {
+    "start": "稳定中近景",
+    "end": "略紧近景",
+    "schedule": [
+      {
+        "seconds": [
+          0,
+          1
+        ],
+        "intent": "稳定建立"
+      },
+      {
+        "seconds": [
+          1,
+          4
+        ],
+        "intent": "小幅缓推"
+      },
+      {
+        "seconds": [
+          4,
+          5
+        ],
+        "intent": "平稳停留"
+      }
+    ],
+    "horizon": "保持水平",
+    "subject_anchor": "稳定",
+    "orbit": false,
+    "cut": false
+  },
+  "provider_controls_available": null,
+  "actual_motion_measurement": null,
+  "limitations": [
+    "视觉目标不等于当前接口可精确控制",
+    "二维缩放不能制造真实新视角"
+  ],
+  "outputs": []
+}

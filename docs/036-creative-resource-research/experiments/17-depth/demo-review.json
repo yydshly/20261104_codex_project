@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-22",
+  "scope": "本项目自写SVG分层位移原理示意；非作者工具复现，无原作/小柚/音频/MP4",
+  "states": [
+    {
+      "label": "center",
+      "panels": [
+        {
+          "mode": "flat",
+          "text": "背景 0 / 中景 0 / 前景 0（示意位移）",
+          "transforms": [
+            "translate(0 0)",
+            "translate(0 0)",
+            "translate(0 0)"
+          ]
+        },
+        {
+          "mode": "depth",
+          "text": "背景 0 / 中景 0 / 前景 0（示意位移）",
+          "transforms": [
+            "translate(0 0)",
+            "translate(0 0)",
+            "translate(0 0)"
+          ]
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "label": "right",
+      "panels": [
+        {
+          "mode": "flat",
+          "text": "背景 -72 / 中景 -72 / 前景 -72（示意位移）",
+          "transforms": [
+            "translate(-72 0)",
+            "translate(-72 0)",
+            "translate(-72 0)"
+          ]
+        },
+        {
+          "mode": "depth",
+          "text": "背景 -36 / 中景 -72 / 前景 -120（示意位移）",
+          "transforms": [
+            "translate(-36 0)",
+            "translate(-72 0)",
+            "translate(-120 0)"
+          ]
+        }
+      ],
+      "value": "120"
+    },
+    {
+      "label": "left",
+      "panels": [
+        {
+          "mode": "flat",
+          "text": "背景 72 / 中景 72 / 前景 72（示意位移）",
+          "transforms": [
+            "translate(72 0)",
+            "translate(72 0)",
+            "translate(72 0)"
+          ]
+        },
+        {
+          "mode": "depth",
+          "text": "背景 36 / 中景 72 / 前景 120（示意位移）",
+          "transforms": [
+            "translate(36 0)",
+            "translate(72 0)",
+            "translate(120 0)"
+          ]
+        }
+      ],
+      "value": "-120"
+    },
+    {
+      "label": "right-return",
+      "panels": [
+        {
+          "mode": "flat",
+          "text": "背景 -72 / 中景 -72 / 前景 -72（示意位移）",
+          "transforms": [
+            "translate(-72 0)",
+            "translate(-72 0)",
+            "translate(-72 0)"
+          ]
+        },
+        {
+          "mode": "depth",
+          "text": "背景 -36 / 中景 -72 / 前景 -120（示意位移）",
+          "transforms": [
+            "translate(-36 0)",
+            "translate(-72 0)",
+            "translate(-120 0)"
+          ]
+        }
+      ],
+      "value": "120"
+    },
+    {
+      "label": "keyboard-step",
+      "panels": [
+        {
+          "mode": "flat",
+          "text": "背景 66 / 中景 66 / 前景 66（示意位移）",
+          "transforms": [
+            "translate(66 0)",
+            "translate(66 0)",
+            "translate(66 0)"
+          ]
+        },
+        {
+          "mode": "depth",
+          "text": "背景 33 / 中景 66 / 前景 110（示意位移）",
+          "transforms": [
+            "translate(33 0)",
+            "translate(66 0)",
+            "translate(110 0)"
+          ]
+        }
+      ],
+      "value": "-110"
+    },
+    {
+      "label": "reset",
+      "panels": [
+        {
+          "mode": "flat",
+          "text": "背景 0 / 中景 0 / 前景 0（示意位移）",
+          "transforms": [
+            "translate(0 0)",
+            "translate(0 0)",
+            "translate(0 0)"
+          ]
+        },
+        {
+          "mode": "depth",
+          "text": "背景 0 / 中景 0 / 前景 0（示意位移）",
+          "transforms": [
+            "translate(0 0)",
+            "translate(0 0)",
+            "translate(0 0)"
+          ]
+        }
+      ],
+      "value": "0"
+    }
+  ]
+}

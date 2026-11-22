@@ -1,0 +1,770 @@
+{
+  "checked_on": "2026-11-22",
+  "scope": "第34至48条阅读器中的原帖、引用帖及文章媒体。图片为独立可放大的图片，不把视频封面重复计入。",
+  "method": "在相应模块逐张打开大图核自然尺寸。点击嵌入和同源播放器，记录时间前进及画面解码。没有媒体的原帖记录为文字。",
+  "cases": {
+    "34": {
+      "images": [],
+      "checkedImages": [],
+      "videos": []
+    },
+    "35": {
+      "images": [
+        {
+          "caption": "文章封面 · @cgnot996",
+          "url": "https://pbs.twimg.com/media/HWkaOoJaAAAxGIz.jpg"
+        },
+        {
+          "caption": "文章内媒体 1 · @cgnot996",
+          "url": "https://pbs.twimg.com/media/HWkaE84bYAAJqaO.jpg"
+        },
+        {
+          "caption": "文章内媒体 2 · @cgnot996",
+          "url": "https://pbs.twimg.com/media/HWkaFdjaYAAnhTD.jpg"
+        },
+        {
+          "caption": "文章内媒体 3 · @cgnot996",
+          "url": "https://pbs.twimg.com/media/HWkaF10b0AETabE.png"
+        },
+        {
+          "caption": "文章内媒体 4 · @cgnot996",
+          "url": "https://pbs.twimg.com/media/HWkaGIWbYAAdQH8.png"
+        },
+        {
+          "caption": "文章内媒体 5 · @cgnot996",
+          "url": "https://pbs.twimg.com/media/HWkaGjXboAAsXFZ.jpg"
+        },
+        {
+          "caption": "文章内媒体 6 · @cgnot996",
+          "url": "https://pbs.twimg.com/media/HWkaHBzbcAECjRO.png"
+        },
+        {
+          "caption": "文章内媒体 7 · @cgnot996",
+          "url": "https://pbs.twimg.com/media/HWkaHctbIAArHoN.jpg"
+        },
+        {
+          "caption": "文章内媒体 8 · @cgnot996",
+          "url": "https://pbs.twimg.com/media/HWkaH7KaMAApYmQ.jpg"
+        },
+        {
+          "caption": "文章内媒体 9 · @cgnot996",
+          "url": "https://pbs.twimg.com/media/HWkaIceaAAAr9MU.jpg"
+        },
+        {
+          "caption": "文章内媒体 10 · @cgnot996",
+          "url": "https://pbs.twimg.com/media/HWkaI8pbsAA53Hd.jpg"
+        },
+        {
+          "caption": "文章内媒体 11 · @cgnot996",
+          "url": "https://pbs.twimg.com/media/HWkaJd_bQAAqI4o.jpg"
+        },
+        {
+          "caption": "文章内媒体 12 · @cgnot996",
+          "url": "https://pbs.twimg.com/media/HWkaJ-Pa0AAPrkd.jpg"
+        },
+        {
+          "caption": "文章内媒体 13 · @cgnot996",
+          "url": "https://pbs.twimg.com/media/HWkaKZqakAAyan5.jpg"
+        },
+        {
+          "caption": "文章内媒体 14 · @cgnot996",
+          "url": "https://pbs.twimg.com/media/HWkaK5_akAAII1F.jpg"
+        },
+        {
+          "caption": "文章内媒体 15 · @cgnot996",
+          "url": "https://pbs.twimg.com/media/HWkaLV9asAAdK0-.jpg"
+        },
+        {
+          "caption": "文章内媒体 16 · @cgnot996",
+          "url": "https://pbs.twimg.com/media/HWkaL7qaMAAD_sL.jpg"
+        },
+        {
+          "caption": "文章内媒体 17 · @cgnot996",
+          "url": "https://pbs.twimg.com/media/HWkaMcMbQAA6FX5.jpg"
+        },
+        {
+          "caption": "文章内媒体 18 · @cgnot996",
+          "url": "https://pbs.twimg.com/media/HWkaM4XaEAAXcJy.jpg"
+        },
+        {
+          "caption": "文章内媒体 19 · @cgnot996",
+          "url": "https://pbs.twimg.com/media/HWkaNb4aUAAMwwd.jpg"
+        },
+        {
+          "caption": "文章内媒体 20 · @cgnot996",
+          "url": "https://pbs.twimg.com/media/HWlCcisbIAAS769.jpg"
+        },
+        {
+          "caption": "文章内媒体 21 · @cgnot996",
+          "url": "https://pbs.twimg.com/media/HWlCGNxboAEq9D0.jpg"
+        }
+      ],
+      "checkedImages": [
+        {
+          "h": 512,
+          "src": "https://pbs.twimg.com/media/HWkaOoJaAAAxGIz.jpg",
+          "w": 1200
+        },
+        {
+          "h": 675,
+          "src": "https://pbs.twimg.com/media/HWkaE84bYAAJqaO.jpg",
+          "w": 1199
+        },
+        {
+          "h": 968,
+          "src": "https://pbs.twimg.com/media/HWkaFdjaYAAnhTD.jpg",
+          "w": 1200
+        },
+        {
+          "h": 360,
+          "src": "https://pbs.twimg.com/media/HWkaF10b0AETabE.png",
+          "w": 602
+        },
+        {
+          "h": 126,
+          "src": "https://pbs.twimg.com/media/HWkaGIWbYAAdQH8.png",
+          "w": 518
+        },
+        {
+          "h": 964,
+          "src": "https://pbs.twimg.com/media/HWkaGjXboAAsXFZ.jpg",
+          "w": 998
+        },
+        {
+          "h": 854,
+          "src": "https://pbs.twimg.com/media/HWkaHBzbcAECjRO.png",
+          "w": 864
+        },
+        {
+          "h": 977,
+          "src": "https://pbs.twimg.com/media/HWkaHctbIAArHoN.jpg",
+          "w": 1200
+        },
+        {
+          "h": 900,
+          "src": "https://pbs.twimg.com/media/HWkaH7KaMAApYmQ.jpg",
+          "w": 1200
+        },
+        {
+          "h": 675,
+          "src": "https://pbs.twimg.com/media/HWkaIceaAAAr9MU.jpg",
+          "w": 1199
+        },
+        {
+          "h": 828,
+          "src": "https://pbs.twimg.com/media/HWkaI8pbsAA53Hd.jpg",
+          "w": 1200
+        },
+        {
+          "h": 656,
+          "src": "https://pbs.twimg.com/media/HWkaJd_bQAAqI4o.jpg",
+          "w": 1199
+        },
+        {
+          "h": 828,
+          "src": "https://pbs.twimg.com/media/HWkaJ-Pa0AAPrkd.jpg",
+          "w": 1200
+        },
+        {
+          "h": 696,
+          "src": "https://pbs.twimg.com/media/HWkaKZqakAAyan5.jpg",
+          "w": 1200
+        },
+        {
+          "h": 627,
+          "src": "https://pbs.twimg.com/media/HWkaK5_akAAII1F.jpg",
+          "w": 1200
+        },
+        {
+          "h": 643,
+          "src": "https://pbs.twimg.com/media/HWkaLV9asAAdK0-.jpg",
+          "w": 1200
+        },
+        {
+          "h": 1200,
+          "src": "https://pbs.twimg.com/media/HWkaL7qaMAAD_sL.jpg",
+          "w": 1012
+        },
+        {
+          "h": 900,
+          "src": "https://pbs.twimg.com/media/HWkaMcMbQAA6FX5.jpg",
+          "w": 1200
+        },
+        {
+          "h": 900,
+          "src": "https://pbs.twimg.com/media/HWkaM4XaEAAXcJy.jpg",
+          "w": 1200
+        },
+        {
+          "h": 675,
+          "src": "https://pbs.twimg.com/media/HWkaNb4aUAAMwwd.jpg",
+          "w": 1199
+        },
+        {
+          "h": 1200,
+          "src": "https://pbs.twimg.com/media/HWlCcisbIAAS769.jpg",
+          "w": 682
+        },
+        {
+          "h": 400,
+          "src": "https://pbs.twimg.com/media/HWlCGNxboAEq9D0.jpg",
+          "w": 1200
+        }
+      ],
+      "videos": []
+    },
+    "36": {
+      "images": [
+        {
+          "caption": "引用帖附件 1 · @songsong",
+          "url": "https://pbs.twimg.com/media/HWkYTcNasAApBsu.png?name=orig"
+        }
+      ],
+      "checkedImages": [
+        {
+          "h": 331,
+          "src": "https://pbs.twimg.com/media/HWkYTcNasAApBsu.png?name=orig",
+          "w": 701
+        }
+      ],
+      "videos": [
+        {
+          "mode": "X 官方嵌入",
+          "a": {
+            "d": 14.75,
+            "h": 0,
+            "paused": true,
+            "s": 0,
+            "t": 0,
+            "w": 0
+          },
+          "z": {
+            "d": 14.792666,
+            "h": 720,
+            "paused": true,
+            "s": 4,
+            "t": 14.792666,
+            "w": 1280
+          }
+        }
+      ]
+    },
+    "37": {
+      "images": [
+        {
+          "caption": "原帖附件 1 · @xiaoxiaodong",
+          "url": "https://pbs.twimg.com/media/HWcKQB6a0AEsnNd.jpg?name=orig"
+        },
+        {
+          "caption": "原帖附件 2 · @xiaoxiaodong",
+          "url": "https://pbs.twimg.com/media/HWcKSg8awAA5Nno.jpg?name=orig"
+        },
+        {
+          "caption": "引用帖附件 1 · @xiaoxiaodong",
+          "url": "https://pbs.twimg.com/media/HWbhpjAaQAA0i3v.jpg?name=orig"
+        },
+        {
+          "caption": "引用帖附件 2 · @xiaoxiaodong",
+          "url": "https://pbs.twimg.com/media/HWbhqIGaQAAPFlh.jpg?name=orig"
+        },
+        {
+          "caption": "引用帖附件 3 · @xiaoxiaodong",
+          "url": "https://pbs.twimg.com/media/HWbhqwCaIAA3wsO.jpg?name=orig"
+        },
+        {
+          "caption": "引用帖附件 4 · @xiaoxiaodong",
+          "url": "https://pbs.twimg.com/media/HWbhscca4AASzuW.jpg?name=orig"
+        }
+      ],
+      "checkedImages": [
+        {
+          "h": 1448,
+          "src": "https://pbs.twimg.com/media/HWcKQB6a0AEsnNd.jpg?name=orig",
+          "w": 1086
+        },
+        {
+          "h": 1448,
+          "src": "https://pbs.twimg.com/media/HWcKSg8awAA5Nno.jpg?name=orig",
+          "w": 1086
+        },
+        {
+          "h": 1672,
+          "src": "https://pbs.twimg.com/media/HWbhpjAaQAA0i3v.jpg?name=orig",
+          "w": 941
+        },
+        {
+          "h": 1672,
+          "src": "https://pbs.twimg.com/media/HWbhqIGaQAAPFlh.jpg?name=orig",
+          "w": 941
+        },
+        {
+          "h": 1672,
+          "src": "https://pbs.twimg.com/media/HWbhqwCaIAA3wsO.jpg?name=orig",
+          "w": 941
+        },
+        {
+          "h": 1672,
+          "src": "https://pbs.twimg.com/media/HWbhscca4AASzuW.jpg?name=orig",
+          "w": 941
+        }
+      ],
+      "videos": []
+    },
+    "38": {
+      "images": [],
+      "checkedImages": [],
+      "videos": [
+        {
+          "mode": "X 官方嵌入",
+          "a": {
+            "d": 16.083,
+            "h": 0,
+            "paused": true,
+            "s": 0,
+            "t": 0,
+            "w": 0
+          },
+          "z": {
+            "d": 16.127999,
+            "h": 720,
+            "paused": false,
+            "s": 4,
+            "t": 10.937096,
+            "w": 720
+          }
+        }
+      ]
+    },
+    "39": {
+      "images": [
+        {
+          "caption": "原帖附件 1 · @798145343h",
+          "url": "https://pbs.twimg.com/media/HWLd2qtWYAAoyAg.jpg?name=orig"
+        },
+        {
+          "caption": "原帖附件 2 · @798145343h",
+          "url": "https://pbs.twimg.com/media/HWLd3bIW4AAwXO1.jpg?name=orig"
+        },
+        {
+          "caption": "原帖附件 3 · @798145343h",
+          "url": "https://pbs.twimg.com/media/HWLd4COWoAAJYEq.jpg?name=orig"
+        },
+        {
+          "caption": "原帖附件 4 · @798145343h",
+          "url": "https://pbs.twimg.com/media/HWLd4s2WIAAQcKL.jpg?name=orig"
+        }
+      ],
+      "checkedImages": [
+        {
+          "h": 1254,
+          "src": "https://pbs.twimg.com/media/HWLd2qtWYAAoyAg.jpg?name=orig",
+          "w": 1254
+        },
+        {
+          "h": 1254,
+          "src": "https://pbs.twimg.com/media/HWLd3bIW4AAwXO1.jpg?name=orig",
+          "w": 1254
+        },
+        {
+          "h": 1254,
+          "src": "https://pbs.twimg.com/media/HWLd4COWoAAJYEq.jpg?name=orig",
+          "w": 1254
+        },
+        {
+          "h": 1254,
+          "src": "https://pbs.twimg.com/media/HWLd4s2WIAAQcKL.jpg?name=orig",
+          "w": 1254
+        }
+      ],
+      "videos": []
+    },
+    "40": {
+      "images": [],
+      "checkedImages": [],
+      "videos": [
+        {
+          "mode": "X 官方嵌入",
+          "a": {
+            "d": null,
+            "h": 0,
+            "paused": true,
+            "s": 0,
+            "t": 0,
+            "w": 0
+          },
+          "z": {
+            "d": 78.24,
+            "h": 852,
+            "paused": false,
+            "s": 4,
+            "t": 44.814621,
+            "w": 480
+          }
+        },
+        {
+          "mode": "页面原视频流",
+          "a": {
+            "d": 18.96,
+            "h": 1280,
+            "paused": true,
+            "s": 4,
+            "t": 0,
+            "w": 720
+          },
+          "z": {
+            "d": 18.96,
+            "h": 1280,
+            "paused": false,
+            "s": 4,
+            "t": 0.48892,
+            "w": 720
+          },
+          "id": "2118658006820745216"
+        },
+        {
+          "mode": "页面原视频流",
+          "a": {
+            "d": 10.16,
+            "h": 914,
+            "paused": true,
+            "s": 4,
+            "t": 0,
+            "w": 720
+          },
+          "z": {
+            "d": 10.16,
+            "h": 914,
+            "paused": false,
+            "s": 4,
+            "t": 0.510494,
+            "w": 720
+          },
+          "id": "2118658088517476352"
+        },
+        {
+          "mode": "页面原视频流",
+          "a": {
+            "d": 14.92,
+            "h": 720,
+            "paused": true,
+            "s": 4,
+            "t": 0,
+            "w": 1280
+          },
+          "z": {
+            "d": 14.92,
+            "h": 720,
+            "paused": false,
+            "s": 4,
+            "t": 0.51733,
+            "w": 1280
+          },
+          "id": "2118658107165270016"
+        }
+      ]
+    },
+    "41": {
+      "images": [
+        {
+          "caption": "原帖附件 1 · @zhongying14",
+          "url": "https://pbs.twimg.com/media/HWbZO0zWsAAT9ML.jpg?name=orig"
+        },
+        {
+          "caption": "原帖附件 2 · @zhongying14",
+          "url": "https://pbs.twimg.com/media/HWbZRhNXUAAkhCk.jpg?name=orig"
+        },
+        {
+          "caption": "原帖附件 3 · @zhongying14",
+          "url": "https://pbs.twimg.com/media/HWbZYa8WMAA-T5c.jpg?name=orig"
+        },
+        {
+          "caption": "文章封面 · @zhongying14",
+          "url": "https://pbs.twimg.com/media/HWXAQJRWUAALMdg.jpg"
+        },
+        {
+          "caption": "文章内媒体 2 · @zhongying14",
+          "url": "https://pbs.twimg.com/media/HWXChDJXoAAYgF2.jpg"
+        },
+        {
+          "caption": "文章内媒体 3 · @zhongying14",
+          "url": "https://pbs.twimg.com/media/HWXFjUgWsAAD99X.jpg"
+        },
+        {
+          "caption": "文章内媒体 4 · @zhongying14",
+          "url": "https://pbs.twimg.com/media/HWXK5HzWMAAi6PW.jpg"
+        },
+        {
+          "caption": "文章内媒体 5 · @zhongying14",
+          "url": "https://pbs.twimg.com/media/HWXFKoJW4AAA_G3.jpg"
+        },
+        {
+          "caption": "文章内媒体 6 · @zhongying14",
+          "url": "https://pbs.twimg.com/media/HWXLp4AXMAEtYUn.png"
+        },
+        {
+          "caption": "文章内媒体 7 · @zhongying14",
+          "url": "https://pbs.twimg.com/media/HWXLCnvXYAA2Rab.png"
+        },
+        {
+          "caption": "文章内媒体 8 · @zhongying14",
+          "url": "https://pbs.twimg.com/media/HWXMNAVWEAAflhQ.png"
+        },
+        {
+          "caption": "文章内媒体 9 · @zhongying14",
+          "url": "https://pbs.twimg.com/media/HWXMiCZWIAA04-q.jpg"
+        },
+        {
+          "caption": "文章内媒体 10 · @zhongying14",
+          "url": "https://pbs.twimg.com/media/HWXNB97WgAAjkYt.png"
+        },
+        {
+          "caption": "文章内媒体 11 · @zhongying14",
+          "url": "https://pbs.twimg.com/media/HWXNfwKWkAAfP9_.jpg"
+        },
+        {
+          "caption": "文章内媒体 12 · @zhongying14",
+          "url": "https://pbs.twimg.com/media/HWXOayMXwAAdz_g.jpg"
+        }
+      ],
+      "checkedImages": [
+        {
+          "h": 2670,
+          "src": "https://pbs.twimg.com/media/HWbZO0zWsAAT9ML.jpg?name=orig",
+          "w": 1200
+        },
+        {
+          "h": 2670,
+          "src": "https://pbs.twimg.com/media/HWbZRhNXUAAkhCk.jpg?name=orig",
+          "w": 1200
+        },
+        {
+          "h": 1612,
+          "src": "https://pbs.twimg.com/media/HWbZYa8WMAA-T5c.jpg?name=orig",
+          "w": 886
+        },
+        {
+          "h": 480,
+          "src": "https://pbs.twimg.com/media/HWXAQJRWUAALMdg.jpg",
+          "w": 1200
+        },
+        {
+          "h": 973,
+          "src": "https://pbs.twimg.com/media/HWXChDJXoAAYgF2.jpg",
+          "w": 1200
+        },
+        {
+          "h": 562,
+          "src": "https://pbs.twimg.com/media/HWXFjUgWsAAD99X.jpg",
+          "w": 1144
+        },
+        {
+          "h": 1200,
+          "src": "https://pbs.twimg.com/media/HWXK5HzWMAAi6PW.jpg",
+          "w": 960
+        },
+        {
+          "h": 843,
+          "src": "https://pbs.twimg.com/media/HWXFKoJW4AAA_G3.jpg",
+          "w": 1100
+        },
+        {
+          "h": 423,
+          "src": "https://pbs.twimg.com/media/HWXLp4AXMAEtYUn.png",
+          "w": 691
+        },
+        {
+          "h": 666,
+          "src": "https://pbs.twimg.com/media/HWXLCnvXYAA2Rab.png",
+          "w": 852
+        },
+        {
+          "h": 573,
+          "src": "https://pbs.twimg.com/media/HWXMNAVWEAAflhQ.png",
+          "w": 549
+        },
+        {
+          "h": 901,
+          "src": "https://pbs.twimg.com/media/HWXMiCZWIAA04-q.jpg",
+          "w": 1200
+        },
+        {
+          "h": 565,
+          "src": "https://pbs.twimg.com/media/HWXNB97WgAAjkYt.png",
+          "w": 730
+        },
+        {
+          "h": 973,
+          "src": "https://pbs.twimg.com/media/HWXNfwKWkAAfP9_.jpg",
+          "w": 1200
+        },
+        {
+          "h": 1200,
+          "src": "https://pbs.twimg.com/media/HWXOayMXwAAdz_g.jpg",
+          "w": 960
+        }
+      ],
+      "videos": [
+        {
+          "mode": "页面原视频流",
+          "a": {
+            "d": null,
+            "h": 0,
+            "paused": true,
+            "s": 0,
+            "t": 0,
+            "w": 0
+          },
+          "z": {
+            "d": 51.3161,
+            "h": 1280,
+            "paused": false,
+            "s": 4,
+            "t": 0.566373,
+            "w": 576
+          },
+          "id": "2118311746465050624"
+        }
+      ]
+    },
+    "42": {
+      "images": [],
+      "checkedImages": [],
+      "videos": []
+    },
+    "43": {
+      "images": [],
+      "checkedImages": [],
+      "videos": []
+    },
+    "44": {
+      "images": [
+        {
+          "caption": "原帖附件 1 · @wanerfu",
+          "url": "https://pbs.twimg.com/media/HWZ4--vawAA_D9l.jpg?name=orig"
+        }
+      ],
+      "checkedImages": [
+        {
+          "h": 1592,
+          "src": "https://pbs.twimg.com/media/HWZ4--vawAA_D9l.jpg?name=orig",
+          "w": 988
+        }
+      ],
+      "videos": []
+    },
+    "45": {
+      "images": [
+        {
+          "caption": "原帖附件 1 · @clanhj611",
+          "url": "https://pbs.twimg.com/media/HWaAdJabkAA7ZPW.png?name=orig"
+        },
+        {
+          "caption": "原帖附件 2 · @clanhj611",
+          "url": "https://pbs.twimg.com/media/HWaAeQWbYAAVHlP.jpg?name=orig"
+        }
+      ],
+      "checkedImages": [
+        {
+          "h": 291,
+          "src": "https://pbs.twimg.com/media/HWaAdJabkAA7ZPW.png?name=orig",
+          "w": 1629
+        },
+        {
+          "h": 680,
+          "src": "https://pbs.twimg.com/media/HWaAeQWbYAAVHlP.jpg?name=orig",
+          "w": 1535
+        }
+      ],
+      "videos": []
+    },
+    "46": {
+      "images": [
+        {
+          "caption": "文章封面 · @clanhj611",
+          "url": "https://pbs.twimg.com/media/HWgMmxhWcAArLlq.jpg"
+        },
+        {
+          "caption": "文章内媒体 1 · @clanhj611",
+          "url": "https://pbs.twimg.com/media/HWgMugpXcAA2ykT.jpg"
+        },
+        {
+          "caption": "文章内媒体 2 · @clanhj611",
+          "url": "https://pbs.twimg.com/media/HWgOQBcaEAAiPws.jpg"
+        },
+        {
+          "caption": "文章内媒体 3 · @clanhj611",
+          "url": "https://pbs.twimg.com/media/HWgOlQYbQAAG8yW.jpg"
+        },
+        {
+          "caption": "文章内媒体 4 · @clanhj611",
+          "url": "https://pbs.twimg.com/media/HWgOwlSb0AAdaWa.jpg"
+        },
+        {
+          "caption": "文章内媒体 5 · @clanhj611",
+          "url": "https://pbs.twimg.com/media/HWgO1blaIAAejiv.png"
+        },
+        {
+          "caption": "文章内媒体 6 · @clanhj611",
+          "url": "https://pbs.twimg.com/media/HWgO-gibwAAVEhm.png"
+        },
+        {
+          "caption": "文章内媒体 7 · @clanhj611",
+          "url": "https://pbs.twimg.com/media/HWgPMFVbsAAI1AA.jpg"
+        }
+      ],
+      "checkedImages": [
+        {
+          "h": 480,
+          "src": "https://pbs.twimg.com/media/HWgMmxhWcAArLlq.jpg",
+          "w": 1200
+        },
+        {
+          "h": 410,
+          "src": "https://pbs.twimg.com/media/HWgMugpXcAA2ykT.jpg",
+          "w": 1025
+        },
+        {
+          "h": 420,
+          "src": "https://pbs.twimg.com/media/HWgOQBcaEAAiPws.jpg",
+          "w": 963
+        },
+        {
+          "h": 513,
+          "src": "https://pbs.twimg.com/media/HWgOlQYbQAAG8yW.jpg",
+          "w": 1191
+        },
+        {
+          "h": 766,
+          "src": "https://pbs.twimg.com/media/HWgOwlSb0AAdaWa.jpg",
+          "w": 1199
+        },
+        {
+          "h": 591,
+          "src": "https://pbs.twimg.com/media/HWgO1blaIAAejiv.png",
+          "w": 641
+        },
+        {
+          "h": 310,
+          "src": "https://pbs.twimg.com/media/HWgO-gibwAAVEhm.png",
+          "w": 570
+        },
+        {
+          "h": 497,
+          "src": "https://pbs.twimg.com/media/HWgPMFVbsAAI1AA.jpg",
+          "w": 1200
+        }
+      ],
+      "videos": []
+    },
+    "47": {
+      "images": [],
+      "checkedImages": [],
+      "videos": []
+    },
+    "48": {
+      "images": [],
+      "checkedImages": [],
+      "videos": []
+    }
+  }
+}

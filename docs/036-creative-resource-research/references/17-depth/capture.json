@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-22",
+  "original_text": "sources/17.json public mirror2026-11-12; live original and linked post403",
+  "official_sources": [
+    {
+      "url": "https://threejs.org/manual/pages/cameras.html",
+      "status": "official_body_read",
+      "scope": "perspective and clipping concepts"
+    },
+    {
+      "url": "https://threejs.org/manual/pages/creating-a-scene.html",
+      "status": "official_body_read",
+      "scope": "scene camera renderer"
+    },
+    {
+      "url": "https://docs.blender.org/manual/en/5.0/modeling/meshes/import_images_as_planes.html",
+      "status": "official_search_excerpt_read_body402",
+      "scope": "image-textured planes"
+    },
+    {
+      "url": "https://www.w3.org/TR/css-transforms-2/#perspective",
+      "status": "official_working_draft_read",
+      "scope": "perspective and planes; not author implementation"
+    }
+  ],
+  "authored_notes": {
+    "file": "references/17-depth/official-notes.md",
+    "sha256": "1e8bc83a84a145d97bc3a191e9cf558451a7177d26de443c11df31dc21665438"
+  },
+  "tesseract_identified": false,
+  "tool_entry_note": "No product/version/project in source; targeted search found no confirmable first-party entry. No same-name tool substituted.",
+  "scope": "Research and self-authored SVG principle demo only; no external skill activation, install, key access, model/TTS request or source reproduction."
+}

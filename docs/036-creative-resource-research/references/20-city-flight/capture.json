@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-22",
+  "sources": [
+    {
+      "label": "大阪城X原帖",
+      "url": "https://x.com/noel_ai_lab/status/2118672880980611565",
+      "access": "403; mirror snapshot 2026-11-12 used"
+    },
+    {
+      "label": "东京站X引用",
+      "url": "https://x.com/Zimo41650079726/status/2117924797967642861",
+      "access": "403; mirror snapshot used"
+    },
+    {
+      "label": "Zimo本人日文过程文",
+      "url": "https://note.com/zimo/n/n31d8d20c0b69",
+      "access": "body readable; images not separately reviewed"
+    },
+    {
+      "label": "PLATEAU Blender导入",
+      "url": "https://www.mlit.go.jp/plateau/learning/tpc08-1/",
+      "access": "readable; older tutorial version, not original project"
+    },
+    {
+      "label": "PLATEAU分块/坐标",
+      "url": "https://www.mlit.go.jp/plateau/learning/plateau-development-chart/",
+      "access": "readable"
+    },
+    {
+      "label": "PLATEAU LOD",
+      "url": "https://www.mlit.go.jp/plateau/learning/tpc03-3/",
+      "access": "readable"
+    },
+    {
+      "label": "PLATEAU场景制作",
+      "url": "https://www.mlit.go.jp/plateau/learning/tpc26-1/",
+      "access": "readable"
+    },
+    {
+      "label": "PLATEAU相机/渲染",
+      "url": "https://www.mlit.go.jp/plateau/learning/tpc26-2/",
+      "access": "readable"
+    },
+    {
+      "label": "PLATEAU FAQ",
+      "url": "https://www.mlit.go.jp/plateau/faq/",
+      "access": "readable"
+    },
+    {
+      "label": "Muse Agent",
+      "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+      "access": "body readable"
+    },
+    {
+      "label": "Muse Image/Video",
+      "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+      "access": "official search excerpt readable; direct body timeout 400"
+    },
+    {
+      "label": "Blender Follow Path",
+      "url": "https://docs.blender.org/manual/en/latest/animation/constraints/relationship/follow_path.html",
+      "access": "402; not used as read operation instructions"
+    }
+  ],
+  "snapshot": "sources/20.json",
+  "snapshot_sha256": "aa1b3586cfc47576fe7e83e804542a18af33ae72faca817c6cf43a4983c746e6",
+  "authored_summary": "references/20-city-flight/research-notes.md",
+  "summary_sha256": "f4824d35c204fcf96c4d6d78a1fa8e6d39f1bd1237dc4f8fb12f697ab2413321",
+  "note": "此文件校验本地摘要，不冒充官方网页原文快照；引用作者流程只对应东京站。",
+  "tool_installed_or_run": false,
+  "downloaded_city_data": false,
+  "generated_or_uploaded": false
+}

@@ -1,0 +1,293 @@
+{
+  "date": "2026-11-22",
+  "source_url": "https://x.com/yyyole/status/2119071908679348237",
+  "media_url": "https://video.twimg.com/amplify_video/2119070228080394240/vid/avc1/1280x720/bap_Pqhj6hGxYW1l.mp4?tag=29",
+  "source_dimensions": [
+    1280,
+    720
+  ],
+  "snapshot_duration": 12.05,
+  "browser_duration": 12.128,
+  "method": "13 native-timeline paused samples, readyState4; currentTime used as approximate positioning, not a calibrated frame/cut time. No original media saved or transcoded.",
+  "frames": [
+    {
+      "file": "experiments/18-camera/original-000.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "screenshot_dimensions": [
+        1280,
+        720
+      ],
+      "seconds": 0,
+      "video_rect": {
+        "bottom": 720,
+        "height": 720,
+        "left": 0,
+        "right": 1280,
+        "top": 0,
+        "width": 1280,
+        "x": 0,
+        "y": 0
+      },
+      "caption": "人物上半身与双手，场景背景可见"
+    },
+    {
+      "file": "experiments/18-camera/original-001.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "screenshot_dimensions": [
+        1280,
+        720
+      ],
+      "seconds": 1.000853,
+      "video_rect": {
+        "bottom": 720,
+        "height": 720,
+        "left": 0,
+        "right": 1280,
+        "top": 0,
+        "width": 1280,
+        "x": 0,
+        "y": 0
+      },
+      "caption": "面部变大，手靠近镜头"
+    },
+    {
+      "file": "experiments/18-camera/original-002.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "screenshot_dimensions": [
+        1280,
+        720
+      ],
+      "seconds": 2.001707,
+      "video_rect": {
+        "bottom": 720,
+        "height": 720,
+        "left": 0,
+        "right": 1280,
+        "top": 0,
+        "width": 1280,
+        "x": 0,
+        "y": 0
+      },
+      "caption": "脸/口部局部特写，背景范围缩小"
+    },
+    {
+      "file": "experiments/18-camera/original-003.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "screenshot_dimensions": [
+        1280,
+        720
+      ],
+      "seconds": 3.002563,
+      "video_rect": {
+        "bottom": 720,
+        "height": 720,
+        "left": 0,
+        "right": 1280,
+        "top": 0,
+        "width": 1280,
+        "x": 0,
+        "y": 0
+      },
+      "caption": "倾斜近景与笑容/手势"
+    },
+    {
+      "file": "experiments/18-camera/original-004.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "screenshot_dimensions": [
+        1280,
+        720
+      ],
+      "seconds": 4.003417,
+      "video_rect": {
+        "bottom": 720,
+        "height": 720,
+        "left": 0,
+        "right": 1280,
+        "top": 0,
+        "width": 1280,
+        "x": 0,
+        "y": 0
+      },
+      "caption": "较宽俯视坐姿，可见更多天台环境"
+    },
+    {
+      "file": "experiments/18-camera/original-005.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "screenshot_dimensions": [
+        1280,
+        720
+      ],
+      "seconds": 5.004271,
+      "video_rect": {
+        "bottom": 720,
+        "height": 720,
+        "left": 0,
+        "right": 1280,
+        "top": 0,
+        "width": 1280,
+        "x": 0,
+        "y": 0
+      },
+      "caption": "侧面与人物转身外观"
+    },
+    {
+      "file": "experiments/18-camera/original-006.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "screenshot_dimensions": [
+        1280,
+        720
+      ],
+      "seconds": 5.995313,
+      "video_rect": {
+        "bottom": 720,
+        "height": 720,
+        "left": 0,
+        "right": 1280,
+        "top": 0,
+        "width": 1280,
+        "x": 0,
+        "y": 0
+      },
+      "caption": "侧后/背面与倾斜城市背景"
+    },
+    {
+      "file": "experiments/18-camera/original-007.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "screenshot_dimensions": [
+        1280,
+        720
+      ],
+      "seconds": 6.996168,
+      "video_rect": {
+        "bottom": 720,
+        "height": 720,
+        "left": 0,
+        "right": 1280,
+        "top": 0,
+        "width": 1280,
+        "x": 0,
+        "y": 0
+      },
+      "caption": "较高视角的面部近景"
+    },
+    {
+      "file": "experiments/18-camera/original-008.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "screenshot_dimensions": [
+        1280,
+        720
+      ],
+      "seconds": 7.997022,
+      "video_rect": {
+        "bottom": 720,
+        "height": 720,
+        "left": 0,
+        "right": 1280,
+        "top": 0,
+        "width": 1280,
+        "x": 0,
+        "y": 0
+      },
+      "caption": "正面附近近景与头发变化"
+    },
+    {
+      "file": "experiments/18-camera/original-009.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "screenshot_dimensions": [
+        1280,
+        720
+      ],
+      "seconds": 8.997877,
+      "video_rect": {
+        "bottom": 720,
+        "height": 720,
+        "left": 0,
+        "right": 1280,
+        "top": 0,
+        "width": 1280,
+        "x": 0,
+        "y": 0
+      },
+      "caption": "近景张口/眨眼等表演"
+    },
+    {
+      "file": "experiments/18-camera/original-010.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "screenshot_dimensions": [
+        1280,
+        720
+      ],
+      "seconds": 9.998731,
+      "video_rect": {
+        "bottom": 720,
+        "height": 720,
+        "left": 0,
+        "right": 1280,
+        "top": 0,
+        "width": 1280,
+        "x": 0,
+        "y": 0
+      },
+      "caption": "近景表情与头发"
+    },
+    {
+      "file": "experiments/18-camera/original-011.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "screenshot_dimensions": [
+        1280,
+        720
+      ],
+      "seconds": 10.999585,
+      "video_rect": {
+        "bottom": 720,
+        "height": 720,
+        "left": 0,
+        "right": 1280,
+        "top": 0,
+        "width": 1280,
+        "x": 0,
+        "y": 0
+      },
+      "caption": "抬眼与鼓腮等表情"
+    },
+    {
+      "file": "experiments/18-camera/original-end.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "screenshot_dimensions": [
+        1280,
+        720
+      ],
+      "seconds": 12.128,
+      "video_rect": {
+        "bottom": 720,
+        "height": 720,
+        "left": 0,
+        "right": 1280,
+        "top": 0,
+        "width": 1280,
+        "x": 0,
+        "y": 0
+      },
+      "caption": "末态仍为人物近景，未测循环或声音同步"
+    }
+  ],
+  "audio_reviewed": false,
+  "cuts_calibrated": false,
+  "camera_trajectory_recovered": false,
+  "lens_parameters_known": false,
+  "identity_similarity_measured": false,
+  "single_generation_verified": false
+}

@@ -1,0 +1,16 @@
+stage,item,status,evidence,notes
+source,数据条目年度范围LOD和来源,not_tested,,
+scene,坐标单位轴向和局部原点,not_tested,,
+scene,材质路径与缺失建筑,not_tested,,
+scene,地标与周围建筑相邻关系,not_tested,,
+still,源渲染与改写静帧地标轮廓,not_tested,,
+still,钟面顶饰窗列出入口位置,not_tested,,
+video,同面区域数量位置和形状,not_tested,,
+video,遮挡后重现与新露出区域区分,not_tested,,
+video,道路水面及背景建筑关系,not_tested,,
+video,镜头意图及中段路线,not_tested,,
+video,光照与时间连续性,not_tested,,
+video,输出尺寸及片长,not_tested,,
+xiaoyou,环境通过后的人物身份光照接地遮挡,not_tested,,
+cost,准备渲染生成筛选返工总工时费用,not_tested,,
+

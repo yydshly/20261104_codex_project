@@ -1,0 +1,47 @@
+{
+  "case_id": "09",
+  "status": "not_run",
+  "prepared_date": "2026-11-21",
+  "route": null,
+  "source_art": null,
+  "rights_reference": null,
+  "layered_psd": null,
+  "tool_version": null,
+  "parts_mapping": null,
+  "rig_settings": null,
+  "actions": [
+    "blink",
+    "small_head_turn"
+  ],
+  "parameter_ranges": null,
+  "outputs": {
+    "model": null,
+    "html": null,
+    "video": null,
+    "reopened_evidence": null
+  },
+  "checks": {
+    "identity_matches_source": null,
+    "hidden_regions_complete": null,
+    "no_layer_holes": null,
+    "eyes_clipping_ok": null,
+    "neck_and_accessory_edges_ok": null,
+    "reopened_model_ok": null,
+    "html_or_video_playback_ok": null,
+    "loop_if_needed_ok": null
+  },
+  "metrics": {
+    "layer_preparation_minutes": null,
+    "manual_cleanup_minutes": null,
+    "rigging_minutes": null,
+    "export_minutes": null,
+    "output_bytes": null,
+    "first_visible_frame_ms": null,
+    "engagement_comparison": null
+  },
+  "failures": [],
+  "conclusion": null,
+  "reproduced": false,
+  "digested": false
+}
+

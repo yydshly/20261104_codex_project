@@ -1,0 +1,46 @@
+{
+  "case_id": "06",
+  "retrieved_date": "2026-11-21",
+  "via": "GitHub连接器读取公开固定提交",
+  "repository": "https://github.com/livliv-dev/player",
+  "commit": "e3f6b640a338a22f8ac7e829821267a9a48b4a12",
+  "package_version": "0.5.1",
+  "notes": "先读main，再逐文件读取固定提交并与main文本比对，5个文件一致。sha256校验本地UTF-8快照字节；旧references/livliv.txt不覆盖。",
+  "files": [
+    {
+      "source": "src/runtime/voice.ts",
+      "file": "references/06-livliv/src--runtime--voice.ts",
+      "url": "https://github.com/livliv-dev/player/blob/e3f6b640a338a22f8ac7e829821267a9a48b4a12/src/runtime/voice.ts",
+      "main_matches_pinned": true,
+      "sha256": "8fcf280ac80bbec33b39b59ca91b6bac6cceb1532159b58df3565a7eb8a3ab01"
+    },
+    {
+      "source": "README.md",
+      "file": "references/06-livliv/README.md",
+      "url": "https://github.com/livliv-dev/player/blob/e3f6b640a338a22f8ac7e829821267a9a48b4a12/README.md",
+      "main_matches_pinned": true,
+      "sha256": "530dbf304abc4c100ca86a4a12b5aafaf63e852f97ba2d9439b1bcaac8772262"
+    },
+    {
+      "source": "API.md",
+      "file": "references/06-livliv/API.md",
+      "url": "https://github.com/livliv-dev/player/blob/e3f6b640a338a22f8ac7e829821267a9a48b4a12/API.md",
+      "main_matches_pinned": true,
+      "sha256": "fcbc69a41e37ae79d2dfc28bc8cf25a8506cceba3f6a20f6369ef76096bcaa23"
+    },
+    {
+      "source": "package.json",
+      "file": "references/06-livliv/package.json",
+      "url": "https://github.com/livliv-dev/player/blob/e3f6b640a338a22f8ac7e829821267a9a48b4a12/package.json",
+      "main_matches_pinned": true,
+      "sha256": "cb2f1ccb1830015ccafc68223208a49e47868c161c740e1a8a261b0a02458b84"
+    },
+    {
+      "source": "characters/LICENSE.md",
+      "file": "references/06-livliv/characters--LICENSE.md",
+      "url": "https://github.com/livliv-dev/player/blob/e3f6b640a338a22f8ac7e829821267a9a48b4a12/characters/LICENSE.md",
+      "main_matches_pinned": true,
+      "sha256": "ba84567ab50e0919411b7fe6787b695ed32f46ef1a189c799ec0f04957b31011"
+    }
+  ]
+}

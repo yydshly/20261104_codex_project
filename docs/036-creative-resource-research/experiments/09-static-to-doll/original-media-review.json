@@ -1,0 +1,88 @@
+{
+  "case_id": "09",
+  "review_date": "2026-11-21",
+  "source_video": "https://video.twimg.com/amplify_video/2118616517629878273/vid/avc1/1474x834/kIV9N2-onVBGPoVu.mp4?tag=29",
+  "metadata_duration_seconds": 9.535,
+  "browser_duration_seconds": 9.543333,
+  "video_samples": [
+    {
+      "file": "experiments/09-original-start.jpg",
+      "seconds": 0,
+      "ready_state": 4,
+      "paused": true,
+      "observation": "Doll Studio、分层PSD文件名、Auto-rigged和19部件列表"
+    },
+    {
+      "file": "experiments/09-original-early.jpg",
+      "seconds": 2.518924,
+      "ready_state": 4,
+      "paused": true,
+      "observation": "待机/跟随入口与头眼参数；按钮存在不等于功能已验收"
+    },
+    {
+      "file": "experiments/09-original-middle.jpg",
+      "seconds": 5.051362,
+      "ready_state": 4,
+      "paused": true,
+      "observation": "头部、视线与发丝位置变化；不是小柚模型"
+    },
+    {
+      "file": "experiments/09-original-later.jpg",
+      "seconds": 7.568264,
+      "ready_state": 4,
+      "paused": true,
+      "observation": "另一头倾与眼开度状态；未据此量测动作精度"
+    },
+    {
+      "file": "experiments/09-original-end.jpg",
+      "seconds": 9.543333,
+      "ready_state": 4,
+      "paused": true,
+      "observation": "原片末态；首末不同，不认定已做无缝循环"
+    }
+  ],
+  "original_photos": [
+    {
+      "file": "experiments/09-static-01.jpg",
+      "label": "引用静图1",
+      "caption": "蓝发兽耳女仆，右侧留白；未取得其到录屏PSD的转换记录",
+      "source": "https://pbs.twimg.com/media/HWWXm84bsAAir-8.jpg?name=orig",
+      "natural_width": 1672,
+      "natural_height": 941,
+      "complete": true
+    },
+    {
+      "file": "experiments/09-static-02.jpg",
+      "label": "引用静图2",
+      "caption": "橙发花饰角色，左侧留白；四图中的另一外观",
+      "source": "https://pbs.twimg.com/media/HWWXxD_aQAAiQJk.jpg?name=orig",
+      "natural_width": 1672,
+      "natural_height": 941,
+      "complete": true
+    },
+    {
+      "file": "experiments/09-static-03.jpg",
+      "label": "引用静图3",
+      "caption": "银紫发角饰角色，左侧留白；不直接认定为录屏模型底图",
+      "source": "https://pbs.twimg.com/media/HWWXxoqaYAAwBmT.jpg?name=orig",
+      "natural_width": 1672,
+      "natural_height": 941,
+      "complete": true
+    },
+    {
+      "file": "experiments/09-static-04.jpg",
+      "label": "引用静图4",
+      "caption": "金发王冠/尖耳角色，右侧留白；没有其动态模型的逐项展示",
+      "source": "https://pbs.twimg.com/media/HWWXyMOaEAAOHkH.jpg?name=orig",
+      "natural_width": 1672,
+      "natural_height": 941,
+      "complete": true
+    }
+  ],
+  "method": "2026-11-21在浏览器逐张打开引用帖4张1672×941原图并确认解码完成，另在原始MP4时间轴暂停核对0、2.518924、5.051362、7.568264、9.543333秒，交付视频截图readyState均为4。来源元数据9.535秒，浏览器时长9.543333秒。截图为1280×720浏览器显示，不作为原图逐像素量测；未下载或重绘原始媒体。X正文直读403，文字沿用2026-11-12快照。项目资料另固定到2026-11-10的提交，不把后续功能全部倒推为录屏时已可用。",
+  "one_to_one_input_output_proven": false,
+  "app_run": false,
+  "export_tested": false,
+  "xiaoyou_tested": false
+}
+

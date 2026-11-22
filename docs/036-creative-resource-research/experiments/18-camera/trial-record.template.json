@@ -1,0 +1,44 @@
+{
+  "status": "not_run",
+  "input_version": null,
+  "tool_model": null,
+  "actual_control_method": null,
+  "variants": [
+    {
+      "id": "A",
+      "camera": "固定机位",
+      "output": null,
+      "attempts": null,
+      "qa": null
+    },
+    {
+      "id": "B",
+      "camera": "小幅缓推",
+      "output": null,
+      "attempts": null,
+      "qa": null
+    }
+  ],
+  "controls": [
+    "人物参考",
+    "场景",
+    "服装",
+    "动作",
+    "时长",
+    "音频"
+  ],
+  "actual_comparable_conditions": null,
+  "face_review": null,
+  "hand_review": null,
+  "background_review": null,
+  "lip_sync_review": null,
+  "readability_feedback": null,
+  "cost": {
+    "fee": null,
+    "quota": null,
+    "human_minutes": null,
+    "export_minutes": null
+  },
+  "observed_benefit": null,
+  "reproduced": false
+}

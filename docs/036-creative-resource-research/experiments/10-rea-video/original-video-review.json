@@ -1,0 +1,53 @@
+{
+  "case_id": "10",
+  "review_date": "2026-11-21",
+  "source_url": "https://x.com/db_goyoung/status/2119091305750118400",
+  "original_video_url": "https://video.twimg.com/amplify_video/2119089760081969152/vid/avc1/1728x768/9vpMgXCkzEz8YnHP.mp4?tag=29",
+  "source_metadata_duration_seconds": 12.066,
+  "browser_duration_seconds": 12.120816,
+  "video_size": [
+    1728,
+    768
+  ],
+  "screenshot_size": [
+    1280,
+    720
+  ],
+  "review_method": "浏览器原片时间轴五处暂停；截图前readyState=4。非逐帧量测，未鉴定声音。",
+  "frames": [
+    {
+      "file": "experiments/10-original-start.jpg",
+      "seconds": 0,
+      "caption": "四栏标签与俯拍结构；右栏替换为汉服＋书房",
+      "ready_state": 4
+    },
+    {
+      "file": "experiments/10-original-early.jpg",
+      "seconds": 2.991003,
+      "caption": "人物、服装与脸朝向不同；结构对应不等于动作保真",
+      "ready_state": 4
+    },
+    {
+      "file": "experiments/10-original-middle.jpg",
+      "seconds": 6.060459,
+      "caption": "左两栏前景遮挡与右两栏不一致，需按时点复核",
+      "ready_state": 4
+    },
+    {
+      "file": "experiments/10-original-later.jpg",
+      "seconds": 9.120108,
+      "caption": "棕色服装与红金汉服对照；斜向光影仍为共同要素",
+      "ready_state": 4
+    },
+    {
+      "file": "experiments/10-original-end.jpg",
+      "seconds": 12.120816,
+      "caption": "末态屈臂与交腿；未量测姿态、速度及同步误差",
+      "ready_state": 4
+    }
+  ],
+  "downloaded_original_media": false,
+  "ran_rea_video": false,
+  "generated_xiaoyou": false,
+  "full_media_review": false
+}

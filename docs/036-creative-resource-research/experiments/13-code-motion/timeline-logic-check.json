@@ -1,0 +1,22 @@
+{
+  "case_id": "13",
+  "checked_date": "2026-11-22",
+  "method": "Node assert on authored timeline-state.js; not author tool",
+  "checks": {
+    "chapter_boundaries": [
+      0,
+      89,
+      90,
+      209,
+      210,
+      299
+    ],
+    "clamp_negative_to_zero": true,
+    "clamp_300_to_299": true,
+    "frame120_beat9": true,
+    "identical_frame_state_repeat": true,
+    "duration_frames_over_fps_is_10": true
+  },
+  "result": "passed",
+  "scope": "Logic checks only; real audio, video output and XiaoYou assets not tested"
+}

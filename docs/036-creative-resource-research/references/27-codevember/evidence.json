@@ -1,0 +1,126 @@
+{
+  "case_id": "27",
+  "checked_date": "2026-11-22",
+  "source_post": "https://x.com/mrdoob/status/2118905295858794888",
+  "source_snapshot": "sources/27.json",
+  "prompt_list": "https://x.com/thespite/status/2116974998212772095",
+  "repository": {
+    "url": "https://github.com/mrdoob/codevember-2026",
+    "commit": "3e091f9000081b5a4d85ac3428f570dfa5cbbfa9",
+    "commit_date": "2026-11-19T06:25:13Z",
+    "inspection": "只读资料，对应原帖发布后的版本",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://github.com/mrdoob/codevember-2026/blob/3e091f9000081b5a4d85ac3428f570dfa5cbbfa9/README.md"
+      },
+      {
+        "path": "index.html",
+        "url": "https://github.com/mrdoob/codevember-2026/blob/3e091f9000081b5a4d85ac3428f570dfa5cbbfa9/index.html"
+      },
+      {
+        "path": "gallery.css",
+        "url": "https://github.com/mrdoob/codevember-2026/blob/3e091f9000081b5a4d85ac3428f570dfa5cbbfa9/gallery.css"
+      },
+      {
+        "path": "05/README.md",
+        "url": "https://github.com/mrdoob/codevember-2026/blob/3e091f9000081b5a4d85ac3428f570dfa5cbbfa9/05/README.md"
+      },
+      {
+        "path": "06/README.md",
+        "url": "https://github.com/mrdoob/codevember-2026/blob/3e091f9000081b5a4d85ac3428f570dfa5cbbfa9/06/README.md"
+      },
+      {
+        "path": "06/index.html",
+        "url": "https://github.com/mrdoob/codevember-2026/blob/3e091f9000081b5a4d85ac3428f570dfa5cbbfa9/06/index.html"
+      },
+      {
+        "path": "06/motion.js",
+        "url": "https://github.com/mrdoob/codevember-2026/blob/3e091f9000081b5a4d85ac3428f570dfa5cbbfa9/06/motion.js"
+      },
+      {
+        "path": "06/scripts/capture-video.js",
+        "url": "https://github.com/mrdoob/codevember-2026/blob/3e091f9000081b5a4d85ac3428f570dfa5cbbfa9/06/scripts/capture-video.js"
+      },
+      {
+        "path": "06/scripts/capture-sequence.js",
+        "url": "https://github.com/mrdoob/codevember-2026/blob/3e091f9000081b5a4d85ac3428f570dfa5cbbfa9/06/scripts/capture-sequence.js"
+      },
+      {
+        "path": "07/README.md",
+        "url": "https://github.com/mrdoob/codevember-2026/blob/3e091f9000081b5a4d85ac3428f570dfa5cbbfa9/07/README.md"
+      }
+    ]
+  },
+  "video": {
+    "media_id": "2118904843142397952",
+    "width": 1024,
+    "height": 1024,
+    "duration_seconds": 60,
+    "frame_evidence": [
+      {
+        "file": "experiments/27-codevember/video-00.jpg",
+        "seconds": 0,
+        "caption": "开场 · 窗光下的仪器全景"
+      },
+      {
+        "file": "experiments/27-codevember/video-08.jpg",
+        "seconds": 7.633136,
+        "caption": "白天环绕 · 主体、轨道和窗面位置变化"
+      },
+      {
+        "file": "experiments/27-codevember/video-12.jpg",
+        "seconds": 11.804733,
+        "caption": "底座特写 · 环轨支点和金属反光"
+      },
+      {
+        "file": "experiments/27-codevember/video-20.jpg",
+        "seconds": 19.881656,
+        "caption": "俯视 · 多层轨道和行星，蓝色球体旁出现提示环"
+      },
+      {
+        "file": "experiments/27-codevember/video-36.jpg",
+        "seconds": 36.12426,
+        "caption": "夜景 · 中央光球与墙上彩色光斑"
+      },
+      {
+        "file": "experiments/27-codevember/video-47.jpg",
+        "seconds": 47.396449,
+        "caption": "夜间低机位 · 粒子、轨道和行星剪影"
+      },
+      {
+        "file": "experiments/27-codevember/video-60.jpg",
+        "seconds": 59.911242,
+        "caption": "片尾 · 回到与开头相近的日景全景"
+      }
+    ]
+  },
+  "public_browser": {
+    "gallery_url": "https://mrdoob.github.io/codevember-2026/",
+    "completed": 17,
+    "placeholders": 13,
+    "verified": [
+      "目录进入第 06 天并由顶栏返回",
+      "Day 至 Night，观察到彩光和颗粒",
+      "Change View 从 Instrument 至 Three-quarter，构图改变"
+    ],
+    "screenshots": [
+      {
+        "file": "experiments/27-codevember/gallery-full.jpg",
+        "caption": "作者作品目录 · 17 张成品封面和 13 项灰色题目"
+      },
+      {
+        "file": "experiments/27-codevember/orrery-day.jpg",
+        "caption": "公开作品页 · 默认 Day 与 Instrument 机位"
+      },
+      {
+        "file": "experiments/27-codevember/orrery-night.jpg",
+        "caption": "公开作品页 · 按 Night 后，彩色光斑、颗粒与光束出现"
+      },
+      {
+        "file": "experiments/27-codevember/orrery-three-quarter.jpg",
+        "caption": "公开作品页 · 按 Change View 后，Three-quarter 机位"
+      }
+    ]
+  }
+}

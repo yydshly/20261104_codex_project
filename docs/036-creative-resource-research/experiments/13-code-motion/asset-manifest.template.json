@@ -1,0 +1,36 @@
+{
+  "case_id": "13",
+  "status": "template_not_run",
+  "assets": [
+    {
+      "id": "xiaoyou_base",
+      "role": "identity_and_performance",
+      "type": null,
+      "file": null,
+      "sha256": null,
+      "identity_reference": null,
+      "alpha_edge_checked": null
+    },
+    {
+      "id": "audio",
+      "role": "music_or_speech",
+      "file": null,
+      "sha256": null,
+      "offset_seconds": null,
+      "beat_grid_verified": false
+    },
+    {
+      "id": "font",
+      "role": "typography",
+      "file_or_family": null,
+      "version": null
+    }
+  ],
+  "composition": {
+    "fps": null,
+    "duration_frames": null,
+    "width": null,
+    "height": null
+  },
+  "source_asset_quality_verified": false
+}

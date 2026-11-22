@@ -1,0 +1,72 @@
+{
+  "kind": "research-proposal-not-executable",
+  "executed": false,
+  "purpose": "5秒城市配画；首轮只验环境",
+  "data": {
+    "city": null,
+    "landmark": null,
+    "catalog_url": null,
+    "acquisition_year": null,
+    "mesh_ids": [],
+    "building_ids": [],
+    "lod": null,
+    "texture_sources": [],
+    "license": null,
+    "attribution": null,
+    "downloaded": false
+  },
+  "scene": {
+    "source_format": null,
+    "conversion": null,
+    "coordinate_system": null,
+    "units": null,
+    "axes": null,
+    "local_origin": null,
+    "material_paths": [],
+    "blend_file": null,
+    "checked": false
+  },
+  "shot": {
+    "duration_seconds_candidate": 5,
+    "aspect_ratio": null,
+    "lighting": "固定白天",
+    "motion_intent": "只选一种小幅侧移或缓升",
+    "start_composition": null,
+    "end_composition": null,
+    "target": null,
+    "actual_numeric_camera_controls": null
+  },
+  "routes": {
+    "A": "核对场景后直接3D渲染",
+    "B": "同一起始构图引导生成；静帧改写若存在需先验收"
+  },
+  "landmark_regions": [
+    "屋顶/圆顶与轮廓",
+    "钟面或圆形顶饰",
+    "窗列和出入口",
+    "周围建筑相邻关系",
+    "道路/水面",
+    "遮挡后重现"
+  ],
+  "xiaoyou": {
+    "included_in_first_trial": false,
+    "after_environment_pass": [
+      "脸/身份",
+      "画面比例",
+      "光照",
+      "接地",
+      "遮挡",
+      "有口播时另验口型"
+    ]
+  },
+  "deliverables": [
+    "数据来源记录",
+    "可重开场景/机位",
+    "源渲染",
+    "改写静帧与版本（如有）",
+    "原始视频输出",
+    "地标QA",
+    "实际成本与工时"
+  ]
+}
+

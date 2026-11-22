@@ -41,6 +41,7 @@
 | 033 | [栖境 · 环境、情绪与沉浸体验研究](projects/033-environment-emotion-lab/README.md) | [Daniil / Quack](https://x.com/daniildesigns/status/2120195320768303141) · [Three.js](https://github.com/mrdoob/three.js) · [Rocketbox](https://github.com/microsoft/Microsoft-Rocketbox) | 研究数字环境怎样通过空间、光影、声音、自然变化与人的活动，构造温暖、放松、愿意停留的体验。以实时池塘和房间—庭院—池塘连通小屋，验证双视角、连续阅读动作、物件与座椅接触、自然录音及MiniMax位置朗读，沉淀资产、状态协调、动作与声场的复用方法；稳定情绪效果、长期使用和产品价值仍待验证。 | [既有研究总结图](#environment-emotion-guide) | [在线研究与实际体验](https://yydshly.github.io/20261104_codex_project/033-environment-emotion-lab/) |
 | 034 | [纸墨小世界 · 从纸墨小景到故事产品](projects/034-paper-relief-lab/README.md) | [Ann Nguyen 原帖](https://x.com/ann_nnng/status/2120156122133004665) · [Paper River](https://www.bubbbly.com/paper-river) | 沿原帖、录屏和后续回复取证，逐帧观察纸墨、构图和局部互动。用溪桥、煮水、采叶与有声《悯农》检验分镜、动作和音画同步，沉淀两案例制作台、六类应用及评论和试看分析方法。 | [既有研究总图](#paper-relief-guide) | [在线研究与样片](https://yydshly.github.io/20261104_codex_project/034-paper-relief-lab/) |
 | 035 | [App 数据统计与趋势观察](projects/035-app-opportunity-radar/README.md) | [Stringers讨论起点](https://x.com/stringers_cn/status/2121445525006524627) · Apple公开接口 · [google-play-scraper](https://github.com/facundoolano/google-play-scraper) | 阶段一定位为持续采集、统计和图表展示，判断交给人。覆盖iOS中美日英与安卓美日英，保留连续榜单、评分、场景能力标签和评论证据；期间上榜池包含已离榜产品，持榜与7日评分注明有效天数，多产品曲线可勾选对比。快照含14张返回榜单、8天历史、1,808条市场观测和728条有效评论；原引导图保留并说明早期设想与当前执行的边界，公开固定快照与本机每日任务独立。 | [原引导图与阶段理解](#app-opportunity-radar-guide) | [阶段说明与统计看板](https://yydshly.github.io/20261104_codex_project/035-app-opportunity-radar/) |
+| 036 | [48 条创作资源研究](projects/036-creative-resource-research/README.md) | [48 条原帖清单](docs/036-creative-resource-research/source-list.tsv) | 研究 48 条 X 原始链接，按数字人、视频制作、3D 与 WebGL、Agent 工作流、内容玩法与变现、小游戏划分为六大模块和 25 个小模块。逐条对照原作、技术做法和适用条件，把可以借用的步骤、效果验收和投入前要核对的条件沉淀为项目决策依据。 | [本轮研究引导图](#creative-resource-research-guide) | [在线总览与逐条分析](https://yydshly.github.io/20261104_codex_project/036-creative-resource-research/) |
 
 项目按收录顺序从 `001` 开始编号。新条目按编号追加，已分配的编号保持固定。索引摘要用一两句话写清研究对象和关注点。完成验证后，可补上一条主要发现。
 
@@ -551,3 +552,13 @@ Adam Chernick 个人制作、扩展和组合的网页 3D 实验，部分基于 T
 **成果与边界：** 14张返回榜单（含短榜）、8天历史、1,808条产品市场观测、1,440个不同平台商店ID；标签覆盖945条，863条待补充。原PNG/SVG按字节保留，图中机会判断是早期设想，旧数字不覆盖当前快照。公开网站为手动发布的固定快照，本机每日采集继续独立运行；真实理解速度、用户采用、付费、盈利和增长归因没有验证。
 
 [阶段说明与原引导图](https://yydshly.github.io/20261104_codex_project/035-app-opportunity-radar/) · [趋势看板](https://yydshly.github.io/20261104_codex_project/035-app-opportunity-radar/report/index.html#trends) · [评论统计](https://yydshly.github.io/20261104_codex_project/035-app-opportunity-radar/report/index.html#research) · [完整摘要与源码](projects/035-app-opportunity-radar/README.md) · [阶段记录](projects/035-app-opportunity-radar/PHASE-1.md)
+
+<a id="creative-resource-research-guide"></a>
+
+### 036 · 48 条创作资源研究
+
+研究 48 条 X 原始链接，按数字人、视频制作、3D 与 WebGL、Agent 工作流、内容玩法与变现、小游戏划分为六大模块和 25 个小模块。逐条对照原作、技术做法和适用条件，把可以借用的步骤、效果验收和投入前要核对的条件沉淀为项目决策依据。
+
+![48 条创作资源研究引导图，含六大模块、25 个小模块、全部原编号及核心价值](docs/036-creative-resource-research/summaries/research-overview.png)
+
+[在线资料总览](https://yydshly.github.io/20261104_codex_project/036-creative-resource-research/#overview) · [完整研究摘要](projects/036-creative-resource-research/README.md) · [原始链接清单](docs/036-creative-resource-research/source-list.tsv)

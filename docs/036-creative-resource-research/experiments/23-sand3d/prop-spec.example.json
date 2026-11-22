@@ -1,0 +1,59 @@
+{
+  "status": "候选，尚未生成/运行",
+  "name": "xiaoyou_lidded_box",
+  "unit": "mm",
+  "parameters": {
+    "width": 160,
+    "depth": 100,
+    "body_height": 80,
+    "wall": 4,
+    "lid_thickness": 4
+  },
+  "parts": [
+    {
+      "name": "box_body",
+      "role": "固定盒体，内部挖空和壁厚待验"
+    },
+    {
+      "name": "lid",
+      "role": "活动盒盖，与宽深参数关联"
+    }
+  ],
+  "joint": {
+    "name": "lid_hinge",
+    "parent": "box_body",
+    "child": "lid",
+    "pivot_candidate": [
+      0,
+      "depth/2",
+      "body_height"
+    ],
+    "axis_candidate": "-X",
+    "range_degrees": [
+      0,
+      105
+    ],
+    "note": "候选方向与枢轴须用网格开合检查，不视为已验证API程序"
+  },
+  "variants": [
+    {
+      "width": 160
+    },
+    {
+      "width": 200
+    }
+  ],
+  "outputs_expected": [
+    "可读程序和参数差异",
+    "0/105度预览",
+    "GLB当前姿态与关节元数据",
+    "查看器活动控制说明",
+    "版本/哈希/单位/警告/QA"
+  ],
+  "not_created": [
+    "sand3d程序",
+    "实际网格",
+    "GLB",
+    "小柚渲染"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "status": "not_run",
+  "selected_route": null,
+  "source_audio": null,
+  "script_version": null,
+  "code_version": null,
+  "model_or_agent": null,
+  "chrome_gpu_check": null,
+  "font_family": null,
+  "cn_punctuation_check": null,
+  "actual_outputs": [],
+  "same_frame_check": null,
+  "continuous_video_review": null,
+  "audio_listened": null,
+  "cost": {
+    "agent_usage": null,
+    "tts_fee": null,
+    "asset_fee": null,
+    "attempts": null,
+    "human_minutes": null,
+    "render_minutes": null
+  },
+  "measured_savings": null,
+  "reproduced": false
+}

@@ -1,0 +1,50 @@
+{
+  "case_id": "08",
+  "review_date": "2026-11-21",
+  "origin": "引用@cutetoxicguy，非Phantom自身附件",
+  "source": "https://video.twimg.com/amplify_video/2118379139841318912/vid/avc1/1280x720/OuZW4YdQriQPJVvf.mp4?tag=29",
+  "duration_seconds": 23.018,
+  "samples": [
+    {
+      "file": "experiments/08-original-start.jpg",
+      "seconds": 0,
+      "ready_state": 4,
+      "paused": true,
+      "observation": "输入舞蹈与人体预览并排；不是小柚"
+    },
+    {
+      "file": "experiments/08-original-early.jpg",
+      "seconds": 4.897843,
+      "ready_state": 4,
+      "paused": true,
+      "observation": "下蹲/身体倾斜的姿势对应及脚边标记"
+    },
+    {
+      "file": "experiments/08-original-middle.jpg",
+      "seconds": 11.13654,
+      "ready_state": 4,
+      "paused": true,
+      "observation": "举臂姿势、接触标记与多轨时间轴"
+    },
+    {
+      "file": "experiments/08-original-later.jpg",
+      "seconds": 17.468352,
+      "ready_state": 4,
+      "paused": true,
+      "observation": "抬腿姿势与运动路径；未量测脚滑"
+    },
+    {
+      "file": "experiments/08-original-end.jpg",
+      "seconds": 23.018,
+      "ready_state": 4,
+      "paused": true,
+      "observation": "录屏末尾回到较早源动作位置，不用其当动作时码"
+    }
+  ],
+  "method": "2026-11-21在引用帖原始MP4的浏览器时间轴暂停核对0、4.897843、11.13654、17.468352、23.018秒，交付截图均确认readyState=4。11.14秒初次解码未完成，重新定位并重截，未沿用旧画面。视频1280×720、23.018秒，未下载、转码或重绘。原帖文字沿用2026-11-12镜像，本轮X直读403。关联文章只读正文和图注，未把其视频或图片计为本轮已审看媒体。",
+  "app_run": false,
+  "export_tested": false,
+  "contact_improvement_measured": false,
+  "xiaoyou_tested": false
+}
+

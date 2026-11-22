@@ -1,0 +1,42 @@
+{
+  "case_id": "12",
+  "review_date": "2026-11-22",
+  "scope": "页面与公开说明核对；无输入文件、转换输出、账号修改或平台上传",
+  "sites": [
+    {
+      "url": "https://xhdr.app/",
+      "image_claim": "400×400、256色PQ PNG，桌面网页上传、不缩放",
+      "privacy_claim": "浏览器本地处理、无上传；未审计",
+      "screenshot": "experiments/12-xhdr-app-entry.jpg"
+    },
+    {
+      "url": "https://xhdr.app/video/",
+      "output_claim": "8位H.264 HLG、BT.2020",
+      "x_claim": "X逐步开放，账号可能不同",
+      "screenshot": "experiments/12-xhdr-app-video.jpg"
+    },
+    {
+      "url": "https://xhdr.org/tools/twitter-hdr",
+      "output_claim": "400×400、16位HDR PNG",
+      "upload_claim": "页面提示手机X App",
+      "screenshot": "experiments/12-xhdr-org-avatar-entry.jpg"
+    },
+    {
+      "url": "https://xhdr.org/tools/hdr-video",
+      "output_claim": "HEVC MP4、PQ/BT.2020",
+      "platform_claim": "Instagram/Facebook，建议跳过X",
+      "browser_claim": "需要WebCodecs HEVC编码；页面称近期Chrome/Edge/Safari通常可，Firefox当前不可",
+      "screenshot": "experiments/12-xhdr-org-video.jpg"
+    }
+  ],
+  "unresolved": [
+    "两站X视频支持说法不同",
+    "头像上传入口建议不同",
+    "未核对实际输出与平台返回媒体"
+  ],
+  "file_imported": false,
+  "conversion_run": false,
+  "privacy_audited": false,
+  "platform_uploaded": false,
+  "hdr_display_verified": false
+}

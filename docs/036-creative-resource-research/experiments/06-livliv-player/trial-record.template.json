@@ -1,0 +1,46 @@
+{
+  "case_id": "06",
+  "status": "not_run",
+  "prepared_date": "2026-11-21",
+  "player_version": null,
+  "model_type": null,
+  "model_file": null,
+  "model_license": null,
+  "audio_inputs": [],
+  "device": null,
+  "browser": null,
+  "network_condition": null,
+  "metrics": {
+    "cold_first_visible_frame_ms": null,
+    "warm_first_visible_frame_ms": null,
+    "total_download_bytes": null,
+    "audio_request_to_first_audible_ms": null,
+    "audio_to_first_mouth_motion_ms": null,
+    "interrupt_to_silence_ms": null,
+    "full_reply_latency_ms": null
+  },
+  "metric_definitions": {
+    "first_visible_frame": "从开始加载本页到角色首帧可见；冷/热条件单独登记",
+    "audio_request": "从用户触发播放到听见音频，不包含未接入的LLM/TTS生成",
+    "mouth_motion": "音轨起点到可见嘴部动作，需有可对齐的音画录屏，不能由截图估计",
+    "interrupt": "按停止到旧音频停止可闻",
+    "full_reply": "只有接入真实对话和TTS后才量测，否则留空"
+  },
+  "checks": {
+    "chinese_mouth_timing": null,
+    "pause_closes_mouth": null,
+    "queue_order": null,
+    "interrupt_clears_old_audio": null,
+    "identity_stable_during_expression": null,
+    "no_layer_seams": null,
+    "mobile_usable": null,
+    "static_fallback_works": null
+  },
+  "observations": [],
+  "failures": [],
+  "chosen_route": null,
+  "conclusion": null,
+  "reproduced": false,
+  "digested": false
+}
+

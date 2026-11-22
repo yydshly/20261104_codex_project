@@ -1,0 +1,13 @@
+stage,item,expected,observed,passed,time_or_frame,notes
+script,meaning,question_and_conclusion_match_voiceover,,,,
+text,cjk_glyphs,no_missing_glyphs_and_mixed_text_reads_well,,,,
+text,cn_punctuation,check_chinese_full_stop_question_exclamation,,,,
+text,wrap,long_lines_do_not_overlap_or_cover_face,,,,
+layout,phone,readable_at_phone_size_and_safe_area,,,,
+layout,aspect_ratios,portrait_and_landscape_are_separately_composed,,,,
+time,determinism,same_frame_return_and_boundaries_verified,,,,
+audio,cues,actual_voice_and_captions_align_with_events,,,,
+audio,listening,words_clear_on_headphones_and_phone,,,,
+render,metadata,record_actual_size_fps_duration_audio_tracks,,,,
+render,continuity,no_unintended_black_freeze_or_flash,,,,
+cost,record,all_attempts_and_human_render_minutes_recorded,,,,

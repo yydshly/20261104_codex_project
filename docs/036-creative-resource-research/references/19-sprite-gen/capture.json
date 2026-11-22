@@ -1,0 +1,113 @@
+{
+  "retrieved_date": "2026-11-22",
+  "repository": "aldegad/sprite-gen",
+  "commit": "bb3be7b127d46de237e0b4e03f026be4fd207da6",
+  "commit_date": "2026-11-21T12:10:32Z",
+  "source_post_date": "2026-11-05",
+  "timing_note": "当前版本晚于原帖；不把当前功能倒推为原帖附件制作方法。",
+  "read_only": true,
+  "installed_or_run": false,
+  "external_skill_activated": false,
+  "files": [
+    {
+      "repository_path": "README.zh-Hans.md",
+      "file": "references/19-sprite-gen/README.zh-Hans.md",
+      "url": "https://github.com/aldegad/sprite-gen/blob/bb3be7b127d46de237e0b4e03f026be4fd207da6/README.zh-Hans.md",
+      "sha256": "91326139b6ae5a481fb967cbf26c7e2a2f329f3fc5118005534fae86cce38360",
+      "bytes": 12475
+    },
+    {
+      "repository_path": "SKILL.md",
+      "file": "references/19-sprite-gen/SKILL.md",
+      "url": "https://github.com/aldegad/sprite-gen/blob/bb3be7b127d46de237e0b4e03f026be4fd207da6/SKILL.md",
+      "sha256": "61a6f2718a0cfa51e2433ffb9cdb2d9c32eafc4aa57e5f6d8f3bb4151e773600",
+      "bytes": 22795
+    },
+    {
+      "repository_path": "docs/capabilities.md",
+      "file": "references/19-sprite-gen/docs--capabilities.md",
+      "url": "https://github.com/aldegad/sprite-gen/blob/bb3be7b127d46de237e0b4e03f026be4fd207da6/docs/capabilities.md",
+      "sha256": "6a917283472e1fcd68d416b77d49516826b23978ad874f48a80c3c102789ecfa",
+      "bytes": 4057
+    },
+    {
+      "repository_path": "docs/user-workflow.md",
+      "file": "references/19-sprite-gen/docs--user-workflow.md",
+      "url": "https://github.com/aldegad/sprite-gen/blob/bb3be7b127d46de237e0b4e03f026be4fd207da6/docs/user-workflow.md",
+      "sha256": "0b0550bd792794feb5346d1bca388d6288aabd5341bed04ab9db686d877d031e",
+      "bytes": 6410
+    },
+    {
+      "repository_path": "docs/atlas-workflow.md",
+      "file": "references/19-sprite-gen/docs--atlas-workflow.md",
+      "url": "https://github.com/aldegad/sprite-gen/blob/bb3be7b127d46de237e0b4e03f026be4fd207da6/docs/atlas-workflow.md",
+      "sha256": "ee52fa0b0d8c61250d74e806261dc06f69dd8f376ab22652467545ab24ed34c4",
+      "bytes": 3783
+    },
+    {
+      "repository_path": "docs/video.md",
+      "file": "references/19-sprite-gen/docs--video.md",
+      "url": "https://github.com/aldegad/sprite-gen/blob/bb3be7b127d46de237e0b4e03f026be4fd207da6/docs/video.md",
+      "sha256": "8b7adda5f5b6e1938a355dbb93b612a28650c5fb3502c9006b3f5679bb740522",
+      "bytes": 14026
+    },
+    {
+      "repository_path": "docs/qa-motion.md",
+      "file": "references/19-sprite-gen/docs--qa-motion.md",
+      "url": "https://github.com/aldegad/sprite-gen/blob/bb3be7b127d46de237e0b4e03f026be4fd207da6/docs/qa-motion.md",
+      "sha256": "8941afa9740e888291b5cc13517e203005f921cedc09d4e9fde159b867f1cab4",
+      "bytes": 3596
+    },
+    {
+      "repository_path": "docs/engine-export.md",
+      "file": "references/19-sprite-gen/docs--engine-export.md",
+      "url": "https://github.com/aldegad/sprite-gen/blob/bb3be7b127d46de237e0b4e03f026be4fd207da6/docs/engine-export.md",
+      "sha256": "70fae0a67e9b3236c44551a3b94573a30e8dcecb497a54a157d6a9ae3306f9b0",
+      "bytes": 3634
+    },
+    {
+      "repository_path": "docs/seamless-video-loop.md",
+      "file": "references/19-sprite-gen/docs--seamless-video-loop.md",
+      "url": "https://github.com/aldegad/sprite-gen/blob/bb3be7b127d46de237e0b4e03f026be4fd207da6/docs/seamless-video-loop.md",
+      "sha256": "69670915401a99bfa4aa2ef281f22e3c6d9840c7de7c1b9af745571b300d855d",
+      "bytes": 5630
+    },
+    {
+      "repository_path": "pyproject.toml",
+      "file": "references/19-sprite-gen/pyproject.toml",
+      "url": "https://github.com/aldegad/sprite-gen/blob/bb3be7b127d46de237e0b4e03f026be4fd207da6/pyproject.toml",
+      "sha256": "cdd68a4293b7789c0d842db86eda3c3c1f728bde6455b7ce5d6aa43b49f9fefd",
+      "bytes": 6950
+    },
+    {
+      "repository_path": "LICENSE",
+      "file": "references/19-sprite-gen/LICENSE",
+      "url": "https://github.com/aldegad/sprite-gen/blob/bb3be7b127d46de237e0b4e03f026be4fd207da6/LICENSE",
+      "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "bytes": 10776
+    },
+    {
+      "repository_path": "sprite_gen/compose/export_aseprite.py",
+      "file": "references/19-sprite-gen/sprite_gen--compose--export_aseprite.py",
+      "url": "https://github.com/aldegad/sprite-gen/blob/bb3be7b127d46de237e0b4e03f026be4fd207da6/sprite_gen/compose/export_aseprite.py",
+      "sha256": "af769a89c922df2aa088c317f0d179d58a589500109f090a82097dc630d0e02b",
+      "bytes": 9749
+    },
+    {
+      "repository_path": "sprite_gen/workflow/capabilities.py",
+      "file": "references/19-sprite-gen/sprite_gen--workflow--capabilities.py",
+      "url": "https://github.com/aldegad/sprite-gen/blob/bb3be7b127d46de237e0b4e03f026be4fd207da6/sprite_gen/workflow/capabilities.py",
+      "sha256": "bc2fdb5b1e86d6800ebce1bdf982e07c70211ab472b3ebe5c3dc976bfd41b1cd",
+      "bytes": 6958
+    },
+    {
+      "repository_path": "docs/states-and-frames.md",
+      "file": "references/19-sprite-gen/docs--states-and-frames.md",
+      "url": "https://github.com/aldegad/sprite-gen/blob/bb3be7b127d46de237e0b4e03f026be4fd207da6/docs/states-and-frames.md",
+      "sha256": "170c754a9a6315758e19ecf17f885d85f604785c6af72a2fcb3e2d4734c1cc94",
+      "bytes": 6579
+    }
+  ],
+  "original_post_status": "本轮直读403；沿用2026-11-12公开镜像sources/19.json",
+  "decoded_post2_size_differs_from_snapshot": true
+}

@@ -1,0 +1,113 @@
+{
+  "review_date": "2026-11-22",
+  "source_url": "https://x.com/sarpstar/status/2119082994925211686",
+  "media_url": "https://video.twimg.com/amplify_video/2119056513482297344/vid/avc1/1920x1080/sximlRsim958d675.mp4?tag=29",
+  "source_dimensions": [
+    1920,
+    1080
+  ],
+  "snapshot_duration_seconds": 471.458,
+  "browser_duration_seconds": 471.509333,
+  "screenshot_dimensions": [
+    1280,
+    720
+  ],
+  "method": "Native video timeline seeks; screenshot only after readyState4; sampled coverage, not continuous full review. No original media download or transcode.",
+  "frames": [
+    {
+      "file": "experiments/16-cinecode/original-000.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "seconds": 0,
+      "caption": "云海/海面上方机群，建立空间与氛围"
+    },
+    {
+      "file": "experiments/16-cinecode/original-040.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "seconds": 40.055404,
+      "caption": "海面反光与英/土双行字幕，本文不验证字幕历史说法"
+    },
+    {
+      "file": "experiments/16-cinecode/original-080.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "seconds": 80.110809,
+      "caption": "暗底星点与圆环，可见过渡状态"
+    },
+    {
+      "file": "experiments/16-cinecode/original-120.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "seconds": 120.166213,
+      "caption": "海面与说明字幕"
+    },
+    {
+      "file": "experiments/16-cinecode/original-160.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "seconds": 159.840137,
+      "caption": "加勒比地区线描地图与航线"
+    },
+    {
+      "file": "experiments/16-cinecode/original-200.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "seconds": 199.895542,
+      "caption": "佛罗里达轮廓、030°标记与字幕"
+    },
+    {
+      "file": "experiments/16-cinecode/original-240.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "seconds": 239.950946,
+      "caption": "海面亮光与双语字幕"
+    },
+    {
+      "file": "experiments/16-cinecode/original-280.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "seconds": 280.006351,
+      "caption": "暗天空与字幕"
+    },
+    {
+      "file": "experiments/16-cinecode/original-320.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "seconds": 320.061755,
+      "caption": "较亮海面与字幕"
+    },
+    {
+      "file": "experiments/16-cinecode/original-360.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "seconds": 360.11716,
+      "caption": "WINSLOW HOMER署名绘画画面，素材清单未取得"
+    },
+    {
+      "file": "experiments/16-cinecode/original-400.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "seconds": 400.172564,
+      "caption": "多路径地图、机构名与双语字幕"
+    },
+    {
+      "file": "experiments/16-cinecode/original-440.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "seconds": 439.846489,
+      "caption": "海面、地平线与远处陆地"
+    },
+    {
+      "file": "experiments/16-cinecode/original-end.jpg",
+      "paused": true,
+      "ready_state": 4,
+      "seconds": 471.509333,
+      "caption": "cinecode片尾标识与仓库地址"
+    }
+  ],
+  "audio_reviewed": false,
+  "full_frame_review": false,
+  "historical_claims_verified": false,
+  "source_project_obtained": false
+}

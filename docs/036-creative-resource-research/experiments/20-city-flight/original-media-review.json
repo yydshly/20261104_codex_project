@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-22",
+  "method": "浏览器原生时间轴取样；最终截图readyState=4，currentTime近似定位；未逐帧/几何/轨迹/钟表计数或听审。原视频未下载或转码。",
+  "clips": [
+    {
+      "id": "osaka",
+      "post_url": "https://x.com/noel_ai_lab/status/2118672880980611565",
+      "video_url": "https://video.twimg.com/amplify_video/2118672842938318848/vid/avc1/1152x768/-l6RZMlntoDVM3wQ.mp4?tag=29",
+      "decoded_size": [
+        1152,
+        768
+      ],
+      "duration_seconds": 30.083333,
+      "sample_count": 7
+    },
+    {
+      "id": "tokyo",
+      "post_url": "https://x.com/Zimo41650079726/status/2117924797967642861",
+      "video_url": "https://video.twimg.com/amplify_video/2117924633072803840/vid/avc1/1080x720/W34igUjiBg5VObhf.mp4?tag=14",
+      "snapshot_size": [
+        1152,
+        768
+      ],
+      "decoded_size": [
+        1080,
+        720
+      ],
+      "duration_seconds": 10.112,
+      "sample_count": 6
+    }
+  ],
+  "screenshots_size": [
+    1280,
+    720
+  ],
+  "samples": [
+    {
+      "clip": "osaka",
+      "file": "experiments/20-city-flight/osaka-00.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 0
+    },
+    {
+      "clip": "osaka",
+      "file": "experiments/20-city-flight/osaka-05.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 4.99453
+    },
+    {
+      "clip": "osaka",
+      "file": "experiments/20-city-flight/osaka-10.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 9.98906
+    },
+    {
+      "clip": "osaka",
+      "file": "experiments/20-city-flight/osaka-15.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 15.012628
+    },
+    {
+      "clip": "osaka",
+      "file": "experiments/20-city-flight/osaka-20.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 20.007158
+    },
+    {
+      "clip": "osaka",
+      "file": "experiments/20-city-flight/osaka-25.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 25.001688
+    },
+    {
+      "clip": "osaka",
+      "file": "experiments/20-city-flight/osaka-30.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 29.996219
+    },
+    {
+      "clip": "tokyo",
+      "file": "experiments/20-city-flight/tokyo-00.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 0
+    },
+    {
+      "clip": "tokyo",
+      "file": "experiments/20-city-flight/tokyo-02.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 2.000926
+    },
+    {
+      "clip": "tokyo",
+      "file": "experiments/20-city-flight/tokyo-04.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 4.001852
+    },
+    {
+      "clip": "tokyo",
+      "file": "experiments/20-city-flight/tokyo-06.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 6.002779
+    },
+    {
+      "clip": "tokyo",
+      "file": "experiments/20-city-flight/tokyo-08.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 8.003705
+    },
+    {
+      "clip": "tokyo",
+      "file": "experiments/20-city-flight/tokyo-10.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 10.004633
+    }
+  ],
+  "comparison_sheet": {
+    "file": "experiments/20-city-flight/contact-sheet.jpg",
+    "size": [
+      1440,
+      1112
+    ],
+    "ui_composition": "HTML/SVG嵌入原截图，裁去播放器控件；不是同机位A/B"
+  },
+  "clock_increase": "作者反馈，本轮未独立计数",
+  "generation_executed": false,
+  "xiaoyou_generated": false
+}

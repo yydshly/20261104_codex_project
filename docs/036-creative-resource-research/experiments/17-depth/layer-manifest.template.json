@@ -1,0 +1,50 @@
+{
+  "status": "template_not_produced",
+  "layers": [
+    {
+      "id": "background",
+      "source": null,
+      "rights": null,
+      "mask_file": null,
+      "relative_depth": null,
+      "overscan_pixels": null,
+      "motion_bounds": null,
+      "filled_occluded_regions": null
+    },
+    {
+      "id": "middle",
+      "source": null,
+      "rights": null,
+      "mask_file": null,
+      "relative_depth": null,
+      "overscan_pixels": null,
+      "motion_bounds": null,
+      "filled_occluded_regions": null
+    },
+    {
+      "id": "foreground",
+      "source": null,
+      "rights": null,
+      "mask_file": null,
+      "relative_depth": null,
+      "overscan_pixels": null,
+      "motion_bounds": null,
+      "filled_occluded_regions": null
+    }
+  ],
+  "camera": {
+    "path": null,
+    "max_translation": null,
+    "max_angle": null,
+    "fov_if_used": null,
+    "units": "人为示意单位时必须注明，不能写成实测距离"
+  },
+  "qa": null,
+  "cost": {
+    "asset_minutes": null,
+    "revision_minutes": null,
+    "composite_minutes": null,
+    "export_minutes": null,
+    "fee": null
+  }
+}

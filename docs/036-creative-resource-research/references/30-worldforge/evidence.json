@@ -1,0 +1,246 @@
+{
+  "case_id": "30",
+  "checked_date": "2026-11-22",
+  "source_snapshot": "sources/30.json",
+  "article_id": "2119323974454648832",
+  "media": {
+    "attached_videos": 0,
+    "images": [
+      {
+        "media_id": "2119325331290980352",
+        "url": "https://pbs.twimg.com/media/HWlbKP8WAAAC40s.jpg",
+        "file": "experiments/30-worldforge/article-01.jpg",
+        "caption": "原封面 · 以 0 元作宣传，画面为工作台和样图示意",
+        "displayed_dimensions": [
+          1200,
+          480
+        ]
+      },
+      {
+        "media_id": "2119326216150827008",
+        "url": "https://pbs.twimg.com/media/HWlb9wTXwAAREdo.png",
+        "file": "experiments/30-worldforge/article-02.jpg",
+        "caption": "长文宣传图 · 生图、视频、语音、Lyra 2.0 并列，卡片所写分辨率为作者宣传",
+        "displayed_dimensions": [
+          1199,
+          675
+        ]
+      },
+      {
+        "media_id": "2119326280457781248",
+        "url": "https://pbs.twimg.com/media/HWlcBf3WAAAc_Zb.png",
+        "file": "experiments/30-worldforge/article-03.jpg",
+        "caption": "作者工作台截图 · Colab 资源监控、回传日志与右侧素材库",
+        "displayed_dimensions": [
+          1024,
+          609
+        ]
+      },
+      {
+        "media_id": "2119326322866438144",
+        "url": "https://pbs.twimg.com/media/HWlcD92WwAA_v_f.png",
+        "file": "experiments/30-worldforge/article-04.jpg",
+        "caption": "暖色逆光样图 · 站台、近景遮挡、人物和散景",
+        "displayed_dimensions": [
+          1199,
+          692
+        ]
+      },
+      {
+        "media_id": "2119326362536189952",
+        "url": "https://pbs.twimg.com/media/HWlcGRoXIAAbaWq.png",
+        "file": "experiments/30-worldforge/article-05.jpg",
+        "caption": "雨窗样图 · 暖台灯、湿窗与冷色街景，适合拆出光色和构图参考",
+        "displayed_dimensions": [
+          1199,
+          692
+        ]
+      },
+      {
+        "media_id": "2119327304539066368",
+        "url": "https://pbs.twimg.com/media/HWlc9G3WUAA4gLO.jpg",
+        "file": "experiments/30-worldforge/article-06.jpg",
+        "caption": "作者八帧图 · 由石桥靠近拱门并从拱门下穿过，远处有浮岛和大树",
+        "displayed_dimensions": [
+          1199,
+          390
+        ]
+      }
+    ],
+    "scope": "浏览器打开长文中六张原图并截图，显示尺寸是 CDN 返回值"
+  },
+  "repository": {
+    "url": "https://github.com/designfuchen/worldforge",
+    "commit": "60a5323c3952e1ccad31dfc45d4aec4e13d9da4b",
+    "committed_at": "2026-11-08T07:47:52Z",
+    "license": "MIT",
+    "review_mode": "GitHub 只读仓库树、文档和执行链源码",
+    "files": [
+      {
+        "path": "LICENSE",
+        "url": "https://github.com/designfuchen/worldforge/blob/60a5323c3952e1ccad31dfc45d4aec4e13d9da4b/LICENSE"
+      },
+      {
+        "path": "README.md",
+        "url": "https://github.com/designfuchen/worldforge/blob/60a5323c3952e1ccad31dfc45d4aec4e13d9da4b/README.md"
+      },
+      {
+        "path": "TUTORIAL_ZH.md",
+        "url": "https://github.com/designfuchen/worldforge/blob/60a5323c3952e1ccad31dfc45d4aec4e13d9da4b/TUTORIAL_ZH.md"
+      },
+      {
+        "path": "docs/API.md",
+        "url": "https://github.com/designfuchen/worldforge/blob/60a5323c3952e1ccad31dfc45d4aec4e13d9da4b/docs/API.md"
+      },
+      {
+        "path": "forge.py",
+        "url": "https://github.com/designfuchen/worldforge/blob/60a5323c3952e1ccad31dfc45d4aec4e13d9da4b/forge.py"
+      },
+      {
+        "path": "forge_local/app.py",
+        "url": "https://github.com/designfuchen/worldforge/blob/60a5323c3952e1ccad31dfc45d4aec4e13d9da4b/forge_local/app.py"
+      },
+      {
+        "path": "forge_local/server.py",
+        "url": "https://github.com/designfuchen/worldforge/blob/60a5323c3952e1ccad31dfc45d4aec4e13d9da4b/forge_local/server.py"
+      },
+      {
+        "path": "forge_local/gallery.py",
+        "url": "https://github.com/designfuchen/worldforge/blob/60a5323c3952e1ccad31dfc45d4aec4e13d9da4b/forge_local/gallery.py"
+      },
+      {
+        "path": "remote/lyra_worker.py",
+        "url": "https://github.com/designfuchen/worldforge/blob/60a5323c3952e1ccad31dfc45d4aec4e13d9da4b/remote/lyra_worker.py"
+      },
+      {
+        "path": "remote/forge_server.py",
+        "url": "https://github.com/designfuchen/worldforge/blob/60a5323c3952e1ccad31dfc45d4aec4e13d9da4b/remote/forge_server.py"
+      },
+      {
+        "path": "remote/presets.py",
+        "url": "https://github.com/designfuchen/worldforge/blob/60a5323c3952e1ccad31dfc45d4aec4e13d9da4b/remote/presets.py"
+      },
+      {
+        "path": "remote/minimax_h3_worker.py",
+        "url": "https://github.com/designfuchen/worldforge/blob/60a5323c3952e1ccad31dfc45d4aec4e13d9da4b/remote/minimax_h3_worker.py"
+      },
+      {
+        "path": "web/js/actions.js",
+        "url": "https://github.com/designfuchen/worldforge/blob/60a5323c3952e1ccad31dfc45d4aec4e13d9da4b/web/js/actions.js"
+      },
+      {
+        "path": "web/js/sidebar.js",
+        "url": "https://github.com/designfuchen/worldforge/blob/60a5323c3952e1ccad31dfc45d4aec4e13d9da4b/web/js/sidebar.js"
+      }
+    ]
+  },
+  "billing": {
+    "app": "工作台源码 MIT。核对的任务和下载路径未见站内计费",
+    "cloud": "自有 GPU 或已具备资源的 Colab 等环境。作者已有 Ultra，Colab 运行会消耗 CU",
+    "export": "回传本地文件及可选后期，源码未见独立付费门槛",
+    "measured_account_units": null,
+    "measured_export": null
+  },
+  "lyra": {
+    "required_release": "nvidia/Lyra-2.0",
+    "worker_outputs": [
+      "world.mp4",
+      "input_frame.png",
+      "warp.mp4（条件可选）",
+      "split_3dgs.mp4（条件可选）"
+    ],
+    "upstream_reconstruction": "官方文档另有 GS 重建阶段，输出 reconstructed_scene.ply"
+  },
+  "verified": "长文6张图、固定源码、官方算力与权重许可",
+  "unverified": "云会话、下载或安装模型、实际推理、导出和账户价格均未实测",
+  "sources": [
+    {
+      "label": "@yangleiocx3 原帖",
+      "url": "https://x.com/yangleiocx3/status/2119328145975255371"
+    },
+    {
+      "label": "作者 X 长文",
+      "url": "https://x.com/i/article/2119323974454648832"
+    },
+    {
+      "label": "WorldForge 仓库固定版",
+      "url": "https://github.com/designfuchen/worldforge/tree/60a5323c3952e1ccad31dfc45d4aec4e13d9da4b"
+    },
+    {
+      "label": "工作台 MIT 许可",
+      "url": "https://github.com/designfuchen/worldforge/blob/60a5323c3952e1ccad31dfc45d4aec4e13d9da4b/LICENSE"
+    },
+    {
+      "label": "Google Colab 官方 FAQ",
+      "url": "https://research.google.com/colaboratory/faq.html"
+    },
+    {
+      "label": "Google AI 计划与额度",
+      "url": "https://one.google.com/about/google-ai-plans/"
+    },
+    {
+      "label": "Colab 付费入口",
+      "url": "https://colab.research.google.com/signup"
+    },
+    {
+      "label": "Lyra 2.0 权重模型卡",
+      "url": "https://huggingface.co/nvidia/Lyra-2.0"
+    },
+    {
+      "label": "NVIDIA 模型许可",
+      "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-internal-scientific-research-and-development-model-license/"
+    },
+    {
+      "label": "NVIDIA 商业授权申请",
+      "url": "https://www.nvidia.com/en-us/research/inquiries/"
+    },
+    {
+      "label": "Lyra 原厂重建文档",
+      "url": "https://github.com/nv-tlabs/lyra/blob/main/Lyra-2/README.md"
+    },
+    {
+      "label": "WorldForge Lyra 输出源码",
+      "url": "https://github.com/designfuchen/worldforge/blob/60a5323c3952e1ccad31dfc45d4aec4e13d9da4b/remote/lyra_worker.py#L531-L573"
+    },
+    {
+      "label": "文件回收源码",
+      "url": "https://github.com/designfuchen/worldforge/blob/60a5323c3952e1ccad31dfc45d4aec4e13d9da4b/forge_local/app.py#L329-L376"
+    },
+    {
+      "label": "默认首帧模型选择",
+      "url": "https://github.com/designfuchen/worldforge/blob/60a5323c3952e1ccad31dfc45d4aec4e13d9da4b/remote/forge_server.py#L1219-L1247"
+    },
+    {
+      "label": "内置模型及规格",
+      "url": "https://github.com/designfuchen/worldforge/blob/60a5323c3952e1ccad31dfc45d4aec4e13d9da4b/remote/presets.py#L44-L125"
+    },
+    {
+      "label": "Qwen 2.1 Turbo 许可",
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo/blob/066a07d/LICENSE"
+    },
+    {
+      "label": "Z-Image-Turbo 模型卡",
+      "url": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo"
+    },
+    {
+      "label": "FLUX.1 schnell 模型卡",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell"
+    },
+    {
+      "label": "Wan 2.1 图生视频模型卡",
+      "url": "https://huggingface.co/Wan-AI/Wan2.1-I2V-14B-720P-Diffusers"
+    },
+    {
+      "label": "作者长文存档",
+      "url": "sources/30.json"
+    },
+    {
+      "label": "第25条可编辑布景",
+      "url": "#25"
+    },
+    {
+      "label": "第29条城市三维背景",
+      "url": "#29"
+    }
+  ]
+}

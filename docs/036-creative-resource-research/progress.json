@@ -1,0 +1,1534 @@
+{
+  "updated_date": "2026-11-22",
+  "current_case": "48",
+  "items": {
+    "01": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 1,
+        "raw_mp4_total": 1,
+        "raw_mp4_played": 1,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 1,
+        "image_assets_loaded": 1
+      },
+      "keyframes_reviewed": true,
+      "analysis_stage": "已对照原片关键画面与官方文档，首轮分析完成；未逐帧量测，尚未生成样片",
+      "reviewed_timestamps_seconds": [
+        0.087091,
+        2.10607,
+        4.94327,
+        10.037333,
+        20.074666
+      ]
+    },
+    "02": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 17,
+        "raw_mp4_total": 1,
+        "raw_mp4_played": 1,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 17,
+        "image_assets_loaded": 17
+      },
+      "keyframes_reviewed": true,
+      "images_reviewed_count": 16,
+      "article_reviewed": true,
+      "analysis_stage": "已核对原图、文章和视频关键画面，首轮分析完成；未做生成对比",
+      "reviewed_timestamps_seconds": [
+        7.506031,
+        14.866666,
+        22.180107
+      ]
+    },
+    "03": {
+      "text_parsed": true,
+      "media_reviewed": true,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 7,
+        "raw_mp4_total": 0,
+        "raw_mp4_played": 0,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 7,
+        "image_assets_loaded": 7
+      },
+      "original_media_reviewed": true,
+      "images_reviewed_count": 7,
+      "article_reviewed": true,
+      "analysis_stage": "已核对7张原图、长文正文和图注；母版与生成比较尚未执行"
+    },
+    "04": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 1,
+        "raw_mp4_total": 1,
+        "raw_mp4_played": 1,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 1,
+        "image_assets_loaded": 1
+      },
+      "keyframes_reviewed": true,
+      "reviewed_timestamps_seconds": [
+        0,
+        10.012236,
+        20.059481,
+        31.367007
+      ],
+      "tool_demo_verified": true,
+      "tool_demo_scope": "仅官网内置示例、两份LUT及文件结构；非小柚效果验收",
+      "analysis_stage": "已核对原片4处画面、官网与2份示例LUT导出；小柚素材与编辑器往返待验证"
+    },
+    "05": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 1,
+        "raw_mp4_total": 1,
+        "raw_mp4_played": 1,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 1,
+        "image_assets_loaded": 1
+      },
+      "keyframes_reviewed": true,
+      "reviewed_timestamps_seconds": [
+        0,
+        4.464231,
+        9.014709,
+        14.122667
+      ],
+      "analysis_stage": "已核对地图原片4处画面与作者/官方资料；原帖为提问，无锐化教程，小柚A/B/C未执行"
+    },
+    "06": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 1,
+        "raw_mp4_total": 1,
+        "raw_mp4_played": 1,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 1,
+        "image_assets_loaded": 1
+      },
+      "keyframes_reviewed": true,
+      "reviewed_timestamps_seconds": [
+        0,
+        6.863534,
+        9.677946,
+        12.855508,
+        17.758032
+      ],
+      "tool_demo_verified": true,
+      "tool_demo_scope": "仅官方Nana笑脸切换、Tsubaki模型加载与25角色入口；音频/摄像头/小柚未测",
+      "analysis_stage": "已核对原片5处画面、0.5.1固定文档/声音源码与官方基本交互；小柚资产和中文音频待验证"
+    },
+    "07": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 1,
+        "raw_mp4_total": 1,
+        "raw_mp4_played": 1,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 1,
+        "image_assets_loaded": 1
+      },
+      "keyframes_reviewed": true,
+      "reviewed_timestamps_seconds": [
+        0,
+        2.912938,
+        5.851428,
+        8.789918,
+        11.702857
+      ],
+      "analysis_stage": "已核对原片5处画面、Seed官方资料与4DGS/面捕文档；作者工程、保真对照与小柚试验未取得"
+    },
+    "08": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 1,
+        "raw_mp4_total": 1,
+        "raw_mp4_played": 1,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 1,
+        "image_assets_loaded": 1
+      },
+      "keyframes_reviewed": true,
+      "reviewed_timestamps_seconds": [
+        0,
+        4.897843,
+        11.13654,
+        17.468352,
+        23.018
+      ],
+      "article_text_reviewed": true,
+      "analysis_stage": "已核对引用原片5处画面、固定文档/许可及关联文章正文；本地推理、修接触、小柚重定向与导出未运行"
+    },
+    "09": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 5,
+        "raw_mp4_total": 1,
+        "raw_mp4_played": 1,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 5,
+        "image_assets_loaded": 5
+      },
+      "keyframes_reviewed": true,
+      "reviewed_timestamps_seconds": [
+        0,
+        2.518924,
+        5.051362,
+        7.568264,
+        9.543333
+      ],
+      "images_reviewed_count": 4,
+      "quote_images_reviewed": true,
+      "analysis_stage": "已核对引用4原图、原片5处及作者Doll Studio固定文档/格式源码；小柚拆层、绑定、导出与交互未执行"
+    },
+    "10": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 1,
+        "raw_mp4_total": 1,
+        "raw_mp4_played": 1,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 1,
+        "image_assets_loaded": 1
+      },
+      "keyframes_reviewed": true,
+      "reviewed_timestamps_seconds": [
+        0,
+        2.991003,
+        6.060459,
+        9.120108,
+        12.120816
+      ],
+      "published_report_reviewed": true,
+      "analysis_stage": "已核对原片5处、固定8份资料及公开报告；本机拆解、独立评测和小柚生成未执行"
+    },
+    "11": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 1,
+        "raw_mp4_total": 1,
+        "raw_mp4_played": 1,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 1,
+        "image_assets_loaded": 1
+      },
+      "keyframes_reviewed": true,
+      "reviewed_timestamps_seconds": [
+        0,
+        1.584466,
+        3.2,
+        4.815533,
+        6.4
+      ],
+      "author_pipeline_verified": false,
+      "hdr_verified": false,
+      "analysis_stage": "已核对原片5处及官方参考图/调色/HDR概念；作者工具链未获出处，小柚静帧/动效与HDR未验证"
+    },
+    "12": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 2,
+        "raw_mp4_total": 1,
+        "raw_mp4_played": 1,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 2,
+        "image_assets_loaded": 2
+      },
+      "keyframes_reviewed": true,
+      "reviewed_timestamps_seconds": [
+        0,
+        1.732266,
+        3.4985,
+        5.264733,
+        6.997
+      ],
+      "images_reviewed_count": 1,
+      "quote_images_reviewed": true,
+      "png_structure_verified": true,
+      "tool_interfaces_reviewed": true,
+      "tool_conversion_verified": false,
+      "hdr_display_verified": false,
+      "analysis_stage": "已核对引用头像、原片5处、PNG结构及两站/W3C/X说明；小柚转换、HDR显示与平台上传未验收"
+    },
+    "13": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 1,
+        "raw_mp4_total": 1,
+        "raw_mp4_played": 1,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 1,
+        "image_assets_loaded": 1
+      },
+      "keyframes_reviewed": true,
+      "reviewed_timestamps_seconds": [
+        0,
+        4.289311,
+        9.382869,
+        12.623405,
+        29.489018,
+        44.63565,
+        59.782282,
+        74.928914,
+        90.075547,
+        105.222179,
+        120.368811,
+        135.515443,
+        150.662075,
+        165.674667
+      ],
+      "code_principle_demo_verified": true,
+      "author_tool_verified": false,
+      "audio_reviewed": false,
+      "analysis_stage": "已核对原片14处、作者署名与帧时间线资料，运行本地代码原理演示；作者工程、小柚素材、真实音频与导出未复现"
+    },
+    "14": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 9,
+        "raw_mp4_total": 2,
+        "raw_mp4_played": 2,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 9,
+        "image_assets_loaded": 9
+      },
+      "keyframes_reviewed": true,
+      "article_text_reviewed": true,
+      "images_reviewed_count": 7,
+      "reviewed_video_count": 2,
+      "reviewed_timestamps_by_video": {
+        "quad": [
+          0,
+          1.237853,
+          2.500021,
+          3.762188,
+          5
+        ],
+        "loop": [
+          0,
+          1.253462,
+          2.5,
+          3.746537,
+          5
+        ]
+      },
+      "repo_documents_reviewed": true,
+      "native_gif_generation_verified": false,
+      "tool_run_verified": false,
+      "analysis_stage": "已核对引用长文、7说明图、两段原片各5处、固定仓库与官方GIF资料；小柚生成、转码、接入与收益未验证"
+    },
+    "15": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 4,
+        "raw_mp4_total": 0,
+        "raw_mp4_played": 0,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 4,
+        "image_assets_loaded": 4
+      },
+      "original_media_reviewed": true,
+      "images_reviewed_count": 4,
+      "repository_gif_supplements_reviewed": true,
+      "source_post_attachment_count": 0,
+      "documentation_and_source_reviewed": true,
+      "eval_specifications_reviewed": 4,
+      "evals_executed": false,
+      "tool_run_verified": false,
+      "cost_savings_verified": false,
+      "analysis_stage": "已核对原帖、4仓库GIF、固定流程/四项预期与生成源码；未运行工具、制作小柚或量测收益"
+    },
+    "16": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 1,
+        "raw_mp4_total": 1,
+        "raw_mp4_played": 1,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 1,
+        "image_assets_loaded": 1
+      },
+      "keyframes_reviewed": true,
+      "reviewed_timestamps_seconds": [
+        0,
+        40.055404,
+        80.110809,
+        120.166213,
+        159.840137,
+        199.895542,
+        239.950946,
+        280.006351,
+        320.061755,
+        360.11716,
+        400.172564,
+        439.846489,
+        471.509333
+      ],
+      "repository_documents_reviewed": 13,
+      "tool_run_verified": false,
+      "audio_reviewed": false,
+      "chinese_pipeline_verified": false,
+      "analysis_stage": "已核对引用原片13处与13份固定资料的文档/接口源码，准备15秒中文配画方案；未运行工具、导出小柚或量测收益"
+    },
+    "17": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 1,
+        "raw_mp4_total": 1,
+        "raw_mp4_played": 1,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 1,
+        "image_assets_loaded": 1
+      },
+      "keyframes_reviewed": true,
+      "reviewed_timestamps_seconds": [
+        0,
+        4.999964,
+        9.999928,
+        14.999893,
+        19.999857,
+        24.999822,
+        29.999786,
+        34.99975,
+        39.893333
+      ],
+      "code_principle_demo_verified": true,
+      "author_tool_verified": false,
+      "audio_reviewed": false,
+      "cost_verified": false,
+      "analysis_stage": "已核对原片9处与作者/官方资料，验证本地分层位移原理示意；Tesseract未识别，未复现作者工程、小柚、音频或MP4"
+    },
+    "18": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 1,
+        "raw_mp4_total": 1,
+        "raw_mp4_played": 1,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 1,
+        "image_assets_loaded": 1
+      },
+      "keyframes_reviewed": true,
+      "reviewed_timestamps_seconds": [
+        0,
+        1.000853,
+        2.001707,
+        3.002563,
+        4.003417,
+        5.004271,
+        5.995313,
+        6.996168,
+        7.997022,
+        8.997877,
+        9.998731,
+        10.999585,
+        12.128
+      ],
+      "camera_source_parameters_verified": false,
+      "camera_trajectory_recovered": false,
+      "audio_reviewed": false,
+      "identity_consistency_verified": false,
+      "analysis_stage": "已核对原片13处与官方镜头概念，补六格/逐段拆镜和5秒A/B方案；无作者参数、身份/声音量测或小柚实作"
+    },
+    "19": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 5,
+        "raw_mp4_total": 4,
+        "raw_mp4_played": 4,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 5,
+        "image_assets_loaded": 5
+      },
+      "keyframes_reviewed": true,
+      "original_media_reviewed": true,
+      "reviewed_samples": [
+        {
+          "clip": "post1",
+          "file": "experiments/19-sprite-gen/post1-00.jpg",
+          "paused": true,
+          "ready": 4,
+          "time": 0
+        },
+        {
+          "clip": "post1",
+          "file": "experiments/19-sprite-gen/post1-34.jpg",
+          "paused": true,
+          "ready": 4,
+          "time": 0.342105
+        },
+        {
+          "clip": "post1",
+          "file": "experiments/19-sprite-gen/post1-67.jpg",
+          "paused": true,
+          "ready": 4,
+          "time": 0.671052
+        },
+        {
+          "clip": "post1",
+          "file": "experiments/19-sprite-gen/post1-98.jpg",
+          "paused": true,
+          "ready": 4,
+          "time": 0.97807
+        },
+        {
+          "clip": "post2",
+          "file": "experiments/19-sprite-gen/post2-00.jpg",
+          "paused": true,
+          "ready": 4,
+          "time": 0.000725
+        },
+        {
+          "clip": "post2",
+          "file": "experiments/19-sprite-gen/post2-50.jpg",
+          "paused": true,
+          "ready": 4,
+          "time": 0.5
+        },
+        {
+          "clip": "post2",
+          "file": "experiments/19-sprite-gen/post2-98.jpg",
+          "paused": true,
+          "ready": 4,
+          "time": 0.979369
+        },
+        {
+          "clip": "quote1",
+          "file": "experiments/19-sprite-gen/quote1-00.jpg",
+          "paused": true,
+          "ready": 4,
+          "time": 0
+        },
+        {
+          "clip": "quote1",
+          "file": "experiments/19-sprite-gen/quote1-50.jpg",
+          "paused": true,
+          "ready": 4,
+          "time": 1.26
+        },
+        {
+          "clip": "quote1",
+          "file": "experiments/19-sprite-gen/quote1-98.jpg",
+          "paused": true,
+          "ready": 4,
+          "time": 2.467225
+        },
+        {
+          "clip": "quote2",
+          "file": "experiments/19-sprite-gen/quote2-00.jpg",
+          "paused": true,
+          "ready": 4,
+          "time": 0
+        },
+        {
+          "clip": "quote2",
+          "file": "experiments/19-sprite-gen/quote2-50.jpg",
+          "paused": true,
+          "ready": 4,
+          "time": 0.54
+        },
+        {
+          "clip": "quote2",
+          "file": "experiments/19-sprite-gen/quote2-98.jpg",
+          "paused": true,
+          "ready": 4,
+          "time": 1.057633
+        }
+      ],
+      "repository_commit_reviewed": "bb3be7b127d46de237e0b4e03f026be4fd207da6",
+      "tool_run_verified": false,
+      "alpha_verified": false,
+      "motion_qa_passed": false,
+      "identity_consistency_verified": false,
+      "analysis_stage": "已核对4段原媒体13处与1张README原图、固定版14份资料；补双状态规格/交付QA/总结图，未运行工具或制作小柚"
+    },
+    "20": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 2,
+        "raw_mp4_total": 2,
+        "raw_mp4_played": 2,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 2,
+        "image_assets_loaded": 2
+      },
+      "keyframes_reviewed": true,
+      "reviewed_samples": [
+        {
+          "clip": "osaka",
+          "file": "experiments/20-city-flight/osaka-00.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 0
+        },
+        {
+          "clip": "osaka",
+          "file": "experiments/20-city-flight/osaka-05.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 4.99453
+        },
+        {
+          "clip": "osaka",
+          "file": "experiments/20-city-flight/osaka-10.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 9.98906
+        },
+        {
+          "clip": "osaka",
+          "file": "experiments/20-city-flight/osaka-15.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 15.012628
+        },
+        {
+          "clip": "osaka",
+          "file": "experiments/20-city-flight/osaka-20.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 20.007158
+        },
+        {
+          "clip": "osaka",
+          "file": "experiments/20-city-flight/osaka-25.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 25.001688
+        },
+        {
+          "clip": "osaka",
+          "file": "experiments/20-city-flight/osaka-30.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 29.996219
+        },
+        {
+          "clip": "tokyo",
+          "file": "experiments/20-city-flight/tokyo-00.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 0
+        },
+        {
+          "clip": "tokyo",
+          "file": "experiments/20-city-flight/tokyo-02.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 2.000926
+        },
+        {
+          "clip": "tokyo",
+          "file": "experiments/20-city-flight/tokyo-04.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 4.001852
+        },
+        {
+          "clip": "tokyo",
+          "file": "experiments/20-city-flight/tokyo-06.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 6.002779
+        },
+        {
+          "clip": "tokyo",
+          "file": "experiments/20-city-flight/tokyo-08.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 8.003705
+        },
+        {
+          "clip": "tokyo",
+          "file": "experiments/20-city-flight/tokyo-10.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 10.004633
+        }
+      ],
+      "source_workflow_article_reviewed": true,
+      "camera_trajectory_verified": false,
+      "clock_count_verified": false,
+      "data_import_tested": false,
+      "tool_run_verified": false,
+      "analysis_stage": "已核对2段原片13处、引用作者过程文与官方资料；补四格/8项分析/场景交接/5秒双路线及总结图；未导入、渲染生成或制作小柚"
+    },
+    "21": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 3,
+        "raw_mp4_total": 3,
+        "raw_mp4_played": 3,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 3,
+        "image_assets_loaded": 3
+      },
+      "keyframes_reviewed": true,
+      "reviewed_samples": [
+        {
+          "clip": "A",
+          "file": "experiments/21-gif-role/A-00.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 0.061634
+        },
+        {
+          "clip": "A",
+          "file": "experiments/21-gif-role/A-08.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 7.950869
+        },
+        {
+          "clip": "A",
+          "file": "experiments/21-gif-role/A-16.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 15.963373
+        },
+        {
+          "clip": "A",
+          "file": "experiments/21-gif-role/A-24.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 23.975877
+        },
+        {
+          "clip": "A",
+          "file": "experiments/21-gif-role/A-32.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 31.988381
+        },
+        {
+          "clip": "A",
+          "file": "experiments/21-gif-role/A-40.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 40.000885
+        },
+        {
+          "clip": "A",
+          "file": "experiments/21-gif-role/A-44.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 43.945503
+        },
+        {
+          "clip": "B",
+          "file": "experiments/21-gif-role/B-00.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 0.075375
+        },
+        {
+          "clip": "B",
+          "file": "experiments/21-gif-role/B-10.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 10.024982
+        },
+        {
+          "clip": "B",
+          "file": "experiments/21-gif-role/B-20.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 19.974588
+        },
+        {
+          "clip": "B",
+          "file": "experiments/21-gif-role/B-30.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 30.074947
+        },
+        {
+          "clip": "B",
+          "file": "experiments/21-gif-role/B-40.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 40.024553
+        },
+        {
+          "clip": "B",
+          "file": "experiments/21-gif-role/B-50.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 49.97416
+        },
+        {
+          "clip": "B",
+          "file": "experiments/21-gif-role/B-54.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 54.044453
+        },
+        {
+          "clip": "C",
+          "file": "experiments/21-gif-role/C-00.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 0.05831
+        },
+        {
+          "clip": "C",
+          "file": "experiments/21-gif-role/C-08.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 7.988548
+        },
+        {
+          "clip": "C",
+          "file": "experiments/21-gif-role/C-16.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 16.035407
+        },
+        {
+          "clip": "C",
+          "file": "experiments/21-gif-role/C-24.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 23.965645
+        },
+        {
+          "clip": "C",
+          "file": "experiments/21-gif-role/C-32.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 32.012504
+        },
+        {
+          "clip": "C",
+          "file": "experiments/21-gif-role/C-40.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 39.942742
+        },
+        {
+          "clip": "C",
+          "file": "experiments/21-gif-role/C-42.jpg",
+          "paused": true,
+          "ready": 4,
+          "seconds": 42.041923
+        }
+      ],
+      "original_gif_available": false,
+      "media_stream_metadata_verified": true,
+      "audio_reviewed": false,
+      "per_shot_generation_verified": false,
+      "cost_saving_verified": false,
+      "tool_generation_run_verified": false,
+      "analysis_stage": "已核对3段原片21处、音视频探测及官方GIF/格式资料；补8项分析、四格、5秒三方案/总成本/QA和总结图；无源GIF或小柚实作"
+    },
+    "22": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 1,
+        "raw_mp4_total": 1,
+        "raw_mp4_played": 1,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 1,
+        "image_assets_loaded": 1
+      },
+      "keyframes_reviewed": true,
+      "reviewed_samples": [
+        {
+          "file": "experiments/22-paper-worlds/00.jpg",
+          "seconds": 0.029203,
+          "paused": true,
+          "ready": 4,
+          "caption": "开场：蓝天、草丘与窗口淡入"
+        },
+        {
+          "file": "experiments/22-paper-worlds/02.jpg",
+          "seconds": 2.000465,
+          "paused": true,
+          "ready": 4,
+          "caption": "桌面、纸飞机、草地与密集框线"
+        },
+        {
+          "file": "experiments/22-paper-worlds/04.jpg",
+          "seconds": 4.000931,
+          "paused": true,
+          "ready": 4,
+          "caption": "第一章草甸：标题出现，框线减少"
+        },
+        {
+          "file": "experiments/22-paper-worlds/06.jpg",
+          "seconds": 6.001398,
+          "paused": true,
+          "ready": 4,
+          "caption": "纸飞机引导镜头进入林间"
+        },
+        {
+          "file": "experiments/22-paper-worlds/08.jpg",
+          "seconds": 8.001863,
+          "paused": true,
+          "ready": 4,
+          "caption": "第二章森林：标题、树木与标注框"
+        },
+        {
+          "file": "experiments/22-paper-worlds/10.jpg",
+          "seconds": 10.00233,
+          "paused": true,
+          "ready": 4,
+          "caption": "纸飞机穿向洞口，形成转场"
+        },
+        {
+          "file": "experiments/22-paper-worlds/12.jpg",
+          "seconds": 12.002796,
+          "paused": true,
+          "ready": 4,
+          "caption": "第三章浮岛：线框与实物共同出现"
+        },
+        {
+          "file": "experiments/22-paper-worlds/15.jpg",
+          "seconds": 14.996194,
+          "paused": true,
+          "ready": 4,
+          "caption": "浮岛完成态与云层遮挡"
+        },
+        {
+          "file": "experiments/22-paper-worlds/17.jpg",
+          "seconds": 17.201087,
+          "paused": true,
+          "ready": 4,
+          "caption": "白底结尾、标题和Start my journey入口"
+        }
+      ],
+      "reviewed_timestamps_seconds": [
+        0.029203,
+        2.000465,
+        4.000931,
+        6.001398,
+        8.001863,
+        10.00233,
+        12.002796,
+        14.996194,
+        17.201087
+      ],
+      "related_source_documents_reviewed": 6,
+      "original_project_available": false,
+      "actual_multiagent_verified": false,
+      "tool_generation_run_verified": false,
+      "audio_reviewed": false,
+      "analysis_stage": "已核对18秒原片9处及相关实现6份资料；补8项结论、六格、三阶段规格/任务事件/QA和总结图；无原工程或小柚实作"
+    },
+    "23": {
+      "text_parsed": true,
+      "media_reviewed": true,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 8,
+        "raw_mp4_total": 0,
+        "raw_mp4_played": 0,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 8,
+        "image_assets_loaded": 8
+      },
+      "original_media_reviewed": false,
+      "original_post_has_media": false,
+      "repository_images_reviewed": true,
+      "images_reviewed_count": 8,
+      "source_documents_reviewed": 18,
+      "tool_demo_verified": true,
+      "tool_demo_scope": "官方Gallery洗衣机两个关节与恢复0；不代表本机建模、导出或小柚实作",
+      "dataset_count_independently_verified": false,
+      "tool_generation_run_verified": false,
+      "analysis_stage": "已核对原帖、仓库8图、官方两个关节及13份库资料＋5数据卡；补8项结论、开合对照、带盖盒/QA与总结图；未生成小柚资产"
+    },
+    "24": {
+      "text_parsed": true,
+      "media_reviewed": true,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 8,
+        "raw_mp4_total": 0,
+        "raw_mp4_played": 0,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 8,
+        "image_assets_loaded": 8
+      },
+      "original_media_reviewed": false,
+      "original_post_has_media": false,
+      "repository_images_reviewed": true,
+      "images_reviewed_count": 8,
+      "shared_repository_image_review_case": "23",
+      "tool_demo_verified": true,
+      "tool_demo_scope": "官网庭院门左右铰链约 +90°／−90°，恢复约 0°，插销保持 0 mm",
+      "tool_generation_run_verified": false,
+      "analysis_stage": "已补两帖对照、8项结论、官方庭院门开合证据、带盖盒 A/B 记录和总结图。"
+    },
+    "25": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 20,
+        "raw_mp4_total": 1,
+        "raw_mp4_played": 1,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 20,
+        "image_assets_loaded": 20
+      },
+      "keyframes_reviewed": true,
+      "reviewed_timestamps_seconds": [
+        0.072473,
+        4.013194,
+        8.008272,
+        12.003349,
+        15.998426,
+        19.993503,
+        22.493823
+      ],
+      "product_listing_reviewed": true,
+      "product_listing_scope": "峡谷预告、同店标价商品的公开页面与许可",
+      "tool_generation_run_verified": false,
+      "analysis_stage": "已核对峡谷原片7处、作者追加说明、商店预告、同店商品与许可。补8项分析、交付清单、首款候选规格与总结图。"
+    },
+    "26": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 1,
+        "raw_mp4_total": 1,
+        "raw_mp4_played": 1,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 1,
+        "image_assets_loaded": 1
+      },
+      "keyframes_reviewed": true,
+      "reviewed_timestamps_seconds": [
+        0,
+        5.008959,
+        9.994009,
+        15.014923,
+        19.999973,
+        25.020887,
+        30.005937,
+        31.727393
+      ],
+      "tool_demo_verified": true,
+      "tool_demo_scope": "仅核对现行作者地图的加载和滨海湾金沙到牛车水地标切换",
+      "author_article_figures_reviewed": 5,
+      "tool_generation_run_verified": false,
+      "analysis_stage": "已核对原片8处、作者文章5张过程图及在线地标切换。补8项分析、复盘结构对照、同源口播模板与总结图。"
+    },
+    "27": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 1,
+        "raw_mp4_total": 1,
+        "raw_mp4_played": 1,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 1,
+        "image_assets_loaded": 1
+      },
+      "keyframes_reviewed": true,
+      "reviewed_timestamps_seconds": [
+        0,
+        7.633136,
+        11.804733,
+        19.881656,
+        36.12426,
+        47.396449,
+        59.911242
+      ],
+      "tool_demo_verified": true,
+      "tool_demo_scope": "仅核对作者线上目录进入第06天与返回、Day/Night 和一次 Change View 切换",
+      "tool_generation_run_verified": false,
+      "analysis_stage": "已审看 Orrery 原片7处，实查30题目录与公开作品页的昼夜、机位和往返。补8项结论、归档对照、三条试做模板与总结图。"
+    },
+    "28": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 1,
+        "raw_mp4_total": 1,
+        "raw_mp4_played": 1,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 1,
+        "image_assets_loaded": 1
+      },
+      "keyframes_reviewed": true,
+      "reviewed_timestamps_seconds": [
+        0,
+        7.75905,
+        15.633109,
+        24.241294,
+        34.984595,
+        45.222869,
+        51.466839,
+        54.818382
+      ],
+      "tool_demo_verified": true,
+      "tool_demo_scope": "仅核对公开 Fox 身长与 HD 预览及定价页周期和 Business 切换",
+      "tool_generation_run_verified": false,
+      "analysis_stage": "已审看原片8处，实测 Fox 身长与 HD 预览，核对个人、平台、定制与许可，补8项分析、收费对照和试卖模板、总结图。"
+    },
+    "29": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 1,
+        "raw_mp4_total": 1,
+        "raw_mp4_played": 1,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 1,
+        "image_assets_loaded": 1
+      },
+      "keyframes_reviewed": true,
+      "reviewed_timestamps_seconds": [
+        0,
+        5.048543,
+        10,
+        15,
+        20.048543,
+        25.072815,
+        29.635922
+      ],
+      "tool_demo_verified": true,
+      "tool_demo_scope": "仅核对 CodePawl 网页查看器东京与大阪切换及两个固定版引擎档 GLB 公开预览",
+      "tool_generation_run_verified": false,
+      "analysis_stage": "已核对引用原片7处、固定版797块及东京/大阪查看器与单块 GLB 预览。补8项分析、第20条对照、5秒试验卡与总结图。"
+    },
+    "30": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 6,
+        "raw_mp4_total": 0,
+        "raw_mp4_played": 0,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 6,
+        "image_assets_loaded": 6
+      },
+      "original_media_reviewed": true,
+      "author_article_figures_reviewed": 6,
+      "tool_generation_run_verified": false,
+      "analysis_stage": "已核对6张长文原图、固定版生成与回收源码、Colab 规则及 Lyra 与 Qwen 许可。补8项结论、费用交付表、空镜试做模板和总结图。"
+    },
+    "31": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 1,
+        "raw_mp4_total": 1,
+        "raw_mp4_played": 1,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 1,
+        "image_assets_loaded": 1
+      },
+      "keyframes_reviewed": true,
+      "reviewed_timestamps_seconds": [
+        0,
+        4.800542,
+        10.061017,
+        15.465221,
+        19.144679,
+        22.220475,
+        28.170849,
+        34.667392
+      ],
+      "analysis_stage": "原片8处、较早相关帖、官方用量和访问核对，补8项分析、状态对照、单镜头试填表与总结图。"
+    },
+    "32": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 1,
+        "raw_mp4_total": 1,
+        "raw_mp4_played": 1,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 1,
+        "image_assets_loaded": 1
+      },
+      "keyframes_reviewed": true,
+      "reviewed_timestamps_seconds": [
+        6.249469,
+        463.525143,
+        719.773687,
+        827.967516,
+        965.772289,
+        1029.549704,
+        1113.827003,
+        1201.520949,
+        1204.937596,
+        1231.131892,
+        1339.325722
+      ],
+      "analysis_stage": "核对原演示11处与官方资料，补8项分析、六个Bot对照、三帖离线试填和总结图。"
+    },
+    "33": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 1,
+        "raw_mp4_total": 1,
+        "raw_mp4_played": 1,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 1,
+        "image_assets_loaded": 1
+      },
+      "keyframes_reviewed": true,
+      "repository_images_reviewed": true,
+      "reviewed_timestamps_seconds": [
+        0.975203,
+        3.98208,
+        6.988957,
+        9.995834,
+        10.442802,
+        11.092937,
+        13.00271,
+        16.009587,
+        20.438636
+      ],
+      "analysis_stage": "实播原片并对照9处、原封面、仓库看板原图和三个固定版本，补8项分析、验收四角色、试填与总结图。"
+    },
+    "34": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 0,
+        "raw_mp4_total": 0,
+        "raw_mp4_played": 0,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 0,
+        "image_assets_loaded": 0
+      },
+      "analysis_stage": "原帖只有文字。模块展示原文入口和摘要。已补4项分析、应用步骤和总结图。",
+      "original_text_reviewed": true,
+      "reviewed_timestamps_seconds": []
+    },
+    "35": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 22,
+        "raw_mp4_total": 0,
+        "raw_mp4_played": 0,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 22,
+        "image_assets_loaded": 22
+      },
+      "analysis_stage": "22 张图在模块内可放大查看。已补5项分析、应用步骤和总结图。",
+      "original_media_reviewed": true,
+      "reviewed_timestamps_seconds": []
+    },
+    "36": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 2,
+        "raw_mp4_total": 1,
+        "raw_mp4_played": 1,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 2,
+        "image_assets_loaded": 2
+      },
+      "analysis_stage": "1 张图在模块内可放大查看，1 段原视频在模块内实播并核进度。已补5项分析、应用步骤和总结图。",
+      "original_media_reviewed": true,
+      "keyframes_reviewed": true,
+      "reviewed_timestamps_seconds": [
+        14.792666
+      ]
+    },
+    "37": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 6,
+        "raw_mp4_total": 0,
+        "raw_mp4_played": 0,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 6,
+        "image_assets_loaded": 6
+      },
+      "analysis_stage": "6 张图在模块内可放大查看。已补5项分析、应用步骤和总结图。",
+      "original_media_reviewed": true,
+      "reviewed_timestamps_seconds": []
+    },
+    "38": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 1,
+        "raw_mp4_total": 1,
+        "raw_mp4_played": 1,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 1,
+        "image_assets_loaded": 1
+      },
+      "analysis_stage": "1 段原视频在模块内实播并核进度。已补4项分析、应用步骤和总结图。",
+      "keyframes_reviewed": true,
+      "reviewed_timestamps_seconds": [
+        10.937096
+      ]
+    },
+    "39": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 4,
+        "raw_mp4_total": 0,
+        "raw_mp4_played": 0,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 4,
+        "image_assets_loaded": 4
+      },
+      "analysis_stage": "4 张图在模块内可放大查看。已补4项分析、应用步骤和总结图。",
+      "original_media_reviewed": true,
+      "reviewed_timestamps_seconds": []
+    },
+    "40": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 4,
+        "raw_mp4_total": 4,
+        "raw_mp4_played": 4,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 4,
+        "image_assets_loaded": 4
+      },
+      "analysis_stage": "4 段原视频在模块内实播并核进度。已补4项分析、应用步骤和总结图。",
+      "keyframes_reviewed": true,
+      "reviewed_timestamps_seconds": [
+        44.814621,
+        0.48892,
+        0.510494,
+        0.51733
+      ]
+    },
+    "41": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 16,
+        "raw_mp4_total": 1,
+        "raw_mp4_played": 1,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 16,
+        "image_assets_loaded": 16
+      },
+      "analysis_stage": "15 张图在模块内可放大查看，1 段原视频在模块内实播并核进度。已补5项分析、应用步骤和总结图。",
+      "original_media_reviewed": true,
+      "keyframes_reviewed": true,
+      "reviewed_timestamps_seconds": [
+        0.566373
+      ]
+    },
+    "42": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 0,
+        "raw_mp4_total": 0,
+        "raw_mp4_played": 0,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 0,
+        "image_assets_loaded": 0
+      },
+      "analysis_stage": "原帖只有文字。模块展示原文入口和摘要。已补5项分析、应用步骤和总结图。",
+      "original_text_reviewed": true,
+      "reviewed_timestamps_seconds": []
+    },
+    "43": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 0,
+        "raw_mp4_total": 0,
+        "raw_mp4_played": 0,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 0,
+        "image_assets_loaded": 0
+      },
+      "analysis_stage": "原帖只有文字。模块展示原文入口和摘要。已补5项分析、应用步骤和总结图。",
+      "original_text_reviewed": true,
+      "reviewed_timestamps_seconds": []
+    },
+    "44": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 1,
+        "raw_mp4_total": 0,
+        "raw_mp4_played": 0,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 1,
+        "image_assets_loaded": 1
+      },
+      "analysis_stage": "1 张图在模块内可放大查看。已补5项分析、应用步骤和总结图。",
+      "original_media_reviewed": true,
+      "reviewed_timestamps_seconds": []
+    },
+    "45": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 2,
+        "raw_mp4_total": 0,
+        "raw_mp4_played": 0,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 2,
+        "image_assets_loaded": 2
+      },
+      "analysis_stage": "2 张图在模块内可放大查看。已补4项分析、应用步骤和总结图。",
+      "original_media_reviewed": true,
+      "reviewed_timestamps_seconds": []
+    },
+    "46": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 8,
+        "raw_mp4_total": 0,
+        "raw_mp4_played": 0,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 8,
+        "image_assets_loaded": 8
+      },
+      "analysis_stage": "8 张图在模块内可放大查看。已补5项分析、应用步骤和总结图。",
+      "original_media_reviewed": true,
+      "reviewed_timestamps_seconds": []
+    },
+    "47": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 0,
+        "raw_mp4_total": 0,
+        "raw_mp4_played": 0,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 0,
+        "image_assets_loaded": 0
+      },
+      "analysis_stage": "原帖只有文字。模块展示原文入口和摘要。已补5项分析、应用步骤和总结图。",
+      "original_text_reviewed": true,
+      "reviewed_timestamps_seconds": []
+    },
+    "48": {
+      "text_parsed": true,
+      "media_reviewed": false,
+      "reproduced": false,
+      "media_delivery": {
+        "media_records": 0,
+        "raw_mp4_total": 0,
+        "raw_mp4_played": 0,
+        "raw_mp4_pending": 0,
+        "image_assets_total": 0,
+        "image_assets_loaded": 0
+      },
+      "analysis_stage": "原帖只有文字。模块展示原文入口和摘要。已补5项分析、应用步骤和总结图。",
+      "original_text_reviewed": true,
+      "reviewed_timestamps_seconds": []
+    }
+  },
+  "media_delivery": {
+    "generated_at": "2026-11-12T18:08:13.624021+08:00",
+    "media_records": 182,
+    "raw_mp4_total": 42,
+    "raw_mp4_played": 42,
+    "raw_mp4_pending": 0,
+    "pending_article_mp4": 0,
+    "pending_multi_post_later_mp4": 0,
+    "pending_case_ids": [],
+    "video_check_records": 33,
+    "successful_video_check_records": 31,
+    "unmatched_video_check_records": 0,
+    "stream_check_records": 11,
+    "stream_check_success_records": 0,
+    "stream_check_failure_records": 11,
+    "stream_error_counts": {
+      "manifestLoadError": 8,
+      "MEDIA_ERR_SRC_NOT_SUPPORTED": 3
+    },
+    "unmatched_stream_check_records": 0,
+    "original_stream_check_records": 12,
+    "original_stream_check_success_records": 11,
+    "original_stream_check_failure_records": 1,
+    "unmatched_original_stream_check_records": 0,
+    "image_check_records": 174,
+    "image_check_success_records": 174,
+    "image_assets_total": 174,
+    "image_assets_loaded": 174,
+    "image_assets_failed": 0,
+    "image_assets_pending": 0,
+    "status_counts": {
+      "played": 42,
+      "image_loaded": 140
+    },
+    "scope": "媒体加载与播放交付核验，不表示内容已分析、作品已复现或条目已消化。"
+  },
+  "next_case": null
+}

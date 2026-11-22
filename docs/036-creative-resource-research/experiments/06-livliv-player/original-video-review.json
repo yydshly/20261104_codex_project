@@ -1,0 +1,50 @@
+{
+  "case_id": "06",
+  "review_date": "2026-11-21",
+  "source": "https://video.twimg.com/amplify_video/2118289613865545728/vid/avc1/1920x1080/YZbVf3bOI9KHCKr2.mp4?tag=29",
+  "metadata_duration_seconds": 22.4,
+  "browser_duration_seconds": 22.442667,
+  "method": "浏览器原生时间轴定位并暂停截图；全部交付取样readyState=4。17.758032秒最初readyState=1，完成解码后重新截图。未下载、转码或增强原视频。",
+  "samples": [
+    {
+      "file": "experiments/06-original-start.jpg",
+      "time_seconds": 0,
+      "ready_state": 4,
+      "paused": true,
+      "observation": "发布时为21个角色；原始视频附件"
+    },
+    {
+      "file": "experiments/06-original-middle.jpg",
+      "time_seconds": 6.863534,
+      "ready_state": 4,
+      "paused": true,
+      "observation": "面捕功能画面；未测追踪精度或延迟"
+    },
+    {
+      "file": "experiments/06-original-audio.jpg",
+      "time_seconds": 9.677946,
+      "ready_state": 4,
+      "paused": true,
+      "observation": "口型功能演示；未做中文音素验收"
+    },
+    {
+      "file": "experiments/06-original-later.jpg",
+      "time_seconds": 12.855508,
+      "ready_state": 4,
+      "paused": true,
+      "observation": "表情动作接口及旧包名；当前包名另行核对"
+    },
+    {
+      "file": "experiments/06-original-late.jpg",
+      "time_seconds": 17.758032,
+      "ready_state": 4,
+      "paused": true,
+      "observation": "原片旧许可字幕；当前条款见许可1.1"
+    }
+  ],
+  "scope": "5处画面取样，不构成逐帧/逐音素验收。源文字沿用2026-11-12镜像；当日X正文直读403。",
+  "audio_phoneme_alignment_measured": false,
+  "webcam_tested": false,
+  "xiaoyou_tested": false
+}
+

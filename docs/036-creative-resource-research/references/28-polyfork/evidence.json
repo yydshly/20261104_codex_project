@@ -1,0 +1,156 @@
+{
+  "case_id": "28",
+  "checked_date": "2026-11-22",
+  "source_snapshot": "sources/28.json",
+  "sources": [
+    {
+      "label": "@heizolshao 原帖",
+      "url": "https://x.com/heizolshao/status/2119010722474545311"
+    },
+    {
+      "label": "Polyfork 收费页",
+      "url": "https://polyfork.dev/pricing"
+    },
+    {
+      "label": "Fox 模型编辑器",
+      "url": "https://polyfork.dev/asset/fox-base"
+    },
+    {
+      "label": "官网模型授权",
+      "url": "https://polyfork.dev/licensing"
+    },
+    {
+      "label": "XPRIZE 获奖公告",
+      "url": "https://annualreport.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+    },
+    {
+      "label": "官网开放低模说明",
+      "url": "https://polyfork.dev/blog/build-with-gemini-xprize"
+    },
+    {
+      "label": "官网平台授权",
+      "url": "https://polyfork.dev/platform"
+    },
+    {
+      "label": "主题套件定制说明",
+      "url": "https://polyfork.dev/blog/steer-the-factory"
+    },
+    {
+      "label": "官网开发接口",
+      "url": "https://polyfork.dev/agents"
+    },
+    {
+      "label": "Fox HD 预览",
+      "url": "https://polyfork.dev/asset/fox-base?edition=hd"
+    },
+    {
+      "label": "原帖与媒体快照",
+      "url": "sources/28.json"
+    }
+  ],
+  "video": {
+    "media_id": "2119009717959921664",
+    "width": 1920,
+    "height": 1080,
+    "stored_duration": 56.704,
+    "browser_duration": 56.746667,
+    "frame_evidence": [
+      {
+        "file": "experiments/28-polyfork/video-00.jpg",
+        "seconds": 0,
+        "caption": "开场先展示单个 kago_palanquin.glb"
+      },
+      {
+        "file": "experiments/28-polyfork/video-08.jpg",
+        "seconds": 7.75905,
+        "caption": "大量资产缩略图，展示目录广度"
+      },
+      {
+        "file": "experiments/28-polyfork/video-15.jpg",
+        "seconds": 15.633109,
+        "caption": "Sky Town、Medieval Japan、Cozy Farm 按主题成组"
+      },
+      {
+        "file": "experiments/28-polyfork/video-24.jpg",
+        "seconds": 24.241294,
+        "caption": "Pirate Cove 标注 61 件，邻近展示工地和太空基地套件"
+      },
+      {
+        "file": "experiments/28-polyfork/video-35.jpg",
+        "seconds": 34.984595,
+        "caption": "New York City 套件中的交通、人物与街道道具"
+      },
+      {
+        "file": "experiments/28-polyfork/video-45.jpg",
+        "seconds": 45.222869,
+        "caption": "搜索 truck，多个套件的车辆集中显示"
+      },
+      {
+        "file": "experiments/28-polyfork/video-51.jpg",
+        "seconds": 51.466839,
+        "caption": "车辆卡片把吊臂、车高、车斗角度和配色做成控件"
+      },
+      {
+        "file": "experiments/28-polyfork/video-55.jpg",
+        "seconds": 54.818382,
+        "caption": "片尾标注 2,660 个免费模型，称模型是程序"
+      }
+    ]
+  },
+  "browser": {
+    "tested": [
+      "Fox Body length 1.00→1.15，预览轮廓改变",
+      "Fox HD · show flat 公开预览",
+      "Personal 月付/年付和 Business 切换"
+    ],
+    "screenshots": [
+      {
+        "file": "experiments/28-polyfork/fox-default.jpg",
+        "caption": "Fox 免费低模 · Body length 默认 1.00"
+      },
+      {
+        "file": "experiments/28-polyfork/fox-long.jpg",
+        "caption": "同一模型 · Body length 调到 1.15，预览造型改变"
+      },
+      {
+        "file": "experiments/28-polyfork/fox-hd.jpg",
+        "caption": "Fox HD 预览 · 毛皮纹理与更平滑的表面"
+      },
+      {
+        "file": "experiments/28-polyfork/pricing-personal.jpg",
+        "caption": "官网个人档 · Free 0、Pro 15 美元/月、Lifetime 180 美元"
+      },
+      {
+        "file": "experiments/28-polyfork/pricing-business.jpg",
+        "caption": "官网企业档 · 从 400 个托管资产名额起，按档位标价"
+      }
+    ]
+  },
+  "price_snapshot_usd": {
+    "free": 0,
+    "pro_monthly": 15,
+    "pro_yearly": 149,
+    "lifetime_once": 180,
+    "platform_monthly": {
+      "400": 299,
+      "1000": 699,
+      "2000": 1499,
+      "full_from": 2900
+    },
+    "steering_per_order": {
+      "public": 50,
+      "private": 100,
+      "prerequisite": "Pro or Lifetime"
+    }
+  },
+  "figures": {
+    "original_video_free_models": 2660,
+    "live_price_page_low_poly": 3502,
+    "live_price_page_hd": 2110,
+    "xprize_grand_prize_usd": 500000,
+    "xprize_first_month_revenue_usd": 4428,
+    "xprize_first_month_customers": 54,
+    "xprize_first_month_models": 583
+  },
+  "verification_scope": "实测公开预览及定价界面。模型导出、引擎导入、购买和小柚实作尚待验证。"
+}

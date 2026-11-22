@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-22",
+  "author_capture": {
+    "method": "FxTwitter 公开镜像",
+    "retrieval_url": "https://api.fxtwitter.com/chetanankola/status/2118631658979250631",
+    "id": "2118631658979250631",
+    "url": "https://x.com/chetanankola/status/2118631658979250631",
+    "created_at": "Fri Nov 06 09:08:44 +0000 2026",
+    "text": "threejs + blender + opus 5.5 + Astra\nupdated the fog system",
+    "media": [
+      {
+        "id": "2118630465443921920",
+        "type": "video",
+        "width": 2682,
+        "height": 2160,
+        "duration": 23.021,
+        "url": "https://video.twimg.com/amplify_video/2118630465443921920/vid/avc1/2682x2160/ea_xLuxj-pdWIGPG.mp4?tag=29",
+        "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2118630465443921920/img/xyxETkegrCc__sv5.jpg"
+      }
+    ]
+  },
+  "video_review": {
+    "variant": "1340×1080 MP4",
+    "duration_read_by_player_seconds": 23.082667,
+    "frame_samples": [
+      {
+        "file": "experiments/25-canyon/shot-00.jpg",
+        "seconds": 0.072473,
+        "caption": "峡谷入口，前景小船与雾化远壁建立尺度"
+      },
+      {
+        "file": "experiments/25-canyon/shot-04.jpg",
+        "seconds": 4.013194,
+        "caption": "出口亮雾和水面高光，船靠近暗岩一侧"
+      },
+      {
+        "file": "experiments/25-canyon/shot-08.jpg",
+        "seconds": 8.008272,
+        "caption": "近壁压暗，雾化远景分出前后层"
+      },
+      {
+        "file": "experiments/25-canyon/shot-12.jpg",
+        "seconds": 12.003349,
+        "caption": "俯看水道，亮带与船尾扰动形成方向"
+      },
+      {
+        "file": "experiments/25-canyon/shot-16.jpg",
+        "seconds": 15.998426,
+        "caption": "窄口远景，明亮出口与暗岩形成纵深"
+      },
+      {
+        "file": "experiments/25-canyon/shot-20.jpg",
+        "seconds": 19.993503,
+        "caption": "近处船身、桅杆、吊臂和水线细节"
+      },
+      {
+        "file": "experiments/25-canyon/shot-22.5.jpg",
+        "seconds": 22.493823,
+        "caption": "船侧近景，远处岩壁与水面退进雾中"
+      }
+    ]
+  },
+  "product_checks": [
+    {
+      "url": "https://3ditions.drop3.app/notify/thunder-passage/",
+      "relationship": "作者在同一原片帖追加的商品预告",
+      "date": "2026-11-22",
+      "public_state": "Coming soon / wishlist",
+      "screenshot": "experiments/25-canyon/thunder-wishlist.jpg"
+    },
+    {
+      "url": "https://3ditions.drop3.app/editions/honnavar-backwaters/",
+      "relationship": "同店独立商品，交易方式参照",
+      "date": "2026-11-22",
+      "public_price_usd": 19.99,
+      "listed_download_mib": 240.3,
+      "screenshot": "experiments/25-canyon/honnavar-listing.jpg"
+    },
+    {
+      "url": "https://3ditions.drop3.app/editions/hiroshis-island/",
+      "relationship": "同店独立商品，母版交付参照",
+      "public_price_usd": 19.99
+    },
+    {
+      "url": "https://3ditions.drop3.app/commercial-license.txt",
+      "relationship": "公开商用许可 v1.0"
+    }
+  ],
+  "unverified": [
+    "原作配方、设备与渲染性能",
+    "正式峡谷包售价和文件",
+    "同店成交信息",
+    "小柚试制及付费需求"
+  ],
+  "sources": [
+    {
+      "label": "日文转述原帖",
+      "url": "https://x.com/claudecode_love/status/2118913583308525876"
+    },
+    {
+      "label": "Chetan 原片帖",
+      "url": "https://x.com/chetanankola/status/2118631658979250631"
+    },
+    {
+      "label": "原片及作者回复镜像",
+      "url": "https://www.teapaw.org/chetanankola/status/2118631658979250631"
+    },
+    {
+      "label": "作者追加愿望单",
+      "url": "https://x.com/chetanankola/status/2123608958401429954"
+    },
+    {
+      "label": "峡谷官方预告",
+      "url": "https://3ditions.drop3.app/notify/thunder-passage/"
+    },
+    {
+      "label": "同店运河场景包",
+      "url": "https://3ditions.drop3.app/editions/honnavar-backwaters/"
+    },
+    {
+      "label": "商用许可原文",
+      "url": "https://3ditions.drop3.app/commercial-license.txt"
+    },
+    {
+      "label": "3DITIONS 商品目录",
+      "url": "https://3ditions.drop3.app/3d-website-templates/"
+    },
+    {
+      "label": "同店溪谷场景包",
+      "url": "https://3ditions.drop3.app/editions/hiroshis-island/"
+    },
+    {
+      "label": "同店沼泽场景包",
+      "url": "https://3ditions.drop3.app/editions/stillwater/"
+    },
+    {
+      "label": "Three.js 雾说明",
+      "url": "https://threejs.org/manual/pages/fog.html"
+    },
+    {
+      "label": "Three.js 渲染文档",
+      "url": "https://threejs.org/manual/pages/webgpurenderer"
+    },
+    {
+      "label": "原帖存档",
+      "url": "sources/25.json"
+    }
+  ]
+}

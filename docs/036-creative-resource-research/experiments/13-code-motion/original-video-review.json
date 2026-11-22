@@ -1,0 +1,110 @@
+{
+  "case_id": "13",
+  "review_date": "2026-11-22",
+  "source_url": "https://x.com/tapehead_lab/status/2118659661394035007",
+  "video_url": "https://video.twimg.com/amplify_video/2118650119952474112/vid/avc1/1920x1080/-CYPKbeeujOYm20f.mp4?tag=29",
+  "source_metadata_duration_seconds": 165.625,
+  "browser_duration_seconds": 165.674667,
+  "video_size": [
+    1920,
+    1080
+  ],
+  "screenshot_size": [
+    1280,
+    720
+  ],
+  "method": "原片时间轴14处暂停；截图前readyState=4。按时间取样，未逐帧、未听审，不反推BPM/工具分工比例。",
+  "frames": [
+    {
+      "file": "experiments/13-original-000.jpg",
+      "seconds": 0,
+      "ready_state": 4,
+      "caption": "原片起始为空白纹理底"
+    },
+    {
+      "file": "experiments/13-original-005.jpg",
+      "seconds": 4.289311,
+      "ready_state": 4,
+      "caption": "人物近景、彩色轮廓与点阵背景"
+    },
+    {
+      "file": "experiments/13-original-010.jpg",
+      "seconds": 9.382869,
+      "ready_state": 4,
+      "caption": "螺旋体外观元素、竖排字与遮挡条"
+    },
+    {
+      "file": "experiments/13-original-012.jpg",
+      "seconds": 12.623405,
+      "ready_state": 4,
+      "caption": "粉白螺旋体与叠加文字"
+    },
+    {
+      "file": "experiments/13-original-030.jpg",
+      "seconds": 29.489018,
+      "ready_state": 4,
+      "caption": "大字、牙齿外观元素与纹理背景"
+    },
+    {
+      "file": "experiments/13-original-045.jpg",
+      "seconds": 44.63565,
+      "ready_state": 4,
+      "caption": "火箭外观元素与点阵/小方块"
+    },
+    {
+      "file": "experiments/13-original-060.jpg",
+      "seconds": 59.782282,
+      "ready_state": 4,
+      "caption": "深浅色块中的大字拼排"
+    },
+    {
+      "file": "experiments/13-original-075.jpg",
+      "seconds": 74.928914,
+      "ready_state": 4,
+      "caption": "奔跑人物、肖像卡与彩色大字"
+    },
+    {
+      "file": "experiments/13-original-090.jpg",
+      "seconds": 90.075547,
+      "ready_state": 4,
+      "caption": "人物、重复元素与拼贴层次"
+    },
+    {
+      "file": "experiments/13-original-105.jpg",
+      "seconds": 105.222179,
+      "ready_state": 4,
+      "caption": "细字、线框与局部人物画片"
+    },
+    {
+      "file": "experiments/13-original-120.jpg",
+      "seconds": 120.368811,
+      "ready_state": 4,
+      "caption": "多个人物拷贝与不同缩放/方向"
+    },
+    {
+      "file": "experiments/13-original-135.jpg",
+      "seconds": 135.515443,
+      "ready_state": 4,
+      "caption": "后段太空骑火箭场景，不能据此归为纯二维编排"
+    },
+    {
+      "file": "experiments/13-original-150.jpg",
+      "seconds": 150.662075,
+      "ready_state": 4,
+      "caption": "太空场景与Directed by: tapehead.lab署名"
+    },
+    {
+      "file": "experiments/13-original-end.jpg",
+      "seconds": 165.674667,
+      "ready_state": 4,
+      "caption": "原片末态黑场"
+    }
+  ],
+  "full_video_reviewed": false,
+  "audio_reviewed": false,
+  "beat_grid_measured": false,
+  "original_bpm": null,
+  "author_project_obtained": false,
+  "original_media_saved": false,
+  "xiaoyou_reproduced": false
+}

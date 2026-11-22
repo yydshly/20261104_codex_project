@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-22",
+  "sources": [
+    {
+      "label": "berryxia原帖",
+      "url": "https://x.com/berryxia/status/2118701761909420187",
+      "access": "403; mirror snapshot used"
+    },
+    {
+      "label": "leon2mcp引用帖",
+      "url": "https://x.com/leon2mcp/status/2118697711818215444",
+      "access": "403; mirror snapshot used"
+    },
+    {
+      "label": "OpenAI GIF API",
+      "url": "https://developers.openai.com/api/docs/guides/image-generation#generate-animated-gif-output",
+      "access": "GIF section and limitations readable"
+    },
+    {
+      "label": "MDN GIF",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Image_types#gif_graphics_interchange_format",
+      "access": "readable"
+    },
+    {
+      "label": "GIF89a",
+      "url": "https://www.w3.org/Graphics/GIF/spec-gif89a.txt",
+      "access": "readable"
+    },
+    {
+      "label": "web.dev video",
+      "url": "https://web.dev/learn/performance/video-performance",
+      "access": "readable"
+    },
+    {
+      "label": "Renoise Agent",
+      "url": "https://renoise.ai/features/renoise-agent",
+      "access": "readable; current platform description, not historical task evidence"
+    },
+    {
+      "label": "W3C Pause Stop Hide",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html",
+      "access": "readable; no site conformance audit"
+    }
+  ],
+  "snapshot": "sources/21.json",
+  "snapshot_sha256": "c3f575b2665c206ec2cf51808ad6b57d75fe29e35affde3c3340d796a7f8d961",
+  "authored_summary": "references/21-gif-role/research-notes.md",
+  "summary_sha256": "93add476cd1a508cd7df5d7de23daad0f042537cbd9de67cbfeffbdb09090037",
+  "note": "校验本地摘要，不冒充官方原文快照；源GIF和逐镜制作链未取得。",
+  "paid_generation_or_upload": false,
+  "original_media_saved_or_transcoded": false
+}

@@ -1,0 +1,38 @@
+{
+  "status": "authored_observations_not_camera_reconstruction",
+  "date": "2026-11-22",
+  "rows": [
+    {
+      "asset": "0–2秒",
+      "content": "中近景到脸部局部特写；手靠近镜头，人物画面占比增加",
+      "check": "借景别反差；推进/变焦/裁切/人物前倾占比未知"
+    },
+    {
+      "asset": "3–4秒",
+      "content": "倾斜近景后回较宽俯视，可见更多坐姿与天台",
+      "check": "借放大后释放空间；精确轨迹、焦距与切点未知"
+    },
+    {
+      "asset": "5–6秒",
+      "content": "侧面到背面，城市背景倾斜，头发与手势持续变化",
+      "check": "借观察方向变化；身体转身与镜头绕行未分离"
+    },
+    {
+      "asset": "7–8秒",
+      "content": "高视角面部近景转向正面附近近景",
+      "check": "借回到主体表情；是否拼接、加速或重生成未知"
+    },
+    {
+      "asset": "9秒至末态",
+      "content": "近景中张口、眨眼、抬眼与鼓腮，脸和头发持续变化",
+      "check": "借表演停留；口型、音乐节拍与身份连续性未验"
+    },
+    {
+      "asset": "小柚待执行",
+      "content": "同条件A固定机位/B小幅缓推，保留结尾停留",
+      "check": "只改一个镜头变量，记录真实工具控制项与失败原因"
+    }
+  ],
+  "timing_note": "approximate ranges; no cut/trajectory calibration",
+  "source_model_and_prompt": null
+}

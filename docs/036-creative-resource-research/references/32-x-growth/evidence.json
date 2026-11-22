@@ -1,0 +1,126 @@
+{
+  "case_id": "32",
+  "checked_on": "2026-11-22",
+  "source_snapshot": "sources/32.json",
+  "quoted_media": {
+    "id": "2118708985960554497",
+    "source": "https://video.twimg.com/amplify_video/2118708985960554497/vid/avc1/1920x1080/rG-d6qxhkA5JEriQ.mp4?tag=29",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "browser_duration_seconds": 1407.658667
+  },
+  "case_embed_playback": {
+    "duration_seconds": 1407.6,
+    "checked_current_times_seconds": [
+      0.078,
+      4.984003
+    ],
+    "ready_state": 4
+  },
+  "review_method": "在第32条模块实播 Jacob 的原有嵌入视频。同媒体 ID 的 1920×1080 MP4 暂停取样 11 处，片长约 23 分 28 秒。本轮核对画面和输出版式，未完整听审或取得作者的工作簿与 Markdown 附件。",
+  "frames": [
+    {
+      "file": "experiments/32-x-growth/video-0006.jpg",
+      "seconds": 6.249469,
+      "caption": "趋势报告对比排名变化，区分升温、短期尖峰、平稳与机会。"
+    },
+    {
+      "file": "experiments/32-x-growth/video-0460.jpg",
+      "seconds": 463.525143,
+      "caption": "长视频复用 Bot 根据一条影片的文字稿列出推文串草稿。"
+    },
+    {
+      "file": "experiments/32-x-growth/video-0720.jpg",
+      "seconds": 719.773687,
+      "caption": "内容策略 Bot 附 213 帖工作表，作者要七天选题，要求分别看曝光与收藏。"
+    },
+    {
+      "file": "experiments/32-x-growth/video-0830.jpg",
+      "seconds": 827.967516,
+      "caption": "同行周报给爆帖和账号平时表现的倍率，画面称一周覆盖 18 位创作者。"
+    },
+    {
+      "file": "experiments/32-x-growth/video-0966.jpg",
+      "seconds": 965.772289,
+      "caption": "Reply Window 推送作者帖子下未答复的评论，画面开启时段内逐小时检查。"
+    },
+    {
+      "file": "experiments/32-x-growth/video-1030.jpg",
+      "seconds": 1029.549704,
+      "caption": "提醒链接弹出 Jacob 自己帖子的预览，相同未回复提醒在小时轮次重复出现。"
+    },
+    {
+      "file": "experiments/32-x-growth/video-1114.jpg",
+      "seconds": 1113.827003,
+      "caption": "额外展示的 Lead Hunter 按优先级列潜在客户，有历史候选再次出现。"
+    },
+    {
+      "file": "experiments/32-x-growth/video-1202.jpg",
+      "seconds": 1201.520949,
+      "caption": "Growth Strategist 提供可分享模板的待确认卡，显示 Unpublished。"
+    },
+    {
+      "file": "experiments/32-x-growth/video-1205.jpg",
+      "seconds": 1204.937596,
+      "caption": "模板卡显示 Published。发布的是 Bot 模板，画面没有代发 X 回复。"
+    },
+    {
+      "file": "experiments/32-x-growth/video-1231.jpg",
+      "seconds": 1231.131892,
+      "caption": "增长任务面向教育创作者，筛 20 个候选，由作者自行选择和回复。"
+    },
+    {
+      "file": "experiments/32-x-growth/video-1339.jpg",
+      "seconds": 1339.325722,
+      "caption": "清单按 7、7、6 分组，给链接、回复理由、草稿与评分，Bot 自述 19 条直接核对。"
+    }
+  ],
+  "sources": [
+    {
+      "label": "SIAxiom 中文解读",
+      "url": "https://x.com/SIAxiom/status/2118947536903999719"
+    },
+    {
+      "label": "Jacob 原帖与演示",
+      "url": "https://x.com/JacobCEdmunds/status/2118750759856517155"
+    },
+    {
+      "label": "原片 MP4",
+      "url": "https://video.twimg.com/amplify_video/2118708985960554497/vid/avc1/1920x1080/rG-d6qxhkA5JEriQ.mp4?tag=29"
+    },
+    {
+      "label": "Grok 技能与定时任务",
+      "url": "https://docs.x.ai/grok-bot/skills-routines-and-automations"
+    },
+    {
+      "label": "X 自动化规则",
+      "url": "https://help.x.com/en/rules-and-policies/x-automation"
+    },
+    {
+      "label": "本地原帖文字与媒体快照",
+      "url": "sources/32.json"
+    },
+    {
+      "label": "第05条 局部锐化",
+      "url": "#05"
+    },
+    {
+      "label": "第20条 城市航拍",
+      "url": "#20"
+    },
+    {
+      "label": "第29条 PLATEAU",
+      "url": "#29"
+    },
+    {
+      "label": "第30条 WorldForge",
+      "url": "#30"
+    }
+  ],
+  "limits": [
+    "画面能核对呈现的文本、链接类型和状态。候选的真实性、草稿质量、同类流程的持续表现仍需独立复查。",
+    "未取到完整的候选文件、排序公式、连接能力和前后对照指标。录屏的 7、7、6 是 Bot 报告口径。"
+  ]
+}

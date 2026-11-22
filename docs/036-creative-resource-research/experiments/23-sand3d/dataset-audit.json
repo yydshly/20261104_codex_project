@@ -1,0 +1,21 @@
+{
+  "status": "五张数据卡声明值整理，非独立清点",
+  "date": "2026-11-22",
+  "reported_objects": {
+    "objaverse": 66887,
+    "cad": 24495,
+    "articraft": 9209,
+    "simready": 2334,
+    "automate": 3169
+  },
+  "reported_sum": 106094,
+  "count_scope": "五个数据集当前卡片的objects值相加；不另把AutoMate的parts配置当新整物累加；非去重或可用率统计",
+  "quality": "f_score为发布管线自产出与源网格之间的自测，距离阈值1%包围盒对角线；不是独立评审。卡片说明静态Objaverse/SimReady保留阈值0.70，CAD/Articraft刚体0.90，活动物体每部件0.90且关节正确；本轮未复测。",
+  "reuse": "库Apache-2.0；数据程序/渲染/USD标CC-BY-4.0，逐条还须留source_license与attribution。AutoMate卡对公共Onshape设计的权利覆盖另作说明；未做逐资产许可判断。",
+  "missing": [
+    "独立枚举与去重",
+    "逐资产运行/网格/材质验收",
+    "下载规模和本机可用率",
+    "第三方授权逐项核对"
+  ]
+}

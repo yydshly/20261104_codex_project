@@ -1,0 +1,140 @@
+{
+  "retrieved_date": "2026-11-22",
+  "repository": "https://github.com/Sandflow-ai/sand3d",
+  "commit": "f840420fe9996dca4728d7a5eb8bfb87135d91ce",
+  "commit_date": "2026-11-19T14:40:59Z",
+  "version": "1.6.3",
+  "documents": [
+    {
+      "path": "README.md",
+      "file": "references/23-sand3d/README.md.txt",
+      "url": "https://github.com/Sandflow-ai/sand3d/blob/f840420fe9996dca4728d7a5eb8bfb87135d91ce/README.md",
+      "sha256": "0a94b3a78c16fd112a3f6b9ef57d5621e7e08a2213e9e94d1e0e0b883249cc95"
+    },
+    {
+      "path": "docs/api.md",
+      "file": "references/23-sand3d/docs__api.md.txt",
+      "url": "https://github.com/Sandflow-ai/sand3d/blob/f840420fe9996dca4728d7a5eb8bfb87135d91ce/docs/api.md",
+      "sha256": "27597cdd85af3202f9597a1300c9264ba7e202db2a47e8f6065ed87e738f8701"
+    },
+    {
+      "path": "docs/guidelines.md",
+      "file": "references/23-sand3d/docs__guidelines.md.txt",
+      "url": "https://github.com/Sandflow-ai/sand3d/blob/f840420fe9996dca4728d7a5eb8bfb87135d91ce/docs/guidelines.md",
+      "sha256": "9eeee60f24f027ca98096f2a1304347dc851854dc3be6302dfaaaf8faa57881d"
+    },
+    {
+      "path": "pyproject.toml",
+      "file": "references/23-sand3d/pyproject.toml.txt",
+      "url": "https://github.com/Sandflow-ai/sand3d/blob/f840420fe9996dca4728d7a5eb8bfb87135d91ce/pyproject.toml",
+      "sha256": "a62794ffd59142514d9db882a09ffde3f927de5095867c848279d1623d8e215e"
+    },
+    {
+      "path": "LICENSE",
+      "file": "references/23-sand3d/LICENSE.txt",
+      "url": "https://github.com/Sandflow-ai/sand3d/blob/f840420fe9996dca4728d7a5eb8bfb87135d91ce/LICENSE",
+      "sha256": "8c6db340475136df3c1201d458fa5755698eace76e510471ecc9d857d6083dac"
+    },
+    {
+      "path": "programs/washing_machine.py",
+      "file": "references/23-sand3d/programs__washing_machine.py.txt",
+      "url": "https://github.com/Sandflow-ai/sand3d/blob/f840420fe9996dca4728d7a5eb8bfb87135d91ce/programs/washing_machine.py",
+      "sha256": "255ff17283c35bb0ce54dc12cb8026b486953f66613d06ffa5b7e9d61a8abc6d"
+    },
+    {
+      "path": "docs/examples/bracket.py",
+      "file": "references/23-sand3d/docs__examples__bracket.py.txt",
+      "url": "https://github.com/Sandflow-ai/sand3d/blob/f840420fe9996dca4728d7a5eb8bfb87135d91ce/docs/examples/bracket.py",
+      "sha256": "a1f62d2622cb06671fe21553f0d5236dc89bb3b4f22b84f0fdfc162634ff1c50"
+    },
+    {
+      "path": "src/sand3d/meshfile.py",
+      "file": "references/23-sand3d/src__sand3d__meshfile.py.txt",
+      "url": "https://github.com/Sandflow-ai/sand3d/blob/f840420fe9996dca4728d7a5eb8bfb87135d91ce/src/sand3d/meshfile.py",
+      "sha256": "c5fb9c57f6dab722cb60e69983bb22623bc8e6d86fb9eafc32f8cb17920ff0e1"
+    },
+    {
+      "path": "src/sand3d/assembly.py",
+      "file": "references/23-sand3d/src__sand3d__assembly.py.txt",
+      "url": "https://github.com/Sandflow-ai/sand3d/blob/f840420fe9996dca4728d7a5eb8bfb87135d91ce/src/sand3d/assembly.py",
+      "sha256": "b2b8ac9f507bb072c1eb1f56437d4d50544e68631ec0a0edae9d3abce8dbbcf5"
+    },
+    {
+      "path": "src/sand3d/joints.py",
+      "file": "references/23-sand3d/src__sand3d__joints.py.txt",
+      "url": "https://github.com/Sandflow-ai/sand3d/blob/f840420fe9996dca4728d7a5eb8bfb87135d91ce/src/sand3d/joints.py",
+      "sha256": "36372f0fe9d31305887ed45a310a45a6e401484129e2c290cd6702c24441cb70"
+    },
+    {
+      "path": "src/sand3d/__init__.py",
+      "file": "references/23-sand3d/src__sand3d____init__.py.txt",
+      "url": "https://github.com/Sandflow-ai/sand3d/blob/f840420fe9996dca4728d7a5eb8bfb87135d91ce/src/sand3d/__init__.py",
+      "sha256": "b7d2e6df68e6d37f9617d6c2eb9d897cc23600847ffa68e27399f100f8186706"
+    },
+    {
+      "path": "tests/test_nothing_cut.py",
+      "file": "references/23-sand3d/tests__test_nothing_cut.py.txt",
+      "url": "https://github.com/Sandflow-ai/sand3d/blob/f840420fe9996dca4728d7a5eb8bfb87135d91ce/tests/test_nothing_cut.py",
+      "sha256": "0c5c92500047cdc31303200abaf7fb1e912939d914ee2efd667f918de7dbc735"
+    },
+    {
+      "path": "docs/readme/tokens.md",
+      "file": "references/23-sand3d/docs__readme__tokens.md.txt",
+      "url": "https://github.com/Sandflow-ai/sand3d/blob/f840420fe9996dca4728d7a5eb8bfb87135d91ce/docs/readme/tokens.md",
+      "sha256": "822032b14c56605295ce46fddcaf575d3d865de991faaad083ab7ef5d788d353"
+    }
+  ],
+  "dataset_cards": [
+    {
+      "name": "objaverse",
+      "url": "https://huggingface.co/datasets/Sandflow/sand3d-objaverse/raw/main/README.md",
+      "file": "references/23-sand3d/hf-objaverse-README.txt",
+      "sha256": "b1e745c1c9cafa97da8c4e7bb39683a77027c2f055b04010a4707c55e322ab6c",
+      "status": "readable",
+      "excerpt": "license: cc-by-4.0\n  - articulated-objects\n  - program-synthesis\n![Sand3D Objaverse: a scene of objects from the dataset](assets/banner.png)\n66 887 3D objects written as code. Each object is a short Python program in\n[sand3d](https://github.com/Sandflow-ai/sand3d), the OpenUSD file that program exports, and a\nrender of it. Everyday objects, articulated mechanisms and mechanical CAD parts, in one language:\nevery part is named, every dimension a parameter, and articulated objects declare their joints.\n| source | objects | articulated | joints |\nsource:\n| `program` | its sand3d program |\n| `entry` | the program's function that builds the object; null when the program builds it as it runs |\n| `render` | one picture of the object, as the program builds it |\n| `f_score` | how close the program's shape is to the source object's ([Quality](#quality-f_score)) |\n| `source`, `source_group`, `asset_id` | where the object comes from, and its id there |\n| `license`, `source_license`, `attribution`, `license_status` | [Licence](#licence) |\n| `sand3d_version` | the sand3d version the program was run under to write the file |\n| `usda_bytes`, `usda_sha256`, `program_sha256` | the files' size and digests |\nprint(row[\"program\"])     # the sand3d program\nexec(row[\"program\"], ns)\nelse:                                                 # the program built it as it ran\n    roots = [o for o in bpy.context.scene.objects if o.parent is None]\nobject whose program did not run, or did not pass a static check, is not in the dataset. The programs\nrebuild with sand3d ≥ 1.6 on bpy 5.2 into the same objects, though not always into byte-identical\nObjaverse objects are split by Sketchfab author and SimReady as",
+      "reported_objects": 66887,
+      "version_note": "2026-11-22 main文本快照，内容哈希留存；未下载或独立枚举数据集"
+    },
+    {
+      "name": "cad",
+      "url": "https://huggingface.co/datasets/Sandflow/sand3d-cad/raw/main/README.md",
+      "file": "references/23-sand3d/hf-cad-README.txt",
+      "sha256": "123f591d59df1d056d71de3d7d0d1186ed45649f6a535065239b5dd10bd86e01",
+      "status": "readable",
+      "excerpt": "license: cc-by-4.0\n  - articulated-objects\n  - program-synthesis\n![Sand3D CAD: a scene of objects from the dataset](assets/banner.png)\n24 495 3D objects written as code. Each object is a short Python program in\n[sand3d](https://github.com/Sandflow-ai/sand3d), the OpenUSD file that program exports, and a\nrender of it. Everyday objects, articulated mechanisms and mechanical CAD parts, in one language:\nevery part is named, every dimension a parameter, and articulated objects declare their joints.\n| source | objects | articulated | joints |\nsource:\n| `program` | its sand3d program |\n| `entry` | the program's function that builds the object; null when the program builds it as it runs |\n| `render` | one picture of the object, as the program builds it |\n| `f_score` | how close the program's shape is to the source object's ([Quality](#quality-f_score)) |\n| `source`, `source_group`, `asset_id` | where the object comes from, and its id there |\n| `license`, `source_license`, `attribution`, `license_status` | [Licence](#licence) |\n| `sand3d_version` | the sand3d version the program was run under to write the file |\n| `usda_bytes`, `usda_sha256`, `program_sha256` | the files' size and digests |\nprint(row[\"program\"])     # the sand3d program\nexec(row[\"program\"], ns)\nelse:                                                 # the program built it as it ran\n    roots = [o for o in bpy.context.scene.objects if o.parent is None]\nobject whose program did not run, or did not pass a static check, is not in the dataset. The programs\nrebuild with sand3d ≥ 1.6 on bpy 5.2 into the same objects, though not always into byte-identical\nObjaverse objects are split by Sketchfab author and SimReady assets b",
+      "reported_objects": 24495,
+      "version_note": "2026-11-22 main文本快照，内容哈希留存；未下载或独立枚举数据集"
+    },
+    {
+      "name": "articraft",
+      "url": "https://huggingface.co/datasets/Sandflow/sand3d-articraft/raw/main/README.md",
+      "file": "references/23-sand3d/hf-articraft-README.txt",
+      "sha256": "bd3ab7c2a9929fb6260ee0a2d00f4aa1d636f739127b44992514d3e5f27371b7",
+      "status": "readable",
+      "excerpt": "license: cc-by-4.0\n  - articulated-objects\n  - program-synthesis\n![Sand3D Articraft: a scene of objects from the dataset](assets/banner.png)\n9 209 3D objects written as code. Each object is a short Python program in\n[sand3d](https://github.com/Sandflow-ai/sand3d), the OpenUSD file that program exports, and a\nrender of it. Everyday objects, articulated mechanisms and mechanical CAD parts, in one language:\nevery part is named, every dimension a parameter, and articulated objects declare their joints.\n| source | objects | articulated | joints |\nsource:\n| `program` | its sand3d program |\n| `entry` | the program's function that builds the object; null when the program builds it as it runs |\n| `render` | one picture of the object, as the program builds it |\n| `f_score` | how close the program's shape is to the source object's ([Quality](#quality-f_score)) |\n| `source`, `source_group`, `asset_id` | where the object comes from, and its id there |\n| `license`, `source_license`, `attribution`, `license_status` | [Licence](#licence) |\n| `sand3d_version` | the sand3d version the program was run under to write the file |\n| `usda_bytes`, `usda_sha256`, `program_sha256` | the files' size and digests |\nprint(row[\"program\"])     # the sand3d program\nexec(row[\"program\"], ns)\nelse:                                                 # the program built it as it ran\n    roots = [o for o in bpy.context.scene.objects if o.parent is None]\nobject whose program did not run, or did not pass a static check, is not in the dataset. The programs\nrebuild with sand3d ≥ 1.6 on bpy 5.2 into the same objects, though not always into byte-identical\nObjaverse objects are split by Sketchfab author and SimReady ass",
+      "reported_objects": 9209,
+      "version_note": "2026-11-22 main文本快照，内容哈希留存；未下载或独立枚举数据集"
+    },
+    {
+      "name": "simready",
+      "url": "https://huggingface.co/datasets/Sandflow/sand3d-simready/raw/main/README.md",
+      "file": "references/23-sand3d/hf-simready-README.txt",
+      "sha256": "7aef7a86c1abe8b814e2b58e536c7bb1de90c1367dce9c96436bc9c9ca66228a",
+      "status": "readable",
+      "excerpt": "license: cc-by-4.0\n  - articulated-objects\n  - program-synthesis\n![Sand3D NVIDIA SimReady: a scene of objects from the dataset](assets/banner.png)\n2 334 3D objects written as code. Each object is a short Python program in\n[sand3d](https://github.com/Sandflow-ai/sand3d), the OpenUSD file that program exports, and a\nrender of it. Everyday objects, articulated mechanisms and mechanical CAD parts, in one language:\nevery part is named, every dimension a parameter, and articulated objects declare their joints.\n| source | objects | articulated | joints |\nsource:\n| `program` | its sand3d program |\n| `entry` | the program's function that builds the object; null when the program builds it as it runs |\n| `render` | one picture of the object, as the program builds it |\n| `f_score` | how close the program's shape is to the source object's ([Quality](#quality-f_score)) |\n| `source`, `source_group`, `asset_id` | where the object comes from, and its id there |\n| `license`, `source_license`, `attribution`, `license_status` | [Licence](#licence) |\n| `sand3d_version` | the sand3d version the program was run under to write the file |\n| `usda_bytes`, `usda_sha256`, `program_sha256` | the files' size and digests |\nprint(row[\"program\"])     # the sand3d program\nexec(row[\"program\"], ns)\nelse:                                                 # the program built it as it ran\n    roots = [o for o in bpy.context.scene.objects if o.parent is None]\nobject whose program did not run, or did not pass a static check, is not in the dataset. The programs\nrebuild with sand3d ≥ 1.6 on bpy 5.2 into the same objects, though not always into byte-identical\nObjaverse objects are split by Sketchfab author and SimRea",
+      "reported_objects": 2334,
+      "version_note": "2026-11-22 main文本快照，内容哈希留存；未下载或独立枚举数据集"
+    },
+    {
+      "name": "automate",
+      "url": "https://huggingface.co/datasets/Sandflow/sand3d-automate/raw/main/README.md",
+      "file": "references/23-sand3d/hf-automate-README.txt",
+      "sha256": "0dc1e9240e689d0813d84a4523fb774513a5b8bfe18bd89d667bf2eda8c4687f",
+      "status": "readable",
+      "excerpt": "license: cc-by-4.0\n  - articulated-objects\n  - program-synthesis\n![Sand3D AutoMate: a scene of objects from the dataset](assets/banner.png)\n3 169 3D objects written as code. Each object is a short Python program in\n[sand3d](https://github.com/Sandflow-ai/sand3d), the OpenUSD file that program exports, and a\nrender of it. Everyday objects, articulated mechanisms and mechanical CAD parts, in one language:\nevery part is named, every dimension a parameter, and articulated objects declare their joints.\n| source | objects | articulated | joints |\n| **total** | **3 169** | **869** | **2 121** |\nThe `default` config holds the assemblies, each built with its parts placed and its joints declared; the `parts` config holds each distinct part alone, its program building that part by itself.\nsource:\n| `program` | its sand3d program |\n| `entry` | the program's function that builds the object; null when the program builds it as it runs |\n| `render` | one picture of the object, as the program builds it |\n| `f_score` | how close the program's shape is to the source object's ([Quality](#quality-f_score)) |\n| `source`, `source_group`, `asset_id` | where the object comes from, and its id there |\n| `license`, `source_license`, `attribution`, `license_status` | [Licence](#licence) |\n| `sand3d_version` | the sand3d release the program was run under to write the file |\n| `usda_bytes`, `usda_sha256`, `program_sha256` | the files' size and digests |\nprint(row[\"program\"])     # the sand3d program\nexec(row[\"program\"], ns)\nelse:                                                 # the program built it as it ran\n    roots = [o for o in bpy.context.scene.objects if o.parent is None]\nEvery file here was wri",
+      "reported_objects": 3169,
+      "version_note": "2026-11-22 main文本快照，内容哈希留存；未下载或独立枚举数据集"
+    }
+  ],
+  "execution": "只读库资料及数据卡；未安装、下载数据集或在本机运行sand3d。另验证官方网页的两个关节控件。"
+}

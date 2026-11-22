@@ -1,0 +1,37 @@
+{
+  "retrieved_date": "2026-11-22",
+  "repository": "https://github.com/pyang5166/gbro-collage-broll",
+  "main_checked_commit": "a1a4ee2e2abf7d44e460026b706d0c72c2cf8a91",
+  "commit_date": "2026-07-15T12:50:46Z",
+  "method": "public GitHub connector verified latest main; reused same pinned snapshots saved in case14; read only, no source execution",
+  "files": [
+    {
+      "file": "references/14-collage-broll/README.md",
+      "path": "README.md",
+      "url": "https://github.com/pyang5166/gbro-collage-broll/blob/a1a4ee2e2abf7d44e460026b706d0c72c2cf8a91/README.md",
+      "sha256": "a9a9ef7aefb058b51126d6a92ab9b2d70ddebd3f221062cf1efa6675975f2f85"
+    },
+    {
+      "file": "references/14-collage-broll/SKILL.md",
+      "path": "SKILL.md",
+      "url": "https://github.com/pyang5166/gbro-collage-broll/blob/a1a4ee2e2abf7d44e460026b706d0c72c2cf8a91/SKILL.md",
+      "sha256": "faa81669b503229f48db371eee017bc5fe6ce7ee18d68eea82c5ad7af9fa6359"
+    },
+    {
+      "file": "references/14-collage-broll/evals--evals.json",
+      "path": "evals/evals.json",
+      "url": "https://github.com/pyang5166/gbro-collage-broll/blob/a1a4ee2e2abf7d44e460026b706d0c72c2cf8a91/evals/evals.json",
+      "sha256": "89db2c5922b58c33b9303f5e8dd5add1f5ad7f9a52d1c32022d23e2979f02a73"
+    },
+    {
+      "file": "references/14-collage-broll/scripts--generate_video.py",
+      "path": "scripts/generate_video.py",
+      "url": "https://github.com/pyang5166/gbro-collage-broll/blob/a1a4ee2e2abf7d44e460026b706d0c72c2cf8a91/scripts/generate_video.py",
+      "sha256": "f302df513a4f4fcd335d0a4a4cfeb29c166c0dd467fcdc6fc10332b35c9a5e7c"
+    }
+  ],
+  "source_post": "sources/15.json; original live X403, public mirror captured 2026-11-12",
+  "repository_gifs": "experiments/15-gates/media-review.json",
+  "eval_status": "4 expected-output specifications read, no test execution",
+  "scope": "Research only, no install, upload, key inspection, model calls or true approvals."
+}

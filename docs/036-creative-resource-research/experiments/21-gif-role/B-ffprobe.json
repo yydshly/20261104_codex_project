@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-22",
+  "method": "已安装ffprobe只读探测公开原MP4；原媒体未落盘、未转码、未听审",
+  "result": {
+    "programs": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1"
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "96000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "54.421333",
+      "size": "8120771"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "status": "proposed_not_produced",
+  "title": "一张平面图怎样获得空间感？",
+  "duration_seconds": 30,
+  "fps": 24,
+  "parameter_note": "草稿设定，不是作者视频参数；实际按真实中文口播调整，不强制5秒切镜。",
+  "scenes": [
+    {
+      "seconds": [
+        0,
+        5
+      ],
+      "task": "提出空间感问题",
+      "picture": "完整构图，小幅移动"
+    },
+    {
+      "seconds": [
+        5,
+        10
+      ],
+      "task": "解释分层",
+      "picture": "标出前景/中景/背景"
+    },
+    {
+      "seconds": [
+        10,
+        15
+      ],
+      "task": "演示相对移动",
+      "picture": "同视点变化下近景多移、远景少移"
+    },
+    {
+      "seconds": [
+        15,
+        20
+      ],
+      "task": "做同素材对照",
+      "picture": "整体移动与分层移动并列"
+    },
+    {
+      "seconds": [
+        20,
+        25
+      ],
+      "task": "指出能力边界",
+      "picture": "用示意箭头说明大幅绕背需要额外资产，不制造伪背面"
+    },
+    {
+      "seconds": [
+        25,
+        30
+      ],
+      "task": "给出选择方法",
+      "picture": "有限视点先试分层，必须新视角时补几何/素材"
+    }
+  ],
+  "actual_audio": null,
+  "source_assets": null,
+  "outputs": [],
+  "generated": false
+}

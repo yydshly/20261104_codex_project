@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-22",
+  "method": "浏览器原生时间轴点击，暂停、readyState=4后截图；currentTime近似定位，不作逐帧/接缝/透明通道量测。原媒体未下载或转码。",
+  "clips": [
+    {
+      "id": "post1",
+      "url": "https://video.twimg.com/tweet_video/HWW29n4acAA25Vx.mp4",
+      "duration_seconds": 1,
+      "decoded_size": [
+        272,
+        420
+      ]
+    },
+    {
+      "id": "post2",
+      "url": "https://video.twimg.com/tweet_video/HWW5B3TbIAAueYw.mp4",
+      "duration_seconds": 1,
+      "metadata_size": [
+        1280,
+        1424
+      ],
+      "decoded_size": [
+        1150,
+        1280
+      ]
+    },
+    {
+      "id": "quote1",
+      "url": "https://video.twimg.com/amplify_video/2118226950342991872/vid/avc1/426x400/n-e8E93ej9aK67Hl.mp4?tag=29",
+      "duration_seconds": 2.52,
+      "decoded_size": [
+        426,
+        400
+      ]
+    },
+    {
+      "id": "quote2",
+      "url": "https://video.twimg.com/tweet_video/HWVzwgfaEAAF45l.mp4",
+      "duration_seconds": 1.08,
+      "decoded_size": [
+        1280,
+        1280
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "clip": "post1",
+      "file": "experiments/19-sprite-gen/post1-00.jpg",
+      "paused": true,
+      "ready": 4,
+      "time": 0
+    },
+    {
+      "clip": "post1",
+      "file": "experiments/19-sprite-gen/post1-34.jpg",
+      "paused": true,
+      "ready": 4,
+      "time": 0.342105
+    },
+    {
+      "clip": "post1",
+      "file": "experiments/19-sprite-gen/post1-67.jpg",
+      "paused": true,
+      "ready": 4,
+      "time": 0.671052
+    },
+    {
+      "clip": "post1",
+      "file": "experiments/19-sprite-gen/post1-98.jpg",
+      "paused": true,
+      "ready": 4,
+      "time": 0.97807
+    },
+    {
+      "clip": "post2",
+      "file": "experiments/19-sprite-gen/post2-00.jpg",
+      "paused": true,
+      "ready": 4,
+      "time": 0.000725
+    },
+    {
+      "clip": "post2",
+      "file": "experiments/19-sprite-gen/post2-50.jpg",
+      "paused": true,
+      "ready": 4,
+      "time": 0.5
+    },
+    {
+      "clip": "post2",
+      "file": "experiments/19-sprite-gen/post2-98.jpg",
+      "paused": true,
+      "ready": 4,
+      "time": 0.979369
+    },
+    {
+      "clip": "quote1",
+      "file": "experiments/19-sprite-gen/quote1-00.jpg",
+      "paused": true,
+      "ready": 4,
+      "time": 0
+    },
+    {
+      "clip": "quote1",
+      "file": "experiments/19-sprite-gen/quote1-50.jpg",
+      "paused": true,
+      "ready": 4,
+      "time": 1.26
+    },
+    {
+      "clip": "quote1",
+      "file": "experiments/19-sprite-gen/quote1-98.jpg",
+      "paused": true,
+      "ready": 4,
+      "time": 2.467225
+    },
+    {
+      "clip": "quote2",
+      "file": "experiments/19-sprite-gen/quote2-00.jpg",
+      "paused": true,
+      "ready": 4,
+      "time": 0
+    },
+    {
+      "clip": "quote2",
+      "file": "experiments/19-sprite-gen/quote2-50.jpg",
+      "paused": true,
+      "ready": 4,
+      "time": 0.54
+    },
+    {
+      "clip": "quote2",
+      "file": "experiments/19-sprite-gen/quote2-98.jpg",
+      "paused": true,
+      "ready": 4,
+      "time": 1.057633
+    }
+  ],
+  "photo": {
+    "url": "https://pbs.twimg.com/media/HWW5d6aa8AAJEiG.jpg?name=orig",
+    "natural_size": [
+      988,
+      1442
+    ],
+    "kind": "repository README screenshot",
+    "screenshot": "experiments/19-sprite-gen/repository-photo.jpg"
+  },
+  "tool_executed": false,
+  "xiaoyou_generated": false
+}

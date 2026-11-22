@@ -1,0 +1,60 @@
+{
+  "kind": "research-proposal-not-api-request",
+  "executed": false,
+  "purpose": "5秒小柚解释配画；一个概念、一个动作",
+  "sentence": null,
+  "verified_factual_source": null,
+  "source_audio": null,
+  "fixed_conditions": [
+    "同一句口播",
+    "同画幅/构图/色调",
+    "同一动作意图",
+    "同一字幕/声音/剪辑模板"
+  ],
+  "editable_layers": [
+    "中文标题",
+    "字幕",
+    "图表数据/单位/来源",
+    "小柚署名"
+  ],
+  "routes": {
+    "A": {
+      "method": "静图加程序动效",
+      "output": null
+    },
+    "B": {
+      "method": "短GIF后合成视频",
+      "frame_count_candidate": 8,
+      "frame_duration_ms_candidate": 200,
+      "single_cycle_seconds": 1.6,
+      "repeat_and_hold": "按5秒句长安排，实际回放确认",
+      "output": null
+    },
+    "C": {
+      "method": "视频生成配画",
+      "actual_controls": null,
+      "output": null
+    }
+  },
+  "checks": [
+    "动作语义和概念可读性",
+    "物件/角色形状",
+    "文字/数据准确",
+    "循环与停留",
+    "声音/字幕",
+    "目标平台最终回放"
+  ],
+  "limits": [
+    "不是现成API请求，不证明各入口支持同样字段",
+    "同意图不代表所有方法输入/控制完全可比",
+    "最终输出为视频时，音轨和剪辑单独处理"
+  ],
+  "deliverables": [
+    "每种上游原素材",
+    "可编辑字图",
+    "统一声音/字幕",
+    "3种最终视频",
+    "QA和成本/失败记录"
+  ]
+}
+

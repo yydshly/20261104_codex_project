@@ -1,0 +1,39 @@
+{
+  "case_id": "06",
+  "review_date": "2026-11-21",
+  "pages": [
+    "https://livliv-dev.github.io/player/example/demo.html",
+    "https://livliv-dev.github.io/player/example/gallery.html"
+  ],
+  "checks": [
+    {
+      "action": "Nana neutral→笑",
+      "observed": "笑按钮选中，角色闭眼张嘴笑脸",
+      "result": "passed_basic_visual_interaction",
+      "file": "experiments/06-demo-smile.jpg"
+    },
+    {
+      "action": "neutral→nod",
+      "observed": "动作按钮已点击并取样；未记录整个动作时序",
+      "result": "invoked_not_motion_benchmarked",
+      "file": "experiments/06-demo-nod.jpg"
+    },
+    {
+      "action": "gallery选择Tsubaki",
+      "observed": "25个入口可见于DOM；等待后角色名变为Tsubaki并呈现全身角色",
+      "result": "passed_basic_model_switch",
+      "file": "experiments/06-current-gallery.jpg"
+    }
+  ],
+  "webcam_activated": false,
+  "microphone_activated": false,
+  "personal_assets_uploaded": false,
+  "source_repo_installed": false,
+  "speech_tested": false,
+  "vrm_tested": false,
+  "full_body_motion_measured": false,
+  "mobile_tested": false,
+  "xiaoyou_tested": false,
+  "scope": "只验证官方样例的表情切换和角色加载；没有中文语音、摄像头、速度与完整对话验收。"
+}
+

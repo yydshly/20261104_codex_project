@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="2160" viewBox="0 0 1440 2160" role="img" aria-labelledby="title desc"><title id="title">47 小游戏按玩法和分发选最轻的技术 · 研究总结图</title><desc id="desc">研究源、内容方法、原作效果、对小柚的价值、待验证项和下一步。未生成小柚样片。</desc>
+<style>text{font-family:"Microsoft YaHei","Microsoft YaHei UI",sans-serif}a:hover text{text-decoration:underline}</style>
+<rect x="0" y="0" width="1440" height="2160" rx="0" fill="#f2f3ec" stroke="none"/>
+<rect x="0" y="0" width="1440" height="290" rx="0" fill="#183e35" stroke="none"/>
+<text x="72" y="66" font-size="23" fill="#bdd4c5" font-weight="400">小柚创作研究  /  单条总结</text>
+<text x="1260" y="102" font-size="82" fill="#729783" font-weight="700">47</text>
+<text x="72" y="143" font-size="58" fill="#ffffff" font-weight="700">小游戏按玩法和分发选最轻的技术</text>
+<text x="72" y="193" font-size="25" fill="#c9dbd1" font-weight="400">按游戏需求选择技术栈</text>
+<text x="72" y="252" font-size="32" fill="#f4dfaa" font-weight="600">小柚首个单关样例从网页起步，复杂功能或渠道再决定引擎。</text>
+<rect x="64" y="318" width="1312" height="184" rx="22" fill="#ffffff" stroke="#d8e1d5"/>
+<text x="88" y="364" font-size="24" fill="#2c6655" font-weight="700">01</text><text x="140" y="364" font-size="32" fill="#183e35" font-weight="700">研究源</text>
+<text x="88" y="412" font-size="30" fill="#183e35" font-weight="600">@CryY666666 原帖 ＋ Phaser 官方 Arcade Physics</text>
+<text x="88" y="454" font-size="25" fill="#61756d" font-weight="400">原帖只有文字。模块展示原文入口和摘要。</text>
+<rect x="64" y="526" width="1312" height="300" rx="22" fill="#ffffff" stroke="#d8e1d5"/>
+<text x="88" y="574" font-size="24" fill="#2c6655" font-weight="700">02</text><text x="140" y="574" font-size="32" fill="#183e35" font-weight="700">研究内容与方法</text>
+<text x="88" y="619" font-size="26" fill="#61756d" font-weight="400">先锁输入、场景复杂度、目标设备和上线渠道，再选最少依赖且能跑通的方式。</text>
+<rect x="88" y="644" width="392" height="112" rx="22" fill="#eaf1e5" stroke="none"/>
+<text x="106" y="681" font-size="29" fill="#2c6655" font-weight="700">定玩法</text>
+<text x="106" y="714" font-size="24" fill="#183e35" font-weight="400">一关、一个输入</text><text x="106" y="744" font-size="24" fill="#183e35" font-weight="400">列 2D 和 3D 需要</text>
+<text x="490" y="706" font-size="30" fill="#2c6655" font-weight="700">→</text>
+<rect x="524" y="644" width="392" height="112" rx="22" fill="#eaf1e5" stroke="none"/>
+<text x="542" y="681" font-size="29" fill="#2c6655" font-weight="700">定渠道</text>
+<text x="542" y="714" font-size="24" fill="#183e35" font-weight="400">本地网页或微信</text><text x="542" y="744" font-size="24" fill="#183e35" font-weight="400">核手机和包体</text>
+<text x="926" y="706" font-size="30" fill="#2c6655" font-weight="700">→</text>
+<rect x="960" y="644" width="392" height="112" rx="22" fill="#eaf1e5" stroke="none"/>
+<text x="978" y="681" font-size="29" fill="#2c6655" font-weight="700">验证再升级</text>
+<text x="978" y="714" font-size="24" fill="#183e35" font-weight="400">用同一玩法对照</text><text x="978" y="744" font-size="24" fill="#183e35" font-weight="400">看首帧与操作</text>
+<text x="88" y="796" font-size="23" fill="#61756d" font-weight="400">小柚的验证方案依据原作观察与公开资料整理。</text>
+<rect x="64" y="850" width="1312" height="560" rx="22" fill="#ffffff" stroke="#d8e1d5"/>
+<text x="88" y="900" font-size="24" fill="#2c6655" font-weight="700">03</text><text x="140" y="900" font-size="32" fill="#183e35" font-weight="700">原作展示的效果</text>
+<rect x="88" y="924" width="580" height="420" rx="14" fill="#eaf1e5" stroke="none"/>
+<text x="124" y="999" font-size="36" fill="#2c6655" font-weight="700">原帖要点</text>
+<text x="124" y="1076" font-size="25" fill="#183e35" font-weight="400">原生 HTML5／JS · 快速小样</text><text x="124" y="1125" font-size="25" fill="#183e35" font-weight="400">Phaser · 浏览器 2D</text><text x="124" y="1174" font-size="25" fill="#183e35" font-weight="400">Cocos Creator · 微信构建</text><text x="124" y="1223" font-size="25" fill="#183e35" font-weight="400">Unity · 复杂 3D 项目</text>
+<text x="708" y="962" font-size="30" fill="#2c6655" font-weight="700">可核对的原作表现</text>
+<text x="708" y="1069" font-size="22" fill="#7a967b" font-weight="700">01</text>
+<text x="756" y="1069" font-size="25" fill="#183e35" font-weight="400">四条路线覆盖不同复杂度。</text>
+<text x="708" y="1163" font-size="22" fill="#7a967b" font-weight="700">02</text>
+<text x="756" y="1163" font-size="25" fill="#183e35" font-weight="400">Cocos 官方提供微信构建。</text>
+<text x="708" y="1257" font-size="22" fill="#7a967b" font-weight="700">03</text>
+<text x="756" y="1257" font-size="25" fill="#183e35" font-weight="400">Unity Web 需看版本和设备。</text>
+<text x="88" y="1381" font-size="21" fill="#61756d" font-weight="400">文字原帖 · 无图片或视频附件</text>
+<text x="708" y="1342" font-size="20" fill="#61756d" font-weight="400">以下小柚用法需要用自己的素材验证。</text>
+<rect x="64" y="1434" width="1312" height="264" rx="22" fill="#deebdc" stroke="none"/>
+<text x="88" y="1484" font-size="24" fill="#2c6655" font-weight="700">04</text><text x="140" y="1484" font-size="32" fill="#183e35" font-weight="700">对小柚的价值</text>
+<text x="1230" y="1484" font-size="22" fill="#61756d" font-weight="400">待实测兑现</text>
+<text x="88" y="1541" font-size="29" fill="#2c6655" font-weight="700">网页原型先跑一遍</text>
+<text x="88" y="1590" font-size="25" fill="#183e35" font-weight="400">用一关验证核心动作</text><text x="88" y="1630" font-size="25" fill="#183e35" font-weight="400">保留事件与重来状态</text>
+<text x="524" y="1541" font-size="29" fill="#2c6655" font-weight="700">有微信需求再换</text>
+<text x="524" y="1590" font-size="25" fill="#183e35" font-weight="400">单独确认平台 SDK</text><text x="524" y="1630" font-size="25" fill="#183e35" font-weight="400">明确设备和分包限制</text>
+<text x="960" y="1541" font-size="29" fill="#2c6655" font-weight="700">量真实运行效果</text>
+<text x="960" y="1590" font-size="25" fill="#183e35" font-weight="400">同素材核首次操作</text><text x="960" y="1630" font-size="25" fill="#183e35" font-weight="400">记包体、加载和性能</text>
+<rect x="64" y="1722" width="1312" height="172" rx="22" fill="#f6ecd8" stroke="#e7d7b6"/>
+<text x="88" y="1768" font-size="29" fill="#805c2c" font-weight="700">待验证 · 当前交付边界</text>
+<text x="88" y="1816" font-size="26" fill="#715d41" font-weight="400">未构建四套相同小样，也没有相同设备上的引擎性能对照。</text>
+<rect x="64" y="1918" width="1312" height="144" rx="22" fill="#183e35" stroke="none"/>
+<text x="88" y="1965" font-size="30" fill="#f4dfaa" font-weight="700">小柚试验</text>
+<text x="88" y="2007" font-size="26" fill="#eff5ec" font-weight="400">同一个小柚反应玩法先做网页小样，设输入、反馈和重玩。</text>
+<text x="72" y="2107" font-size="22" fill="#61756d" font-weight="400">资料核对 2026.11.22  ·  总结图 2026.11.22  ·  状态：首轮研究完成，实作待验证</text>
+<a href="https://x.com/CryY666666/status/2118957998651662765" target="_blank"><text x="72" y="2141" font-size="18" fill="#2c6655" font-weight="400">[1] @CryY666666 </text></a>
+<a href="https://docs.phaser.io/phaser/concepts/physics/arcade" target="_blank"><text x="328" y="2141" font-size="18" fill="#2c6655" font-weight="400">[2] Phaser 官方 Ar</text></a>
+<a href="https://docs.cocos.com/creator/3.8/manual/en/editor/publish/publish-wechatgame.html" target="_blank"><text x="584" y="2141" font-size="18" fill="#2c6655" font-weight="400">[3] Cocos Creato</text></a>
+<a href="https://docs.unity3d.com/cn/6000.0/Manual/webgl-browsercompatibility.html" target="_blank"><text x="840" y="2141" font-size="18" fill="#2c6655" font-weight="400">[4] Unity 6 Web </text></a>
+</svg>

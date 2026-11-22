@@ -1,0 +1,28 @@
+{
+  "template_only": true,
+  "status": "not_run",
+  "case_id": "01",
+  "route": null,
+  "run_at": null,
+  "input_video": null,
+  "character_reference": null,
+  "input_rights_note": null,
+  "source_video_sha256": null,
+  "reference_sha256": null,
+  "runtime": {"operating_system": null, "gpu": null, "vram_gb": null, "node_versions": null},
+  "model": {"base": null, "lora": null, "control_model": null, "workflow_file": null},
+  "parameters": {"seed": null, "frames": null, "fps": null, "resolution": null, "steps": null},
+  "elapsed_seconds": null,
+  "actual_cost": null,
+  "output_file": null,
+  "review": {
+    "action_order": null,
+    "event_time_offsets_seconds": null,
+    "identity": null,
+    "occlusion_recovery": null,
+    "temporal_consistency": null,
+    "background_and_camera": null,
+    "evidence_frames": [],
+    "decision": null
+  }
+}

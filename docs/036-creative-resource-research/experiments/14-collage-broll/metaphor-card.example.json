@@ -1,0 +1,37 @@
+{
+  "status": "proposed_not_generated",
+  "sentence": "把经验留成方法，下一次就不用从头来过。",
+  "sentence_origin": "本项目候选句，待换为真实小柚口播",
+  "audience_takeaway": "把零散经验保存成可复用方法",
+  "metaphor": "散页装订成一本可复用手册",
+  "groups": [
+    {
+      "id": "pages",
+      "meaning": "零散经验"
+    },
+    {
+      "id": "hand_stapler",
+      "meaning": "整理并固定"
+    },
+    {
+      "id": "manual",
+      "meaning": "可反复使用的方法"
+    }
+  ],
+  "style": {
+    "background": "系列纯色纸底，颜色待确认",
+    "materials": [
+      "黑白网点照片裁片",
+      "彩纸强调",
+      "米白描边",
+      "利落切边",
+      "轻纸影"
+    ],
+    "camera": "locked",
+    "no_generated_text": true,
+    "subtitles": "后期单独添加"
+  },
+  "completion_state": "中央手册完成且留有字幕空间",
+  "human_semantics_check": null,
+  "still_generated": false
+}

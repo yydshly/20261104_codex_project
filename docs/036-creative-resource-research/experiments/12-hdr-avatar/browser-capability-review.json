@@ -1,0 +1,15 @@
+{
+  "case_id": "12",
+  "observed_date": "2026-11-22",
+  "page_url": "https://pbs.twimg.com/media/HWIskbCaQAALZjo.png?name=orig",
+  "environment": "本次ChatGPT应用内浏览器报告；未读取或改变系统HDR设置",
+  "queries": {
+    "(dynamic-range: high)": false,
+    "(video-dynamic-range: high)": false,
+    "(color-gamut: p3)": true
+  },
+  "physical_display_verified": false,
+  "peak_luminance_nits": null,
+  "hardware_identity": null,
+  "scope": "能力查询不是物理显示鉴定或当前HDR模式验证；false不证明所有设备均不支持HDR。"
+}

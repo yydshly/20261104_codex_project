@@ -1,0 +1,36 @@
+{
+  "status": "hypothetical_rule_examples_not_executed_tests",
+  "basis": "固定SKILL/eval4；版本绑定与错误定位是本项目建议",
+  "cases": [
+    {
+      "scenario": "没有任何决定",
+      "allowed": "整理文字隐喻",
+      "blocked": "图片和视频生成"
+    },
+    {
+      "scenario": "假设1、2、4隐喻通过，3、5未通过",
+      "allowed": "仅1、2、4继续静帧",
+      "blocked": "全部视频；3、5静帧"
+    },
+    {
+      "scenario": "假设1号静帧v1通过，但换成v2",
+      "allowed": "检查v2",
+      "blocked": "用v1批准自动认定v2通过"
+    },
+    {
+      "scenario": "只有2号视频动作失败，其他已验通过",
+      "allowed": "仅修正并重跑2号视频",
+      "blocked": "无理由重跑整批"
+    },
+    {
+      "scenario": "视频里的假字源于静帧",
+      "allowed": "回改该静帧并重核对应下游",
+      "blocked": "只靠重复视频调用掩盖源图错误"
+    },
+    {
+      "scenario": "假设同一方案与图片版本继续使用，既定偏好仍适用",
+      "allowed": "沿用仍适用的决定，并验本次成片",
+      "blocked": "把历史通过等同于新成片QA通过"
+    }
+  ]
+}

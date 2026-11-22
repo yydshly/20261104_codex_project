@@ -1,0 +1,125 @@
+{
+  "case_id": "12",
+  "inspection_date": "2026-11-22",
+  "source_url": "https://pbs.twimg.com/media/HWIskbCaQAALZjo.png?name=orig",
+  "http_status": 200,
+  "content_type": "image/png",
+  "bytes": 46815,
+  "sha256": "01a9dc86de9e302949829f5bf3a24de0ee99598793f1778bcf9cd15f3cddebbc",
+  "ihdr": {
+    "width": 400,
+    "height": 400,
+    "bit_depth": 8,
+    "color_type": 3,
+    "compression": 0,
+    "filter": 0,
+    "interlace": 0
+  },
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13,
+      "crc_ok": true
+    },
+    {
+      "type": "iCCP",
+      "bytes": 4724,
+      "crc_ok": true
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768,
+      "crc_ok": true
+    },
+    {
+      "type": "tRNS",
+      "bytes": 256,
+      "crc_ok": true
+    },
+    {
+      "type": "IDAT",
+      "bytes": 40974,
+      "crc_ok": true
+    },
+    {
+      "type": "IEND",
+      "bytes": 0,
+      "crc_ok": true
+    }
+  ],
+  "all_chunk_crc_ok": true,
+  "cicp": null,
+  "icc": {
+    "chunk_profile_name": "Rec.2100 PQ",
+    "compression_method": 0,
+    "bytes": 13300,
+    "declared_bytes": 13300,
+    "sha256": "63cd9f4a8443c71df3633aa0a2ec4594aa8fbca23b1a3231b517bc726a567b16",
+    "version_hex": "04000000",
+    "profile_class": "mntr",
+    "color_space": "RGB ",
+    "pcs": "XYZ ",
+    "signature": "acsp",
+    "descriptions": [
+      {
+        "language": "enUS",
+        "text": "Rec. ITU-R BT.2100 PQ"
+      }
+    ],
+    "internal_cicp": [
+      9,
+      16,
+      0,
+      1
+    ],
+    "tags": [
+      {
+        "signature": "desc",
+        "type": "mluc",
+        "size": 70
+      },
+      {
+        "signature": "cprt",
+        "type": "mluc",
+        "size": 80
+      },
+      {
+        "signature": "wtpt",
+        "type": "XYZ ",
+        "size": 20
+      },
+      {
+        "signature": "A2B0",
+        "type": "mAB ",
+        "size": 6412
+      },
+      {
+        "signature": "B2A0",
+        "type": "mBA ",
+        "size": 6412
+      },
+      {
+        "signature": "chad",
+        "type": "sf32",
+        "size": 44
+      },
+      {
+        "signature": "cicp",
+        "type": "cicp",
+        "size": 12
+      },
+      {
+        "signature": "lumi",
+        "type": "XYZ ",
+        "size": 20
+      }
+    ]
+  },
+  "palette": {
+    "entries": 256
+  },
+  "trailing_bytes": 0,
+  "original_media_saved": false,
+  "modified_media": false,
+  "scope": "Only this CDN response was parsed; profile signaling is not physical display brightness, platform-wide preservation, or a validated conversion."
+}

@@ -1,0 +1,56 @@
+{
+  "case_id": "13",
+  "review_date": "2026-11-22",
+  "source_post": "https://x.com/tapehead_lab/status/2118659661394035007",
+  "post_fetch": "403; retained 2026-11-12 mirror text",
+  "source_capture": "sources/13.json",
+  "source_capture_file_sha256": "38c1dddcd0eb6dd6d8d4936310f3987059a345569fbb9eb495638e29fa46fe8b",
+  "official_concept_sources": [
+    "https://www.remotion.dev/docs/use-current-frame",
+    "https://www.remotion.dev/docs/sequence",
+    "https://www.remotion.dev/docs/interpolate",
+    "https://www.remotion.dev/docs/visualize-audio"
+  ],
+  "raw_webpages_archived": false,
+  "author_tool_source_obtained": false,
+  "author_tool_run": false,
+  "remotion_installed_or_run": false,
+  "code_principle_demo_run": true,
+  "audio_reviewed": false,
+  "xiaoyou_reproduced": false,
+  "local_records": [
+    {
+      "file": "references/13-code-motion/source-notes.md",
+      "sha256": "b56d85c00df9e962203706442b621787a6af71a7f445fa0efbdb3d1451551f22"
+    },
+    {
+      "file": "experiments/13-code-motion/original-video-review.json",
+      "sha256": "e784d532f136314143e68af5243fb793b3f2c69edeb686804dcafdad5bf37467"
+    },
+    {
+      "file": "experiments/13-code-motion/timeline-state.js",
+      "sha256": "f3bd635c9457d4e90bd5aefb249a90a5df18934bba06b4fd092796d3c017a062"
+    },
+    {
+      "file": "experiments/13-code-motion/timeline-demo.js",
+      "sha256": "75b9e1bda94421208d5143f739ceacf26b594ed6cfa27b0848885286d8510a79"
+    },
+    {
+      "file": "experiments/13-code-motion/timeline-demo.html",
+      "sha256": "462c15b2e7a249a94446f0de896459738456016e190d0a13755b9ad3fd59450f"
+    },
+    {
+      "file": "experiments/13-code-motion/demo-review.json",
+      "sha256": "8bcd828eb54332a744390dab2937aecf46b2eb1b0b79dbf2f583261d727cd819"
+    },
+    {
+      "file": "experiments/13-code-motion/timeline-logic-check.json",
+      "sha256": "70d71d7845624c0d82a744a97e3ad701961dfed304bd050f3ffa8a4a8c785635"
+    },
+    {
+      "file": "experiments/13-code-motion/demo-frame120.jpg",
+      "sha256": "ede4494d201e78857f56aca6ae0392f84795f85fdba36788a4f5ef04f6634adc"
+    }
+  ],
+  "scope": "Original MV 14 paused samples, author credits, official frame-time concepts and independently authored JS/SVG principle demo. No original media download, author-code execution, AI generation, real-audio sync or MP4 render."
+}

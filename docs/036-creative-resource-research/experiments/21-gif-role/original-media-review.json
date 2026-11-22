@@ -1,0 +1,199 @@
+{
+  "date": "2026-11-22",
+  "original_post_has_no_direct_media": true,
+  "quote_url": "https://x.com/leon2mcp/status/2118697711818215444",
+  "method": "浏览器原生时间轴暂停，21处截图最终readyState=4；控件时钟偶滞后，currentTime近似定位，不作精确切点标定。",
+  "screenshots_size": [
+    1280,
+    720
+  ],
+  "clips": [
+    {
+      "clip": "A",
+      "source_url": "https://video.twimg.com/amplify_video/2118697638577250304/vid/avc1/1080x1920/sGIaeatnY_5d-Y5k.mp4?tag=29",
+      "width": 1080,
+      "height": 1920,
+      "duration_seconds": 44.500215,
+      "sample_count": 7
+    },
+    {
+      "clip": "B",
+      "source_url": "https://video.twimg.com/amplify_video/2118697638573051904/vid/avc1/1080x1920/qHLyV7Zxsb2C-M7i.mp4?tag=29",
+      "width": 1080,
+      "height": 1920,
+      "duration_seconds": 54.421333,
+      "sample_count": 7
+    },
+    {
+      "clip": "C",
+      "source_url": "https://video.twimg.com/amplify_video/2118697638615031808/vid/avc1/1080x1920/3GQp1kTrGmB79jLK.mp4?tag=29",
+      "width": 1080,
+      "height": 1920,
+      "duration_seconds": 42.100234,
+      "sample_count": 7
+    }
+  ],
+  "samples": [
+    {
+      "clip": "A",
+      "file": "experiments/21-gif-role/A-00.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 0.061634
+    },
+    {
+      "clip": "A",
+      "file": "experiments/21-gif-role/A-08.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 7.950869
+    },
+    {
+      "clip": "A",
+      "file": "experiments/21-gif-role/A-16.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 15.963373
+    },
+    {
+      "clip": "A",
+      "file": "experiments/21-gif-role/A-24.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 23.975877
+    },
+    {
+      "clip": "A",
+      "file": "experiments/21-gif-role/A-32.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 31.988381
+    },
+    {
+      "clip": "A",
+      "file": "experiments/21-gif-role/A-40.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 40.000885
+    },
+    {
+      "clip": "A",
+      "file": "experiments/21-gif-role/A-44.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 43.945503
+    },
+    {
+      "clip": "B",
+      "file": "experiments/21-gif-role/B-00.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 0.075375
+    },
+    {
+      "clip": "B",
+      "file": "experiments/21-gif-role/B-10.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 10.024982
+    },
+    {
+      "clip": "B",
+      "file": "experiments/21-gif-role/B-20.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 19.974588
+    },
+    {
+      "clip": "B",
+      "file": "experiments/21-gif-role/B-30.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 30.074947
+    },
+    {
+      "clip": "B",
+      "file": "experiments/21-gif-role/B-40.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 40.024553
+    },
+    {
+      "clip": "B",
+      "file": "experiments/21-gif-role/B-50.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 49.97416
+    },
+    {
+      "clip": "B",
+      "file": "experiments/21-gif-role/B-54.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 54.044453
+    },
+    {
+      "clip": "C",
+      "file": "experiments/21-gif-role/C-00.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 0.05831
+    },
+    {
+      "clip": "C",
+      "file": "experiments/21-gif-role/C-08.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 7.988548
+    },
+    {
+      "clip": "C",
+      "file": "experiments/21-gif-role/C-16.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 16.035407
+    },
+    {
+      "clip": "C",
+      "file": "experiments/21-gif-role/C-24.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 23.965645
+    },
+    {
+      "clip": "C",
+      "file": "experiments/21-gif-role/C-32.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 32.012504
+    },
+    {
+      "clip": "C",
+      "file": "experiments/21-gif-role/C-40.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 39.942742
+    },
+    {
+      "clip": "C",
+      "file": "experiments/21-gif-role/C-42.jpg",
+      "paused": true,
+      "ready": 4,
+      "seconds": 42.041923
+    }
+  ],
+  "comparison_sheet": {
+    "file": "experiments/21-gif-role/contact-sheet.jpg",
+    "size": [
+      1440,
+      862
+    ],
+    "content": "A两处/B一处/C一处；HTML/SVG组合原截图"
+  },
+  "original_gif_available": false,
+  "per_shot_method_verified": false,
+  "audio_listened": false,
+  "news_or_business_facts_verified": false,
+  "media_downloaded_or_transcoded": false,
+  "xiaoyou_generated": false
+}

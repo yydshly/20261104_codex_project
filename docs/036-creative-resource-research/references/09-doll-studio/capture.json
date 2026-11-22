@@ -1,0 +1,36 @@
+{
+  "case_id": "09",
+  "retrieved_date": "2026-11-21",
+  "via": "GitHub连接器读取作者公开固定提交；官方Live2D文档另行阅读",
+  "repository": "https://github.com/link-ding/doll-studio",
+  "commit": "127968436dca6d564b6075de94259679e4f17c43",
+  "commit_date": "2026-11-10T02:28:59Z",
+  "files": [
+    {
+      "path": "README.md",
+      "file": "references/09-doll-studio/README.md",
+      "url": "https://github.com/link-ding/doll-studio/blob/127968436dca6d564b6075de94259679e4f17c43/README.md",
+      "sha256": "197b5365302974d0ef8859c37610361a1bc6256c6d5973bc858cf21438ad276d"
+    },
+    {
+      "path": "FORMAT.md",
+      "file": "references/09-doll-studio/FORMAT.md",
+      "url": "https://github.com/link-ding/doll-studio/blob/127968436dca6d564b6075de94259679e4f17c43/FORMAT.md",
+      "sha256": "994fde153960bfdc9e6bd77a60393f8a8f768c17774aa6a74943040b143edff7"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "file": "references/09-doll-studio/THIRD_PARTY_NOTICES.md",
+      "url": "https://github.com/link-ding/doll-studio/blob/127968436dca6d564b6075de94259679e4f17c43/THIRD_PARTY_NOTICES.md",
+      "sha256": "0208d39c8c47475251b64cd321e3e16df91fd04217d2d95e36888e11d3f96c59"
+    },
+    {
+      "path": "src/format.js",
+      "file": "references/09-doll-studio/src--format.js",
+      "url": "https://github.com/link-ding/doll-studio/blob/127968436dca6d564b6075de94259679e4f17c43/src/format.js",
+      "sha256": "d367b57f533ef0e6ec081b3d8efbcdf6196164712f883d1a094bc3b00d814dbb"
+    }
+  ],
+  "notes": "4份固定文本快照，原始媒体未下载。读取根目录清单未见整体LICENSE；未把第三方Apache通知当作原始工程授权。官方Cubism文档仅作格式/工序区分，不认定Doll兼容。",
+  "hash_scope": "本地UTF-8快照字节，来源为记录的固定提交。"
+}

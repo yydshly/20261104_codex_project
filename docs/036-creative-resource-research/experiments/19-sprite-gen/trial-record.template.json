@@ -1,0 +1,51 @@
+{
+  "status": "not_started",
+  "date": null,
+  "commit": null,
+  "installed_version": null,
+  "python_version": null,
+  "route": null,
+  "provider": null,
+  "model": null,
+  "base_image": null,
+  "target_platform": null,
+  "budget_cap": null,
+  "states": {
+    "blink_idle": {
+      "attempts": null,
+      "generated_minutes": null,
+      "selection_minutes": null,
+      "edge_fix_minutes": null,
+      "export_minutes": null,
+      "cost": null,
+      "currency": null,
+      "qa_verdict": "not_tested",
+      "output": null,
+      "failure_times": []
+    },
+    "nod_ack": {
+      "attempts": null,
+      "generated_minutes": null,
+      "selection_minutes": null,
+      "edge_fix_minutes": null,
+      "export_minutes": null,
+      "cost": null,
+      "currency": null,
+      "qa_verdict": "not_tested",
+      "output": null,
+      "failure_times": []
+    }
+  },
+  "comparison": {
+    "matched_inputs": false,
+    "matched_action": false,
+    "same_selection_rule": false,
+    "before_method": null,
+    "after_method": null,
+    "total_minutes": null,
+    "benefit": null
+  },
+  "reproduced": false,
+  "digested": false
+}
+

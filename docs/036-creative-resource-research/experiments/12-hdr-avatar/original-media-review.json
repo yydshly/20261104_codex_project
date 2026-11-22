@@ -1,0 +1,64 @@
+{
+  "case_id": "12",
+  "review_date": "2026-11-22",
+  "source_post": "https://x.com/pamelaaaaa1218/status/2119369039680266288",
+  "image_source": "https://x.com/EianLu/status/2117303792165339388",
+  "video_source": "https://x.com/hi_personality/status/2117011977658876093",
+  "image_size": [
+    400,
+    400
+  ],
+  "video_size": [
+    1920,
+    1080
+  ],
+  "duration_seconds": 6.997,
+  "screenshot_size": [
+    1280,
+    720
+  ],
+  "frames": [
+    {
+      "file": "experiments/12-avatar-source.jpg",
+      "label": "引用头像原图",
+      "caption": "Eian的400×400头像；青色背景、黄帽和深发，截图仅记外观",
+      "image_complete": true
+    },
+    {
+      "file": "experiments/12-original-start.jpg",
+      "seconds": 0,
+      "caption": "hi_personality视频：楼体、骑行者、落日与窗灯；不是Pamela自己的制作过程",
+      "ready_state": 4
+    },
+    {
+      "file": "experiments/12-original-early.jpg",
+      "seconds": 1.732266,
+      "caption": "亮窗、暖色天空与蓝色暗部形成反差；未量测HDR亮度",
+      "ready_state": 4
+    },
+    {
+      "file": "experiments/12-original-middle.jpg",
+      "seconds": 3.4985,
+      "caption": "骑行与取景继续变化；此取样不能证明逐帧高光稳定",
+      "ready_state": 4
+    },
+    {
+      "file": "experiments/12-original-later.jpg",
+      "seconds": 5.264733,
+      "caption": "道路亮线与窗灯可见；没有同片SDR/HDR对照",
+      "ready_state": 4
+    },
+    {
+      "file": "experiments/12-original-end.jpg",
+      "seconds": 6.997,
+      "caption": "原片末态；未检查视频色深、EOTF或听审声音",
+      "ready_state": 4
+    }
+  ],
+  "audio_reviewed": false,
+  "video_hdr_metadata_checked": false,
+  "hdr_brightness_verified": false,
+  "same_input_sdr_hdr_pair": false,
+  "png_media_saved": false,
+  "scope": "原图浏览、五处视频取样与只读PNG结构检查分别记录。"
+}

@@ -1,0 +1,15 @@
+stage,item,status,evidence,notes
+brief,一个信息目标和一个动作,not_tested,,
+brief,事实数据来源与文案,not_tested,,
+source,原素材真实格式和生成记录,not_tested,,
+gif,原始帧数与逐帧延迟,not_tested,,
+gif,单轮长度接缝和重复安排,not_tested,,
+gif,色彩和透明边缘,not_tested,,
+visual,角色物件形状与动作语义,not_tested,,
+text_chart,文字数值单位来源可改且准确,not_tested,,
+final,声音听审和字幕对齐,not_tested,,
+final,图表运动不误导含义,not_tested,,
+final,目标画幅平台压缩与回放,not_tested,,
+web,需要循环时可停止或静态查看,not_tested,,
+cost,失败返工与各阶段总工时费用,not_tested,,
+

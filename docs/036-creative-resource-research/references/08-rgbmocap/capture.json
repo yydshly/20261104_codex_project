@@ -1,0 +1,84 @@
+{
+  "case_id": "08",
+  "retrieved_date": "2026-11-21",
+  "via": "GitHub连接器读取公开固定提交",
+  "repository": "https://github.com/toyxyz/toyxyz_RGBMocap",
+  "commit": "44c9bcfa5a5dda9e6718bb471d17dbb3165f1310",
+  "commit_date": "2026-11-21T07:57:11Z",
+  "notes": "9份固定提交文档/许可快照，旧references/rgbmocap.txt保留。只读资料；未执行仓库安装命令。",
+  "files": [
+    {
+      "path": "README.md",
+      "file": "references/08-rgbmocap/README.md",
+      "url": "https://github.com/toyxyz/toyxyz_RGBMocap/blob/44c9bcfa5a5dda9e6718bb471d17dbb3165f1310/README.md",
+      "sha256": "073c3203ac680b8edd77f4537ad04b5b38c09bb6d7d9b3917a96f55ccf580b36"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "file": "references/08-rgbmocap/THIRD_PARTY_NOTICES.md",
+      "url": "https://github.com/toyxyz/toyxyz_RGBMocap/blob/44c9bcfa5a5dda9e6718bb471d17dbb3165f1310/THIRD_PARTY_NOTICES.md",
+      "sha256": "b131d74fba9cc5cf0c4c1cc18e08a0a29285a2f09ca777e16771473b6e9a681f"
+    },
+    {
+      "path": "docs/USER_GUIDE.md",
+      "file": "references/08-rgbmocap/docs--USER_GUIDE.md",
+      "url": "https://github.com/toyxyz/toyxyz_RGBMocap/blob/44c9bcfa5a5dda9e6718bb471d17dbb3165f1310/docs/USER_GUIDE.md",
+      "sha256": "4ca03306c234e7a8c4d492528329292fdd9f7009178b07e120c0e61bd15b9bdd"
+    },
+    {
+      "path": "docs/models/EXMR.md",
+      "file": "references/08-rgbmocap/docs--models--EXMR.md",
+      "url": "https://github.com/toyxyz/toyxyz_RGBMocap/blob/44c9bcfa5a5dda9e6718bb471d17dbb3165f1310/docs/models/EXMR.md",
+      "sha256": "365337a01dbe42b757066b6d7ab75971ea2cf062e4896a5e900ac542a16381ef"
+    },
+    {
+      "path": "docs/models/GVHMR.md",
+      "file": "references/08-rgbmocap/docs--models--GVHMR.md",
+      "url": "https://github.com/toyxyz/toyxyz_RGBMocap/blob/44c9bcfa5a5dda9e6718bb471d17dbb3165f1310/docs/models/GVHMR.md",
+      "sha256": "8d6db826392db7cef157265c3de82136f85a444b5733395d34f7c1d8a59b8a9d"
+    },
+    {
+      "path": "LICENSE",
+      "file": "references/08-rgbmocap/LICENSE",
+      "url": "https://github.com/toyxyz/toyxyz_RGBMocap/blob/44c9bcfa5a5dda9e6718bb471d17dbb3165f1310/LICENSE",
+      "sha256": "8f5e14293d28d6324d45ded3d1ec0810605c6242daf3c1d101df528173fd9eb1"
+    },
+    {
+      "path": "third_party/GVHMR/LICENSE",
+      "file": "references/08-rgbmocap/third_party--GVHMR--LICENSE",
+      "url": "https://github.com/toyxyz/toyxyz_RGBMocap/blob/44c9bcfa5a5dda9e6718bb471d17dbb3165f1310/third_party/GVHMR/LICENSE",
+      "sha256": "521acc0fc33f3ffffa89467bc8dd62734b92228937d51caa6c0e733901588434"
+    },
+    {
+      "path": "third_party/ExMR/LICENSE",
+      "file": "references/08-rgbmocap/third_party--ExMR--LICENSE",
+      "url": "https://github.com/toyxyz/toyxyz_RGBMocap/blob/44c9bcfa5a5dda9e6718bb471d17dbb3165f1310/third_party/ExMR/LICENSE",
+      "sha256": "bd50cf52d0eff2afa84c5a9eb1369275ae509950c9cddacb4536966e28082ae8"
+    },
+    {
+      "path": "docs/models/FLOWHMR.md",
+      "file": "references/08-rgbmocap/docs--models--FLOWHMR.md",
+      "url": "https://github.com/toyxyz/toyxyz_RGBMocap/blob/44c9bcfa5a5dda9e6718bb471d17dbb3165f1310/docs/models/FLOWHMR.md",
+      "sha256": "60b7d8a71483967217c0a6a81926974369a5947ea803f08e893e52307dbbedbc"
+    }
+  ],
+  "external_checks": [
+    {
+      "url": "https://make-profit.net/2026/11/05/genai-lab-52-blender-mixamo-h3-three-camera-angles-jogging-15s/",
+      "scope": "正文/图注；未审看媒体"
+    },
+    {
+      "url": "https://github.com/twehrbein/ExMR/blob/main/LICENSE",
+      "scope": "用途与商业联系条款"
+    },
+    {
+      "url": "https://github.com/zju3dv/GVHMR/blob/main/LICENSE",
+      "scope": "用途与商业联系条款"
+    },
+    {
+      "url": "https://smpl-x.is.tue.mpg.de/modellicense.html",
+      "scope": "单独人体数据/软件条件"
+    }
+  ],
+  "hash_scope": "本地UTF-8快照字节；来源为记录的固定提交。"
+}

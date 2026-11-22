@@ -1,0 +1,50 @@
+{
+  "case_id": "13",
+  "status": "template_not_run",
+  "input_manifest": null,
+  "cue_sheet": null,
+  "code_version": null,
+  "tool_versions": null,
+  "parameters": null,
+  "variants": [
+    {
+      "id": "A",
+      "text": null,
+      "palette": null,
+      "preview": null,
+      "export": null
+    },
+    {
+      "id": "B",
+      "text": null,
+      "palette": null,
+      "preview": null,
+      "export": null
+    }
+  ],
+  "checks": {
+    "identity": null,
+    "alpha_edges": null,
+    "word_overflow": null,
+    "face_subtitle_overlap": null,
+    "event_frames": null,
+    "audio_sync": null,
+    "duration": null,
+    "frame_rate": null,
+    "repeatability": null,
+    "export_playback": null
+  },
+  "timing_seconds": {
+    "manual_baseline": null,
+    "template_setup": null,
+    "parameter_edit": null,
+    "repair": null,
+    "review": null,
+    "export": null
+  },
+  "cost": null,
+  "failures": [],
+  "author_tool_reproduced": false,
+  "xiaoyou_reproduced": false,
+  "digested": false
+}

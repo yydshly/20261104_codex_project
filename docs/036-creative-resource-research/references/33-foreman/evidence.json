@@ -1,0 +1,167 @@
+{
+  "case_id": "33",
+  "checked_on": "2026-11-22",
+  "source_snapshot": "sources/33.json",
+  "post_media": {
+    "id": "2119091799201558528",
+    "source_variant_used": "https://video.twimg.com/amplify_video/2119091799201558528/vid/avc1/720x900/cVyG6R-zfAPnZxZ0.mp4?tag=29",
+    "variant_resolution": [
+      720,
+      900
+    ],
+    "source_highest_resolution": [
+      1080,
+      1350
+    ],
+    "browser_duration_seconds": 21.617007,
+    "standalone_post_image_count": 0,
+    "poster": "https://pbs.twimg.com/amplify_video_thumb/2119091799201558528/img/rm0jmCFNGMvJ3rFx.jpg"
+  },
+  "case_embed_playback": {
+    "duration_seconds": 21.616,
+    "times_seconds": [
+      0,
+      6.324981
+    ],
+    "decoded_size": [
+      720,
+      900
+    ],
+    "ready_state": 4
+  },
+  "illustrations": [
+    {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2119091799201558528/img/rm0jmCFNGMvJ3rFx.jpg",
+      "caption": "@HeLi8866 原帖视频封面",
+      "author": "HeLi8866",
+      "width": 960,
+      "height": 1200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Archive228/foreman/35b4e1d04453dd7536b05d1c7db00b697d31ee96/assets/board.png",
+      "caption": "Foreman 仓库看板原图（演示数据）",
+      "author": "Archive228",
+      "width": 1440,
+      "height": 540
+    }
+  ],
+  "frames": [
+    {
+      "file": "experiments/33-foreman/video-01.jpg",
+      "seconds": 0.975203,
+      "caption": "片头掠过总览卡，片中将 15 个项目组织成五类团队。"
+    },
+    {
+      "file": "experiments/33-foreman/video-04.jpg",
+      "seconds": 3.98208,
+      "caption": "Coding 有 Spec Writer、Bug Repro、PR Producer、PR Verifier 四张卡。"
+    },
+    {
+      "file": "experiments/33-foreman/video-07.jpg",
+      "seconds": 6.988957,
+      "caption": "切到 15 项仓库的排列，Agent Org Chart 排第 1、Foreman 排第 5、Grok Bot Profiles 排第 9。"
+    },
+    {
+      "file": "experiments/33-foreman/video-10.jpg",
+      "seconds": 9.995834,
+      "caption": "Foreman 卡弹出停滞提示，画面写 multiBot 的 pr.open 闲置 14 分钟。"
+    },
+    {
+      "file": "experiments/33-foreman/video-10b.jpg",
+      "seconds": 10.442802,
+      "caption": "同一弹框变绿，画面写改派与核验完成，未展示被核验的底层产物。"
+    },
+    {
+      "file": "experiments/33-foreman/video-11.jpg",
+      "seconds": 11.092937,
+      "caption": "其他工具卡出现等待人工确认的示例，体现各类决策边界。"
+    },
+    {
+      "file": "experiments/33-foreman/video-13.jpg",
+      "seconds": 13.00271,
+      "caption": "不同工具的活动并列放在片内日志，Foreman 条目显示停滞与后续核验摘要。"
+    },
+    {
+      "file": "experiments/33-foreman/video-16.jpg",
+      "seconds": 16.009587,
+      "caption": "仓库视图推进至 15/15，状态数与日志继续变化。"
+    },
+    {
+      "file": "experiments/33-foreman/video-20.jpg",
+      "seconds": 20.438636,
+      "caption": "片尾显示五组和 15 个仓库。12 分钟、任务数等属于视频中的展示数字。"
+    }
+  ],
+  "sources": [
+    {
+      "label": "HeLi 中文原帖与原片",
+      "url": "https://x.com/HeLi8866/status/2119091822530302352"
+    },
+    {
+      "label": "Foreman 固定版说明",
+      "url": "https://github.com/Archive228/foreman/blob/35b4e1d04453dd7536b05d1c7db00b697d31ee96/README.md"
+    },
+    {
+      "label": "Agent Org Chart 工程模板",
+      "url": "https://github.com/serenakeyitan/agent-org-chart/blob/afc8f7613d37cbfbb6322453b3d18b9c12878844/charts/engineering/chart.json"
+    },
+    {
+      "label": "Grok Bot Profiles · PR Verifier",
+      "url": "https://github.com/HAEGONG/grok-bot-profiles/blob/6f3d07e566008175486228a509bd8461e5efb85f/bots/development/pr-verifier/PROFILE.md"
+    },
+    {
+      "label": "Foreman 验证裁定逻辑",
+      "url": "https://github.com/Archive228/foreman/blob/35b4e1d04453dd7536b05d1c7db00b697d31ee96/src/verify/gate.ts"
+    },
+    {
+      "label": "Foreman 规格通过条件",
+      "url": "https://github.com/Archive228/foreman/blob/35b4e1d04453dd7536b05d1c7db00b697d31ee96/src/spec/gate.ts"
+    },
+    {
+      "label": "Foreman 读取 claim 与 verdict",
+      "url": "https://github.com/Archive228/foreman/blob/35b4e1d04453dd7536b05d1c7db00b697d31ee96/src/verify/run.ts"
+    },
+    {
+      "label": "Foreman 看板演示原图",
+      "url": "https://raw.githubusercontent.com/Archive228/foreman/35b4e1d04453dd7536b05d1c7db00b697d31ee96/assets/board.png"
+    },
+    {
+      "label": "Agent Org Chart 字段说明",
+      "url": "https://github.com/serenakeyitan/agent-org-chart/blob/afc8f7613d37cbfbb6322453b3d18b9c12878844/SCHEMA.md"
+    },
+    {
+      "label": "Grok Bot Profiles · PR Producer",
+      "url": "https://github.com/HAEGONG/grok-bot-profiles/blob/6f3d07e566008175486228a509bd8461e5efb85f/bots/development/pr-producer/PROFILE.md"
+    },
+    {
+      "label": "原帖采集快照",
+      "url": "sources/33.json"
+    },
+    {
+      "label": "第15条 三道确认",
+      "url": "#15"
+    },
+    {
+      "label": "第31条 团队看板",
+      "url": "#31"
+    }
+  ],
+  "repositories": {
+    "f": {
+      "repository": "Archive228/foreman",
+      "revision": "35b4e1d04453dd7536b05d1c7db00b697d31ee96"
+    },
+    "a": {
+      "repository": "serenakeyitan/agent-org-chart",
+      "revision": "afc8f7613d37cbfbb6322453b3d18b9c12878844"
+    },
+    "g": {
+      "repository": "HAEGONG/grok-bot-profiles",
+      "revision": "6f3d07e566008175486228a509bd8461e5efb85f"
+    }
+  },
+  "limits": [
+    "21.6 秒短片没有给出实际账号日志、全流程运行录像和效率对照。片尾数字不作为搭建耗时或吞吐量的实测值。",
+    "仓库原图由示例数据驱动。只读代码和文档核对未连接账号，也未复做视频画面里的改派。"
+  ]
+}

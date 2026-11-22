@@ -1,0 +1,11 @@
+stage,item,expected,observed,passed,time_or_frame,notes
+meaning,shot_task,each_shot_explains_a_clear_relation,,,,
+assets,layer_order,foreground_middle_background_correct,,,,
+assets,coverage,no_hole_or_old_background_edge_at_max_motion,,,,
+motion,bounds,no_unintended_stretch_or_new_surface_claim,,,,
+motion,occlusion,layer_overlap_remains_coherent,,,,
+transition,join,inspect_previous_end_next_start_and_between,,,,
+text,chinese,readable_and_not_covered_on_phone,,,,
+audio,alignment,actual_voice_and_subtitles_checked,,,,
+render,delivery,actual_size_fps_duration_audio_recorded,,,,
+cost,record,asset_revision_composite_export_minutes_recorded,,,,

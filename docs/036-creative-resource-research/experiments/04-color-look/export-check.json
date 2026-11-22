@@ -1,0 +1,47 @@
+{
+  "tool": "https://blitzluts.com/",
+  "date": "2026-11-21",
+  "inputs": "Website built-in demo pair only; no Xiaoyou media",
+  "trims": {
+    "exposure": 0,
+    "contrast": 0,
+    "saturation": 0,
+    "temperature": 0,
+    "tint": 0
+  },
+  "exports": [
+    {
+      "strength": 0,
+      "file": "experiments\\04-color-look\\case04-demo-intensity-0.cube",
+      "headers": {
+        "TITLE": "\"case04-demo-intensity-0\"",
+        "LUT_3D_SIZE": "33",
+        "DOMAIN_MIN": "0.0 0.0 0.0",
+        "DOMAIN_MAX": "1.0 1.0 1.0"
+      },
+      "grid_size": 33,
+      "rows": 35937,
+      "max_identity_error": 1.9999999999985307e-06,
+      "min_value": 0.0,
+      "max_value": 1.0,
+      "sha256": "8af274f5aa79dae218f83ffdd1058623458e9c151a6c1984cc070f6b1b2ce22b"
+    },
+    {
+      "strength": 80,
+      "file": "experiments\\04-color-look\\case04-demo-intensity-80.cube",
+      "headers": {
+        "TITLE": "\"case04-demo-intensity-80\"",
+        "LUT_3D_SIZE": "33",
+        "DOMAIN_MIN": "0.0 0.0 0.0",
+        "DOMAIN_MAX": "1.0 1.0 1.0"
+      },
+      "grid_size": 33,
+      "rows": 35937,
+      "max_identity_error": 0.875,
+      "min_value": 0.0,
+      "max_value": 1.0,
+      "sha256": "683858de95e30262666b9c55e79935cbabc4a4724757d7cb0e22a75cba3cd979"
+    }
+  ],
+  "maximum_difference_0_vs_80": 0.875
+}

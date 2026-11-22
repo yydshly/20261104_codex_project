@@ -1,0 +1,11 @@
+stage,item,expected,observed,passed,failed_timestamp,notes
+semantics,meaning,viewer_can_restate_original_idea,,,,
+still,composition,three_to_six_groups_and_subtitle_space,,,,
+start,edges,no_unintended_edge_leaks,,,,
+assembly,objects,no_unintended_morph_or_extra_objects,,,,
+hold,reference,recognizable_completion_and_sufficient_hold,,,,
+end,contract,hold_for_one_way_or_clear_for_loop,,,,
+loop,seam,no_visible_jump_if_loop_requested,,,,
+delivery,metadata,record_source_frames_delays_and_encoded_fps_separately,,,,
+edit,voiceover,visual_explains_sentence_and_subtitles_are_clear,,,,
+cost,record,attempts_quota_fees_and_labor_are_recorded,,,,

@@ -1,0 +1,66 @@
+{
+  "case_id": "10",
+  "repository": "JuneYaooo/rea-video",
+  "commit": "612b3ef523c868d4c7cd5741ce29ba159f7582cb",
+  "retrieved_date": "2026-11-21",
+  "method": "Connected GitHub read-only fetch; pinned source documents saved as text",
+  "scope": "Documents and published report only; no project code executed, no model download, no uploaded or generated media",
+  "files": [
+    {
+      "source_path": "README.md",
+      "file": "references/10-rea-video/README.md",
+      "url": "https://github.com/JuneYaooo/rea-video/blob/612b3ef523c868d4c7cd5741ce29ba159f7582cb/README.md",
+      "fetch_url": "https://raw.githubusercontent.com/JuneYaooo/rea-video/612b3ef523c868d4c7cd5741ce29ba159f7582cb/README.md",
+      "sha256": "6c65c83c4fd8de2fd5a9d584942cefb846202342628021368f1a3361be7427ae"
+    },
+    {
+      "source_path": "docs/cli.md",
+      "file": "references/10-rea-video/docs--cli.md",
+      "url": "https://github.com/JuneYaooo/rea-video/blob/612b3ef523c868d4c7cd5741ce29ba159f7582cb/docs/cli.md",
+      "fetch_url": "https://raw.githubusercontent.com/JuneYaooo/rea-video/612b3ef523c868d4c7cd5741ce29ba159f7582cb/docs/cli.md",
+      "sha256": "d10b6606a2d65767ce72ea7d12d9e39ec50fb88d7a16a2ce34107583a8db1626"
+    },
+    {
+      "source_path": "eval/RESULTS.md",
+      "file": "references/10-rea-video/eval--RESULTS.md",
+      "url": "https://github.com/JuneYaooo/rea-video/blob/612b3ef523c868d4c7cd5741ce29ba159f7582cb/eval/RESULTS.md",
+      "fetch_url": "https://raw.githubusercontent.com/JuneYaooo/rea-video/612b3ef523c868d4c7cd5741ce29ba159f7582cb/eval/RESULTS.md",
+      "sha256": "447720999e9c1e4cd01de936b8f4a08956abf946e6bc720e5d1a10988e754c77"
+    },
+    {
+      "source_path": "docs/videomd.md",
+      "file": "references/10-rea-video/docs--videomd.md",
+      "url": "https://github.com/JuneYaooo/rea-video/blob/612b3ef523c868d4c7cd5741ce29ba159f7582cb/docs/videomd.md",
+      "fetch_url": "https://raw.githubusercontent.com/JuneYaooo/rea-video/612b3ef523c868d4c7cd5741ce29ba159f7582cb/docs/videomd.md",
+      "sha256": "7b649c26b2fe7716fbb365d7be3b7d9fcd99782bd7f84aa72394ed4a7e8c5bbf"
+    },
+    {
+      "source_path": "docs/replicate.md",
+      "file": "references/10-rea-video/docs--replicate.md",
+      "url": "https://github.com/JuneYaooo/rea-video/blob/612b3ef523c868d4c7cd5741ce29ba159f7582cb/docs/replicate.md",
+      "fetch_url": "https://raw.githubusercontent.com/JuneYaooo/rea-video/612b3ef523c868d4c7cd5741ce29ba159f7582cb/docs/replicate.md",
+      "sha256": "c5e3e3d7342e95e8c56ceb1137aedbac49be1e8a0dd8d6f5271fac25ed828b15"
+    },
+    {
+      "source_path": "docs/cases/dual_role/report_en.md",
+      "file": "references/10-rea-video/docs--cases--dual_role--report_en.md",
+      "url": "https://github.com/JuneYaooo/rea-video/blob/612b3ef523c868d4c7cd5741ce29ba159f7582cb/docs/cases/dual_role/report_en.md",
+      "fetch_url": "https://raw.githubusercontent.com/JuneYaooo/rea-video/612b3ef523c868d4c7cd5741ce29ba159f7582cb/docs/cases/dual_role/report_en.md",
+      "sha256": "0a1274343d0f70fa4ed3ac9640407f596362bce83c805886931ec9c3b45df6b8"
+    },
+    {
+      "source_path": "pyproject.toml",
+      "file": "references/10-rea-video/pyproject.toml",
+      "url": "https://github.com/JuneYaooo/rea-video/blob/612b3ef523c868d4c7cd5741ce29ba159f7582cb/pyproject.toml",
+      "fetch_url": "https://raw.githubusercontent.com/JuneYaooo/rea-video/612b3ef523c868d4c7cd5741ce29ba159f7582cb/pyproject.toml",
+      "sha256": "12fc29c16cb0cd8574f501bb46c6a91354822024f1c4c7acf39bb104134c1295"
+    },
+    {
+      "source_path": "LICENSE",
+      "file": "references/10-rea-video/LICENSE",
+      "url": "https://github.com/JuneYaooo/rea-video/blob/612b3ef523c868d4c7cd5741ce29ba159f7582cb/LICENSE",
+      "fetch_url": "https://raw.githubusercontent.com/JuneYaooo/rea-video/612b3ef523c868d4c7cd5741ce29ba159f7582cb/LICENSE",
+      "sha256": "bd24cc30084f8a9474390317c50428f7209f422ac9828bebdd23dee4549768b4"
+    }
+  ]
+}

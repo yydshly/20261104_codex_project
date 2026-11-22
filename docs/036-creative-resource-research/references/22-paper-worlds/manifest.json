@@ -1,0 +1,46 @@
+{
+  "retrieved_date": "2026-11-22",
+  "repository": "https://github.com/harnoorDev/swarm-build",
+  "commit": "ab77869ca766da7396e1dbeb8c42b7f3d4c6e629",
+  "commit_date": "2026-11-09T04:10:43Z",
+  "relationship": "相关动画实现；未证实是Sean原作、同款工程或原帖使用依赖",
+  "documents": [
+    {
+      "path": "README.md",
+      "file": "references/22-paper-worlds/README.md.txt",
+      "url": "https://github.com/harnoorDev/swarm-build/blob/ab77869ca766da7396e1dbeb8c42b7f3d4c6e629/README.md",
+      "sha256": "0ab026d68b0b1e734b01eca9b7051caad26574473d81727ca7845b221ab81075"
+    },
+    {
+      "path": "LICENSE",
+      "file": "references/22-paper-worlds/LICENSE.txt",
+      "url": "https://github.com/harnoorDev/swarm-build/blob/ab77869ca766da7396e1dbeb8c42b7f3d4c6e629/LICENSE",
+      "sha256": "db044c112595553297865b9fd51d34775a34845e5d6417b026f01b93aaf1f8e6"
+    },
+    {
+      "path": "skills/swarm-build/assets/swarm-build.js",
+      "file": "references/22-paper-worlds/skills__swarm-build__assets__swarm-build.js.txt",
+      "url": "https://github.com/harnoorDev/swarm-build/blob/ab77869ca766da7396e1dbeb8c42b7f3d4c6e629/skills/swarm-build/assets/swarm-build.js",
+      "sha256": "5ac1585eedfc31abf3e322b54abd9cd2b7da0dd31f74182d465bd478b061227e"
+    },
+    {
+      "path": "skills/swarm-build/references/api.md",
+      "file": "references/22-paper-worlds/skills__swarm-build__references__api.md.txt",
+      "url": "https://github.com/harnoorDev/swarm-build/blob/ab77869ca766da7396e1dbeb8c42b7f3d4c6e629/skills/swarm-build/references/api.md",
+      "sha256": "0eab6de0fd42e3e24d3b2a2941be033c5ec0fd995dd9cc0bd01efd9e62cf7030"
+    },
+    {
+      "path": "skills/swarm-build/references/integration.md",
+      "file": "references/22-paper-worlds/skills__swarm-build__references__integration.md.txt",
+      "url": "https://github.com/harnoorDev/swarm-build/blob/ab77869ca766da7396e1dbeb8c42b7f3d4c6e629/skills/swarm-build/references/integration.md",
+      "sha256": "0d380a8416186309f8f0463387080b8252e280b7b2c6e38bf43c11fef9e51d00"
+    },
+    {
+      "path": "tests/smoke.test.mjs",
+      "file": "references/22-paper-worlds/tests__smoke.test.mjs.txt",
+      "url": "https://github.com/harnoorDev/swarm-build/blob/ab77869ca766da7396e1dbeb8c42b7f3d4c6e629/tests/smoke.test.mjs",
+      "sha256": "f4bdee4bc146cb4843ffcdb35d7ce7a2a253477cb8ac3142b6f0df2f200e9743"
+    }
+  ],
+  "execution": "只读；未安装、运行该仓库或访问其演示脚本"
+}

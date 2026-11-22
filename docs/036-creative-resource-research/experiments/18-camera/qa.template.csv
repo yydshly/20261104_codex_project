@@ -1,0 +1,12 @@
+stage,item,expected,observed,passed,time_or_frame,notes
+setup,controlled_inputs,same_character_scene_outfit_action_and_audio,,,,
+camera,start_end,record_requested_and_actual_framing_separately,,,,
+camera,motion,one_camera_variable_and_clear_hold,,,,
+character,face,compare_same_angle_and_separate_expression_perspective,,,,
+character,hands,check_fingers_joints_and_occlusion,,,,
+character,outfit,connections_and_details_remain_coherent,,,,
+background,geometry,no_unintended_warp_or_popping,,,,
+post,crop,check_edges_pixels_subtitles_and_clarity,,,,
+audio,sync,only_pass_after_real_audio_and_lip_sync_review,,,,
+delivery,metadata,actual_size_fps_duration_audio_recorded,,,,
+cost,record,attempts_revision_export_and_fee_recorded,,,,

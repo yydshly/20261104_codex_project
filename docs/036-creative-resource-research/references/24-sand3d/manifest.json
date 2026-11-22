@@ -1,0 +1,54 @@
+{
+  "commit": "f840420fe9996dca4728d7a5eb8bfb87135d91ce",
+  "review_date": "2026-11-22",
+  "version": "1.6.3",
+  "documents": [
+    {
+      "source": "https://github.com/Sandflow-ai/sand3d/blob/f840420fe9996dca4728d7a5eb8bfb87135d91ce/src/sand3d/urdf.py",
+      "file": "references/24-sand3d/src__sand3d__urdf.py.txt",
+      "sha256": "408c79942a63b5e1073da2aa729c0debd86bf3a7e530a6d730b3002f544deabf"
+    },
+    {
+      "source": "https://github.com/Sandflow-ai/sand3d/blob/f840420fe9996dca4728d7a5eb8bfb87135d91ce/tests/test_determinism.py",
+      "file": "references/24-sand3d/tests__test_determinism.py.txt",
+      "sha256": "94f4a564390aac38cdeec13679c6f7b9c63ce44865ec2fb8c2cc879032268cfe"
+    },
+    {
+      "source": "https://github.com/Sandflow-ai/sand3d/blob/f840420fe9996dca4728d7a5eb8bfb87135d91ce/tests/test_export_joints.py",
+      "file": "references/24-sand3d/tests__test_export_joints.py.txt",
+      "sha256": "8f57a4bdc32cdc8a8c73149d1a8d7da239cba87b79a979749a7eed4361131f63"
+    },
+    {
+      "source": "https://github.com/Sandflow-ai/sand3d/blob/f840420fe9996dca4728d7a5eb8bfb87135d91ce/tests/golden/bpy-5.2.json",
+      "file": "references/24-sand3d/tests__golden__bpy-5.2.json.txt",
+      "sha256": "c7a2002b1dd476fe38c25511badef27418f05d10c5e197ff1bf6d4783207db81"
+    },
+    {
+      "source": "https://github.com/Sandflow-ai/sand3d/blob/f840420fe9996dca4728d7a5eb8bfb87135d91ce/docs/examples/gate.py",
+      "file": "references/24-sand3d/docs__examples__gate.py.txt",
+      "sha256": "866bdb11afebd11f1a68afcd90ca3fc011f48a68b6b49b4dad0c836537c420e1"
+    },
+    {
+      "source": "https://github.com/Sandflow-ai/sand3d/blob/f840420fe9996dca4728d7a5eb8bfb87135d91ce/src/sand3d/frames.py",
+      "file": "references/24-sand3d/src__sand3d__frames.py.txt",
+      "sha256": "0a528f42bd52fd62a79ceef9fcda2afbf67844148027fe37b44baf65b84245e0"
+    },
+    {
+      "source": "https://github.com/Sandflow-ai/sand3d/blob/f840420fe9996dca4728d7a5eb8bfb87135d91ce/tests/run_cases.py",
+      "file": "references/24-sand3d/tests__run_cases.py.txt",
+      "sha256": "2af2cf3da44468d21336d19ed2f303a5285af7294cecfea8dbad41fe64e162c0"
+    },
+    {
+      "source": "https://github.com/Sandflow-ai/sand3d/blob/f840420fe9996dca4728d7a5eb8bfb87135d91ce/tests/harness.py",
+      "file": "references/24-sand3d/tests__harness.py.txt",
+      "sha256": "a9aef8c26fcf3bc5f4de07c9aa950cfb0d3baa8c820e8ce8cea45da1cbdea6bd"
+    },
+    {
+      "source": "https://github.com/Sandflow-ai/sand3d/blob/f840420fe9996dca4728d7a5eb8bfb87135d91ce/tests/test_golden.py",
+      "file": "references/24-sand3d/tests__test_golden.py.txt",
+      "sha256": "2bbf1a8ab809f52d1529fcf99270458d96392b0a14010d2c9ac987ceaadc6643"
+    }
+  ],
+  "shared_reference": "references/23-sand3d/manifest.json",
+  "scope": "Read-only source and test inspection"
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "10",
+  "status": "template_not_run",
+  "source_file": null,
+  "source_sha256": null,
+  "production_truth_file": "known-origin-truth.template.csv",
+  "project_commit": null,
+  "python_version": null,
+  "ffmpeg_version": null,
+  "enabled_features": [],
+  "vlm_used": false,
+  "reviewer": null,
+  "cache_state": null,
+  "downloads": [],
+  "outputs": [],
+  "metrics": {
+    "truth_shots": null,
+    "detected_shots": null,
+    "false_cuts": null,
+    "missed_cuts": null,
+    "per_shot_classification_correct": null,
+    "duration_weighted_accuracy": null,
+    "manual_seconds": null,
+    "tool_seconds": null,
+    "review_seconds": null,
+    "download_seconds": null,
+    "retry_seconds": null,
+    "paid_cost": null
+  },
+  "proposed_cut_tolerance_seconds": 0.1,
+  "xiaoyou_checks": {
+    "identity": null,
+    "action": null,
+    "color": null,
+    "lipsync": null,
+    "subtitle_timing": null
+  },
+  "uncertainties": [],
+  "reproduced": false,
+  "digested": false
+}

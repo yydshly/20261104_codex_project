@@ -1,0 +1,72 @@
+{
+  "kind": "research-proposal-not-cli-request",
+  "executed": false,
+  "character": "xiaoyou",
+  "base_image": null,
+  "route": null,
+  "purpose": "短回应与网页待机；候选参数需转换为实际版本schema并回放确认",
+  "identity_constraints": [
+    "脸部结构",
+    "发型与发饰",
+    "服装与主色",
+    "比例与朝向"
+  ],
+  "shared": {
+    "canvas": null,
+    "anchor": null,
+    "target_platform": null,
+    "display_size": null,
+    "transparent_required": true
+  },
+  "states": {
+    "blink_idle": {
+      "frame_count_candidate": 4,
+      "fps_candidate": 4,
+      "loop": true,
+      "poses": [
+        "睁眼",
+        "逐步闭眼",
+        "闭眼",
+        "恢复睁眼"
+      ],
+      "checks": [
+        "眼部结构",
+        "锚点稳定",
+        "末首接缝"
+      ],
+      "app_behavior": "循环待机"
+    },
+    "nod_ack": {
+      "frame_count_candidate": 4,
+      "fps_candidate": 6,
+      "loop": false,
+      "poses": [
+        "中立",
+        "轻微低头",
+        "回正",
+        "稳定停留"
+      ],
+      "checks": [
+        "语义清晰",
+        "头部结构",
+        "回正与末态"
+      ],
+      "app_behavior": "触发一次，结束后返回待机"
+    }
+  },
+  "deliverables": [
+    "原始生成记录",
+    "RGBA帧或透明PNG图集",
+    "矩形/时序/loop清单",
+    "每状态动态预览",
+    "QA记录",
+    "目标平台实际文件"
+  ],
+  "not_guaranteed": [
+    "候选4帧不保证自然连贯",
+    "自定义状态不保证直接被CLI接受",
+    "MP4预览不证明原始透明度",
+    "不替代音频口型或连续写实表演"
+  ]
+}
+

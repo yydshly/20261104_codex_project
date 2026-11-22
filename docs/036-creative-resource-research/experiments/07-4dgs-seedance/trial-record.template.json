@@ -1,0 +1,60 @@
+{
+  "case_id": "07",
+  "status": "not_run",
+  "prepared_date": "2026-11-21",
+  "stage": null,
+  "performer_and_asset_rights": null,
+  "take_id": null,
+  "xiaoyou_reference_files": [],
+  "source_capture": {
+    "camera_count": null,
+    "files": [],
+    "frame_rate": null,
+    "sync_method": null,
+    "calibration_files": []
+  },
+  "reconstruction": {
+    "implementation": null,
+    "version": null,
+    "settings": null,
+    "project_file": null,
+    "rendered_reference": null,
+    "camera_path": null
+  },
+  "generation": {
+    "platform": null,
+    "model_version": null,
+    "mode": null,
+    "prompt": null,
+    "reference_inputs": [],
+    "exposed_settings": {},
+    "attempts": []
+  },
+  "events": [],
+  "metrics": {
+    "expression_timing_error_ms": null,
+    "gesture_timing_error_ms": null,
+    "identity_acceptance": null,
+    "capture_time_minutes": null,
+    "organization_time_minutes": null,
+    "reconstruction_time_minutes": null,
+    "render_time_minutes": null,
+    "generation_time_minutes": null,
+    "review_time_minutes": null,
+    "fees": null,
+    "usable_output_seconds": null
+  },
+  "comparison": {
+    "same_take": null,
+    "matched_view": null,
+    "same_model_and_character_refs": null,
+    "remaining_differences": [],
+    "single_camera_result": null,
+    "multi_camera_result": null
+  },
+  "failures": [],
+  "conclusion": null,
+  "reproduced": false,
+  "digested": false
+}
+

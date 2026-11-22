@@ -1,0 +1,51 @@
+{
+  "case_id": "11",
+  "name": "小人物—路径—远方地标",
+  "kind": "authored_effect_recipe_not_original_prompt",
+  "source_url": "https://x.com/hi_personality/status/2119939732381782446",
+  "recorded_date": "2026-11-21",
+  "intent": {
+    "proposed_for": "小柚片头、环境转场或探索短镜头",
+    "proposed_feeling": "好奇、探索、接近目的地",
+    "status": "本项目建议，非作者自述或观众效果测量"
+  },
+  "fixed_relationships": [
+    "小尺度主体为巨大环境提供尺度",
+    "路径在视觉上连接主体与远方地标",
+    "前中远景分层，地标与主体有明确主次",
+    "色彩区分可行进区域、深度空间、引导线和明亮目标",
+    "运动围绕接近目标展开"
+  ],
+  "variables": [
+    "地标类型",
+    "人物/交通方式",
+    "材质和颜色",
+    "横竖画幅",
+    "是否露脸",
+    "动作及相机倾斜强度"
+  ],
+  "identity_reference": "与环境/风格参考分开；本轮未提供小柚输入",
+  "candidate_prompt": "候选视觉配方（本项目整理，未提交模型；未提供任何小柚参考图）：\n为小柚的探索内容设计约5至6秒、16:9的环境短镜头。感受目标是好奇与接近目的地：一个小尺度人物位于前景可通行路径，远方有一座清晰可辨的地标。道路连接人物与地标，地形分层，深色空间衬托明亮目的地。先在静帧中确认这些关系。\n动态阶段仅做温和向前跟随，人物沿路行进，地标逐渐在画面中增大；路径、建筑、人物和道具保持连贯，光色无突跳。原片的绿地、蓝紫空间与暖色引导线只作颜色角色参考，可按小柚系列调整。需要露脸时另提供身份母版并单独验收。首轮声音方案另定，不把本轮未听审的声音写成原片特点。\n先交付可核对的普通屏版本，HDR需求另列文件参数和设备检查。实际工具可用时长、参考能力和输出以返回信息为准。",
+  "acceptance": [
+    "缩略图可读路径与目标",
+    "连续回放接触、转向和地形/建筑稳定",
+    "身份与外观单独验收，背影不代替脸部",
+    "普通屏可读，HDR另查文件及播放链路",
+    "准确输入、版本、原片、后期和成本分开留档"
+  ],
+  "evidence_status": {
+    "reference_samples_reviewed": true,
+    "static_rules_recorded": true,
+    "generated_static": false,
+    "motion_reproduced": false,
+    "xiaoyou_transfer_tested": false,
+    "cross_subject_transfer_tested": false,
+    "hdr_verified": false,
+    "user_accepted_result": false
+  },
+  "author_pipeline": {
+    "midjourney": "unverified",
+    "h3": "unverified",
+    "davinci_hdr": "unverified"
+  }
+}

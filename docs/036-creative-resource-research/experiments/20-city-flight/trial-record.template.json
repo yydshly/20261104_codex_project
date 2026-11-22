@@ -1,0 +1,51 @@
+{
+  "status": "not_started",
+  "date": null,
+  "scene_plan": null,
+  "tool_versions": {
+    "blender": null,
+    "render_engine": null,
+    "generation_interface": null,
+    "model": null
+  },
+  "budget_cap": null,
+  "same_scene_intent": true,
+  "actual_controls_comparable": null,
+  "input_differences": [],
+  "routes": {
+    "A": {
+      "output": null,
+      "prep_minutes": null,
+      "render_minutes": null,
+      "human_minutes": null,
+      "rework_minutes": null,
+      "cost": null,
+      "currency": null,
+      "qa_verdict": "not_tested"
+    },
+    "B": {
+      "source_render": null,
+      "image_rewrite_used": null,
+      "rewritten_still": null,
+      "video": null,
+      "attempts": null,
+      "generation_minutes": null,
+      "human_minutes": null,
+      "rework_minutes": null,
+      "cost": null,
+      "currency": null,
+      "qa_verdict": "not_tested"
+    }
+  },
+  "failures": [],
+  "source_geometry_verified": false,
+  "rewritten_still_verified": false,
+  "video_landmark_verified": false,
+  "trajectory_measured": false,
+  "source_factual_accuracy_verified": false,
+  "xiaoyou_composited": false,
+  "benefit": null,
+  "reproduced": false,
+  "digested": false
+}
+

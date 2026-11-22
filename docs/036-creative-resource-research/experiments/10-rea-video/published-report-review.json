@@ -1,0 +1,33 @@
+{
+  "case_id": "10",
+  "review_date": "2026-11-21",
+  "scope": "阅读仓库公开报告；不是本轮rea-video执行或原帖12秒视频的结果",
+  "source_url": "https://github.com/JuneYaooo/rea-video/blob/612b3ef523c868d4c7cd5741ce29ba159f7582cb/docs/cases/dual_role/report_en.md",
+  "commit": "612b3ef523c868d4c7cd5741ce29ba159f7582cb",
+  "reported": {
+    "duration_seconds": 19,
+    "aspect_ratio": "9:16",
+    "shots": 10,
+    "mean_shot_seconds": 1.9,
+    "code_template_duration_percent": 59,
+    "ai_duration_percent": 41,
+    "confidence_percent": 80,
+    "reviewed_shots": 10,
+    "uncertain_items": 1
+  },
+  "issues": [
+    {
+      "field": "voice_origin",
+      "location_a": "At a glance: Sound",
+      "claim_a": "AI视频模型原生对话",
+      "location_b": "AI generation: Audio",
+      "claim_b": "真人单独录音",
+      "status": "unresolved",
+      "needed_evidence": "原音/声轨和录音或生成任务记录"
+    }
+  ],
+  "ran_rea_video": false,
+  "verified_underlying_media": false,
+  "tool_demo_verified": false,
+  "reproduced": false
+}

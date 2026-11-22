@@ -1,0 +1,138 @@
+{
+  "date": "2026-11-22",
+  "source": "https://x.com/bei351009016/status/2118972666329596286",
+  "quoted_post": "https://x.com/bei351009016/status/2118534059018391762",
+  "author_post": "https://x.com/yadong_xie/status/2118328270441914654",
+  "source_post_media_id": "2118327976236597248",
+  "article": {
+    "linked_url": "https://www.yadongxie.com/blog/how-pixel-singapore-was-made",
+    "resolved_url": "https://www.yadongxie.com/blog/how-isometric-pixel-city-was-made",
+    "scope": "扩写版含 Singapore 和 San Francisco，过程与复测数字为作者自述",
+    "images": [
+      {
+        "file": "experiments/26-pixel-singapore/author-windows.jpg",
+        "caption": "作者复盘 · 1024 px 滑窗与交替错位",
+        "image_url": "https://www.yadongxie.com/assets/windows-B24SrIqZ.webp"
+      },
+      {
+        "file": "experiments/26-pixel-singapore/author-ghost-before.jpg",
+        "caption": "作者复盘 · iOS 模拟器拖动时的模糊残影",
+        "image_url": "https://www.yadongxie.com/assets/ghost-before-DmnK7G9B.webp"
+      },
+      {
+        "file": "experiments/26-pixel-singapore/author-ghost-frames.jpg",
+        "caption": "作者复盘 · 关闭遮罩后，六帧显示模糊带停在原处",
+        "image_url": "https://www.yadongxie.com/assets/ghost-frozen-bands-C27PRoyM.webp"
+      },
+      {
+        "file": "experiments/26-pixel-singapore/author-ghost-after.jpg",
+        "caption": "作者复盘 · 修复示例，模糊层跟上地图",
+        "image_url": "https://www.yadongxie.com/assets/ghost-after-BZ3YnjBI.webp"
+      },
+      {
+        "file": "experiments/26-pixel-singapore/author-coast-repair.jpg",
+        "caption": "作者复盘 · 同一海岸修补前后，左前右后",
+        "image_url": "https://www.yadongxie.com/assets/sea-repair-CmpQfV7c.webp"
+      }
+    ]
+  },
+  "video": {
+    "variant_url": "https://video.twimg.com/amplify_video/2118327976236597248/vid/avc1/1412x1080/XwY21Tj4Y28KJZ1Q.mp4?tag=29",
+    "duration_seconds": 32.181667,
+    "samples": [
+      {
+        "file": "experiments/26-pixel-singapore/shot-00.jpg",
+        "seconds": 0,
+        "caption": "早期录屏 · 街区全貌，画面中段清晰、上下有虚化"
+      },
+      {
+        "file": "experiments/26-pixel-singapore/shot-05.jpg",
+        "seconds": 5.008959,
+        "caption": "推近路口和场馆，可读屋顶结构与道路轮廓"
+      },
+      {
+        "file": "experiments/26-pixel-singapore/shot-10.jpg",
+        "seconds": 9.994009,
+        "caption": "滨海湾金沙、艺术科学博物馆和跨水道路"
+      },
+      {
+        "file": "experiments/26-pixel-singapore/shot-15.jpg",
+        "seconds": 15.014923,
+        "caption": "高楼近景、道路车流和上下虚化"
+      },
+      {
+        "file": "experiments/26-pixel-singapore/shot-20.jpg",
+        "seconds": 19.999973,
+        "caption": "从高楼近景退回滨海湾区域"
+      },
+      {
+        "file": "experiments/26-pixel-singapore/shot-25.jpg",
+        "seconds": 25.020887,
+        "caption": "平移至街区，建筑朝向在缩放中保持"
+      },
+      {
+        "file": "experiments/26-pixel-singapore/shot-30.jpg",
+        "seconds": 30.005937,
+        "caption": "城市和林地同框，顶部可见图面边界"
+      },
+      {
+        "file": "experiments/26-pixel-singapore/shot-31.7.jpg",
+        "seconds": 31.727393,
+        "caption": "结束帧 · 林地与城市街区的早期视图"
+      }
+    ]
+  },
+  "live_check": {
+    "url": "https://www.yadongxie.com/lab/singapore#17800,11900,1",
+    "action": "点击 Chinatown",
+    "location_before": "#17800,11900,1.0000",
+    "location_after": "#10139,11498,0.5500",
+    "selected": "Chinatown",
+    "screenshots": [
+      "experiments/26-pixel-singapore/live-map.jpg",
+      "experiments/26-pixel-singapore/live-chinatown.jpg"
+    ]
+  },
+  "references": [
+    {
+      "label": "转述原帖",
+      "url": "https://x.com/bei351009016/status/2118972666329596286"
+    },
+    {
+      "label": "引用帖",
+      "url": "https://x.com/bei351009016/status/2118534059018391762"
+    },
+    {
+      "label": "Yadong Xie 原视频帖",
+      "url": "https://x.com/yadong_xie/status/2118328270441914654"
+    },
+    {
+      "label": "原帖附的复盘链接",
+      "url": "https://www.yadongxie.com/blog/how-pixel-singapore-was-made"
+    },
+    {
+      "label": "作者技术复盘",
+      "url": "https://www.yadongxie.com/blog/how-isometric-pixel-city-was-made"
+    },
+    {
+      "label": "作者地图演示",
+      "url": "https://www.yadongxie.com/lab/singapore#17800,11900,1"
+    },
+    {
+      "label": "MultiDiffusion 论文",
+      "url": "https://arxiv.org/abs/2302.08113"
+    },
+    {
+      "label": "RePaint 论文",
+      "url": "https://arxiv.org/abs/2201.09865"
+    },
+    {
+      "label": "第26条帖文快照",
+      "url": "sources/26.json"
+    },
+    {
+      "label": "第05条锐化研究",
+      "url": "#05"
+    }
+  ]
+}

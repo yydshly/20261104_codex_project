@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-22",
+  "method": "浏览器直接显示固定提交中的4张原始GIF，核对自然尺寸并保存两次显示截图；GIF无可寻址时间条，截图不赋精确秒数，未下载或转码原媒体。",
+  "images": [
+    {
+      "alt": "深紫：多人协作与胶片",
+      "complete": true,
+      "height": 427,
+      "source": "https://raw.githubusercontent.com/pyang5166/gbro-collage-broll/a1a4ee2e2abf7d44e460026b706d0c72c2cf8a91/assets/demo-purple.gif",
+      "width": 240
+    },
+    {
+      "alt": "芥末黄：印刷机与错误放大",
+      "complete": true,
+      "height": 427,
+      "source": "https://raw.githubusercontent.com/pyang5166/gbro-collage-broll/a1a4ee2e2abf7d44e460026b706d0c72c2cf8a91/assets/demo-yellow.gif",
+      "width": 240
+    },
+    {
+      "alt": "红：手与棋盘走位",
+      "complete": true,
+      "height": 427,
+      "source": "https://raw.githubusercontent.com/pyang5166/gbro-collage-broll/a1a4ee2e2abf7d44e460026b706d0c72c2cf8a91/assets/demo-red.gif",
+      "width": 240
+    },
+    {
+      "alt": "青绿：剪刀与镜头轨道",
+      "complete": true,
+      "height": 427,
+      "source": "https://raw.githubusercontent.com/pyang5166/gbro-collage-broll/a1a4ee2e2abf7d44e460026b706d0c72c2cf8a91/assets/demo-teal.gif",
+      "width": 240
+    }
+  ],
+  "screenshots": [
+    "experiments/15-gates/demos-state-a.jpg",
+    "experiments/15-gates/demos-state-b.jpg"
+  ],
+  "original_post_attachments": 0,
+  "repository_supplements": 4,
+  "full_frame_review": false,
+  "source_tasks_obtained": false,
+  "cost_verified": false,
+  "approval_protocol_executed": false
+}

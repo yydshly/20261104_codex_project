@@ -1,0 +1,42 @@
+{
+  "status": "template_not_run",
+  "notice": "所有批准字段为空；不是用户真实批准，也不会创建生成任务。",
+  "item_id": "example-01",
+  "sentence": "把经验留成方法，下一次就不用从头来过。",
+  "sentence_origin": "研究候选句，待换成真实口播",
+  "concept": {
+    "version": "v1",
+    "file": null,
+    "decision": null,
+    "decided_by": null,
+    "decided_at": null,
+    "notes": null
+  },
+  "still": {
+    "version": null,
+    "file": null,
+    "sha256": null,
+    "contact_sheet": null,
+    "decision": null,
+    "decided_by": null,
+    "decided_at": null,
+    "notes": null
+  },
+  "video": {
+    "source_still_sha256": null,
+    "task_id": null,
+    "model": null,
+    "aspect_ratio": null,
+    "duration_request": null,
+    "attempts": null,
+    "raw_file": null,
+    "delivery_file": null,
+    "actual_dimensions": null,
+    "actual_fps": null,
+    "actual_seconds": null,
+    "audio_tracks": null,
+    "qa_decision": null
+  },
+  "next_action": "prepare_concept_only",
+  "version_rule": "原句/隐喻改动需重核下游；换图需重核该图，不影响无关条目。"
+}

@@ -1,0 +1,29 @@
+{
+  "status": "研究建议样例，非真实任务日志",
+  "display_mode": "production_status_requires_real_events",
+  "example": {
+    "run_id": "EXAMPLE-NOT-A-REAL-RUN",
+    "task_id": "scene-01",
+    "depends_on": [
+      "character-reference-approved"
+    ],
+    "state": "awaiting_review",
+    "progress": null,
+    "artifact_url": "LOCAL-ARTIFACT-PLACEHOLDER",
+    "checks": [
+      {
+        "name": "角色/构图检查",
+        "result": "pending"
+      }
+    ],
+    "started_at": null,
+    "finished_at": null
+  },
+  "rules": [
+    "仅后端真实任务事件改变生产状态",
+    "未知进度用null，不从动画时长推算",
+    "产物返回先记awaiting_review，验收通过才记passed",
+    "失败保留原因与重试记录",
+    "动画重播不得改变生产状态或再次启动任务"
+  ]
+}

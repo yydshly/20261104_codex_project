@@ -1,0 +1,79 @@
+{
+  "status": "proposed_not_rendered",
+  "script_origin": "本项目候选题目，待换为已确认真实口播",
+  "title": "为什么只换参考图，画面还是不稳定？",
+  "duration_seconds": 15,
+  "fps": 24,
+  "total_frames": 360,
+  "parameter_note": "试验拟定值，不是引用原片参数；以实际音频调整。",
+  "aspect_ratios": [
+    {
+      "size": [
+        1080,
+        1920
+      ],
+      "layout": "卡片纵向展开，底部另留字幕"
+    },
+    {
+      "size": [
+        1920,
+        1080
+      ],
+      "layout": "卡片横向展开，字幕与主体分区"
+    }
+  ],
+  "scenes": [
+    {
+      "from": 0,
+      "to": 3,
+      "frames": [
+        0,
+        72
+      ],
+      "task": "提出问题",
+      "visual": "问题短标题与中性图形；不新生小柚脸"
+    },
+    {
+      "from": 3,
+      "to": 9,
+      "frames": [
+        72,
+        216
+      ],
+      "task": "拆出三层",
+      "visual": "人物参考、动作、后期三卡依次进入，每次一个重点"
+    },
+    {
+      "from": 9,
+      "to": 12,
+      "frames": [
+        216,
+        288
+      ],
+      "task": "只改一项",
+      "visual": "只高亮一张卡，其他卡保持稳定"
+    },
+    {
+      "from": 12,
+      "to": 15,
+      "frames": [
+        288,
+        360
+      ],
+      "task": "给出比较方法",
+      "visual": "中性A/B占位与“一次只改一项”；没有真实结果不填效果"
+    }
+  ],
+  "audio": {
+    "source_file": null,
+    "actual_duration": null,
+    "word_times": null,
+    "generate_new_voice": false
+  },
+  "assets": {
+    "xiaoyou_source": null,
+    "reference_generated": false,
+    "original_third_party_assets_reused": false
+  },
+  "outputs": []
+}

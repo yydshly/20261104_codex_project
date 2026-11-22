@@ -1,0 +1,4 @@
+item_id,stage,version,attempt,tool_model,billable_fee,quota_units,human_review_minutes,revision_minutes,waiting_minutes,result,failure_source,notes
+example-01,metaphor,v1,,,,,,,,,,not_run
+example-01,still,v1,,,,,,,,,,not_run
+example-01,video,v1,,,,,,,,,,not_run

@@ -1,0 +1,55 @@
+{
+  "case_id": "13",
+  "review_date": "2026-11-22",
+  "scope": "本项目独立的10秒文字/几何时间线演示，不是作者工具或MV复现",
+  "config": {
+    "fps": 30,
+    "duration_frames": 300,
+    "illustrative_bpm": 120,
+    "audio": false
+  },
+  "ui_checked": {
+    "frame90_copies": 3,
+    "frame210_copies": 1,
+    "frame120_title_edit": true,
+    "palette_edit": true,
+    "return_to_120_same_state": true,
+    "playback_advanced_from_120_to_at_least": 127
+  },
+  "state_at_120": {
+    "card0": "translate(90 155) rotate(-3.0000 130 115)",
+    "card0Fill": "#315bbd",
+    "chapter": "展开",
+    "copies": "3",
+    "frame": "120",
+    "palette": "pop",
+    "ring": "translate(1000 260) scale(1.0000)",
+    "title": "小柚 · 内容上新"
+  },
+  "state_at_210": {
+    "card0": "translate(178 160) rotate(-3.0000 130 115)",
+    "card0Fill": "#315bbd",
+    "chapter": "收束",
+    "copies": "1",
+    "frame": "210",
+    "palette": "pop",
+    "ring": "translate(1000 260) scale(1.0000)",
+    "title": "小柚 · 内容上新"
+  },
+  "playback_final": {
+    "card0": "translate(138 160) rotate(-0.2000 130 115)",
+    "card0Fill": "#315bbd",
+    "chapter": "收束",
+    "copies": "1",
+    "frame": "299",
+    "palette": "pop",
+    "ring": "translate(1000 260) scale(0.9067)",
+    "title": "小柚 · 内容上新"
+  },
+  "screenshot": "experiments/13-code-motion/demo-frame120.jpg",
+  "real_audio_synced": false,
+  "exported_mp4": false,
+  "author_tool_run": false,
+  "xiaoyou_asset_used": false,
+  "xiaoyou_reproduced": false
+}

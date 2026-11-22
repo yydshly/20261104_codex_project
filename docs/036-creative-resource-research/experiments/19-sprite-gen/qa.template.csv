@@ -1,0 +1,15 @@
+state,item,status,evidence,notes
+all,基准身份与饰物,not_tested,,
+all,每帧手部与解剖结构,not_tested,,
+all,画幅裁切与锚点稳定,not_tested,,
+all,黑底透明边缘,not_tested,,
+all,白底透明边缘,not_tested,,
+all,彩底溢色与浅衣完整,not_tested,,
+all,帧矩形与时序清单,not_tested,,
+blink_idle,动作可读与多轮回放,not_tested,,
+blink_idle,末首接缝,not_tested,,
+nod_ack,起中末姿势清晰,not_tested,,
+nod_ack,只触发一次并回待机,not_tested,,
+all,目标尺寸和平台实际文件,not_tested,,
+all,生成筛选修边导出总工时,not_tested,,
+

@@ -1,0 +1,47 @@
+{
+  "case_id": "11",
+  "retrieved_date": "2026-11-21",
+  "original_post": "https://x.com/hi_personality/status/2119939732381782446",
+  "original_post_fetch": "403; retained 2026-11-12 mirror capture",
+  "original_capture": "sources/11.json",
+  "original_capture_file_sha256": "06e10ad7bc69ae1f3b05ddc3ead47752a187a5ea97519d768916dd87b555b06c",
+  "author_pipeline_verified": false,
+  "hdr_verified": false,
+  "official_concept_sources": [
+    {
+      "label": "Midjourney Image Prompts",
+      "url": "https://docs.midjourney.com/hc/en-us/articles/32040250122381-Image-Prompts"
+    },
+    {
+      "label": "Midjourney Style Reference",
+      "url": "https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference"
+    },
+    {
+      "label": "Blackmagic Design Color",
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve/color"
+    },
+    {
+      "label": "YouTube HDR upload requirements",
+      "url": "https://support.google.com/youtube/answer/7126552?hl=en"
+    }
+  ],
+  "raw_webpages_archived": false,
+  "local_authored_records": [
+    {
+      "file": "references/11-galaxy-palace/source-notes.md",
+      "sha256": "9b51ce5dfbe8c2c7c5eae3ce69e16a27c6df047bbfa13318af36370a3b247d0e",
+      "scope": "Hash covers local authored note/record, not source web page"
+    },
+    {
+      "file": "experiments/11-galaxy-palace/original-video-review.json",
+      "sha256": "346e880a5e0f021e1dff8ae7bd3833abbb67a0bb6f4eec042c537e055d32a1a7",
+      "scope": "Hash covers local authored note/record, not source web page"
+    },
+    {
+      "file": "experiments/11-galaxy-palace/effect-recipe.json",
+      "sha256": "be2426b067fdbcc0f8a915ef53824d3b1d3e41acb5dfcda304ea8dfcded0774d",
+      "scope": "Hash covers local authored note/record, not source web page"
+    }
+  ],
+  "scope": "Original video five paused samples and official concepts; no model run, upload, media download, HDR measurement or independent reproduction"
+}

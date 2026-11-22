@@ -1,0 +1,80 @@
+{
+  "case_id": "12",
+  "review_date": "2026-11-22",
+  "original_post": "https://x.com/pamelaaaaa1218/status/2119369039680266288",
+  "original_post_fetch": "403; retained 2026-11-12 mirror capture",
+  "original_capture": "sources/12.json",
+  "original_capture_file_sha256": "95c2847d3a1042a1beeff38ec82c4b6b29b3d61651efa0fcbfac37a2ea318ac8",
+  "sources": [
+    {
+      "label": "W3C PNG Recommendation",
+      "url": "https://www.w3.org/TR/2025/REC-png-3-20250624/"
+    },
+    {
+      "label": "W3C Media Queries Working Draft",
+      "url": "https://www.w3.org/TR/2026/WD-mediaqueries-5-20260219/#dynamic-range"
+    },
+    {
+      "label": "X profile upload requirements",
+      "url": "https://help.x.com/en/managing-your-account/common-issues-when-uploading-profile-photo"
+    },
+    {
+      "label": "X blue checkmark review",
+      "url": "https://help.x.com/en/managing-your-account/about-x-bluecheck"
+    },
+    {
+      "label": "xhdr.app image",
+      "url": "https://xhdr.app/"
+    },
+    {
+      "label": "xhdr.app video",
+      "url": "https://xhdr.app/video/"
+    },
+    {
+      "label": "xhdr.org avatar",
+      "url": "https://xhdr.org/tools/twitter-hdr"
+    },
+    {
+      "label": "xhdr.org video",
+      "url": "https://xhdr.org/tools/hdr-video"
+    }
+  ],
+  "raw_webpages_archived": false,
+  "source_png_parsed": true,
+  "hdr_display_verified": false,
+  "tool_conversion_run": false,
+  "platform_upload_run": false,
+  "local_records": [
+    {
+      "file": "references/12-hdr-avatar/source-notes.md",
+      "sha256": "fe7759cf2b6012814893e09ad04af74c4f87a3329b4b056ae671e17ccd96489b",
+      "scope": "Hash covers local authored record or inspection result; not a web page archive"
+    },
+    {
+      "file": "experiments/12-hdr-avatar/inspect_public_png.py",
+      "sha256": "271f07a6bfab786a727c062bc344a2561ebcf5cd0153ab38b9890fe2ef4773ea",
+      "scope": "Hash covers local authored record or inspection result; not a web page archive"
+    },
+    {
+      "file": "experiments/12-hdr-avatar/png-structure-review.json",
+      "sha256": "7eff31d27cc64ba70cc792102cd550fbd7d8065d2e7dc22e1a8fa04c126d7c6e",
+      "scope": "Hash covers local authored record or inspection result; not a web page archive"
+    },
+    {
+      "file": "experiments/12-hdr-avatar/original-media-review.json",
+      "sha256": "47121a5c730bd7d62ad208823e0d0dd1504c26513f6578576a1bc43bb7d35872",
+      "scope": "Hash covers local authored record or inspection result; not a web page archive"
+    },
+    {
+      "file": "experiments/12-hdr-avatar/browser-capability-review.json",
+      "sha256": "cfa8b8ce0bddeb6a746c2d2fcbddd4261840a96e860806e4c2a54edae77eb251",
+      "scope": "Hash covers local authored record or inspection result; not a web page archive"
+    },
+    {
+      "file": "experiments/12-hdr-avatar/tool-interface-review.json",
+      "sha256": "fceb5eb350c64a2b751b18097706b8dbf841b359a1a6550a50eb55ec95b1a832",
+      "scope": "Hash covers local authored record or inspection result; not a web page archive"
+    }
+  ],
+  "scope": "One PNG response read in memory for structure/CRC only, original image viewed, five paused video samples, public tool UI and documentation. No user media processed, no original media saved, no conversion, upload, account update or HDR brightness measurement."
+}

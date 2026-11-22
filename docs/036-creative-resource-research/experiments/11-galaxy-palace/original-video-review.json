@@ -1,0 +1,54 @@
+{
+  "case_id": "11",
+  "review_date": "2026-11-21",
+  "source_url": "https://x.com/hi_personality/status/2119939732381782446",
+  "video_url": "https://video.twimg.com/amplify_video/2119939687100092416/vid/avc1/1920x1080/O_nCQ-Z_JWOqQL9-.mp4?tag=29",
+  "source_duration_seconds": 6.4,
+  "browser_duration_seconds": 6.4,
+  "video_size": [
+    1920,
+    1080
+  ],
+  "screenshot_size": [
+    1280,
+    720
+  ],
+  "method": "五处原始MP4时间轴暂停；截图前readyState=4。非逐帧/色度/HDR量测，未听审。",
+  "frames": [
+    {
+      "file": "experiments/11-original-start.jpg",
+      "seconds": 0,
+      "caption": "远景建立空间：左下小骑手、弯曲道路、右上宫殿与星空",
+      "ready_state": 4
+    },
+    {
+      "file": "experiments/11-original-early.jpg",
+      "seconds": 1.584466,
+      "caption": "骑手背部占比变大，宫殿靠右；可见画面倾斜",
+      "ready_state": 4
+    },
+    {
+      "file": "experiments/11-original-middle.jpg",
+      "seconds": 3.2,
+      "caption": "骑手沿弯道倾身，宫殿移向中部；道路与车轮接触需连续检查",
+      "ready_state": 4
+    },
+    {
+      "file": "experiments/11-original-later.jpg",
+      "seconds": 4.815533,
+      "caption": "跟随构图、峡谷及右侧瀑布；倾斜方向与早段不同",
+      "ready_state": 4
+    },
+    {
+      "file": "experiments/11-original-end.jpg",
+      "seconds": 6.4,
+      "caption": "宫殿占比增大并居中，骑手朝目的地方向；未进入室内",
+      "ready_state": 4
+    }
+  ],
+  "audio_reviewed": false,
+  "hdr_metadata_verified": false,
+  "author_pipeline_verified": false,
+  "original_downloaded": false,
+  "xiaoyou_generated": false
+}

@@ -1,0 +1,68 @@
+{
+  "case_id": "08",
+  "status": "not_run",
+  "prepared_date": "2026-11-21",
+  "intended_use": null,
+  "rights_check": null,
+  "app_commit": null,
+  "engine": null,
+  "engine_version": null,
+  "addons": [],
+  "input": {
+    "file": null,
+    "rights_reference": null,
+    "fps": null,
+    "trim": null,
+    "camera_mode": null
+  },
+  "target": {
+    "file": null,
+    "format": null,
+    "rights_reference": null,
+    "skeleton_mapping": null,
+    "rest_pose": null
+  },
+  "outputs": {
+    "uncorrected": null,
+    "automatic_correction": null,
+    "manual_correction": null,
+    "retargeted": null,
+    "exported": null,
+    "reopened_evidence": null
+  },
+  "export_settings": {
+    "format": null,
+    "working_fps": null,
+    "output_fps": null,
+    "reference_pose": null,
+    "leading_reference_frame": null,
+    "origin_placement": null
+  },
+  "metrics": {
+    "inference_seconds": null,
+    "correction_seconds": null,
+    "manual_edit_minutes": null,
+    "export_seconds": null,
+    "peak_allocated_vram_gib": null,
+    "peak_reserved_vram_gib": null,
+    "ram_gib": null,
+    "disk_gib": null,
+    "contact_drift_before": null,
+    "contact_drift_after": null,
+    "contact_drift_units": null
+  },
+  "checks": {
+    "source_person_correct": null,
+    "contact_intervals_correct": null,
+    "no_new_penetration": null,
+    "target_mapping_ok": null,
+    "root_motion_ok": null,
+    "reopened_export_ok": null
+  },
+  "observations": [],
+  "failures": [],
+  "conclusion": null,
+  "reproduced": false,
+  "digested": false
+}
+
