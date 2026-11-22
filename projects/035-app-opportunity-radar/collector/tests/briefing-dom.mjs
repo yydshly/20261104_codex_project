@@ -1,0 +1,36 @@
+import {JSDOM,VirtualConsole} from 'jsdom';
+import {readFileSync,writeFileSync} from 'node:fs';
+import assert from 'node:assert/strict';
+const html=readFileSync(new URL('../reports/latest.html',import.meta.url),'utf8'),data=JSON.parse(readFileSync(new URL('../reports/latest.json',import.meta.url),'utf8'));
+const errors=[],checks=[],vc=new VirtualConsole();vc.on('jsdomError',e=>errors.push(String(e)));
+const create=(r)=>new JSDOM(html.replace(/(<script id="report-data" type="application\/json">)[\s\S]*?(<\/script>)/,(_,a,b)=>a+JSON.stringify(r).replaceAll('<','\\u003c')+b),{runScripts:'dangerously',url:'http://127.0.0.1:5227/',virtualConsole:vc});
+const dom=create(data),d=dom.window.document;
+const check=(name,ok)=>{assert.ok(ok,name);checks.push(name);};
+function set(doc,id,value){const n=doc.getElementById(id);n.value=value;n.dispatchEvent(new doc.defaultView.Event('change',{bubbles:true}));}
+const dates=data.trends.dates.slice(-7),pool=data.trends.series.filter(p=>p.platform==='ios'&&p.country==='cn'&&p.observations.some(r=>dates.includes(r.date)&&r.free_rank!==null));
+check('briefing defaults to the entire period pool',d.getElementById('overview-pool').value==='period'&&d.getElementById('overview-limit').value==='all'&&d.getElementById('briefing-scope').dataset.chartCount===String(pool.length));
+check('data tables and selection controls are secondary collapsed sections',!d.getElementById('overview-details').open&&!d.getElementById('compare-products').open);
+const counts={ranked:0,off_chart:0,unknown:0};for(const p of pool){const r=p.observations.find(r=>r.date===data.as_of);counts[r?.free_rank!==null&&r?.free_rank!==undefined?'ranked':r?.free_status==='off_chart'?'off_chart':'unknown']++;}
+check('status composition matches raw report-day states',[...d.querySelectorAll('#brief-status [data-status]')].every(s=>Number(s.dataset.count)===counts[s.dataset.status]));
+check('histogram bins account for every selected product exactly once',[...d.querySelectorAll('#brief-holding rect[data-count]')].reduce((n,r)=>n+Number(r.dataset.count),0)===pool.length);
+check('each histogram count matches observed rank days and missing coverage',[...d.querySelectorAll('#brief-holding rect[data-count]')].every(rect=>pool.filter(p=>{const rs=dates.map(day=>p.observations.find(r=>r.date===day)),held=rs.filter(r=>r?.free_rank!==null&&r?.free_rank!==undefined).length,unknown=rs.some(r=>!r||(r.free_rank===null&&r.free_status!=='off_chart'));return held>=Number(rect.dataset.from)&&held<=Number(rect.dataset.to)&&unknown===(rect.dataset.group==='unknown');}).length===Number(rect.dataset.count)));
+const comparable=pool.flatMap(p=>{const a=p.observations.find(r=>r.date===dates[0])?.free_rank,b=p.observations.find(r=>r.date===dates.at(-1))?.free_rank;return typeof a==='number'&&typeof b==='number'?[{id:p.app_id,gain:a-b}]:[];}).sort((a,b)=>Math.abs(b.gain)-Math.abs(a.gain)||b.gain-a.gain||a.id.localeCompare(b.id));
+check('movement bars show exact endpoint changes sorted by magnitude',[...d.querySelectorAll('#brief-movement [data-app-id]')].every((r,i)=>r.dataset.appId===comparable[i].id&&Number(r.dataset.gain)===comparable[i].gain)&&d.querySelectorAll('#brief-movement [data-app-id]').length===Math.min(8,comparable.length));
+const weekly=p=>p.observations.filter(r=>dates.includes(r.date)&&typeof r.rating_delta_1d==='number'&&r.rating_delta_1d>=0);
+const full=pool.filter(p=>weekly(p).length===7).map(p=>({id:p.app_id,value:weekly(p).reduce((a,r)=>a+r.rating_delta_1d,0)})).sort((a,b)=>b.value-a.value||a.id.localeCompare(b.id));
+check('rating bars default to full equal-length weeks only',[...d.querySelectorAll('#brief-rating [data-app-id]')].every((r,i)=>r.dataset.appId===full[i].id&&Number(r.dataset.value)===full[i].value&&r.dataset.validDays==='7'));
+set(d,'brief-rating-coverage','partial');
+check('partial sums have their actual effective-day label',[...d.querySelectorAll('#brief-rating [data-app-id]')].every(r=>{const p=pool.find(p=>p.app_id===r.dataset.appId),valid=weekly(p);return valid.length>0&&valid.length<7&&Number(r.dataset.value)===valid.reduce((n,v)=>n+v.rating_delta_1d,0)&&Number(r.dataset.validDays)===valid.length&&r.textContent.includes('部分合计');}));
+const first=d.querySelector('#brief-movement [data-app-id]');first.querySelector('button').click();check('chart product opens exact product detail',JSON.parse(d.getElementById('trend-app').value)[2]===first.dataset.appId&&!d.getElementById('trend-detail').hidden);d.getElementById('overview-back').click();
+set(d,'overview-status','off_chart');check('state filter updates all briefing charts',Number(d.querySelector('#brief-status [data-status="off_chart"]').dataset.count)===counts.off_chart&&d.getElementById('briefing-summary').textContent.includes('本次展示'+counts.off_chart+'款'));
+set(d,'overview-status','unknown');check('empty filter clears all prior plotted values',!d.querySelector('#brief-holding svg')&&!d.querySelector('#brief-movement [data-app-id]')&&!d.querySelector('#brief-rating [data-app-id]')&&d.getElementById('briefing-summary').textContent.includes('没有可展示'));
+const fixture=structuredClone(data),days=Array.from({length:7},(_,i)=>'2026-11-'+(16+i));
+const p={app_id:'unknown-zero-fixture',platform:'ios',country:'cn',name:'<b>Literal product name</b>',observations:days.map((date,i)=>({date,free_rank:i===6?null:10+i,free_status:i===6?'not_returned':'ranked',paid_rank:null,paid_status:'missing',rating_delta_1d:0,rating_delta_status:'ok',rating_count:100}))};
+fixture.trends.series=[p];fixture.trends.dates=days;const special=create(fixture),sd=special.window.document;
+check('short source omission is unknown rather than departure',sd.querySelector('#brief-status [data-status="unknown"]').dataset.count==='1'&&sd.querySelector('#brief-status [data-status="off_chart"]').dataset.count==='0');
+check('holding histogram preserves incomplete rank coverage',sd.querySelector('#brief-holding rect[data-from="6"][data-group="unknown"]').dataset.count==='1');
+check('real zero rating week is charted as zero with full coverage',sd.querySelector('#brief-rating [data-app-id]').dataset.value==='0'&&sd.querySelector('#brief-rating [data-app-id]').dataset.validDays==='7');
+check('provider names remain text, never markup',!sd.querySelector('#brief-rating b')&&sd.querySelector('#brief-rating button').textContent===p.name);
+const single=structuredClone(fixture);single.trends.dates=[data.as_of];single.trends.series[0].observations=[{...p.observations[0],date:data.as_of}];const one=create(single);check('one observed date cannot masquerade as an endpoint comparison',one.window.document.getElementById('brief-movement').textContent.includes('至少需要两个日期')&&!one.window.document.querySelector('#brief-movement [data-app-id]'));one.window.close();
+special.window.close();check('no runtime errors',errors.length===0);dom.window.close();
+writeFileSync(new URL('../reports/briefing-dom-verification.json',import.meta.url),JSON.stringify({passed:true,checks,errors,as_of:data.as_of,mode:'jsdom; not visual QA'},null,2));console.log(JSON.stringify({passed:true,checks:checks.length,errors}));

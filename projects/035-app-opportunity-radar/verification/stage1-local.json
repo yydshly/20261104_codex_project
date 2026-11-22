@@ -1,0 +1,68 @@
+{
+  "phase": "phase-1",
+  "as_of": "2026-11-22",
+  "python_tests": 75,
+  "collector_dom_checks": {
+    "report": 10,
+    "tags": 11,
+    "research": 15,
+    "trends": 23,
+    "overview": 16,
+    "comparison": 23,
+    "statistics": 19,
+    "briefing": 17,
+    "clarity": 19
+  },
+  "collector_dom_total": 153,
+  "published_dom_checks": 9,
+  "static_checks": 6,
+  "browser": {
+    "desktop_width": 1280,
+    "mobile": [
+      390,
+      844
+    ],
+    "mobile_document_width": 375,
+    "guide_dialog_dimensions": [
+      2800,
+      3210
+    ],
+    "checked": [
+      "phase positioning and snapshot date",
+      "original guide modal",
+      "published dashboard period cohort",
+      "rising product selection to five-line comparison",
+      "comment product filtering from 12 to 1",
+      "mobile layout and images",
+      "no runtime errors",
+      "viewport restored"
+    ]
+  },
+  "guide_sha256": "41b07d0259335c76876e5138268ae71a7fc1f92df80aa5327fb7256c652bca62",
+  "site_statistics": {
+    "charts": 14,
+    "products": 1808,
+    "unique": 1440,
+    "history": 8,
+    "reviews": 728,
+    "selected": 12,
+    "low": 364,
+    "positive": 299,
+    "neutral": 65,
+    "tagged": 945,
+    "untagged": 863,
+    "cn_pool": 116,
+    "cn_ranked": 100,
+    "cn_off_chart": 16,
+    "cn_comparable": 91,
+    "cn_up": 49,
+    "cn_down": 29,
+    "cn_unchanged": 13,
+    "cn_full_holding": 83,
+    "cn_full_rating": 81
+  },
+  "screenshots": {
+    "stage1-desktop.jpg": "8e7fa1e0c2de0a35b2c529d02161ab3449a9cb3cc68bcf94792c98513cac6d34",
+    "stage1-mobile.jpg": "cde3f2ef278cf09db05188d1a18b25ee9cf3a29d71ba7d41d9628fc81bc908a1"
+  }
+}

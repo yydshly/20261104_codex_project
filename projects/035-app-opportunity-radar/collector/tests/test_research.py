@@ -73,7 +73,7 @@ class ResearchTests(unittest.TestCase):
         self.assertEqual(p['sample_count'],2)
         pain=next(t for t in p['pains'] if t['id']=='reliability')
         self.assertEqual(pain['count'],2)
-        self.assertEqual(len(result['opportunities']),1)
+        self.assertEqual(result['opportunities'],[])
 
     def test_positive_reviews_do_not_become_pain_and_low_star_not_validated_need(self):
         result=analyze_research(data([review('positive',5,'Easy to use PDF scanner.'),
@@ -96,7 +96,8 @@ class ResearchTests(unittest.TestCase):
         result=analyze_research(data(rows),{},RULES);p=result['products'][0]
         self.assertEqual(p['low_star_count'],0)
         self.assertEqual(p['requests'][0]['count'],2)
-        self.assertEqual(result['opportunities'][0]['feedback_type'],'功能请求（不限星级）')
+        self.assertEqual(result['opportunities'],[])
+        self.assertNotIn('hypothesis',p['requests'][0])
 
     def test_store_rating_text_contradiction_does_not_invent_a_pain(self):
         p=analyze_research(data([review('a',1,'good')]),{},RULES)['products'][0]
@@ -128,6 +129,20 @@ class ResearchTests(unittest.TestCase):
             self.assertEqual(stored['run']['status'],'partial')
             conn.close()
 
+    def test_same_day_runs_do_not_merge_or_revive_earlier_samples(self):
+        with tempfile.TemporaryDirectory() as directory:
+            conn=store.connect(Path(directory)/'radar.sqlite3')
+            for hour, rows in ((1,[review('old')]),(2,[review('current')]),(3,[])):
+                stamp=f'2026-11-22T0{hour}:00:00+00:00';path=f'run-{hour}.json'
+                run_id=research_store.start(conn,'2026-11-22','2026-11-22',[product()],stamp)
+                research_store.save(conn,'2026-11-22',rows,path,stamp)
+                research_store.batch(conn,run_id,product(),'en',1,'ok',{'reviews':rows},path)
+                research_store.finish(conn,run_id,stamp,'ok',[])
+                loaded=research_store.load(conn,'2026-11-22')
+                self.assertEqual([r['review_id'] for r in loaded['reviews']],[r['review_id'] for r in rows])
+            self.assertEqual(conn.execute('SELECT COUNT(*) FROM review_observations').fetchone()[0],2)
+            conn.close()
+
     def test_chinese_and_japanese_pain_rules_produce_traceable_evidence(self):
         p=analyze_research(data([review('cn',body='软件经常闪退，文件打不开。'),
                                  review('jp',body='アプリが落ちる。不具合が多いです。')]),{},RULES)['products'][0]
@@ -135,20 +150,22 @@ class ResearchTests(unittest.TestCase):
         self.assertEqual(theme['count'],2)
         self.assertTrue(all(e['review_id'] and e['source_url'] for e in theme['evidence']))
 
-    def test_brief_must_reference_this_product_and_this_sample(self):
+    def test_statistics_mode_retains_but_does_not_load_historical_judgments(self):
         with tempfile.TemporaryDirectory() as directory:
             base=Path(directory);conn=store.connect(base/'radar.sqlite3')
             run_id=research_store.start(conn,'2026-11-22','2026-11-22',[product()],'2026-11-22T01:00:00+00:00')
             research_store.save(conn,'2026-11-22',[review()],'raw.json','2026-11-22T01:00:00+00:00')
+            research_store.batch(conn,run_id,product(),'en',1,'ok',{'reviews':[review()]},'raw.json')
             research_store.finish(conn,run_id,'2026-11-22T02:00:00+00:00','ok',[])
             brief={k:'test' for k in ('title','priority','finding','entry','mvp','validation','constraint')}
             brief.update(app_id='1',country='us',review_ids=['r1'])
             wrong={**brief,'review_ids':['not-in-this-sample']}
             (base/'research-briefs-2026-11-22.json').write_text(json.dumps({'briefs':[brief,wrong,{'title':'incomplete'}]}),encoding='utf-8')
             result=build(conn,{'directions_file':ROOT/'directions.json','reports_directory':base},'2026-11-22')
-            self.assertEqual(len(result['briefs']),1)
-            self.assertEqual(result['briefs'][0]['evidence'][0]['review_id'],'r1')
-            self.assertTrue(result['errors']);conn.close()
+            self.assertEqual(result['briefs'],[])
+            self.assertEqual(result['opportunities'],[])
+            self.assertEqual(result['mode'],'statistics')
+            self.assertTrue((base/'research-briefs-2026-11-22.json').exists());conn.close()
 
 
 if __name__=='__main__':unittest.main()

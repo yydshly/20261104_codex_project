@@ -1,0 +1,42 @@
+import {JSDOM,VirtualConsole} from 'jsdom';
+import {readFileSync,writeFileSync} from 'node:fs';
+import assert from 'node:assert/strict';
+const html=readFileSync(new URL('../reports/latest.html',import.meta.url),'utf8'),data=JSON.parse(readFileSync(new URL('../reports/latest.json',import.meta.url),'utf8'));
+const errors=[],checks=[],vc=new VirtualConsole();vc.on('jsdomError',e=>errors.push(String(e)));
+const dom=new JSDOM(html,{runScripts:'dangerously',url:'http://127.0.0.1:5227/',virtualConsole:vc}),d=dom.window.document;
+const check=(name,ok)=>{assert.ok(ok,name);checks.push(name);};
+function set(id,value){const n=d.getElementById(id);n.value=value;n.dispatchEvent(new dom.window.Event(n.type==='search'?'input':'change',{bubbles:true}));}
+function checkbox(id){return [...d.querySelectorAll('#compare-choices input')].find(n=>n.value===id);}
+function toggle(id,value){const n=checkbox(id);assert.ok(n,id);n.checked=value;n.dispatchEvent(new dom.window.Event('change',{bubbles:true}));}
+set('overview-pool','today');set('overview-limit','20');
+const initial=[...d.querySelectorAll('#compare-choices input')].map(n=>n.value),selected=()=>[...d.querySelectorAll('#compare-chart g[data-app-id]')].map(n=>n.dataset.appId);
+check('default first five are real cohort members',selected().length===5&&selected().every((id,i)=>id===initial[i]));
+check('native checkboxes reflect selected products',d.querySelectorAll('#compare-choices input:checked').length===5);
+check('legend maps every line to a named product',d.querySelectorAll('#compare-legend [data-app-id]').length===5);
+check('axes identify dates and inverted ranks',d.querySelector('#compare-chart svg').getAttribute('aria-label').includes('第1名在顶部')&&d.querySelector('#compare-chart svg').dataset.ymax==='10');
+const firstSeries=data.trends.series.find(p=>p.platform==='ios'&&p.country==='cn'&&p.app_id===initial[0]);
+check('points use real same-market observations',[...d.querySelectorAll('#compare-chart g[data-app-id]')].every(g=>{const source=data.trends.series.find(p=>p.platform==='ios'&&p.country==='cn'&&p.app_id===g.dataset.appId);return [...g.querySelectorAll('circle')].every(n=>source.observations.some(r=>r.date===n.dataset.date&&r.free_rank===Number(n.dataset.value)));}));
+const retainedId=initial[1],retainedColor=d.querySelectorAll('#compare-chart g[data-app-id]')[1].dataset.color;
+toggle(initial[0],false);check('unchecking removes that product line',!selected().includes(initial[0])&&selected().length===4);
+check('remaining product colors stay stable',[...d.querySelectorAll('#compare-chart g[data-app-id]')].find(g=>g.dataset.appId===retainedId).dataset.color===retainedColor);
+toggle(initial[5],true);check('checking another product adds its line',selected().includes(initial[5])&&selected().length===5);
+const priorIds=selected().join('|');set('overview-window','30');set('overview-metric','daily');check('window and matrix metric preserve selected identities',selected().join('|')===priorIds&&d.getElementById('compare-context').textContent.includes('免费榜'));
+set('compare-scale','100');check('full chart scale fixes 1 to 100',d.querySelector('#compare-chart svg').dataset.ymax==='100');
+const point=d.querySelector('#compare-chart circle');point.dispatchEvent(new dom.window.MouseEvent('click',{bubbles:true}));check('point click shows all selected ranks on that day',d.getElementById('compare-date').value===point.dataset.date&&d.getElementById('compare-readout').textContent.includes(point.dataset.date)&&d.querySelectorAll('#compare-readout .compare-readout-list span').length===5);
+check('points support keyboard focus',point.getAttribute('tabindex')==='0');
+d.getElementById('compare-clear').click();check('clear has an explicit empty state',!d.querySelector('#compare-chart svg')&&d.querySelector('#compare-chart .compare-empty'));
+set('overview-window','7');set('overview-metric','rank');check('an intentionally empty selection remains empty',d.querySelectorAll('#compare-choices input:checked').length===0&&!d.querySelector('#compare-chart svg'));
+d.getElementById('compare-first').click();for(const id of initial.slice(5,10))toggle(id,true);
+check('ten products have ten distinct stable colors',selected().length===10&&new Set([...d.querySelectorAll('#compare-chart g[data-app-id]')].map(g=>g.dataset.color)).size===10);
+check('unchecked choices are disabled at the visible limit',checkbox(initial[10]).disabled&&d.getElementById('compare-count').textContent.includes('最多10款'));
+toggle(initial[0],false);check('unchecking restores other choices',!checkbox(initial[10]).disabled);
+set('compare-query',initial[12]);check('search filters candidates without changing selection',d.querySelectorAll('#compare-choices input').length===1&&selected().length===9);toggle(initial[12],true);set('compare-query','');
+set('overview-limit','10');check('narrowing the cohort removes out-of-scope selections',!selected().includes(initial[12])&&selected().every(id=>initial.slice(0,10).includes(id)));
+set('overview-platform','android');set('overview-country','jp');set('overview-chart','paid');check('platform and chart change cannot mix previous products',selected().every(id=>data.trends.series.some(p=>p.app_id===id&&p.platform==='android'&&p.country==='jp'&&p.observations.at(-1).paid_rank!==null))&&d.getElementById('compare-context').textContent.includes('Android · 日本 · 付费榜'));
+const changed=structuredClone(data),fixture=changed.trends.series.find(p=>p.app_id===firstSeries.app_id&&p.country==='cn');const gap=fixture.observations.find(r=>r.date===data.trends.dates.at(-4));gap.free_rank=null;gap.free_status='missing';
+const changedHtml=html.replace(/(<script id="report-data" type="application\/json">)[\s\S]*?(<\/script>)/,(_,a,b)=>a+JSON.stringify(changed).replaceAll('<','\\u003c')+b),broken=new JSDOM(changedHtml,{runScripts:'dangerously',url:'http://127.0.0.1:5227/',virtualConsole:vc}),bd=broken.window.document;
+const group=[...bd.querySelectorAll('#compare-chart g[data-app-id]')].find(n=>n.dataset.appId===fixture.app_id);
+check('missing date splits the line into separate segments',group.querySelectorAll('polyline').length===2&&![...group.querySelectorAll('circle')].some(n=>n.dataset.date===gap.date));
+check('missing ranks retain date-specific explanations',bd.getElementById('compare-gaps').textContent.includes(gap.date.slice(5))&&bd.getElementById('compare-gaps').textContent.includes('观测缺失或请求失败'));broken.window.close();
+check('no runtime errors',errors.length===0);
+writeFileSync(new URL('../reports/comparison-dom-verification.json',import.meta.url),JSON.stringify({passed:true,checks,errors,as_of:data.as_of,mode:'jsdom; not visual QA'},null,2));console.log(JSON.stringify({passed:true,checks:checks.length,errors}));dom.window.close();

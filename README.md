@@ -40,7 +40,7 @@
 | 032 | [同一空间的美术风格转场](projects/032-spatial-style-transition/README.md) | [Bihe Xi 原帖](https://x.com/xbh_artist/status/2122661449554428020) | 用四帧说明如何在同一段运镜中，点击触发不同光线、色彩与材质的空间版本切换。 | [四帧引导图](#spatial-style-transition-guide) | — |
 | 033 | [栖境 · 环境、情绪与沉浸体验研究](projects/033-environment-emotion-lab/README.md) | [Daniil / Quack](https://x.com/daniildesigns/status/2120195320768303141) · [Three.js](https://github.com/mrdoob/three.js) · [Rocketbox](https://github.com/microsoft/Microsoft-Rocketbox) | 研究数字环境怎样通过空间、光影、声音、自然变化与人的活动，构造温暖、放松、愿意停留的体验。以实时池塘和房间—庭院—池塘连通小屋，验证双视角、连续阅读动作、物件与座椅接触、自然录音及MiniMax位置朗读，沉淀资产、状态协调、动作与声场的复用方法；稳定情绪效果、长期使用和产品价值仍待验证。 | [既有研究总结图](#environment-emotion-guide) | [在线研究与实际体验](https://yydshly.github.io/20261104_codex_project/033-environment-emotion-lab/) |
 | 034 | [纸墨小世界 · 从纸墨小景到故事产品](projects/034-paper-relief-lab/README.md) | [Ann Nguyen 原帖](https://x.com/ann_nnng/status/2120156122133004665) · [Paper River](https://www.bubbbly.com/paper-river) | 沿原帖、录屏和后续回复取证，逐帧观察纸墨、构图和局部互动。用溪桥、煮水、采叶与有声《悯农》检验分镜、动作和音画同步，沉淀两案例制作台、六类应用及评论和试看分析方法。 | [既有研究总图](#paper-relief-guide) | [在线研究与样片](https://yydshly.github.io/20261104_codex_project/034-paper-relief-lab/) |
-| 035 | [App增长与产品机会研究](projects/035-app-opportunity-radar/README.md) | [Stringers讨论起点](https://x.com/stringers_cn/status/2121445525006524627) · Apple公开接口 · [google-play-scraper](https://github.com/facundoolano/google-play-scraper) | 研究怎样从App Store与Google Play连续排名、评分和场景能力标签筛选产品，再以好评、差评及不限星级的功能请求理解任务、痛点与切入约束。已有14张榜单、8天历史和728条近期有效评论，保留原样引导图、来源版本与4项原文研究判断，形成巡检报告等最小原型验证路线；增长归因、用户采用、付费与盈利仍待验证。 | [已有研究引导图](#app-opportunity-radar-guide) | [在线研究与评论分析](https://yydshly.github.io/20261104_codex_project/035-app-opportunity-radar/) |
+| 035 | [App 数据统计与趋势观察](projects/035-app-opportunity-radar/README.md) | [Stringers讨论起点](https://x.com/stringers_cn/status/2121445525006524627) · Apple公开接口 · [google-play-scraper](https://github.com/facundoolano/google-play-scraper) | 阶段一定位为持续采集、统计和图表展示，判断交给人。覆盖iOS中美日英与安卓美日英，保留连续榜单、评分、场景能力标签和评论证据；期间上榜池包含已离榜产品，持榜与7日评分注明有效天数，多产品曲线可勾选对比。快照含14张返回榜单、8天历史、1,808条市场观测和728条有效评论；原引导图保留并说明早期设想与当前执行的边界，公开固定快照与本机每日任务独立。 | [原引导图与阶段理解](#app-opportunity-radar-guide) | [阶段说明与统计看板](https://yydshly.github.io/20261104_codex_project/035-app-opportunity-radar/) |
 
 项目按收录顺序从 `001` 开始编号。新条目按编号追加，已分配的编号保持固定。索引摘要用一两句话写清研究对象和关注点。完成验证后，可补上一条主要发现。
 
@@ -536,18 +536,18 @@ Adam Chernick 个人制作、扩展和组合的网页 3D 实验，部分基于 T
 
 <a id="app-opportunity-radar-guide"></a>
 
-### 035 · App增长与产品机会研究
+### 035 · App 数据统计与趋势观察
 
-**研究方向：** 从移动App商店的连续变化中选择研究对象，再通过用户评论理解具体任务、尚未满足的痛点与功能请求，形成可复现、可访谈、可制作原型验证的产品切入假设。当前范围为iOS中美日英、安卓美日英，尚未扩展到Web、桌面或插件产品。
+**阶段一归档（2026-11-22）：** 系统负责持续获取、保存、统计和展示，产品需求、增长原因与商业判断交给人。从榜单和评论寻找机会的探索，收敛为可回查的数据观察工具；当前不生成机会、切入或立项建议。
 
-![原样使用已生成的增长与产品机会研究引导图：商店趋势底座、评论研究层、Site Audit Pro案例、实际效果与判断边界](docs/035-app-opportunity-radar/media/app-growth-radar-overview-20261122-research-v2.png)
+![原样保留的早期增长与评论研究架构图，当前执行统计展示](docs/035-app-opportunity-radar/media/app-growth-radar-overview-20261122-research-v2.png)
 
-**怎样获取与分析：** Apple公开RSS与产品查询接口、Google Play公开页面解析组成信息入口；本机每日任务保存SQLite快照、原始响应、时间、来源和哈希。平台与市场独立比较排名、评分和新入榜，按具体场景与能力聚合。首版每平台最多6款App、每款最多100条最新评论，近90天按ID与重复正文去重，以中英日规则提取好评需求、低星痛点和不限星级的明确功能请求，再结合原文、版本和实施条件形成研究判断。
+**信息怎样获取与分析：** Apple公开RSS/Lookup与锁定版本Google Play公开页面解析器组成入口，本机每日09:00采集，SQLite保存逐日快照，原响应记录来源、时间与哈希。平台、市场和榜单独立比较，标签保留依据、版本与待复核状态。缺失不补零、短榜未返记未知；7日评分按有效日合计并标N/7天，完整与部分合计分开展示。
 
-**评论引导的实际效果：** 2026-11-22已有8天增长观测，14张榜单、1,787条市场样本；12款入选App保存881条原始评论记录，近90天去重有效728条，其中一、二星322条、四五星345条，3款没有近期有效样本。Site Audit Pro的高星评论仍请求多图、整改前后对照和批量分享，低星评论提到报告查找和保存流程，支持优先访谈一种巡检从业者并验证“照片→问题项→PDF→批量交付”。iAEON体现优惠选择与结账准备需求，但依赖品牌和系统接入；Reco Social先核实奖励规则与兑现，PicoPDF因样本不足继续观察。
+**怎样快速理解：** 默认近7天“期间曾上过榜”的全部产品，包含已离榜者。先看范围、实际日期与覆盖，再看在榜状态、持榜分布、名次升降、新增评分及可勾选曲线；可一键带入升降前5款，详情继承日期窗口。手机优先显示范围与关键数，搜索筛选和明细按需展开。
 
-**价值与边界：** 已积累可回查资料、透明标签、比较口径、评论证据和4项本轮研究判断，帮助把宽泛赛道拆成具体任务、安排验证优先级。规则候选与原文判断分开；用户指控不当作事实，旧版本差评不证明当前缺陷，评论构成不代表总体不满率。当前未测量省时、增长归因、真实采用、迁移、付费或盈利。下一步先复现、访谈5位真实用户，再比较任务原型和付费意愿。
+**评论引导效果：** 每平台最多6款，每款最多100条最新评论；近90天按ID与正文去重，统计正面、低星及不限星级的改进请求，保留短摘录、星级、日期、版本和来源。当前728条有效评论中低星364条、高星299条、中性65条。采样非全量非随机，关键词匹配不等于已确认需求，当前不生成商业判断。
 
-公开网页原样沿用用户指定引导图，提供完整研究说明、案例切换和可筛选的固定报告快照。采集本机运行，公开页不会自动随本机任务同步；数据库、完整原始响应和完整评论正文不随发布。源码、规则、发布清单和验证范围一并归档。
+**成果与边界：** 14张返回榜单（含短榜）、8天历史、1,808条产品市场观测、1,440个不同平台商店ID；标签覆盖945条，863条待补充。原PNG/SVG按字节保留，图中机会判断是早期设想，旧数字不覆盖当前快照。公开网站为手动发布的固定快照，本机每日采集继续独立运行；真实理解速度、用户采用、付费、盈利和增长归因没有验证。
 
-[在线研究与一图理解](https://yydshly.github.io/20261104_codex_project/035-app-opportunity-radar/) · [评论研究与证据快照](https://yydshly.github.io/20261104_codex_project/035-app-opportunity-radar/report/index.html#research) · [产品与标签快照](https://yydshly.github.io/20261104_codex_project/035-app-opportunity-radar/report/index.html) · [完整研究摘要与源码](projects/035-app-opportunity-radar/README.md)
+[阶段说明与原引导图](https://yydshly.github.io/20261104_codex_project/035-app-opportunity-radar/) · [趋势看板](https://yydshly.github.io/20261104_codex_project/035-app-opportunity-radar/report/index.html#trends) · [评论统计](https://yydshly.github.io/20261104_codex_project/035-app-opportunity-radar/report/index.html#research) · [完整摘要与源码](projects/035-app-opportunity-radar/README.md) · [阶段记录](projects/035-app-opportunity-radar/PHASE-1.md)

@@ -1,40 +1,58 @@
 {
   "project": "035-app-opportunity-radar",
+  "phase": "phase-1",
+  "mode": "statistics",
   "snapshot_date": "2026-11-22",
-  "publication": "static snapshot; local collection does not automatically republish",
-  "guide_source": "app-growth-radar/docs/architecture/app-growth-radar-overview-20261122-research-v2.png",
+  "publication": "static snapshot; local daily collection does not automatically republish",
+  "guide_source": "original phase exploration diagram; execution follows statistics mode",
   "guide_sha256": "41b07d0259335c76876e5138268ae71a7fc1f92df80aa5327fb7256c652bca62",
   "statistics": {
+    "charts": 14,
+    "products": 1808,
+    "unique": 1440,
+    "history": 8,
     "reviews": 728,
     "selected": 12,
-    "charts": 14,
-    "products": 1787,
-    "raw": 881,
-    "empty": 3,
-    "low": 322,
-    "positive": 345,
-    "neutral": 61
+    "low": 364,
+    "positive": 299,
+    "neutral": 65,
+    "tagged": 945,
+    "untagged": 863,
+    "cn_pool": 116,
+    "cn_ranked": 100,
+    "cn_off_chart": 16,
+    "cn_comparable": 91,
+    "cn_up": 49,
+    "cn_down": 29,
+    "cn_unchanged": 13,
+    "cn_full_holding": 83,
+    "cn_full_rating": 81
   },
   "files": [
     {
-      "path": "index.html",
-      "bytes": 28286,
-      "sha256": "ba5663bb9e149195acab9d4a93c7b0abdacf6ca71b310da47f37f92e84c0a383"
-    },
-    {
       "path": "research.css",
-      "bytes": 8451,
-      "sha256": "5f42f4f6eb2f73798ddeadfca4f793d61241ed7e20eb0ff7f01642c247d2141d"
+      "bytes": 8921,
+      "sha256": "1d42e2243ac5546f32c904299e0b70c1353aa6996ebed6cd0b90bd97c93d3563"
     },
     {
       "path": "research.js",
-      "bytes": 3173,
-      "sha256": "b316b620c6c4cd7296ba84f88c4d6671c7401a4524f1e005795cbbf8fa202c16"
+      "bytes": 627,
+      "sha256": "7e39b3eb068b7cd6237dc6eb908ed06dc44ef2c50b04e3d555cf938166a8923e"
+    },
+    {
+      "path": "index.html",
+      "bytes": 14410,
+      "sha256": "fba165e2f9ca57f5c56781c6be7ad661712aeaf9f3459115fcdc7d849921c28c"
     },
     {
       "path": "README.md",
-      "bytes": 12726,
-      "sha256": "41a950188de933890afbca40c5f9a0edd0cf496d5f384185ffb681ba3f27f39f"
+      "bytes": 12689,
+      "sha256": "bf87d808cd1116fefdc9a5d277a68d4cb260cac26fd14b30afadb9132b32f824"
+    },
+    {
+      "path": "PHASE-1.md",
+      "bytes": 2056,
+      "sha256": "93d53530e156d56ce2f5a92e7cf9d62f0fa8d20f57b2a10f3b5b1b43ab29ff87"
     },
     {
       "path": "media/app-growth-radar-overview-20261122-research-v2.png",
@@ -47,19 +65,29 @@
       "sha256": "4ed4fdd363dd8612248ce8ddba1a93d9185d4a51f9c46e77c7526de93ea00aee"
     },
     {
+      "path": "media/dashboard-desktop-20261122.jpg",
+      "bytes": 130363,
+      "sha256": "95a9045ce54c102ddda244c42d00665f26e83188e8296806c0034c25bfbec9c6"
+    },
+    {
+      "path": "media/dashboard-mobile-20261122.jpg",
+      "bytes": 47230,
+      "sha256": "fdd33d0330af3a80f1f2d506b1ccde4b7c57b24c34c70c24585b9b7c824977b6"
+    },
+    {
       "path": "report/index.html",
-      "bytes": 2872357,
-      "sha256": "db9294d302978c4da318752cfd7bd2f791e22dea36c72e1e53df912b76238da4"
+      "bytes": 6056441,
+      "sha256": "1f87a42954850ee490fe7f282502295815496546e1eea098c6f20b94b680439b"
     },
     {
       "path": "report/snapshot.json",
-      "bytes": 4085892,
-      "sha256": "2680ed33b58ffee30f11c1f9a35bc77a324179e6276c22a3547814533060c030"
+      "bytes": 9490766,
+      "sha256": "94bacd37d7bd90fe8e377f02d84a10609a26173c7b549c7bb3c91b16b9a03e73"
     },
     {
       "path": "report/snapshot.md",
-      "bytes": 50331,
-      "sha256": "3e4c8a576eba4fb1b58e113757e71c7f6267b6ab4102b2987f3d117ef11d799e"
+      "bytes": 43170,
+      "sha256": "0fb77a9e182f8bc5af91f6c39763b0ff88f72356ed9ad5d7115046879eb4b23a"
     }
   ],
   "source_allowlist": [
@@ -73,21 +101,32 @@
     "play_bridge.mjs",
     "run.py",
     "preview.py",
+    "app_radar/__init__.py",
+    "app_radar/__main__.py",
     "app_radar/analysis.py",
+    "app_radar/briefing_view.py",
     "app_radar/classify.py",
     "app_radar/cli.py",
+    "app_radar/comparison_view.py",
     "app_radar/google_play.py",
+    "app_radar/overview_view.py",
     "app_radar/report.py",
     "app_radar/research.py",
     "app_radar/research_store.py",
     "app_radar/review_sources.py",
     "app_radar/sources.py",
+    "app_radar/statistics_view.py",
     "app_radar/store.py",
     "app_radar/tags.py",
-    "app_radar/__init__.py",
-    "app_radar/__main__.py",
+    "app_radar/trend_view.py",
+    "app_radar/trends.py",
+    "tests/briefing-dom.mjs",
+    "tests/clarity-dom.mjs",
+    "tests/comparison-dom.mjs",
+    "tests/overview-dom.mjs",
     "tests/report-dom.mjs",
     "tests/research-dom.mjs",
+    "tests/statistics-dom.mjs",
     "tests/tags-dom.mjs",
     "tests/test_analysis.py",
     "tests/test_android.py",
@@ -96,15 +135,66 @@
     "tests/test_report.py",
     "tests/test_research.py",
     "tests/test_sources.py",
-    "tests/test_tags.py"
+    "tests/test_tags.py",
+    "tests/test_trends.py",
+    "tests/trends-dom.mjs"
   ],
+  "collector_sha256": {
+    "README.md": "3b73d3bbae3bb3dcbcf92a611d1b61def49ac73bced970904e698e40ea7a86b9",
+    ".gitignore": "e12506e561cf4bd14712d114551000304e1cae24b537f4405a414b9baaec60be",
+    "config.json": "300e12383c59a3ce7bd200bee7e8cbf31ba6fc1573f58e14bbf3bde805894718",
+    "directions.json": "dc9377b2cd05a05ae402a748cca76d10c58a349c6bcc2eb5f1f7dbe916d6d5f9",
+    "research_rules.json": "93f256b80de0f2d0bd3c7af8871c604b3a2ef8a08bdc3a1e218f864ee431f1dd",
+    "package.json": "8da8c0ec14fd2f98da403306ed184811c692c7f55ab474f013bf74e585bc1895",
+    "package-lock.json": "ffc33fee7351cab6328f749ac4e2c056209eb8893104e7b1887c4ddf90f4cae0",
+    "play_bridge.mjs": "16d34c3c6dcb29a49d16c5d8c0cc7d7e72ab5c7fbc2d951e7201bd0326440550",
+    "run.py": "31655db770af7d2cb87439cfb7d54816b582ddb9ac17f445e2676919170d3c66",
+    "preview.py": "10336d92b4d9cfe07286c290c62603540ac0a9ee85c65802ed513390c12c6525",
+    "app_radar/__init__.py": "11fe838a06edefacc9fac443ac3f8a19a033b6b57662a2f8ecd128eca7fc5670",
+    "app_radar/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "app_radar/analysis.py": "7ddd7a2bc2200157ef0c385d0a551359aacc84c3ae79835298806efc2916483f",
+    "app_radar/briefing_view.py": "8b018f3d90fced4a26a175dce6e9778699af06595d30bf9329826314252a1048",
+    "app_radar/classify.py": "3327c9dd878d7cf8e1c6640d6d1d59bff02d7209ccba743f6bc9fb618c9347e9",
+    "app_radar/cli.py": "440fe192e9679bd809f53c2791a025e2da4cacb35db6336731175a5fb42049d7",
+    "app_radar/comparison_view.py": "97a9e72e96d0286a1b0c4a93429b2d930e0522c438be7d4297e64b56db5e6360",
+    "app_radar/google_play.py": "dfd504446bda4bf9d3a84c0f0b3c1f597a9b694f70cf70cbb61a76f635be29eb",
+    "app_radar/overview_view.py": "89256ed6d56183a4a00d952ce19ec33007b1f3f47129ad918b7ef9e257ebc0b1",
+    "app_radar/report.py": "f01e68378105d6fb7b7da8371a068afe5c2ac96fd1fa4870219ffeef906a43cf",
+    "app_radar/research.py": "40e9f19e009d551d8f317009d18d876dc5eb5eaba698d98ee0deb114a3fdc489",
+    "app_radar/research_store.py": "77c373d441db044e2fe304b53c947c487f39e98635d19896c5bd080f439afe6c",
+    "app_radar/review_sources.py": "9036545c32ef554bb2a71d0cba29cb586a174211e006503c51fb38e42e67bde5",
+    "app_radar/sources.py": "933d3873be85d0f24044082dfea36579083269f80a134df5c602ddd6f47aaece",
+    "app_radar/statistics_view.py": "495d57922150c57c91531ed06c6560e1e31c7c3e310cecfc64079289fa6b6c20",
+    "app_radar/store.py": "dfe60fa909c5c8b53362ae439f312e7784cda218e978a4e9270f3ca385c910ae",
+    "app_radar/tags.py": "c74db6f376d0b40198fe474396429ce7831b61d08b3b639a7ce62de25f21e39b",
+    "app_radar/trend_view.py": "f63f94ecfaad119ddc7c129df63b87164ebcf6f933cdc85def6b222f20de4d98",
+    "app_radar/trends.py": "d34ded9262077f96805c78971b584cf6563c039a4923e586bc41aa95c1251f6c",
+    "tests/briefing-dom.mjs": "c2b3ae801de2851e3578a3e6c35070affe69747d925b04cfc68bc1d433151af4",
+    "tests/clarity-dom.mjs": "7494340c6ae1f36f813c3f06e7c0b94eafe0bbf084b1647a29fefda7ede478fe",
+    "tests/comparison-dom.mjs": "b8a34a5c206f990aae56052adadd10e8a2cd78fb7fda64d6242ff17fd9da726e",
+    "tests/overview-dom.mjs": "171d0ce1d0ce1d4834e2e3a3843faedff45c1ff277280acc98c543230b9e4642",
+    "tests/report-dom.mjs": "37f7db6f994085c78a5d0bb6ff9d8336a2cc4e351667bfc335af95420a010cd1",
+    "tests/research-dom.mjs": "91511085e72d154802a313af0a3cca9ca54aeab81053fe15200df10ce36265b5",
+    "tests/statistics-dom.mjs": "9937c8936246b5ccf49d61ed12a01d810287c029b077c2af1dc91235722828dc",
+    "tests/tags-dom.mjs": "bd4238d522fe4f42f51899e0ae565d5bc411ea97db221fe1278267a765b9f0bf",
+    "tests/test_analysis.py": "0edfac4dbda82c80642d1f631b1bd26db334a03a56774b71a23476977ee20a09",
+    "tests/test_android.py": "1ac38ffc7aa3b9eafef0c64b7622b3000f6c5cea67a5f1024cb6a6f801c35934",
+    "tests/test_classify.py": "14051a119c728cbc1dd5d1a2eaa8aa5f95f6de9d49e99f20a597e6786a57929f",
+    "tests/test_collection.py": "e234aaccc029ca52193892e1ee856eeeed7b9a7b1e0def6a8515b122220f007d",
+    "tests/test_report.py": "f900c174b86eb08e97bd4b0364b5613254e32839b83e2762b26e7d1f8ed18339",
+    "tests/test_research.py": "e7f5b4e726ad6688d7240c88d722c9da211f49a16eedca5f01ed8f1331f8b17a",
+    "tests/test_sources.py": "ecf360019c7a57ae3e2c8543953ab439371594d5b402352b53ae433e93f7733f",
+    "tests/test_tags.py": "596207ea9d284d401c6cf59b757a52336ad6c075a0bff3f59a52fd5ea4726b38",
+    "tests/test_trends.py": "1e47eba4e95102eebe6fb1ded2d3976059daa9c81b6ab24573c70e600e67194c",
+    "tests/trends-dom.mjs": "82a3d8090c36c9d89e7479e79a98574c9b5fda6bfca6097653fedeb584c61c95"
+  },
   "excluded": [
     "database",
     "raw responses",
     "full review bodies",
     "reviewer avatars",
     "credentials",
-    "local absolute paths",
+    "local archive paths in public snapshot",
     "node_modules"
   ]
 }

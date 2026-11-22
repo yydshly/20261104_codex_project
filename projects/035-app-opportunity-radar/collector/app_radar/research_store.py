@@ -71,6 +71,10 @@ def load(conn, growth_day):
     row=conn.execute('SELECT * FROM research_runs WHERE growth_as_of=? ORDER BY started_at DESC,rowid DESC LIMIT 1',(growth_day,)).fetchone()
     if row is None:return None
     run=dict(row);run['selection']=json.loads(run['selection']);run['errors']=json.loads(run['errors'])
-    observations=[dict(r) for r in conn.execute('SELECT * FROM review_observations WHERE observed_date=?',(run['date'],))]
     fetches=[dict(r) for r in conn.execute('SELECT * FROM review_fetches WHERE run_id=?',(run['id'],))]
+    # Repeated collections on one day share the observation table. Only the
+    # current run's archived responses belong to its bounded review sample.
+    paths={f['raw_path'] for f in fetches if f['status']=='ok' and f['raw_path']}
+    observations=[dict(r) for r in conn.execute('SELECT * FROM review_observations WHERE observed_date=?',(run['date'],))
+                  if r['raw_path'] in paths]
     return {'run':run,'reviews':observations,'fetches':fetches}

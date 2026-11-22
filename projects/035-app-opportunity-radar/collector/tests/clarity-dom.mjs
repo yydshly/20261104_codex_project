@@ -1,0 +1,36 @@
+import {JSDOM,VirtualConsole} from 'jsdom';
+import {readFileSync,writeFileSync} from 'node:fs';
+import assert from 'node:assert/strict';
+const html=readFileSync(new URL('../reports/latest.html',import.meta.url),'utf8'),data=JSON.parse(readFileSync(new URL('../reports/latest.json',import.meta.url),'utf8'));
+const errors=[],checks=[],vc=new VirtualConsole();vc.on('jsdomError',e=>errors.push(String(e)));
+const dom=new JSDOM(html,{runScripts:'dangerously',url:'http://127.0.0.1:5227/',virtualConsole:vc}),d=dom.window.document;
+function check(name,ok){assert.ok(ok,name);checks.push(name);}
+function set(id,value){const n=d.getElementById(id);n.value=value;n.dispatchEvent(new dom.window.Event('change',{bubbles:true}));}
+const dates=data.trends.dates.slice(-7),pool=data.trends.series.filter(p=>p.platform==='ios'&&p.country==='cn'&&p.observations.some(r=>dates.includes(r.date)&&typeof r.free_rank==='number'));
+check('first-time controls are limited to platform, market, chart and window',[...d.querySelectorAll('.overview-toolbar select')].map(n=>n.id).join('|')==='overview-platform|overview-country|overview-chart|overview-window'&&!d.getElementById('overview-more-filters').open&&d.querySelectorAll('#overview-more-filters select').length===3);
+check('default scope states the selected count once',d.getElementById('briefing-scope').textContent.includes('本页统计'+pool.length+'款')&&d.getElementById('briefing-scope').textContent.split(pool.length+'款').length===2);
+const statuses=data.trends.chart_status.filter(r=>r.country==='cn'&&r.chart==='top-free'&&dates.includes(r.date)),complete=statuses.filter(r=>r.status==='ok'&&r.count>=100).length;
+check('visible quality summary derives complete chart days from source',d.getElementById('briefing-quality').textContent.includes(complete+'天返回完整前100名'));
+const gain=p=>{const a=p.observations.find(r=>r.date===dates[0])?.free_rank,b=p.observations.find(r=>r.date===dates.at(-1))?.free_rank;return typeof a==='number'&&typeof b==='number'?a-b:null;},up=pool.filter(p=>gain(p)>0).sort((a,b)=>gain(b)-gain(a)||a.app_id.localeCompare(b.app_id));
+d.querySelectorAll('#briefing-kpis button')[1].click();
+check('upward statistic card filters exact rising products and focuses their chart',d.getElementById('brief-movement-direction').value==='up'&&[...d.querySelectorAll('#brief-movement [data-app-id]')].every((r,i)=>r.dataset.appId===up[i].app_id&&Number(r.dataset.gain)===gain(up[i]))&&d.activeElement.id==='brief-movement-title');
+d.getElementById('brief-compare-movers').click();const selected=()=>[...d.querySelectorAll('#compare-chart g[data-app-id]')].map(n=>n.dataset.appId);
+check('one-click comparison draws exactly the first five displayed movers',selected().length===5&&up.slice(0,5).every(p=>selected().includes(p.app_id))&&d.activeElement.id==='compare-title');
+check('candidate count is distinct from actual lines',d.getElementById('compare-context').textContent.includes('候选'+pool.length+'款，当前勾选5款'));
+const unchecked=[...d.querySelectorAll('#compare-choices input')].find(n=>!n.checked);unchecked.checked=true;unchecked.dispatchEvent(new dom.window.Event('change',{bubbles:true}));
+check('line count updates after individual checkbox selection',selected().length===6&&d.getElementById('compare-context').textContent.includes('当前勾选6款'));
+set('brief-movement-direction','down');check('downward filter excludes rises and unchanged ranks',[...d.querySelectorAll('#brief-movement [data-app-id]')].every(n=>Number(n.dataset.gain)<0));
+const row=d.querySelector('#brief-movement [data-app-id]'),id=row.dataset.appId;row.querySelector('button').click();
+check('detail inherits the seven-day window and names the product',d.getElementById('trend-window').value==='7'&&d.querySelectorAll('#trend-rows tr').length===7&&JSON.parse(d.getElementById('trend-app').value)[2]===id&&d.getElementById('trend-detail-title').textContent.includes(pool.find(p=>p.app_id===id).name));
+check('single-product detail does not display global market cards',d.body.classList.contains('trend-panel-active')&&dom.window.getComputedStyle(d.getElementById('cards')).display==='none');
+d.getElementById('overview-back').click();check('return preserves selected direction and comparison identities',d.getElementById('brief-movement-direction').value==='down'&&selected().length===6&&!d.getElementById('trend-overview').hidden);
+set('overview-window','30');check('requested thirty days is distinguished from available history',d.getElementById('briefing-quality').textContent.includes('所选近30天，目前仅有'+data.trends.dates.length+'个日期记录'));
+set('overview-limit','10');check('restricted cohort discloses the full eligible count',d.getElementById('briefing-scope').textContent.includes('本页统计10款')&&d.getElementById('briefing-scope').textContent.includes('筛选后共'));
+set('overview-status','unknown');check('empty state has no misleading comparison action',d.getElementById('brief-compare-movers').disabled&&d.getElementById('briefing-summary').textContent.includes('恢复默认范围'));
+d.getElementById('overview-reset').click();check('reset restores a usable default cohort and filters',d.getElementById('overview-country').value==='cn'&&d.getElementById('overview-window').value==='7'&&d.getElementById('overview-limit').value==='all'&&d.getElementById('overview-status').value==='all'&&d.getElementById('briefing-scope').dataset.chartCount===String(pool.length));
+d.getElementById('brief-open-data').click();check('read-data shortcut opens the collapsed source table',d.getElementById('overview-details').open);
+const mobileOptions={runScripts:'dangerously',url:'http://127.0.0.1:5227/',virtualConsole:vc,beforeParse(w){w.matchMedia=()=>({matches:true,addEventListener(){}});}};
+const mobile=new JSDOM(html,mobileOptions);check('mobile first entry prioritizes facts over closed filters',!mobile.window.document.getElementById('overview-filters').open&&mobile.window.document.getElementById('briefing-scope').dataset.chartCount===String(pool.length));mobile.window.close();
+const empty=structuredClone(data);empty.trends.series=[];const emptyHtml=html.replace(/(<script id="report-data" type="application\/json">)[\s\S]*?(<\/script>)/,(_,a,b)=>a+JSON.stringify(empty).replaceAll('<','\\u003c')+b),emptyMobile=new JSDOM(emptyHtml,mobileOptions);check('mobile empty initial report exposes recovery filters',emptyMobile.window.document.getElementById('overview-filters').open&&emptyMobile.window.document.getElementById('briefing-summary').textContent.includes('恢复默认范围'));emptyMobile.window.close();
+check('no runtime errors',errors.length===0);dom.window.close();
+writeFileSync(new URL('../reports/clarity-dom-verification.json',import.meta.url),JSON.stringify({passed:true,checks,errors,as_of:data.as_of,mode:'jsdom; not visual QA'},null,2));console.log(JSON.stringify({passed:true,checks:checks.length,errors}));

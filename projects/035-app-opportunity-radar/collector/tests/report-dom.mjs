@@ -23,6 +23,6 @@ assert.ok([...d.querySelectorAll('#direction-rows tr')].every(tr=>tr.firstChild.
 set('direction-country','jp');assert.ok([...d.querySelectorAll('#direction-rows tr')].every(tr=>tr.children[1].textContent==='日本'));
 assert.equal(d.querySelectorAll('#source-rows tr').length,14);
 assert.deepEqual(errors,[]);
-writeFileSync(new URL('../reports/android-dom-verification.json',import.meta.url),JSON.stringify({mode:'jsdom; browser verification interrupted',checks,errors,sourceRows:14,directionFiltersPassed:true,paginationPassed:true},null,2));
+writeFileSync(new URL('../reports/android-dom-verification.json',import.meta.url),JSON.stringify({mode:'jsdom DOM/events; not visual browser verification',passed:true,checks,errors,sourceRows:14,directionFiltersPassed:true,paginationPassed:true},null,2));
 console.log(JSON.stringify({passed:true,checks:checks.length,errors,sourceRows:14}));
 dom.window.close();

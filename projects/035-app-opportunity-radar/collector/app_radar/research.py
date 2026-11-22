@@ -1,8 +1,4 @@
-"""Review evidence -> explicit needs, complaint themes and testable hypotheses.
-
-This first stage uses auditable multilingual rules. Themes are review leads for
-human verification, not causal findings, full semantic analysis or demand sizes.
-"""
+"""Bounded review samples and auditable keyword statistics; judgments stay with readers."""
 from collections import Counter
 from datetime import datetime, timedelta, timezone
 import hashlib
@@ -92,7 +88,7 @@ def excerpt(text, match):
 
 
 def analyze_research(data, settings, rules):
-    if not data:return {'status':'not_collected','products':[],'errors':[],
+    if not data:return {'status':'not_collected','mode':'statistics','briefs':[],'opportunities':[],'products':[],'errors':[],
                         'methodology':['尚未采集用户评论。']}
     run=data['run'];date=datetime.fromisoformat(run['date']).replace(tzinfo=timezone.utc)
     earliest=date-timedelta(days=settings.get('lookback_days',90))
@@ -132,7 +128,7 @@ def analyze_research(data, settings, rules):
                         'excerpt':excerpt(body,match),'source_url':r['source_url'],
                         'raw_path':r['raw_path'],'matched_text':match.group(0)})
                 if evidence:
-                    theme={k:v for k,v in rule.items() if k not in {'pattern','exclude','scene_any'}}
+                    theme={k:rule[k] for k in ('id','label')}
                     theme.update(count=len(evidence),evidence=evidence[:3],review_ids=[e['review_id'] for e in evidence])
                     themes[kind].append(theme)
             themes[kind].sort(key=lambda t:(-t['count'],t['label']))
@@ -142,7 +138,7 @@ def analyze_research(data, settings, rules):
         status=('partial' if success and failure else 'error' if failure else 'empty' if not observations else 'no_recent' if not sample else 'ok')
         pains=themes['pains']
         for t in pains+themes['requests']:
-            t['evidence_level']='重复反馈，仍需逐条复核' if t['count']>=3 else '少量个案，待验证'
+            t['evidence_level']='关键词规则匹配数量，含义由读者核对原文'
         products.append({'platform':p['platform'],'country':p['country'],'app_id':p['app_id'],
             'name':p['name'],'store_url':p['store_url'],'scenes':p.get('scenes',[]),
             'capabilities':p.get('capabilities',[]),'tag_status':p.get('tag_status','待补充'),
@@ -162,33 +158,23 @@ def analyze_research(data, settings, rules):
                 'themes':[t['label'] for kind in themes.values() for t in kind if r['review_id'] in t['review_ids']]}
                 for r in sorted(sample,key=lambda r:r['posted_at'],reverse=True)],
             'errors':[f['error'] for f in fetches if f['error']]})
-    candidates=[]
-    for p in products:
-        for pain in p['pains']+p['requests']:
-            if pain['count']<2:continue
-            candidates.append({'platform':p['platform'],'country':p['country'],'app_id':p['app_id'],
-                'name':p['name'],'scenes':p['scenes'],'theme':pain['label'],
-                'evidence_count':pain['count'],'sample_count':p['sample_count'],
-                'feedback_type':'功能请求（不限星级）' if pain in p['requests'] else '一、二星评论主题',
-                'hypothesis':pain['hypothesis'],'mvp':pain['mvp'],
-                'validation':pain['validation'],'constraint':pain['constraint'],
-                'evidence':pain['evidence'],'state':'机会假设，尚未验证付费意愿'})
-    candidates.sort(key=lambda c:(-c['evidence_count'],c['platform'],c['country'],c['name']))
     return {'status':run['status'],'collected_on':run['date'],'growth_as_of':run['growth_as_of'],
+        'mode':'statistics','briefs':[],
         'lookback_days':settings.get('lookback_days',90),'reviews_per_app':settings.get('reviews_per_app',100),
         'rules_version':rules['version'],'selected_count':len(products),'review_count':total,
         'low_star_count':sum(p['low_star_count'] for p in products),
         'positive_count':sum(p['positive_count'] for p in products),
-        'products':products,'opportunities':candidates,'errors':run['errors'],
+        'products':products,'opportunities':[],'errors':run['errors'],
         'fetches':[{k:f[k] for k in ('app_id','country','language','page','status','count','invalid_count','source_url','error')} for f in data['fetches']],
         'methodology':[
             '增长榜单与评论采集日期分别显示。按平台独立 ID 关联；每个平台 App 只选一个市场，优先增长样本并兼顾持续跟踪名单。',
             f"采集各商店近期评论，每 App 最多{settings.get('reviews_per_app',100)}条；从样本中筛选1—2星差评、4—5星好评。非随机、非全量样本，不把样本差评占比解释为总体不满意率。",
             f"只分析最近{settings.get('lookback_days',90)}天的可验证日期评论；按评论ID和重复正文去重，评论编辑保留逐日观测。空结果与请求失败分开，历史证据不被失败覆盖。",
+            '本次样本仅关联本次成功归档的响应；同一天重复采集不合并旧批次评论。旧批次仍保存在原始归档和数据库中，失败请求不会用旧样本冒充本次成功。',
             'Google Play 按页面地区与语言请求，不保证评论作者来自该国；评论数不等于评分总数。',
             '中英日关键词规则提取主题，名称/标签仅作产品用途背景；主题是待人工复核的线索。好评不证明需求已完全解决，差评不证明当前版本仍有缺陷。',
             '功能请求独立分析，包含高星评论中的改进请求。星级和正文可能矛盾；未匹配的评论仍可查看，不把低星数量当成已确认痛点数量。',
-            '切入建议是规则生成的假设，不是增长归因、市场规模或商业可行性结论；先复现、访谈，再验证原型与付费意愿。原文保存在本地归档，报告仅展示短摘录。']}
+            '只展示统计、关键词匹配和来源，不生成需求结论、切入建议、原型或商业判断。历史研究判断文件保留，但不载入当前报告。原文保存在本地归档，报告仅展示短摘录。']}
 
 
 def build(conn, config, growth_day):
@@ -199,18 +185,4 @@ def build(conn, config, growth_day):
     result=analyze_research(research_store.load(conn,growth_day),config.get('reviews',{}),
                             json.loads(path.read_text(encoding='utf-8')))
     result['briefs']=[]
-    if result.get('collected_on'):
-        notes=config['reports_directory']/f"research-briefs-{result['collected_on']}.json"
-        if notes.exists():
-            raw=json.loads(notes.read_text(encoding='utf-8'))
-            for brief in raw.get('briefs',[]):
-                required=('app_id','country','title','priority','finding','entry','mvp','validation','constraint')
-                if not isinstance(brief,dict) or not all(isinstance(brief.get(k),str) and brief[k] for k in required):
-                    result['errors'].append('跳过字段不完整的研究判断。');continue
-                p=next((p for p in result['products'] if p['app_id']==brief.get('app_id') and p['country']==brief.get('country')),None)
-                if not p or not isinstance(brief.get('review_ids'),list) or not brief['review_ids']:continue
-                evidence={e['review_id']:e for e in p['evidence']}
-                if all(isinstance(rid,str) and rid in evidence for rid in brief['review_ids']):
-                    result['briefs'].append({**brief,'name':p['name'],'platform':p['platform'],
-                        'reviewed_on':result['collected_on'],'evidence':[evidence[rid] for rid in brief['review_ids']]})
     return result

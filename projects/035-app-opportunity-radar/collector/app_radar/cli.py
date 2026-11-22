@@ -151,6 +151,8 @@ def generate_report(conn, config, classifier, day):
     from .report import write_reports
     data = store.load_analysis_data(conn, day, config, classifier)
     report = analyze(data)
+    from .trends import build as build_trends
+    report['trends'] = build_trends(conn, day, report['products'])
     from .research import build
     report['research'] = build(conn, config, day)
     chart_status = [row for row in data["chart_status"] if row["date"] == day]

@@ -46,7 +46,10 @@ for file in SITE.rglob('*.html'):
 checks.append('local asset links, anchors and duplicate IDs')
 snapshot=json.loads((SITE/'report/snapshot.json').read_text(encoding='utf-8'))
 assert snapshot['as_of']=='2026-11-22' and snapshot['research']['review_count']==728
-assert len(snapshot['research']['briefs'])==4
+assert snapshot['research']['mode']=='statistics'
+assert snapshot['research']['briefs']==[] and snapshot['research']['opportunities']==[]
+assert snapshot['summary']['product_market_count']==manifest['statistics']['products']
+assert len(snapshot['trends']['series'])>=snapshot['summary']['product_market_count']
 encoded=json.dumps(snapshot,ensure_ascii=False)
 assert not re.search(r'(?<![A-Za-z0-9])[A-Za-z]:[\\/]',encoded)
 def inspect(value):
@@ -60,12 +63,19 @@ assert not any(p.suffix in {'.sqlite3','.log','.zip'} for p in SITE.rglob('*'))
 assert not any(p.name in {'node_modules','.env','data'} for p in SITE.rglob('*'))
 checks.append('public snapshot excludes full review bodies, local paths and raw data')
 text=(SITE/'index.html').read_text(encoding='utf-8')
-for label in ['我们的理解','信息与分析','评论研究效果','切入判断','验证计划','公开页','不会随本机']:
+for label in ['我们的理解','信息获取与统计','评论整理效果','判断交给人','阶段一归档','固定快照','不会随本机']:
     assert label in text,label
 assert '__SNAPSHOT_DATA__' not in text
 for file in [ROOT/'README.md',ROOT/'docs/index.html']:
     assert '035-app-opportunity-radar' in file.read_text(encoding='utf-8')
-checks.append('full research scope and two catalog entries')
+checks.append('statistics-first phase summary, historical-guide boundary and both catalogs')
+assert '图中的机会判断与切入验证属于早期设想' in text
+assert set(p.relative_to(SITE).as_posix() for p in SITE.rglob('*') if p.is_file())=={f['path'] for f in manifest['files']}|{'publication-manifest.json','.gitattributes'}
+for name in manifest['source_allowlist']:
+    assert (HERE/'collector'/name).is_file()
+    assert hashlib.sha256((HERE/'collector'/name).read_bytes()).hexdigest()==manifest['collector_sha256'][name]
+assert (HERE/'PHASE-1.md').is_file()
+checks.append('explicit site and source allowlists, no extra published files')
 result={'passed':True,'checks':checks,'snapshot_date':snapshot['as_of'],'files':len(manifest['files']),'guide_sha256':manifest['guide_sha256']}
 (HERE/'verification/static.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(json.dumps(result,ensure_ascii=False))
