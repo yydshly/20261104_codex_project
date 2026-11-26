@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-26",
+  "scope": "understanding, selection limits, reading logic and phase closure documentation",
+  "snapshot_date": "2026-11-22",
+  "static_checks": [
+    "publication manifest byte sizes and SHA-256",
+    "original guide preserved byte-for-byte",
+    "local asset links, anchors and duplicate IDs",
+    "public snapshot excludes full review bodies, local paths and raw data",
+    "statistics-first phase summary, historical-guide boundary and both catalogs",
+    "explicit site and source allowlists, no extra published files"
+  ],
+  "dom_checks": 9,
+  "runtime_errors": [],
+  "unchanged": [
+    "collector source and configuration",
+    "public report HTML/JSON/Markdown",
+    "original architecture PNG/SVG",
+    "report preview screenshots"
+  ],
+  "guide_sha256": "41b07d0259335c76876e5138268ae71a7fc1f92df80aa5327fb7256c652bca62",
+  "daily_collection": "continues under existing schedule; no automation changes",
+  "publication": "documentation refreshed; data remains fixed snapshot",
+  "user_understanding_speed_measured": false
+}

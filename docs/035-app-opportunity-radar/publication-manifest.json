@@ -41,18 +41,18 @@
     },
     {
       "path": "index.html",
-      "bytes": 14410,
-      "sha256": "fba165e2f9ca57f5c56781c6be7ad661712aeaf9f3459115fcdc7d849921c28c"
+      "bytes": 15175,
+      "sha256": "2a7e1a3a8ae15e0a701d8c7eabc3eb4a7540b9be253b7abff9aa2d29591df538"
     },
     {
       "path": "README.md",
-      "bytes": 12689,
-      "sha256": "bf87d808cd1116fefdc9a5d277a68d4cb260cac26fd14b30afadb9132b32f824"
+      "bytes": 15886,
+      "sha256": "1433d7b5962f0d441f1fa52f30581d0de7364bfde1865d94591f06afc0c00708"
     },
     {
       "path": "PHASE-1.md",
-      "bytes": 2056,
-      "sha256": "93d53530e156d56ce2f5a92e7cf9d62f0fa8d20f57b2a10f3b5b1b43ab29ff87"
+      "bytes": 5379,
+      "sha256": "37d8cdc11477ed29b45f88a329e5c462a415b6626cb4cbf28521e01423ff6b0c"
     },
     {
       "path": "media/app-growth-radar-overview-20261122-research-v2.png",
